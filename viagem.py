@@ -9,6 +9,7 @@ class Viagem:
     tempo_decorrido = datetime.time(0, 0, 0)
     distancia_percorrida = 0.0
     local_actual = ""
+    modo_actual = ""
 
     def set_tempo(self, tempo):
         self.tempo_decorrido = tempo
@@ -18,6 +19,9 @@ class Viagem:
 
     def set_local(self, local):
         self.local_actual = local
+
+    def set_modo(self, modo):
+        self.modo_actual = modo
 
     def add_tempo(self, tempo_extra):
         horas = self.tempo_decorrido.hour
@@ -45,6 +49,9 @@ class Viagem:
 
     def get_local(self):
         return self.local_actual
+
+    def get_modo(self):
+        return self.modo_actual
 
     def get_consumo_combustivel(self):
         return CONSUMO_LITROS_100_KM * (self.distancia_percorrida / 100)

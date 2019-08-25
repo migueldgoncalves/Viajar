@@ -14,7 +14,7 @@ VELOCIDADE_MINIMA = 50
 VELOCIDADE_MAXIMA = 120
 
 #  Outros
-LOCAL_INICIAL = "Guerreiros do Rio"
+LOCAL_INICIAL = locais.GUERREIROS_DO_RIO
 CASAS_DECIMAIS = 2
 
 
@@ -86,6 +86,7 @@ class Viajar:
 
         #  Inicializar viagem
         self.viagem_actual.set_local(LOCAL_INICIAL)
+        self.viagem_actual.set_modo(locais.CARRO)
         print("Bem-vindo/a à viagem")
         print("O seu local de origem será", LOCAL_INICIAL)
 
