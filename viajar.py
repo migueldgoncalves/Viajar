@@ -7,6 +7,9 @@ import datetime
 SEPARADOR = "-"
 SAIR = 0  # Não alterar
 SAIR_STRING = "Sair da viagem"
+CARRO_STRING = "Voltar à estrada"
+BARCO_STRING = "Subir a bordo de um barco"
+AVIAO_STRING = "Subir a bordo de um avião"
 ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
 
 #  Velocidades (km/h)
@@ -38,6 +41,17 @@ class Viajar:
         print("Consumiu", round(self.viagem_actual.get_consumo_combustivel(), CASAS_DECIMAIS), "litros de combustível")
         print("Gastou", round(self.viagem_actual.get_dinheiro_gasto(), CASAS_DECIMAIS), "euros em combustível")
 
+    def mudar_modo(self, opcao, numero_locais_proximos, modos_disponiveis):
+        opcao -= numero_locais_proximos
+        self.viagem_actual.set_modo(modos_disponiveis[opcao - 1])
+        if self.viagem_actual.get_modo() == locais.CARRO:
+            print("\nEstá de volta à estrada")
+        elif self.viagem_actual.get_modo() == locais.BARCO:
+            print("\nEstá a bordo de um barco")
+        elif self.viagem_actual.get_modo() == locais.AVIAO:
+            print("\nEstá a bordo de um avião")
+        print("Tem novos destinos disponíveis")
+
     #  #  #  #  #  #  #  #  #
     #  Métodos auxiliares   #
     #  #  #  #  #  #  #  #  #
@@ -47,7 +61,7 @@ class Viajar:
     def avalia_opcao(opcao, numero_opcoes):
         try:
             opcao = int(opcao)
-            if SAIR <= opcao <= (numero_opcoes + 1):  # Destinos disponíveis + saída + mostrar estatísticas da viagem
+            if SAIR <= opcao <= (numero_opcoes + 1):  # Destinos + modos + saída + mostrar estatísticas da viagem
                 return 1
             else:
                 return 0
@@ -103,10 +117,32 @@ class Viajar:
 
             #  Opções de locais
             iterador = 1
+            locais_circundantes_modo_actual = []
             for x in nomes_locais:
-                print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ",",
-                      locais_circundantes[x][1], "km)")  # Exemplo: 1 - Laranjeiras (N, 1 km)
-                iterador += 1
+                if locais_circundantes[x][2] == self.viagem_actual.get_modo():
+                    locais_circundantes_modo_actual.append(x)
+                    if self.viagem_actual.get_modo() == locais.CARRO:
+                        print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ",",
+                              locais_circundantes[x][1], "km)")  # Exemplo: 1 - Laranjeiras (N, 1 km)
+                    else:  # Exemplo: 1 - Sanlúcar del Guadiana (NE)
+                        print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ")")
+                    iterador += 1
+
+            #  Opções de mudança de modo
+            modos_disponiveis = []
+            for x in nomes_locais:
+                if (locais_circundantes[x][2] != self.viagem_actual.get_modo()) &\
+                        (modos_disponiveis.__contains__(locais_circundantes[x][2]) is False):
+                    modos_disponiveis.append(locais_circundantes[x][2])
+            if len(modos_disponiveis) > 0:
+                for x in modos_disponiveis:
+                    if x == locais.CARRO:
+                        print(iterador, SEPARADOR, CARRO_STRING)
+                    elif x == locais.BARCO:
+                        print(iterador, SEPARADOR, BARCO_STRING)
+                    elif x == locais.AVIAO:
+                        print(iterador, SEPARADOR, AVIAO_STRING)
+                    iterador += 1
 
             #  Opção das estatísticas da viagem - Fim do menu
             print(iterador, SEPARADOR, ESTATISTICAS_VIAGEM)
@@ -116,14 +152,17 @@ class Viajar:
             opcao_e_valida = 0
             while opcao_e_valida == 0:
                 opcao = input("Escreva a opção aqui: ")
-                if self.avalia_opcao(opcao, len(nomes_locais)) == 1:
+                if self.avalia_opcao(opcao, (len(nomes_locais) + len(modos_disponiveis))) == 1:
                     opcao_e_valida = 1
 
             #  Opção correcta - Agir em função da mesma
-            if int(opcao) == 0:
+            if int(opcao) == SAIR:  # 0
                 self.sair()
-            elif int(opcao) == iterador:
+            elif (len(locais_circundantes_modo_actual) < int(opcao) < iterador) & (len(modos_disponiveis) > 0):
+                #  Opções de mudança de modo (ex: Carro para Barco), se estiverem disponíveis
+                self.mudar_modo(int(opcao), len(locais_circundantes_modo_actual), modos_disponiveis)
+            elif int(opcao) == iterador:  # Iterador tem o valor da última opção disponível
                 self.estatisticas_viagem()
-            else:
+            else:  # Opções dos destinos
                 opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
-                self.actualizar_viagem(nomes_locais[opcao])
+                self.actualizar_viagem(locais_circundantes_modo_actual[opcao])

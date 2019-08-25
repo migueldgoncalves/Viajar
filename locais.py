@@ -17,7 +17,7 @@ AVIAO = 3
 
 #  Nomes dos locais
 ALAMO = "Álamo"
-ALCOUTIM_CIMO = "Alcoutim-Cimo"
+ALCOUTIM = "Alcoutim"
 BALURCOS = "Balurcos"
 CORTE_DAS_DONAS = "Corte das Donas"
 FOZ_DE_ODELEITE = "Foz de Odeleite"
@@ -34,12 +34,13 @@ MONTINHO_DAS_LARANJEIRAS = "Montinho das Laranjeiras"
 PALMEIRA = "Palmeira"
 PARQUE_EMPRESARIAL_ALCOUTIM = "Parque Empresarial de Alcoutim"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
+SANLUCAR_DEL_GUADIANA = "Sanlúcar del Guadiana"
 
 #  Distâncias (km)
 ALAMO__ROTUNDA_DA_ARVORE = 0.5
 ALAMO__FOZ_DE_ODELEITE = 3.7
-ALCOUTIM_CIMO__PARQUE_EMPRESARIAL_ALCOUTIM = 5.0
-ALCOUTIM_CIMO__MONTINHO_DAS_LARANJEIRAS = 8.8
+ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM = 5.0
+ALCOUTIM__MONTINHO_DAS_LARANJEIRAS = 8.8
 BALURCOS__CORTE_DAS_DONAS = 6.8
 BALURCOS__IC27_SAIDA_6 = 4.7
 BALURCOS__PARQUE_EMPRESARIAL_ALCOUTIM = 1.5
@@ -58,12 +59,13 @@ class Locais:
         #  Criar os locais
         alamo = local.Local(ALAMO,
                             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO__ROTUNDA_DA_ARVORE, CARRO],
-                             FOZ_DE_ODELEITE: [SUL, ALAMO__FOZ_DE_ODELEITE, CARRO]})
+                             FOZ_DE_ODELEITE: [SUL, ALAMO__FOZ_DE_ODELEITE, BARCO]})
 
-        alcoutim_cimo = local.Local(ALCOUTIM_CIMO,
+        alcoutim = local.Local(ALCOUTIM,
                                     {PARQUE_EMPRESARIAL_ALCOUTIM: [SUDOESTE,
-                                                                   ALCOUTIM_CIMO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
-                                     MONTINHO_DAS_LARANJEIRAS: [SUL, ALCOUTIM_CIMO__MONTINHO_DAS_LARANJEIRAS, CARRO]})
+                                                                   ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+                                     MONTINHO_DAS_LARANJEIRAS: [SUL, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
+                                     SANLUCAR_DEL_GUADIANA: [NORDESTE, 0, AVIAO]})
 
         balurcos = local.Local(BALURCOS,
                                {CORTE_DAS_DONAS: [SUDESTE, BALURCOS__CORTE_DAS_DONAS, CARRO],
@@ -92,15 +94,15 @@ class Locais:
                                    MONTINHO_DAS_LARANJEIRAS: [NOROESTE, LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS, CARRO]})
 
         montinho_das_laranjeiras = local.Local(MONTINHO_DAS_LARANJEIRAS,
-                                               {ALCOUTIM_CIMO: [NORTE, ALCOUTIM_CIMO__MONTINHO_DAS_LARANJEIRAS, CARRO],
+                                               {ALCOUTIM: [NORTE, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
                                                 LARANJEIRAS: [SUDESTE, LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS, CARRO]})
 
         palmeira = local.Local(PALMEIRA,
                                {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
 
         parque_empresarial_alcoutim = local.Local(PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                  {ALCOUTIM_CIMO: [NORDESTE,
-                                                                   ALCOUTIM_CIMO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+                                                  {ALCOUTIM: [NORDESTE,
+                                                              ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
                                                    BALURCOS: [SUL, BALURCOS__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO]})
 
         rotunda_da_arvore = local.Local(ROTUNDA_DA_ARVORE,
@@ -108,9 +110,12 @@ class Locais:
                                          CORTE_DAS_DONAS: [OESTE, CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE, CARRO],
                                          ALAMO: [SUL, ALAMO__ROTUNDA_DA_ARVORE, CARRO]})
 
+        sanlucar_del_guadiana = local.Local(SANLUCAR_DEL_GUADIANA,
+                                            {ALCOUTIM: [SUDOESTE, 0, BARCO]})
+
         #  Adicionar os locais à lista
         self.lista_locais.append(alamo)
-        self.lista_locais.append(alcoutim_cimo)
+        self.lista_locais.append(alcoutim)
         self.lista_locais.append(balurcos)
         self.lista_locais.append(corte_das_donas)
         self.lista_locais.append(foz_de_odeleite)
@@ -121,6 +126,7 @@ class Locais:
         self.lista_locais.append(palmeira)
         self.lista_locais.append(parque_empresarial_alcoutim)
         self.lista_locais.append(rotunda_da_arvore)
+        self.lista_locais.append(sanlucar_del_guadiana)
 
         #  Retornar a lista de locais
         return self.lista_locais
