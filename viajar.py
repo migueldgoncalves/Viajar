@@ -102,6 +102,7 @@ class Viajar:
         self.viagem_actual.set_local(LOCAL_INICIAL)
         self.viagem_actual.set_modo(locais.CARRO)
         print("Bem-vindo/a à viagem")
+        print("Tem", len(self.lista_locais), "locais disponíveis para visitar")
         print("O seu local de origem será", LOCAL_INICIAL)
 
         #  Realizar viagem
