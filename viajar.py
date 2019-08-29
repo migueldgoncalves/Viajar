@@ -9,7 +9,9 @@ SAIR = 0  # Não alterar
 SAIR_STRING = "Sair da viagem"
 CARRO_STRING = "Voltar à estrada"
 BARCO_STRING = "Subir a bordo de um barco"
-AVIAO_STRING = "Subir a bordo de um avião"
+AVIAO_STRING = "Embarcar num avião"
+COMBOIO_STRING = "Entrar a bordo de um comboio"
+METRO_STRING = "Entrar numa composição de metro"
 ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
 
 #  Velocidades (km/h)
@@ -50,6 +52,10 @@ class Viajar:
             print("\nEstá a bordo de um barco")
         elif self.viagem_actual.get_modo() == locais.AVIAO:
             print("\nEstá a bordo de um avião")
+        elif self.viagem_actual.get_modo() == locais.COMBOIO:
+            print("\nEstá a bordo de um comboio")
+        elif self.viagem_actual.get_modo() == locais.METRO:
+            print("\nEstá a bordo de uma composição de metro")
         print("Tem novos destinos disponíveis")
 
     #  #  #  #  #  #  #  #  #
@@ -143,6 +149,10 @@ class Viajar:
                         print(iterador, SEPARADOR, BARCO_STRING)
                     elif x == locais.AVIAO:
                         print(iterador, SEPARADOR, AVIAO_STRING)
+                    elif x == locais.COMBOIO:
+                        print(iterador, SEPARADOR, COMBOIO_STRING)
+                    elif x == locais.METRO:
+                        print(iterador, SEPARADOR, METRO_STRING)
                     iterador += 1
 
             #  Opção das estatísticas da viagem - Fim do menu

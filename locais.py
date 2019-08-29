@@ -14,10 +14,13 @@ NOROESTE = "NO"
 CARRO = 1
 BARCO = 2
 AVIAO = 3
+COMBOIO = 4
+METRO = 5
 
 #  Nomes dos locais
 ALAMO = "Álamo"
 ALAMO_MERTOLA = "Álamo, Mértola"
+ALCARIA = "Alcaria"
 ALCOUTIM = "Alcoutim"
 ALMADA_DE_OURO = "Almada de Ouro"
 AYAMONTE = "Ayamonte"
@@ -33,6 +36,7 @@ COSTA_ESURI = "Costa Esuri"
 EL_GRANADO = "El Granado"
 ENTRONCAMENTO_FIM_IC27 = "Entroncamento a seguir ao IC27"
 ESPIRITO_SANTO = "Espírito Santo"
+FONTE_DO_PENEDO = "Fonte do Penedo"
 FOZ_DE_ODELEITE = "Foz de Odeleite"
 FURNAZINHAS = "Furnazinhas"
 GIOES = "Giões"
@@ -50,6 +54,7 @@ MARTINLONGO = "Martinlongo"
 MERTOLA = "Mértola"
 MONTE_FERNANDES = "Monte Fernandes"
 MONTINHO_DAS_LARANJEIRAS = "Montinho das Laranjeiras"
+ODELEITE = "Odeleite"
 PALMEIRA = "Palmeira"
 PARQUE_EMPRESARIAL_ALCOUTIM = "Parque Empresarial de Alcoutim"
 PENHA_DA_AGUIA = "Penha da Águia"
@@ -73,6 +78,9 @@ ALAMO__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
 ALAMO_MERTOLA__ESPIRITO_SANTO = 5.8
 ALAMO_MERTOLA__MERTOLA = 8.0
+ALCARIA__FOZ_DE_ODELEITE = 3.5
+ALCARIA__ODELEITE = 3.4
+ALCARIA__FONTE_DO_PENEDO = 0.9
 ALCOUTIM__CORTES_PEREIRAS = 6.0
 ALCOUTIM__CORTE_TABELIAO = 5.0
 ALCOUTIM__MONTINHO_DAS_LARANJEIRAS = 8.8
@@ -96,6 +104,7 @@ EL_GRANADO__SANLUCAR_DEL_GUADIANA = 7.8
 ENTRONCAMENTO_FIM_IC27__IC27_FIM = 0.5
 ENTRONCAMENTO_FIM_IC27__SANTA_MARTA = 1.8
 ESPIRITO_SANTO__RIBEIRA_DO_VASCAO = 6.9
+FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
 FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
 GIOES__MARTINLONGO = 9.4
@@ -103,6 +112,9 @@ GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
 GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
 IC27_FIM__IC27_SAIDA_7 = 6.1
+IC27_SAIDA_3__IC27_SAIDA_4 = 2.7
+IC27_SAIDA_4__IC27_SAIDA_5 = 3.3
+IC27_SAIDA_4__ODELEITE = 0.7
 IC27_SAIDA_5__IC27_SAIDA_6 = 5.1
 IC27_SAIDA_5__TENENCIA = 3.3
 IC27_SAIDA_6__IC27_SAIDA_7 = 3.7
@@ -133,6 +145,11 @@ class Locais:
                                     {ESPIRITO_SANTO: [SUDESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                      BOAVISTA: [ESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
                                      MERTOLA: [NORTE, ALAMO_MERTOLA__MERTOLA, CARRO]})
+
+        alcaria = local.Local(ALCARIA,
+                              {FOZ_DE_ODELEITE: [NORDESTE, ALCARIA__FOZ_DE_ODELEITE, CARRO],
+                               ODELEITE: [OESTE, ALCARIA__ODELEITE, CARRO],
+                               FONTE_DO_PENEDO: [SUL, ALCARIA__FONTE_DO_PENEDO, CARRO]})
 
         alcoutim = local.Local(ALCOUTIM,
                                {PARQUE_EMPRESARIAL_ALCOUTIM: [SUDOESTE, ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
@@ -206,8 +223,13 @@ class Locais:
                                       ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                       BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
 
+        fonte_do_penedo = local.Local(FONTE_DO_PENEDO,
+                                      {ALCARIA: [NORTE, ALCARIA__FONTE_DO_PENEDO, CARRO],
+                                       IC27_SAIDA_3: [SUDOESTE, FONTE_DO_PENEDO__IC27_SAIDA_3, CARRO]})
+
         foz_de_odeleite = local.Local(FOZ_DE_ODELEITE,
                                       {BARRANCO_DAS_PEREIRAS: [NORTE, BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE, CARRO],
+                                       ALCARIA: [SUDOESTE, ALCARIA__FOZ_DE_ODELEITE, CARRO],
                                        BAR_DO_RIO: [NORTE, 0, BARCO],
                                        ALMADA_DE_OURO: [SUL, 0, BARCO]})
 
@@ -229,8 +251,18 @@ class Locais:
                                 IC27_SAIDA_7: [SUL, IC27_FIM__IC27_SAIDA_7, CARRO],
                                 ENTRONCAMENTO_FIM_IC27: [NOROESTE, ENTRONCAMENTO_FIM_IC27__IC27_FIM, CARRO]})
 
+        ic27_saida_3 = local.Local(IC27_SAIDA_3,
+                                   {IC27_SAIDA_4: [NORTE, IC27_SAIDA_3__IC27_SAIDA_4, CARRO],
+                                    FONTE_DO_PENEDO: [NORDESTE, FONTE_DO_PENEDO__IC27_SAIDA_3, CARRO]})
+
+        ic27_saida_4 = local.Local(IC27_SAIDA_4,
+                                   {IC27_SAIDA_5: [NOROESTE, IC27_SAIDA_4__IC27_SAIDA_5, CARRO],
+                                    IC27_SAIDA_3: [SUL, IC27_SAIDA_3__IC27_SAIDA_4, CARRO],
+                                    ODELEITE: [ESTE, IC27_SAIDA_4__ODELEITE, CARRO]})
+
         ic27_saida_5 = local.Local(IC27_SAIDA_5,
                                    {IC27_SAIDA_6: [NORTE, IC27_SAIDA_5__IC27_SAIDA_6, CARRO],
+                                    IC27_SAIDA_4: [SUDESTE, IC27_SAIDA_4__IC27_SAIDA_5, CARRO],
                                     TENENCIA: [NORDESTE, IC27_SAIDA_5__TENENCIA, CARRO],
                                     FURNAZINHAS: [SUDESTE, FURNAZINHAS__IC27_SAIDA_5, CARRO]})
 
@@ -270,6 +302,10 @@ class Locais:
         montinho_das_laranjeiras = local.Local(MONTINHO_DAS_LARANJEIRAS,
                                                {ALCOUTIM: [NORTE, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
                                                 LARANJEIRAS: [SUDESTE, LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS, CARRO]})
+
+        odeleite = local.Local(ODELEITE,
+                               {ALCARIA: [ESTE, ALCARIA__ODELEITE, CARRO],
+                                IC27_SAIDA_4: [OESTE, IC27_SAIDA_4__ODELEITE, CARRO]})
 
         palmeira = local.Local(PALMEIRA,
                                {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
@@ -344,6 +380,7 @@ class Locais:
         #  Adicionar os locais à lista
         self.lista_locais.append(alamo)
         self.lista_locais.append(alamo_mertola)
+        self.lista_locais.append(alcaria)
         self.lista_locais.append(alcoutim)
         self.lista_locais.append(almada_de_ouro)
         self.lista_locais.append(ayamonte)
@@ -359,11 +396,14 @@ class Locais:
         self.lista_locais.append(el_granado)
         self.lista_locais.append(entroncamento_fim_ic27)
         self.lista_locais.append(espirito_santo)
+        self.lista_locais.append(fonte_do_penedo)
         self.lista_locais.append(foz_de_odeleite)
         self.lista_locais.append(furnazinhas)
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
         self.lista_locais.append(ic27_fim)
+        self.lista_locais.append(ic27_saida_3)
+        self.lista_locais.append(ic27_saida_4)
         self.lista_locais.append(ic27_saida_5)
         self.lista_locais.append(ic27_saida_6)
         self.lista_locais.append(ic27_saida_7)
@@ -372,6 +412,7 @@ class Locais:
         self.lista_locais.append(mertola)
         self.lista_locais.append(monte_fernandes)
         self.lista_locais.append(montinho_das_laranjeiras)
+        self.lista_locais.append(odeleite)
         self.lista_locais.append(palmeira)
         self.lista_locais.append(parque_empresarial_alcoutim)
         self.lista_locais.append(penha_da_aguia)
