@@ -22,6 +22,7 @@ A_49_SAIDA_125 = "A-49-Saída 125"
 A_49_SAIDA_129 = "A-49-Saída 129"
 A_49_SAIDA_131 = "A-49-Saída 131"
 A22_SAIDA_18 = "A22-Saída 18"
+AEROPORTO_DE_BEJA = "Aeroporto de Beja"
 ALAMO = "Álamo"
 ALAMO_MERTOLA = "Álamo, Mértola"
 ALCARIA = "Alcaria"
@@ -34,12 +35,15 @@ AZINHAL = "Azinhal"
 BALURCO_DE_BAIXO = "Balurco de Baixo"
 BALURCO_DE_CIMA = "Balurco de Cima"
 BAR_DO_RIO = "Bar do Rio"
+BARRA_DO_GUADIANA = "Barra do Guadiana"
 BARRAGEM_DE_ODELEITE = "Barragem de Odeleite"
 BARRAGEM_DO_BELICHE = "Barragem do Beliche"
 BARRANCO_DAS_PEREIRAS = "Barranco das Pereiras"
+BEJA = "Beja"
 BOAVISTA = "Boavista"
 CAMPO_GOLFE_CASTRO_MARIM = "Campo de Golfe de Castro Marim"
 CASA_BRANCA = "Casa Branca"
+CASCATA_PULO_DO_LOBO = "Cascata do Pulo do Lobo"
 CASTRO_MARIM = "Castro Marim"
 CHOCA_QUEIMADA = "Choça Queimada"
 CORTE_DAS_DONAS = "Corte das Donas"
@@ -67,6 +71,7 @@ JUNQUEIRA = "Junqueira"
 LARANJEIRAS = "Laranjeiras"
 MARTINLONGO = "Martinlongo"
 MERTOLA = "Mértola"
+MINAS_SAO_DOMINGOS = "Minas de São Domingos"
 MONTE_FERNANDES = "Monte Fernandes"
 MONTE_FRANCISCO = "Monte Francisco"
 MONTINHO_DAS_LARANJEIRAS = "Montinho das Laranjeiras"
@@ -108,6 +113,7 @@ A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA = 1.3
 A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM = 1.1
 A22_SAIDA_18__CASTRO_MARIM = 1.7
 A22_SAIDA_18__IC27_INICIO = 0.5
+AEROPORTO_DE_BEJA__BEJA = 9.6
 ALAMO__ROTUNDA_DA_ARVORE = 0.5
 ALAMO__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
@@ -133,14 +139,18 @@ BALURCO_DE_BAIXO__IC27_SAIDA_6 = 4.7
 BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM = 1.5
 BALURCO_DE_CIMA__IC27_SAIDA_7 = 1.1
 BAR_DO_RIO__GUERREIROS_DO_RIO = 0.1
+BARRA_DO_GUADIANA__VRSA = 3.6
 BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA = 1.0
 BARRAGEM_DO_BELICHE__JUNQUEIRA = 5.8
 BARRAGEM_DO_BELICHE__SENTINELA = 3.6
 BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE = 2.4
+BEJA__CASCATA_PULO_DO_LOBO = 62.1
+BEJA__MERTOLA = 51.3
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
 CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
 CASA_BRANCA__CHOCA_QUEIMADA = 0.8
+CASCATA_PULO_DO_LOBO__MERTOLA = 28.4
 CASTRO_MARIM__VRSA = 3.5
 CHOCA_QUEIMADA__QUEBRADAS = 2.2
 CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE = 2.1
@@ -184,6 +194,7 @@ IC27_SAIDA_7__PEREIRO = 6.1
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
 MARTINLONGO__VAQUEIROS = 7.7
 MERTOLA__MONTE_FERNANDES = 6.0
+MINAS_SAO_DOMINGOS__MONTE_FERNANDES = 14.3
 MONTE_FERNANDES__PICOITOS = 6.4
 PICOITOS__SALGUEIROS = 2.0
 POMARAO__PONTE_RIO_CHANCA = 0.2
@@ -221,6 +232,9 @@ class Locais:
                                    {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
                                     AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
                                     CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO]})
+
+        aeroporto_de_beja = local.Local(AEROPORTO_DE_BEJA,
+                                        {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO]})
 
         alamo = local.Local(ALAMO,
                             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO__ROTUNDA_DA_ARVORE, CARRO],
@@ -274,6 +288,9 @@ class Locais:
                                   LARANJEIRAS: [NOROESTE, 0, BARCO],
                                   FOZ_DE_ODELEITE: [SUL, 0, BARCO]})
 
+        barra_do_guadiana = local.Local(BARRA_DO_GUADIANA,
+                                        {VRSA: [NOROESTE, BARRA_DO_GUADIANA__VRSA, CARRO]})
+
         barragem_de_odeleite = local.Local(BARRAGEM_DE_ODELEITE,
                                            {CHOCA_QUEIMADA: [SUDESTE, BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA, CARRO]})
 
@@ -295,6 +312,11 @@ class Locais:
                                       {IC27_SAIDA_7: [NOROESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
                                        BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]})
 
+        beja = local.Local(BEJA,
+                           {MERTOLA: [SUDESTE, BEJA__MERTOLA, CARRO],
+                            CASCATA_PULO_DO_LOBO: [SUDESTE, BEJA__CASCATA_PULO_DO_LOBO, CARRO],
+                            AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__BEJA, CARRO]})
+
         boavista = local.Local(BOAVISTA,
                                {ESPIRITO_SANTO: [SUDOESTE, BOAVISTA__ESPIRITO_SANTO, CARRO],
                                 ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
@@ -305,6 +327,10 @@ class Locais:
 
         casa_branca = local.Local(CASA_BRANCA,
                                   {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]})
+
+        cascata_pulo_do_lobo = local.Local(CASCATA_PULO_DO_LOBO,
+                                           {MERTOLA: [SUL, CASCATA_PULO_DO_LOBO__MERTOLA, CARRO],
+                                            BEJA: [NOROESTE, BEJA__CASCATA_PULO_DO_LOBO, CARRO]})
 
         castro_marim = local.Local(CASTRO_MARIM,
                                    {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
@@ -447,11 +473,18 @@ class Locais:
         mertola = local.Local(MERTOLA,
                               {ALAMO_MERTOLA: [SUL, ALAMO_MERTOLA__MERTOLA, CARRO],
                                MONTE_FERNANDES: [SUDESTE, MERTOLA__MONTE_FERNANDES, CARRO],
+                               CASCATA_PULO_DO_LOBO: [NORTE, CASCATA_PULO_DO_LOBO__MERTOLA, CARRO],
+                               BEJA: [NOROESTE, BEJA__MERTOLA, CARRO],
                                PENHA_DA_AGUIA: [SUDESTE, 0, BARCO]})
+
+        minas_sao_domingos = local.Local(MINAS_SAO_DOMINGOS,
+                                         {MONTE_FERNANDES: [SUDOESTE, MINAS_SAO_DOMINGOS__MONTE_FERNANDES, CARRO],
+                                          POMARAO: [SUL, 0, COMBOIO]})
 
         monte_fernandes = local.Local(MONTE_FERNANDES,
                                       {MERTOLA: [NOROESTE, MERTOLA__MONTE_FERNANDES, CARRO],
-                                       PICOITOS: [SUDESTE, MONTE_FERNANDES__PICOITOS, CARRO]})
+                                       PICOITOS: [SUDESTE, MONTE_FERNANDES__PICOITOS, CARRO],
+                                       MINAS_SAO_DOMINGOS: [NORDESTE, MINAS_SAO_DOMINGOS__MONTE_FERNANDES, CARRO]})
 
         monte_francisco = local.Local(MONTE_FRANCISCO,
                                       {IC27_SAIDA_1: [NORTE, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
@@ -494,7 +527,8 @@ class Locais:
                               {PONTE_RIO_CHANCA: [SUDESTE, POMARAO__PONTE_RIO_CHANCA, CARRO],
                                SALGUEIROS: [NORTE, POMARAO__SALGUEIROS, CARRO],
                                PUERTO_DE_LA_LAJA: [SUL, 0, BARCO],
-                               PENHA_DA_AGUIA: [NOROESTE, 0, BARCO]})
+                               PENHA_DA_AGUIA: [NOROESTE, 0, BARCO],
+                               MINAS_SAO_DOMINGOS: [NORTE, 0, COMBOIO]})
 
         ponte_internacional_guadiana = local.Local(PONTE_INTERNACIONAL_GUADIANA,
                                                    {AREA_REPOUSO_CASTRO_MARIM: [OESTE, AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA, CARRO],
@@ -566,6 +600,7 @@ class Locais:
 
         vila_real_de_santo_antonio = local.Local(VRSA,
                                                  {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__VRSA, CARRO],
+                                                  BARRA_DO_GUADIANA: [SUDESTE, BARRA_DO_GUADIANA__VRSA, CARRO],
                                                   AYAMONTE: [NORDESTE, 0, BARCO]})
 
         villablanca = local.Local(VILLABLANCA,
@@ -581,6 +616,7 @@ class Locais:
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
         self.lista_locais.append(a22_saida_18)
+        self.lista_locais.append(aeroporto_de_beja)
         self.lista_locais.append(alamo)
         self.lista_locais.append(alamo_mertola)
         self.lista_locais.append(alcaria)
@@ -593,12 +629,15 @@ class Locais:
         self.lista_locais.append(balurco_de_baixo)
         self.lista_locais.append(balurco_de_cima)
         self.lista_locais.append(bar_do_rio)
+        self.lista_locais.append(barra_do_guadiana)
         self.lista_locais.append(barragem_de_odeleite)
         self.lista_locais.append(barragem_do_beliche)
         self.lista_locais.append(barranco_das_pereiras)
+        self.lista_locais.append(beja)
         self.lista_locais.append(boavista)
         self.lista_locais.append(campo_golfe_castro_marim)
         self.lista_locais.append(casa_branca)
+        self.lista_locais.append(cascata_pulo_do_lobo)
         self.lista_locais.append(castro_marim)
         self.lista_locais.append(choca_queimada)
         self.lista_locais.append(corte_das_donas)
@@ -626,6 +665,7 @@ class Locais:
         self.lista_locais.append(laranjeiras)
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(mertola)
+        self.lista_locais.append(minas_sao_domingos)
         self.lista_locais.append(monte_fernandes)
         self.lista_locais.append(monte_francisco)
         self.lista_locais.append(montinho_das_laranjeiras)
