@@ -39,7 +39,12 @@ class Viajar:
 
     def estatisticas_viagem(self):
         print("\nPercorreu", round(self.viagem_actual.get_distancia(), CASAS_DECIMAIS), "km")
-        print("Está ao volante há", self.viagem_actual.get_tempo())
+        if self.viagem_actual.get_dias() == 0:  # Ex: Está ao volante há 00:43:25
+            print("Está ao volante há", self.viagem_actual.get_tempo())
+        elif self.viagem_actual.get_dias() == 1:  # Ex: Está ao volante há 1 dia e 00:43:25
+            print("Está ao volante há 1 dia e", self.viagem_actual.get_tempo())
+        else:  # Ex: Está ao volante há 3 dias e 00:43:25
+            print("Está ao volante há", self.viagem_actual.get_dias(), "dias e", self.viagem_actual.get_tempo())
         print("Consumiu", round(self.viagem_actual.get_consumo_combustivel(), CASAS_DECIMAIS), "litros de combustível")
         print("Gastou", round(self.viagem_actual.get_dinheiro_gasto(), CASAS_DECIMAIS), "euros em combustível")
 

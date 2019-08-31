@@ -3,16 +3,23 @@ import datetime
 PRECO_LITRO_COMBUSTIVEL = 1.5  # Euros
 CONSUMO_LITROS_100_KM = 6  # litros / 100 km
 
+HORAS_DIA = 24
+MINUTOS_HORA = 60
+SEGUNDOS_MINUTO = 60
 
 class Viagem:
 
     tempo_decorrido = datetime.time(0, 0, 0)
+    dias_decorridos = 0
     distancia_percorrida = 0.0
     local_actual = ""
     modo_actual = ""
 
     def set_tempo(self, tempo):
         self.tempo_decorrido = tempo
+
+    def set_dias(self, dias):
+        self.dias_decorridos = dias
 
     def set_distancia(self, distancia):
         self.distancia_percorrida = distancia
@@ -27,15 +34,20 @@ class Viagem:
         horas = self.tempo_decorrido.hour
         minutos = self.tempo_decorrido.minute
         segundos = self.tempo_decorrido.second
-        horas += tempo_extra.hour
-        minutos += tempo_extra.minute
-        if minutos >= 60:
-            horas += 1
-            minutos -= 60
+
         segundos += tempo_extra.second
-        if segundos >= 60:
+        if segundos >= SEGUNDOS_MINUTO:
             minutos += 1
-            segundos -= 60
+            segundos -= SEGUNDOS_MINUTO
+        minutos += tempo_extra.minute
+        if minutos >= MINUTOS_HORA:
+            horas += 1
+            minutos -= MINUTOS_HORA
+        horas += tempo_extra.hour
+        if horas >= HORAS_DIA:
+            self.dias_decorridos += 1
+            horas -= HORAS_DIA
+
         self.tempo_decorrido = datetime.time(horas, minutos, segundos)
 
     def add_distancia(self, distancia_extra):
@@ -43,6 +55,9 @@ class Viagem:
 
     def get_tempo(self):
         return self.tempo_decorrido
+
+    def get_dias(self):
+        return self.dias_decorridos
 
     def get_distancia(self):
         return self.distancia_percorrida

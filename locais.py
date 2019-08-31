@@ -89,7 +89,7 @@ SALGUEIROS = "Salgueiros"
 SAN_SILVESTRE_DE_GUZMAN = "San Silvestre de Guzmán"
 SANLUCAR_DEL_GUADIANA = "Sanlúcar del Guadiana"
 SANTA_MARTA = "Santa Marta"
-SAPAL = "Sapal"
+SAPAL = "Sapal de Castro Marim e Vila Real de Santo António"
 SENTINELA = "Sentinela"
 TENENCIA = "Tenência"
 VAQUEIROS = "Vaqueiros"
@@ -214,7 +214,13 @@ class Locais:
         a_49_saida_131 = local.Local(A_49_SAIDA_131,
                                      {A_49_SAIDA_129: [ESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
                                       AYAMONTE: [SUL, A_49_SAIDA_131__AYAMONTE, CARRO],
-                                      COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO]})
+                                      COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
+                                      PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]})
+
+        a22_saida_18 = local.Local(A22_SAIDA_18,
+                                   {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
+                                    AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
+                                    CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO]})
 
         alamo = local.Local(ALAMO,
                             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO__ROTUNDA_DA_ARVORE, CARRO],
@@ -247,6 +253,10 @@ class Locais:
         alta_mora = local.Local(ALTA_MORA,
                                 {QUEBRADAS: [ESTE, ALTA_MORA__QUEBRADAS, CARRO],
                                  VAQUEIROS: [NOROESTE, ALTA_MORA__VAQUEIROS, CARRO]})
+
+        area_repouso_castro_marim = local.Local(AREA_REPOUSO_CASTRO_MARIM,
+                                                {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
+                                                 PONTE_INTERNACIONAL_GUADIANA: [ESTE, AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA, CARRO]})
 
         ayamonte = local.Local(AYAMONTE,
                                {A_49_SAIDA_129: [NORDESTE, A_49_SAIDA_129__AYAMONTE, CARRO],
@@ -290,8 +300,15 @@ class Locais:
                                 ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
                                 PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]})
 
+        campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
+                                               {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO]})
+
         casa_branca = local.Local(CASA_BRANCA,
                                   {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]})
+
+        castro_marim = local.Local(CASTRO_MARIM,
+                                   {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
+                                    VRSA: [SUDESTE, CASTRO_MARIM__VRSA, CARRO]})
 
         choca_queimada = local.Local(CHOCA_QUEIMADA,
                                      {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
@@ -360,9 +377,18 @@ class Locais:
                                 IC27_SAIDA_7: [SUL, IC27_FIM__IC27_SAIDA_7, CARRO],
                                 ENTRONCAMENTO_FIM_IC27: [NOROESTE, ENTRONCAMENTO_FIM_IC27__IC27_FIM, CARRO]})
 
+        ic27_inicio = local.Local(IC27_INICIO,
+                                  {IC27_SAIDA_1: [NOROESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
+                                   MONTE_FRANCISCO: [OESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO],
+                                   SAPAL: [ESTE, IC27_INICIO__SAPAL, CARRO],
+                                   A22_SAIDA_18: [SUL, A22_SAIDA_18__IC27_INICIO, CARRO]})
+
         ic27_saida_1 = local.Local(IC27_SAIDA_1,
                                    {IC27_SAIDA_2: [NOROESTE, IC27_SAIDA_1__IC27_SAIDA_2, CARRO],
-                                    JUNQUEIRA: [NOROESTE, IC27_SAIDA_1__JUNQUEIRA, CARRO]})
+                                    IC27_INICIO: [SUDESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
+                                    JUNQUEIRA: [NOROESTE, IC27_SAIDA_1__JUNQUEIRA, CARRO],
+                                    CAMPO_GOLFE_CASTRO_MARIM: [SUDOESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO],
+                                    MONTE_FRANCISCO: [SUL, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO]})
 
         ic27_saida_2 = local.Local(IC27_SAIDA_2,
                                    {IC27_SAIDA_3: [NORTE, IC27_SAIDA_2__IC27_SAIDA_3, CARRO],
@@ -427,6 +453,10 @@ class Locais:
                                       {MERTOLA: [NOROESTE, MERTOLA__MONTE_FERNANDES, CARRO],
                                        PICOITOS: [SUDESTE, MONTE_FERNANDES__PICOITOS, CARRO]})
 
+        monte_francisco = local.Local(MONTE_FRANCISCO,
+                                      {IC27_SAIDA_1: [NORTE, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
+                                       IC27_INICIO: [ESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO]})
+
         montinho_das_laranjeiras = local.Local(MONTINHO_DAS_LARANJEIRAS,
                                                {ALCOUTIM: [NORTE, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
                                                 LARANJEIRAS: [SUDESTE, LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS, CARRO]})
@@ -465,6 +495,10 @@ class Locais:
                                SALGUEIROS: [NORTE, POMARAO__SALGUEIROS, CARRO],
                                PUERTO_DE_LA_LAJA: [SUL, 0, BARCO],
                                PENHA_DA_AGUIA: [NOROESTE, 0, BARCO]})
+
+        ponte_internacional_guadiana = local.Local(PONTE_INTERNACIONAL_GUADIANA,
+                                                   {AREA_REPOUSO_CASTRO_MARIM: [OESTE, AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA, CARRO],
+                                                    A_49_SAIDA_131: [ESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]})
 
         ponte_rio_chanca = local.Local(PONTE_RIO_CHANCA,
                                        {PUERTO_DE_LA_LAJA: [SUDESTE, PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA, CARRO],
@@ -514,6 +548,9 @@ class Locais:
                                   {ENTRONCAMENTO_FIM_IC27: [SUDESTE, ENTRONCAMENTO_FIM_IC27__SANTA_MARTA, CARRO],
                                    RIBEIRA_DO_VASCAO: [NORTE, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO]})
 
+        sapal = local.Local(SAPAL,
+                            {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL, CARRO]})
+
         sentinela = local.Local(SENTINELA,
                                 {IC27_SAIDA_2: [ESTE, IC27_SAIDA_2__SENTINELA, CARRO],
                                  QUEBRADAS: [NOROESTE, QUEBRADAS__SENTINELA, CARRO],
@@ -528,7 +565,8 @@ class Locais:
                                  ALTA_MORA: [SUDESTE, ALTA_MORA__VAQUEIROS, CARRO]})
 
         vila_real_de_santo_antonio = local.Local(VRSA,
-                                                 {AYAMONTE: [NORDESTE, 0, BARCO]})
+                                                 {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__VRSA, CARRO],
+                                                  AYAMONTE: [NORDESTE, 0, BARCO]})
 
         villablanca = local.Local(VILLABLANCA,
                                   {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
@@ -542,12 +580,14 @@ class Locais:
         self.lista_locais.append(a_49_saida_125)
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
+        self.lista_locais.append(a22_saida_18)
         self.lista_locais.append(alamo)
         self.lista_locais.append(alamo_mertola)
         self.lista_locais.append(alcaria)
         self.lista_locais.append(alcoutim)
         self.lista_locais.append(almada_de_ouro)
         self.lista_locais.append(alta_mora)
+        self.lista_locais.append(area_repouso_castro_marim)
         self.lista_locais.append(ayamonte)
         self.lista_locais.append(azinhal)
         self.lista_locais.append(balurco_de_baixo)
@@ -557,7 +597,9 @@ class Locais:
         self.lista_locais.append(barragem_do_beliche)
         self.lista_locais.append(barranco_das_pereiras)
         self.lista_locais.append(boavista)
+        self.lista_locais.append(campo_golfe_castro_marim)
         self.lista_locais.append(casa_branca)
+        self.lista_locais.append(castro_marim)
         self.lista_locais.append(choca_queimada)
         self.lista_locais.append(corte_das_donas)
         self.lista_locais.append(cortes_pereiras)
@@ -572,6 +614,7 @@ class Locais:
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
         self.lista_locais.append(ic27_fim)
+        self.lista_locais.append(ic27_inicio)
         self.lista_locais.append(ic27_saida_1)
         self.lista_locais.append(ic27_saida_2)
         self.lista_locais.append(ic27_saida_3)
@@ -584,6 +627,7 @@ class Locais:
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(mertola)
         self.lista_locais.append(monte_fernandes)
+        self.lista_locais.append(monte_francisco)
         self.lista_locais.append(montinho_das_laranjeiras)
         self.lista_locais.append(odeleite)
         self.lista_locais.append(palmeira)
@@ -593,6 +637,7 @@ class Locais:
         self.lista_locais.append(picarral)
         self.lista_locais.append(picoitos)
         self.lista_locais.append(pomarao)
+        self.lista_locais.append(ponte_internacional_guadiana)
         self.lista_locais.append(ponte_rio_chanca)
         self.lista_locais.append(portela_alta)
         self.lista_locais.append(puerto_de_la_laja)
@@ -603,6 +648,7 @@ class Locais:
         self.lista_locais.append(san_silvestre_de_guzman)
         self.lista_locais.append(sanlucar_del_guadiana)
         self.lista_locais.append(santa_marta)
+        self.lista_locais.append(sapal)
         self.lista_locais.append(sentinela)
         self.lista_locais.append(tenencia)
         self.lista_locais.append(vaqueiros)
