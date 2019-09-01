@@ -18,11 +18,27 @@ COMBOIO = 4
 METRO = 5
 
 #  Nomes dos locais
+A_49_SAIDA_0 = "A-49-Saída 0"
+A_49_SAIDA_1 = "A-49-Saída 1"
+A_49_SAIDA_1B = "A-49-Saída 1B"
+A_49_SAIDA_2 = "A-49-Saída 2"
+A_49_SAIDA_3 = "A-49-Saída 3"
+A_49_SAIDA_5 = "A-49-Saída 5"
+A_49_SAIDA_87 = "A-49-Saída 87"
+A_49_SAIDA_105 = "A-49-Saída 105"
+A_49_SAIDA_117 = "A-49-Saída 117"
+A_49_SAIDA_122 = "A-49-Saída 122"
 A_49_SAIDA_125 = "A-49-Saída 125"
 A_49_SAIDA_129 = "A-49-Saída 129"
 A_49_SAIDA_131 = "A-49-Saída 131"
 A22_SAIDA_18 = "A22-Saída 18"
+A22_SAIDA_17 = "A22-Saída 17"
+A22_SAIDA_16 = "A22-Saída 16"
+A22_SAIDA_15 = "A22-Saída 15"
+A22_SAIDA_14 = "A22-Saída 14"
 AEROPORTO_DE_BEJA = "Aeroporto de Beja"
+AEROPORTO_DE_FARO = "Aeroporto de Faro"
+AEROPORTO_DE_SEVILHA = "Aeroporto de Sevilha"
 ALAMO = "Álamo"
 ALAMO_MERTOLA = "Álamo, Mértola"
 ALCARIA = "Alcaria"
@@ -41,23 +57,33 @@ BARRAGEM_DO_BELICHE = "Barragem do Beliche"
 BARRANCO_DAS_PEREIRAS = "Barranco das Pereiras"
 BEJA = "Beja"
 BOAVISTA = "Boavista"
+CACHOPO = "Cachopo"
 CAMPO_GOLFE_CASTRO_MARIM = "Campo de Golfe de Castro Marim"
+CARTAYA = "Cartaya"
 CASA_BRANCA = "Casa Branca"
 CASCATA_PULO_DO_LOBO = "Cascata do Pulo do Lobo"
 CASTRO_MARIM = "Castro Marim"
 CHOCA_QUEIMADA = "Choça Queimada"
+CONCEICAO = "Conceição"
 CORTE_DAS_DONAS = "Corte das Donas"
 CORTES_PEREIRAS = "Cortes Pereiras"
 CORTE_TABELIAO = "Corte Tabelião"
 COSTA_ESURI = "Costa Esuri"
+DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ENTRONCAMENTO_FIM_IC27 = "Entroncamento a seguir ao IC27"
 ESPIRITO_SANTO = "Espírito Santo"
+FARO_ESTE = "Faro-Este"
+FARO_OESTE = "Faro-Oeste"
 FONTE_DO_PENEDO = "Fonte do Penedo"
 FOZ_DE_ODELEITE = "Foz de Odeleite"
 FURNAZINHAS = "Furnazinhas"
+FUSETA = "Fuseta"
+GIBRALEON = "Gibraleón"
 GIOES = "Giões"
 GUERREIROS_DO_RIO = "Guerreiros do Rio"
+HORTAS = "Hortas"
+HUELVA = "Huelva"
 IC27_FIM = "IC27-Fim"
 IC27_INICIO = "IC27-Início"
 IC27_SAIDA_1 = "IC27-Saída 1"
@@ -67,15 +93,21 @@ IC27_SAIDA_4 = "IC27-Saída 4"
 IC27_SAIDA_5 = "IC27-Saída 5"
 IC27_SAIDA_6 = "IC27-Saída 6"
 IC27_SAIDA_7 = "IC27-Saída 7"
+ISLA_CANELA = "Isla Canela"
+ISLA_CRISTINA = "Isla Cristina"
 JUNQUEIRA = "Junqueira"
 LARANJEIRAS = "Laranjeiras"
+LEPE = "Lepe"
+MANTA_ROTA = "Manta Rota"
 MARTINLONGO = "Martinlongo"
 MERTOLA = "Mértola"
 MINAS_SAO_DOMINGOS = "Minas de São Domingos"
 MONTE_FERNANDES = "Monte Fernandes"
 MONTE_FRANCISCO = "Monte Francisco"
+MONTE_GORDO = "Monte Gordo"
 MONTINHO_DAS_LARANJEIRAS = "Montinho das Laranjeiras"
 ODELEITE = "Odeleite"
+OLHAO = "Olhão"
 PALMEIRA = "Palmeira"
 PARQUE_EMPRESARIAL_ALCOUTIM = "Parque Empresarial de Alcoutim"
 PENHA_DA_AGUIA = "Penha da Águia"
@@ -86,18 +118,29 @@ POMARAO = "Pomarão"
 PONTE_INTERNACIONAL_GUADIANA = "Ponte Internacional do Guadiana"
 PONTE_RIO_CHANCA = "Ponte sobre o Rio Chança"
 PORTELA_ALTA = "Portela Alta"
+PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 QUEBRADAS = "Quebradas"
+RIA_FORMOSA = "Ria Formosa"
 RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
 SALGUEIROS = "Salgueiros"
+SAN_BARTOLOME_DE_LA_TORRE = "San Bartolomé de la Torre"
 SAN_SILVESTRE_DE_GUZMAN = "San Silvestre de Guzmán"
 SANLUCAR_DEL_GUADIANA = "Sanlúcar del Guadiana"
 SANTA_MARTA = "Santa Marta"
+SAO_BRAS_DE_ALPORTEL = "São Brás de Alportel"
 SAPAL = "Sapal de Castro Marim e Vila Real de Santo António"
 SENTINELA = "Sentinela"
+SEVILHA_CENTRO_HISTORICO = "Sevilha-Centro Histórico"
+SEVILHA_ESTE = "Sevilha-Este"
+SEVILHA_ISLA_DE_LA_CARTUJA = "Sevilha-Isla de la Cartuja"
+SEVILHA_SANTA_JUSTA = "Sevilha-Santa Justa"
+TARIQUEJO = "Tariquejo"
+TAVIRA = "Tavira"
 TENENCIA = "Tenência"
 VAQUEIROS = "Vaqueiros"
+VILA_NOVA_DE_CACELA = "Vila Nova de Cacela"
 VILLABLANCA = "Villablanca"
 VILLANUEVA_DE_LOS_CASTILLEJOS = "Villanueva de los Castillejos"
 VRSA = "Vila Real de Santo António"
@@ -110,10 +153,21 @@ A_49_SAIDA_129__AYAMONTE = 8.0
 A_49_SAIDA_131__AYAMONTE = 3.4
 A_49_SAIDA_131__COSTA_ESURI = 2.5
 A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA = 1.3
+A22_SAIDA_14__FARO_OESTE = 9.2
+A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL = 9.8
+A22_SAIDA_14__A22_SAIDA_15 = 11.6
+A22_SAIDA_15__A22_SAIDA_16 = 10.8
+A22_SAIDA_15__FUSETA = 8.4
+A22_SAIDA_15__OLHAO = 10.4
+A22_SAIDA_16__A22_SAIDA_17 = 19.8
+A22_SAIDA_16__TAVIRA = 5.0
+A22_SAIDA_17__A22_SAIDA_18 = 6.0
+A22_SAIDA_17__ALTURA = 2.4
 A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM = 1.1
 A22_SAIDA_18__CASTRO_MARIM = 1.7
 A22_SAIDA_18__IC27_INICIO = 0.5
 AEROPORTO_DE_BEJA__BEJA = 9.6
+AEROPORTO_DE_FARO__FARO_OESTE = 5.6
 ALAMO__ROTUNDA_DA_ARVORE = 0.5
 ALAMO__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
@@ -130,6 +184,8 @@ ALMADA_DE_OURO__IC27_SAIDA_3 = 4.6
 ALMADA_DE_OURO__AZINHAL = 4.3
 ALTA_MORA__QUEBRADAS = 7.0
 ALTA_MORA__VAQUEIROS = 21.1
+ALTURA__MANTA_ROTA = 3.6
+ALTURA__PRAIA_VERDE = 2.1
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
 AZINHAL__IC27_SAIDA_2 = 2.7
 AZINHAL_JUNQUEIRA = 4.4
@@ -148,29 +204,43 @@ BEJA__CASCATA_PULO_DO_LOBO = 62.1
 BEJA__MERTOLA = 51.3
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
+CACHOPO__MARTINLONGO = 16.2
+CACHOPO_SAO_BRAS_ALPORTEL = 36.4
+CACHOPO__VAQUEIROS = 16.7
 CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
 CASA_BRANCA__CHOCA_QUEIMADA = 0.8
 CASCATA_PULO_DO_LOBO__MERTOLA = 28.4
+CASTRO_MARIM__PRAIA_VERDE = 7.6
 CASTRO_MARIM__VRSA = 3.5
 CHOCA_QUEIMADA__QUEBRADAS = 2.2
+CONCEICAO__TAVIRA = 5.6
+CONCEICAO__VILA_NOVA_DE_CACELA = 7.9
 CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE = 2.1
 CORTE_DAS_DONAS__IC27_SAIDA_6 = 6.9
 CORTES_PEREIRAS__ENTRONCAMENTO_FIM_IC27 = 4.8
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
+DUNAS_DE_VRSA__MONTE_GORDO = 1.7
+DUNAS_DE_VRSA__VRSA = 2.0
 EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
 EL_GRANADO__SANLUCAR_DEL_GUADIANA = 7.8
 EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.4
 ENTRONCAMENTO_FIM_IC27__IC27_FIM = 0.5
 ENTRONCAMENTO_FIM_IC27__SANTA_MARTA = 1.8
 ESPIRITO_SANTO__RIBEIRA_DO_VASCAO = 6.9
+FARO_ESTE__FARO_OESTE = 2.3
+FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
 FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
+FUSETA__OLHAO = 10.7
+FUSETA__TAVIRA = 13.9
 GIOES__MARTINLONGO = 9.4
 GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
 GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
+HORTAS__MONTE_GORDO = 1.7
+HORTAS__VRSA = 2.4
 IC27_FIM__IC27_SAIDA_7 = 6.1
 IC27_INICIO__IC27_SAIDA_1 = 1.1
 IC27_INICIO__MONTE_FRANCISCO = 0.5
@@ -192,10 +262,12 @@ IC27_SAIDA_6__PALMEIRA = 0.7
 IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM = 3.0
 IC27_SAIDA_7__PEREIRO = 6.1
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
+MANTA_ROTA__VILA_NOVA_DE_CACELA = 2.3
 MARTINLONGO__VAQUEIROS = 7.7
 MERTOLA__MONTE_FERNANDES = 6.0
 MINAS_SAO_DOMINGOS__MONTE_FERNANDES = 14.3
 MONTE_FERNANDES__PICOITOS = 6.4
+MONTE_GORDO__PRAIA_VERDE = 4.9
 PICOITOS__SALGUEIROS = 2.0
 POMARAO__PONTE_RIO_CHANCA = 0.2
 POMARAO__SALGUEIROS = 4.6
@@ -321,6 +393,10 @@ class Locais:
                                {ESPIRITO_SANTO: [SUDOESTE, BOAVISTA__ESPIRITO_SANTO, CARRO],
                                 ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
                                 PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]})
+
+        cachopo = local.Local(CACHOPO,
+                              {MARTINLONGO: [NORTE, CACHOPO__MARTINLONGO, CARRO],
+                               VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO]})
 
         campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
                                                {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO]})
@@ -468,7 +544,8 @@ class Locais:
 
         martinlongo = local.Local(MARTINLONGO,
                                   {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
-                                   GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO]})
+                                   GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
+                                   CACHOPO: [SUL, CACHOPO__MARTINLONGO, CARRO]})
 
         mertola = local.Local(MERTOLA,
                               {ALAMO_MERTOLA: [SUL, ALAMO_MERTOLA__MERTOLA, CARRO],
@@ -596,7 +673,8 @@ class Locais:
         vaqueiros = local.Local(VAQUEIROS,
                                 {FURNAZINHAS: [SUDESTE, FURNAZINHAS__VAQUEIROS, CARRO],
                                  MARTINLONGO: [NOROESTE, MARTINLONGO__VAQUEIROS, CARRO],
-                                 ALTA_MORA: [SUDESTE, ALTA_MORA__VAQUEIROS, CARRO]})
+                                 ALTA_MORA: [SUDESTE, ALTA_MORA__VAQUEIROS, CARRO],
+                                 CACHOPO: [SUDOESTE, CACHOPO__VAQUEIROS, CARRO]})
 
         vila_real_de_santo_antonio = local.Local(VRSA,
                                                  {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__VRSA, CARRO],
@@ -635,6 +713,7 @@ class Locais:
         self.lista_locais.append(barranco_das_pereiras)
         self.lista_locais.append(beja)
         self.lista_locais.append(boavista)
+        self.lista_locais.append(cachopo)
         self.lista_locais.append(campo_golfe_castro_marim)
         self.lista_locais.append(casa_branca)
         self.lista_locais.append(cascata_pulo_do_lobo)
