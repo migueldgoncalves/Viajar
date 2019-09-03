@@ -114,18 +114,35 @@ class Carro:
         print("A mais baixa é a marcha-atrás. Segue-se o ponto morto. Por fim as", NUMERO_MUDANCAS, "mudanças para a frente")
         print("Boa viagem\n")
 
+    def abrandar_carro(self):
+        if self.velocidade > 0:
+            if self.velocidade >= (DESACELERACAO * ESPERA_POR_COMANDO):
+                self.velocidade -= DESACELERACAO * ESPERA_POR_COMANDO
+            else:
+                self.velocidade = 0
+        elif self.velocidade < 0:
+            if (self.velocidade * -1) >= (DESACELERACAO * ESPERA_POR_COMANDO):
+                self.velocidade += DESACELERACAO * ESPERA_POR_COMANDO
+            else:
+                self.velocidade = 0
+
     #  #  #  #  #  #  #  #
     #  Método principal  #
     #  #  #  #  #  #  #  #
 
     def viajar(self):
         self.instrucoes()
-        inputs_segundo = self.inputs_por_segundo()
+        #  inputs_segundo = self.inputs_por_segundo()
         self.mudar_mudanca(PONTO_MORTO)
         while True:
             temporizador = time.perf_counter()
             while time.perf_counter() < (temporizador + ESPERA_POR_COMANDO):
-                opcao = input("Introduza a opção:")
+                if msvcrt.kbhit():
+                    break
+            while not msvcrt.kbhit():
+                print("aaa")
+            print(msvcrt.getch())
+            exit()
 
 
 #  Comportamentos
