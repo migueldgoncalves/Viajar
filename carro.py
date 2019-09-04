@@ -2,33 +2,39 @@ import msvcrt
 import time
 
 '''
-O carro irá acelerar ao máximo, travar ao máximo ou desacelerar com a fricção, sem situações intermédias
-As 3 situações irão decorrer a um ritmo constante
-Assume-se que o carro acelera de forma constante ao longo de uma dada mudança
+SIMULADOR DE CARRO
+
+O carro irá acelerar ao máximo, travar ao máximo ou desacelerar por si mesmo, sem situações intermédias
+O carro acelera de forma constante ao longo de uma dada mudança
+O carro trava ou abranda a ritmos constantes, independentemente da mudança
 '''
-
-#  Simulacao inicial onde se mede o número de inputs lidos por segundo - Tecla ENTER mantida premida
-TEMPO_SIMULACAO = 5.0  # segundos
-
-#  Mudanças para a frente - Assume-se que existe sempre marcha-atrás
-NUMERO_MUDANCAS = 5  # Máximo: 8
-
-#  Tempo para ir de 0 RPM à redline em cada mudança na aceleração máxima, em segundos
-ACELERACAO_1_MUDANCA = 3
-ACELERACAO_2_MUDANCA = 4
-ACELERACAO_3_MUDANCA = 6
-ACELERACAO_4_MUDANCA = 10
-ACELERACAO_5_MUDANCA = 14
-ACELERACAO_6_MUDANCA = 20
-ACELERACAO_7_MUDANCA = 25
-ACELERACAO_8_MUDANCA = 30
-ACELERACAO_MARCHA_ATRAS = 3
 
 REDLINE = 6500  # RPM - Rotações por minuto
 MAX_ROTACOES = 8000  # Máximo de rotações que a simulação permitirá - Pode ser superior à redline
 VELOCIDADE_MAXIMA = 200  # km/h - quilómetros por hora
-DESACELERACAO = 10  # km/h abrandados num segundo - No caso de não se estar a acelerar nem a travar
-PONTO_MORTO = 0
+DESACELERACAO = 10  # km/h abrandados num segundo, no caso de não se estar a acelerar nem a travar
+TRAVAGEM_POR_SEGUNDO = 40  # km/h travados por segundo
+SEGUNDOS_POR_HORA = 3600
+
+#  Simulacao inicial onde se mede o número de inputs lidos por segundo - Tecla ENTER mantida premida
+TEMPO_SIMULACAO = 3.0  # Segundos
+
+#  Tempo de espera por um comando antes de se considerar que nada foi introduzido, em segundos
+ESPERA_POR_COMANDO = 0.2
+
+#  Mudanças para a frente - Existe sempre marcha-atrás
+NUMERO_MUDANCAS = 5  # Máximo: 8
+
+#  Tempo para ir de 0 RPM à redline em cada mudança na aceleração máxima, em segundos
+ACELERACAO_1_MUDANCA = 2
+ACELERACAO_2_MUDANCA = 6
+ACELERACAO_3_MUDANCA = 12
+ACELERACAO_4_MUDANCA = 25
+ACELERACAO_5_MUDANCA = 40
+ACELERACAO_6_MUDANCA = 50
+ACELERACAO_7_MUDANCA = 70
+ACELERACAO_8_MUDANCA = 90
+ACELERACAO_MARCHA_ATRAS = 2
 
 #  Velocidades em km/h na redline em cada mudança
 VELOCIDADE_REDLINE_1_MUDANCA = VELOCIDADE_MAXIMA / 5
@@ -42,47 +48,129 @@ VELOCIDADE_REDLINE_8_MUDANCA = 8 * (VELOCIDADE_MAXIMA / 5)
 VELOCIDADE_REDLINE_MARCHA_ATRAS = VELOCIDADE_MAXIMA / 5
 
 #  Comandos
-ACELERAR = "w"
-TRAVAR = "s"
-MUDANCA_ACIMA = "d"
-MUDANCA_ABAIXO = "a"
-SAIR = "q"
+ACELERAR = b'w'
+ACELERAR_2 = b'H'  # Seta para cima
+TRAVAR = b's'
+TRAVAR_2 = b'P'  # Seta para baixo
+MUDANCA_ACIMA = b'd'
+MUDANCA_ACIMA_2 = b'M'  # Seta para a direita
+MUDANCA_ABAIXO = b'a'
+MUDANCA_ABAIXO_2 = b'K'  # Seta para a esquerda
+SAIR = b'q'
+ACELERAR_STRING = "Tecla W ou Seta para cima"
+TRAVAR_STRING = "Tecla S ou Seta para baixo"
+MUDANCA_ACIMA_STRING = "Tecla D ou Seta para a direita"
+MUDANCA_ABAIXO_STRING = "Tecla A ou Seta para a esquerda"
+SAIR_STRING = "Tecla Q"
 
-#  Modos de operação
-MODO_ACELERAR = 1
-MODO_NEUTRO = 0
-MODO_TRAVAR = -1
+#  Tipos de desaceleracao
+DESACELERACAO_TRAVAGEM = 1
+DESACELERACAO_ABRANDAMENTO = 2
 
-#  Tempo de espera por um comando - Em segundos - Antes de se considerar que nada foi introduzido
-ESPERA_POR_COMANDO = 0.2
 
 class Carro:
 
     velocidade = 0  # km/h
     rotacoes_por_minuto = 0
-    mudanca = 0  # Mudança 0 == Ponto morto
-    distancia_percorrida = 0  # Metros
-    modo_actual = MODO_NEUTRO
+    mudanca = 0
+    distancia_percorrida = 0  # Quilómetros
 
-    #  Calcula o número de inputs aceites por segundo (botão ENTER mantido premido)
-    def inputs_por_segundo(self):
-        print("Agora vai simular-se uma aceleração")
+    #  #  #  #  #  #  #  #  #  #
+    #  Instruções da simulação  #
+    #  #  #  #  #  #  #  #  #  #
+
+    @staticmethod
+    def instrucoes():
+        print("Bem-vindo/a ao carro")
+        print("Tem os seguintes comandos à sua disposição:")
+        print("")
+        print(SAIR_STRING, "-", "Sair da simulação")
+        print(ACELERAR_STRING, "-", "Acelerar")
+        print(TRAVAR_STRING, "-", "Travar")
+        print(MUDANCA_ACIMA_STRING, "-", "Meter a mudança acima")
+        print(MUDANCA_ABAIXO_STRING, "-", "Meter a mudança abaixo")
+        print("")
+        print("Pressione a tecla correspondente para introduzir o comando")
+        print("Pode dar um toque rápido na tecla ou mantê-la premida o tempo que desejar")
+        print("As mudanças são sequenciais")
+        print("A mais baixa é a marcha-atrás. Segue-se o ponto morto. Por fim as", NUMERO_MUDANCAS,
+              "mudanças para a frente")
+        print("Boa viagem!")
+        print("")
+
+    #  #  #  #  #  #  #  #
+    #  Simulação inicial  #
+    #  #  #  #  #  #  #  #
+
+    #  Calcula o número de inputs aceites por segundo - Tecla ENTER mantida premida
+    @staticmethod
+    def inputs_por_segundo():
+        print("Vai começar-se por se simular uma aceleração")
         input("Mantenha premida a tecla ENTER durante " + str(TEMPO_SIMULACAO) + " segundos: ")
         contador = 0
         time.perf_counter()  # Iniciar contagem do tempo
         while time.perf_counter() < TEMPO_SIMULACAO:
-            print("A velocidade do carro é", contador)
+            print("A velocidade do carro é", contador, "km/h")
             input("Mantenha premida a tecla ENTER:")
             contador += 1
         print("Simulação terminada")
+        print("Obrigado por esperar")
         print("Pode largar a tecla ENTER")
         return float(contador) / TEMPO_SIMULACAO
 
-    def imprimir_estado_carro(self):
-        print("Velocidade actual:", self.velocidade)
+    #  #  #  #  #  #  #  #
+    #  Acções do carro  #
+    #  #  #  #  #  #  #  #
 
     def mudar_mudanca(self, mudanca):
         self.mudanca = mudanca
+        self.actualizar_rpm()
+
+    def acelerar(self, inputs_segundo):
+        if (self.mudanca == -1) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade -= (VELOCIDADE_REDLINE_MARCHA_ATRAS / ACELERACAO_MARCHA_ATRAS / inputs_segundo)
+        if (self.mudanca == 1) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_1_MUDANCA / ACELERACAO_1_MUDANCA / inputs_segundo)
+        if (self.mudanca == 2) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_2_MUDANCA / ACELERACAO_2_MUDANCA / inputs_segundo)
+        if (self.mudanca == 3) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_3_MUDANCA / ACELERACAO_3_MUDANCA / inputs_segundo)
+        if (self.mudanca == 4) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_4_MUDANCA / ACELERACAO_4_MUDANCA / inputs_segundo)
+        if (self.mudanca == 5) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_5_MUDANCA / ACELERACAO_5_MUDANCA / inputs_segundo)
+        if (self.mudanca == 6) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_6_MUDANCA / ACELERACAO_6_MUDANCA / inputs_segundo)
+        if (self.mudanca == 7) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_7_MUDANCA / ACELERACAO_7_MUDANCA / inputs_segundo)
+        if (self.mudanca == 8) & (self.rotacoes_por_minuto < MAX_ROTACOES):
+            self.velocidade += (VELOCIDADE_REDLINE_8_MUDANCA / ACELERACAO_8_MUDANCA / inputs_segundo)
+        self.actualizar_rpm()
+
+    def desacelerar(self, inputs_por_segundo, desaceleracao):
+        perda_velocidade = 0
+        if desaceleracao == DESACELERACAO_TRAVAGEM:  # Carro a travar por acção do utilizador
+            perda_velocidade = TRAVAGEM_POR_SEGUNDO / inputs_por_segundo
+        elif desaceleracao == DESACELERACAO_ABRANDAMENTO:  # Carro a abrandar sozinho
+            perda_velocidade = DESACELERACAO * ESPERA_POR_COMANDO
+
+        if self.velocidade > 0:
+            if self.velocidade >= perda_velocidade:
+                self.velocidade -= perda_velocidade
+            else:
+                self.velocidade = 0
+        elif self.velocidade < 0:
+            if abs(self.velocidade) >= perda_velocidade:
+                self.velocidade += perda_velocidade
+            else:
+                self.velocidade = 0
+        self.actualizar_rpm()
+
+    #  #  #  #  #  #  #  #  #
+    #  Métodos auxiliares  #
+    #  #  #  #  #  #  #  #  #
+
+    def imprimir_mudanca(self):
         if self.mudanca > 0:
             print("Está na", str(self.mudanca) + "ª", "mudança")
         if self.mudanca == 0:
@@ -90,41 +178,40 @@ class Carro:
         if self.mudanca == -1:
             print("Está na marcha-atrás")
 
-    #  Retorna 1 se a opção for aceitável, 0 em caso contrário
-    @staticmethod
-    def avalia_opcao(opcao):
-        if (opcao == ACELERAR) | (opcao == TRAVAR) | (opcao == MUDANCA_ACIMA) | (opcao == MUDANCA_ABAIXO) | (opcao == SAIR):
-            return 1
+    def imprimir_estado_carro(self):
+        print("Velocidade actual:", int(self.velocidade), "km/h")
+        self.imprimir_mudanca()
+        if self.rotacoes_por_minuto <= REDLINE:
+            print(int(self.rotacoes_por_minuto), "RPM")
         else:
-            return 0
+            print(int(self.rotacoes_por_minuto), "RPM - Redline!")
+        print("Percorreu", round(self.distancia_percorrida, 3), "km")
+        print("")
 
-    def instrucoes(self):
-        print("Bem-vindo/a ao carro")
-        print("Tem os seguintes comandos à sua disposição:")
-        print(ACELERAR, "-", "Acelerar")
-        print(TRAVAR, "-", "Travar")
-        print(MUDANCA_ACIMA, "-", "Meter a mudança acima")
-        print(MUDANCA_ABAIXO, "-", "Meter a mudança abaixo")
-        print("Para acelerar ou travar, introduza o comando desejado e mantenha premida a tecla ENTER")
-        print("O carro irá acelerar ou travar enquanto mantiver a tecla ENTER premida")
-        print("Large a tecla ENTER para deixar o carro 'solto' e para poder introduzir outro comando")
-        print("Para mudar a mudança, introduza o comando desejado e pressione ENTER")
-        print("O carro irá mudar a mudança e continuar a acelerar ou travar, consoante o que estava a fazer antes")
-        print("As mudanças são sequenciais")
-        print("A mais baixa é a marcha-atrás. Segue-se o ponto morto. Por fim as", NUMERO_MUDANCAS, "mudanças para a frente")
-        print("Boa viagem\n")
+    def actualizar_rpm(self):
+        if self.mudanca == -1:  # Marcha-atrás
+            self.rotacoes_por_minuto = abs(self.velocidade * REDLINE / VELOCIDADE_REDLINE_MARCHA_ATRAS)
+        if self.mudanca == 0:  # Ponto morto
+            self.rotacoes_por_minuto = 0
+        if self.mudanca == 1:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_1_MUDANCA
+        if self.mudanca == 2:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_2_MUDANCA
+        if self.mudanca == 3:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_3_MUDANCA
+        if self.mudanca == 4:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_4_MUDANCA
+        if self.mudanca == 5:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_5_MUDANCA
+        if self.mudanca == 6:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_6_MUDANCA
+        if self.mudanca == 7:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_7_MUDANCA
+        if self.mudanca == 8:
+            self.rotacoes_por_minuto = self.velocidade * REDLINE / VELOCIDADE_REDLINE_8_MUDANCA
 
-    def abrandar_carro(self):
-        if self.velocidade > 0:
-            if self.velocidade >= (DESACELERACAO * ESPERA_POR_COMANDO):
-                self.velocidade -= DESACELERACAO * ESPERA_POR_COMANDO
-            else:
-                self.velocidade = 0
-        elif self.velocidade < 0:
-            if (self.velocidade * -1) >= (DESACELERACAO * ESPERA_POR_COMANDO):
-                self.velocidade += DESACELERACAO * ESPERA_POR_COMANDO
-            else:
-                self.velocidade = 0
+    def incrementar_distancia(self, tempo_decorrido):
+        self.distancia_percorrida += tempo_decorrido * self.velocidade / SEGUNDOS_POR_HORA
 
     #  #  #  #  #  #  #  #
     #  Método principal  #
@@ -132,26 +219,34 @@ class Carro:
 
     def viajar(self):
         self.instrucoes()
-        #  inputs_segundo = self.inputs_por_segundo()
-        self.mudar_mudanca(PONTO_MORTO)
+        inputs_segundo = self.inputs_por_segundo()
         while True:
-            temporizador = time.perf_counter()
-            while time.perf_counter() < (temporizador + ESPERA_POR_COMANDO):
-                if msvcrt.kbhit():
+            temporizador = time.perf_counter()  # Início e reinício da contagem do tempo
+            while True:
+                if msvcrt.kbhit():  # Tecla a ser premida
                     break
-            while not msvcrt.kbhit():
-                print("aaa")
-            print(msvcrt.getch())
-            exit()
-
-
-#  Comportamentos
-#  Carro a acelerar - Para a frente
-#  Carro a acelerar - Para trás
-#  Carro a travar - Para a frente
-#  Carro a travar - Para trás
-#  Carro 'solto'
-#  Mudança para a frente
-#  Mudança para trás
-#  Ponto morto
-#  Marcha-atrás
+                if time.perf_counter() >= (temporizador + ESPERA_POR_COMANDO):  # Nenhuma tecla foi premida
+                    self.desacelerar(inputs_segundo, DESACELERACAO_ABRANDAMENTO)  # Não se acelerou nem travou
+                    self.imprimir_estado_carro()
+                    self.incrementar_distancia(time.perf_counter() - temporizador)
+                    temporizador = time.perf_counter()  # Reiniciar temporizador
+            caracter = msvcrt.getch()  # Lê a tecla que foi pressionada
+            if caracter == SAIR:
+                print("Escolheu sair do carro")
+                print("Até à próxima!")
+                exit()
+            if (caracter == ACELERAR) | (caracter == ACELERAR_2):
+                self.acelerar(inputs_segundo)
+                self.imprimir_estado_carro()
+            if (caracter == TRAVAR) | (caracter == TRAVAR_2):
+                self.desacelerar(inputs_segundo, DESACELERACAO_TRAVAGEM)
+                self.imprimir_estado_carro()
+            if (caracter == MUDANCA_ACIMA) | (caracter == MUDANCA_ACIMA_2):
+                if self.mudanca < NUMERO_MUDANCAS:  # Se a mudança não é já a mais alta
+                    self.mudar_mudanca(self.mudanca + 1)
+                    self.imprimir_estado_carro()
+            if (caracter == MUDANCA_ABAIXO) | (caracter == MUDANCA_ABAIXO_2):
+                if self.mudanca >= 0:  # Se a mudança não é a marcha-atrás
+                    self.mudar_mudanca(self.mudanca - 1)
+                    self.imprimir_estado_carro()
+            self.incrementar_distancia(time.perf_counter() - temporizador)
