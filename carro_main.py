@@ -1,6 +1,6 @@
 import carro
 
-carro.Carro.viajar(carro.Carro())
+carro.Carro.viajar(carro.Carro(), 0, "")
 
 '''
 README

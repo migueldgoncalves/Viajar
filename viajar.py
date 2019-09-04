@@ -1,5 +1,6 @@
 import viagem
 import locais
+import carro
 import random
 import datetime
 
@@ -13,6 +14,10 @@ AVIAO_STRING = "Embarcar num avião"
 COMBOIO_STRING = "Entrar a bordo de um comboio"
 METRO_STRING = "Entrar numa composição de metro"
 ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
+OPCAO_CARRO = "s"
+OPCAO_CARRO_STRING = "Tecla S"
+OPCAO_NAO_CARRO = "n"
+OPCAO_NAO_CARRO_STRING = "Tecla N"
 
 #  Velocidades (km/h)
 VELOCIDADE_MINIMA = 50
@@ -26,6 +31,7 @@ CASAS_DECIMAIS = 2
 class Viajar:
     lista_locais = []  # Receberá todos os locais disponíveis
     viagem_actual = viagem.Viagem()
+    carro_viagem = carro.Carro()
 
     #  #  #  #  #  #  #  #  #  #  #
     #  Opções adicionais do menu  #
@@ -73,11 +79,11 @@ class Viajar:
         try:
             opcao = int(opcao)
             if SAIR <= opcao <= (numero_opcoes + 1):  # Destinos + modos + saída + mostrar estatísticas da viagem
-                return 1
+                return True
             else:
-                return 0
+                return False
         except ValueError:  # Input não é um número
-            return 0
+            return False
 
     def get_local_actual(self):
         for x in self.lista_locais:
@@ -100,6 +106,23 @@ class Viajar:
         self.viagem_actual.add_distancia(distancia)
         self.viagem_actual.add_tempo(tempo)
         self.viagem_actual.set_local(destino)
+        return distancia
+
+    @staticmethod
+    def usar_carro():
+        print("Pode simular a viagem de carro entre 2 locais, pressionando a", OPCAO_CARRO_STRING)
+        print("Em alternativa, pode saltar directamente para o local seguinte, pressionando a", OPCAO_NAO_CARRO_STRING)
+        print("Depois, pressione ENTER")
+        while True:
+            opcao = input("Introduza a sua opção: ")
+            if opcao == OPCAO_CARRO:
+                print("")
+                print("Escolheu simular a viagem de carro")
+                return True
+            elif opcao == OPCAO_NAO_CARRO:
+                print("")
+                print("Escolheu viajar directamente para o destino")
+                return False
 
     #  #  #  #  #  #  #  #
     #  Método principal  #
@@ -115,6 +138,10 @@ class Viajar:
         print("Bem-vindo/a à viagem")
         print("Tem", len(self.lista_locais), "locais disponíveis para visitar")
         print("O seu local de origem será", LOCAL_INICIAL)
+        print("")
+
+        #  Utilizador escolhe se deseja simular viagem de carro entre locais
+        carro_pedido = self.usar_carro()
 
         #  Realizar viagem
         while True:
@@ -168,7 +195,7 @@ class Viajar:
             opcao_e_valida = 0
             while opcao_e_valida == 0:
                 opcao = input("Escreva a opção aqui: ")
-                if self.avalia_opcao(opcao, (len(nomes_locais) + len(modos_disponiveis))) == 1:
+                if self.avalia_opcao(opcao, (len(nomes_locais) + len(modos_disponiveis))):
                     opcao_e_valida = 1
 
             #  Opção correcta - Agir em função da mesma
@@ -181,4 +208,9 @@ class Viajar:
                 self.estatisticas_viagem()
             else:  # Opções dos destinos
                 opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
-                self.actualizar_viagem(locais_circundantes_modo_actual[opcao])
+                destino = locais_circundantes_modo_actual[opcao]
+                distancia_a_percorrer = self.actualizar_viagem(destino)
+
+                #  Activar simulação se se pediu, e se a viagem é por estrada
+                if carro_pedido & (self.viagem_actual.get_modo() == locais.CARRO):
+                    self.carro_viagem.viajar(distancia_a_percorrer, destino)

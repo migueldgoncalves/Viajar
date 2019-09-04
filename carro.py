@@ -74,6 +74,8 @@ class Carro:
     rotacoes_por_minuto = 0
     mudanca = 0
     distancia_percorrida = 0  # Quilómetros
+    primeira_vez = True  # Se é / será a 1ª vez que a simulação de viagem utiliza o carro
+    inputs_por_segundo = 0
 
     #  #  #  #  #  #  #  #  #  #
     #  Instruções da simulação  #
@@ -81,7 +83,7 @@ class Carro:
 
     @staticmethod
     def instrucoes():
-        print("Bem-vindo/a ao carro")
+        print("\nBem-vindo/a ao carro")
         print("Tem os seguintes comandos à sua disposição:")
         print("")
         print(SAIR_STRING, "-", "Sair da simulação")
@@ -104,7 +106,7 @@ class Carro:
 
     #  Calcula o número de inputs aceites por segundo - Tecla ENTER mantida premida
     @staticmethod
-    def inputs_por_segundo():
+    def calcular_inputs_por_segundo():
         print("Vai começar-se por se simular uma aceleração")
         input("Mantenha premida a tecla ENTER durante " + str(TEMPO_SIMULACAO) + " segundos: ")
         contador = 0
@@ -178,7 +180,8 @@ class Carro:
         if self.mudanca == -1:
             print("Está na marcha-atrás")
 
-    def imprimir_estado_carro(self):
+    def imprimir_estado_carro(self, distancia_a_percorrer, destino):
+        print("")
         print("Velocidade actual:", int(self.velocidade), "km/h")
         self.imprimir_mudanca()
         if self.rotacoes_por_minuto <= REDLINE:
@@ -186,7 +189,8 @@ class Carro:
         else:
             print(int(self.rotacoes_por_minuto), "RPM - Redline!")
         print("Percorreu", round(self.distancia_percorrida, 3), "km")
-        print("")
+        if distancia_a_percorrer > 0:
+            print("Faltam", round((distancia_a_percorrer - self.distancia_percorrida), 3), "km para chegar a", destino)
 
     def actualizar_rpm(self):
         if self.mudanca == -1:  # Marcha-atrás
@@ -213,40 +217,53 @@ class Carro:
     def incrementar_distancia(self, tempo_decorrido):
         self.distancia_percorrida += tempo_decorrido * self.velocidade / SEGUNDOS_POR_HORA
 
+    def reiniciar_carro(self):
+        self.velocidade = 0
+        self.rotacoes_por_minuto = 0
+        self.mudanca = 0
+        self.distancia_percorrida = 0
+
     #  #  #  #  #  #  #  #
     #  Método principal  #
     #  #  #  #  #  #  #  #
 
-    def viajar(self):
-        self.instrucoes()
-        inputs_segundo = self.inputs_por_segundo()
-        while True:
+    def viajar(self, distancia_a_percorrer, destino):
+        if self.primeira_vez:  # Se é a 1ª vez que a simulação de carro está a correr
+            self.instrucoes()
+            self.inputs_por_segundo = self.calcular_inputs_por_segundo()  # Basta calcularem-se 1 vez
+        while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):  # Distancia ser 0 == Viagem infinita
             temporizador = time.perf_counter()  # Início e reinício da contagem do tempo
             while True:
                 if msvcrt.kbhit():  # Tecla a ser premida
                     break
                 if time.perf_counter() >= (temporizador + ESPERA_POR_COMANDO):  # Nenhuma tecla foi premida
-                    self.desacelerar(inputs_segundo, DESACELERACAO_ABRANDAMENTO)  # Não se acelerou nem travou
-                    self.imprimir_estado_carro()
+                    self.desacelerar(self.inputs_por_segundo, DESACELERACAO_ABRANDAMENTO)  # Não se acelerou nem travou
+                    self.imprimir_estado_carro(distancia_a_percorrer, destino)
                     self.incrementar_distancia(time.perf_counter() - temporizador)
                     temporizador = time.perf_counter()  # Reiniciar temporizador
             caracter = msvcrt.getch()  # Lê a tecla que foi pressionada
             if caracter == SAIR:
+                print("")
                 print("Escolheu sair do carro")
                 print("Até à próxima!")
                 exit()
             if (caracter == ACELERAR) | (caracter == ACELERAR_2):
-                self.acelerar(inputs_segundo)
-                self.imprimir_estado_carro()
+                self.acelerar(self.inputs_por_segundo)
+                self.imprimir_estado_carro(distancia_a_percorrer, destino)
             if (caracter == TRAVAR) | (caracter == TRAVAR_2):
-                self.desacelerar(inputs_segundo, DESACELERACAO_TRAVAGEM)
-                self.imprimir_estado_carro()
+                self.desacelerar(self.inputs_por_segundo, DESACELERACAO_TRAVAGEM)
+                self.imprimir_estado_carro(distancia_a_percorrer, destino)
             if (caracter == MUDANCA_ACIMA) | (caracter == MUDANCA_ACIMA_2):
                 if self.mudanca < NUMERO_MUDANCAS:  # Se a mudança não é já a mais alta
                     self.mudar_mudanca(self.mudanca + 1)
-                    self.imprimir_estado_carro()
+                    self.imprimir_estado_carro(distancia_a_percorrer, destino)
             if (caracter == MUDANCA_ABAIXO) | (caracter == MUDANCA_ABAIXO_2):
                 if self.mudanca >= 0:  # Se a mudança não é a marcha-atrás
                     self.mudar_mudanca(self.mudanca - 1)
-                    self.imprimir_estado_carro()
+                    self.imprimir_estado_carro(distancia_a_percorrer, destino)
             self.incrementar_distancia(time.perf_counter() - temporizador)
+        print("")
+        print("Chegou ao seu destino")
+        self.reiniciar_carro()
+        if self.primeira_vez:
+            self.primeira_vez = False
