@@ -7,6 +7,7 @@ HORAS_DIA = 24
 MINUTOS_HORA = 60
 SEGUNDOS_MINUTO = 60
 
+
 class Viagem:
 
     tempo_decorrido = datetime.time(0, 0, 0)

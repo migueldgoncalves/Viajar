@@ -98,13 +98,17 @@ class Viajar:
         segundos = segundos - (minutos * 60)
         return datetime.time(int(horas), int(minutos), int(segundos))
 
-    def actualizar_viagem(self, destino):
+    def incrementar_tempo(self, tempo):
+        tempo = self.conversor_tempo(tempo)
+        self.viagem_actual.add_tempo(tempo)
+
+    def actualizar_viagem(self, destino, carro_pedido):
         print("Escolheu ir para", destino)
         locais_circundantes = self.get_local_actual().get_locais_circundantes()
         distancia = locais_circundantes[destino][1]
-        tempo = self.conversor_tempo(distancia / int(random.uniform(VELOCIDADE_MINIMA, VELOCIDADE_MAXIMA)) * 3600)
+        if not carro_pedido:  # A simulação de carro não está a ser usada
+            self.incrementar_tempo(distancia / int(random.uniform(VELOCIDADE_MINIMA, VELOCIDADE_MAXIMA)) * 3600)
         self.viagem_actual.add_distancia(distancia)
-        self.viagem_actual.add_tempo(tempo)
         self.viagem_actual.set_local(destino)
         return distancia
 
@@ -209,8 +213,9 @@ class Viajar:
             else:  # Opções dos destinos
                 opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
                 destino = locais_circundantes_modo_actual[opcao]
-                distancia_a_percorrer = self.actualizar_viagem(destino)
+                distancia_a_percorrer = self.actualizar_viagem(destino, carro_pedido)
 
                 #  Activar simulação se se pediu, e se a viagem é por estrada
                 if carro_pedido & (self.viagem_actual.get_modo() == locais.CARRO):
-                    self.carro_viagem.viajar(distancia_a_percorrer, destino)
+                    tempo_decorrido = self.carro_viagem.viajar(distancia_a_percorrer, destino)
+                    self.incrementar_tempo(tempo_decorrido)

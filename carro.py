@@ -84,6 +84,8 @@ class Carro:
     @staticmethod
     def instrucoes():
         print("\nBem-vindo/a ao carro")
+        print("")
+        print("** INSTRUÇÔES GERAIS **")
         print("Tem os seguintes comandos à sua disposição:")
         print("")
         print(SAIR_STRING, "-", "Sair da simulação")
@@ -97,6 +99,11 @@ class Carro:
         print("As mudanças são sequenciais")
         print("A mais baixa é a marcha-atrás. Segue-se o ponto morto. Por fim as", NUMERO_MUDANCAS,
               "mudanças para a frente")
+        print("")
+        print("** SÓ PARA A VIAGEM NO BAIXO GUADIANA **")
+        print("Ao chegar a um local, tem de pressionar uma tecla para o carro entrar no mesmo")
+        print("Só assim irá completar esse troço da viagem")
+        print("")
         print("Boa viagem!")
         print("")
 
@@ -228,12 +235,13 @@ class Carro:
     #  #  #  #  #  #  #  #
 
     def viajar(self, distancia_a_percorrer, destino):
+        tempo_decorrido = 0
         if self.primeira_vez:  # Se é a 1ª vez que a simulação de carro está a correr
             self.instrucoes()
             self.inputs_por_segundo = self.calcular_inputs_por_segundo()  # Basta calcularem-se 1 vez
         while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):  # Distancia ser 0 == Viagem infinita
             temporizador = time.perf_counter()  # Início e reinício da contagem do tempo
-            while True:
+            while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):
                 if msvcrt.kbhit():  # Tecla a ser premida
                     break
                 if time.perf_counter() >= (temporizador + ESPERA_POR_COMANDO):  # Nenhuma tecla foi premida
@@ -262,8 +270,10 @@ class Carro:
                     self.mudar_mudanca(self.mudanca - 1)
                     self.imprimir_estado_carro(distancia_a_percorrer, destino)
             self.incrementar_distancia(time.perf_counter() - temporizador)
+            tempo_decorrido += time.perf_counter() - temporizador
         print("")
         print("Chegou ao seu destino")
         self.reiniciar_carro()
         if self.primeira_vez:
             self.primeira_vez = False
+        return tempo_decorrido  # Tempo passado ao volante na simulação
