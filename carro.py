@@ -11,6 +11,7 @@ O carro trava ou abranda a ritmos constantes, independentemente da mudança
 
 REDLINE = 6500  # RPM - Rotações por minuto
 MAX_ROTACOES = 8000  # Máximo de rotações que a simulação permitirá - Pode ser superior à redline
+SUGESTAO_MUDAR_MUDANCA = 1000  # Quão abaixo da redline, em RPM, se sugere que se mude de mudança
 VELOCIDADE_MAXIMA = 200  # km/h - quilómetros por hora
 DESACELERACAO = 10  # km/h abrandados num segundo, no caso de não se estar a acelerar nem a travar
 TRAVAGEM_POR_SEGUNDO = 40  # km/h travados por segundo
@@ -191,8 +192,12 @@ class Carro:
         print("")
         print("Velocidade actual:", int(self.velocidade), "km/h")
         self.imprimir_mudanca()
-        if self.rotacoes_por_minuto <= REDLINE:
+        if (0 < self.mudanca < NUMERO_MUDANCAS) & (self.rotacoes_por_minuto < (REDLINE - SUGESTAO_MUDAR_MUDANCA)):
             print(int(self.rotacoes_por_minuto), "RPM")
+        elif (not(0 < self.mudanca < NUMERO_MUDANCAS)) & (abs(self.rotacoes_por_minuto) < REDLINE):  # Mudança mais alta OU ponto morto OU marcha-atrás
+            print(int(self.rotacoes_por_minuto), "RPM")
+        elif (0 < self.mudanca < NUMERO_MUDANCAS) & ((REDLINE - SUGESTAO_MUDAR_MUDANCA) <= self.rotacoes_por_minuto < REDLINE):
+            print(int(self.rotacoes_por_minuto), "RPM - Mude de mudança")
         else:
             print(int(self.rotacoes_por_minuto), "RPM - Redline!")
         print("Percorreu", round(self.distancia_percorrida, 3), "km")

@@ -45,6 +45,7 @@ ALCARIA = "Alcaria"
 ALCOUTIM = "Alcoutim"
 ALMADA_DE_OURO = "Almada de Ouro"
 ALTA_MORA = "Alta Mora"
+ALTURA = "Altura"
 AREA_REPOUSO_CASTRO_MARIM = "Área de Repouso de Castro Marim"
 AYAMONTE = "Ayamonte"
 AZINHAL = "Azinhal"
@@ -146,6 +147,24 @@ VILLANUEVA_DE_LOS_CASTILLEJOS = "Villanueva de los Castillejos"
 VRSA = "Vila Real de Santo António"
 
 #  Distâncias (km)
+A_49_SAIDA_0__A_49_SAIDA_1 = 0.5
+A_49_SAIDA_0__SEVILHA_ISLA_DE_LA_CARTUJA = 1.3
+A_49_SAIDA_1__A_49_SAIDA_1B = 1.4
+A_49_SAIDA_1B__A_49_SAIDA_2 = 0.6
+A_49_SAIDA_2__A_49_SAIDA_3 = 1.4
+A_49_SAIDA_3__A_49_SAIDA_5 = 2.0
+A_49_SAIDA_5__A_49_SAIDA_87 = 82.0
+A_49_SAIDA_87__A_49_SAIDA_105 = 18.5
+A_49_SAIDA_87__GIBRALEON = 3.4
+A_49_SAIDA_87__HUELVA = 13.2
+A_49_SAIDA_105__A_49_SAIDA_117 = 10.7
+A_49_SAIDA_105__CARTAYA = 6.0
+A_49_SAIDA_105__TARIQUEJO = 7.7
+A_49_SAIDA_117__A_49_SAIDA_122 = 5.3
+A_49_SAIDA_117__LEPE = 6.5
+A_49_SAIDA_117__VILLABLANCA = 9.1
+A_49_SAIDA_122__A_49_SAIDA_125 = 3.1
+A_49_SAIDA_122__ISLA_CRISTINA = 7.9
 A_49_SAIDA_125__VILLABLANCA = 6.1
 A_49_SAIDA_125__A_49_SAIDA_129 = 3.9
 A_49_SAIDA_129__A_49_SAIDA_131 = 2.3
@@ -168,6 +187,7 @@ A22_SAIDA_18__CASTRO_MARIM = 1.7
 A22_SAIDA_18__IC27_INICIO = 0.5
 AEROPORTO_DE_BEJA__BEJA = 9.6
 AEROPORTO_DE_FARO__FARO_OESTE = 5.6
+AEROPORTO_DE_SEVILHA__SEVILHA_ESTE = 4.3
 ALAMO__ROTUNDA_DA_ARVORE = 0.5
 ALAMO__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
@@ -187,6 +207,7 @@ ALTA_MORA__VAQUEIROS = 21.1
 ALTURA__MANTA_ROTA = 3.6
 ALTURA__PRAIA_VERDE = 2.1
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
+AYAMONTE__ISLA_CANELA = 6.9
 AZINHAL__IC27_SAIDA_2 = 2.7
 AZINHAL_JUNQUEIRA = 4.4
 BALURCO_DE_BAIXO__CORTE_DAS_DONAS = 6.8
@@ -208,6 +229,7 @@ CACHOPO__MARTINLONGO = 16.2
 CACHOPO_SAO_BRAS_ALPORTEL = 36.4
 CACHOPO__VAQUEIROS = 16.7
 CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
+CARTAYA__LEPE = 9.3
 CASA_BRANCA__CHOCA_QUEIMADA = 0.8
 CASCATA_PULO_DO_LOBO__MERTOLA = 28.4
 CASTRO_MARIM__PRAIA_VERDE = 7.6
@@ -235,6 +257,7 @@ FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
 FUSETA__OLHAO = 10.7
 FUSETA__TAVIRA = 13.9
+GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
 GIOES__MARTINLONGO = 9.4
 GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
@@ -275,9 +298,14 @@ PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA = 6.0
 PORTELA_ALTA__QUEBRADAS = 1.2
 QUEBRADAS__SENTINELA = 2.5
 RIBEIRA_DO_VASCAO__SANTA_MARTA = 3.6
+SAN_BARTOLOME_DE_LA_TORRE__VILLANUEVA_DE_LOS_CASTILLEJOS = 16.8
+SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO = 10.1
 SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.6
 SAN_SILVESTRE_DE_GUZMAN__SANLUCAR_DEL_GUADIANA = 17.6
 SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA = 9.6
+SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA = 2.0
+SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
+SEVILHA_ESTE__SEVILHA_SANTA_JUSTA = 5.0
 
 
 class Locais:
@@ -300,10 +328,20 @@ class Locais:
                                       COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
                                       PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]})
 
+        a22_saida_16 = local.Local(A22_SAIDA_16,
+                                   {A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+                                    TAVIRA: [SUDESTE, A22_SAIDA_16__TAVIRA, CARRO]})
+
+        a22_saida_17 = local.Local(A22_SAIDA_17,
+                                   {A22_SAIDA_18: [NORDESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
+                                    A22_SAIDA_16: [SUDOESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+                                    ALTURA: [SUL, A22_SAIDA_17__ALTURA, CARRO]})
+
         a22_saida_18 = local.Local(A22_SAIDA_18,
                                    {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
                                     AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
-                                    CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO]})
+                                    CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO],
+                                    A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO]})
 
         aeroporto_de_beja = local.Local(AEROPORTO_DE_BEJA,
                                         {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO]})
@@ -339,6 +377,13 @@ class Locais:
         alta_mora = local.Local(ALTA_MORA,
                                 {QUEBRADAS: [ESTE, ALTA_MORA__QUEBRADAS, CARRO],
                                  VAQUEIROS: [NOROESTE, ALTA_MORA__VAQUEIROS, CARRO]})
+
+        altura = local.Local(ALTURA,
+                             {A22_SAIDA_17: [NORTE, A22_SAIDA_17__ALTURA, CARRO],
+                              PRAIA_VERDE: [SUDESTE, ALTURA__PRAIA_VERDE, CARRO],
+                              MANTA_ROTA: [SUDOESTE, ALTURA__MANTA_ROTA, CARRO],
+                              VRSA: [ESTE, 0, COMBOIO],
+                              VILA_NOVA_DE_CACELA: [OESTE, 0, COMBOIO]})
 
         area_repouso_castro_marim = local.Local(AREA_REPOUSO_CASTRO_MARIM,
                                                 {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
@@ -410,12 +455,17 @@ class Locais:
 
         castro_marim = local.Local(CASTRO_MARIM,
                                    {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
-                                    VRSA: [SUDESTE, CASTRO_MARIM__VRSA, CARRO]})
+                                    VRSA: [SUDESTE, CASTRO_MARIM__VRSA, CARRO],
+                                    PRAIA_VERDE: [SUDOESTE, CASTRO_MARIM__PRAIA_VERDE, CARRO]})
 
         choca_queimada = local.Local(CHOCA_QUEIMADA,
                                      {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
                                       CASA_BRANCA: [SUDESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO],
                                       BARRAGEM_DE_ODELEITE: [NOROESTE, BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA, CARRO]})
+
+        conceicao = local.Local(CONCEICAO,
+                                {VILA_NOVA_DE_CACELA: [NORDESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
+                                 TAVIRA: [SUDOESTE, CONCEICAO__TAVIRA, CARRO]})
 
         corte_das_donas = local.Local(CORTE_DAS_DONAS,
                                       {BALURCO_DE_BAIXO: [NOROESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
@@ -435,6 +485,10 @@ class Locais:
                                   {A_49_SAIDA_131: [SUL, A_49_SAIDA_131__COSTA_ESURI, CARRO],
                                    ALMADA_DE_OURO: [NORTE, 0, BARCO],
                                    AYAMONTE: [SUL, 0, BARCO]})
+
+        dunas_vrsa = local.Local(DUNAS_DE_VRSA,
+                                 {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
+                                  VRSA: [NORDESTE, DUNAS_DE_VRSA__VRSA, CARRO]})
 
         el_granado = local.Local(EL_GRANADO,
                                  {SANLUCAR_DEL_GUADIANA: [SUDOESTE, EL_GRANADO__SANLUCAR_DEL_GUADIANA, CARRO],
@@ -473,6 +527,10 @@ class Locais:
                                         {LARANJEIRAS: [NOROESTE, GUERREIROS_DO_RIO__LARANJEIRAS, CARRO],
                                          ROTUNDA_DA_ARVORE: [SUL, GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE, CARRO],
                                          BAR_DO_RIO: [ESTE, BAR_DO_RIO__GUERREIROS_DO_RIO, CARRO]})
+
+        hortas = local.Local(HORTAS,
+                             {MONTE_GORDO: [SUDOESTE, HORTAS__MONTE_GORDO, CARRO],
+                              VRSA: [ESTE, HORTAS__VRSA, CARRO]})
 
         ic27_fim = local.Local(IC27_FIM,
                                {CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO],
@@ -542,6 +600,10 @@ class Locais:
                                    ALCOUTIM: [NORTE, 0, BARCO],
                                    BAR_DO_RIO: [SUDESTE, 0, BARCO]})
 
+        manta_rota = local.Local(MANTA_ROTA,
+                                 {ALTURA: [NORDESTE, ALTURA__MANTA_ROTA, CARRO],
+                                  VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
+
         martinlongo = local.Local(MARTINLONGO,
                                   {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
                                    GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
@@ -566,6 +628,11 @@ class Locais:
         monte_francisco = local.Local(MONTE_FRANCISCO,
                                       {IC27_SAIDA_1: [NORTE, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
                                        IC27_INICIO: [ESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO]})
+
+        monte_gordo = local.Local(MONTE_GORDO,
+                                  {PRAIA_VERDE: [OESTE, MONTE_GORDO__PRAIA_VERDE, CARRO],
+                                   HORTAS: [NORDESTE, HORTAS__MONTE_GORDO, CARRO],
+                                   DUNAS_DE_VRSA: [ESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO]})
 
         montinho_das_laranjeiras = local.Local(MONTINHO_DAS_LARANJEIRAS,
                                                {ALCOUTIM: [NORTE, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
@@ -619,6 +686,11 @@ class Locais:
                                    {IC27_SAIDA_3: [NORDESTE, IC27_SAIDA_3__PORTELA_ALTA, CARRO],
                                     QUEBRADAS: [OESTE, PORTELA_ALTA__QUEBRADAS, CARRO]})
 
+        praia_verde = local.Local(PRAIA_VERDE,
+                                  {MONTE_GORDO: [ESTE, MONTE_GORDO__PRAIA_VERDE, CARRO],
+                                   CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__PRAIA_VERDE, CARRO],
+                                   ALTURA: [NOROESTE, ALTURA__PRAIA_VERDE, CARRO]})
+
         puerto_de_la_laja = local.Local(PUERTO_DE_LA_LAJA,
                                         {EL_GRANADO: [ESTE, EL_GRANADO__PUERTO_DE_LA_LAJA, CARRO],
                                          PONTE_RIO_CHANCA: [NOROESTE, PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA, CARRO],
@@ -667,6 +739,11 @@ class Locais:
                                  QUEBRADAS: [NOROESTE, QUEBRADAS__SENTINELA, CARRO],
                                  BARRAGEM_DO_BELICHE: [SUL, BARRAGEM_DO_BELICHE__SENTINELA, CARRO]})
 
+        tavira = local.Local(TAVIRA,
+                             {A22_SAIDA_16: [NOROESTE, A22_SAIDA_16__TAVIRA, CARRO],
+                              CONCEICAO: [NORDESTE, CONCEICAO__TAVIRA, CARRO],
+                              VILA_NOVA_DE_CACELA: [NORDESTE, 0, COMBOIO]})
+
         tenencia = local.Local(TENENCIA,
                                {IC27_SAIDA_5: [SUDOESTE, IC27_SAIDA_5__TENENCIA, CARRO]})
 
@@ -676,10 +753,19 @@ class Locais:
                                  ALTA_MORA: [SUDESTE, ALTA_MORA__VAQUEIROS, CARRO],
                                  CACHOPO: [SUDOESTE, CACHOPO__VAQUEIROS, CARRO]})
 
+        vila_nova_de_cacela = local.Local(VILA_NOVA_DE_CACELA,
+                                          {MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
+                                           CONCEICAO: [SUDOESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
+                                           ALTURA: [ESTE, 0, COMBOIO],
+                                           TAVIRA: [SUDOESTE, 0, COMBOIO]})
+
         vila_real_de_santo_antonio = local.Local(VRSA,
                                                  {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__VRSA, CARRO],
                                                   BARRA_DO_GUADIANA: [SUDESTE, BARRA_DO_GUADIANA__VRSA, CARRO],
-                                                  AYAMONTE: [NORDESTE, 0, BARCO]})
+                                                  HORTAS: [OESTE, HORTAS__VRSA, CARRO],
+                                                  DUNAS_DE_VRSA: [SUDOESTE, DUNAS_DE_VRSA__VRSA, CARRO],
+                                                  AYAMONTE: [NORDESTE, 0, BARCO],
+                                                  ALTURA: [OESTE, 0, COMBOIO]})
 
         villablanca = local.Local(VILLABLANCA,
                                   {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
@@ -693,6 +779,8 @@ class Locais:
         self.lista_locais.append(a_49_saida_125)
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
+        self.lista_locais.append(a22_saida_16)
+        self.lista_locais.append(a22_saida_17)
         self.lista_locais.append(a22_saida_18)
         self.lista_locais.append(aeroporto_de_beja)
         self.lista_locais.append(alamo)
@@ -701,6 +789,7 @@ class Locais:
         self.lista_locais.append(alcoutim)
         self.lista_locais.append(almada_de_ouro)
         self.lista_locais.append(alta_mora)
+        self.lista_locais.append(altura)
         self.lista_locais.append(area_repouso_castro_marim)
         self.lista_locais.append(ayamonte)
         self.lista_locais.append(azinhal)
@@ -719,10 +808,12 @@ class Locais:
         self.lista_locais.append(cascata_pulo_do_lobo)
         self.lista_locais.append(castro_marim)
         self.lista_locais.append(choca_queimada)
+        self.lista_locais.append(conceicao)
         self.lista_locais.append(corte_das_donas)
         self.lista_locais.append(cortes_pereiras)
         self.lista_locais.append(corte_tabeliao)
         self.lista_locais.append(costa_esuri)
+        self.lista_locais.append(dunas_vrsa)
         self.lista_locais.append(el_granado)
         self.lista_locais.append(entroncamento_fim_ic27)
         self.lista_locais.append(espirito_santo)
@@ -731,6 +822,7 @@ class Locais:
         self.lista_locais.append(furnazinhas)
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
+        self.lista_locais.append(hortas)
         self.lista_locais.append(ic27_fim)
         self.lista_locais.append(ic27_inicio)
         self.lista_locais.append(ic27_saida_1)
@@ -742,11 +834,13 @@ class Locais:
         self.lista_locais.append(ic27_saida_7)
         self.lista_locais.append(junqueira)
         self.lista_locais.append(laranjeiras)
+        self.lista_locais.append(manta_rota)
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(mertola)
         self.lista_locais.append(minas_sao_domingos)
         self.lista_locais.append(monte_fernandes)
         self.lista_locais.append(monte_francisco)
+        self.lista_locais.append(monte_gordo)
         self.lista_locais.append(montinho_das_laranjeiras)
         self.lista_locais.append(odeleite)
         self.lista_locais.append(palmeira)
@@ -759,6 +853,7 @@ class Locais:
         self.lista_locais.append(ponte_internacional_guadiana)
         self.lista_locais.append(ponte_rio_chanca)
         self.lista_locais.append(portela_alta)
+        self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
         self.lista_locais.append(quebradas)
         self.lista_locais.append(ribeira_do_vascao)
@@ -769,8 +864,10 @@ class Locais:
         self.lista_locais.append(santa_marta)
         self.lista_locais.append(sapal)
         self.lista_locais.append(sentinela)
+        self.lista_locais.append(tavira)
         self.lista_locais.append(tenencia)
         self.lista_locais.append(vaqueiros)
+        self.lista_locais.append(vila_nova_de_cacela)
         self.lista_locais.append(vila_real_de_santo_antonio)
         self.lista_locais.append(villablanca)
         self.lista_locais.append(villanueva_de_los_castillejos)
