@@ -122,7 +122,8 @@ PORTELA_ALTA = "Portela Alta"
 PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 QUEBRADAS = "Quebradas"
-RIA_FORMOSA = "Ria Formosa"
+RIA_FORMOSA_NORTE = "Ria Formosa - Norte"
+RIA_FORMOSA_SUL = "Ria Formosa - Sul"
 RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
 SALGUEIROS = "Salgueiros"
@@ -226,7 +227,7 @@ BEJA__MERTOLA = 51.3
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
 CACHOPO__MARTINLONGO = 16.2
-CACHOPO_SAO_BRAS_ALPORTEL = 36.4
+CACHOPO__SAO_BRAS_ALPORTEL = 36.4
 CACHOPO__VAQUEIROS = 16.7
 CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
 CARTAYA__LEPE = 9.3
@@ -328,8 +329,20 @@ class Locais:
                                       COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
                                       PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]})
 
+        a22_saida_14 = local.Local(A22_SAIDA_14,
+                                   {A22_SAIDA_15: [ESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
+                                    SAO_BRAS_DE_ALPORTEL: [NORTE, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
+                                    FARO_OESTE: [SUL, A22_SAIDA_14__FARO_OESTE, CARRO]})
+
+        a22_saida_15 = local.Local(A22_SAIDA_15,
+                                   {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
+                                    A22_SAIDA_16: [NORDESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
+                                    FUSETA: [SUDESTE, A22_SAIDA_15__FUSETA, CARRO],
+                                    OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO]})
+
         a22_saida_16 = local.Local(A22_SAIDA_16,
                                    {A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+                                    A22_SAIDA_15: [SUDOESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
                                     TAVIRA: [SUDESTE, A22_SAIDA_16__TAVIRA, CARRO]})
 
         a22_saida_17 = local.Local(A22_SAIDA_17,
@@ -344,7 +357,12 @@ class Locais:
                                     A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO]})
 
         aeroporto_de_beja = local.Local(AEROPORTO_DE_BEJA,
-                                        {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO]})
+                                        {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
+                                         AEROPORTO_DE_FARO: [SUL, 0, AVIAO]})
+
+        aeroporto_de_faro = local.Local(AEROPORTO_DE_FARO,
+                                        {FARO_OESTE: [ESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
+                                         AEROPORTO_DE_BEJA: [NORTE, 0, AVIAO]})
 
         alamo = local.Local(ALAMO,
                             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO__ROTUNDA_DA_ARVORE, CARRO],
@@ -441,7 +459,8 @@ class Locais:
 
         cachopo = local.Local(CACHOPO,
                               {MARTINLONGO: [NORTE, CACHOPO__MARTINLONGO, CARRO],
-                               VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO]})
+                               VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO],
+                               SAO_BRAS_DE_ALPORTEL: [SUL, CACHOPO__SAO_BRAS_ALPORTEL, CARRO]})
 
         campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
                                                {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO]})
@@ -505,6 +524,17 @@ class Locais:
                                       ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                       BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
 
+        faro_este = local.Local(FARO_ESTE,
+                                {OLHAO: [ESTE, FARO_ESTE__OLHAO, CARRO],
+                                 FARO_OESTE: [OESTE, FARO_ESTE__FARO_OESTE, CARRO],
+                                 RIA_FORMOSA_SUL: [SUDESTE, 0, BARCO]})
+
+        faro_oeste = local.Local(FARO_OESTE,
+                                 {A22_SAIDA_14: [NORTE, A22_SAIDA_14__FARO_OESTE, CARRO],
+                                  FARO_ESTE: [ESTE, FARO_ESTE__FARO_OESTE, CARRO],
+                                  AEROPORTO_DE_FARO: [OESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
+                                  OLHAO: [ESTE, 0, COMBOIO]})
+
         fonte_do_penedo = local.Local(FONTE_DO_PENEDO,
                                       {ALCARIA: [NORTE, ALCARIA__FONTE_DO_PENEDO, CARRO],
                                        IC27_SAIDA_3: [SUDOESTE, FONTE_DO_PENEDO__IC27_SAIDA_3, CARRO]})
@@ -516,8 +546,13 @@ class Locais:
                                        ALMADA_DE_OURO: [SUL, 0, BARCO]})
 
         furnazinhas = local.Local(FURNAZINHAS,
-                                  {IC27_SAIDA_5: [NOROESTE, FURNAZINHAS__IC27_SAIDA_5, CARRO],
+                                  {IC27_SAIDA_5: [ESTE, FURNAZINHAS__IC27_SAIDA_5, CARRO],
                                    VAQUEIROS: [NOROESTE, FURNAZINHAS__VAQUEIROS, CARRO]})
+
+        fuseta = local.Local(FUSETA,
+                             {TAVIRA: [NORDESTE, FUSETA__TAVIRA, CARRO],
+                              OLHAO: [SUDOESTE, FUSETA__OLHAO, CARRO],
+                              A22_SAIDA_15: [NOROESTE, A22_SAIDA_15__FUSETA, CARRO]})
 
         gioes = local.Local(GIOES,
                             {MARTINLONGO: [SUDOESTE, GIOES__MARTINLONGO, CARRO],
@@ -573,7 +608,7 @@ class Locais:
                                    {IC27_SAIDA_6: [NORTE, IC27_SAIDA_5__IC27_SAIDA_6, CARRO],
                                     IC27_SAIDA_4: [SUDESTE, IC27_SAIDA_4__IC27_SAIDA_5, CARRO],
                                     TENENCIA: [NORDESTE, IC27_SAIDA_5__TENENCIA, CARRO],
-                                    FURNAZINHAS: [SUDESTE, FURNAZINHAS__IC27_SAIDA_5, CARRO]})
+                                    FURNAZINHAS: [OESTE, FURNAZINHAS__IC27_SAIDA_5, CARRO]})
 
         ic27_saida_6 = local.Local(IC27_SAIDA_6,
                                    {CORTE_DAS_DONAS: [SUDESTE, CORTE_DAS_DONAS__IC27_SAIDA_6, CARRO],
@@ -642,6 +677,15 @@ class Locais:
                                {ALCARIA: [ESTE, ALCARIA__ODELEITE, CARRO],
                                 IC27_SAIDA_4: [OESTE, IC27_SAIDA_4__ODELEITE, CARRO]})
 
+        olhao = local.Local(OLHAO,
+                            {FUSETA: [NORDESTE, FUSETA__OLHAO, CARRO],
+                             A22_SAIDA_15: [NORTE, A22_SAIDA_15__OLHAO, CARRO],
+                             FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO],
+                             TAVIRA: [NORDESTE, 0, COMBOIO],
+                             FARO_OESTE: [OESTE, 0, COMBOIO],
+                             RIA_FORMOSA_NORTE: [NORDESTE, 0, BARCO],
+                             RIA_FORMOSA_SUL: [SUDOESTE, 0, BARCO]})
+
         palmeira = local.Local(PALMEIRA,
                                {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
 
@@ -703,6 +747,14 @@ class Locais:
                                  CHOCA_QUEIMADA: [NORTE, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
                                  ALTA_MORA: [OESTE, ALTA_MORA__QUEBRADAS, CARRO]})
 
+        ria_formosa_norte = local.Local(RIA_FORMOSA_NORTE,
+                                        {TAVIRA: [NORDESTE, 0, BARCO],
+                                         OLHAO: [SUDOESTE, 0, BARCO]})
+
+        ria_formosa_sul = local.Local(RIA_FORMOSA_SUL,
+                                      {OLHAO: [NORDESTE, 0, BARCO],
+                                       FARO_ESTE: [NOROESTE, 0, BARCO]})
+
         ribeira_do_vascao = local.Local(RIBEIRA_DO_VASCAO,
                                         {SANTA_MARTA: [SUL, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO],
                                          ESPIRITO_SANTO: [NOROESTE, ESPIRITO_SANTO__RIBEIRA_DO_VASCAO, CARRO]})
@@ -731,6 +783,10 @@ class Locais:
                                   {ENTRONCAMENTO_FIM_IC27: [SUDESTE, ENTRONCAMENTO_FIM_IC27__SANTA_MARTA, CARRO],
                                    RIBEIRA_DO_VASCAO: [NORTE, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO]})
 
+        sao_bras_de_alportel = local.Local(SAO_BRAS_DE_ALPORTEL,
+                                           {A22_SAIDA_14: [SUL, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
+                                            CACHOPO: [NORTE, CACHOPO__SAO_BRAS_ALPORTEL, CARRO]})
+
         sapal = local.Local(SAPAL,
                             {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL, CARRO]})
 
@@ -742,7 +798,10 @@ class Locais:
         tavira = local.Local(TAVIRA,
                              {A22_SAIDA_16: [NOROESTE, A22_SAIDA_16__TAVIRA, CARRO],
                               CONCEICAO: [NORDESTE, CONCEICAO__TAVIRA, CARRO],
-                              VILA_NOVA_DE_CACELA: [NORDESTE, 0, COMBOIO]})
+                              FUSETA: [SUDOESTE, FUSETA__TAVIRA, CARRO],
+                              VILA_NOVA_DE_CACELA: [NORDESTE, 0, COMBOIO],
+                              OLHAO: [SUDOESTE, 0, COMBOIO],
+                              RIA_FORMOSA_NORTE: [SUDOESTE, 0, BARCO]})
 
         tenencia = local.Local(TENENCIA,
                                {IC27_SAIDA_5: [SUDOESTE, IC27_SAIDA_5__TENENCIA, CARRO]})
@@ -779,10 +838,13 @@ class Locais:
         self.lista_locais.append(a_49_saida_125)
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
+        self.lista_locais.append(a22_saida_14)
+        self.lista_locais.append(a22_saida_15)
         self.lista_locais.append(a22_saida_16)
         self.lista_locais.append(a22_saida_17)
         self.lista_locais.append(a22_saida_18)
         self.lista_locais.append(aeroporto_de_beja)
+        self.lista_locais.append(aeroporto_de_faro)
         self.lista_locais.append(alamo)
         self.lista_locais.append(alamo_mertola)
         self.lista_locais.append(alcaria)
@@ -817,9 +879,12 @@ class Locais:
         self.lista_locais.append(el_granado)
         self.lista_locais.append(entroncamento_fim_ic27)
         self.lista_locais.append(espirito_santo)
+        self.lista_locais.append(faro_este)
+        self.lista_locais.append(faro_oeste)
         self.lista_locais.append(fonte_do_penedo)
         self.lista_locais.append(foz_de_odeleite)
         self.lista_locais.append(furnazinhas)
+        self.lista_locais.append(fuseta)
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
         self.lista_locais.append(hortas)
@@ -843,6 +908,7 @@ class Locais:
         self.lista_locais.append(monte_gordo)
         self.lista_locais.append(montinho_das_laranjeiras)
         self.lista_locais.append(odeleite)
+        self.lista_locais.append(olhao)
         self.lista_locais.append(palmeira)
         self.lista_locais.append(parque_empresarial_alcoutim)
         self.lista_locais.append(penha_da_aguia)
@@ -856,12 +922,15 @@ class Locais:
         self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
         self.lista_locais.append(quebradas)
+        self.lista_locais.append(ria_formosa_norte)
+        self.lista_locais.append(ria_formosa_sul)
         self.lista_locais.append(ribeira_do_vascao)
         self.lista_locais.append(rotunda_da_arvore)
         self.lista_locais.append(salgueiros)
         self.lista_locais.append(san_silvestre_de_guzman)
         self.lista_locais.append(sanlucar_del_guadiana)
         self.lista_locais.append(santa_marta)
+        self.lista_locais.append(sao_bras_de_alportel)
         self.lista_locais.append(sapal)
         self.lista_locais.append(sentinela)
         self.lista_locais.append(tavira)

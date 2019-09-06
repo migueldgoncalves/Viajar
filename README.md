@@ -30,7 +30,7 @@ Corresponde sempre a estradas reais, e é o único modo de transporte para o qua
 Os restantes modos de transporte servem de atalhos entre locais, em maior ou menor medida, e podem ou não corresponder a rotas existentes:
 
 - Barco - Permite percorrer o Rio Guadiana entre Mértola e Vila Real de Santo António, assim como aceder à Ria Formosa;
-- Comboio - Disponível entre Faro e Vila Real de Santo António, na zona do Pomarão e entre Huelva e Sevilha;
+- Comboio - Disponível entre Faro e Vila Real de Santo António, na zona do Pomarão e entre Ayamonte e Sevilha;
 - Avião - Permite viajar de forma instantânea entre os extremos do mapa, que são as cidades de Faro, Beja e Sevilha
 - Metro - Disponível dentro de Sevilha, permite atravessar a cidade passando por menos locais
 
