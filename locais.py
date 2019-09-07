@@ -314,9 +314,57 @@ class Locais:
 
     def preencher_lista_locais(self):
         #  Criar os locais
+        a_49_saida_0 = local.Local(A_49_SAIDA_0,
+                                   {A_49_SAIDA_1: [OESTE, A_49_SAIDA_0__A_49_SAIDA_1, CARRO],
+                                    SEVILHA_ISLA_DE_LA_CARTUJA: [ESTE, A_49_SAIDA_0__SEVILHA_ISLA_DE_LA_CARTUJA, CARRO]})
+
+        a_49_saida_1 = local.Local(A_49_SAIDA_1,
+                                   {A_49_SAIDA_1B: [SUL, A_49_SAIDA_1__A_49_SAIDA_1B, CARRO],
+                                    A_49_SAIDA_0: [ESTE, A_49_SAIDA_0__A_49_SAIDA_1, CARRO]})
+
+        a_49_saida_1b = local.Local(A_49_SAIDA_1B,
+                                    {A_49_SAIDA_2: [OESTE, A_49_SAIDA_1B__A_49_SAIDA_2, CARRO],
+                                     A_49_SAIDA_1: [NORTE, A_49_SAIDA_1__A_49_SAIDA_1B, CARRO]})
+
+        a_49_saida_2 = local.Local(A_49_SAIDA_2,
+                                   {A_49_SAIDA_3: [OESTE, A_49_SAIDA_2__A_49_SAIDA_3, CARRO],
+                                    A_49_SAIDA_1B: [ESTE, A_49_SAIDA_1B__A_49_SAIDA_2, CARRO]})
+
+        a_49_saida_3 = local.Local(A_49_SAIDA_3,
+                                   {A_49_SAIDA_5: [SUDOESTE, A_49_SAIDA_3__A_49_SAIDA_5, CARRO],
+                                    A_49_SAIDA_2: [ESTE, A_49_SAIDA_2__A_49_SAIDA_3, CARRO]})
+
+        a_49_saida_5 = local.Local(A_49_SAIDA_5,
+                                   {A_49_SAIDA_87: [OESTE, A_49_SAIDA_5__A_49_SAIDA_87, CARRO],
+                                    A_49_SAIDA_3: [NORDESTE, A_49_SAIDA_3__A_49_SAIDA_5, CARRO]})
+
+        a_49_saida_87 = local.Local(A_49_SAIDA_87,
+                                    {A_49_SAIDA_105: [OESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
+                                     A_49_SAIDA_5: [ESTE, A_49_SAIDA_5__A_49_SAIDA_87, CARRO],
+                                     GIBRALEON: [NORTE, A_49_SAIDA_87__GIBRALEON, CARRO],
+                                     HUELVA: [SUL, A_49_SAIDA_87__HUELVA, CARRO]})
+
+        a_49_saida_105 = local.Local(A_49_SAIDA_105,
+                                     {A_49_SAIDA_117: [SUDOESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
+                                      A_49_SAIDA_87: [ESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
+                                      CARTAYA: [SUL, A_49_SAIDA_105__CARTAYA, CARRO],
+                                      TARIQUEJO: [NORTE, A_49_SAIDA_105__TARIQUEJO, CARRO]})
+
+        a_49_saida_117 = local.Local(A_49_SAIDA_117,
+                                     {A_49_SAIDA_105: [NORDESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
+                                      A_49_SAIDA_122: [SUDOESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+                                      VILLABLANCA: [NOROESTE, A_49_SAIDA_117__VILLABLANCA, CARRO],
+                                      LEPE: [SUDESTE, A_49_SAIDA_117__LEPE, CARRO]})
+
+        a_49_saida_122 = local.Local(A_49_SAIDA_122,
+                                     {A_49_SAIDA_125: [SUDOESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO],
+                                      A_49_SAIDA_117: [NORDESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+                                      ISLA_CRISTINA: [SUL, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]})
+
         a_49_saida_125 = local.Local(A_49_SAIDA_125,
                                      {VILLABLANCA: [NORTE, A_49_SAIDA_125__VILLABLANCA, CARRO],
-                                      A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO]})
+                                      A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
+                                      A_49_SAIDA_122: [NORDESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO]})
 
         a_49_saida_129 = local.Local(A_49_SAIDA_129,
                                      {A_49_SAIDA_125: [ESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
@@ -358,11 +406,19 @@ class Locais:
 
         aeroporto_de_beja = local.Local(AEROPORTO_DE_BEJA,
                                         {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
-                                         AEROPORTO_DE_FARO: [SUL, 0, AVIAO]})
+                                         AEROPORTO_DE_FARO: [SUL, 0, AVIAO],
+                                         AEROPORTO_DE_SEVILHA: [SUDESTE, 0, AVIAO]})
 
         aeroporto_de_faro = local.Local(AEROPORTO_DE_FARO,
                                         {FARO_OESTE: [ESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
-                                         AEROPORTO_DE_BEJA: [NORTE, 0, AVIAO]})
+                                         AEROPORTO_DE_BEJA: [NORTE, 0, AVIAO],
+                                         AEROPORTO_DE_SEVILHA: [NORDESTE, 0, AVIAO]})
+
+        aeroporto_de_sevilha = local.Local(AEROPORTO_DE_SEVILHA,
+                                           {SEVILHA_ESTE: [SUDOESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO],
+                                            AEROPORTO_DE_BEJA: [NOROESTE, 0, AVIAO],
+                                            AEROPORTO_DE_FARO: [SUDOESTE, 0, AVIAO],
+                                            SEVILHA_SANTA_JUSTA: [SUDOESTE, 0, METRO]})
 
         alamo = local.Local(ALAMO,
                             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO__ROTUNDA_DA_ARVORE, CARRO],
@@ -410,8 +466,10 @@ class Locais:
         ayamonte = local.Local(AYAMONTE,
                                {A_49_SAIDA_129: [NORDESTE, A_49_SAIDA_129__AYAMONTE, CARRO],
                                 A_49_SAIDA_131: [NORTE, A_49_SAIDA_131__AYAMONTE, CARRO],
+                                ISLA_CANELA: [SUL, AYAMONTE__ISLA_CANELA, CARRO],
                                 COSTA_ESURI: [NORTE, 0, BARCO],
-                                VRSA: [SUDOESTE, 0, BARCO]})
+                                VRSA: [SUDOESTE, 0, BARCO],
+                                GIBRALEON: [NORDESTE, 0, COMBOIO]})
 
         azinhal = local.Local(AZINHAL,
                               {ALMADA_DE_OURO: [NORDESTE, ALMADA_DE_OURO__AZINHAL, CARRO],
@@ -464,6 +522,10 @@ class Locais:
 
         campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
                                                {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO]})
+
+        cartaya = local.Local(CARTAYA,
+                              {A_49_SAIDA_105: [NORTE, A_49_SAIDA_105__CARTAYA, CARRO],
+                               LEPE: [SUDOESTE, CARTAYA__LEPE, CARRO]})
 
         casa_branca = local.Local(CASA_BRANCA,
                                   {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]})
@@ -554,6 +616,12 @@ class Locais:
                               OLHAO: [SUDOESTE, FUSETA__OLHAO, CARRO],
                               A22_SAIDA_15: [NOROESTE, A22_SAIDA_15__FUSETA, CARRO]})
 
+        gibraleon = local.Local(GIBRALEON,
+                                {SAN_BARTOLOME_DE_LA_TORRE: [NOROESTE, GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE, CARRO],
+                                 A_49_SAIDA_87: [SUL, A_49_SAIDA_87__GIBRALEON, CARRO],
+                                 AYAMONTE: [SUDOESTE, 0, COMBOIO],
+                                 HUELVA: [SUL, 0, COMBOIO]})
+
         gioes = local.Local(GIOES,
                             {MARTINLONGO: [SUDOESTE, GIOES__MARTINLONGO, CARRO],
                              PEREIRO: [SUDESTE, GIOES__PEREIRO, CARRO]})
@@ -566,6 +634,11 @@ class Locais:
         hortas = local.Local(HORTAS,
                              {MONTE_GORDO: [SUDOESTE, HORTAS__MONTE_GORDO, CARRO],
                               VRSA: [ESTE, HORTAS__VRSA, CARRO]})
+
+        huelva = local.Local(HUELVA,
+                             {A_49_SAIDA_87: [NORTE, A_49_SAIDA_87__HUELVA, CARRO],
+                              GIBRALEON: [NORTE, 0, COMBOIO],
+                              SEVILHA_SANTA_JUSTA: [ESTE, 0, COMBOIO]})
 
         ic27_fim = local.Local(IC27_FIM,
                                {CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO],
@@ -622,7 +695,13 @@ class Locais:
                                     IC27_FIM: [NORTE, IC27_FIM__IC27_SAIDA_7, CARRO],
                                     PARQUE_EMPRESARIAL_ALCOUTIM: [ESTE, IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
                                     BALURCO_DE_CIMA: [SUDESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
-                                    PEREIRO: [NOROESTE, IC27_SAIDA_7__PEREIRO, CARRO],})
+                                    PEREIRO: [NOROESTE, IC27_SAIDA_7__PEREIRO, CARRO]})
+
+        isla_canela = local.Local(ISLA_CANELA,
+                                  {AYAMONTE: [NORTE, AYAMONTE__ISLA_CANELA, CARRO]})
+
+        isla_cristina = local.Local(ISLA_CRISTINA,
+                                    {A_49_SAIDA_122: [NORTE, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]})
 
         junqueira = local.Local(JUNQUEIRA,
                                 {BARRAGEM_DO_BELICHE: [NOROESTE, BARRAGEM_DO_BELICHE__JUNQUEIRA, CARRO],
@@ -634,6 +713,10 @@ class Locais:
                                    MONTINHO_DAS_LARANJEIRAS: [NOROESTE, LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS, CARRO],
                                    ALCOUTIM: [NORTE, 0, BARCO],
                                    BAR_DO_RIO: [SUDESTE, 0, BARCO]})
+
+        lepe = local.Local(LEPE,
+                           {A_49_SAIDA_117: [NOROESTE, A_49_SAIDA_117__LEPE, CARRO],
+                            CARTAYA: [NORDESTE, CARTAYA__LEPE, CARRO]})
 
         manta_rota = local.Local(MANTA_ROTA,
                                  {ALTURA: [NORDESTE, ALTURA__MANTA_ROTA, CARRO],
@@ -768,6 +851,11 @@ class Locais:
                                  {PICOITOS: [OESTE, PICOITOS__SALGUEIROS, CARRO],
                                   POMARAO: [SUL, POMARAO__SALGUEIROS, CARRO]})
 
+        san_bartolome_de_la_torre = local.Local(SAN_BARTOLOME_DE_LA_TORRE,
+                                                {VILLANUEVA_DE_LOS_CASTILLEJOS: [NOROESTE, SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO],
+                                                 TARIQUEJO: [SUDOESTE, SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO, CARRO],
+                                                 GIBRALEON: [SUDESTE, GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE, CARRO]})
+
         san_silvestre_de_guzman = local.Local(SAN_SILVESTRE_DE_GUZMAN,
                                               {SANLUCAR_DEL_GUADIANA: [NOROESTE, SAN_SILVESTRE_DE_GUZMAN__SANLUCAR_DEL_GUADIANA, CARRO],
                                                VILLANUEVA_DE_LOS_CASTILLEJOS: [NORDESTE, SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO],
@@ -794,6 +882,30 @@ class Locais:
                                 {IC27_SAIDA_2: [ESTE, IC27_SAIDA_2__SENTINELA, CARRO],
                                  QUEBRADAS: [NOROESTE, QUEBRADAS__SENTINELA, CARRO],
                                  BARRAGEM_DO_BELICHE: [SUL, BARRAGEM_DO_BELICHE__SENTINELA, CARRO]})
+
+        sevilha_centro_historico = local.Local(SEVILHA_CENTRO_HISTORICO,
+                                               {SEVILHA_ISLA_DE_LA_CARTUJA: [NOROESTE, SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA, CARRO],
+                                                SEVILHA_SANTA_JUSTA: [NORDESTE, SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA, CARRO]})
+
+        sevilha_este = local.Local(SEVILHA_ESTE,
+                                   {SEVILHA_SANTA_JUSTA: [SUDOESTE, SEVILHA_ESTE__SEVILHA_SANTA_JUSTA, CARRO],
+                                    AEROPORTO_DE_SEVILHA: [NORDESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO]})
+
+        sevilha_isla_de_la_cartuja = local.Local(SEVILHA_ISLA_DE_LA_CARTUJA,
+                                                 {A_49_SAIDA_0: [OESTE, A_49_SAIDA_0__SEVILHA_ISLA_DE_LA_CARTUJA, CARRO],
+                                                  SEVILHA_CENTRO_HISTORICO: [SUDESTE, SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA, CARRO],
+                                                  SEVILHA_SANTA_JUSTA: [ESTE, 0, METRO]})
+
+        sevilha_santa_justa = local.Local(SEVILHA_SANTA_JUSTA,
+                                          {SEVILHA_CENTRO_HISTORICO: [SUDOESTE, SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA, CARRO],
+                                           SEVILHA_ESTE: [NORDESTE, SEVILHA_ESTE__SEVILHA_SANTA_JUSTA, CARRO],
+                                           HUELVA: [OESTE, 0, COMBOIO],
+                                           SEVILHA_ISLA_DE_LA_CARTUJA: [OESTE, 0, METRO],
+                                           AEROPORTO_DE_SEVILHA: [NORDESTE, 0, METRO]})
+
+        tariquejo = local.Local(TARIQUEJO,
+                                {A_49_SAIDA_105: [SUL, A_49_SAIDA_105__TARIQUEJO, CARRO],
+                                 SAN_BARTOLOME_DE_LA_TORRE: [NORDESTE, SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO, CARRO]})
 
         tavira = local.Local(TAVIRA,
                              {A22_SAIDA_16: [NOROESTE, A22_SAIDA_16__TAVIRA, CARRO],
@@ -828,13 +940,25 @@ class Locais:
 
         villablanca = local.Local(VILLABLANCA,
                                   {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
-                                   A_49_SAIDA_125: [SUL, A_49_SAIDA_125__VILLABLANCA, CARRO]})
+                                   A_49_SAIDA_125: [SUL, A_49_SAIDA_125__VILLABLANCA, CARRO],
+                                   A_49_SAIDA_117: [SUDESTE, A_49_SAIDA_117__VILLABLANCA, CARRO]})
 
         villanueva_de_los_castillejos = local.Local(VILLANUEVA_DE_LOS_CASTILLEJOS,
                                                     {EL_GRANADO: [OESTE, EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO],
-                                                     SAN_SILVESTRE_DE_GUZMAN: [SUDOESTE, SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO]})
+                                                     SAN_SILVESTRE_DE_GUZMAN: [SUDOESTE, SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO],
+                                                     SAN_BARTOLOME_DE_LA_TORRE: [SUDESTE, SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO]})
 
         #  Adicionar os locais à lista
+        self.lista_locais.append(a_49_saida_0)
+        self.lista_locais.append(a_49_saida_1)
+        self.lista_locais.append(a_49_saida_1b)
+        self.lista_locais.append(a_49_saida_2)
+        self.lista_locais.append(a_49_saida_3)
+        self.lista_locais.append(a_49_saida_5)
+        self.lista_locais.append(a_49_saida_87)
+        self.lista_locais.append(a_49_saida_105)
+        self.lista_locais.append(a_49_saida_117)
+        self.lista_locais.append(a_49_saida_122)
         self.lista_locais.append(a_49_saida_125)
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
@@ -845,6 +969,7 @@ class Locais:
         self.lista_locais.append(a22_saida_18)
         self.lista_locais.append(aeroporto_de_beja)
         self.lista_locais.append(aeroporto_de_faro)
+        self.lista_locais.append(aeroporto_de_sevilha)
         self.lista_locais.append(alamo)
         self.lista_locais.append(alamo_mertola)
         self.lista_locais.append(alcaria)
@@ -866,6 +991,7 @@ class Locais:
         self.lista_locais.append(boavista)
         self.lista_locais.append(cachopo)
         self.lista_locais.append(campo_golfe_castro_marim)
+        self.lista_locais.append(cartaya)
         self.lista_locais.append(casa_branca)
         self.lista_locais.append(cascata_pulo_do_lobo)
         self.lista_locais.append(castro_marim)
@@ -885,9 +1011,11 @@ class Locais:
         self.lista_locais.append(foz_de_odeleite)
         self.lista_locais.append(furnazinhas)
         self.lista_locais.append(fuseta)
+        self.lista_locais.append(gibraleon)
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
         self.lista_locais.append(hortas)
+        self.lista_locais.append(huelva)
         self.lista_locais.append(ic27_fim)
         self.lista_locais.append(ic27_inicio)
         self.lista_locais.append(ic27_saida_1)
@@ -897,8 +1025,11 @@ class Locais:
         self.lista_locais.append(ic27_saida_5)
         self.lista_locais.append(ic27_saida_6)
         self.lista_locais.append(ic27_saida_7)
+        self.lista_locais.append(isla_canela)
+        self.lista_locais.append(isla_cristina)
         self.lista_locais.append(junqueira)
         self.lista_locais.append(laranjeiras)
+        self.lista_locais.append(lepe)
         self.lista_locais.append(manta_rota)
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(mertola)
@@ -927,12 +1058,18 @@ class Locais:
         self.lista_locais.append(ribeira_do_vascao)
         self.lista_locais.append(rotunda_da_arvore)
         self.lista_locais.append(salgueiros)
+        self.lista_locais.append(san_bartolome_de_la_torre)
         self.lista_locais.append(san_silvestre_de_guzman)
         self.lista_locais.append(sanlucar_del_guadiana)
         self.lista_locais.append(santa_marta)
         self.lista_locais.append(sao_bras_de_alportel)
         self.lista_locais.append(sapal)
         self.lista_locais.append(sentinela)
+        self.lista_locais.append(sevilha_centro_historico)
+        self.lista_locais.append(sevilha_este)
+        self.lista_locais.append(sevilha_isla_de_la_cartuja)
+        self.lista_locais.append(sevilha_santa_justa)
+        self.lista_locais.append(tariquejo)
         self.lista_locais.append(tavira)
         self.lista_locais.append(tenencia)
         self.lista_locais.append(vaqueiros)
