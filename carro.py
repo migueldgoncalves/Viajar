@@ -19,6 +19,7 @@ SEGUNDOS_POR_HORA = 3600
 
 #  Simulacao inicial onde se mede o número de inputs lidos por segundo - Tecla ENTER mantida premida
 TEMPO_SIMULACAO = 3.0  # Segundos
+INPUTS_SEGUNDO_OMISSAO = 20
 
 #  Tempo de espera por um comando antes de se considerar que nada foi introduzido, em segundos
 ESPERA_POR_COMANDO = 0.2
@@ -137,6 +138,8 @@ class Carro:
         self.actualizar_rpm()
 
     def acelerar(self, inputs_segundo):
+        if inputs_segundo <= 0:
+            inputs_segundo = INPUTS_SEGUNDO_OMISSAO
         if (self.mudanca == -1) & (self.rotacoes_por_minuto < MAX_ROTACOES):
             self.velocidade -= (VELOCIDADE_REDLINE_MARCHA_ATRAS / ACELERACAO_MARCHA_ATRAS / inputs_segundo)
         if (self.mudanca == 1) & (self.rotacoes_por_minuto < MAX_ROTACOES):
@@ -159,6 +162,8 @@ class Carro:
 
     def desacelerar(self, inputs_por_segundo, desaceleracao):
         perda_velocidade = 0
+        if inputs_por_segundo <= 0:
+            inputs_por_segundo = INPUTS_SEGUNDO_OMISSAO
         if desaceleracao == DESACELERACAO_TRAVAGEM:  # Carro a travar por acção do utilizador
             perda_velocidade = TRAVAGEM_POR_SEGUNDO / inputs_por_segundo
         elif desaceleracao == DESACELERACAO_ABRANDAMENTO:  # Carro a abrandar sozinho
