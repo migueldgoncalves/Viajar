@@ -73,10 +73,13 @@ CORTE_TABELIAO = "Corte Tabelião"
 COSTA_ESURI = "Costa Esuri"
 CRUZAMENTO_N122_N123 = "Cruzamento da N122 com a N123"
 CRUZAMENTO_N122_M507 = "Cruzamento da N122 com a M507"
+CRUZAMENTO_N125_N125_6 = "Cruzamento da N125 com a N125-6"
 CRUZAMENTO_N265_N392 = "Cruzamento da N265 com a N392"
 DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
+ESTACAO_CASTRO_MARIM = "Estação de Castro Marim"
+ESTACAO_MONTE_GORDO = "Estação de Monte Gordo"
 FARO_ESTE = "Faro-Este"
 FARO_OESTE = "Faro-Oeste"
 FONTE_DO_PENEDO = "Fonte do Penedo"
@@ -104,6 +107,7 @@ LARANJEIRAS = "Laranjeiras"
 LEPE = "Lepe"
 MANTA_ROTA = "Manta Rota"
 MARTINLONGO = "Martinlongo"
+MENIRES_DO_LAVAJO = "Menires do Lavajo"
 MERTOLA = "Mértola"
 MINAS_SAO_DOMINGOS = "Minas de São Domingos"
 MONTE_ALTO = "Monte Alto"
@@ -136,7 +140,8 @@ SAN_SILVESTRE_DE_GUZMAN = "San Silvestre de Guzmán"
 SANLUCAR_DEL_GUADIANA = "Sanlúcar del Guadiana"
 SANTA_MARTA = "Santa Marta"
 SAO_BRAS_DE_ALPORTEL = "São Brás de Alportel"
-SAPAL = "Sapal de Castro Marim e Vila Real de Santo António"
+SAPAL_NORTE = "Norte do Sapal de Castro Marim e Vila Real de Santo António"
+SAPAL_SUL = "Sul do Sapal de Castro Marim e Vila Real de Santo António"
 SENTINELA = "Sentinela"
 SERPA = "Serpa"
 SEVILHA_CENTRO_HISTORICO = "Sevilha-Centro Histórico"
@@ -211,8 +216,8 @@ ALMADA_DE_OURO__IC27_SAIDA_3 = 4.6
 ALMADA_DE_OURO__AZINHAL = 4.3
 ALTA_MORA__QUEBRADAS = 7.0
 ALTA_MORA__VAQUEIROS = 21.1
+ALTURA__CRUZAMENTO_N125_N125_6 = 2.2
 ALTURA__MANTA_ROTA = 3.6
-ALTURA__PRAIA_VERDE = 2.1
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
 AYAMONTE__ISLA_CANELA = 6.9
 AZINHAL__IC27_SAIDA_2 = 2.7
@@ -240,19 +245,23 @@ CARTAYA__LEPE = 9.3
 CASA_BRANCA__CHOCA_QUEIMADA = 0.8
 CASCATA_PULO_DO_LOBO_ESTE__VALE_DO_POCO = 12.3
 CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123 = 16.5
-CASTRO_MARIM__PRAIA_VERDE = 7.6
-CASTRO_MARIM__VRSA = 3.5
+CASTRO_MARIM__ESTACAO_CASTRO_MARIM = 4.9
+CASTRO_MARIM__SAPAL_SUL = 1.8
 CHOCA_QUEIMADA__QUEBRADAS = 2.2
 CONCEICAO__TAVIRA = 5.6
 CONCEICAO__VILA_NOVA_DE_CACELA = 7.9
 CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE = 2.1
 CORTE_DAS_DONAS__IC27_SAIDA_6 = 6.9
 CORTES_PEREIRAS__CRUZAMENTO_N122_M507 = 4.8
+CORTES_PEREIRAS__MENIRES_DO_LAVAJO = 2.5
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
 CRUZAMENTO_N122_M507__IC27_FIM = 0.5
 CRUZAMENTO_N122_M507__SANTA_MARTA = 1.8
 CRUZAMENTO_N122_N123__MERTOLA = 11.1
+CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
+CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
+CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
 CRUZAMENTO_N265_N392__SERPA = 17.7
 CRUZAMENTO_N265_N392__VALE_DO_POCO = 7.5
 DUNAS_DE_VRSA__MONTE_GORDO = 1.7
@@ -261,6 +270,8 @@ EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
 EL_GRANADO__SANLUCAR_DEL_GUADIANA = 7.8
 EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.4
 ESPIRITO_SANTO__RIBEIRA_DO_VASCAO = 6.9
+ESTACAO_MONTE_GORDO__HORTAS = 0.9
+ESTACAO_MONTE_GORDO__MONTE_GORDO = 1.5
 FARO_ESTE__FARO_OESTE = 2.3
 FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
@@ -273,12 +284,11 @@ GIOES__MARTINLONGO = 9.4
 GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
 GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
-HORTAS__MONTE_GORDO = 1.7
 HORTAS__VRSA = 2.4
 IC27_FIM__IC27_SAIDA_7 = 6.1
 IC27_INICIO__IC27_SAIDA_1 = 1.1
 IC27_INICIO__MONTE_FRANCISCO = 0.5
-IC27_INICIO__SAPAL = 2.0
+IC27_INICIO__SAPAL_NORTE = 2.0
 IC27_SAIDA_1__IC27_SAIDA_2 = 8.1
 IC27_SAIDA_1__JUNQUEIRA = 2.4
 IC27_SAIDA_1__MONTE_FRANCISCO = 0.9
@@ -317,6 +327,7 @@ SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO = 10.1
 SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.6
 SAN_SILVESTRE_DE_GUZMAN__SANLUCAR_DEL_GUADIANA = 17.6
 SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA = 9.6
+SAPAL_SUL__VRSA = 1.8
 SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA = 2.0
 SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
 SEVILHA_ESTE__SEVILHA_SANTA_JUSTA = 5.0
@@ -467,10 +478,8 @@ class Locais:
 
         altura = local.Local(ALTURA,
                              {A22_SAIDA_17: [NORTE, A22_SAIDA_17__ALTURA, CARRO],
-                              PRAIA_VERDE: [SUDESTE, ALTURA__PRAIA_VERDE, CARRO],
-                              MANTA_ROTA: [SUDOESTE, ALTURA__MANTA_ROTA, CARRO],
-                              VRSA: [ESTE, 0, COMBOIO],
-                              VILA_NOVA_DE_CACELA: [OESTE, 0, COMBOIO]})
+                              CRUZAMENTO_N125_N125_6: [NORDESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO],
+                              MANTA_ROTA: [SUDOESTE, ALTURA__MANTA_ROTA, CARRO]})
 
         area_repouso_castro_marim = local.Local(AREA_REPOUSO_CASTRO_MARIM,
                                                 {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
@@ -551,8 +560,8 @@ class Locais:
 
         castro_marim = local.Local(CASTRO_MARIM,
                                    {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
-                                    VRSA: [SUDESTE, CASTRO_MARIM__VRSA, CARRO],
-                                    PRAIA_VERDE: [SUDOESTE, CASTRO_MARIM__PRAIA_VERDE, CARRO]})
+                                    SAPAL_SUL: [SUDESTE, CASTRO_MARIM__SAPAL_SUL, CARRO],
+                                    ESTACAO_CASTRO_MARIM: [SUDOESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO]})
 
         choca_queimada = local.Local(CHOCA_QUEIMADA,
                                      {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
@@ -570,7 +579,8 @@ class Locais:
 
         cortes_pereiras = local.Local(CORTES_PEREIRAS,
                                       {CRUZAMENTO_N122_M507: [OESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
-                                       ALCOUTIM: [SUDESTE, ALCOUTIM__CORTES_PEREIRAS, CARRO]})
+                                       ALCOUTIM: [SUDESTE, ALCOUTIM__CORTES_PEREIRAS, CARRO],
+                                       MENIRES_DO_LAVAJO: [NOROESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]})
 
         corte_tabeliao = local.Local(CORTE_TABELIAO,
                                      {ALCOUTIM: [NORDESTE, ALCOUTIM__CORTE_TABELIAO, CARRO],
@@ -592,6 +602,12 @@ class Locais:
                                             CASCATA_PULO_DO_LOBO_OESTE: [NORDESTE, CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123, CARRO],
                                             MERTOLA: [SUDESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO]})
 
+        cruzamento_n125_n125_6 = local.Local(CRUZAMENTO_N125_N125_6,
+                                             {ESTACAO_CASTRO_MARIM: [NORTE, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
+                                              ESTACAO_MONTE_GORDO: [ESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO, CARRO],
+                                              PRAIA_VERDE: [SUL, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO],
+                                              ALTURA: [SUDOESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO]})
+
         cruzamento_n265_n392 = local.Local(CRUZAMENTO_N265_N392,
                                            {VALE_DO_POCO: [SUL, CRUZAMENTO_N265_N392__VALE_DO_POCO, CARRO],
                                             SERPA: [NOROESTE, CRUZAMENTO_N265_N392__SERPA, CARRO]})
@@ -609,6 +625,19 @@ class Locais:
                                      {RIBEIRA_DO_VASCAO: [SUDESTE, ESPIRITO_SANTO__RIBEIRA_DO_VASCAO, CARRO],
                                       ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                       BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
+
+        estacao_castro_marim = local.Local(ESTACAO_CASTRO_MARIM,
+                                           {CRUZAMENTO_N125_N125_6: [SUL, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
+                                            CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
+                                            ESTACAO_MONTE_GORDO: [SUDESTE, 0, COMBOIO],
+                                            VILA_NOVA_DE_CACELA: [SUDOESTE, 0, COMBOIO]})
+
+        estacao_monte_gordo = local.Local(ESTACAO_MONTE_GORDO,
+                                          {HORTAS: [SUDESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
+                                           MONTE_GORDO: [SUL, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
+                                           CRUZAMENTO_N125_N125_6: [OESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO, CARRO],
+                                           VRSA: [NORDESTE, 0, COMBOIO],
+                                           ESTACAO_CASTRO_MARIM: [NOROESTE, 0, COMBOIO]})
 
         faro_este = local.Local(FARO_ESTE,
                                 {OLHAO: [ESTE, FARO_ESTE__OLHAO, CARRO],
@@ -656,7 +685,7 @@ class Locais:
                                          BAR_DO_RIO: [ESTE, BAR_DO_RIO__GUERREIROS_DO_RIO, CARRO]})
 
         hortas = local.Local(HORTAS,
-                             {MONTE_GORDO: [SUDOESTE, HORTAS__MONTE_GORDO, CARRO],
+                             {ESTACAO_MONTE_GORDO: [NOROESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
                               VRSA: [ESTE, HORTAS__VRSA, CARRO]})
 
         huelva = local.Local(HUELVA,
@@ -672,7 +701,7 @@ class Locais:
         ic27_inicio = local.Local(IC27_INICIO,
                                   {IC27_SAIDA_1: [NOROESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
                                    MONTE_FRANCISCO: [OESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO],
-                                   SAPAL: [ESTE, IC27_INICIO__SAPAL, CARRO],
+                                   SAPAL_NORTE: [ESTE, IC27_INICIO__SAPAL_NORTE, CARRO],
                                    A22_SAIDA_18: [SUL, A22_SAIDA_18__IC27_INICIO, CARRO]})
 
         ic27_saida_1 = local.Local(IC27_SAIDA_1,
@@ -751,6 +780,9 @@ class Locais:
                                    GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
                                    CACHOPO: [SUL, CACHOPO__MARTINLONGO, CARRO]})
 
+        menires_do_lavajo = local.Local(MENIRES_DO_LAVAJO,
+                                        {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]})
+
         mertola = local.Local(MERTOLA,
                               {ALAMO_MERTOLA: [SUL, ALAMO_MERTOLA__MERTOLA, CARRO],
                                MONTE_ALTO: [SUDESTE, MERTOLA__MONTE_ALTO, CARRO],
@@ -772,8 +804,7 @@ class Locais:
                                        IC27_INICIO: [ESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO]})
 
         monte_gordo = local.Local(MONTE_GORDO,
-                                  {PRAIA_VERDE: [OESTE, MONTE_GORDO__PRAIA_VERDE, CARRO],
-                                   HORTAS: [NORDESTE, HORTAS__MONTE_GORDO, CARRO],
+                                  {ESTACAO_MONTE_GORDO: [NORTE, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
                                    DUNAS_DE_VRSA: [ESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO]})
 
         montinho_das_laranjeiras = local.Local(MONTINHO_DAS_LARANJEIRAS,
@@ -843,9 +874,7 @@ class Locais:
                                     QUEBRADAS: [OESTE, PORTELA_ALTA__QUEBRADAS, CARRO]})
 
         praia_verde = local.Local(PRAIA_VERDE,
-                                  {MONTE_GORDO: [ESTE, MONTE_GORDO__PRAIA_VERDE, CARRO],
-                                   CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__PRAIA_VERDE, CARRO],
-                                   ALTURA: [NOROESTE, ALTURA__PRAIA_VERDE, CARRO]})
+                                  {CRUZAMENTO_N125_N125_6: [NORTE, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO]})
 
         puerto_de_la_laja = local.Local(PUERTO_DE_LA_LAJA,
                                         {EL_GRANADO: [ESTE, EL_GRANADO__PUERTO_DE_LA_LAJA, CARRO],
@@ -905,8 +934,12 @@ class Locais:
                                            {A22_SAIDA_14: [SUL, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
                                             CACHOPO: [NORTE, CACHOPO__SAO_BRAS_ALPORTEL, CARRO]})
 
-        sapal = local.Local(SAPAL,
-                            {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL, CARRO]})
+        sapal_norte = local.Local(SAPAL_NORTE,
+                                  {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL_NORTE, CARRO]})
+
+        sapal_sul = local.Local(SAPAL_SUL,
+                                {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__SAPAL_SUL, CARRO],
+                                 VRSA: [SUDESTE, SAPAL_SUL__VRSA, CARRO]})
 
         sentinela = local.Local(SENTINELA,
                                 {IC27_SAIDA_2: [ESTE, IC27_SAIDA_2__SENTINELA, CARRO],
@@ -966,16 +999,16 @@ class Locais:
         vila_nova_de_cacela = local.Local(VILA_NOVA_DE_CACELA,
                                           {MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
                                            CONCEICAO: [SUDOESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
-                                           ALTURA: [ESTE, 0, COMBOIO],
+                                           ESTACAO_CASTRO_MARIM: [NORDESTE, 0, COMBOIO],
                                            TAVIRA: [SUDOESTE, 0, COMBOIO]})
 
         vila_real_de_santo_antonio = local.Local(VRSA,
-                                                 {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__VRSA, CARRO],
+                                                 {SAPAL_SUL: [NOROESTE, SAPAL_SUL__VRSA, CARRO],
                                                   BARRA_DO_GUADIANA: [SUDESTE, BARRA_DO_GUADIANA__VRSA, CARRO],
                                                   HORTAS: [OESTE, HORTAS__VRSA, CARRO],
                                                   DUNAS_DE_VRSA: [SUDOESTE, DUNAS_DE_VRSA__VRSA, CARRO],
                                                   AYAMONTE: [NORDESTE, 0, BARCO],
-                                                  ALTURA: [OESTE, 0, COMBOIO]})
+                                                  ESTACAO_MONTE_GORDO: [SUDOESTE, 0, COMBOIO]})
 
         villablanca = local.Local(VILLABLANCA,
                                   {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
@@ -1043,10 +1076,13 @@ class Locais:
         self.lista_locais.append(costa_esuri)
         self.lista_locais.append(cruzamento_n122_m507)
         self.lista_locais.append(cruzamento_n122_n123)
+        self.lista_locais.append(cruzamento_n125_n125_6)
         self.lista_locais.append(cruzamento_n265_n392)
         self.lista_locais.append(dunas_vrsa)
         self.lista_locais.append(el_granado)
         self.lista_locais.append(espirito_santo)
+        self.lista_locais.append(estacao_castro_marim)
+        self.lista_locais.append(estacao_monte_gordo)
         self.lista_locais.append(faro_este)
         self.lista_locais.append(faro_oeste)
         self.lista_locais.append(fonte_do_penedo)
@@ -1074,6 +1110,7 @@ class Locais:
         self.lista_locais.append(lepe)
         self.lista_locais.append(manta_rota)
         self.lista_locais.append(martinlongo)
+        self.lista_locais.append(menires_do_lavajo)
         self.lista_locais.append(mertola)
         self.lista_locais.append(minas_sao_domingos)
         self.lista_locais.append(monte_alto)
@@ -1106,7 +1143,8 @@ class Locais:
         self.lista_locais.append(sanlucar_del_guadiana)
         self.lista_locais.append(santa_marta)
         self.lista_locais.append(sao_bras_de_alportel)
-        self.lista_locais.append(sapal)
+        self.lista_locais.append(sapal_norte)
+        self.lista_locais.append(sapal_sul)
         self.lista_locais.append(sentinela)
         self.lista_locais.append(serpa)
         self.lista_locais.append(sevilha_centro_historico)
