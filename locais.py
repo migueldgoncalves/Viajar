@@ -78,6 +78,7 @@ CRUZAMENTO_N265_N392 = "Cruzamento da N265 com a N392"
 DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
+ESTACAO_CACELA = "Estação de Cacela"
 ESTACAO_CASTRO_MARIM = "Estação de Castro Marim"
 ESTACAO_MONTE_GORDO = "Estação de Monte Gordo"
 FARO_ESTE = "Faro-Este"
@@ -100,6 +101,7 @@ IC27_SAIDA_4 = "IC27-Saída 4"
 IC27_SAIDA_5 = "IC27-Saída 5"
 IC27_SAIDA_6 = "IC27-Saída 6"
 IC27_SAIDA_7 = "IC27-Saída 7"
+IP2_SAIDA_44 = "IP2-Saída 44"
 ISLA_CANELA = "Isla Canela"
 ISLA_CRISTINA = "Isla Cristina"
 JUNQUEIRA = "Junqueira"
@@ -217,7 +219,7 @@ ALMADA_DE_OURO__AZINHAL = 4.3
 ALTA_MORA__QUEBRADAS = 7.0
 ALTA_MORA__VAQUEIROS = 21.1
 ALTURA__CRUZAMENTO_N125_N125_6 = 2.2
-ALTURA__MANTA_ROTA = 3.6
+ALTURA__VILA_NOVA_DE_CACELA = 3.5
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
 AYAMONTE__ISLA_CANELA = 6.9
 AZINHAL__IC27_SAIDA_2 = 2.7
@@ -233,7 +235,7 @@ BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA = 1.0
 BARRAGEM_DO_BELICHE__JUNQUEIRA = 5.8
 BARRAGEM_DO_BELICHE__SENTINELA = 3.6
 BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE = 2.4
-BEJA__CRUZAMENTO_N122_N123 = 41.1
+BEJA__IP2_SAIDA_44 = 13.2
 BEJA__SERPA = 27.9
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
@@ -258,6 +260,7 @@ CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
 CRUZAMENTO_N122_M507__IC27_FIM = 0.5
 CRUZAMENTO_N122_M507__SANTA_MARTA = 1.8
+CRUZAMENTO_N122_N123__IP2_SAIDA_44 = 27.9
 CRUZAMENTO_N122_N123__MERTOLA = 11.1
 CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
 CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
@@ -270,6 +273,7 @@ EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
 EL_GRANADO__SANLUCAR_DEL_GUADIANA = 7.8
 EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.4
 ESPIRITO_SANTO__RIBEIRA_DO_VASCAO = 6.9
+ESTACAO_CACELA__VILA_NOVA_DE_CACELA = 0.8
 ESTACAO_MONTE_GORDO__HORTAS = 0.9
 ESTACAO_MONTE_GORDO__MONTE_GORDO = 1.5
 FARO_ESTE__FARO_OESTE = 2.3
@@ -479,7 +483,7 @@ class Locais:
         altura = local.Local(ALTURA,
                              {A22_SAIDA_17: [NORTE, A22_SAIDA_17__ALTURA, CARRO],
                               CRUZAMENTO_N125_N125_6: [NORDESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO],
-                              MANTA_ROTA: [SUDOESTE, ALTURA__MANTA_ROTA, CARRO]})
+                              VILA_NOVA_DE_CACELA: [OESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO]})
 
         area_repouso_castro_marim = local.Local(AREA_REPOUSO_CASTRO_MARIM,
                                                 {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
@@ -528,7 +532,7 @@ class Locais:
                                        BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]})
 
         beja = local.Local(BEJA,
-                           {CRUZAMENTO_N122_N123: [SUL, BEJA__CRUZAMENTO_N122_N123, CARRO],
+                           {IP2_SAIDA_44: [SUL, BEJA__IP2_SAIDA_44, CARRO],
                             AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
                             SERPA: [SUDESTE, BEJA__SERPA, CARRO]})
 
@@ -598,7 +602,7 @@ class Locais:
                                               SANTA_MARTA: [NOROESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO]})
 
         cruzamento_n122_n123 = local.Local(CRUZAMENTO_N122_N123,
-                                           {BEJA: [NORTE, BEJA__CRUZAMENTO_N122_N123, CARRO],
+                                           {IP2_SAIDA_44: [NOROESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO],
                                             CASCATA_PULO_DO_LOBO_OESTE: [NORDESTE, CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123, CARRO],
                                             MERTOLA: [SUDESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO]})
 
@@ -626,11 +630,16 @@ class Locais:
                                       ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                       BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
 
+        estacao_cacela = local.Local(ESTACAO_CACELA,
+                                     {VILA_NOVA_DE_CACELA: [SUDESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO],
+                                      ESTACAO_CASTRO_MARIM: [NORDESTE, 0, COMBOIO],
+                                      TAVIRA: [SUDOESTE, 0, COMBOIO]})
+
         estacao_castro_marim = local.Local(ESTACAO_CASTRO_MARIM,
                                            {CRUZAMENTO_N125_N125_6: [SUL, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
                                             CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
                                             ESTACAO_MONTE_GORDO: [SUDESTE, 0, COMBOIO],
-                                            VILA_NOVA_DE_CACELA: [SUDOESTE, 0, COMBOIO]})
+                                            ESTACAO_CACELA: [SUDOESTE, 0, COMBOIO]})
 
         estacao_monte_gordo = local.Local(ESTACAO_MONTE_GORDO,
                                           {HORTAS: [SUDESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
@@ -750,6 +759,10 @@ class Locais:
                                     BALURCO_DE_CIMA: [SUDESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
                                     PEREIRO: [NOROESTE, IC27_SAIDA_7__PEREIRO, CARRO]})
 
+        ip2_saida_44 = local.Local(IP2_SAIDA_44,
+                                   {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
+                                    CRUZAMENTO_N122_N123: [SUDESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO]})
+
         isla_canela = local.Local(ISLA_CANELA,
                                   {AYAMONTE: [NORTE, AYAMONTE__ISLA_CANELA, CARRO]})
 
@@ -772,8 +785,7 @@ class Locais:
                             CARTAYA: [NORDESTE, CARTAYA__LEPE, CARRO]})
 
         manta_rota = local.Local(MANTA_ROTA,
-                                 {ALTURA: [NORDESTE, ALTURA__MANTA_ROTA, CARRO],
-                                  VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
+                                 {VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
 
         martinlongo = local.Local(MARTINLONGO,
                                   {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
@@ -978,7 +990,7 @@ class Locais:
                              {A22_SAIDA_16: [NOROESTE, A22_SAIDA_16__TAVIRA, CARRO],
                               CONCEICAO: [NORDESTE, CONCEICAO__TAVIRA, CARRO],
                               FUSETA: [SUDOESTE, FUSETA__TAVIRA, CARRO],
-                              VILA_NOVA_DE_CACELA: [NORDESTE, 0, COMBOIO],
+                              ESTACAO_CACELA: [NORDESTE, 0, COMBOIO],
                               OLHAO: [SUDOESTE, 0, COMBOIO],
                               RIA_FORMOSA_NORTE: [SUDOESTE, 0, BARCO]})
 
@@ -997,10 +1009,10 @@ class Locais:
                                  CACHOPO: [SUDOESTE, CACHOPO__VAQUEIROS, CARRO]})
 
         vila_nova_de_cacela = local.Local(VILA_NOVA_DE_CACELA,
-                                          {MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
+                                          {ALTURA: [ESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO],
+                                           MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
                                            CONCEICAO: [SUDOESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
-                                           ESTACAO_CASTRO_MARIM: [NORDESTE, 0, COMBOIO],
-                                           TAVIRA: [SUDOESTE, 0, COMBOIO]})
+                                           ESTACAO_CACELA: [NOROESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO]})
 
         vila_real_de_santo_antonio = local.Local(VRSA,
                                                  {SAPAL_SUL: [NOROESTE, SAPAL_SUL__VRSA, CARRO],
@@ -1081,6 +1093,7 @@ class Locais:
         self.lista_locais.append(dunas_vrsa)
         self.lista_locais.append(el_granado)
         self.lista_locais.append(espirito_santo)
+        self.lista_locais.append(estacao_cacela)
         self.lista_locais.append(estacao_castro_marim)
         self.lista_locais.append(estacao_monte_gordo)
         self.lista_locais.append(faro_este)
@@ -1103,6 +1116,7 @@ class Locais:
         self.lista_locais.append(ic27_saida_5)
         self.lista_locais.append(ic27_saida_6)
         self.lista_locais.append(ic27_saida_7)
+        self.lista_locais.append(ip2_saida_44)
         self.lista_locais.append(isla_canela)
         self.lista_locais.append(isla_cristina)
         self.lista_locais.append(junqueira)
