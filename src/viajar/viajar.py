@@ -1,8 +1,8 @@
-import viagem
-import locais
-import carro
 import random
 import datetime
+
+from viajar import locais, viagem
+from carro import carro
 
 #  Opções
 SEPARADOR = "-"

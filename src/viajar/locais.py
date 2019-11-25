@@ -1,4 +1,4 @@
-import local
+from viajar import local
 
 #  Pontos cardeais
 NORTE = "N"
@@ -449,7 +449,7 @@ class Locais:
                                             SEVILHA_SANTA_JUSTA: [SUDOESTE, 0, METRO]})
 
         alamo_alcoutim = local.Local(ALAMO_ALCOUTIM,
-                            {ROTUNDA_DA_ARVORE: [NORTE, ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE, CARRO],
+                                     {ROTUNDA_DA_ARVORE: [NORTE, ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE, CARRO],
                              BARRANCO_DAS_PEREIRAS: [SUL, ALAMO_ALCOUTIM__BARRANCO_DAS_PEREIRAS, CARRO]})
 
         alamo_mertola = local.Local(ALAMO_MERTOLA,
@@ -597,7 +597,7 @@ class Locais:
                                    AYAMONTE: [SUL, 0, BARCO]})
 
         cruzamento_n122_m507 = local.Local(CRUZAMENTO_N122_M507,
-                                             {IC27_FIM: [SUDESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
+                                           {IC27_FIM: [SUDESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
                                               CORTES_PEREIRAS: [ESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
                                               SANTA_MARTA: [NOROESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO]})
 
