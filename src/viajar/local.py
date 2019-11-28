@@ -51,3 +51,9 @@ class Local:
 
     def get_pais(self):
         return self.pais
+
+    def imprimir_info_breve(self):
+        print("Está em", self.nome)
+
+    def imprimir_info_completa(self):
+        print("Informação não disponível")
