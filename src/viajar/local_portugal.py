@@ -9,8 +9,10 @@ class LocalPortugal(local.Local):
     entidade_intermunicipal = ''
     regiao = ''
 
-    def __init__(self, nome, locais_circundantes, freguesia, concelho):
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, freguesia, concelho):
         super().__init__(nome, locais_circundantes)
+        self.set_coordenadas(latitude, longitude)
+        self.set_altitude(altitude)
         self.set_freguesia(freguesia)
         self.set_concelho(concelho)
         self.set_pais(locais.PORTUGAL)
@@ -71,7 +73,10 @@ class LocalPortugal(local.Local):
         print("Está em", self.nome + ",", self.concelho + ", Distrito de", self.distrito)
 
     def imprimir_info_completa(self):
-        print("Altitude:", self.altitude, "metros")
+        if self.altitude == 1:
+            print("Altitude:", self.altitude, "metro")
+        else:
+            print("Altitude:", self.altitude, "metros")
         print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
         print("Freguesia:", self.freguesia)
         print("Concelho:", self.concelho)

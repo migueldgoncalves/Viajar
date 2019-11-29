@@ -140,7 +140,7 @@ class Viajar:
 
     def realizar_viagem(self):
         #  Obter os locais
-        self.lista_locais = mapa.Locais.preencher_lista_locais(mapa.Locais())
+        self.lista_locais = mapa.Mapa.preencher_lista_locais(mapa.Mapa())
 
         #  Inicializar viagem
         self.viagem_actual.set_local(LOCAL_INICIAL)

@@ -8,8 +8,10 @@ class LocalEspanha(local.Local):
     provincia = ''
     comunidade_autonoma = ''
 
-    def __init__(self, nome, locais_circundantes, municipio, comarca, provincia):
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarca, provincia):
         super().__init__(nome, locais_circundantes)
+        self.set_coordenadas(latitude, longitude)
+        self.set_altitude(altitude)
         self.set_municipio(municipio)
         self.set_comarca(comarca)
         self.set_provincia(provincia)
@@ -50,7 +52,10 @@ class LocalEspanha(local.Local):
         print("Está em", self.nome + ",", "Província de", self.provincia + ",", self.comunidade_autonoma)
 
     def imprimir_info_completa(self):
-        print("Altitude:", self.altitude, "metros")
+        if self.altitude == 1:
+            print("Altitude:", self.altitude, "metro")
+        else:
+            print("Altitude:", self.altitude, "metros")
         print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
         print("Município:", self.municipio)
         print("Comarca:", self.comarca)

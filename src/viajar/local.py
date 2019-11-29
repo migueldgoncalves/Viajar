@@ -2,7 +2,7 @@ class Local:
 
     nome = ''
     locais_circundantes = {}
-    coordenadas = (0, 0)  # Ex: (39.00, -9.00)
+    coordenadas = (0, 0)  # Ex: (37.215788, -7.405922)
     altitude = 0  # Metros
     pais = ''
 
