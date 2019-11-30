@@ -171,11 +171,8 @@ class Viajar:
             for x in nomes_locais:
                 if locais_circundantes[x][2] == self.viagem_actual.get_modo():
                     locais_circundantes_modo_actual.append(x)
-                    if self.viagem_actual.get_modo() == mapa.CARRO:
-                        print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ",",
-                              locais_circundantes[x][1], "km)")  # Exemplo: 1 - Laranjeiras (N, 1 km)
-                    else:  # Exemplo: 1 - Sanlúcar del Guadiana (NE)
-                        print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ")")
+                    print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ",",
+                          locais_circundantes[x][1], "km)")  # Exemplo: 1 - Laranjeiras (N, 1 km)
                     iterador += 1
 
             #  Opções de mudança de modo

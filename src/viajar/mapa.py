@@ -55,8 +55,10 @@ BARRA_DO_GUADIANA = "Barra do Guadiana"
 BARRAGEM_DE_ODELEITE = "Barragem de Odeleite"
 BARRAGEM_DO_BELICHE = "Barragem do Beliche"
 BARRANCO_DAS_PEREIRAS = "Barranco das Pereiras"
+BARRANCO_DO_VELHO = "Barranco do Velho"
 BEJA = "Beja"
 BOAVISTA = "Boavista"
+CACELA_VELHA = "Cacela Velha"
 CACHOPO = "Cachopo"
 CAMPO_GOLFE_CASTRO_MARIM = "Campo de Golfe de Castro Marim"
 CARTAYA = "Cartaya"
@@ -127,6 +129,7 @@ ODELEITE = "Odeleite"
 OLHAO = "Olhão"
 PALMEIRA = "Palmeira"
 PARQUE_EMPRESARIAL_ALCOUTIM = "Parque Empresarial de Alcoutim"
+PARQUE_TEMATICO_SERRA_CALDEIRAO = "Parque Temático da Serra do Caldeirão"
 PENHA_DA_AGUIA = "Penha da Águia"
 PEREIRO = "Pereiro"
 PICARRAL = "Piçarral"
@@ -136,6 +139,7 @@ PONTE_CENTENARIO = "Ponte do Centenário"
 PONTE_INTERNACIONAL_GUADIANA = "Ponte Internacional do Guadiana"
 PONTE_RIO_CHANCA = "Ponte sobre o Rio Chança"
 PORTELA_ALTA = "Portela Alta"
+PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
 PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 QUEBRADAS = "Quebradas"
@@ -160,12 +164,14 @@ SEVILHA_CENTRO_HISTORICO = "Sevilha-Centro Histórico"
 SEVILHA_ESTE = "Sevilha-Este"
 SEVILHA_ISLA_DE_LA_CARTUJA = "Sevilha-Isla de la Cartuja"
 SEVILHA_SANTA_JUSTA = "Sevilha-Santa Justa"
+SITIO_DA_FABRICA = "Sítio da Fábrica"
 TARIQUEJO = "Tariquejo"
 TAVIRA = "Tavira"
 TENENCIA = "Tenência"
 VALE_DO_POCO = "Vale do Poço"
 VAQUEIROS = "Vaqueiros"
 VILA_NOVA_DE_CACELA = "Vila Nova de Cacela"
+VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"
 VILLABLANCA = "Villablanca"
 VILLANUEVA_DE_LOS_CASTILLEJOS = "Villanueva de los Castillejos"
 VRSA = "Vila Real de Santo António"
@@ -209,7 +215,10 @@ A22_SAIDA_17__ALTURA = 2.4
 A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM = 1.1
 A22_SAIDA_18__CASTRO_MARIM = 1.7
 A22_SAIDA_18__IC27_INICIO = 0.5
+AEROPORTO_DE_BEJA__AEROPORTO_DE_FARO = 115.7
+AEROPORTO_DE_BEJA__AEROPORTO_DE_SEVILHA = 193.4
 AEROPORTO_DE_BEJA__BEJA = 9.6
+AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA = 188.9
 AEROPORTO_DE_FARO__FARO_OESTE = 5.6
 AEROPORTO_DE_SEVILHA__SEVILHA_ESTE = 4.3
 ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE = 0.5
@@ -245,12 +254,16 @@ BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA = 1.0
 BARRAGEM_DO_BELICHE__JUNQUEIRA = 5.8
 BARRAGEM_DO_BELICHE__SENTINELA = 3.6
 BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE = 2.4
+BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO = 0.9
+BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL = 14.1
 BEJA__IP2_SAIDA_44 = 13.2
 BEJA__SERPA = 27.9
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
+CACELA_VELHA__SITIO_DA_FABRICA = 1.3
+CACELA_VELHA__VILA_NOVA_DE_CACELA = 2.5
 CACHOPO__MARTINLONGO = 16.2
-CACHOPO__SAO_BRAS_ALPORTEL = 36.4
+CACHOPO__PARQUE_TEMATICO_SERRA_CALDEIRAO = 21.8
 CACHOPO__VAQUEIROS = 16.7
 CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
 CARTAYA__LEPE = 9.3
@@ -283,6 +296,7 @@ CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
 CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
 CRUZAMENTO_N265_N392__SERPA = 17.7
 CRUZAMENTO_N265_N392__VALE_DO_POCO = 7.5
+CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO = 19.5
 CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO = 1.4
 DUNAS_DE_VRSA__MONTE_GORDO = 1.7
 DUNAS_DE_VRSA__VRSA = 2.0
@@ -290,9 +304,12 @@ EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
 EL_GRANADO__SANLUCAR_DEL_GUADIANA = 7.8
 EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.4
 ESPIRITO_SANTO__RIBEIRA_DO_VASCAO = 6.9
+ESTACAO_CACELA__ESTACAO_CASTRO_MARIM = 5.9
 ESTACAO_CACELA__VILA_NOVA_DE_CACELA = 0.8
+ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO = 3.4
 ESTACAO_MONTE_GORDO__HORTAS = 0.9
 ESTACAO_MONTE_GORDO__MONTE_GORDO = 1.5
+ESTACAO_MONTE_GORDO__VRSA = 2.6
 FARO_ESTE__FARO_OESTE = 2.3
 FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
@@ -342,6 +359,7 @@ POMARAO__SALGUEIROS = 4.6
 PONTE_CENTENARIO__SE_30_SAIDA_12 = 1.5
 PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA = 6.0
 PORTELA_ALTA__QUEBRADAS = 1.2
+PRAIA_CACELA_VELHA__SITIO_DA_FABRICA = 1.0
 QUEBRADAS__SENTINELA = 2.5
 RIBEIRA_DO_VASCAO__SANTA_MARTA = 3.6
 SAN_BARTOLOME_DE_LA_TORRE__VILLANUEVA_DE_LOS_CASTILLEJOS = 16.8
@@ -352,6 +370,7 @@ SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA = 9.6
 SAPAL_SUL__VRSA = 1.8
 SE_30_SAIDA_12__SE_30_SAIDA_14 = 1.7
 SE_30_SAIDA_14__SE_30_SAIDA_15 = 1.3
+SERPA__VILA_NOVA_SAO_BENTO = 18.1
 SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA = 2.0
 SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
 SEVILHA_ESTE__SEVILHA_SANTA_JUSTA = 5.0
@@ -393,8 +412,7 @@ class Mapa:
 
         a_49_saida_5 = local_espanha.LocalEspanha(
             A_49_SAIDA_5,
-            {CRUZAMENTO_A_49_SE_40:
-                 [SUDOESTE, A_49_SAIDA_5__CRUZAMENTO_A_49_SE_40, CARRO],
+            {CRUZAMENTO_A_49_SE_40: [SUDOESTE, A_49_SAIDA_5__CRUZAMENTO_A_49_SE_40, CARRO],
              A_49_SAIDA_3: [NORDESTE, A_49_SAIDA_3__A_49_SAIDA_5, CARRO]},
             37.375756, -6.081259, 107, locais.MUNICIPIO_BORMUJOS, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA)
@@ -408,84 +426,117 @@ class Mapa:
             37.356547, -6.957409, 18, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
             locais.PROVINCIA_HUELVA)
 
-        a_49_saida_105 = local.Local(A_49_SAIDA_105,
-                                     {A_49_SAIDA_117: [SUDOESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
-                                      A_49_SAIDA_87: [ESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
-                                      CARTAYA: [SUL, A_49_SAIDA_105__CARTAYA, CARRO],
-                                      TARIQUEJO: [NORTE, A_49_SAIDA_105__TARIQUEJO, CARRO]})
+        a_49_saida_105 = local_espanha.LocalEspanha(
+            A_49_SAIDA_105,
+            {A_49_SAIDA_117: [SUDOESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
+             A_49_SAIDA_87: [ESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
+             CARTAYA: [SUL, A_49_SAIDA_105__CARTAYA, CARRO],
+             TARIQUEJO: [NORTE, A_49_SAIDA_105__TARIQUEJO, CARRO]},
+            37.333403, -7.155361, 54, locais.MUNICIPIO_CARTAYA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        a_49_saida_117 = local.Local(A_49_SAIDA_117,
-                                     {A_49_SAIDA_105: [NORDESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
-                                      A_49_SAIDA_122: [SUDOESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
-                                      VILLABLANCA: [NOROESTE, A_49_SAIDA_117__VILLABLANCA, CARRO],
-                                      LEPE: [SUDESTE, A_49_SAIDA_117__LEPE, CARRO]})
+        a_49_saida_117 = local_espanha.LocalEspanha(
+            A_49_SAIDA_117,
+            {A_49_SAIDA_105: [NORDESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
+             A_49_SAIDA_122: [SUDOESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+             VILLABLANCA: [NOROESTE, A_49_SAIDA_117__VILLABLANCA, CARRO],
+             LEPE: [SUDESTE, A_49_SAIDA_117__LEPE, CARRO]},
+            37.275938, -7.250109, 48, locais.MUNICIPIO_LEPE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        a_49_saida_122 = local.Local(A_49_SAIDA_122,
-                                     {A_49_SAIDA_125: [SUDOESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO],
-                                      A_49_SAIDA_117: [NORDESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
-                                      ISLA_CRISTINA: [SUL, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]})
+        a_49_saida_122 = local_espanha.LocalEspanha(
+            A_49_SAIDA_122,
+            {A_49_SAIDA_125: [SUDOESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO],
+             A_49_SAIDA_117: [NORDESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+             ISLA_CRISTINA: [SUL, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]},
+            37.260188, -7.305056, 52, locais.MUNICIPIO_ISLA_CRISTINA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA
+        )
 
-        a_49_saida_125 = local.Local(A_49_SAIDA_125,
-                                     {VILLABLANCA: [NORTE, A_49_SAIDA_125__VILLABLANCA, CARRO],
-                                      A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
-                                      A_49_SAIDA_122: [NORDESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO]})
+        a_49_saida_125 = local_espanha.LocalEspanha(
+            A_49_SAIDA_125,
+            {VILLABLANCA: [NORTE, A_49_SAIDA_125__VILLABLANCA, CARRO],
+             A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
+             A_49_SAIDA_122: [NORDESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO]},
+            37.250704, -7.337204, 41, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        a_49_saida_129 = local.Local(A_49_SAIDA_129,
-                                     {A_49_SAIDA_125: [ESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
-                                      A_49_SAIDA_131: [OESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
-                                      AYAMONTE: [SUDOESTE, A_49_SAIDA_129__AYAMONTE, CARRO]})
+        a_49_saida_129 = local_espanha.LocalEspanha(
+            A_49_SAIDA_129,
+            {A_49_SAIDA_125: [ESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
+             A_49_SAIDA_131: [OESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
+             AYAMONTE: [SUDOESTE, A_49_SAIDA_129__AYAMONTE, CARRO]},
+            37.239183, -7.378359, 10, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        a_49_saida_131 = local.Local(A_49_SAIDA_131,
-                                     {A_49_SAIDA_129: [ESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
-                                      AYAMONTE: [SUL, A_49_SAIDA_131__AYAMONTE, CARRO],
-                                      COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
-                                      PONTE_INTERNACIONAL_GUADIANA: [OESTE,
-                                                                     A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA,
-                                                                     CARRO]})
+        a_49_saida_131 = local_espanha.LocalEspanha(
+            A_49_SAIDA_131,
+            {A_49_SAIDA_129: [ESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
+             AYAMONTE: [SUL, A_49_SAIDA_131__AYAMONTE, CARRO],
+             COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
+             PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]},
+            37.238819, -7.404641, 8, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        a22_saida_14 = local.Local(A22_SAIDA_14,
-                                   {A22_SAIDA_15: [ESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
-                                    SAO_BRAS_DE_ALPORTEL: [NORTE, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
-                                    FARO_OESTE: [SUL, A22_SAIDA_14__FARO_OESTE, CARRO]})
+        a22_saida_14 = local_portugal.LocalPortugal(
+            A22_SAIDA_14,
+            {A22_SAIDA_15: [ESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
+             SAO_BRAS_DE_ALPORTEL: [NORTE, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
+             FARO_OESTE: [SUL, A22_SAIDA_14__FARO_OESTE, CARRO]},
+            37.095890, -7.916541, 89, locais.FREGUESIA_ESTOI, locais.CONCELHO_FARO)
 
-        a22_saida_15 = local.Local(A22_SAIDA_15,
-                                   {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
-                                    A22_SAIDA_16: [NORDESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
-                                    FUSETA: [SUDESTE, A22_SAIDA_15__FUSETA, CARRO],
-                                    OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO]})
+        a22_saida_15 = local_portugal.LocalPortugal(
+            A22_SAIDA_15,
+            {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
+             A22_SAIDA_16: [NORDESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
+             FUSETA: [SUDESTE, A22_SAIDA_15__FUSETA, CARRO],
+             OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO]},
+            37.107910, -7.800772, 116, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
-        a22_saida_16 = local.Local(A22_SAIDA_16,
-                                   {A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
-                                    A22_SAIDA_15: [SUDOESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
-                                    TAVIRA: [SUDESTE, A22_SAIDA_16__TAVIRA, CARRO]})
+        a22_saida_16 = local_portugal.LocalPortugal(
+            A22_SAIDA_16,
+            {A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+             A22_SAIDA_15: [SUDOESTE, A22_SAIDA_15__A22_SAIDA_16, CARRO],
+             TAVIRA: [SUDESTE, A22_SAIDA_16__TAVIRA, CARRO]},
+            37.137293, -7.694742, 97, locais.FREGUESIA_SANTIAGO_TAVIRA, locais.CONCELHO_TAVIRA)
 
-        a22_saida_17 = local.Local(A22_SAIDA_17,
-                                   {A22_SAIDA_18: [NORDESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
-                                    A22_SAIDA_16: [SUDOESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
-                                    ALTURA: [SUL, A22_SAIDA_17__ALTURA, CARRO]})
+        a22_saida_17 = local_portugal.LocalPortugal(
+            A22_SAIDA_17,
+            {A22_SAIDA_18: [NORDESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
+             A22_SAIDA_16: [SUDOESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+             ALTURA: [SUL, A22_SAIDA_17__ALTURA, CARRO]},
+            37.199341, -7.497140, 18, locais.FREGUESIA_ALTURA, locais.CONCELHO_CASTRO_MARIM)
 
-        a22_saida_18 = local.Local(A22_SAIDA_18,
-                                   {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
-                                    AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM,
-                                                                CARRO],
-                                    CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO],
-                                    A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO]})
+        a22_saida_18 = local_portugal.LocalPortugal(
+            A22_SAIDA_18,
+            {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
+             AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
+             CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO],
+             A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO]},
+            37.230909, -7.448239, 22, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        aeroporto_de_beja = local.Local(AEROPORTO_DE_BEJA,
-                                        {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
-                                         AEROPORTO_DE_FARO: [SUL, 0, AVIAO],
-                                         AEROPORTO_DE_SEVILHA: [SUDESTE, 0, AVIAO]})
+        aeroporto_de_beja = local_portugal.LocalPortugal(
+            AEROPORTO_DE_BEJA,
+            {BEJA: [SUDESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
+             AEROPORTO_DE_FARO: [SUL, AEROPORTO_DE_BEJA__AEROPORTO_DE_FARO, AVIAO],
+             AEROPORTO_DE_SEVILHA: [SUDESTE, AEROPORTO_DE_BEJA__AEROPORTO_DE_SEVILHA, AVIAO]},
+            38.063206, -7.939608, 188, locais.FREGUESIA_SAO_BRISSOS, locais.CONCELHO_BEJA)
 
-        aeroporto_de_faro = local.Local(AEROPORTO_DE_FARO,
-                                        {FARO_OESTE: [ESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
-                                         AEROPORTO_DE_BEJA: [NORTE, 0, AVIAO],
-                                         AEROPORTO_DE_SEVILHA: [NORDESTE, 0, AVIAO]})
+        aeroporto_de_faro = local_portugal.LocalPortugal(
+            AEROPORTO_DE_FARO,
+            {FARO_OESTE: [ESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
+             AEROPORTO_DE_BEJA: [NORTE, AEROPORTO_DE_BEJA__AEROPORTO_DE_FARO, AVIAO],
+             AEROPORTO_DE_SEVILHA: [NORDESTE, AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA, AVIAO]},
+            37.021647, -7.967967, 6, locais.FREGUESIA_MONTENEGRO, locais.CONCELHO_FARO)
 
-        aeroporto_de_sevilha = local.Local(AEROPORTO_DE_SEVILHA,
-                                           {SEVILHA_ESTE: [SUDOESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO],
-                                            AEROPORTO_DE_BEJA: [NOROESTE, 0, AVIAO],
-                                            AEROPORTO_DE_FARO: [SUDOESTE, 0, AVIAO],
-                                            SEVILHA_SANTA_JUSTA: [SUDOESTE, 0, METRO]})
+        aeroporto_de_sevilha = local_espanha_cidade.LocalEspanhaCidade(
+            AEROPORTO_DE_SEVILHA,
+            {SEVILHA_ESTE: [SUDOESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO],
+             AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__AEROPORTO_DE_SEVILHA, AVIAO],
+             AEROPORTO_DE_FARO: [SUDOESTE, AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA, AVIAO],
+             SEVILHA_SANTA_JUSTA: [SUDOESTE, 0, METRO]},
+            37.423697, -5.899924, 31, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
 
         alamo_alcoutim = local.Local(ALAMO_ALCOUTIM,
                                      {ROTUNDA_DA_ARVORE: [NORTE, ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE, CARRO],
@@ -565,6 +616,13 @@ class Mapa:
                                             {ALAMO_ALCOUTIM: [NORTE, ALAMO_ALCOUTIM__BARRANCO_DAS_PEREIRAS, CARRO],
                                              FOZ_DE_ODELEITE: [SUL, BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE, CARRO]})
 
+        barranco_do_velho = local_portugal.LocalPortugal(
+            BARRANCO_DO_VELHO,
+            {SAO_BRAS_DE_ALPORTEL: [SUL, BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL, CARRO],
+             PARQUE_TEMATICO_SERRA_CALDEIRAO: [NORDESTE, BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
+            37.237686, -7.936897, 471, locais.FREGUESIA_SALIR, locais.CONCELHO_LOULE
+        )
+
         balurco_de_baixo = local.Local(BALURCO_DE_BAIXO,
                                        {CORTE_DAS_DONAS: [SUDESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
                                         PARQUE_EMPRESARIAL_ALCOUTIM: [NORTE,
@@ -587,10 +645,20 @@ class Mapa:
                                 ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
                                 PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]})
 
-        cachopo = local.Local(CACHOPO,
-                              {MARTINLONGO: [NORTE, CACHOPO__MARTINLONGO, CARRO],
-                               VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO],
-                               SAO_BRAS_DE_ALPORTEL: [SUL, CACHOPO__SAO_BRAS_ALPORTEL, CARRO]})
+        cacela_velha = local_portugal.LocalPortugal(
+            CACELA_VELHA,
+            {VILA_NOVA_DE_CACELA: [NORDESTE, CACELA_VELHA__VILA_NOVA_DE_CACELA, CARRO],
+             SITIO_DA_FABRICA: [SUDOESTE, CACELA_VELHA__SITIO_DA_FABRICA, CARRO]},
+            37.157275, -7.546349, 26, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
+        )
+
+        cachopo = local_portugal.LocalPortugal(
+            CACHOPO,
+            {MARTINLONGO: [NORTE, CACHOPO__MARTINLONGO, CARRO],
+             VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO],
+             PARQUE_TEMATICO_SERRA_CALDEIRAO: [SUDOESTE, CACHOPO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
+            37.332957, -7.817305, 387, locais.FREGUESIA_CACHOPO, locais.CONCELHO_TAVIRA
+        )
 
         campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
                                                {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1,
@@ -713,9 +781,13 @@ class Mapa:
                                               PRAIA_VERDE: [SUL, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO],
                                               ALTURA: [SUDOESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO]})
 
-        cruzamento_n265_n392 = local.Local(CRUZAMENTO_N265_N392,
-                                           {VALE_DO_POCO: [SUL, CRUZAMENTO_N265_N392__VALE_DO_POCO, CARRO],
-                                            SERPA: [NOROESTE, CRUZAMENTO_N265_N392__SERPA, CARRO]})
+        cruzamento_n265_n392 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N265_N392,
+            {VALE_DO_POCO: [SUL, CRUZAMENTO_N265_N392__VALE_DO_POCO, CARRO],
+             SERPA: [NOROESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
+             VILA_NOVA_SAO_BENTO: [NORDESTE, CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO, CARRO]},
+            37.820185, -7.500759, 233, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA
+        )
 
         dunas_vrsa = local.Local(DUNAS_DE_VRSA,
                                  {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
@@ -732,25 +804,32 @@ class Mapa:
                                       ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
                                       BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
 
-        estacao_cacela = local.Local(ESTACAO_CACELA,
-                                     {VILA_NOVA_DE_CACELA: [SUDESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO],
-                                      ESTACAO_CASTRO_MARIM: [NORDESTE, 0, COMBOIO],
-                                      TAVIRA: [SUDOESTE, 0, COMBOIO]})
+        estacao_cacela = local_portugal.LocalPortugal(
+            ESTACAO_CACELA,
+            {VILA_NOVA_DE_CACELA: [SUDESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO],
+             ESTACAO_CASTRO_MARIM: [NORDESTE, ESTACAO_CACELA__ESTACAO_CASTRO_MARIM, COMBOIO],
+             TAVIRA: [SUDOESTE, 0, COMBOIO]},
+            37.176448, -7.538596, 39, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
+        )
 
-        estacao_castro_marim = local.Local(ESTACAO_CASTRO_MARIM,
-                                           {CRUZAMENTO_N125_N125_6: [SUL, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM,
-                                                                     CARRO],
-                                            CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
-                                            ESTACAO_MONTE_GORDO: [SUDESTE, 0, COMBOIO],
-                                            ESTACAO_CACELA: [SUDOESTE, 0, COMBOIO]})
+        estacao_castro_marim = local_portugal.LocalPortugal(
+            ESTACAO_CASTRO_MARIM,
+            {CRUZAMENTO_N125_N125_6: [SUL, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
+             CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
+             ESTACAO_MONTE_GORDO: [SUDESTE, ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO, COMBOIO],
+             ESTACAO_CACELA: [SUDOESTE, ESTACAO_CACELA__ESTACAO_CASTRO_MARIM, COMBOIO]},
+            37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM
+        )
 
-        estacao_monte_gordo = local.Local(ESTACAO_MONTE_GORDO,
-                                          {HORTAS: [SUDESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
-                                           MONTE_GORDO: [SUL, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
-                                           CRUZAMENTO_N125_N125_6: [OESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO,
-                                                                    CARRO],
-                                           VRSA: [NORDESTE, 0, COMBOIO],
-                                           ESTACAO_CASTRO_MARIM: [NOROESTE, 0, COMBOIO]})
+        estacao_monte_gordo = local_portugal.LocalPortugal(
+            ESTACAO_MONTE_GORDO,
+            {HORTAS: [SUDESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
+             MONTE_GORDO: [SUL, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
+             CRUZAMENTO_N125_N125_6: [OESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO, CARRO],
+             VRSA: [NORDESTE, ESTACAO_MONTE_GORDO__VRSA, COMBOIO],
+             ESTACAO_CASTRO_MARIM: [NOROESTE, ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO, COMBOIO]},
+            37.190063, -7.448293, 3, locais.FREGUESIA_MONTE_GORDO, locais.CONCELHO_VRSA
+        )
 
         faro_este = local.Local(FARO_ESTE,
                                 {OLHAO: [ESTE, FARO_ESTE__OLHAO, CARRO],
@@ -966,6 +1045,13 @@ class Mapa:
                                                    CORTE_TABELIAO: [NORTE, CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM,
                                                                     CARRO]})
 
+        parque_tematico_serra_caldeirao = local_portugal.LocalPortugal(
+            PARQUE_TEMATICO_SERRA_CALDEIRAO,
+            {BARRANCO_DO_VELHO: [SUDOESTE, BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO],
+             CACHOPO: [NORDESTE, CACHOPO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
+            37.242737, -7.933784, 482, locais.FREGUESIA_SALIR, locais.CONCELHO_LOULE
+        )
+
         penha_da_aguia = local.Local(PENHA_DA_AGUIA,
                                      {BOAVISTA: [SUDOESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO],
                                       POMARAO: [SUDESTE, 0, BARCO],
@@ -1011,6 +1097,12 @@ class Mapa:
         portela_alta = local.Local(PORTELA_ALTA,
                                    {IC27_SAIDA_3: [NORDESTE, IC27_SAIDA_3__PORTELA_ALTA, CARRO],
                                     QUEBRADAS: [OESTE, PORTELA_ALTA__QUEBRADAS, CARRO]})
+
+        praia_cacela_velha = local_portugal.LocalPortugal(
+            PRAIA_CACELA_VELHA,
+            {SITIO_DA_FABRICA: [OESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO]},
+            37.152880, -7.542684, 0, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
+        )
 
         praia_verde = local.Local(PRAIA_VERDE,
                                   {CRUZAMENTO_N125_N125_6: [NORTE, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO]})
@@ -1077,9 +1169,12 @@ class Mapa:
                                   {CRUZAMENTO_N122_M507: [SUDESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO],
                                    RIBEIRA_DO_VASCAO: [NORTE, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO]})
 
-        sao_bras_de_alportel = local.Local(SAO_BRAS_DE_ALPORTEL,
-                                           {A22_SAIDA_14: [SUL, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
-                                            CACHOPO: [NORTE, CACHOPO__SAO_BRAS_ALPORTEL, CARRO]})
+        sao_bras_de_alportel = local_portugal.LocalPortugal(
+            SAO_BRAS_DE_ALPORTEL,
+            {A22_SAIDA_14: [SUL, A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL, CARRO],
+             BARRANCO_DO_VELHO: [NORTE, BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL, CARRO]},
+            37.152685, -7.888386, 248, locais.FREGUESIA_SAO_BRAS_ALPORTEL, locais.CONCELHO_SAO_BRAS_ALPORTEL
+        )
 
         sapal_norte = local.Local(SAPAL_NORTE,
                                   {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL_NORTE, CARRO]})
@@ -1117,9 +1212,13 @@ class Mapa:
                                  QUEBRADAS: [NOROESTE, QUEBRADAS__SENTINELA, CARRO],
                                  BARRAGEM_DO_BELICHE: [SUL, BARRAGEM_DO_BELICHE__SENTINELA, CARRO]})
 
-        serpa = local.Local(SERPA,
-                            {CRUZAMENTO_N265_N392: [SUDESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
-                             BEJA: [NOROESTE, BEJA__SERPA, CARRO]})
+        serpa = local_portugal.LocalPortugal(
+            SERPA,
+            {CRUZAMENTO_N265_N392: [SUDESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
+             BEJA: [NOROESTE, BEJA__SERPA, CARRO],
+             VILA_NOVA_SAO_BENTO: [ESTE, SERPA__VILA_NOVA_SAO_BENTO, CARRO]},
+            37.944035, -7.597431, 215, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA
+        )
 
         sevilha_centro_historico = local.Local(SEVILHA_CENTRO_HISTORICO,
                                                {SEVILHA_ISLA_DE_LA_CARTUJA: [NOROESTE,
@@ -1135,8 +1234,8 @@ class Mapa:
 
         sevilha_isla_de_la_cartuja = local.Local(SEVILHA_ISLA_DE_LA_CARTUJA,
                                                  {CRUZAMENTO_A_49_SE_30: [OESTE,
-                                                                 CRUZAMENTO_A_49_SE_30__SEVILHA_ISLA_DE_LA_CARTUJA,
-                                                                 CARRO],
+                                                                          CRUZAMENTO_A_49_SE_30__SEVILHA_ISLA_DE_LA_CARTUJA,
+                                                                          CARRO],
                                                   SEVILHA_CENTRO_HISTORICO: [SUDESTE,
                                                                              SEVILHA_CENTRO_HISTORICO__SEVILHA_ISLA_DE_LA_CARTUJA,
                                                                              CARRO],
@@ -1150,6 +1249,13 @@ class Mapa:
                                            HUELVA: [OESTE, 0, COMBOIO],
                                            SEVILHA_ISLA_DE_LA_CARTUJA: [OESTE, 0, METRO],
                                            AEROPORTO_DE_SEVILHA: [NORDESTE, 0, METRO]})
+
+        sitio_da_fabrica = local_portugal.LocalPortugal(
+            SITIO_DA_FABRICA,
+            {CACELA_VELHA: [NORDESTE, CACELA_VELHA__SITIO_DA_FABRICA, CARRO],
+             PRAIA_CACELA_VELHA: [ESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO]},
+            37.154436, -7.553698, 9, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
+        )
 
         tariquejo = local.Local(TARIQUEJO,
                                 {A_49_SAIDA_105: [SUL, A_49_SAIDA_105__TARIQUEJO, CARRO],
@@ -1178,23 +1284,32 @@ class Mapa:
                                  ALTA_MORA: [SUDESTE, ALTA_MORA__VAQUEIROS, CARRO],
                                  CACHOPO: [SUDOESTE, CACHOPO__VAQUEIROS, CARRO]})
 
-        vila_nova_de_cacela = local.Local(VILA_NOVA_DE_CACELA,
-                                          {ALTURA: [ESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO],
-                                           MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
-                                           CONCEICAO: [SUDOESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
-                                           ESTACAO_CACELA: [NOROESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO]})
+        vila_nova_de_cacela = local_portugal.LocalPortugal(
+            VILA_NOVA_DE_CACELA,
+            {ALTURA: [ESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO],
+             MANTA_ROTA: [SUDESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO],
+             CONCEICAO: [SUDOESTE, CONCEICAO__VILA_NOVA_DE_CACELA, CARRO],
+             ESTACAO_CACELA: [NOROESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO],
+             CACELA_VELHA: [SUDOESTE, CACELA_VELHA__VILA_NOVA_DE_CACELA, CARRO]},
+            37.173663, -7.531126, 24, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
+        )
 
-        vila_real_de_santo_antonio = local_portugal.LocalPortugal(VRSA,
-                                                                  {SAPAL_SUL: [NOROESTE, SAPAL_SUL__VRSA, CARRO],
-                                                                   BARRA_DO_GUADIANA: [SUDESTE, BARRA_DO_GUADIANA__VRSA,
-                                                                                       CARRO],
-                                                                   HORTAS: [OESTE, HORTAS__VRSA, CARRO],
-                                                                   DUNAS_DE_VRSA: [SUDOESTE, DUNAS_DE_VRSA__VRSA,
-                                                                                   CARRO],
-                                                                   AYAMONTE: [NORDESTE, 0, BARCO],
-                                                                   ESTACAO_MONTE_GORDO: [SUDOESTE, 0, COMBOIO]},
-                                                                  37.194148, -7.418000, 8, locais.FREGUESIA_VRSA,
-                                                                  locais.CONCELHO_VRSA)
+        vila_nova_sao_bento = local_portugal.LocalPortugal(
+            VILA_NOVA_SAO_BENTO,
+            {SERPA: [OESTE, SERPA__VILA_NOVA_SAO_BENTO, CARRO],
+             CRUZAMENTO_N265_N392: [SUDOESTE, CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO, CARRO]},
+            37.925569, -7.409812, 247, locais.FREGUESIA_VILA_NOVA_SAO_BENTO, locais.CONCELHO_SERPA
+        )
+
+        vila_real_de_santo_antonio = local_portugal.LocalPortugal(
+            VRSA,
+            {SAPAL_SUL: [NOROESTE, SAPAL_SUL__VRSA, CARRO],
+             BARRA_DO_GUADIANA: [SUDESTE, BARRA_DO_GUADIANA__VRSA, CARRO],
+             HORTAS: [OESTE, HORTAS__VRSA, CARRO],
+             DUNAS_DE_VRSA: [SUDOESTE, DUNAS_DE_VRSA__VRSA, CARRO],
+             AYAMONTE: [NORDESTE, 0, BARCO],
+             ESTACAO_MONTE_GORDO: [SUDOESTE, ESTACAO_MONTE_GORDO__VRSA, COMBOIO]},
+            37.194148, -7.418000, 8, locais.FREGUESIA_VRSA, locais.CONCELHO_VRSA)
 
         villablanca = local.Local(VILLABLANCA,
                                   {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
@@ -1249,8 +1364,10 @@ class Mapa:
         self.lista_locais.append(barragem_de_odeleite)
         self.lista_locais.append(barragem_do_beliche)
         self.lista_locais.append(barranco_das_pereiras)
+        self.lista_locais.append(barranco_do_velho)
         self.lista_locais.append(beja)
         self.lista_locais.append(boavista)
+        self.lista_locais.append(cacela_velha)
         self.lista_locais.append(cachopo)
         self.lista_locais.append(campo_golfe_castro_marim)
         self.lista_locais.append(cartaya)
@@ -1321,6 +1438,7 @@ class Mapa:
         self.lista_locais.append(olhao)
         self.lista_locais.append(palmeira)
         self.lista_locais.append(parque_empresarial_alcoutim)
+        self.lista_locais.append(parque_tematico_serra_caldeirao)
         self.lista_locais.append(penha_da_aguia)
         self.lista_locais.append(pereiro)
         self.lista_locais.append(picarral)
@@ -1330,6 +1448,7 @@ class Mapa:
         self.lista_locais.append(ponte_internacional_guadiana)
         self.lista_locais.append(ponte_rio_chanca)
         self.lista_locais.append(portela_alta)
+        self.lista_locais.append(praia_cacela_velha)
         self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
         self.lista_locais.append(quebradas)
@@ -1354,12 +1473,14 @@ class Mapa:
         self.lista_locais.append(sevilha_este)
         self.lista_locais.append(sevilha_isla_de_la_cartuja)
         self.lista_locais.append(sevilha_santa_justa)
+        self.lista_locais.append(sitio_da_fabrica)
         self.lista_locais.append(tariquejo)
         self.lista_locais.append(tavira)
         self.lista_locais.append(tenencia)
         self.lista_locais.append(vale_do_poco)
         self.lista_locais.append(vaqueiros)
         self.lista_locais.append(vila_nova_de_cacela)
+        self.lista_locais.append(vila_nova_sao_bento)
         self.lista_locais.append(vila_real_de_santo_antonio)
         self.lista_locais.append(villablanca)
         self.lista_locais.append(villanueva_de_los_castillejos)
