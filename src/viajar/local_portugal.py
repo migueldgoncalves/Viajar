@@ -70,7 +70,8 @@ class LocalPortugal(local.Local):
 
     #  Ex: Odeleite, Castro Marim, Distrito de Faro
     def imprimir_info_breve(self):
-        print("Está em", self.nome + ",", self.concelho + ", Distrito de", self.distrito)
+        nome = self.nome.split(",")[0]  # Ex: "Álamo, Alcoutim" e "Álamo, Mértola" -> Álamo
+        print("Está em", nome + ",", self.concelho + ", Distrito de", self.distrito)
 
     def imprimir_info_completa(self):
         if self.altitude == 1:

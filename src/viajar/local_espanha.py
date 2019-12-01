@@ -49,7 +49,8 @@ class LocalEspanha(local.Local):
 
     #  Ex: Ayamonte, Província de Huelva, Andalucía
     def imprimir_info_breve(self):
-        print("Está em", self.nome + ",", "Província de", self.provincia + ",", self.comunidade_autonoma)
+        nome = self.nome.split(",")[0]  # Ex: "Álamo, Alcoutim" e "Álamo, Mértola" -> Álamo
+        print("Está em", nome + ",", "Província de", self.provincia + ",", self.comunidade_autonoma)
 
     def imprimir_info_completa(self):
         if self.altitude == 1:

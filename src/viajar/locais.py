@@ -93,6 +93,7 @@ baixo_alentejo_regiao = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 #  Freguesias do Algarve
 FREGUESIA_ALCOUTIM = "Alcoutim"
 FREGUESIA_ALTURA = "Altura"
+FREGUESIA_AZINHAL = "Azinhal"
 FREGUESIA_CACHOPO = "Cachopo"
 FREGUESIA_CASTRO_MARIM = "Castro Marim"
 FREGUESIA_ESTOI = "Estoi"
@@ -101,6 +102,7 @@ FREGUESIA_MARTINLONGO = "Martinlongo"
 FREGUESIA_MONCARAPACHO = "Moncarapacho"
 FREGUESIA_MONTE_GORDO = "Monte Gordo"
 FREGUESIA_MONTENEGRO = "Montenegro"
+FREGUESIA_ODELEITE = "Odeleite"
 FREGUESIA_PEREIRO = "Pereiro"
 FREGUESIA_SALIR = "Salir"
 FREGUESIA_SANTIAGO_TAVIRA = "Santiago"
@@ -110,6 +112,7 @@ FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"
 FREGUESIA_VRSA = "Vila Real de Santo António"
 
 #  Freguesias do Baixo Alentejo
+FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"
 FREGUESIA_SAO_BRISSOS = "São Brissos"
 FREGUESIA_SERPA = "Serpa"
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"
