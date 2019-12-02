@@ -45,6 +45,7 @@ ALCOUTIM = "Alcoutim"
 ALMADA_DE_OURO = "Almada de Ouro"
 ALTA_MORA = "Alta Mora"
 ALTURA = "Altura"
+ANTIGA_ESTACAO_ISLA_CRISTINA = "Antiga Estação de Isla Cristina-Pozo del Camino"
 AREA_REPOUSO_CASTRO_MARIM = "Área de Repouso de Castro Marim"
 AYAMONTE = "Ayamonte"
 AZINHAL = "Azinhal"
@@ -56,6 +57,7 @@ BARRAGEM_DE_ODELEITE = "Barragem de Odeleite"
 BARRAGEM_DO_BELICHE = "Barragem do Beliche"
 BARRANCO_DAS_PEREIRAS = "Barranco das Pereiras"
 BARRANCO_DO_VELHO = "Barranco do Velho"
+BARRIADA_DE_CANELA = "Barriada de Canela"
 BEJA = "Beja"
 BOAVISTA = "Boavista"
 CACELA_VELHA = "Cacela Velha"
@@ -111,13 +113,13 @@ IC27_SAIDA_5 = locais.nome_saida_via_rapida(locais.IC27, 5)
 IC27_SAIDA_6 = locais.nome_saida_via_rapida(locais.IC27, 6)
 IC27_SAIDA_7 = locais.nome_saida_via_rapida(locais.IC27, 7)
 IP2_SAIDA_44 = locais.nome_saida_via_rapida(locais.IP2, 44)
-ISLA_CANELA = "Isla Canela"
 ISLA_CRISTINA = "Isla Cristina"
 JUNQUEIRA = "Junqueira"
 LARANJEIRAS = "Laranjeiras"
 LEPE = "Lepe"
 MANTA_ROTA = "Manta Rota"
 MARTINLONGO = "Martinlongo"
+MARISMAS_ISLA_CRISTINA = "Marismas de Isla Cristina"
 MENIRES_DO_LAVAJO = "Menires do Lavajo"
 MERTOLA = "Mértola"
 MESQUITA = "Mesquita"
@@ -141,9 +143,12 @@ PONTE_CENTENARIO = "Ponte do Centenário"
 PONTE_INTERNACIONAL_GUADIANA = "Ponte Internacional do Guadiana"
 PONTE_RIO_CHANCA = "Ponte sobre o Rio Chança"
 PORTELA_ALTA = "Portela Alta"
+POZO_DEL_CAMINO = "Pozo del Camino"
 PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
+PRAIA_ISLA_CANELA = "Praia de Isla Canela"
 PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
+PUNTA_DEL_MORAL = "Punta del Moral"
 QUEBRADAS = "Quebradas"
 RIA_FORMOSA_NORTE = "Ria Formosa - Norte"
 RIA_FORMOSA_SUL = "Ria Formosa - Sul"
@@ -197,7 +202,7 @@ A_49_SAIDA_117__A_49_SAIDA_122 = 5.3
 A_49_SAIDA_117__LEPE = 6.5
 A_49_SAIDA_117__VILLABLANCA = 9.1
 A_49_SAIDA_122__A_49_SAIDA_125 = 3.1
-A_49_SAIDA_122__ISLA_CRISTINA = 7.9
+A_49_SAIDA_122__POZO_DEL_CAMINO = 4.4
 A_49_SAIDA_125__VILLABLANCA = 6.1
 A_49_SAIDA_125__A_49_SAIDA_129 = 3.9
 A_49_SAIDA_129__A_49_SAIDA_131 = 2.3
@@ -246,9 +251,12 @@ ALTA_MORA__QUEBRADAS = 7.0
 ALTA_MORA__VAQUEIROS = 21.1
 ALTURA__CRUZAMENTO_N125_N125_6 = 2.2
 ALTURA__VILA_NOVA_DE_CACELA = 3.5
+ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE = 7.3
+ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA = 3.0
+ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO = 0.9
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
 AYAMONTE__COSTA_ESURI = 7.6
-AYAMONTE__ISLA_CANELA = 6.9
+AYAMONTE__BARRIADA_DE_CANELA = 2.2
 AYAMONTE__VRSA = 2.2
 AZINHAL__IC27_SAIDA_2 = 2.7
 AZINHAL_JUNQUEIRA = 4.4
@@ -267,6 +275,7 @@ BARRAGEM_DO_BELICHE__SENTINELA = 3.6
 BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE = 2.4
 BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO = 0.9
 BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL = 14.1
+BARRIADA_DE_CANELA__PRAIA_ISLA_CANELA = 4.3
 BEJA__IP2_SAIDA_44 = 13.2
 BEJA__SERPA = 27.9
 BOAVISTA__ESPIRITO_SANTO = 6.6
@@ -357,11 +366,13 @@ IC27_SAIDA_6__IC27_SAIDA_7 = 3.7
 IC27_SAIDA_6__PALMEIRA = 0.7
 IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM = 3.0
 IC27_SAIDA_7__PEREIRO = 6.1
+ISLA_CRISTINA__PUNTA_DEL_MORAL = 1.6
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
 MANTA_ROTA__VILA_NOVA_DE_CACELA = 2.3
 MARTINLONGO__VAQUEIROS = 7.7
 MERTOLA__MONTE_ALTO = 6.0
 MERTOLA__PENHA_DA_AGUIA = 10.2
+MARISMAS_ISLA_CRISTINA__PUNTA_DEL_MORAL = 2.5
 MESQUITA__SEDAS = 7.1
 MINAS_SAO_DOMINGOS__MOREANES = 6.8
 MINAS_SAO_DOMINGOS__VALE_DO_POCO = 11.4
@@ -377,6 +388,7 @@ PONTE_CENTENARIO__SE_30_SAIDA_12 = 1.5
 PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA = 6.0
 PORTELA_ALTA__QUEBRADAS = 1.2
 PRAIA_CACELA_VELHA__SITIO_DA_FABRICA = 1.0
+PRAIA_ISLA_CANELA__PUNTA_DEL_MORAL = 4.3
 PUERTO_DE_LA_LAJA__SANLUCAR_DEL_GUADIANA = 7.0
 QUEBRADAS__SENTINELA = 2.5
 RIBEIRA_DO_VASCAO__SANTA_MARTA = 3.6
@@ -467,7 +479,7 @@ class Mapa:
             A_49_SAIDA_122,
             {A_49_SAIDA_125: [SUDOESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO],
              A_49_SAIDA_117: [NORDESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
-             ISLA_CRISTINA: [SUL, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]},
+             POZO_DEL_CAMINO: [SUL, A_49_SAIDA_122__POZO_DEL_CAMINO, CARRO]},
             37.260188, -7.305056, 52, locais.MUNICIPIO_ISLA_CRISTINA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
@@ -607,6 +619,15 @@ class Mapa:
              VILA_NOVA_DE_CACELA: [OESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO]},
             37.176902, -7.499652, 11, locais.FREGUESIA_ALTURA, locais.CONCELHO_CASTRO_MARIM)
 
+        antiga_estacao_isla_cristina = local_espanha.LocalEspanha(
+            ANTIGA_ESTACAO_ISLA_CRISTINA,
+            {ISLA_CRISTINA: [SUL, ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA, CARRO],
+             POZO_DEL_CAMINO: [NORDESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO, CARRO],
+             AYAMONTE: [OESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE, COMBOIO],
+             GIBRALEON: [NORDESTE, 0, COMBOIO]},
+            37.221285, -7.322543, 4, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
+
         area_repouso_castro_marim = local_portugal.LocalPortugal(
             AREA_REPOUSO_CASTRO_MARIM,
             {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
@@ -617,10 +638,10 @@ class Mapa:
             AYAMONTE,
             {A_49_SAIDA_129: [NORDESTE, A_49_SAIDA_129__AYAMONTE, CARRO],
              A_49_SAIDA_131: [NORTE, A_49_SAIDA_131__AYAMONTE, CARRO],
-             ISLA_CANELA: [SUL, AYAMONTE__ISLA_CANELA, CARRO],
+             BARRIADA_DE_CANELA: [SUL, AYAMONTE__BARRIADA_DE_CANELA, CARRO],
              COSTA_ESURI: [NORTE, AYAMONTE__COSTA_ESURI, BARCO],
              VRSA: [SUDOESTE, AYAMONTE__VRSA, BARCO],
-             GIBRALEON: [NORDESTE, 0, COMBOIO]},
+             ANTIGA_ESTACAO_ISLA_CRISTINA: [ESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE, COMBOIO]},
             37.215788, -7.405922, 20, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
@@ -656,6 +677,13 @@ class Mapa:
              PARQUE_TEMATICO_SERRA_CALDEIRAO: [NORDESTE, BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
             37.237686, -7.936897, 471, locais.FREGUESIA_SALIR, locais.CONCELHO_LOULE
         )
+
+        barriada_de_canela = local_espanha.LocalEspanha(
+            BARRIADA_DE_CANELA,
+            {AYAMONTE: [NORTE, AYAMONTE__BARRIADA_DE_CANELA, CARRO],
+             PRAIA_ISLA_CANELA: [SUDESTE, BARRIADA_DE_CANELA__PRAIA_ISLA_CANELA, CARRO]},
+            37.199587, -7.403262, 3, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         balurco_de_baixo = local.Local(BALURCO_DE_BAIXO,
                                        {CORTE_DAS_DONAS: [SUDESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
@@ -905,7 +933,7 @@ class Mapa:
         gibraleon = local.Local(GIBRALEON,
                                 {SAN_BARTOLOME_DE_LA_TORRE: [NOROESTE, GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE, CARRO],
                                  A_49_SAIDA_87: [SUL, A_49_SAIDA_87__GIBRALEON, CARRO],
-                                 AYAMONTE: [SUDOESTE, 0, COMBOIO],
+                                 ANTIGA_ESTACAO_ISLA_CRISTINA: [SUDOESTE, 0, COMBOIO],
                                  HUELVA: [SUL, 0, COMBOIO]})
 
         gioes = local.Local(GIOES,
@@ -995,11 +1023,12 @@ class Mapa:
                                    {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
                                     CRUZAMENTO_N122_N123: [SUDESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO]})
 
-        isla_canela = local.Local(ISLA_CANELA,
-                                  {AYAMONTE: [NORTE, AYAMONTE__ISLA_CANELA, CARRO]})
-
-        isla_cristina = local.Local(ISLA_CRISTINA,
-                                    {A_49_SAIDA_122: [NORTE, A_49_SAIDA_122__ISLA_CRISTINA, CARRO]})
+        isla_cristina = local_espanha.LocalEspanha(
+            ISLA_CRISTINA,
+            {ANTIGA_ESTACAO_ISLA_CRISTINA: [NORTE, ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA, CARRO],
+             PUNTA_DEL_MORAL: [SUDOESTE, ISLA_CRISTINA__PUNTA_DEL_MORAL, BARCO]},
+            37.199897, -7.322322, 3, locais.MUNICIPIO_ISLA_CRISTINA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         junqueira = local.Local(JUNQUEIRA,
                                 {BARRAGEM_DO_BELICHE: [NOROESTE, BARRAGEM_DO_BELICHE__JUNQUEIRA, CARRO],
@@ -1023,6 +1052,12 @@ class Mapa:
                                   {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
                                    GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
                                    CACHOPO: [SUL, CACHOPO__MARTINLONGO, CARRO]})
+
+        marismas_isla_cristina = local_espanha.LocalEspanha(
+            MARISMAS_ISLA_CRISTINA,
+            {PUNTA_DEL_MORAL: [SUDESTE, MARISMAS_ISLA_CRISTINA__PUNTA_DEL_MORAL, CARRO]},
+            37.201359, -7.351221, 2, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         menires_do_lavajo = local.Local(MENIRES_DO_LAVAJO,
                                         {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]})
@@ -1145,11 +1180,25 @@ class Mapa:
                                    {IC27_SAIDA_3: [NORDESTE, IC27_SAIDA_3__PORTELA_ALTA, CARRO],
                                     QUEBRADAS: [OESTE, PORTELA_ALTA__QUEBRADAS, CARRO]})
 
+        pozo_del_camino = local_espanha.LocalEspanha(
+            POZO_DEL_CAMINO,
+            {ANTIGA_ESTACAO_ISLA_CRISTINA: [SUDOESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO, CARRO],
+             A_49_SAIDA_122: [NORTE, A_49_SAIDA_122__POZO_DEL_CAMINO, CARRO]},
+            37.224303, -7.315088, 8, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
+
         praia_cacela_velha = local_portugal.LocalPortugal(
             PRAIA_CACELA_VELHA,
             {SITIO_DA_FABRICA: [OESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO]},
             37.152880, -7.542684, 0, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
         )
+
+        praia_isla_canela = local_espanha.LocalEspanha(
+            PRAIA_ISLA_CANELA,
+            {BARRIADA_DE_CANELA: [NOROESTE, BARRIADA_DE_CANELA__PRAIA_ISLA_CANELA, CARRO],
+             PUNTA_DEL_MORAL: [NORDESTE, PRAIA_ISLA_CANELA__PUNTA_DEL_MORAL, CARRO]},
+            37.173693, -7.377384, 4, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         praia_verde = local.Local(PRAIA_VERDE,
                                   {CRUZAMENTO_N125_N125_6: [NORTE, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO]})
@@ -1159,6 +1208,14 @@ class Mapa:
                                          PONTE_RIO_CHANCA: [NOROESTE, PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA, CARRO],
                                          SANLUCAR_DEL_GUADIANA: [SUL, PUERTO_DE_LA_LAJA__SANLUCAR_DEL_GUADIANA, BARCO],
                                          POMARAO: [NORTE, POMARAO__PUERTO_DE_LA_LAJA, BARCO]})
+
+        punta_del_moral = local_espanha.LocalEspanha(
+            PUNTA_DEL_MORAL,
+            {PRAIA_ISLA_CANELA: [SUDOESTE, PRAIA_ISLA_CANELA__PUNTA_DEL_MORAL, CARRO],
+             MARISMAS_ISLA_CRISTINA: [NOROESTE, MARISMAS_ISLA_CRISTINA__PUNTA_DEL_MORAL, CARRO],
+             ISLA_CRISTINA: [NORDESTE, ISLA_CRISTINA__PUNTA_DEL_MORAL, BARCO]},
+            37.189202, -7.342450, 4, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         quebradas = local.Local(QUEBRADAS,
                                 {PORTELA_ALTA: [ESTE, PORTELA_ALTA__QUEBRADAS, CARRO],
@@ -1408,6 +1465,7 @@ class Mapa:
         self.lista_locais.append(almada_de_ouro)
         self.lista_locais.append(alta_mora)
         self.lista_locais.append(altura)
+        self.lista_locais.append(antiga_estacao_isla_cristina)
         self.lista_locais.append(area_repouso_castro_marim)
         self.lista_locais.append(ayamonte)
         self.lista_locais.append(azinhal)
@@ -1419,6 +1477,7 @@ class Mapa:
         self.lista_locais.append(barragem_do_beliche)
         self.lista_locais.append(barranco_das_pereiras)
         self.lista_locais.append(barranco_do_velho)
+        self.lista_locais.append(barriada_de_canela)
         self.lista_locais.append(beja)
         self.lista_locais.append(boavista)
         self.lista_locais.append(cacela_velha)
@@ -1474,7 +1533,6 @@ class Mapa:
         self.lista_locais.append(ic27_saida_6)
         self.lista_locais.append(ic27_saida_7)
         self.lista_locais.append(ip2_saida_44)
-        self.lista_locais.append(isla_canela)
         self.lista_locais.append(isla_cristina)
         self.lista_locais.append(junqueira)
         self.lista_locais.append(laranjeiras)
@@ -1484,6 +1542,7 @@ class Mapa:
         self.lista_locais.append(menires_do_lavajo)
         self.lista_locais.append(mertola)
         self.lista_locais.append(mesquita)
+        self.lista_locais.append(marismas_isla_cristina)
         self.lista_locais.append(minas_sao_domingos)
         self.lista_locais.append(monte_alto)
         self.lista_locais.append(monte_francisco)
@@ -1504,9 +1563,12 @@ class Mapa:
         self.lista_locais.append(ponte_internacional_guadiana)
         self.lista_locais.append(ponte_rio_chanca)
         self.lista_locais.append(portela_alta)
+        self.lista_locais.append(pozo_del_camino)
         self.lista_locais.append(praia_cacela_velha)
+        self.lista_locais.append(praia_isla_canela)
         self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
+        self.lista_locais.append(punta_del_moral)
         self.lista_locais.append(quebradas)
         self.lista_locais.append(ria_formosa_norte)
         self.lista_locais.append(ria_formosa_sul)
