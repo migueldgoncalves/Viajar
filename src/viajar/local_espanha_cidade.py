@@ -1,4 +1,4 @@
-from viajar import local_espanha, locais
+from viajar import local_espanha
 
 
 class LocalEspanhaCidade(local_espanha.LocalEspanha):

@@ -36,6 +36,7 @@ MUNICIPIO_HUELVA = "Huelva"
 MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"
 MUNICIPIO_LEPE = "Lepe"
 MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"
+MUNICIPIO_SANTIPONCE = "Santiponce"
 MUNICIPIO_SEVILHA = "Sevilha"
 
 #  Distritos de Sevilha
@@ -50,6 +51,7 @@ A_49 = "A-49"
 A_483 = "A-483"
 A_66 = "A-66"
 H_31 = "H-31"
+SE_20 = "SE-20"
 SE_30 = "SE-30"
 SE_40 = "SE-40"
 
@@ -91,43 +93,54 @@ baixo_alentejo_entidade = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 baixo_alentejo_regiao = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 
 #  Freguesias do Algarve
-FREGUESIA_ALCOUTIM = "Alcoutim"
-FREGUESIA_ALTURA = "Altura"
-FREGUESIA_AZINHAL = "Azinhal"
-FREGUESIA_CACHOPO = "Cachopo"
-FREGUESIA_CASTRO_MARIM = "Castro Marim"
-FREGUESIA_ESTOI = "Estoi"
-FREGUESIA_GIOES = "Giões"
-FREGUESIA_MARTINLONGO = "Martinlongo"
-FREGUESIA_MONCARAPACHO = "Moncarapacho"
-FREGUESIA_MONTE_GORDO = "Monte Gordo"
-FREGUESIA_MONTENEGRO = "Montenegro"
-FREGUESIA_ODELEITE = "Odeleite"
-FREGUESIA_PEREIRO = "Pereiro"
-FREGUESIA_SALIR = "Salir"
-FREGUESIA_SANTIAGO_TAVIRA = "Santiago"
-FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"
-FREGUESIA_VAQUEIROS = "Vaqueiros"
-FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"
-FREGUESIA_VRSA = "Vila Real de Santo António"
+FREGUESIA_ALCOUTIM = "Alcoutim"  # Alcoutim
+FREGUESIA_ALTURA = "Altura"  # Castro Marim
+FREGUESIA_AZINHAL = "Azinhal"  # Castro Marim
+FREGUESIA_CABANAS_TAVIRA = "Cabanas de Tavira"  # Tavira
+FREGUESIA_CACHOPO = "Cachopo"  # Tavira
+FREGUESIA_CASTRO_MARIM = "Castro Marim"  # Castro Marim
+FREGUESIA_CONCEICAO = "Conceição"  # Tavira
+FREGUESIA_ESTOI = "Estoi"  # Faro
+FREGUESIA_FUSETA = "Fuseta"  # Olhão
+FREGUESIA_GIOES = "Giões"  # Alcoutim
+FREGUESIA_MARTINLONGO = "Martinlongo"  # Alcoutim
+FREGUESIA_MONCARAPACHO = "Moncarapacho"  # Olhão
+FREGUESIA_MONTE_GORDO = "Monte Gordo"  # Vila Real de Santo António
+FREGUESIA_MONTENEGRO = "Montenegro"  # Faro
+FREGUESIA_ODELEITE = "Odeleite"  # Castro marim
+FREGUESIA_PEREIRO = "Pereiro"  # Alcoutim
+FREGUESIA_SALIR = "Salir"  # Loulé
+FREGUESIA_SANTA_CATARINA_FONTE_BISPO = "Santa Catarina da Fonte do Bispo"  # Tavira
+FREGUESIA_SANTA_LUZIA_TAVIRA = "Santa Luzia"  # Tavira
+FREGUESIA_SANTA_MARIA_TAVIRA = "Santa Maria"  # Tavira
+FREGUESIA_SANTIAGO_TAVIRA = "Santiago"  # Tavira
+FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"  # São Brás de Alportel
+FREGUESIA_VAQUEIROS = "Vaqueiros"  # Alcoutim
+FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo António
+FREGUESIA_VRSA = "Vila Real de Santo António"  # Vila Real de Santo António
 
 #  Freguesias do Baixo Alentejo
-FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"
-FREGUESIA_SAO_BRISSOS = "São Brissos"
-FREGUESIA_SERPA = "Serpa"
-FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"
+FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"  # Mértola
+FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
+FREGUESIA_SERPA = "Serpa"  # Serpa
+FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
+
+#  Ilhas da Ria Formosa
+ILHA_DE_CABANAS = "Ilha de Cabanas"
+ILHA_DE_TAVIRA = "Ilha de Tavira"
 
 #  Estradas
 A22 = "A22"
 IC27 = "IC27"
 IP2 = "IP2"
+M1347 = "M1347"
+M507 = "M507"
 N122 = "N122"
 N123 = "N123"
 N125 = "N125"
 N125_6 = "N125-6"
 N265 = "N265"
 N392 = "N392"
-M507 = "M507"
 
 
 #  #  #  #  #  #  #  #  #  #  #  #  #  #  #
