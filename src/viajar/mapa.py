@@ -85,9 +85,10 @@ CRUZAMENTO_A_49_H_31 = locais.nome_cruzamento_estradas(locais.A_49, locais.H_31)
 CRUZAMENTO_A_49_SE_30 = locais.nome_cruzamento_estradas(locais.A_49, locais.SE_30)
 CRUZAMENTO_A_49_SE_40 = locais.nome_cruzamento_estradas(locais.A_49, locais.SE_40)
 CRUZAMENTO_A_66_SE_30 = locais.nome_cruzamento_estradas(locais.A_66, locais.SE_30)
-CRUZAMENTO_N125_M1347 = locais.nome_cruzamento_estradas(locais.N125, locais.M1347)
 CRUZAMENTO_N122_M507 = locais.nome_cruzamento_estradas(locais.N122, locais.M507)
 CRUZAMENTO_N122_N123 = locais.nome_cruzamento_estradas(locais.N122, locais.N123)
+CRUZAMENTO_N125_M1347 = locais.nome_cruzamento_estradas(locais.N125, locais.M1347)
+CRUZAMENTO_N125_M516_2 = locais.nome_cruzamento_estradas(locais.N125, locais.M516_2)
 CRUZAMENTO_N125_N125_6 = locais.nome_cruzamento_estradas(locais.N125, locais.N125_6)
 CRUZAMENTO_N265_N392 = locais.nome_cruzamento_estradas(locais.N265, locais.N392)
 CRUZAMENTO_SE_20_SE_30 = locais.nome_cruzamento_estradas(locais.SE_20, locais.SE_30)
@@ -96,6 +97,7 @@ EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
 ESTACAO_CACELA = "Estação de Cacela"
 ESTACAO_CASTRO_MARIM = "Estação de Castro Marim"
+ESTACAO_LUZ = "Estação da Luz"
 ESTACAO_MONTE_GORDO = "Estação de Monte Gordo"
 ESTACAO_PORTA_NOVA = "Estação da Porta Nova"
 ESTACAO_TAVIRA = "Estação de Tavira"
@@ -125,6 +127,8 @@ ISLA_CRISTINA = "Isla Cristina"
 JUNQUEIRA = "Junqueira"
 LARANJEIRAS = "Laranjeiras"
 LEPE = "Lepe"
+LIVRAMENTO = "Livramento"
+LUZ_DE_TAVIRA = "Luz de Tavira"
 MANTA_ROTA = "Manta Rota"
 MARTINLONGO = "Martinlongo"
 MARISMAS_ISLA_CRISTINA = "Marismas de Isla Cristina"
@@ -229,7 +233,7 @@ A22_SAIDA_14__FARO_OESTE = 9.2
 A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL = 9.8
 A22_SAIDA_14__A22_SAIDA_15 = 11.6
 A22_SAIDA_15__AREA_SERVICO_OLHAO = 3.6
-A22_SAIDA_15__FUSETA = 8.4
+A22_SAIDA_15__CRUZAMENTO_N125_M516_2 = 6.8
 A22_SAIDA_15__OLHAO = 10.4
 A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO = 5.7
 A22_SAIDA_16__A22_SAIDA_17 = 19.8
@@ -340,9 +344,12 @@ CRUZAMENTO_N122_M507__IC27_FIM = 0.5
 CRUZAMENTO_N122_M507__SANTA_MARTA = 1.8
 CRUZAMENTO_N122_N123__IP2_SAIDA_44 = 27.9
 CRUZAMENTO_N122_N123__MERTOLA = 11.1
-CRUZAMENTO_N125_M1347__FUSETA = 9.0
+CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA = 2.2
 CRUZAMENTO_N125_M1347__PEDRAS_DEL_REI = 1.0
 CRUZAMENTO_N125_M1347__TAVIRA_SUL = 4.3
+CRUZAMENTO_N125_M516_2__FUSETA = 1.6
+CRUZAMENTO_N125_M516_2__LIVRAMENTO = 2.8
+CRUZAMENTO_N125_M516_2__OLHAO = 8.6
 CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
 CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
 CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
@@ -359,6 +366,9 @@ ESPIRITO_SANTO__SEDAS = 4.7
 ESTACAO_CACELA__ESTACAO_CASTRO_MARIM = 5.9
 ESTACAO_CACELA__VILA_NOVA_DE_CACELA = 0.8
 ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO = 3.4
+ESTACAO_LUZ__LIVRAMENTO = 3.3
+ESTACAO_LUZ__ESTACAO_TAVIRA = 5.4
+ESTACAO_LUZ__LUZ_DE_TAVIRA = 0.6
 ESTACAO_MONTE_GORDO__HORTAS = 0.9
 ESTACAO_MONTE_GORDO__MONTE_GORDO = 1.5
 ESTACAO_MONTE_GORDO__VRSA = 2.6
@@ -370,7 +380,6 @@ FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
 FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
-FUSETA__OLHAO = 10.7
 FUSETA__PRAIA_DO_BARRIL = 8.6
 GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
 GIOES__MARTINLONGO = 9.4
@@ -400,6 +409,7 @@ IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM = 3.0
 IC27_SAIDA_7__PEREIRO = 6.1
 ISLA_CRISTINA__PUNTA_DEL_MORAL = 1.6
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
+LIVRAMENTO__LUZ_DE_TAVIRA = 3.2
 MANTA_ROTA__VILA_NOVA_DE_CACELA = 2.3
 MARTINLONGO__VAQUEIROS = 7.7
 MERTOLA__MONTE_ALTO = 6.0
@@ -568,7 +578,7 @@ class Mapa:
             A22_SAIDA_15,
             {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
              AREA_SERVICO_OLHAO: [NORDESTE, A22_SAIDA_15__AREA_SERVICO_OLHAO, CARRO],
-             FUSETA: [SUDESTE, A22_SAIDA_15__FUSETA, CARRO],
+             CRUZAMENTO_N125_M516_2: [SUDESTE, A22_SAIDA_15__CRUZAMENTO_N125_M516_2, CARRO],
              OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO],
              SANTA_CATARINA_FONTE_BISPO: [NORTE, A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO, CARRO]},
             37.107910, -7.800772, 116, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
@@ -931,8 +941,16 @@ class Mapa:
             CRUZAMENTO_N125_M1347,
             {TAVIRA_SUL: [NORDESTE, CRUZAMENTO_N125_M1347__TAVIRA_SUL, CARRO],
              PEDRAS_DEL_REI: [SUDESTE, CRUZAMENTO_N125_M1347__PEDRAS_DEL_REI, CARRO],
-             FUSETA: [SUDOESTE, CRUZAMENTO_N125_M1347__FUSETA, CARRO]},
+             LUZ_DE_TAVIRA: [SUDOESTE, CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA, CARRO]},
             37.100225, -7.682129, 24, locais.FREGUESIA_SANTIAGO_TAVIRA, locais.CONCELHO_TAVIRA)
+
+        cruzamento_n125_m516_2 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N125_M516_2,
+            {LIVRAMENTO: [NORDESTE, CRUZAMENTO_N125_M516_2__LIVRAMENTO, CARRO],
+             FUSETA: [SUDESTE, CRUZAMENTO_N125_M516_2__FUSETA, CARRO],
+             OLHAO: [SUDOESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
+             A22_SAIDA_15: [NOROESTE, A22_SAIDA_15__CRUZAMENTO_N125_M516_2, CARRO]},
+            37.063244, -7.759820, 7, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
         cruzamento_n125_n125_6 = local.Local(CRUZAMENTO_N125_N125_6,
                                              {ESTACAO_CASTRO_MARIM: [NORTE,
@@ -989,6 +1007,13 @@ class Mapa:
             37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM
         )
 
+        estacao_luz = local_portugal.LocalPortugal(
+            ESTACAO_LUZ,
+            {LUZ_DE_TAVIRA: [NOROESTE, ESTACAO_LUZ__LUZ_DE_TAVIRA, CARRO],
+             ESTACAO_TAVIRA: [NORDESTE, ESTACAO_LUZ__ESTACAO_TAVIRA, COMBOIO],
+             LIVRAMENTO: [SUDOESTE, ESTACAO_LUZ__LIVRAMENTO, COMBOIO]},
+            37.089047, -7.700091, 26, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
+
         estacao_monte_gordo = local_portugal.LocalPortugal(
             ESTACAO_MONTE_GORDO,
             {HORTAS: [SUDESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
@@ -1009,7 +1034,8 @@ class Mapa:
         estacao_tavira = local_portugal.LocalPortugal(
             ESTACAO_TAVIRA,
             {TAVIRA_SUL: [NORDESTE, ESTACAO_TAVIRA__TAVIRA_SUL, CARRO],
-             ESTACAO_PORTA_NOVA: [NORDESTE, ESTACAO_PORTA_NOVA__ESTACAO_TAVIRA, COMBOIO]},
+             ESTACAO_PORTA_NOVA: [NORDESTE, ESTACAO_PORTA_NOVA__ESTACAO_TAVIRA, COMBOIO],
+             ESTACAO_LUZ: [SUDOESTE, ESTACAO_LUZ__ESTACAO_TAVIRA, COMBOIO]},
             37.121088, -7.655511, 28, locais.FREGUESIA_SANTIAGO_TAVIRA, locais.CONCELHO_TAVIRA)
 
         faro_este = local.Local(FARO_ESTE,
@@ -1019,8 +1045,7 @@ class Mapa:
         faro_oeste = local.Local(FARO_OESTE,
                                  {A22_SAIDA_14: [NORTE, A22_SAIDA_14__FARO_OESTE, CARRO],
                                   FARO_ESTE: [ESTE, FARO_ESTE__FARO_OESTE, CARRO],
-                                  AEROPORTO_DE_FARO: [OESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO],
-                                  OLHAO: [ESTE, 0, COMBOIO]})
+                                  AEROPORTO_DE_FARO: [OESTE, AEROPORTO_DE_FARO__FARO_OESTE, CARRO]})
 
         fonte_do_penedo = local.Local(FONTE_DO_PENEDO,
                                       {ALCARIA: [NORTE, ALCARIA__FONTE_DO_PENEDO, CARRO],
@@ -1038,9 +1063,7 @@ class Mapa:
 
         fuseta = local_portugal.LocalPortugal(
             FUSETA,
-            {CRUZAMENTO_N125_M1347: [NORDESTE, CRUZAMENTO_N125_M1347__FUSETA, CARRO],
-             OLHAO: [SUDOESTE, FUSETA__OLHAO, CARRO],
-             A22_SAIDA_15: [NOROESTE, A22_SAIDA_15__FUSETA, CARRO],
+            {CRUZAMENTO_N125_M516_2: [NOROESTE, CRUZAMENTO_N125_M516_2__FUSETA, CARRO],
              PRAIA_DO_BARRIL: [NORDESTE, FUSETA__PRAIA_DO_BARRIL, BARCO]},
             37.055108, -7.746517, 6, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
 
@@ -1159,6 +1182,20 @@ class Mapa:
                            {A_49_SAIDA_117: [NOROESTE, A_49_SAIDA_117__LEPE, CARRO],
                             CARTAYA: [NORDESTE, CARTAYA__LEPE, CARRO]})
 
+        livramento = local_portugal.LocalPortugal(
+            LIVRAMENTO,
+            {LUZ_DE_TAVIRA: [NORDESTE, LIVRAMENTO__LUZ_DE_TAVIRA, CARRO],
+             CRUZAMENTO_N125_M516_2: [SUDOESTE, CRUZAMENTO_N125_M516_2__LIVRAMENTO, CARRO],
+             ESTACAO_LUZ: [NORDESTE, ESTACAO_LUZ__LIVRAMENTO, COMBOIO]},
+            37.074243, -7.732431, 10, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
+
+        luz_de_tavira = local_portugal.LocalPortugal(
+            LUZ_DE_TAVIRA,
+            {CRUZAMENTO_N125_M1347: [NORDESTE, CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA, CARRO],
+             ESTACAO_LUZ: [SUDESTE, ESTACAO_LUZ__LUZ_DE_TAVIRA, CARRO],
+             LIVRAMENTO: [SUDOESTE, LIVRAMENTO__LUZ_DE_TAVIRA, CARRO]},
+            37.092083, -7.704389, 33, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
+
         manta_rota = local.Local(MANTA_ROTA,
                                  {VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
 
@@ -1219,11 +1256,12 @@ class Mapa:
                                {ALCARIA: [ESTE, ALCARIA__ODELEITE, CARRO],
                                 IC27_SAIDA_4: [OESTE, IC27_SAIDA_4__ODELEITE, CARRO]})
 
-        olhao = local.Local(OLHAO,
-                            {FUSETA: [NORDESTE, FUSETA__OLHAO, CARRO],
-                             A22_SAIDA_15: [NORTE, A22_SAIDA_15__OLHAO, CARRO],
-                             FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO],
-                             FARO_OESTE: [OESTE, 0, COMBOIO]})
+        olhao = local_portugal.LocalPortugal(
+            OLHAO,
+            {CRUZAMENTO_N125_M516_2: [NORDESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
+             A22_SAIDA_15: [NORTE, A22_SAIDA_15__OLHAO, CARRO],
+             FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO]},
+            37.026148, -7.842197, 3, locais.FREGUESIA_OLHAO, locais.CONCELHO_OLHAO)
 
         palmeira = local.Local(PALMEIRA,
                                {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
@@ -1673,6 +1711,7 @@ class Mapa:
         self.lista_locais.append(cruzamento_n122_m507)
         self.lista_locais.append(cruzamento_n122_n123)
         self.lista_locais.append(cruzamento_n125_m1347)
+        self.lista_locais.append(cruzamento_n125_m516_2)
         self.lista_locais.append(cruzamento_n125_n125_6)
         self.lista_locais.append(cruzamento_n265_n392)
         self.lista_locais.append(cruzamento_se_20_se_30)
@@ -1681,6 +1720,7 @@ class Mapa:
         self.lista_locais.append(espirito_santo)
         self.lista_locais.append(estacao_cacela)
         self.lista_locais.append(estacao_castro_marim)
+        self.lista_locais.append(estacao_luz)
         self.lista_locais.append(estacao_monte_gordo)
         self.lista_locais.append(estacao_porta_nova)
         self.lista_locais.append(estacao_tavira)
@@ -1710,6 +1750,8 @@ class Mapa:
         self.lista_locais.append(junqueira)
         self.lista_locais.append(laranjeiras)
         self.lista_locais.append(lepe)
+        self.lista_locais.append(livramento)
+        self.lista_locais.append(luz_de_tavira)
         self.lista_locais.append(manta_rota)
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(menires_do_lavajo)
