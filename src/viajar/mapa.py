@@ -97,6 +97,8 @@ EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
 ESTACAO_CACELA = "Estação de Cacela"
 ESTACAO_CASTRO_MARIM = "Estação de Castro Marim"
+ESTACAO_FUSETA_A = "Estação de Fuseta-A"
+ESTACAO_FUSETA_MONCARAPACHO = "Estação de Fuseta-Moncarapacho"
 ESTACAO_LUZ = "Estação da Luz"
 ESTACAO_MONTE_GORDO = "Estação de Monte Gordo"
 ESTACAO_PORTA_NOVA = "Estação da Porta Nova"
@@ -136,6 +138,7 @@ MENIRES_DO_LAVAJO = "Menires do Lavajo"
 MERTOLA = "Mértola"
 MESQUITA = "Mesquita"
 MINAS_SAO_DOMINGOS = "Minas de São Domingos"
+MONCARAPACHO = "Moncarapacho"
 MONTE_ALTO = "Monte Alto"
 MONTE_FRANCISCO = "Monte Francisco"
 MONTE_GORDO = "Monte Gordo"
@@ -159,6 +162,7 @@ PORTELA_ALTA = "Portela Alta"
 POZO_DEL_CAMINO = "Pozo del Camino"
 PRAIA_CABANAS_TAVIRA = "Praia de Cabanas de Tavira"
 PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
+PRAIA_DA_FUSETA = "Praia da Fuseta"
 PRAIA_DO_BARRIL = "Praia do Barril"
 PRAIA_ILHA_TAVIRA = "Praia da Ilha de Tavira"
 PRAIA_ISLA_CANELA = "Praia de Isla Canela"
@@ -233,7 +237,7 @@ A22_SAIDA_14__FARO_OESTE = 9.2
 A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL = 9.8
 A22_SAIDA_14__A22_SAIDA_15 = 11.6
 A22_SAIDA_15__AREA_SERVICO_OLHAO = 3.6
-A22_SAIDA_15__CRUZAMENTO_N125_M516_2 = 6.8
+A22_SAIDA_15__MONCARAPACHO = 3.5
 A22_SAIDA_15__OLHAO = 10.4
 A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO = 5.7
 A22_SAIDA_16__A22_SAIDA_17 = 19.8
@@ -347,9 +351,10 @@ CRUZAMENTO_N122_N123__MERTOLA = 11.1
 CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA = 2.2
 CRUZAMENTO_N125_M1347__PEDRAS_DEL_REI = 1.0
 CRUZAMENTO_N125_M1347__TAVIRA_SUL = 4.3
-CRUZAMENTO_N125_M516_2__FUSETA = 1.6
+CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO = 0.9
 CRUZAMENTO_N125_M516_2__LIVRAMENTO = 2.8
 CRUZAMENTO_N125_M516_2__OLHAO = 8.6
+CRUZAMENTO_N125_M516_2__MONCARAPACHO = 3.8
 CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
 CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
 CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
@@ -366,6 +371,11 @@ ESPIRITO_SANTO__SEDAS = 4.7
 ESTACAO_CACELA__ESTACAO_CASTRO_MARIM = 5.9
 ESTACAO_CACELA__VILA_NOVA_DE_CACELA = 0.8
 ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO = 3.4
+ESTACAO_FUSETA_A__ESTACAO_FUSETA_MONCARAPACHO = 0.9
+ESTACAO_FUSETA_A__FUSETA = 0.7
+ESTACAO_FUSETA_A__OLHAO = 8.7
+ESTACAO_FUSETA_MONCARAPACHO__FUSETA = 0.8
+ESTACAO_FUSETA_MONCARAPACHO__LIVRAMENTO = 2.9
 ESTACAO_LUZ__LIVRAMENTO = 3.3
 ESTACAO_LUZ__ESTACAO_TAVIRA = 5.4
 ESTACAO_LUZ__LUZ_DE_TAVIRA = 0.6
@@ -380,6 +390,7 @@ FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
 FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
+FUSETA__PRAIA_DA_FUSETA = 1.3
 FUSETA__PRAIA_DO_BARRIL = 8.6
 GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
 GIOES__MARTINLONGO = 9.4
@@ -410,6 +421,7 @@ IC27_SAIDA_7__PEREIRO = 6.1
 ISLA_CRISTINA__PUNTA_DEL_MORAL = 1.6
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
 LIVRAMENTO__LUZ_DE_TAVIRA = 3.2
+LUZ_DE_TAVIRA__MONCARAPACHO = 7.9
 MANTA_ROTA__VILA_NOVA_DE_CACELA = 2.3
 MARTINLONGO__VAQUEIROS = 7.7
 MERTOLA__MONTE_ALTO = 6.0
@@ -578,7 +590,7 @@ class Mapa:
             A22_SAIDA_15,
             {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
              AREA_SERVICO_OLHAO: [NORDESTE, A22_SAIDA_15__AREA_SERVICO_OLHAO, CARRO],
-             CRUZAMENTO_N125_M516_2: [SUDESTE, A22_SAIDA_15__CRUZAMENTO_N125_M516_2, CARRO],
+             MONCARAPACHO: [SUL, A22_SAIDA_15__MONCARAPACHO, CARRO],
              OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO],
              SANTA_CATARINA_FONTE_BISPO: [NORTE, A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO, CARRO]},
             37.107910, -7.800772, 116, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
@@ -947,9 +959,9 @@ class Mapa:
         cruzamento_n125_m516_2 = local_portugal.LocalPortugal(
             CRUZAMENTO_N125_M516_2,
             {LIVRAMENTO: [NORDESTE, CRUZAMENTO_N125_M516_2__LIVRAMENTO, CARRO],
-             FUSETA: [SUDESTE, CRUZAMENTO_N125_M516_2__FUSETA, CARRO],
+             ESTACAO_FUSETA_MONCARAPACHO: [SUDESTE, CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO, CARRO],
              OLHAO: [SUDOESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
-             A22_SAIDA_15: [NOROESTE, A22_SAIDA_15__CRUZAMENTO_N125_M516_2, CARRO]},
+             MONCARAPACHO: [NOROESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
             37.063244, -7.759820, 7, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
         cruzamento_n125_n125_6 = local.Local(CRUZAMENTO_N125_N125_6,
@@ -1007,6 +1019,21 @@ class Mapa:
             37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM
         )
 
+        estacao_fuseta_a = local_portugal.LocalPortugal(
+            ESTACAO_FUSETA_A,
+            {FUSETA: [NORDESTE, ESTACAO_FUSETA_A__FUSETA, CARRO],
+             ESTACAO_FUSETA_MONCARAPACHO: [NORTE, ESTACAO_FUSETA_A__ESTACAO_FUSETA_MONCARAPACHO, COMBOIO],
+             OLHAO: [SUDOESTE, ESTACAO_FUSETA_A__OLHAO, COMBOIO]},
+            37.053515, -7.749730, 14, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
+
+        estacao_fuseta_moncarapacho = local_portugal.LocalPortugal(
+            ESTACAO_FUSETA_MONCARAPACHO,
+            {CRUZAMENTO_N125_M516_2: [NOROESTE, CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO, CARRO],
+             FUSETA: [SUDESTE, ESTACAO_FUSETA_MONCARAPACHO__FUSETA, CARRO],
+             LIVRAMENTO: [NORDESTE, ESTACAO_FUSETA_MONCARAPACHO__LIVRAMENTO, COMBOIO],
+             ESTACAO_FUSETA_A: [SUL, ESTACAO_FUSETA_A__ESTACAO_FUSETA_MONCARAPACHO, COMBOIO]},
+            37.060120, -7.751260, 5, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
+
         estacao_luz = local_portugal.LocalPortugal(
             ESTACAO_LUZ,
             {LUZ_DE_TAVIRA: [NOROESTE, ESTACAO_LUZ__LUZ_DE_TAVIRA, CARRO],
@@ -1063,8 +1090,10 @@ class Mapa:
 
         fuseta = local_portugal.LocalPortugal(
             FUSETA,
-            {CRUZAMENTO_N125_M516_2: [NOROESTE, CRUZAMENTO_N125_M516_2__FUSETA, CARRO],
-             PRAIA_DO_BARRIL: [NORDESTE, FUSETA__PRAIA_DO_BARRIL, BARCO]},
+            {ESTACAO_FUSETA_MONCARAPACHO: [NOROESTE, ESTACAO_FUSETA_MONCARAPACHO__FUSETA, CARRO],
+             ESTACAO_FUSETA_A: [SUDOESTE, ESTACAO_FUSETA_A__FUSETA, CARRO],
+             PRAIA_DO_BARRIL: [NORDESTE, FUSETA__PRAIA_DO_BARRIL, BARCO],
+             PRAIA_DA_FUSETA: [SUL, FUSETA__PRAIA_DA_FUSETA, BARCO]},
             37.055108, -7.746517, 6, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
 
         gibraleon = local.Local(GIBRALEON,
@@ -1186,14 +1215,16 @@ class Mapa:
             LIVRAMENTO,
             {LUZ_DE_TAVIRA: [NORDESTE, LIVRAMENTO__LUZ_DE_TAVIRA, CARRO],
              CRUZAMENTO_N125_M516_2: [SUDOESTE, CRUZAMENTO_N125_M516_2__LIVRAMENTO, CARRO],
-             ESTACAO_LUZ: [NORDESTE, ESTACAO_LUZ__LIVRAMENTO, COMBOIO]},
+             ESTACAO_LUZ: [NORDESTE, ESTACAO_LUZ__LIVRAMENTO, COMBOIO],
+             ESTACAO_FUSETA_MONCARAPACHO: [SUDOESTE, ESTACAO_FUSETA_MONCARAPACHO__LIVRAMENTO, COMBOIO]},
             37.074243, -7.732431, 10, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
 
         luz_de_tavira = local_portugal.LocalPortugal(
             LUZ_DE_TAVIRA,
             {CRUZAMENTO_N125_M1347: [NORDESTE, CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA, CARRO],
              ESTACAO_LUZ: [SUDESTE, ESTACAO_LUZ__LUZ_DE_TAVIRA, CARRO],
-             LIVRAMENTO: [SUDOESTE, LIVRAMENTO__LUZ_DE_TAVIRA, CARRO]},
+             LIVRAMENTO: [SUDOESTE, LIVRAMENTO__LUZ_DE_TAVIRA, CARRO],
+             MONCARAPACHO: [OESTE, LUZ_DE_TAVIRA__MONCARAPACHO, CARRO]},
             37.092083, -7.704389, 33, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
 
         manta_rota = local.Local(MANTA_ROTA,
@@ -1230,6 +1261,13 @@ class Mapa:
                                           VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO],
                                           POMARAO: [SUL, 0, COMBOIO]})
 
+        moncarapacho = local_portugal.LocalPortugal(
+            MONCARAPACHO,
+            {A22_SAIDA_15: [NORTE, A22_SAIDA_15__MONCARAPACHO, CARRO],
+             LUZ_DE_TAVIRA: [ESTE, LUZ_DE_TAVIRA__MONCARAPACHO, CARRO],
+             CRUZAMENTO_N125_M516_2: [SUDESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
+            37.085190, -7.787652, 50, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
+
         monte_alto = local.Local(MONTE_ALTO,
                                  {MERTOLA: [NOROESTE, MERTOLA__MONTE_ALTO, CARRO],
                                   PICOITOS: [SUDESTE, MONTE_ALTO__PICOITOS, CARRO],
@@ -1260,7 +1298,8 @@ class Mapa:
             OLHAO,
             {CRUZAMENTO_N125_M516_2: [NORDESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
              A22_SAIDA_15: [NORTE, A22_SAIDA_15__OLHAO, CARRO],
-             FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO]},
+             FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO],
+             ESTACAO_FUSETA_A: [NORDESTE, ESTACAO_FUSETA_A__OLHAO, COMBOIO]},
             37.026148, -7.842197, 3, locais.FREGUESIA_OLHAO, locais.CONCELHO_OLHAO)
 
         palmeira = local.Local(PALMEIRA,
@@ -1355,6 +1394,11 @@ class Mapa:
             {SITIO_DA_FABRICA: [OESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO],
              PRAIA_CABANAS_TAVIRA: [SUDOESTE, PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA, BARCO]},
             37.152880, -7.542684, 0, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA, locais.ILHA_DE_CABANAS)
+
+        praia_da_fuseta = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            PRAIA_DA_FUSETA,
+            {FUSETA: [NORTE, FUSETA__PRAIA_DA_FUSETA, BARCO]},
+            37.043291, -7.744840, 7, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO, locais.ILHA_DA_ARMONA)
 
         praia_do_barril = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_DO_BARRIL,
@@ -1720,6 +1764,8 @@ class Mapa:
         self.lista_locais.append(espirito_santo)
         self.lista_locais.append(estacao_cacela)
         self.lista_locais.append(estacao_castro_marim)
+        self.lista_locais.append(estacao_fuseta_a)
+        self.lista_locais.append(estacao_fuseta_moncarapacho)
         self.lista_locais.append(estacao_luz)
         self.lista_locais.append(estacao_monte_gordo)
         self.lista_locais.append(estacao_porta_nova)
@@ -1759,6 +1805,7 @@ class Mapa:
         self.lista_locais.append(mesquita)
         self.lista_locais.append(marismas_isla_cristina)
         self.lista_locais.append(minas_sao_domingos)
+        self.lista_locais.append(moncarapacho)
         self.lista_locais.append(monte_alto)
         self.lista_locais.append(monte_francisco)
         self.lista_locais.append(monte_gordo)
@@ -1782,6 +1829,7 @@ class Mapa:
         self.lista_locais.append(pozo_del_camino)
         self.lista_locais.append(praia_cabanas_tavira)
         self.lista_locais.append(praia_cacela_velha)
+        self.lista_locais.append(praia_da_fuseta)
         self.lista_locais.append(praia_do_barril)
         self.lista_locais.append(praia_ilha_tavira)
         self.lista_locais.append(praia_isla_canela)

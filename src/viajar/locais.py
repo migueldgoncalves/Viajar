@@ -128,6 +128,7 @@ FREGUESIA_SERPA = "Serpa"  # Serpa
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Ilhas da Ria Formosa
+ILHA_DA_ARMONA = "Ilha da Armona"
 ILHA_DE_CABANAS = "Ilha de Cabanas"
 ILHA_DE_TAVIRA = "Ilha de Tavira"
 
