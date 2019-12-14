@@ -156,6 +156,7 @@ PICARRAL = "Piçarral"
 PICOITOS = "Picoitos"
 POMARAO = "Pomarão"
 PONTE_CENTENARIO = "Ponte do Centenário"
+PONTE_DE_ALAMILLO = "Ponte de Alamillo"
 PONTE_INTERNACIONAL_GUADIANA = "Ponte Internacional do Guadiana"
 PONTE_RIO_CHANCA = "Ponte sobre o Rio Chança"
 PORTELA_ALTA = "Portela Alta"
@@ -183,6 +184,7 @@ SANTA_MARTA = "Santa Marta"
 SAO_BRAS_DE_ALPORTEL = "São Brás de Alportel"
 SAPAL_NORTE = "Norte do Sapal de Castro Marim e Vila Real de Santo António"
 SAPAL_SUL = "Sul do Sapal de Castro Marim e Vila Real de Santo António"
+SE_30_SAIDA_21 = locais.nome_saida_via_rapida(locais.SE_30, 21)
 SE_30_SAIDA_15 = locais.nome_saida_via_rapida(locais.SE_30, 15)
 SE_30_SAIDA_14 = locais.nome_saida_via_rapida(locais.SE_30, 14)
 SE_30_SAIDA_12 = locais.nome_saida_via_rapida(locais.SE_30, 12)
@@ -337,6 +339,7 @@ CORTES_PEREIRAS__CRUZAMENTO_N122_M507 = 4.8
 CORTES_PEREIRAS__MENIRES_DO_LAVAJO = 2.5
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
+CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO = 1.4
 CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_H_31 = 28.7
 CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_SE_40 = 41.5
 CRUZAMENTO_A_49_H_31__H_31_SAIDA_80 = 1.5
@@ -361,7 +364,7 @@ CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
 CRUZAMENTO_N265_N392__SERPA = 17.7
 CRUZAMENTO_N265_N392__VALE_DO_POCO = 7.5
 CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO = 19.5
-CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO = 1.4
+CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21 = 1.2
 DUNAS_DE_VRSA__MONTE_GORDO = 1.7
 DUNAS_DE_VRSA__VRSA = 2.0
 EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
@@ -440,6 +443,7 @@ POMARAO__PONTE_RIO_CHANCA = 0.2
 POMARAO__PUERTO_DE_LA_LAJA = 5.5
 POMARAO__SALGUEIROS = 4.6
 PONTE_CENTENARIO__SE_30_SAIDA_12 = 1.5
+PONTE_DE_ALAMILLO__SE_30_SAIDA_21 = 0.2
 PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA = 6.0
 PORTELA_ALTA__QUEBRADAS = 1.2
 PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA = 4.7
@@ -773,27 +777,33 @@ class Mapa:
             37.199587, -7.403262, 3, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
-        balurco_de_baixo = local.Local(BALURCO_DE_BAIXO,
-                                       {CORTE_DAS_DONAS: [SUDESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
-                                        PARQUE_EMPRESARIAL_ALCOUTIM: [NORTE,
-                                                                      BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                                      CARRO],
-                                        IC27_SAIDA_6: [SUDOESTE, BALURCO_DE_BAIXO__IC27_SAIDA_6, CARRO],
-                                        BALURCO_DE_CIMA: [NOROESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]})
+        balurco_de_baixo = local_portugal.LocalPortugal(
+            BALURCO_DE_BAIXO,
+            {CORTE_DAS_DONAS: [SUDESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
+             PARQUE_EMPRESARIAL_ALCOUTIM: [NORTE, BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+             IC27_SAIDA_6: [SUDOESTE, BALURCO_DE_BAIXO__IC27_SAIDA_6, CARRO],
+             BALURCO_DE_CIMA: [NOROESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]},
+            37.424817, -7.508199, 213, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
-        balurco_de_cima = local.Local(BALURCO_DE_CIMA,
-                                      {IC27_SAIDA_7: [NOROESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
-                                       BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]})
+        balurco_de_cima = local_portugal.LocalPortugal(
+            BALURCO_DE_CIMA,
+            {IC27_SAIDA_7: [NOROESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
+             BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]},
+            37.429009, -7.524442, 209, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
-        beja = local.Local(BEJA,
-                           {IP2_SAIDA_44: [SUL, BEJA__IP2_SAIDA_44, CARRO],
-                            AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
-                            SERPA: [SUDESTE, BEJA__SERPA, CARRO]})
+        beja = local_portugal.LocalPortugal(
+            BEJA,
+            {IP2_SAIDA_44: [SUL, BEJA__IP2_SAIDA_44, CARRO],
+             AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__BEJA, CARRO],
+             SERPA: [SUDESTE, BEJA__SERPA, CARRO]},
+            38.015317, -7.862804, 270, locais.FREGUESIA_SANTA_MARIA_FEIRA_BEJA, locais.CONCELHO_BEJA)
 
-        boavista = local.Local(BOAVISTA,
-                               {ESPIRITO_SANTO: [SUDOESTE, BOAVISTA__ESPIRITO_SANTO, CARRO],
-                                ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
-                                PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]})
+        boavista = local_portugal.LocalPortugal(
+            BOAVISTA,
+            {ESPIRITO_SANTO: [SUDOESTE, BOAVISTA__ESPIRITO_SANTO, CARRO],
+             ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
+             PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]},
+            37.569888, -7.625849, 169, locais.FREGUESIA_ESPIRITO_SANTO, locais.CONCELHO_MERTOLA)
 
         cabanas_de_tavira = local_portugal.LocalPortugal(
             CABANAS_DE_TAVIRA,
@@ -805,16 +815,14 @@ class Mapa:
             CACELA_VELHA,
             {VILA_NOVA_DE_CACELA: [NORDESTE, CACELA_VELHA__VILA_NOVA_DE_CACELA, CARRO],
              SITIO_DA_FABRICA: [SUDOESTE, CACELA_VELHA__SITIO_DA_FABRICA, CARRO]},
-            37.157275, -7.546349, 26, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
-        )
+            37.157275, -7.546349, 26, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA)
 
         cachopo = local_portugal.LocalPortugal(
             CACHOPO,
             {MARTINLONGO: [NORTE, CACHOPO__MARTINLONGO, CARRO],
              VAQUEIROS: [NORDESTE, CACHOPO__VAQUEIROS, CARRO],
              PARQUE_TEMATICO_SERRA_CALDEIRAO: [SUDOESTE, CACHOPO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
-            37.332957, -7.817305, 387, locais.FREGUESIA_CACHOPO, locais.CONCELHO_TAVIRA
-        )
+            37.332957, -7.817305, 387, locais.FREGUESIA_CACHOPO, locais.CONCELHO_TAVIRA)
 
         cais_da_mesquita = local_portugal.LocalPortugal(
             CAIS_DA_MESQUITA,
@@ -983,7 +991,8 @@ class Mapa:
 
         cruzamento_se_20_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_SE_20_SE_30,
-            {CRUZAMENTO_A_66_SE_30: [OESTE, CRUZAMENTO_A_66_SE_30__CRUZAMENTO_SE_20_SE_30, CARRO]},
+            {CRUZAMENTO_A_66_SE_30: [OESTE, CRUZAMENTO_A_66_SE_30__CRUZAMENTO_SE_20_SE_30, CARRO],
+             SE_30_SAIDA_21: [ESTE, CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21, CARRO]},
             37.413544, -6.006240, 15, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
 
@@ -1357,8 +1366,13 @@ class Mapa:
             {SE_30_SAIDA_12: [NOROESTE, PONTE_CENTENARIO__SE_30_SAIDA_12, CARRO],
              CRUZAMENTO_A_4_SE_30: [SUDESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO]},
             37.349008, -5.993076, 1, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
-            locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA
-        )
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
+
+        ponte_de_alamillo = local_espanha_cidade.LocalEspanhaCidade(
+            PONTE_DE_ALAMILLO,
+            {SE_30_SAIDA_21: [OESTE, PONTE_DE_ALAMILLO__SE_30_SAIDA_21, CARRO]},
+            37.413298, -5.990623, 11, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
 
         ponte_internacional_guadiana = local.Local(PONTE_INTERNACIONAL_GUADIANA,
                                                    {AREA_REPOUSO_CASTRO_MARIM: [OESTE,
@@ -1547,6 +1561,13 @@ class Mapa:
             37.373371, -6.027443, 7, locais.MUNICIPIO_SAN_JUAN_AZNALFARACHE, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA
         )
+
+        se_30_saida_21 = local_espanha_cidade.LocalEspanhaCidade(
+            SE_30_SAIDA_21,
+            {CRUZAMENTO_SE_20_SE_30: [OESTE, CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21, CARRO],
+             PONTE_DE_ALAMILLO: [ESTE, PONTE_DE_ALAMILLO__SE_30_SAIDA_21, CARRO]},
+            37.413296, -5.993232, 14, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
 
         sedas = local_portugal.LocalPortugal(
             SEDAS,
@@ -1823,6 +1844,7 @@ class Mapa:
         self.lista_locais.append(picoitos)
         self.lista_locais.append(pomarao)
         self.lista_locais.append(ponte_centenario)
+        self.lista_locais.append(ponte_de_alamillo)
         self.lista_locais.append(ponte_internacional_guadiana)
         self.lista_locais.append(ponte_rio_chanca)
         self.lista_locais.append(portela_alta)
@@ -1853,6 +1875,7 @@ class Mapa:
         self.lista_locais.append(se_30_saida_12)
         self.lista_locais.append(se_30_saida_14)
         self.lista_locais.append(se_30_saida_15)
+        self.lista_locais.append(se_30_saida_21)
         self.lista_locais.append(sedas)
         self.lista_locais.append(sentinela)
         self.lista_locais.append(serpa)
