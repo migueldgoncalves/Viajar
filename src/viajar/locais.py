@@ -24,20 +24,20 @@ COMARCA_EL_ANDEVALO = "El Andévalo"
 COMARCA_EL_CONDADO = "El Condado"
 
 #  Municípios da Andalucía
-MUNICIPIO_AYAMONTE = "Ayamonte"
-MUNICIPIO_BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"
-MUNICIPIO_BORMUJOS = "Bormujos"
-MUNICIPIO_CAMAS = "Camas"
-MUNICIPIO_CARTAYA = "Cartaya"
-MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"
-MUNICIPIO_ESPARTINAS = "Espartinas"
-MUNICIPIO_GIBRALEON = "Gibraleón"
-MUNICIPIO_HUELVA = "Huelva"
-MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"
-MUNICIPIO_LEPE = "Lepe"
-MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"
-MUNICIPIO_SANTIPONCE = "Santiponce"
-MUNICIPIO_SEVILHA = "Sevilha"
+MUNICIPIO_AYAMONTE = "Ayamonte"  # Huelva
+MUNICIPIO_BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"  # Huelva
+MUNICIPIO_BORMUJOS = "Bormujos"  # Sevilha
+MUNICIPIO_CAMAS = "Camas"  # Sevilha
+MUNICIPIO_CARTAYA = "Cartaya"  # Huelva
+MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilla
+MUNICIPIO_ESPARTINAS = "Espartinas"  # Sevilha
+MUNICIPIO_GIBRALEON = "Gibraleón"  # Huelva
+MUNICIPIO_HUELVA = "Huelva"  # Huelva
+MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"  # Huelva
+MUNICIPIO_LEPE = "Lepe"  # Huelva
+MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"  # Sevilha
+MUNICIPIO_SANTIPONCE = "Santiponce"  # Sevilha
+MUNICIPIO_SEVILHA = "Sevilha"  # Sevilha
 
 #  Distritos de Sevilha
 DISTRITO_ESTE_ALCOSA_TORREBLANCA = "Este-Alcosa-Torreblanca"
@@ -111,12 +111,14 @@ FREGUESIA_MONTENEGRO = "Montenegro"  # Faro
 FREGUESIA_ODELEITE = "Odeleite"  # Castro Marim
 FREGUESIA_OLHAO = "Olhão"  # Olhão
 FREGUESIA_PEREIRO = "Pereiro"  # Alcoutim
+FREGUESIA_QUELFES = "Quelfes"  # Olhão
 FREGUESIA_SALIR = "Salir"  # Loulé
 FREGUESIA_SANTA_CATARINA_FONTE_BISPO = "Santa Catarina da Fonte do Bispo"  # Tavira
 FREGUESIA_SANTA_LUZIA_TAVIRA = "Santa Luzia"  # Tavira
 FREGUESIA_SANTA_MARIA_TAVIRA = "Santa Maria"  # Tavira
 FREGUESIA_SANTIAGO_TAVIRA = "Santiago"  # Tavira
 FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"  # São Brás de Alportel
+FREGUESIA_SE_FARO = "Sé"  # Faro
 FREGUESIA_VAQUEIROS = "Vaqueiros"  # Alcoutim
 FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo António
 FREGUESIA_VRSA = "Vila Real de Santo António"  # Vila Real de Santo António
@@ -130,7 +132,9 @@ FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Ilhas da Ria Formosa
 ILHA_DA_ARMONA = "Ilha da Armona"
+ILHA_DA_BARRETA = "Ilha da Barreta"
 ILHA_DE_CABANAS = "Ilha de Cabanas"
+ILHA_DA_CULATRA = "Ilha da Culatra"
 ILHA_DE_TAVIRA = "Ilha de Tavira"
 
 #  Estradas
@@ -146,6 +150,7 @@ N125 = "N125"
 N125_6 = "N125-6"
 N265 = "N265"
 N392 = "N392"
+N398 = "N398"
 
 
 #  #  #  #  #  #  #  #  #  #  #  #  #  #  #

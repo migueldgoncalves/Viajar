@@ -63,6 +63,7 @@ BARRIADA_DE_CANELA = "Barriada de Canela"
 BEJA = "Beja"
 BOAVISTA = "Boavista"
 CABANAS_DE_TAVIRA = "Cabanas de Tavira"
+CABO_SANTA_MARIA = "Cabo de Santa Maria"
 CACELA_VELHA = "Cacela Velha"
 CACHOPO = "Cachopo"
 CAIS_DA_MESQUITA = "Cais da Mesquita"
@@ -70,8 +71,8 @@ CAIS_PRAIA_BARRIL = "Cais da Praia do Barril"
 CAMPO_GOLFE_CASTRO_MARIM = "Campo de Golfe de Castro Marim"
 CARTAYA = "Cartaya"
 CASA_BRANCA = "Casa Branca"
-CASCATA_PULO_DO_LOBO_ESTE = "Cascata do Pulo do Lobo - Margem Esquerda"
-CASCATA_PULO_DO_LOBO_OESTE = "Cascata do Pulo do Lobo - Margem Direita"
+CASCATA_PULO_DO_LOBO_ESTE = "Cascata do Pulo do Lobo-Margem Esquerda"
+CASCATA_PULO_DO_LOBO_OESTE = "Cascata do Pulo do Lobo-Margem Direita"
 CASTRO_MARIM = "Castro Marim"
 CHOCA_QUEIMADA = "Choça Queimada"
 CONCEICAO = "Conceição"
@@ -90,8 +91,10 @@ CRUZAMENTO_N122_N123 = locais.nome_cruzamento_estradas(locais.N122, locais.N123)
 CRUZAMENTO_N125_M1347 = locais.nome_cruzamento_estradas(locais.N125, locais.M1347)
 CRUZAMENTO_N125_M516_2 = locais.nome_cruzamento_estradas(locais.N125, locais.M516_2)
 CRUZAMENTO_N125_N125_6 = locais.nome_cruzamento_estradas(locais.N125, locais.N125_6)
+CRUZAMENTO_N125_N398 = locais.nome_cruzamento_estradas(locais.N125, locais.N398)
 CRUZAMENTO_N265_N392 = locais.nome_cruzamento_estradas(locais.N265, locais.N392)
 CRUZAMENTO_SE_20_SE_30 = locais.nome_cruzamento_estradas(locais.SE_20, locais.SE_30)
+CULATRA = "Culatra"
 DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
@@ -113,6 +116,7 @@ GIBRALEON = "Gibraleón"
 GIOES = "Giões"
 GUERREIROS_DO_RIO = "Guerreiros do Rio"
 H_31_SAIDA_80 = locais.nome_saida_via_rapida(locais.H_31, 80)
+HANGARES = "Hangares"
 HORTAS = "Hortas"
 HUELVA = "Huelva"
 IC27_FIM = locais.nome_saida_via_rapida(locais.IC27, "Fim")
@@ -124,6 +128,8 @@ IC27_SAIDA_4 = locais.nome_saida_via_rapida(locais.IC27, 4)
 IC27_SAIDA_5 = locais.nome_saida_via_rapida(locais.IC27, 5)
 IC27_SAIDA_6 = locais.nome_saida_via_rapida(locais.IC27, 6)
 IC27_SAIDA_7 = locais.nome_saida_via_rapida(locais.IC27, 7)
+ILHA_DA_ARMONA = "Ilha da Armona"
+ILHA_DO_FAROL = "Ilha do Farol"
 IP2_SAIDA_44 = locais.nome_saida_via_rapida(locais.IP2, 44)
 ISLA_CRISTINA = "Isla Cristina"
 JUNQUEIRA = "Junqueira"
@@ -163,6 +169,7 @@ PORTELA_ALTA = "Portela Alta"
 POZO_DEL_CAMINO = "Pozo del Camino"
 PRAIA_CABANAS_TAVIRA = "Praia de Cabanas de Tavira"
 PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
+PRAIA_DA_BARRETA = "Praia da Barreta"
 PRAIA_DA_FUSETA = "Praia da Fuseta"
 PRAIA_DO_BARRIL = "Praia do Barril"
 PRAIA_ILHA_TAVIRA = "Praia da Ilha de Tavira"
@@ -172,6 +179,7 @@ PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 PUNTA_DEL_MORAL = "Punta del Moral"
 QUATRO_AGUAS = "Quatro Águas"
 QUEBRADAS = "Quebradas"
+QUELFES = "Quelfes"
 RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
 SALGUEIROS = "Salgueiros"
@@ -239,8 +247,8 @@ A22_SAIDA_14__FARO_OESTE = 9.2
 A22_SAIDA_14__SAO_BRAS_DE_ALPORTEL = 9.8
 A22_SAIDA_14__A22_SAIDA_15 = 11.6
 A22_SAIDA_15__AREA_SERVICO_OLHAO = 3.6
+A22_SAIDA_15__CRUZAMENTO_N125_N398 = 7.9
 A22_SAIDA_15__MONCARAPACHO = 3.5
-A22_SAIDA_15__OLHAO = 10.4
 A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO = 5.7
 A22_SAIDA_16__A22_SAIDA_17 = 19.8
 A22_SAIDA_16__AREA_SERVICO_OLHAO = 7.2
@@ -310,6 +318,7 @@ BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
 CABANAS_DE_TAVIRA__CONCEICAO = 1.5
 CABANAS_DE_TAVIRA__PRAIA_CABANAS_TAVIRA = 0.8
+CABO_SANTA_MARIA__PRAIA_DA_BARRETA = 2.2
 CACELA_VELHA__SITIO_DA_FABRICA = 1.3
 CACELA_VELHA__VILA_NOVA_DE_CACELA = 2.5
 CACHOPO__MARTINLONGO = 16.2
@@ -354,17 +363,21 @@ CRUZAMENTO_N122_N123__MERTOLA = 11.1
 CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA = 2.2
 CRUZAMENTO_N125_M1347__PEDRAS_DEL_REI = 1.0
 CRUZAMENTO_N125_M1347__TAVIRA_SUL = 4.3
+CRUZAMENTO_N125_M516_2__CRUZAMENTO_N125_N398 = 5.9
 CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO = 0.9
 CRUZAMENTO_N125_M516_2__LIVRAMENTO = 2.8
-CRUZAMENTO_N125_M516_2__OLHAO = 8.6
 CRUZAMENTO_N125_M516_2__MONCARAPACHO = 3.8
 CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
 CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
 CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
+CRUZAMENTO_N125_N398__OLHAO = 3.2
 CRUZAMENTO_N265_N392__SERPA = 17.7
 CRUZAMENTO_N265_N392__VALE_DO_POCO = 7.5
 CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO = 19.5
 CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21 = 1.2
+CULATRA__HANGARES = 1.6
+CULATRA__ILHA_DA_ARMONA = 6.2
+CULATRA__OLHAO = 5.1
 DUNAS_DE_VRSA__MONTE_GORDO = 1.7
 DUNAS_DE_VRSA__VRSA = 2.0
 EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
@@ -393,6 +406,7 @@ FARO_ESTE__OLHAO = 9.9
 FONTE_DO_PENEDO__IC27_SAIDA_3 = 2.5
 FURNAZINHAS__IC27_SAIDA_5 = 5.4
 FURNAZINHAS__VAQUEIROS = 17.6
+FUSETA__ILHA_DA_ARMONA = 10.9
 FUSETA__PRAIA_DA_FUSETA = 1.3
 FUSETA__PRAIA_DO_BARRIL = 8.6
 GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
@@ -400,6 +414,7 @@ GIOES__MARTINLONGO = 9.4
 GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
 GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
+HANGARES__ILHA_DO_FAROL = 1.5
 HORTAS__VRSA = 2.4
 IC27_FIM__IC27_SAIDA_7 = 6.1
 IC27_INICIO__IC27_SAIDA_1 = 1.1
@@ -421,6 +436,8 @@ IC27_SAIDA_6__IC27_SAIDA_7 = 3.7
 IC27_SAIDA_6__PALMEIRA = 0.7
 IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM = 3.0
 IC27_SAIDA_7__PEREIRO = 6.1
+ILHA_DA_ARMONA__OLHAO = 2.9
+ILHA_DO_FAROL__PRAIA_DA_BARRETA = 1.4
 ISLA_CRISTINA__PUNTA_DEL_MORAL = 1.6
 LARANJEIRAS__MONTINHO_DAS_LARANJEIRAS = 0.5
 LIVRAMENTO__LUZ_DE_TAVIRA = 3.2
@@ -433,10 +450,12 @@ MARISMAS_ISLA_CRISTINA__PUNTA_DEL_MORAL = 2.5
 MESQUITA__SEDAS = 7.1
 MINAS_SAO_DOMINGOS__MOREANES = 6.8
 MINAS_SAO_DOMINGOS__VALE_DO_POCO = 11.4
+MONCARAPACHO__QUELFES = 4.7
 MONTE_ALTO__MOREANES = 6.7
 MONTE_ALTO__PICOITOS = 6.4
 MONTE_GORDO__PRAIA_VERDE = 4.9
 MOREANES__SALGUEIROS = 7.5
+OLHAO__QUELFES = 4.7
 PEDRAS_DEL_REI__SANTA_LUZIA = 2.3
 PICOITOS__SALGUEIROS = 2.0
 POMARAO__PONTE_RIO_CHANCA = 0.2
@@ -595,7 +614,7 @@ class Mapa:
             {A22_SAIDA_14: [OESTE, A22_SAIDA_14__A22_SAIDA_15, CARRO],
              AREA_SERVICO_OLHAO: [NORDESTE, A22_SAIDA_15__AREA_SERVICO_OLHAO, CARRO],
              MONCARAPACHO: [SUL, A22_SAIDA_15__MONCARAPACHO, CARRO],
-             OLHAO: [SUL, A22_SAIDA_15__OLHAO, CARRO],
+             CRUZAMENTO_N125_N398: [SUL, A22_SAIDA_15__CRUZAMENTO_N125_N398, CARRO],
              SANTA_CATARINA_FONTE_BISPO: [NORTE, A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO, CARRO]},
             37.107910, -7.800772, 116, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
@@ -811,6 +830,11 @@ class Mapa:
              PRAIA_CABANAS_TAVIRA: [ESTE, CABANAS_DE_TAVIRA__PRAIA_CABANAS_TAVIRA, BARCO]},
             37.135310, -7.600363, 3, locais.FREGUESIA_CABANAS_TAVIRA, locais.CONCELHO_TAVIRA)
 
+        cabo_santa_maria = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            CABO_SANTA_MARIA,
+            {PRAIA_DA_BARRETA: [NORDESTE, CABO_SANTA_MARIA__PRAIA_DA_BARRETA, BARCO]},
+            36.959245, -7.891501, 0, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_BARRETA)
+
         cacela_velha = local_portugal.LocalPortugal(
             CACELA_VELHA,
             {VILA_NOVA_DE_CACELA: [NORDESTE, CACELA_VELHA__VILA_NOVA_DE_CACELA, CARRO],
@@ -903,15 +927,13 @@ class Mapa:
             {CRUZAMENTO_A_49_SE_40: [ESTE, CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_SE_40, CARRO],
              CRUZAMENTO_A_49_H_31: [OESTE, CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_H_31, CARRO]},
             37.354358, -6.559195, 127, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
-            locais.PROVINCIA_HUELVA
-        )
+            locais.PROVINCIA_HUELVA)
 
         cruzamento_a_4_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_A_4_SE_30,
             {PONTE_CENTENARIO: [NOROESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO]},
             37.341333, -5.981543, 4, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
-            locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA
-        )
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
 
         cruzamento_a_49_h_31 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_H_31,
@@ -919,8 +941,7 @@ class Mapa:
              CRUZAMENTO_A_49_A_483: [ESTE, CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_H_31, CARRO],
              H_31_SAIDA_80: [SUDOESTE, CRUZAMENTO_A_49_H_31__H_31_SAIDA_80, CARRO]},
             37.312759, -6.876701, 13, locais.MUNICIPIO_HUELVA, locais.COMARCA_METROPOLITANA_HUELVA,
-            locais.PROVINCIA_HUELVA
-        )
+            locais.PROVINCIA_HUELVA)
 
         cruzamento_a_49_se_30 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_SE_30,
@@ -968,7 +989,7 @@ class Mapa:
             CRUZAMENTO_N125_M516_2,
             {LIVRAMENTO: [NORDESTE, CRUZAMENTO_N125_M516_2__LIVRAMENTO, CARRO],
              ESTACAO_FUSETA_MONCARAPACHO: [SUDESTE, CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO, CARRO],
-             OLHAO: [SUDOESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
+             CRUZAMENTO_N125_N398: [SUDOESTE, CRUZAMENTO_N125_M516_2__CRUZAMENTO_N125_N398, CARRO],
              MONCARAPACHO: [NOROESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
             37.063244, -7.759820, 7, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
@@ -981,13 +1002,19 @@ class Mapa:
                                               PRAIA_VERDE: [SUL, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO],
                                               ALTURA: [SUDOESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO]})
 
+        cruzamento_n125_n398 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N125_N398,
+            {CRUZAMENTO_N125_M516_2: [NORDESTE, CRUZAMENTO_N125_M516_2__CRUZAMENTO_N125_N398, CARRO],
+             OLHAO: [SUDOESTE, CRUZAMENTO_N125_N398__OLHAO, CARRO],
+             A22_SAIDA_15: [NORTE, A22_SAIDA_15__CRUZAMENTO_N125_N398, CARRO]},
+            37.043428, -7.818297, 17, locais.FREGUESIA_QUELFES, locais.CONCELHO_OLHAO)
+
         cruzamento_n265_n392 = local_portugal.LocalPortugal(
             CRUZAMENTO_N265_N392,
             {VALE_DO_POCO: [SUL, CRUZAMENTO_N265_N392__VALE_DO_POCO, CARRO],
              SERPA: [NOROESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
              VILA_NOVA_SAO_BENTO: [NORDESTE, CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO, CARRO]},
-            37.820185, -7.500759, 233, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA
-        )
+            37.820185, -7.500759, 233, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA)
 
         cruzamento_se_20_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_SE_20_SE_30,
@@ -995,6 +1022,13 @@ class Mapa:
              SE_30_SAIDA_21: [ESTE, CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21, CARRO]},
             37.413544, -6.006240, 15, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
+
+        culatra = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            CULATRA,
+            {OLHAO: [NORTE, CULATRA__OLHAO, BARCO],
+             ILHA_DA_ARMONA: [NORDESTE, CULATRA__ILHA_DA_ARMONA, BARCO],
+             HANGARES: [SUDOESTE, CULATRA__HANGARES, BARCO]},
+            36.993994, -7.840545, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
 
         dunas_vrsa = local.Local(DUNAS_DE_VRSA,
                                  {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
@@ -1016,8 +1050,7 @@ class Mapa:
             {VILA_NOVA_DE_CACELA: [SUDESTE, ESTACAO_CACELA__VILA_NOVA_DE_CACELA, CARRO],
              ESTACAO_CASTRO_MARIM: [NORDESTE, ESTACAO_CACELA__ESTACAO_CASTRO_MARIM, COMBOIO],
              CONCEICAO: [SUDOESTE, CONCEICAO__ESTACAO_CACELA, COMBOIO]},
-            37.176448, -7.538596, 39, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA
-        )
+            37.176448, -7.538596, 39, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA)
 
         estacao_castro_marim = local_portugal.LocalPortugal(
             ESTACAO_CASTRO_MARIM,
@@ -1025,8 +1058,7 @@ class Mapa:
              CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
              ESTACAO_MONTE_GORDO: [SUDESTE, ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO, COMBOIO],
              ESTACAO_CACELA: [SUDOESTE, ESTACAO_CACELA__ESTACAO_CASTRO_MARIM, COMBOIO]},
-            37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM
-        )
+            37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         estacao_fuseta_a = local_portugal.LocalPortugal(
             ESTACAO_FUSETA_A,
@@ -1102,7 +1134,8 @@ class Mapa:
             {ESTACAO_FUSETA_MONCARAPACHO: [NOROESTE, ESTACAO_FUSETA_MONCARAPACHO__FUSETA, CARRO],
              ESTACAO_FUSETA_A: [SUDOESTE, ESTACAO_FUSETA_A__FUSETA, CARRO],
              PRAIA_DO_BARRIL: [NORDESTE, FUSETA__PRAIA_DO_BARRIL, BARCO],
-             PRAIA_DA_FUSETA: [SUL, FUSETA__PRAIA_DA_FUSETA, BARCO]},
+             PRAIA_DA_FUSETA: [SUL, FUSETA__PRAIA_DA_FUSETA, BARCO],
+             ILHA_DA_ARMONA: [SUDOESTE, FUSETA__ILHA_DA_ARMONA, BARCO]},
             37.055108, -7.746517, 6, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
 
         gibraleon = local.Local(GIBRALEON,
@@ -1124,8 +1157,13 @@ class Mapa:
             H_31_SAIDA_80,
             {CRUZAMENTO_A_49_H_31: [NORDESTE, CRUZAMENTO_A_49_H_31__H_31_SAIDA_80, CARRO]},
             37.308308, -6.892289, 9, locais.MUNICIPIO_HUELVA, locais.COMARCA_METROPOLITANA_HUELVA,
-            locais.PROVINCIA_HUELVA
-        )
+            locais.PROVINCIA_HUELVA)
+
+        hangares = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            HANGARES,
+            {CULATRA: [NORDESTE, CULATRA__HANGARES, BARCO],
+             ILHA_DO_FAROL: [SUDOESTE, HANGARES__ILHA_DO_FAROL, BARCO]},
+            36.985922, -7.855092, 3, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
 
         hortas = local.Local(HORTAS,
                              {ESTACAO_MONTE_GORDO: [NOROESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
@@ -1193,6 +1231,19 @@ class Mapa:
                                                                   CARRO],
                                     BALURCO_DE_CIMA: [SUDESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
                                     PEREIRO: [NOROESTE, IC27_SAIDA_7__PEREIRO, CARRO]})
+
+        ilha_da_armona = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            ILHA_DA_ARMONA,
+            {FUSETA: [NORDESTE, FUSETA__ILHA_DA_ARMONA, BARCO],
+             OLHAO: [NOROESTE, ILHA_DA_ARMONA__OLHAO, BARCO],
+             CULATRA: [SUDOESTE, CULATRA__ILHA_DA_ARMONA, BARCO]},
+            37.019218, -7.802199, 4, locais.FREGUESIA_QUELFES, locais.CONCELHO_OLHAO, locais.ILHA_DA_ARMONA)
+
+        ilha_do_farol = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            ILHA_DO_FAROL,
+            {HANGARES: [NORDESTE, HANGARES__ILHA_DO_FAROL, BARCO],
+             PRAIA_DA_BARRETA: [SUDOESTE, ILHA_DO_FAROL__PRAIA_DA_BARRETA, BARCO]},
+            36.975104, -7.864938, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
 
         ip2_saida_44 = local.Local(IP2_SAIDA_44,
                                    {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
@@ -1274,7 +1325,8 @@ class Mapa:
             MONCARAPACHO,
             {A22_SAIDA_15: [NORTE, A22_SAIDA_15__MONCARAPACHO, CARRO],
              LUZ_DE_TAVIRA: [ESTE, LUZ_DE_TAVIRA__MONCARAPACHO, CARRO],
-             CRUZAMENTO_N125_M516_2: [SUDESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
+             CRUZAMENTO_N125_M516_2: [SUDESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO],
+             QUELFES: [SUDOESTE, MONCARAPACHO__QUELFES, CARRO]},
             37.085190, -7.787652, 50, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
         monte_alto = local.Local(MONTE_ALTO,
@@ -1305,10 +1357,12 @@ class Mapa:
 
         olhao = local_portugal.LocalPortugal(
             OLHAO,
-            {CRUZAMENTO_N125_M516_2: [NORDESTE, CRUZAMENTO_N125_M516_2__OLHAO, CARRO],
-             A22_SAIDA_15: [NORTE, A22_SAIDA_15__OLHAO, CARRO],
+            {CRUZAMENTO_N125_N398: [NORDESTE, CRUZAMENTO_N125_N398__OLHAO, CARRO],
              FARO_ESTE: [OESTE, FARO_ESTE__OLHAO, CARRO],
-             ESTACAO_FUSETA_A: [NORDESTE, ESTACAO_FUSETA_A__OLHAO, COMBOIO]},
+             QUELFES: [NORDESTE, OLHAO__QUELFES, CARRO],
+             ESTACAO_FUSETA_A: [NORDESTE, ESTACAO_FUSETA_A__OLHAO, COMBOIO],
+             ILHA_DA_ARMONA: [SUDESTE, ILHA_DA_ARMONA__OLHAO, BARCO],
+             CULATRA: [SUL, CULATRA__OLHAO, BARCO]},
             37.026148, -7.842197, 3, locais.FREGUESIA_OLHAO, locais.CONCELHO_OLHAO)
 
         palmeira = local.Local(PALMEIRA,
@@ -1409,6 +1463,12 @@ class Mapa:
              PRAIA_CABANAS_TAVIRA: [SUDOESTE, PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA, BARCO]},
             37.152880, -7.542684, 0, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA, locais.ILHA_DE_CABANAS)
 
+        praia_da_barreta = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
+            PRAIA_DA_BARRETA,
+            {ILHA_DO_FAROL: [NORDESTE, ILHA_DO_FAROL__PRAIA_DA_BARRETA, BARCO],
+             CABO_SANTA_MARIA: [SUDOESTE, CABO_SANTA_MARIA__PRAIA_DA_BARRETA, BARCO]},
+            36.964761, -7.872067, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_BARRETA)
+
         praia_da_fuseta = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_DA_FUSETA,
             {FUSETA: [NORTE, FUSETA__PRAIA_DA_FUSETA, BARCO]},
@@ -1465,6 +1525,12 @@ class Mapa:
                                  SENTINELA: [SUDESTE, QUEBRADAS__SENTINELA, CARRO],
                                  CHOCA_QUEIMADA: [NORTE, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
                                  ALTA_MORA: [OESTE, ALTA_MORA__QUEBRADAS, CARRO]})
+
+        quelfes = local_portugal.LocalPortugal(
+            QUELFES,
+            {OLHAO: [SUDOESTE, OLHAO__QUELFES, CARRO],
+             MONCARAPACHO: [NORDESTE, MONCARAPACHO__QUELFES, CARRO]},
+            37.057613, -7.821595, 24, locais.FREGUESIA_QUELFES, locais.CONCELHO_OLHAO)
 
         ribeira_do_vascao = local.Local(RIBEIRA_DO_VASCAO,
                                         {SANTA_MARTA: [SUL, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO],
@@ -1751,6 +1817,7 @@ class Mapa:
         self.lista_locais.append(beja)
         self.lista_locais.append(boavista)
         self.lista_locais.append(cabanas_de_tavira)
+        self.lista_locais.append(cabo_santa_maria)
         self.lista_locais.append(cacela_velha)
         self.lista_locais.append(cachopo)
         self.lista_locais.append(cais_da_mesquita)
@@ -1778,8 +1845,10 @@ class Mapa:
         self.lista_locais.append(cruzamento_n125_m1347)
         self.lista_locais.append(cruzamento_n125_m516_2)
         self.lista_locais.append(cruzamento_n125_n125_6)
+        self.lista_locais.append(cruzamento_n125_n398)
         self.lista_locais.append(cruzamento_n265_n392)
         self.lista_locais.append(cruzamento_se_20_se_30)
+        self.lista_locais.append(culatra)
         self.lista_locais.append(dunas_vrsa)
         self.lista_locais.append(el_granado)
         self.lista_locais.append(espirito_santo)
@@ -1801,6 +1870,7 @@ class Mapa:
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
         self.lista_locais.append(h_31_saida_80)
+        self.lista_locais.append(hangares)
         self.lista_locais.append(hortas)
         self.lista_locais.append(huelva)
         self.lista_locais.append(ic27_fim)
@@ -1812,6 +1882,8 @@ class Mapa:
         self.lista_locais.append(ic27_saida_5)
         self.lista_locais.append(ic27_saida_6)
         self.lista_locais.append(ic27_saida_7)
+        self.lista_locais.append(ilha_da_armona)
+        self.lista_locais.append(ilha_do_farol)
         self.lista_locais.append(ip2_saida_44)
         self.lista_locais.append(isla_cristina)
         self.lista_locais.append(junqueira)
@@ -1851,6 +1923,7 @@ class Mapa:
         self.lista_locais.append(pozo_del_camino)
         self.lista_locais.append(praia_cabanas_tavira)
         self.lista_locais.append(praia_cacela_velha)
+        self.lista_locais.append(praia_da_barreta)
         self.lista_locais.append(praia_da_fuseta)
         self.lista_locais.append(praia_do_barril)
         self.lista_locais.append(praia_ilha_tavira)
@@ -1860,6 +1933,7 @@ class Mapa:
         self.lista_locais.append(punta_del_moral)
         self.lista_locais.append(quatro_aguas)
         self.lista_locais.append(quebradas)
+        self.lista_locais.append(quelfes)
         self.lista_locais.append(ribeira_do_vascao)
         self.lista_locais.append(rotunda_da_arvore)
         self.lista_locais.append(salgueiros)
