@@ -94,12 +94,14 @@ baixo_alentejo_regiao = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 
 #  Freguesias do Algarve
 FREGUESIA_ALCOUTIM = "Alcoutim"  # Alcoutim
+FREGUESIA_ALMANCIL = "Almancil"  # Loulé
 FREGUESIA_ALTURA = "Altura"  # Castro Marim
 FREGUESIA_AZINHAL = "Azinhal"  # Castro Marim
 FREGUESIA_CABANAS_TAVIRA = "Cabanas de Tavira"  # Tavira
 FREGUESIA_CACHOPO = "Cachopo"  # Tavira
 FREGUESIA_CASTRO_MARIM = "Castro Marim"  # Castro Marim
-FREGUESIA_CONCEICAO = "Conceição"  # Tavira
+FREGUESIA_CONCEICAO_FARO = "Conceição"  # Faro
+FREGUESIA_CONCEICAO_TAVIRA = "Conceição"  # Tavira
 FREGUESIA_ESTOI = "Estoi"  # Faro
 FREGUESIA_FUSETA = "Fuseta"  # Olhão
 FREGUESIA_GIOES = "Giões"  # Alcoutim
@@ -110,14 +112,17 @@ FREGUESIA_MONTE_GORDO = "Monte Gordo"  # Vila Real de Santo António
 FREGUESIA_MONTENEGRO = "Montenegro"  # Faro
 FREGUESIA_ODELEITE = "Odeleite"  # Castro Marim
 FREGUESIA_OLHAO = "Olhão"  # Olhão
+FREGUESIA_PECHAO = "Pechão"  # Olhão
 FREGUESIA_PEREIRO = "Pereiro"  # Alcoutim
 FREGUESIA_QUELFES = "Quelfes"  # Olhão
 FREGUESIA_SALIR = "Salir"  # Loulé
+FREGUESIA_SANTA_BARBARA_NEXE = "Santa Bárbara de Nexe"  # Faro
 FREGUESIA_SANTA_CATARINA_FONTE_BISPO = "Santa Catarina da Fonte do Bispo"  # Tavira
 FREGUESIA_SANTA_LUZIA_TAVIRA = "Santa Luzia"  # Tavira
 FREGUESIA_SANTA_MARIA_TAVIRA = "Santa Maria"  # Tavira
 FREGUESIA_SANTIAGO_TAVIRA = "Santiago"  # Tavira
 FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"  # São Brás de Alportel
+FREGUESIA_SAO_PEDRO_FARO = "São Pedro"  # Faro
 FREGUESIA_SE_FARO = "Sé"  # Faro
 FREGUESIA_VAQUEIROS = "Vaqueiros"  # Alcoutim
 FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo António
@@ -140,10 +145,12 @@ ILHA_DE_TAVIRA = "Ilha de Tavira"
 #  Estradas
 A22 = "A22"
 IC27 = "IC27"
+IC4 = "IC4"
 IP2 = "IP2"
 M1347 = "M1347"
 M507 = "M507"
 M516_2 = "M516-2"
+M520 = "M520"
 N122 = "N122"
 N123 = "N123"
 N125 = "N125"
@@ -160,10 +167,10 @@ N398 = "N398"
 def nome_saida_via_rapida(via_rapida, saida):
     #  Ex: IC27 - Fim
     if saida in ["Início", "Fim"]:
-        return via_rapida + "-" + saida
+        return via_rapida + " - " + saida
     #  Ex: A-49-Saída 1
     else:
-        return via_rapida + "-Saída " + str(saida)
+        return via_rapida + " - Saída " + str(saida)
 
 
 def nome_cruzamento_estradas(estrada1, estrada2):
@@ -175,7 +182,7 @@ def nome_cruzamento_estradas(estrada1, estrada2):
 
 #  Verifica o artigo definido ("a", "o") a empregar para se referir a uma estrada
 def verificador_artigo_definido(nome):
-    if nome[0:1] in ["IP", "IC"]:
+    if nome[0:2] in ["IP", "IC"]:
         return "o"
     else:
         return "a"

@@ -5,7 +5,7 @@ from viajar import mapa, viagem
 from carro import carro
 
 #  Opções
-SEPARADOR = "-"
+SEPARADOR = "->"
 SAIR = 0  # Não alterar
 SAIR_STRING = "Sair da viagem"
 CARRO_STRING = "Voltar à estrada"
