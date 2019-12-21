@@ -130,9 +130,11 @@ FREGUESIA_VRSA = "Vila Real de Santo António"  # Vila Real de Santo António
 
 #  Freguesias do Baixo Alentejo
 FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"  # Mértola
+FREGUESIA_MERTOLA = "Mértola"  # Mértola
+FREGUESIA_SALVADOR_SERPA = "Salvador"  # Serpa
 FREGUESIA_SANTA_MARIA_FEIRA_BEJA = "Santa Maria da Feira"  # Beja
+FREGUESIA_SANTA_MARIA_SERPA = "Santa Maria"  # Serpa
 FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
-FREGUESIA_SERPA = "Serpa"  # Serpa
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Ilhas da Ria Formosa

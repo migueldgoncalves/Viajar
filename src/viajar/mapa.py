@@ -69,12 +69,12 @@ CACELA_VELHA = "Cacela Velha"
 CACHOPO = "Cachopo"
 CAIS_DA_MESQUITA = "Cais da Mesquita"
 CAIS_PRAIA_BARRIL = "Cais da Praia do Barril"
-CAMPO_GOLFE_CASTRO_MARIM = "Campo de Golfe de Castro Marim"
 CARTAYA = "Cartaya"
 CASA_BRANCA = "Casa Branca"
 CASCATA_PULO_DO_LOBO_ESTE = "Cascata do Pulo do Lobo - Margem Esquerda"
 CASCATA_PULO_DO_LOBO_OESTE = "Cascata do Pulo do Lobo - Margem Direita"
 CASTRO_MARIM = "Castro Marim"
+CASTRO_MARIM_GOLFE_COUNTRY_CLUB = "Castro Marim Golfe & Country Club"
 CHOCA_QUEIMADA = "Choça Queimada"
 CONCEICAO_FARO = "Conceição, Faro"
 CONCEICAO_TAVIRA = "Conceição, Tavira"
@@ -195,6 +195,7 @@ PUNTA_DEL_MORAL = "Punta del Moral"
 QUATRO_AGUAS = "Quatro Águas"
 QUEBRADAS = "Quebradas"
 QUELFES = "Quelfes"
+QUINTA_VALE_GOLF_RESORT = "Quinta do Vale Golf Resort"
 RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
 RUINAS_ROMANAS_MILREU = "Ruínas Romanas de Milreu"
@@ -236,6 +237,7 @@ VILA_NOVA_DE_CACELA = "Vila Nova de Cacela"
 VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"
 VILLABLANCA = "Villablanca"
 VILLANUEVA_DE_LOS_CASTILLEJOS = "Villanueva de los Castillejos"
+VISTA_REAL = "Vista Real"
 VRSA = "Vila Real de Santo António"
 
 #  Distâncias (km)
@@ -356,13 +358,14 @@ CAIS_DA_MESQUITA__POMARAO = 0.1
 CAIS_PRAIA_BARRIL__PEDRAS_DEL_REI = 0.7
 CAIS_PRAIA_BARRIL__PRAIA_DO_BARRIL = 1.1
 CAIS_PRAIA_BARRIL__SANTA_LUZIA = 1.8
-CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1 = 2.2
 CARTAYA__LEPE = 9.3
 CASA_BRANCA__CHOCA_QUEIMADA = 0.8
 CASCATA_PULO_DO_LOBO_ESTE__VALE_DO_POCO = 12.3
 CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123 = 16.5
-CASTRO_MARIM__ESTACAO_CASTRO_MARIM = 4.9
 CASTRO_MARIM__SAPAL_SUL = 1.8
+CASTRO_MARIM__VISTA_REAL = 2.3
+CASTRO_MARIM_GOLFE_COUNTRY_CLUB__IC27_SAIDA_1 = 2.2
+CASTRO_MARIM_GOLFE_COUNTRY_CLUB__VISTA_REAL = 3.2
 CHOCA_QUEIMADA__QUEBRADAS = 2.2
 CONCEICAO_FARO__CRUZAMENTO_IC4_M520 = 4.3
 CONCEICAO_FARO__ESTOI = 4.3
@@ -426,6 +429,7 @@ ESTACAO_BOM_JOAO__VARIANTE_FARO_M518 = 2.6
 ESTACAO_CACELA__ESTACAO_CASTRO_MARIM = 5.9
 ESTACAO_CACELA__VILA_NOVA_DE_CACELA = 0.8
 ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO = 3.4
+ESTACAO_CASTRO_MARIM__VISTA_REAL = 3.8
 ESTACAO_FARO__ESTACAO_PARQUE_CIDADES = 8.1
 ESTACAO_FARO__FARO_SAO_PEDRO = 0.8
 ESTACAO_FUSETA_A__ESTACAO_FUSETA_MONCARAPACHO = 0.9
@@ -477,6 +481,7 @@ IC27_INICIO__SAPAL_NORTE = 2.0
 IC27_SAIDA_1__IC27_SAIDA_2 = 8.1
 IC27_SAIDA_1__JUNQUEIRA = 2.4
 IC27_SAIDA_1__MONTE_FRANCISCO = 0.9
+IC27_SAIDA_1__QUINTA_VALE_GOLF_RESORT = 1.1
 IC27_SAIDA_2__IC27_SAIDA_3 = 2.6
 IC27_SAIDA_2__PICARRAL = 1.0
 IC27_SAIDA_2__SENTINELA = 1.2
@@ -508,6 +513,7 @@ MINAS_SAO_DOMINGOS__VALE_DO_POCO = 11.4
 MONCARAPACHO__QUELFES = 4.7
 MONTE_ALTO__MOREANES = 6.7
 MONTE_ALTO__PICOITOS = 6.4
+MONTE_FRANCISCO__VISTA_REAL = 2.0
 MONTE_GORDO__PRAIA_VERDE = 4.9
 MONTENEGRO__UNIVERSIDADE_ALGARVE_GAMBELAS = 2.1
 MONTENEGRO__VARIANTE_FARO_IC4 = 1.3
@@ -937,35 +943,47 @@ class Mapa:
              SANTA_LUZIA: [NORDESTE, CAIS_PRAIA_BARRIL__SANTA_LUZIA, BARCO]},
             37.091461, -7.673185, 1, locais.FREGUESIA_SANTA_LUZIA_TAVIRA, locais.CONCELHO_TAVIRA, locais.ILHA_DE_TAVIRA)
 
-        campo_golfe_castro_marim = local.Local(CAMPO_GOLFE_CASTRO_MARIM,
-                                               {IC27_SAIDA_1: [NORDESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1,
-                                                               CARRO]})
+        cartaya = local_espanha.LocalEspanha(
+            CARTAYA,
+            {A_49_SAIDA_105: [NORTE, A_49_SAIDA_105__CARTAYA, CARRO],
+             LEPE: [SUDOESTE, CARTAYA__LEPE, CARRO]},
+            37.236020, -7.469165, 15, locais.MUNICIPIO_CARTAYA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
-        cartaya = local.Local(CARTAYA,
-                              {A_49_SAIDA_105: [NORTE, A_49_SAIDA_105__CARTAYA, CARRO],
-                               LEPE: [SUDOESTE, CARTAYA__LEPE, CARRO]})
+        casa_branca = local_portugal.LocalPortugal(
+            CASA_BRANCA,
+            {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]},
+            37.318916, -7.514484, 130, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
-        casa_branca = local.Local(CASA_BRANCA,
-                                  {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]})
+        cascata_pulo_do_lobo_este = local_portugal.LocalPortugal(
+            CASCATA_PULO_DO_LOBO_ESTE,
+            {VALE_DO_POCO: [SUDESTE, CASCATA_PULO_DO_LOBO_ESTE__VALE_DO_POCO, CARRO]},
+            37.804322, -7.633016, 30, locais.FREGUESIA_SANTA_MARIA_SERPA, locais.CONCELHO_SERPA)
 
-        cascata_pulo_do_lobo_este = local.Local(CASCATA_PULO_DO_LOBO_ESTE,
-                                                {VALE_DO_POCO: [SUDESTE, CASCATA_PULO_DO_LOBO_ESTE__VALE_DO_POCO,
-                                                                CARRO]})
+        cascata_pulo_do_lobo_oeste = local_portugal.LocalPortugal(
+            CASCATA_PULO_DO_LOBO_OESTE,
+            {CRUZAMENTO_N122_N123: [SUDOESTE, CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123, CARRO]},
+            37.804165, -7.633939, 32, locais.FREGUESIA_MERTOLA, locais.CONCELHO_MERTOLA)
 
-        cascata_pulo_do_lobo_oeste = local.Local(CASCATA_PULO_DO_LOBO_OESTE,
-                                                 {CRUZAMENTO_N122_N123: [SUDOESTE,
-                                                                         CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123,
-                                                                         CARRO]})
+        castro_marim = local_portugal.LocalPortugal(
+            CASTRO_MARIM,
+            {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
+             SAPAL_SUL: [SUDESTE, CASTRO_MARIM__SAPAL_SUL, CARRO],
+             VISTA_REAL: [NOROESTE, CASTRO_MARIM__VISTA_REAL, CARRO]},
+            37.217646, -7.442295, 4, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        castro_marim = local.Local(CASTRO_MARIM,
-                                   {A22_SAIDA_18: [NORTE, A22_SAIDA_18__CASTRO_MARIM, CARRO],
-                                    SAPAL_SUL: [SUDESTE, CASTRO_MARIM__SAPAL_SUL, CARRO],
-                                    ESTACAO_CASTRO_MARIM: [SUDOESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO]})
+        castro_marim_golfe_country_club = local_portugal.LocalPortugal(
+            CASTRO_MARIM_GOLFE_COUNTRY_CLUB,
+            {IC27_SAIDA_1: [NORDESTE, CASTRO_MARIM_GOLFE_COUNTRY_CLUB__IC27_SAIDA_1, CARRO],
+             VISTA_REAL: [SUDESTE, CASTRO_MARIM_GOLFE_COUNTRY_CLUB__VISTA_REAL, CARRO]},
+            37.236020, -7.469165, 73, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        choca_queimada = local.Local(CHOCA_QUEIMADA,
-                                     {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
-                                      CASA_BRANCA: [SUDESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO],
-                                      BARRAGEM_DE_ODELEITE: [NOROESTE, BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA, CARRO]})
+        choca_queimada = local_portugal.LocalPortugal(
+            CHOCA_QUEIMADA,
+            {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
+             CASA_BRANCA: [SUDESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO],
+             BARRAGEM_DE_ODELEITE: [NOROESTE, BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA, CARRO]},
+            37.321650, -7.520856, 120, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
         conceicao_faro = local_portugal.LocalPortugal(
             CONCEICAO_FARO,
@@ -1113,7 +1131,7 @@ class Mapa:
             {VALE_DO_POCO: [SUL, CRUZAMENTO_N265_N392__VALE_DO_POCO, CARRO],
              SERPA: [NOROESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
              VILA_NOVA_SAO_BENTO: [NORDESTE, CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO, CARRO]},
-            37.820185, -7.500759, 233, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA)
+            37.820185, -7.500759, 233, locais.FREGUESIA_SALVADOR_SERPA, locais.CONCELHO_SERPA)
 
         cruzamento_se_20_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_SE_20_SE_30,
@@ -1163,7 +1181,7 @@ class Mapa:
         estacao_castro_marim = local_portugal.LocalPortugal(
             ESTACAO_CASTRO_MARIM,
             {CRUZAMENTO_N125_N125_6: [SUL, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
-             CASTRO_MARIM: [NORDESTE, CASTRO_MARIM__ESTACAO_CASTRO_MARIM, CARRO],
+             VISTA_REAL: [NORDESTE, ESTACAO_CASTRO_MARIM__VISTA_REAL, CARRO],
              ESTACAO_MONTE_GORDO: [SUDESTE, ESTACAO_CASTRO_MARIM__ESTACAO_MONTE_GORDO, COMBOIO],
              ESTACAO_CACELA: [SUDOESTE, ESTACAO_CACELA__ESTACAO_CASTRO_MARIM, COMBOIO]},
             37.196822, -7.483779, 3, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
@@ -1333,23 +1351,30 @@ class Mapa:
                               GIBRALEON: [NORTE, 0, COMBOIO],
                               SEVILHA_SANTA_JUSTA: [ESTE, 0, COMBOIO]})
 
-        ic27_fim = local.Local(IC27_FIM,
-                               {CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO],
-                                IC27_SAIDA_7: [SUL, IC27_FIM__IC27_SAIDA_7, CARRO],
-                                CRUZAMENTO_N122_M507: [NOROESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO]})
+        ic27_fim = local_portugal.LocalPortugal(
+            IC27_FIM,
+            {CRUZAMENTO_N122_M507: [NOROESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
+             IC27_SAIDA_7: [SUL, IC27_FIM__IC27_SAIDA_7, CARRO],
+             CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO]},
+            37.478582, -7.556871, 187, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
 
-        ic27_inicio = local.Local(IC27_INICIO,
-                                  {IC27_SAIDA_1: [NOROESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
-                                   MONTE_FRANCISCO: [OESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO],
-                                   SAPAL_NORTE: [ESTE, IC27_INICIO__SAPAL_NORTE, CARRO],
-                                   A22_SAIDA_18: [SUL, A22_SAIDA_18__IC27_INICIO, CARRO]})
+        ic27_inicio = local_portugal.LocalPortugal(
+            IC27_INICIO,
+            {IC27_SAIDA_1: [NOROESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
+             A22_SAIDA_18: [SUL, A22_SAIDA_18__IC27_INICIO, CARRO],
+             MONTE_FRANCISCO: [OESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO],
+             SAPAL_NORTE: [ESTE, IC27_INICIO__SAPAL_NORTE, CARRO]},
+            37.234635, -7.447468, 7, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        ic27_saida_1 = local.Local(IC27_SAIDA_1,
-                                   {IC27_SAIDA_2: [NOROESTE, IC27_SAIDA_1__IC27_SAIDA_2, CARRO],
-                                    IC27_INICIO: [SUDESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
-                                    JUNQUEIRA: [NOROESTE, IC27_SAIDA_1__JUNQUEIRA, CARRO],
-                                    CAMPO_GOLFE_CASTRO_MARIM: [SUDOESTE, CAMPO_GOLFE_CASTRO_MARIM__IC27_SAIDA_1, CARRO],
-                                    MONTE_FRANCISCO: [SUL, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO]})
+        ic27_saida_1 = local_portugal.LocalPortugal(
+            IC27_SAIDA_1,
+            {IC27_SAIDA_2: [NOROESTE, IC27_SAIDA_1__IC27_SAIDA_2, CARRO],
+             IC27_INICIO: [SUDESTE, IC27_INICIO__IC27_SAIDA_1, CARRO],
+             JUNQUEIRA: [NOROESTE, IC27_SAIDA_1__JUNQUEIRA, CARRO],
+             CASTRO_MARIM_GOLFE_COUNTRY_CLUB: [SUDOESTE, CASTRO_MARIM_GOLFE_COUNTRY_CLUB__IC27_SAIDA_1, CARRO],
+             MONTE_FRANCISCO: [SUL, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
+             QUINTA_VALE_GOLF_RESORT: [NORDESTE, IC27_SAIDA_1__QUINTA_VALE_GOLF_RESORT, CARRO]},
+            37.241990, -7.454785, 53, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         ic27_saida_2 = local.Local(IC27_SAIDA_2,
                                    {IC27_SAIDA_3: [NORTE, IC27_SAIDA_2__IC27_SAIDA_3, CARRO],
@@ -1464,11 +1489,13 @@ class Mapa:
         menires_do_lavajo = local.Local(MENIRES_DO_LAVAJO,
                                         {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]})
 
-        mertola = local.Local(MERTOLA,
-                              {ALAMO_MERTOLA: [SUL, ALAMO_MERTOLA__MERTOLA, CARRO],
-                               MONTE_ALTO: [SUDESTE, MERTOLA__MONTE_ALTO, CARRO],
-                               CRUZAMENTO_N122_N123: [NOROESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO],
-                               PENHA_DA_AGUIA: [SUDESTE, MERTOLA__PENHA_DA_AGUIA, BARCO]})
+        mertola = local_portugal.LocalPortugal(
+            MERTOLA,
+            {ALAMO_MERTOLA: [SUL, ALAMO_MERTOLA__MERTOLA, CARRO],
+             MONTE_ALTO: [SUDESTE, MERTOLA__MONTE_ALTO, CARRO],
+             CRUZAMENTO_N122_N123: [NOROESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO],
+             PENHA_DA_AGUIA: [SUDESTE, MERTOLA__PENHA_DA_AGUIA, BARCO]},
+            37.641575, -7.660828, 60, locais.FREGUESIA_MERTOLA, locais.CONCELHO_MERTOLA)
 
         mesquita = local_portugal.LocalPortugal(
             MESQUITA,
@@ -1495,9 +1522,12 @@ class Mapa:
                                   PICOITOS: [SUDESTE, MONTE_ALTO__PICOITOS, CARRO],
                                   MOREANES: [NORDESTE, MONTE_ALTO__MOREANES, CARRO]})
 
-        monte_francisco = local.Local(MONTE_FRANCISCO,
-                                      {IC27_SAIDA_1: [NORTE, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
-                                       IC27_INICIO: [ESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO]})
+        monte_francisco = local_portugal.LocalPortugal(
+            MONTE_FRANCISCO,
+            {IC27_SAIDA_1: [NORTE, IC27_SAIDA_1__MONTE_FRANCISCO, CARRO],
+             IC27_INICIO: [ESTE, IC27_INICIO__MONTE_FRANCISCO, CARRO],
+             VISTA_REAL: [SUDOESTE, MONTE_FRANCISCO__VISTA_REAL, CARRO]},
+            37.235113, -7.451201, 16, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         monte_gordo = local.Local(MONTE_GORDO,
                                   {ESTACAO_MONTE_GORDO: [NORTE, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
@@ -1723,6 +1753,11 @@ class Mapa:
              PECHAO: [OESTE, PECHAO__QUELFES, CARRO]},
             37.057613, -7.821595, 24, locais.FREGUESIA_QUELFES, locais.CONCELHO_OLHAO)
 
+        quinta_vale_golf_resort = local_portugal.LocalPortugal(
+            QUINTA_VALE_GOLF_RESORT,
+            {IC27_SAIDA_1: [SUDOESTE, IC27_SAIDA_1__QUINTA_VALE_GOLF_RESORT, CARRO]},
+            37.247759, -7.450114, 34, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
+
         ribeira_do_vascao = local.Local(RIBEIRA_DO_VASCAO,
                                         {SANTA_MARTA: [SUL, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO],
                                          SEDAS: [NOROESTE, RIBEIRA_DO_VASCAO__SEDAS, CARRO]})
@@ -1854,7 +1889,7 @@ class Mapa:
             {CRUZAMENTO_N265_N392: [SUDESTE, CRUZAMENTO_N265_N392__SERPA, CARRO],
              BEJA: [NOROESTE, BEJA__SERPA, CARRO],
              VILA_NOVA_SAO_BENTO: [ESTE, SERPA__VILA_NOVA_SAO_BENTO, CARRO]},
-            37.944035, -7.597431, 215, locais.FREGUESIA_SERPA, locais.CONCELHO_SERPA)
+            37.944035, -7.597431, 215, locais.FREGUESIA_SANTA_MARIA_SERPA, locais.CONCELHO_SERPA)
 
         sevilha_centro_historico = local.Local(SEVILHA_CENTRO_HISTORICO,
                                                {SEVILHA_ISLA_DE_LA_CARTUJA: [NOROESTE,
@@ -2008,6 +2043,14 @@ class Mapa:
                                                                                  SAN_SILVESTRE_DE_GUZMAN__VILLANUEVA_DE_LOS_CASTILLEJOS,
                                                                                  CARRO]})
 
+        vista_real = local_portugal.LocalPortugal(
+            VISTA_REAL,
+            {MONTE_FRANCISCO: [NORDESTE, MONTE_FRANCISCO__VISTA_REAL, CARRO],
+             CASTRO_MARIM: [SUDESTE, CASTRO_MARIM__VISTA_REAL, CARRO],
+             ESTACAO_CASTRO_MARIM: [SUDOESTE, ESTACAO_CASTRO_MARIM__VISTA_REAL, CARRO],
+             CASTRO_MARIM_GOLFE_COUNTRY_CLUB: [NOROESTE, CASTRO_MARIM_GOLFE_COUNTRY_CLUB__VISTA_REAL, CARRO]},
+            37.222571, -7.460221, 22, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
+
         #  Adicionar os locais à lista
         self.lista_locais.append(a_49_saida_1)
         self.lista_locais.append(a_49_saida_1b)
@@ -2060,12 +2103,12 @@ class Mapa:
         self.lista_locais.append(cachopo)
         self.lista_locais.append(cais_da_mesquita)
         self.lista_locais.append(cais_praia_barril)
-        self.lista_locais.append(campo_golfe_castro_marim)
         self.lista_locais.append(cartaya)
         self.lista_locais.append(casa_branca)
         self.lista_locais.append(cascata_pulo_do_lobo_este)
         self.lista_locais.append(cascata_pulo_do_lobo_oeste)
         self.lista_locais.append(castro_marim)
+        self.lista_locais.append(castro_marim_golfe_country_club)
         self.lista_locais.append(choca_queimada)
         self.lista_locais.append(conceicao_faro)
         self.lista_locais.append(conceicao_tavira)
@@ -2186,6 +2229,7 @@ class Mapa:
         self.lista_locais.append(quatro_aguas)
         self.lista_locais.append(quebradas)
         self.lista_locais.append(quelfes)
+        self.lista_locais.append(quinta_vale_golf_resort)
         self.lista_locais.append(ribeira_do_vascao)
         self.lista_locais.append(rotunda_da_arvore)
         self.lista_locais.append(ruinas_romanas_milreu)
@@ -2228,6 +2272,7 @@ class Mapa:
         self.lista_locais.append(vila_real_de_santo_antonio)
         self.lista_locais.append(villablanca)
         self.lista_locais.append(villanueva_de_los_castillejos)
+        self.lista_locais.append(vista_real)
 
         #  Retornar a lista de locais
         return self.lista_locais
