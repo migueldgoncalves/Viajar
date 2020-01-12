@@ -30,12 +30,14 @@ MUNICIPIO_BORMUJOS = "Bormujos"  # Sevilha
 MUNICIPIO_CAMAS = "Camas"  # Sevilha
 MUNICIPIO_CARTAYA = "Cartaya"  # Huelva
 MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilla
+MUNICIPIO_EL_GRANADO = "El Granado"
 MUNICIPIO_ESPARTINAS = "Espartinas"  # Sevilha
 MUNICIPIO_GIBRALEON = "Gibraleón"  # Huelva
 MUNICIPIO_HUELVA = "Huelva"  # Huelva
 MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"  # Huelva
 MUNICIPIO_LEPE = "Lepe"  # Huelva
 MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"  # Sevilha
+MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"
 MUNICIPIO_SANTIPONCE = "Santiponce"  # Sevilha
 MUNICIPIO_SEVILHA = "Sevilha"  # Sevilha
 
@@ -134,6 +136,7 @@ FREGUESIA_MERTOLA = "Mértola"  # Mértola
 FREGUESIA_SALVADOR_SERPA = "Salvador"  # Serpa
 FREGUESIA_SANTA_MARIA_FEIRA_BEJA = "Santa Maria da Feira"  # Beja
 FREGUESIA_SANTA_MARIA_SERPA = "Santa Maria"  # Serpa
+FREGUESIA_SANTANA_CAMBAS = "Santana de Cambas"  # Mértola
 FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 

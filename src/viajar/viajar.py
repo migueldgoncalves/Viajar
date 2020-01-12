@@ -5,7 +5,6 @@ from viajar import mapa, viagem
 from carro import carro
 
 #  Opções
-SEPARADOR = "->"
 SAIR = 0  # Não alterar
 SAIR_STRING = "Sair da viagem"
 CARRO_STRING = "Voltar à estrada"
@@ -19,6 +18,10 @@ OPCAO_CARRO = "s"
 OPCAO_CARRO_STRING = "Tecla S"
 OPCAO_NAO_CARRO = "n"
 OPCAO_NAO_CARRO_STRING = "Tecla N"
+
+#  Separadores do menu
+SEPARADOR_MODO = "->"
+SEPARADOR_SENTIDO = "»"
 
 #  Velocidades (km/h)
 VELOCIDADE_MINIMA = 50
@@ -163,7 +166,7 @@ class Viajar:
             self.get_local_actual().imprimir_info_breve()
             print("Escolha uma das seguintes opções")
             print("Escreva o número correspondente e pressione ENTER")
-            print(SAIR, SEPARADOR, SAIR_STRING)  # Opção de sair
+            print(SAIR, SEPARADOR_MODO, SAIR_STRING)  # Opção de sair
 
             #  Opções de locais
             iterador = 1
@@ -171,36 +174,40 @@ class Viajar:
             for x in nomes_locais:
                 if locais_circundantes[x][2] == self.viagem_actual.get_modo():
                     locais_circundantes_modo_actual.append(x)
-                    print(iterador, SEPARADOR, x, "(" + locais_circundantes[x][0] + ",",
-                          locais_circundantes[x][1], "km)")  # Exemplo: 1 - Laranjeiras (N, 1 km)
+                    texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + x + ' ' + "(" + locais_circundantes[x][0] + \
+                        ", " + str(locais_circundantes[x][1]) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
+                    sentido = self.get_local_actual().get_sentido(x)  # Destinos possíveis por essa direcção
+                    if sentido is not None:
+                        texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
+                    print(texto)
                     iterador += 1
 
             #  Opções de mudança de modo
             modos_disponiveis = []
             for x in nomes_locais:
-                if (locais_circundantes[x][2] != self.viagem_actual.get_modo()) &\
+                if (locais_circundantes[x][2] != self.viagem_actual.get_modo()) & \
                         (modos_disponiveis.__contains__(locais_circundantes[x][2]) is False):
                     modos_disponiveis.append(locais_circundantes[x][2])
             if len(modos_disponiveis) > 0:
                 for x in modos_disponiveis:
                     if x == mapa.CARRO:
-                        print(iterador, SEPARADOR, CARRO_STRING)
+                        print(iterador, SEPARADOR_MODO, CARRO_STRING)
                     elif x == mapa.BARCO:
-                        print(iterador, SEPARADOR, BARCO_STRING)
+                        print(iterador, SEPARADOR_MODO, BARCO_STRING)
                     elif x == mapa.AVIAO:
-                        print(iterador, SEPARADOR, AVIAO_STRING)
+                        print(iterador, SEPARADOR_MODO, AVIAO_STRING)
                     elif x == mapa.COMBOIO:
-                        print(iterador, SEPARADOR, COMBOIO_STRING)
+                        print(iterador, SEPARADOR_MODO, COMBOIO_STRING)
                     elif x == mapa.METRO:
-                        print(iterador, SEPARADOR, METRO_STRING)
+                        print(iterador, SEPARADOR_MODO, METRO_STRING)
                     iterador += 1
 
             #  Opção das informações do local
-            print(iterador, SEPARADOR, INFORMACOES_LOCAL)
+            print(iterador, SEPARADOR_MODO, INFORMACOES_LOCAL)
             iterador += 1
 
             #  Opção das estatísticas da viagem - Fim do menu
-            print(iterador, SEPARADOR, ESTATISTICAS_VIAGEM)
+            print(iterador, SEPARADOR_MODO, ESTATISTICAS_VIAGEM)
 
             #  Validar opção
             opcao = 0
