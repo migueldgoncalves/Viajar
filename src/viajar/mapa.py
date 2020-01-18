@@ -75,12 +75,15 @@ CACHOPO = "Cachopo"
 CAIS_DA_MESQUITA = "Cais da Mesquita"
 CAIS_PRAIA_BARRIL = "Cais da Praia do Barril"
 CARTAYA = "Cartaya"
-CASA_BRANCA = "Casa Branca"
+CASA_BRANCA_ALCOUTIM = "Casa Branca, Alcoutim"
+CASA_BRANCA_CASTRO_MARIM = "Casa Branca, Castro Marim"
 CASCATA_PULO_DO_LOBO_ESTE = "Cascata do Pulo do Lobo - Margem Esquerda"
 CASCATA_PULO_DO_LOBO_OESTE = "Cascata do Pulo do Lobo - Margem Direita"
 CASINHAS = "Casinhas"
 CASTRO_MARIM = "Castro Marim"
 CASTRO_MARIM_GOLFE_COUNTRY_CLUB = "Castro Marim Golfe & Country Club"
+CERCADO = "Cercado"
+CERRO = "Cerro"
 CERRO_DO_ENHO = "Cerro do Enho"
 CHOCA_QUEIMADA = "Choça Queimada"
 CONCEICAO_FARO = "Conceição, Faro"
@@ -101,9 +104,11 @@ CRUZAMENTO_A_66_SE_30 = locais.nome_cruzamento_estradas(locais.A_66, locais.SE_3
 CRUZAMENTO_IC4_M520 = locais.nome_cruzamento_estradas(locais.IC4, locais.M520)
 CRUZAMENTO_IC4_N125 = locais.nome_cruzamento_estradas(locais.IC4, locais.N125)
 CRUZAMENTO_M509_M512 = locais.nome_cruzamento_estradas(locais.M509, locais.M512)
+CRUZAMENTO_N122_M1059 = locais.nome_cruzamento_estradas(locais.N122, locais.M1059)
 CRUZAMENTO_N122_M1060 = locais.nome_cruzamento_estradas(locais.N122, locais.M1060)
 CRUZAMENTO_N122_M1063 = locais.nome_cruzamento_estradas(locais.N122, locais.M1063)
 CRUZAMENTO_N122_M507 = locais.nome_cruzamento_estradas(locais.N122, locais.M507)
+CRUZAMENTO_N122_M507_2 = locais.nome_cruzamento_estradas(locais.N122, locais.M507_2)
 CRUZAMENTO_N122_M512 = locais.nome_cruzamento_estradas(locais.N122, locais.M512)
 CRUZAMENTO_N122_N123 = locais.nome_cruzamento_estradas(locais.N122, locais.N123)
 CRUZAMENTO_N125_M1347 = locais.nome_cruzamento_estradas(locais.N125, locais.M1347)
@@ -113,6 +118,7 @@ CRUZAMENTO_N125_N398 = locais.nome_cruzamento_estradas(locais.N125, locais.N398)
 CRUZAMENTO_N265_N392 = locais.nome_cruzamento_estradas(locais.N265, locais.N392)
 CRUZAMENTO_SE_20_SE_30 = locais.nome_cruzamento_estradas(locais.SE_20, locais.SE_30)
 CULATRA = "Culatra"
+DESERTO = "Deserto"
 DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
@@ -175,6 +181,7 @@ MONTE_FRANCISCO = "Monte Francisco"
 MONTE_GORDO = "Monte Gordo"
 MONTENEGRO = "Montenegro"
 MONTES_CASTELHANOS = "Montes Castelhanos"
+MONTINHO = "Montinho"
 MONTINHO_DAS_LARANJEIRAS = "Montinho das Laranjeiras"
 MONTINHO_DE_ODELEITE = "Montinho de Odeleite"
 MOREANES = "Moreanes"
@@ -246,6 +253,7 @@ TARIQUEJO = "Tariquejo"
 TAVIRA_NORTE = "Tavira - Norte"
 TAVIRA_SUL = "Tavira - Sul"
 TENENCIA = "Tenência"
+TORNEIRO = "Torneiro"
 UNIVERSIDADE_ALGARVE_GAMBELAS = "Universidade do Algarve - Campus de Gambelas"
 UNIVERSIDADE_ALGARVE_PENHA = "Universidade do Algarve - Campus da Penha"
 VALE_DE_ANDREU = "Vale de Andreu"
@@ -348,10 +356,14 @@ AYAMONTE__COSTA_ESURI = 7.6
 AYAMONTE__BARRIADA_DE_CANELA = 2.2
 AYAMONTE__VRSA = 2.2
 AZINHAL__CRUZAMENTO_N122_M512 = 0.8
-BALURCO_DE_BAIXO__CORTE_DAS_DONAS = 6.8
-BALURCO_DE_BAIXO__BALURCO_DE_CIMA = 1.6
-BALURCO_DE_BAIXO__IC27_SAIDA_6 = 4.7
+BALURCO_DE_BAIXO__CASA_BRANCA_ALCOUTIM = 0.3
+BALURCO_DE_BAIXO__CERRO = 0.5
+BALURCO_DE_BAIXO__CRUZAMENTO_N122_M507_2 = 2.3
+BALURCO_DE_BAIXO__DESERTO = 1.1
+BALURCO_DE_BAIXO__MONTINHO = 0.6
 BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM = 1.5
+BALURCO_DE_BAIXO__TORNEIRO = 1.5
+BALURCO_DE_CIMA__CERCADO = 0.7
 BALURCO_DE_CIMA__IC27_SAIDA_7 = 1.1
 BAR_DO_RIO__FOZ_DE_ODELEITE = 5.1
 BAR_DO_RIO__GUERREIROS_DO_RIO = 0.1
@@ -391,7 +403,9 @@ CAIS_PRAIA_BARRIL__PEDRAS_DEL_REI = 0.7
 CAIS_PRAIA_BARRIL__PRAIA_DO_BARRIL = 1.1
 CAIS_PRAIA_BARRIL__SANTA_LUZIA = 1.8
 CARTAYA__LEPE = 9.3
-CASA_BRANCA__CHOCA_QUEIMADA = 0.8
+CASA_BRANCA_ALCOUTIM__CERRO = 0.3
+CASA_BRANCA_ALCOUTIM__DESERTO = 0.6
+CASA_BRANCA_CASTRO_MARIM__CHOCA_QUEIMADA = 0.8
 CASCATA_PULO_DO_LOBO_ESTE__VALE_DO_POCO = 12.3
 CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123 = 16.5
 CASINHAS__JUNQUEIRA = 0.7
@@ -400,6 +414,9 @@ CASTRO_MARIM__SAPAL_SUL = 1.8
 CASTRO_MARIM__VISTA_REAL = 2.3
 CASTRO_MARIM_GOLFE_COUNTRY_CLUB__IC27_SAIDA_1 = 2.2
 CASTRO_MARIM_GOLFE_COUNTRY_CLUB__VISTA_REAL = 3.2
+CERCADO__DESERTO = 0.3
+CERRO__DESERTO = 0.6
+CERRO__MONTINHO = 0.2
 CERRO_DO_ENHO__TANOEIRO = 1.6
 CERRO_DO_ENHO__VALE_DE_ANDREU = 2.3
 CHOCA_QUEIMADA__QUEBRADAS = 2.2
@@ -411,8 +428,8 @@ CONCEICAO_TAVIRA__ESTACAO_CACELA = 7.1
 CONCEICAO_TAVIRA__ESTACAO_PORTA_NOVA = 4.2
 CONCEICAO_TAVIRA__TAVIRA_NORTE = 4.9
 CONCEICAO_TAVIRA__VILA_NOVA_DE_CACELA = 7.9
+CORTE_DAS_DONAS__CRUZAMENTO_N122_M507_2 = 4.7
 CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE = 2.1
-CORTE_DAS_DONAS__IC27_SAIDA_6 = 6.9
 CORTE_DO_GAGO__CRUZAMENTO_M509_M512 = 3.5
 CORTE_NOVA__CORTE_VELHA = 1.4
 CORTE_NOVA__FURNAZINHAS = 3.0
@@ -434,6 +451,9 @@ CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125 = 3.4
 CRUZAMENTO_IC4_M520__VARIANTE_FARO_IC4 = 1.3
 CRUZAMENTO_IC4_N125__ESTACAO_PARQUE_CIDADES = 1.2
 CRUZAMENTO_IC4_N125__ESTADIO_ALGARVE = 2.4
+CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M507_2 = 0.7
+CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M1060 = 5.6
+CRUZAMENTO_N122_M1059__IC27_SAIDA_6 = 1.6
 CRUZAMENTO_N122_M1060__IC27_SAIDA_5 = 2.6
 CRUZAMENTO_N122_M1063__FONTE_DO_PENEDO = 1.6
 CRUZAMENTO_N122_M1063__IC27_SAIDA_3 = 0.8
@@ -461,6 +481,7 @@ CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21 = 1.2
 CULATRA__HANGARES = 1.6
 CULATRA__ILHA_DA_ARMONA = 6.2
 CULATRA__OLHAO = 5.1
+DESERTO__MONTINHO = 0.6
 DUNAS_DE_VRSA__MONTE_GORDO = 1.7
 DUNAS_DE_VRSA__VRSA = 2.0
 EL_GRANADO__PUERTO_DE_LA_LAJA = 7.5
@@ -948,16 +969,19 @@ class Mapa:
 
         balurco_de_baixo = local_portugal.LocalPortugal(
             BALURCO_DE_BAIXO,
-            {CORTE_DAS_DONAS: [SUDESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
+            {CRUZAMENTO_N122_M507_2: [SUL, BALURCO_DE_BAIXO__CRUZAMENTO_N122_M507_2, CARRO],
              PARQUE_EMPRESARIAL_ALCOUTIM: [NORTE, BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
-             IC27_SAIDA_6: [SUDOESTE, BALURCO_DE_BAIXO__IC27_SAIDA_6, CARRO],
-             BALURCO_DE_CIMA: [NOROESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]},
+             CASA_BRANCA_ALCOUTIM: [NOROESTE, BALURCO_DE_BAIXO__CASA_BRANCA_ALCOUTIM, CARRO],
+             DESERTO: [NOROESTE, BALURCO_DE_BAIXO__DESERTO, CARRO],
+             CERRO: [NOROESTE, BALURCO_DE_BAIXO__CERRO, CARRO],
+             MONTINHO: [OESTE, BALURCO_DE_BAIXO__MONTINHO, CARRO],
+             TORNEIRO: [NORDESTE, BALURCO_DE_BAIXO__TORNEIRO, CARRO]},
             37.424817, -7.508199, 213, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         balurco_de_cima = local_portugal.LocalPortugal(
             BALURCO_DE_CIMA,
             {IC27_SAIDA_7: [NOROESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
-             BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__BALURCO_DE_CIMA, CARRO]},
+             CERCADO: [ESTE, BALURCO_DE_CIMA__CERCADO, CARRO]},
             37.429009, -7.524442, 209, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         beja = local_portugal.LocalPortugal(
@@ -1046,9 +1070,16 @@ class Mapa:
             37.236020, -7.469165, 15, locais.MUNICIPIO_CARTAYA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
-        casa_branca = local_portugal.LocalPortugal(
-            CASA_BRANCA,
-            {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO]},
+        casa_branca_alcoutim = local_portugal.LocalPortugal(
+            CASA_BRANCA_ALCOUTIM,
+            {DESERTO: [OESTE, CASA_BRANCA_ALCOUTIM__DESERTO, CARRO],
+             CERRO: [SUDOESTE, CASA_BRANCA_ALCOUTIM__CERRO, CARRO],
+             BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__CASA_BRANCA_ALCOUTIM, CARRO]},
+            37.427782, -7.510975, 206, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
+        casa_branca_castro_marim = local_portugal.LocalPortugal(
+            CASA_BRANCA_CASTRO_MARIM,
+            {CHOCA_QUEIMADA: [NOROESTE, CASA_BRANCA_CASTRO_MARIM__CHOCA_QUEIMADA, CARRO]},
             37.318916, -7.514484, 130, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
         cascata_pulo_do_lobo_este = local_portugal.LocalPortugal(
@@ -1082,6 +1113,20 @@ class Mapa:
              CABECO_JUNQUEIRA: [NOROESTE, CABECO_JUNQUEIRA__CASTRO_MARIM_GOLFE_COUNTRY_CLUB, CARRO]},
             37.236020, -7.469165, 73, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
+        cercado = local_portugal.LocalPortugal(
+            CERCADO,
+            {BALURCO_DE_CIMA: [OESTE, BALURCO_DE_CIMA__CERCADO, CARRO],
+             DESERTO: [ESTE, CERCADO__DESERTO, CARRO]},
+            37.428955, -7.518699, 196, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
+        cerro = local_portugal.LocalPortugal(
+            CERRO,
+            {DESERTO: [NOROESTE, CERRO__DESERTO, CARRO],
+             CASA_BRANCA_ALCOUTIM: [NORDESTE, CASA_BRANCA_ALCOUTIM__CERRO, CARRO],
+             MONTINHO: [SUL, CERRO__MONTINHO, CARRO],
+             BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__CERRO, CARRO]},
+            37.426515, -7.513789, 220, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         cerro_do_enho = local_portugal.LocalPortugal(
             CERRO_DO_ENHO,
             {VALE_DE_ANDREU: [NORDESTE, CERRO_DO_ENHO__VALE_DE_ANDREU, CARRO],
@@ -1091,7 +1136,7 @@ class Mapa:
         choca_queimada = local_portugal.LocalPortugal(
             CHOCA_QUEIMADA,
             {QUEBRADAS: [SUL, CHOCA_QUEIMADA__QUEBRADAS, CARRO],
-             CASA_BRANCA: [SUDESTE, CASA_BRANCA__CHOCA_QUEIMADA, CARRO],
+             CASA_BRANCA_CASTRO_MARIM: [SUDESTE, CASA_BRANCA_CASTRO_MARIM__CHOCA_QUEIMADA, CARRO],
              BARRAGEM_DE_ODELEITE: [NOROESTE, BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA, CARRO]},
             37.321650, -7.520856, 120, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
@@ -1115,9 +1160,8 @@ class Mapa:
 
         corte_das_donas = local_portugal.LocalPortugal(
             CORTE_DAS_DONAS,
-            {BALURCO_DE_BAIXO: [NOROESTE, BALURCO_DE_BAIXO__CORTE_DAS_DONAS, CARRO],
-             ROTUNDA_DA_ARVORE: [ESTE, CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE, CARRO],
-             IC27_SAIDA_6: [NOROESTE, CORTE_DAS_DONAS__IC27_SAIDA_6, CARRO]},
+            {CRUZAMENTO_N122_M507_2: [NOROESTE, CORTE_DAS_DONAS__CRUZAMENTO_N122_M507_2, CARRO],
+             ROTUNDA_DA_ARVORE: [ESTE, CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE, CARRO]},
             37.387577, -7.467297, 151, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         corte_do_gago = local_portugal.LocalPortugal(
@@ -1229,10 +1273,18 @@ class Mapa:
              CORTE_DO_GAGO: [SUL, CORTE_DO_GAGO__CRUZAMENTO_M509_M512, CARRO]},
             37.313195, -7.551205, 172, locais.FREGUESIA_AZINHAL, locais.CONCELHO_CASTRO_MARIM)
 
+        cruzamento_n122_m1059 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N122_M1059,
+            {IC27_SAIDA_6: [OESTE, CRUZAMENTO_N122_M1059__IC27_SAIDA_6, CARRO],
+             CRUZAMENTO_N122_M507_2: [NORTE, CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M507_2, CARRO],
+             CRUZAMENTO_N122_M1060: [SUDOESTE, CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M1060, CARRO]},
+            37.400355, -7.508941, 176, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         cruzamento_n122_m1060 = local_portugal.LocalPortugal(
             CRUZAMENTO_N122_M1060,
             {IC27_SAIDA_5: [SUDESTE, CRUZAMENTO_N122_M1060__IC27_SAIDA_5, CARRO],
-             CORTE_VELHA: [OESTE, CORTE_VELHA__CRUZAMENTO_N122_M1060, CARRO]},
+             CORTE_VELHA: [OESTE, CORTE_VELHA__CRUZAMENTO_N122_M1060, CARRO],
+             CRUZAMENTO_N122_M1059: [NORDESTE, CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M1060, CARRO]},
             37.373061, -7.527176, 156, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
         cruzamento_n122_m1063 = local_portugal.LocalPortugal(
@@ -1242,10 +1294,19 @@ class Mapa:
              IC27_SAIDA_3: [SUDOESTE, CRUZAMENTO_N122_M1063__IC27_SAIDA_3, CARRO]},
             37.318274, -7.480551, 124, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
-        cruzamento_n122_m507 = local.Local(CRUZAMENTO_N122_M507,
-                                           {IC27_FIM: [SUDESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
-                                            CORTES_PEREIRAS: [ESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
-                                            SANTA_MARTA: [NOROESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO]})
+        cruzamento_n122_m507 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N122_M507,
+            {IC27_FIM: [SUDESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
+             CORTES_PEREIRAS: [ESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
+             SANTA_MARTA: [NOROESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO]},
+            37.480886, -7.561668, 195, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
+
+        cruzamento_n122_m507_2 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N122_M507_2,
+            {BALURCO_DE_BAIXO: [NORTE, BALURCO_DE_BAIXO__CRUZAMENTO_N122_M507_2, CARRO],
+             CORTE_DAS_DONAS: [SUDESTE, CORTE_DAS_DONAS__CRUZAMENTO_N122_M507_2, CARRO],
+             CRUZAMENTO_N122_M1059: [SUL, CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M507_2, CARRO]},
+            37.406191, -7.507953, 168, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         cruzamento_n122_m512 = local_portugal.LocalPortugal(
             CRUZAMENTO_N122_M512,
@@ -1312,6 +1373,15 @@ class Mapa:
              ILHA_DA_ARMONA: [NORDESTE, CULATRA__ILHA_DA_ARMONA, BARCO],
              HANGARES: [SUDOESTE, CULATRA__HANGARES, BARCO]},
             36.993994, -7.840545, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
+
+        deserto = local_portugal.LocalPortugal(
+            DESERTO,
+            {CERCADO: [OESTE, CERCADO__DESERTO, CARRO],
+             BALURCO_DE_BAIXO: [SUDESTE, BALURCO_DE_BAIXO__DESERTO, CARRO],
+             CASA_BRANCA_ALCOUTIM: [ESTE, CASA_BRANCA_ALCOUTIM__DESERTO, CARRO],
+             CERRO: [SUDESTE, CERRO__DESERTO, CARRO],
+             MONTINHO: [SUDESTE, DESERTO__MONTINHO, CARRO]},
+            37.428911, -7.516223, 198, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         dunas_vrsa = local.Local(DUNAS_DE_VRSA,
                                  {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
@@ -1605,8 +1675,7 @@ class Mapa:
             IC27_SAIDA_6,
             {IC27_SAIDA_7: [NORTE, IC27_SAIDA_6__IC27_SAIDA_7, CARRO],
              IC27_SAIDA_5: [SUL, IC27_SAIDA_5__IC27_SAIDA_6, CARRO],
-             CORTE_DAS_DONAS: [SUDESTE, CORTE_DAS_DONAS__IC27_SAIDA_6, CARRO],
-             BALURCO_DE_BAIXO: [NORDESTE, BALURCO_DE_BAIXO__IC27_SAIDA_6, CARRO],
+             CRUZAMENTO_N122_M1059: [ESTE, CRUZAMENTO_N122_M1059__IC27_SAIDA_6, CARRO],
              PALMEIRA: [SUDOESTE, IC27_SAIDA_6__PALMEIRA, CARRO]},
             37.400166, -7.524631, 116, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
         ic27_saida_6.add_sentido(IC27_SAIDA_7, ["Beja", "Mértola"])
@@ -1761,6 +1830,13 @@ class Mapa:
              JUNQUEIRA: [SUL, JUNQUEIRA__MONTES_CASTELHANOS, CARRO],
              CASINHAS: [SUDOESTE, CASINHAS__MONTES_CASTELHANOS, CARRO]},
             37.257686, -7.472255, 26, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
+
+        montinho = local_portugal.LocalPortugal(
+            MONTINHO,
+            {DESERTO: [NOROESTE, DESERTO__MONTINHO, CARRO],
+             CERRO: [NORTE, CERRO__MONTINHO, CARRO],
+             BALURCO_DE_BAIXO: [ESTE, BALURCO_DE_BAIXO__MONTINHO, CARRO]},
+            37.425271, -7.514797, 215, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         montinho_das_laranjeiras = local_portugal.LocalPortugal(
             MONTINHO_DAS_LARANJEIRAS,
@@ -2234,6 +2310,11 @@ class Mapa:
         tenencia = local.Local(TENENCIA,
                                {IC27_SAIDA_5: [SUDOESTE, IC27_SAIDA_5__TENENCIA, CARRO]})
 
+        torneiro = local_portugal.LocalPortugal(
+            TORNEIRO,
+            {BALURCO_DE_BAIXO: [SUDOESTE, BALURCO_DE_BAIXO__TORNEIRO, CARRO]},
+            37.431450, -7.496974, 186, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         universidade_algarve_gambelas = local_portugal.LocalPortugal(
             UNIVERSIDADE_ALGARVE_GAMBELAS,
             {MONTENEGRO: [SUDESTE, MONTENEGRO__UNIVERSIDADE_ALGARVE_GAMBELAS, CARRO],
@@ -2275,29 +2356,35 @@ class Mapa:
 
         variante_faro_ic4 = local_portugal.LocalPortugal(
             VARIANTE_FARO_IC4,
-            {CRUZAMENTO_IC4_M520: [NORTE, CRUZAMENTO_IC4_M520__VARIANTE_FARO_IC4, CARRO],
+            {MONTENEGRO: [SUDOESTE, MONTENEGRO__VARIANTE_FARO_IC4, CARRO],
              VARIANTE_FARO_N2: [ESTE, VARIANTE_FARO_IC4__VARIANTE_FARO_N2, CARRO],
              FORUM_ALGARVE: [SUL, FORUM_ALGARVE__VARIANTE_FARO_IC4, CARRO],
-             MONTENEGRO: [SUDOESTE, MONTENEGRO__VARIANTE_FARO_IC4, CARRO],
+             CRUZAMENTO_IC4_M520: [NORTE, CRUZAMENTO_IC4_M520__VARIANTE_FARO_IC4, CARRO],
              UNIVERSIDADE_ALGARVE_GAMBELAS: [NOROESTE, UNIVERSIDADE_ALGARVE_GAMBELAS__VARIANTE_FARO_IC4, CARRO]},
             37.039694, -7.950254, 14, locais.FREGUESIA_SAO_PEDRO_FARO, locais.CONCELHO_FARO)
+        variante_faro_ic4.add_sentido(MONTENEGRO, ["Aeroporto de Faro", "Praia de Faro"])
+        variante_faro_ic4.add_sentido(VARIANTE_FARO_N2, ["Olhão", "São Brás de Alportel", "A22 - Espanha/Portimão"])
 
         variante_faro_m518 = local_portugal.LocalPortugal(
             VARIANTE_FARO_M518,
-            {OLHAO: [ESTE, OLHAO__VARIANTE_FARO_M518, CARRO],
+            {VARIANTE_FARO_N2: [NOROESTE, VARIANTE_FARO_M518__VARIANTE_FARO_N2, CARRO],
+             OLHAO: [ESTE, OLHAO__VARIANTE_FARO_M518, CARRO],
              ESTACAO_BOM_JOAO: [SUDOESTE, ESTACAO_BOM_JOAO__VARIANTE_FARO_M518, CARRO],
              FARO_SE: [SUDOESTE, FARO_SE__VARIANTE_FARO_M518, CARRO],
-             UNIVERSIDADE_ALGARVE_PENHA: [SUDOESTE, UNIVERSIDADE_ALGARVE_PENHA__VARIANTE_FARO_M518, CARRO],
-             VARIANTE_FARO_N2: [NOROESTE, VARIANTE_FARO_M518__VARIANTE_FARO_N2, CARRO]},
+             UNIVERSIDADE_ALGARVE_PENHA: [SUDOESTE, UNIVERSIDADE_ALGARVE_PENHA__VARIANTE_FARO_M518, CARRO]},
             37.031154, -7.913966, 8, locais.FREGUESIA_SAO_PEDRO_FARO, locais.CONCELHO_FARO)
+        variante_faro_m518.add_sentido(VARIANTE_FARO_N2, ["Portimão", "Aeroporto de Faro"])
+        variante_faro_m518.add_sentido(OLHAO, ["Olhão", "Vila Real de Santo António"])
 
         variante_faro_n2 = local_portugal.LocalPortugal(
             VARIANTE_FARO_N2,
-            {CONCEICAO_FARO: [NORDESTE, CONCEICAO_FARO__VARIANTE_FARO_N2, CARRO],
+            {VARIANTE_FARO_IC4: [OESTE, VARIANTE_FARO_IC4__VARIANTE_FARO_N2, CARRO],
              VARIANTE_FARO_M518: [SUDESTE, VARIANTE_FARO_M518__VARIANTE_FARO_N2, CARRO],
              FARO_AV_CALOUSTE_GULBENKIAN: [SUL, FARO_AV_CALOUSTE_GULBENKIAN__VARIANTE_FARO_N2, CARRO],
-             VARIANTE_FARO_IC4: [OESTE, VARIANTE_FARO_IC4__VARIANTE_FARO_N2, CARRO]},
+             CONCEICAO_FARO: [NORDESTE, CONCEICAO_FARO__VARIANTE_FARO_N2, CARRO]},
             37.042550, -7.929253, 19, locais.FREGUESIA_CONCEICAO_FARO, locais.CONCELHO_FARO)
+        variante_faro_n2.add_sentido(VARIANTE_FARO_IC4, ["Portimão", "Aeroporto de Faro"])
+        variante_faro_n2.add_sentido(VARIANTE_FARO_M518, ["Olhão", "Vila Real de Santo António"])
 
         vila_nova_de_cacela = local_portugal.LocalPortugal(
             VILA_NOVA_DE_CACELA,
@@ -2407,13 +2494,16 @@ class Mapa:
         self.lista_locais.append(cais_da_mesquita)
         self.lista_locais.append(cais_praia_barril)
         self.lista_locais.append(cartaya)
-        self.lista_locais.append(casa_branca)
+        self.lista_locais.append(casa_branca_alcoutim)
+        self.lista_locais.append(casa_branca_castro_marim)
         self.lista_locais.append(cascata_pulo_do_lobo_este)
         self.lista_locais.append(cascata_pulo_do_lobo_oeste)
         self.lista_locais.append(casinhas)
         self.lista_locais.append(castro_marim)
         self.lista_locais.append(castro_marim_golfe_country_club)
         self.lista_locais.append(choca_queimada)
+        self.lista_locais.append(cercado)
+        self.lista_locais.append(cerro)
         self.lista_locais.append(cerro_do_enho)
         self.lista_locais.append(conceicao_faro)
         self.lista_locais.append(conceicao_tavira)
@@ -2433,9 +2523,11 @@ class Mapa:
         self.lista_locais.append(cruzamento_ic4_m520)
         self.lista_locais.append(cruzamento_ic4_n125)
         self.lista_locais.append(cruzamento_m509_m512)
+        self.lista_locais.append(cruzamento_n122_m1059)
         self.lista_locais.append(cruzamento_n122_m1060)
         self.lista_locais.append(cruzamento_n122_m1063)
         self.lista_locais.append(cruzamento_n122_m507)
+        self.lista_locais.append(cruzamento_n122_m507_2)
         self.lista_locais.append(cruzamento_n122_m512)
         self.lista_locais.append(cruzamento_n122_n123)
         self.lista_locais.append(cruzamento_n125_m1347)
@@ -2445,6 +2537,7 @@ class Mapa:
         self.lista_locais.append(cruzamento_n265_n392)
         self.lista_locais.append(cruzamento_se_20_se_30)
         self.lista_locais.append(culatra)
+        self.lista_locais.append(deserto)
         self.lista_locais.append(dunas_vrsa)
         self.lista_locais.append(el_granado)
         self.lista_locais.append(espirito_santo)
@@ -2507,6 +2600,7 @@ class Mapa:
         self.lista_locais.append(monte_gordo)
         self.lista_locais.append(montenegro)
         self.lista_locais.append(montes_castelhanos)
+        self.lista_locais.append(montinho)
         self.lista_locais.append(montinho_das_laranjeiras)
         self.lista_locais.append(montinho_de_odeleite)
         self.lista_locais.append(moreanes)
@@ -2578,6 +2672,7 @@ class Mapa:
         self.lista_locais.append(tavira_norte)
         self.lista_locais.append(tavira_sul)
         self.lista_locais.append(tenencia)
+        self.lista_locais.append(torneiro)
         self.lista_locais.append(universidade_algarve_gambelas)
         self.lista_locais.append(universidade_algarve_penha)
         self.lista_locais.append(vale_de_andreu)
