@@ -23,8 +23,12 @@ A_49_SAIDA_1B = locais.nome_saida_via_rapida(locais.A_49, "1B")
 A_49_SAIDA_2 = locais.nome_saida_via_rapida(locais.A_49, 2)
 A_49_SAIDA_3 = locais.nome_saida_via_rapida(locais.A_49, 3)
 A_49_SAIDA_5 = locais.nome_saida_via_rapida(locais.A_49, 5)
+A_49_SAIDA_81 = locais.nome_saida_via_rapida(locais.A_49, 81)
 A_49_SAIDA_87 = locais.nome_saida_via_rapida(locais.A_49, 87)
+A_49_SAIDA_94 = locais.nome_saida_via_rapida(locais.A_49, 94)
+A_49_SAIDA_99 = locais.nome_saida_via_rapida(locais.A_49, 99)
 A_49_SAIDA_105 = locais.nome_saida_via_rapida(locais.A_49, 105)
+A_49_SAIDA_113 = locais.nome_saida_via_rapida(locais.A_49, 113)
 A_49_SAIDA_117 = locais.nome_saida_via_rapida(locais.A_49, 117)
 A_49_SAIDA_122 = locais.nome_saida_via_rapida(locais.A_49, 122)
 A_49_SAIDA_125 = locais.nome_saida_via_rapida(locais.A_49, 125)
@@ -104,6 +108,7 @@ CRUZAMENTO_A_66_SE_30 = locais.nome_cruzamento_estradas(locais.A_66, locais.SE_3
 CRUZAMENTO_IC4_M520 = locais.nome_cruzamento_estradas(locais.IC4, locais.M520)
 CRUZAMENTO_IC4_N125 = locais.nome_cruzamento_estradas(locais.IC4, locais.N125)
 CRUZAMENTO_M509_M512 = locais.nome_cruzamento_estradas(locais.M509, locais.M512)
+CRUZAMENTO_N_431_N_444 = locais.nome_cruzamento_estradas(locais.N_431, locais.N_444)
 CRUZAMENTO_N122_M1059 = locais.nome_cruzamento_estradas(locais.N122, locais.M1059)
 CRUZAMENTO_N122_M1060 = locais.nome_cruzamento_estradas(locais.N122, locais.M1060)
 CRUZAMENTO_N122_M1063 = locais.nome_cruzamento_estradas(locais.N122, locais.M1063)
@@ -277,13 +282,21 @@ A_49_SAIDA_1B__A_49_SAIDA_2 = 0.6
 A_49_SAIDA_2__A_49_SAIDA_3 = 1.4
 A_49_SAIDA_3__A_49_SAIDA_5 = 2.0
 A_49_SAIDA_5__CRUZAMENTO_A_49_SE_40 = 2.2
-A_49_SAIDA_87__A_49_SAIDA_105 = 18.5
-A_49_SAIDA_87__CRUZAMENTO_A_49_H_31 = 10.0
+A_49_SAIDA_81__A_49_SAIDA_87 = 6.3
+A_49_SAIDA_81__CRUZAMENTO_A_49_H_31 = 3.9
+A_49_SAIDA_81__H_31_SAIDA_80 = 3.7
+A_49_SAIDA_87__A_49_SAIDA_94 = 6.3
 A_49_SAIDA_87__GIBRALEON = 3.4
 A_49_SAIDA_87__HUELVA = 13.2
-A_49_SAIDA_105__A_49_SAIDA_117 = 10.7
+A_49_SAIDA_94__A_49_SAIDA_99 = 4.6
+A_49_SAIDA_94__GIBRALEON = 8.3
+A_49_SAIDA_99__A_49_SAIDA_105 = 7.7
+A_49_SAIDA_99__CARTAYA = 9.3
+A_49_SAIDA_105__A_49_SAIDA_113 = 7.0
 A_49_SAIDA_105__CARTAYA = 6.0
 A_49_SAIDA_105__TARIQUEJO = 7.7
+A_49_SAIDA_113__A_49_SAIDA_117 = 3.7
+A_49_SAIDA_113__CRUZAMENTO_N_431_N_444 = 3.9
 A_49_SAIDA_117__A_49_SAIDA_122 = 5.3
 A_49_SAIDA_117__LEPE = 6.5
 A_49_SAIDA_117__VILLABLANCA = 9.1
@@ -402,7 +415,7 @@ CAIS_DA_MESQUITA__POMARAO = 0.1
 CAIS_PRAIA_BARRIL__PEDRAS_DEL_REI = 0.7
 CAIS_PRAIA_BARRIL__PRAIA_DO_BARRIL = 1.1
 CAIS_PRAIA_BARRIL__SANTA_LUZIA = 1.8
-CARTAYA__LEPE = 9.3
+CARTAYA__CRUZAMENTO_N_431_N_444 = 4.2
 CASA_BRANCA_ALCOUTIM__CERRO = 0.3
 CASA_BRANCA_ALCOUTIM__DESERTO = 0.6
 CASA_BRANCA_CASTRO_MARIM__CHOCA_QUEIMADA = 0.8
@@ -451,6 +464,7 @@ CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125 = 3.4
 CRUZAMENTO_IC4_M520__VARIANTE_FARO_IC4 = 1.3
 CRUZAMENTO_IC4_N125__ESTACAO_PARQUE_CIDADES = 1.2
 CRUZAMENTO_IC4_N125__ESTADIO_ALGARVE = 2.4
+CRUZAMENTO_N_431_N_444__LEPE = 3.1
 CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M507_2 = 0.7
 CRUZAMENTO_N122_M1059__CRUZAMENTO_N122_M1060 = 5.6
 CRUZAMENTO_N122_M1059__IC27_SAIDA_6 = 1.6
@@ -681,32 +695,78 @@ class Mapa:
             37.375756, -6.081259, 107, locais.MUNICIPIO_BORMUJOS, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA)
 
+        a_49_saida_81 = local_espanha.LocalEspanha(
+            A_49_SAIDA_81,
+            {A_49_SAIDA_87: [NOROESTE, A_49_SAIDA_87__A_49_SAIDA_94, CARRO],
+             CRUZAMENTO_A_49_H_31: [SUDESTE, A_49_SAIDA_81__CRUZAMENTO_A_49_H_31, CARRO],
+             H_31_SAIDA_80: [SUDESTE, A_49_SAIDA_81__H_31_SAIDA_80, CARRO]},
+            37.322471, -6.908251, 14, locais.MUNICIPIO_HUELVA, locais.COMARCA_METROPOLITANA_HUELVA,
+            locais.PROVINCIA_HUELVA)
+        a_49_saida_81.add_sentido(A_49_SAIDA_87, ["Gibraleón", "Portugal"])
+        a_49_saida_81.add_sentido(CRUZAMENTO_A_49_H_31, ["Sevilha"])
+
         a_49_saida_87 = local_espanha.LocalEspanha(
             A_49_SAIDA_87,
-            {A_49_SAIDA_105: [OESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
-             CRUZAMENTO_A_49_H_31: [SUDESTE, A_49_SAIDA_87__CRUZAMENTO_A_49_H_31, CARRO],
+            {A_49_SAIDA_94: [SUDOESTE, A_49_SAIDA_87__A_49_SAIDA_94, CARRO],
+             A_49_SAIDA_81: [SUDESTE, A_49_SAIDA_81__A_49_SAIDA_87, CARRO],
              GIBRALEON: [NORTE, A_49_SAIDA_87__GIBRALEON, CARRO],
              HUELVA: [SUL, A_49_SAIDA_87__HUELVA, CARRO]},
             37.356547, -6.957409, 18, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_87.add_sentido(A_49_SAIDA_94, ["Cartaya", "Portugal"])
+        a_49_saida_87.add_sentido(A_49_SAIDA_81, ["Sevilha"])
+
+        a_49_saida_94 = local_espanha.LocalEspanha(
+            A_49_SAIDA_94,
+            {A_49_SAIDA_99: [SUDOESTE, A_49_SAIDA_94__A_49_SAIDA_99, CARRO],
+             A_49_SAIDA_87: [NORDESTE, A_49_SAIDA_87__A_49_SAIDA_94, CARRO],
+             GIBRALEON: [NORDESTE, A_49_SAIDA_94__GIBRALEON, CARRO]},
+            37.335614, -7.022817, 33, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
+            locais.PROVINCIA_HUELVA)
+        a_49_saida_94.add_sentido(A_49_SAIDA_99, ["Cartaya", "Portugal"])
+        a_49_saida_94.add_sentido(A_49_SAIDA_87, ["Gibraleón", "Huelva"])
+
+        a_49_saida_99 = local_espanha.LocalEspanha(
+            A_49_SAIDA_99,
+            {A_49_SAIDA_105: [OESTE, A_49_SAIDA_99__A_49_SAIDA_105, CARRO],
+             A_49_SAIDA_94: [NORDESTE, A_49_SAIDA_94__A_49_SAIDA_99, CARRO],
+             CARTAYA: [SUDOESTE, A_49_SAIDA_99__CARTAYA, CARRO]},
+            37.323243, -7.072187, 63, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
+            locais.PROVINCIA_HUELVA)
+        a_49_saida_99.add_sentido(A_49_SAIDA_105, ["Cartaya", "Portugal"])
+        a_49_saida_99.add_sentido(A_49_SAIDA_94, ["Huelva Norte", "Sevilha"])
 
         a_49_saida_105 = local_espanha.LocalEspanha(
             A_49_SAIDA_105,
-            {A_49_SAIDA_117: [SUDOESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
-             A_49_SAIDA_87: [ESTE, A_49_SAIDA_87__A_49_SAIDA_105, CARRO],
+            {A_49_SAIDA_113: [SUDOESTE, A_49_SAIDA_105__A_49_SAIDA_113, CARRO],
+             A_49_SAIDA_99: [ESTE, A_49_SAIDA_99__A_49_SAIDA_105, CARRO],
              CARTAYA: [SUL, A_49_SAIDA_105__CARTAYA, CARRO],
              TARIQUEJO: [NORTE, A_49_SAIDA_105__TARIQUEJO, CARRO]},
             37.333403, -7.155361, 54, locais.MUNICIPIO_CARTAYA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_105.add_sentido(A_49_SAIDA_113, ["Lepe", "Portugal"])
+        a_49_saida_105.add_sentido(A_49_SAIDA_99, ["Gibraleón", "Huelva"])
+
+        a_49_saida_113 = local_espanha.LocalEspanha(
+            A_49_SAIDA_113,
+            {A_49_SAIDA_117: [SUDOESTE, A_49_SAIDA_113__A_49_SAIDA_117, CARRO],
+             A_49_SAIDA_105: [NORDESTE, A_49_SAIDA_105__A_49_SAIDA_113, CARRO],
+             CRUZAMENTO_N_431_N_444: [SUDESTE, A_49_SAIDA_113__CRUZAMENTO_N_431_N_444, CARRO]},
+            37.297213, -7.218757, 39, locais.MUNICIPIO_LEPE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
+        a_49_saida_113.add_sentido(A_49_SAIDA_117, ["Lepe", "Portugal"])
+        a_49_saida_113.add_sentido(A_49_SAIDA_105, ["Cartaya", "Huelva"])
 
         a_49_saida_117 = local_espanha.LocalEspanha(
             A_49_SAIDA_117,
-            {A_49_SAIDA_105: [NORDESTE, A_49_SAIDA_105__A_49_SAIDA_117, CARRO],
-             A_49_SAIDA_122: [SUDOESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+            {A_49_SAIDA_122: [SUDOESTE, A_49_SAIDA_117__A_49_SAIDA_122, CARRO],
+             A_49_SAIDA_113: [NORDESTE, A_49_SAIDA_113__A_49_SAIDA_117, CARRO],
              VILLABLANCA: [NOROESTE, A_49_SAIDA_117__VILLABLANCA, CARRO],
              LEPE: [SUDESTE, A_49_SAIDA_117__LEPE, CARRO]},
             37.275938, -7.250109, 48, locais.MUNICIPIO_LEPE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_117.add_sentido(A_49_SAIDA_122, ["Ayamonte", "Portugal"])
+        a_49_saida_117.add_sentido(A_49_SAIDA_113, ["Lepe", "Huelva"])
 
         a_49_saida_122 = local_espanha.LocalEspanha(
             A_49_SAIDA_122,
@@ -715,31 +775,39 @@ class Mapa:
              POZO_DEL_CAMINO: [SUL, A_49_SAIDA_122__POZO_DEL_CAMINO, CARRO]},
             37.260188, -7.305056, 52, locais.MUNICIPIO_ISLA_CRISTINA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_122.add_sentido(A_49_SAIDA_125, ["Ayamonte", "Portugal"])
+        a_49_saida_122.add_sentido(A_49_SAIDA_117, ["Lepe", "Huelva"])
 
         a_49_saida_125 = local_espanha.LocalEspanha(
             A_49_SAIDA_125,
-            {VILLABLANCA: [NORTE, A_49_SAIDA_125__VILLABLANCA, CARRO],
-             A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
-             A_49_SAIDA_122: [NORDESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO]},
+            {A_49_SAIDA_129: [OESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
+             A_49_SAIDA_122: [NORDESTE, A_49_SAIDA_122__A_49_SAIDA_125, CARRO],
+             VILLABLANCA: [NORTE, A_49_SAIDA_125__VILLABLANCA, CARRO]},
             37.250704, -7.337204, 41, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_125.add_sentido(A_49_SAIDA_129, ["Ayamonte", "Portugal"])
+        a_49_saida_125.add_sentido(A_49_SAIDA_122, ["Lepe", "Huelva"])
 
         a_49_saida_129 = local_espanha.LocalEspanha(
             A_49_SAIDA_129,
-            {A_49_SAIDA_125: [ESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
-             A_49_SAIDA_131: [OESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
+            {A_49_SAIDA_131: [OESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
+             A_49_SAIDA_125: [ESTE, A_49_SAIDA_125__A_49_SAIDA_129, CARRO],
              AYAMONTE: [SUDOESTE, A_49_SAIDA_129__AYAMONTE, CARRO]},
             37.239183, -7.378359, 10, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_129.add_sentido(A_49_SAIDA_131, ["Ayamonte", "Portugal"])
+        a_49_saida_129.add_sentido(A_49_SAIDA_125, ["Lepe", "Huelva"])
 
         a_49_saida_131 = local_espanha.LocalEspanha(
             A_49_SAIDA_131,
-            {A_49_SAIDA_129: [ESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
+            {PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO],
+             A_49_SAIDA_129: [ESTE, A_49_SAIDA_129__A_49_SAIDA_131, CARRO],
              AYAMONTE: [SUL, A_49_SAIDA_131__AYAMONTE, CARRO],
-             COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO],
-             PONTE_INTERNACIONAL_GUADIANA: [OESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]},
+             COSTA_ESURI: [NORTE, A_49_SAIDA_131__COSTA_ESURI, CARRO]},
             37.238819, -7.404641, 8, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
+        a_49_saida_131.add_sentido(PONTE_INTERNACIONAL_GUADIANA, ["Portugal"])
+        a_49_saida_131.add_sentido(A_49_SAIDA_129, ["Ayamonte", "Huelva"])
 
         a_66_saida_808 = local_espanha.LocalEspanha(
             A_66_SAIDA_808,
@@ -749,10 +817,12 @@ class Mapa:
 
         a22_saida_13 = local_portugal.LocalPortugal(
             A22_SAIDA_13,
-            {CRUZAMENTO_IC4_N125: [SUDESTE, A22_SAIDA_13__CRUZAMENTO_IC4_N125, CARRO],
-             ESTADIO_ALGARVE: [SUDESTE, A22_SAIDA_13__ESTADIO_ALGARVE, CARRO],
-             A22_SAIDA_14: [ESTE, A22_SAIDA_13__A22_SAIDA_14, CARRO]},
+            {A22_SAIDA_14: [ESTE, A22_SAIDA_13__A22_SAIDA_14, CARRO],
+             CRUZAMENTO_IC4_N125: [SUDESTE, A22_SAIDA_13__CRUZAMENTO_IC4_N125, CARRO],
+             ESTADIO_ALGARVE: [SUDESTE, A22_SAIDA_13__ESTADIO_ALGARVE, CARRO]},
             37.095094, -7.993573, 71, locais.FREGUESIA_ALMANCIL, locais.CONCELHO_LOULE)
+        a22_saida_13.add_sentido(A22_SAIDA_14, ["ESPANHA", "Olhão"])
+        a22_saida_13.add_sentido(CRUZAMENTO_IC4_N125, ["Faro", "Aeroporto de Faro"])
 
         a22_saida_14 = local_portugal.LocalPortugal(
             A22_SAIDA_14,
@@ -761,6 +831,8 @@ class Mapa:
              RUINAS_ROMANAS_MILREU: [ESTE, A22_SAIDA_14__RUINAS_ROMANAS_MILREU, CARRO],
              CONCEICAO_FARO: [SUL, A22_SAIDA_14__CONCEICAO_FARO, CARRO]},
             37.095890, -7.916541, 89, locais.FREGUESIA_ESTOI, locais.CONCELHO_FARO)
+        a22_saida_14.add_sentido(A22_SAIDA_13, ["Lisboa", "Portimão"])
+        a22_saida_14.add_sentido(A22_SAIDA_15, ["ESPANHA", "Olhão"])
 
         a22_saida_15 = local_portugal.LocalPortugal(
             A22_SAIDA_15,
@@ -770,29 +842,37 @@ class Mapa:
              CRUZAMENTO_N125_N398: [SUL, A22_SAIDA_15__CRUZAMENTO_N125_N398, CARRO],
              SANTA_CATARINA_FONTE_BISPO: [NORTE, A22_SAIDA_15__SANTA_CATARINA_FONTE_BISPO, CARRO]},
             37.107910, -7.800772, 116, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
+        a22_saida_15.add_sentido(A22_SAIDA_14, ["Lisboa", "Faro"])
+        a22_saida_15.add_sentido(AREA_SERVICO_OLHAO, ["Tavira", "ESPANHA"])
 
         a22_saida_16 = local_portugal.LocalPortugal(
             A22_SAIDA_16,
-            {A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
-             AREA_SERVICO_OLHAO: [SUDOESTE, A22_SAIDA_16__AREA_SERVICO_OLHAO, CARRO],
+            {AREA_SERVICO_OLHAO: [SUDOESTE, A22_SAIDA_16__AREA_SERVICO_OLHAO, CARRO],
+             A22_SAIDA_17: [NORDESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
              TAVIRA_SUL: [SUDESTE, A22_SAIDA_16__TAVIRA_SUL, CARRO],
              SANTA_CATARINA_FONTE_BISPO: [NOROESTE, A22_SAIDA_16__SANTA_CATARINA_FONTE_BISPO, CARRO]},
             37.137293, -7.694742, 97, locais.FREGUESIA_SANTIAGO_TAVIRA, locais.CONCELHO_TAVIRA)
+        a22_saida_16.add_sentido(AREA_SERVICO_OLHAO, ["Lisboa", "Faro"])
+        a22_saida_16.add_sentido(A22_SAIDA_17, ["Monte Gordo", "ESPANHA"])
 
         a22_saida_17 = local_portugal.LocalPortugal(
             A22_SAIDA_17,
-            {A22_SAIDA_18: [NORDESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
-             A22_SAIDA_16: [SUDOESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+            {A22_SAIDA_16: [SUDOESTE, A22_SAIDA_16__A22_SAIDA_17, CARRO],
+             A22_SAIDA_18: [NORDESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
              ALTURA: [SUL, A22_SAIDA_17__ALTURA, CARRO]},
             37.199341, -7.497140, 18, locais.FREGUESIA_ALTURA, locais.CONCELHO_CASTRO_MARIM)
+        a22_saida_17.add_sentido(A22_SAIDA_16, ["Lisboa", "Faro"])
+        a22_saida_17.add_sentido(A22_SAIDA_18, ["Vila Real de Santo António", "ESPANHA"])
 
         a22_saida_18 = local_portugal.LocalPortugal(
             A22_SAIDA_18,
-            {IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
+            {A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO],
              AREA_REPOUSO_CASTRO_MARIM: [NORDESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
-             CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO],
-             A22_SAIDA_17: [SUDOESTE, A22_SAIDA_17__A22_SAIDA_18, CARRO]},
+             IC27_INICIO: [NORTE, A22_SAIDA_18__IC27_INICIO, CARRO],
+             CASTRO_MARIM: [SUL, A22_SAIDA_18__CASTRO_MARIM, CARRO]},
             37.230909, -7.448239, 22, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
+        a22_saida_18.add_sentido(A22_SAIDA_17, ["Lisboa", "Faro"])
+        a22_saida_18.add_sentido(AREA_REPOUSO_CASTRO_MARIM, ["ESPANHA"])
 
         aeroporto_de_beja = local_portugal.LocalPortugal(
             AEROPORTO_DE_BEJA,
@@ -884,8 +964,7 @@ class Mapa:
             ANTIGA_ESTACAO_ISLA_CRISTINA,
             {ISLA_CRISTINA: [SUL, ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA, CARRO],
              POZO_DEL_CAMINO: [NORDESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO, CARRO],
-             AYAMONTE: [OESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE, COMBOIO],
-             GIBRALEON: [NORDESTE, 0, COMBOIO]},
+             AYAMONTE: [OESTE, ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE, COMBOIO]},
             37.221285, -7.322543, 4, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
         antiga_estacao_isla_cristina.add_sentido(AYAMONTE, ["Ayamonte"])
@@ -895,12 +974,16 @@ class Mapa:
             {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
              PONTE_INTERNACIONAL_GUADIANA: [ESTE, AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA, CARRO]},
             37.236479, -7.437882, 15, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
+        area_repouso_castro_marim.add_sentido(A22_SAIDA_18, ["Lisboa", "Faro"])
+        area_repouso_castro_marim.add_sentido(PONTE_INTERNACIONAL_GUADIANA, ["ESPANHA"])
 
         area_servico_olhao = local_portugal.LocalPortugal(
             AREA_SERVICO_OLHAO,
             {A22_SAIDA_15: [SUDOESTE, A22_SAIDA_15__AREA_SERVICO_OLHAO, CARRO],
              A22_SAIDA_16: [NORDESTE, A22_SAIDA_16__AREA_SERVICO_OLHAO, CARRO]},
             37.125327, -7.770864, 114, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
+        area_servico_olhao.add_sentido(A22_SAIDA_15, ["Lisboa", "Faro"])
+        area_servico_olhao.add_sentido(A22_SAIDA_16, ["Tavira", "ESPANHA"])
 
         ayamonte = local_espanha.LocalEspanha(
             AYAMONTE,
@@ -1066,7 +1149,8 @@ class Mapa:
         cartaya = local_espanha.LocalEspanha(
             CARTAYA,
             {A_49_SAIDA_105: [NORTE, A_49_SAIDA_105__CARTAYA, CARRO],
-             LEPE: [SUDOESTE, CARTAYA__LEPE, CARRO]},
+             CRUZAMENTO_N_431_N_444: [OESTE, CARTAYA__CRUZAMENTO_N_431_N_444, CARRO],
+             A_49_SAIDA_99: [NORDESTE, A_49_SAIDA_99__CARTAYA, CARRO]},
             37.236020, -7.469165, 15, locais.MUNICIPIO_CARTAYA, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
@@ -1222,11 +1306,14 @@ class Mapa:
 
         cruzamento_a_49_h_31 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_H_31,
-            {A_49_SAIDA_87: [NOROESTE, A_49_SAIDA_87__CRUZAMENTO_A_49_H_31, CARRO],
+            {A_49_SAIDA_81: [NOROESTE, A_49_SAIDA_81__CRUZAMENTO_A_49_H_31, CARRO],
              CRUZAMENTO_A_49_A_483: [ESTE, CRUZAMENTO_A_49_A_483__CRUZAMENTO_A_49_H_31, CARRO],
              H_31_SAIDA_80: [SUDOESTE, CRUZAMENTO_A_49_H_31__H_31_SAIDA_80, CARRO]},
             37.312759, -6.876701, 13, locais.MUNICIPIO_HUELVA, locais.COMARCA_METROPOLITANA_HUELVA,
             locais.PROVINCIA_HUELVA)
+        cruzamento_a_49_h_31.add_sentido(A_49_SAIDA_81, ["Portugal"])
+        cruzamento_a_49_h_31.add_sentido(CRUZAMENTO_A_49_A_483, ["Sevilha"])
+        cruzamento_a_49_h_31.add_sentido(H_31_SAIDA_80, ["Huelva"])
 
         cruzamento_a_49_se_30 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_SE_30,
@@ -1254,17 +1341,21 @@ class Mapa:
         cruzamento_ic4_m520 = local_portugal.LocalPortugal(
             CRUZAMENTO_IC4_M520,
             {VARIANTE_FARO_IC4: [SUL, CRUZAMENTO_IC4_M520__VARIANTE_FARO_IC4, CARRO],
-             CONCEICAO_FARO: [NORDESTE, CONCEICAO_FARO__CRUZAMENTO_IC4_M520, CARRO],
-             CRUZAMENTO_IC4_N125: [NOROESTE, CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125, CARRO]},
+             CRUZAMENTO_IC4_N125: [NOROESTE, CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125, CARRO],
+             CONCEICAO_FARO: [NORDESTE, CONCEICAO_FARO__CRUZAMENTO_IC4_M520, CARRO]},
             37.051365, -7.953663, 10, locais.FREGUESIA_SAO_PEDRO_FARO, locais.CONCELHO_FARO)
+        cruzamento_ic4_m520.add_sentido(VARIANTE_FARO_IC4, ["Faro", "Aeroporto de Faro"])
+        cruzamento_ic4_m520.add_sentido(CRUZAMENTO_IC4_N125, ["Loulé", "A22 - ESPANHA/Portimão"])
 
         cruzamento_ic4_n125 = local_portugal.LocalPortugal(
             CRUZAMENTO_IC4_N125,
             {CRUZAMENTO_IC4_M520: [SUDESTE, CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125, CARRO],
+             A22_SAIDA_13: [NOROESTE, A22_SAIDA_13__CRUZAMENTO_IC4_N125, CARRO],
              ESTACAO_PARQUE_CIDADES: [NOROESTE, CRUZAMENTO_IC4_N125__ESTACAO_PARQUE_CIDADES, CARRO],
-             ESTADIO_ALGARVE: [NORTE, CRUZAMENTO_IC4_N125__ESTADIO_ALGARVE, CARRO],
-             A22_SAIDA_13: [NOROESTE, A22_SAIDA_13__CRUZAMENTO_IC4_N125, CARRO]},
+             ESTADIO_ALGARVE: [NORTE, CRUZAMENTO_IC4_N125__ESTADIO_ALGARVE, CARRO]},
             37.073374, -7.978380, 33, locais.FREGUESIA_ALMANCIL, locais.CONCELHO_LOULE)
+        cruzamento_ic4_n125.add_sentido(CRUZAMENTO_IC4_M520, ["Faro", "Aeroporto de Faro"])
+        cruzamento_ic4_n125.add_sentido(A22_SAIDA_13, ["Loulé", "A22 - ESPANHA/Portimão"])
 
         cruzamento_m509_m512 = local_portugal.LocalPortugal(
             CRUZAMENTO_M509_M512,
@@ -1272,6 +1363,14 @@ class Mapa:
              BRINHOSA: [ESTE, BRINHOSA__CRUZAMENTO_M509_M512, CARRO],
              CORTE_DO_GAGO: [SUL, CORTE_DO_GAGO__CRUZAMENTO_M509_M512, CARRO]},
             37.313195, -7.551205, 172, locais.FREGUESIA_AZINHAL, locais.CONCELHO_CASTRO_MARIM)
+
+        cruzamento_n_431_n_444 = local_espanha.LocalEspanha(
+            CRUZAMENTO_N_431_N_444,
+            {A_49_SAIDA_113: [NOROESTE, A_49_SAIDA_113__CRUZAMENTO_N_431_N_444, CARRO],
+             LEPE: [SUDOESTE, CRUZAMENTO_N_431_N_444__LEPE, CARRO],
+             CARTAYA: [ESTE, CARTAYA__CRUZAMENTO_N_431_N_444, CARRO]},
+            37.278547, -7.185022, 10, locais.MUNICIPIO_LEPE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         cruzamento_n122_m1059 = local_portugal.LocalPortugal(
             CRUZAMENTO_N122_M1059,
@@ -1560,11 +1659,13 @@ class Mapa:
              ILHA_DA_ARMONA: [SUDOESTE, FUSETA__ILHA_DA_ARMONA, BARCO]},
             37.055108, -7.746517, 6, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
 
-        gibraleon = local.Local(GIBRALEON,
-                                {SAN_BARTOLOME_DE_LA_TORRE: [NOROESTE, GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE, CARRO],
-                                 A_49_SAIDA_87: [SUL, A_49_SAIDA_87__GIBRALEON, CARRO],
-                                 ANTIGA_ESTACAO_ISLA_CRISTINA: [SUDOESTE, 0, COMBOIO],
-                                 HUELVA: [SUL, 0, COMBOIO]})
+        gibraleon = local_espanha.LocalEspanha(
+            GIBRALEON,
+            {SAN_BARTOLOME_DE_LA_TORRE: [NOROESTE, GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE, CARRO],
+             A_49_SAIDA_87: [SUL, A_49_SAIDA_87__GIBRALEON, CARRO],
+             A_49_SAIDA_94: [SUDOESTE, A_49_SAIDA_94__GIBRALEON, CARRO]},
+            37.375423, -6.968658, 27, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         gioes = local.Local(GIOES,
                             {MARTINLONGO: [SUDOESTE, GIOES__MARTINLONGO, CARRO],
@@ -1579,9 +1680,11 @@ class Mapa:
 
         h_31_saida_80 = local_espanha.LocalEspanha(
             H_31_SAIDA_80,
-            {CRUZAMENTO_A_49_H_31: [NORDESTE, CRUZAMENTO_A_49_H_31__H_31_SAIDA_80, CARRO]},
+            {CRUZAMENTO_A_49_H_31: [NORDESTE, CRUZAMENTO_A_49_H_31__H_31_SAIDA_80, CARRO],
+             A_49_SAIDA_81: [NOROESTE, A_49_SAIDA_81__H_31_SAIDA_80, CARRO]},
             37.308308, -6.892289, 9, locais.MUNICIPIO_HUELVA, locais.COMARCA_METROPOLITANA_HUELVA,
             locais.PROVINCIA_HUELVA)
+        h_31_saida_80.add_sentido(CRUZAMENTO_A_49_H_31, ["Sevilha"])
 
         hangares = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             HANGARES,
@@ -1595,7 +1698,6 @@ class Mapa:
 
         huelva = local.Local(HUELVA,
                              {A_49_SAIDA_87: [NORTE, A_49_SAIDA_87__HUELVA, CARRO],
-                              GIBRALEON: [NORTE, 0, COMBOIO],
                               SEVILHA_SANTA_JUSTA: [ESTE, 0, COMBOIO]})
 
         ic27_fim = local_portugal.LocalPortugal(
@@ -1734,9 +1836,12 @@ class Mapa:
         laranjeiras.add_sentido(ALCOUTIM, ["Mértola", "Sanlúcar de Guadiana", "Alcoutim"])
         laranjeiras.add_sentido(BAR_DO_RIO, ["Vila Real de Santo António", "Ayamonte"])
 
-        lepe = local.Local(LEPE,
-                           {A_49_SAIDA_117: [NOROESTE, A_49_SAIDA_117__LEPE, CARRO],
-                            CARTAYA: [NORDESTE, CARTAYA__LEPE, CARRO]})
+        lepe = local_espanha.LocalEspanha(
+            LEPE,
+            {A_49_SAIDA_117: [NOROESTE, A_49_SAIDA_117__LEPE, CARRO],
+             CRUZAMENTO_N_431_N_444: [NORDESTE, CRUZAMENTO_N_431_N_444__LEPE, CARRO]},
+            37.255024, -7.203030, 21, locais.MUNICIPIO_LEPE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
 
         livramento = local_portugal.LocalPortugal(
             LIVRAMENTO,
@@ -1961,12 +2066,14 @@ class Mapa:
             37.413298, -5.990623, 11, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
 
-        ponte_internacional_guadiana = local.Local(PONTE_INTERNACIONAL_GUADIANA,
-                                                   {AREA_REPOUSO_CASTRO_MARIM: [OESTE,
-                                                                                AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA,
-                                                                                CARRO],
-                                                    A_49_SAIDA_131: [ESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA,
-                                                                     CARRO]})
+        ponte_internacional_guadiana = local_espanha.LocalEspanha(
+            PONTE_INTERNACIONAL_GUADIANA,
+            {AREA_REPOUSO_CASTRO_MARIM: [OESTE, AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA, CARRO],
+             A_49_SAIDA_131: [ESTE, A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA, CARRO]},
+            37.237619, -7.419194, 0, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
+            locais.PROVINCIA_HUELVA)
+        ponte_internacional_guadiana.add_sentido(AREA_REPOUSO_CASTRO_MARIM, ["Lisboa", "Faro"])
+        ponte_internacional_guadiana.add_sentido(A_49_SAIDA_131, ["Ayamonte", "Huelva"])
 
         ponte_rio_chanca = local.Local(PONTE_RIO_CHANCA,
                                        {PUERTO_DE_LA_LAJA: [SUDESTE, PONTE_RIO_CHANCA__PUERTO_DE_LA_LAJA, CARRO],
@@ -2363,7 +2470,9 @@ class Mapa:
              UNIVERSIDADE_ALGARVE_GAMBELAS: [NOROESTE, UNIVERSIDADE_ALGARVE_GAMBELAS__VARIANTE_FARO_IC4, CARRO]},
             37.039694, -7.950254, 14, locais.FREGUESIA_SAO_PEDRO_FARO, locais.CONCELHO_FARO)
         variante_faro_ic4.add_sentido(MONTENEGRO, ["Aeroporto de Faro", "Praia de Faro"])
-        variante_faro_ic4.add_sentido(VARIANTE_FARO_N2, ["Olhão", "São Brás de Alportel", "A22 - Espanha/Portimão"])
+        variante_faro_ic4.add_sentido(VARIANTE_FARO_N2, ["Olhão", "São Brás de Alportel", "A22 - ESPANHA/Portimão"])
+        variante_faro_ic4.add_sentido(FORUM_ALGARVE, ["Faro"])
+        variante_faro_ic4.add_sentido(CRUZAMENTO_IC4_M520, ["Loulé", "A22 - ESPANHA/Portimão"])
 
         variante_faro_m518 = local_portugal.LocalPortugal(
             VARIANTE_FARO_M518,
@@ -2442,8 +2551,12 @@ class Mapa:
         self.lista_locais.append(a_49_saida_2)
         self.lista_locais.append(a_49_saida_3)
         self.lista_locais.append(a_49_saida_5)
+        self.lista_locais.append(a_49_saida_81)
         self.lista_locais.append(a_49_saida_87)
+        self.lista_locais.append(a_49_saida_94)
+        self.lista_locais.append(a_49_saida_99)
         self.lista_locais.append(a_49_saida_105)
+        self.lista_locais.append(a_49_saida_113)
         self.lista_locais.append(a_49_saida_117)
         self.lista_locais.append(a_49_saida_122)
         self.lista_locais.append(a_49_saida_125)
@@ -2523,6 +2636,7 @@ class Mapa:
         self.lista_locais.append(cruzamento_ic4_m520)
         self.lista_locais.append(cruzamento_ic4_n125)
         self.lista_locais.append(cruzamento_m509_m512)
+        self.lista_locais.append(cruzamento_n_431_n_444)
         self.lista_locais.append(cruzamento_n122_m1059)
         self.lista_locais.append(cruzamento_n122_m1060)
         self.lista_locais.append(cruzamento_n122_m1063)
