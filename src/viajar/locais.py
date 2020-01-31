@@ -25,26 +25,36 @@ COMARCA_EL_CONDADO = "El Condado"
 
 #  Municípios da Andalucía
 MUNICIPIO_AYAMONTE = "Ayamonte"  # Huelva
+MUNICIPIO_BENACAZON = "Benacazón"
+MUNICIPIO_BOLLULLOS_MITACION = "Bollullos de la Mitación"  # Sevilha
 MUNICIPIO_BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"  # Huelva
+MUNICIPIO_BONARES = "Bonares"  # Huelva
 MUNICIPIO_BORMUJOS = "Bormujos"  # Sevilha
 MUNICIPIO_CAMAS = "Camas"  # Sevilha
+MUNICIPIO_CARRION_CESPEDES = "Carrión de los Céspedes"  # Sevilha
 MUNICIPIO_CARTAYA = "Cartaya"  # Huelva
-MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilla
+MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilha
+MUNICIPIO_CHUCENA = "Chucena"  # Huelva
 MUNICIPIO_EL_GRANADO = "El Granado"
 MUNICIPIO_ESPARTINAS = "Espartinas"  # Sevilha
 MUNICIPIO_GIBRALEON = "Gibraleón"  # Huelva
 MUNICIPIO_HUELVA = "Huelva"  # Huelva
+MUNICIPIO_HUEVAR_ALJARAFE = "Huévar del Aljarafe"  # Sevilha
 MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"  # Huelva
 MUNICIPIO_LEPE = "Lepe"  # Huelva
 MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"  # Sevilha
+MUNICIPIO_SAN_JUAN_PUERTO = "San Juan del Puerto"  # Huelva
 MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"
 MUNICIPIO_SANTIPONCE = "Santiponce"  # Sevilha
 MUNICIPIO_SEVILHA = "Sevilha"  # Sevilha
+MUNICIPIO_UMBRETE = "Umbrete"  # Sevilha
+MUNICIPIO_VILLARRASA = "Villarrasa"  # Huelva
 
 #  Distritos de Sevilha
-DISTRITO_ESTE_ALCOSA_TORREBLANCA = "Este-Alcosa-Torreblanca"
 DISTRITO_BELLAVISTA_LA_PALMERA = "Bellavista-La Palmera"
+DISTRITO_ESTE_ALCOSA_TORREBLANCA = "Este-Alcosa-Torreblanca"
 DISTRITO_LOS_REMEDIOS = "Los Remedios"
+DISTRITO_MACARENA = "Macarena"
 DISTRITO_TRIANA = "Triana"
 
 #  Estradas
@@ -52,6 +62,7 @@ A_4 = "A-4"
 A_49 = "A-49"
 A_483 = "A-483"
 A_66 = "A-66"
+H_30 = "H-30"
 H_31 = "H-31"
 N_431 = "N-431"
 N_444 = "N-444"
