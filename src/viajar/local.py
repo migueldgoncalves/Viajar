@@ -6,6 +6,7 @@ class Local:
     nome = ''
     locais_circundantes = {}
     sentidos = {}  # Destinos principais seguindo numa direcção. Ex: Sentido Beja/Mértola e Castro Marim/VRSA no IC27
+    sentidos_info_extra = {}  # Informação extra associada aos sentidos. Ex: Linha 1 do metro, ou comboio Regional
     coordenadas = (0, 0)  # Ex: (37.215788, -7.405922)
     altitude = 0  # Metros
     pais = ''
@@ -14,6 +15,7 @@ class Local:
         self.nome = nome
         self.locais_circundantes = locais_circundantes
         self.sentidos = {}  # Necessário para tornar uma variável de classe numa variável de instância
+        self.sentidos_info_extra = {}
 
     def set_nome(self, nome):
         self.nome = nome
@@ -23,6 +25,9 @@ class Local:
 
     def set_sentidos(self, sentidos):
         self.sentidos = sentidos
+
+    def set_sentidos_info_extra(self, sentidos_info_extra):
+        self.sentidos_info_extra = sentidos_info_extra
 
     def set_coordenadas(self, latitude, longitude):
         self.coordenadas = (latitude, longitude)
@@ -36,14 +41,21 @@ class Local:
     def add_local_circundante(self, local, ponto_cardeal, distancia):
         self.locais_circundantes[local] = [ponto_cardeal, distancia]
 
-    def add_sentido(self, destino, sentido):
+    def add_sentido_info_extra(self, destino, info_extra):
+        self.sentidos_info_extra[destino] = info_extra
+
+    def add_sentido(self, destino, sentido, info_extra):
         self.sentidos[destino] = sentido
+        self.add_sentido_info_extra(destino, info_extra)
 
     def remove_local_circundante(self, local):
         del self.locais_circundantes[local]
 
-    def remove_sentido(self, local):
-        del self.sentidos[local]
+    def remove_sentido(self, destino):
+        del self.sentidos[destino]
+
+    def remove_sentido_info_extra(self, destino):
+        del self.sentidos_info_extra[destino]
 
     def get_nome(self):
         return self.nome
@@ -54,15 +66,31 @@ class Local:
     def get_sentidos(self):
         return self.sentidos
 
+    def get_sentidos_info_extra(self):
+        return self.sentidos_info_extra
+
+    #  Informação extra associada à direcção de uma dada via, como a linha de metro ou o serviço ferroviário
+    def get_sentido_info_extra(self, direccao):
+        if direccao in self.sentidos_info_extra:
+            info_extra = self.sentidos_info_extra[direccao]
+            if len(info_extra) == 0:
+                return None
+            if len(info_extra) == 1:
+                return info_extra[0]
+            info_extra_string = ''
+            for unidade_info_extra in info_extra:
+                info_extra_string = info_extra_string + ' ' + SEPARADOR_DESTINOS + ' ' + unidade_info_extra
+            return info_extra_string[3:]  # Os primeiros caracteres estão a mais
+        return None
+
     #  Destinos principais seguindo por uma certa direcção de, por exemplo, uma via rápida ou uma via férrea
-    def get_sentido(self, destino):
-        if destino in self.sentidos:
-            destinos = self.sentidos[destino]
+    def get_sentido(self, direccao):
+        if direccao in self.sentidos:
+            destinos = self.sentidos[direccao]
             if len(destinos) == 1:
                 return destinos[0]
             destinos_string = ''
-            for x in destinos:
-                destino = x.split(",")[0]
+            for destino in destinos:
                 destinos_string = destinos_string + ' ' + SEPARADOR_DESTINOS + ' ' + destino
             return destinos_string[3:]  # Os primeiros caracteres estão a mais
         return None

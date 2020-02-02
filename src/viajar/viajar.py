@@ -177,8 +177,12 @@ class Viajar:
                     texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + x + ' ' + "(" + locais_circundantes[x][0] + \
                         ", " + str(locais_circundantes[x][1]) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
                     sentido = self.get_local_actual().get_sentido(x)  # Destinos possíveis por essa direcção
+                    sentido_info_extra = self.get_local_actual().get_sentido_info_extra(x)  # Info extra da direcção
                     if sentido is not None:
-                        texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
+                        if sentido_info_extra is None:
+                            texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
+                        else:
+                            texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + sentido_info_extra + ": Sentido " + sentido
                     print(texto)
                     iterador += 1
 
