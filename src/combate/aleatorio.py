@@ -14,3 +14,7 @@ class Aleatorio:
     @staticmethod
     def percentagem_aleatoria():
         return random.Random().randint(0, 100)
+
+    @staticmethod
+    def numero_aleatorio(numero):
+        return random.Random().randint(1, numero)

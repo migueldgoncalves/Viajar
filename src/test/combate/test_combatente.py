@@ -11,7 +11,7 @@ class CombatenteTest(unittest.TestCase):
     personagem = None
 
     def setUp(self):
-        self.personagem = combatente.Combatente(FORCA_INICIAL, FORCA_INICIAL, 3, False, True)
+        self.personagem = combatente.Combatente("Combatente1", FORCA_INICIAL, FORCA_INICIAL, 3, False, True)
 
     def test_get_forca(self):
         self.assertEqual(FORCA_INICIAL, self.personagem.get_forca())
@@ -24,7 +24,7 @@ class CombatenteTest(unittest.TestCase):
         self.personagem.saude_braco_dominante = combatente.SAUDE_INICIAL - (2 * combatente.SAUDE_POR_FORCA)
         self.assertEqual(FORCA_INICIAL - 2, self.personagem.get_forca())
 
-        nova_personagem = combatente.Combatente(0, 0, 3, False, True)
+        nova_personagem = combatente.Combatente("Combatente2", 0, 0, 3, False, True)
         self.assertTrue(nova_personagem.get_forca() > 0)
 
     def test_get_velocidade(self):
@@ -42,7 +42,7 @@ class CombatenteTest(unittest.TestCase):
         self.personagem.saude_perna_direita = combatente.SAUDE_INICIAL - (2 * combatente.SAUDE_POR_VELOCIDADE)
         self.assertEqual(VELOCIDADE_INICIAL - 2, self.personagem.get_velocidade())
 
-        nova_personagem = combatente.Combatente(0, 0, 3, False, True)
+        nova_personagem = combatente.Combatente("Combatente2", 0, 0, 3, False, True)
         self.assertTrue(nova_personagem.get_velocidade() > 0)
 
     def test_aumentar_dor(self):

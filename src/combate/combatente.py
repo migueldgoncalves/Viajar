@@ -8,24 +8,12 @@ IMPACTO_BARRIGA_SAUDE = 0.8
 IMPACTO_PEITO_SAUDE = 1
 IMPACTO_CABECA_SAUDE = 1
 
-BONUS_DEFESA_BRACO_DOMINANTE = 1500  # Pontos a somar à defesa do combatente quando o seu braço dominante for atacado
-BONUS_DEFESA_BRACO_NAO_DOMINANTE = 0
-BONUS_DEFESA_PERNAS = 0
-BONUS_DEFESA_BARRIGA = 500
-BONUS_DEFESA_PEITO = 1000
-BONUS_DEFESA_CABECA = 1000
-
-IMPACTO_DOR = 20  # Pontos de ataque e de defesa perdidos com cada ponto de dor
 SAUDE_POR_DOR = 5  # Pontos de saúde que é preciso perder para se ganhar um ponto de dor
 SAUDE_POR_FORCA = 4  # Pontos de saúde no braço dominante que é necessário perder para se perder 1 ponto de força
 SAUDE_POR_VELOCIDADE = 4  # Pontos de saúde nas pernas que é necessário perder para se perder 1 ponto de velocidade
 
 PROBABILIDADE_HEMORRAGIA = 2  # Num ataque, a probabilidade de hemorragia em % é este parâmetro vezes a saúde perdida
 EXTENSAO_HEMORRAGIA = 0.05  # Em caso de ataque, os pontos de hemorragia ganhos são este parâmetro vezes a saúde perdida
-
-DEFESA_ESCUDO = 2000  # Pontos de defesa caso se tenha escudo
-
-DIFERENCA_PONTOS_POR_SAUDE = 100  # Diferença mínima entre pontos de ataque e de defesa para se desferir danos
 
 CABECA = "Cabeça"
 PEITO = "Peito"
@@ -38,6 +26,7 @@ PERNA_DIREITA = "Perna Direita"
 
 class Combatente:
 
+    nome = ''
     forca = 0
     velocidade = 0
     arma = 0
@@ -54,7 +43,9 @@ class Combatente:
     hemorragia = 0
     cpu = False  # True - Controlado pelo computador
 
-    def __init__(self, forca, velocidade, arma, escudo, cpu):
+    def __init__(self, nome, forca, velocidade, arma, escudo, cpu):
+        self.nome = nome
+
         if forca == 0:
             self.forca = self.gerador_parametros()
         else:
@@ -81,12 +72,15 @@ class Combatente:
 
         self.cpu = cpu
 
+    def get_nome(self):
+        return self.nome
+
     def get_forca(self):
-        return self.forca - ((SAUDE_INICIAL - self.saude_braco_dominante) // SAUDE_POR_FORCA)
+        return round(self.forca - ((SAUDE_INICIAL - self.saude_braco_dominante) // SAUDE_POR_FORCA))
 
     def get_velocidade(self):
-        return self.velocidade - ((SAUDE_INICIAL - ((self.saude_perna_esquerda + self.saude_perna_direita) / 2))
-                                  // SAUDE_POR_VELOCIDADE)
+        return round(self.velocidade - ((SAUDE_INICIAL - ((self.saude_perna_esquerda + self.saude_perna_direita) / 2))
+                                        // SAUDE_POR_VELOCIDADE))
 
     def get_arma(self):
         return self.arma
@@ -126,6 +120,9 @@ class Combatente:
 
     def get_cpu(self):
         return self.cpu
+
+    def set_nome(self, nome):
+        self.nome = nome
 
     def set_forca(self, forca):
         self.forca = forca
@@ -173,43 +170,103 @@ class Combatente:
         self.cpu = cpu
 
     def aumentar_dor(self, saude_perdida):
-        self.dor += saude_perdida // SAUDE_POR_DOR
+        aumento_dor = saude_perdida // SAUDE_POR_DOR
+        self.dor += aumento_dor
+        if aumento_dor == 1:
+            print("Dor aumentou", aumento_dor, "ponto")
+        else:
+            print("Dor aumentou", aumento_dor, "pontos")
 
     def aumentar_hemorragia(self, saude_perdida):
         probabilidade_hemorragia = PROBABILIDADE_HEMORRAGIA * saude_perdida
         if probabilidade_hemorragia <= aleatorio.Aleatorio.percentagem_aleatoria():
-            self.hemorragia += round(saude_perdida * EXTENSAO_HEMORRAGIA)
+            aumento_hemorragia = round(saude_perdida * EXTENSAO_HEMORRAGIA)
+            self.hemorragia += aumento_hemorragia
+            if aumento_hemorragia == 1:
+                print("Hemorragia aumentou", aumento_hemorragia, "ponto")
+            else:
+                print("Hemorragia aumentou", aumento_hemorragia, "pontos")
 
     def diminuir_saude_geral(self, saude_perdida):
-        self.saude_geral -= round(saude_perdida)
+        saude_perdida = round(saude_perdida)
+        self.saude_geral -= saude_perdida
+        if saude_perdida == 1:
+            print("Saúde geral perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde geral perdeu", saude_perdida, "pontos")
+
+    def diminuir_saude_geral_hemorragia(self):
+        self.saude_geral -= self.hemorragia
 
     def diminuir_saude_cabeca(self, saude_perdida):
         self.saude_cabeca -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_CABECA_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde da cabeça perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde da cabeça perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_peito(self, saude_perdida):
         self.saude_peito -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_PEITO_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde do peito perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde do peito perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_barriga(self, saude_perdida):
         self.saude_barriga -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_BARRIGA_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde da barriga perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde da barriga perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_braco_dominante(self, saude_perdida):
         self.saude_braco_dominante -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_BRACO_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde do braço dominante perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde do braço dominante perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_braco_nao_dominante(self, saude_perdida):
         self.saude_braco_nao_dominante -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_BRACO_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde do braço não dominante perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde do braço não dominante perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_perna_esquerda(self, saude_perdida):
         self.saude_perna_esquerda -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_PERNA_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde da perna esquerda perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde da perna esquerda perdeu", saude_perdida, "pontos")
 
     def diminuir_saude_perna_direita(self, saude_perdida):
         self.saude_perna_direita -= saude_perdida
         self.diminuir_saude_geral(IMPACTO_PERNA_SAUDE * saude_perdida)
+        self.aumentar_dor(saude_perdida)
+        self.aumentar_hemorragia(saude_perdida)
+        if saude_perdida == 1:
+            print("Saúde da perna direita perdeu", saude_perdida, "ponto")
+        else:
+            print("Saúde da perna direita perdeu", saude_perdida, "pontos")
 
     @staticmethod
     def gerador_parametros():
