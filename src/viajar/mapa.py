@@ -18,6 +18,8 @@ COMBOIO = 4
 METRO = 5
 
 #  Nomes dos locais
+A_483_SAIDA_1 = locais.nome_saida_via_rapida(locais.A_483, 1)
+A_483_SAIDA_3 = locais.nome_saida_via_rapida(locais.A_483, 3)
 A_49_SAIDA_1 = locais.nome_saida_via_rapida(locais.A_49, 1)
 A_49_SAIDA_1B = locais.nome_saida_via_rapida(locais.A_49, "1B")
 A_49_SAIDA_2 = locais.nome_saida_via_rapida(locais.A_49, 2)
@@ -44,6 +46,8 @@ A_49_SAIDA_122 = locais.nome_saida_via_rapida(locais.A_49, 122)
 A_49_SAIDA_125 = locais.nome_saida_via_rapida(locais.A_49, 125)
 A_49_SAIDA_129 = locais.nome_saida_via_rapida(locais.A_49, 129)
 A_49_SAIDA_131 = locais.nome_saida_via_rapida(locais.A_49, 131)
+A_66_SAIDA_798 = locais.nome_saida_via_rapida(locais.A_66, 798)
+A_66_SAIDA_805 = locais.nome_saida_via_rapida(locais.A_66, 805)
 A_66_SAIDA_808 = locais.nome_saida_via_rapida(locais.A_66, 808)
 A22_SAIDA_18 = locais.nome_saida_via_rapida(locais.A22, 18)
 A22_SAIDA_17 = locais.nome_saida_via_rapida(locais.A22, 17)
@@ -79,6 +83,7 @@ BARRIADA_DE_CANELA = "Barriada de Canela"
 BEJA = "Beja"
 BELICHE = "Beliche"
 BOAVISTA = "Boavista"
+BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"
 BOTELHAS = "Botelhas"
 BRINHOSA = "Brinhosa"
 CABANAS_DE_TAVIRA = "Cabanas de Tavira"
@@ -110,6 +115,7 @@ CORTES_PEREIRAS = "Cortes Pereiras"
 CORTE_TABELIAO = "Corte Tabelião"
 COSTA_ESURI = "Costa Esuri"
 CRUZAMENTO_A_4_SE_30 = locais.nome_cruzamento_estradas(locais.A_4, locais.SE_30)
+CRUZAMENTO_A_4_SE_40 = locais.nome_cruzamento_estradas(locais.A_4, locais.SE_40)
 CRUZAMENTO_A_49_A_483 = locais.nome_cruzamento_estradas(locais.A_49, locais.A_483)
 CRUZAMENTO_A_49_H_31 = locais.nome_cruzamento_estradas(locais.A_49, locais.H_31)
 CRUZAMENTO_A_49_SE_30 = locais.nome_cruzamento_estradas(locais.A_49, locais.SE_30)
@@ -239,6 +245,7 @@ QUEBRADAS = "Quebradas"
 QUELFES = "Quelfes"
 QUINTA_VALE_GOLF_RESORT = "Quinta do Vale Golf Resort"
 RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
+RONDA_SEVILHA_GLORIETA_BERROCAL = "Ronda Urbana Norte de Sevilha - Glorieta Berrocal"
 RONDA_SEVILHA_GLORIETA_OLIMPICA = "Ronda Urbana Norte de Sevilha - Glorieta Olímpica"
 RONDA_SEVILHA_GLORIETA_SAN_LAZARO = "Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
@@ -254,10 +261,15 @@ SANTA_MARTA = "Santa Marta"
 SAO_BRAS_DE_ALPORTEL = "São Brás de Alportel"
 SAPAL_NORTE = "Norte do Sapal de Castro Marim e Vila Real de Santo António"
 SAPAL_SUL = "Sul do Sapal de Castro Marim e Vila Real de Santo António"
-SE_30_SAIDA_21 = locais.nome_saida_via_rapida(locais.SE_30, 21)
-SE_30_SAIDA_15 = locais.nome_saida_via_rapida(locais.SE_30, 15)
-SE_30_SAIDA_14 = locais.nome_saida_via_rapida(locais.SE_30, 14)
+SE_20_ESTADIO_LA_CARTUJA = "SE-20 - Estádio de La Cartuja"
+SE_20_PARQUE_ALAMILLO = "SE-20 - Parque de Alamillo"
+SE_30_SAIDA_8 = locais.nome_saida_via_rapida(locais.SE_30, 8)
 SE_30_SAIDA_12 = locais.nome_saida_via_rapida(locais.SE_30, 12)
+SE_30_SAIDA_14 = locais.nome_saida_via_rapida(locais.SE_30, 14)
+SE_30_SAIDA_15 = locais.nome_saida_via_rapida(locais.SE_30, 15)
+SE_30_SAIDA_21 = locais.nome_saida_via_rapida(locais.SE_30, 21)
+SE_40_REINICIO = "SE-40 - Reinício"
+SE_40_SAIDA_35 = locais.nome_saida_via_rapida(locais.SE_40, 35)
 SEDAS = "Sedas"
 SENTINELA = "Sentinela"
 SERPA = "Serpa"
@@ -289,6 +301,10 @@ VISTA_REAL = "Vista Real"
 VRSA = "Vila Real de Santo António"
 
 #  Distâncias (km)
+A_483_SAIDA_1__A_483_SAIDA_3 = 2.1
+A_483_SAIDA_1__BOLLULLOS_PAR_CONDADO = 1.8
+A_483_SAIDA_1__CRUZAMENTO_A_49_A_483 = 1.7
+A_483_SAIDA_3__BOLLULLOS_PAR_CONDADO = 2.1
 A_49_SAIDA_1__A_49_SAIDA_1B = 1.4
 A_49_SAIDA_1__CRUZAMENTO_A_49_SE_30 = 0.5
 A_49_SAIDA_1B__A_49_SAIDA_2 = 0.6
@@ -302,6 +318,7 @@ A_49_SAIDA_16__A_49_SAIDA_23 = 6.9
 A_49_SAIDA_23__A_49_SAIDA_28 = 4.6
 A_49_SAIDA_28__A_49_SAIDA_34 = 5.8
 A_49_SAIDA_34__A_49_SAIDA_48 = 13.7
+A_49_SAIDA_48__BOLLULLOS_PAR_CONDADO = 2.4
 A_49_SAIDA_48__CRUZAMENTO_A_49_A_483 = 1.7
 A_49_SAIDA_53__A_49_SAIDA_60 = 7.1
 A_49_SAIDA_53__CRUZAMENTO_A_49_A_483 = 3.6
@@ -334,6 +351,8 @@ A_49_SAIDA_129__AYAMONTE = 8.0
 A_49_SAIDA_131__AYAMONTE = 3.4
 A_49_SAIDA_131__COSTA_ESURI = 2.5
 A_49_SAIDA_131__PONTE_INTERNACIONAL_GUADIANA = 1.3
+A_66_SAIDA_798__A_66_SAIDA_805 = 6.9
+A_66_SAIDA_805__A_66_SAIDA_808 = 3.2
 A_66_SAIDA_808__CRUZAMENTO_A_66_SE_30 = 2.2
 A22_SAIDA_13__A22_SAIDA_14 = 7.0
 A22_SAIDA_13__CRUZAMENTO_IC4_N125 = 3.0
@@ -477,11 +496,14 @@ CORTES_PEREIRAS__CRUZAMENTO_N122_M507 = 4.8
 CORTES_PEREIRAS__MENIRES_DO_LAVAJO = 2.5
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
+CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40 = 5.1
 CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO = 1.4
+CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B = 0.9
 CRUZAMENTO_A_49_H_31__H_31_SAIDA_80 = 1.5
 CRUZAMENTO_A_49_SE_30__CRUZAMENTO_A_66_SE_30 = 2.7
 CRUZAMENTO_A_49_SE_30__SE_30_SAIDA_15 = 1.9
 CRUZAMENTO_A_49_SE_30__SEVILHA_AVENIDA_EXPO_92 = 1.3
+CRUZAMENTO_A_49_SE_40__SE_40_SAIDA_35 = 6.8
 CRUZAMENTO_A_66_SE_30__CRUZAMENTO_SE_20_SE_30 = 2.4
 CRUZAMENTO_H_30_H_31__H_31_SAIDA_80 = 4.4
 CRUZAMENTO_IC4_M520__CRUZAMENTO_IC4_N125 = 3.4
@@ -515,6 +537,7 @@ CRUZAMENTO_N125_N398__OLHAO = 3.2
 CRUZAMENTO_N265_N392__SERPA = 17.7
 CRUZAMENTO_N265_N392__VALE_DO_POCO = 7.5
 CRUZAMENTO_N265_N392__VILA_NOVA_SAO_BENTO = 19.5
+CRUZAMENTO_SE_20_SE_30__SE_20_ESTADIO_LA_CARTUJA = 0.8
 CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21 = 1.2
 CULATRA__HANGARES = 1.6
 CULATRA__ILHA_DA_ARMONA = 6.2
@@ -656,6 +679,7 @@ QUATRO_AGUAS__TAVIRA_SUL = 2.9
 QUEBRADAS__SENTINELA = 2.5
 RIBEIRA_DO_VASCAO__SANTA_MARTA = 3.6
 RIBEIRA_DO_VASCAO__SEDAS = 2.7
+RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_GLORIETA_SAN_LAZARO = 0.9
 RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO = 0.5
 RUINAS_ROMANAS_MILREU__SANTA_BARBARA_NEXE = 6.3
 RUINAS_ROMANAS_MILREU__SAO_BRAS_DE_ALPORTEL = 8.1
@@ -667,8 +691,10 @@ SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA = 9.6
 SANTA_CATARINA_FONTE_BISPO__SAO_BRAS_DE_ALPORTEL = 9.1
 SANTA_LUZIA__TAVIRA_SUL = 2.7
 SAPAL_SUL__VRSA = 1.8
+SE_20_ESTADIO_LA_CARTUJA__SE_20_PARQUE_ALAMILLO = 1.1
 SE_30_SAIDA_12__SE_30_SAIDA_14 = 1.7
 SE_30_SAIDA_14__SE_30_SAIDA_15 = 1.3
+SE_40_REINICIO__SE_40_SAIDA_35 = 6.9
 SERPA__VILA_NOVA_SAO_BENTO = 18.1
 SEVILHA_AVENIDA_EXPO_92__SEVILHA_CENTRO_HISTORICO = 2.0
 SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
@@ -685,6 +711,24 @@ class Mapa:
 
     def preencher_lista_locais(self):
         #  Criar os locais
+
+        a_483_saida_1 = local_espanha.LocalEspanha(
+            A_483_SAIDA_1,
+            {CRUZAMENTO_A_49_A_483: [NORTE, A_483_SAIDA_1__CRUZAMENTO_A_49_A_483, CARRO],
+             A_483_SAIDA_3: [SUDESTE, A_483_SAIDA_1__A_483_SAIDA_3, CARRO],
+             BOLLULLOS_PAR_CONDADO: [ESTE, A_483_SAIDA_1__BOLLULLOS_PAR_CONDADO, CARRO]},
+            37.339139, -6.555623, 117, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
+            locais.PROVINCIA_HUELVA)
+        a_483_saida_1.add_sentido(CRUZAMENTO_A_49_A_483, ["A-49 - Huelva/Sevilha"], [])
+        a_483_saida_1.add_sentido(A_483_SAIDA_3, ["Almonte", "El Rocio"], [])
+
+        a_483_saida_3 = local_espanha.LocalEspanha(
+            A_483_SAIDA_3,
+            {A_483_SAIDA_1: [NOROESTE, A_483_SAIDA_1__A_483_SAIDA_3, CARRO],
+             BOLLULLOS_PAR_CONDADO: [NORTE, A_483_SAIDA_3__BOLLULLOS_PAR_CONDADO, CARRO]},
+            37.324762, -6.541574, 89, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
+            locais.PROVINCIA_HUELVA)
+        a_483_saida_3.add_sentido(A_483_SAIDA_1, ["A-49 - Huelva/Sevilha"], [])
 
         a_49_saida_1 = local_espanha.LocalEspanha(
             A_49_SAIDA_1,
@@ -791,7 +835,8 @@ class Mapa:
         a_49_saida_48 = local_espanha.LocalEspanha(
             A_49_SAIDA_48,
             {CRUZAMENTO_A_49_A_483: [SUDOESTE, A_49_SAIDA_48__CRUZAMENTO_A_49_A_483, CARRO],
-             A_49_SAIDA_34: [ESTE, A_49_SAIDA_34__A_49_SAIDA_48, CARRO]},
+             A_49_SAIDA_34: [ESTE, A_49_SAIDA_34__A_49_SAIDA_48, CARRO],
+             BOLLULLOS_PAR_CONDADO: [SUL, A_49_SAIDA_48__BOLLULLOS_PAR_CONDADO, CARRO]},
             37.358017, -6.540221, 155, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
             locais.PROVINCIA_HUELVA)
         a_49_saida_48.add_sentido(CRUZAMENTO_A_49_A_483, ["Huelva", "Portugal"], [])
@@ -936,12 +981,29 @@ class Mapa:
         a_49_saida_131.add_sentido(PONTE_INTERNACIONAL_GUADIANA, ["Portugal"], [])
         a_49_saida_131.add_sentido(A_49_SAIDA_129, ["Ayamonte", "Huelva"], [])
 
+        a_66_saida_798 = local_espanha.LocalEspanha(
+            A_66_SAIDA_798,
+            {A_66_SAIDA_805: [SUDESTE, A_66_SAIDA_798__A_66_SAIDA_805, CARRO]},
+            37.511061, -6.071201, 49, locais.MUNICIPIO_GUILLENA, locais.COMARCA_SIERRA_NORTE_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        a_66_saida_798.add_sentido(A_66_SAIDA_805, ["Sevilha"], [])
+
+        a_66_saida_805 = local_espanha.LocalEspanha(
+            A_66_SAIDA_805,
+            {A_66_SAIDA_808: [SUDESTE, A_66_SAIDA_805__A_66_SAIDA_808, CARRO],
+             A_66_SAIDA_798: [NOROESTE, A_66_SAIDA_798__A_66_SAIDA_805, CARRO]},
+            37.456867, -6.044449, 12, locais.MUNICIPIO_SALTERAS, locais.COMARCA_ALJARAFE, locais.PROVINCIA_SEVILHA)
+        a_66_saida_805.add_sentido(A_66_SAIDA_808, ["Sevilha"], [])
+        a_66_saida_805.add_sentido(A_66_SAIDA_798, ["Venta del Alto", "Mérida", "Portugal"], [])
+
         a_66_saida_808 = local_espanha.LocalEspanha(
             A_66_SAIDA_808,
-            {CRUZAMENTO_A_66_SE_30: [SUL, A_66_SAIDA_808__CRUZAMENTO_A_66_SE_30, CARRO]},
+            {CRUZAMENTO_A_66_SE_30: [SUL, A_66_SAIDA_808__CRUZAMENTO_A_66_SE_30, CARRO],
+             A_66_SAIDA_805: [NOROESTE, A_66_SAIDA_805__A_66_SAIDA_808, CARRO]},
             37.430924, -6.031791, 7, locais.MUNICIPIO_SANTIPONCE, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA)
         a_66_saida_808.add_sentido(CRUZAMENTO_A_66_SE_30, ["Sevilha"], [])
+        a_66_saida_808.add_sentido(A_66_SAIDA_805, ["Venta del Alto", "Mérida", "Portugal"], [])
 
         a22_saida_13 = local_portugal.LocalPortugal(
             A22_SAIDA_13,
@@ -1217,6 +1279,14 @@ class Mapa:
              PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]},
             37.569888, -7.625849, 169, locais.FREGUESIA_ESPIRITO_SANTO, locais.CONCELHO_MERTOLA)
 
+        bollullos_par_condado = local_espanha.LocalEspanha(
+            BOLLULLOS_PAR_CONDADO,
+            {A_49_SAIDA_48: [NORTE, A_49_SAIDA_48__BOLLULLOS_PAR_CONDADO, CARRO],
+             A_483_SAIDA_1: [OESTE, A_483_SAIDA_1__BOLLULLOS_PAR_CONDADO, CARRO],
+             A_483_SAIDA_3: [SUL, A_483_SAIDA_3__BOLLULLOS_PAR_CONDADO, CARRO]},
+            37.338304, -6.538021, 120, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
+            locais.PROVINCIA_HUELVA)
+
         botelhas = local_portugal.LocalPortugal(
             BOTELHAS,
             {CABECO_JUNQUEIRA: [SUDESTE, BOTELHAS__CABECO_JUNQUEIRA, CARRO],
@@ -1427,20 +1497,33 @@ class Mapa:
 
         cruzamento_a_4_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_A_4_SE_30,
-            {PONTE_CENTENARIO: [NOROESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO]},
+            {PONTE_CENTENARIO: [NOROESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO],
+             SE_30_SAIDA_8: [ESTE, CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B, CARRO],
+             CRUZAMENTO_A_4_SE_40: [SUL, CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40, CARRO]},
             37.341333, -5.981543, 4, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
         cruzamento_a_4_se_30.add_sentido(
             PONTE_CENTENARIO, ["Porto de Sevilha Oeste", "A-49 - Huelva", "A-66 - Mérida"], [])
+        cruzamento_a_4_se_30.add_sentido(SE_30_SAIDA_8, ["A-376 - Utrera", "A-92 - Granada", "A-4 - Córdoba"], [])
+        cruzamento_a_4_se_30.add_sentido(CRUZAMENTO_A_4_SE_40, ["A-4 - Cádiz"], [])
+
+        cruzamento_a_4_se_40 = local_espanha.LocalEspanha(
+            CRUZAMENTO_A_4_SE_40,
+            {CRUZAMENTO_A_4_SE_30: [NORTE, CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40, CARRO]},
+            37.296855, -5.979238, 13, locais.MUNICIPIO_DOS_HERMANAS, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        cruzamento_a_4_se_40.add_sentido(CRUZAMENTO_A_4_SE_30, ["Sevilha", "Aeroporto de Sevilha - San Pablo"], [])
 
         cruzamento_a_49_a_483 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_A_483,
             {A_49_SAIDA_53: [OESTE, A_49_SAIDA_53__CRUZAMENTO_A_49_A_483, CARRO],
-             A_49_SAIDA_48: [NORDESTE, A_49_SAIDA_48__CRUZAMENTO_A_49_A_483, CARRO]},
+             A_49_SAIDA_48: [NORDESTE, A_49_SAIDA_48__CRUZAMENTO_A_49_A_483, CARRO],
+             A_483_SAIDA_1: [SUL, A_483_SAIDA_1__CRUZAMENTO_A_49_A_483, CARRO]},
             37.354358, -6.559195, 127, locais.MUNICIPIO_BOLLULLOS_PAR_CONDADO, locais.COMARCA_EL_CONDADO,
             locais.PROVINCIA_HUELVA)
         cruzamento_a_49_a_483.add_sentido(A_49_SAIDA_53, ["Huelva", "Portugal"], [])
         cruzamento_a_49_a_483.add_sentido(A_49_SAIDA_48, ["Sevilha"], [])
+        cruzamento_a_49_a_483.add_sentido(A_483_SAIDA_1, ["Almonte", "Parque Nacional de Doñana"], [])
 
         cruzamento_a_49_h_31 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_H_31,
@@ -1472,10 +1555,12 @@ class Mapa:
         cruzamento_a_49_se_40 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_SE_40,
             {A_49_SAIDA_11: [SUDOESTE, A_49_SAIDA_11__CRUZAMENTO_A_49_SE_40, CARRO],
-             A_49_SAIDA_5: [NORDESTE, A_49_SAIDA_5__CRUZAMENTO_A_49_SE_40, CARRO]},
+             A_49_SAIDA_5: [NORDESTE, A_49_SAIDA_5__CRUZAMENTO_A_49_SE_40, CARRO],
+             SE_40_SAIDA_35: [SUL, CRUZAMENTO_A_49_SE_40__SE_40_SAIDA_35, CARRO]},
             37.368806, -6.104370, 86, locais.MUNICIPIO_ESPARTINAS, locais.COMARCA_ALJARAFE, locais.PROVINCIA_SEVILHA)
         cruzamento_a_49_se_40.add_sentido(A_49_SAIDA_11, ["Huelva", "Portugal"], [])
         cruzamento_a_49_se_40.add_sentido(A_49_SAIDA_5, ["Sevilha - Centro da cidade"], [])
+        cruzamento_a_49_se_40.add_sentido(SE_40_SAIDA_35, ["Almensilla", "Palomares del Río"], [])
 
         cruzamento_a_66_se_30 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_66_SE_30,
@@ -1621,12 +1706,16 @@ class Mapa:
         cruzamento_se_20_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_SE_20_SE_30,
             {SE_30_SAIDA_21: [ESTE, CRUZAMENTO_SE_20_SE_30__SE_30_SAIDA_21, CARRO],
-             CRUZAMENTO_A_66_SE_30: [OESTE, CRUZAMENTO_A_66_SE_30__CRUZAMENTO_SE_20_SE_30, CARRO]},
+             CRUZAMENTO_A_66_SE_30: [OESTE, CRUZAMENTO_A_66_SE_30__CRUZAMENTO_SE_20_SE_30, CARRO],
+             SE_20_ESTADIO_LA_CARTUJA: [NORTE, CRUZAMENTO_SE_20_SE_30__SE_20_ESTADIO_LA_CARTUJA, CARRO]},
             37.413544, -6.006240, 15, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
         cruzamento_se_20_se_30.add_sentido(
             SE_30_SAIDA_21, ["Sevilha - Rua Torneo", "Ronda Urbana Norte de Sevilha"], [])
         cruzamento_se_20_se_30.add_sentido(CRUZAMENTO_A_66_SE_30, ["A-66 - Mérida", "A-49 - Huelva", "A-4 - Cádiz"], [])
+        cruzamento_se_20_se_30.add_sentido(
+            SE_20_ESTADIO_LA_CARTUJA, ["Estádio de La Cartuja", "Aeroporto de Sevilha - San Pablo",
+                                       "A-4 - Córdoba"], [])
 
         culatra = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             CULATRA,
@@ -2412,23 +2501,35 @@ class Mapa:
                                         {SANTA_MARTA: [SUL, RIBEIRA_DO_VASCAO__SANTA_MARTA, CARRO],
                                          SEDAS: [NOROESTE, RIBEIRA_DO_VASCAO__SEDAS, CARRO]})
 
+        ronda_sevilha_glorieta_berrocal = local_espanha_cidade.LocalEspanhaCidade(
+            RONDA_SEVILHA_GLORIETA_BERROCAL,
+            {RONDA_SEVILHA_GLORIETA_SAN_LAZARO:
+             [SUDOESTE, RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO]},
+            37.415941, -5.974321, 10, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_NORTE)
+        ronda_sevilha_glorieta_berrocal.add_sentido(RONDA_SEVILHA_GLORIETA_SAN_LAZARO, ["A-66 - Mérida"], [])
+
         ronda_sevilha_glorieta_olimpica = local_espanha_cidade.LocalEspanhaCidade(
             RONDA_SEVILHA_GLORIETA_OLIMPICA,
             {RONDA_SEVILHA_GLORIETA_SAN_LAZARO:
-                 [ESTE, RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO],
+                [ESTE, RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO],
              PONTE_DE_ALAMILLO: [OESTE, PONTE_DE_ALAMILLO__RONDA_SEVILHA_GLORIETA_OLIMPICA, CARRO]},
             37.413284, -5.988322, 10, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_MACARENA)
-        ronda_sevilha_glorieta_olimpica.add_sentido(PONTE_DE_ALAMILLO, ["A-66 - Mérida", "Isla Mágica"], [])
         ronda_sevilha_glorieta_olimpica.add_sentido(
             RONDA_SEVILHA_GLORIETA_SAN_LAZARO, ["A-92 - Málaga", "A-4 - Córdoba"], [])
+        ronda_sevilha_glorieta_olimpica.add_sentido(PONTE_DE_ALAMILLO, ["A-66 - Mérida", "Isla Mágica"], [])
 
         ronda_sevilha_glorieta_san_lazaro = local_espanha_cidade.LocalEspanhaCidade(
             RONDA_SEVILHA_GLORIETA_SAN_LAZARO,
-            {RONDA_SEVILHA_GLORIETA_OLIMPICA:
-                [OESTE, RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO]},
+            {RONDA_SEVILHA_GLORIETA_BERROCAL:
+                 [NORDESTE, RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO],
+             RONDA_SEVILHA_GLORIETA_OLIMPICA:
+                 [OESTE, RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO]},
             37.413423, -5.983532, 8, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_MACARENA)
+        ronda_sevilha_glorieta_san_lazaro.add_sentido(
+            RONDA_SEVILHA_GLORIETA_BERROCAL, ["A-92 - Málaga", "A-4 - Córdoba"], [])
         ronda_sevilha_glorieta_san_lazaro.add_sentido(
             RONDA_SEVILHA_GLORIETA_OLIMPICA, ["A-49 - Huelva", "N-630 - Mérida", "Sevilha - Centro da cidade"], [])
 
@@ -2522,6 +2623,34 @@ class Mapa:
                                 {CASTRO_MARIM: [NOROESTE, CASTRO_MARIM__SAPAL_SUL, CARRO],
                                  VRSA: [SUDESTE, SAPAL_SUL__VRSA, CARRO]})
 
+        se_20_estadio_la_cartuja = local_espanha.LocalEspanha(
+            SE_20_ESTADIO_LA_CARTUJA,
+            {CRUZAMENTO_SE_20_SE_30: [SUL, CRUZAMENTO_SE_20_SE_30__SE_20_ESTADIO_LA_CARTUJA, CARRO],
+             SE_20_PARQUE_ALAMILLO: [NORDESTE, SE_20_ESTADIO_LA_CARTUJA__SE_20_PARQUE_ALAMILLO, CARRO]},
+            37.420463, -6.006164, 11, locais.MUNICIPIO_SANTIPONCE, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        se_20_estadio_la_cartuja.add_sentido(
+            CRUZAMENTO_SE_20_SE_30, ["Sevilha - Isla de la Cartuja", "Isla Mágica"], [])
+        se_20_estadio_la_cartuja.add_sentido(
+            SE_20_PARQUE_ALAMILLO, ["Sevilha - Estacionamento do Estádio de La Cartuja",
+                                    "Aeroporto de Sevilha - San Pablo", "A-4 - Córdoba"], [])
+
+        se_20_parque_alamillo = local_espanha.LocalEspanha(
+            SE_20_PARQUE_ALAMILLO,
+            {SE_20_ESTADIO_LA_CARTUJA: [SUDOESTE, SE_20_ESTADIO_LA_CARTUJA__SE_20_PARQUE_ALAMILLO, CARRO]},
+            37.426331, -5.996915, 11, locais.MUNICIPIO_SANTIPONCE, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        se_20_parque_alamillo.add_sentido(
+            SE_20_ESTADIO_LA_CARTUJA, ["Sevilha - Isla de la Cartuja", "Estádio de La Cartuja", "Isla Mágica"], [])
+
+        se_30_saida_8 = local_espanha_cidade.LocalEspanhaCidade(
+            SE_30_SAIDA_8,
+            {CRUZAMENTO_A_4_SE_30: [OESTE, CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B, CARRO]},
+            37.340850, -5.972180, 4, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
+        se_30_saida_8.add_sentido(
+            CRUZAMENTO_A_4_SE_30, ["A-4 - Cádiz", "Porto de Sevilha", "A-49 - Huelva", "A-66 - Mérida"], [])
+
         se_30_saida_12 = local_espanha_cidade.LocalEspanhaCidade(
             SE_30_SAIDA_12,
             {SE_30_SAIDA_14: [NOROESTE, SE_30_SAIDA_12__SE_30_SAIDA_14, CARRO],
@@ -2562,6 +2691,21 @@ class Mapa:
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
         se_30_saida_21.add_sentido(PONTE_DE_ALAMILLO, ["A-4 - Córdoba", "A-92 - Antequera"], [])
         se_30_saida_21.add_sentido(CRUZAMENTO_SE_20_SE_30, ["A-66 - Mérida", "A-49 - Huelva"], [])
+
+        se_40_reinicio = local_espanha.LocalEspanha(
+            SE_40_REINICIO,
+            {SE_40_SAIDA_35: [OESTE, SE_40_REINICIO__SE_40_SAIDA_35, CARRO]},
+            37.307748, -6.039054, 4, locais.MUNICIPIO_PALOMARES_RIO, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        se_40_reinicio.add_sentido(SE_40_SAIDA_35, ["Almensilla", "A-49 - Sevilha/Huelva"], [])
+
+        se_40_saida_35 = local_espanha.LocalEspanha(
+            SE_40_SAIDA_35,
+            {CRUZAMENTO_A_49_SE_40: [NORTE, CRUZAMENTO_A_49_SE_40__SE_40_SAIDA_35, CARRO],
+             SE_40_REINICIO: [ESTE, SE_40_REINICIO__SE_40_SAIDA_35, CARRO]},
+            37.311034, -6.098245, 43, locais.MUNICIPIO_ALMENSILLA, locais.COMARCA_ALJARAFE, locais.PROVINCIA_SEVILHA)
+        se_40_saida_35.add_sentido(CRUZAMENTO_A_49_SE_40, ["A-49 - Sevilha/Huelva"], [])
+        se_40_saida_35.add_sentido(SE_40_REINICIO, ["A-8058 - Sevilha/Coria del Río"], [])
 
         sedas = local_portugal.LocalPortugal(
             SEDAS,
@@ -2778,6 +2922,8 @@ class Mapa:
             37.222571, -7.460221, 22, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         #  Adicionar os locais à lista
+        self.lista_locais.append(a_483_saida_1)
+        self.lista_locais.append(a_483_saida_3)
         self.lista_locais.append(a_49_saida_1)
         self.lista_locais.append(a_49_saida_1b)
         self.lista_locais.append(a_49_saida_2)
@@ -2804,6 +2950,8 @@ class Mapa:
         self.lista_locais.append(a_49_saida_125)
         self.lista_locais.append(a_49_saida_129)
         self.lista_locais.append(a_49_saida_131)
+        self.lista_locais.append(a_66_saida_798)
+        self.lista_locais.append(a_66_saida_805)
         self.lista_locais.append(a_66_saida_808)
         self.lista_locais.append(a22_saida_13)
         self.lista_locais.append(a22_saida_14)
@@ -2839,6 +2987,7 @@ class Mapa:
         self.lista_locais.append(beja)
         self.lista_locais.append(beliche)
         self.lista_locais.append(boavista)
+        self.lista_locais.append(bollullos_par_condado)
         self.lista_locais.append(botelhas)
         self.lista_locais.append(brinhosa)
         self.lista_locais.append(cabanas_de_tavira)
@@ -2870,6 +3019,7 @@ class Mapa:
         self.lista_locais.append(corte_tabeliao)
         self.lista_locais.append(costa_esuri)
         self.lista_locais.append(cruzamento_a_4_se_30)
+        self.lista_locais.append(cruzamento_a_4_se_40)
         self.lista_locais.append(cruzamento_a_49_h_31)
         self.lista_locais.append(cruzamento_a_49_a_483)
         self.lista_locais.append(cruzamento_a_49_se_30)
@@ -2999,6 +3149,7 @@ class Mapa:
         self.lista_locais.append(quelfes)
         self.lista_locais.append(quinta_vale_golf_resort)
         self.lista_locais.append(ribeira_do_vascao)
+        self.lista_locais.append(ronda_sevilha_glorieta_berrocal)
         self.lista_locais.append(ronda_sevilha_glorieta_olimpica)
         self.lista_locais.append(ronda_sevilha_glorieta_san_lazaro)
         self.lista_locais.append(rotunda_da_arvore)
@@ -3014,10 +3165,15 @@ class Mapa:
         self.lista_locais.append(sao_bras_de_alportel)
         self.lista_locais.append(sapal_norte)
         self.lista_locais.append(sapal_sul)
+        self.lista_locais.append(se_20_estadio_la_cartuja)
+        self.lista_locais.append(se_20_parque_alamillo)
+        self.lista_locais.append(se_30_saida_8)
         self.lista_locais.append(se_30_saida_12)
         self.lista_locais.append(se_30_saida_14)
         self.lista_locais.append(se_30_saida_15)
         self.lista_locais.append(se_30_saida_21)
+        self.lista_locais.append(se_40_reinicio)
+        self.lista_locais.append(se_40_saida_35)
         self.lista_locais.append(sedas)
         self.lista_locais.append(sentinela)
         self.lista_locais.append(serpa)

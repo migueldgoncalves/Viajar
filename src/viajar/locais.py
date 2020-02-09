@@ -17,13 +17,15 @@ provincias_andalucia = [PROVINCIA_HUELVA, PROVINCIA_SEVILHA]
 
 #  Comarcas da Andalucía
 COMARCA_ALJARAFE = "Aljarafe"
-COMARCA_METROPOLITANA_HUELVA = "Comarca Metropolitana de Huelva"
-COMARCA_METROPOLITANA_SEVILHA = "Comarca Metropolitana de Sevilha"
 COMARCA_COSTA_OCCIDENTAL_HUELVA = "Costa Occidental de Huelva"
 COMARCA_EL_ANDEVALO = "El Andévalo"
 COMARCA_EL_CONDADO = "El Condado"
+COMARCA_METROPOLITANA_HUELVA = "Comarca Metropolitana de Huelva"
+COMARCA_METROPOLITANA_SEVILHA = "Comarca Metropolitana de Sevilha"
+COMARCA_SIERRA_NORTE_SEVILHA = "Sierra Norte de Sevilha"
 
 #  Municípios da Andalucía
+MUNICIPIO_ALMENSILLA = "Almensilla"  # Sevilha
 MUNICIPIO_AYAMONTE = "Ayamonte"  # Huelva
 MUNICIPIO_BENACAZON = "Benacazón"
 MUNICIPIO_BOLLULLOS_MITACION = "Bollullos de la Mitación"  # Sevilha
@@ -35,13 +37,17 @@ MUNICIPIO_CARRION_CESPEDES = "Carrión de los Céspedes"  # Sevilha
 MUNICIPIO_CARTAYA = "Cartaya"  # Huelva
 MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilha
 MUNICIPIO_CHUCENA = "Chucena"  # Huelva
+MUNICIPIO_DOS_HERMANAS = "Dos Hermanas"  # Sevilha
 MUNICIPIO_EL_GRANADO = "El Granado"
 MUNICIPIO_ESPARTINAS = "Espartinas"  # Sevilha
 MUNICIPIO_GIBRALEON = "Gibraleón"  # Huelva
+MUNICIPIO_GUILLENA = "Guillena"  # Sevilha
 MUNICIPIO_HUELVA = "Huelva"  # Huelva
 MUNICIPIO_HUEVAR_ALJARAFE = "Huévar del Aljarafe"  # Sevilha
 MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"  # Huelva
 MUNICIPIO_LEPE = "Lepe"  # Huelva
+MUNICIPIO_PALOMARES_RIO = "Palomares del Río"  # Sevilha
+MUNICIPIO_SALTERAS = "Salteras"  # Sevilha
 MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"  # Sevilha
 MUNICIPIO_SAN_JUAN_PUERTO = "San Juan del Puerto"  # Huelva
 MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"
@@ -55,6 +61,7 @@ DISTRITO_BELLAVISTA_LA_PALMERA = "Bellavista-La Palmera"
 DISTRITO_ESTE_ALCOSA_TORREBLANCA = "Este-Alcosa-Torreblanca"
 DISTRITO_LOS_REMEDIOS = "Los Remedios"
 DISTRITO_MACARENA = "Macarena"
+DISTRITO_NORTE = "Norte"
 DISTRITO_TRIANA = "Triana"
 
 #  Estradas
