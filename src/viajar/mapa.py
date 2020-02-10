@@ -114,8 +114,8 @@ CORTE_VELHA = "Corte Velha"
 CORTES_PEREIRAS = "Cortes Pereiras"
 CORTE_TABELIAO = "Corte Tabelião"
 COSTA_ESURI = "Costa Esuri"
-CRUZAMENTO_A_4_SE_30 = locais.nome_cruzamento_estradas(locais.A_4, locais.SE_30)
-CRUZAMENTO_A_4_SE_40 = locais.nome_cruzamento_estradas(locais.A_4, locais.SE_40)
+CRUZAMENTO_A_4_SUL_SE_30 = locais.nome_cruzamento_estradas("A-4 Sul", locais.SE_30)
+CRUZAMENTO_A_4_SUL_SE_40 = locais.nome_cruzamento_estradas("A-4 Sul", locais.SE_40)
 CRUZAMENTO_A_49_A_483 = locais.nome_cruzamento_estradas(locais.A_49, locais.A_483)
 CRUZAMENTO_A_49_H_31 = locais.nome_cruzamento_estradas(locais.A_49, locais.H_31)
 CRUZAMENTO_A_49_SE_30 = locais.nome_cruzamento_estradas(locais.A_49, locais.SE_30)
@@ -248,6 +248,7 @@ RIBEIRA_DO_VASCAO = "Ribeira do Vascão"
 RONDA_SEVILHA_GLORIETA_BERROCAL = "Ronda Urbana Norte de Sevilha - Glorieta Berrocal"
 RONDA_SEVILHA_GLORIETA_OLIMPICA = "Ronda Urbana Norte de Sevilha - Glorieta Olímpica"
 RONDA_SEVILHA_GLORIETA_SAN_LAZARO = "Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro"
+RONDA_SEVILHA_LOS_MARES = "Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares"
 ROTUNDA_DA_ARVORE = "Rotunda da Árvore"
 RUINAS_ROMANAS_MILREU = "Ruínas Romanas de Milreu"
 SALGUEIROS = "Salgueiros"
@@ -496,9 +497,9 @@ CORTES_PEREIRAS__CRUZAMENTO_N122_M507 = 4.8
 CORTES_PEREIRAS__MENIRES_DO_LAVAJO = 2.5
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
-CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40 = 5.1
-CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO = 1.4
-CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B = 0.9
+CRUZAMENTO_A_4_SUL_SE_30__CRUZAMENTO_A_4_SUL_SE_40 = 5.1
+CRUZAMENTO_A_4_SUL_SE_30__PONTE_CENTENARIO = 1.4
+CRUZAMENTO_A_4_SUL_SE_30__SE_30_SAIDA_8B = 0.9
 CRUZAMENTO_A_49_H_31__H_31_SAIDA_80 = 1.5
 CRUZAMENTO_A_49_SE_30__CRUZAMENTO_A_66_SE_30 = 2.7
 CRUZAMENTO_A_49_SE_30__SE_30_SAIDA_15 = 1.9
@@ -680,6 +681,7 @@ QUEBRADAS__SENTINELA = 2.5
 RIBEIRA_DO_VASCAO__SANTA_MARTA = 3.6
 RIBEIRA_DO_VASCAO__SEDAS = 2.7
 RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_GLORIETA_SAN_LAZARO = 0.9
+RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_LOS_MARES = 0.4
 RONDA_SEVILHA_GLORIETA_OLIMPICA__RONDA_SEVILHA_GLORIETA_SAN_LAZARO = 0.5
 RUINAS_ROMANAS_MILREU__SANTA_BARBARA_NEXE = 6.3
 RUINAS_ROMANAS_MILREU__SAO_BRAS_DE_ALPORTEL = 8.1
@@ -1304,6 +1306,7 @@ class Mapa:
             {CONCEICAO_TAVIRA: [NORTE, CABANAS_DE_TAVIRA__CONCEICAO_TAVIRA, CARRO],
              PRAIA_CABANAS_TAVIRA: [ESTE, CABANAS_DE_TAVIRA__PRAIA_CABANAS_TAVIRA, BARCO]},
             37.135310, -7.600363, 3, locais.FREGUESIA_CABANAS_TAVIRA, locais.CONCELHO_TAVIRA)
+        cabanas_de_tavira.add_sentido(PRAIA_CABANAS_TAVIRA, ["Faro", "Vila Nova de Cacela"], [])
 
         cabeco_junqueira = local_portugal.LocalPortugal(
             CABECO_JUNQUEIRA,
@@ -1316,6 +1319,7 @@ class Mapa:
             CABO_SANTA_MARIA,
             {PRAIA_DA_BARRETA: [NORDESTE, CABO_SANTA_MARIA__PRAIA_DA_BARRETA, BARCO]},
             36.959245, -7.891501, 0, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_BARRETA)
+        cabo_santa_maria.add_sentido(PRAIA_DA_BARRETA, ["Faro", "Vila Nova de Cacela"], [])
 
         cacela_velha = local_portugal.LocalPortugal(
             CACELA_VELHA,
@@ -1345,6 +1349,8 @@ class Mapa:
              PRAIA_DO_BARRIL: [SUDESTE, CAIS_PRAIA_BARRIL__PRAIA_DO_BARRIL, COMBOIO],
              SANTA_LUZIA: [NORDESTE, CAIS_PRAIA_BARRIL__SANTA_LUZIA, BARCO]},
             37.091461, -7.673185, 1, locais.FREGUESIA_SANTA_LUZIA_TAVIRA, locais.CONCELHO_TAVIRA, locais.ILHA_DE_TAVIRA)
+        cais_praia_barril.add_sentido(PRAIA_DO_BARRIL, ["Praia do Barril"], [])
+        cais_praia_barril.add_sentido(SANTA_LUZIA, ["Faro", "Tavira", "Vila Nova de Cacela"], [])
 
         cartaya = local_espanha.LocalEspanha(
             CARTAYA,
@@ -1495,24 +1501,24 @@ class Mapa:
         costa_esuri.add_sentido(ALMADA_DE_OURO, ["Mértola", "Alcoutim"], [])
         costa_esuri.add_sentido(AYAMONTE, ["Vila Real de Santo António", "Ayamonte"], [])
 
-        cruzamento_a_4_se_30 = local_espanha_cidade.LocalEspanhaCidade(
-            CRUZAMENTO_A_4_SE_30,
-            {PONTE_CENTENARIO: [NOROESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO],
-             SE_30_SAIDA_8: [ESTE, CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B, CARRO],
-             CRUZAMENTO_A_4_SE_40: [SUL, CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40, CARRO]},
+        cruzamento_a_4_sul_se_30 = local_espanha_cidade.LocalEspanhaCidade(
+            CRUZAMENTO_A_4_SUL_SE_30,
+            {PONTE_CENTENARIO: [NOROESTE, CRUZAMENTO_A_4_SUL_SE_30__PONTE_CENTENARIO, CARRO],
+             SE_30_SAIDA_8: [ESTE, CRUZAMENTO_A_4_SUL_SE_30__SE_30_SAIDA_8B, CARRO],
+             CRUZAMENTO_A_4_SUL_SE_40: [SUL, CRUZAMENTO_A_4_SUL_SE_30__CRUZAMENTO_A_4_SUL_SE_40, CARRO]},
             37.341333, -5.981543, 4, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
-        cruzamento_a_4_se_30.add_sentido(
+        cruzamento_a_4_sul_se_30.add_sentido(
             PONTE_CENTENARIO, ["Porto de Sevilha Oeste", "A-49 - Huelva", "A-66 - Mérida"], [])
-        cruzamento_a_4_se_30.add_sentido(SE_30_SAIDA_8, ["A-376 - Utrera", "A-92 - Granada", "A-4 - Córdoba"], [])
-        cruzamento_a_4_se_30.add_sentido(CRUZAMENTO_A_4_SE_40, ["A-4 - Cádiz"], [])
+        cruzamento_a_4_sul_se_30.add_sentido(SE_30_SAIDA_8, ["A-376 - Utrera", "A-92 - Granada", "A-4 - Córdoba"], [])
+        cruzamento_a_4_sul_se_30.add_sentido(CRUZAMENTO_A_4_SUL_SE_40, ["A-4 - Cádiz"], [])
 
-        cruzamento_a_4_se_40 = local_espanha.LocalEspanha(
-            CRUZAMENTO_A_4_SE_40,
-            {CRUZAMENTO_A_4_SE_30: [NORTE, CRUZAMENTO_A_4_SE_30__CRUZAMENTO_A_4_SE_40, CARRO]},
+        cruzamento_a_4_sul_se_40 = local_espanha.LocalEspanha(
+            CRUZAMENTO_A_4_SUL_SE_40,
+            {CRUZAMENTO_A_4_SUL_SE_30: [NORTE, CRUZAMENTO_A_4_SUL_SE_30__CRUZAMENTO_A_4_SUL_SE_40, CARRO]},
             37.296855, -5.979238, 13, locais.MUNICIPIO_DOS_HERMANAS, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA)
-        cruzamento_a_4_se_40.add_sentido(CRUZAMENTO_A_4_SE_30, ["Sevilha", "Aeroporto de Sevilha - San Pablo"], [])
+        cruzamento_a_4_sul_se_40.add_sentido(CRUZAMENTO_A_4_SUL_SE_30, ["Sevilha", "Aeroporto de Sevilha - San Pablo"], [])
 
         cruzamento_a_49_a_483 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_49_A_483,
@@ -1719,10 +1725,13 @@ class Mapa:
 
         culatra = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             CULATRA,
-            {OLHAO: [NORTE, CULATRA__OLHAO, BARCO],
-             ILHA_DA_ARMONA: [NORDESTE, CULATRA__ILHA_DA_ARMONA, BARCO],
-             HANGARES: [SUDOESTE, CULATRA__HANGARES, BARCO]},
+            {ILHA_DA_ARMONA: [NORDESTE, CULATRA__ILHA_DA_ARMONA, BARCO],
+             HANGARES: [SUDOESTE, CULATRA__HANGARES, BARCO],
+             OLHAO: [NORTE, CULATRA__OLHAO, BARCO]},
             36.993994, -7.840545, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
+        culatra.add_sentido(ILHA_DA_ARMONA, ["Vila Nova de Cacela", "Fuseta"], [])
+        culatra.add_sentido(HANGARES, ["Faro"], [])
+        culatra.add_sentido(OLHAO, ["Olhão"], [])
 
         deserto = local_portugal.LocalPortugal(
             DESERTO,
@@ -1884,6 +1893,8 @@ class Mapa:
              PORTO_DE_FARO: [SUDESTE, FARO_SAO_PEDRO__PORTO_DE_FARO, BARCO],
              PRAIA_DE_FARO: [SUDOESTE, FARO_SAO_PEDRO__PRAIA_DE_FARO, BARCO]},
             37.018508, -7.935332, 10, locais.FREGUESIA_SAO_PEDRO_FARO, locais.CONCELHO_FARO)
+        faro_sao_pedro.add_sentido(PORTO_DE_FARO, ["Vila Nova de Cacela", "Olhão"], [])
+        faro_sao_pedro.add_sentido(PRAIA_DE_FARO, ["Praia de Faro"], [])
 
         faro_se = local_portugal.LocalPortugal(
             FARO_SE,
@@ -1928,9 +1939,12 @@ class Mapa:
             {ESTACAO_FUSETA_MONCARAPACHO: [NOROESTE, ESTACAO_FUSETA_MONCARAPACHO__FUSETA, CARRO],
              ESTACAO_FUSETA_A: [SUDOESTE, ESTACAO_FUSETA_A__FUSETA, CARRO],
              PRAIA_DO_BARRIL: [NORDESTE, FUSETA__PRAIA_DO_BARRIL, BARCO],
-             PRAIA_DA_FUSETA: [SUL, FUSETA__PRAIA_DA_FUSETA, BARCO],
-             ILHA_DA_ARMONA: [SUDOESTE, FUSETA__ILHA_DA_ARMONA, BARCO]},
+             ILHA_DA_ARMONA: [SUDOESTE, FUSETA__ILHA_DA_ARMONA, BARCO],
+             PRAIA_DA_FUSETA: [SUL, FUSETA__PRAIA_DA_FUSETA, BARCO]},
             37.055108, -7.746517, 6, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO)
+        fuseta.add_sentido(PRAIA_DO_BARRIL, ["Vila Nova de Cacela", "Tavira"], [])
+        fuseta.add_sentido(ILHA_DA_ARMONA, ["Faro", "Olhão"], [])
+        fuseta.add_sentido(PRAIA_DA_FUSETA, ["Praia da Fuseta"], [])
 
         gibraleon = local_espanha.LocalEspanha(
             GIBRALEON,
@@ -1966,6 +1980,8 @@ class Mapa:
             {CULATRA: [NORDESTE, CULATRA__HANGARES, BARCO],
              ILHA_DO_FAROL: [SUDOESTE, HANGARES__ILHA_DO_FAROL, BARCO]},
             36.985922, -7.855092, 3, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
+        hangares.add_sentido(CULATRA, ["Vila Nova de Cacela", "Olhão"], [])
+        hangares.add_sentido(ILHA_DO_FAROL, ["Faro"], [])
 
         hortas = local.Local(HORTAS,
                              {ESTACAO_MONTE_GORDO: [NOROESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
@@ -2071,16 +2087,22 @@ class Mapa:
         ilha_da_armona = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             ILHA_DA_ARMONA,
             {FUSETA: [NORDESTE, FUSETA__ILHA_DA_ARMONA, BARCO],
-             OLHAO: [NOROESTE, ILHA_DA_ARMONA__OLHAO, BARCO],
-             CULATRA: [SUDOESTE, CULATRA__ILHA_DA_ARMONA, BARCO]},
+             CULATRA: [SUDOESTE, CULATRA__ILHA_DA_ARMONA, BARCO],
+             OLHAO: [NOROESTE, ILHA_DA_ARMONA__OLHAO, BARCO]},
             37.019218, -7.802199, 4, locais.FREGUESIA_QUELFES, locais.CONCELHO_OLHAO, locais.ILHA_DA_ARMONA)
+        ilha_da_armona.add_sentido(FUSETA, ["Vila Nova de Cacela", "Fuseta"], [])
+        ilha_da_armona.add_sentido(CULATRA, ["Faro"], [])
+        ilha_da_armona.add_sentido(OLHAO, ["Olhão"], [])
 
         ilha_do_farol = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             ILHA_DO_FAROL,
             {HANGARES: [NORDESTE, HANGARES__ILHA_DO_FAROL, BARCO],
-             PRAIA_DA_BARRETA: [SUDOESTE, ILHA_DO_FAROL__PRAIA_DA_BARRETA, BARCO],
-             PORTO_DE_FARO: [NOROESTE, ILHA_DO_FAROL__PORTO_DE_FARO, BARCO]},
+             PORTO_DE_FARO: [NOROESTE, ILHA_DO_FAROL__PORTO_DE_FARO, BARCO],
+             PRAIA_DA_BARRETA: [SUDOESTE, ILHA_DO_FAROL__PRAIA_DA_BARRETA, BARCO]},
             36.975104, -7.864938, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_CULATRA)
+        ilha_do_farol.add_sentido(HANGARES, ["Vila Nova de Cacela", "Olhão"], [])
+        ilha_do_farol.add_sentido(PORTO_DE_FARO, ["Faro"], [])
+        ilha_do_farol.add_sentido(PRAIA_DA_BARRETA, ["Cabo de Santa Maria"], [])
 
         ip2_saida_44 = local.Local(IP2_SAIDA_44,
                                    {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
@@ -2170,8 +2192,7 @@ class Mapa:
 
         minas_sao_domingos = local.Local(MINAS_SAO_DOMINGOS,
                                          {MOREANES: [SUDOESTE, MINAS_SAO_DOMINGOS__MOREANES, CARRO],
-                                          VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO],
-                                          POMARAO: [SUL, 0, COMBOIO]})
+                                          VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO]})
 
         moncarapacho = local_portugal.LocalPortugal(
             MONCARAPACHO,
@@ -2266,6 +2287,8 @@ class Mapa:
             37.026148, -7.842197, 3, locais.FREGUESIA_OLHAO, locais.CONCELHO_OLHAO)
         olhao.add_sentido(ESTACAO_FUSETA_A, ["Vila Real de Santo António"], ["Regional"])
         olhao.add_sentido(ESTACAO_BOM_JOAO, ["Lagos", "Faro"], ["Regional"])
+        olhao.add_sentido(ILHA_DA_ARMONA, ["Vila Nova de Cacela", "Fuseta"], [])
+        olhao.add_sentido(CULATRA, ["Faro"], [])
 
         palmeira = local.Local(PALMEIRA,
                                {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
@@ -2326,8 +2349,7 @@ class Mapa:
             {PONTE_RIO_CHANCA: [SUDESTE, POMARAO__PONTE_RIO_CHANCA, CARRO],
              SALGUEIROS: [NORTE, POMARAO__SALGUEIROS, CARRO],
              CAIS_DA_MESQUITA: [SUDOESTE, CAIS_DA_MESQUITA__POMARAO, BARCO],
-             PUERTO_DE_LA_LAJA: [SUL, POMARAO__PUERTO_DE_LA_LAJA, BARCO],
-             MINAS_SAO_DOMINGOS: [NORTE, 0, COMBOIO]},
+             PUERTO_DE_LA_LAJA: [SUL, POMARAO__PUERTO_DE_LA_LAJA, BARCO]},
             37.556289, -7.524924, 24, locais.FREGUESIA_SANTANA_CAMBAS, locais.CONCELHO_MERTOLA)
         pomarao.add_sentido(CAIS_DA_MESQUITA, ["Mértola"], [])
         pomarao.add_sentido(PUERTO_DE_LA_LAJA, ["Vila Real de Santo António", "Sanlúcar de Guadiana"], [])
@@ -2335,12 +2357,12 @@ class Mapa:
         ponte_centenario = local_espanha_cidade.LocalEspanhaCidade(
             PONTE_CENTENARIO,
             {SE_30_SAIDA_12: [NOROESTE, PONTE_CENTENARIO__SE_30_SAIDA_12, CARRO],
-             CRUZAMENTO_A_4_SE_30: [SUDESTE, CRUZAMENTO_A_4_SE_30__PONTE_CENTENARIO, CARRO]},
+             CRUZAMENTO_A_4_SUL_SE_30: [SUDESTE, CRUZAMENTO_A_4_SUL_SE_30__PONTE_CENTENARIO, CARRO]},
             37.349008, -5.993076, 1, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
         ponte_centenario.add_sentido(SE_30_SAIDA_12, ["Porto de Sevilha Oeste", "A-49 - Huelva", "A-66 - Mérida"], [])
         ponte_centenario.add_sentido(
-            CRUZAMENTO_A_4_SE_30, ["Porto de Sevilha Este", "A-4 - Cádiz/Córdoba/Aeroporto de Sevilha - San Pablo",
+            CRUZAMENTO_A_4_SUL_SE_30, ["Porto de Sevilha Este", "A-4 - Cádiz/Córdoba/Aeroporto de Sevilha - San Pablo",
                                    "A-92 - Granada/Málaga"], [])
 
         ponte_de_alamillo = local_espanha_cidade.LocalEspanhaCidade(
@@ -2384,6 +2406,8 @@ class Mapa:
              ILHA_DO_FAROL: [SUDESTE, ILHA_DO_FAROL__PORTO_DE_FARO, BARCO],
              FARO_SAO_PEDRO: [NOROESTE, FARO_SAO_PEDRO__PORTO_DE_FARO, BARCO]},
             37.003344, -7.918372, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO)
+        porto_de_faro.add_sentido(ILHA_DO_FAROL, ["Vila Nova de Cacela", "Olhão"], [])
+        porto_de_faro.add_sentido(FARO_SAO_PEDRO, ["Faro"], [])
 
         pozo_del_camino = local_espanha.LocalEspanha(
             POZO_DEL_CAMINO,
@@ -2394,33 +2418,42 @@ class Mapa:
 
         praia_cabanas_tavira = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_CABANAS_TAVIRA,
-            {CABANAS_DE_TAVIRA: [OESTE, CABANAS_DE_TAVIRA__PRAIA_CABANAS_TAVIRA, BARCO],
-             PRAIA_CACELA_VELHA: [NORDESTE, PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA, BARCO],
-             PRAIA_ILHA_TAVIRA: [SUDOESTE, PRAIA_CABANAS_TAVIRA__PRAIA_ILHA_TAVIRA, BARCO]},
+            {PRAIA_CACELA_VELHA: [NORDESTE, PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA, BARCO],
+             PRAIA_ILHA_TAVIRA: [SUDOESTE, PRAIA_CABANAS_TAVIRA__PRAIA_ILHA_TAVIRA, BARCO],
+             CABANAS_DE_TAVIRA: [OESTE, CABANAS_DE_TAVIRA__PRAIA_CABANAS_TAVIRA, BARCO]},
             37.133752, -7.589909, 2, locais.FREGUESIA_CABANAS_TAVIRA, locais.CONCELHO_TAVIRA, locais.ILHA_DE_CABANAS)
+        praia_cabanas_tavira.add_sentido(PRAIA_CACELA_VELHA, ["Vila Nova de Cacela"], [])
+        praia_cabanas_tavira.add_sentido(PRAIA_ILHA_TAVIRA, ["Faro", "Tavira"], [])
+        praia_cabanas_tavira.add_sentido(CABANAS_DE_TAVIRA, ["Tavira", "Cabanas de Tavira"], [])
 
         praia_cacela_velha = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_CACELA_VELHA,
             {SITIO_DA_FABRICA: [OESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO],
              PRAIA_CABANAS_TAVIRA: [SUDOESTE, PRAIA_CABANAS_TAVIRA__PRAIA_CACELA_VELHA, BARCO]},
             37.152880, -7.542684, 0, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA, locais.ILHA_DE_CABANAS)
+        praia_cacela_velha.add_sentido(SITIO_DA_FABRICA, ["Vila Nova de Cacela"], [])
+        praia_cacela_velha.add_sentido(PRAIA_CABANAS_TAVIRA, ["Faro", "Tavira"], [])
 
         praia_da_barreta = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_DA_BARRETA,
             {ILHA_DO_FAROL: [NORDESTE, ILHA_DO_FAROL__PRAIA_DA_BARRETA, BARCO],
              CABO_SANTA_MARIA: [SUDOESTE, CABO_SANTA_MARIA__PRAIA_DA_BARRETA, BARCO]},
             36.964761, -7.872067, 2, locais.FREGUESIA_SE_FARO, locais.CONCELHO_FARO, locais.ILHA_DA_BARRETA)
+        praia_da_barreta.add_sentido(ILHA_DO_FAROL, ["Faro", "Vila Nova de Cacela"], [])
+        praia_da_barreta.add_sentido(CABO_SANTA_MARIA, ["Cabo de Santa Maria"], [])
 
         praia_da_fuseta = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_DA_FUSETA,
             {FUSETA: [NORTE, FUSETA__PRAIA_DA_FUSETA, BARCO]},
             37.043291, -7.744840, 7, locais.FREGUESIA_FUSETA, locais.CONCELHO_OLHAO, locais.ILHA_DA_ARMONA)
+        praia_da_fuseta.add_sentido(FUSETA, ["Faro", "Fuseta", "Vila Nova de Cacela"], [])
 
         praia_de_faro = local_portugal.LocalPortugal(
             PRAIA_DE_FARO,
             {AEROPORTO_DE_FARO: [NORDESTE, AEROPORTO_DE_FARO__PRAIA_DE_FARO, CARRO],
              FARO_SAO_PEDRO: [NORDESTE, FARO_SAO_PEDRO__PRAIA_DE_FARO, BARCO]},
             37.001995, -7.986880, 2, locais.FREGUESIA_MONTENEGRO, locais.CONCELHO_FARO)
+        praia_de_faro.add_sentido(FARO_SAO_PEDRO, ["Vila Nova de Cacela", "Faro"], [])
 
         praia_do_barril = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_DO_BARRIL,
@@ -2428,13 +2461,19 @@ class Mapa:
              FUSETA: [SUDOESTE, FUSETA__PRAIA_DO_BARRIL, BARCO],
              CAIS_PRAIA_BARRIL: [NOROESTE, CAIS_PRAIA_BARRIL__PRAIA_DO_BARRIL, COMBOIO]},
             37.086015, -7.662209, 4, locais.FREGUESIA_SANTA_LUZIA_TAVIRA, locais.CONCELHO_TAVIRA, locais.ILHA_DE_TAVIRA)
+        praia_do_barril.add_sentido(PRAIA_ILHA_TAVIRA, ["Vila Nova de Cacela", "Tavira"], [])
+        praia_do_barril.add_sentido(FUSETA, ["Faro", "Fuseta"], [])
+        praia_do_barril.add_sentido(CAIS_PRAIA_BARRIL, ["Tavira"], [])
 
         praia_ilha_tavira = local_portugal_ria_formosa.LocalPortugalRiaFormosa(
             PRAIA_ILHA_TAVIRA,
-            {QUATRO_AGUAS: [NOROESTE, PRAIA_ILHA_TAVIRA__QUATRO_AGUAS, BARCO],
-             PRAIA_CABANAS_TAVIRA: [NORDESTE, PRAIA_CABANAS_TAVIRA__PRAIA_ILHA_TAVIRA, BARCO],
-             PRAIA_DO_BARRIL: [SUDOESTE, PRAIA_DO_BARRIL__PRAIA_ILHA_TAVIRA, BARCO]},
+            {PRAIA_CABANAS_TAVIRA: [NORDESTE, PRAIA_CABANAS_TAVIRA__PRAIA_ILHA_TAVIRA, BARCO],
+             PRAIA_DO_BARRIL: [SUDOESTE, PRAIA_DO_BARRIL__PRAIA_ILHA_TAVIRA, BARCO],
+             QUATRO_AGUAS: [NOROESTE, PRAIA_ILHA_TAVIRA__QUATRO_AGUAS, BARCO]},
             37.110247, -7.620043, 4, locais.FREGUESIA_SANTA_MARIA_TAVIRA, locais.CONCELHO_TAVIRA, locais.ILHA_DE_TAVIRA)
+        praia_ilha_tavira.add_sentido(PRAIA_CABANAS_TAVIRA, ["Vila Nova de Cacela"], [])
+        praia_ilha_tavira.add_sentido(PRAIA_DO_BARRIL, ["Faro", "Fuseta"], [])
+        praia_ilha_tavira.add_sentido(QUATRO_AGUAS, ["Tavira"], [])
 
         praia_isla_canela = local_espanha.LocalEspanha(
             PRAIA_ISLA_CANELA,
@@ -2476,6 +2515,9 @@ class Mapa:
              SANTA_LUZIA: [SUDOESTE, QUATRO_AGUAS__SANTA_LUZIA, BARCO],
              TAVIRA_NORTE: [NOROESTE, QUATRO_AGUAS__TAVIRA_NORTE, BARCO]},
             37.116418, -7.629095, 2, locais.FREGUESIA_SANTA_MARIA_TAVIRA, locais.CONCELHO_TAVIRA)
+        quatro_aguas.add_sentido(PRAIA_ILHA_TAVIRA, ["Faro", "Vila Nova de Cacela"], [])
+        quatro_aguas.add_sentido(SANTA_LUZIA, ["Praia do Barril"], [])
+        quatro_aguas.add_sentido(TAVIRA_NORTE, ["Tavira"], [])
 
         quebradas = local_portugal.LocalPortugal(
             QUEBRADAS,
@@ -2503,10 +2545,12 @@ class Mapa:
 
         ronda_sevilha_glorieta_berrocal = local_espanha_cidade.LocalEspanhaCidade(
             RONDA_SEVILHA_GLORIETA_BERROCAL,
-            {RONDA_SEVILHA_GLORIETA_SAN_LAZARO:
+            {RONDA_SEVILHA_LOS_MARES: [NORDESTE, RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_LOS_MARES, CARRO],
+             RONDA_SEVILHA_GLORIETA_SAN_LAZARO:
              [SUDOESTE, RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_GLORIETA_SAN_LAZARO, CARRO]},
             37.415941, -5.974321, 10, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_NORTE)
+        ronda_sevilha_glorieta_berrocal.add_sentido(RONDA_SEVILHA_LOS_MARES, ["A-4 - Córdoba"], [])
         ronda_sevilha_glorieta_berrocal.add_sentido(RONDA_SEVILHA_GLORIETA_SAN_LAZARO, ["A-66 - Mérida"], [])
 
         ronda_sevilha_glorieta_olimpica = local_espanha_cidade.LocalEspanhaCidade(
@@ -2532,6 +2576,16 @@ class Mapa:
             RONDA_SEVILHA_GLORIETA_BERROCAL, ["A-92 - Málaga", "A-4 - Córdoba"], [])
         ronda_sevilha_glorieta_san_lazaro.add_sentido(
             RONDA_SEVILHA_GLORIETA_OLIMPICA, ["A-49 - Huelva", "N-630 - Mérida", "Sevilha - Centro da cidade"], [])
+
+        ronda_sevilha_los_mares = local_espanha_cidade.LocalEspanhaCidade(
+            RONDA_SEVILHA_LOS_MARES,
+            {RONDA_SEVILHA_GLORIETA_BERROCAL:
+                 [SUDOESTE, RONDA_SEVILHA_GLORIETA_BERROCAL__RONDA_SEVILHA_LOS_MARES, CARRO]},
+            37.416720, -5.969760, 10, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_NORTE)
+        ronda_sevilha_los_mares.add_sentido(
+            RONDA_SEVILHA_GLORIETA_BERROCAL, ["Estação de Sevilha - Santa Justa", "Sevilha - Palacio de los Deportes",
+                                              "Isla Mágica"], [])
 
         rotunda_da_arvore = local_portugal.LocalPortugal(
             ROTUNDA_DA_ARVORE,
@@ -2602,6 +2656,8 @@ class Mapa:
              QUATRO_AGUAS: [NORDESTE, QUATRO_AGUAS__SANTA_LUZIA, BARCO],
              CAIS_PRAIA_BARRIL: [SUDOESTE, CAIS_PRAIA_BARRIL__SANTA_LUZIA, BARCO]},
             37.101131, -7.661133, 6, locais.FREGUESIA_SANTA_LUZIA_TAVIRA, locais.CONCELHO_TAVIRA)
+        santa_luzia.add_sentido(QUATRO_AGUAS, ["Faro", "Tavira", "Vila Nova de Cacela"], [])
+        santa_luzia.add_sentido(CAIS_PRAIA_BARRIL, ["Praia do Barril"], [])
 
         santa_marta = local.Local(SANTA_MARTA,
                                   {CRUZAMENTO_N122_M507: [SUDESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO],
@@ -2645,11 +2701,11 @@ class Mapa:
 
         se_30_saida_8 = local_espanha_cidade.LocalEspanhaCidade(
             SE_30_SAIDA_8,
-            {CRUZAMENTO_A_4_SE_30: [OESTE, CRUZAMENTO_A_4_SE_30__SE_30_SAIDA_8B, CARRO]},
+            {CRUZAMENTO_A_4_SUL_SE_30: [OESTE, CRUZAMENTO_A_4_SUL_SE_30__SE_30_SAIDA_8B, CARRO]},
             37.340850, -5.972180, 4, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_BELLAVISTA_LA_PALMERA)
         se_30_saida_8.add_sentido(
-            CRUZAMENTO_A_4_SE_30, ["A-4 - Cádiz", "Porto de Sevilha", "A-49 - Huelva", "A-66 - Mérida"], [])
+            CRUZAMENTO_A_4_SUL_SE_30, ["A-4 - Cádiz", "Porto de Sevilha", "A-49 - Huelva", "A-66 - Mérida"], [])
 
         se_30_saida_12 = local_espanha_cidade.LocalEspanhaCidade(
             SE_30_SAIDA_12,
@@ -2759,6 +2815,7 @@ class Mapa:
             {CACELA_VELHA: [NORDESTE, CACELA_VELHA__SITIO_DA_FABRICA, CARRO],
              PRAIA_CACELA_VELHA: [ESTE, PRAIA_CACELA_VELHA__SITIO_DA_FABRICA, BARCO]},
             37.154436, -7.553698, 9, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA)
+        sitio_da_fabrica.add_sentido(PRAIA_CACELA_VELHA, ["Faro", "Tavira"], [])
 
         tanoeiro = local_portugal.LocalPortugal(
             TANOEIRO,
@@ -2777,6 +2834,7 @@ class Mapa:
              TAVIRA_SUL: [SUDOESTE, TAVIRA_NORTE__TAVIRA_SUL, CARRO],
              QUATRO_AGUAS: [SUDESTE, QUATRO_AGUAS__TAVIRA_NORTE, BARCO]},
             37.129233, -7.647129, 16, locais.FREGUESIA_SANTA_MARIA_TAVIRA, locais.CONCELHO_TAVIRA)
+        tavira_norte.add_sentido(QUATRO_AGUAS, ["Faro", "Vila Nova de Cacela"], [])
 
         tavira_sul = local_portugal.LocalPortugal(
             TAVIRA_SUL,
@@ -3018,8 +3076,8 @@ class Mapa:
         self.lista_locais.append(cortes_pereiras)
         self.lista_locais.append(corte_tabeliao)
         self.lista_locais.append(costa_esuri)
-        self.lista_locais.append(cruzamento_a_4_se_30)
-        self.lista_locais.append(cruzamento_a_4_se_40)
+        self.lista_locais.append(cruzamento_a_4_sul_se_30)
+        self.lista_locais.append(cruzamento_a_4_sul_se_40)
         self.lista_locais.append(cruzamento_a_49_h_31)
         self.lista_locais.append(cruzamento_a_49_a_483)
         self.lista_locais.append(cruzamento_a_49_se_30)
@@ -3152,6 +3210,7 @@ class Mapa:
         self.lista_locais.append(ronda_sevilha_glorieta_berrocal)
         self.lista_locais.append(ronda_sevilha_glorieta_olimpica)
         self.lista_locais.append(ronda_sevilha_glorieta_san_lazaro)
+        self.lista_locais.append(ronda_sevilha_los_mares)
         self.lista_locais.append(rotunda_da_arvore)
         self.lista_locais.append(ruinas_romanas_milreu)
         self.lista_locais.append(salgueiros)
