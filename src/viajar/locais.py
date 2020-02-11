@@ -25,6 +25,7 @@ COMARCA_METROPOLITANA_SEVILHA = "Comarca Metropolitana de Sevilha"
 COMARCA_SIERRA_NORTE_SEVILHA = "Sierra Norte de Sevilha"
 
 #  Municípios da Andalucía
+MUNICIPIO_ALCALA_GUADAIRA = "Alcalá de Guadaíra"  # Sevilha
 MUNICIPIO_ALMENSILLA = "Almensilla"  # Sevilha
 MUNICIPIO_AYAMONTE = "Ayamonte"  # Huelva
 MUNICIPIO_BENACAZON = "Benacazón"
@@ -58,17 +59,22 @@ MUNICIPIO_VILLARRASA = "Villarrasa"  # Huelva
 
 #  Distritos de Sevilha
 DISTRITO_BELLAVISTA_LA_PALMERA = "Bellavista-La Palmera"
+DISTRITO_CERRO_AMATE = "Cerro-Amate"
 DISTRITO_ESTE_ALCOSA_TORREBLANCA = "Este-Alcosa-Torreblanca"
 DISTRITO_LOS_REMEDIOS = "Los Remedios"
 DISTRITO_MACARENA = "Macarena"
 DISTRITO_NORTE = "Norte"
+DISTRITO_SUR = "Sur"
 DISTRITO_TRIANA = "Triana"
 
 #  Estradas
+A_376 = "A-376"
 A_4 = "A-4"
 A_49 = "A-49"
 A_483 = "A-483"
 A_66 = "A-66"
+A_8058 = "A-8058"
+A_92 = "A-92"
 H_30 = "H-30"
 H_31 = "H-31"
 N_431 = "N-431"
@@ -143,6 +149,7 @@ FREGUESIA_SANTA_CATARINA_FONTE_BISPO = "Santa Catarina da Fonte do Bispo"  # Tav
 FREGUESIA_SANTA_LUZIA_TAVIRA = "Santa Luzia"  # Tavira
 FREGUESIA_SANTA_MARIA_TAVIRA = "Santa Maria"  # Tavira
 FREGUESIA_SANTIAGO_TAVIRA = "Santiago"  # Tavira
+FREGUESIA_SANTO_ESTEVAO_TAVIRA = "Santo Estêvão"  # Tavira
 FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"  # São Brás de Alportel
 FREGUESIA_SAO_PEDRO_FARO = "São Pedro"  # Faro
 FREGUESIA_SE_FARO = "Sé"  # Faro
