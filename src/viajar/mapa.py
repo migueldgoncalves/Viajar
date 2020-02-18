@@ -18,6 +18,10 @@ COMBOIO = 4
 METRO = 5
 
 #  Nomes dos locais
+A_4_SAIDA_530 = locais.nome_saida_via_rapida(locais.A_4, 530)
+A_4_SAIDA_532 = locais.nome_saida_via_rapida(locais.A_4, 532)
+A_4_SAIDA_533 = locais.nome_saida_via_rapida(locais.A_4, 533)
+A_4_SAIDA_536 = locais.nome_saida_via_rapida(locais.A_4, 536)
 A_4_SAIDA_553 = locais.nome_saida_via_rapida(locais.A_4, 553)
 A_483_SAIDA_1 = locais.nome_saida_via_rapida(locais.A_483, 1)
 A_483_SAIDA_3 = locais.nome_saida_via_rapida(locais.A_483, 3)
@@ -120,6 +124,7 @@ CORTES_PEREIRAS = "Cortes Pereiras"
 CORTE_TABELIAO = "Corte Tabelião"
 COSTA_ESURI = "Costa Esuri"
 CRUZAMENTO_A_376_SE_30 = locais.nome_cruzamento_estradas(locais.A_376, locais.SE_30)
+CRUZAMENTO_A_4_SE_20 = locais.nome_cruzamento_estradas(locais.A_4, locais.SE_20)
 CRUZAMENTO_A_4_NORTE_SE_30 = locais.nome_cruzamento_estradas("A-4 Norte", locais.SE_30)
 CRUZAMENTO_A_4_SUL_SE_30 = locais.nome_cruzamento_estradas("A-4 Sul", locais.SE_30)
 CRUZAMENTO_A_4_SUL_SE_40 = locais.nome_cruzamento_estradas("A-4 Sul", locais.SE_40)
@@ -293,7 +298,6 @@ SENTINELA = "Sentinela"
 SERPA = "Serpa"
 SEVILHA_AVENIDA_EXPO_92 = "Sevilha - Avenida Expo'92"
 SEVILHA_CENTRO_HISTORICO = "Sevilha - Centro Histórico"
-SEVILHA_ESTE = "Sevilha - Este"
 SEVILHA_PARQUE_ALAMILLO = "Sevilha - Parque de Alamillo"
 SEVILHA_SANTA_JUSTA = "Sevilha - Santa Justa"
 SITIO_DA_FABRICA = "Sítio da Fábrica"
@@ -320,6 +324,13 @@ VISTA_REAL = "Vista Real"
 VRSA = "Vila Real de Santo António"
 
 #  Distâncias (km)
+A_4_SAIDA_530__A_4_SAIDA_532 = 2.1
+A_4_SAIDA_532__A_4_SAIDA_533 = 1.0
+A_4_SAIDA_532__AEROPORTO_DE_SEVILHA = 0.5
+A_4_SAIDA_533__AEROPORTO_DE_SEVILHA = 1.0
+A_4_SAIDA_533__CRUZAMENTO_A_4_SE_20 = 1.6
+A_4_SAIDA_536__CRUZAMENTO_A_4_SE_20 = 1.6
+A_4_SAIDA_536__CRUZAMENTO_A_4_NORTE_SE_30 = 0.6
 A_4_SAIDA_553__CRUZAMENTO_A_4_SUL_SE_40 = 3.0
 A_483_SAIDA_1__A_483_SAIDA_3 = 2.1
 A_483_SAIDA_1__BOLLULLOS_PAR_CONDADO = 1.8
@@ -402,7 +413,6 @@ AEROPORTO_DE_BEJA__BEJA = 9.6
 AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA = 188.9
 AEROPORTO_DE_FARO__MONTENEGRO = 2.6
 AEROPORTO_DE_FARO__PRAIA_DE_FARO = 4.8
-AEROPORTO_DE_SEVILHA__SEVILHA_ESTE = 4.3
 ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE = 0.5
 ALAMO_ALCOUTIM__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
@@ -738,7 +748,6 @@ SE_40_REINICIO__SE_40_SAIDA_35 = 6.9
 SERPA__VILA_NOVA_SAO_BENTO = 18.1
 SEVILHA_AVENIDA_EXPO_92__SEVILHA_CENTRO_HISTORICO = 2.0
 SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
-SEVILHA_ESTE__SEVILHA_SANTA_JUSTA = 5.0
 TAVIRA_NORTE__TAVIRA_SUL = 1.5
 UNIVERSIDADE_ALGARVE_GAMBELAS__VARIANTE_FARO_IC4 = 2.1
 UNIVERSIDADE_ALGARVE_PENHA__VARIANTE_FARO_M518 = 2.4
@@ -751,6 +760,42 @@ class Mapa:
 
     def preencher_lista_locais(self):
         #  Criar os locais
+        
+        a_4_saida_530 = local_espanha.LocalEspanha(
+            A_4_SAIDA_530,
+            {A_4_SAIDA_532: [SUDOESTE, A_4_SAIDA_530__A_4_SAIDA_532, CARRO]},
+            37.434662, -5.880047, 31, locais.MUNICIPIO_LA_RINCONADA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA)
+        a_4_saida_530.add_sentido(A_4_SAIDA_532, ["Aeroporto de Sevilha - San Pablo", "Sevilha", "Cádiz"], [])
+
+        a_4_saida_532 = local_espanha_cidade.LocalEspanhaCidade(
+            A_4_SAIDA_532,
+            {A_4_SAIDA_533: [SUDOESTE, A_4_SAIDA_532__A_4_SAIDA_533, CARRO],
+             A_4_SAIDA_530: [NORDESTE, A_4_SAIDA_530__A_4_SAIDA_532, CARRO],
+             AEROPORTO_DE_SEVILHA: [SUL, A_4_SAIDA_532__AEROPORTO_DE_SEVILHA, CARRO]},
+            37.426220, -5.900927, 25, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
+        a_4_saida_532.add_sentido(A_4_SAIDA_533, ["Sevilha", "Cádiz"], [])
+        a_4_saida_532.add_sentido(A_4_SAIDA_530, ["Carmona", "Córdoba"], [])
+
+        a_4_saida_533 = local_espanha_cidade.LocalEspanhaCidade(
+            A_4_SAIDA_533,
+            {CRUZAMENTO_A_4_SE_20: [SUDOESTE, A_4_SAIDA_533__CRUZAMENTO_A_4_SE_20, CARRO],
+             A_4_SAIDA_532: [NORDESTE, A_4_SAIDA_532__A_4_SAIDA_533, CARRO],
+             AEROPORTO_DE_SEVILHA: [ESTE, A_4_SAIDA_533__AEROPORTO_DE_SEVILHA, CARRO]},
+            37.421688, -5.910486, 23, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
+        a_4_saida_533.add_sentido(CRUZAMENTO_A_4_SE_20, ["Sevilha", "Cádiz"], [])
+        a_4_saida_533.add_sentido(A_4_SAIDA_532, ["Carmona", "Córdoba"], [])
+
+        a_4_saida_536 = local_espanha_cidade.LocalEspanhaCidade(
+            A_4_SAIDA_536,
+            {CRUZAMENTO_A_4_NORTE_SE_30: [SUDOESTE, A_4_SAIDA_536__CRUZAMENTO_A_4_NORTE_SE_30, CARRO],
+             CRUZAMENTO_A_4_SE_20: [NORDESTE, A_4_SAIDA_536__CRUZAMENTO_A_4_SE_20, CARRO]},
+            37.409374, -5.943179, 18, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
+        a_4_saida_536.add_sentido(CRUZAMENTO_A_4_NORTE_SE_30, ["Sevilha", "Cádiz"], [])
+        a_4_saida_536.add_sentido(CRUZAMENTO_A_4_SE_20, ["Aeroporto de Sevilha - San Pablo", "Carmona", "Córdoba"], [])
 
         a_4_saida_553 = local_espanha.LocalEspanha(
             A_4_SAIDA_553,
@@ -1147,7 +1192,8 @@ class Mapa:
 
         aeroporto_de_sevilha = local_espanha_cidade.LocalEspanhaCidade(
             AEROPORTO_DE_SEVILHA,
-            {SEVILHA_ESTE: [SUDOESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO],
+            {A_4_SAIDA_533: [OESTE, A_4_SAIDA_533__AEROPORTO_DE_SEVILHA, CARRO],
+             A_4_SAIDA_532: [NORTE, A_4_SAIDA_532__AEROPORTO_DE_SEVILHA, CARRO],
              AEROPORTO_DE_BEJA: [NOROESTE, AEROPORTO_DE_BEJA__AEROPORTO_DE_SEVILHA, AVIAO],
              AEROPORTO_DE_FARO: [SUDOESTE, AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA, AVIAO]},
             37.423697, -5.899924, 31, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
@@ -1585,17 +1631,28 @@ class Mapa:
         cruzamento_a_376_se_30.add_sentido(
             SE_30_SAIDA_5, ["A-92 - Granada", "Aeroporto de Sevilha - San Pablo", "A-4 - Córdoba"], [])
 
+        cruzamento_a_4_se_20 = local_espanha_cidade.LocalEspanhaCidade(
+            CRUZAMENTO_A_4_SE_20,
+            {A_4_SAIDA_536: [SUDOESTE, A_4_SAIDA_536__CRUZAMENTO_A_4_SE_20, CARRO],
+             A_4_SAIDA_533: [NORDESTE, A_4_SAIDA_533__CRUZAMENTO_A_4_SE_20, CARRO]},
+            37.415523, -5.927024, 18, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
+            locais.PROVINCIA_SEVILHA, locais.DISTRITO_NORTE)
+        cruzamento_a_4_se_20.add_sentido(A_4_SAIDA_536, ["Sevilha", "Cádiz"], [])
+        cruzamento_a_4_se_20.add_sentido(A_4_SAIDA_533, ["Aeroporto de Sevilha - San Pablo", "Carmona", "Córdoba"], [])
+
         cruzamento_a_4_norte_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_A_4_NORTE_SE_30,
             {SE_30_SAIDA_1: [SUDESTE, CRUZAMENTO_A_4_NORTE_SE_30__SE_30_SAIDA_1, CARRO],
-             RONDA_SEVILHA_POLIGONO_CALONGE: [NORTE, CRUZAMENTO_A_4_NORTE_SE_30__RONDA_SEVILHA_POLIGONO_CALONGE,
-                                              CARRO]},
+             RONDA_SEVILHA_POLIGONO_CALONGE: [NORTE, CRUZAMENTO_A_4_NORTE_SE_30__RONDA_SEVILHA_POLIGONO_CALONGE, CARRO],
+             A_4_SAIDA_536: [NORDESTE, A_4_SAIDA_536__CRUZAMENTO_A_4_NORTE_SE_30, CARRO]},
             37.408012, -5.948593, 20, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
         cruzamento_a_4_norte_se_30.add_sentido(
             SE_30_SAIDA_1, ["A-92 - Granada", "A-4 - Cádiz", "Porto de Sevilha", "A-49 - Huelva"], [])
         cruzamento_a_4_norte_se_30.add_sentido(
             RONDA_SEVILHA_POLIGONO_CALONGE, ["Ronda Urbana Norte de Sevilha", "A-66 - Mérida"], [])
+        cruzamento_a_4_norte_se_30.add_sentido(
+            A_4_SAIDA_536, ["Aeroporto de Sevilha - San Pablo", "Carmona", "Córdoba"], [])
 
         cruzamento_a_4_sul_se_30 = local_espanha_cidade.LocalEspanhaCidade(
             CRUZAMENTO_A_4_SUL_SE_30,
@@ -1607,7 +1664,7 @@ class Mapa:
         cruzamento_a_4_sul_se_30.add_sentido(
             PONTE_CENTENARIO, ["Porto de Sevilha Oeste", "A-49 - Huelva", "A-66 - Mérida"], [])
         cruzamento_a_4_sul_se_30.add_sentido(SE_30_SAIDA_8, ["A-376 - Utrera", "A-92 - Granada", "A-4 - Córdoba"], [])
-        cruzamento_a_4_sul_se_30.add_sentido(CRUZAMENTO_A_4_SUL_SE_40, ["A-4 - Cádiz"], [])
+        cruzamento_a_4_sul_se_30.add_sentido(CRUZAMENTO_A_4_SUL_SE_40, ["Cádiz"], [])
 
         cruzamento_a_4_sul_se_40 = local_espanha.LocalEspanha(
             CRUZAMENTO_A_4_SUL_SE_40,
@@ -3030,10 +3087,6 @@ class Mapa:
                                                                       SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA,
                                                                       CARRO]})
 
-        sevilha_este = local.Local(SEVILHA_ESTE,
-                                   {SEVILHA_SANTA_JUSTA: [SUDOESTE, SEVILHA_ESTE__SEVILHA_SANTA_JUSTA, CARRO],
-                                    AEROPORTO_DE_SEVILHA: [NORDESTE, AEROPORTO_DE_SEVILHA__SEVILHA_ESTE, CARRO]})
-
         sevilha_parque_alamillo = local_espanha_cidade.LocalEspanhaCidade(
             SEVILHA_PARQUE_ALAMILLO,
             {SE_20_PARQUE_ALAMILLO: [NORTE, SE_20_PARQUE_ALAMILLO__SEVILHA_PARQUE_ALAMILLO, CARRO],
@@ -3044,8 +3097,7 @@ class Mapa:
         sevilha_santa_justa = local.Local(SEVILHA_SANTA_JUSTA,
                                           {SEVILHA_CENTRO_HISTORICO: [SUDOESTE,
                                                                       SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA,
-                                                                      CARRO],
-                                           SEVILHA_ESTE: [NORDESTE, SEVILHA_ESTE__SEVILHA_SANTA_JUSTA, CARRO]})
+                                                                      CARRO]})
 
         sitio_da_fabrica = local_portugal.LocalPortugal(
             SITIO_DA_FABRICA,
@@ -3217,6 +3269,10 @@ class Mapa:
             37.222571, -7.460221, 22, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         #  Adicionar os locais à lista
+        self.lista_locais.append(a_4_saida_530)
+        self.lista_locais.append(a_4_saida_532)
+        self.lista_locais.append(a_4_saida_533)
+        self.lista_locais.append(a_4_saida_536)
         self.lista_locais.append(a_4_saida_553)
         self.lista_locais.append(a_483_saida_1)
         self.lista_locais.append(a_483_saida_3)
@@ -3319,6 +3375,7 @@ class Mapa:
         self.lista_locais.append(corte_tabeliao)
         self.lista_locais.append(costa_esuri)
         self.lista_locais.append(cruzamento_a_376_se_30)
+        self.lista_locais.append(cruzamento_a_4_se_20)
         self.lista_locais.append(cruzamento_a_4_norte_se_30)
         self.lista_locais.append(cruzamento_a_4_sul_se_30)
         self.lista_locais.append(cruzamento_a_4_sul_se_40)
@@ -3492,7 +3549,6 @@ class Mapa:
         self.lista_locais.append(serpa)
         self.lista_locais.append(sevilha_avenida_expo_92)
         self.lista_locais.append(sevilha_centro_historico)
-        self.lista_locais.append(sevilha_este)
         self.lista_locais.append(sevilha_parque_alamillo)
         self.lista_locais.append(sevilha_santa_justa)
         self.lista_locais.append(sitio_da_fabrica)

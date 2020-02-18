@@ -46,6 +46,7 @@ MUNICIPIO_GUILLENA = "Guillena"  # Sevilha
 MUNICIPIO_HUELVA = "Huelva"  # Huelva
 MUNICIPIO_HUEVAR_ALJARAFE = "Huévar del Aljarafe"  # Sevilha
 MUNICIPIO_ISLA_CRISTINA = "Isla Cristina"  # Huelva
+MUNICIPIO_LA_RINCONADA = "La Rinconada"  # Sevilha
 MUNICIPIO_LEPE = "Lepe"  # Huelva
 MUNICIPIO_PALOMARES_RIO = "Palomares del Río"  # Sevilha
 MUNICIPIO_SALTERAS = "Salteras"  # Sevilha
