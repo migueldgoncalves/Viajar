@@ -65,6 +65,7 @@ A22_SAIDA_13 = locais.nome_saida_via_rapida(locais.A22, 13)
 AEROPORTO_DE_BEJA = "Aeroporto de Beja"
 AEROPORTO_DE_FARO = "Aeroporto de Faro"
 AEROPORTO_DE_SEVILHA = "Aeroporto de Sevilha - San Pablo"
+AFONSO_VICENTE = "Afonso Vicente"
 ALAMO_ALCOUTIM = "Álamo, Alcoutim"
 ALAMO_MERTOLA = "Álamo, Mértola"
 ALCARIA = "Alcaria"
@@ -82,6 +83,7 @@ BALURCO_DE_BAIXO = "Balurco de Baixo"
 BALURCO_DE_CIMA = "Balurco de Cima"
 BAR_DO_RIO = "Bar do Rio"
 BARRA_DO_GUADIANA = "Barra do Guadiana"
+BARRAGEM_DE_ALCOUTIM = "Barragem de Alcoutim"
 BARRAGEM_DE_ODELEITE = "Barragem de Odeleite"
 BARRAGEM_DO_BELICHE = "Barragem do Beliche"
 BARRANCO_DAS_PEREIRAS = "Barranco das Pereiras"
@@ -116,6 +118,7 @@ CERRO_DO_ENHO = "Cerro do Enho"
 CHOCA_QUEIMADA = "Choça Queimada"
 CONCEICAO_FARO = "Conceição, Faro"
 CONCEICAO_TAVIRA = "Conceição, Tavira"
+CORTE_DA_SEDA = "Corte da Seda"
 CORTE_DAS_DONAS = "Corte das Donas"
 CORTE_DO_GAGO = "Corte do Gago"
 CORTE_NOVA = "Corte Nova"
@@ -203,6 +206,7 @@ LEPE = "Lepe"
 LIVRAMENTO = "Livramento"
 LUZ_DE_TAVIRA = "Luz de Tavira"
 MANTA_ROTA = "Manta Rota"
+MARMELEIRO = "Marmeleiro"
 MARTINLONGO = "Martinlongo"
 MARISMAS_ISLA_CRISTINA = "Marismas de Isla Cristina"
 MENIRES_DO_LAVAJO = "Menires do Lavajo"
@@ -213,6 +217,7 @@ MONCARAPACHO = "Moncarapacho"
 MONTE_ALTO = "Monte Alto"
 MONTE_FRANCISCO = "Monte Francisco"
 MONTE_GORDO = "Monte Gordo"
+MONTE_VASCAO = "Monte Vascão"
 MONTENEGRO = "Montenegro"
 MONTES_CASTELHANOS = "Montes Castelhanos"
 MONTINHO = "Montinho"
@@ -276,6 +281,7 @@ SANTA_CATARINA_FONTE_BISPO = "Santa Catarina da Fonte do Bispo"
 SANTA_LUZIA = "Santa Luzia"
 SANTA_MARTA = "Santa Marta"
 SAO_BRAS_DE_ALPORTEL = "São Brás de Alportel"
+SAO_MARTINHO = "São Martinho"
 SAPAL_NORTE = "Norte do Sapal de Castro Marim e Vila Real de Santo António"
 SAPAL_SUL = "Sul do Sapal de Castro Marim e Vila Real de Santo António"
 SE_20_ESTADIO_LA_CARTUJA = "SE-20 - Estádio de La Cartuja"
@@ -297,9 +303,7 @@ SEDAS = "Sedas"
 SENTINELA = "Sentinela"
 SERPA = "Serpa"
 SEVILHA_AVENIDA_EXPO_92 = "Sevilha - Avenida Expo'92"
-SEVILHA_CENTRO_HISTORICO = "Sevilha - Centro Histórico"
 SEVILHA_PARQUE_ALAMILLO = "Sevilha - Parque de Alamillo"
-SEVILHA_SANTA_JUSTA = "Sevilha - Santa Justa"
 SITIO_DA_FABRICA = "Sítio da Fábrica"
 TANOEIRO = "Tanoeiro"
 TARIQUEJO = "Tariquejo"
@@ -413,6 +417,9 @@ AEROPORTO_DE_BEJA__BEJA = 9.6
 AEROPORTO_DE_FARO__AEROPORTO_DE_SEVILHA = 188.9
 AEROPORTO_DE_FARO__MONTENEGRO = 2.6
 AEROPORTO_DE_FARO__PRAIA_DE_FARO = 4.8
+AFONSO_VICENTE__CORTES_PEREIRAS = 2.9
+AFONSO_VICENTE__CRUZAMENTO_N122_M507 = 3.5
+AFONSO_VICENTE__MENIRES_DO_LAVAJO = 1.3
 ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE = 0.5
 ALAMO_ALCOUTIM__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
@@ -423,11 +430,11 @@ ALCARIA__ODELEITE = 3.4
 ALCARIA__FONTE_DO_PENEDO = 0.9
 ALCARIAS_GRANDES__CORTE_DO_GAGO = 2.5
 ALCARIAS_GRANDES__TANOEIRO = 2.4
+ALCOUTIM__BARRAGEM_DE_ALCOUTIM = 2.4
 ALCOUTIM__CORTES_PEREIRAS = 6.0
-ALCOUTIM__CORTE_TABELIAO = 5.0
 ALCOUTIM__LARANJEIRAS = 9.5
+ALCOUTIM__MARMELEIRO = 2.8
 ALCOUTIM__MONTINHO_DAS_LARANJEIRAS = 8.8
-ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM = 5.0
 ALCOUTIM__SANLUCAR_DE_GUADIANA = 0.3
 ALMADA_DE_OURO__AZINHAL = 4.3
 ALMADA_DE_OURO__COSTA_ESURI = 5.2
@@ -460,6 +467,7 @@ BAR_DO_RIO__FOZ_DE_ODELEITE = 5.1
 BAR_DO_RIO__GUERREIROS_DO_RIO = 0.1
 BAR_DO_RIO__LARANJEIRAS = 1.3
 BARRA_DO_GUADIANA__VRSA = 3.6
+BARRAGEM_DE_ALCOUTIM__CORTE_TABELIAO = 2.1
 BARRAGEM_DE_ODELEITE__CHOCA_QUEIMADA = 1.0
 BARRAGEM_DO_BELICHE__BELICHE = 0.6
 BARRAGEM_DO_BELICHE__SENTINELA = 3.6
@@ -519,6 +527,8 @@ CONCEICAO_TAVIRA__ESTACAO_CACELA = 7.1
 CONCEICAO_TAVIRA__ESTACAO_PORTA_NOVA = 4.2
 CONCEICAO_TAVIRA__TAVIRA_NORTE = 4.9
 CONCEICAO_TAVIRA__VILA_NOVA_DE_CACELA = 7.9
+CORTE_DA_SEDA__MARMELEIRO = 2.2
+CORTE_DA_SEDA__PARQUE_EMPRESARIAL_ALCOUTIM = 1.5
 CORTE_DAS_DONAS__CRUZAMENTO_N122_M507_2 = 4.7
 CORTE_DAS_DONAS__ROTUNDA_DA_ARVORE = 2.1
 CORTE_DO_GAGO__CRUZAMENTO_M509_M512 = 3.5
@@ -526,8 +536,9 @@ CORTE_NOVA__CORTE_VELHA = 1.4
 CORTE_NOVA__FURNAZINHAS = 3.0
 CORTE_NOVA__VALE_DO_PEREIRO = 2.3
 CORTE_VELHA__CRUZAMENTO_N122_M1060 = 1.5
-CORTES_PEREIRAS__CRUZAMENTO_N122_M507 = 4.8
 CORTES_PEREIRAS__MENIRES_DO_LAVAJO = 2.5
+CORTES_PEREIRAS__MONTE_VASCAO = 3.2
+CORTES_PEREIRAS__SAO_MARTINHO = 0.6
 CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM = 6.6
 CORTE_TABELIAO__IC27_FIM = 5.9
 CRUZAMENTO_A_376_SE_30__SE_30_SAIDA_5 = 1.2
@@ -642,6 +653,7 @@ GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
 HANGARES__ILHA_DO_FAROL = 1.5
 HORTAS__VRSA = 2.4
 IC27_FIM__IC27_SAIDA_7 = 6.1
+IC27_FIM__PARQUE_EMPRESARIAL_ALCOUTIM = 7.7
 IC27_INICIO__IC27_SAIDA_1 = 1.1
 IC27_INICIO__MONTE_FRANCISCO = 0.5
 IC27_INICIO__SAPAL_NORTE = 2.0
@@ -746,8 +758,6 @@ SE_30_SAIDA_14__SE_30_SAIDA_15 = 1.3
 SE_30_SAIDA_21__SEVILHA_PARQUE_ALAMILLO = 0.8
 SE_40_REINICIO__SE_40_SAIDA_35 = 6.9
 SERPA__VILA_NOVA_SAO_BENTO = 18.1
-SEVILHA_AVENIDA_EXPO_92__SEVILHA_CENTRO_HISTORICO = 2.0
-SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA = 2.5
 TAVIRA_NORTE__TAVIRA_SUL = 1.5
 UNIVERSIDADE_ALGARVE_GAMBELAS__VARIANTE_FARO_IC4 = 2.1
 UNIVERSIDADE_ALGARVE_PENHA__VARIANTE_FARO_M518 = 2.4
@@ -1199,6 +1209,13 @@ class Mapa:
             37.423697, -5.899924, 31, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_ESTE_ALCOSA_TORREBLANCA)
 
+        afonso_vicente = local_portugal.LocalPortugal(
+            AFONSO_VICENTE,
+            {MENIRES_DO_LAVAJO: [NORDESTE, AFONSO_VICENTE__MENIRES_DO_LAVAJO, CARRO],
+             CORTES_PEREIRAS: [ESTE, AFONSO_VICENTE__CORTES_PEREIRAS, CARRO],
+             CRUZAMENTO_N122_M507: [SUDOESTE, AFONSO_VICENTE__CRUZAMENTO_N122_M507, CARRO]},
+            37.493201, -7.541276, 168, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         alamo_alcoutim = local_portugal.LocalPortugal(
             ALAMO_ALCOUTIM,
             {ROTUNDA_DA_ARVORE: [NORTE, ALAMO_ALCOUTIM__ROTUNDA_DA_ARVORE, CARRO],
@@ -1227,9 +1244,9 @@ class Mapa:
 
         alcoutim = local_portugal.LocalPortugal(
             ALCOUTIM,
-            {PARQUE_EMPRESARIAL_ALCOUTIM: [SUDOESTE, ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+            {MARMELEIRO: [SUDOESTE, ALCOUTIM__MARMELEIRO, CARRO],
              MONTINHO_DAS_LARANJEIRAS: [SUL, ALCOUTIM__MONTINHO_DAS_LARANJEIRAS, CARRO],
-             CORTE_TABELIAO: [SUDOESTE, ALCOUTIM__CORTE_TABELIAO, CARRO],
+             BARRAGEM_DE_ALCOUTIM: [OESTE, ALCOUTIM__BARRAGEM_DE_ALCOUTIM, CARRO],
              CORTES_PEREIRAS: [NOROESTE, ALCOUTIM__CORTES_PEREIRAS, CARRO],
              SANLUCAR_DE_GUADIANA: [NORDESTE, ALCOUTIM__SANLUCAR_DE_GUADIANA, BARCO],
              LARANJEIRAS: [SUL, ALCOUTIM__LARANJEIRAS, BARCO]},
@@ -1319,6 +1336,12 @@ class Mapa:
             BARRA_DO_GUADIANA,
             {VRSA: [NOROESTE, BARRA_DO_GUADIANA__VRSA, CARRO]},
             37.168914, -7.403016, 2, locais.FREGUESIA_VRSA, locais.CONCELHO_VRSA)
+
+        barragem_de_alcoutim = local_portugal.LocalPortugal(
+            BARRAGEM_DE_ALCOUTIM,
+            {ALCOUTIM: [ESTE, ALCOUTIM__BARRAGEM_DE_ALCOUTIM, CARRO],
+             CORTE_TABELIAO: [SUDOESTE, BARRAGEM_DE_ALCOUTIM__CORTE_TABELIAO, CARRO]},
+            37.470763, -7.492562, 55, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         barragem_de_odeleite = local_portugal.LocalPortugal(
             BARRAGEM_DE_ODELEITE,
@@ -1571,6 +1594,12 @@ class Mapa:
         conceicao_tavira.add_sentido(ESTACAO_CACELA, ["Vila Real de Santo António"], ["Regional"])
         conceicao_tavira.add_sentido(ESTACAO_PORTA_NOVA, ["Lagos", "Faro"], ["Regional"])
 
+        corte_da_seda = local_portugal.LocalPortugal(
+            CORTE_DA_SEDA,
+            {MARMELEIRO: [NORDESTE, CORTE_DA_SEDA__MARMELEIRO, CARRO],
+             PARQUE_EMPRESARIAL_ALCOUTIM: [SUDOESTE, CORTE_DA_SEDA__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO]},
+            37.445430, -7.496576, 160, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         corte_das_donas = local_portugal.LocalPortugal(
             CORTE_DAS_DONAS,
             {CRUZAMENTO_N122_M507_2: [NOROESTE, CORTE_DAS_DONAS__CRUZAMENTO_N122_M507_2, CARRO],
@@ -1598,14 +1627,16 @@ class Mapa:
 
         cortes_pereiras = local_portugal.LocalPortugal(
             CORTES_PEREIRAS,
-            {CRUZAMENTO_N122_M507: [OESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
+            {AFONSO_VICENTE: [OESTE, AFONSO_VICENTE__CORTES_PEREIRAS, CARRO],
              ALCOUTIM: [SUDESTE, ALCOUTIM__CORTES_PEREIRAS, CARRO],
-             MENIRES_DO_LAVAJO: [NOROESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]},
+             MENIRES_DO_LAVAJO: [NOROESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO],
+             SAO_MARTINHO: [SUDOESTE, CORTES_PEREIRAS__SAO_MARTINHO, CARRO],
+             MONTE_VASCAO: [NOROESTE, CORTES_PEREIRAS__MONTE_VASCAO, CARRO]},
             37.493132, -7.512727, 141, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         corte_tabeliao = local_portugal.LocalPortugal(
             CORTE_TABELIAO,
-            {ALCOUTIM: [NORDESTE, ALCOUTIM__CORTE_TABELIAO, CARRO],
+            {BARRAGEM_DE_ALCOUTIM: [NORDESTE, BARRAGEM_DE_ALCOUTIM__CORTE_TABELIAO, CARRO],
              PARQUE_EMPRESARIAL_ALCOUTIM: [SUL, CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
              IC27_FIM: [NOROESTE, CORTE_TABELIAO__IC27_FIM, CARRO]},
             37.464563, -7.511891, 141, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
@@ -1818,7 +1849,7 @@ class Mapa:
         cruzamento_n122_m507 = local_portugal.LocalPortugal(
             CRUZAMENTO_N122_M507,
             {IC27_FIM: [SUDESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
-             CORTES_PEREIRAS: [ESTE, CORTES_PEREIRAS__CRUZAMENTO_N122_M507, CARRO],
+             AFONSO_VICENTE: [NORDESTE, AFONSO_VICENTE__CRUZAMENTO_N122_M507, CARRO],
              SANTA_MARTA: [NOROESTE, CRUZAMENTO_N122_M507__SANTA_MARTA, CARRO]},
             37.480886, -7.561668, 195, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
 
@@ -2163,7 +2194,8 @@ class Mapa:
             IC27_FIM,
             {CRUZAMENTO_N122_M507: [NOROESTE, CRUZAMENTO_N122_M507__IC27_FIM, CARRO],
              IC27_SAIDA_7: [SUL, IC27_FIM__IC27_SAIDA_7, CARRO],
-             CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO]},
+             CORTE_TABELIAO: [SUDESTE, CORTE_TABELIAO__IC27_FIM, CARRO],
+             PARQUE_EMPRESARIAL_ALCOUTIM: [SUDESTE, IC27_FIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO]},
             37.478582, -7.556871, 187, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
         ic27_fim.add_sentido(CRUZAMENTO_N122_M507, ["Beja", "Mértola"], [])
         ic27_fim.add_sentido(IC27_SAIDA_7, ["Vila Real de Santo António", "Castro Marim"], [])
@@ -2330,6 +2362,12 @@ class Mapa:
         manta_rota = local.Local(MANTA_ROTA,
                                  {VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
 
+        marmeleiro = local_portugal.LocalPortugal(
+            MARMELEIRO,
+            {ALCOUTIM: [NORDESTE, ALCOUTIM__MARMELEIRO, CARRO],
+             CORTE_DA_SEDA: [SUDOESTE, CORTE_DA_SEDA__MARMELEIRO, CARRO]},
+            37.452326, -7.479719, 122, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         martinlongo = local.Local(MARTINLONGO,
                                   {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
                                    GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
@@ -2341,8 +2379,11 @@ class Mapa:
             37.201359, -7.351221, 2, locais.MUNICIPIO_AYAMONTE, locais.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             locais.PROVINCIA_HUELVA)
 
-        menires_do_lavajo = local.Local(MENIRES_DO_LAVAJO,
-                                        {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO]})
+        menires_do_lavajo = local_portugal.LocalPortugal(
+            MENIRES_DO_LAVAJO,
+            {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MENIRES_DO_LAVAJO, CARRO],
+             AFONSO_VICENTE: [SUDOESTE, AFONSO_VICENTE__MENIRES_DO_LAVAJO, CARRO]},
+            37.501420, -7.534983, 140, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         mertola = local_portugal.LocalPortugal(
             MERTOLA,
@@ -2387,6 +2428,11 @@ class Mapa:
         monte_gordo = local.Local(MONTE_GORDO,
                                   {ESTACAO_MONTE_GORDO: [NORTE, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
                                    DUNAS_DE_VRSA: [ESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO]})
+
+        monte_vascao = local_portugal.LocalPortugal(
+            MONTE_VASCAO,
+            {CORTES_PEREIRAS: [SUDESTE, CORTES_PEREIRAS__MONTE_VASCAO, CARRO]},
+            37.513199, -7.525509, 124, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         montenegro = local_portugal.LocalPortugal(
             MONTENEGRO,
@@ -2439,9 +2485,11 @@ class Mapa:
              SENTINELA: [SUL, MURTEIRA_DE_CIMA__SENTINELA, CARRO]},
             37.306248, -7.494167, 130, locais.FREGUESIA_AZINHAL, locais.CONCELHO_CASTRO_MARIM)
 
-        odeleite = local.Local(ODELEITE,
-                               {ALCARIA: [ESTE, ALCARIA__ODELEITE, CARRO],
-                                IC27_SAIDA_4: [OESTE, IC27_SAIDA_4__ODELEITE, CARRO]})
+        odeleite = local_portugal.LocalPortugal(
+            ODELEITE,
+            {ALCARIA: [ESTE, ALCARIA__ODELEITE, CARRO],
+             IC27_SAIDA_4: [OESTE, IC27_SAIDA_4__ODELEITE, CARRO]},
+            37.334251, -7.487819, 33, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
         olhao = local_portugal.LocalPortugal(
             OLHAO,
@@ -2459,18 +2507,19 @@ class Mapa:
         olhao.add_sentido(ILHA_DA_ARMONA, ["Vila Nova de Cacela", "Fuseta"], [])
         olhao.add_sentido(CULATRA, ["Faro"], [])
 
-        palmeira = local.Local(PALMEIRA,
-                               {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]})
+        palmeira = local_portugal.LocalPortugal(
+            PALMEIRA,
+            {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]},
+            37.398627, -7.529610, 85, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
-        parque_empresarial_alcoutim = local.Local(PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                  {ALCOUTIM: [NORDESTE, ALCOUTIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
-                                                   BALURCO_DE_BAIXO: [SUL,
-                                                                      BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                                      CARRO],
-                                                   IC27_SAIDA_7: [OESTE, IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                                  CARRO],
-                                                   CORTE_TABELIAO: [NORTE, CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM,
-                                                                    CARRO]})
+        parque_empresarial_alcoutim = local_portugal.LocalPortugal(
+            PARQUE_EMPRESARIAL_ALCOUTIM,
+            {CORTE_DA_SEDA: [NORDESTE, CORTE_DA_SEDA__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+             BALURCO_DE_BAIXO: [SUL, BALURCO_DE_BAIXO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+             IC27_SAIDA_7: [OESTE, IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+             CORTE_TABELIAO: [NORTE, CORTE_TABELIAO__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
+             IC27_FIM: [NOROESTE, IC27_FIM__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO]},
+            37.437696, -7.509327, 174, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
         parque_tematico_serra_caldeirao = local_portugal.LocalPortugal(
             PARQUE_TEMATICO_SERRA_CALDEIRAO,
@@ -2885,6 +2934,11 @@ class Mapa:
         sao_bras_de_alportel.add_sentido(RUINAS_ROMANAS_MILREU, ["Faro"], ["N2"])
         sao_bras_de_alportel.add_sentido(BARRANCO_DO_VELHO, ["Chaves", "Almodôvar"], ["N2"])
 
+        sao_martinho = local_portugal.LocalPortugal(
+            SAO_MARTINHO,
+            {CORTES_PEREIRAS: [NORDESTE, CORTES_PEREIRAS__SAO_MARTINHO, CARRO]},
+            37.490850, -7.516152, 152, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
+
         sapal_norte = local.Local(SAPAL_NORTE,
                                   {IC27_INICIO: [OESTE, IC27_INICIO__SAPAL_NORTE, CARRO]})
 
@@ -3074,18 +3128,9 @@ class Mapa:
 
         sevilha_avenida_expo_92 = local_espanha_cidade.LocalEspanhaCidade(
             SEVILHA_AVENIDA_EXPO_92,
-            {CRUZAMENTO_A_49_SE_30: [OESTE, CRUZAMENTO_A_49_SE_30__SEVILHA_AVENIDA_EXPO_92, CARRO],
-             SEVILHA_CENTRO_HISTORICO: [SUDESTE, SEVILHA_AVENIDA_EXPO_92__SEVILHA_CENTRO_HISTORICO, CARRO]},
+            {CRUZAMENTO_A_49_SE_30: [OESTE, CRUZAMENTO_A_49_SE_30__SEVILHA_AVENIDA_EXPO_92, CARRO]},
             37.389797, -6.011761, 10, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
-
-        sevilha_centro_historico = local.Local(SEVILHA_CENTRO_HISTORICO,
-                                               {SEVILHA_AVENIDA_EXPO_92: [NOROESTE,
-                                                                          SEVILHA_AVENIDA_EXPO_92__SEVILHA_CENTRO_HISTORICO,
-                                                                          CARRO],
-                                                SEVILHA_SANTA_JUSTA: [NORDESTE,
-                                                                      SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA,
-                                                                      CARRO]})
 
         sevilha_parque_alamillo = local_espanha_cidade.LocalEspanhaCidade(
             SEVILHA_PARQUE_ALAMILLO,
@@ -3093,11 +3138,6 @@ class Mapa:
              SE_30_SAIDA_21: [SUL, SE_30_SAIDA_21__SEVILHA_PARQUE_ALAMILLO, CARRO]},
             37.418651, -5.995225, 7, locais.MUNICIPIO_SEVILHA, locais.COMARCA_METROPOLITANA_SEVILHA,
             locais.PROVINCIA_SEVILHA, locais.DISTRITO_TRIANA)
-
-        sevilha_santa_justa = local.Local(SEVILHA_SANTA_JUSTA,
-                                          {SEVILHA_CENTRO_HISTORICO: [SUDOESTE,
-                                                                      SEVILHA_CENTRO_HISTORICO__SEVILHA_SANTA_JUSTA,
-                                                                      CARRO]})
 
         sitio_da_fabrica = local_portugal.LocalPortugal(
             SITIO_DA_FABRICA,
@@ -3316,6 +3356,7 @@ class Mapa:
         self.lista_locais.append(aeroporto_de_beja)
         self.lista_locais.append(aeroporto_de_faro)
         self.lista_locais.append(aeroporto_de_sevilha)
+        self.lista_locais.append(afonso_vicente)
         self.lista_locais.append(alamo_alcoutim)
         self.lista_locais.append(alamo_mertola)
         self.lista_locais.append(alcaria)
@@ -3333,6 +3374,7 @@ class Mapa:
         self.lista_locais.append(balurco_de_cima)
         self.lista_locais.append(bar_do_rio)
         self.lista_locais.append(barra_do_guadiana)
+        self.lista_locais.append(barragem_de_alcoutim)
         self.lista_locais.append(barragem_de_odeleite)
         self.lista_locais.append(barragem_do_beliche)
         self.lista_locais.append(barranco_das_pereiras)
@@ -3367,6 +3409,7 @@ class Mapa:
         self.lista_locais.append(cerro_do_enho)
         self.lista_locais.append(conceicao_faro)
         self.lista_locais.append(conceicao_tavira)
+        self.lista_locais.append(corte_da_seda)
         self.lista_locais.append(corte_das_donas)
         self.lista_locais.append(corte_do_gago)
         self.lista_locais.append(corte_nova)
@@ -3454,6 +3497,7 @@ class Mapa:
         self.lista_locais.append(livramento)
         self.lista_locais.append(luz_de_tavira)
         self.lista_locais.append(manta_rota)
+        self.lista_locais.append(marmeleiro)
         self.lista_locais.append(martinlongo)
         self.lista_locais.append(menires_do_lavajo)
         self.lista_locais.append(mertola)
@@ -3464,6 +3508,7 @@ class Mapa:
         self.lista_locais.append(monte_alto)
         self.lista_locais.append(monte_francisco)
         self.lista_locais.append(monte_gordo)
+        self.lista_locais.append(monte_vascao)
         self.lista_locais.append(montenegro)
         self.lista_locais.append(montes_castelhanos)
         self.lista_locais.append(montinho)
@@ -3527,6 +3572,7 @@ class Mapa:
         self.lista_locais.append(santa_luzia)
         self.lista_locais.append(santa_marta)
         self.lista_locais.append(sao_bras_de_alportel)
+        self.lista_locais.append(sao_martinho)
         self.lista_locais.append(sapal_norte)
         self.lista_locais.append(sapal_sul)
         self.lista_locais.append(se_20_estadio_la_cartuja)
@@ -3548,9 +3594,7 @@ class Mapa:
         self.lista_locais.append(sentinela)
         self.lista_locais.append(serpa)
         self.lista_locais.append(sevilha_avenida_expo_92)
-        self.lista_locais.append(sevilha_centro_historico)
         self.lista_locais.append(sevilha_parque_alamillo)
-        self.lista_locais.append(sevilha_santa_justa)
         self.lista_locais.append(sitio_da_fabrica)
         self.lista_locais.append(tanoeiro)
         self.lista_locais.append(tariquejo)
