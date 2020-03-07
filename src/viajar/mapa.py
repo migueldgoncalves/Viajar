@@ -149,6 +149,7 @@ CRUZAMENTO_N122_M507 = locais.nome_cruzamento_estradas(locais.N122, locais.M507)
 CRUZAMENTO_N122_M507_2 = locais.nome_cruzamento_estradas(locais.N122, locais.M507_2)
 CRUZAMENTO_N122_M512 = locais.nome_cruzamento_estradas(locais.N122, locais.M512)
 CRUZAMENTO_N122_N123 = locais.nome_cruzamento_estradas(locais.N122, locais.N123)
+CRUZAMENTO_N124_M507_1 = locais.nome_cruzamento_estradas(locais.N124, locais.M507_1)
 CRUZAMENTO_N125_M1347 = locais.nome_cruzamento_estradas(locais.N125, locais.M1347)
 CRUZAMENTO_N125_M516_2 = locais.nome_cruzamento_estradas(locais.N125, locais.M516_2)
 CRUZAMENTO_N125_N125_6 = locais.nome_cruzamento_estradas(locais.N125, locais.N125_6)
@@ -305,6 +306,7 @@ SERPA = "Serpa"
 SEVILHA_AVENIDA_EXPO_92 = "Sevilha - Avenida Expo'92"
 SEVILHA_PARQUE_ALAMILLO = "Sevilha - Parque de Alamillo"
 SITIO_DA_FABRICA = "Sítio da Fábrica"
+TACOES = "Tacões"
 TANOEIRO = "Tanoeiro"
 TARIQUEJO = "Tariquejo"
 TAVIRA_NORTE = "Tavira - Norte"
@@ -574,6 +576,9 @@ CRUZAMENTO_N122_M507__SANTA_MARTA = 1.8
 CRUZAMENTO_N122_M512__IC27_SAIDA_2 = 2.1
 CRUZAMENTO_N122_M512__MONTES_CASTELHANOS = 3.5
 CRUZAMENTO_N122_N123__IP2_SAIDA_44 = 27.9
+CRUZAMENTO_N124_M507_1__GIOES = 2.5
+CRUZAMENTO_N124_M507_1__MARTINLONGO = 6.9
+CRUZAMENTO_N124_M507_1__PEREIRO = 8.9
 CRUZAMENTO_N122_N123__MERTOLA = 11.1
 CRUZAMENTO_N125_M1347__LUZ_DE_TAVIRA = 2.2
 CRUZAMENTO_N125_M1347__PEDRAS_DEL_REI = 1.0
@@ -646,8 +651,6 @@ FUSETA__ILHA_DA_ARMONA = 10.9
 FUSETA__PRAIA_DA_FUSETA = 1.3
 FUSETA__PRAIA_DO_BARRIL = 8.6
 GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
-GIOES__MARTINLONGO = 9.4
-GIOES__PEREIRO = 11.2
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
 GUERREIROS_DO_RIO__ROTUNDA_DA_ARVORE = 0.7
 HANGARES__ILHA_DO_FAROL = 1.5
@@ -675,7 +678,7 @@ IC27_SAIDA_5__VALE_DO_PEREIRO = 1.9
 IC27_SAIDA_6__IC27_SAIDA_7 = 3.7
 IC27_SAIDA_6__PALMEIRA = 0.7
 IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM = 3.0
-IC27_SAIDA_7__PEREIRO = 6.1
+IC27_SAIDA_7__TACOES = 3.5
 ILHA_DA_ARMONA__OLHAO = 2.9
 ILHA_DO_FAROL__PORTO_DE_FARO = 6.0
 ILHA_DO_FAROL__PRAIA_DA_BARRETA = 1.4
@@ -709,6 +712,7 @@ OLHAO__QUELFES = 4.7
 OLHAO__VARIANTE_FARO_M518 = 6.9
 PECHAO__QUELFES = 5.1
 PEDRAS_DEL_REI__SANTA_LUZIA = 2.3
+PEREIRO__TACOES = 4.4
 PICOITOS__SALGUEIROS = 2.0
 POMARAO__PONTE_RIO_CHANCA = 0.2
 POMARAO__PUERTO_DE_LA_LAJA = 5.5
@@ -1867,12 +1871,19 @@ class Mapa:
              MONTES_CASTELHANOS: [SUL, CRUZAMENTO_N122_M512__MONTES_CASTELHANOS, CARRO]},
             37.281742, -7.470695, 93, locais.FREGUESIA_AZINHAL, locais.CONCELHO_CASTRO_MARIM)
 
-        cruzamento_n122_n123 = local.Local(CRUZAMENTO_N122_N123,
-                                           {IP2_SAIDA_44: [NOROESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO],
-                                            CASCATA_PULO_DO_LOBO_OESTE: [NORDESTE,
-                                                                         CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123,
-                                                                         CARRO],
-                                            MERTOLA: [SUDESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO]})
+        cruzamento_n122_n123 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N122_N123,
+            {IP2_SAIDA_44: [NOROESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO],
+             CASCATA_PULO_DO_LOBO_OESTE: [NORDESTE, CASCATA_PULO_DO_LOBO_OESTE__CRUZAMENTO_N122_N123, CARRO],
+             MERTOLA: [SUDESTE, CRUZAMENTO_N122_N123__MERTOLA, CARRO]},
+            37.702519, -7.748000, 180, locais.FREGUESIA_MERTOLA, locais.CONCELHO_MERTOLA)
+
+        cruzamento_n124_m507_1 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N124_M507_1,
+            {GIOES: [NORTE, CRUZAMENTO_N124_M507_1__GIOES, CARRO],
+             MARTINLONGO: [SUDOESTE, CRUZAMENTO_N124_M507_1__MARTINLONGO, CARRO],
+             PEREIRO: [ESTE, CRUZAMENTO_N124_M507_1__PEREIRO, CARRO]},
+            37.450294, -7.693499, 271, locais.FREGUESIA_GIOES, locais.CONCELHO_ALCOUTIM)
 
         cruzamento_n125_m1347 = local_portugal.LocalPortugal(
             CRUZAMENTO_N125_M1347,
@@ -1889,14 +1900,13 @@ class Mapa:
              MONCARAPACHO: [NOROESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
             37.063244, -7.759820, 7, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
-        cruzamento_n125_n125_6 = local.Local(CRUZAMENTO_N125_N125_6,
-                                             {ESTACAO_CASTRO_MARIM: [NORTE,
-                                                                     CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM,
-                                                                     CARRO],
-                                              ESTACAO_MONTE_GORDO: [ESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO,
-                                                                    CARRO],
-                                              PRAIA_VERDE: [SUL, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO],
-                                              ALTURA: [SUDOESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO]})
+        cruzamento_n125_n125_6 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N125_N125_6,
+            {ESTACAO_CASTRO_MARIM: [NORTE, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
+             ESTACAO_MONTE_GORDO: [ESTE, CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO, CARRO],
+             PRAIA_VERDE: [SUL, CRUZAMENTO_N125_N125_6__PRAIA_VERDE, CARRO],
+             ALTURA: [SUDOESTE, ALTURA__CRUZAMENTO_N125_N125_6, CARRO]},
+            37.184062, -7.483801, 20, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
         cruzamento_n125_n398 = local_portugal.LocalPortugal(
             CRUZAMENTO_N125_N398,
@@ -1945,20 +1955,26 @@ class Mapa:
              MONTINHO: [SUDESTE, DESERTO__MONTINHO, CARRO]},
             37.428911, -7.516223, 198, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
-        dunas_vrsa = local.Local(DUNAS_DE_VRSA,
-                                 {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
-                                  VRSA: [NORDESTE, DUNAS_DE_VRSA__VRSA, CARRO]})
+        dunas_vrsa = local_portugal.LocalPortugal(
+            DUNAS_DE_VRSA,
+            {MONTE_GORDO: [OESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO],
+             VRSA: [NORDESTE, DUNAS_DE_VRSA__VRSA, CARRO]},
+            37.183042, -7.430759, 4, locais.FREGUESIA_VRSA, locais.CONCELHO_VRSA)
 
-        el_granado = local.Local(EL_GRANADO,
-                                 {SANLUCAR_DE_GUADIANA: [SUDOESTE, EL_GRANADO__SANLUCAR_DE_GUADIANA, CARRO],
-                                  PUERTO_DE_LA_LAJA: [OESTE, EL_GRANADO__PUERTO_DE_LA_LAJA, CARRO],
-                                  VILLANUEVA_DE_LOS_CASTILLEJOS: [ESTE, EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS,
-                                                                  CARRO]})
+        el_granado = local_espanha.LocalEspanha(
+            EL_GRANADO,
+            {SANLUCAR_DE_GUADIANA: [SUDOESTE, EL_GRANADO__SANLUCAR_DE_GUADIANA, CARRO],
+             PUERTO_DE_LA_LAJA: [OESTE, EL_GRANADO__PUERTO_DE_LA_LAJA, CARRO],
+             VILLANUEVA_DE_LOS_CASTILLEJOS: [ESTE, EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS, CARRO]},
+            37.520717, -7.416822, 135, locais.MUNICIPIO_EL_GRANADO, locais.COMARCA_EL_ANDEVALO,
+            locais.PROVINCIA_HUELVA)
 
-        espirito_santo = local.Local(ESPIRITO_SANTO,
-                                     {SEDAS: [SUDESTE, ESPIRITO_SANTO__SEDAS, CARRO],
-                                      ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
-                                      BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]})
+        espirito_santo = local_portugal.LocalPortugal(
+            ESPIRITO_SANTO,
+            {SEDAS: [SUDESTE, ESPIRITO_SANTO__SEDAS, CARRO],
+             ALAMO_MERTOLA: [NOROESTE, ALAMO_MERTOLA__ESPIRITO_SANTO, CARRO],
+             BOAVISTA: [NORDESTE, BOAVISTA__ESPIRITO_SANTO, CARRO]},
+            37.543213, -7.647608, 175, locais.FREGUESIA_ESPIRITO_SANTO, locais.CONCELHO_MERTOLA)
 
         estacao_bom_joao = local_portugal.LocalPortugal(
             ESTACAO_BOM_JOAO,
@@ -2157,9 +2173,10 @@ class Mapa:
             37.375423, -6.968658, 27, locais.MUNICIPIO_GIBRALEON, locais.COMARCA_METROPOLITANA_HUELVA,
             locais.PROVINCIA_HUELVA)
 
-        gioes = local.Local(GIOES,
-                            {MARTINLONGO: [SUDOESTE, GIOES__MARTINLONGO, CARRO],
-                             PEREIRO: [SUDESTE, GIOES__PEREIRO, CARRO]})
+        gioes = local_portugal.LocalPortugal(
+            GIOES,
+            {CRUZAMENTO_N124_M507_1: [SUL, CRUZAMENTO_N124_M507_1__GIOES, CARRO]},
+            37.471661, -7.695203, 205, locais.FREGUESIA_GIOES, locais.CONCELHO_ALCOUTIM)
 
         guerreiros_do_rio = local_portugal.LocalPortugal(
             GUERREIROS_DO_RIO,
@@ -2186,9 +2203,11 @@ class Mapa:
         hangares.add_sentido(CULATRA, ["Vila Nova de Cacela", "Olhão"], [])
         hangares.add_sentido(ILHA_DO_FAROL, ["Faro"], [])
 
-        hortas = local.Local(HORTAS,
-                             {ESTACAO_MONTE_GORDO: [NOROESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
-                              VRSA: [ESTE, HORTAS__VRSA, CARRO]})
+        hortas = local_portugal.LocalPortugal(
+            HORTAS,
+            {ESTACAO_MONTE_GORDO: [NOROESTE, ESTACAO_MONTE_GORDO__HORTAS, CARRO],
+             VRSA: [ESTE, HORTAS__VRSA, CARRO]},
+            37.188470, -7.444839, 4, locais.FREGUESIA_MONTE_GORDO, locais.CONCELHO_VRSA)
 
         ic27_fim = local_portugal.LocalPortugal(
             IC27_FIM,
@@ -2280,7 +2299,7 @@ class Mapa:
              IC27_SAIDA_6: [SUL, IC27_SAIDA_6__IC27_SAIDA_7, CARRO],
              PARQUE_EMPRESARIAL_ALCOUTIM: [ESTE, IC27_SAIDA_7__PARQUE_EMPRESARIAL_ALCOUTIM, CARRO],
              BALURCO_DE_CIMA: [SUDESTE, BALURCO_DE_CIMA__IC27_SAIDA_7, CARRO],
-             PEREIRO: [NOROESTE, IC27_SAIDA_7__PEREIRO, CARRO]},
+             TACOES: [NOROESTE, IC27_SAIDA_7__TACOES, CARRO]},
             37.430967, -7.532168, 222, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
         ic27_saida_7.add_sentido(IC27_FIM, ["Beja", "Mértola"], [])
         ic27_saida_7.add_sentido(IC27_SAIDA_6, ["Vila Real de Santo António", "Castro Marim"], [])
@@ -2305,9 +2324,12 @@ class Mapa:
         ilha_do_farol.add_sentido(PORTO_DE_FARO, ["Faro"], [])
         ilha_do_farol.add_sentido(PRAIA_DA_BARRETA, ["Cabo de Santa Maria"], [])
 
-        ip2_saida_44 = local.Local(IP2_SAIDA_44,
-                                   {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
-                                    CRUZAMENTO_N122_N123: [SUDESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO]})
+        ip2_saida_44 = local_portugal.LocalPortugal(
+            IP2_SAIDA_44,
+            {BEJA: [NORTE, BEJA__IP2_SAIDA_44, CARRO],
+             CRUZAMENTO_N122_N123: [SUDESTE, CRUZAMENTO_N122_N123__IP2_SAIDA_44, CARRO]},
+            37.910445, -7.871843, 171, locais.FREGUESIA_TRINDADE_BEJA, locais.CONCELHO_BEJA)
+        ip2_saida_44.add_sentido(BEJA, ["Beja", "Santa Clara de Louredo"], [])
 
         isla_cristina = local_espanha.LocalEspanha(
             ISLA_CRISTINA,
@@ -2359,8 +2381,10 @@ class Mapa:
              MONCARAPACHO: [OESTE, LUZ_DE_TAVIRA__MONCARAPACHO, CARRO]},
             37.092083, -7.704389, 33, locais.FREGUESIA_LUZ_TAVIRA, locais.CONCELHO_TAVIRA)
 
-        manta_rota = local.Local(MANTA_ROTA,
-                                 {VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]})
+        manta_rota = local_portugal.LocalPortugal(
+            MANTA_ROTA,
+            {VILA_NOVA_DE_CACELA: [NOROESTE, MANTA_ROTA__VILA_NOVA_DE_CACELA, CARRO]},
+            37.167488, -7.520107, 6, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA)
 
         marmeleiro = local_portugal.LocalPortugal(
             MARMELEIRO,
@@ -2368,10 +2392,12 @@ class Mapa:
              CORTE_DA_SEDA: [SUDOESTE, CORTE_DA_SEDA__MARMELEIRO, CARRO]},
             37.452326, -7.479719, 122, locais.FREGUESIA_ALCOUTIM, locais.CONCELHO_ALCOUTIM)
 
-        martinlongo = local.Local(MARTINLONGO,
-                                  {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
-                                   GIOES: [NORDESTE, GIOES__MARTINLONGO, CARRO],
-                                   CACHOPO: [SUL, CACHOPO__MARTINLONGO, CARRO]})
+        martinlongo = local_portugal.LocalPortugal(
+            MARTINLONGO,
+            {VAQUEIROS: [SUDESTE, MARTINLONGO__VAQUEIROS, CARRO],
+             CRUZAMENTO_N124_M507_1: [NORDESTE, CRUZAMENTO_N124_M507_1__MARTINLONGO, CARRO],
+             CACHOPO: [SUL, CACHOPO__MARTINLONGO, CARRO]},
+            37.439550, -7.768907, 285, locais.FREGUESIA_MARTINLONGO, locais.CONCELHO_ALCOUTIM)
 
         marismas_isla_cristina = local_espanha.LocalEspanha(
             MARISMAS_ISLA_CRISTINA,
@@ -2400,9 +2426,11 @@ class Mapa:
              CAIS_DA_MESQUITA: [NORDESTE, CAIS_DA_MESQUITA__MESQUITA, CARRO]},
             37.540953, -7.537359, 123, locais.FREGUESIA_ESPIRITO_SANTO, locais.CONCELHO_MERTOLA)
 
-        minas_sao_domingos = local.Local(MINAS_SAO_DOMINGOS,
-                                         {MOREANES: [SUDOESTE, MINAS_SAO_DOMINGOS__MOREANES, CARRO],
-                                          VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO]})
+        minas_sao_domingos = local_portugal.LocalPortugal(
+            MINAS_SAO_DOMINGOS,
+            {MOREANES: [SUDOESTE, MINAS_SAO_DOMINGOS__MOREANES, CARRO],
+             VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO]},
+            37.673647, -7.498400, 155, locais.FREGUESIA_CORTE_DO_PINTO, locais.CONCELHO_MERTOLA)
 
         moncarapacho = local_portugal.LocalPortugal(
             MONCARAPACHO,
@@ -2413,10 +2441,12 @@ class Mapa:
              ESTOI: [OESTE, ESTOI__MONCARAPACHO, CARRO]},
             37.085190, -7.787652, 50, locais.FREGUESIA_MONCARAPACHO, locais.CONCELHO_OLHAO)
 
-        monte_alto = local.Local(MONTE_ALTO,
-                                 {MERTOLA: [NOROESTE, MERTOLA__MONTE_ALTO, CARRO],
-                                  PICOITOS: [SUDESTE, MONTE_ALTO__PICOITOS, CARRO],
-                                  MOREANES: [NORDESTE, MONTE_ALTO__MOREANES, CARRO]})
+        monte_alto = local_portugal.LocalPortugal(
+            MONTE_ALTO,
+            {MERTOLA: [NOROESTE, MERTOLA__MONTE_ALTO, CARRO],
+             PICOITOS: [SUDESTE, MONTE_ALTO__PICOITOS, CARRO],
+             MOREANES: [NORDESTE, MONTE_ALTO__MOREANES, CARRO]},
+            37.625567, -7.623546, 148, locais.FREGUESIA_MERTOLA, locais.CONCELHO_MERTOLA)
 
         monte_francisco = local_portugal.LocalPortugal(
             MONTE_FRANCISCO,
@@ -2425,9 +2455,11 @@ class Mapa:
              VISTA_REAL: [SUDOESTE, MONTE_FRANCISCO__VISTA_REAL, CARRO]},
             37.235113, -7.451201, 16, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        monte_gordo = local.Local(MONTE_GORDO,
-                                  {ESTACAO_MONTE_GORDO: [NORTE, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
-                                   DUNAS_DE_VRSA: [ESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO]})
+        monte_gordo = local_portugal.LocalPortugal(
+            MONTE_GORDO,
+            {ESTACAO_MONTE_GORDO: [NORTE, ESTACAO_MONTE_GORDO__MONTE_GORDO, CARRO],
+             DUNAS_DE_VRSA: [ESTE, DUNAS_DE_VRSA__MONTE_GORDO, CARRO]},
+            37.180685, -7.449131, 5, locais.FREGUESIA_MONTE_GORDO, locais.CONCELHO_VRSA)
 
         monte_vascao = local_portugal.LocalPortugal(
             MONTE_VASCAO,
@@ -2551,16 +2583,22 @@ class Mapa:
         penha_da_aguia.add_sentido(MERTOLA, ["Mértola"], [])
         penha_da_aguia.add_sentido(CAIS_DA_MESQUITA, ["Vila Real de Santo António", "Pomarão"], [])
 
-        pereiro = local.Local(PEREIRO,
-                              {GIOES: [NOROESTE, GIOES__PEREIRO, CARRO],
-                               IC27_SAIDA_7: [SUDESTE, IC27_SAIDA_7__PEREIRO, CARRO]})
+        pereiro = local_portugal.LocalPortugal(
+            PEREIRO,
+            {CRUZAMENTO_N124_M507_1: [OESTE, CRUZAMENTO_N124_M507_1__PEREIRO, CARRO],
+             TACOES: [SUDESTE, PEREIRO__TACOES, CARRO]},
+            37.446159, -7.596079, 237, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
 
-        picarral = local.Local(PICARRAL,
-                               {IC27_SAIDA_2: [SUDOESTE, IC27_SAIDA_2__PICARRAL, CARRO]})
+        picarral = local_portugal.LocalPortugal(
+            PICARRAL,
+            {IC27_SAIDA_2: [SUDOESTE, IC27_SAIDA_2__PICARRAL, CARRO]},
+            37.295865, -7.477963, 98, locais.FREGUESIA_AZINHAL, locais.CONCELHO_CASTRO_MARIM)
 
-        picoitos = local.Local(PICOITOS,
-                               {MONTE_ALTO: [NOROESTE, MONTE_ALTO__PICOITOS, CARRO],
-                                SALGUEIROS: [ESTE, PICOITOS__SALGUEIROS, CARRO]})
+        picoitos = local_portugal.LocalPortugal(
+            PICOITOS,
+            {MONTE_ALTO: [NOROESTE, MONTE_ALTO__PICOITOS, CARRO],
+             SALGUEIROS: [ESTE, PICOITOS__SALGUEIROS, CARRO]},
+            37.589399, -7.565470, 126, locais.FREGUESIA_SANTANA_CAMBAS, locais.CONCELHO_MERTOLA)
 
         poligono_industrial_ayamonte = local_espanha.LocalEspanha(
             POLIGONO_INDUSTRIAL_AYAMONTE,
@@ -3146,15 +3184,24 @@ class Mapa:
             37.154436, -7.553698, 9, locais.FREGUESIA_VILA_NOVA_CACELA, locais.CONCELHO_VRSA)
         sitio_da_fabrica.add_sentido(PRAIA_CACELA_VELHA, ["Faro", "Tavira"], [])
 
+        tacoes = local_portugal.LocalPortugal(
+            TACOES,
+            {PEREIRO: [NOROESTE, PEREIRO__TACOES, CARRO],
+             IC27_SAIDA_7: [SUDESTE, IC27_SAIDA_7__TACOES, CARRO]},
+            37.440001, -7.554761, 226, locais.FREGUESIA_PEREIRO, locais.CONCELHO_ALCOUTIM)
+
         tanoeiro = local_portugal.LocalPortugal(
             TANOEIRO,
             {CERRO_DO_ENHO: [SUDESTE, CERRO_DO_ENHO__TANOEIRO, CARRO],
              ALCARIAS_GRANDES: [NORTE, ALCARIAS_GRANDES__TANOEIRO, CARRO]},
             37.263978, -7.533592, 60, locais.FREGUESIA_CASTRO_MARIM, locais.CONCELHO_CASTRO_MARIM)
 
-        tariquejo = local.Local(TARIQUEJO,
-                                {A_49_SAIDA_105: [SUL, A_49_SAIDA_105__TARIQUEJO, CARRO],
-                                 SAN_BARTOLOME_DE_LA_TORRE: [NORDESTE, SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO, CARRO]})
+        tariquejo = local_espanha.LocalEspanha(
+            TARIQUEJO,
+            {A_49_SAIDA_105: [SUL, A_49_SAIDA_105__TARIQUEJO, CARRO],
+             SAN_BARTOLOME_DE_LA_TORRE: [NORDESTE, SAN_BARTOLOME_DE_LA_TORRE__TARIQUEJO, CARRO]},
+            37.396240, -7.152048, 108, locais.MUNICIPIO_VILLANUEVA_CASTILLEJOS, locais.COMARCA_EL_ANDEVALO,
+            locais.PROVINCIA_HUELVA)
 
         tavira_norte = local_portugal.LocalPortugal(
             TAVIRA_NORTE,
@@ -3175,8 +3222,10 @@ class Mapa:
              CRUZAMENTO_N125_M1347: [SUDOESTE, CRUZAMENTO_N125_M1347__TAVIRA_SUL, CARRO]},
             37.123689, -7.651181, 16, locais.FREGUESIA_SANTIAGO_TAVIRA, locais.CONCELHO_TAVIRA)
 
-        tenencia = local.Local(TENENCIA,
-                               {IC27_SAIDA_5: [SUDOESTE, IC27_SAIDA_5__TENENCIA, CARRO]})
+        tenencia = local_portugal.LocalPortugal(
+            TENENCIA,
+            {IC27_SAIDA_5: [SUDOESTE, IC27_SAIDA_5__TENENCIA, CARRO]},
+            37.367805, -7.493125, 103, locais.FREGUESIA_ODELEITE, locais.CONCELHO_CASTRO_MARIM)
 
         torneiro = local_portugal.LocalPortugal(
             TORNEIRO,
@@ -3440,6 +3489,7 @@ class Mapa:
         self.lista_locais.append(cruzamento_n122_m507_2)
         self.lista_locais.append(cruzamento_n122_m512)
         self.lista_locais.append(cruzamento_n122_n123)
+        self.lista_locais.append(cruzamento_n124_m507_1)
         self.lista_locais.append(cruzamento_n125_m1347)
         self.lista_locais.append(cruzamento_n125_m516_2)
         self.lista_locais.append(cruzamento_n125_n125_6)
@@ -3596,6 +3646,7 @@ class Mapa:
         self.lista_locais.append(sevilha_avenida_expo_92)
         self.lista_locais.append(sevilha_parque_alamillo)
         self.lista_locais.append(sitio_da_fabrica)
+        self.lista_locais.append(tacoes)
         self.lista_locais.append(tanoeiro)
         self.lista_locais.append(tariquejo)
         self.lista_locais.append(tavira_norte)

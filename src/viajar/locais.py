@@ -56,6 +56,7 @@ MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"
 MUNICIPIO_SANTIPONCE = "Santiponce"  # Sevilha
 MUNICIPIO_SEVILHA = "Sevilha"  # Sevilha
 MUNICIPIO_UMBRETE = "Umbrete"  # Sevilha
+MUNICIPIO_VILLANUEVA_CASTILLEJOS = "Villanueva de los Castillejos"  # Huelva
 MUNICIPIO_VILLARRASA = "Villarrasa"  # Huelva
 
 #  Distritos de Sevilha
@@ -159,6 +160,7 @@ FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo Antóni
 FREGUESIA_VRSA = "Vila Real de Santo António"  # Vila Real de Santo António
 
 #  Freguesias do Baixo Alentejo
+FREGUESIA_CORTE_DO_PINTO = "Corte do Pinto"  # Mértola
 FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"  # Mértola
 FREGUESIA_MERTOLA = "Mértola"  # Mértola
 FREGUESIA_SALVADOR_SERPA = "Salvador"  # Serpa
@@ -166,6 +168,7 @@ FREGUESIA_SANTA_MARIA_FEIRA_BEJA = "Santa Maria da Feira"  # Beja
 FREGUESIA_SANTA_MARIA_SERPA = "Santa Maria"  # Serpa
 FREGUESIA_SANTANA_CAMBAS = "Santana de Cambas"  # Mértola
 FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
+FREGUESIA_TRINDADE_BEJA = "Trindade"  # Beja
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Ilhas da Ria Formosa
@@ -185,12 +188,14 @@ M1060 = "M1060"
 M1063 = "M1063"
 M1347 = "M1347"
 M507 = "M507"
+M507_1 = "M507-1"
 M507_2 = "M507-2"
 M509 = "M509"
 M512 = "M512"
 M516_2 = "M516-2"
 M520 = "M520"
 N122 = "N122"
+N124 = "N124"
 N123 = "N123"
 N125 = "N125"
 N125_6 = "N125-6"
