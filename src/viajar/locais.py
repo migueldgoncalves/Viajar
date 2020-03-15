@@ -28,7 +28,7 @@ COMARCA_SIERRA_NORTE_SEVILHA = "Sierra Norte de Sevilha"
 MUNICIPIO_ALCALA_GUADAIRA = "Alcalá de Guadaíra"  # Sevilha
 MUNICIPIO_ALMENSILLA = "Almensilla"  # Sevilha
 MUNICIPIO_AYAMONTE = "Ayamonte"  # Huelva
-MUNICIPIO_BENACAZON = "Benacazón"
+MUNICIPIO_BENACAZON = "Benacazón"  # Sevilha
 MUNICIPIO_BOLLULLOS_MITACION = "Bollullos de la Mitación"  # Sevilha
 MUNICIPIO_BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"  # Huelva
 MUNICIPIO_BONARES = "Bonares"  # Huelva
@@ -39,7 +39,7 @@ MUNICIPIO_CARTAYA = "Cartaya"  # Huelva
 MUNICIPIO_CASTILLEJA_DE_LA_CUESTA = "Castilleja de la Cuesta"  # Sevilha
 MUNICIPIO_CHUCENA = "Chucena"  # Huelva
 MUNICIPIO_DOS_HERMANAS = "Dos Hermanas"  # Sevilha
-MUNICIPIO_EL_GRANADO = "El Granado"
+MUNICIPIO_EL_GRANADO = "El Granado"  # Huelva
 MUNICIPIO_ESPARTINAS = "Espartinas"  # Sevilha
 MUNICIPIO_GIBRALEON = "Gibraleón"  # Huelva
 MUNICIPIO_GUILLENA = "Guillena"  # Sevilha
@@ -50,12 +50,15 @@ MUNICIPIO_LA_RINCONADA = "La Rinconada"  # Sevilha
 MUNICIPIO_LEPE = "Lepe"  # Huelva
 MUNICIPIO_PALOMARES_RIO = "Palomares del Río"  # Sevilha
 MUNICIPIO_SALTERAS = "Salteras"  # Sevilha
+MUNICIPIO_SAN_BARTOLOME_TORRE = "San Bartolomé de la Torre"  # Huelva
 MUNICIPIO_SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"  # Sevilha
 MUNICIPIO_SAN_JUAN_PUERTO = "San Juan del Puerto"  # Huelva
-MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"
+MUNICIPIO_SAN_SILVESTRE_GUZMAN = "San Silvestre de Guzmán"  # Huelva
+MUNICIPIO_SANLUCAR_GUADIANA = "Sanlúcar de Guadiana"  # Huelva
 MUNICIPIO_SANTIPONCE = "Santiponce"  # Sevilha
 MUNICIPIO_SEVILHA = "Sevilha"  # Sevilha
 MUNICIPIO_UMBRETE = "Umbrete"  # Sevilha
+MUNICIPIO_VILLABLANCA = "Villablanca"  # Huelva
 MUNICIPIO_VILLANUEVA_CASTILLEJOS = "Villanueva de los Castillejos"  # Huelva
 MUNICIPIO_VILLARRASA = "Villarrasa"  # Huelva
 
@@ -122,10 +125,23 @@ algarve = [CONCELHO_ALCOUTIM, CONCELHO_CASTRO_MARIM, CONCELHO_FARO, CONCELHO_LOU
 baixo_alentejo_entidade = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 baixo_alentejo_regiao = [CONCELHO_BEJA, CONCELHO_MERTOLA, CONCELHO_SERPA]
 
-#  Freguesias do Algarve
+#  Freguesias do Distrito de Beja
+FREGUESIA_CORTE_DO_PINTO = "Corte do Pinto"  # Mértola
+FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"  # Mértola
+FREGUESIA_MERTOLA = "Mértola"  # Mértola
+FREGUESIA_SALVADOR_SERPA = "Salvador"  # Serpa
+FREGUESIA_SANTA_MARIA_FEIRA_BEJA = "Santa Maria da Feira"  # Beja
+FREGUESIA_SANTA_MARIA_SERPA = "Santa Maria"  # Serpa
+FREGUESIA_SANTANA_CAMBAS = "Santana de Cambas"  # Mértola
+FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
+FREGUESIA_TRINDADE_BEJA = "Trindade"  # Beja
+FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
+
+#  Freguesias do Distrito de Faro
 FREGUESIA_ALCOUTIM = "Alcoutim"  # Alcoutim
 FREGUESIA_ALMANCIL = "Almancil"  # Loulé
 FREGUESIA_ALTURA = "Altura"  # Castro Marim
+FREGUESIA_AMEIXAL = "Ameixal"  # Loulé
 FREGUESIA_AZINHAL = "Azinhal"  # Castro Marim
 FREGUESIA_CABANAS_TAVIRA = "Cabanas de Tavira"  # Tavira
 FREGUESIA_CACHOPO = "Cachopo"  # Tavira
@@ -158,18 +174,6 @@ FREGUESIA_SE_FARO = "Sé"  # Faro
 FREGUESIA_VAQUEIROS = "Vaqueiros"  # Alcoutim
 FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo António
 FREGUESIA_VRSA = "Vila Real de Santo António"  # Vila Real de Santo António
-
-#  Freguesias do Baixo Alentejo
-FREGUESIA_CORTE_DO_PINTO = "Corte do Pinto"  # Mértola
-FREGUESIA_ESPIRITO_SANTO = "Espírito Santo"  # Mértola
-FREGUESIA_MERTOLA = "Mértola"  # Mértola
-FREGUESIA_SALVADOR_SERPA = "Salvador"  # Serpa
-FREGUESIA_SANTA_MARIA_FEIRA_BEJA = "Santa Maria da Feira"  # Beja
-FREGUESIA_SANTA_MARIA_SERPA = "Santa Maria"  # Serpa
-FREGUESIA_SANTANA_CAMBAS = "Santana de Cambas"  # Mértola
-FREGUESIA_SAO_BRISSOS = "São Brissos"  # Beja
-FREGUESIA_TRINDADE_BEJA = "Trindade"  # Beja
-FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Ilhas da Ria Formosa
 ILHA_DA_ARMONA = "Ilha da Armona"
