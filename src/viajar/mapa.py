@@ -74,6 +74,7 @@ ALCOUTIM = "Alcoutim"
 ALMADA_DE_OURO = "Almada de Ouro"
 ALTA_MORA = "Alta Mora"
 ALTURA = "Altura"
+AMEIXAL = "Ameixal"
 ANTIGA_ESTACAO_ISLA_CRISTINA = "Antiga Estação de Isla Cristina - Pozo del Camino"
 AREA_REPOUSO_CASTRO_MARIM = "Área de Repouso de Castro Marim"
 AREA_SERVICO_OLHAO = "Área de Serviço de Olhão"
@@ -219,6 +220,7 @@ MENIRES_DO_LAVAJO = "Menires do Lavajo"
 MERTOLA = "Mértola"
 MESQUITA = "Mesquita"
 MINAS_SAO_DOMINGOS = "Minas de São Domingos"
+MIRADOURO_DO_CALDEIRAO = "Miradouro do Caldeirão"
 MONCARAPACHO = "Moncarapacho"
 MONTE_ALTO = "Monte Alto"
 MONTE_FRANCISCO = "Monte Francisco"
@@ -456,6 +458,8 @@ ALTA_MORA__FURNAZINHAS = 13.0
 ALTA_MORA__VAQUEIROS = 21.3
 ALTURA__CRUZAMENTO_N125_N125_6 = 2.2
 ALTURA__VILA_NOVA_DE_CACELA = 3.5
+AMEIXAL__CORTE_JOAO_MARQUES = 8.7
+AMEIXAL__MIRADOURO_DO_CALDEIRAO = 9.7
 ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE = 7.3
 ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA = 3.0
 ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO = 0.9
@@ -484,6 +488,7 @@ BARRAGEM_DO_BELICHE__BELICHE = 0.6
 BARRAGEM_DO_BELICHE__SENTINELA = 3.6
 BARRAGEM_DO_BELICHE__VALE_DE_ANDREU = 1.3
 BARRANCO_DAS_PEREIRAS__FOZ_DE_ODELEITE = 2.4
+BARRANCO_DO_VELHO__MIRADOURO_DO_CALDEIRAO = 10.6
 BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO = 0.9
 BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL = 14.1
 BARRIADA_DE_CANELA__PRAIA_ISLA_CANELA = 4.3
@@ -1303,6 +1308,13 @@ class Mapa:
              VILA_NOVA_DE_CACELA: [OESTE, ALTURA__VILA_NOVA_DE_CACELA, CARRO]},
             37.176902, -7.499652, 11, locais.FREGUESIA_ALTURA, locais.CONCELHO_CASTRO_MARIM)
 
+        ameixal = local_portugal.LocalPortugal(
+            AMEIXAL,
+            {MIRADOURO_DO_CALDEIRAO: [SUL, AMEIXAL__MIRADOURO_DO_CALDEIRAO, CARRO],
+             CORTE_JOAO_MARQUES: [ESTE, AMEIXAL__CORTE_JOAO_MARQUES, CARRO]},
+            37.364243, -7.963277, 418, locais.FREGUESIA_AMEIXAL, locais.CONCELHO_LOULE)
+        ameixal.add_sentido(MIRADOURO_DO_CALDEIRAO, ["Faro", "São Brás de Alportel"], ["N2"])
+
         antiga_estacao_isla_cristina = local_espanha.LocalEspanha(
             ANTIGA_ESTACAO_ISLA_CRISTINA,
             {ISLA_CRISTINA: [SUL, ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA, CARRO],
@@ -1389,9 +1401,11 @@ class Mapa:
         barranco_do_velho = local_portugal.LocalPortugal(
             BARRANCO_DO_VELHO,
             {SAO_BRAS_DE_ALPORTEL: [SUL, BARRANCO_DO_VELHO__SAO_BRAS_DE_ALPORTEL, CARRO],
-             PARQUE_TEMATICO_SERRA_CALDEIRAO: [NORDESTE, BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO]},
+             PARQUE_TEMATICO_SERRA_CALDEIRAO: [NORDESTE, BARRANCO_DO_VELHO__PARQUE_TEMATICO_SERRA_CALDEIRAO, CARRO],
+             MIRADOURO_DO_CALDEIRAO: [NORTE, BARRANCO_DO_VELHO__MIRADOURO_DO_CALDEIRAO, CARRO]},
             37.237686, -7.936897, 471, locais.FREGUESIA_SALIR, locais.CONCELHO_LOULE)
         barranco_do_velho.add_sentido(SAO_BRAS_DE_ALPORTEL, ["Faro"], ["N2"])
+        barranco_do_velho.add_sentido(MIRADOURO_DO_CALDEIRAO, ["Chaves", "Almodôvar"], ["N2"])
 
         barriada_de_canela = local_espanha.LocalEspanha(
             BARRIADA_DE_CANELA,
@@ -1647,7 +1661,8 @@ class Mapa:
         corte_joao_marques = local_portugal.LocalPortugal(
             CORTE_JOAO_MARQUES,
             {MARTINLONGO: [NORDESTE, CORTE_JOAO_MARQUES__MARTINLONGO, CARRO],
-             CACHOPO: [SUDESTE, CACHOPO__CORTE_JOAO_MARQUES, CARRO]},
+             CACHOPO: [SUDESTE, CACHOPO__CORTE_JOAO_MARQUES, CARRO],
+             AMEIXAL: [OESTE, AMEIXAL__CORTE_JOAO_MARQUES, CARRO]},
             37.371040, -7.900949, 295, locais.FREGUESIA_AMEIXAL, locais.CONCELHO_LOULE)
 
         corte_nova = local_portugal.LocalPortugal(
@@ -2484,6 +2499,14 @@ class Mapa:
             {MOREANES: [SUDOESTE, MINAS_SAO_DOMINGOS__MOREANES, CARRO],
              VALE_DO_POCO: [NORTE, MINAS_SAO_DOMINGOS__VALE_DO_POCO, CARRO]},
             37.673647, -7.498400, 155, locais.FREGUESIA_CORTE_DO_PINTO, locais.CONCELHO_MERTOLA)
+
+        miradouro_do_caldeirao = local_portugal.LocalPortugal(
+            MIRADOURO_DO_CALDEIRAO,
+            {BARRANCO_DO_VELHO: [SUL, BARRANCO_DO_VELHO__MIRADOURO_DO_CALDEIRAO, CARRO],
+             AMEIXAL: [NORTE, AMEIXAL__MIRADOURO_DO_CALDEIRAO, CARRO]},
+            37.301705, -7.950390, 577, locais.FREGUESIA_AMEIXAL, locais.CONCELHO_LOULE)
+        miradouro_do_caldeirao.add_sentido(BARRANCO_DO_VELHO, ["Faro", "São Brás de Alportel"], ["N2"])
+        miradouro_do_caldeirao.add_sentido(AMEIXAL, ["Chaves", "Almodôvar"], ["N2"])
 
         moncarapacho = local_portugal.LocalPortugal(
             MONCARAPACHO,
@@ -3513,6 +3536,7 @@ class Mapa:
         self.lista_locais.append(almada_de_ouro)
         self.lista_locais.append(alta_mora)
         self.lista_locais.append(altura)
+        self.lista_locais.append(ameixal)
         self.lista_locais.append(antiga_estacao_isla_cristina)
         self.lista_locais.append(area_repouso_castro_marim)
         self.lista_locais.append(area_servico_olhao)
@@ -3658,6 +3682,7 @@ class Mapa:
         self.lista_locais.append(mesquita)
         self.lista_locais.append(marismas_isla_cristina)
         self.lista_locais.append(minas_sao_domingos)
+        self.lista_locais.append(miradouro_do_caldeirao)
         self.lista_locais.append(moncarapacho)
         self.lista_locais.append(monte_alto)
         self.lista_locais.append(monte_francisco)
