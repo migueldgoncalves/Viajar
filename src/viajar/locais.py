@@ -169,7 +169,9 @@ FREGUESIA_SANTA_MARIA_TAVIRA = "Santa Maria"  # Tavira
 FREGUESIA_SANTIAGO_TAVIRA = "Santiago"  # Tavira
 FREGUESIA_SANTO_ESTEVAO_TAVIRA = "Santo Estêvão"  # Tavira
 FREGUESIA_SAO_BRAS_ALPORTEL = "São Brás de Alportel"  # São Brás de Alportel
+FREGUESIA_SAO_CLEMENTE_LOULE = "São Clemente"  # Loulé
 FREGUESIA_SAO_PEDRO_FARO = "São Pedro"  # Faro
+FREGUESIA_SAO_SEBASTIAO_LOULE = "São Sebastião"  # Loulé
 FREGUESIA_SE_FARO = "Sé"  # Faro
 FREGUESIA_VAQUEIROS = "Vaqueiros"  # Alcoutim
 FREGUESIA_VILA_NOVA_CACELA = "Vila Nova de Cacela"  # Vila Real de Santo António
@@ -198,13 +200,16 @@ M509 = "M509"
 M512 = "M512"
 M516_2 = "M516-2"
 M520 = "M520"
+M521 = "M521"
 N122 = "N122"
 N124 = "N124"
 N123 = "N123"
 N125 = "N125"
+N125_4 = "N125-4"
 N125_6 = "N125-6"
 N265 = "N265"
 N392 = "N392"
+N396 = "N396"
 N398 = "N398"
 
 
