@@ -217,6 +217,10 @@ N392 = "N392"
 N396 = "N396"
 N398 = "N398"
 
+#  Áreas protegidas
+PARQUE_NATURAL_RIA_FORMOSA = "Parque Natural da Ria Formosa"
+PARQUE_NATURAL_VALE_GUADIANA = "Parque Natural do Vale do Guadiana"
+
 
 #  #  #  #  #  #  #  #  #  #  #  #  #  #  #
 #   Funções relativas a nomes de locais   #

@@ -1,4 +1,4 @@
-from viajar import local, locais
+from viajar import local, nomes
 
 
 class LocalPortugal(local.Local):
@@ -10,12 +10,10 @@ class LocalPortugal(local.Local):
     regiao = ''
 
     def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, freguesia, concelho):
-        super().__init__(nome, locais_circundantes)
-        self.set_coordenadas(latitude, longitude)
-        self.set_altitude(altitude)
+        super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
         self.set_freguesia(freguesia)
         self.set_concelho(concelho)
-        self.set_pais(locais.PORTUGAL)
+        self.set_pais(nomes.PORTUGAL)
         self.calcular_entidades_geograficas()
 
     def set_freguesia(self, freguesia):
@@ -51,22 +49,22 @@ class LocalPortugal(local.Local):
     #  O concelho permite obter o distrito, a entidade intermunicipal e a região
     def calcular_entidades_geograficas(self):
         #  Obter o distrito
-        if self.concelho in locais.concelhos_beja:
-            self.set_distrito(locais.DISTRITO_BEJA)
-        elif self.concelho in locais.concelhos_faro:
-            self.set_distrito(locais.DISTRITO_FARO)
+        if self.concelho in nomes.concelhos_beja:
+            self.set_distrito(nomes.DISTRITO_BEJA)
+        elif self.concelho in nomes.concelhos_faro:
+            self.set_distrito(nomes.DISTRITO_FARO)
 
         #  Obter a entidade intermunicipal
-        if self.concelho in locais.baixo_alentejo_entidade:
-            self.set_entidade_intermunicipal(locais.BAIXO_ALENTEJO)
-        elif self.concelho in locais.algarve:
-            self.set_entidade_intermunicipal(locais.ALGARVE)
+        if self.concelho in nomes.baixo_alentejo_entidade:
+            self.set_entidade_intermunicipal(nomes.BAIXO_ALENTEJO)
+        elif self.concelho in nomes.algarve:
+            self.set_entidade_intermunicipal(nomes.ALGARVE)
 
         #  Obter a região
-        if self.concelho in locais.baixo_alentejo_regiao:
-            self.set_regiao(locais.BAIXO_ALENTEJO)
-        elif self.concelho in locais.algarve:
-            self.set_regiao(locais.ALGARVE)
+        if self.concelho in nomes.baixo_alentejo_regiao:
+            self.set_regiao(nomes.BAIXO_ALENTEJO)
+        elif self.concelho in nomes.algarve:
+            self.set_regiao(nomes.ALGARVE)
 
     #  Ex: Odeleite, Castro Marim, Distrito de Faro
     def imprimir_info_breve(self):
@@ -79,6 +77,8 @@ class LocalPortugal(local.Local):
         else:
             print("Altitude:", self.altitude, "metros")
         print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
+        if self.info_extra != '':
+            print(self.info_extra)
         print("Freguesia:", self.freguesia)
         print("Concelho:", self.concelho)
         print("Distrito:", self.distrito)

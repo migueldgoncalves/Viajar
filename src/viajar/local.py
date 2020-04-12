@@ -10,12 +10,17 @@ class Local:
     coordenadas = (0, 0)  # Ex: (37.215788, -7.405922)
     altitude = 0  # Metros
     pais = ''
+    info_extra = ''  # Informação extra associada ao local. Ex: Reserva natural
 
-    def __init__(self, nome, locais_circundantes):
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude):
         self.nome = nome
         self.locais_circundantes = locais_circundantes
         self.sentidos = {}  # Necessário para tornar uma variável de classe numa variável de instância
         self.sentidos_info_extra = {}
+        self.coordenadas = (latitude, longitude)
+        self.altitude = altitude
+        self.pais = ''
+        self.info_extra = ''
 
     def set_nome(self, nome):
         self.nome = nome
@@ -37,6 +42,9 @@ class Local:
 
     def set_pais(self, pais):
         self.pais = pais
+
+    def set_info_extra(self, info_extra):
+        self.info_extra = info_extra
 
     def add_local_circundante(self, local, ponto_cardeal, distancia):
         self.locais_circundantes[local] = [ponto_cardeal, distancia]
@@ -109,6 +117,9 @@ class Local:
 
     def get_pais(self):
         return self.pais
+
+    def get_info_extra(self):
+        return self.info_extra
 
     def imprimir_info_breve(self):
         print("Está em", self.nome)
