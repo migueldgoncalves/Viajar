@@ -57,6 +57,7 @@ A_66_SAIDA_798 = nomes.nome_saida_via_rapida(nomes.A_66, 798)
 A_66_SAIDA_805 = nomes.nome_saida_via_rapida(nomes.A_66, 805)
 A_66_SAIDA_808 = nomes.nome_saida_via_rapida(nomes.A_66, 808)
 A_8058_SAIDA_0 = nomes.nome_saida_via_rapida(nomes.A_8058, 0)
+A22_SAIDA_11 = nomes.nome_saida_via_rapida(nomes.A22, 11)
 A22_SAIDA_12 = nomes.nome_saida_via_rapida(nomes.A22, 12)
 A22_SAIDA_13 = nomes.nome_saida_via_rapida(nomes.A22, 13)
 A22_SAIDA_14 = nomes.nome_saida_via_rapida(nomes.A22, 14)
@@ -80,7 +81,9 @@ ALTE = "Alte"
 ALTURA = "Altura"
 AMEIXAL = "Ameixal"
 ANTIGA_ESTACAO_ISLA_CRISTINA = "Antiga Estação de Isla Cristina - Pozo del Camino"
+AQUASHOW = "Aquashow"
 AREA_REPOUSO_CASTRO_MARIM = "Área de Repouso de Castro Marim"
+AREA_SERVICO_LOULE = "Área de Serviço de Loulé"
 AREA_SERVICO_OLHAO = "Área de Serviço de Olhão"
 AYAMONTE = "Ayamonte"
 AZINHAL = "Azinhal"
@@ -97,6 +100,7 @@ BARRIADA_DE_CANELA = "Barriada de Canela"
 BEJA = "Beja"
 BELICHE = "Beliche"
 BOAVISTA = "Boavista"
+BOLIQUEIME = "Boliqueime"
 BOLLULLOS_PAR_CONDADO = "Bollullos Par del Condado"
 BOTELHAS = "Botelhas"
 BRINHOSA = "Brinhosa"
@@ -161,6 +165,7 @@ CRUZAMENTO_N124_M507_1 = nomes.nome_cruzamento_estradas(nomes.N124, nomes.M507_1
 CRUZAMENTO_N124_N396 = nomes.nome_cruzamento_estradas(nomes.N124, nomes.N396)
 CRUZAMENTO_N125_M1347 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.M1347)
 CRUZAMENTO_N125_M516_2 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.M516_2)
+CRUZAMENTO_N125_M526 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.M526)
 CRUZAMENTO_N125_N125_6 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.N125_6)
 CRUZAMENTO_N125_N396 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.N396)
 CRUZAMENTO_N125_N398 = nomes.nome_cruzamento_estradas(nomes.N125, nomes.N398)
@@ -173,6 +178,7 @@ DUNAS_DE_VRSA = "Dunas de Vila Real de Santo António"
 EL_GRANADO = "El Granado"
 ESPIRITO_SANTO = "Espírito Santo"
 ESTACAO_ALMANCIL = "Estação de Almancil"
+ESTACAO_BOLIQUEIME = "Estação de Boliqueime"
 ESTACAO_BOM_JOAO = "Estação de Bom João"
 ESTACAO_CACELA = "Estação de Cacela"
 ESTACAO_CASTRO_MARIM = "Estação de Castro Marim"
@@ -199,6 +205,7 @@ FORUM_ALGARVE = "Forum Algarve"
 FOZ_DE_ODELEITE = "Foz de Odeleite"
 FURNAZINHAS = "Furnazinhas"
 FUSETA = "Fuseta"
+GELVES = "Gelves"
 GIBRALEON = "Gibraleón"
 GIOES = "Giões"
 GUERREIROS_DO_RIO = "Guerreiros do Rio"
@@ -250,6 +257,7 @@ MURTEIRA_DE_BAIXO = "Murteira de Baixo"
 MURTEIRA_DE_CIMA = "Murteira de Cima"
 ODELEITE = "Odeleite"
 OLHAO = "Olhão"
+OLHOS_DE_AGUA = "Olhos de Água"
 PALMEIRA = "Palmeira"
 PARQUE_EMPRESARIAL_ALCOUTIM = "Parque Empresarial de Alcoutim"
 PARQUE_MINEIRO_COVA_MOUROS = "Parque Mineiro Cova dos Mouros"
@@ -273,6 +281,7 @@ POZO_DEL_CAMINO = "Pozo del Camino"
 PRAIA_CABANAS_TAVIRA = "Praia de Cabanas de Tavira"
 PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
 PRAIA_DA_BARRETA = "Praia da Barreta"
+PRAIA_DA_FALESIA = "Praia da Falésia"
 PRAIA_DA_FUSETA = "Praia da Fuseta"
 PRAIA_DE_FARO = "Praia de Faro"
 PRAIA_DO_BARRIL = "Praia do Barril"
@@ -281,6 +290,7 @@ PRAIA_ISLA_CANELA = "Praia de Isla Canela"
 PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 PUNTA_DEL_MORAL = "Punta del Moral"
+QUARTEIRA = "Quarteira"
 QUATRO_AGUAS = "Quatro Águas"
 QUEBRADAS = "Quebradas"
 QUELFES = "Quelfes"
@@ -301,6 +311,7 @@ RUINAS_ROMANAS_MILREU = "Ruínas Romanas de Milreu"
 SALGUEIROS = "Salgueiros"
 SALIR = "Salir"
 SAN_BARTOLOME_DE_LA_TORRE = "San Bartolomé de la Torre"
+SAN_JUAN_AZNALFARACHE = "San Juan de Aznalfarache"
 SAN_SILVESTRE_DE_GUZMAN = "San Silvestre de Guzmán"
 SANLUCAR_DE_GUADIANA = "Sanlúcar de Guadiana"
 SANTA_BARBARA_NEXE = "Santa Bárbara de Nexe"
@@ -355,6 +366,7 @@ VARIANTE_FARO_N2 = "Variante de Faro - Nó com a N2"
 VICENTES_ALCOUTIM = "Vicentes, Alcoutim"
 VILA_NOVA_DE_CACELA = "Vila Nova de Cacela"
 VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"
+VILAMOURA = "Vilamoura"
 VILLABLANCA = "Villablanca"
 VILLANUEVA_DE_LOS_CASTILLEJOS = "Villanueva de los Castillejos"
 VISTA_REAL = "Vista Real"
@@ -424,9 +436,14 @@ A_66_SAIDA_795__A_66_SAIDA_798 = 3.3
 A_66_SAIDA_798__A_66_SAIDA_805 = 6.9
 A_66_SAIDA_805__A_66_SAIDA_808 = 3.2
 A_66_SAIDA_808__CRUZAMENTO_A_66_SE_30 = 2.2
+A_8058_SAIDA_0__SAN_JUAN_AZNALFARACHE = 1.2
 A_8058_SAIDA_0__SE_30_SAIDA_15 = 1.1
+A22_SAIDA_11__AREA_SERVICO_LOULE = 1.7
+A22_SAIDA_11__BOLIQUEIME = 4.7
+A22_SAIDA_11__SANTUARIO_NOSSA_SENHORA_PIEDADE = 9.5
 A22_SAIDA_12__A22_SAIDA_13 = 5.3
 A22_SAIDA_12__ALMANCIL = 2.3
+A22_SAIDA_12__AREA_SERVICO_LOULE = 6.7
 A22_SAIDA_12__CRUZAMENTO_N125_N396 = 2.7
 A22_SAIDA_12__LOULE = 3.4
 A22_SAIDA_13__A22_SAIDA_14 = 7.0
@@ -496,6 +513,9 @@ AMEIXAL__SALIR = 21.7
 ANTIGA_ESTACAO_ISLA_CRISTINA__AYAMONTE = 7.3
 ANTIGA_ESTACAO_ISLA_CRISTINA__ISLA_CRISTINA = 3.0
 ANTIGA_ESTACAO_ISLA_CRISTINA__POZO_DEL_CAMINO = 0.9
+AQUASHOW__CRUZAMENTO_N125_N396 = 2.3
+AQUASHOW__ESTACAO_LOULE = 2.8
+AQUASHOW__QUARTEIRA = 3.7
 AREA_REPOUSO_CASTRO_MARIM__PONTE_INTERNACIONAL_GUADIANA = 1.7
 AYAMONTE__COSTA_ESURI = 7.6
 AYAMONTE__BARRIADA_DE_CANELA = 2.2
@@ -531,6 +551,8 @@ BEJA__SERPA = 27.9
 BELICHE__MONTES_CASTELHANOS = 4.6
 BOAVISTA__ESPIRITO_SANTO = 6.6
 BOAVISTA__PENHA_DA_AGUIA = 3.4
+BOLIQUEIME__CRUZAMENTO_N125_M526 = 3.1
+BOLIQUEIME__ESTACAO_BOLIQUEIME = 2.2
 BOTELHAS__CABECO_JUNQUEIRA = 1.2
 BOTELHAS__VALE_DE_ANDREU = 2.3
 BRINHOSA__CRUZAMENTO_M509_M512 = 1.0
@@ -645,6 +667,10 @@ CRUZAMENTO_N125_M516_2__CRUZAMENTO_N125_N398 = 5.9
 CRUZAMENTO_N125_M516_2__ESTACAO_FUSETA_MONCARAPACHO = 0.9
 CRUZAMENTO_N125_M516_2__LIVRAMENTO = 2.8
 CRUZAMENTO_N125_M516_2__MONCARAPACHO = 3.8
+CRUZAMENTO_N125_M526__CRUZAMENTO_N125_N396 = 8.2
+CRUZAMENTO_N125_M526__ESTACAO_BOLIQUEIME = 2.3
+CRUZAMENTO_N125_M526__OLHOS_DE_AGUA = 6.7
+CRUZAMENTO_N125_M526__VILAMOURA = 5.7
 CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM = 1.4
 CRUZAMENTO_N125_N125_6__ESTACAO_MONTE_GORDO = 3.4
 CRUZAMENTO_N125_N125_6__PRAIA_VERDE = 1.3
@@ -670,6 +696,7 @@ EL_GRANADO__VILLANUEVA_DE_LOS_CASTILLEJOS = 14.4
 ESPIRITO_SANTO__SEDAS = 4.7
 ESTACAO_ALMANCIL__ESTACAO_LOULE = 3.4
 ESTACAO_ALMANCIL__ESTACAO_PARQUE_CIDADES = 4.2
+ESTACAO_BOLIQUEIME__ESTACAO_LOULE = 8.6
 ESTACAO_BOM_JOAO__ESTACAO_FARO = 2.2
 ESTACAO_BOM_JOAO__FARO_SE = 1.7
 ESTACAO_BOM_JOAO__OLHAO = 7.8
@@ -720,6 +747,8 @@ FURNAZINHAS__VAQUEIROS = 17.6
 FUSETA__ILHA_DA_ARMONA = 10.9
 FUSETA__PRAIA_DA_FUSETA = 1.3
 FUSETA__PRAIA_DO_BARRIL = 8.6
+GELVES__SAN_JUAN_AZNALFARACHE = 3.0
+GELVES__SE_40_REINICIO = 4.0
 GIBRALEON__SAN_BARTOLOME_DE_LA_TORRE = 15.3
 GIOES__SERRO_VINHA_BAIXO = 9.1
 GUERREIROS_DO_RIO__LARANJEIRAS = 1.2
@@ -786,6 +815,7 @@ MURTEIRA_DE_CIMA__SENTINELA = 1.9
 OLHAO__PECHAO = 4.9
 OLHAO__QUELFES = 4.7
 OLHAO__VARIANTE_FARO_M518 = 6.9
+OLHOS_DE_AGUA__PRAIA_DA_FALESIA = 3.9
 PARQUE_MINEIRO_COVA_MOUROS__VAQUEIROS = 4.3
 PECHAO__QUELFES = 5.1
 PEDRAS_DEL_REI__SANTA_LUZIA = 2.3
@@ -809,6 +839,8 @@ PRAIA_DO_BARRIL__PRAIA_ILHA_TAVIRA = 5.8
 PRAIA_ILHA_TAVIRA__QUATRO_AGUAS = 0.7
 PRAIA_ISLA_CANELA__PUNTA_DEL_MORAL = 4.3
 PUERTO_DE_LA_LAJA__SANLUCAR_DE_GUADIANA = 7.0
+QUARTEIRA__VALE_DO_LOBO = 7.2
+QUARTEIRA__VILAMOURA = 3.2
 QUATRO_AGUAS__SANTA_LUZIA = 3.4
 QUATRO_AGUAS__TAVIRA_NORTE = 2.4
 QUATRO_AGUAS__TAVIRA_SUL = 2.9
@@ -1217,17 +1249,29 @@ class Mapa:
 
         a_8058_saida_0 = local_espanha.LocalEspanha(
             A_8058_SAIDA_0,
-            {SE_30_SAIDA_15: [NORDESTE, A_8058_SAIDA_0__SE_30_SAIDA_15, CARRO]},
+            {SE_30_SAIDA_15: [NORDESTE, A_8058_SAIDA_0__SE_30_SAIDA_15, CARRO],
+             SAN_JUAN_AZNALFARACHE: [SUL, A_8058_SAIDA_0__SAN_JUAN_AZNALFARACHE, CARRO]},
             37.365542, -6.032121, 23, nomes.MUNICIPIO_SAN_JUAN_AZNALFARACHE, nomes.COMARCA_METROPOLITANA_SEVILHA,
             nomes.PROVINCIA_SEVILHA)
         a_8058_saida_0.add_sentido(SE_30_SAIDA_15, ["Sevilha"], [])
+        a_8058_saida_0.add_sentido(SAN_JUAN_AZNALFARACHE, ["Coria del Río"], [])
+
+        a22_saida_11 = local_portugal.LocalPortugal(
+            A22_SAIDA_11,
+            {AREA_SERVICO_LOULE: [SUDESTE, A22_SAIDA_11__AREA_SERVICO_LOULE, CARRO],
+             BOLIQUEIME: [SUDOESTE, A22_SAIDA_11__BOLIQUEIME, CARRO],
+             SANTUARIO_NOSSA_SENHORA_PIEDADE: [ESTE, A22_SAIDA_11__SANTUARIO_NOSSA_SENHORA_PIEDADE, CARRO]},
+            37.146803, -8.125147, 104, nomes.FREGUESIA_BOLIQUEIME, nomes.CONCELHO_LOULE)
+        a22_saida_11.add_sentido(AREA_SERVICO_LOULE, ["ESPANHA", "Faro"], [])
 
         a22_saida_12 = local_portugal.LocalPortugal(
             A22_SAIDA_12,
-            {A22_SAIDA_13: [SUDESTE, A22_SAIDA_12__A22_SAIDA_13, CARRO],
+            {AREA_SERVICO_LOULE: [NOROESTE, A22_SAIDA_12__AREA_SERVICO_LOULE, CARRO],
+             A22_SAIDA_13: [SUDESTE, A22_SAIDA_12__A22_SAIDA_13, CARRO],
              LOULE: [NORDESTE, A22_SAIDA_12__LOULE, CARRO],
              CRUZAMENTO_N125_N396: [SUL, A22_SAIDA_12__CRUZAMENTO_N125_N396, CARRO]},
             37.120512, -8.040666, 80, nomes.FREGUESIA_SAO_CLEMENTE_LOULE, nomes.CONCELHO_LOULE)
+        a22_saida_12.add_sentido(AREA_SERVICO_LOULE, ["Lisboa", "Portimão"], [])
         a22_saida_12.add_sentido(A22_SAIDA_13, ["ESPANHA", "Faro"], [])
 
         a22_saida_13 = local_portugal.LocalPortugal(
@@ -1421,6 +1465,13 @@ class Mapa:
             nomes.PROVINCIA_HUELVA)
         antiga_estacao_isla_cristina.add_sentido(AYAMONTE, ["Ayamonte"], ["Antiga Linha Gibraleón-Ayamonte"])
 
+        aquashow = local_portugal.LocalPortugal(
+            AQUASHOW,
+            {ESTACAO_LOULE: [NORDESTE, AQUASHOW__ESTACAO_LOULE, CARRO],
+             CRUZAMENTO_N125_N396: [NORDESTE, AQUASHOW__CRUZAMENTO_N125_N396, CARRO],
+             QUARTEIRA: [SUDOESTE, AQUASHOW__QUARTEIRA, CARRO]},
+            37.093921, -8.072404, 47, nomes.FREGUESIA_QUARTEIRA, nomes.CONCELHO_LOULE)
+
         area_repouso_castro_marim = local_portugal.LocalPortugal(
             AREA_REPOUSO_CASTRO_MARIM,
             {A22_SAIDA_18: [SUDOESTE, A22_SAIDA_18__AREA_REPOUSO_CASTRO_MARIM, CARRO],
@@ -1428,6 +1479,14 @@ class Mapa:
             37.236479, -7.437882, 15, nomes.FREGUESIA_CASTRO_MARIM, nomes.CONCELHO_CASTRO_MARIM)
         area_repouso_castro_marim.add_sentido(A22_SAIDA_18, ["Lisboa", "Faro"], [])
         area_repouso_castro_marim.add_sentido(PONTE_INTERNACIONAL_GUADIANA, ["ESPANHA"], [])
+
+        area_servico_loule = local_portugal.LocalPortugal(
+            AREA_SERVICO_LOULE,
+            {A22_SAIDA_11: [NOROESTE, A22_SAIDA_11__AREA_SERVICO_LOULE, CARRO],
+             A22_SAIDA_12: [SUDESTE, A22_SAIDA_12__AREA_SERVICO_LOULE, CARRO]},
+            37.136660, -8.110515, 79, nomes.FREGUESIA_BOLIQUEIME, nomes.CONCELHO_LOULE)
+        area_servico_loule.add_sentido(A22_SAIDA_11, ["Lisboa", "Portimão"], [])
+        area_servico_loule.add_sentido(A22_SAIDA_12, ["ESPANHA", "Faro"], [])
 
         area_servico_olhao = local_portugal.LocalPortugal(
             AREA_SERVICO_OLHAO,
@@ -1548,6 +1607,13 @@ class Mapa:
              ALAMO_MERTOLA: [OESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
              PENHA_DA_AGUIA: [NORDESTE, BOAVISTA__PENHA_DA_AGUIA, CARRO]},
             37.569888, -7.625849, 169, nomes.FREGUESIA_ESPIRITO_SANTO, nomes.CONCELHO_MERTOLA)
+
+        boliqueime = local_portugal.LocalPortugal(
+            BOLIQUEIME,
+            {ESTACAO_BOLIQUEIME: [SUDESTE, BOLIQUEIME__ESTACAO_BOLIQUEIME, CARRO],
+             CRUZAMENTO_N125_M526: [SUDESTE, BOLIQUEIME__CRUZAMENTO_N125_M526, CARRO],
+             A22_SAIDA_11: [NORDESTE, A22_SAIDA_11__BOLIQUEIME, CARRO]},
+            37.132464, -8.159134, 77, nomes.FREGUESIA_BOLIQUEIME, nomes.CONCELHO_LOULE)
 
         bollullos_par_condado = local_espanha.LocalEspanha(
             BOLLULLOS_PAR_CONDADO,
@@ -2071,6 +2137,15 @@ class Mapa:
              MONCARAPACHO: [NOROESTE, CRUZAMENTO_N125_M516_2__MONCARAPACHO, CARRO]},
             37.063244, -7.759820, 7, nomes.FREGUESIA_MONCARAPACHO, nomes.CONCELHO_OLHAO)
 
+        cruzamento_n125_m526 = local_portugal.LocalPortugal(
+            CRUZAMENTO_N125_M526,
+            {VILAMOURA: [SUDESTE, CRUZAMENTO_N125_M526__VILAMOURA, CARRO],
+             CRUZAMENTO_N125_N396: [SUDESTE, CRUZAMENTO_N125_M526__CRUZAMENTO_N125_N396, CARRO],
+             ESTACAO_BOLIQUEIME: [NOROESTE, CRUZAMENTO_N125_M526__ESTACAO_BOLIQUEIME, CARRO],
+             BOLIQUEIME: [NOROESTE, BOLIQUEIME__CRUZAMENTO_N125_M526, CARRO],
+             OLHOS_DE_AGUA: [SUDOESTE, CRUZAMENTO_N125_M526__OLHOS_DE_AGUA, CARRO]},
+            37.118547, -8.138639, 39, nomes.FREGUESIA_BOLIQUEIME, nomes.CONCELHO_LOULE)
+
         cruzamento_n125_n125_6 = local_portugal.LocalPortugal(
             CRUZAMENTO_N125_N125_6,
             {ESTACAO_CASTRO_MARIM: [NORTE, CRUZAMENTO_N125_N125_6__ESTACAO_CASTRO_MARIM, CARRO],
@@ -2083,7 +2158,9 @@ class Mapa:
             CRUZAMENTO_N125_N396,
             {A22_SAIDA_12: [NORTE, A22_SAIDA_12__CRUZAMENTO_N125_N396, CARRO],
              ALMANCIL: [SUDESTE, ALMANCIL__CRUZAMENTO_N125_N396, CARRO],
-             ESTACAO_LOULE: [NOROESTE, CRUZAMENTO_N125_N396__ESTACAO_LOULE, CARRO]},
+             ESTACAO_LOULE: [NOROESTE, CRUZAMENTO_N125_N396__ESTACAO_LOULE, CARRO],
+             AQUASHOW: [SUDOESTE, AQUASHOW__CRUZAMENTO_N125_N396, CARRO],
+             CRUZAMENTO_N125_M526: [NOROESTE, CRUZAMENTO_N125_M526__CRUZAMENTO_N125_N396, CARRO]},
             37.098617, -8.050912, 43, nomes.FREGUESIA_SAO_CLEMENTE_LOULE, nomes.CONCELHO_LOULE)
 
         cruzamento_n125_n398 = local_portugal.LocalPortugal(
@@ -2173,6 +2250,14 @@ class Mapa:
         estacao_almancil.add_sentido(ESTACAO_PARQUE_CIDADES, ["Vila Real de Santo António", "Faro"], ["Regional"])
         estacao_almancil.add_sentido(ESTACAO_LOULE, ["Lagos", "Tunes"], ["Regional"])
 
+        estacao_boliqueime = local_portugal.LocalPortugal(
+            ESTACAO_BOLIQUEIME,
+            {BOLIQUEIME: [NOROESTE, BOLIQUEIME__ESTACAO_BOLIQUEIME, CARRO],
+             CRUZAMENTO_N125_M526: [SUDESTE, CRUZAMENTO_N125_M526__ESTACAO_BOLIQUEIME, CARRO],
+             ESTACAO_LOULE: [SUDESTE, ESTACAO_BOLIQUEIME__ESTACAO_LOULE, COMBOIO]},
+            37.122815, -8.152667, 46, nomes.FREGUESIA_BOLIQUEIME, nomes.CONCELHO_LOULE)
+        estacao_boliqueime.add_sentido(ESTACAO_LOULE, ["Vila Real de Santo António", "Faro"], ["Regional"])
+
         estacao_bom_joao = local_portugal.LocalPortugal(
             ESTACAO_BOM_JOAO,
             {PORTO_DE_FARO: [SUL, ESTACAO_BOM_JOAO__PORTO_DE_FARO, CARRO],
@@ -2236,10 +2321,13 @@ class Mapa:
         estacao_loule = local_portugal.LocalPortugal(
             ESTACAO_LOULE,
             {CRUZAMENTO_N125_N396: [SUDESTE, CRUZAMENTO_N125_N396__ESTACAO_LOULE, CARRO],
+             AQUASHOW: [SUDOESTE, AQUASHOW__ESTACAO_LOULE, CARRO],
              ESTACAO_ALMANCIL: [SUDESTE, ESTACAO_ALMANCIL__ESTACAO_LOULE, COMBOIO],
+             ESTACAO_BOLIQUEIME: [NOROESTE, ESTACAO_BOLIQUEIME__ESTACAO_LOULE, COMBOIO],
              ESTACAO_FARO: [SUDESTE, ESTACAO_FARO__ESTACAO_LOULE, COMBOIO]},
             37.104634, -8.058654, 50, nomes.FREGUESIA_SAO_SEBASTIAO_LOULE, nomes.CONCELHO_LOULE)
         estacao_loule.add_sentido(ESTACAO_ALMANCIL, ["Vila Real de Santo António", "Faro"], ["Regional"])
+        estacao_loule.add_sentido(ESTACAO_BOLIQUEIME, ["Lagos", "Tunes"], ["Regional"])
         estacao_loule.add_sentido(ESTACAO_FARO, ["Faro"], ["Alfa Pendular", "Intercidades"])
 
         estacao_luz = local_portugal.LocalPortugal(
@@ -2398,6 +2486,13 @@ class Mapa:
         fuseta.add_sentido(PRAIA_DO_BARRIL, ["Vila Nova de Cacela", "Tavira"], ["Barco"])
         fuseta.add_sentido(ILHA_DA_ARMONA, ["Faro", "Olhão"], ["Barco"])
         fuseta.add_sentido(PRAIA_DA_FUSETA, ["Praia da Fuseta"], ["Barco"])
+
+        gelves = local_espanha.LocalEspanha(
+            GELVES,
+            {SAN_JUAN_AZNALFARACHE: [NORTE, GELVES__SAN_JUAN_AZNALFARACHE, CARRO],
+             SE_40_REINICIO: [SUL, GELVES__SE_40_REINICIO, CARRO]},
+            37.340953, -6.026160, 6, nomes.MUNICIPIO_GELVES, nomes.COMARCA_METROPOLITANA_SEVILHA,
+            nomes.PROVINCIA_SEVILHA)
 
         gibraleon = local_espanha.LocalEspanha(
             GIBRALEON,
@@ -2815,6 +2910,12 @@ class Mapa:
         olhao.add_sentido(ILHA_DA_ARMONA, ["Vila Nova de Cacela", "Fuseta"], ["Barco"])
         olhao.add_sentido(CULATRA, ["Faro"], ["Barco"])
 
+        olhos_de_agua = local_portugal.LocalPortugal(
+            OLHOS_DE_AGUA,
+            {CRUZAMENTO_N125_M526: [NORDESTE, CRUZAMENTO_N125_M526__OLHOS_DE_AGUA, CARRO],
+             PRAIA_DA_FALESIA: [SUDESTE, OLHOS_DE_AGUA__PRAIA_DA_FALESIA, CARRO]},
+            37.093486, -8.190926, 35, nomes.FREGUESIA_OLHOS_DE_AGUA, nomes.CONCELHO_ALBUFEIRA)
+
         palmeira = local_portugal.LocalPortugal(
             PALMEIRA,
             {IC27_SAIDA_6: [NORDESTE, IC27_SAIDA_6__PALMEIRA, CARRO]},
@@ -2996,6 +3097,11 @@ class Mapa:
         praia_da_barreta.add_sentido(CABO_SANTA_MARIA, ["Cabo de Santa Maria"], ["Barco"])
         praia_da_barreta.set_info_extra(nomes.PARQUE_NATURAL_RIA_FORMOSA + " - " + nomes.ILHA_DA_BARRETA)
 
+        praia_da_falesia = local_portugal.LocalPortugal(
+            PRAIA_DA_FALESIA,
+            {OLHOS_DE_AGUA: [NOROESTE, OLHOS_DE_AGUA__PRAIA_DA_FALESIA, CARRO]},
+            37.086076, -8.167851, 0, nomes.FREGUESIA_OLHOS_DE_AGUA, nomes.CONCELHO_ALBUFEIRA)
+
         praia_da_fuseta = local_portugal.LocalPortugal(
             PRAIA_DA_FUSETA,
             {FUSETA: [NORTE, FUSETA__PRAIA_DA_FUSETA, BARCO]},
@@ -3064,6 +3170,13 @@ class Mapa:
             37.189202, -7.342450, 4, nomes.MUNICIPIO_AYAMONTE, nomes.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             nomes.PROVINCIA_HUELVA)
         punta_del_moral.add_sentido(ISLA_CRISTINA, ["Huelva", "Sevilha"], ["Barco"])
+
+        quarteira = local_portugal.LocalPortugal(
+            QUARTEIRA,
+            {AQUASHOW: [NORDESTE, AQUASHOW__QUARTEIRA, CARRO],
+             VALE_DO_LOBO: [SUDESTE, QUARTEIRA__VALE_DO_LOBO, CARRO],
+             VILAMOURA: [NOROESTE, QUARTEIRA__VILAMOURA, CARRO]},
+            37.071868, -8.101996, 20, nomes.FREGUESIA_QUARTEIRA, nomes.CONCELHO_LOULE)
 
         quatro_aguas = local_portugal.LocalPortugal(
             QUATRO_AGUAS,
@@ -3250,6 +3363,13 @@ class Mapa:
             37.446629, -7.104909, 125, nomes.MUNICIPIO_SAN_BARTOLOME_TORRE, nomes.COMARCA_EL_ANDEVALO,
             nomes.PROVINCIA_HUELVA)
 
+        san_juan_aznalfarache = local_espanha.LocalEspanha(
+            SAN_JUAN_AZNALFARACHE,
+            {A_8058_SAIDA_0: [NORTE, A_8058_SAIDA_0__SAN_JUAN_AZNALFARACHE, CARRO],
+             GELVES: [SUL, GELVES__SAN_JUAN_AZNALFARACHE, CARRO]},
+            37.359535, -6.034063, 34, nomes.MUNICIPIO_SAN_JUAN_AZNALFARACHE, nomes.COMARCA_METROPOLITANA_SEVILHA,
+            nomes.PROVINCIA_SEVILHA)
+
         san_silvestre_de_guzman = local_espanha.LocalEspanha(
             SAN_SILVESTRE_DE_GUZMAN,
             {SANLUCAR_DE_GUADIANA: [NOROESTE, SAN_SILVESTRE_DE_GUZMAN__SANLUCAR_DE_GUADIANA, CARRO],
@@ -3302,7 +3422,8 @@ class Mapa:
 
         santuario_nossa_senhora_piedade = local_portugal.LocalPortugal(
             SANTUARIO_NOSSA_SENHORA_PIEDADE,
-            {LOULE: [ESTE, LOULE__SANTUARIO_NOSSA_SENHORA_PIEDADE, CARRO]},
+            {LOULE: [ESTE, LOULE__SANTUARIO_NOSSA_SENHORA_PIEDADE, CARRO],
+             A22_SAIDA_11: [OESTE, A22_SAIDA_11__SANTUARIO_NOSSA_SENHORA_PIEDADE, CARRO]},
             37.140261, -8.036374, 175, nomes.FREGUESIA_SAO_SEBASTIAO_LOULE, nomes.CONCELHO_LOULE)
 
         sao_bras_de_alportel = local_portugal.LocalPortugal(
@@ -3478,7 +3599,8 @@ class Mapa:
 
         se_40_reinicio = local_espanha.LocalEspanha(
             SE_40_REINICIO,
-            {SE_40_SAIDA_35: [OESTE, SE_40_REINICIO__SE_40_SAIDA_35, CARRO]},
+            {SE_40_SAIDA_35: [OESTE, SE_40_REINICIO__SE_40_SAIDA_35, CARRO],
+             GELVES: [NORTE, GELVES__SE_40_REINICIO, CARRO]},
             37.307748, -6.039054, 4, nomes.MUNICIPIO_PALOMARES_RIO, nomes.COMARCA_METROPOLITANA_SEVILHA,
             nomes.PROVINCIA_SEVILHA)
         se_40_reinicio.add_sentido(SE_40_SAIDA_35, ["Almensilla", "A-49 - Sevilha/Huelva"], [])
@@ -3627,7 +3749,8 @@ class Mapa:
         vale_do_lobo = local_portugal.LocalPortugal(
             VALE_DO_LOBO,
             {ALMANCIL: [NORDESTE, ALMANCIL__VALE_DO_LOBO, CARRO],
-             QUINTA_DO_LAGO: [ESTE, QUINTA_DO_LAGO__VALE_DO_LOBO, CARRO]},
+             QUINTA_DO_LAGO: [ESTE, QUINTA_DO_LAGO__VALE_DO_LOBO, CARRO],
+             QUARTEIRA: [NOROESTE, QUARTEIRA__VALE_DO_LOBO, CARRO]},
             37.054282, -8.061386, 33, nomes.FREGUESIA_ALMANCIL, nomes.CONCELHO_LOULE)
 
         vale_do_pereiro = local_portugal.LocalPortugal(
@@ -3722,6 +3845,12 @@ class Mapa:
         vila_real_de_santo_antonio.add_sentido(AYAMONTE, ["Mértola", "Alcoutim", "Ayamonte"], ["Barco"])
         vila_real_de_santo_antonio.add_sentido(ESTACAO_MONTE_GORDO, ["Lagos", "Faro"], ["Regional"])
 
+        vilamoura = local_portugal.LocalPortugal(
+            VILAMOURA,
+            {QUARTEIRA: [SUDESTE, QUARTEIRA__VILAMOURA, CARRO],
+             CRUZAMENTO_N125_M526: [NOROESTE, CRUZAMENTO_N125_M526__VILAMOURA, CARRO]},
+            37.087887, -8.119071, 16, nomes.FREGUESIA_QUARTEIRA, nomes.CONCELHO_LOULE)
+
         villablanca = local_espanha.LocalEspanha(
             VILLABLANCA,
             {SAN_SILVESTRE_DE_GUZMAN: [NORTE, SAN_SILVESTRE_DE_GUZMAN__VILLABLANCA, CARRO],
@@ -3786,6 +3915,7 @@ class Mapa:
         self.lista_locais.append(a_66_saida_805)
         self.lista_locais.append(a_66_saida_808)
         self.lista_locais.append(a_8058_saida_0)
+        self.lista_locais.append(a22_saida_11)
         self.lista_locais.append(a22_saida_12)
         self.lista_locais.append(a22_saida_13)
         self.lista_locais.append(a22_saida_14)
@@ -3809,7 +3939,9 @@ class Mapa:
         self.lista_locais.append(altura)
         self.lista_locais.append(ameixal)
         self.lista_locais.append(antiga_estacao_isla_cristina)
+        self.lista_locais.append(aquashow)
         self.lista_locais.append(area_repouso_castro_marim)
+        self.lista_locais.append(area_servico_loule)
         self.lista_locais.append(area_servico_olhao)
         self.lista_locais.append(ayamonte)
         self.lista_locais.append(azinhal)
@@ -3826,6 +3958,7 @@ class Mapa:
         self.lista_locais.append(beja)
         self.lista_locais.append(beliche)
         self.lista_locais.append(boavista)
+        self.lista_locais.append(boliqueime)
         self.lista_locais.append(bollullos_par_condado)
         self.lista_locais.append(botelhas)
         self.lista_locais.append(brinhosa)
@@ -3890,6 +4023,7 @@ class Mapa:
         self.lista_locais.append(cruzamento_n124_n396)
         self.lista_locais.append(cruzamento_n125_m1347)
         self.lista_locais.append(cruzamento_n125_m516_2)
+        self.lista_locais.append(cruzamento_n125_m526)
         self.lista_locais.append(cruzamento_n125_n125_6)
         self.lista_locais.append(cruzamento_n125_n396)
         self.lista_locais.append(cruzamento_n125_n398)
@@ -3902,6 +4036,7 @@ class Mapa:
         self.lista_locais.append(el_granado)
         self.lista_locais.append(espirito_santo)
         self.lista_locais.append(estacao_almancil)
+        self.lista_locais.append(estacao_boliqueime)
         self.lista_locais.append(estacao_bom_joao)
         self.lista_locais.append(estacao_cacela)
         self.lista_locais.append(estacao_castro_marim)
@@ -3928,6 +4063,7 @@ class Mapa:
         self.lista_locais.append(foz_de_odeleite)
         self.lista_locais.append(furnazinhas)
         self.lista_locais.append(fuseta)
+        self.lista_locais.append(gelves)
         self.lista_locais.append(gibraleon)
         self.lista_locais.append(gioes)
         self.lista_locais.append(guerreiros_do_rio)
@@ -3979,6 +4115,7 @@ class Mapa:
         self.lista_locais.append(murteira_de_cima)
         self.lista_locais.append(odeleite)
         self.lista_locais.append(olhao)
+        self.lista_locais.append(olhos_de_agua)
         self.lista_locais.append(palmeira)
         self.lista_locais.append(parque_empresarial_alcoutim)
         self.lista_locais.append(parque_mineiro_cova_mouros)
@@ -4002,6 +4139,7 @@ class Mapa:
         self.lista_locais.append(praia_cabanas_tavira)
         self.lista_locais.append(praia_cacela_velha)
         self.lista_locais.append(praia_da_barreta)
+        self.lista_locais.append(praia_da_falesia)
         self.lista_locais.append(praia_da_fuseta)
         self.lista_locais.append(praia_de_faro)
         self.lista_locais.append(praia_do_barril)
@@ -4010,6 +4148,7 @@ class Mapa:
         self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
         self.lista_locais.append(punta_del_moral)
+        self.lista_locais.append(quarteira)
         self.lista_locais.append(quatro_aguas)
         self.lista_locais.append(quebradas)
         self.lista_locais.append(quelfes)
@@ -4030,6 +4169,7 @@ class Mapa:
         self.lista_locais.append(salgueiros)
         self.lista_locais.append(salir)
         self.lista_locais.append(san_bartolome_de_la_torre)
+        self.lista_locais.append(san_juan_aznalfarache)
         self.lista_locais.append(san_silvestre_de_guzman)
         self.lista_locais.append(sanlucar_de_guadiana)
         self.lista_locais.append(santa_barbara_nexe)
@@ -4085,6 +4225,7 @@ class Mapa:
         self.lista_locais.append(vila_nova_de_cacela)
         self.lista_locais.append(vila_nova_sao_bento)
         self.lista_locais.append(vila_real_de_santo_antonio)
+        self.lista_locais.append(vilamoura)
         self.lista_locais.append(villablanca)
         self.lista_locais.append(villanueva_de_los_castillejos)
         self.lista_locais.append(vista_real)
