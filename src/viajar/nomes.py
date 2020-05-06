@@ -140,6 +140,7 @@ FREGUESIA_TRINDADE_BEJA = "Trindade"  # Beja
 FREGUESIA_VILA_NOVA_SAO_BENTO = "Vila Nova de São Bento"  # Serpa
 
 #  Freguesias do Distrito de Faro
+FREGUESIA_ALBUFEIRA = "Albufeira"  # Albufeira
 FREGUESIA_ALCOUTIM = "Alcoutim"  # Alcoutim
 FREGUESIA_ALMANCIL = "Almancil"  # Loulé
 FREGUESIA_ALTE = "Alte"  # Loulé

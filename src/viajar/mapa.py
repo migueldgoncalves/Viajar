@@ -71,6 +71,8 @@ AEROPORTO_DE_SEVILHA = "Aeroporto de Sevilha - San Pablo"
 AFONSO_VICENTE = "Afonso Vicente"
 ALAMO_ALCOUTIM = "Álamo, Alcoutim"
 ALAMO_MERTOLA = "Álamo, Mértola"
+ALBUFEIRA_CENTRO_HISTORICO = "Albufeira - Centro histórico"
+ALBUFEIRA_RUA_OURA = "Albufeira - Rua da Oura"
 ALCARIA = "Alcaria"
 ALCARIAS_GRANDES = "Alcarias Grandes"
 ALCOUTIM = "Alcoutim"
@@ -283,10 +285,13 @@ PRAIA_CACELA_VELHA = "Praia da Cacela Velha"
 PRAIA_DA_BARRETA = "Praia da Barreta"
 PRAIA_DA_FALESIA = "Praia da Falésia"
 PRAIA_DA_FUSETA = "Praia da Fuseta"
+PRAIA_DA_OURA = "Praia da Oura"
 PRAIA_DE_FARO = "Praia de Faro"
 PRAIA_DO_BARRIL = "Praia do Barril"
+PRAIA_DOS_ALEMAES = "Praia dos Alemães"
 PRAIA_ILHA_TAVIRA = "Praia da Ilha de Tavira"
 PRAIA_ISLA_CANELA = "Praia de Isla Canela"
+PRAIA_SANTA_EULALIA = "Praia de Santa Eulália"
 PRAIA_VERDE = "Praia Verde"
 PUERTO_DE_LA_LAJA = "Puerto de la Laja"
 PUNTA_DEL_MORAL = "Punta del Moral"
@@ -481,6 +486,10 @@ ALAMO_ALCOUTIM__BARRANCO_DAS_PEREIRAS = 1.2
 ALAMO_MERTOLA__BOAVISTA = 7.1
 ALAMO_MERTOLA__ESPIRITO_SANTO = 5.8
 ALAMO_MERTOLA__MERTOLA = 8.0
+ALBUFEIRA_CENTRO_HISTORICO__PRAIA_DOS_ALEMAES = 2.5
+ALBUFEIRA_RUA_OURA__PRAIA_DA_OURA = 0.7
+ALBUFEIRA_RUA_OURA__PRAIA_DOS_ALEMAES = 1.6
+ALBUFEIRA_RUA_OURA__PRAIA_SANTA_EULALIA = 1.8
 ALCARIA__FOZ_DE_ODELEITE = 3.5
 ALCARIA__ODELEITE = 3.4
 ALCARIA__FONTE_DO_PENEDO = 0.9
@@ -816,6 +825,7 @@ OLHAO__PECHAO = 4.9
 OLHAO__QUELFES = 4.7
 OLHAO__VARIANTE_FARO_M518 = 6.9
 OLHOS_DE_AGUA__PRAIA_DA_FALESIA = 3.9
+OLHOS_DE_AGUA__PRAIA_SANTA_EULALIA = 2.8
 PARQUE_MINEIRO_COVA_MOUROS__VAQUEIROS = 4.3
 PECHAO__QUELFES = 5.1
 PEDRAS_DEL_REI__SANTA_LUZIA = 2.3
@@ -1384,6 +1394,18 @@ class Mapa:
              BOAVISTA: [ESTE, ALAMO_MERTOLA__BOAVISTA, CARRO],
              MERTOLA: [NORTE, ALAMO_MERTOLA__MERTOLA, CARRO]},
             37.581075, -7.685135, 163, nomes.FREGUESIA_ESPIRITO_SANTO, nomes.CONCELHO_MERTOLA)
+
+        albufeira_centro_historico = local_portugal.LocalPortugal(
+            ALBUFEIRA_CENTRO_HISTORICO,
+            {PRAIA_DOS_ALEMAES: [SUDESTE, ALBUFEIRA_CENTRO_HISTORICO__PRAIA_DOS_ALEMAES, CARRO]},
+            37.089685, -8.249905, 30, nomes.FREGUESIA_ALBUFEIRA, nomes.CONCELHO_ALBUFEIRA)
+
+        albufeira_rua_oura = local_portugal.LocalPortugal(
+            ALBUFEIRA_RUA_OURA,
+            {PRAIA_SANTA_EULALIA: [SUDESTE, ALBUFEIRA_RUA_OURA__PRAIA_SANTA_EULALIA, CARRO],
+             PRAIA_DA_OURA: [SUL, ALBUFEIRA_RUA_OURA__PRAIA_DA_OURA, CARRO],
+             PRAIA_DOS_ALEMAES: [SUDOESTE, ALBUFEIRA_RUA_OURA__PRAIA_DOS_ALEMAES, CARRO]},
+            37.091326, -8.227660, 40, nomes.FREGUESIA_ALBUFEIRA, nomes.CONCELHO_ALBUFEIRA)
 
         alcaria = local_portugal.LocalPortugal(
             ALCARIA,
@@ -2913,7 +2935,8 @@ class Mapa:
         olhos_de_agua = local_portugal.LocalPortugal(
             OLHOS_DE_AGUA,
             {CRUZAMENTO_N125_M526: [NORDESTE, CRUZAMENTO_N125_M526__OLHOS_DE_AGUA, CARRO],
-             PRAIA_DA_FALESIA: [SUDESTE, OLHOS_DE_AGUA__PRAIA_DA_FALESIA, CARRO]},
+             PRAIA_DA_FALESIA: [SUDESTE, OLHOS_DE_AGUA__PRAIA_DA_FALESIA, CARRO],
+             PRAIA_SANTA_EULALIA: [SUDOESTE, OLHOS_DE_AGUA__PRAIA_SANTA_EULALIA, CARRO]},
             37.093486, -8.190926, 35, nomes.FREGUESIA_OLHOS_DE_AGUA, nomes.CONCELHO_ALBUFEIRA)
 
         palmeira = local_portugal.LocalPortugal(
@@ -3109,6 +3132,11 @@ class Mapa:
         praia_da_fuseta.add_sentido(FUSETA, ["Faro", "Fuseta", "Vila Nova de Cacela"], ["Barco"])
         praia_da_fuseta.set_info_extra(nomes.PARQUE_NATURAL_RIA_FORMOSA + " - " + nomes.ILHA_DA_ARMONA)
 
+        praia_da_oura = local_portugal.LocalPortugal(
+            PRAIA_DA_OURA,
+            {ALBUFEIRA_RUA_OURA: [NORTE, ALBUFEIRA_RUA_OURA__PRAIA_DA_OURA, CARRO]},
+            37.086090, -8.225988, 0, nomes.FREGUESIA_ALBUFEIRA, nomes.CONCELHO_ALBUFEIRA)
+
         praia_de_faro = local_portugal.LocalPortugal(
             PRAIA_DE_FARO,
             {AEROPORTO_DE_FARO: [NORDESTE, AEROPORTO_DE_FARO__PRAIA_DE_FARO, CARRO],
@@ -3127,6 +3155,12 @@ class Mapa:
         praia_do_barril.add_sentido(CAIS_PRAIA_BARRIL, ["Tavira"], ["Comboio da Praia do Barril"])
         praia_do_barril.set_info_extra(nomes.PARQUE_NATURAL_RIA_FORMOSA + " - " + nomes.ILHA_DE_TAVIRA)
 
+        praia_dos_alemaes = local_portugal.LocalPortugal(
+            PRAIA_DOS_ALEMAES,
+            {ALBUFEIRA_RUA_OURA: [NORDESTE, ALBUFEIRA_RUA_OURA__PRAIA_DOS_ALEMAES, CARRO],
+             ALBUFEIRA_CENTRO_HISTORICO: [NOROESTE, ALBUFEIRA_CENTRO_HISTORICO__PRAIA_DOS_ALEMAES, CARRO]},
+            37.084068, -8.237456, 0, nomes.FREGUESIA_ALBUFEIRA, nomes.CONCELHO_ALBUFEIRA)
+
         praia_ilha_tavira = local_portugal.LocalPortugal(
             PRAIA_ILHA_TAVIRA,
             {PRAIA_CABANAS_TAVIRA: [NORDESTE, PRAIA_CABANAS_TAVIRA__PRAIA_ILHA_TAVIRA, BARCO],
@@ -3144,6 +3178,12 @@ class Mapa:
              PUNTA_DEL_MORAL: [NORDESTE, PRAIA_ISLA_CANELA__PUNTA_DEL_MORAL, CARRO]},
             37.173693, -7.377384, 4, nomes.MUNICIPIO_AYAMONTE, nomes.COMARCA_COSTA_OCCIDENTAL_HUELVA,
             nomes.PROVINCIA_HUELVA)
+
+        praia_santa_eulalia = local_portugal.LocalPortugal(
+            PRAIA_SANTA_EULALIA,
+            {OLHOS_DE_AGUA: [NORDESTE, OLHOS_DE_AGUA__PRAIA_SANTA_EULALIA, CARRO],
+             ALBUFEIRA_RUA_OURA: [NOROESTE, ALBUFEIRA_RUA_OURA__PRAIA_SANTA_EULALIA, CARRO]},
+            37.087918, -8.214419, 0, nomes.FREGUESIA_OLHOS_DE_AGUA, nomes.CONCELHO_ALBUFEIRA)
 
         praia_verde = local_portugal.LocalPortugal(
             PRAIA_VERDE,
@@ -3929,6 +3969,8 @@ class Mapa:
         self.lista_locais.append(afonso_vicente)
         self.lista_locais.append(alamo_alcoutim)
         self.lista_locais.append(alamo_mertola)
+        self.lista_locais.append(albufeira_centro_historico)
+        self.lista_locais.append(albufeira_rua_oura)
         self.lista_locais.append(alcaria)
         self.lista_locais.append(alcarias_grandes)
         self.lista_locais.append(alcoutim)
@@ -4141,10 +4183,13 @@ class Mapa:
         self.lista_locais.append(praia_da_barreta)
         self.lista_locais.append(praia_da_falesia)
         self.lista_locais.append(praia_da_fuseta)
+        self.lista_locais.append(praia_da_oura)
         self.lista_locais.append(praia_de_faro)
         self.lista_locais.append(praia_do_barril)
+        self.lista_locais.append(praia_dos_alemaes)
         self.lista_locais.append(praia_ilha_tavira)
         self.lista_locais.append(praia_isla_canela)
+        self.lista_locais.append(praia_santa_eulalia)
         self.lista_locais.append(praia_verde)
         self.lista_locais.append(puerto_de_la_laja)
         self.lista_locais.append(punta_del_moral)
