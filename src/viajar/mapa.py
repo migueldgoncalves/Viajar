@@ -11,11 +11,11 @@ OESTE = "O"
 NOROESTE = "NO"
 
 #  Modos de viagem
-CARRO = 1
-BARCO = 2
-AVIAO = 3
-COMBOIO = 4
-METRO = 5
+CARRO = 'Carro'
+BARCO = 'Barco'
+AVIAO = 'Avião'
+COMBOIO = 'Comboio'
+METRO = 'Metro'
 
 #  Nomes dos locais
 A_4_SAIDA_530 = nomes.nome_saida_via_rapida(nomes.A_4, 530)
