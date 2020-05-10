@@ -1,7 +1,7 @@
 import random
 import datetime
 
-from viajar import mapa, viagem
+from viajar import mapa, viagem, bd_interface
 from carro import carro
 
 #  Opções
@@ -33,9 +33,23 @@ CASAS_DECIMAIS = 2
 
 
 class Viajar:
-    lista_locais = []  # Receberá todos os locais disponíveis
-    viagem_actual = viagem.Viagem()
-    carro_viagem = carro.Carro()
+
+    def __init__(self):
+        self.lista_locais = mapa.Mapa.preencher_lista_locais(mapa.Mapa())  # Receberá todos os locais disponíveis
+        self.base_dados = bd_interface.BDInterface()
+
+        #  Inicializar viagem
+        self.viagem_actual = viagem.Viagem()
+        self.carro_viagem = carro.Carro()
+        self.viagem_actual.set_local(LOCAL_INICIAL)
+        self.viagem_actual.set_modo(mapa.CARRO)
+        print("Bem-vindo/a à viagem")
+        print("Tem", self.base_dados.obter_numero_locais(), "locais disponíveis para visitar")
+        print("O seu local de origem será", LOCAL_INICIAL)
+        print("")
+
+        #  Utilizador escolhe se deseja simular viagem de carro entre locais
+        self.carro_pedido = self.usar_carro()
 
     #  #  #  #  #  #  #  #  #  #  #
     #  Opções adicionais do menu  #
@@ -142,21 +156,6 @@ class Viajar:
     #  #  #  #  #  #  #  #
 
     def realizar_viagem(self):
-        #  Obter os locais
-        self.lista_locais = mapa.Mapa.preencher_lista_locais(mapa.Mapa())
-
-        #  Inicializar viagem
-        self.viagem_actual.set_local(LOCAL_INICIAL)
-        self.viagem_actual.set_modo(mapa.CARRO)
-        print("Bem-vindo/a à viagem")
-        print("Tem", len(self.lista_locais), "locais disponíveis para visitar")
-        print("O seu local de origem será", LOCAL_INICIAL)
-        print("")
-
-        #  Utilizador escolhe se deseja simular viagem de carro entre locais
-        carro_pedido = self.usar_carro()
-
-        #  Realizar viagem
         while True:
             locais_circundantes = self.get_local_actual().get_locais_circundantes()
             nomes_locais = list(locais_circundantes.keys())
@@ -234,9 +233,9 @@ class Viajar:
             else:  # Opções dos destinos
                 opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
                 destino = locais_circundantes_modo_actual[opcao]
-                distancia_a_percorrer = self.actualizar_viagem(destino, carro_pedido)
+                distancia_a_percorrer = self.actualizar_viagem(destino, self.carro_pedido)
 
                 #  Activar simulação se se pediu, e se a viagem é por estrada
-                if carro_pedido & (self.viagem_actual.get_modo() == mapa.CARRO):
+                if self.carro_pedido & (self.viagem_actual.get_modo() == mapa.CARRO):
                     tempo_decorrido = self.carro_viagem.viajar(distancia_a_percorrer, destino)
                     self.incrementar_tempo(tempo_decorrido)

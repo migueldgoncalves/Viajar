@@ -1,4 +1,5 @@
 from viajar import local_espanha, local_portugal, nomes
+import csv
 
 #  Pontos cardeais
 NORTE = "N"
@@ -4274,6 +4275,37 @@ class Mapa:
         self.lista_locais.append(villablanca)
         self.lista_locais.append(villanueva_de_los_castillejos)
         self.lista_locais.append(vista_real)
+
+        #  Gerar ficheiro .csv com as ligações entre locais
+        if False:  # Impede o código de correr
+            with open('ligacao.csv', mode='w') as file:
+                writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                writer.writerow(['Local A', 'Local B', 'Meio de transporte', 'Distância', 'Informação extra', 'Ponto cardeal', 'Ordem A', 'Ordem B'])
+                locais_analisados = []
+                for novo_local in self.lista_locais:
+                    local_a = novo_local.nome
+                    for local_b in novo_local.locais_circundantes:
+                        if ([local_a, local_b] not in locais_analisados) & ([local_b, local_a] not in locais_analisados):
+                            meio_transporte = novo_local.locais_circundantes[local_b][2]
+                            distancia = novo_local.locais_circundantes[local_b][1]
+                            ponto_cardeal = novo_local.locais_circundantes[local_b][0]
+                            if novo_local.get_sentido_info_extra(local_b) is not None:
+                                info_extra = novo_local.get_sentido_info_extra(local_b)
+                            else:
+                                info_extra = ''
+                            locais_circundantes_a = list(novo_local.locais_circundantes)
+                            ordem_a = 0
+                            for i in range(len(locais_circundantes_a)):
+                                if locais_circundantes_a[i] == local_b:
+                                    ordem_a = i
+                            for a in self.lista_locais:
+                                if a.nome == local_b:
+                                    ordem_b = 0
+                                    for i in range(len(list(a.locais_circundantes))):
+                                        if list(a.locais_circundantes)[i] == local_a:
+                                            ordem_b = i
+                                            writer.writerow([local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a+1, ordem_b+1])
+                                            locais_analisados.append([local_a, local_b])
 
         #  Retornar a lista de locais
         return self.lista_locais
