@@ -1,4 +1,4 @@
-from viajar import local, nomes
+from viajar import local
 
 
 class LocalEspanha(local.Local):
@@ -9,14 +9,15 @@ class LocalEspanha(local.Local):
     provincia = ''
     comunidade_autonoma = ''
 
-    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarca, provincia):
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarca, provincia,
+                 comunidade_autonoma):
         super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
         self.distrito = ''
         self.set_municipio(municipio)
         self.set_comarca(comarca)
         self.set_provincia(provincia)
-        self.set_pais(nomes.ESPANHA)
-        self.calcular_entidades_geograficas()
+        self.set_comunidade_autonoma(comunidade_autonoma)
+        self.set_pais('Espanha')
 
     def set_distrito(self, distrito):
         self.distrito = distrito
@@ -47,11 +48,6 @@ class LocalEspanha(local.Local):
 
     def get_comunidade_autonoma(self):
         return self.comunidade_autonoma
-
-    #  A província permite obter a comunidade autónoma
-    def calcular_entidades_geograficas(self):
-        if self.provincia in nomes.provincias_andalucia:
-            self.set_comunidade_autonoma(nomes.ANDALUCIA)
 
     #  Ex: Ayamonte, Província de Huelva, Andalucía
     def imprimir_info_breve(self):

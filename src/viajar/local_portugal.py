@@ -1,4 +1,4 @@
-from viajar import local, nomes
+from viajar import local
 
 
 class LocalPortugal(local.Local):
@@ -9,12 +9,15 @@ class LocalPortugal(local.Local):
     entidade_intermunicipal = ''
     regiao = ''
 
-    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, freguesia, concelho):
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, freguesia, concelho, distrito,
+                 entidade_intermunicipal, regiao):
         super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
         self.set_freguesia(freguesia)
         self.set_concelho(concelho)
-        self.set_pais(nomes.PORTUGAL)
-        self.calcular_entidades_geograficas()
+        self.set_distrito(distrito)
+        self.set_entidade_intermunicipal(entidade_intermunicipal)
+        self.set_regiao(regiao)
+        self.set_pais('Portugal')
 
     def set_freguesia(self, freguesia):
         self.freguesia = freguesia
@@ -45,26 +48,6 @@ class LocalPortugal(local.Local):
 
     def get_regiao(self):
         return self.regiao
-
-    #  O concelho permite obter o distrito, a entidade intermunicipal e a região
-    def calcular_entidades_geograficas(self):
-        #  Obter o distrito
-        if self.concelho in nomes.concelhos_beja:
-            self.set_distrito(nomes.DISTRITO_BEJA)
-        elif self.concelho in nomes.concelhos_faro:
-            self.set_distrito(nomes.DISTRITO_FARO)
-
-        #  Obter a entidade intermunicipal
-        if self.concelho in nomes.baixo_alentejo_entidade:
-            self.set_entidade_intermunicipal(nomes.BAIXO_ALENTEJO)
-        elif self.concelho in nomes.algarve:
-            self.set_entidade_intermunicipal(nomes.ALGARVE)
-
-        #  Obter a região
-        if self.concelho in nomes.baixo_alentejo_regiao:
-            self.set_regiao(nomes.BAIXO_ALENTEJO)
-        elif self.concelho in nomes.algarve:
-            self.set_regiao(nomes.ALGARVE)
 
     #  Ex: Odeleite, Castro Marim, Distrito de Faro
     def imprimir_info_breve(self):

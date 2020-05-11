@@ -1,7 +1,7 @@
 import random
 import datetime
 
-from viajar import mapa, viagem, bd_interface
+from viajar import viagem, bd_interface
 from carro import carro
 
 #  Opções
@@ -27,6 +27,23 @@ SEPARADOR_SENTIDO = "»"
 VELOCIDADE_MINIMA = 50
 VELOCIDADE_MAXIMA = 120
 
+#  Pontos cardeais
+NORTE = "N"
+NORDESTE = "NE"
+ESTE = "E"
+SUDESTE = "SE"
+SUL = "S"
+SUDOESTE = "SO"
+OESTE = "O"
+NOROESTE = "NO"
+
+#  Modos de viagem
+CARRO = 'Carro'
+BARCO = 'Barco'
+AVIAO = 'Avião'
+COMBOIO = 'Comboio'
+METRO = 'Metro'
+
 #  Outros
 LOCAL_INICIAL = 'Guerreiros do Rio'
 CASAS_DECIMAIS = 2
@@ -35,14 +52,13 @@ CASAS_DECIMAIS = 2
 class Viajar:
 
     def __init__(self):
-        self.lista_locais = mapa.Mapa.preencher_lista_locais(mapa.Mapa())  # Receberá todos os locais disponíveis
-        self.base_dados = bd_interface.BDInterface()
+        self.base_dados = bd_interface.BDInterface()  # Contêm todos os locais disponíveis
 
         #  Inicializar viagem
         self.viagem_actual = viagem.Viagem()
         self.carro_viagem = carro.Carro()
         self.viagem_actual.set_local(LOCAL_INICIAL)
-        self.viagem_actual.set_modo(mapa.CARRO)
+        self.viagem_actual.set_modo(CARRO)
         print("Bem-vindo/a à viagem")
         print("Tem", self.base_dados.obter_numero_locais(), "locais disponíveis para visitar")
         print("O seu local de origem será", LOCAL_INICIAL)
@@ -80,15 +96,15 @@ class Viajar:
     def mudar_modo(self, opcao, numero_locais_proximos, modos_disponiveis):
         opcao -= numero_locais_proximos
         self.viagem_actual.set_modo(modos_disponiveis[opcao - 1])
-        if self.viagem_actual.get_modo() == mapa.CARRO:
+        if self.viagem_actual.get_modo() == CARRO:
             print("\nEstá de volta à estrada")
-        elif self.viagem_actual.get_modo() == mapa.BARCO:
+        elif self.viagem_actual.get_modo() == BARCO:
             print("\nEstá a bordo de um barco")
-        elif self.viagem_actual.get_modo() == mapa.AVIAO:
+        elif self.viagem_actual.get_modo() == AVIAO:
             print("\nEstá a bordo de um avião")
-        elif self.viagem_actual.get_modo() == mapa.COMBOIO:
+        elif self.viagem_actual.get_modo() == COMBOIO:
             print("\nEstá a bordo de um comboio")
-        elif self.viagem_actual.get_modo() == mapa.METRO:
+        elif self.viagem_actual.get_modo() == METRO:
             print("\nEstá a bordo de uma composição de metro")
         print("Tem novos destinos disponíveis")
 
@@ -109,9 +125,7 @@ class Viajar:
             return False
 
     def get_local_actual(self):
-        for x in self.lista_locais:
-            if x.get_nome() == self.viagem_actual.get_local():
-                return x
+        return self.base_dados.obter_local(self.viagem_actual.get_local())
 
     @staticmethod
     def conversor_tempo(segundos):
@@ -193,15 +207,15 @@ class Viajar:
                     modos_disponiveis.append(locais_circundantes[x][2])
             if len(modos_disponiveis) > 0:
                 for x in modos_disponiveis:
-                    if x == mapa.CARRO:
+                    if x == CARRO:
                         print(iterador, SEPARADOR_MODO, CARRO_STRING)
-                    elif x == mapa.BARCO:
+                    elif x == BARCO:
                         print(iterador, SEPARADOR_MODO, BARCO_STRING)
-                    elif x == mapa.AVIAO:
+                    elif x == AVIAO:
                         print(iterador, SEPARADOR_MODO, AVIAO_STRING)
-                    elif x == mapa.COMBOIO:
+                    elif x == COMBOIO:
                         print(iterador, SEPARADOR_MODO, COMBOIO_STRING)
-                    elif x == mapa.METRO:
+                    elif x == METRO:
                         print(iterador, SEPARADOR_MODO, METRO_STRING)
                     iterador += 1
 
@@ -236,6 +250,6 @@ class Viajar:
                 distancia_a_percorrer = self.actualizar_viagem(destino, self.carro_pedido)
 
                 #  Activar simulação se se pediu, e se a viagem é por estrada
-                if self.carro_pedido & (self.viagem_actual.get_modo() == mapa.CARRO):
+                if self.carro_pedido & (self.viagem_actual.get_modo() == CARRO):
                     tempo_decorrido = self.carro_viagem.viajar(distancia_a_percorrer, destino)
                     self.incrementar_tempo(tempo_decorrido)
