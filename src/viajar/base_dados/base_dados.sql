@@ -11,79 +11,79 @@ DROP TABLE IF EXISTS ligacao cascade;
 DROP TABLE IF EXISTS destino cascade;
 
 CREATE TABLE local(
-    nome char(100) NOT NULL UNIQUE,
+    nome varchar NOT NULL UNIQUE,
     latitude numeric NOT NULL,
     longitude numeric NOT NULL,
     altitude integer NOT NULL,
-    info_extra char(200),
+    info_extra varchar,
     PRIMARY KEY (nome)
 );
 
 CREATE TABLE local_portugal(
-    nome char(100) NOT NULL UNIQUE,
-    freguesia char(100) NOT NULL,
+    nome varchar NOT NULL UNIQUE,
+    freguesia varchar NOT NULL,
     PRIMARY KEY (nome),
     FOREIGN KEY (nome) references local(nome) on delete cascade
 );
 
 CREATE TABLE local_espanha(
-    nome char(100) NOT NULL UNIQUE,
-    municipio char(100) NOT NULL,
-    distrito char(100),
+    nome varchar NOT NULL UNIQUE,
+    municipio varchar NOT NULL,
+    distrito varchar,
     PRIMARY KEY (nome),
     FOREIGN KEY (nome) references local(nome) on delete cascade
 );
 
 CREATE TABLE concelho(
-    concelho char(100) NOT NULL UNIQUE,
-    entidade_intermunicipal char(100) NOT NULL,
-    distrito char(100) NOT NULL,
-    regiao char(100) NOT NULL,
+    concelho varchar NOT NULL UNIQUE,
+    entidade_intermunicipal varchar NOT NULL,
+    distrito varchar NOT NULL,
+    regiao varchar NOT NULL,
     PRIMARY KEY (concelho)
 );
 
 CREATE TABLE comarca(
-    comarca char(100) NOT NULL UNIQUE,
+    comarca varchar NOT NULL UNIQUE,
     PRIMARY KEY (comarca)
 );
 
 CREATE TABLE provincia(
-    provincia char(100) NOT NULL UNIQUE,
-    comunidade_autonoma char(100) NOT NULL,
+    provincia varchar NOT NULL UNIQUE,
+    comunidade_autonoma varchar NOT NULL,
     PRIMARY KEY (provincia)
 );
 
 CREATE TABLE local_concelho(
-    nome char(100) NOT NULL UNIQUE,
-    concelho char(100) NOT NULL,
+    nome varchar NOT NULL UNIQUE,
+    concelho varchar NOT NULL,
     PRIMARY KEY (nome),
     FOREIGN KEY (nome) references local_portugal(nome) on delete cascade,
     FOREIGN KEY (concelho) references concelho(concelho) on delete cascade
 );
 
 CREATE TABLE local_comarca(
-    nome char(100) NOT NULL,
-    comarca char(100) NOT NULL,
+    nome varchar NOT NULL,
+    comarca varchar NOT NULL,
     PRIMARY KEY (nome, comarca),
     FOREIGN KEY (nome) references local_espanha(nome) on delete cascade,
     FOREIGN KEY (comarca) references comarca(comarca) on delete cascade
 );
 
 CREATE TABLE local_provincia(
-    nome char(100) NOT NULL UNIQUE,
-    provincia char(100) NOT NULL,
+    nome varchar NOT NULL UNIQUE,
+    provincia varchar NOT NULL,
     PRIMARY KEY (nome),
     FOREIGN KEY (nome) references local_espanha(nome) on delete cascade,
     FOREIGN KEY (provincia) references provincia(provincia) on delete cascade
 );
 
 CREATE TABLE ligacao(
-    local_a char(100) NOT NULL,
-    local_b char(100) NOT NULL,
-    meio_transporte char(50) NOT NULL,
+    local_a varchar NOT NULL,
+    local_b varchar NOT NULL,
+    meio_transporte varchar NOT NULL,
     distancia numeric NOT NULL,
-    info_extra char(200),
-    ponto_cardeal char(10) NOT NULL,
+    info_extra varchar,
+    ponto_cardeal varchar NOT NULL,
     ordem_a integer NOT NULL,
     ordem_b integer NOT NULL,
     PRIMARY KEY (local_a, local_b, meio_transporte),
@@ -92,12 +92,12 @@ CREATE TABLE ligacao(
 );
 
 CREATE TABLE destino(
-    origem char(100) NOT NULL,
-    sentido char(100) NOT NULL,
-    destino char(100) NOT NULL,
-    local_a char(100) NOT NULL,
-    local_b char(100) NOT NULL,
-    meio_transporte char(100) NOT NULL,
+    origem varchar NOT NULL,
+    sentido varchar NOT NULL,
+    destino varchar NOT NULL,
+    local_a varchar NOT NULL,
+    local_b varchar NOT NULL,
+    meio_transporte varchar NOT NULL,
     PRIMARY KEY (origem, sentido, destino),
     FOREIGN KEY (local_a, local_b, meio_transporte) references ligacao(local_a, local_b, meio_transporte) on delete cascade
 );
