@@ -92,45 +92,44 @@ CREATE TABLE ligacao(
 );
 
 CREATE TABLE destino(
-    origem varchar NOT NULL,
-    sentido varchar NOT NULL,
-    destino varchar NOT NULL,
     local_a varchar NOT NULL,
     local_b varchar NOT NULL,
     meio_transporte varchar NOT NULL,
-    PRIMARY KEY (origem, sentido, destino),
+    origem boolean NOT NULL,
+    destino varchar NOT NULL,
+    PRIMARY KEY (local_a, local_b, meio_transporte, origem, destino),
     FOREIGN KEY (local_a, local_b, meio_transporte) references ligacao(local_a, local_b, meio_transporte) on delete cascade
 );
 
 COPY local(nome, latitude, longitude, altitude, info_extra)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY local_portugal(nome, freguesia)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_portugal.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_portugal.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY local_espanha(nome, municipio, distrito)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_espanha.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_espanha.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY concelho(concelho, entidade_intermunicipal, distrito, regiao)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\concelho.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\concelho.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY comarca(comarca)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\comarca.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\comarca.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY provincia(provincia, comunidade_autonoma)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\provincia.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\provincia.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY local_concelho(nome, concelho)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_concelho.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_concelho.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY local_comarca(nome, comarca)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_comarca.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_comarca.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY local_provincia(nome, provincia)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_provincia.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\local_provincia.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
 COPY ligacao(local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a, ordem_b)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\ligacao.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\ligacao.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';
 
-COPY destino(origem, sentido, destino, local_a, local_b, meio_transporte)
-FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\destino.csv' DELIMITER ';' CSV HEADER ENCODING 'win1252';
+COPY destino(local_a, local_b, meio_transporte, origem, destino)
+FROM 'D:\PycharmProjects\Viajar\src\viajar\base_dados\destino.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8';

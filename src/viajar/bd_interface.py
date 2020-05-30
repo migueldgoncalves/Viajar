@@ -15,6 +15,28 @@ class BDInterface:
     porto = 5432
 
     def __init__(self):
+        '''
+        with open('D:\\PycharmProjects\\Viajar\\src\\viajar\\base_dados\\destino.csv', encoding='utf-8') as file:
+            csv_reader = csv.reader(file, delimiter=',')
+            rows = []
+            for row in csv_reader:
+                origem = row[0]
+                sentido = row[1]
+                destino = row[2]
+                local_a = row[3]
+                local_b = row[4]
+                meio_transporte = row[5]
+                print([origem, sentido, destino, local_a, local_b, meio_transporte])
+                origem = (origem == local_a)
+                rows.append([local_a, local_b, meio_transporte, origem, destino])
+            rows.sort()
+            with open('D:\\PycharmProjects\\Viajar\\src\\viajar\\base_dados\\destino_2.csv', mode='w', encoding='utf-8') as new_file:
+                writer = csv.writer(new_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                writer.writerow(['Local A', 'Local B', 'Meio de transporte', 'Origem', 'Destino'])
+                writer.writerows(rows)
+                print(rows)
+        '''
+
         try:
             #  Efectua a ligação à base de dados
             self.ligacao = psycopg2.connect(
@@ -76,15 +98,16 @@ class BDInterface:
         locais_circundantes = BDInterface.ordenar_dicionario(locais_circundantes, ordem)
 
         #  Determinar os destinos por sentido
-        query = "SELECT * FROM destino WHERE origem = '" + nome + "';"
+        query = "SELECT * FROM destino WHERE " \
+                "(local_a = '" + nome + "' AND origem = 'true') OR (local_b = '" + nome + "' AND origem = 'false');"
         self.cursor.execute(query)
         resultado = self.cursor.fetchall()
         sentidos = {}
         for local_circundante in locais_circundantes:
             destinos = []
             for linha in resultado:
-                if linha[1].strip() == local_circundante:
-                    destinos.append(linha[2].strip())
+                if local_circundante in [linha[0], linha[1]]:
+                    destinos.append(linha[4].strip())
             if len(destinos) > 0:
                 sentidos[local_circundante] = destinos
 
