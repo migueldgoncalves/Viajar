@@ -23,6 +23,8 @@ A-4 - Saída 536,Cruzamento da A-4 com a SE-20,Carro,False,Sevilha
 A-4 - Saída 536,Cruzamento da A-4 com a SE-20,Carro,True,Aeroporto de Sevilha - San Pablo
 A-4 - Saída 536,Cruzamento da A-4 com a SE-20,Carro,True,Carmona
 A-4 - Saída 536,Cruzamento da A-4 com a SE-20,Carro,True,Córdoba
+A-4 - Saída 553,A-4 - Saída 558,Carro,False,Sevilha
+A-4 - Saída 553,A-4 - Saída 558,Carro,True,Cádiz
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,False,Cádiz
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,False,Dos Hermanas
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Aeroporto de Sevilha - San Pablo
@@ -33,15 +35,15 @@ A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,False,Almonte
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,False,Parque Nacional de Doñana
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,True,A-49 - Huelva/Sevilha
-A-49 - Saída 1,A-49 - Saída 1B,Carro,False,A-4 - Aeroporto de Sevilha - San Pablo/Córdoba/Cádiz/Porto de Sevilha
+A-49 - Saída 1,A-49 - Saída 1B,Carro,False,A-4 - Cádiz/Córdoba/Porto de Sevilha/Aeroporto de Sevilha - San Pablo
 A-49 - Saída 1,A-49 - Saída 1B,Carro,False,A-66 - Mérida
 A-49 - Saída 1,A-49 - Saída 1B,Carro,False,A-92 - Granada
-A-49 - Saída 1,A-49 - Saída 1B,Carro,False,N-630 - Camas
+A-49 - Saída 1,A-49 - Saída 1B,Carro,False,Camas
 A-49 - Saída 1,A-49 - Saída 1B,Carro,False,Sevilha - Centro da cidade
 A-49 - Saída 1,A-49 - Saída 1B,Carro,True,Huelva
 A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,False,Camas
 A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,False,Huelva
-A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,True,A-4 - Aeroporto de Sevilha - San Pablo/Córdoba/Cádiz/Porto de Sevilha
+A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,True,A-4 - Cádiz/Córdoba/Porto de Sevilha/Aeroporto de Sevilha - San Pablo
 A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,True,A-66 - Mérida
 A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,True,A-92 - Granada
 A-49 - Saída 1,Cruzamento da A-49 com a SE-30,Carro,True,Sevilha - Centro da cidade
@@ -170,40 +172,40 @@ A22 - Saída 9,Cruzamento da A2 com a A22,Carro,True,Faro
 A22 - Saída 9,IC1 - Fim,Carro,False,A22 - Faro/Portimão/A2 - Lisboa
 A22 - Saída 9,IC1 - Fim,Carro,False,Ourique
 A22 - Saída 9,IC1 - Fim,Carro,True,Albufeira
-A22 - Saída 11,Cruzamento da A2 com a A22,Carro,False,ESPANHA
+A22 - Saída 11,Cruzamento da A2 com a A22,Carro,False,Espanha
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,False,Faro
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,True,Lisboa
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,True,Portimão
 A22 - Saída 11,Área de Serviço de Loulé,Carro,False,Lisboa
 A22 - Saída 11,Área de Serviço de Loulé,Carro,False,Portimão
-A22 - Saída 11,Área de Serviço de Loulé,Carro,True,ESPANHA
+A22 - Saída 11,Área de Serviço de Loulé,Carro,True,Espanha
 A22 - Saída 11,Área de Serviço de Loulé,Carro,True,Faro
 A22 - Saída 12,A22 - Saída 13,Carro,False,Lisboa
 A22 - Saída 12,A22 - Saída 13,Carro,False,Portimão
-A22 - Saída 12,A22 - Saída 13,Carro,True,ESPANHA
+A22 - Saída 12,A22 - Saída 13,Carro,True,Espanha
 A22 - Saída 12,A22 - Saída 13,Carro,True,Faro
-A22 - Saída 12,Área de Serviço de Loulé,Carro,False,ESPANHA
+A22 - Saída 12,Área de Serviço de Loulé,Carro,False,Espanha
 A22 - Saída 12,Área de Serviço de Loulé,Carro,False,Faro
 A22 - Saída 12,Área de Serviço de Loulé,Carro,True,Lisboa
 A22 - Saída 12,Área de Serviço de Loulé,Carro,True,Portimão
 A22 - Saída 13,A22 - Saída 14,Carro,False,Lisboa
 A22 - Saída 13,A22 - Saída 14,Carro,False,Portimão
-A22 - Saída 13,A22 - Saída 14,Carro,True,ESPANHA
+A22 - Saída 13,A22 - Saída 14,Carro,True,Espanha
 A22 - Saída 13,A22 - Saída 14,Carro,True,Olhão
-A22 - Saída 13,Cruzamento do IC4 com a N125,Carro,False,A22 - ESPANHA/Portimão
+A22 - Saída 13,Cruzamento do IC4 com a N125,Carro,False,A22 - Espanha/Portimão
 A22 - Saída 13,Cruzamento do IC4 com a N125,Carro,False,Loulé
 A22 - Saída 13,Cruzamento do IC4 com a N125,Carro,True,Aeroporto de Faro
 A22 - Saída 13,Cruzamento do IC4 com a N125,Carro,True,Faro
-A22 - Saída 13,Mar Shopping Algarve,Carro,False,A22 - Portimão/ESPANHA
+A22 - Saída 13,Mar Shopping Algarve,Carro,False,A22 - Espanha/Portimão
 A22 - Saída 13,Mar Shopping Algarve,Carro,False,Aeroporto de Faro
 A22 - Saída 13,Mar Shopping Algarve,Carro,False,Estádio Algarve
 A22 - Saída 13,Mar Shopping Algarve,Carro,False,Faro
 A22 - Saída 13,Mar Shopping Algarve,Carro,True,Loulé
 A22 - Saída 14,A22 - Saída 15,Carro,False,Faro
 A22 - Saída 14,A22 - Saída 15,Carro,False,Lisboa
-A22 - Saída 14,A22 - Saída 15,Carro,True,ESPANHA
+A22 - Saída 14,A22 - Saída 15,Carro,True,Espanha
 A22 - Saída 14,A22 - Saída 15,Carro,True,Olhão
-A22 - Saída 14,"Conceição, Faro",Carro,False,A22 - Loulé/ESPANHA/A2 - Lisboa
+A22 - Saída 14,"Conceição, Faro",Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 A22 - Saída 14,"Conceição, Faro",Carro,False,São Brás de Alportel
 A22 - Saída 14,"Conceição, Faro",Carro,True,Faro
 A22 - Saída 14,Ruínas Romanas de Milreu,Carro,False,Faro
@@ -211,25 +213,25 @@ A22 - Saída 14,Ruínas Romanas de Milreu,Carro,True,Estoi
 A22 - Saída 14,Ruínas Romanas de Milreu,Carro,True,São Brás de Alportel
 A22 - Saída 15,Área de Serviço de Olhão,Carro,False,Faro
 A22 - Saída 15,Área de Serviço de Olhão,Carro,False,Lisboa
-A22 - Saída 15,Área de Serviço de Olhão,Carro,True,ESPANHA
+A22 - Saída 15,Área de Serviço de Olhão,Carro,True,Espanha
 A22 - Saída 15,Área de Serviço de Olhão,Carro,True,Tavira
 A22 - Saída 16,A22 - Saída 17,Carro,False,Faro
 A22 - Saída 16,A22 - Saída 17,Carro,False,Lisboa
-A22 - Saída 16,A22 - Saída 17,Carro,True,ESPANHA
+A22 - Saída 16,A22 - Saída 17,Carro,True,Espanha
 A22 - Saída 16,A22 - Saída 17,Carro,True,Monte Gordo
-A22 - Saída 16,Área de Serviço de Olhão,Carro,False,ESPANHA
+A22 - Saída 16,Área de Serviço de Olhão,Carro,False,Espanha
 A22 - Saída 16,Área de Serviço de Olhão,Carro,False,Tavira
 A22 - Saída 16,Área de Serviço de Olhão,Carro,True,Faro
 A22 - Saída 16,Área de Serviço de Olhão,Carro,True,Lisboa
 A22 - Saída 17,A22 - Saída 18,Carro,False,Faro
 A22 - Saída 17,A22 - Saída 18,Carro,False,Lisboa
-A22 - Saída 17,A22 - Saída 18,Carro,True,ESPANHA
+A22 - Saída 17,A22 - Saída 18,Carro,True,Espanha
 A22 - Saída 17,A22 - Saída 18,Carro,True,Vila Real de Santo António
 A22 - Saída 18,IC27 - Início,Carro,False,Castro Marim
 A22 - Saída 18,IC27 - Início,Carro,False,Vila Real de Santo António
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Faro
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Lisboa
-A22 - Saída 18,Área de Repouso de Castro Marim,Carro,True,ESPANHA
+A22 - Saída 18,Área de Repouso de Castro Marim,Carro,True,Espanha
 Alcoutim,Laranjeiras,Barco,False,Alcoutim
 Alcoutim,Laranjeiras,Barco,False,Mértola
 Alcoutim,Laranjeiras,Barco,False,Sanlúcar de Guadiana
@@ -266,7 +268,7 @@ Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelv
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamonte
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
-Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,ESPANHA
+Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
 Ayamonte,Costa Esuri,Barco,False,Ayamonte
 Ayamonte,Costa Esuri,Barco,False,Vila Real de Santo António
 Ayamonte,Costa Esuri,Barco,True,Alcoutim
@@ -314,7 +316,7 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
-"Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Loulé/ESPANHA/A2 - Lisboa
+"Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,São Brás de Alportel
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,True,Faro
 "Conceição, Tavira",Estação da Porta Nova,Comboio,False,Vila Real de Santo António
@@ -373,16 +375,16 @@ Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,False,Porto de Sevilha
 Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,True,A-376 - Utrera
 Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,True,A-4 - Córdoba
 Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,True,A-92 - Granada
-Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,False,A-4 - Sevilha/Cádiz
+Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,False,A-4 - Cádiz/Sevilha
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-376 - Sevilha/Utrera
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Carmona/Córdoba
-Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-92 - Sevilha/Málaga/Granada
+Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-92 - Granada/Málaga/Sevilha
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,False,Sevilha
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,True,Huelva
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-4 - Cádiz
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-49 - Huelva
-Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-92 - Málaga/Granada
+Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-92 - Granada/Málaga
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,True,A-4 - Córdoba/Aeroporto de Sevilha - San Pablo
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,True,A-66 - Mérida
 Cruzamento da A-49 com a SE-30,SE-30 - Saída 15,Carro,False,A-49 - Huelva
@@ -393,7 +395,7 @@ Cruzamento da A-49 com a SE-30,SE-30 - Saída 15,Carro,True,Coria del Río
 Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,True,Sevilha - Centro da cidade
 Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,True,Sevilha - Isla de la Cartuja
 Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,True,Sevilha - Triana
-Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,False,A-49 - Sevilha/Huelva
+Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,False,A-49 - Huelva/Sevilha
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Almensilla
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Palomares del Río
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-4 - Cádiz
@@ -457,9 +459,9 @@ Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Ronda Urbana Norte 
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Sevilha - Rua Torneo
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Faro
-Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,True,A22 - ESPANHA/Portimão
+Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,True,A22 - Espanha/Portimão
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,True,Loulé
-Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,A22 - ESPANHA/Portimão
+Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,A22 - Espanha/Portimão
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,Loulé
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Faro
@@ -677,7 +679,7 @@ Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Ronda Urbana Norte de Sevilha 
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,False,A-92 - Málaga
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,True,A-66 - Mérida
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,False,A-49 - Huelva
-Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,False,N-630 - Mérida
+Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,False,Mérida
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,False,Sevilha - Centro da cidade
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,True,A-4 - Córdoba
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,True,A-92 - Málaga
@@ -690,7 +692,7 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha -
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,False,Porto de Sevilha
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,True,A-66 - Mérida
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,True,Sevilha - Centro da cidade
-Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,A22 - ESPANHA/Lisboa
+Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,A22 - Espanha/Lisboa
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Faro
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,True,São Brás de Alportel
@@ -703,7 +705,7 @@ SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,Sevilha - E
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,Sevilha - Isla de la Cartuja
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,True,A-4 - Córdoba
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,True,Aeroporto de Sevilha - San Pablo
-SE-30 - Saída 12,SE-30 - Saída 14,Carro,False,A-4 - Cádiz/Porto de Sevilha/Córdoba/Aeroporto de Sevilha - San Pablo
+SE-30 - Saída 12,SE-30 - Saída 14,Carro,False,A-4 - Cádiz/Córdoba/Porto de Sevilha/Aeroporto de Sevilha - San Pablo
 SE-30 - Saída 12,SE-30 - Saída 14,Carro,False,A-92 - Granada/Málaga
 SE-30 - Saída 12,SE-30 - Saída 14,Carro,True,A-49 - Huelva
 SE-30 - Saída 12,SE-30 - Saída 14,Carro,True,A-66 - Mérida
@@ -731,8 +733,8 @@ SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,A-376 - Utrera
 SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,A-4 - Cádiz
 SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,A-49 - Huelva
 SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,Porto de Sevilha
-SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Sevilha/Coria del Río
-SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Sevilha/Huelva
+SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Coria del Río/Sevilha
+SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Huelva/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,Almensilla
 Tavira - Norte,Tavira - Sul,Carro,False,Vila Real de Santo António
 Tavira - Norte,Tavira - Sul,Carro,True,Faro
@@ -741,7 +743,7 @@ Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,False,Ol
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,False,Vila Real de Santo António
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,True,Aeroporto de Faro
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,True,Portimão
-Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,A22 - ESPANHA/Portimão
+Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,A22 - Espanha/Portimão
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,Olhão
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,São Brás de Alportel
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro

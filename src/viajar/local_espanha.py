@@ -3,21 +3,15 @@ from viajar import local
 
 class LocalEspanha(local.Local):
 
-    distrito = ''
-    municipio = ''
-    comarca = ''
-    provincia = ''
-    comunidade_autonoma = ''
-
-    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarca, provincia,
+    def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarcas, provincia,
                  comunidade_autonoma):
         super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
         self.distrito = ''
-        self.set_municipio(municipio)
-        self.set_comarca(comarca)
-        self.set_provincia(provincia)
-        self.set_comunidade_autonoma(comunidade_autonoma)
-        self.set_pais('Espanha')
+        self.municipio = municipio
+        self.comarcas = comarcas
+        self.provincia = provincia
+        self.comunidade_autonoma = comunidade_autonoma
+        self.pais = 'Espanha'
 
     def set_distrito(self, distrito):
         self.distrito = distrito
@@ -25,8 +19,8 @@ class LocalEspanha(local.Local):
     def set_municipio(self, municipio):
         self.municipio = municipio
 
-    def set_comarca(self, comarca):
-        self.comarca = comarca
+    def set_comarcas(self, comarcas):
+        self.comarcas = comarcas
 
     def set_provincia(self, provincia):
         self.provincia = provincia
@@ -40,8 +34,8 @@ class LocalEspanha(local.Local):
     def get_municipio(self):
         return self.municipio
 
-    def get_comarca(self):
-        return self.comarca
+    def get_comarcas(self):
+        return self.comarcas
 
     def get_provincia(self):
         return self.provincia
@@ -56,17 +50,19 @@ class LocalEspanha(local.Local):
               self.comunidade_autonoma)
 
     def imprimir_info_completa(self):
-        if self.altitude == 1:
-            print("Altitude:", self.altitude, "metro")
-        else:
-            print("Altitude:", self.altitude, "metros")
-        print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
-        if self.info_extra != '':
-            print(self.info_extra)
+        super().imprimir_info_completa()
         if self.distrito != '':
             print("Distrito:", self.distrito)
         print("Município:", self.municipio)
-        print("Comarca:", self.comarca)
+        if len(self.comarcas) == 0:
+            print("Comarca: Nenhuma")
+        elif len(self.comarcas) == 1:
+            print("Comarca:", self.comarcas[0])
+        else:
+            comarca_string = ''
+            for comarca in self.comarcas:
+                comarca_string = comarca_string + ', ' + comarca
+            print("Comarcas:", comarca_string[2:])  # Os primeiros caracteres estão a mais
         print("Província:", self.provincia)
         print("Comunidade Autónoma:", self.comunidade_autonoma)
         print("País:", self.pais)

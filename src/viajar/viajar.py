@@ -139,10 +139,10 @@ class Viajar:
         tempo = self.conversor_tempo(tempo)
         self.viagem_actual.add_tempo(tempo)
 
-    def actualizar_viagem(self, destino, carro_pedido):
+    def actualizar_viagem(self, destino, meio_transporte, carro_pedido):
         print("Escolheu ir para", destino)
         locais_circundantes = self.get_local_actual().get_locais_circundantes()
-        distancia = locais_circundantes[destino][1]
+        distancia = locais_circundantes[(destino, meio_transporte)][1]
         if not carro_pedido:  # A simulação de carro não está a ser usada
             self.incrementar_tempo(distancia / int(random.uniform(VELOCIDADE_MINIMA, VELOCIDADE_MAXIMA)) * 3600)
         self.viagem_actual.add_distancia(distancia)
@@ -172,7 +172,7 @@ class Viajar:
     def realizar_viagem(self):
         while True:
             locais_circundantes = self.get_local_actual().get_locais_circundantes()
-            nomes_locais = list(locais_circundantes.keys())
+            dados_locais = list(locais_circundantes.keys())
 
             #  Imprimir início do menu
             print("")
@@ -184,13 +184,19 @@ class Viajar:
             #  Opções de locais
             iterador = 1
             locais_circundantes_modo_actual = []
-            for x in nomes_locais:
-                if locais_circundantes[x][2] == self.viagem_actual.get_modo():
-                    locais_circundantes_modo_actual.append(x)
-                    texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + x + ' ' + "(" + locais_circundantes[x][0] + \
-                        ", " + str(locais_circundantes[x][1]) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
-                    sentido = self.get_local_actual().get_sentido(x)  # Destinos possíveis por essa direcção
-                    sentido_info_extra = self.get_local_actual().get_sentido_info_extra(x)  # Info extra da direcção
+            for x in dados_locais:
+                nome_local = x[0]
+                meio_transporte = x[1]
+                ponto_cardeal = locais_circundantes[x][0]
+                distancia = locais_circundantes[x][1]
+                if meio_transporte == self.viagem_actual.get_modo():
+                    locais_circundantes_modo_actual.append(nome_local)
+                    texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local + ' ' + "(" + ponto_cardeal + ", " \
+                        + str(distancia) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
+                    #  Destinos possíveis por essa direcção
+                    sentido = self.get_local_actual().get_sentido(nome_local, meio_transporte)
+                    #  Info extra da direcção
+                    sentido_info_extra = self.get_local_actual().get_sentido_info_extra(nome_local, meio_transporte)
                     if sentido is not None:
                         if sentido_info_extra is None:
                             texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
@@ -201,7 +207,7 @@ class Viajar:
 
             #  Opções de mudança de modo
             modos_disponiveis = []
-            for x in nomes_locais:
+            for x in dados_locais:
                 if (locais_circundantes[x][2] != self.viagem_actual.get_modo()) & \
                         (modos_disponiveis.__contains__(locais_circundantes[x][2]) is False):
                     modos_disponiveis.append(locais_circundantes[x][2])
@@ -247,7 +253,8 @@ class Viajar:
             else:  # Opções dos destinos
                 opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
                 destino = locais_circundantes_modo_actual[opcao]
-                distancia_a_percorrer = self.actualizar_viagem(destino, self.carro_pedido)
+                distancia_a_percorrer = self.actualizar_viagem(
+                    destino, self.viagem_actual.get_modo(), self.carro_pedido)
 
                 #  Activar simulação se se pediu, e se a viagem é por estrada
                 if self.carro_pedido & (self.viagem_actual.get_modo() == CARRO):

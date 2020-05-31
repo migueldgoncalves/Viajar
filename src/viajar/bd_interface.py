@@ -1,3 +1,4 @@
+import pathlib
 import psycopg2
 from psycopg2 import OperationalError
 
@@ -5,8 +6,9 @@ from viajar import viajar, local_portugal, local_espanha
 
 
 class BDInterface:
-    # Path do script de SQL que cria e preenche a base de dados
-    path = 'D:\\PycharmProjects\\Viajar\\src\\viajar\\base_dados\\base_dados.sql'
+    # Path da directoria relativa à base de dados
+    path = str(pathlib.Path(__file__).parent.absolute()) + '\\viajar\\base_dados\\'
+    path = path.replace('\\viajar\\viajar', '\\viajar')  # Necessário para a execução dos testes
 
     base_dados = 'viajar'
     utilizador = 'postgres'
@@ -15,28 +17,6 @@ class BDInterface:
     porto = 5432
 
     def __init__(self):
-        '''
-        with open('D:\\PycharmProjects\\Viajar\\src\\viajar\\base_dados\\destino.csv', encoding='utf-8') as file:
-            csv_reader = csv.reader(file, delimiter=',')
-            rows = []
-            for row in csv_reader:
-                origem = row[0]
-                sentido = row[1]
-                destino = row[2]
-                local_a = row[3]
-                local_b = row[4]
-                meio_transporte = row[5]
-                print([origem, sentido, destino, local_a, local_b, meio_transporte])
-                origem = (origem == local_a)
-                rows.append([local_a, local_b, meio_transporte, origem, destino])
-            rows.sort()
-            with open('D:\\PycharmProjects\\Viajar\\src\\viajar\\base_dados\\destino_2.csv', mode='w', encoding='utf-8') as new_file:
-                writer = csv.writer(new_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                writer.writerow(['Local A', 'Local B', 'Meio de transporte', 'Origem', 'Destino'])
-                writer.writerows(rows)
-                print(rows)
-        '''
-
         try:
             #  Efectua a ligação à base de dados
             self.ligacao = psycopg2.connect(
@@ -49,11 +29,13 @@ class BDInterface:
             self.ligacao.autocommit = True
             self.cursor = self.ligacao.cursor()
 
-            #  Preenche a base de dados
-            with open(self.path, mode='r') as file:
+            #  Cria e preenche a base de dados
+            path_script = self.path + 'base_dados.sql'
+            with open(path_script, mode='r') as file:
                 queries = file.read().split(';\n')
             for query in queries:
                 self.cursor.execute(query + ';')
+            self.preencher_base_dados()
         except OperationalError as e:
             print(f"Ocorreu o erro '{e}'")
 
@@ -93,8 +75,8 @@ class BDInterface:
             distancia = float(linha[3])
             meio_transporte = linha[2].strip()
             if linha[4] is not None:
-                sentidos_info_extra[local_circundante] = [linha[4].strip()]
-            locais_circundantes[local_circundante] = [ponto_cardeal, distancia, meio_transporte]
+                sentidos_info_extra[(local_circundante, meio_transporte)] = [linha[4].strip()]
+            locais_circundantes[(local_circundante, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
         locais_circundantes = BDInterface.ordenar_dicionario(locais_circundantes, ordem)
 
         #  Determinar os destinos por sentido
@@ -104,12 +86,14 @@ class BDInterface:
         resultado = self.cursor.fetchall()
         sentidos = {}
         for local_circundante in locais_circundantes:
+            nome_local = local_circundante[0]
+            meio_transporte = local_circundante[1]
             destinos = []
             for linha in resultado:
-                if local_circundante in [linha[0], linha[1]]:
+                if nome_local in [linha[0], linha[1]]:
                     destinos.append(linha[4].strip())
             if len(destinos) > 0:
-                sentidos[local_circundante] = destinos
+                sentidos[(nome_local, meio_transporte)] = destinos
 
         #  Determinar os restantes parâmetros gerais
         query = "SELECT * FROM local WHERE nome = '" + nome + "';"
@@ -140,7 +124,9 @@ class BDInterface:
             query = "SELECT * FROM local_comarca WHERE nome = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
-            comarca = resultado[0][1].strip()
+            comarcas = []
+            for linha in resultado:
+                comarcas.append(linha[1].strip())
             query = "SELECT local_espanha.nome, municipio, distrito, provincia.provincia, comunidade_autonoma " \
                     "FROM local_espanha, local_provincia, provincia " \
                     "WHERE local_espanha.nome = local_provincia.nome AND local_provincia.provincia = " \
@@ -162,7 +148,7 @@ class BDInterface:
                                                  concelho, distrito, entidade_intermunicipal, regiao)
         elif pais == 'Espanha':
             local = local_espanha.LocalEspanha(nome, locais_circundantes, latitude, longitude, altitude, municipio,
-                                               comarca, provincia, comunidade_autonoma)
+                                               comarcas, provincia, comunidade_autonoma)
             local.set_distrito(distrito)
         else:
             return None
@@ -171,6 +157,63 @@ class BDInterface:
         local.set_info_extra(info_extra)
 
         return local
+
+    #  Preenche a base de dados
+    def preencher_base_dados(self):
+        path_csv = self.path + 'local.csv'
+        query = "COPY local(nome, latitude, longitude, altitude, info_extra) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_portugal.csv'
+        query = "COPY local_portugal(nome, freguesia) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_espanha.csv'
+        query = "COPY local_espanha(nome, municipio, distrito) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'concelho.csv'
+        query = "COPY concelho(concelho, entidade_intermunicipal, distrito, regiao) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'comarca.csv'
+        query = "COPY comarca(comarca) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'provincia.csv'
+        query = "COPY provincia(provincia, comunidade_autonoma) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_concelho.csv'
+        query = "COPY local_concelho(nome, concelho) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_comarca.csv'
+        query = "COPY local_comarca(nome, comarca) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_provincia.csv'
+        query = "COPY local_provincia(nome, provincia) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'ligacao.csv'
+        query = "COPY ligacao(local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a, " \
+                "ordem_b) FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'destino.csv'
+        query = "COPY destino(local_a, local_b, meio_transporte, origem, destino) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
 
     #  Retorna o número de locais da base de dados
     def obter_numero_locais(self):

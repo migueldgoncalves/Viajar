@@ -3,21 +3,15 @@ from viajar import local
 
 class LocalPortugal(local.Local):
 
-    freguesia = ''
-    concelho = ''
-    distrito = ''
-    entidade_intermunicipal = ''
-    regiao = ''
-
     def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, freguesia, concelho, distrito,
                  entidade_intermunicipal, regiao):
         super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
-        self.set_freguesia(freguesia)
-        self.set_concelho(concelho)
-        self.set_distrito(distrito)
-        self.set_entidade_intermunicipal(entidade_intermunicipal)
-        self.set_regiao(regiao)
-        self.set_pais('Portugal')
+        self.freguesia = freguesia
+        self.concelho = concelho
+        self.distrito = distrito
+        self.entidade_intermunicipal = entidade_intermunicipal
+        self.regiao = regiao
+        self.pais = 'Portugal'
 
     def set_freguesia(self, freguesia):
         self.freguesia = freguesia
@@ -55,13 +49,7 @@ class LocalPortugal(local.Local):
         print("Está em", nome + ",", self.concelho + ", Distrito de", self.distrito)
 
     def imprimir_info_completa(self):
-        if self.altitude == 1:
-            print("Altitude:", self.altitude, "metro")
-        else:
-            print("Altitude:", self.altitude, "metros")
-        print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
-        if self.info_extra != '':
-            print(self.info_extra)
+        super().imprimir_info_completa()
         print("Freguesia:", self.freguesia)
         print("Concelho:", self.concelho)
         print("Distrito:", self.distrito)

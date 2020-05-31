@@ -3,24 +3,15 @@ SEPARADOR_DESTINOS = "/"
 
 class Local:
 
-    nome = ''
-    locais_circundantes = {}
-    sentidos = {}  # Destinos principais seguindo numa direcção. Ex: Sentido Beja/Mértola e Castro Marim/VRSA no IC27
-    sentidos_info_extra = {}  # Informação extra associada aos sentidos. Ex: Linha 1 do metro, ou comboio Regional
-    coordenadas = (0, 0)  # Ex: (37.215788, -7.405922)
-    altitude = 0  # Metros
-    pais = ''
-    info_extra = ''  # Informação extra associada ao local. Ex: Reserva natural
-
     def __init__(self, nome, locais_circundantes, latitude, longitude, altitude):
         self.nome = nome
         self.locais_circundantes = locais_circundantes
-        self.sentidos = {}  # Necessário para tornar uma variável de classe numa variável de instância
-        self.sentidos_info_extra = {}
-        self.coordenadas = (latitude, longitude)
-        self.altitude = altitude
+        self.sentidos = {}  # Destinos principais seguindo numa direcção. Ex: Beja/Mértola e Castro Marim/VRSA no IC27
+        self.sentidos_info_extra = {}  # Informação extra dos sentidos. Ex: Linha 1 do metro, ou comboio Regional
+        self.coordenadas = (latitude, longitude)  # Ex: (37.215788, -7.405922)
+        self.altitude = altitude  # Metros
         self.pais = ''
-        self.info_extra = ''
+        self.info_extra = ''  # Informação extra associada ao local. Ex: Reserva natural
 
     def set_nome(self, nome):
         self.nome = nome
@@ -46,15 +37,15 @@ class Local:
     def set_info_extra(self, info_extra):
         self.info_extra = info_extra
 
-    def add_local_circundante(self, local, ponto_cardeal, distancia):
-        self.locais_circundantes[local] = [ponto_cardeal, distancia]
+    def add_local_circundante(self, local, meio_transporte, ponto_cardeal, distancia):
+        self.locais_circundantes[(local, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
 
-    def add_sentido_info_extra(self, destino, info_extra):
-        self.sentidos_info_extra[destino] = info_extra
+    def add_sentido_info_extra(self, sentido, meio_transporte, info_extra):
+        self.sentidos_info_extra[(sentido, meio_transporte)] = info_extra
 
-    def add_sentido(self, destino, sentido, info_extra):
-        self.sentidos[destino] = sentido
-        self.add_sentido_info_extra(destino, info_extra)
+    def add_sentido(self, destino, sentido, meio_transporte, info_extra):
+        self.sentidos[(sentido, meio_transporte)] = destino
+        self.add_sentido_info_extra(sentido, meio_transporte, info_extra)
 
     def remove_local_circundante(self, local):
         del self.locais_circundantes[local]
@@ -78,9 +69,9 @@ class Local:
         return self.sentidos_info_extra
 
     #  Informação extra associada à direcção de uma dada via, como a linha de metro ou o serviço ferroviário
-    def get_sentido_info_extra(self, direccao):
-        if direccao in self.sentidos_info_extra:
-            info_extra = self.sentidos_info_extra[direccao]
+    def get_sentido_info_extra(self, direccao, meio_transporte):
+        if (direccao, meio_transporte) in self.sentidos_info_extra:
+            info_extra = self.sentidos_info_extra[(direccao, meio_transporte)]
             if len(info_extra) == 0:
                 return None
             if len(info_extra) == 1:
@@ -92,9 +83,9 @@ class Local:
         return None
 
     #  Destinos principais seguindo por uma certa direcção de, por exemplo, uma via rápida ou uma via férrea
-    def get_sentido(self, direccao):
-        if direccao in self.sentidos:
-            destinos = self.sentidos[direccao]
+    def get_sentido(self, direccao, meio_transporte):
+        if (direccao, meio_transporte) in self.sentidos:
+            destinos = self.sentidos[(direccao, meio_transporte)]
             if len(destinos) == 1:
                 return destinos[0]
             destinos_string = ''
@@ -125,4 +116,10 @@ class Local:
         print("Está em", self.nome)
 
     def imprimir_info_completa(self):
-        print("Informação não disponível")
+        if self.altitude == 1:
+            print("Altitude:", self.altitude, "metro")
+        else:
+            print("Altitude:", self.altitude, "metros")
+        print("Coordenadas:", str(self.coordenadas[0]) + ",", self.coordenadas[1])
+        if self.info_extra != '':
+            print(self.info_extra)

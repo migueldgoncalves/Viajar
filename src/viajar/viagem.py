@@ -10,11 +10,12 @@ SEGUNDOS_MINUTO = 60
 
 class Viagem:
 
-    tempo_decorrido = datetime.time(0, 0, 0)
-    dias_decorridos = 0
-    distancia_percorrida = 0.0
-    local_actual = ""
-    modo_actual = ""
+    def __init__(self):
+        self.tempo_decorrido = datetime.time(0, 0, 0)
+        self.dias_decorridos = 0
+        self.distancia_percorrida = 0.0
+        self.local_actual = ""
+        self.modo_actual = ""
 
     def set_tempo(self, tempo):
         self.tempo_decorrido = tempo
