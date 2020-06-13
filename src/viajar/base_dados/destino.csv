@@ -232,6 +232,10 @@ A22 - Saída 18,IC27 - Início,Carro,False,Vila Real de Santo António
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Faro
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Lisboa
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,True,Espanha
+Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
+Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
+Aeroporto de Faro,Montenegro,Carro,True,A22
+Aeroporto de Faro,Montenegro,Carro,True,Faro
 Alcoutim,Laranjeiras,Barco,False,Alcoutim
 Alcoutim,Laranjeiras,Barco,False,Mértola
 Alcoutim,Laranjeiras,Barco,False,Sanlúcar de Guadiana
@@ -251,6 +255,17 @@ Almada de Ouro,Foz de Odeleite,Barco,False,Ayamonte
 Almada de Ouro,Foz de Odeleite,Barco,False,Vila Real de Santo António
 Almada de Ouro,Foz de Odeleite,Barco,True,Alcoutim
 Almada de Ouro,Foz de Odeleite,Barco,True,Mértola
+Almancil,Cruzamento do IC4 com a N125,Carro,False,Almancil
+Almancil,Cruzamento do IC4 com a N125,Carro,False,Quarteira
+Almancil,Cruzamento do IC4 com a N125,Carro,True,Aeroporto de Faro
+Almancil,Cruzamento do IC4 com a N125,Carro,True,Estádio Algarve
+Almancil,Cruzamento do IC4 com a N125,Carro,True,Faro
+Almancil,Cruzamento da N125 com a N396,Carro,False,Almancil
+Almancil,Cruzamento da N125 com a N396,Carro,False,Faro
+Almancil,Cruzamento da N125 com a N396,Carro,True,A22 - Espanha/Lisboa
+Almancil,Cruzamento da N125 com a N396,Carro,True,Albufeira
+Almancil,Cruzamento da N125 com a N396,Carro,True,Estação de Loulé
+Almancil,Cruzamento da N125 com a N396,Carro,True,Portimão
 Altura,Cruzamento da N125 com a N125-6,Carro,False,Faro
 Altura,Cruzamento da N125 com a N125-6,Carro,False,Tavira
 Altura,Cruzamento da N125 com a N125-6,Carro,True,Vila Real de Santo António
@@ -296,6 +311,14 @@ Barranco do Velho,São Brás de Alportel,Carro,True,Faro
 Barranco do Velho,São Brás de Alportel,Carro,True,São Brás de Alportel
 Beja,IP2 - Saída 44,Carro,False,Beja
 Beja,IP2 - Saída 44,Carro,False,Santa Clara de Louredo
+Boliqueime,Cruzamento da N125 com a M526,Carro,False,A22
+Boliqueime,Cruzamento da N125 com a M526,Carro,False,Portimão
+Boliqueime,Cruzamento da N125 com a M526,Carro,True,Faro
+Boliqueime,Cruzamento da N125 com a M526,Carro,True,Loulé
+Boliqueime,Cruzamento da N125 com a N269,Carro,False,Faro
+Boliqueime,Cruzamento da N125 com a N269,Carro,False,Loulé
+Boliqueime,Cruzamento da N125 com a N269,Carro,True,Albufeira
+Boliqueime,Cruzamento da N125 com a N269,Carro,True,Portimão
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Cabanas de Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,True,Faro
@@ -316,6 +339,9 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
+Castro Marim,Vista Real,Carro,False,Castro Marim
+Castro Marim,Vista Real,Carro,False,Sapal de Castro Marim e Vila Real de Santo António
+Castro Marim,Vista Real,Carro,True,Altura
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,São Brás de Alportel
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,True,Faro
@@ -436,18 +462,45 @@ Cruzamento da N125 com a M516-2,Cruzamento da N125 com a N398,Carro,False,Tavira
 Cruzamento da N125 com a M516-2,Cruzamento da N125 com a N398,Carro,False,Vila Real de Santo António
 Cruzamento da N125 com a M516-2,Cruzamento da N125 com a N398,Carro,True,Faro
 Cruzamento da N125 com a M516-2,Cruzamento da N125 com a N398,Carro,True,Olhão
+Cruzamento da N125 com a M516-2,Estação de Fuseta-Moncarapacho,Carro,False,Faro
+Cruzamento da N125 com a M516-2,Estação de Fuseta-Moncarapacho,Carro,False,Tavira
+Cruzamento da N125 com a M516-2,Estação de Fuseta-Moncarapacho,Carro,True,Fuseta
 Cruzamento da N125 com a M516-2,Livramento,Carro,False,Faro
 Cruzamento da N125 com a M516-2,Livramento,Carro,False,Olhão
 Cruzamento da N125 com a M516-2,Livramento,Carro,True,Tavira
 Cruzamento da N125 com a M516-2,Livramento,Carro,True,Vila Real de Santo António
+Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,False,Albufeira
+Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,False,Portimão
+Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Faro
+Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Loulé
+Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,False,Altura
+Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,True,Castro Marim
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,False,A22 - Faro
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,False,Tavira
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,True,Espanha
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,True,Vila Real de Santo António
+Cruzamento da N125 com a N269,Cruzamento da N125 com a N395,Carro,False,Faro
+Cruzamento da N125 com a N269,Cruzamento da N125 com a N395,Carro,False,Loulé
+Cruzamento da N125 com a N269,Cruzamento da N125 com a N395,Carro,True,A22
+Cruzamento da N125 com a N269,Cruzamento da N125 com a N395,Carro,True,Portimão
+Cruzamento da N125 com a N395,IC1 - Fim,Carro,False,Faro
+Cruzamento da N125 com a N395,IC1 - Fim,Carro,False,Loulé
+Cruzamento da N125 com a N395,IC1 - Fim,Carro,True,A2 - Lisboa
+Cruzamento da N125 com a N395,IC1 - Fim,Carro,True,A22 - Faro/Portimão
+Cruzamento da N125 com a N395,IC1 - Fim,Carro,True,Portimão
 Cruzamento da N125 com a N398,Olhão,Carro,False,Tavira
 Cruzamento da N125 com a N398,Olhão,Carro,True,Faro
 Cruzamento da N125 com a N398,Olhão,Carro,True,Olhão
+Cruzamento da N125-4 com a M521,Loulé,Carro,False,A22 - Espanha/Lisboa
+Cruzamento da N125-4 com a M521,Loulé,Carro,False,Aeroporto de Faro
+Cruzamento da N125-4 com a M521,Loulé,Carro,False,Almancil
+Cruzamento da N125-4 com a M521,Loulé,Carro,False,Estádio Algarve
+Cruzamento da N125-4 com a M521,Loulé,Carro,False,Faro
+Cruzamento da N125-4 com a M521,Loulé,Carro,True,Loulé
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,False,Loulé
+Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,A22
+Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Aeroporto de Faro
+Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Faro
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,Isla Mágica
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,Sevilha - Isla de la Cartuja
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,True,A-4 - Córdoba
@@ -513,6 +566,8 @@ Estação de Cacela,Estação de Castro Marim,Comboio,True,Vila Real de Santo An
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Faro
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
+Estação de Castro Marim,Vista Real,Carro,False,Altura
+Estação de Castro Marim,Vista Real,Carro,True,Castro Marim
 Estação de Faro,Estação de Loulé,Comboio,False,Faro
 Estação de Faro,Estação de Loulé,Comboio,True,Lisboa - Oriente
 Estação de Faro,Estação de Loulé,Comboio,True,Tunes
@@ -525,6 +580,9 @@ Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,True,Vila Real de
 Estação de Fuseta-A,Olhão,Comboio,False,Vila Real de Santo António
 Estação de Fuseta-A,Olhão,Comboio,True,Faro
 Estação de Fuseta-A,Olhão,Comboio,True,Lagos
+Estação de Fuseta-Moncarapacho,Fuseta,Carro,False,Faro
+Estação de Fuseta-Moncarapacho,Fuseta,Carro,False,Tavira
+Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
@@ -535,6 +593,12 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estoi,Pechão,Carro,False,Estoi
+Estoi,Pechão,Carro,True,Olhão
+Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi
+Estoi,Ruínas Romanas de Milreu,Carro,False,Olhão
+Estoi,Ruínas Romanas de Milreu,Carro,True,Faro
+Estoi,Ruínas Romanas de Milreu,Carro,True,Ruínas Romanas de Milreu
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,False,Faro
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,Estoi
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,São Brás de Alportel
@@ -545,6 +609,9 @@ Faro - São Pedro,Praia de Faro,Barco,False,Faro
 Faro - São Pedro,Praia de Faro,Barco,False,Vila Nova de Cacela
 Faro - São Pedro,Praia de Faro,Barco,True,Praia de Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,False,Faro
+Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
+Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Estádio Algarve
+Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Lisboa
 Fuseta,Ilha da Armona,Barco,False,Fuseta
 Fuseta,Ilha da Armona,Barco,False,Vila Nova de Cacela
 Fuseta,Ilha da Armona,Barco,True,Faro
@@ -615,9 +682,13 @@ Livramento,Luz de Tavira,Carro,True,Tavira
 Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Aeroporto de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Praia de Faro
+Montenegro,Variante de Faro - Nó com o IC4,Carro,True,A22 - Portimão
+Montenegro,Variante de Faro - Nó com o IC4,Carro,True,Faro
 Mértola,Penha da Águia,Barco,False,Mértola
 Mértola,Penha da Águia,Barco,True,Pomarão
 Mértola,Penha da Águia,Barco,True,Vila Real de Santo António
+Olhão,Pechão,Carro,False,Olhão
+Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Vila Real de Santo António
 Olhão,Variante de Faro - Nó com a M518,Carro,True,Faro
