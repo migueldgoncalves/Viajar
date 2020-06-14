@@ -97,8 +97,8 @@ A22 - Saída 16,Cascata do Pego do Inferno,Carro,3.5,,N,5,1
 A22 - Saída 17,A22 - Saída 18,Carro,6.0,A22,NE,2,1
 A22 - Saída 17,Altura,Carro,2.4,,S,3,1
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,1.1,A22,NE,2,1
-A22 - Saída 18,IC27 - Início,Carro,0.5,IC27,N,3,2
-A22 - Saída 18,Castro Marim,Carro,1.7,,S,4,1
+A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
+A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 Aeroporto de Beja,Beja,Carro,9.6,,SE,1,2
 Aeroporto de Beja,Aeroporto de Faro,Avião,115.7,,S,2,3
 Aeroporto de Beja,Aeroporto de Sevilha - San Pablo,Avião,193.4,,SE,3,3
@@ -124,14 +124,14 @@ Alcaria,Odeleite,Carro,3.4,,O,2,1
 Alcaria,Fonte do Penedo,Carro,0.9,,S,3,1
 Alcarias Grandes,Tanoeiro,Carro,2.4,,S,1,2
 Alcarias Grandes,Corte do Gago,Carro,2.5,,NO,2,1
-Alcoutim,Marmeleiro,Carro,2.8,,SO,1,1
+Alcoutim,Marmeleiro,Carro,2.8,N122-1,SO,1,1
 Alcoutim,Montinho das Laranjeiras,Carro,8.8,,S,2,1
 Alcoutim,Barragem de Alcoutim,Carro,2.4,,O,3,1
 Alcoutim,Cortes Pereiras,Carro,6.0,,NO,4,2
 Alcoutim,Sanlúcar de Guadiana,Barco,0.3,Rio Guadiana,NE,5,4
 Alcoutim,Laranjeiras,Barco,9.5,Rio Guadiana,S,6,3
-Almada de Ouro,Cruzamento da N122 com a M1063,Carro,3.6,,NO,1,2
-Almada de Ouro,Azinhal,Carro,4.3,,SO,2,1
+Almada de Ouro,Cruzamento da N122 com a M1063,Carro,3.6,N122,NO,1,2
+Almada de Ouro,Azinhal,Carro,4.3,N122,SO,2,1
 Almada de Ouro,Foz de Odeleite,Barco,4.9,Rio Guadiana,N,3,4
 Almada de Ouro,Costa Esuri,Barco,5.2,Rio Guadiana,S,4,2
 Almancil,Cruzamento do IC4 com a N125,Carro,5.0,N125,SE,1,5
@@ -161,9 +161,9 @@ Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
 Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,5,5
-Azinhal,Cruzamento da N122 com a M512,Carro,0.8,,SO,2,1
-Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,2.3,,S,1,1
-Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,1.5,,N,2,2
+Azinhal,Cruzamento da N122 com a M512,Carro,0.8,N122,SO,2,1
+Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,2.3,N122,S,1,1
+Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,1.5,N122,N,2,2
 Balurco de Baixo,"Casa Branca, Alcoutim",Carro,0.3,,NO,3,3
 Balurco de Baixo,Deserto,Carro,1.1,,NO,4,2
 Balurco de Baixo,Cerro,Carro,0.5,,NO,5,4
@@ -206,7 +206,7 @@ Cabeço da Junqueira,Castro Marim Golfe & Country Club,Carro,2.9,,SE,3,3
 Cabo de Santa Maria,Praia da Barreta,Barco,2.2,Ria Formosa,NE,1,2
 Cacela Velha,Vila Nova de Cacela,Carro,2.5,,NE,1,5
 Cacela Velha,Sítio da Fábrica,Carro,1.3,,SO,2,1
-Cachopo,Martinlongo,Carro,16.2,,N,1,3
+Cachopo,Martim Longo,Carro,16.2,,N,1,3
 Cachopo,Vaqueiros,Carro,16.7,,NE,2,4
 Cachopo,Parque Temático da Serra do Caldeirão,Carro,21.8,,SO,3,2
 Cachopo,Corte João Marques,Carro,12.6,,NO,4,2
@@ -214,7 +214,7 @@ Cachopo,Tavira - Norte,Carro,40.5,,SE,5,5
 Cais da Mesquita,Mesquita,Carro,2.5,,SO,1,2
 Cais da Mesquita,Penha da Águia,Barco,8.6,Rio Guadiana,NO,2,3
 Cais da Mesquita,Pomarão,Barco,0.1,Rio Guadiana,NE,3,3
-Cais da Praia do Barril,Pedras d'El Rei,Carro,0.7,,NO,1,1
+Cais da Praia do Barril,Pedras de El-Rei,Carro,0.7,,NO,1,1
 Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,SE,2,3
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
 Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,,O,2,3
@@ -226,7 +226,7 @@ Cascata do Pulo do Lobo - Margem Direita,Cruzamento da N122 com a N123,Carro,16.
 Casinhas,Montes Castelhanos,Carro,0.6,,NE,1,4
 Casinhas,Junqueira,Carro,0.7,,E,2,3
 Castelo de Paderne,Paderne,Carro,3.7,,N,1,3
-Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,1.8,,SE,2,1
+Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,1.8,N122,SE,2,1
 Castro Marim,Vista Real,Carro,2.3,N125-6,NO,3,2
 Castro Marim Golfe & Country Club,IC27 - Saída 1,Carro,2.2,,NE,1,4
 Castro Marim Golfe & Country Club,Vista Real,Carro,3.2,,SE,2,4
@@ -247,12 +247,12 @@ Coito,Serro da Vinha de Baixo,Carro,1.7,,SO,2,1
 "Conceição, Tavira",Estação de Cacela,Comboio,7.1,Regional,NE,4,3
 "Conceição, Tavira",Estação da Porta Nova,Comboio,4.2,Regional,SO,5,2
 Coria del Río,SE-40 - Reinício,Carro,2.9,,NE,1,3
-Corte da Seda,Marmeleiro,Carro,2.2,,NE,1,2
-Corte da Seda,Parque Empresarial de Alcoutim,Carro,1.5,,SO,2,1
+Corte da Seda,Marmeleiro,Carro,2.2,N122-1,NE,1,2
+Corte da Seda,Parque Empresarial de Alcoutim,Carro,1.5,N122-1,SO,2,1
 Corte das Donas,Cruzamento da N122 com a M507-2,Carro,4.7,,NO,1,2
 Corte das Donas,Rotunda da Árvore,Carro,2.1,,E,2,2
 Corte do Gago,Cruzamento da M509 com a M512,Carro,3.5,,N,2,3
-Corte João Marques,Martinlongo,Carro,17.7,,NE,1,4
+Corte João Marques,Martim Longo,Carro,17.7,,NE,1,4
 Corte Nova,Vale do Pereiro,Carro,2.3,,SE,1,1
 Corte Nova,Furnazinhas,Carro,3.0,,O,2,1
 Corte Nova,Corte Velha,Carro,1.4,,N,3,2
@@ -288,26 +288,26 @@ Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
 Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,,SO,2,2
 Cruzamento da N122 com a M1059,IC27 - Saída 6,Carro,1.6,,O,1,3
-Cruzamento da N122 com a M1059,Cruzamento da N122 com a M507-2,Carro,0.7,,N,2,3
-Cruzamento da N122 com a M1059,Cruzamento da N122 com a M1060,Carro,5.6,,SO,3,3
-Cruzamento da N122 com a M1060,IC27 - Saída 5,Carro,2.6,,SE,1,5
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M507-2,Carro,0.7,N122,N,2,3
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M1060,Carro,5.6,N122,SO,3,3
+Cruzamento da N122 com a M1060,IC27 - Saída 5,Carro,2.6,N122,SE,1,5
 Cruzamento da N122 com a M1063,Fonte do Penedo,Carro,1.6,,NE,1,2
-Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,0.8,,SO,3,3
-Cruzamento da N122 com a M507,IC27 - Fim,Carro,0.5,IC27,SE,1,1
-Cruzamento da N122 com a M507,Santa Marta,Carro,1.8,,NO,3,1
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,0.8,N122,SO,3,3
+Cruzamento da N122 com a M507,IC27 - Fim,Carro,0.5,N122,SE,1,1
+Cruzamento da N122 com a M507,Santa Marta,Carro,1.8,N122,NO,3,1
 Cruzamento da N122 com a M512,IC27 - Saída 2,Carro,2.1,,NO,2,3
-Cruzamento da N122 com a M512,Montes Castelhanos,Carro,3.5,,S,3,1
+Cruzamento da N122 com a M512,Montes Castelhanos,Carro,3.5,N122,S,3,1
 Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,,NO,1,2
 Cruzamento da N122 com a N123,Mértola,Carro,11.1,,SE,3,3
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
-Cruzamento da N124 com a M507-1,Martinlongo,Carro,6.9,,SO,2,2
+Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,,SO,2,2
 Cruzamento da N124 com a M507-1,Pereiro,Carro,8.9,,E,3,1
 Cruzamento da N124 com a N270,Paderne,Carro,9.4,,SE,1,4
 Cruzamento da N124 com a N396,Querença,Carro,8.5,,SO,2,3
 Cruzamento da N124 com a N396,Salir,Carro,8.4,,O,3,2
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,2.2,N125,SO,3,1
 Cruzamento da N125 com a M1347,Tavira - Sul,Carro,4.3,N125,NE,1,6
-Cruzamento da N125 com a M1347,Pedras d'El Rei,Carro,1.0,,SE,2,3
+Cruzamento da N125 com a M1347,Pedras de El-Rei,Carro,1.0,,SE,2,3
 Cruzamento da N125 com a M516-2,Livramento,Carro,2.8,N125,NE,1,2
 Cruzamento da N125 com a M516-2,Estação de Fuseta-Moncarapacho,Carro,0.9,N125-5,SE,2,1
 Cruzamento da N125 com a M516-2,Cruzamento da N125 com a N398,Carro,5.9,N125,SO,3,1
@@ -409,12 +409,12 @@ Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
 Hangares,Ilha do Farol,Barco,1.5,Ria Formosa,SO,2,1
 Hortas,Vila Real de Santo António,Carro,2.4,N125,E,2,3
 IC27 - Fim,IC27 - Saída 7,Carro,6.1,IC27,S,2,1
-IC27 - Fim,Parque Empresarial de Alcoutim,Carro,7.7,,SE,4,5
+IC27 - Fim,Parque Empresarial de Alcoutim,Carro,7.7,N122,SE,4,5
 IC27 - Início,IC27 - Saída 1,Carro,1.1,IC27,NO,1,2
 IC27 - Início,Monte Francisco,Carro,0.5,,O,3,2
 IC27 - Início,Norte do Sapal de Castro Marim e Vila Real de Santo António,Carro,2.0,,E,4,1
 IC27 - Saída 1,IC27 - Saída 2,Carro,8.1,IC27,NO,1,2
-IC27 - Saída 1,Junqueira,Carro,2.4,,NO,3,2
+IC27 - Saída 1,Junqueira,Carro,2.4,N122,NO,3,2
 IC27 - Saída 1,Monte Francisco,Carro,0.9,,S,5,1
 IC27 - Saída 1,Quinta do Vale Golf Resort,Carro,1.1,,NE,6,1
 IC27 - Saída 2,IC27 - Saída 3,Carro,2.6,IC27,N,1,2
@@ -430,13 +430,13 @@ IC27 - Saída 5,Tenência,Carro,3.3,,NE,3,1
 IC27 - Saída 5,Vale do Pereiro,Carro,1.9,,O,4,2
 IC27 - Saída 6,IC27 - Saída 7,Carro,3.7,IC27,N,1,2
 IC27 - Saída 6,Palmeira,Carro,0.7,,SO,4,1
-IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,3.0,,E,3,3
+IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,3.0,N124,E,3,3
 IC27 - Saída 7,Tacões,Carro,3.5,,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
 Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,3
-Junqueira,Montes Castelhanos,Carro,0.6,,N,1,3
+Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
 Laranjeiras,Montinho das Laranjeiras,Carro,0.5,,NO,2,2
 Loulé,São Brás de Alportel,Carro,13.2,,NE,2,4
 Loulé,Santuário de Nossa Senhora da Piedade,Carro,1.7,,O,3,1
@@ -446,7 +446,7 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Manta Rota,Vila Nova de Cacela,Carro,2.3,,NO,1,2
 Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
-Martinlongo,Vaqueiros,Carro,7.7,,SE,1,2
+Martim Longo,Vaqueiros,Carro,7.7,,SE,1,2
 Mértola,Monte Alto,Carro,6.0,,SE,2,1
 Mértola,Penha da Águia,Barco,10.2,Rio Guadiana,SE,4,2
 Mesquita,Sedas,Carro,7.1,,O,1,3
@@ -471,7 +471,7 @@ Olhos de Água,Praia da Falésia,Carro,3.9,,SE,2,1
 Olhos de Água,Praia de Santa Eulália,Carro,2.8,,SO,3,1
 Parque Mineiro Cova dos Mouros,Vaqueiros,Carro,4.3,,SO,1,5
 Pechão,Quelfes,Carro,5.1,,E,2,3
-Pedras d'El Rei,Santa Luzia,Carro,2.3,,NE,2,2
+Pedras de El-Rei,Santa Luzia,Carro,2.3,,NE,2,2
 Pereiro,Tacões,Carro,4.4,,SE,2,1
 Pereiro,"Vicentes, Alcoutim",Carro,1.8,,NE,4,1
 Pereiro,Serro da Vinha de Cima,Carro,2.7,,NO,5,2
@@ -500,7 +500,7 @@ Quatro Águas,Tavira - Norte,Barco,2.4,Ria Formosa,NO,4,4
 Quebradas,Sentinela,Carro,2.5,,SE,2,2
 Querença,São Brás de Alportel,Carro,16.3,,SE,2,5
 Quinta do Lago,Vale do Lobo,Carro,5.8,,O,2,2
-Ribeira do Vascão,Santa Marta,Carro,3.6,,S,1,2
+Ribeira do Vascão,Santa Marta,Carro,3.6,N122,S,1,2
 Ribeira do Vascão,Sedas,Carro,2.7,,NO,2,2
 Rocha da Pena,Salir,Carro,5.4,,SE,2,4
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,0.4,Ronda Urbana Norte de Sevilha,NE,2,1
@@ -518,7 +518,7 @@ San Silvestre de Guzmán,Villanueva de los Castillejos,Carro,14.6,,NE,2,2
 San Silvestre de Guzmán,Villablanca,Carro,9.6,,S,3,1
 Santa Catarina da Fonte do Bispo,São Brás de Alportel,Carro,9.1,,O,1,3
 Santa Luzia,Tavira - Sul,Carro,2.7,,N,1,5
-Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,1.8,,SE,2,1
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,1.8,N122,SE,2,1
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,1.1,SE-20,NE,2,1
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,0.9,SE-20,NE,2,1
 SE-20 - Parque de Alamillo,Sevilha - Parque de Alamillo,Carro,1.0,,S,3,1

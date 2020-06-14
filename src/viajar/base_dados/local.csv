@@ -90,13 +90,13 @@ Boliqueime,37.132464,-8.159134,77,
 Bollullos Par del Condado,37.338304,-6.538021,120,
 Botelhas,37.252154,-7.491482,49,
 Brinhosa,37.314868,-7.540571,159,
-Cabanas de Tavira,37.13531,-7.600363,3,
+Cabanas de Tavira,37.13531,-7.600363,3,Ria Formosa
 Cabeço da Junqueira,37.249328,-7.482872,55,
-Cabo de Santa Maria,36.959245,-7.891501,0,Parque Natural da Ria Formosa - Ilha da Barreta
-Cacela Velha,37.157275,-7.546349,26,
+Cabo de Santa Maria,36.959245,-7.891501,0,Ria Formosa - Ilha da Barreta
+Cacela Velha,37.157275,-7.546349,26,Ria Formosa
 Cachopo,37.332957,-7.817305,387,
 Cais da Mesquita,37.55446,-7.526229,4,
-Cais da Praia do Barril,37.091461,-7.673185,1,Parque Natural da Ria Formosa - Ilha de Tavira
+Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira
 Cartaya,37.23602,-7.469165,15,
 "Casa Branca, Alcoutim",37.427782,-7.510975,206,
 "Casa Branca, Castro Marim",37.318916,-7.514484,130,
@@ -105,7 +105,7 @@ Cascata do Pulo do Lobo - Margem Esquerda,37.804322,-7.633016,30,
 Cascata do Pulo do Lobo - Margem Direita,37.804165,-7.633939,32,
 Casinhas,37.254808,-7.4764,18,
 Castelo de Paderne,37.157185,-8.200162,90,
-Castro Marim,37.217646,-7.442295,4,
+Castro Marim,37.217646,-7.442295,4,Sapal de Castro Marim e Vila Real de Santo António
 Castro Marim Golfe & Country Club,37.23602,-7.469165,73,
 Choça Queimada,37.32165,-7.520856,120,
 Centro Penitenciario de Huelva,37.318956,-6.882963,18,
@@ -164,7 +164,7 @@ Cruzamento da N125 com a N398,37.043428,-7.818297,17,
 Cruzamento da N125-4 com a M521,37.123857,-8.016177,142,
 Cruzamento da N265 com a N392,37.820185,-7.500759,233,
 Cruzamento da SE-20 com a SE-30,37.413544,-6.00624,15,
-Culatra,36.993994,-7.840545,2,Parque Natural da Ria Formosa - Ilha da Culatra
+Culatra,36.993994,-7.840545,2,Ria Formosa - Ilha da Culatra
 Deserto,37.428911,-7.516223,198,
 Dunas de Vila Real de Santo António,37.183042,-7.430759,4,
 El Granado,37.520717,-7.416822,135,
@@ -190,7 +190,7 @@ Faro - Avenida Calouste Gulbenkian,37.025699,-7.93572,30,
 Faro - São Pedro,37.018508,-7.935332,10,
 Faro - Sé,37.018561,-7.921867,20,
 Ferreiras,37.127063,-8.243894,74,
-Fonte Benémola,37.205717,-8.003217,142,
+Fonte Benémola,37.205717,-8.003217,142,Fonte Benémola
 Fonte do Penedo,37.328374,-7.471413,100,
 Fonte Zambujo,37.418809,-7.579482,225,
 Fonte Zambujo de Baixo,37.414693,-7.585233,209,
@@ -204,7 +204,7 @@ Gibraleón,37.375423,-6.968658,27,
 Giões,37.471661,-7.695203,205,
 Guerreiros do Rio,37.396353,-7.446837,18,
 H-31 - Saída 80,37.308308,-6.892289,9,
-Hangares,36.985922,-7.855092,3,Parque Natural da Ria Formosa - Ilha da Culatra
+Hangares,36.985922,-7.855092,3,Ria Formosa - Ilha da Culatra
 Hortas,37.18847,-7.444839,4,
 IC1 - Fim,37.128002,-8.257777,83,
 IC27 - Fim,37.478582,-7.556871,187,
@@ -216,8 +216,8 @@ IC27 - Saída 4,37.334783,-7.492552,68,
 IC27 - Saída 5,37.358173,-7.517545,148,
 IC27 - Saída 6,37.400166,-7.524631,116,
 IC27 - Saída 7,37.430967,-7.532168,222,
-Ilha da Armona,37.019218,-7.802199,4,Parque Natural da Ria Formosa - Ilha da Armona
-Ilha do Farol,36.975104,-7.864938,2,Parque Natural da Ria Formosa - Ilha da Culatra
+Ilha da Armona,37.019218,-7.802199,4,Ria Formosa - Ilha da Armona
+Ilha do Farol,36.975104,-7.864938,2,Ria Formosa - Ilha da Culatra
 IP2 - Saída 44,37.910445,-7.871843,171,
 Isla Cristina,37.199897,-7.322322,3,
 Junqueira,37.254084,-7.470771,17,
@@ -229,7 +229,7 @@ Luz de Tavira,37.092083,-7.704389,33,
 Manta Rota,37.167488,-7.520107,6,
 Mar Shopping Algarve,37.098628,-7.998482,83,
 Marmeleiro,37.452326,-7.479719,122,
-Martinlongo,37.43955,-7.768907,285,
+Martim Longo,37.43955,-7.768907,285,
 Menires do Lavajo,37.50142,-7.534983,140,
 Mértola,37.641575,-7.660828,60,
 Mesquita,37.540953,-7.537359,123,
@@ -250,6 +250,7 @@ Montinho de Odeleite,37.343914,-7.530219,148,
 Moreanes,37.646636,-7.559927,148,
 Murteira de Baixo,37.303901,-7.491383,123,
 Murteira de Cima,37.306248,-7.494167,130,
+Norte do Sapal de Castro Marim e Vila Real de Santo António,37.24116,-7.426341,1,Sapal de Castro Marim e Vila Real de Santo António
 Odeleite,37.334251,-7.487819,33,
 Olhão,37.026148,-7.842197,3,
 Olhos de Água,37.093486,-8.190926,35,
@@ -259,7 +260,7 @@ Parque Empresarial de Alcoutim,37.437696,-7.509327,174,
 Parque Mineiro Cova dos Mouros,37.403339,-7.717642,194,
 Parque Temático da Serra do Caldeirão,37.242737,-7.933784,482,
 Pechão,37.057395,-7.872091,45,
-Pedras d'El Rei,37.093915,-7.678125,13,
+Pedras de El-Rei,37.093915,-7.678125,13,Ria Formosa
 Penha da Águia,37.58407,-7.595603,22,
 Pereiro,37.446159,-7.596079,237,
 Piçarral,37.295865,-7.477963,98,
@@ -272,32 +273,32 @@ Ponte Internacional do Guadiana,37.237619,-7.419194,0,
 Ponte Internacional do Baixo Guadiana,37.55509,-7.522702,17,
 Portela Alta de Baixo,37.307345,-7.507371,159,
 Portela Alta de Cima,37.311892,-7.509299,167,
-Porto de Faro,37.003344,-7.918372,2,
+Porto de Faro,37.003344,-7.918372,2,Ria Formosa
 Pozo del Camino,37.224303,-7.315088,8,
-Praia de Cabanas de Tavira,37.133752,-7.589909,2,Parque Natural da Ria Formosa - Ilha de Cabanas
-Praia da Cacela Velha,37.15288,-7.542684,0,Parque Natural da Ria Formosa - Ilha de Cabanas
-Praia da Barreta,36.964761,-7.872067,2,Parque Natural da Ria Formosa - Ilha da Barreta
+Praia de Cabanas de Tavira,37.133752,-7.589909,2,Ria Formosa - Ilha de Cabanas
+Praia da Cacela Velha,37.15288,-7.542684,0,Ria Formosa - Ilha de Cabanas
+Praia da Barreta,36.964761,-7.872067,2,Ria Formosa - Ilha da Barreta
 Praia da Falésia,37.086076,-8.167851,0,
-Praia da Fuseta,37.043291,-7.74484,7,Parque Natural da Ria Formosa - Ilha da Armona
+Praia da Fuseta,37.043291,-7.74484,7,Ria Formosa - Ilha da Armona
 Praia da Oura,37.08609,-8.225988,0,
-Praia de Faro,37.001995,-7.98688,2,
-Praia do Barril,37.086015,-7.662209,4,Parque Natural da Ria Formosa - Ilha de Tavira
+Praia de Faro,37.001995,-7.98688,2,Ria Formosa
+Praia do Barril,37.086015,-7.662209,4,Ria Formosa - Ilha de Tavira
 Praia dos Alemães,37.084068,-8.237456,0,
-Praia da Ilha de Tavira,37.110247,-7.620043,4,Parque Natural da Ria Formosa - Ilha de Tavira
+Praia da Ilha de Tavira,37.110247,-7.620043,4,Ria Formosa - Ilha de Tavira
 Praia de Isla Canela,37.173693,-7.377384,4,
 Praia de Santa Eulália,37.087918,-8.214419,0,
 Praia Verde,37.173851,-7.479848,4,
 Puerto de la Laja,37.52435,-7.493351,22,
 Punta del Moral,37.189202,-7.34245,4,
 Quarteira,37.071868,-8.101996,20,
-Quatro Águas,37.116418,-7.629095,2,
+Quatro Águas,37.116418,-7.629095,2,Ria Formosa
 Quebradas,37.306705,-7.522628,177,
 Quelfes,37.057613,-7.821595,24,
 Querença,37.198992,-7.987344,260,
-Quinta do Lago,37.046156,-8.016172,17,
+Quinta do Lago,37.046156,-8.016172,17,Ria Formosa
 Quinta do Vale Golf Resort,37.247759,-7.450114,34,
 Ribeira do Vascão,37.517739,-7.579242,46,
-Rocha da Pena,37.250958,-8.096611,314,
+Rocha da Pena,37.250958,-8.096611,314,Rocha da Pena
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,37.415941,-5.974321,10,
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,37.413284,-5.988322,10,
 Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,37.413423,-5.983532,8,
@@ -315,13 +316,12 @@ San Silvestre de Guzmán,37.388086,-7.348589,154,
 Sanlúcar de Guadiana,37.472943,-7.466232,24,
 Santa Bárbara de Nexe,37.103587,-7.964152,145,
 Santa Catarina da Fonte do Bispo,37.153797,-7.788195,139,
-Santa Luzia,37.101131,-7.661133,6,
+Santa Luzia,37.101131,-7.661133,6,Ria Formosa
 Santa Marta,37.492988,-7.570396,176,
 Santuário de Nossa Senhora da Piedade,37.140261,-8.036374,175,
 São Brás de Alportel,37.152685,-7.888386,248,
 São Martinho,37.49085,-7.516152,152,
-Norte do Sapal de Castro Marim e Vila Real de Santo António,37.24116,-7.426341,1,
-Sul do Sapal de Castro Marim e Vila Real de Santo António,37.206474,-7.434472,5,
+Sul do Sapal de Castro Marim e Vila Real de Santo António,37.206474,-7.434472,5,Sapal de Castro Marim e Vila Real de Santo António
 SE-20 - Estádio de La Cartuja,37.420463,-6.006164,11,
 SE-20 - Parque de Alamillo,37.426331,-5.996915,11,
 SE-20 - San Jerónimo,37.43005,-5.988525,11,
@@ -344,7 +344,7 @@ Serro da Vinha de Baixo,37.469191,-7.605179,200,
 Serro da Vinha de Cima,37.46505,-7.603019,214,
 Sevilha - Avenida Expo 92,37.389797,-6.011761,10,
 Sevilha - Parque de Alamillo,37.418651,-5.995225,7,
-Sítio da Fábrica,37.154436,-7.553698,9,
+Sítio da Fábrica,37.154436,-7.553698,9,Ria Formosa
 Tacões,37.440001,-7.554761,226,
 Tanoeiro,37.263978,-7.533592,60,
 Tariquejo,37.39624,-7.152048,108,
@@ -352,7 +352,7 @@ Tavira - Norte,37.129233,-7.647129,16,
 Tavira - Sul,37.123689,-7.651181,16,
 Tenência,37.367805,-7.493125,103,
 Torneiro,37.43145,-7.496974,186,
-Universidade do Algarve - Campus de Gambelas,37.043905,-7.972196,19,
+Universidade do Algarve - Campus de Gambelas,37.043905,-7.972196,19,Ria Formosa
 Universidade do Algarve - Campus da Penha,37.027222,-7.922699,9,
 Vale de Andreu,37.266109,-7.504033,87,
 Vale do Lobo,37.054282,-8.061386,33,

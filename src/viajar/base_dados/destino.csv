@@ -227,11 +227,20 @@ A22 - Saída 17,A22 - Saída 18,Carro,False,Faro
 A22 - Saída 17,A22 - Saída 18,Carro,False,Lisboa
 A22 - Saída 17,A22 - Saída 18,Carro,True,Espanha
 A22 - Saída 17,A22 - Saída 18,Carro,True,Vila Real de Santo António
+A22 - Saída 18,IC27 - Início,Carro,False,A22
 A22 - Saída 18,IC27 - Início,Carro,False,Castro Marim
 A22 - Saída 18,IC27 - Início,Carro,False,Vila Real de Santo António
+A22 - Saída 18,IC27 - Início,Carro,True,Alcoutim
+A22 - Saída 18,IC27 - Início,Carro,True,Beja
+A22 - Saída 18,IC27 - Início,Carro,True,Sapal de Castro Marim e Vila Real de Santo António
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Faro
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,False,Lisboa
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,True,Espanha
+A22 - Saída 18,Castro Marim,Carro,False,A22 - Espanha/Faro
+A22 - Saída 18,Castro Marim,Carro,False,Alcoutim
+A22 - Saída 18,Castro Marim,Carro,False,Beja
+A22 - Saída 18,Castro Marim,Carro,True,Castro Marim
+A22 - Saída 18,Castro Marim,Carro,True,Vila Real de Santo António
 Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
@@ -241,16 +250,25 @@ Alcoutim,Laranjeiras,Barco,False,Mértola
 Alcoutim,Laranjeiras,Barco,False,Sanlúcar de Guadiana
 Alcoutim,Laranjeiras,Barco,True,Ayamonte
 Alcoutim,Laranjeiras,Barco,True,Vila Real de Santo António
+Alcoutim,Marmeleiro,Carro,False,Alcoutim
+Alcoutim,Marmeleiro,Carro,True,IC27 - Beja/Vila Real de Santo António
+Alcoutim,Marmeleiro,Carro,True,Martim Longo
 Alcoutim,Sanlúcar de Guadiana,Barco,False,Alcoutim
 Alcoutim,Sanlúcar de Guadiana,Barco,False,Ayamonte
 Alcoutim,Sanlúcar de Guadiana,Barco,False,Vila Real de Santo António
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Mértola
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Pomarão
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Sanlúcar de Guadiana
+Almada de Ouro,Azinhal,Carro,False,Alcoutim
+Almada de Ouro,Azinhal,Carro,True,Azinhal
+Almada de Ouro,Azinhal,Carro,True,Castro Marim
 Almada de Ouro,Costa Esuri,Barco,False,Alcoutim
 Almada de Ouro,Costa Esuri,Barco,False,Mértola
 Almada de Ouro,Costa Esuri,Barco,True,Ayamonte
 Almada de Ouro,Costa Esuri,Barco,True,Vila Real de Santo António
+Almada de Ouro,Cruzamento da N122 com a M1063,Carro,False,Azinhal
+Almada de Ouro,Cruzamento da N122 com a M1063,Carro,True,Alcoutim
+Almada de Ouro,Cruzamento da N122 com a M1063,Carro,True,IC27
 Almada de Ouro,Foz de Odeleite,Barco,False,Ayamonte
 Almada de Ouro,Foz de Odeleite,Barco,False,Vila Real de Santo António
 Almada de Ouro,Foz de Odeleite,Barco,True,Alcoutim
@@ -292,6 +310,15 @@ Ayamonte,Vila Real de Santo António,Barco,False,Alcoutim
 Ayamonte,Vila Real de Santo António,Barco,False,Ayamonte
 Ayamonte,Vila Real de Santo António,Barco,False,Mértola
 Ayamonte,Vila Real de Santo António,Barco,True,Vila Real de Santo António
+Azinhal,Cruzamento da N122 com a M512,Carro,False,Azinhal
+Azinhal,Cruzamento da N122 com a M512,Carro,True,Castro Marim
+Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,False,Alcoutim
+Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,False,Beja
+Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,True,Castro Marim
+Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,False,Castro Marim
+Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,False,Vila Real de Santo António
+Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,True,Alcoutim
+Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,True,Beja
 Bar do Rio,Foz de Odeleite,Barco,False,Alcoutim
 Bar do Rio,Foz de Odeleite,Barco,False,Mértola
 Bar do Rio,Foz de Odeleite,Barco,True,Ayamonte
@@ -339,6 +366,9 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
+Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,A22
+Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,Castro Marim
+Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,True,Vila Real de Santo António
 Castro Marim,Vista Real,Carro,False,Castro Marim
 Castro Marim,Vista Real,Carro,False,Sapal de Castro Marim e Vila Real de Santo António
 Castro Marim,Vista Real,Carro,True,Altura
@@ -357,6 +387,12 @@ Castro Marim,Vista Real,Carro,True,Altura
 "Conceição, Tavira",Vila Nova de Cacela,Carro,False,Faro
 "Conceição, Tavira",Vila Nova de Cacela,Carro,False,Tavira
 "Conceição, Tavira",Vila Nova de Cacela,Carro,True,Vila Real de Santo António
+Corte da Seda,Marmeleiro,Carro,False,Martim Longo
+Corte da Seda,Marmeleiro,Carro,True,Alcoutim
+Corte da Seda,Marmeleiro,Carro,True,Rio Guadiana
+Corte da Seda,Parque Empresarial de Alcoutim,Carro,False,Alcoutim
+Corte da Seda,Parque Empresarial de Alcoutim,Carro,False,Rio Guadiana
+Corte da Seda,Parque Empresarial de Alcoutim,Carro,True,Martim Longo
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-4 - Cádiz
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-49 - Huelva
@@ -449,8 +485,28 @@ Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,A-49 - Huelva
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,Porto de Sevilha
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M1060,Carro,False,Alcoutim
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M1060,Carro,False,Beja
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M1060,Carro,True,Castro Marim
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M507-2,Carro,False,Castro Marim
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M507-2,Carro,True,Alcoutim
+Cruzamento da N122 com a M1059,Cruzamento da N122 com a M507-2,Carro,True,Beja
+Cruzamento da N122 com a M1060,IC27 - Saída 5,Carro,False,Corte Velha
+Cruzamento da N122 com a M1060,IC27 - Saída 5,Carro,True,Castro Marim
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,False,Almada de Ouro
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,False,Foz de Odeleite
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,True,Castro Marim
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,True,IC27
+Cruzamento da N122 com a M1063,IC27 - Saída 3,Carro,True,Vila Real de Santo António
 Cruzamento da N122 com a M507,IC27 - Fim,Carro,False,Beja
 Cruzamento da N122 com a M507,IC27 - Fim,Carro,False,Mértola
+Cruzamento da N122 com a M507,IC27 - Fim,Carro,True,Castro Marim
+Cruzamento da N122 com a M507,Santa Marta,Carro,False,Alcoutim
+Cruzamento da N122 com a M507,Santa Marta,Carro,True,Beja
+Cruzamento da N122 com a M507,Santa Marta,Carro,True,Mértola
+Cruzamento da N122 com a M512,Montes Castelhanos,Carro,False,Alcoutim
+Cruzamento da N122 com a M512,Montes Castelhanos,Carro,False,Azinhal
+Cruzamento da N122 com a M512,Montes Castelhanos,Carro,True,Castro Marim
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Tavira
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Vila Real de Santo António
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,True,Faro
@@ -635,6 +691,9 @@ IC27 - Fim,IC27 - Saída 7,Carro,False,Beja
 IC27 - Fim,IC27 - Saída 7,Carro,False,Mértola
 IC27 - Fim,IC27 - Saída 7,Carro,True,Castro Marim
 IC27 - Fim,IC27 - Saída 7,Carro,True,Vila Real de Santo António
+IC27 - Fim,Parque Empresarial de Alcoutim,Carro,False,Beja
+IC27 - Fim,Parque Empresarial de Alcoutim,Carro,False,Mértola
+IC27 - Fim,Parque Empresarial de Alcoutim,Carro,True,Acesso local
 IC27 - Início,IC27 - Saída 1,Carro,False,Castro Marim
 IC27 - Início,IC27 - Saída 1,Carro,False,Vila Real de Santo António
 IC27 - Início,IC27 - Saída 1,Carro,True,Beja
@@ -643,6 +702,8 @@ IC27 - Saída 1,IC27 - Saída 2,Carro,False,Castro Marim
 IC27 - Saída 1,IC27 - Saída 2,Carro,False,Vila Real de Santo António
 IC27 - Saída 1,IC27 - Saída 2,Carro,True,Beja
 IC27 - Saída 1,IC27 - Saída 2,Carro,True,Mértola
+IC27 - Saída 1,Junqueira,Carro,False,Castro Marim
+IC27 - Saída 1,Junqueira,Carro,True,Junqueira
 IC27 - Saída 2,IC27 - Saída 3,Carro,False,Castro Marim
 IC27 - Saída 2,IC27 - Saída 3,Carro,False,Vila Real de Santo António
 IC27 - Saída 2,IC27 - Saída 3,Carro,True,Beja
@@ -663,6 +724,10 @@ IC27 - Saída 6,IC27 - Saída 7,Carro,False,Castro Marim
 IC27 - Saída 6,IC27 - Saída 7,Carro,False,Vila Real de Santo António
 IC27 - Saída 6,IC27 - Saída 7,Carro,True,Beja
 IC27 - Saída 6,IC27 - Saída 7,Carro,True,Mértola
+IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,IC27
+IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,Martim Longo
+IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,Pereiro
+IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,True,Alcoutim
 Ilha da Armona,Olhão,Barco,False,Fuseta
 Ilha da Armona,Olhão,Barco,False,Vila Nova de Cacela
 Ilha da Armona,Olhão,Barco,True,Olhão
@@ -676,6 +741,9 @@ Isla Cristina,Punta del Moral,Barco,False,Huelva
 Isla Cristina,Punta del Moral,Barco,False,Sevilha
 Isla Cristina,Punta del Moral,Barco,True,Ayamonte
 Isla Cristina,Punta del Moral,Barco,True,Portugal
+Junqueira,Montes Castelhanos,Carro,False,Castro Marim
+Junqueira,Montes Castelhanos,Carro,True,Alcoutim
+Junqueira,Montes Castelhanos,Carro,True,Azinhal
 Livramento,Luz de Tavira,Carro,False,Faro
 Livramento,Luz de Tavira,Carro,False,Olhão
 Livramento,Luz de Tavira,Carro,True,Tavira
@@ -738,6 +806,9 @@ Quatro Águas,Santa Luzia,Barco,True,Praia do Barril
 Quatro Águas,Tavira - Norte,Barco,False,Faro
 Quatro Águas,Tavira - Norte,Barco,False,Vila Nova de Cacela
 Quatro Águas,Tavira - Norte,Barco,True,Tavira
+Ribeira do Vascão,Santa Marta,Carro,False,Beja
+Ribeira do Vascão,Santa Marta,Carro,False,Mértola
+Ribeira do Vascão,Santa Marta,Carro,True,Alcoutim
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,False,A-4 - Córdoba
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,True,Estação de Sevilha - Santa Justa
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,True,Isla Mágica
@@ -807,6 +878,9 @@ SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,Porto de Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Coria del Río/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Huelva/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,Almensilla
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,A22
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,Castro Marim
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,True,Vila Real de Santo António
 Tavira - Norte,Tavira - Sul,Carro,False,Vila Real de Santo António
 Tavira - Norte,Tavira - Sul,Carro,True,Faro
 Tavira - Norte,Tavira - Sul,Carro,True,Olhão
