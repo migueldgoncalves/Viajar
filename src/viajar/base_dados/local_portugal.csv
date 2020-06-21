@@ -1,5 +1,7 @@
 Nome,Freguesia
 A2 - Saída 14,São Bartolomeu de Messines
+A22 - Saída 7,Alcantarilha
+A22 - Saída 8,Pêra
 A22 - Saída 9,Ferreiras
 A22 - Saída 11,Boliqueime
 A22 - Saída 12,São Clemente
@@ -16,9 +18,12 @@ Afonso Vicente,Alcoutim
 "Álamo, Mértola",Espírito Santo
 Albufeira - Centro histórico,Albufeira
 Albufeira - Rua da Oura,Albufeira
+Alcantarilha,Alcantarilha
 Alcaria,Odeleite
 Alcarias Grandes,Azinhal
 Alcoutim,Alcoutim
+Algarve Shopping,Guia
+Algoz,Algoz
 Almada de Ouro,Azinhal
 Almancil,Almancil
 Alta Mora,Odeleite
@@ -29,6 +34,7 @@ Aquashow,Quarteira
 Área de Repouso de Castro Marim,Castro Marim
 Área de Serviço de Loulé,Boliqueime
 Área de Serviço de Olhão,Moncarapacho
+Armação de Pêra,Armação de Pêra
 Azinhal,Azinhal
 Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
@@ -101,11 +107,13 @@ Cruzamento da N125 com a N396,São Clemente
 Cruzamento da N125 com a N398,Quelfes
 Cruzamento da N125-4 com a M521,São Clemente
 Cruzamento da N265 com a N392,Salvador
+Cruzamento da N269 com a N269-2,Tunes
 Culatra,Sé
 Deserto,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António
 Espírito Santo,Espírito Santo
 Estação de Albufeira - Ferreiras,Ferreiras
+Estação de Alcantarilha,Alcantarilha
 Estação de Almancil,Almancil
 Estação de Boliqueime,Boliqueime
 Estação de Bom João,Sé
@@ -116,6 +124,7 @@ Estação de Fuseta-A,Fuseta
 Estação de Fuseta-Moncarapacho,Moncarapacho
 Estação de Loulé,São Sebastião
 Estação da Luz,Luz de Tavira
+Estação de Messines - Alte,São Bartolomeu de Messines
 Estação de Monte Gordo,Monte Gordo
 Estação de Parque das Cidades,Almancil
 Estação da Porta Nova,Santa Maria
@@ -137,8 +146,10 @@ Furnazinhas,Odeleite
 Fuseta,Fuseta
 Giões,Giões
 Guerreiros do Rio,Alcoutim
+Guia,Guia
 Hangares,Sé
 Hortas,Monte Gordo
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines
 IC1 - Fim,Ferreiras
 IC27 - Fim,Pereiro
 IC27 - Início,Castro Marim
@@ -180,6 +191,7 @@ Montinho de Odeleite,Odeleite
 Moreanes,Santana de Cambas
 Murteira de Baixo,Azinhal
 Murteira de Cima,Azinhal
+Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Odeleite
 Olhão,Olhão
 Olhos de Água,Olhos de Água
@@ -191,6 +203,7 @@ Parque Temático da Serra do Caldeirão,Salir
 Pechão,Pechão
 Pedras de El-Rei,Santa Luzia
 Penha da Águia,Espírito Santo
+"Pêra, Silves",Pêra
 Pereiro,Pereiro
 Piçarral,Azinhal
 Picoitos,Santana de Cambas
@@ -198,17 +211,19 @@ Pomarão,Santana de Cambas
 Portela Alta de Baixo,Odeleite
 Portela Alta de Cima,Odeleite
 Porto de Faro,Sé
-Praia de Cabanas de Tavira,Cabanas de Tavira
 Praia da Cacela Velha,Vila Nova de Cacela
 Praia da Barreta,Sé
 Praia da Falésia,Olhos de Água
 Praia da Fuseta,Fuseta
+Praia da Galé,Guia
+Praia da Ilha de Tavira,Santa Maria
 Praia da Oura,Albufeira
+Praia de Cabanas de Tavira,Cabanas de Tavira
+Praia de Santa Eulália,Olhos de Água
 Praia de Faro,Montenegro
 Praia do Barril,Santa Luzia
 Praia dos Alemães,Albufeira
-Praia da Ilha de Tavira,Santa Maria
-Praia de Santa Eulália,Olhos de Água
+Praia dos Salgados,Guia
 Praia Verde,Altura
 Quarteira,Quarteira
 Quatro Águas,Santa Maria
@@ -228,15 +243,16 @@ Santa Catarina da Fonte do Bispo,Santa Catarina da Fonte do Bispo
 Santa Luzia,Santa Luzia
 Santa Marta,Alcoutim
 Santuário de Nossa Senhora da Piedade,São Sebastião
+São Bartolomeu de Messines,São Bartolomeu de Messines
 São Brás de Alportel,São Brás de Alportel
+São Marcos da Serra,São Marcos da Serra
 São Martinho,Alcoutim
-Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
-Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Sedas,Espírito Santo
 Sentinela,Azinhal
 Serpa,Santa Maria
 Serro da Vinha de Baixo,Pereiro
 Serro da Vinha de Cima,Pereiro
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Sítio da Fábrica,Vila Nova de Cacela
 Tacões,Pereiro
 Tanoeiro,Castro Marim
@@ -244,6 +260,7 @@ Tavira - Norte,Santa Maria
 Tavira - Sul,Santiago
 Tenência,Odeleite
 Torneiro,Alcoutim
+Tunes,Tunes
 Universidade do Algarve - Campus de Gambelas,Montenegro
 Universidade do Algarve - Campus da Penha,Sé
 Vale de Andreu,Castro Marim
@@ -260,3 +277,4 @@ Vila Nova de São Bento,Vila Nova de São Bento
 Vila Real de Santo António,Vila Real de Santo António
 Vilamoura,Quarteira
 Vista Real,Castro Marim
+Zoomarine,Guia

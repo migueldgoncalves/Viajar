@@ -164,6 +164,27 @@ A2 - Saída 14,Cruzamento da A2 com a A22,Carro,False,Lisboa
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,False,São Bartolomeu de Messines
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,True,Faro
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,True,Portimão
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,False,A2 - Lisboa
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,False,São Bartolomeu de Messines
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,False,Silves
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,True,Paderne
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,True,Salir
+A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,A2 - Faro/Lisboa/Portimão
+A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,Salir
+A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,IC1 - Albufeira/Lisboa
+A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,Silves
+A22 - Saída 7,A22 - Saída 8,Carro,False,Lagos
+A22 - Saída 7,A22 - Saída 8,Carro,False,Portimão
+A22 - Saída 7,A22 - Saída 8,Carro,True,Faro
+A22 - Saída 7,A22 - Saída 8,Carro,True,Lisboa
+A22 - Saída 7,Alcantarilha,Carro,False,A22 - Lagos
+A22 - Saída 7,Alcantarilha,Carro,False,Portimão
+A22 - Saída 7,Alcantarilha,Carro,True,Albufeira
+A22 - Saída 7,Alcantarilha,Carro,True,Faro
+A22 - Saída 8,A22 - Saída 9,Carro,False,Lagos
+A22 - Saída 8,A22 - Saída 9,Carro,False,Portimão
+A22 - Saída 8,A22 - Saída 9,Carro,True,Faro
+A22 - Saída 8,A22 - Saída 9,Carro,True,Lisboa
 A22 - Saída 9,Cruzamento da A2 com a A22,Carro,False,Albufeira
 A22 - Saída 9,Cruzamento da A2 com a A22,Carro,False,IC1 - Lisboa
 A22 - Saída 9,Cruzamento da A2 com a A22,Carro,False,Portimão
@@ -172,6 +193,10 @@ A22 - Saída 9,Cruzamento da A2 com a A22,Carro,True,Faro
 A22 - Saída 9,IC1 - Fim,Carro,False,A22 - Faro/Portimão/A2 - Lisboa
 A22 - Saída 9,IC1 - Fim,Carro,False,Ourique
 A22 - Saída 9,IC1 - Fim,Carro,True,Albufeira
+A22 - Saída 9,Tunes,Carro,False,Faro
+A22 - Saída 9,Tunes,Carro,False,Portimão
+A22 - Saída 9,Tunes,Carro,True,Lisboa
+A22 - Saída 9,Tunes,Carro,True,Ourique
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,False,Espanha
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,False,Faro
 A22 - Saída 11,Cruzamento da A2 com a A22,Carro,True,Lisboa
@@ -245,6 +270,9 @@ Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
 Aeroporto de Faro,Montenegro,Carro,True,Faro
+Alcantarilha,"Pêra, Silves",Carro,False,Portimão
+Alcantarilha,"Pêra, Silves",Carro,True,Albufeira
+Alcantarilha,"Pêra, Silves",Carro,True,Faro
 Alcoutim,Laranjeiras,Barco,False,Alcoutim
 Alcoutim,Laranjeiras,Barco,False,Mértola
 Alcoutim,Laranjeiras,Barco,False,Sanlúcar de Guadiana
@@ -259,6 +287,21 @@ Alcoutim,Sanlúcar de Guadiana,Barco,False,Vila Real de Santo António
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Mértola
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Pomarão
 Alcoutim,Sanlúcar de Guadiana,Barco,True,Sanlúcar de Guadiana
+Algarve Shopping,Guia,Carro,False,A22
+Algarve Shopping,Guia,Carro,False,Faro
+Algarve Shopping,Guia,Carro,True,Guia
+Algarve Shopping,Guia,Carro,True,Portimão
+Algarve Shopping,IC1 - Fim,Carro,False,Guia
+Algarve Shopping,IC1 - Fim,Carro,False,Portimão
+Algarve Shopping,IC1 - Fim,Carro,True,A22
+Algarve Shopping,IC1 - Fim,Carro,True,Albufeira
+Algarve Shopping,IC1 - Fim,Carro,True,Faro
+Algoz,Estação de Alcantarilha,Comboio,False,Tunes
+Algoz,Estação de Alcantarilha,Comboio,False,Vila Real de Santo António
+Algoz,Estação de Alcantarilha,Comboio,True,Lagos
+Algoz,Tunes,Comboio,False,Lagos
+Algoz,Tunes,Comboio,True,Faro
+Algoz,Tunes,Comboio,True,Vila Real de Santo António
 Almada de Ouro,Azinhal,Carro,False,Alcoutim
 Almada de Ouro,Azinhal,Carro,True,Azinhal
 Almada de Ouro,Azinhal,Carro,True,Castro Marim
@@ -284,6 +327,16 @@ Almancil,Cruzamento da N125 com a N396,Carro,True,A22 - Espanha/Lisboa
 Almancil,Cruzamento da N125 com a N396,Carro,True,Albufeira
 Almancil,Cruzamento da N125 com a N396,Carro,True,Estação de Loulé
 Almancil,Cruzamento da N125 com a N396,Carro,True,Portimão
+Alte,Cruzamento da N124 com a N270,Carro,False,Alte
+Alte,Cruzamento da N124 com a N270,Carro,False,Salir
+Alte,Cruzamento da N124 com a N270,Carro,True,A2 - Lisboa
+Alte,Cruzamento da N124 com a N270,Carro,True,A22
+Alte,Cruzamento da N124 com a N270,Carro,True,São Bartolomeu de Messines
+Alte,Cruzamento da N124 com a N270,Carro,True,Silves
+Alte,Rocha da Pena,Carro,False,Alte
+Alte,Rocha da Pena,Carro,False,Silves
+Alte,Rocha da Pena,Carro,True,Loulé
+Alte,Rocha da Pena,Carro,True,Salir
 Altura,Cruzamento da N125 com a N125-6,Carro,False,Faro
 Altura,Cruzamento da N125 com a N125-6,Carro,False,Tavira
 Altura,Cruzamento da N125 com a N125-6,Carro,True,Vila Real de Santo António
@@ -327,12 +380,21 @@ Bar do Rio,Laranjeiras,Barco,False,Ayamonte
 Bar do Rio,Laranjeiras,Barco,False,Vila Real de Santo António
 Bar do Rio,Laranjeiras,Barco,True,Alcoutim
 Bar do Rio,Laranjeiras,Barco,True,Mértola
+Barranco do Velho,Cruzamento da N124 com a N396,Carro,False,Ameixal
+Barranco do Velho,Cruzamento da N124 com a N396,Carro,False,Barranco do Velho
+Barranco do Velho,Cruzamento da N124 com a N396,Carro,True,Loulé
+Barranco do Velho,Cruzamento da N124 com a N396,Carro,True,São Bartolomeu de Messines
 Barranco do Velho,Miradouro do Caldeirão,Carro,False,Faro
 Barranco do Velho,Miradouro do Caldeirão,Carro,False,Loulé
 Barranco do Velho,Miradouro do Caldeirão,Carro,False,São Brás de Alportel
 Barranco do Velho,Miradouro do Caldeirão,Carro,True,Ameixal
 Barranco do Velho,Miradouro do Caldeirão,Carro,True,Beja
 Barranco do Velho,Miradouro do Caldeirão,Carro,True,Lisboa
+Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,False,Barranco do Velho
+Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,False,Loulé
+Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,True,Alcoutim
+Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,True,Cachopo
+Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,True,Martim Longo
 Barranco do Velho,São Brás de Alportel,Carro,False,Almodôvar
 Barranco do Velho,São Brás de Alportel,Carro,True,Faro
 Barranco do Velho,São Brás de Alportel,Carro,True,São Brás de Alportel
@@ -353,6 +415,13 @@ Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,True,Vila Nova de Cacela
 Cabo de Santa Maria,Praia da Barreta,Barco,False,Cabo de Santa Maria
 Cabo de Santa Maria,Praia da Barreta,Barco,True,Faro
 Cabo de Santa Maria,Praia da Barreta,Barco,True,Vila Nova de Cacela
+Cachopo,Martim Longo,Carro,False,Cachopo
+Cachopo,Martim Longo,Carro,False,Faro
+Cachopo,Martim Longo,Carro,True,A2
+Cachopo,Martim Longo,Carro,True,Martim Longo
+Cachopo,Parque Temático da Serra do Caldeirão,Carro,False,Cachopo
+Cachopo,Parque Temático da Serra do Caldeirão,Carro,False,Mértola
+Cachopo,Parque Temático da Serra do Caldeirão,Carro,True,Barranco do Velho
 Cais da Mesquita,Penha da Águia,Barco,False,Pomarão
 Cais da Mesquita,Penha da Águia,Barco,False,Vila Real de Santo António
 Cais da Mesquita,Penha da Águia,Barco,True,Mértola
@@ -393,6 +462,9 @@ Corte da Seda,Marmeleiro,Carro,True,Rio Guadiana
 Corte da Seda,Parque Empresarial de Alcoutim,Carro,False,Alcoutim
 Corte da Seda,Parque Empresarial de Alcoutim,Carro,False,Rio Guadiana
 Corte da Seda,Parque Empresarial de Alcoutim,Carro,True,Martim Longo
+Corte João Marques,Martim Longo,Carro,False,A2 - Almodôvar
+Corte João Marques,Martim Longo,Carro,False,Ameixal
+Corte João Marques,Martim Longo,Carro,True,Martim Longo
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-4 - Cádiz
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-49 - Huelva
@@ -507,6 +579,18 @@ Cruzamento da N122 com a M507,Santa Marta,Carro,True,Mértola
 Cruzamento da N122 com a M512,Montes Castelhanos,Carro,False,Alcoutim
 Cruzamento da N122 com a M512,Montes Castelhanos,Carro,False,Azinhal
 Cruzamento da N122 com a M512,Montes Castelhanos,Carro,True,Castro Marim
+Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,Alcoutim
+Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,IC27
+Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Barranco do Velho
+Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Martim Longo
+Cruzamento da N124 com a M507-1,Pereiro,Carro,False,Martim Longo
+Cruzamento da N124 com a M507-1,Pereiro,Carro,True,Alcoutim
+Cruzamento da N124 com a N396,Salir,Carro,False,Ameixal
+Cruzamento da N124 com a N396,Salir,Carro,False,Barranco do Velho
+Cruzamento da N124 com a N396,Salir,Carro,False,Cachopo
+Cruzamento da N124 com a N396,Salir,Carro,True,Lagos
+Cruzamento da N124 com a N396,Salir,Carro,True,Salir
+Cruzamento da N124 com a N396,Salir,Carro,True,Silves
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Tavira
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Vila Real de Santo António
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,True,Faro
@@ -598,6 +682,10 @@ Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,True,Vila Rea
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,False,Lisboa - Oriente
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,False,Tunes
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,True,Faro
+Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Faro
+Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Vila Real de Santo António
+Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lagos
+Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lisboa - Oriente
 Estação de Almancil,Estação de Loulé,Comboio,False,Faro
 Estação de Almancil,Estação de Loulé,Comboio,False,Vila Real de Santo António
 Estação de Almancil,Estação de Loulé,Comboio,True,Lagos
@@ -642,6 +730,9 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Messines - Alte,Tunes,Comboio,False,Lisboa - Oriente
+Estação de Messines - Alte,Tunes,Comboio,False,Pinhal Novo
+Estação de Messines - Alte,Tunes,Comboio,True,Faro
 Estação de Monte Gordo,Hortas,Carro,False,Manta Rota
 Estação de Monte Gordo,Hortas,Carro,False,Vila Nova de Cacela
 Estação de Monte Gordo,Hortas,Carro,True,Espanha
@@ -680,6 +771,9 @@ Fuseta,Praia do Barril,Barco,False,Faro
 Fuseta,Praia do Barril,Barco,False,Fuseta
 Fuseta,Praia do Barril,Barco,True,Tavira
 Fuseta,Praia do Barril,Barco,True,Vila Nova de Cacela
+Guia,Zoomarine,Carro,False,Albufeira
+Guia,Zoomarine,Carro,False,Faro
+Guia,Zoomarine,Carro,True,Portimão
 Hangares,Ilha do Farol,Barco,False,Olhão
 Hangares,Ilha do Farol,Barco,False,Vila Nova de Cacela
 Hangares,Ilha do Farol,Barco,True,Faro
@@ -687,6 +781,19 @@ Hortas,Vila Real de Santo António,Carro,False,Manta Rota
 Hortas,Vila Real de Santo António,Carro,False,Vila Nova de Cacela
 Hortas,Vila Real de Santo António,Carro,True,Espanha
 Hortas,Vila Real de Santo António,Carro,True,Vila Real de Santo António
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,False,A2
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,False,Alte
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,False,Salir
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,True,São Bartolomeu de Messines
+IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,True,Silves
+IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,False,Faro
+IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,False,Portimão
+IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,True,Lisboa
+IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,True,Ourique
+IC1 - Cruzamento com a N124,Tunes,Carro,False,Lisboa
+IC1 - Cruzamento com a N124,Tunes,Carro,False,Ourique
+IC1 - Cruzamento com a N124,Tunes,Carro,True,Faro
+IC1 - Cruzamento com a N124,Tunes,Carro,True,Portimão
 IC27 - Fim,IC27 - Saída 7,Carro,False,Beja
 IC27 - Fim,IC27 - Saída 7,Carro,False,Mértola
 IC27 - Fim,IC27 - Saída 7,Carro,True,Castro Marim
@@ -728,6 +835,9 @@ IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,IC27
 IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,Martim Longo
 IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,False,Pereiro
 IC27 - Saída 7,Parque Empresarial de Alcoutim,Carro,True,Alcoutim
+IC27 - Saída 7,Tacões,Carro,False,Alcoutim
+IC27 - Saída 7,Tacões,Carro,True,Martim Longo
+IC27 - Saída 7,Tacões,Carro,True,Pereiro
 Ilha da Armona,Olhão,Barco,False,Fuseta
 Ilha da Armona,Olhão,Barco,False,Vila Nova de Cacela
 Ilha da Armona,Olhão,Barco,True,Olhão
@@ -760,6 +870,12 @@ Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Vila Real de Santo António
 Olhão,Variante de Faro - Nó com a M518,Carro,True,Faro
+"Pêra, Silves",Zoomarine,Carro,False,Portimão
+"Pêra, Silves",Zoomarine,Carro,True,Albufeira
+"Pêra, Silves",Zoomarine,Carro,True,Faro
+Pereiro,Tacões,Carro,False,Martim Longo
+Pereiro,Tacões,Carro,False,Pereiro
+Pereiro,Tacões,Carro,True,Alcoutim
 Pomarão,Puerto de la Laja,Barco,False,Mértola
 Pomarão,Puerto de la Laja,Barco,False,Pomarão
 Pomarão,Puerto de la Laja,Barco,True,Sanlúcar de Guadiana
@@ -809,6 +925,13 @@ Quatro Águas,Tavira - Norte,Barco,True,Tavira
 Ribeira do Vascão,Santa Marta,Carro,False,Beja
 Ribeira do Vascão,Santa Marta,Carro,False,Mértola
 Ribeira do Vascão,Santa Marta,Carro,True,Alcoutim
+Rocha da Pena,Salir,Carro,False,Alte
+Rocha da Pena,Salir,Carro,False,Rocha da Pena
+Rocha da Pena,Salir,Carro,False,Silves
+Rocha da Pena,Salir,Carro,True,Aeroporto de Faro
+Rocha da Pena,Salir,Carro,True,Faro
+Rocha da Pena,Salir,Carro,True,Fonte da Benémola
+Rocha da Pena,Salir,Carro,True,Loulé
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,False,A-4 - Córdoba
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,True,Estação de Sevilha - Santa Justa
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,True,Isla Mágica

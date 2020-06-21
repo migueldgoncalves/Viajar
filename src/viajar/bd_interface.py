@@ -90,7 +90,7 @@ class BDInterface:
             meio_transporte = local_circundante[1]
             destinos = []
             for linha in resultado:
-                if nome_local in [linha[0], linha[1]]:
+                if (nome_local in [linha[0], linha[1]]) & (meio_transporte == linha[2]):
                     destinos.append(linha[4].strip())
             if len(destinos) > 0:
                 sentidos[(nome_local, meio_transporte)] = destinos

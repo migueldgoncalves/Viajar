@@ -1,5 +1,7 @@
 Nome,Concelho
 A2 - Saída 14,Silves
+A22 - Saída 7,Silves
+A22 - Saída 8,Silves
 A22 - Saída 9,Albufeira
 A22 - Saída 11,Loulé
 A22 - Saída 12,Loulé
@@ -16,9 +18,12 @@ Afonso Vicente,Alcoutim
 "Álamo, Mértola",Mértola
 Albufeira - Centro histórico,Albufeira
 Albufeira - Rua da Oura,Albufeira
+Alcantarilha,Silves
 Alcaria,Castro Marim
 Alcarias Grandes,Castro Marim
 Alcoutim,Alcoutim
+Algarve Shopping,Albufeira
+Algoz,Silves
 Almada de Ouro,Castro Marim
 Almancil,Loulé
 Alta Mora,Castro Marim
@@ -29,6 +34,7 @@ Aquashow,Loulé
 Área de Repouso de Castro Marim,Castro Marim
 Área de Serviço de Loulé,Loulé
 Área de Serviço de Olhão,Olhão
+Armação de Pêra,Silves
 Azinhal,Castro Marim
 Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
@@ -101,11 +107,13 @@ Cruzamento da N125 com a N396,Loulé
 Cruzamento da N125 com a N398,Olhão
 Cruzamento da N125-4 com a M521,Loulé
 Cruzamento da N265 com a N392,Serpa
+Cruzamento da N269 com a N269-2,Silves
 Culatra,Faro
 Deserto,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António
 Espírito Santo,Mértola
 Estação de Albufeira - Ferreiras,Albufeira
+Estação de Alcantarilha,Silves
 Estação de Almancil,Loulé
 Estação de Boliqueime,Loulé
 Estação de Bom João,Faro
@@ -116,6 +124,7 @@ Estação de Fuseta-A,Olhão
 Estação de Fuseta-Moncarapacho,Olhão
 Estação de Loulé,Loulé
 Estação da Luz,Tavira
+Estação de Messines - Alte,Silves
 Estação de Monte Gordo,Vila Real de Santo António
 Estação de Parque das Cidades,Loulé
 Estação da Porta Nova,Tavira
@@ -137,8 +146,10 @@ Furnazinhas,Castro Marim
 Fuseta,Olhão
 Giões,Alcoutim
 Guerreiros do Rio,Alcoutim
+Guia,Albufeira
 Hangares,Faro
 Hortas,Vila Real de Santo António
+IC1 - Cruzamento com a N124,Silves
 IC1 - Fim,Albufeira
 IC27 - Fim,Alcoutim
 IC27 - Início,Castro Marim
@@ -180,6 +191,7 @@ Montinho de Odeleite,Castro Marim
 Moreanes,Mértola
 Murteira de Baixo,Castro Marim
 Murteira de Cima,Castro Marim
+Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Castro Marim
 Olhão,Olhão
 Olhos de Água,Albufeira
@@ -191,6 +203,7 @@ Parque Temático da Serra do Caldeirão,Loulé
 Pechão,Olhão
 Pedras de El-Rei,Tavira
 Penha da Águia,Mértola
+"Pêra, Silves",Silves
 Pereiro,Alcoutim
 Piçarral,Castro Marim
 Picoitos,Mértola
@@ -198,17 +211,19 @@ Pomarão,Mértola
 Portela Alta de Baixo,Castro Marim
 Portela Alta de Cima,Castro Marim
 Porto de Faro,Faro
-Praia de Cabanas de Tavira,Tavira
 Praia da Cacela Velha,Vila Real de Santo António
 Praia da Barreta,Faro
 Praia da Falésia,Albufeira
 Praia da Fuseta,Olhão
+Praia da Galé,Albufeira
+Praia da Ilha de Tavira,Tavira
 Praia da Oura,Albufeira
+Praia de Cabanas de Tavira,Tavira
 Praia de Faro,Faro
+Praia de Santa Eulália,Albufeira
 Praia do Barril,Tavira
 Praia dos Alemães,Albufeira
-Praia da Ilha de Tavira,Tavira
-Praia de Santa Eulália,Albufeira
+Praia dos Salgados,Albufeira
 Praia Verde,Castro Marim
 Quarteira,Loulé
 Quatro Águas,Tavira
@@ -228,22 +243,24 @@ Santa Catarina da Fonte do Bispo,Tavira
 Santa Luzia,Tavira
 Santa Marta,Alcoutim
 Santuário de Nossa Senhora da Piedade,Loulé
+São Bartolomeu de Messines,Silves
 São Brás de Alportel,São Brás de Alportel
+São Marcos da Serra,Silves
 São Martinho,Alcoutim
-Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
-Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Sedas,Mértola
 Sentinela,Castro Marim
 Serpa,Serpa
 Serro da Vinha de Baixo,Alcoutim
 Serro da Vinha de Cima,Alcoutim
 Sítio da Fábrica,Vila Real de Santo António
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Tacões,Alcoutim
 Tanoeiro,Castro Marim
 Tavira - Norte,Tavira
 Tavira - Sul,Tavira
 Tenência,Castro Marim
 Torneiro,Alcoutim
+Tunes,Silves
 Universidade do Algarve - Campus de Gambelas,Faro
 Universidade do Algarve - Campus da Penha,Faro
 Vale de Andreu,Castro Marim
@@ -260,3 +277,4 @@ Vila Nova de São Bento,Serpa
 Vila Real de Santo António,Vila Real de Santo António
 Vilamoura,Loulé
 Vista Real,Castro Marim
+Zoomarine,Albufeira
