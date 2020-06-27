@@ -70,6 +70,8 @@ A2 - Saída 14,Cruzamento da A2 com a A22,Carro,12.1,A2,SE,1,3
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,1.7,N124,SO,3,1
 A22 - Saída 7,A22 - Saída 8,Carro,3.1,A22,E,1,1
 A22 - Saída 7,Alcantarilha,Carro,1.6,N125,SE,2,3
+A22 - Saída 7,Aqualand Algarve,Carro,0.8,N125,NO,3,1
+A22 - Saída 7,Poço Barreto,Carro,5.2,,NO,4,2
 A22 - Saída 8,A22 - Saída 9,Carro,6.2,A22,E,2,1
 A22 - Saída 8,Algoz,Carro,4.0,,NE,4,4
 A22 - Saída 8,"Pêra, Silves",Carro,3.9,A22,SO,3,3
@@ -146,7 +148,7 @@ Algarve Shopping,Guia,Carro,2.2,N125,O,2,1
 Algarve Shopping,IC1 - Fim,Carro,2.0,N125,E,1,3
 Algoz,Cruzamento da N269 com a N269-2,Carro,3.2,,SE,1,3
 Algoz,Estação de Alcantarilha,Carro,4.3,,O,5,1
-Algoz,Estação de Alcantarilha,Comboio,4.2,Linha do Algarve - Regional,O,7,3
+Algoz,Estação de Alcantarilha,Comboio,4.2,Linha do Algarve - Regional,O,7,4
 Algoz,Guia,Carro,4.6,,S,3,5
 Algoz,Tunes,Carro,4.5,,E,2,4
 Algoz,Tunes,Comboio,4.4,Linha do Algarve - Regional,E,6,7
@@ -173,11 +175,14 @@ Ameixal,Salir,Carro,21.7,,SO,3,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,1,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Carro,0.9,,NE,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,3,6
+Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4
 Aquashow,Quarteira,Carro,3.7,,SO,3,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
 Armação de Pêra,"Pêra, Silves",Carro,3.5,,NE,1,4
+Armação de Pêra,Porches,Carro,5.5,,NO,4,2
+Armação de Pêra,Praia da Cova Redonda,Carro,3.5,,SO,3,1
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
@@ -370,6 +375,8 @@ Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,5.2,Linha do 
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,17.1,Linha do Algarve - Alfa Pendular/Intercidades,SE,5,6
 Estação de Albufeira - Ferreiras,Ferreiras,Carro,1.2,,SO,2,2
 Estação de Albufeira - Ferreiras,Tunes,Comboio,5.2,Linha do Algarve - Alfa Pendular/Intercidades/Regional,NO,4,6
+Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
+Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,4
 Estação de Almancil,Estação de Parque das Cidades,Comboio,4.2,Linha do Algarve - Regional,SE,3,4
 Estação de Almancil,Estação de Loulé,Comboio,3.4,Linha do Algarve - Regional,NO,4,3
 Estação de Boliqueime,Estação de Loulé,Comboio,8.6,Linha do Algarve - Regional,SE,3,4
@@ -510,6 +517,7 @@ Pereiro,Tacões,Carro,4.4,N124,SE,2,1
 Pereiro,"Vicentes, Alcoutim",Carro,1.8,,NE,4,1
 Pereiro,Serro da Vinha de Cima,Carro,2.7,,NO,5,2
 Picoitos,Salgueiros,Carro,2.0,,E,2,1
+Poço Barreto,Porches,Carro,5.8,,S,3,4
 Pomarão,Ponte Internacional do Baixo Guadiana,Carro,0.2,,SE,1,2
 Pomarão,Salgueiros,Carro,4.6,,N,2,2
 Pomarão,Puerto de la Laja,Barco,5.5,Rio Guadiana,S,4,3
@@ -517,15 +525,18 @@ Ponte do Centenário,SE-30 - Saída 12,Carro,1.5,SE-30,NO,1,2
 Ponte de Alamillo,Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Carro,0.2,SE-30,E,1,2
 Ponte de Alamillo,SE-30 - Saída 21,Carro,0.2,SE-30,O,2,1
 Ponte Internacional do Baixo Guadiana,Puerto de la Laja,Carro,6.0,,SE,1,2
+Porches,Praia da Nossa Senhora da Rocha,Carro,4.5,,SE,3,3
 Portela Alta de Baixo,Portela Alta de Cima,Carro,0.6,,NO,1,3
 Portela Alta de Cima,Quebradas,Carro,1.2,,O,2,1
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,4.7,Ria Formosa,NE,2,1
 Praia da Cacela Velha,Sítio da Fábrica,Barco,1.0,Ria Formosa,O,1,2
+Praia da Cova Redonda,Praia da Nossa Senhora da Rocha,Carro,0.9,,SO,2,1
 Praia da Galé,Praia dos Salgados,Carro,3.1,,NO,2,1
 Praia da Ilha de Tavira,Praia de Cabanas de Tavira,Barco,4.0,Ria Formosa,SO,1,2
 Praia da Ilha de Tavira,Praia do Barril,Barco,5.8,Ria Formosa,NE,2,1
 Praia da Ilha de Tavira,Quatro Águas,Barco,0.7,Ria Formosa,NO,3,2
 Praia de Isla Canela,Punta del Moral,Carro,4.3,,NE,2,1
+Praia da Nossa Senhora da Rocha,Praia Nova,Carro,0.5,,SO,2,1
 Puerto de la Laja,Sanlúcar de Guadiana,Barco,7.0,Rio Guadiana,S,4,3
 Quarteira,Vale do Lobo,Carro,7.2,,SE,2,3
 Quarteira,Vilamoura,Carro,3.2,,NO,3,1

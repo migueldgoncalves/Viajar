@@ -181,6 +181,10 @@ A22 - Saída 7,Alcantarilha,Carro,False,A22 - Lagos
 A22 - Saída 7,Alcantarilha,Carro,False,Portimão
 A22 - Saída 7,Alcantarilha,Carro,True,Albufeira
 A22 - Saída 7,Alcantarilha,Carro,True,Faro
+A22 - Saída 7,Aqualand Algarve,Carro,False,Albufeira
+A22 - Saída 7,Aqualand Algarve,Carro,False,Faro
+A22 - Saída 7,Aqualand Algarve,Carro,True,Lagoa
+A22 - Saída 7,Aqualand Algarve,Carro,True,Portimão
 A22 - Saída 8,A22 - Saída 9,Carro,False,Lagos
 A22 - Saída 8,A22 - Saída 9,Carro,False,Portimão
 A22 - Saída 8,A22 - Saída 9,Carro,True,Faro
@@ -352,6 +356,10 @@ Ameixal,Miradouro do Caldeirão,Carro,True,São Brás de Alportel
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelva
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamonte
+Aqualand Algarve,Porches,Carro,False,Albufeira
+Aqualand Algarve,Porches,Carro,False,Faro
+Aqualand Algarve,Porches,Carro,True,Lagoa
+Aqualand Algarve,Porches,Carro,True,Portimão
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
@@ -686,6 +694,9 @@ Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Faro
 Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Vila Real de Santo António
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lagos
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lisboa - Oriente
+Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
+Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
+Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
 Estação de Almancil,Estação de Loulé,Comboio,False,Faro
 Estação de Almancil,Estação de Loulé,Comboio,False,Vila Real de Santo António
 Estação de Almancil,Estação de Loulé,Comboio,True,Lagos
