@@ -173,6 +173,18 @@ A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,A2 - Faro/Lisboa/Portimã
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,Salir
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,IC1 - Albufeira/Lisboa
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,Silves
+A22 - Saída 6,Área de Serviço de Silves,Carro,False,Lagos
+A22 - Saída 6,Área de Serviço de Silves,Carro,False,Portimão
+A22 - Saída 6,Área de Serviço de Silves,Carro,True,A2 - Lisboa
+A22 - Saída 6,Área de Serviço de Silves,Carro,True,Faro
+A22 - Saída 6,Cruzamento da N124-1 com a N125,Carro,False,A22 - Faro/Lagos/A2 - Lisboa
+A22 - Saída 6,Cruzamento da N124-1 com a N125,Carro,False,Silves
+A22 - Saída 6,Cruzamento da N124-1 com a N125,Carro,True,Carvoeiro
+A22 - Saída 6,Cruzamento da N124-1 com a N125,Carro,True,Estômbar
+A22 - Saída 6,Cruzamento da N124-1 com a N125,Carro,True,Lagoa
+A22 - Saída 6,Estação de Silves,Carro,False,A22
+A22 - Saída 6,Estação de Silves,Carro,False,Lagoa
+A22 - Saída 6,Estação de Silves,Carro,True,Silves
 A22 - Saída 7,A22 - Saída 8,Carro,False,Lagos
 A22 - Saída 7,A22 - Saída 8,Carro,False,Portimão
 A22 - Saída 7,A22 - Saída 8,Carro,True,Faro
@@ -185,6 +197,10 @@ A22 - Saída 7,Aqualand Algarve,Carro,False,Albufeira
 A22 - Saída 7,Aqualand Algarve,Carro,False,Faro
 A22 - Saída 7,Aqualand Algarve,Carro,True,Lagoa
 A22 - Saída 7,Aqualand Algarve,Carro,True,Portimão
+A22 - Saída 7,Área de Serviço de Silves,Carro,False,A2 - Lisboa
+A22 - Saída 7,Área de Serviço de Silves,Carro,False,Faro
+A22 - Saída 7,Área de Serviço de Silves,Carro,True,Lagos
+A22 - Saída 7,Área de Serviço de Silves,Carro,True,Portimão
 A22 - Saída 8,A22 - Saída 9,Carro,False,Lagos
 A22 - Saída 8,A22 - Saída 9,Carro,False,Portimão
 A22 - Saída 8,A22 - Saída 9,Carro,True,Faro
@@ -443,6 +459,8 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
+Carvoeiro,Lagoa,Carro,False,Carvoeiro
+Carvoeiro,Lagoa,Carro,True,Lagoa
 Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,A22
 Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,Castro Marim
 Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,True,Vila Real de Santo António
@@ -599,6 +617,14 @@ Cruzamento da N124 com a N396,Salir,Carro,False,Cachopo
 Cruzamento da N124 com a N396,Salir,Carro,True,Lagos
 Cruzamento da N124 com a N396,Salir,Carro,True,Salir
 Cruzamento da N124 com a N396,Salir,Carro,True,Silves
+Cruzamento da N124-1 com a N125,Lagoa,Carro,False,A22
+Cruzamento da N124-1 com a N125,Lagoa,Carro,False,Portimão
+Cruzamento da N124-1 com a N125,Lagoa,Carro,False,Silves
+Cruzamento da N124-1 com a N125,Lagoa,Carro,True,Lagoa
+Cruzamento da N124-1 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,False,Lagoa
+Cruzamento da N124-1 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,False,Silves
+Cruzamento da N124-1 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,True,Estômbar
+Cruzamento da N124-1 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,True,Portimão
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Tavira
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,False,Vila Real de Santo António
 Cruzamento da N125 com a M1347,Luz de Tavira,Carro,True,Faro
@@ -723,6 +749,12 @@ Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
 Estação de Castro Marim,Vista Real,Carro,False,Altura
 Estação de Castro Marim,Vista Real,Carro,True,Castro Marim
+Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Tunes
+Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Vila Real de Santo António
+Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,True,Lagos
+Estação de Estômbar - Lagoa,Estação de Silves,Comboio,False,Lagos
+Estação de Estômbar - Lagoa,Estação de Silves,Comboio,True,Tunes
+Estação de Estômbar - Lagoa,Estação de Silves,Comboio,True,Vila Real de Santo António
 Estação de Faro,Estação de Loulé,Comboio,False,Faro
 Estação de Faro,Estação de Loulé,Comboio,True,Lisboa - Oriente
 Estação de Faro,Estação de Loulé,Comboio,True,Tunes
@@ -751,6 +783,14 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Silves,Poço Barreto,Comboio,False,Lagos
+Estação de Silves,Poço Barreto,Comboio,True,Tunes
+Estação de Silves,Poço Barreto,Comboio,True,Vila Real de Santo António
+Estação de Silves,Silves,Carro,False,Albufeira
+Estação de Silves,Silves,Carro,False,Armação de Pêra
+Estação de Silves,Silves,Carro,False,Lagoa
+Estação de Silves,Silves,Carro,False,Portimão
+Estação de Silves,Silves,Carro,True,Silves - Centro da cidade
 Estoi,Pechão,Carro,False,Estoi
 Estoi,Pechão,Carro,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi
@@ -865,17 +905,23 @@ Isla Cristina,Punta del Moral,Barco,True,Portugal
 Junqueira,Montes Castelhanos,Carro,False,Castro Marim
 Junqueira,Montes Castelhanos,Carro,True,Alcoutim
 Junqueira,Montes Castelhanos,Carro,True,Azinhal
+Lagoa,Porches,Carro,False,Lagoa
+Lagoa,Porches,Carro,False,Portimão
+Lagoa,Porches,Carro,True,Albufeira
+Lagoa,Porches,Carro,True,Faro
 Livramento,Luz de Tavira,Carro,False,Faro
 Livramento,Luz de Tavira,Carro,False,Olhão
 Livramento,Luz de Tavira,Carro,True,Tavira
 Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
+Mértola,Penha da Águia,Barco,False,Mértola
+Mértola,Penha da Águia,Barco,True,Pomarão
+Mértola,Penha da Águia,Barco,True,Vila Real de Santo António
+Mexilhoeira da Carregação,Silves,Barco,False,Portimão
+Mexilhoeira da Carregação,Silves,Barco,True,Silves
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Aeroporto de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Praia de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Carro,True,A22 - Portimão
 Montenegro,Variante de Faro - Nó com o IC4,Carro,True,Faro
-Mértola,Penha da Águia,Barco,False,Mértola
-Mértola,Penha da Águia,Barco,True,Pomarão
-Mértola,Penha da Águia,Barco,True,Vila Real de Santo António
 Olhão,Pechão,Carro,False,Olhão
 Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
@@ -972,6 +1018,9 @@ Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,A22 - Espanha/Lisbo
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Faro
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,True,São Brás de Alportel
+São Bartolomeu de Messines,Silves,Carro,True,Silves
+São Bartolomeu de Messines,Silves,Carro,False,Lisboa
+São Bartolomeu de Messines,Silves,Carro,False,São Bartolomeu de Messines
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Estádio de La Cartuja
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Isla Mágica
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Sevilha - Isla de la Cartuja

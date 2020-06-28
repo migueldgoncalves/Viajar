@@ -1,5 +1,6 @@
 Nome,Concelho
 A2 - Saída 14,Silves
+A22 - Saída 6,Silves
 A22 - Saída 7,Silves
 A22 - Saída 8,Silves
 A22 - Saída 9,Albufeira
@@ -22,6 +23,7 @@ Alcantarilha,Silves
 Alcaria,Castro Marim
 Alcarias Grandes,Castro Marim
 Alcoutim,Alcoutim
+Algar de Benagil,Lagoa
 Algarve Shopping,Albufeira
 Algoz,Silves
 Almada de Ouro,Castro Marim
@@ -35,6 +37,7 @@ Aquashow,Loulé
 Área de Repouso de Castro Marim,Castro Marim
 Área de Serviço de Loulé,Loulé
 Área de Serviço de Olhão,Olhão
+Área de Serviço de Silves,Silves
 Armação de Pêra,Silves
 Azinhal,Castro Marim
 Balurco de Baixo,Alcoutim
@@ -59,6 +62,7 @@ Cacela Velha,Vila Real de Santo António
 Cachopo,Tavira
 Cais da Mesquita,Mértola
 Cais da Praia do Barril,Tavira
+Carvoeiro,Lagoa
 "Casa Branca, Alcoutim",Alcoutim
 "Casa Branca, Castro Marim",Castro Marim
 Cascata do Pego do Inferno,Tavira
@@ -98,6 +102,7 @@ Cruzamento da N122 com a N123,Mértola
 Cruzamento da N124 com a M507-1,Alcoutim
 Cruzamento da N124 com a N270,Silves
 Cruzamento da N124 com a N396,Loulé
+Cruzamento da N124-1 com a N125,Lagoa
 Cruzamento da N125 com a M1347,Tavira
 Cruzamento da N125 com a M516-2,Olhão
 Cruzamento da N125 com a M526,Loulé
@@ -120,7 +125,9 @@ Estação de Boliqueime,Loulé
 Estação de Bom João,Faro
 Estação de Cacela,Vila Real de Santo António
 Estação de Castro Marim,Castro Marim
+Estação de Estômbar - Lagoa,Lagoa
 Estação de Faro,Faro
+Estação de Ferragudo,Lagoa
 Estação de Fuseta-A,Olhão
 Estação de Fuseta-Moncarapacho,Olhão
 Estação de Loulé,Loulé
@@ -130,11 +137,14 @@ Estação de Monte Gordo,Vila Real de Santo António
 Estação de Parque das Cidades,Loulé
 Estação da Porta Nova,Tavira
 Estação de Tavira,Tavira
+Estação de Silves,Silves
 Estádio Algarve,Loulé
 Estoi,Faro
+Estômbar,Lagoa
 Faro - Avenida Calouste Gulbenkian,Faro
 Faro - São Pedro,Faro
 Faro - Sé,Faro
+Ferragudo,Lagoa
 Ferreiras,Albufeira
 Fonte Benémola,Loulé
 Fonte do Penedo,Castro Marim
@@ -165,6 +175,7 @@ Ilha da Armona,Olhão
 Ilha do Farol,Faro
 IP2 - Saída 44,Beja
 Junqueira,Castro Marim
+Lagoa,Lagoa
 Laranjeiras,Alcoutim
 Loulé,Loulé
 Livramento,Tavira
@@ -176,6 +187,7 @@ Martim Longo,Alcoutim
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Mértola
+Mexilhoeira da Carregação,Lagoa
 Mina de Sal-Gema de Loulé,Loulé
 Minas de São Domingos,Mértola
 Miradouro do Caldeirão,Loulé
@@ -192,14 +204,17 @@ Montinho de Odeleite,Castro Marim
 Moreanes,Mértola
 Murteira de Baixo,Castro Marim
 Murteira de Cima,Castro Marim
+N125 - Acesso a Estômbar e Ferragudo,Lagoa
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Castro Marim
 Olhão,Olhão
 Olhos de Água,Albufeira
 Paderne,Albufeira
 Palmeira,Alcoutim
+Parchal,Lagoa
 Parque Empresarial de Alcoutim,Alcoutim
 Parque Mineiro Cova dos Mouros,Alcoutim
+Parque Municipal do Sítio das Fontes,Lagoa
 Parque Temático da Serra do Caldeirão,Loulé
 Pechão,Olhão
 Pedras de El-Rei,Tavira
@@ -214,6 +229,7 @@ Porches,Lagoa
 Portela Alta de Baixo,Castro Marim
 Portela Alta de Cima,Castro Marim
 Porto de Faro,Faro
+Porto de Pesca de Portimão,Lagoa
 Praia da Barreta,Faro
 Praia da Cacela Velha,Vila Real de Santo António
 Praia da Cova Redonda,Lagoa
@@ -221,12 +237,16 @@ Praia da Falésia,Albufeira
 Praia da Fuseta,Olhão
 Praia da Galé,Albufeira
 Praia da Ilha de Tavira,Tavira
+Praia da Marinha,Lagoa
 Praia da Nossa Senhora da Rocha,Lagoa
 Praia da Oura,Albufeira
+Praia de Benagil,Lagoa
 Praia de Cabanas de Tavira,Tavira
 Praia de Faro,Faro
 Praia de Santa Eulália,Albufeira
 Praia do Barril,Tavira
+Praia do Carvalho,Lagoa
+Praia do Vale de Centeanes,Lagoa
 Praia dos Alemães,Albufeira
 Praia dos Salgados,Albufeira
 Praia Nova,Lagoa
@@ -258,7 +278,9 @@ Sentinela,Castro Marim
 Serpa,Serpa
 Serro da Vinha de Baixo,Alcoutim
 Serro da Vinha de Cima,Alcoutim
+Silves,Silves
 Sítio da Fábrica,Vila Real de Santo António
+Slide & Splash,Lagoa
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Tacões,Alcoutim
 Tanoeiro,Castro Marim

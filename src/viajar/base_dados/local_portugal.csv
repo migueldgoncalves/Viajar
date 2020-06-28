@@ -1,5 +1,6 @@
 Nome,Freguesia
 A2 - Saída 14,São Bartolomeu de Messines
+A22 - Saída 6,Silves
 A22 - Saída 7,Alcantarilha
 A22 - Saída 8,Pêra
 A22 - Saída 9,Ferreiras
@@ -22,6 +23,7 @@ Alcantarilha,Alcantarilha
 Alcaria,Odeleite
 Alcarias Grandes,Azinhal
 Alcoutim,Alcoutim
+Algar de Benagil,Lagoa
 Algarve Shopping,Guia
 Algoz,Algoz
 Almada de Ouro,Azinhal
@@ -35,6 +37,7 @@ Aquashow,Quarteira
 Área de Repouso de Castro Marim,Castro Marim
 Área de Serviço de Loulé,Boliqueime
 Área de Serviço de Olhão,Moncarapacho
+Área de Serviço de Silves,Silves
 Armação de Pêra,Armação de Pêra
 Azinhal,Azinhal
 Balurco de Baixo,Alcoutim
@@ -59,6 +62,7 @@ Cacela Velha,Vila Nova de Cacela
 Cachopo,Cachopo
 Cais da Mesquita,Espírito Santo
 Cais da Praia do Barril,Santa Luzia
+Carvoeiro,Carvoeiro
 "Casa Branca, Alcoutim",Alcoutim
 "Casa Branca, Castro Marim",Odeleite
 Cascata do Pego do Inferno,Santo Estêvão
@@ -98,6 +102,7 @@ Cruzamento da N122 com a N123,Mértola
 Cruzamento da N124 com a M507-1,Giões
 Cruzamento da N124 com a N270,São Bartolomeu de Messines
 Cruzamento da N124 com a N396,Querença
+Cruzamento da N124-1 com a N125,Lagoa
 Cruzamento da N125 com a M1347,Santiago
 Cruzamento da N125 com a M516-2,Moncarapacho
 Cruzamento da N125 com a M526,Boliqueime
@@ -120,7 +125,9 @@ Estação de Boliqueime,Boliqueime
 Estação de Bom João,Sé
 Estação de Cacela,Vila Nova de Cacela
 Estação de Castro Marim,Castro Marim
+Estação de Estômbar - Lagoa,Estômbar
 Estação de Faro,São Pedro
+Estação de Ferragudo,Parchal
 Estação de Fuseta-A,Fuseta
 Estação de Fuseta-Moncarapacho,Moncarapacho
 Estação de Loulé,São Sebastião
@@ -130,11 +137,14 @@ Estação de Monte Gordo,Monte Gordo
 Estação de Parque das Cidades,Almancil
 Estação da Porta Nova,Santa Maria
 Estação de Tavira,Santiago
+Estação de Silves,Silves
 Estádio Algarve,Almancil
 Estoi,Estoi
+Estômbar,Estômbar
 Faro - Avenida Calouste Gulbenkian,São Pedro
 Faro - São Pedro,São Pedro
 Faro - Sé,Sé
+Ferragudo,Ferragudo
 Ferreiras,Ferreiras
 Fonte Benémola,Querença
 Fonte do Penedo,Odeleite
@@ -165,6 +175,7 @@ Ilha da Armona,Quelfes
 Ilha do Farol,Sé
 IP2 - Saída 44,Trindade
 Junqueira,Castro Marim
+Lagoa,Lagoa
 Laranjeiras,Alcoutim
 Loulé,São Clemente
 Livramento,Luz de Tavira
@@ -176,6 +187,7 @@ Martim Longo,Martim Longo
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Espírito Santo
+Mexilhoeira da Carregação,Estômbar
 Mina de Sal-Gema de Loulé,São Clemente
 Minas de São Domingos,Corte do Pinto
 Miradouro do Caldeirão,Ameixal
@@ -192,14 +204,17 @@ Montinho de Odeleite,Odeleite
 Moreanes,Santana de Cambas
 Murteira de Baixo,Azinhal
 Murteira de Cima,Azinhal
+N125 - Acesso a Estômbar e Ferragudo,Estômbar
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Odeleite
 Olhão,Olhão
 Olhos de Água,Olhos de Água
 Paderne,Paderne
 Palmeira,Alcoutim
+Parchal,Parchal
 Parque Empresarial de Alcoutim,Alcoutim
 Parque Mineiro Cova dos Mouros,Vaqueiros
+Parque Municipal do Sítio das Fontes,Estômbar
 Parque Temático da Serra do Caldeirão,Salir
 Pechão,Pechão
 Pedras de El-Rei,Santa Luzia
@@ -214,6 +229,7 @@ Porches,Porches
 Portela Alta de Baixo,Odeleite
 Portela Alta de Cima,Odeleite
 Porto de Faro,Sé
+Porto de Pesca de Portimão,Parchal
 Praia da Barreta,Sé
 Praia da Cacela Velha,Vila Nova de Cacela
 Praia da Cova Redonda,Porches
@@ -221,12 +237,16 @@ Praia da Falésia,Olhos de Água
 Praia da Fuseta,Fuseta
 Praia da Galé,Guia
 Praia da Ilha de Tavira,Santa Maria
+Praia da Marinha,Lagoa
 Praia da Nossa Senhora da Rocha,Porches
 Praia da Oura,Albufeira
+Praia de Benagil,Lagoa
 Praia de Cabanas de Tavira,Cabanas de Tavira
 Praia de Santa Eulália,Olhos de Água
 Praia de Faro,Montenegro
 Praia do Barril,Santa Luzia
+Praia do Carvalho,Carvoeiro
+Praia do Vale de Centeanes,Carvoeiro
 Praia dos Alemães,Albufeira
 Praia dos Salgados,Guia
 Praia Nova,Porches
@@ -258,8 +278,10 @@ Sentinela,Azinhal
 Serpa,Santa Maria
 Serro da Vinha de Baixo,Pereiro
 Serro da Vinha de Cima,Pereiro
-Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
+Silves,Silves
 Sítio da Fábrica,Vila Nova de Cacela
+Slide & Splash,Estômbar
+Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Tacões,Pereiro
 Tanoeiro,Castro Marim
 Tavira - Norte,Santa Maria
