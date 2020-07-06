@@ -761,6 +761,9 @@ Estação de Faro,Estação de Loulé,Comboio,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Comboio,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
+Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
+Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
+Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Faro
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Lagos
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,True,Vila Real de Santo António
@@ -800,12 +803,26 @@ Estoi,Ruínas Romanas de Milreu,Carro,True,Ruínas Romanas de Milreu
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,False,Faro
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,Estoi
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,São Brás de Alportel
+Faro - São Pedro,Olhão,Barco,False,Lagos
+Faro - São Pedro,Olhão,Barco,False,Portimão
+Faro - São Pedro,Olhão,Barco,True,Huelva
+Faro - São Pedro,Olhão,Barco,True,Vila Real de Santo António
 Faro - São Pedro,Porto de Faro,Barco,False,Faro
 Faro - São Pedro,Porto de Faro,Barco,True,Olhão
 Faro - São Pedro,Porto de Faro,Barco,True,Vila Nova de Cacela
 Faro - São Pedro,Praia de Faro,Barco,False,Faro
 Faro - São Pedro,Praia de Faro,Barco,False,Vila Nova de Cacela
 Faro - São Pedro,Praia de Faro,Barco,True,Praia de Faro
+Faro - São Pedro,Quarteira,Barco,False,Huelva
+Faro - São Pedro,Quarteira,Barco,False,Vila Real de Santo António
+Faro - São Pedro,Quarteira,Barco,True,Lagos
+Faro - São Pedro,Quarteira,Barco,True,Portimão
+Ferragudo,Marina de Portimão,Barco,False,Portimão - Centro da cidade
+Ferragudo,Marina de Portimão,Barco,False,Silves
+Ferragudo,Marina de Portimão,Barco,True,Marina de Portimão
+Ferragudo,Porto Comercial de Portimão,Barco,False,Marina de Portimão
+Ferragudo,Porto Comercial de Portimão,Barco,True,Portimão - Centro da cidade
+Ferragudo,Porto Comercial de Portimão,Barco,True,Silves
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,False,Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Estádio Algarve
@@ -814,6 +831,10 @@ Fuseta,Ilha da Armona,Barco,False,Fuseta
 Fuseta,Ilha da Armona,Barco,False,Vila Nova de Cacela
 Fuseta,Ilha da Armona,Barco,True,Faro
 Fuseta,Ilha da Armona,Barco,True,Olhão
+Fuseta,Olhão,Barco,False,Huelva
+Fuseta,Olhão,Barco,False,Vila Real de Santo António
+Fuseta,Olhão,Barco,True,Faro
+Fuseta,Olhão,Barco,True,Portimão
 Fuseta,Praia da Fuseta,Barco,False,Faro
 Fuseta,Praia da Fuseta,Barco,False,Fuseta
 Fuseta,Praia da Fuseta,Barco,False,Vila Nova de Cacela
@@ -822,6 +843,10 @@ Fuseta,Praia do Barril,Barco,False,Faro
 Fuseta,Praia do Barril,Barco,False,Fuseta
 Fuseta,Praia do Barril,Barco,True,Tavira
 Fuseta,Praia do Barril,Barco,True,Vila Nova de Cacela
+Fuseta,Quatro Águas,Barco,False,Faro
+Fuseta,Quatro Águas,Barco,False,Portimão
+Fuseta,Quatro Águas,Barco,True,Huelva
+Fuseta,Quatro Águas,Barco,True,Vila Real de Santo António
 Guia,Zoomarine,Carro,False,Albufeira
 Guia,Zoomarine,Carro,False,Faro
 Guia,Zoomarine,Carro,True,Portimão
@@ -913,9 +938,19 @@ Livramento,Luz de Tavira,Carro,False,Faro
 Livramento,Luz de Tavira,Carro,False,Olhão
 Livramento,Luz de Tavira,Carro,True,Tavira
 Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
+Marina de Albufeira,Marina de Portimão,Barco,False,Faro
+Marina de Albufeira,Marina de Portimão,Barco,False,Vila Real de Santo António
+Marina de Albufeira,Marina de Portimão,Barco,True,Lagos
+Marina de Albufeira,Marina de Portimão,Barco,True,Sines
+Marina de Albufeira,Vilamoura,Barco,False,Lagos
+Marina de Albufeira,Vilamoura,Barco,False,Portimão
+Marina de Albufeira,Vilamoura,Barco,True,Faro
+Marina de Albufeira,Vilamoura,Barco,True,Vila Real de Santo António
 Mértola,Penha da Águia,Barco,False,Mértola
 Mértola,Penha da Águia,Barco,True,Pomarão
 Mértola,Penha da Águia,Barco,True,Vila Real de Santo António
+Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,False,Silves
+Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,True,Portimão
 Mexilhoeira da Carregação,Silves,Barco,False,Portimão
 Mexilhoeira da Carregação,Silves,Barco,True,Silves
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Aeroporto de Faro
@@ -951,6 +986,14 @@ Ponte do Centenário,SE-30 - Saída 12,Carro,False,Porto de Sevilha Este
 Ponte do Centenário,SE-30 - Saída 12,Carro,True,A-49 - Huelva
 Ponte do Centenário,SE-30 - Saída 12,Carro,True,A-66 - Mérida
 Ponte do Centenário,SE-30 - Saída 12,Carro,True,Porto de Sevilha Oeste
+Portimão - Centro histórico,Portimão - Zona ribeirinha,Barco,False,Silves
+Portimão - Centro histórico,Portimão - Zona ribeirinha,Barco,True,Marina de Portimão
+Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,False,Portimão - Centro da cidade
+Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,False,Silves
+Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,True,Marina de Portimão
+Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,False,Marina de Portimão
+Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Portimão - Centro da cidade
+Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Silves
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,False,Vila Nova de Cacela
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Faro
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Tavira
@@ -972,6 +1015,14 @@ Puerto de la Laja,Sanlúcar de Guadiana,Barco,False,Pomarão
 Puerto de la Laja,Sanlúcar de Guadiana,Barco,True,Alcoutim
 Puerto de la Laja,Sanlúcar de Guadiana,Barco,True,Sanlúcar de Guadiana
 Puerto de la Laja,Sanlúcar de Guadiana,Barco,True,Vila Real de Santo António
+Punta del Moral,Vila Real de Santo António,Barco,False,Huelva
+Punta del Moral,Vila Real de Santo António,Barco,False,Sevilha
+Punta del Moral,Vila Real de Santo António,Barco,True,Faro
+Punta del Moral,Vila Real de Santo António,Barco,True,Portimão
+Quarteira,Vilamoura,Barco,False,Faro
+Quarteira,Vilamoura,Barco,False,Vila Real de Santo António
+Quarteira,Vilamoura,Barco,True,Lagos
+Quarteira,Vilamoura,Barco,True,Portimão
 Quatro Águas,Santa Luzia,Barco,False,Faro
 Quatro Águas,Santa Luzia,Barco,False,Tavira
 Quatro Águas,Santa Luzia,Barco,False,Vila Nova de Cacela
@@ -979,6 +1030,10 @@ Quatro Águas,Santa Luzia,Barco,True,Praia do Barril
 Quatro Águas,Tavira - Norte,Barco,False,Faro
 Quatro Águas,Tavira - Norte,Barco,False,Vila Nova de Cacela
 Quatro Águas,Tavira - Norte,Barco,True,Tavira
+Quatro Águas,Vila Real de Santo António,Barco,False,Faro
+Quatro Águas,Vila Real de Santo António,Barco,False,Portimão
+Quatro Águas,Vila Real de Santo António,Barco,True,Huelva
+Quatro Águas,Vila Real de Santo António,Barco,True,Sevilha
 Ribeira do Vascão,Santa Marta,Carro,False,Beja
 Ribeira do Vascão,Santa Marta,Carro,False,Mértola
 Ribeira do Vascão,Santa Marta,Carro,True,Alcoutim

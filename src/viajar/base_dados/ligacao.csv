@@ -128,9 +128,8 @@ Afonso Vicente,Cruzamento da N122 com a M507,Carro,3.5,,SO,3,2
 "Álamo, Mértola",Boavista,Carro,7.1,,E,2,2
 "Álamo, Mértola",Mértola,Carro,8.0,,N,3,1
 Albufeira - Centro histórico,Cruzamento da N125 com a N395,Carro,4.2,,N,2,3
-Albufeira - Centro histórico,Guia,Carro,8.3,,NO,4,2
+Albufeira - Centro histórico,Marina de Albufeira,Carro,4.2,,SO,3,1
 Albufeira - Centro histórico,Praia dos Alemães,Carro,2.5,,SE,1,2
-Albufeira - Centro histórico,Praia da Galé,Carro,8.4,,O,3,1
 Albufeira - Rua da Oura,Cruzamento da N125 com a N269,Carro,4.5,,N,4,1
 Albufeira - Rua da Oura,Praia de Santa Eulália,Carro,1.8,,SE,1,2
 Albufeira - Rua da Oura,Praia da Oura,Carro,0.7,,S,2,1
@@ -155,7 +154,7 @@ Algarve Shopping,IC1 - Fim,Carro,2.0,N125,E,1,3
 Algoz,Cruzamento da N269 com a N269-2,Carro,3.2,,SE,1,3
 Algoz,Estação de Alcantarilha,Carro,4.3,,O,5,1
 Algoz,Estação de Alcantarilha,Comboio,4.2,Linha do Algarve - Regional,O,7,4
-Algoz,Guia,Carro,4.6,,S,3,5
+Algoz,Guia,Carro,4.6,,S,3,2
 Algoz,Tunes,Carro,4.5,,E,2,4
 Algoz,Tunes,Comboio,4.4,Linha do Algarve - Regional,E,6,7
 Almada de Ouro,Cruzamento da N122 com a M1063,Carro,3.6,N122,NO,1,2
@@ -192,7 +191,7 @@ Armação de Pêra,Praia da Cova Redonda,Carro,3.5,,SO,3,1
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
-Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,5,5
+Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,5,7
 Azinhal,Cruzamento da N122 com a M512,Carro,0.8,N122,SO,2,1
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,2.3,N122,S,1,1
 Balurco de Baixo,Parque Empresarial de Alcoutim,Carro,1.5,N122,N,2,2
@@ -408,6 +407,7 @@ Estação de Estômbar - Lagoa,Slide & Splash,Carro,1.2,,SE,1,2
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
 Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Alfa Pendular/Intercidades,NO,4,5
+Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,3
 Estação de Ferragudo,Parchal,Carro,0.3,,SO,1,3
 Estação de Fuseta-A,Fuseta,Carro,0.7,,NE,1,2
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,0.9,Linha do Algarve - Regional,N,2,4
@@ -421,10 +421,12 @@ Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2,8
 Estação de Monte Gordo,Hortas,Carro,0.9,N125,SE,1,1
 Estação de Monte Gordo,Monte Gordo,Carro,1.5,,S,2,1
-Estação de Monte Gordo,Vila Real de Santo António,Comboio,2.6,Linha do Algarve - Regional,NE,4,6
+Estação de Monte Gordo,Vila Real de Santo António,Comboio,2.7,Linha do Algarve - Regional,NE,4,8
 Estação de Parque das Cidades,Mar Shopping Algarve,Carro,2.5,,NO,2,4
 Estação da Porta Nova,Tavira - Norte,Carro,0.7,,S,1,2
 Estação da Porta Nova,Estação de Tavira,Comboio,1.6,Linha do Algarve - Regional,SO,3,2
+Estação de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,2.1,,SO,2,4
+Estação de Portimão,Universidade do Algarve - Campus de Portimão,Carro,0.2,,SE,1,2
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
@@ -440,11 +442,15 @@ Faro - Avenida Calouste Gulbenkian,Universidade do Algarve - Campus da Penha,Car
 Faro - Avenida Calouste Gulbenkian,Faro - Sé,Carro,1.6,,SE,4,1
 Faro - Avenida Calouste Gulbenkian,Faro - São Pedro,Carro,1.3,,S,5,1
 Faro - São Pedro,Faro - Sé,Carro,1.6,,E,2,2
+Faro - São Pedro,Olhão,Barco,14.0,Costa de Portugal Continental,NE,7,9
 Faro - São Pedro,Porto de Faro,Barco,1.8,Ria Formosa,SE,4,3
 Faro - São Pedro,Praia de Faro,Barco,5.0,Ria Formosa,SO,5,2
+Faro - São Pedro,Quarteira,Barco,34.1,Costa de Portugal Continental,NO,6,5
 Faro - Sé,Universidade do Algarve - Campus da Penha,Carro,1.4,,N,4,2
 Faro - Sé,Variante de Faro - Nó com a M518,Carro,1.9,,NE,5,4
+Ferragudo,Marina de Portimão,Barco,0.8,Rio Arade,SO,3,4
 Ferragudo,Parchal,Carro,2.8,,N,2,2
+Ferragudo,Porto Comercial de Portimão,Barco,0.7,Rio Arade,NO,4,3
 Ferreiras,Paderne,Carro,7.6,,NE,1,6
 Fonte Benémola,Querença,Carro,2.4,,SE,1,4
 Fonte Zambujo,Fonte Zambujo de Cima,Carro,0.9,,N,1,2
@@ -454,13 +460,16 @@ Forum Algarve,Variante de Faro - Nó com o IC4,Carro,1.9,IC4,N,2,3
 Furnazinhas,Vaqueiros,Carro,17.6,,NO,2,1
 Fuseta,Praia do Barril,Barco,8.6,Ria Formosa,NE,3,2
 Fuseta,Ilha da Armona,Barco,10.9,Ria Formosa,SO,4,1
-Fuseta,Praia da Fuseta,Barco,1.3,Ria Formosa,S,5,1
+Fuseta,Olhão,Barco,13.9,Costa de Portugal Continental,SO,5,10
+Fuseta,Praia da Fuseta,Barco,1.3,Ria Formosa,S,7,1
+Fuseta,Quatro Águas,Barco,15.4,Costa de Portugal Continental,NE,6,4
 Gelves,San Juan de Aznalfarache,Carro,3.0,,N,1,2
 Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,1,3
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
 Guerreiros do Rio,Laranjeiras,Carro,1.2,,NO,1,1
 Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
+Guia,Marina de Albufeira,Carro,7.7,,SE,5,2
 Guia,Praia da Galé,Carro,6.5,,SO,3,3
 Guia,Zoomarine,Carro,1.6,N125,O,4,1
 Hangares,Ilha do Farol,Barco,1.5,Ria Formosa,SO,2,1
@@ -495,7 +504,7 @@ IC27 - Saída 7,Tacões,Carro,3.5,N124,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
-Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,3
+Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,4
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
 Lagoa,Porches,Carro,5.2,N125,SE,2,6
 Lagoa,Slide & Splash,Carro,2.3,,NO,5,1
@@ -508,6 +517,11 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Manta Rota,Vila Nova de Cacela,Carro,2.3,,NO,1,2
 Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
+Marina de Albufeira,Marina de Portimão,Barco,28.6,Costa de Portugal Continental,NO,4,3
+Marina de Albufeira,Praia da Galé,Carro,5.6,,O,3,1
+Marina de Albufeira,Vilamoura,Barco,15.2,Costa de Portugal Continental,E,5,3
+Marina de Portimão,Porto Comercial de Portimão,Carro,2.1,,N,1,2
+Marina de Portimão,Praia da Rocha,Carro,1.3,,SO,2,1
 Marismas de Isla Cristina,Punta del Moral,Carro,2.5,,SE,1,2
 Martim Longo,Vaqueiros,Carro,7.7,,SE,1,2
 Mértola,Monte Alto,Carro,6.0,,SE,2,1
@@ -515,7 +529,8 @@ Mértola,Penha da Águia,Barco,10.2,Rio Guadiana,SE,4,2
 Mesquita,Sedas,Carro,7.1,,O,1,3
 Mexilhoeira da Carregação,N125 - Acesso a Estômbar e Ferragudo,Carro,1.8,,NE,1,2
 Mexilhoeira da Carregação,Parchal,Carro,1.6,,SO,3,1
-Mexilhoeira da Carregação,Silves,Barco,8.9,Rio Arade,NE,4,4
+Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,2.8,Rio Arade,O,4,6
+Mexilhoeira da Carregação,Silves,Barco,8.9,Rio Arade,NE,5,4
 Minas de São Domingos,Moreanes,Carro,6.8,,SO,1,2
 Minas de São Domingos,Vale do Poço,Carro,11.4,,N,2,1
 Moncarapacho,Quelfes,Carro,4.7,,SO,4,2
@@ -558,6 +573,16 @@ Porches,Praia da Marinha,Carro,6.1,,SO,5,1
 Porches,Praia da Nossa Senhora da Rocha,Carro,4.5,,SE,3,3
 Portela Alta de Baixo,Portela Alta de Cima,Carro,0.6,,NO,1,3
 Portela Alta de Cima,Quebradas,Carro,1.2,,O,2,1
+Portimão - Avenida São Lourenço da Barrosa,Portimão - Centro histórico,Carro,1.5,,NE,1,3
+Portimão - Avenida São Lourenço da Barrosa,Portimão - Zona ribeirinha,Carro,1.1,,E,2,3
+Portimão - Avenida São Lourenço da Barrosa,Praia da Rocha,Carro,2.4,,SE,3,2
+Portimão - Centro histórico,Porto de Pesca de Portimão,Carro,1.1,,SE,1,2
+Portimão - Centro histórico,Portimão - Zona ribeirinha,Barco,0.4,Rio Arade,SE,5,5
+Portimão - Centro histórico,Portimão - Zona ribeirinha,Carro,0.9,,SE,2,1
+Portimão - Centro histórico,Universidade do Algarve - Campus de Portimão,Carro,1.2,,N,4,1
+Portimão - Zona ribeirinha,Porto Comercial de Portimão,Carro,2.2,,SE,2,1
+Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,E,4,4
+Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,N,4,3
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,4.7,Ria Formosa,NE,2,1
 Praia da Cacela Velha,Sítio da Fábrica,Barco,1.0,Ria Formosa,O,1,2
 Praia da Cova Redonda,Praia da Nossa Senhora da Rocha,Carro,0.9,,SO,2,1
@@ -571,11 +596,14 @@ Praia de Benagil,Praia do Carvalho,Carro,3.9,,O,2,1
 Praia de Isla Canela,Punta del Moral,Carro,4.3,,NE,2,1
 Praia do Carvalho,Praia do Vale de Centeanes,Carro,2.3,,NO,2,1
 Puerto de la Laja,Sanlúcar de Guadiana,Barco,7.0,Rio Guadiana,S,4,3
+Punta del Moral,Vila Real de Santo António,Barco,11.8,Costa Atlântica de Espanha Continental,O,3,6
 Quarteira,Vale do Lobo,Carro,7.2,,SE,2,3
+Quarteira,Vilamoura,Barco,3.1,Costa de Portugal Continental,NO,4,4
 Quarteira,Vilamoura,Carro,3.2,,NO,3,1
 Quatro Águas,Tavira - Sul,Carro,2.9,,NO,1,2
 Quatro Águas,Santa Luzia,Barco,3.4,Ria Formosa,SO,3,3
-Quatro Águas,Tavira - Norte,Barco,2.4,Ria Formosa,NO,4,4
+Quatro Águas,Tavira - Norte,Barco,2.4,Rio Gilão,NO,6,4
+Quatro Águas,Vila Real de Santo António,Barco,26.9,Costa de Portugal Continental,NO,5,5
 Quebradas,Sentinela,Carro,2.5,,SE,2,2
 Querença,São Brás de Alportel,Carro,16.3,,SE,2,5
 Quinta do Lago,Vale do Lobo,Carro,5.8,,O,2,2
