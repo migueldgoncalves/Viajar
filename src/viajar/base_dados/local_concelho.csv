@@ -1,5 +1,8 @@
 Nome,Concelho
 A2 - Saída 14,Silves
+A22 - Saída 3,Portimão
+A22 - Saída 4,Portimão
+A22 - Saída 5,Portimão
 A22 - Saída 6,Silves
 A22 - Saída 7,Silves
 A22 - Saída 8,Silves
@@ -12,6 +15,7 @@ A22 - Saída 15,Olhão
 A22 - Saída 16,Tavira
 A22 - Saída 17,Castro Marim
 A22 - Saída 18,Castro Marim
+Aeródromo de Portimão,Portimão
 Aeroporto de Beja,Beja
 Aeroporto de Faro,Faro
 Afonso Vicente,Alcoutim
@@ -23,6 +27,7 @@ Alcantarilha,Silves
 Alcaria,Castro Marim
 Alcarias Grandes,Castro Marim
 Alcoutim,Alcoutim
+Alferce,Monchique
 Algar de Benagil,Lagoa
 Algarve Shopping,Albufeira
 Algoz,Silves
@@ -31,6 +36,7 @@ Almancil,Loulé
 Alta Mora,Castro Marim
 Alte,Loulé
 Altura,Castro Marim
+Alvor,Portimão
 Ameixal,Loulé
 Aqualand Algarve,Silves
 Aquashow,Loulé
@@ -39,6 +45,7 @@ Aquashow,Loulé
 Área de Serviço de Olhão,Olhão
 Área de Serviço de Silves,Silves
 Armação de Pêra,Silves
+Autódromo Internacional do Algarve,Portimão
 Azinhal,Castro Marim
 Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
@@ -62,6 +69,7 @@ Cacela Velha,Vila Real de Santo António
 Cachopo,Tavira
 Cais da Mesquita,Mértola
 Cais da Praia do Barril,Tavira
+Caldas de Monchique,Monchique
 Carvoeiro,Lagoa
 "Casa Branca, Alcoutim",Alcoutim
 "Casa Branca, Castro Marim",Castro Marim
@@ -70,6 +78,7 @@ Cascata do Pulo do Lobo - Margem Esquerda,Serpa
 Cascata do Pulo do Lobo - Margem Direita,Mértola
 Casinhas,Castro Marim
 Castelo de Paderne,Albufeira
+Castro de Alferce,Monchique
 Castro Marim,Castro Marim
 Castro Marim Golfe & Country Club,Castro Marim
 Choça Queimada,Castro Marim
@@ -100,12 +109,15 @@ Cruzamento da N122 com a M507-2,Alcoutim
 Cruzamento da N122 com a M512,Castro Marim
 Cruzamento da N122 com a N123,Mértola
 Cruzamento da N124 com a M507-1,Alcoutim
+Cruzamento da N124 com a N125,Portimão
+Cruzamento da N124 com a N266,Portimão
 Cruzamento da N124 com a N270,Silves
 Cruzamento da N124 com a N396,Loulé
 Cruzamento da N124-1 com a N125,Lagoa
 Cruzamento da N125 com a M1347,Tavira
 Cruzamento da N125 com a M516-2,Olhão
 Cruzamento da N125 com a M526,Loulé
+Cruzamento da N125 com a M531-1,Portimão
 Cruzamento da N125 com a N125-6,Castro Marim
 Cruzamento da N125 com a N269,Albufeira
 Cruzamento da N125 com a N395,Albufeira
@@ -113,6 +125,7 @@ Cruzamento da N125 com a N396,Loulé
 Cruzamento da N125 com a N398,Olhão
 Cruzamento da N125-4 com a M521,Loulé
 Cruzamento da N265 com a N392,Serpa
+Cruzamento da N266 com a N267 Oeste,Monchique
 Cruzamento da N269 com a N269-2,Silves
 Culatra,Faro
 Deserto,Alcoutim
@@ -147,6 +160,7 @@ Faro - São Pedro,Faro
 Faro - Sé,Faro
 Ferragudo,Lagoa
 Ferreiras,Albufeira
+Fóia,Monchique
 Fonte Benémola,Loulé
 Fonte do Penedo,Castro Marim
 Fonte Zambujo,Alcoutim
@@ -186,15 +200,18 @@ Mar Shopping Algarve,Loulé
 Marina de Albufeira,Albufeira
 Marina de Portimão,Portimão
 Marmeleiro,Alcoutim
+Marmelete,Monchique
 Martim Longo,Alcoutim
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Mértola
 Mexilhoeira da Carregação,Lagoa
+Mexilhoeira Grande,Portimão
 Mina de Sal-Gema de Loulé,Loulé
 Minas de São Domingos,Mértola
 Miradouro do Caldeirão,Loulé
 Moncarapacho,Olhão
+Monchique,Monchique
 Monte Alto,Mértola
 Monte Francisco,Castro Marim
 Monte Gordo,Vila Real de Santo António
@@ -208,6 +225,7 @@ Moreanes,Mértola
 Murteira de Baixo,Castro Marim
 Murteira de Cima,Castro Marim
 N125 - Acesso a Estômbar e Ferragudo,Lagoa
+N125 - Acesso à Saída 3 da A22,Portimão
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Castro Marim
 Olhão,Olhão
@@ -226,6 +244,7 @@ Penha da Águia,Mértola
 Pereiro,Alcoutim
 Piçarral,Castro Marim
 Picoitos,Mértola
+Picota,Monchique
 Poço Barreto,Silves
 Pomarão,Mértola
 Porches,Lagoa
@@ -255,6 +274,7 @@ Praia de Santa Eulália,Albufeira
 Praia do Barril,Tavira
 Praia do Carvalho,Lagoa
 Praia do Vale de Centeanes,Lagoa
+Praia do Vau,Portimão
 Praia dos Alemães,Albufeira
 Praia dos Salgados,Albufeira
 Praia Nova,Lagoa
@@ -276,6 +296,7 @@ Santa Bárbara de Nexe,Faro
 Santa Catarina da Fonte do Bispo,Tavira
 Santa Luzia,Tavira
 Santa Marta,Alcoutim
+Santo Estêvão,Tavira
 Santuário de Nossa Senhora da Piedade,Loulé
 São Bartolomeu de Messines,Silves
 São Brás de Alportel,São Brás de Alportel

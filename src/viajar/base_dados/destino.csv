@@ -173,6 +173,24 @@ A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,A2 - Faro/Lisboa/Portimã
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,Salir
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,IC1 - Albufeira/Lisboa
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,Silves
+A22 - Saída 3,A22 - Saída 4,Carro,False,Lagos
+A22 - Saída 3,A22 - Saída 4,Carro,False,Sines
+A22 - Saída 3,A22 - Saída 4,Carro,True,A2 - Lisboa
+A22 - Saída 3,A22 - Saída 4,Carro,True,Faro
+A22 - Saída 4,A22 - Saída 5,Carro,False,Lagos
+A22 - Saída 4,A22 - Saída 5,Carro,False,Sines
+A22 - Saída 4,A22 - Saída 5,Carro,True,A2 - Lisboa
+A22 - Saída 4,A22 - Saída 5,Carro,True,Faro
+A22 - Saída 5,A22 - Saída 6,Carro,False,Lagos
+A22 - Saída 5,A22 - Saída 6,Carro,False,Portimão
+A22 - Saída 5,A22 - Saída 6,Carro,True,A2 - Lisboa
+A22 - Saída 5,A22 - Saída 6,Carro,True,Faro
+A22 - Saída 5,Cruzamento da N124 com a N125,Carro,False,A22
+A22 - Saída 5,Cruzamento da N124 com a N125,Carro,False,Monchique
+A22 - Saída 5,Cruzamento da N124 com a N125,Carro,True,Portimão
+A22 - Saída 5,Cruzamento da N124 com a N266,Carro,False,Portimão
+A22 - Saída 5,Cruzamento da N124 com a N266,Carro,True,Monchique
+A22 - Saída 5,Cruzamento da N124 com a N266,Carro,True,Silves
 A22 - Saída 6,Área de Serviço de Silves,Carro,False,Lagos
 A22 - Saída 6,Área de Serviço de Silves,Carro,False,Portimão
 A22 - Saída 6,Área de Serviço de Silves,Carro,True,A2 - Lisboa
@@ -363,6 +381,10 @@ Altura,Cruzamento da N125 com a N125-6,Carro,True,Vila Real de Santo António
 Altura,Vila Nova de Cacela,Carro,False,Vila Real de Santo António
 Altura,Vila Nova de Cacela,Carro,True,Olhão
 Altura,Vila Nova de Cacela,Carro,True,Tavira
+Alvor,Marina de Portimão,Barco,False,Lagos
+Alvor,Marina de Portimão,Barco,False,Sines
+Alvor,Marina de Portimão,Barco,True,Faro
+Alvor,Marina de Portimão,Barco,True,Vila Real de Santo António
 Ameixal,Miradouro do Caldeirão,Carro,False,Ameixal
 Ameixal,Miradouro do Caldeirão,Carro,False,Beja
 Ameixal,Miradouro do Caldeirão,Carro,False,Lisboa
@@ -611,6 +633,19 @@ Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Barranco do Velho
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Martim Longo
 Cruzamento da N124 com a M507-1,Pereiro,Carro,False,Martim Longo
 Cruzamento da N124 com a M507-1,Pereiro,Carro,True,Alcoutim
+Cruzamento da N124 com a N125,Cruzamento da N125 com a M531-1,Carro,False,Portimão
+Cruzamento da N124 com a N125,Cruzamento da N125 com a M531-1,Carro,True,Alvor
+Cruzamento da N124 com a N125,Cruzamento da N125 com a M531-1,Carro,True,Lagos
+Cruzamento da N124 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,False,Lagos
+Cruzamento da N124 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,False,Portimão
+Cruzamento da N124 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,True,Lagoa
+Cruzamento da N124 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,True,Porto de Pesca de Portimão
+Cruzamento da N124 com a N125,N125 - Acesso a Estômbar e Ferragudo,Carro,True,Silves
+Cruzamento da N124 com a N125,Portimão - Avenida São Lourenço da Barrosa,Carro,False,A22
+Cruzamento da N124 com a N125,Portimão - Avenida São Lourenço da Barrosa,Carro,True,Portimão
+Cruzamento da N124 com a N125,Portimão - Avenida São Lourenço da Barrosa,Carro,True,Praia da Rocha
+Cruzamento da N124 com a N266,Silves,Carro,False,Monchique
+Cruzamento da N124 com a N266,Silves,Carro,True,Silves
 Cruzamento da N124 com a N396,Salir,Carro,False,Ameixal
 Cruzamento da N124 com a N396,Salir,Carro,False,Barranco do Velho
 Cruzamento da N124 com a N396,Salir,Carro,False,Cachopo
@@ -647,6 +682,8 @@ Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,False,Albufeir
 Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,False,Portimão
 Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Faro
 Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Loulé
+Cruzamento da N125 com a M531-1,Mexilhoeira Grande,Carro,False,Portimão
+Cruzamento da N125 com a M531-1,Mexilhoeira Grande,Carro,True,Lagos
 Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,False,Altura
 Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,True,Castro Marim
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,False,A22 - Faro
@@ -786,6 +823,9 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
+Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
+Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
 Estação de Silves,Poço Barreto,Comboio,False,Lagos
 Estação de Silves,Poço Barreto,Comboio,True,Tunes
 Estação de Silves,Poço Barreto,Comboio,True,Vila Real de Santo António
@@ -953,6 +993,10 @@ Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,False,Silves
 Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,True,Portimão
 Mexilhoeira da Carregação,Silves,Barco,False,Portimão
 Mexilhoeira da Carregação,Silves,Barco,True,Silves
+Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,False,Mexilhoeira Grande
+Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,False,Portimão
+Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,True,Lagos
+Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,True,Odiáxere
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Aeroporto de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Carro,False,Praia de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Carro,True,A22 - Portimão

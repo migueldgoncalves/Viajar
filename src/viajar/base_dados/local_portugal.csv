@@ -1,5 +1,8 @@
 Nome,Freguesia
 A2 - Saída 14,São Bartolomeu de Messines
+A22 - Saída 3,Mexilhoeira Grande
+A22 - Saída 4,Portimão
+A22 - Saída 5,Portimão
 A22 - Saída 6,Silves
 A22 - Saída 7,Alcantarilha
 A22 - Saída 8,Pêra
@@ -12,6 +15,7 @@ A22 - Saída 15,Moncarapacho
 A22 - Saída 16,Santiago
 A22 - Saída 17,Altura
 A22 - Saída 18,Castro Marim
+Aeródromo de Portimão,Alvor
 Aeroporto de Beja,São Brissos
 Aeroporto de Faro,Montenegro
 Afonso Vicente,Alcoutim
@@ -23,6 +27,7 @@ Alcantarilha,Alcantarilha
 Alcaria,Odeleite
 Alcarias Grandes,Azinhal
 Alcoutim,Alcoutim
+Alferce,Alferce
 Algar de Benagil,Lagoa
 Algarve Shopping,Guia
 Algoz,Algoz
@@ -31,6 +36,7 @@ Almancil,Almancil
 Alta Mora,Odeleite
 Alte,Alte
 Altura,Altura
+Alvor,Alvor
 Ameixal,Ameixal
 Aqualand Algarve,Alcantarilha
 Aquashow,Quarteira
@@ -39,6 +45,7 @@ Aquashow,Quarteira
 Área de Serviço de Olhão,Moncarapacho
 Área de Serviço de Silves,Silves
 Armação de Pêra,Armação de Pêra
+Autódromo Internacional do Algarve,Mexilhoeira Grande
 Azinhal,Azinhal
 Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
@@ -62,6 +69,7 @@ Cacela Velha,Vila Nova de Cacela
 Cachopo,Cachopo
 Cais da Mesquita,Espírito Santo
 Cais da Praia do Barril,Santa Luzia
+Caldas de Monchique,Monchique
 Carvoeiro,Carvoeiro
 "Casa Branca, Alcoutim",Alcoutim
 "Casa Branca, Castro Marim",Odeleite
@@ -70,6 +78,7 @@ Cascata do Pulo do Lobo - Margem Esquerda,Santa Maria
 Cascata do Pulo do Lobo - Margem Direita,Mértola
 Casinhas,Castro Marim
 Castelo de Paderne,Paderne
+Castro de Alferce,Alferce
 Castro Marim,Castro Marim
 Castro Marim Golfe & Country Club,Castro Marim
 Choça Queimada,Odeleite
@@ -100,12 +109,15 @@ Cruzamento da N122 com a M507-2,Alcoutim
 Cruzamento da N122 com a M512,Azinhal
 Cruzamento da N122 com a N123,Mértola
 Cruzamento da N124 com a M507-1,Giões
+Cruzamento da N124 com a N125,Portimão
+Cruzamento da N124 com a N266,Portimão
 Cruzamento da N124 com a N270,São Bartolomeu de Messines
 Cruzamento da N124 com a N396,Querença
 Cruzamento da N124-1 com a N125,Lagoa
 Cruzamento da N125 com a M1347,Santiago
 Cruzamento da N125 com a M516-2,Moncarapacho
 Cruzamento da N125 com a M526,Boliqueime
+Cruzamento da N125 com a M531-1,Alvor
 Cruzamento da N125 com a N125-6,Castro Marim
 Cruzamento da N125 com a N269,Ferreiras
 Cruzamento da N125 com a N395,Ferreiras
@@ -113,6 +125,7 @@ Cruzamento da N125 com a N396,São Clemente
 Cruzamento da N125 com a N398,Quelfes
 Cruzamento da N125-4 com a M521,São Clemente
 Cruzamento da N265 com a N392,Salvador
+Cruzamento da N266 com a N267 Oeste,Monchique
 Cruzamento da N269 com a N269-2,Tunes
 Culatra,Sé
 Deserto,Alcoutim
@@ -147,6 +160,7 @@ Faro - São Pedro,São Pedro
 Faro - Sé,Sé
 Ferragudo,Ferragudo
 Ferreiras,Ferreiras
+Fóia,Monchique
 Fonte Benémola,Querença
 Fonte do Penedo,Odeleite
 Fonte Zambujo,Pereiro
@@ -186,15 +200,18 @@ Mar Shopping Algarve,Almancil
 Marina de Albufeira,Albufeira
 Marina de Portimão,Portimão
 Marmeleiro,Alcoutim
+Marmelete,Marmelete
 Martim Longo,Martim Longo
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Espírito Santo
 Mexilhoeira da Carregação,Estômbar
+Mexilhoeira Grande,Mexilhoeira Grande
 Mina de Sal-Gema de Loulé,São Clemente
 Minas de São Domingos,Corte do Pinto
 Miradouro do Caldeirão,Ameixal
 Moncarapacho,Moncarapacho
+Monchique,Monchique
 Monte Alto,Mértola
 Monte Francisco,Castro Marim
 Monte Gordo,Monte Gordo
@@ -208,6 +225,7 @@ Moreanes,Santana de Cambas
 Murteira de Baixo,Azinhal
 Murteira de Cima,Azinhal
 N125 - Acesso a Estômbar e Ferragudo,Estômbar
+N125 - Acesso à Saída 3 da A22,Mexilhoeira Grande
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Odeleite
 Olhão,Olhão
@@ -226,6 +244,7 @@ Penha da Águia,Espírito Santo
 Pereiro,Pereiro
 Piçarral,Azinhal
 Picoitos,Santana de Cambas
+Picota,Monchique
 Poço Barreto,Silves
 Pomarão,Santana de Cambas
 Porches,Porches
@@ -255,6 +274,7 @@ Praia de Faro,Montenegro
 Praia do Barril,Santa Luzia
 Praia do Carvalho,Carvoeiro
 Praia do Vale de Centeanes,Carvoeiro
+Praia do Vau,Portimão
 Praia dos Alemães,Albufeira
 Praia dos Salgados,Guia
 Praia Nova,Porches
@@ -276,6 +296,7 @@ Santa Bárbara de Nexe,Santa Bárbara de Nexe
 Santa Catarina da Fonte do Bispo,Santa Catarina da Fonte do Bispo
 Santa Luzia,Santa Luzia
 Santa Marta,Alcoutim
+Santo Estêvão,Santo Estêvão
 Santuário de Nossa Senhora da Piedade,São Sebastião
 São Bartolomeu de Messines,São Bartolomeu de Messines
 São Brás de Alportel,São Brás de Alportel
