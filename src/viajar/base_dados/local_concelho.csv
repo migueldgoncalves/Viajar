@@ -1,5 +1,6 @@
 Nome,Concelho
 A2 - Saída 14,Silves
+A22 - Saída 2,Lagos
 A22 - Saída 3,Portimão
 A22 - Saída 4,Portimão
 A22 - Saída 5,Portimão
@@ -51,6 +52,7 @@ Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
 Bar do Rio,Alcoutim
 Barra do Guadiana,Vila Real de Santo António
+Barragem da Bravura,Lagos
 Barragem de Alcoutim,Alcoutim
 Barragem de Odeleite,Castro Marim
 Barragem do Beliche,Castro Marim
@@ -58,6 +60,7 @@ Barranco das Pereiras,Alcoutim
 Barranco do Velho,Loulé
 Beja,Beja
 Beliche,Castro Marim
+Bensafrim,Lagos
 Boavista,Mértola
 Boliqueime,Loulé
 Botelhas,Castro Marim
@@ -101,6 +104,7 @@ Cruzamento do IC4 com a M520,Faro
 Cruzamento do IC4 com a N125,Loulé
 Cruzamento da M509 com a M512,Castro Marim
 Cruzamento da M524 com a M525,Loulé
+Cruzamento da N120 com a N125,Lagos
 Cruzamento da N122 com a M1059,Alcoutim
 Cruzamento da N122 com a M1060,Castro Marim
 Cruzamento da N122 com a M1063,Castro Marim
@@ -143,6 +147,7 @@ Estação de Faro,Faro
 Estação de Ferragudo,Lagoa
 Estação de Fuseta-A,Olhão
 Estação de Fuseta-Moncarapacho,Olhão
+Estação de Lagos,Lagos
 Estação de Loulé,Loulé
 Estação da Luz,Tavira
 Estação de Messines - Alte,Silves
@@ -198,10 +203,12 @@ Luz de Tavira,Tavira
 Manta Rota,Vila Real de Santo António
 Mar Shopping Algarve,Loulé
 Marina de Albufeira,Albufeira
+Marina de Lagos,Lagos
 Marina de Portimão,Portimão
 Marmeleiro,Alcoutim
 Marmelete,Monchique
 Martim Longo,Alcoutim
+Meia Praia,Lagos
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Mértola
@@ -225,9 +232,11 @@ Moreanes,Mértola
 Murteira de Baixo,Castro Marim
 Murteira de Cima,Castro Marim
 N125 - Acesso a Estômbar e Ferragudo,Lagoa
+N125 - Acesso à Saída 2 da A22,Lagos
 N125 - Acesso à Saída 3 da A22,Portimão
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Castro Marim
+Odiáxere,Lagos
 Olhão,Olhão
 Olhos de Água,Albufeira
 Paderne,Albufeira

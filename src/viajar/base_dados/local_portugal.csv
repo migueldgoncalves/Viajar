@@ -1,5 +1,6 @@
 Nome,Freguesia
 A2 - Saída 14,São Bartolomeu de Messines
+A22 - Saída 2,Bensafrim
 A22 - Saída 3,Mexilhoeira Grande
 A22 - Saída 4,Portimão
 A22 - Saída 5,Portimão
@@ -51,6 +52,7 @@ Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
 Bar do Rio,Alcoutim
 Barra do Guadiana,Vila Real de Santo António
+Barragem da Bravura,Bensafrim
 Barragem de Alcoutim,Alcoutim
 Barragem de Odeleite,Odeleite
 Barragem do Beliche,Castro Marim
@@ -58,6 +60,7 @@ Barranco das Pereiras,Alcoutim
 Barranco do Velho,Salir
 Beja,Santa Maria da Feira
 Beliche,Castro Marim
+Bensafrim,Bensafrim
 Boavista,Espírito Santo
 Boliqueime,Boliqueime
 Botelhas,Castro Marim
@@ -101,6 +104,7 @@ Cruzamento do IC4 com a M520,São Pedro
 Cruzamento do IC4 com a N125,Almancil
 Cruzamento da M509 com a M512,Azinhal
 Cruzamento da M524 com a M525,Tôr
+Cruzamento da N120 com a N125,São Sebastião
 Cruzamento da N122 com a M1059,Alcoutim
 Cruzamento da N122 com a M1060,Odeleite
 Cruzamento da N122 com a M1063,Odeleite
@@ -143,6 +147,7 @@ Estação de Faro,São Pedro
 Estação de Ferragudo,Parchal
 Estação de Fuseta-A,Fuseta
 Estação de Fuseta-Moncarapacho,Moncarapacho
+Estação de Lagos,São Sebastião
 Estação de Loulé,São Sebastião
 Estação da Luz,Luz de Tavira
 Estação de Messines - Alte,São Bartolomeu de Messines
@@ -198,10 +203,12 @@ Luz de Tavira,Luz de Tavira
 Manta Rota,Vila Nova de Cacela
 Mar Shopping Algarve,Almancil
 Marina de Albufeira,Albufeira
+Marina de Lagos,São Sebastião
 Marina de Portimão,Portimão
 Marmeleiro,Alcoutim
 Marmelete,Marmelete
 Martim Longo,Martim Longo
+Meia Praia,São Sebastião
 Menires do Lavajo,Alcoutim
 Mértola,Mértola
 Mesquita,Espírito Santo
@@ -225,9 +232,11 @@ Moreanes,Santana de Cambas
 Murteira de Baixo,Azinhal
 Murteira de Cima,Azinhal
 N125 - Acesso a Estômbar e Ferragudo,Estômbar
+N125 - Acesso à Saída 2 da A22,Odiáxere
 N125 - Acesso à Saída 3 da A22,Mexilhoeira Grande
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeleite,Odeleite
+Odiáxere,Odiáxere
 Olhão,Olhão
 Olhos de Água,Olhos de Água
 Paderne,Paderne
