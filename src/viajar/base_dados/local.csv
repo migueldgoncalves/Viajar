@@ -40,6 +40,8 @@ A-66 - Saída 805,37.456867,-6.044449,12,
 A-66 - Saída 808,37.430924,-6.031791,7,
 A-8058 - Saída 0,37.365542,-6.032121,23,
 A2 - Saída 14,37.253438,-8.255587,125,
+A22 - Início,37.157491,-8.743094,42,
+A22 - Saída 1,37.141769,-8.719720,62,
 A22 - Saída 2,37.156043,-8.691731,49,
 A22 - Saída 3,37.172779,-8.633855,61,
 A22 - Saída 4,37.175850,-8.567839,47,
@@ -73,6 +75,7 @@ Alferce,37.333179,-8.489565,330,
 Algar de Benagil,37.087171,-8.423721,0,
 Algarve Shopping,37.127444, -8.280092,89,
 Algoz,37.163782,-8.304491,42,
+Aljezur,37.316641,-8.801102,38,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Almada de Ouro,37.311138,-7.449001,21,
 Almancil,37.08726,-8.031629,56,
 Alta Mora,37.306042,-7.592194,219,
@@ -84,6 +87,7 @@ Antiga Estação de Isla Cristina - Pozo del Camino,37.221285,-7.322543,4,
 Aqualand Algarve,37.135708,-8.365288,60,
 Aquashow,37.093921,-8.072404,47,
 Área de Repouso de Castro Marim,37.236479,-7.437882,15,
+Área de Serviço de Lagos,37.148775,-8.703188,36,
 Área de Serviço de Loulé,37.13666,-8.110515,79,
 Área de Serviço de Olhão,37.125327,-7.770864,114,
 Área de Serviço de Silves,37.151517,-8.427001,63,
@@ -94,6 +98,8 @@ Azinhal,37.284774,-7.464246,92,
 Balurco de Baixo,37.424817,-7.508199,213,
 Balurco de Cima,37.429009,-7.524442,209,
 Bar do Rio,37.397346,-7.446943,4,
+Barão de São João,37.138801,-8.778051,74,
+Barão de São Miguel,37.107253,-8.795208,30,
 Barra do Guadiana,37.168914,-7.403016,2,
 Barragem da Bravura,37.201997,-8.698414,85,
 Barragem de Alcoutim,37.470763,-7.492562,55,
@@ -108,16 +114,21 @@ Bensafrim,37.155291,-8.735569,30,
 Boavista,37.569888,-7.625849,169,
 Boliqueime,37.132464,-8.159134,77,
 Bollullos Par del Condado,37.338304,-6.538021,120,
+Bordeira,37.196339,-8.861404,31,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Botelhas,37.252154,-7.491482,49,
 Brinhosa,37.314868,-7.540571,159,
+Budens,37.086905,-8.830957,49,
+Burgau,37.072898,-8.774542,25,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Cabanas de Tavira,37.13531,-7.600363,3,Ria Formosa
 Cabeço da Junqueira,37.249328,-7.482872,55,
 Cabo de Santa Maria,36.959245,-7.891501,0,Ria Formosa - Ilha da Barreta
+Cabo de São Vicente,37.023133,-8.996423,60,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Cacela Velha,37.157275,-7.546349,26,Ria Formosa
 Cachopo,37.332957,-7.817305,387,
 Cais da Mesquita,37.55446,-7.526229,4,
 Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira
 Caldas de Monchique,37.284505,-8.554239,210,
+Carrapateira,37.183972,-8.894624,32,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Cartaya,37.23602,-7.469165,15,
 Carvoeiro,37.097062,-8.471109,10,
 "Casa Branca, Alcoutim",37.427782,-7.510975,206,
@@ -167,6 +178,7 @@ Cruzamento da M509 com a M512,37.313195,-7.551205,172,
 Cruzamento da M524 com a M525,37.191082,-8.025535,127,
 Cruzamento da N-431 com a N-444,37.278547,-7.185022,10,
 Cruzamento da N120 com a N125,37.112844,-8.681514,7,
+Cruzamento da N120 com a N268,37.257986,-8.813080,78,
 Cruzamento da N122 com a M1059,37.400355,-7.508941,176,
 Cruzamento da N122 com a M1060,37.373061,-7.527176,156,
 Cruzamento da N122 com a M1063,37.318274,-7.480551,124,
@@ -184,6 +196,8 @@ Cruzamento da N125 com a M1347,37.100225,-7.682129,24,
 Cruzamento da N125 com a M516-2,37.063244,-7.75982,7,
 Cruzamento da N125 com a M526,37.118547,-8.138639,39,
 Cruzamento da N125 com a M531-1,37.161191,-8.569327,9,
+Cruzamento da N125 com a M535,37.093659,-8.807304,30,
+Cruzamento da N125 com a M537-2,37.090887,-8.782888,14,
 Cruzamento da N125 com a N125-6,37.184062,-7.483801,20,
 Cruzamento da N125 com a N269,37.123170,-8.223860,83,
 Cruzamento da N125 com a N395,37.119146,-8.246176,68,
@@ -198,6 +212,7 @@ Culatra,36.993994,-7.840545,2,Ria Formosa - Ilha da Culatra
 Deserto,37.428911,-7.516223,198,
 Dunas de Vila Real de Santo António,37.183042,-7.430759,4,
 El Granado,37.520717,-7.416822,135,
+Espiche,37.101342,-8.738463,78,
 Espírito Santo,37.543213,-7.647608,175,
 Estação de Albufeira - Ferreiras,37.128592,-8.233035,81,
 Estação de Alcantarilha,37.169876,-8.348605,34,
@@ -264,10 +279,12 @@ IP2 - Saída 44,37.910445,-7.871843,171,
 Isla Cristina,37.199897,-7.322322,3,
 Junqueira,37.254084,-7.470771,17,
 Lagoa,37.135183,-8.452517,53,
+Lagos,37.101359,-8.672518,10,
 Laranjeiras,37.403058,-7.457947,10,
 Lepe,37.255024,-7.20303,21,
 Loulé,37.138646,-8.020993,176,
 Livramento,37.074243,-7.732431,10,
+"Luz, Lagos",37.086444,-8.730622,28,
 Luz de Tavira,37.092083,-7.704389,33,
 Manta Rota,37.167488,-7.520107,6,
 Mar Shopping Algarve,37.098628,-7.998482,83,
@@ -302,9 +319,11 @@ Moreanes,37.646636,-7.559927,148,
 Murteira de Baixo,37.303901,-7.491383,123,
 Murteira de Cima,37.306248,-7.494167,130,
 N125 - Acesso a Estômbar e Ferragudo,37.151972,-8.495598,6,
+N125 - Acesso à Saída 1 da A22,37.108463,-8.697112,38,
 N125 - Acesso à Saída 2 da A22,37.139473,-8.663014,21,
 N125 - Acesso à Saída 3 da A22,37.158630,-8.632365,4,
 Norte do Sapal de Castro Marim e Vila Real de Santo António,37.24116,-7.426341,1,Sapal de Castro Marim e Vila Real de Santo António
+Odeceixe,37.433106,-8.770232,48,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Odeleite,37.334251,-7.487819,33,
 Odiáxere,37.149293,-8.656241,18,
 Olhão,37.026148,-7.842197,3,
@@ -327,6 +346,8 @@ Picota,37.307732,-8.531539,774,
 Poço Barreto,37.164008,-8.388715,43,
 Polígono Industrial de Ayamonte,37.232794,-7.391258,7,
 Pomarão,37.556289,-7.524924,24,
+Ponta da Piedade,37.079472,-8.668779,40,
+Ponta de Sagres,36.997361,-8.948779,38,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Ponte do Centenário,37.349008,-5.993076,1,
 Ponte de Alamillo,37.413298,-5.990623,11,
 Ponte Internacional do Guadiana,37.237619,-7.419194,0,
@@ -341,8 +362,13 @@ Porto Comercial de Portimão,37.127249,-8.530300,3,
 Porto de Faro,37.003344,-7.918372,2,Ria Formosa
 Porto de Pesca de Portimão,37.134488,-8.527612,3,
 Pozo del Camino,37.224303,-7.315088,8,
+Praia da Amoreira,37.349843,-8.844951,6,Parque Natural do Sudoeste Alentejano e Costa Vicentina
+Praia da Arrifana,37.292325,-8.864630,4,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Barreta,36.964761,-7.872067,2,Ria Formosa - Ilha da Barreta
+Praia da Boca do Rio,37.066339,-8.808828,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina
+Praia da Bordeira,37.198304,-8.899774,0,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Cacela Velha,37.15288,-7.542684,0,Ria Formosa - Ilha de Cabanas
+Praia da Cordoama,37.109022,-8.937039,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Cova Redonda,37.098722,-8.380841,5,
 Praia da Falésia,37.086076,-8.167851,0,
 Praia da Fuseta,37.043291,-7.74484,7,Ria Formosa - Ilha da Armona
@@ -356,11 +382,17 @@ Praia de Benagil,37.087373,-8.425918,5,
 Praia de Faro,37.001995,-7.98688,2,Ria Formosa
 Praia de Cabanas de Tavira,37.133752,-7.589909,2,Ria Formosa - Ilha de Cabanas
 Praia de Isla Canela,37.173693,-7.377384,4,
+Praia de Monte Clérigo,37.340872,-8.852814,6,Parque Natural do Sudoeste Alentejano e Costa Vicentina
+Praia de Odeceixe,37.442107,-8.797797,1,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia de Santa Eulália,37.087918,-8.214419,0,
+Praia do Amado,37.167059,-8.902610,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia do Barril,37.086015,-7.662209,4,Ria Formosa - Ilha de Tavira
 Praia do Carvalho,37.086610,-8.431875,3,
+Praia do Castelejo,37.099811,-8.945301,4,Parque Natural do Sudoeste Alentejano e Costa Vicentina
+Praia do Martinhal,37.019065,-8.926126,1,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia do Vale de Centeanes,37.091274,-8.455695,0,
 Praia do Vau,37.119854,-8.558968,3,
+Praia Dona Ana,37.091772,-8.669176,3,
 Praia dos Alemães,37.084068,-8.237456,0,
 Praia dos Salgados,37.088645, -8.329042,5,
 Praia Nova,37.096126,-8.388199,5,
@@ -374,8 +406,11 @@ Quelfes,37.057613,-7.821595,24,
 Querença,37.198992,-7.987344,260,
 Quinta do Lago,37.046156,-8.016172,17,Ria Formosa
 Quinta do Vale Golf Resort,37.247759,-7.450114,34,
+Raposeira,37.083917,-8.889525,63,
+Ribat da Arrifana,37.320309,-8.876302,47,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Ribeira do Vascão,37.517739,-7.579242,46,
 Rocha da Pena,37.250958,-8.096611,314,Rocha da Pena
+Rogil,37.368765,-8.800275,93,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,37.415941,-5.974321,10,
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,37.413284,-5.988322,10,
 Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,37.413423,-5.983532,8,
@@ -385,6 +420,8 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,37.413666,-5.950079,18,
 Ronda Urbana Norte de Sevilha - Poligono Store,37.41612,-5.956364,18,
 Rotunda da Árvore,37.391148,-7.445127,25,
 Ruínas Romanas de Milreu,37.094824,-7.904695,74,
+Sagres,37.010201,-8.938871,23,Parque Natural do Sudoeste Alentejano e Costa Vicentina
+Salema,37.065616,-8.824692,12,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Salgueiros,37.589126,-7.536155,121,
 Salir,37.241031,-8.044129,246,
 San Bartolomé de la Torre,37.446629,-7.104909,125,
@@ -447,6 +484,7 @@ Variante de Faro - Nó com o IC4,37.039694,-7.950254,14,
 Variante de Faro - Nó com a M518,37.031154,-7.913966,8,
 Variante de Faro - Nó com a N2,37.04255,-7.929253,19,
 "Vicentes, Alcoutim",37.456744,-7.584939,214,
+Vila do Bispo,37.082632,-8.910907,87,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Vila Nova de Cacela,37.173663,-7.531126,24,
 Vila Nova de São Bento,37.925569,-7.409812,247,
 Vila Real de Santo António,37.194148,-7.418,8,

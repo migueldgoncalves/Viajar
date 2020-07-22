@@ -177,6 +177,27 @@ A22 - Saída 2,A22 - Saída 3,Carro,False,Lagos
 A22 - Saída 2,A22 - Saída 3,Carro,False,Sines
 A22 - Saída 2,A22 - Saída 3,Carro,True,A2 - Lisboa
 A22 - Saída 2,A22 - Saída 3,Carro,True,Faro
+A22 - Início,A22 - Saída 1,Carro,False,Aljezur
+A22 - Início,A22 - Saída 1,Carro,False,Sines
+A22 - Início,A22 - Saída 1,Carro,True,A2 - Lisboa
+A22 - Início,A22 - Saída 1,Carro,True,Faro
+A22 - Início,A22 - Saída 1,Carro,True,Lagos
+A22 - Início,A22 - Saída 1,Carro,True,Sagres
+A22 - Início,Bensafrim,Carro,False,A22
+A22 - Início,Bensafrim,Carro,False,Aljezur
+A22 - Início,Bensafrim,Carro,True,Bensafrim
+A22 - Início,Cruzamento da N120 com a N268,Carro,False,A22 - Faro
+A22 - Início,Cruzamento da N120 com a N268,Carro,False,Lagos
+A22 - Início,Cruzamento da N120 com a N268,Carro,True,Aljezur
+A22 - Início,Cruzamento da N120 com a N268,Carro,True,Sines
+A22 - Saída 1,Área de Serviço de Lagos,Carro,False,Lagos
+A22 - Saída 1,Área de Serviço de Lagos,Carro,False,Sines
+A22 - Saída 1,Área de Serviço de Lagos,Carro,True,A2 - Lisboa
+A22 - Saída 1,Área de Serviço de Lagos,Carro,True,Faro
+A22 - Saída 2,Área de Serviço de Lagos,Carro,False,A2 - Lisboa
+A22 - Saída 2,Área de Serviço de Lagos,Carro,False,Faro
+A22 - Saída 2,Área de Serviço de Lagos,Carro,True,Lagos
+A22 - Saída 2,Área de Serviço de Lagos,Carro,True,Sines
 A22 - Saída 3,A22 - Saída 4,Carro,False,Lagos
 A22 - Saída 3,A22 - Saída 4,Carro,False,Sines
 A22 - Saída 3,A22 - Saída 4,Carro,True,A2 - Lisboa
@@ -344,6 +365,14 @@ Algoz,Estação de Alcantarilha,Comboio,True,Lagos
 Algoz,Tunes,Comboio,False,Lagos
 Algoz,Tunes,Comboio,True,Faro
 Algoz,Tunes,Comboio,True,Vila Real de Santo António
+Aljezur,Cruzamento da N120 com a N268,Carro,False,Aljezur
+Aljezur,Cruzamento da N120 com a N268,Carro,False,Sines
+Aljezur,Cruzamento da N120 com a N268,Carro,True,Faro
+Aljezur,Cruzamento da N120 com a N268,Carro,True,Lagos
+Aljezur,Rogil,Carro,False,Aljezur
+Aljezur,Rogil,Carro,False,Lagos
+Aljezur,Rogil,Carro,True,Odeceixe
+Aljezur,Rogil,Carro,True,Sines
 Almada de Ouro,Azinhal,Carro,False,Alcoutim
 Almada de Ouro,Azinhal,Carro,True,Azinhal
 Almada de Ouro,Azinhal,Carro,True,Castro Marim
@@ -469,6 +498,14 @@ Boliqueime,Cruzamento da N125 com a N269,Carro,False,Faro
 Boliqueime,Cruzamento da N125 com a N269,Carro,False,Loulé
 Boliqueime,Cruzamento da N125 com a N269,Carro,True,Albufeira
 Boliqueime,Cruzamento da N125 com a N269,Carro,True,Portimão
+Budens,Cruzamento da N125 com a M535,Carro,False,Sagres
+Budens,Cruzamento da N125 com a M535,Carro,False,Vila do Bispo
+Budens,Cruzamento da N125 com a M535,Carro,True,Lagos
+Budens,Cruzamento da N125 com a M535,Carro,True,Portimão
+Budens,Raposeira,Carro,False,Lagos
+Budens,Raposeira,Carro,False,Portimão
+Budens,Raposeira,Carro,True,Sagres
+Budens,Raposeira,Carro,True,Vila do Bispo
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Cabanas de Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,True,Faro
@@ -620,6 +657,11 @@ Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,A-49 - Huelva
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,Porto de Sevilha
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
+Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Portimão
+Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,A22
+Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,Luz
+Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,Sagres
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 2 da A22,Carro,False,Lagos
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 2 da A22,Carro,True,A22 - Faro/Lisboa
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 2 da A22,Carro,True,Portimão
@@ -702,6 +744,14 @@ Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Faro
 Cruzamento da N125 com a M526,Cruzamento da N125 com a N396,Carro,True,Loulé
 Cruzamento da N125 com a M531-1,Mexilhoeira Grande,Carro,False,Portimão
 Cruzamento da N125 com a M531-1,Mexilhoeira Grande,Carro,True,Lagos
+Cruzamento da N125 com a M535,Cruzamento da N125 com a M537-2,Carro,False,Sagres
+Cruzamento da N125 com a M535,Cruzamento da N125 com a M537-2,Carro,False,Vila do Bispo
+Cruzamento da N125 com a M535,Cruzamento da N125 com a M537-2,Carro,True,Lagos
+Cruzamento da N125 com a M535,Cruzamento da N125 com a M537-2,Carro,True,Portimão
+Cruzamento da N125 com a M537-2,Espiche,Carro,False,Sagres
+Cruzamento da N125 com a M537-2,Espiche,Carro,False,Vila do Bispo
+Cruzamento da N125 com a M537-2,Espiche,Carro,True,Lagos
+Cruzamento da N125 com a M537-2,Espiche,Carro,True,Portimão
 Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,False,Altura
 Cruzamento da N125 com a N125-6,Estação de Castro Marim,Carro,True,Castro Marim
 Cruzamento da N125 com a N125-6,Estação de Monte Gordo,Carro,False,A22 - Faro
@@ -755,6 +805,11 @@ Culatra,Ilha da Armona,Barco,True,Fuseta
 Culatra,Ilha da Armona,Barco,True,Vila Nova de Cacela
 Culatra,Olhão,Barco,False,Faro
 Culatra,Olhão,Barco,True,Olhão
+Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Luz
+Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Sagres
+Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Vila do Bispo
+Espiche,N125 - Acesso à Saída 1 da A22,Carro,True,Lagos
+Espiche,N125 - Acesso à Saída 1 da A22,Carro,True,Portimão
 Estação da Luz,Estação de Tavira,Comboio,False,Faro
 Estação da Luz,Estação de Tavira,Comboio,False,Lagos
 Estação da Luz,Estação de Tavira,Comboio,True,Vila Real de Santo António
@@ -1007,6 +1062,10 @@ Marina de Albufeira,Vilamoura,Barco,False,Lagos
 Marina de Albufeira,Vilamoura,Barco,False,Portimão
 Marina de Albufeira,Vilamoura,Barco,True,Faro
 Marina de Albufeira,Vilamoura,Barco,True,Vila Real de Santo António
+Marina de Lagos,Sagres,Barco,False,Faro
+Marina de Lagos,Sagres,Barco,False,Portimão
+Marina de Lagos,Sagres,Barco,True,Setúbal
+Marina de Lagos,Sagres,Barco,True,Sines
 Meia Praia,Mexilhoeira Grande,Comboio,False,Lagos
 Meia Praia,Mexilhoeira Grande,Comboio,True,Tunes
 Meia Praia,Mexilhoeira Grande,Comboio,True,Vila Real de Santo António
@@ -1032,6 +1091,10 @@ N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,False,A22
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,False,Portimão
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,True,Lagos
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,True,Odiáxere
+Odeceixe,Rogil,Carro,False,Odeceixe
+Odeceixe,Rogil,Carro,False,Sines
+Odeceixe,Rogil,Carro,True,Aljezur
+Odeceixe,Rogil,Carro,True,Lagos
 Olhão,Pechão,Carro,False,Olhão
 Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
@@ -1109,6 +1172,10 @@ Quatro Águas,Vila Real de Santo António,Barco,False,Faro
 Quatro Águas,Vila Real de Santo António,Barco,False,Portimão
 Quatro Águas,Vila Real de Santo António,Barco,True,Huelva
 Quatro Águas,Vila Real de Santo António,Barco,True,Sevilha
+Raposeira,Vila do Bispo,Carro,False,Lagos
+Raposeira,Vila do Bispo,Carro,False,Portimão
+Raposeira,Vila do Bispo,Carro,True,Sagres
+Raposeira,Vila do Bispo,Carro,True,Vila do Bispo
 Ribeira do Vascão,Santa Marta,Carro,False,Beja
 Ribeira do Vascão,Santa Marta,Carro,False,Mértola
 Ribeira do Vascão,Santa Marta,Carro,True,Alcoutim

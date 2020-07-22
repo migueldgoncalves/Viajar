@@ -1,5 +1,7 @@
 Nome,Freguesia
 A2 - Saída 14,São Bartolomeu de Messines
+A22 - Início,Bensafrim
+A22 - Saída 1,Bensafrim
 A22 - Saída 2,Bensafrim
 A22 - Saída 3,Mexilhoeira Grande
 A22 - Saída 4,Portimão
@@ -32,6 +34,7 @@ Alferce,Alferce
 Algar de Benagil,Lagoa
 Algarve Shopping,Guia
 Algoz,Algoz
+Aljezur,Aljezur
 Almada de Ouro,Azinhal
 Almancil,Almancil
 Alta Mora,Odeleite
@@ -42,6 +45,7 @@ Ameixal,Ameixal
 Aqualand Algarve,Alcantarilha
 Aquashow,Quarteira
 Área de Repouso de Castro Marim,Castro Marim
+Área de Serviço de Lagos,Bensafrim
 Área de Serviço de Loulé,Boliqueime
 Área de Serviço de Olhão,Moncarapacho
 Área de Serviço de Silves,Silves
@@ -52,6 +56,8 @@ Balurco de Baixo,Alcoutim
 Balurco de Cima,Alcoutim
 Bar do Rio,Alcoutim
 Barra do Guadiana,Vila Real de Santo António
+Barão de São João,Barão de São João
+Barão de São Miguel,Barão de São Miguel
 Barragem da Bravura,Bensafrim
 Barragem de Alcoutim,Alcoutim
 Barragem de Odeleite,Odeleite
@@ -63,16 +69,21 @@ Beliche,Castro Marim
 Bensafrim,Bensafrim
 Boavista,Espírito Santo
 Boliqueime,Boliqueime
+Bordeira,Bordeira
 Botelhas,Castro Marim
 Brinhosa,Odeleite
+Budens,Budens
+Burgau,Budens
 Cabanas de Tavira,Cabanas de Tavira
 Cabeço da Junqueira,Castro Marim
 Cabo de Santa Maria,Sé
+Cabo de São Vicente,Sagres
 Cacela Velha,Vila Nova de Cacela
 Cachopo,Cachopo
 Cais da Mesquita,Espírito Santo
 Cais da Praia do Barril,Santa Luzia
 Caldas de Monchique,Monchique
+Carrapateira,Bordeira
 Carvoeiro,Carvoeiro
 "Casa Branca, Alcoutim",Alcoutim
 "Casa Branca, Castro Marim",Odeleite
@@ -105,6 +116,7 @@ Cruzamento do IC4 com a N125,Almancil
 Cruzamento da M509 com a M512,Azinhal
 Cruzamento da M524 com a M525,Tôr
 Cruzamento da N120 com a N125,São Sebastião
+Cruzamento da N120 com a N268,Aljezur
 Cruzamento da N122 com a M1059,Alcoutim
 Cruzamento da N122 com a M1060,Odeleite
 Cruzamento da N122 com a M1063,Odeleite
@@ -122,6 +134,8 @@ Cruzamento da N125 com a M1347,Santiago
 Cruzamento da N125 com a M516-2,Moncarapacho
 Cruzamento da N125 com a M526,Boliqueime
 Cruzamento da N125 com a M531-1,Alvor
+Cruzamento da N125 com a M535,Budens
+Cruzamento da N125 com a M537-2,Budens
 Cruzamento da N125 com a N125-6,Castro Marim
 Cruzamento da N125 com a N269,Ferreiras
 Cruzamento da N125 com a N395,Ferreiras
@@ -134,6 +148,7 @@ Cruzamento da N269 com a N269-2,Tunes
 Culatra,Sé
 Deserto,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António
+Espiche,Luz
 Espírito Santo,Espírito Santo
 Estação de Albufeira - Ferreiras,Ferreiras
 Estação de Alcantarilha,Alcantarilha
@@ -196,9 +211,11 @@ Ilha do Farol,Sé
 IP2 - Saída 44,Trindade
 Junqueira,Castro Marim
 Lagoa,Lagoa
+Lagos,Santa Maria
 Laranjeiras,Alcoutim
 Loulé,São Clemente
 Livramento,Luz de Tavira
+"Luz, Lagos",Luz
 Luz de Tavira,Luz de Tavira
 Manta Rota,Vila Nova de Cacela
 Mar Shopping Algarve,Almancil
@@ -232,9 +249,11 @@ Moreanes,Santana de Cambas
 Murteira de Baixo,Azinhal
 Murteira de Cima,Azinhal
 N125 - Acesso a Estômbar e Ferragudo,Estômbar
+N125 - Acesso à Saída 1 da A22,São Sebastião
 N125 - Acesso à Saída 2 da A22,Odiáxere
 N125 - Acesso à Saída 3 da A22,Mexilhoeira Grande
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
+Odeceixe,Odeceixe
 Odeleite,Odeleite
 Odiáxere,Odiáxere
 Olhão,Olhão
@@ -256,6 +275,8 @@ Picoitos,Santana de Cambas
 Picota,Monchique
 Poço Barreto,Silves
 Pomarão,Santana de Cambas
+Ponta da Piedade,Santa Maria
+Ponta de Sagres,Sagres
 Porches,Porches
 Portela Alta de Baixo,Odeleite
 Portela Alta de Cima,Odeleite
@@ -265,8 +286,13 @@ Portimão - Zona ribeirinha,Portimão
 Porto Comercial de Portimão,Portimão
 Porto de Faro,Sé
 Porto de Pesca de Portimão,Parchal
+Praia da Amoreira,Aljezur
+Praia da Arrifana,Aljezur
 Praia da Barreta,Sé
+Praia da Boca do Rio,Budens
+Praia da Bordeira,Bordeira
 Praia da Cacela Velha,Vila Nova de Cacela
+Praia da Cordoama,Vila do Bispo
 Praia da Cova Redonda,Porches
 Praia da Falésia,Olhos de Água
 Praia da Fuseta,Fuseta
@@ -278,12 +304,18 @@ Praia da Oura,Albufeira
 Praia da Rocha,Portimão
 Praia de Benagil,Lagoa
 Praia de Cabanas de Tavira,Cabanas de Tavira
-Praia de Santa Eulália,Olhos de Água
 Praia de Faro,Montenegro
+Praia de Monte Clérigo,Aljezur
+Praia de Odeceixe,Odeceixe
+Praia de Santa Eulália,Olhos de Água
+Praia do Amado,Bordeira
 Praia do Barril,Santa Luzia
 Praia do Carvalho,Carvoeiro
+Praia do Castelejo,Vila do Bispo
+Praia do Martinhal,Sagres
 Praia do Vale de Centeanes,Carvoeiro
 Praia do Vau,Portimão
+Praia Dona Ana,Santa Maria
 Praia dos Alemães,Albufeira
 Praia dos Salgados,Guia
 Praia Nova,Porches
@@ -295,10 +327,15 @@ Quelfes,Quelfes
 Querença,Querença
 Quinta do Lago,Almancil
 Quinta do Vale Golf Resort,Castro Marim
+Raposeira,Raposeira
+Ribat da Arrifana,Aljezur
 Ribeira do Vascão,Espírito Santo
 Rocha da Pena,Salir
+Rogil,Rogil
 Rotunda da Árvore,Alcoutim
 Ruínas Romanas de Milreu,Estoi
+Sagres,Sagres
+Salema,Budens
 Salgueiros,Santana de Cambas
 Salir,Salir
 Santa Bárbara de Nexe,Santa Bárbara de Nexe
@@ -339,6 +376,7 @@ Variante de Faro - Nó com o IC4,São Pedro
 Variante de Faro - Nó com a M518,São Pedro
 Variante de Faro - Nó com a N2,Conceição
 "Vicentes, Alcoutim",Pereiro
+Vila do Bispo,Vila do Bispo
 Vila Nova de Cacela,Vila Nova de Cacela
 Vila Nova de São Bento,Vila Nova de São Bento
 Vila Real de Santo António,Vila Real de Santo António
