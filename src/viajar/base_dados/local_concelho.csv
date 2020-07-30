@@ -1,4 +1,5 @@
 Nome,Concelho
+A2 - Saída 13,Almodôvar
 A2 - Saída 14,Silves
 A22 - Início,Lagos
 A22 - Saída 1,Lagos
@@ -18,6 +19,7 @@ A22 - Saída 15,Olhão
 A22 - Saída 16,Tavira
 A22 - Saída 17,Castro Marim
 A22 - Saída 18,Castro Marim
+Achada do Gamo,Mértola
 Aeródromo de Portimão,Portimão
 Aeroporto de Beja,Beja
 Aeroporto de Faro,Faro
@@ -28,6 +30,7 @@ Albufeira - Centro histórico,Albufeira
 Albufeira - Rua da Oura,Albufeira
 Alcantarilha,Silves
 Alcaria,Castro Marim
+Alcaria dos Javazes,Mértola
 Alcarias Grandes,Castro Marim
 Alcoutim,Alcoutim
 Alferce,Monchique
@@ -37,9 +40,11 @@ Algoz,Silves
 Aljezur,Aljezur
 Almada de Ouro,Castro Marim
 Almancil,Loulé
+Almodôvar,Almodôvar
 Alta Mora,Castro Marim
 Alte,Loulé
 Altura,Castro Marim
+Alves,Mértola
 Alvor,Portimão
 Ameixal,Loulé
 Aqualand Algarve,Silves
@@ -66,7 +71,11 @@ Barranco das Pereiras,Alcoutim
 Barranco do Velho,Loulé
 Beja,Beja
 Beliche,Castro Marim
+Benafim,Loulé
+Bens,Mértola
 Bensafrim,Lagos
+Besteiros,Mértola
+Bicada,Mértola
 Boavista,Mértola
 Boliqueime,Loulé
 Bordeira,Aljezur
@@ -124,6 +133,7 @@ Cruzamento da N122 com a M507,Alcoutim
 Cruzamento da N122 com a M507-2,Alcoutim
 Cruzamento da N122 com a M512,Castro Marim
 Cruzamento da N122 com a N123,Mértola
+Cruzamento da N122 com a N267,Mértola
 Cruzamento da N124 com a M507-1,Alcoutim
 Cruzamento da N124 com a N125,Portimão
 Cruzamento da N124 com a N266,Portimão
@@ -186,6 +196,7 @@ Fonte do Penedo,Castro Marim
 Fonte Zambujo,Alcoutim
 Fonte Zambujo de Baixo,Alcoutim
 Fonte Zambujo de Cima,Alcoutim
+Formoa,Mértola
 Forum Algarve,Faro
 Foz de Odeleite,Castro Marim
 Furnazinhas,Castro Marim
@@ -213,6 +224,7 @@ Junqueira,Castro Marim
 Lagoa,Lagoa
 Lagos,Lagos
 Laranjeiras,Alcoutim
+Lombardos,Mértola
 Loulé,Loulé
 Livramento,Tavira
 "Luz, Lagos",Lagos
@@ -232,15 +244,20 @@ Mesquita,Mértola
 Mexilhoeira da Carregação,Lagoa
 Mexilhoeira Grande,Portimão
 Mina de Sal-Gema de Loulé,Loulé
-Minas de São Domingos,Mértola
+Mina de São Domingos,Mértola
 Miradouro do Caldeirão,Loulé
+Moinhos de Vento de Baixo,Mértola
+Moinhos de Vento de Cima,Mértola
 Moncarapacho,Olhão
 Monchique,Monchique
 Monte Alto,Mértola
+Monte Costa,Mértola
+Monte Fernandes,Mértola
 Monte Francisco,Castro Marim
 Monte Gordo,Vila Real de Santo António
 Monte Vascão,Alcoutim
 Montenegro,Faro
+Montes Altos,Mértola
 Montes Castelhanos,Castro Marim
 Montinho,Alcoutim
 Montinho das Laranjeiras,Alcoutim
@@ -252,6 +269,7 @@ N125 - Acesso a Estômbar e Ferragudo,Lagoa
 N125 - Acesso à Saída 1 da A22,Lagos
 N125 - Acesso à Saída 2 da A22,Lagos
 N125 - Acesso à Saída 3 da A22,Portimão
+Neves,Mértola
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeceixe,Aljezur
 Odeleite,Castro Marim
@@ -332,6 +350,10 @@ Ribat da Arrifana,Aljezur
 Ribeira do Vascão,Mértola
 Rocha da Pena,Loulé
 Rogil,Aljezur
+Roncanito,Mértola
+Roncão de Baixo,Mértola
+Roncão de Cima,Mértola
+Roncão do Meio,Mértola
 Rotunda da Árvore,Alcoutim
 Ruínas Romanas de Milreu,Faro
 Sagres,Vila do Bispo
@@ -342,12 +364,15 @@ Santa Bárbara de Nexe,Faro
 Santa Catarina da Fonte do Bispo,Tavira
 Santa Luzia,Tavira
 Santa Marta,Alcoutim
+Santana de Cambas,Mértola
 Santo Estêvão,Tavira
 Santuário de Nossa Senhora da Piedade,Loulé
 São Bartolomeu de Messines,Silves
+São Bartolomeu de Via Glória,Mértola
 São Brás de Alportel,São Brás de Alportel
 São Marcos da Serra,Silves
 São Martinho,Alcoutim
+Sapos,Mértola
 Sedas,Mértola
 Sentinela,Castro Marim
 Serpa,Serpa
@@ -358,10 +383,12 @@ Sítio da Fábrica,Vila Real de Santo António
 Slide & Splash,Lagoa
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Tacões,Alcoutim
+Tamejoso,Mértola
 Tanoeiro,Castro Marim
 Tavira - Norte,Tavira
 Tavira - Sul,Tavira
 Tenência,Castro Marim
+Tôr,Loulé
 Torneiro,Alcoutim
 Tunes,Silves
 Universidade do Algarve - Campus da Penha,Faro
@@ -376,10 +403,12 @@ Variante de Faro - Nó com o IC4,Faro
 Variante de Faro - Nó com a M518,Faro
 Variante de Faro - Nó com a N2,Faro
 "Vicentes, Alcoutim",Alcoutim
+"Vicentes, Mértola",Mértola
 Vila do Bispo,Vila do Bispo
 Vila Nova de Cacela,Vila Real de Santo António
 Vila Nova de São Bento,Serpa
 Vila Real de Santo António,Vila Real de Santo António
 Vilamoura,Loulé
 Vista Real,Castro Marim
+Zambujal,Mértola
 Zoomarine,Albufeira

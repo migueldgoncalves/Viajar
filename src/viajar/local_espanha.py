@@ -43,7 +43,7 @@ class LocalEspanha(local.Local):
     def get_comunidade_autonoma(self):
         return self.comunidade_autonoma
 
-    #  Ex: Ayamonte, Província de Huelva, Andalucía
+    #  Ex: Ayamonte, Província de Huelva, Andaluzia
     def imprimir_info_breve(self):
         nome = self.nome.split(",")[0]  # Ex: "Álamo, Alcoutim" e "Álamo, Mértola" -> Álamo
         print("Está em", nome + ",", self.municipio + ",", "Província de", self.provincia + ",",

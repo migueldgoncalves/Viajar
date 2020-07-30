@@ -17,7 +17,7 @@ DESACELERACAO = 10  # km/h abrandados num segundo, no caso de não se estar a ac
 TRAVAGEM_POR_SEGUNDO = 40  # km/h travados por segundo
 SEGUNDOS_POR_HORA = 3600
 
-#  Simulacao inicial onde se mede o número de inputs lidos por segundo - Tecla ENTER mantida premida
+#  Simulação inicial onde se mede o número de inputs lidos por segundo - Tecla ENTER mantida premida
 TEMPO_SIMULACAO = 3.0  # Segundos
 INPUTS_SEGUNDO_OMISSAO = 20
 
@@ -87,7 +87,7 @@ class Carro:
     def instrucoes():
         print("\nBem-vindo/a ao carro")
         print("")
-        print("** INSTRUÇÔES GERAIS **")
+        print("** INSTRUÇÕES GERAIS **")
         print("Tem os seguintes comandos à sua disposição:")
         print("")
         print(SAIR_STRING, "-", "Sair da simulação")
@@ -199,9 +199,11 @@ class Carro:
         self.imprimir_mudanca()
         if (0 < self.mudanca < NUMERO_MUDANCAS) & (self.rotacoes_por_minuto < (REDLINE - SUGESTAO_MUDAR_MUDANCA)):
             print(int(self.rotacoes_por_minuto), "RPM")
-        elif (not(0 < self.mudanca < NUMERO_MUDANCAS)) & (abs(self.rotacoes_por_minuto) < REDLINE):  # Mudança mais alta OU ponto morto OU marcha-atrás
+        #  Mudança mais alta OU ponto morto OU marcha-atrás
+        elif (not(0 < self.mudanca < NUMERO_MUDANCAS)) & (abs(self.rotacoes_por_minuto) < REDLINE):
             print(int(self.rotacoes_por_minuto), "RPM")
-        elif (0 < self.mudanca < NUMERO_MUDANCAS) & ((REDLINE - SUGESTAO_MUDAR_MUDANCA) <= self.rotacoes_por_minuto < REDLINE):
+        elif (0 < self.mudanca < NUMERO_MUDANCAS) & (
+                (REDLINE - SUGESTAO_MUDAR_MUDANCA) <= self.rotacoes_por_minuto < REDLINE):
             print(int(self.rotacoes_por_minuto), "RPM - Mude de mudança")
         else:
             print(int(self.rotacoes_por_minuto), "RPM - Redline!")
@@ -249,7 +251,8 @@ class Carro:
         if self.primeira_vez:  # Se é a 1ª vez que a simulação de carro está a correr
             self.instrucoes()
             self.inputs_por_segundo = self.calcular_inputs_por_segundo()  # Basta calcularem-se 1 vez
-        while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):  # Distancia ser 0 == Viagem infinita
+        #  Distancia ser 0 == Viagem infinita
+        while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):
             temporizador = time.perf_counter()  # Início e reinício da contagem do tempo
             while (distancia_a_percorrer == 0) | (self.distancia_percorrida < distancia_a_percorrer):
                 if msvcrt.kbhit():  # Tecla a ser premida

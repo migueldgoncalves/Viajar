@@ -1,4 +1,5 @@
 Nome,Freguesia
+A2 - Saída 13,Gomes Aires
 A2 - Saída 14,São Bartolomeu de Messines
 A22 - Início,Bensafrim
 A22 - Saída 1,Bensafrim
@@ -18,6 +19,7 @@ A22 - Saída 15,Moncarapacho
 A22 - Saída 16,Santiago
 A22 - Saída 17,Altura
 A22 - Saída 18,Castro Marim
+Achada do Gamo,Santana de Cambas
 Aeródromo de Portimão,Alvor
 Aeroporto de Beja,São Brissos
 Aeroporto de Faro,Montenegro
@@ -28,6 +30,7 @@ Albufeira - Centro histórico,Albufeira
 Albufeira - Rua da Oura,Albufeira
 Alcantarilha,Alcantarilha
 Alcaria,Odeleite
+Alcaria dos Javazes,Espírito Santo
 Alcarias Grandes,Azinhal
 Alcoutim,Alcoutim
 Alferce,Alferce
@@ -37,9 +40,11 @@ Algoz,Algoz
 Aljezur,Aljezur
 Almada de Ouro,Azinhal
 Almancil,Almancil
+Almodôvar,Almodôvar
 Alta Mora,Odeleite
 Alte,Alte
 Altura,Altura
+Alves,Santana de Cambas
 Alvor,Alvor
 Ameixal,Ameixal
 Aqualand Algarve,Alcantarilha
@@ -66,7 +71,11 @@ Barranco das Pereiras,Alcoutim
 Barranco do Velho,Salir
 Beja,Santa Maria da Feira
 Beliche,Castro Marim
+Benafim,Benafim
+Bens,Santana de Cambas
 Bensafrim,Bensafrim
+Besteiros,Espírito Santo
+Bicada,Espírito Santo
 Boavista,Espírito Santo
 Boliqueime,Boliqueime
 Bordeira,Bordeira
@@ -124,6 +133,7 @@ Cruzamento da N122 com a M507,Pereiro
 Cruzamento da N122 com a M507-2,Alcoutim
 Cruzamento da N122 com a M512,Azinhal
 Cruzamento da N122 com a N123,Mértola
+Cruzamento da N122 com a N267,Mértola
 Cruzamento da N124 com a M507-1,Giões
 Cruzamento da N124 com a N125,Portimão
 Cruzamento da N124 com a N266,Portimão
@@ -186,6 +196,7 @@ Fonte do Penedo,Odeleite
 Fonte Zambujo,Pereiro
 Fonte Zambujo de Baixo,Pereiro
 Fonte Zambujo de Cima,Pereiro
+Formoa,Santana de Cambas
 Forum Algarve,São Pedro
 Foz de Odeleite,Odeleite
 Furnazinhas,Odeleite
@@ -213,6 +224,7 @@ Junqueira,Castro Marim
 Lagoa,Lagoa
 Lagos,Santa Maria
 Laranjeiras,Alcoutim
+Lombardos,Mértola
 Loulé,São Clemente
 Livramento,Luz de Tavira
 "Luz, Lagos",Luz
@@ -232,15 +244,20 @@ Mesquita,Espírito Santo
 Mexilhoeira da Carregação,Estômbar
 Mexilhoeira Grande,Mexilhoeira Grande
 Mina de Sal-Gema de Loulé,São Clemente
-Minas de São Domingos,Corte do Pinto
+Mina de São Domingos,Corte do Pinto
 Miradouro do Caldeirão,Ameixal
+Moinhos de Vento de Baixo,Espírito Santo
+Moinhos de Vento de Cima,Espírito Santo
 Moncarapacho,Moncarapacho
 Monchique,Monchique
 Monte Alto,Mértola
+Monte Costa,Santana de Cambas
+Monte Fernandes,Mértola
 Monte Francisco,Castro Marim
 Monte Gordo,Monte Gordo
 Monte Vascão,Alcoutim
 Montenegro,Montenegro
+Montes Altos,Santana de Cambas
 Montes Castelhanos,Castro Marim
 Montinho,Alcoutim
 Montinho das Laranjeiras,Alcoutim
@@ -252,6 +269,7 @@ N125 - Acesso a Estômbar e Ferragudo,Estômbar
 N125 - Acesso à Saída 1 da A22,São Sebastião
 N125 - Acesso à Saída 2 da A22,Odiáxere
 N125 - Acesso à Saída 3 da A22,Mexilhoeira Grande
+Neves,Mértola
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Odeceixe,Odeceixe
 Odeleite,Odeleite
@@ -332,6 +350,10 @@ Ribat da Arrifana,Aljezur
 Ribeira do Vascão,Espírito Santo
 Rocha da Pena,Salir
 Rogil,Rogil
+Roncanito,Espírito Santo
+Roncão de Baixo,Espírito Santo
+Roncão de Cima,Espírito Santo
+Roncão do Meio,Espírito Santo
 Rotunda da Árvore,Alcoutim
 Ruínas Romanas de Milreu,Estoi
 Sagres,Sagres
@@ -342,12 +364,15 @@ Santa Bárbara de Nexe,Santa Bárbara de Nexe
 Santa Catarina da Fonte do Bispo,Santa Catarina da Fonte do Bispo
 Santa Luzia,Santa Luzia
 Santa Marta,Alcoutim
+Santana de Cambas,Santana de Cambas
 Santo Estêvão,Santo Estêvão
 Santuário de Nossa Senhora da Piedade,São Sebastião
 São Bartolomeu de Messines,São Bartolomeu de Messines
+São Bartolomeu de Via Glória,São Sebastião dos Carros
 São Brás de Alportel,São Brás de Alportel
 São Marcos da Serra,São Marcos da Serra
 São Martinho,Alcoutim
+Sapos,Santana de Cambas
 Sedas,Espírito Santo
 Sentinela,Azinhal
 Serpa,Santa Maria
@@ -358,10 +383,12 @@ Sítio da Fábrica,Vila Nova de Cacela
 Slide & Splash,Estômbar
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim
 Tacões,Pereiro
+Tamejoso,Mértola
 Tanoeiro,Castro Marim
 Tavira - Norte,Santa Maria
 Tavira - Sul,Santiago
 Tenência,Odeleite
+Tôr,Tôr
 Torneiro,Alcoutim
 Tunes,Tunes
 Universidade do Algarve - Campus da Penha,Sé
@@ -376,10 +403,12 @@ Variante de Faro - Nó com o IC4,São Pedro
 Variante de Faro - Nó com a M518,São Pedro
 Variante de Faro - Nó com a N2,Conceição
 "Vicentes, Alcoutim",Pereiro
+"Vicentes, Mértola",Espírito Santo
 Vila do Bispo,Vila do Bispo
 Vila Nova de Cacela,Vila Nova de Cacela
 Vila Nova de São Bento,Vila Nova de São Bento
 Vila Real de Santo António,Vila Real de Santo António
 Vilamoura,Quarteira
 Vista Real,Castro Marim
+Zambujal,Espírito Santo
 Zoomarine,Guia

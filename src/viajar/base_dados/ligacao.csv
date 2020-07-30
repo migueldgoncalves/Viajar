@@ -58,6 +58,7 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-66 - Saída 782,A-66 - Saída 790,Carro,7.5,A-66,SE,1,2
 A-66 - Saída 790,A-66 - Saída 795,Carro,4.7,A-66,S,1,2
 A-66 - Saída 795,A-66 - Saída 798,Carro,3.3,A-66,SE,1,2
 A-66 - Saída 798,A-66 - Saída 805,Carro,6.9,A-66,SE,1,2
@@ -65,9 +66,11 @@ A-66 - Saída 805,A-66 - Saída 808,Carro,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,2.2,A-66,S,1,3
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,1.1,A-8058,NE,1,3
 A-8058 - Saída 0,San Juan de Aznalfarache,Carro,1.2,A-8058,S,2,1
-A2 - Saída 14,Cruzamento da N124 com a N270,Carro,2.3,N124,SE,2,3
-A2 - Saída 14,Cruzamento da A2 com a A22,Carro,12.1,A2,SE,1,3
-A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,1.7,N124,SO,3,1
+A2 - Saída 13,A2 - Saída 14,Carro,33.1,A2,SO,1,1
+A2 - Saída 13,Almodôvar,Carro,12.2,,E,2,3
+A2 - Saída 14,Cruzamento da N124 com a N270,Carro,2.3,N124,SE,3,3
+A2 - Saída 14,Cruzamento da A2 com a A22,Carro,12.1,A2,SE,2,3
+A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,1.7,N124,SO,4,1
 A22 - Início,A22 - Saída 1,Carro,3.1,A22,SE,1,1
 A22 - Início,Bensafrim,Carro,0.8,N120,SE,2,3
 A22 - Início,Cruzamento da N120 com a N268,Carro,14.2,N120,NO,3,1
@@ -130,6 +133,9 @@ A22 - Saída 17,Altura,Carro,2.4,,S,3,1
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,1.1,A22,NE,2,1
 A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
 A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
+Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
+Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
+Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
 Aeródromo de Portimão,Aeroporto de Faro,Avião,56.4,,SE,4,5
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
@@ -145,9 +151,12 @@ Afonso Vicente,Cortes Pereiras,Carro,2.9,,E,2,1
 Afonso Vicente,Cruzamento da N122 com a M507,Carro,3.5,,SO,3,2
 "Álamo, Alcoutim",Rotunda da Árvore,Carro,0.5,,N,1,3
 "Álamo, Alcoutim",Barranco das Pereiras,Carro,1.2,,S,2,1
-"Álamo, Mértola",Espírito Santo,Carro,5.8,,SE,1,2
-"Álamo, Mértola",Boavista,Carro,7.1,,E,2,2
-"Álamo, Mértola",Mértola,Carro,8.0,,N,3,1
+"Álamo, Mértola",Bicada,Carro,1.6,,NO,6,1
+"Álamo, Mértola",Cruzamento da N122 com a N267,Carro,5.9,N122,N,3,1
+"Álamo, Mértola",Espírito Santo,Carro,5.8,N122,SE,1,2
+"Álamo, Mértola",Lombardos,Carro,4.3,,NE,4,1
+"Álamo, Mértola",Moinhos de Vento de Baixo,Carro,4.1,,S,5,1
+"Álamo, Mértola",Roncão de Cima,Carro,6.3,,SE,2,2
 Albufeira - Centro histórico,Cruzamento da N125 com a N395,Carro,4.2,,N,2,3
 Albufeira - Centro histórico,Marina de Albufeira,Carro,4.2,,SO,3,1
 Albufeira - Centro histórico,Praia dos Alemães,Carro,2.5,,SE,1,2
@@ -161,6 +170,7 @@ Alcantarilha,"Pêra, Silves",Carro,1.4,N125,SE,2,5
 Alcaria,Foz de Odeleite,Carro,3.5,,NE,1,2
 Alcaria,Odeleite,Carro,3.4,,O,2,1
 Alcaria,Fonte do Penedo,Carro,0.9,,S,3,1
+Alcaria dos Javazes,Espírito Santo,Carro,3.3,,NO,1,4
 Alcarias Grandes,Tanoeiro,Carro,2.4,,S,1,2
 Alcarias Grandes,Corte do Gago,Carro,2.5,,NO,2,1
 Alcoutim,Marmeleiro,Carro,2.8,N122-1,SO,1,1
@@ -197,14 +207,18 @@ Almancil,Estação de Almancil,Carro,1.1,,NE,2,2
 Almancil,Vale do Lobo,Carro,5.7,,SO,3,1
 Almancil,Quinta do Lago,Carro,5.1,,S,4,1
 Almancil,Cruzamento da N125 com a N396,Carro,2.3,N125,NO,5,2
+Almodôvar,Ameixal,Carro,23.2,N2,SE,2,4
+Almodôvar,Cruzamento da N122 com a N267,Carro,39.1,,NE,1,4
 Alta Mora,Cruzamento da M509 com a M512,Carro,4.1,,E,1,1
 Alta Mora,Vaqueiros,Carro,21.3,,NO,2,3
 Alta Mora,Furnazinhas,Carro,13.0,,N,3,3
+Alte,Benafim,Carro,4.9,N124,E,1,1
 Alte,Cruzamento da N124 com a N270,Carro,7.4,N124,O,3,2
 Alte,Paderne,Carro,9.9,,SO,2,5
-Alte,Rocha da Pena,Carro,9.4,N124,NE,1,1
 Altura,Cruzamento da N125 com a N125-6,Carro,2.2,N125,NE,2,4
 Altura,Vila Nova de Cacela,Carro,3.5,N125,O,3,1
+Alves,Picoitos,Carro,2.4,,S,2,1
+Alves,Tamejoso,Carro,3.5,,NO,1,2
 Alvor,Marina de Lagos,Barco,9.7,Costa de Portugal Continental,SO,4,3
 Alvor,Marina de Portimão,Barco,13.4,Costa de Portugal Continental,O,5,3
 Alvor,Portimão - Avenida São Lourenço da Barrosa,Carro,4.8,,NE,2,7
@@ -262,9 +276,13 @@ Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
 Beja,IP2 - Saída 44,Carro,13.2,IP2,S,1,1
 Beja,Serpa,Carro,27.9,,SE,3,2
 Beliche,Montes Castelhanos,Carro,4.6,,SE,2,2
+Benafim,Rocha da Pena,Carro,4.1,N124,NE,2,1
+Bens,Salgueiros,Carro,2.6,,S,1,3
+Bens,Santana de Cambas,Carro,3.1,,N,2,1
 Bensafrim,Cruzamento da N120 com a N125,Carro,7.7,N120,SE,1,3
-Boavista,Espírito Santo,Carro,6.6,,SO,1,3
-Boavista,Penha da Águia,Carro,3.4,,NE,3,1
+Besteiros,Espírito Santo,Carro,3.8,,NE,1,5
+Boavista,Roncanito,Carro,0.3,,E,2,2
+Boavista,Roncão do Meio,Carro,0.2,,SO,1,2
 Boliqueime,Cruzamento da N125 com a M526,Carro,3.1,N125,SE,2,4
 Boliqueime,Cruzamento da N125 com a N269,Carro,6.7,N125,O,4,2
 Boliqueime,Estação de Boliqueime,Carro,2.2,,SE,1,1
@@ -297,7 +315,7 @@ Cachopo,Corte João Marques,Carro,12.6,,NO,4,2
 Cachopo,Tavira - Norte,Carro,40.5,,SE,5,5
 Cais da Mesquita,Mesquita,Carro,2.5,,SO,1,2
 Cais da Mesquita,Penha da Águia,Barco,8.6,Rio Guadiana,NO,2,3
-Cais da Mesquita,Pomarão,Barco,0.1,Rio Guadiana,NE,3,3
+Cais da Mesquita,Pomarão,Barco,0.1,Rio Guadiana,NE,3,4
 Cais da Praia do Barril,Pedras de El-Rei,Carro,0.7,,NO,1,1
 Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,SE,2,3
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
@@ -378,6 +396,7 @@ Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
+Cruzamento da M524 com a M525,Tôr,Carro,1.3,,NO,4,1
 Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,,SO,2,2
 Cruzamento da N120 com a N125,Estação de Lagos,Carro,1.6,,SE,2,1
 Cruzamento da N120 com a N125,Lagos,Carro,1.6,,SE,4,1
@@ -393,8 +412,10 @@ Cruzamento da N122 com a M507,IC27 - Fim,Carro,0.5,N122,SE,1,1
 Cruzamento da N122 com a M507,Santa Marta,Carro,1.8,N122,NO,3,1
 Cruzamento da N122 com a M512,IC27 - Saída 2,Carro,2.1,,NO,2,3
 Cruzamento da N122 com a M512,Montes Castelhanos,Carro,3.5,N122,S,3,1
-Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,,NO,1,2
-Cruzamento da N122 com a N123,Mértola,Carro,11.1,,SE,3,3
+Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,2
+Cruzamento da N122 com a N123,Mértola,Carro,11.1,N122,SE,3,3
+Cruzamento da N122 com a N267,Mértola,Carro,2.1,N122,NE,2,1
+Cruzamento da N122 com a N267,Neves,Carro,2.2,,SE,3,1
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,N124,SO,2,2
 Cruzamento da N124 com a M507-1,Pereiro,Carro,8.9,N124,E,3,1
@@ -455,7 +476,9 @@ El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
 El Granado,Villanueva de los Castillejos,Carro,14.4,,E,3,1
 Espiche,"Luz, Lagos",Carro,1.9,,SE,2,1
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,4.1,N125,NE,1,4
-Espírito Santo,Sedas,Carro,4.7,,SE,1,1
+Espírito Santo,Moinhos de Vento de Cima,Carro,4.5,,O,6,2
+Espírito Santo,Roncão de Cima,Carro,5.8,,NE,3,1
+Espírito Santo,Sedas,Carro,4.7,N122,SE,1,1
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,5.2,Linha do Algarve - Regional,E,3,4
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,17.1,Linha do Algarve - Alfa Pendular/Intercidades,SE,5,6
 Estação de Albufeira - Ferreiras,Ferreiras,Carro,1.2,,SO,2,2
@@ -537,6 +560,7 @@ Fonte Benémola,Querença,Carro,2.4,,SE,1,4
 Fonte Zambujo,Fonte Zambujo de Cima,Carro,0.9,,N,1,2
 Fonte Zambujo,Fonte Zambujo de Baixo,Carro,1.2,,SO,2,1
 Fonte Zambujo de Cima,Pereiro,Carro,3.4,,NO,1,3
+Formoa,Pomarão,Carro,2.0,,NE,1,3
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,1.9,IC4,N,2,3
 Furnazinhas,Vaqueiros,Carro,17.6,,NO,2,1
 Fuseta,Praia do Barril,Barco,8.6,Ria Formosa,NE,3,2
@@ -547,6 +571,7 @@ Fuseta,Quatro Águas,Barco,15.4,Costa de Portugal Continental,NE,6,4
 Gelves,San Juan de Aznalfarache,Carro,3.0,,N,1,2
 Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,1,3
+Giões,São Bartolomeu de Via Glória,Carro,7.0,,NO,3,2
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
 Guerreiros do Rio,Laranjeiras,Carro,1.2,,NO,1,1
 Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
@@ -592,6 +617,7 @@ Lagoa,Slide & Splash,Carro,2.3,,NO,5,1
 Lagos,N125 - Acesso à Saída 1 da A22,Carro,4.1,,NO,4,1
 Lagos,Praia Dona Ana,Carro,2.4,,S,3,1
 Laranjeiras,Montinho das Laranjeiras,Carro,0.5,,NO,2,2
+Lombardos,Roncão de Cima,Carro,2.3,,SE,2,3
 Loulé,São Brás de Alportel,Carro,13.2,,NE,2,4
 Loulé,Santuário de Nossa Senhora da Piedade,Carro,1.7,,O,3,1
 Loulé,Mina de Sal-Gema de Loulé,Carro,1.6,,SE,4,1
@@ -619,18 +645,26 @@ Mexilhoeira da Carregação,Parchal,Carro,1.6,,SO,3,1
 Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,2.8,Rio Arade,O,4,6
 Mexilhoeira da Carregação,Silves,Barco,8.9,Rio Arade,NE,5,5
 Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,2.1,N125,O,2,1
-Minas de São Domingos,Moreanes,Carro,6.8,,SO,1,2
-Minas de São Domingos,Vale do Poço,Carro,11.4,,N,2,1
+Mina de São Domingos,Montes Altos,Carro,3.4,,S,4,2
+Mina de São Domingos,Moreanes,Carro,6.8,,SO,1,2
+Mina de São Domingos,Sapos,Carro,5.7,,SO,3,3
+Mina de São Domingos,Vale do Poço,Carro,11.4,,N,2,1
+Moinhos de Vento de Baixo,Moinhos de Vento de Cima,Carro,0.8,,SO,2,1
+Moinhos de Vento de Cima,São Bartolomeu de Via Glória,Carro,3.2,,SO,3,1
 Moncarapacho,Quelfes,Carro,4.7,,SO,4,2
 Moncarapacho,Santo Estêvão,Carro,9.5,,NE,6,3
 Monchique,Picota,Carro,4.1,,SE,2,1
-Monte Alto,Picoitos,Carro,6.4,,SE,2,1
-Monte Alto,Moreanes,Carro,6.7,,NE,3,1
+Monte Alto,Monte Costa,Carro,6.2,,NE,3,1
+Monte Alto,Monte Fernandes,Carro,0.9,,SE,2,1
+Monte Costa,Moreanes,Carro,1.0,,NE,2,1
+Monte Fernandes,Tamejoso,Carro,2.1,,SE,2,1
 Monte Francisco,Vista Real,Carro,2.0,,SO,3,1
 Montenegro,Universidade do Algarve - Campus de Gambelas,Carro,2.1,,NO,2,1
 Montenegro,Variante de Faro - Nó com o IC4,Carro,1.3,N125-10,NE,3,1
+Montes Altos,Santana de Cambas,Carro,4.8,,SO,1,4
 Montinho de Odeleite,Vale do Pereiro,Carro,2.2,,N,2,3
-Moreanes,Salgueiros,Carro,7.5,,S,3,3
+Moreanes,Santana de Cambas,Carro,4.4,,SE,3,2
+Moreanes,Sapos,Carro,4.2,,E,4,2
 Murteira de Baixo,Murteira de Cima,Carro,0.4,,NO,1,2
 Murteira de Cima,Portela Alta de Cima,Carro,2.0,,NO,1,4
 Murteira de Cima,Sentinela,Carro,1.9,,S,3,4
@@ -648,6 +682,7 @@ Parchal,Porto de Pesca de Portimão,Carro,1.0,,O,4,1
 Parque Mineiro Cova dos Mouros,Vaqueiros,Carro,4.3,,SO,1,5
 Pechão,Quelfes,Carro,5.1,,E,2,3
 Pedras de El-Rei,Santa Luzia,Carro,2.3,,NE,2,2
+Penha da Águia,Roncanito,Carro,3.3,,SO,1,1
 "Pêra, Silves",Praia da Galé,Carro,6.8,,SE,2,4
 "Pêra, Silves",Zoomarine,Carro,2.9,N125,NE,1,2
 Pereiro,Tacões,Carro,4.4,N124,SE,2,1
@@ -658,7 +693,8 @@ Poço Barreto,Porches,Carro,5.8,,S,3,4
 Poço Barreto,Silves,Carro,7.1,,NE,4,2
 Pomarão,Ponte Internacional do Baixo Guadiana,Carro,0.2,,SE,1,2
 Pomarão,Salgueiros,Carro,4.6,,N,2,2
-Pomarão,Puerto de la Laja,Barco,5.5,Rio Guadiana,S,4,3
+Pomarão,Salgueiros,Comboio,7.3,Antiga Linha São Domingos - Pomarão,NO,6,4
+Pomarão,Puerto de la Laja,Barco,5.5,Rio Guadiana,S,5,3
 Ponta da Piedade,Praia Dona Ana,Carro,1.4,,N,1,2
 Ponta de Sagres,Sagres,Carro,1.4,,NE,1,3
 Ponte do Centenário,SE-30 - Saída 12,Carro,1.5,SE-30,NO,1,2
@@ -714,8 +750,10 @@ Querença,São Brás de Alportel,Carro,16.3,,SE,2,5
 Quinta do Lago,Vale do Lobo,Carro,5.8,,O,2,2
 Raposeira,Vila do Bispo,Carro,1.9,N125,O,2,2
 Ribeira do Vascão,Santa Marta,Carro,3.6,N122,S,1,2
-Ribeira do Vascão,Sedas,Carro,2.7,,NO,2,2
+Ribeira do Vascão,Sedas,Carro,2.7,N122,NO,2,2
 Rocha da Pena,Salir,Carro,5.4,N124,SE,2,4
+Roncanito,Roncão de Baixo,Carro,1.3,,SE,3,1
+Roncão de Cima,Roncão do Meio,Carro,1.2,,SE,4,1
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Carro,0.4,Ronda Urbana Norte de Sevilha,NE,2,1
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,0.9,Ronda Urbana Norte de Sevilha,SO,2,1
 Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Carro,0.5,Ronda Urbana Norte de Sevilha,E,1,2
@@ -725,6 +763,7 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha -
 Ruínas Romanas de Milreu,Santa Bárbara de Nexe,Carro,6.3,,O,3,1
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,8.1,N2,N,4,1
 Sagres,Vila do Bispo,Carro,9.4,,NE,1,5
+Salgueiros,Santana de Cambas,Comboio,3.7,Antiga Linha São Domingos - Pomarão,N,5,5
 San Bartolomé de la Torre,Villanueva de los Castillejos,Carro,16.8,,NO,1,3
 San Bartolomé de la Torre,Tariquejo,Carro,10.1,,SO,2,2
 San Silvestre de Guzmán,Sanlúcar de Guadiana,Carro,17.6,,NO,1,2
@@ -733,6 +772,7 @@ San Silvestre de Guzmán,Villablanca,Carro,9.6,,S,3,1
 Santa Catarina da Fonte do Bispo,Santo Estêvão,Carro,9.1,,SE,4,2
 Santa Catarina da Fonte do Bispo,São Brás de Alportel,Carro,9.1,,O,1,3
 Santa Luzia,Tavira - Sul,Carro,2.7,,N,1,5
+Santana de Cambas,Sapos,Carro,3.4,,N,3,1
 São Bartolomeu de Messines,Silves,Carro,17.1,N124,SO,3,3
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,1.1,SE-20,NE,2,1
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,0.9,SE-20,NE,2,1
@@ -743,6 +783,8 @@ SE-30 - Saída 12,SE-30 - Saída 14,Carro,1.7,SE-30,NO,1,2
 SE-30 - Saída 14,SE-30 - Saída 15,Carro,1.3,SE-30,O,1,2
 SE-30 - Saída 21,Sevilha - Parque de Alamillo,Carro,0.8,,N,3,2
 SE-40 - Reinício,SE-40 - Saída 35,Carro,6.9,SE-40,O,1,2
+Sedas,"Vicentes, Mértola",Carro,3.0,,NO,4,1
+Sedas,Zambujal,Carro,1.3,,SO,5,1
 Serpa,Vila Nova de São Bento,Carro,18.1,,E,3,1
 Serro da Vinha de Baixo,Serro da Vinha de Cima,Carro,0.8,,SE,3,1
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,1.8,N122,SE,2,1
