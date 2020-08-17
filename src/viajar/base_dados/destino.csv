@@ -1,4 +1,70 @@
 Local A,Local B,Meio de transporte,Origem,Destino
+A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,False,Universidade Pablo de Olavide
+A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,False,Utrera
+A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,True,Sevilha
+A-376 - Centro Comercial,A-376 - Universidade Pablo de Olavide,Carro,False,Sevilha
+A-376 - Centro Comercial,A-376 - Universidade Pablo de Olavide,Carro,True,Utrera
+A-376 - Condequinto,A-376 - Montequinto,Carro,False,Sevilha
+A-376 - Condequinto,A-376 - Montequinto,Carro,True,Ronda
+A-376 - Condequinto,A-376 - Montequinto,Carro,True,Utrera
+A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Carro,False,Ronda
+A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Carro,False,Utrera
+A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Carro,True,Sevilha
+A-376 - Fim da auto-estrada,A-376 - Saída 21,Carro,False,Ronda
+A-376 - Fim da auto-estrada,A-376 - Saída 21,Carro,False,Utrera
+A-376 - Fim da auto-estrada,A-376 - Saída 21,Carro,True,Sevilha
+A-376 - Montequinto,A-376 - Saída 4A,Carro,False,Sevilha
+A-376 - Montequinto,A-376 - Saída 4A,Carro,True,Utrera
+A-376 - Saída 4A,A-376 - Saída 4B,Carro,False,Sevilha
+A-376 - Saída 4A,A-376 - Saída 4B,Carro,True,Utrera
+A-376 - Saída 4B,Cruzamento da A-376 com a SE-40,Carro,False,Sevilha
+A-376 - Saída 4B,Cruzamento da A-376 com a SE-40,Carro,True,Ronda
+A-376 - Saída 4B,Cruzamento da A-376 com a SE-40,Carro,True,Utrera
+A-376 - Saída 8,A-376 - Saída 11/13,Carro,False,Sevilha
+A-376 - Saída 8,A-376 - Saída 11/13,Carro,True,Ronda
+A-376 - Saída 8,A-376 - Saída 11/13,Carro,True,Utrera
+A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,False,Utrera
+A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,True,SE-40 - Aeroporto de Sevilha - San Pablo
+A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,True,Sevilha
+A-376 - Saída 11/13,A-376 - Saída 16,Carro,False,Sevilha
+A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Ronda
+A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
+A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
+A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
+A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-4 - Saída 511,A-4 - Saída 514,Carro,False,Carmona
+A-4 - Saída 511,A-4 - Saída 514,Carro,False,Córdoba
+A-4 - Saída 511,A-4 - Saída 514,Carro,True,Aeroporto de Sevilha - San Pablo
+A-4 - Saída 511,A-4 - Saída 514,Carro,True,Cádiz
+A-4 - Saída 511,A-4 - Saída 514,Carro,True,Sevilha
+A-4 - Saída 514,A-4 - Saída 516,Carro,False,Carmona
+A-4 - Saída 514,A-4 - Saída 516,Carro,False,Córdoba
+A-4 - Saída 514,A-4 - Saída 516,Carro,True,Aeroporto de Sevilha - San Pablo
+A-4 - Saída 514,A-4 - Saída 516,Carro,True,Cádiz
+A-4 - Saída 514,A-4 - Saída 516,Carro,True,Sevilha
+A-4 - Saída 516,A-4 - Saída 519,Carro,False,Carmona
+A-4 - Saída 516,A-4 - Saída 519,Carro,False,Córdoba
+A-4 - Saída 516,A-4 - Saída 519,Carro,True,Sevilha
+A-4 - Saída 519,A-4 - Saída 521,Carro,False,Carmona
+A-4 - Saída 519,A-4 - Saída 521,Carro,False,Córdoba
+A-4 - Saída 519,A-4 - Saída 521,Carro,True,Sevilha
+A-4 - Saída 521,A-4 - Saída 523,Carro,False,Córdoba
+A-4 - Saída 521,A-4 - Saída 523,Carro,True,Aeroporto de Sevilha - San Pablo
+A-4 - Saída 521,A-4 - Saída 523,Carro,True,Cádiz
+A-4 - Saída 521,A-4 - Saída 523,Carro,True,Sevilha
+A-4 - Saída 523,A-4 - Saída 524,Carro,False,Carmona
+A-4 - Saída 523,A-4 - Saída 524,Carro,False,Córdoba
+A-4 - Saída 523,A-4 - Saída 524,Carro,True,Sevilha
+A-4 - Saída 524,Cruzamento da A-4 Norte com a SE-40,Carro,False,Carmona
+A-4 - Saída 524,Cruzamento da A-4 Norte com a SE-40,Carro,False,Córdoba
+A-4 - Saída 524,Cruzamento da A-4 Norte com a SE-40,Carro,True,Sevilha
+A-4 - Saída 528,A-4 - Saída 530,Carro,False,Carmona
+A-4 - Saída 528,A-4 - Saída 530,Carro,False,Córdoba
+A-4 - Saída 528,A-4 - Saída 530,Carro,True,Sevilha
+A-4 - Saída 528,Cruzamento da A-4 Norte com a SE-40,Carro,False,Aeroporto de Sevilha - San Pablo
+A-4 - Saída 528,Cruzamento da A-4 Norte com a SE-40,Carro,False,Sevilha
+A-4 - Saída 528,Cruzamento da A-4 Norte com a SE-40,Carro,True,Carmona
+A-4 - Saída 528,Cruzamento da A-4 Norte com a SE-40,Carro,True,Córdoba
 A-4 - Saída 530,A-4 - Saída 532,Carro,False,Carmona
 A-4 - Saída 530,A-4 - Saída 532,Carro,False,Córdoba
 A-4 - Saída 530,A-4 - Saída 532,Carro,True,Aeroporto de Sevilha - San Pablo
@@ -163,6 +229,23 @@ A-8058 - Saída 0,SE-30 - Saída 15,Carro,False,Mairena del Aljarafe
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,False,San Juan de Aznalfarache
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,True,Sevilha
 A-8058 - Saída 0,San Juan de Aznalfarache,Carro,True,Coria del Río
+A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,False,SE-30 - Todas as direcções
+A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,True,Alcalá de Guadaíra
+A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,True,Granada
+A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,True,Málaga
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,False,Alcalá de Guadaíra
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,False,Granada
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,False,Málaga
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,True,SE-30 - Todas as direcções
+A-92 - Saída 5,A-92 - Torreblanca,Carro,False,Málaga
+A-92 - Saída 5,A-92 - Torreblanca,Carro,True,Sevilha
+A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,False,Sevilha
+A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,True,Málaga
+A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,False,Granada
+A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,False,Málaga
+A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,True,Sevilha
+A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
+A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 13,A2 - Saída 14,Carro,False,Almodôvar
 A2 - Saída 13,A2 - Saída 14,Carro,False,Lisboa
 A2 - Saída 13,A2 - Saída 14,Carro,True,Algarve
@@ -180,10 +263,6 @@ A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,A2 - Faro/Lisboa/Portimã
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,Salir
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,IC1 - Albufeira/Lisboa
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,Silves
-A22 - Saída 2,A22 - Saída 3,Carro,False,Lagos
-A22 - Saída 2,A22 - Saída 3,Carro,False,Sines
-A22 - Saída 2,A22 - Saída 3,Carro,True,A2 - Lisboa
-A22 - Saída 2,A22 - Saída 3,Carro,True,Faro
 A22 - Início,A22 - Saída 1,Carro,False,Aljezur
 A22 - Início,A22 - Saída 1,Carro,False,Sines
 A22 - Início,A22 - Saída 1,Carro,True,A2 - Lisboa
@@ -201,6 +280,10 @@ A22 - Saída 1,Área de Serviço de Lagos,Carro,False,Lagos
 A22 - Saída 1,Área de Serviço de Lagos,Carro,False,Sines
 A22 - Saída 1,Área de Serviço de Lagos,Carro,True,A2 - Lisboa
 A22 - Saída 1,Área de Serviço de Lagos,Carro,True,Faro
+A22 - Saída 2,A22 - Saída 3,Carro,False,Lagos
+A22 - Saída 2,A22 - Saída 3,Carro,False,Sines
+A22 - Saída 2,A22 - Saída 3,Carro,True,A2 - Lisboa
+A22 - Saída 2,A22 - Saída 3,Carro,True,Faro
 A22 - Saída 2,Área de Serviço de Lagos,Carro,False,A2 - Lisboa
 A22 - Saída 2,Área de Serviço de Lagos,Carro,False,Faro
 A22 - Saída 2,Área de Serviço de Lagos,Carro,True,Lagos
@@ -607,6 +690,18 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,True,A-4 - Cádiz
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,True,A-49 - Huelva
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,True,A-66 - Mérida
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,True,Porto de Sevilha
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,False,A-376 - Utrera
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,False,A-4 - Cádiz
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,False,Dos Hermanas
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,True,A-92 - Granada
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,True,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,True,Alcalá de Guadaíra
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,A-376 - Utrera
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,A-4 - Córdoba
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,A-92 - Granada/Málaga
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Cádiz/Sevilha
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,Dos Hermanas
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-4 - Cádiz
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-49 - Huelva
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-92 - Granada
@@ -620,6 +715,10 @@ Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,True,A-4 - Cádiz
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,True,A-49 - Huelva
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,True,A-92 - Granada
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,True,Porto de Sevilha
+Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,False,A-4 - Córdoba
+Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Cádiz
+Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,True,A-376 - Utrera
+Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,True,A-92 - Granada
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,False,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,False,Sevilha
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,True,Cádiz
@@ -682,6 +781,11 @@ Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,A-376 - Utrera
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,A-4 - Cádiz
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,A-49 - Huelva
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,True,Porto de Sevilha
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-4 - Cádiz
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-376 - Utrera
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-92 - Granada/Sevilha
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Córdoba/Madrid
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,Aeroporto de Sevilha - San Pablo
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
@@ -819,6 +923,8 @@ Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,False,Loulé
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,A22
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Aeroporto de Faro
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Faro
+Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,A-49 - Huelva
+Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,A-66 - Mérida
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,Isla Mágica
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,Sevilha - Isla de la Cartuja
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,True,A-4 - Córdoba
@@ -1267,12 +1373,16 @@ Salgueiros,Santana de Cambas,Comboio,True,Mina de São Domingos
 São Bartolomeu de Messines,Silves,Carro,True,Silves
 São Bartolomeu de Messines,Silves,Carro,False,Lisboa
 São Bartolomeu de Messines,Silves,Carro,False,São Bartolomeu de Messines
+SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,A-49 - Huelva
+SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,A-66 - Mérida
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Estádio de La Cartuja
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Isla Mágica
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Sevilha - Isla de la Cartuja
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,A-4 - Córdoba
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,Aeroporto de Sevilha - San Pablo
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,Sevilha - Estacionamento do Estádio de La Cartuja
+SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,A-49 - Huelva
+SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,A-66 - Mérida
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,Sevilha - Isla de la Cartuja
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,True,A-4 - Córdoba
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,True,Aeroporto de Sevilha - San Pablo

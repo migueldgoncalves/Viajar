@@ -1,4 +1,23 @@
 Nome,Província
+A-376 - Centro Comercial,Sevilha
+A-376 - Condequinto,Sevilha
+A-376 - Fim da auto-estrada,Sevilha
+A-376 - Montequinto,Sevilha
+A-376 - Saída 4A,Sevilha
+A-376 - Saída 4B,Sevilha
+A-376 - Saída 8,Sevilha
+A-376 - Saída 11/13,Sevilha
+A-376 - Saída 16,Sevilha
+A-376 - Saída 21,Sevilha
+A-376 - Universidade Pablo de Olavide,Sevilha
+A-4 - Saída 511,Sevilha
+A-4 - Saída 514,Sevilha
+A-4 - Saída 516,Sevilha
+A-4 - Saída 519,Sevilha
+A-4 - Saída 521,Sevilha
+A-4 - Saída 523,Sevilha
+A-4 - Saída 524,Sevilha
+A-4 - Saída 528,Sevilha
 A-4 - Saída 530,Sevilha
 A-4 - Saída 532,Sevilha
 A-4 - Saída 533,Sevilha
@@ -40,18 +59,26 @@ A-66 - Saída 798,Sevilha
 A-66 - Saída 805,Sevilha
 A-66 - Saída 808,Sevilha
 A-8058 - Saída 0,Sevilha
+A-92 - Andalucía Residencial,Sevilha
+A-92 - Saída 5,Sevilha
+A-92 - Saída 7,Sevilha
+A-92 - Sevilha Este,Sevilha
+A-92 - Torreblanca,Sevilha
 Aeroporto de Sevilha - San Pablo,Sevilha
 Antiga Estação de Isla Cristina - Pozo del Camino,Huelva
 Ayamonte,Huelva
 Barriada de Canela,Huelva
 Bollullos Par del Condado,Huelva
+Carmona,Sevilha
 Cartaya,Huelva
 Centro Penitenciario de Huelva,Huelva
 Coria del Río,Sevilha
 Costa Esuri,Huelva
 Cruzamento da A-376 com a SE-30,Sevilha
+Cruzamento da A-376 com a SE-40,Sevilha
 Cruzamento da A-4 com a SE-20,Sevilha
 Cruzamento da A-4 Norte com a SE-30,Sevilha
+Cruzamento da A-4 Norte com a SE-40,Sevilha
 Cruzamento da A-4 Sul com a SE-30,Sevilha
 Cruzamento da A-4 Sul com a SE-40,Sevilha
 Cruzamento da A-49 com a H-31,Huelva
@@ -60,6 +87,7 @@ Cruzamento da A-49 com a SE-30,Sevilha
 Cruzamento da A-49 com a SE-40,Sevilha
 Cruzamento da A-66 com a SE-30,Sevilha
 Cruzamento da A-92 com a SE-30,Sevilha
+Cruzamento da A-92 com a SE-40,Sevilha
 Cruzamento da H-30 com a H-31,Huelva
 Cruzamento da N-431 com a N-444,Huelva
 Cruzamento da SE-20 com a SE-30,Sevilha
@@ -103,6 +131,7 @@ SE-30 - Saída 14,Sevilha
 SE-30 - Saída 15,Sevilha
 SE-30 - Saída 21,Sevilha
 SE-40 - Reinício,Sevilha
+SE-40 - Saída 5,Sevilha
 SE-40 - Saída 19,Sevilha
 SE-40 - Saída 35,Sevilha
 Sevilha - Avenida Expo 92,Sevilha

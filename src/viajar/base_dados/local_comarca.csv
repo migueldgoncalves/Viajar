@@ -1,4 +1,32 @@
 Nome,Comarca
+A-376 - Centro Comercial,Comarca Metropolitana de Sevilha
+A-376 - Condequinto,Comarca Metropolitana de Sevilha
+A-376 - Fim da auto-estrada,Bajo Guadalquivir
+A-376 - Montequinto,Comarca Metropolitana de Sevilha
+A-376 - Saída 4A,Comarca Metropolitana de Sevilha
+A-376 - Saída 4B,Comarca Metropolitana de Sevilha
+A-376 - Saída 8,Comarca Metropolitana de Sevilha
+A-376 - Saída 8,Los Alcores
+A-376 - Saída 11/13,Comarca Metropolitana de Sevilha
+A-376 - Saída 11/13,Los Alcores
+A-376 - Saída 16,Comarca Metropolitana de Sevilha
+A-376 - Saída 16,Los Alcores
+A-376 - Saída 21,Bajo Guadalquivir
+A-376 - Universidade Pablo de Olavide,Comarca Metropolitana de Sevilha
+A-4 - Saída 511,Campiña de Carmona
+A-4 - Saída 511,Los Alcores
+A-4 - Saída 514,Campiña de Carmona
+A-4 - Saída 514,Los Alcores
+A-4 - Saída 516,Campiña de Carmona
+A-4 - Saída 516,Los Alcores
+A-4 - Saída 519,Campiña de Carmona
+A-4 - Saída 519,Los Alcores
+A-4 - Saída 521,Campiña de Carmona
+A-4 - Saída 521,Los Alcores
+A-4 - Saída 523,Campiña de Carmona
+A-4 - Saída 523,Los Alcores
+A-4 - Saída 524,Comarca Metropolitana de Sevilha
+A-4 - Saída 528,Comarca Metropolitana de Sevilha
 A-4 - Saída 530,Comarca Metropolitana de Sevilha
 A-4 - Saída 532,Comarca Metropolitana de Sevilha
 A-4 - Saída 533,Comarca Metropolitana de Sevilha
@@ -48,19 +76,31 @@ A-66 - Saída 808,Aljarafe
 A-66 - Saída 808,Comarca Metropolitana de Sevilha
 A-8058 - Saída 0,Aljarafe
 A-8058 - Saída 0,Comarca Metropolitana de Sevilha
+A-92 - Andalucía Residencial,Comarca Metropolitana de Sevilha
+A-92 - Saída 5,Comarca Metropolitana de Sevilha
+A-92 - Saída 5,Los Alcores
+A-92 - Saída 7,Comarca Metropolitana de Sevilha
+A-92 - Saída 7,Los Alcores
+A-92 - Sevilha Este,Comarca Metropolitana de Sevilha
+A-92 - Torreblanca,Comarca Metropolitana de Sevilha
 Aeroporto de Sevilha - San Pablo,Comarca Metropolitana de Sevilha
 Antiga Estação de Isla Cristina - Pozo del Camino,Costa Occidental de Huelva
 Ayamonte,Costa Occidental de Huelva
 Barriada de Canela,Costa Occidental de Huelva
 Bollullos Par del Condado,El Condado
+Carmona,Campiña de Carmona
+Carmona,Los Alcores
 Cartaya,Costa Occidental de Huelva
 Centro Penitenciario de Huelva,Comarca Metropolitana de Huelva
 Coria del Río,Aljarafe
 Coria del Río,Comarca Metropolitana de Sevilha
 Costa Esuri,Costa Occidental de Huelva
 Cruzamento da A-376 com a SE-30,Comarca Metropolitana de Sevilha
+Cruzamento da A-376 com a SE-40,Comarca Metropolitana de Sevilha
+Cruzamento da A-376 com a SE-40,Los Alcores
 Cruzamento da A-4 com a SE-20,Comarca Metropolitana de Sevilha
 Cruzamento da A-4 Norte com a SE-30,Comarca Metropolitana de Sevilha
+Cruzamento da A-4 Norte com a SE-40,Comarca Metropolitana de Sevilha
 Cruzamento da A-4 Sul com a SE-30,Comarca Metropolitana de Sevilha
 Cruzamento da A-4 Sul com a SE-40,Comarca Metropolitana de Sevilha
 Cruzamento da A-49 com a H-31,Comarca Metropolitana de Huelva
@@ -72,6 +112,8 @@ Cruzamento da A-49 com a SE-40,Comarca Metropolitana de Sevilha
 Cruzamento da A-66 com a SE-30,Aljarafe
 Cruzamento da A-66 com a SE-30,Comarca Metropolitana de Sevilha
 Cruzamento da A-92 com a SE-30,Comarca Metropolitana de Sevilha
+Cruzamento da A-92 com a SE-40,Comarca Metropolitana de Sevilha
+Cruzamento da A-92 com a SE-40,Los Alcores
 Cruzamento da H-30 com a H-31,Comarca Metropolitana de Huelva
 Cruzamento da N-431 com a N-444,Costa Occidental de Huelva
 Cruzamento da SE-20 com a SE-30,Comarca Metropolitana de Sevilha
@@ -113,6 +155,7 @@ SE-30 - Saída 1,Comarca Metropolitana de Sevilha
 SE-30 - Saída 3,Comarca Metropolitana de Sevilha
 SE-30 - Saída 4,Comarca Metropolitana de Sevilha
 SE-30 - Saída 5,Comarca Metropolitana de Sevilha
+SE-30 - Saída 5,Los Alcores
 SE-30 - Saída 8,Comarca Metropolitana de Sevilha
 SE-30 - Saída 12,Comarca Metropolitana de Sevilha
 SE-30 - Saída 14,Comarca Metropolitana de Sevilha
@@ -121,6 +164,7 @@ SE-30 - Saída 15,Comarca Metropolitana de Sevilha
 SE-30 - Saída 21,Comarca Metropolitana de Sevilha
 SE-40 - Reinício,Aljarafe
 SE-40 - Reinício,Comarca Metropolitana de Sevilha
+SE-40 - Saída 5,Comarca Metropolitana de Sevilha
 SE-40 - Saída 19,Comarca Metropolitana de Sevilha
 SE-40 - Saída 35,Aljarafe
 SE-40 - Saída 35,Comarca Metropolitana de Sevilha

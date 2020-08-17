@@ -1,4 +1,26 @@
 Local A,Local B,Meio de transporte,Distância,Informação extra,Ponto cardeal,Ordem A,Ordem B
+A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,0.4,A-376,NO,1,3
+A-376 - Centro Comercial,A-376 - Universidade Pablo de Olavide,Carro,0.9,A-376,SE,2,1
+A-376 - Condequinto,A-376 - Montequinto,Carro,0.6,A-376,SE,2,1
+A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Carro,0.8,A-376,NO,1,2
+A-376 - Fim da auto-estrada,A-376 - Saída 21,Carro,2.2,A-376,NO,1,2
+A-376 - Montequinto,A-376 - Saída 4A,Carro,0.4,A-376,SE,2,1
+A-376 - Saída 4A,A-376 - Saída 4B,Carro,1.2,A-376,SE,2,1
+A-376 - Saída 4B,Cruzamento da A-376 com a SE-40,Carro,2.9,A-376,SE,2,3
+A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
+A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
+A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
+A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-4 - Saída 511,A-4 - Saída 514,Carro,2.7,A-4,O,1,2
+A-4 - Saída 511,Carmona,Carro,4.3,,E,2,1
+A-4 - Saída 514,A-4 - Saída 516,Carro,2.1,A-4,SO,1,2
+A-4 - Saída 516,A-4 - Saída 519,Carro,2.6,A-4,SO,1,2
+A-4 - Saída 519,A-4 - Saída 521,Carro,1.7,A-4,SO,1,2
+A-4 - Saída 521,A-4 - Saída 523,Carro,2.7,A-4,SO,1,2
+A-4 - Saída 523,A-4 - Saída 524,Carro,1.2,A-4,SO,1,2
+A-4 - Saída 524,Cruzamento da A-4 Norte com a SE-40,Carro,1.9,A-4,O,1,2
+A-4 - Saída 528,A-4 - Saída 530,Carro,1.7,A-4,NO,1,2
+A-4 - Saída 528,Cruzamento da A-4 Norte com a SE-40,Carro,1.8,A-4,E,2,1
 A-4 - Saída 530,A-4 - Saída 532,Carro,2.1,A-4,SO,1,2
 A-4 - Saída 532,A-4 - Saída 533,Carro,1.0,A-4,SO,1,2
 A-4 - Saída 532,Aeroporto de Sevilha - San Pablo,Carro,0.5,,S,3,2
@@ -66,6 +88,12 @@ A-66 - Saída 805,A-66 - Saída 808,Carro,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,2.2,A-66,S,1,3
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,1.1,A-8058,NE,1,3
 A-8058 - Saída 0,San Juan de Aznalfarache,Carro,1.2,A-8058,S,2,1
+A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,0.7,A-92,E,2,1
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,1.0,A-92,O,1,3
+A-92 - Saída 5,A-92 - Torreblanca,Carro,2.1,A-92,NO,1,2
+A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,2.5,A-92,SE,2,3
+A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,1.0,A-92,NO,1,4
+A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A2 - Saída 13,A2 - Saída 14,Carro,33.1,A2,SO,1,1
 A2 - Saída 13,Almodôvar,Carro,12.2,,E,2,3
 A2 - Saída 14,Cruzamento da N124 com a N270,Carro,2.3,N124,SE,3,3
@@ -374,8 +402,11 @@ Corte Tabelião,Parque Empresarial de Alcoutim,Carro,6.6,,S,2,4
 Corte Tabelião,IC27 - Fim,Carro,5.9,,NO,3,3
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
+Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,5.6,SE-40,NE,2,1
+Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1
+Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,5.0,SE-40,SO,3,2
 Cruzamento da A-4 Sul com a SE-30,Ponte do Centenário,Carro,1.4,SE-30,NO,1,2
 Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,0.9,SE-30,E,2,1
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,5.1,A-4,S,3,1
@@ -388,6 +419,7 @@ Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
+Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,4
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
