@@ -32,6 +32,32 @@ A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
 A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-4 - Saída 494,A-4 - Saída 498,Carro,False,Córdoba
+A-4 - Saída 494,A-4 - Saída 498,Carro,False,Écija
+A-4 - Saída 494,A-4 - Saída 498,Carro,True,Carmona
+A-4 - Saída 494,A-4 - Saída 498,Carro,True,Sevilha
+A-4 - Saída 498,A-4 - Saída 500,Carro,False,Córdoba
+A-4 - Saída 498,A-4 - Saída 500,Carro,False,Écija
+A-4 - Saída 498,A-4 - Saída 500,Carro,True,Cádiz
+A-4 - Saída 498,A-4 - Saída 500,Carro,True,Carmona
+A-4 - Saída 498,A-4 - Saída 500,Carro,True,Sevilha
+A-4 - Saída 500,A-4 - Saída 504,Carro,False,Córdoba
+A-4 - Saída 500,A-4 - Saída 504,Carro,False,Écija
+A-4 - Saída 500,A-4 - Saída 504,Carro,True,Cádiz
+A-4 - Saída 500,A-4 - Saída 504,Carro,True,Carmona
+A-4 - Saída 500,A-4 - Saída 504,Carro,True,Sevilha
+A-4 - Saída 504,A-4 - Saída 506,Carro,False,Córdoba
+A-4 - Saída 504,A-4 - Saída 506,Carro,False,Écija
+A-4 - Saída 504,A-4 - Saída 506,Carro,True,Cádiz
+A-4 - Saída 504,A-4 - Saída 506,Carro,True,Sevilha
+A-4 - Saída 506,A-4 - Saída 508,Carro,False,Córdoba
+A-4 - Saída 506,A-4 - Saída 508,Carro,False,Écija
+A-4 - Saída 506,A-4 - Saída 508,Carro,True,Cádiz
+A-4 - Saída 506,A-4 - Saída 508,Carro,True,Sevilha
+A-4 - Saída 508,A-4 - Saída 511,Carro,False,Córdoba
+A-4 - Saída 508,A-4 - Saída 511,Carro,False,Écija
+A-4 - Saída 508,A-4 - Saída 511,Carro,True,Cádiz
+A-4 - Saída 508,A-4 - Saída 511,Carro,True,Sevilha
 A-4 - Saída 511,A-4 - Saída 514,Carro,False,Carmona
 A-4 - Saída 511,A-4 - Saída 514,Carro,False,Córdoba
 A-4 - Saída 511,A-4 - Saída 514,Carro,True,Aeroporto de Sevilha - San Pablo
@@ -702,6 +728,11 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,A-92 - Granada/Má
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Cádiz/Sevilha
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,Dos Hermanas
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,A-4 - Córdoba
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,A-49 - Huelva
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,A-66 - Mérida
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,Sevilha - Isla de la Cartuja
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-4 - Cádiz
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-49 - Huelva
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,False,A-92 - Granada
@@ -765,6 +796,21 @@ Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,True,A-4 - 
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,True,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,True,Sevilha - Isla de la Cartuja
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,True,Sevilha Norte
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,False,A-4 - Córdoba
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,False,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,True,A-49 - Huelva
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,True,A-66 - Mérida
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,True,Sevilha - Isla de la Cartuja
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,False,A-49 - Huelva
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,False,A-66 - Mérida
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,False,Sevilha - Isla de la Cartuja
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,True,A-4 - Córdoba
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,True,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,False,A-4 - Córdoba
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,False,Aeroporto de Sevilha - San Pablo
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,True,A-49 - Huelva
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,True,A-66 - Mérida
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,True,Sevilha - Isla de la Cartuja
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-4 - Cádiz
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-49 - Huelva
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-92 - Granada/Málaga
@@ -1381,6 +1427,11 @@ SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,False,Sevilha - 
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,A-4 - Córdoba
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,Aeroporto de Sevilha - San Pablo
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,True,Sevilha - Estacionamento do Estádio de La Cartuja
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,False,A-4 - Córdoba
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,False,Aeroporto de Sevilha - San Pablo
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,True,A-49 - Huelva
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,True,A-66 - Mérida
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,True,Sevilha - Isla de la Cartuja
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,A-49 - Huelva
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,A-66 - Mérida
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,False,Sevilha - Isla de la Cartuja

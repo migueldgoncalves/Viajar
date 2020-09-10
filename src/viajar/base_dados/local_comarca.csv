@@ -13,6 +13,18 @@ A-376 - Saída 16,Comarca Metropolitana de Sevilha
 A-376 - Saída 16,Los Alcores
 A-376 - Saída 21,Bajo Guadalquivir
 A-376 - Universidade Pablo de Olavide,Comarca Metropolitana de Sevilha
+A-4 - Saída 494,Campiña de Carmona
+A-4 - Saída 494,Los Alcores
+A-4 - Saída 498,Campiña de Carmona
+A-4 - Saída 498,Los Alcores
+A-4 - Saída 500,Campiña de Carmona
+A-4 - Saída 500,Los Alcores
+A-4 - Saída 504,Campiña de Carmona
+A-4 - Saída 504,Los Alcores
+A-4 - Saída 506,Campiña de Carmona
+A-4 - Saída 506,Los Alcores
+A-4 - Saída 508,Campiña de Carmona
+A-4 - Saída 508,Los Alcores
 A-4 - Saída 511,Campiña de Carmona
 A-4 - Saída 511,Los Alcores
 A-4 - Saída 514,Campiña de Carmona
@@ -111,6 +123,8 @@ Cruzamento da A-49 com a SE-40,Aljarafe
 Cruzamento da A-49 com a SE-40,Comarca Metropolitana de Sevilha
 Cruzamento da A-66 com a SE-30,Aljarafe
 Cruzamento da A-66 com a SE-30,Comarca Metropolitana de Sevilha
+Cruzamento da A-8005 com a SE-20,Comarca Metropolitana de Sevilha
+Cruzamento da A-8009 com a SE-20,Comarca Metropolitana de Sevilha
 Cruzamento da A-92 com a SE-30,Comarca Metropolitana de Sevilha
 Cruzamento da A-92 com a SE-40,Comarca Metropolitana de Sevilha
 Cruzamento da A-92 com a SE-40,Los Alcores
@@ -148,8 +162,10 @@ San Silvestre de Guzmán,Costa Occidental de Huelva
 Sanlúcar de Guadiana,El Andévalo
 SE-20 - Estádio de La Cartuja,Aljarafe
 SE-20 - Estádio de La Cartuja,Comarca Metropolitana de Sevilha
+SE-20 - Miraflores,Comarca Metropolitana de Sevilha
 SE-20 - Parque de Alamillo,Aljarafe
 SE-20 - Parque de Alamillo,Comarca Metropolitana de Sevilha
+SE-20 - Pino Montano,Comarca Metropolitana de Sevilha
 SE-20 - San Jerónimo,Comarca Metropolitana de Sevilha
 SE-30 - Saída 1,Comarca Metropolitana de Sevilha
 SE-30 - Saída 3,Comarca Metropolitana de Sevilha

@@ -11,8 +11,17 @@ A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
 A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
 A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
 A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-4 - Saída 494,A-4 - Saída 498,Carro,3.5,A-4,SO,1,2
+A-4 - Saída 498,A-4 - Saída 500,Carro,1.8,A-4,O,1,2
+A-4 - Saída 500,A-4 - Saída 504,Carro,4.0,A-4,O,1,2
+A-4 - Saída 504,A-4 - Saída 506,Carro,2.4,A-4,NO,1,2
+A-4 - Saída 504,Carmona,Carro,3.3,,SO,3,4
+A-4 - Saída 506,A-4 - Saída 508,Carro,1.6,A-4,SO,1,2
+A-4 - Saída 506,Carmona,Carro,2.0,,S,3,3
+A-4 - Saída 508,A-4 - Saída 511,Carro,2.8,A-4,SO,1,2
+A-4 - Saída 508,Carmona,Carro,2.0,,SE,3,2
 A-4 - Saída 511,A-4 - Saída 514,Carro,2.7,A-4,O,1,2
-A-4 - Saída 511,Carmona,Carro,4.3,,E,2,1
+A-4 - Saída 511,Carmona,Carro,4.3,,E,3,1
 A-4 - Saída 514,A-4 - Saída 516,Carro,2.1,A-4,SO,1,2
 A-4 - Saída 516,A-4 - Saída 519,Carro,2.6,A-4,SO,1,2
 A-4 - Saída 519,A-4 - Saída 521,Carro,1.7,A-4,SO,1,2
@@ -404,6 +413,7 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
 Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,5.6,SE-40,NE,2,1
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
+Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1
 Cruzamento da A-4 Norte com a SE-40,SE-40 - Saída 5,Carro,5.0,SE-40,SO,3,2
@@ -417,6 +427,9 @@ Cruzamento da A-49 com a SE-30,SE-30 - Saída 15,Carro,1.9,SE-30,S,2,1
 Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,1.3,A-49,E,4,1
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
+Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
+Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
+Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
@@ -807,6 +820,7 @@ Santa Luzia,Tavira - Sul,Carro,2.7,,N,1,5
 Santana de Cambas,Sapos,Carro,3.4,,N,3,1
 São Bartolomeu de Messines,Silves,Carro,17.1,N124,SO,3,3
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,1.1,SE-20,NE,2,1
+SE-20 - Miraflores,SE-20 - Pino Montano,Carro,1.0,SE-20,NO,1,2
 SE-20 - Parque de Alamillo,SE-20 - San Jerónimo,Carro,0.9,SE-20,NE,2,1
 SE-20 - Parque de Alamillo,Sevilha - Parque de Alamillo,Carro,1.0,,S,3,1
 SE-30 - Saída 3,SE-30 - Saída 4,Carro,0.6,SE-30,S,1,2

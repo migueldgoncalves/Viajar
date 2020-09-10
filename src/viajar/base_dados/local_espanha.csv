@@ -10,6 +10,12 @@ A-376 - Saída 11/13,Alcalá de Guadaíra,
 A-376 - Saída 16,Alcalá de Guadaíra,
 A-376 - Saída 21,Utrera,
 A-376 - Universidade Pablo de Olavide,Dos Hermanas,
+A-4 - Saída 494,Carmona,
+A-4 - Saída 498,Carmona,
+A-4 - Saída 500,Carmona,
+A-4 - Saída 504,Carmona,
+A-4 - Saída 506,Carmona,
+A-4 - Saída 508,Carmona,
 A-4 - Saída 511,Carmona,
 A-4 - Saída 514,Carmona,
 A-4 - Saída 516,Carmona,
@@ -86,6 +92,8 @@ Cruzamento da A-49 com a A-483,Bollullos Par del Condado,
 Cruzamento da A-49 com a SE-30,Camas,
 Cruzamento da A-49 com a SE-40,Espartinas,
 Cruzamento da A-66 com a SE-30,Camas,
+Cruzamento da A-8005 com a SE-20,Sevilha,Norte
+Cruzamento da A-8009 com a SE-20,Sevilha,Norte
 Cruzamento da A-92 com a SE-30,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,
 Cruzamento da H-30 com a H-31,Huelva,
@@ -119,7 +127,9 @@ San Juan de Aznalfarache,San Juan de Aznalfarache,
 San Silvestre de Guzmán,San Silvestre de Guzmán,
 Sanlúcar de Guadiana,Sanlúcar de Guadiana,
 SE-20 - Estádio de La Cartuja,Santiponce,
+SE-20 - Miraflores,Sevilha,Norte
 SE-20 - Parque de Alamillo,Santiponce,
+SE-20 - Pino Montano,Sevilha,Norte
 SE-20 - San Jerónimo,Sevilha,Norte
 SE-30 - Saída 1,Sevilha,Este-Alcosa-Torreblanca
 SE-30 - Saída 3,Sevilha,Cerro-Amate
