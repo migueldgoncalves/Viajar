@@ -110,9 +110,8 @@ class BDInterface:
         if pais == 'Portugal':
             query = "SELECT local_portugal.nome, freguesia, concelho.concelho, entidade_intermunicipal, distrito, " \
                     "regiao " \
-                    "FROM local_portugal, local_concelho, concelho " \
-                    "WHERE local_portugal.nome = local_concelho.nome AND local_concelho.concelho = concelho.concelho " \
-                    "AND local_portugal.nome = '" + nome + "';"
+                    "FROM local_portugal, concelho " \
+                    "WHERE local_portugal.concelho = concelho.concelho AND local_portugal.nome = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             freguesia = resultado[0][1].strip()
@@ -121,16 +120,9 @@ class BDInterface:
             entidade_intermunicipal = resultado[0][3].strip()
             regiao = resultado[0][5].strip()
         elif pais == 'Espanha':
-            query = "SELECT * FROM local_comarca WHERE nome = '" + nome + "';"
-            self.cursor.execute(query)
-            resultado = self.cursor.fetchall()
-            comarcas = []
-            for linha in resultado:
-                comarcas.append(linha[1].strip())
-            query = "SELECT local_espanha.nome, municipio, distrito, provincia.provincia, comunidade_autonoma " \
-                    "FROM local_espanha, local_provincia, provincia " \
-                    "WHERE local_espanha.nome = local_provincia.nome AND local_provincia.provincia = " \
-                    "provincia.provincia AND local_espanha.nome = '" + nome + "';"
+            query = "SELECT nome, municipio, distrito, provincia.provincia, comunidade_autonoma " \
+                    "FROM local_espanha, provincia " \
+                    "WHERE local_espanha.provincia = provincia.provincia AND local_espanha.nome = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             distrito = ''
@@ -139,6 +131,12 @@ class BDInterface:
             municipio = resultado[0][1].strip()
             provincia = resultado[0][3].strip()
             comunidade_autonoma = resultado[0][4].strip()
+            query = "SELECT * FROM comarca WHERE municipio = '" + municipio + "' AND provincia = '" + provincia + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            comarcas = []
+            for linha in resultado:
+                comarcas.append(linha[1].strip())
         else:
             return None
 
@@ -165,23 +163,8 @@ class BDInterface:
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_portugal.csv'
-        query = "COPY local_portugal(nome, freguesia) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
-
-        path_csv = self.path + 'local_espanha.csv'
-        query = "COPY local_espanha(nome, municipio, distrito) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
-
         path_csv = self.path + 'concelho.csv'
         query = "COPY concelho(concelho, entidade_intermunicipal, distrito, regiao) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
-
-        path_csv = self.path + 'comarca.csv'
-        query = "COPY comarca(comarca) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
@@ -190,18 +173,23 @@ class BDInterface:
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_concelho.csv'
-        query = "COPY local_concelho(nome, concelho) FROM '" + path_csv + \
+        path_csv = self.path + 'municipio.csv'
+        query = "COPY municipio(municipio, provincia) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_comarca.csv'
-        query = "COPY local_comarca(nome, comarca) FROM '" + path_csv + \
+        path_csv = self.path + 'local_portugal.csv'
+        query = "COPY local_portugal(nome, freguesia, concelho) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_provincia.csv'
-        query = "COPY local_provincia(nome, provincia) FROM '" + path_csv + \
+        path_csv = self.path + 'local_espanha.csv'
+        query = "COPY local_espanha(nome, municipio, provincia, distrito) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'comarca.csv'
+        query = "COPY comarca(municipio, comarca, provincia) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 

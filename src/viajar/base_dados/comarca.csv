@@ -1,11 +1,57 @@
-Comarca
-Aljarafe
-Bajo Guadalquivir
-Campiña de Carmona
-Costa Occidental de Huelva
-El Andévalo
-El Condado
-Comarca Metropolitana de Huelva
-Comarca Metropolitana de Sevilha
-Los Alcores
-Sierra Norte de Sevilha
+Município,Comarca,Província
+Alcalá de Guadaíra,Comarca Metropolitana de Sevilha,Sevilha
+Alcalá de Guadaíra,Los Alcores,Sevilha
+Almensilla,Aljarafe,Sevilha
+Almensilla,Comarca Metropolitana de Sevilha,Sevilha
+Ayamonte,Costa Occidental de Huelva,Huelva
+Benacazón,Aljarafe,Sevilha
+Bollullos de la Mitación,Aljarafe,Sevilha
+Bollullos Par del Condado,El Condado,Huelva
+Bonares,El Condado,Huelva
+Bormujos,Aljarafe,Sevilha
+Bormujos,Comarca Metropolitana de Sevilha,Sevilha
+Camas,Aljarafe,Sevilha
+Camas,Comarca Metropolitana de Sevilha,Sevilha
+Carmona,Campiña de Carmona,Sevilha
+Carmona,Los Alcores,Sevilha
+Carrión de los Céspedes,Aljarafe,Sevilha
+Cartaya,Costa Occidental de Huelva,Huelva
+Castilleja de la Cuesta,Aljarafe,Sevilha
+Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
+Chucena,El Condado,Huelva
+Coria del Río,Aljarafe,Sevilha
+Coria del Río,Comarca Metropolitana de Sevilha,Sevilha
+Dos Hermanas,Comarca Metropolitana de Sevilha,Sevilha
+El Garrobo,Sierra Norte de Sevilha,Sevilha
+El Granado,El Andévalo,Huelva
+Espartinas,Aljarafe,Sevilha
+Espartinas,Comarca Metropolitana de Sevilha,Sevilha
+Gelves,Aljarafe,Sevilha
+Gelves,Comarca Metropolitana de Sevilha,Sevilha
+Gibraleón,Comarca Metropolitana de Huelva,Huelva
+Guillena,Sierra Norte de Sevilha,Sevilha
+Huelva,Comarca Metropolitana de Huelva,Huelva
+Huévar del Aljarafe,Aljarafe,Sevilha
+Isla Cristina,Costa Occidental de Huelva,Huelva
+La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
+Lepe,Costa Occidental de Huelva,Huelva
+Mairena del Aljarafe,Aljarafe,Sevilha
+Mairena del Aljarafe,Comarca Metropolitana de Sevilha,Sevilha
+Palomares del Río,Aljarafe,Sevilha
+Palomares del Río,Comarca Metropolitana de Sevilha,Sevilha
+Salteras,Aljarafe,Sevilha
+Salteras,Comarca Metropolitana de Sevilha,Sevilha
+San Bartolomé de la Torre,El Andévalo,Huelva
+San Juan de Aznalfarache,Aljarafe,Sevilha
+San Juan de Aznalfarache,Comarca Metropolitana de Sevilha,Sevilha
+San Juan del Puerto,Comarca Metropolitana de Huelva,Huelva
+San Silvestre de Guzmán,Costa Occidental de Huelva,Huelva
+Sanlúcar de Guadiana,El Andévalo,Huelva
+Santiponce,Aljarafe,Sevilha
+Santiponce,Comarca Metropolitana de Sevilha,Sevilha
+Sevilha,Comarca Metropolitana de Sevilha,Sevilha
+Umbrete,Aljarafe,Sevilha
+Utrera,Bajo Guadalquivir,Sevilha
+Villablanca,Costa Occidental de Huelva,Huelva
+Villanueva de los Castillejos,El Andévalo,Huelva
+Villarrasa,El Condado,Huelva

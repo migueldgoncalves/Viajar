@@ -1,12 +1,10 @@
 DROP TABLE IF EXISTS local cascade;
+DROP TABLE IF EXISTS concelho cascade;
+DROP TABLE IF EXISTS provincia cascade;
+DROP TABLE IF EXISTS municipio cascade;
 DROP TABLE IF EXISTS local_portugal cascade;
 DROP TABLE IF EXISTS local_espanha cascade;
-DROP TABLE IF EXISTS concelho cascade;
 DROP TABLE IF EXISTS comarca cascade;
-DROP TABLE IF EXISTS provincia cascade;
-DROP TABLE IF EXISTS local_concelho cascade;
-DROP TABLE IF EXISTS local_comarca cascade;
-DROP TABLE IF EXISTS local_provincia cascade;
 DROP TABLE IF EXISTS ligacao cascade;
 DROP TABLE IF EXISTS destino cascade;
 
@@ -19,21 +17,6 @@ CREATE TABLE local(
     PRIMARY KEY (nome)
 );
 
-CREATE TABLE local_portugal(
-    nome varchar NOT NULL UNIQUE,
-    freguesia varchar NOT NULL,
-    PRIMARY KEY (nome),
-    FOREIGN KEY (nome) references local(nome) on delete cascade
-);
-
-CREATE TABLE local_espanha(
-    nome varchar NOT NULL UNIQUE,
-    municipio varchar NOT NULL,
-    distrito varchar,
-    PRIMARY KEY (nome),
-    FOREIGN KEY (nome) references local(nome) on delete cascade
-);
-
 CREATE TABLE concelho(
     concelho varchar NOT NULL UNIQUE,
     entidade_intermunicipal varchar NOT NULL,
@@ -42,39 +25,44 @@ CREATE TABLE concelho(
     PRIMARY KEY (concelho)
 );
 
-CREATE TABLE comarca(
-    comarca varchar NOT NULL UNIQUE,
-    PRIMARY KEY (comarca)
-);
-
 CREATE TABLE provincia(
     provincia varchar NOT NULL UNIQUE,
     comunidade_autonoma varchar NOT NULL,
     PRIMARY KEY (provincia)
 );
 
-CREATE TABLE local_concelho(
+CREATE TABLE municipio(
+    municipio varchar NOT NULL,
+    provincia varchar NOT NULL,
+    PRIMARY KEY (municipio, provincia),
+    FOREIGN KEY (provincia) references provincia(provincia) on delete cascade
+);
+
+CREATE TABLE local_portugal(
     nome varchar NOT NULL UNIQUE,
+    freguesia varchar NOT NULL,
     concelho varchar NOT NULL,
     PRIMARY KEY (nome),
-    FOREIGN KEY (nome) references local_portugal(nome) on delete cascade,
+    FOREIGN KEY (nome) references local(nome) on delete cascade,
     FOREIGN KEY (concelho) references concelho(concelho) on delete cascade
 );
 
-CREATE TABLE local_comarca(
-    nome varchar NOT NULL,
-    comarca varchar NOT NULL,
-    PRIMARY KEY (nome, comarca),
-    FOREIGN KEY (nome) references local_espanha(nome) on delete cascade,
-    FOREIGN KEY (comarca) references comarca(comarca) on delete cascade
+CREATE TABLE local_espanha(
+    nome varchar NOT NULL UNIQUE,
+    municipio varchar NOT NULL,
+    provincia varchar NOT NULL,
+    distrito varchar,
+    PRIMARY KEY (nome),
+    FOREIGN KEY (nome) references local(nome) on delete cascade,
+    FOREIGN KEY (municipio, provincia) references municipio(municipio, provincia) on delete cascade
 );
 
-CREATE TABLE local_provincia(
-    nome varchar NOT NULL UNIQUE,
+CREATE TABLE comarca(
+    municipio varchar NOT NULL,
+    comarca varchar NOT NULL,
     provincia varchar NOT NULL,
-    PRIMARY KEY (nome),
-    FOREIGN KEY (nome) references local_espanha(nome) on delete cascade,
-    FOREIGN KEY (provincia) references provincia(provincia) on delete cascade
+    PRIMARY KEY (comarca, municipio, provincia),
+    FOREIGN KEY (municipio, provincia) references municipio(municipio, provincia) on delete cascade
 );
 
 CREATE TABLE ligacao(

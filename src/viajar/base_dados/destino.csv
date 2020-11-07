@@ -250,10 +250,29 @@ A-66 - Saída 805,A-66 - Saída 808,Carro,True,Sevilha
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,False,Mérida
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,False,Venta del Alto
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,True,Sevilha
+A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
+A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
+A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
+A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,False,Alcalá del Río
+A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,False,La Rinconada
+A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,True,Sevilha
+A-8009 - Saída 4,A-8009 - Saída 5,Carro,False,Sevilha
+A-8009 - Saída 4,A-8009 - Saída 5,Carro,True,La Rinconada
+A-8009 - Saída 4,A-8009 - Saída 5,Carro,True,San José de la Rinconada
+A-8057 - Saída 0A,A-8058 - Saída 0,Carro,False,Mairena del Aljarafe
+A-8057 - Saída 0A,A-8058 - Saída 0,Carro,True,Sevilha
+A-8057 - Saída 0A,A-8057 - Saída 2,Carro,False,San Juan de Aznalfarache
+A-8057 - Saída 0A,A-8057 - Saída 2,Carro,False,SE-30 - Sevilha
+A-8057 - Saída 0A,A-8057 - Saída 2,Carro,True,Mairena del Aljarafe
+A-8057 - Saída 2,Mairena del Aljarafe,Carro,False,San Juan de Aznalfarache
+A-8057 - Saída 2,Mairena del Aljarafe,Carro,False,SE-30 - Sevilha
+A-8057 - Saída 2,Mairena del Aljarafe,Carro,True,Mairena del Aljarafe
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,False,Coria del Río
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,False,Mairena del Aljarafe
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,False,San Juan de Aznalfarache
 A-8058 - Saída 0,SE-30 - Saída 15,Carro,True,Sevilha
+A-8058 - Saída 0,San Juan de Aznalfarache,Carro,False,A-8057 - Mairena del Aljarafe
+A-8058 - Saída 0,San Juan de Aznalfarache,Carro,False,SE-30 - Sevilha
 A-8058 - Saída 0,San Juan de Aznalfarache,Carro,True,Coria del Río
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,False,SE-30 - Todas as direcções
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,True,Alcalá de Guadaíra

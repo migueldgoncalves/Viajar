@@ -9,14 +9,12 @@
     <file url="file://$PROJECT_DIR$/src/local_espanha.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/local_portugal.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/local_provincia.csv" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/viajar/base_dados/comarca.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/concelho.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/destino.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/ligacao.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local_comarca.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local_concelho.csv" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local_espanha.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local_portugal.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/local_provincia.csv" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/viajar/base_dados/provincia.csv" charset="UTF-8" />
