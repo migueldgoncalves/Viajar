@@ -121,6 +121,8 @@ A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,False,Cádiz
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,False,Dos Hermanas
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Aeroporto de Sevilha - San Pablo
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Sevilha
+A-4 - Saída 558,AP-4 - Início,Carro,False,Sevilha
+A-4 - Saída 558,AP-4 - Início,Carro,True,Cádiz
 A-483 - Saída 1,A-483 - Saída 3,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,Almonte
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
@@ -230,6 +232,16 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-66 - Saída 765,A-66 - Saída 768,Carro,False,Mérida
+A-66 - Saída 765,A-66 - Saída 768,Carro,False,Santa Olalla
+A-66 - Saída 765,A-66 - Saída 768,Carro,True,El Ronquillo
+A-66 - Saída 765,A-66 - Saída 768,Carro,True,Sevilha
+A-66 - Saída 768,A-66 - Saída 771,Carro,False,Mérida
+A-66 - Saída 768,A-66 - Saída 771,Carro,False,Santa Olalla
+A-66 - Saída 768,A-66 - Saída 771,Carro,True,Sevilha
+A-66 - Saída 771,A-66 - Saída 782,Carro,False,El Ronquillo
+A-66 - Saída 771,A-66 - Saída 782,Carro,False,Mérida
+A-66 - Saída 771,A-66 - Saída 782,Carro,True,Sevilha
 A-66 - Saída 782,A-66 - Saída 790,Carro,False,Mérida
 A-66 - Saída 782,A-66 - Saída 790,Carro,False,Portugal
 A-66 - Saída 782,A-66 - Saída 790,Carro,True,Sevilha
@@ -286,15 +298,61 @@ A-92 - Saída 5,A-92 - Torreblanca,Carro,False,Málaga
 A-92 - Saída 5,A-92 - Torreblanca,Carro,True,Sevilha
 A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,False,Sevilha
 A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,True,Málaga
+A-92 - Saída 7,A-92 - Saída 9,Carro,False,Sevilha
+A-92 - Saída 7,A-92 - Saída 9,Carro,True,Granada
+A-92 - Saída 7,A-92 - Saída 9,Carro,True,Málaga
 A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,False,Granada
 A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,False,Málaga
 A-92 - Saída 7,Cruzamento da A-92 com a SE-40,Carro,True,Sevilha
+A-92 - Saída 9,A-92 - Saída 12,Carro,False,Cádiz
+A-92 - Saída 9,A-92 - Saída 12,Carro,False,Huelva
+A-92 - Saída 9,A-92 - Saída 12,Carro,False,Sevilha
+A-92 - Saída 9,A-92 - Saída 12,Carro,True,Antequera
+A-92 - Saída 12,A-92 - Saída 14,Carro,False,Cádiz
+A-92 - Saída 12,A-92 - Saída 14,Carro,False,Huelva
+A-92 - Saída 12,A-92 - Saída 14,Carro,False,Sevilha
+A-92 - Saída 12,A-92 - Saída 14,Carro,True,Almería
+A-92 - Saída 12,A-92 - Saída 14,Carro,True,Granada
+A-92 - Saída 12,A-92 - Saída 14,Carro,True,Jaén
+A-92 - Saída 12,A-92 - Saída 14,Carro,True,Málaga
+A-92 - Saída 14,A-92 - Saída 15,Carro,False,Cádiz
+A-92 - Saída 14,A-92 - Saída 15,Carro,False,Huelva
+A-92 - Saída 14,A-92 - Saída 15,Carro,False,Sevilha
+A-92 - Saída 14,A-92 - Saída 15,Carro,True,Almería
+A-92 - Saída 14,A-92 - Saída 15,Carro,True,Granada
+A-92 - Saída 14,A-92 - Saída 15,Carro,True,Jaén
+A-92 - Saída 14,A-92 - Saída 15,Carro,True,Málaga
+A-92 - Saída 15,A-92 - Saída 23,Carro,False,Cádiz
+A-92 - Saída 15,A-92 - Saída 23,Carro,False,Huelva
+A-92 - Saída 15,A-92 - Saída 23,Carro,False,Sevilha
+A-92 - Saída 15,A-92 - Saída 23,Carro,True,Almería
+A-92 - Saída 15,A-92 - Saída 23,Carro,True,Granada
+A-92 - Saída 15,A-92 - Saída 23,Carro,True,Jaén
+A-92 - Saída 15,A-92 - Saída 23,Carro,True,Málaga
+A-92 - Saída 23,A-92 - Saída 27,Carro,False,Cádiz
+A-92 - Saída 23,A-92 - Saída 27,Carro,False,Huelva
+A-92 - Saída 23,A-92 - Saída 27,Carro,False,Sevilha
+A-92 - Saída 23,A-92 - Saída 27,Carro,True,Almería
+A-92 - Saída 23,A-92 - Saída 27,Carro,True,Granada
+A-92 - Saída 23,A-92 - Saída 27,Carro,True,Jaén
+A-92 - Saída 23,A-92 - Saída 27,Carro,True,Málaga
+A-92 - Saída 27,A-92 - Saída 37,Carro,False,Cádiz
+A-92 - Saída 27,A-92 - Saída 37,Carro,False,Huelva
+A-92 - Saída 27,A-92 - Saída 37,Carro,False,Sevilha
+A-92 - Saída 27,A-92 - Saída 37,Carro,True,Almería
+A-92 - Saída 27,A-92 - Saída 37,Carro,True,Granada
+A-92 - Saída 27,A-92 - Saída 37,Carro,True,Jaén
+A-92 - Saída 27,A-92 - Saída 37,Carro,True,Málaga
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 13,A2 - Saída 14,Carro,False,Almodôvar
 A2 - Saída 13,A2 - Saída 14,Carro,False,Lisboa
 A2 - Saída 13,A2 - Saída 14,Carro,True,Algarve
 A2 - Saída 13,A2 - Saída 14,Carro,True,São Bartolomeu de Messines
+A2 - Saída 13,Área de Serviço de Almodôvar,Carro,False,Algarve
+A2 - Saída 13,Área de Serviço de Almodôvar,Carro,False,Almodôvar
+A2 - Saída 13,Área de Serviço de Almodôvar,Carro,True,IP2 - Beja/Castro Verde
+A2 - Saída 13,Área de Serviço de Almodôvar,Carro,True,Lisboa
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,False,Lisboa
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,False,São Bartolomeu de Messines
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,True,Faro
@@ -581,6 +639,9 @@ Ameixal,Miradouro do Caldeirão,Carro,True,São Brás de Alportel
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelva
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamonte
+AP-4 - Início,AP-4A - Saída 13,Carro,False,Cádiz
+AP-4 - Início,AP-4A - Saída 13,Carro,False,Jerez de la Frontera
+AP-4 - Início,AP-4A - Saída 13,Carro,True,Dos Hermanas
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
@@ -1435,6 +1496,10 @@ Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Faro
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,True,São Brás de Alportel
 Salgueiros,Santana de Cambas,Comboio,False,Pomarão
 Salgueiros,Santana de Cambas,Comboio,True,Mina de São Domingos
+Santana da Serra,São Marcos da Serra,Carro,False,Lisboa
+Santana da Serra,São Marcos da Serra,Carro,False,Ourique
+Santana da Serra,São Marcos da Serra,Carro,True,Faro
+Santana da Serra,São Marcos da Serra,Carro,True,Portimão
 São Bartolomeu de Messines,Silves,Carro,True,Silves
 São Bartolomeu de Messines,Silves,Carro,False,Lisboa
 São Bartolomeu de Messines,Silves,Carro,False,São Bartolomeu de Messines
