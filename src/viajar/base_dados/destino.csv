@@ -1163,6 +1163,10 @@ Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo Ant�
 Estação de Lagos,Meia Praia,Comboio,False,Lagos
 Estação de Lagos,Meia Praia,Comboio,True,Tunes
 Estação de Lagos,Meia Praia,Comboio,True,Vila Real de Santo António
+Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Faro
+Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Tunes
+Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Lisboa - Oriente
+Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Pinhal Novo
 Estação de Messines - Alte,Tunes,Comboio,False,Lisboa - Oriente
 Estação de Messines - Alte,Tunes,Comboio,False,Pinhal Novo
 Estação de Messines - Alte,Tunes,Comboio,True,Faro
@@ -1176,6 +1180,9 @@ Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de S
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
+Estação de Santa Clara - Sabóia,Tunes,Comboio,False,Lisboa - Oriente
+Estação de Santa Clara - Sabóia,Tunes,Comboio,False,Pinhal Novo
+Estação de Santa Clara - Sabóia,Tunes,Comboio,True,Faro
 Estação de Silves,Poço Barreto,Comboio,False,Lagos
 Estação de Silves,Poço Barreto,Comboio,True,Tunes
 Estação de Silves,Poço Barreto,Comboio,True,Vila Real de Santo António
@@ -1369,6 +1376,9 @@ Odeceixe,Rogil,Carro,False,Odeceixe
 Odeceixe,Rogil,Carro,False,Sines
 Odeceixe,Rogil,Carro,True,Aljezur
 Odeceixe,Rogil,Carro,True,Lagos
+Odeceixe,São Teotónio,Carro,False,Aljezur
+Odeceixe,São Teotónio,Carro,False,Lagos
+Odeceixe,São Teotónio,Carro,True,Sines
 Olhão,Pechão,Carro,False,Olhão
 Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
