@@ -757,6 +757,8 @@ Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,Tr
 Castro Marim,Vista Real,Carro,False,Castro Marim
 Castro Marim,Vista Real,Carro,False,Sapal de Castro Marim e Vila Real de Santo António
 Castro Marim,Vista Real,Carro,True,Altura
+Cercal do Alentejo,São Luís,Carro,False,Cercal do Alentejo
+Cercal do Alentejo,São Luís,Carro,True,Odemira
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,São Brás de Alportel
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,True,Faro
@@ -1379,6 +1381,15 @@ Odeceixe,Rogil,Carro,True,Lagos
 Odeceixe,São Teotónio,Carro,False,Aljezur
 Odeceixe,São Teotónio,Carro,False,Lagos
 Odeceixe,São Teotónio,Carro,True,Sines
+Odemira,São Luís,Carro,False,Odemira
+Odemira,São Luís,Carro,True,São Luís
+Odemira,São Luís,Carro,True,Sines
+Odemira,São Teotónio,Carro,False,Cercal do Alentejo
+Odemira,São Teotónio,Carro,False,Odemira
+Odemira,São Teotónio,Carro,True,Aljezur
+Odemira,São Teotónio,Carro,True,Lagos
+Odemira,Vila Nova de Milfontes,Barco,False,Odemira
+Odemira,Vila Nova de Milfontes,Barco,True,Vila Nova de Milfontes
 Olhão,Pechão,Carro,False,Olhão
 Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
@@ -1504,6 +1515,10 @@ Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,A22 - Espanha/Lisbo
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Faro
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,True,São Brás de Alportel
+Sagres,Vila Nova de Milfontes,Barco,False,Lagos
+Sagres,Vila Nova de Milfontes,Barco,False,Portimão
+Sagres,Vila Nova de Milfontes,Barco,True,Setúbal
+Sagres,Vila Nova de Milfontes,Barco,True,Sines
 Salgueiros,Santana de Cambas,Comboio,False,Pomarão
 Salgueiros,Santana de Cambas,Comboio,True,Mina de São Domingos
 Santana da Serra,São Marcos da Serra,Carro,False,Lisboa

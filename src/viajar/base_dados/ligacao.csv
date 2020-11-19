@@ -400,12 +400,14 @@ Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,1.
 Castro Marim,Vista Real,Carro,2.3,N125-6,NO,3,2
 Castro Marim Golfe & Country Club,IC27 - Saída 1,Carro,2.2,,NE,1,4
 Castro Marim Golfe & Country Club,Vista Real,Carro,3.2,,SE,2,4
-Choça Queimada,Quebradas,Carro,2.2,,S,1,3
 Cercado,Deserto,Carro,0.3,,E,2,1
+Cercal do Alentejo,São Luís,Carro,10.6,N120,S,1,3
+Cercal do Alentejo,Vila Nova de Milfontes,Carro,14.4,,SO,2,4
 Cerro,Deserto,Carro,0.6,,NO,1,4
 Cerro,Montinho,Carro,0.2,,S,3,2
 Cerro do Enho,Vale de Andreu,Carro,2.3,,NE,1,3
 Cerro do Enho,Tanoeiro,Carro,1.6,,NO,2,1
+Choça Queimada,Quebradas,Carro,2.2,,S,1,3
 Coito,Santa Marta,Carro,2.9,,NE,1,3
 Coito,Serro da Vinha de Baixo,Carro,1.7,,SO,2,1
 "Conceição, Faro",Estoi,Carro,4.3,,NE,2,3
@@ -484,6 +486,7 @@ Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,2
 Cruzamento da N122 com a N123,Mértola,Carro,11.1,N122,SE,3,3
 Cruzamento da N122 com a N267,Mértola,Carro,2.1,N122,NE,2,1
 Cruzamento da N122 com a N267,Neves,Carro,2.2,,SE,3,1
+Cruzamento da N123 com a N266,Estação de Santa Clara - Sabóia,Carro,11.3,,S,1,5
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,N124,SO,2,2
 Cruzamento da N124 com a M507-1,Pereiro,Carro,8.9,N124,E,3,1
@@ -589,7 +592,7 @@ Estação de Lagos,Meia Praia,Comboio,2.6,Linha do Algarve - Regional,NE,5,3
 Estação da Luz,Luz de Tavira,Carro,0.6,,NO,1,2
 Estação da Luz,Estação de Tavira,Comboio,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Comboio,3.3,Linha do Algarve - Regional,SO,3,3
-Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,32.0,Linha do Sul - Intercidades,NO,3,5
+Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,32.0,Linha do Sul - Intercidades,NO,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2,8
 Estação de Monte Gordo,Hortas,Carro,0.9,N125,SE,1,1
@@ -604,7 +607,7 @@ Estação de Portimão,Universidade do Algarve - Campus de Portimão,Carro,0.2,,
 Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
-Estação de Santa Clara - Sabóia,Tunes,Comboio,44.0,Linha do Sul - Alfa Pendular,SE,6,9
+Estação de Santa Clara - Sabóia,Tunes,Comboio,44.0,Linha do Sul - Alfa Pendular,SE,7,9
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
@@ -706,7 +709,7 @@ Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
 Marina de Albufeira,Marina de Portimão,Barco,28.6,Costa de Portugal Continental,NO,4,4
 Marina de Albufeira,Praia da Galé,Carro,5.6,,O,3,1
 Marina de Albufeira,Vilamoura,Barco,15.2,Costa de Portugal Continental,E,5,3
-Marina de Lagos,Sagres,Barco,30.9,Costa de Portugal Continental,SO,2,5
+Marina de Lagos,Sagres,Barco,30.9,Costa de Portugal Continental,SO,2,6
 Marina de Portimão,Porto Comercial de Portimão,Carro,2.1,,N,1,2
 Marina de Portimão,Praia da Rocha,Carro,1.3,,SO,2,1
 Marismas de Isla Cristina,Punta del Moral,Carro,2.5,,SE,1,2
@@ -748,6 +751,10 @@ N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,2.5,N125,SO,3,1
 Odeceixe,Praia de Odeceixe,Carro,3.5,,NO,2,1
 Odeceixe,Rogil,Carro,8.9,N120,SO,1,2
 Odeceixe,São Teotónio,Carro,12.8,N120,NE,3,1
+Odemira,São Luís,Carro,17.2,N120,N,3,1
+Odemira,São Teotónio,Carro,13.9,N120,SO,2,4
+Odemira,Vila Nova de Milfontes,Barco,30.8,Rio Mira,NO,4,6
+Odemira,Vila Nova de Milfontes,Carro,27.2,,NO,1,2
 Olhão,Variante de Faro - Nó com a M518,Carro,6.9,N125,O,2,2
 Olhão,Quelfes,Carro,4.7,,NE,3,1
 Olhão,Pechão,Carro,4.9,N2-6,NO,4,1
@@ -841,6 +848,7 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha -
 Ruínas Romanas de Milreu,Santa Bárbara de Nexe,Carro,6.3,,O,3,1
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,8.1,N2,N,4,1
 Sagres,Vila do Bispo,Carro,9.4,,NE,1,5
+Sagres,Vila Nova de Milfontes,Barco,95.8,Costa de Portugal Continental,N,5,5
 Salgueiros,Santana de Cambas,Comboio,3.7,Antiga Linha São Domingos - Pomarão,N,5,5
 San Bartolomé de la Torre,Villanueva de los Castillejos,Carro,16.8,,NO,1,3
 San Bartolomé de la Torre,Tariquejo,Carro,10.1,,SO,2,2
@@ -853,6 +861,7 @@ Santa Luzia,Tavira - Sul,Carro,2.7,,N,1,5
 Santana da Serra,São Marcos da Serra,Carro,21.3,IC1,SO,1,3
 Santana de Cambas,Sapos,Carro,3.4,,N,3,1
 São Bartolomeu de Messines,Silves,Carro,17.1,N124,SO,3,3
+São Luís,Vila Nova de Milfontes,Carro,14.3,,O,2,3
 São Teotónio,Zambujeira do Mar,Carro,8.3,,NO,3,1
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Carro,1.1,SE-20,NE,2,1
 SE-20 - Miraflores,SE-20 - Pino Montano,Carro,1.0,SE-20,NO,1,2
@@ -874,3 +883,4 @@ Universidade do Algarve - Campus de Gambelas,Variante de Faro - Nó com o IC4,Ca
 Universidade do Algarve - Campus da Penha,Variante de Faro - Nó com a M518,Carro,2.4,,NE,3,5
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,2.0,Variante de Faro,E,1,2
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,1.9,Variante de Faro,NO,1,2
+Vila Nova de Milfontes,Zambujeira do Mar,Carro,31.2,,S,1,2
