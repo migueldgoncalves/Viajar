@@ -11,6 +11,24 @@ A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
 A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
 A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
 A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-4 - Saída 445,A-4 - Saída 450,Carro,4.7,A-4,SO,1,2
+A-4 - Saída 450,A-4 - Saída 455,Carro,4.9,A-4,SO,1,2
+A-4 - Saída 450,Écija,Carro,4.0,,SO,3,2
+A-4 - Saída 455,A-4 - Saída 457,Carro,1.9,A-4,SO,1,2
+A-4 - Saída 455,Écija,Carro,1.9,,NE,3,1
+A-4 - Saída 457,A-4 - Saída 459,Carro,2.0,A-4,O,1,2
+A-4 - Saída 457,Marchena,Carro,36.7,,SO,3,1
+A-4 - Saída 459,A-4 - Saída 461,Carro,2.1,A-4,O,1,2
+A-4 - Saída 461,A-4 - Saída 464,Carro,3.5,A-4,O,1,2
+A-4 - Saída 464,A-4 - Saída 468,Carro,3.6,A-4,O,1,2
+A-4 - Saída 468,A-4 - Saída 471,Carro,2.4,A-4,O,1,2
+A-4 - Saída 471,A-4 - Saída 475,Carro,4.7,A-4,O,1,2
+A-4 - Saída 475,A-4 - Saída 480,Carro,4.4,A-4,SO,1,2
+A-4 - Saída 480,A-4 - Saída 482,Carro,1.9,A-4,SO,1,2
+A-4 - Saída 482,A-4 - Saída 484,Carro,2.9,A-4,O,1,2
+A-4 - Saída 484,A-4 - Saída 487,Carro,2.4,A-4,O,1,2
+A-4 - Saída 487,A-4 - Saída 491,Carro,4.3,A-4,SO,1,2
+A-4 - Saída 491,A-4 - Saída 494,Carro,3.0,A-4,SO,1,2
 A-4 - Saída 494,A-4 - Saída 498,Carro,3.5,A-4,SO,1,2
 A-4 - Saída 498,A-4 - Saída 500,Carro,1.8,A-4,O,1,2
 A-4 - Saída 500,A-4 - Saída 504,Carro,4.0,A-4,O,1,2
@@ -384,6 +402,7 @@ Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,S
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
 Caldas de Monchique,Cruzamento da N124 com a N266,Carro,11.1,,S,2,3
 Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
+Carmona,Marchena,Carro,26.8,,SE,6,2
 Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
 Carrapateira,Vila do Bispo,Carro,13.4,,S,4,1
