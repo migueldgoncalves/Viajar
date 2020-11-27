@@ -11,6 +11,12 @@ A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
 A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
 A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
 A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-4 - Saída 432,A-4 - Saída 434,Carro,3.1,A-4,SO,1,2
+A-4 - Saída 434,A-4 - Saída 437,Carro,2.4,A-4,S,1,2
+A-4 - Saída 434,La Carlota,Carro,2.2,,NE,3,1
+A-4 - Saída 437,A-4 - Saída 441,Carro,3.7,A-4,SO,1,2
+A-4 - Saída 441,A-4 - Saída 444,Carro,2.7,A-4,SO,1,2
+A-4 - Saída 444,A-4 - Saída 445,Carro,1.7,A-4,SO,1,2
 A-4 - Saída 445,A-4 - Saída 450,Carro,4.7,A-4,SO,1,2
 A-4 - Saída 450,A-4 - Saída 455,Carro,4.9,A-4,SO,1,2
 A-4 - Saída 450,Écija,Carro,4.0,,SO,3,2
@@ -142,6 +148,7 @@ A-92 - Saída 15,A-92 - Saída 23,Carro,7.8,A-92,SE,2,1
 A-92 - Saída 23,A-92 - Saída 27,Carro,4.5,A-92,SE,2,1
 A-92 - Saída 27,A-92 - Saída 37,Carro,10.0,A-92,SE,2,1
 A-92 - Saída 27,Carmona,Carro,22.0,,N,3,5
+A-92 - Saída 37,A-92 - Saída 38,Carro,0.8,A-92,E,2,1
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A2 - Saída 13,A2 - Saída 14,Carro,33.1,A2,SO,2,1
 A2 - Saída 13,Almodôvar,Carro,12.2,,E,2,3
@@ -308,7 +315,8 @@ Ameixal,Salir,Carro,21.7,,SO,3,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,1,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Carro,0.9,,NE,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,3,6
-AP-4 - Início,AP-4A - Saída 13,Carro,2.4,AP-4A,NO,2,1
+AP-4 - Início,AP-4A - Saída 13,Carro,2.4,AP-4A,NO,3,1
+AP-4 - Início,Área de Serviço Los Palacios,Carro,4.8,AP-4,S,2,1
 Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4

@@ -32,6 +32,27 @@ A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
 A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-4 - Saída 432,A-4 - Saída 434,Carro,False,Córdoba
+A-4 - Saída 432,A-4 - Saída 434,Carro,False,Málaga
+A-4 - Saída 432,A-4 - Saída 434,Carro,True,Écija
+A-4 - Saída 432,A-4 - Saída 434,Carro,True,Sevilha
+A-4 - Saída 434,A-4 - Saída 437,Carro,False,Córdoba
+A-4 - Saída 434,A-4 - Saída 437,Carro,False,La Carlota
+A-4 - Saída 434,A-4 - Saída 437,Carro,True,Cádiz
+A-4 - Saída 434,A-4 - Saída 437,Carro,True,Écija
+A-4 - Saída 434,A-4 - Saída 437,Carro,True,Sevilha
+A-4 - Saída 437,A-4 - Saída 441,Carro,False,Córdoba
+A-4 - Saída 437,A-4 - Saída 441,Carro,False,La Carlota
+A-4 - Saída 437,A-4 - Saída 441,Carro,True,Écija
+A-4 - Saída 437,A-4 - Saída 441,Carro,True,Sevilha
+A-4 - Saída 441,A-4 - Saída 444,Carro,False,Córdoba
+A-4 - Saída 441,A-4 - Saída 444,Carro,False,La Carlota
+A-4 - Saída 441,A-4 - Saída 444,Carro,True,Écija
+A-4 - Saída 441,A-4 - Saída 444,Carro,True,Sevilha
+A-4 - Saída 444,A-4 - Saída 445,Carro,False,Córdoba
+A-4 - Saída 444,A-4 - Saída 445,Carro,False,La Carlota
+A-4 - Saída 444,A-4 - Saída 445,Carro,True,Écija
+A-4 - Saída 444,A-4 - Saída 445,Carro,True,Sevilha
 A-4 - Saída 445,A-4 - Saída 450,Carro,False,Córdoba
 A-4 - Saída 445,A-4 - Saída 450,Carro,False,La Carlota
 A-4 - Saída 445,A-4 - Saída 450,Carro,True,Écija
@@ -422,6 +443,13 @@ A-92 - Saída 27,A-92 - Saída 37,Carro,True,Almería
 A-92 - Saída 27,A-92 - Saída 37,Carro,True,Granada
 A-92 - Saída 27,A-92 - Saída 37,Carro,True,Jaén
 A-92 - Saída 27,A-92 - Saída 37,Carro,True,Málaga
+A-92 - Saída 37,A-92 - Saída 38,Carro,False,Cádiz
+A-92 - Saída 37,A-92 - Saída 38,Carro,False,Huelva
+A-92 - Saída 37,A-92 - Saída 38,Carro,False,Sevilha
+A-92 - Saída 37,A-92 - Saída 38,Carro,True,Almería
+A-92 - Saída 37,A-92 - Saída 38,Carro,True,Granada
+A-92 - Saída 37,A-92 - Saída 38,Carro,True,Jaén
+A-92 - Saída 37,A-92 - Saída 38,Carro,True,Málaga
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 13,A2 - Saída 14,Carro,False,Almodôvar
@@ -721,6 +749,8 @@ Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamon
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Cádiz
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Jerez de la Frontera
 AP-4 - Início,AP-4A - Saída 13,Carro,True,Dos Hermanas
+AP-4 - Início,Área de Serviço Los Palacios,Carro,False,Sevilha
+AP-4 - Início,Área de Serviço Los Palacios,Carro,True,Cádiz
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
