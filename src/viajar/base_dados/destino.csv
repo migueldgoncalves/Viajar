@@ -1067,6 +1067,12 @@ Cruzamento da N122 com a N267,Mértola,Carro,False,Almodôvar
 Cruzamento da N122 com a N267,Mértola,Carro,False,Vila Real de Santo António
 Cruzamento da N122 com a N267,Mértola,Carro,True,Beja
 Cruzamento da N122 com a N267,Mértola,Carro,True,Mértola
+Cruzamento da N123 com a N263,Luzianes,Carro,False,Odemira
+Cruzamento da N123 com a N263,Luzianes,Carro,True,Estação de Amoreiras - Odemira
+Cruzamento da N123 com a N263,Luzianes,Carro,True,Monchique
+Cruzamento da N123 com a N263,Odemira,Carro,False,Beja
+Cruzamento da N123 com a N263,Odemira,Carro,False,Ourique
+Cruzamento da N123 com a N263,Odemira,Carro,True,Odemira
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,Alcoutim
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,IC27
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Barranco do Velho
@@ -1446,6 +1452,9 @@ Livramento,Luz de Tavira,Carro,False,Faro
 Livramento,Luz de Tavira,Carro,False,Olhão
 Livramento,Luz de Tavira,Carro,True,Tavira
 Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
+Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
+Luzianes,São Martinho das Amoreiras,Carro,True,Beja
+Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
 Marina de Albufeira,Marina de Portimão,Barco,False,Faro
 Marina de Albufeira,Marina de Portimão,Barco,False,Vila Real de Santo António
 Marina de Albufeira,Marina de Portimão,Barco,True,Lagos
@@ -1504,6 +1513,13 @@ Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Vila Real de Santo António
 Olhão,Variante de Faro - Nó com a M518,Carro,True,Faro
+Ourique,Santana da Serra,Carro,False,Lisboa
+Ourique,Santana da Serra,Carro,False,Ourique
+Ourique,Santana da Serra,Carro,True,Faro
+Ourique,Santana da Serra,Carro,True,Portimão
+Ourique,São Martinho das Amoreiras,Carro,False,Ourique
+Ourique,São Martinho das Amoreiras,Carro,True,Cercal do Alentejo
+Ourique,São Martinho das Amoreiras,Carro,True,Odemira
 "Pêra, Silves",Zoomarine,Carro,False,Portimão
 "Pêra, Silves",Zoomarine,Carro,True,Albufeira
 "Pêra, Silves",Zoomarine,Carro,True,Faro

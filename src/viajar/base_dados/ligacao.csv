@@ -151,7 +151,7 @@ A-92 - Saída 27,Carmona,Carro,22.0,,N,3,5
 A-92 - Saída 37,A-92 - Saída 38,Carro,0.8,A-92,E,2,1
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A2 - Saída 13,A2 - Saída 14,Carro,33.1,A2,SO,2,1
-A2 - Saída 13,Almodôvar,Carro,12.2,,E,2,3
+A2 - Saída 13,Almodôvar,Carro,12.2,,E,4,3
 A2 - Saída 13,Área de Serviço de Almodôvar,Carro,1.7,A2,N,1,1
 A2 - Saída 13,Santana da Serra,Carro,17.3,,O,3,2
 A2 - Saída 14,Cruzamento da N124 com a N270,Carro,2.3,N124,SE,3,3
@@ -516,7 +516,8 @@ Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,2
 Cruzamento da N122 com a N123,Mértola,Carro,11.1,N122,SE,3,3
 Cruzamento da N122 com a N267,Mértola,Carro,2.1,N122,NE,2,1
 Cruzamento da N122 com a N267,Neves,Carro,2.2,,SE,3,1
-Cruzamento da N123 com a N266,Estação de Santa Clara - Sabóia,Carro,11.3,,S,1,5
+Cruzamento da N123 com a N263,Luzianes,Carro,18.1,N123,SE,2,2
+Cruzamento da N123 com a N263,Odemira,Carro,3.5,N123,SO,1,4
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,N124,SO,2,2
 Cruzamento da N124 com a M507-1,Pereiro,Carro,8.9,N124,E,3,1
@@ -634,6 +635,7 @@ Estação da Porta Nova,Estação de Tavira,Comboio,1.6,Linha do Algarve - Regio
 Estação de Portimão,Mexilhoeira Grande,Comboio,8.9,Linha do Algarve - Regional,NO,5,3
 Estação de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,2.1,,SO,2,4
 Estação de Portimão,Universidade do Algarve - Campus de Portimão,Carro,0.2,,SE,1,2
+Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1
 Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
@@ -734,6 +736,7 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 "Luz, Lagos",N125 - Acesso à Saída 1 da A22,Carro,4.2,,NE,2,5
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
+Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
 Manta Rota,Vila Nova de Cacela,Carro,2.3,,NO,1,2
 Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
 Marina de Albufeira,Marina de Portimão,Barco,28.6,Costa de Portugal Continental,NO,4,4
@@ -783,13 +786,15 @@ Odeceixe,Rogil,Carro,8.9,N120,SO,1,2
 Odeceixe,São Teotónio,Carro,12.8,N120,NE,3,1
 Odemira,São Luís,Carro,17.2,N120,N,3,1
 Odemira,São Teotónio,Carro,13.9,N120,SO,2,4
-Odemira,Vila Nova de Milfontes,Barco,30.8,Rio Mira,NO,4,6
+Odemira,Vila Nova de Milfontes,Barco,30.8,Rio Mira,NO,5,6
 Odemira,Vila Nova de Milfontes,Carro,27.2,,NO,1,2
 Olhão,Variante de Faro - Nó com a M518,Carro,6.9,N125,O,2,2
 Olhão,Quelfes,Carro,4.7,,NE,3,1
 Olhão,Pechão,Carro,4.9,N2-6,NO,4,1
 Olhos de Água,Praia da Falésia,Carro,3.9,,SE,2,1
 Olhos de Água,Praia de Santa Eulália,Carro,2.8,,SO,3,1
+Ourique,Santana da Serra,Carro,20.3,IC1,SO,1,3
+Ourique,São Martinho das Amoreiras,Carro,23.6,N123,O,2,2
 Paderne,Tunes,Carro,6.2,,SO,7,1
 Parchal,Porto de Pesca de Portimão,Carro,1.0,,O,4,1
 Parque Mineiro Cova dos Mouros,Vaqueiros,Carro,4.3,,SO,1,5
@@ -889,6 +894,7 @@ Santa Catarina da Fonte do Bispo,Santo Estêvão,Carro,9.1,,SE,4,2
 Santa Catarina da Fonte do Bispo,São Brás de Alportel,Carro,9.1,,O,1,3
 Santa Luzia,Tavira - Sul,Carro,2.7,,N,1,5
 Santana da Serra,São Marcos da Serra,Carro,21.3,IC1,SO,1,3
+Santana da Serra,São Martinho das Amoreiras,Carro,23.7,,NO,4,3
 Santana de Cambas,Sapos,Carro,3.4,,N,3,1
 São Bartolomeu de Messines,Silves,Carro,17.1,N124,SO,3,3
 São Luís,Vila Nova de Milfontes,Carro,14.3,,O,2,3
