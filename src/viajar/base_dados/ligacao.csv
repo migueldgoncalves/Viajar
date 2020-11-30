@@ -362,7 +362,7 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,0.9,N124,NE,2,1
 Barranco do Velho,Miradouro do Caldeirão,Carro,10.6,N2,N,3,1
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,3.3,N124,O,4,1
 Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
-Beja,IP2 - Saída 44,Carro,13.2,IP2,S,1,1
+Beja,IP2 - Saída 42,Carro,5.5,IP2,S,1,1
 Beja,Serpa,Carro,27.9,,SE,3,2
 Beliche,Montes Castelhanos,Carro,4.6,,SE,2,2
 Benafim,Rocha da Pena,Carro,4.1,N124,NE,2,1
@@ -720,6 +720,9 @@ IC27 - Saída 7,Tacões,Carro,3.5,N124,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
+IP2 - Saída 42,IP2 - Saída 43,Carro,4.9,IP2,S,2,1
+IP2 - Saída 42,Santa Clara de Louredo,Carro,0.3,,E,3,1
+IP2 - Saída 43,IP2 - Saída 44,Carro,2.2,IP2,S,2,1
 Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,4
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
 Lagoa,Porches,Carro,5.2,N125,SE,2,6
