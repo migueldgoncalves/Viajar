@@ -107,12 +107,19 @@ A-92 - Saída 23,Carmona,Sevilha,
 A-92 - Saída 27,Carmona,Sevilha,
 A-92 - Saída 37,Arahal,Sevilha,
 A-92 - Saída 38,Arahal,Sevilha,
+A-92 - Saída 40,Arahal,Sevilha,
+A-92 - Saída 41,Arahal,Sevilha,
+A-92 - Saída 43,Paradas,Sevilha,
+A-92 - Saída 46,Paradas,Sevilha,
+A-92 - Saída 49,Paradas,Sevilha,
+A-92 - Saída 63,Marchena,Sevilha,
 A-92 - Sevilha Este,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Aeroporto de Sevilha - San Pablo,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
 AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
+Arahal,Arahal,Sevilha,
 Área de Serviço Los Palacios,Los Palacios y Villafranca,Sevilha,
 Ayamonte,Ayamonte,Huelva,
 Barriada de Canela,Ayamonte,Huelva,
@@ -148,10 +155,12 @@ Gibraleón,Gibraleón,Huelva,
 H-31 - Saída 80,Huelva,Huelva,
 Isla Cristina,Isla Cristina,Huelva,
 La Carlota,La Carlota,Córdoba,
+La Puebla de Cazalla,La Puebla de Cazalla,Sevilha,
 Lepe,Lepe,Huelva,
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
 Marchena,Marchena,Sevilha,
 Marismas de Isla Cristina,Ayamonte,Huelva,
+Paradas,Paradas,Sevilha,
 Paymogo,Paymogo,Huelva,
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Ponte de Alamillo,Sevilha,Sevilha,Triana
@@ -170,10 +179,12 @@ Ronda Urbana Norte de Sevilha - Glorieta Olímpica,Sevilha,Sevilha,Macarena
 Ronda Urbana Norte de Sevilha - Pino Montano,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Poligono Store,Sevilha,Sevilha,Norte
+Rosal de la Frontera,Rosal de la Frontera,Huelva,
 San Bartolomé de la Torre,San Bartolomé de la Torre,Huelva,
 San Juan de Aznalfarache,San Juan de Aznalfarache,Sevilha,
 San Silvestre de Guzmán,San Silvestre de Guzmán,Huelva,
 Sanlúcar de Guadiana,Sanlúcar de Guadiana,Huelva,
+Santa Bárbara de Casa,Santa Bárbara de Casa,Huelva,
 SE-20 - Estádio de La Cartuja,Santiponce,Sevilha,
 SE-20 - Miraflores,Sevilha,Sevilha,Norte
 SE-20 - Parque de Alamillo,Santiponce,Sevilha,

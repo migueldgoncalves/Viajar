@@ -450,6 +450,51 @@ A-92 - Saída 37,A-92 - Saída 38,Carro,True,Almería
 A-92 - Saída 37,A-92 - Saída 38,Carro,True,Granada
 A-92 - Saída 37,A-92 - Saída 38,Carro,True,Jaén
 A-92 - Saída 37,A-92 - Saída 38,Carro,True,Málaga
+A-92 - Saída 38,A-92 - Saída 40,Carro,False,Cádiz
+A-92 - Saída 38,A-92 - Saída 40,Carro,False,Huelva
+A-92 - Saída 38,A-92 - Saída 40,Carro,False,Sevilha
+A-92 - Saída 38,A-92 - Saída 40,Carro,True,Almería
+A-92 - Saída 38,A-92 - Saída 40,Carro,True,Granada
+A-92 - Saída 38,A-92 - Saída 40,Carro,True,Jaén
+A-92 - Saída 38,A-92 - Saída 40,Carro,True,Málaga
+A-92 - Saída 40,A-92 - Saída 41,Carro,False,Cádiz
+A-92 - Saída 40,A-92 - Saída 41,Carro,False,Huelva
+A-92 - Saída 40,A-92 - Saída 41,Carro,False,Sevilha
+A-92 - Saída 40,A-92 - Saída 41,Carro,True,Almería
+A-92 - Saída 40,A-92 - Saída 41,Carro,True,Granada
+A-92 - Saída 40,A-92 - Saída 41,Carro,True,Jaén
+A-92 - Saída 40,A-92 - Saída 41,Carro,True,Málaga
+A-92 - Saída 41,A-92 - Saída 43,Carro,False,Cádiz
+A-92 - Saída 41,A-92 - Saída 43,Carro,False,Huelva
+A-92 - Saída 41,A-92 - Saída 43,Carro,False,Sevilha
+A-92 - Saída 41,A-92 - Saída 43,Carro,True,Almería
+A-92 - Saída 41,A-92 - Saída 43,Carro,True,Córdoba
+A-92 - Saída 41,A-92 - Saída 43,Carro,True,Granada
+A-92 - Saída 41,A-92 - Saída 43,Carro,True,Jaén
+A-92 - Saída 41,A-92 - Saída 43,Carro,True,Málaga
+A-92 - Saída 43,A-92 - Saída 46,Carro,False,Cádiz
+A-92 - Saída 43,A-92 - Saída 46,Carro,False,Huelva
+A-92 - Saída 43,A-92 - Saída 46,Carro,False,Sevilha
+A-92 - Saída 43,A-92 - Saída 46,Carro,True,Almería
+A-92 - Saída 43,A-92 - Saída 46,Carro,True,Córdoba
+A-92 - Saída 43,A-92 - Saída 46,Carro,True,Granada
+A-92 - Saída 43,A-92 - Saída 46,Carro,True,Jaén
+A-92 - Saída 43,A-92 - Saída 46,Carro,True,Málaga
+A-92 - Saída 46,A-92 - Saída 49,Carro,False,Cádiz
+A-92 - Saída 46,A-92 - Saída 49,Carro,False,Huelva
+A-92 - Saída 46,A-92 - Saída 49,Carro,False,Sevilha
+A-92 - Saída 46,A-92 - Saída 49,Carro,True,Almería
+A-92 - Saída 46,A-92 - Saída 49,Carro,True,Córdoba
+A-92 - Saída 46,A-92 - Saída 49,Carro,True,Granada
+A-92 - Saída 46,A-92 - Saída 49,Carro,True,Jaén
+A-92 - Saída 46,A-92 - Saída 49,Carro,True,Málaga
+A-92 - Saída 49,A-92 - Saída 63,Carro,False,Cádiz
+A-92 - Saída 49,A-92 - Saída 63,Carro,False,Huelva
+A-92 - Saída 49,A-92 - Saída 63,Carro,False,Sevilha
+A-92 - Saída 49,A-92 - Saída 63,Carro,True,Almería
+A-92 - Saída 49,A-92 - Saída 63,Carro,True,Granada
+A-92 - Saída 49,A-92 - Saída 63,Carro,True,Jaén
+A-92 - Saída 49,A-92 - Saída 63,Carro,True,Málaga
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 13,A2 - Saída 14,Carro,False,Almodôvar
@@ -755,6 +800,10 @@ Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
 Aqualand Algarve,Porches,Carro,True,Portimão
+Arahal,Marchena,Comboio,False,Dos Hermanas
+Arahal,Marchena,Comboio,False,Sevilha - Santa Justa
+Arahal,Marchena,Comboio,True,Bobadilla
+Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
@@ -807,6 +856,11 @@ Beja,IP2 - Saída 42,Carro,False,Beja
 Beja,IP2 - Saída 42,Carro,True,Castro Verde
 Beja,IP2 - Saída 42,Carro,True,Mértola
 Beja,IP2 - Saída 42,Carro,True,Ourique
+Beja,Serpa,Carro,False,Beja
+Beja,Serpa,Carro,False,Ferreira do Alentejo
+Beja,Serpa,Carro,False,Lisboa
+Beja,Serpa,Carro,True,Serpa
+Beja,Serpa,Carro,True,Vila Verde de Ficalho
 Benafim,Rocha da Pena,Carro,False,Alte
 Benafim,Rocha da Pena,Carro,False,Silves
 Benafim,Rocha da Pena,Carro,True,Barranco do Velho
@@ -1649,6 +1703,8 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha -
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,False,Porto de Sevilha
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,True,A-66 - Mérida
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Carro,True,Sevilha - Centro da cidade
+Rosal de la Frontera,Vila Verde de Ficalho,Carro,False,Espanha
+Rosal de la Frontera,Vila Verde de Ficalho,Carro,True,Portugal
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,A22 - Espanha/Lisboa
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,False,Faro
@@ -1715,6 +1771,10 @@ SE-30 - Saída 4,SE-30 - Saída 5,Carro,True,Porto de Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Coria del Río/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Huelva/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,Almensilla
+Serpa,Vila Nova de São Bento,Carro,False,Beja
+Serpa,Vila Nova de São Bento,Carro,False,Lisboa
+Serpa,Vila Nova de São Bento,Carro,True,Vila Nova de São Bento
+Serpa,Vila Nova de São Bento,Carro,True,Vila Verde de Ficalho
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,A22
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,Castro Marim
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,True,Vila Real de Santo António
@@ -1730,3 +1790,6 @@ Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,Olh
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,False,São Brás de Alportel
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,True,Portimão
+Vila Nova de São Bento,Vila Verde de Ficalho,Carro,False,Serpa
+Vila Nova de São Bento,Vila Verde de Ficalho,Carro,True,Espanha
+Vila Nova de São Bento,Vila Verde de Ficalho,Carro,True,Vila Verde de Ficalho
