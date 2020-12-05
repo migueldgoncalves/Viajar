@@ -165,9 +165,12 @@ A-92 - Saída 49,Marchena,Carro,6.8,,NE,3,4
 A-92 - Saída 63,Marchena,Carro,14.3,,NO,2,5
 A-92 - Saída 63,La Puebla de Cazalla,Carro,1.3,,SE,3,1
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
+A2 - Saída 12,Área de Serviço de Almodôvar,Carro,15.1,A2,S,1,1
+A2 - Saída 12,IP2 - Saída 50,Carro,2.1,IP2,NE,2,2
+A2 - Saída 12,Ourique,Carro,7.8,N123,SO,3,3
 A2 - Saída 13,A2 - Saída 14,Carro,33.1,A2,SO,2,1
 A2 - Saída 13,Almodôvar,Carro,12.2,,E,4,3
-A2 - Saída 13,Área de Serviço de Almodôvar,Carro,1.7,A2,N,1,1
+A2 - Saída 13,Área de Serviço de Almodôvar,Carro,1.7,A2,N,1,2
 A2 - Saída 13,Santana da Serra,Carro,17.3,,O,3,2
 A2 - Saída 14,Cruzamento da N124 com a N270,Carro,2.3,N124,SE,3,3
 A2 - Saída 14,Cruzamento da A2 com a A22,Carro,12.1,A2,SE,2,3
@@ -258,6 +261,7 @@ Afonso Vicente,Cruzamento da N122 com a M507,Carro,3.5,,SO,3,2
 "Álamo, Mértola",Lombardos,Carro,4.3,,NE,4,1
 "Álamo, Mértola",Moinhos de Vento de Baixo,Carro,4.1,,S,5,1
 "Álamo, Mértola",Roncão de Cima,Carro,6.3,,SE,2,2
+Albernoa,IP2 - Saída 46,Carro,1.0,,NE,1,3
 Albufeira - Centro histórico,Cruzamento da N125 com a N395,Carro,4.2,,N,2,3
 Albufeira - Centro histórico,Marina de Albufeira,Carro,4.2,,SO,3,1
 Albufeira - Centro histórico,Praia dos Alemães,Carro,2.5,,SE,1,2
@@ -309,7 +313,9 @@ Almancil,Vale do Lobo,Carro,5.7,,SO,3,1
 Almancil,Quinta do Lago,Carro,5.1,,S,4,1
 Almancil,Cruzamento da N125 com a N396,Carro,2.3,N125,NO,5,2
 Almodôvar,Ameixal,Carro,23.2,N2,SE,2,4
+Almodôvar,Castro Verde,Carro,21.6,N2,N,5,3
 Almodôvar,Cruzamento da N122 com a N267,Carro,39.1,,NE,1,4
+Almodôvar,Mina de Neves-Corvo,Carro,16.7,,NE,4,1
 Alta Mora,Cruzamento da M509 com a M512,Carro,4.1,,E,1,1
 Alta Mora,Vaqueiros,Carro,21.3,,NO,2,3
 Alta Mora,Furnazinhas,Carro,13.0,,N,3,3
@@ -448,6 +454,10 @@ Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,1.
 Castro Marim,Vista Real,Carro,2.3,N125-6,NO,3,2
 Castro Marim Golfe & Country Club,IC27 - Saída 1,Carro,2.2,,NE,1,4
 Castro Marim Golfe & Country Club,Vista Real,Carro,3.2,,SE,2,4
+Castro Verde,Cruzamento da N122 com a N123,Carro,31.5,N123,E,1,4
+Castro Verde,IP2 - Saída 48,Carro,1.1,N2,N,4,3
+Castro Verde,IP2 - Saída 49,Carro,1.6,N2,SO,5,3
+Castro Verde,Mina de Neves-Corvo,Carro,20.0,,SE,2,2
 Cercado,Deserto,Carro,0.3,,E,2,1
 Cercal do Alentejo,São Luís,Carro,10.6,N120,S,1,3
 Cercal do Alentejo,Vila Nova de Milfontes,Carro,14.4,,SO,2,4
@@ -530,7 +540,7 @@ Cruzamento da N122 com a M507,IC27 - Fim,Carro,0.5,N122,SE,1,1
 Cruzamento da N122 com a M507,Santa Marta,Carro,1.8,N122,NO,3,1
 Cruzamento da N122 com a M512,IC27 - Saída 2,Carro,2.1,,NO,2,3
 Cruzamento da N122 com a M512,Montes Castelhanos,Carro,3.5,N122,S,3,1
-Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,2
+Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,3
 Cruzamento da N122 com a N123,Mértola,Carro,11.1,N122,SE,3,3
 Cruzamento da N122 com a N267,Mértola,Carro,2.1,N122,NE,2,1
 Cruzamento da N122 com a N267,Neves,Carro,2.2,,SE,3,1
@@ -596,6 +606,8 @@ El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
 El Granado,Sanlúcar de Guadiana,Carro,7.8,,SO,1,1
 El Granado,Villanueva de los Castillejos,Carro,14.4,,E,3,1
+Entradas,IP2 - Saída 47,Carro,8.2,IP2,NE,1,2
+Entradas,IP2 - Saída 48,Carro,10.2,IP2,SO,2,1
 Espiche,"Luz, Lagos",Carro,1.9,,SE,2,1
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,4.1,N125,NE,1,4
 Espírito Santo,Moinhos de Vento de Cima,Carro,4.5,,O,6,2
@@ -741,6 +753,12 @@ Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
 IP2 - Saída 42,IP2 - Saída 43,Carro,4.9,IP2,S,2,1
 IP2 - Saída 42,Santa Clara de Louredo,Carro,0.3,,E,3,1
 IP2 - Saída 43,IP2 - Saída 44,Carro,2.2,IP2,S,2,1
+IP2 - Saída 44,IP2 - Saída 45,Carro,2.9,IP2,SO,2,1
+IP2 - Saída 45,IP2 - Saída 46,Carro,6.0,IP2,SO,2,1
+IP2 - Saída 45,Trindade,Carro,1.1,,S,3,1
+IP2 - Saída 46,IP2 - Saída 47,Carro,3.3,IP2,S,2,1
+IP2 - Saída 48,IP2 - Saída 49,Carro,2.2,IP2,SO,2,1
+IP2 - Saída 49,IP2 - Saída 50,Carro,3.9,IP2,SO,2,1
 Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,4
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
 Lagoa,Porches,Carro,5.2,N125,SE,2,6

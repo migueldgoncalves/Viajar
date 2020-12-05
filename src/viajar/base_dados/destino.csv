@@ -497,6 +497,17 @@ A-92 - Saída 49,A-92 - Saída 63,Carro,True,Jaén
 A-92 - Saída 49,A-92 - Saída 63,Carro,True,Málaga
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
+A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,IP2 - Beja/Castro Verde
+A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,Lisboa
+A2 - Saída 12,Área de Serviço de Almodôvar,Carro,True,Algarve
+A2 - Saída 12,Área de Serviço de Almodôvar,Carro,True,Almodôvar
+A2 - Saída 12,IP2 - Saída 50,Carro,False,A2
+A2 - Saída 12,IP2 - Saída 50,Carro,False,Ourique
+A2 - Saída 12,IP2 - Saída 50,Carro,True,Beja
+A2 - Saída 12,IP2 - Saída 50,Carro,True,Castro Verde
+A2 - Saída 12,Ourique,Carro,False,A2 - Algarve/Lisboa
+A2 - Saída 12,Ourique,Carro,False,IP2 - Beja/Castro Verde
+A2 - Saída 12,Ourique,Carro,True,Ourique
 A2 - Saída 13,A2 - Saída 14,Carro,False,Almodôvar
 A2 - Saída 13,A2 - Saída 14,Carro,False,Lisboa
 A2 - Saída 13,A2 - Saída 14,Carro,True,Algarve
@@ -756,6 +767,10 @@ Almancil,Cruzamento da N125 com a N396,Carro,True,Portimão
 Almodôvar,Ameixal,Carro,False,Almodôvar
 Almodôvar,Ameixal,Carro,False,Beja
 Almodôvar,Ameixal,Carro,True,Faro
+Almodôvar,Castro Verde,Carro,False,Almodôvar
+Almodôvar,Castro Verde,Carro,False,Faro
+Almodôvar,Castro Verde,Carro,True,Castro Verde
+Almodôvar,Castro Verde,Carro,True,IP2 - Beja
 Alte,Benafim,Carro,False,Alte
 Alte,Benafim,Carro,False,Lisboa
 Alte,Benafim,Carro,False,Silves
@@ -922,6 +937,14 @@ Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,Tr
 Castro Marim,Vista Real,Carro,False,Castro Marim
 Castro Marim,Vista Real,Carro,False,Sapal de Castro Marim e Vila Real de Santo António
 Castro Marim,Vista Real,Carro,True,Altura
+Castro Verde,Cruzamento da N122 com a N123,Carro,False,Castro Verde
+Castro Verde,Cruzamento da N122 com a N123,Carro,True,Mértola
+Castro Verde,IP2 - Saída 48,Carro,False,Castro Verde
+Castro Verde,IP2 - Saída 48,Carro,True,A2
+Castro Verde,IP2 - Saída 48,Carro,True,IP2
+Castro Verde,IP2 - Saída 49,Carro,False,Almodôvar
+Castro Verde,IP2 - Saída 49,Carro,False,Castro Verde
+Castro Verde,IP2 - Saída 49,Carro,True,IP2 - Beja/Ourique
 Cercal do Alentejo,São Luís,Carro,False,Cercal do Alentejo
 Cercal do Alentejo,São Luís,Carro,True,Odemira
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
@@ -1249,6 +1272,16 @@ Culatra,Ilha da Armona,Barco,True,Fuseta
 Culatra,Ilha da Armona,Barco,True,Vila Nova de Cacela
 Culatra,Olhão,Barco,False,Faro
 Culatra,Olhão,Barco,True,Olhão
+Entradas,IP2 - Saída 47,Carro,False,A2
+Entradas,IP2 - Saída 47,Carro,False,Castro Verde
+Entradas,IP2 - Saída 47,Carro,False,Entradas
+Entradas,IP2 - Saída 47,Carro,True,Albernoa
+Entradas,IP2 - Saída 47,Carro,True,Beja
+Entradas,IP2 - Saída 48,Carro,False,Beja
+Entradas,IP2 - Saída 48,Carro,False,Entradas
+Entradas,IP2 - Saída 48,Carro,True,A2
+Entradas,IP2 - Saída 48,Carro,True,Castro Verde
+Entradas,IP2 - Saída 48,Carro,True,Ourique
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Luz
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Sagres
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Vila do Bispo
@@ -1504,6 +1537,30 @@ IP2 - Saída 43,IP2 - Saída 44,Carro,True,A2
 IP2 - Saída 43,IP2 - Saída 44,Carro,True,Castro Verde
 IP2 - Saída 43,IP2 - Saída 44,Carro,True,Mértola
 IP2 - Saída 43,IP2 - Saída 44,Carro,True,Vila Real de Santo António
+IP2 - Saída 44,IP2 - Saída 45,Carro,False,Beja
+IP2 - Saída 44,IP2 - Saída 45,Carro,False,Mértola
+IP2 - Saída 44,IP2 - Saída 45,Carro,False,Vila Real de Santo António
+IP2 - Saída 44,IP2 - Saída 45,Carro,True,A2
+IP2 - Saída 44,IP2 - Saída 45,Carro,True,Castro Verde
+IP2 - Saída 44,IP2 - Saída 45,Carro,True,Trindade
+IP2 - Saída 45,IP2 - Saída 46,Carro,False,Beja
+IP2 - Saída 45,IP2 - Saída 46,Carro,False,Trindade
+IP2 - Saída 45,IP2 - Saída 46,Carro,True,A2
+IP2 - Saída 45,IP2 - Saída 46,Carro,True,Albernoa
+IP2 - Saída 45,IP2 - Saída 46,Carro,True,Castro Verde
+IP2 - Saída 46,IP2 - Saída 47,Carro,False,Albernoa
+IP2 - Saída 46,IP2 - Saída 47,Carro,False,Beja
+IP2 - Saída 46,IP2 - Saída 47,Carro,True,A2
+IP2 - Saída 46,IP2 - Saída 47,Carro,True,Castro Verde
+IP2 - Saída 46,IP2 - Saída 47,Carro,True,Entradas
+IP2 - Saída 48,IP2 - Saída 49,Carro,False,Beja
+IP2 - Saída 48,IP2 - Saída 49,Carro,False,Castro Verde - Norte
+IP2 - Saída 48,IP2 - Saída 49,Carro,True,A2
+IP2 - Saída 48,IP2 - Saída 49,Carro,True,Castro Verde - Poente
+IP2 - Saída 49,IP2 - Saída 50,Carro,False,Beja
+IP2 - Saída 49,IP2 - Saída 50,Carro,False,Castro Verde
+IP2 - Saída 49,IP2 - Saída 50,Carro,False,Mértola
+IP2 - Saída 49,IP2 - Saída 50,Carro,True,A2
 Isla Cristina,Punta del Moral,Barco,False,Huelva
 Isla Cristina,Punta del Moral,Barco,False,Sevilha
 Isla Cristina,Punta del Moral,Barco,True,Ayamonte

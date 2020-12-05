@@ -1,4 +1,5 @@
 Nome,Freguesia,Concelho
+A2 - Saída 12,Castro Verde,Castro Verde
 A2 - Saída 13,Gomes Aires,Almodôvar
 A2 - Saída 14,São Bartolomeu de Messines,Silves
 A22 - Início,Bensafrim,Lagos
@@ -26,6 +27,7 @@ Aeroporto de Faro,Montenegro,Faro
 Afonso Vicente,Alcoutim,Alcoutim
 "Álamo, Alcoutim",Alcoutim,Alcoutim
 "Álamo, Mértola",Espírito Santo,Mértola
+Albernoa,Albernoa,Beja
 Albufeira - Centro histórico,Albufeira,Albufeira
 Albufeira - Rua da Oura,Albufeira,Albufeira
 Alcantarilha,Alcantarilha,Silves
@@ -106,6 +108,7 @@ Castelo de Paderne,Paderne,Albufeira
 Castro de Alferce,Alferce,Monchique
 Castro Marim,Castro Marim,Castro Marim
 Castro Marim Golfe & Country Club,Castro Marim,Castro Marim
+Castro Verde,Castro Verde,Castro Verde
 Cercado,Alcoutim,Alcoutim
 Cercal do Alentejo,Cercal do Alentejo,Santiago do Cacém
 Cerro,Alcoutim,Alcoutim
@@ -162,6 +165,7 @@ Cruzamento do IC4 com a N125,Almancil,Loulé
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
+Entradas,Entradas,Castro Verde
 Espiche,Luz,Lagos
 Espírito Santo,Espírito Santo,Mértola
 Estação da Luz,Luz de Tavira,Tavira
@@ -227,6 +231,12 @@ Ilha do Farol,Sé,Faro
 IP2 - Saída 42,Santa Clara de Louredo,Beja
 IP2 - Saída 43,Trindade,Beja
 IP2 - Saída 44,Trindade,Beja
+IP2 - Saída 45,Trindade,Beja
+IP2 - Saída 46,Albernoa,Beja
+IP2 - Saída 47,Albernoa,Beja
+IP2 - Saída 48,Castro Verde,Castro Verde
+IP2 - Saída 49,Castro Verde,Castro Verde
+IP2 - Saída 50,Castro Verde,Castro Verde
 Junqueira,Castro Marim,Castro Marim
 Lagoa,Lagoa,Lagoa
 Lagos,Santa Maria,Lagos
@@ -251,6 +261,7 @@ Mértola,Mértola,Mértola
 Mesquita,Espírito Santo,Mértola
 Mexilhoeira da Carregação,Estômbar,Lagoa
 Mexilhoeira Grande,Mexilhoeira Grande,Portimão
+Mina de Neves-Corvo,Santa Bárbara de Padrões,Castro Verde
 Mina de Sal-Gema de Loulé,São Clemente,Loulé
 Mina de São Domingos,Corte do Pinto,Mértola
 Miradouro do Caldeirão,Ameixal,Loulé
@@ -405,6 +416,7 @@ Tavira - Sul,Santiago,Tavira
 Tenência,Odeleite,Castro Marim
 Tôr,Tôr,Loulé
 Torneiro,Alcoutim,Alcoutim
+Trindade,Trindade,Beja
 Tunes,Tunes,Silves
 Universidade do Algarve - Campus da Penha,Sé,Faro
 Universidade do Algarve - Campus de Gambelas,Montenegro,Faro
