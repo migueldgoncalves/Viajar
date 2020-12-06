@@ -871,6 +871,11 @@ Beja,IP2 - Saída 42,Carro,False,Beja
 Beja,IP2 - Saída 42,Carro,True,Castro Verde
 Beja,IP2 - Saída 42,Carro,True,Mértola
 Beja,IP2 - Saída 42,Carro,True,Ourique
+Beja,São Matias,Carro,False,Beja
+Beja,São Matias,Carro,False,Castro Verde
+Beja,São Matias,Carro,False,Ourique
+Beja,São Matias,Carro,True,Évora
+Beja,São Matias,Carro,True,Vidigueira
 Beja,Serpa,Carro,False,Beja
 Beja,Serpa,Carro,False,Ferreira do Alentejo
 Beja,Serpa,Carro,False,Lisboa
@@ -1526,6 +1531,10 @@ Ilha do Farol,Porto de Faro,Barco,True,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Vila Nova de Cacela
 Ilha do Farol,Praia da Barreta,Barco,True,Cabo de Santa Maria
+IP2 - Saída 41,São Matias,Carro,False,Évora
+IP2 - Saída 41,São Matias,Carro,False,Vidigueira
+IP2 - Saída 41,São Matias,Carro,True,Beja
+IP2 - Saída 41,São Matias,Carro,True,São Matias
 IP2 - Saída 42,IP2 - Saída 43,Carro,False,Beja
 IP2 - Saída 42,IP2 - Saída 43,Carro,False,Santa Clara de Louredo
 IP2 - Saída 42,IP2 - Saída 43,Carro,True,A2

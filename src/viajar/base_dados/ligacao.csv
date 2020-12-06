@@ -244,7 +244,7 @@ Aeródromo de Portimão,Aeroporto de Faro,Avião,56.4,,SE,4,5
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,4.6,,SE,2,8
-Aeroporto de Beja,Beja,Carro,9.6,,SE,1,2
+Aeroporto de Beja,Beja,Carro,9.6,,SE,1,3
 Aeroporto de Beja,Aeroporto de Faro,Avião,115.7,,S,2,3
 Aeroporto de Beja,Aeroporto de Sevilha - San Pablo,Avião,193.4,,SE,3,3
 Aeroporto de Faro,Montenegro,Carro,2.6,N125-10,N,1,1
@@ -386,8 +386,10 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,0.9,N124,NE,2,1
 Barranco do Velho,Miradouro do Caldeirão,Carro,10.6,N2,N,3,1
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,3.3,N124,O,4,1
 Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
-Beja,IP2 - Saída 42,Carro,5.5,IP2,S,1,1
-Beja,Serpa,Carro,27.9,IP8,SE,3,2
+Beja,IP2 - Saída 42,Carro,5.5,IP2,S,2,1
+Beja,São Matias,Carro,12.1,IP2,N,1,2
+Beja,Serpa,Carro,27.9,IP8,SE,4,2
+Beja,Villa Romana de Pisões,Carro,8.9,,SO,5,1
 Beliche,Montes Castelhanos,Carro,4.6,,SE,2,2
 Benafim,Rocha da Pena,Carro,4.1,N124,NE,2,1
 Bens,Salgueiros,Carro,2.6,,S,1,3
@@ -750,6 +752,7 @@ IC27 - Saída 7,Tacões,Carro,3.5,N124,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
+IP2 - Saída 41,São Matias,Carro,6.3,IP2,SO,1,1
 IP2 - Saída 42,IP2 - Saída 43,Carro,4.9,IP2,S,2,1
 IP2 - Saída 42,Santa Clara de Louredo,Carro,0.3,,E,3,1
 IP2 - Saída 43,IP2 - Saída 44,Carro,2.2,IP2,S,2,1
@@ -848,6 +851,8 @@ Penha da Águia,Roncanito,Carro,3.3,,SO,1,1
 Pereiro,Tacões,Carro,4.4,N124,SE,2,1
 Pereiro,"Vicentes, Alcoutim",Carro,1.8,,NE,4,1
 Pereiro,Serro da Vinha de Cima,Carro,2.7,,NO,5,2
+Pias,Serpa,Carro,15.7,,SO,1,4
+Pias,Vila Nova de São Bento,Carro,13.9,,SE,2,4
 Picoitos,Salgueiros,Carro,2.0,,E,2,1
 Poço Barreto,Porches,Carro,5.8,,S,3,4
 Poço Barreto,Silves,Carro,7.1,,NE,4,2
