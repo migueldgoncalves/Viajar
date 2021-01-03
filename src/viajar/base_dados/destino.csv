@@ -507,6 +507,163 @@ A-92 - Saída 49,A-92 - Saída 63,Carro,True,Almería
 A-92 - Saída 49,A-92 - Saída 63,Carro,True,Granada
 A-92 - Saída 49,A-92 - Saída 63,Carro,True,Jaén
 A-92 - Saída 49,A-92 - Saída 63,Carro,True,Málaga
+A-92 - Saída 63,A-92 - Saída 65,Carro,False,Cádiz
+A-92 - Saída 63,A-92 - Saída 65,Carro,False,Huelva
+A-92 - Saída 63,A-92 - Saída 65,Carro,False,Sevilha
+A-92 - Saída 63,A-92 - Saída 65,Carro,True,Almería
+A-92 - Saída 63,A-92 - Saída 65,Carro,True,Córdoba
+A-92 - Saída 63,A-92 - Saída 65,Carro,True,Granada
+A-92 - Saída 63,A-92 - Saída 65,Carro,True,Jaén
+A-92 - Saída 63,A-92 - Saída 65,Carro,True,Málaga
+A-92 - Saída 65,A-92 - Saída 80,Carro,False,Cádiz
+A-92 - Saída 65,A-92 - Saída 80,Carro,False,Huelva
+A-92 - Saída 65,A-92 - Saída 80,Carro,False,Sevilha
+A-92 - Saída 65,A-92 - Saída 80,Carro,True,Almería
+A-92 - Saída 65,A-92 - Saída 80,Carro,True,Córdoba
+A-92 - Saída 65,A-92 - Saída 80,Carro,True,Granada
+A-92 - Saída 65,A-92 - Saída 80,Carro,True,Jaén
+A-92 - Saída 65,A-92 - Saída 80,Carro,True,Málaga
+A-92 - Saída 80,A-92 - Saída 82,Carro,False,Cádiz
+A-92 - Saída 80,A-92 - Saída 82,Carro,False,Huelva
+A-92 - Saída 80,A-92 - Saída 82,Carro,False,Sevilha
+A-92 - Saída 80,A-92 - Saída 82,Carro,True,Almería
+A-92 - Saída 80,A-92 - Saída 82,Carro,True,Córdoba
+A-92 - Saída 80,A-92 - Saída 82,Carro,True,Granada
+A-92 - Saída 80,A-92 - Saída 82,Carro,True,Jaén
+A-92 - Saída 80,A-92 - Saída 82,Carro,True,Málaga
+A-92 - Saída 82,A-92 - Saída 84,Carro,False,Cádiz
+A-92 - Saída 82,A-92 - Saída 84,Carro,False,Huelva
+A-92 - Saída 82,A-92 - Saída 84,Carro,False,Sevilha
+A-92 - Saída 82,A-92 - Saída 84,Carro,True,Almería
+A-92 - Saída 82,A-92 - Saída 84,Carro,True,Córdoba
+A-92 - Saída 82,A-92 - Saída 84,Carro,True,Granada
+A-92 - Saída 82,A-92 - Saída 84,Carro,True,Jaén
+A-92 - Saída 82,A-92 - Saída 84,Carro,True,Málaga
+A-92 - Saída 84,A-92 - Saída 84A,Carro,False,Cádiz
+A-92 - Saída 84,A-92 - Saída 84A,Carro,False,Huelva
+A-92 - Saída 84,A-92 - Saída 84A,Carro,False,Sevilha
+A-92 - Saída 84,A-92 - Saída 84A,Carro,True,Almería
+A-92 - Saída 84,A-92 - Saída 84A,Carro,True,Córdoba
+A-92 - Saída 84,A-92 - Saída 84A,Carro,True,Granada
+A-92 - Saída 84,A-92 - Saída 84A,Carro,True,Jaén
+A-92 - Saída 84,A-92 - Saída 84A,Carro,True,Málaga
+A-92 - Saída 84A,A-92 - Saída 85,Carro,False,Cádiz
+A-92 - Saída 84A,A-92 - Saída 85,Carro,False,Huelva
+A-92 - Saída 84A,A-92 - Saída 85,Carro,False,Sevilha
+A-92 - Saída 84A,A-92 - Saída 85,Carro,True,Almería
+A-92 - Saída 84A,A-92 - Saída 85,Carro,True,Córdoba
+A-92 - Saída 84A,A-92 - Saída 85,Carro,True,Granada
+A-92 - Saída 84A,A-92 - Saída 85,Carro,True,Jaén
+A-92 - Saída 84A,A-92 - Saída 85,Carro,True,Málaga
+A-92 - Saída 85,A-92 - Saída 92,Carro,False,Cádiz
+A-92 - Saída 85,A-92 - Saída 92,Carro,False,Huelva
+A-92 - Saída 85,A-92 - Saída 92,Carro,False,Sevilha
+A-92 - Saída 85,A-92 - Saída 92,Carro,True,Almería
+A-92 - Saída 85,A-92 - Saída 92,Carro,True,Córdoba
+A-92 - Saída 85,A-92 - Saída 92,Carro,True,Granada
+A-92 - Saída 85,A-92 - Saída 92,Carro,True,Jaén
+A-92 - Saída 85,A-92 - Saída 92,Carro,True,Málaga
+A-92 - Saída 92,A-92 - Saída 95,Carro,False,Sevilha
+A-92 - Saída 92,A-92 - Saída 95,Carro,True,Almería
+A-92 - Saída 92,A-92 - Saída 95,Carro,True,Córdoba
+A-92 - Saída 92,A-92 - Saída 95,Carro,True,Granada
+A-92 - Saída 92,A-92 - Saída 95,Carro,True,Jaén
+A-92 - Saída 92,A-92 - Saída 95,Carro,True,Málaga
+A-92 - Saída 95,A-92 - Saída 97,Carro,False,Cádiz
+A-92 - Saída 95,A-92 - Saída 97,Carro,False,Huelva
+A-92 - Saída 95,A-92 - Saída 97,Carro,False,Sevilha
+A-92 - Saída 95,A-92 - Saída 97,Carro,True,Granada
+A-92 - Saída 95,A-92 - Saída 97,Carro,True,Málaga
+A-92 - Saída 97,A-92 - Saída 103,Carro,False,Cádiz
+A-92 - Saída 97,A-92 - Saída 103,Carro,False,Huelva
+A-92 - Saída 97,A-92 - Saída 103,Carro,False,Sevilha
+A-92 - Saída 97,A-92 - Saída 103,Carro,True,Almería
+A-92 - Saída 97,A-92 - Saída 103,Carro,True,Córdoba
+A-92 - Saída 97,A-92 - Saída 103,Carro,True,Granada
+A-92 - Saída 97,A-92 - Saída 103,Carro,True,Jaén
+A-92 - Saída 97,A-92 - Saída 103,Carro,True,Málaga
+A-92 - Saída 103,A-92 - Saída 105,Carro,False,Osuna
+A-92 - Saída 103,A-92 - Saída 105,Carro,False,Sevilha
+A-92 - Saída 103,A-92 - Saída 105,Carro,True,Almería
+A-92 - Saída 103,A-92 - Saída 105,Carro,True,Córdoba
+A-92 - Saída 103,A-92 - Saída 105,Carro,True,Granada
+A-92 - Saída 103,A-92 - Saída 105,Carro,True,Jaén
+A-92 - Saída 103,A-92 - Saída 105,Carro,True,Málaga
+A-92 - Saída 105,A-92 - Saída 106,Carro,False,Cádiz
+A-92 - Saída 105,A-92 - Saída 106,Carro,False,Huelva
+A-92 - Saída 105,A-92 - Saída 106,Carro,False,Sevilha
+A-92 - Saída 105,A-92 - Saída 106,Carro,True,Antequera
+A-92 - Saída 105,A-92 - Saída 106,Carro,True,Granada
+A-92 - Saída 105,A-92 - Saída 106,Carro,True,Málaga
+A-92 - Saída 106,A-92 - Saída 109,Carro,False,Cádiz
+A-92 - Saída 106,A-92 - Saída 109,Carro,False,Huelva
+A-92 - Saída 106,A-92 - Saída 109,Carro,False,Sevilha
+A-92 - Saída 106,A-92 - Saída 109,Carro,True,Almería
+A-92 - Saída 106,A-92 - Saída 109,Carro,True,Granada
+A-92 - Saída 106,A-92 - Saída 109,Carro,True,Jaén
+A-92 - Saída 106,A-92 - Saída 109,Carro,True,Málaga
+A-92 - Saída 109,A-92 - Saída 112,Carro,False,Cádiz
+A-92 - Saída 109,A-92 - Saída 112,Carro,False,Huelva
+A-92 - Saída 109,A-92 - Saída 112,Carro,False,Sevilha
+A-92 - Saída 109,A-92 - Saída 112,Carro,True,Almería
+A-92 - Saída 109,A-92 - Saída 112,Carro,True,Córdoba
+A-92 - Saída 109,A-92 - Saída 112,Carro,True,Granada
+A-92 - Saída 109,A-92 - Saída 112,Carro,True,Jaén
+A-92 - Saída 109,A-92 - Saída 112,Carro,True,Málaga
+A-92 - Saída 112,A-92 - Saída 113,Carro,False,Cádiz
+A-92 - Saída 112,A-92 - Saída 113,Carro,False,Huelva
+A-92 - Saída 112,A-92 - Saída 113,Carro,False,Sevilha
+A-92 - Saída 112,A-92 - Saída 113,Carro,True,Almería
+A-92 - Saída 112,A-92 - Saída 113,Carro,True,Córdoba
+A-92 - Saída 112,A-92 - Saída 113,Carro,True,Granada
+A-92 - Saída 112,A-92 - Saída 113,Carro,True,Jaén
+A-92 - Saída 112,A-92 - Saída 113,Carro,True,Málaga
+A-92 - Saída 113,A-92 - Saída 120,Carro,False,Cádiz
+A-92 - Saída 113,A-92 - Saída 120,Carro,False,Huelva
+A-92 - Saída 113,A-92 - Saída 120,Carro,False,Sevilha
+A-92 - Saída 113,A-92 - Saída 120,Carro,True,Almería
+A-92 - Saída 113,A-92 - Saída 120,Carro,True,Córdoba
+A-92 - Saída 113,A-92 - Saída 120,Carro,True,Granada
+A-92 - Saída 113,A-92 - Saída 120,Carro,True,Jaén
+A-92 - Saída 113,A-92 - Saída 120,Carro,True,Málaga
+A-92 - Saída 120,A-92 - Saída 123,Carro,False,Cádiz
+A-92 - Saída 120,A-92 - Saída 123,Carro,False,Huelva
+A-92 - Saída 120,A-92 - Saída 123,Carro,False,Sevilha
+A-92 - Saída 120,A-92 - Saída 123,Carro,True,Almería
+A-92 - Saída 120,A-92 - Saída 123,Carro,True,Córdoba
+A-92 - Saída 120,A-92 - Saída 123,Carro,True,Granada
+A-92 - Saída 120,A-92 - Saída 123,Carro,True,Jaén
+A-92 - Saída 120,A-92 - Saída 123,Carro,True,Málaga
+A-92 - Saída 123,A-92 - Saída 125,Carro,False,Cádiz
+A-92 - Saída 123,A-92 - Saída 125,Carro,False,Huelva
+A-92 - Saída 123,A-92 - Saída 125,Carro,False,Sevilha
+A-92 - Saída 123,A-92 - Saída 125,Carro,True,Almería
+A-92 - Saída 123,A-92 - Saída 125,Carro,True,Córdoba
+A-92 - Saída 123,A-92 - Saída 125,Carro,True,Granada
+A-92 - Saída 123,A-92 - Saída 125,Carro,True,Jaén
+A-92 - Saída 123,A-92 - Saída 125,Carro,True,Málaga
+A-92 - Saída 125,A-92 - Saída 132,Carro,False,Cádiz
+A-92 - Saída 125,A-92 - Saída 132,Carro,False,Huelva
+A-92 - Saída 125,A-92 - Saída 132,Carro,False,Sevilha
+A-92 - Saída 125,A-92 - Saída 132,Carro,True,Antequera
+A-92 - Saída 125,A-92 - Saída 132,Carro,True,Granada
+A-92 - Saída 125,A-92 - Saída 132,Carro,True,Málaga
+A-92 - Saída 132,A-92 - Saída 138,Carro,False,Cádiz
+A-92 - Saída 132,A-92 - Saída 138,Carro,False,Huelva
+A-92 - Saída 132,A-92 - Saída 138,Carro,False,Sevilha
+A-92 - Saída 132,A-92 - Saída 138,Carro,True,Almería
+A-92 - Saída 132,A-92 - Saída 138,Carro,True,Córdoba
+A-92 - Saída 132,A-92 - Saída 138,Carro,True,Granada
+A-92 - Saída 132,A-92 - Saída 138,Carro,True,Jaén
+A-92 - Saída 132,A-92 - Saída 138,Carro,True,Málaga
+A-92 - Saída 138,A-92 - Saída 142,Carro,False,Cádiz
+A-92 - Saída 138,A-92 - Saída 142,Carro,False,Huelva
+A-92 - Saída 138,A-92 - Saída 142,Carro,False,Sevilha
+A-92 - Saída 138,A-92 - Saída 142,Carro,True,Almería
+A-92 - Saída 138,A-92 - Saída 142,Carro,True,Córdoba
+A-92 - Saída 138,A-92 - Saída 142,Carro,True,Granada
+A-92 - Saída 138,A-92 - Saída 142,Carro,True,Jaén
+A-92 - Saída 138,A-92 - Saída 142,Carro,True,Málaga
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,IP2 - Beja/Castro Verde
@@ -1600,6 +1757,10 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+Marchena,Osuna,Comboio,False,Dos Hermanas
+Marchena,Osuna,Comboio,False,Sevilha - Santa Justa
+Marchena,Osuna,Comboio,True,Bobadilla
+Marchena,Osuna,Comboio,True,Málaga - María Zambrano
 Marina de Albufeira,Marina de Portimão,Barco,False,Faro
 Marina de Albufeira,Marina de Portimão,Barco,False,Vila Real de Santo António
 Marina de Albufeira,Marina de Portimão,Barco,True,Lagos
@@ -1658,6 +1819,10 @@ Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Vila Real de Santo António
 Olhão,Variante de Faro - Nó com a M518,Carro,True,Faro
+Osuna,Pedrera,Comboio,False,Dos Hermanas
+Osuna,Pedrera,Comboio,False,Sevilha - Santa Justa
+Osuna,Pedrera,Comboio,True,Bobadilla
+Osuna,Pedrera,Comboio,True,Málaga - María Zambrano
 Ourique,Santana da Serra,Carro,False,Lisboa
 Ourique,Santana da Serra,Carro,False,Ourique
 Ourique,Santana da Serra,Carro,True,Faro
