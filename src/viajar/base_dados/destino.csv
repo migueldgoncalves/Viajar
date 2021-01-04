@@ -223,6 +223,15 @@ A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Aeroporto de Sevil
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,False,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,True,Cádiz
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Córdoba
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Antequera
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Málaga
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,False,Casabermeja
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,False,Málaga
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Córdoba
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Granada
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,Almonte
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
@@ -664,6 +673,34 @@ A-92 - Saída 138,A-92 - Saída 142,Carro,True,Córdoba
 A-92 - Saída 138,A-92 - Saída 142,Carro,True,Granada
 A-92 - Saída 138,A-92 - Saída 142,Carro,True,Jaén
 A-92 - Saída 138,A-92 - Saída 142,Carro,True,Málaga
+A-92 - Saída 142,A-92 - Saída 146,Carro,False,Cádiz
+A-92 - Saída 142,A-92 - Saída 146,Carro,False,Huelva
+A-92 - Saída 142,A-92 - Saída 146,Carro,False,Sevilha
+A-92 - Saída 142,A-92 - Saída 146,Carro,True,Almería
+A-92 - Saída 142,A-92 - Saída 146,Carro,True,Córdoba
+A-92 - Saída 142,A-92 - Saída 146,Carro,True,Granada
+A-92 - Saída 142,A-92 - Saída 146,Carro,True,Jaén
+A-92 - Saída 142,A-92 - Saída 146,Carro,True,Málaga
+A-92 - Saída 146,A-92 - Saída 149,Carro,False,Cádiz
+A-92 - Saída 146,A-92 - Saída 149,Carro,False,Huelva
+A-92 - Saída 146,A-92 - Saída 149,Carro,False,Sevilha
+A-92 - Saída 146,A-92 - Saída 149,Carro,True,Almería
+A-92 - Saída 146,A-92 - Saída 149,Carro,True,Córdoba
+A-92 - Saída 146,A-92 - Saída 149,Carro,True,Granada
+A-92 - Saída 146,A-92 - Saída 149,Carro,True,Jaén
+A-92 - Saída 146,A-92 - Saída 149,Carro,True,Málaga
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,False,Sevilha
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Almería
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Granada
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Jaén
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Málaga
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Almería
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Granada
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Jaén
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Cádiz
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Córdoba
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Huelva
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,IP2 - Beja/Castro Verde

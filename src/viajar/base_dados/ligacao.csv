@@ -70,6 +70,8 @@ A-4 - Saída 553,A-4 - Saída 558,Carro,5.3,A-4,SE,2,1
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,3.0,A-4,N,1,2
 A-4 - Saída 558,AP-4 - Início,Carro,1.5,A-4,SE,2,1
 A-4 - Saída 558,AP-4A - Saída 13,Carro,1.1,,N,3,2
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,1,3
+A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,3.3,A-45,NO,1,4
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,1.7,A-483,N,1,3
 A-483 - Saída 1,A-483 - Saída 3,Carro,2.1,A-483,SE,2,1
 A-483 - Saída 1,Bollullos Par del Condado,Carro,1.8,,E,3,2
@@ -200,6 +202,10 @@ A-92 - Saída 123,A-92 - Saída 125,Carro,2.0,A-92,SE,2,1
 A-92 - Saída 125,A-92 - Saída 132,Carro,7.0,A-92,SE,2,1
 A-92 - Saída 132,A-92 - Saída 138,Carro,5.7,A-92,SE,2,1
 A-92 - Saída 138,A-92 - Saída 142,Carro,4.1,A-92,SE,2,1
+A-92 - Saída 142,A-92 - Saída 146,Carro,4.2,A-92,SE,2,1
+A-92 - Saída 146,A-92 - Saída 149,Carro,3.0,A-92,E,2,1
+A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,3.2,A-92,E,2,1
+A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,7.5,A-92,SO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,15.1,A2,S,1,1
 A2 - Saída 12,IP2 - Saída 50,Carro,2.1,IP2,NE,2,2
