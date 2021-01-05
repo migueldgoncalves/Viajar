@@ -1,4 +1,7 @@
 Nome,Freguesia,Concelho
+A2 - Saída 8,São Martinho,Alcácer do Sal
+A2 - Saída 9,Grândola,Grândola
+A2 - Saída 11,Rio de Moinhos,Aljustrel
 A2 - Saída 12,Castro Verde,Castro Verde
 A2 - Saída 13,Gomes Aires,Almodôvar
 A2 - Saída 14,São Bartolomeu de Messines,Silves
@@ -20,6 +23,7 @@ A22 - Saída 6,Silves,Silves
 A22 - Saída 7,Alcantarilha,Silves
 A22 - Saída 8,Pêra,Silves
 A22 - Saída 9,Ferreiras,Albufeira
+A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
 Achada do Gamo,Santana de Cambas,Mértola
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
@@ -52,7 +56,9 @@ Ameixal,Ameixal,Loulé
 Aqualand Algarve,Alcantarilha,Silves
 Aquashow,Quarteira,Loulé
 Área de Repouso de Castro Marim,Castro Marim,Castro Marim
+Área de Serviço de Aljustrel,São João de Negrilhos,Aljustrel
 Área de Serviço de Almodôvar,Gomes Aires,Almodôvar
+Área de Serviço de Grândola,Grândola,Grândola
 Área de Serviço de Lagos,Bensafrim,Lagos
 Área de Serviço de Loulé,Boliqueime,Loulé
 Área de Serviço de Olhão,Moncarapacho,Olhão
@@ -126,6 +132,7 @@ Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
 Cruzamento da A2 com a A22,Paderne,Albufeira
+Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da N120 com a N125,São Sebastião,Lagos

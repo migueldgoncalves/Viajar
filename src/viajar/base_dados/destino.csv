@@ -703,6 +703,24 @@ A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Huelva
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
+A2 - Saída 8,A2 - Saída 9,Carro,False,Alcácer do Sal
+A2 - Saída 8,A2 - Saída 9,Carro,False,Lisboa
+A2 - Saída 8,A2 - Saída 9,Carro,False,Setúbal
+A2 - Saída 8,A2 - Saída 9,Carro,True,Algarve
+A2 - Saída 8,A2 - Saída 9,Carro,True,Grândola
+A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Alcácer do Sal
+A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Lisboa
+A2 - Saída 9,Área de Serviço de Grândola,Carro,True,A26 - Beja
+A2 - Saída 9,Área de Serviço de Grândola,Carro,True,Algarve
+A2 - Saída 11,A2 - Saída 12,Carro,False,Aljustrel
+A2 - Saída 11,A2 - Saída 12,Carro,False,Lisboa
+A2 - Saída 11,A2 - Saída 12,Carro,True,Algarve
+A2 - Saída 11,A2 - Saída 12,Carro,True,Castro Verde
+A2 - Saída 11,A2 - Saída 12,Carro,True,Ourique
+A2 - Saída 11,Área de Serviço de Aljustrel,Carro,False,Algarve
+A2 - Saída 11,Área de Serviço de Aljustrel,Carro,False,Aljustrel
+A2 - Saída 11,Área de Serviço de Aljustrel,Carro,True,Grândola
+A2 - Saída 11,Área de Serviço de Aljustrel,Carro,True,Lisboa
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,IP2 - Beja/Castro Verde
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,False,Lisboa
 A2 - Saída 12,Área de Serviço de Almodôvar,Carro,True,Algarve
@@ -891,6 +909,9 @@ A22 - Saída 18,Castro Marim,Carro,False,Alcoutim
 A22 - Saída 18,Castro Marim,Carro,False,Beja
 A22 - Saída 18,Castro Marim,Carro,True,Castro Marim
 A22 - Saída 18,Castro Marim,Carro,True,Vila Real de Santo António
+A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
+A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
+A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
@@ -1028,6 +1049,14 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
+Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Algarve
+Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Aljustrel
+Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Grândola
+Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Lisboa
+Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Alcácer do Sal
+Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Lisboa
+Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,A26 - Beja
+Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,Algarve
 Ayamonte,Costa Esuri,Barco,False,Ayamonte
 Ayamonte,Costa Esuri,Barco,False,Vila Real de Santo António
 Ayamonte,Costa Esuri,Barco,True,Alcoutim
