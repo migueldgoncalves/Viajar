@@ -287,13 +287,14 @@ A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
 Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
+Aeródromo de Portimão,Aeroporto de Beja,Avião,116.4,,NE,5,4
 Aeródromo de Portimão,Aeroporto de Faro,Avião,56.4,,SE,4,5
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,4.6,,SE,2,8
-Aeroporto de Beja,Beja,Carro,9.6,,SE,1,3
 Aeroporto de Beja,Aeroporto de Faro,Avião,115.7,,S,2,3
 Aeroporto de Beja,Aeroporto de Sevilha - San Pablo,Avião,193.4,,SE,3,3
+Aeroporto de Beja,Beja,Carro,9.6,,SE,1,3
 Aeroporto de Faro,Montenegro,Carro,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Carro,4.8,,SO,2,1
 Aeroporto de Faro,Aeroporto de Sevilha - San Pablo,Avião,188.9,,NE,4,4
@@ -510,6 +511,7 @@ Castro Verde,IP2 - Saída 48,Carro,1.1,N2,N,4,3
 Castro Verde,IP2 - Saída 49,Carro,1.6,N2,SO,5,3
 Castro Verde,Mina de Neves-Corvo,Carro,20.0,,SE,2,2
 Cercado,Deserto,Carro,0.3,,E,2,1
+Cercal do Alentejo,Colos,Carro,21.5,,SE,3,1
 Cercal do Alentejo,São Luís,Carro,10.6,N120,S,1,3
 Cercal do Alentejo,Vila Nova de Milfontes,Carro,14.4,,SO,2,4
 Cerro,Deserto,Carro,0.6,,NO,1,4
@@ -519,6 +521,7 @@ Cerro do Enho,Tanoeiro,Carro,1.6,,NO,2,1
 Choça Queimada,Quebradas,Carro,2.2,,S,1,3
 Coito,Santa Marta,Carro,2.9,,NE,1,3
 Coito,Serro da Vinha de Baixo,Carro,1.7,,SO,2,1
+Colos,Cruzamento da N123-1 com a N263,Carro,3.3,N123-1,SE,2,3
 "Conceição, Faro",Estoi,Carro,4.3,,NE,2,3
 "Conceição, Faro",Pechão,Carro,4.6,,E,3,4
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,2.7,N2,SO,4,4
@@ -595,8 +598,12 @@ Cruzamento da N122 com a N123,IP2 - Saída 44,Carro,27.9,N122,NO,1,3
 Cruzamento da N122 com a N123,Mértola,Carro,11.1,N122,SE,3,3
 Cruzamento da N122 com a N267,Mértola,Carro,2.1,N122,NE,2,1
 Cruzamento da N122 com a N267,Neves,Carro,2.2,,SE,3,1
+Cruzamento da N123 com a N263,Cruzamento da N123-1 com a N263,Carro,20.2,,NE,3,2
 Cruzamento da N123 com a N263,Luzianes,Carro,18.1,N123,SE,2,2
 Cruzamento da N123 com a N263,Odemira,Carro,3.5,N123,SO,1,4
+Cruzamento da N123-1 com a N263,Estação de Amoreiras - Odemira,Carro,3.7,N123-1,SE,1,4
+Cruzamento da N123-1 com a N263,Estação de Funcheira,Carro,11.7,,E,4,6
+Cruzamento da N123-1 com a N263,IC1 - Cruzamento com a N263,Carro,13.7,,NE,5,1
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,N124,SO,2,2
 Cruzamento da N124 com a M507-1,Pereiro,Carro,8.9,N124,E,3,1
@@ -674,6 +681,9 @@ Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
 Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,5
 Estação de Almancil,Estação de Parque das Cidades,Comboio,4.2,Linha do Algarve - Regional,SE,3,4
 Estação de Almancil,Estação de Loulé,Comboio,3.4,Linha do Algarve - Regional,NO,4,3
+Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,8.9,Linha do Sul - Intercidades,NE,2,1
+Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,31.3,Linha do Sul - Intercidades,SO,1,7
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,4.7,N123-1,S,3,4
 Estação de Boliqueime,Estação de Loulé,Comboio,8.6,Linha do Algarve - Regional,SE,3,4
 Estação de Bom João,Porto de Faro,Carro,2.0,,S,1,1
 Estação de Bom João,Faro - Sé,Carro,1.7,,N,2,3
@@ -684,6 +694,7 @@ Estação de Cacela,Vila Nova de Cacela,Carro,0.8,,SE,1,4
 Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Regional,NE,2,4
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Alfa Pendular/Intercidades,S,1,2
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,3.1,Linha do Algarve - Regional,SO,5,2
 Estação de Estômbar - Lagoa,Estação de Silves,Comboio,6.0,Linha do Algarve - Regional,NE,4,5
 Estação de Estômbar - Lagoa,Estômbar,Carro,0.5,,N,2,1
@@ -694,6 +705,9 @@ Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve -
 Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Alfa Pendular/Intercidades,NO,4,5
 Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,4
 Estação de Ferragudo,Parchal,Carro,0.3,,SO,1,3
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,40.2,Linha do Sul - Alfa Pendular,SO,3,9
+Estação de Funcheira,Ourique,Carro,16.3,,SE,4,4
+Estação de Funcheira,São Martinho das Amoreiras,Carro,11.6,,SO,5,5
 Estação de Fuseta-A,Fuseta,Carro,0.7,,NE,1,2
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,0.9,Linha do Algarve - Regional,N,2,4
 Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
@@ -722,7 +736,7 @@ Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1
 Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
-Estação de Santa Clara - Sabóia,Tunes,Comboio,44.0,Linha do Sul - Alfa Pendular,SE,7,9
+Estação de Santa Clara - Sabóia,Tunes,Comboio,44.0,Linha do Sul - Alfa Pendular,SE,8,9
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
@@ -777,6 +791,7 @@ Hortas,Vila Real de Santo António,Carro,2.4,N125,E,2,3
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,2.0,N124,NO,4,1
 IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,16.7,IC1,NO,3,1
 IC1 - Cruzamento com a N124,Tunes,Carro,10.9,IC1,S,2,5
+IC1 - Cruzamento com a N263,Ourique,Carro,21.6,IC1,SE,2,5
 IC27 - Fim,IC27 - Saída 7,Carro,6.1,IC27,S,2,1
 IC27 - Fim,Parque Empresarial de Alcoutim,Carro,7.7,N122,SE,4,5
 IC27 - Início,IC27 - Saída 1,Carro,1.1,IC27,NO,1,2

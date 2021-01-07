@@ -1187,6 +1187,10 @@ Castro Verde,IP2 - Saída 49,Carro,False,Castro Verde
 Castro Verde,IP2 - Saída 49,Carro,True,IP2 - Beja/Ourique
 Cercal do Alentejo,São Luís,Carro,False,Cercal do Alentejo
 Cercal do Alentejo,São Luís,Carro,True,Odemira
+Colos,Cruzamento da N123-1 com a N263,Carro,False,Cercal do Alentejo
+Colos,Cruzamento da N123-1 com a N263,Carro,False,Colos
+Colos,Cruzamento da N123-1 com a N263,Carro,True,Odemira
+Colos,Cruzamento da N123-1 com a N263,Carro,True,São Martinho das Amoreiras
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,São Brás de Alportel
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,True,Faro
@@ -1392,6 +1396,9 @@ Cruzamento da N123 com a N263,Luzianes,Carro,True,Monchique
 Cruzamento da N123 com a N263,Odemira,Carro,False,Beja
 Cruzamento da N123 com a N263,Odemira,Carro,False,Ourique
 Cruzamento da N123 com a N263,Odemira,Carro,True,Odemira
+Cruzamento da N123-1 com a N263,Estação de Amoreiras - Odemira,Carro,False,Colos
+Cruzamento da N123-1 com a N263,Estação de Amoreiras - Odemira,Carro,False,Odemira
+Cruzamento da N123-1 com a N263,Estação de Amoreiras - Odemira,Carro,True,São Martinho das Amoreiras
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,Alcoutim
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,False,IC27
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,True,Barranco do Velho
@@ -1561,6 +1568,18 @@ Estação de Almancil,Estação de Parque das Cidades,Comboio,False,Lagos
 Estação de Almancil,Estação de Parque das Cidades,Comboio,False,Tunes
 Estação de Almancil,Estação de Parque das Cidades,Comboio,True,Faro
 Estação de Almancil,Estação de Parque das Cidades,Comboio,True,Vila Real de Santo António
+Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,False,Faro
+Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,False,Tunes
+Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,True,Lisboa - Oriente
+Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,True,Pinhal Novo
+Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,False,Lisboa - Oriente
+Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,False,Pinhal Novo
+Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,True,Faro
+Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,True,Tunes
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Colos
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Estação de Amoreiras - Odemira
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Odemira
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,True,São Martinho das Amoreiras
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Lagos
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Tunes
 Estação de Boliqueime,Estação de Loulé,Comboio,True,Faro
@@ -1579,6 +1598,10 @@ Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
 Estação de Castro Marim,Vista Real,Carro,False,Altura
 Estação de Castro Marim,Vista Real,Carro,True,Castro Marim
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Lisboa - Oriente
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Pinhal Novo
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Faro
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Tunes
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Tunes
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Vila Real de Santo António
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,True,Lagos
@@ -1594,6 +1617,10 @@ Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
 Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,False,Lisboa - Oriente
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,False,Pinhal Novo
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,True,Faro
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,True,Tunes
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Faro
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Lagos
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,True,Vila Real de Santo António
@@ -1713,6 +1740,10 @@ IC1 - Cruzamento com a N124,Tunes,Carro,False,Lisboa
 IC1 - Cruzamento com a N124,Tunes,Carro,False,Ourique
 IC1 - Cruzamento com a N124,Tunes,Carro,True,Faro
 IC1 - Cruzamento com a N124,Tunes,Carro,True,Portimão
+IC1 - Cruzamento com a N263,Ourique,Carro,False,Grândola
+IC1 - Cruzamento com a N263,Ourique,Carro,False,Lisboa
+IC1 - Cruzamento com a N263,Ourique,Carro,True,Faro
+IC1 - Cruzamento com a N263,Ourique,Carro,True,Ourique
 IC27 - Fim,IC27 - Saída 7,Carro,False,Beja
 IC27 - Fim,IC27 - Saída 7,Carro,False,Mértola
 IC27 - Fim,IC27 - Saída 7,Carro,True,Castro Marim

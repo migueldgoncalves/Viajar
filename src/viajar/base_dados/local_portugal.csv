@@ -121,6 +121,7 @@ Cerro,Alcoutim,Alcoutim
 Cerro do Enho,Castro Marim,Castro Marim
 Choça Queimada,Odeleite,Castro Marim
 Coito,Pereiro,Alcoutim
+Colos,Colos,Odemira
 "Conceição, Faro",Conceição,Faro
 "Conceição, Tavira",Conceição,Tavira
 Corte da Seda,Alcoutim,Alcoutim
@@ -146,6 +147,7 @@ Cruzamento da N122 com a M512,Azinhal,Castro Marim
 Cruzamento da N122 com a N123,Mértola,Mértola
 Cruzamento da N122 com a N267,Mértola,Mértola
 Cruzamento da N123 com a N263,Santa Maria,Odemira
+Cruzamento da N123-1 com a N263,Santa Luzia,Ourique
 Cruzamento da N124-1 com a N125,Lagoa,Lagoa
 Cruzamento da N124 com a M507-1,Giões,Alcoutim
 Cruzamento da N124 com a N125,Portimão,Portimão
@@ -180,13 +182,16 @@ Estação da Porta Nova,Santa Maria,Tavira
 Estação de Albufeira - Ferreiras,Ferreiras,Albufeira
 Estação de Alcantarilha,Alcantarilha,Silves
 Estação de Almancil,Almancil,Loulé
+Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
 Estação de Boliqueime,Boliqueime,Loulé
 Estação de Bom João,Sé,Faro
 Estação de Cacela,Vila Nova de Cacela,Vila Real de Santo António
 Estação de Castro Marim,Castro Marim,Castro Marim
+Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
 Estação de Faro,São Pedro,Faro
 Estação de Ferragudo,Parchal,Lagoa
+Estação de Funcheira,Garvão,Ourique
 Estação de Fuseta-A,Fuseta,Olhão
 Estação de Fuseta-Moncarapacho,Moncarapacho,Olhão
 Estação de Lagos,São Sebastião,Lagos
@@ -223,6 +228,7 @@ Guia,Guia,Albufeira
 Hangares,Sé,Faro
 Hortas,Monte Gordo,Vila Real de Santo António
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Silves
+IC1 - Cruzamento com a N263,Panóias,Ourique
 IC1 - Fim,Ferreiras,Albufeira
 IC27 - Fim,Pereiro,Alcoutim
 IC27 - Início,Castro Marim,Castro Marim
