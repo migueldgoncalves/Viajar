@@ -32,6 +32,26 @@ A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
 A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,False,Córdoba - Centro da cidade
+A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,False,Madrid
+A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,True,A-45 - Málaga
+A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,True,Sevilha
+A-4 - Saída 411,A-4 - Saída 412,Carro,False,Córdoba
+A-4 - Saída 411,A-4 - Saída 412,Carro,False,Granada
+A-4 - Saída 411,A-4 - Saída 412,Carro,True,Cádiz
+A-4 - Saída 411,A-4 - Saída 412,Carro,True,Sevilha
+A-4 - Saída 411,Cruzamento da A-4 com a A-45,Carro,False,Cádiz
+A-4 - Saída 411,Cruzamento da A-4 com a A-45,Carro,False,Sevilha
+A-4 - Saída 411,Cruzamento da A-4 com a A-45,Carro,True,Córdoba
+A-4 - Saída 411,Cruzamento da A-4 com a A-45,Carro,True,Granada
+A-4 - Saída 412,A-4 - Saída 414,Carro,False,Córdoba
+A-4 - Saída 412,A-4 - Saída 414,Carro,False,Granada
+A-4 - Saída 412,A-4 - Saída 414,Carro,True,Cádiz
+A-4 - Saída 412,A-4 - Saída 414,Carro,True,Sevilha
+A-4 - Saída 414,A-4 - Saída 418,Carro,False,Córdoba
+A-4 - Saída 414,A-4 - Saída 418,Carro,False,Granada
+A-4 - Saída 414,A-4 - Saída 418,Carro,True,Cádiz
+A-4 - Saída 414,A-4 - Saída 418,Carro,True,Sevilha
 A-4 - Saída 418,A-4 - Saída 420,Carro,False,Córdoba
 A-4 - Saída 418,A-4 - Saída 420,Carro,True,Cádiz
 A-4 - Saída 418,A-4 - Saída 420,Carro,True,Sevilha
@@ -223,6 +243,8 @@ A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Aeroporto de Sevil
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,False,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,True,Cádiz
+A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,False,Málaga
+A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,True,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Antequera
@@ -916,6 +938,8 @@ Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,True,Pomarão
+Aeroporto de Córdoba,CO-32 - Fim,Carro,False,Aeroporto de Córdoba
+Aeroporto de Córdoba,CO-32 - Fim,Carro,True,Córdoba
 Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
@@ -966,6 +990,15 @@ Aljezur,Rogil,Carro,False,Aljezur
 Aljezur,Rogil,Carro,False,Lagos
 Aljezur,Rogil,Carro,True,Odeceixe
 Aljezur,Rogil,Carro,True,Sines
+Aljustrel,Ervidel,Carro,False,Aljustrel
+Aljustrel,Ervidel,Carro,False,Castro Verde
+Aljustrel,Ervidel,Carro,False,Faro
+Aljustrel,Ervidel,Carro,True,Beja
+Aljustrel,Ervidel,Carro,True,Ferreira do Alentejo
+Aljustrel,IP2 - Saída 48,Carro,False,Aljustrel
+Aljustrel,IP2 - Saída 48,Carro,True,Almodôvar
+Aljustrel,IP2 - Saída 48,Carro,True,Castro Verde
+Aljustrel,IP2 - Saída 48,Carro,True,Faro
 Almada de Ouro,Azinhal,Carro,False,Alcoutim
 Almada de Ouro,Azinhal,Carro,True,Azinhal
 Almada de Ouro,Azinhal,Carro,True,Castro Marim
@@ -1102,6 +1135,8 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,True,Martim Long
 Barranco do Velho,São Brás de Alportel,Carro,False,Almodôvar
 Barranco do Velho,São Brás de Alportel,Carro,True,Faro
 Barranco do Velho,São Brás de Alportel,Carro,True,São Brás de Alportel
+Beja,Ervidel,Carro,False,Beja
+Beja,Ervidel,Carro,True,Aljustrel
 Beja,IP2 - Saída 42,Carro,False,Beja
 Beja,IP2 - Saída 42,Carro,True,Castro Verde
 Beja,IP2 - Saída 42,Carro,True,Mértola
@@ -1180,13 +1215,20 @@ Castro Marim,Vista Real,Carro,True,Altura
 Castro Verde,Cruzamento da N122 com a N123,Carro,False,Castro Verde
 Castro Verde,Cruzamento da N122 com a N123,Carro,True,Mértola
 Castro Verde,IP2 - Saída 48,Carro,False,Castro Verde
-Castro Verde,IP2 - Saída 48,Carro,True,A2
-Castro Verde,IP2 - Saída 48,Carro,True,IP2
+Castro Verde,IP2 - Saída 48,Carro,True,Aljustrel
 Castro Verde,IP2 - Saída 49,Carro,False,Almodôvar
 Castro Verde,IP2 - Saída 49,Carro,False,Castro Verde
 Castro Verde,IP2 - Saída 49,Carro,True,IP2 - Beja/Ourique
 Cercal do Alentejo,São Luís,Carro,False,Cercal do Alentejo
 Cercal do Alentejo,São Luís,Carro,True,Odemira
+CO-32 - Fim,CO-32 - Saída 3,Carro,False,Aeroporto de Córdoba
+CO-32 - Fim,CO-32 - Saída 3,Carro,False,Córdoba - Oeste
+CO-32 - Fim,CO-32 - Saída 3,Carro,True,A-4 - Madrid/Sevilha
+CO-32 - Fim,CO-32 - Saída 3,Carro,True,A-45 - Málaga
+CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,False,Aeroporto de Córdoba
+CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,False,Córdoba - Oeste
+CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,True,A-4 - Madrid/Sevilha
+CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,True,A-45 - Málaga
 Colos,Cruzamento da N123-1 com a N263,Carro,False,Cercal do Alentejo
 Colos,Cruzamento da N123-1 com a N263,Carro,False,Colos
 Colos,Cruzamento da N123-1 com a N263,Carro,True,Odemira
@@ -1740,6 +1782,10 @@ IC1 - Cruzamento com a N124,Tunes,Carro,False,Lisboa
 IC1 - Cruzamento com a N124,Tunes,Carro,False,Ourique
 IC1 - Cruzamento com a N124,Tunes,Carro,True,Faro
 IC1 - Cruzamento com a N124,Tunes,Carro,True,Portimão
+IC1 - Cruzamento com a N263,Mimosa,Carro,False,Faro
+IC1 - Cruzamento com a N263,Mimosa,Carro,False,Ourique
+IC1 - Cruzamento com a N263,Mimosa,Carro,True,Grândola
+IC1 - Cruzamento com a N263,Mimosa,Carro,True,Lisboa
 IC1 - Cruzamento com a N263,Ourique,Carro,False,Grândola
 IC1 - Cruzamento com a N263,Ourique,Carro,False,Lisboa
 IC1 - Cruzamento com a N263,Ourique,Carro,True,Faro

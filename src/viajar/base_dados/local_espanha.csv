@@ -10,6 +10,10 @@ A-376 - Saída 4A,Dos Hermanas,Sevilha,
 A-376 - Saída 4B,Dos Hermanas,Sevilha,
 A-376 - Saída 8,Alcalá de Guadaíra,Sevilha,
 A-376 - Universidade Pablo de Olavide,Dos Hermanas,Sevilha,
+A-4 - Saída 406,Córdoba,Córdoba,
+A-4 - Saída 411,Córdoba,Córdoba,
+A-4 - Saída 412,Córdoba,Córdoba,
+A-4 - Saída 414,Córdoba,Córdoba,
 A-4 - Saída 418,Córdoba,Córdoba,
 A-4 - Saída 420,Córdoba,Córdoba,
 A-4 - Saída 424,Córdoba,Córdoba,
@@ -54,6 +58,7 @@ A-4 - Saída 533,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 536,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 553,Dos Hermanas,Sevilha,
 A-4 - Saída 558,Dos Hermanas,Sevilha,
+A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 92,Antequera,Málaga,
 A-45 - Saída 102,Antequera,Málaga,
 A-483 - Saída 1,Bollullos Par del Condado,Huelva,
@@ -145,6 +150,7 @@ A-92 - Saída 149,Antequera,Málaga,
 A-92 - Saída 160,Archidona,Málaga,
 A-92 - Sevilha Este,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
+Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Sevilha - San Pablo,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
 AP-4 - Início,Dos Hermanas,Sevilha,
@@ -157,10 +163,13 @@ Bollullos Par del Condado,Bollullos Par del Condado,Huelva,
 Carmona,Carmona,Sevilha,
 Cartaya,Cartaya,Huelva,
 Centro Penitenciario de Huelva,Huelva,Huelva,
+CO-32 - Fim,Córdoba,Córdoba,
+CO-32 - Saída 3,Córdoba,Córdoba,
 Coria del Río,Coria del Río,Sevilha,
 Costa Esuri,Ayamonte,Huelva,
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
+Cruzamento da A-4 com a A-45,Córdoba,Córdoba,
 Cruzamento da A-4 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-4 Norte com a SE-30,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Cruzamento da A-4 Norte com a SE-40,La Rinconada,Sevilha,
