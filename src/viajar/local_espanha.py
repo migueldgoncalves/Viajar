@@ -55,9 +55,16 @@ class LocalEspanha(local.Local):
             print("Distrito:", self.distrito)
         print("Município:", self.municipio)
         if len(self.comarcas) == 0:
-            print("Comarca: Nenhuma")
+            if self.comunidade_autonoma == "Extremadura":
+                #  A Extremadura tem uma segunda entidade semelhante à comarca, a mancomunidade integral
+                print("Mancomunidade integral: Nenhuma")
+            else:
+                print("Comarca: Nenhuma")  # Termo genérico
         elif len(self.comarcas) == 1:
-            print("Comarca:", self.comarcas[0])
+            if self.comunidade_autonoma == "Extremadura":
+                print("Mancomunidade integral:", self.comarcas[0])
+            else:
+                print("Comarca:", self.comarcas[0])
         else:
             comarca_string = ''
             for comarca in self.comarcas:

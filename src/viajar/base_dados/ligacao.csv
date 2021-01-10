@@ -128,6 +128,19 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-66 - Saída 670,A-66 - Saída 675,Carro,5.4,A-66,S,1,2
+A-66 - Saída 675,A-66 - Saída 677,Carro,1.3,A-66,SE,1,2
+A-66 - Saída 677,A-66 - Saída 682,Carro,5.1,A-66,S,1,2
+A-66 - Saída 682,A-66 - Saída 684,Carro,2.5,A-66,S,1,2
+A-66 - Saída 684,A-66 - Saída 687,Carro,2.7,A-66,SE,1,2
+A-66 - Saída 687,A-66 - Saída 694,Carro,7.2,A-66,SE,1,2
+A-66 - Saída 694,A-66 - Saída 700,Carro,5.8,A-66,S,1,2
+A-66 - Saída 700,A-66 - Saída 704,Carro,3.7,A-66,S,1,2
+A-66 - Saída 704,A-66 - Saída 715,Carro,11.0,A-66,S,1,2
+A-66 - Saída 715,A-66 - Saída 719,Carro,3.1,A-66,S,1,2
+A-66 - Saída 719,A-66 - Saída 722,Carro,2.9,A-66,SE,1,2
+A-66 - Saída 722,A-66 - Saída 730,Carro,7.0,A-66,SE,1,2
+A-66 - Saída 730,A-66 - Saída 741,Carro,9.2,A-66,S,1,2
 A-66 - Saída 741,A-66 - Saída 745,Carro,3.3,A-66,S,1,2
 A-66 - Saída 745,A-66 - Saída 747,Carro,2.1,A-66,SE,1,2
 A-66 - Saída 747,A-66 - Saída 765,Carro,16.9,A-66,S,1,2
