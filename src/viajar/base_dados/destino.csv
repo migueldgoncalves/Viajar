@@ -363,6 +363,21 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-66 - Saída 652,A-66 - Saída 654,Carro,False,Mérida
+A-66 - Saída 652,A-66 - Saída 654,Carro,True,Sevilha
+A-66 - Saída 652,A-66 - Saída 654,Carro,True,Villafranca de los Barros
+A-66 - Saída 654,A-66 - Saída 657,Carro,False,Almendralejo
+A-66 - Saída 654,A-66 - Saída 657,Carro,False,Mérida
+A-66 - Saída 654,A-66 - Saída 657,Carro,True,Sevilha
+A-66 - Saída 657,A-66 - Saída 659,Carro,False,Mérida
+A-66 - Saída 657,A-66 - Saída 659,Carro,True,Sevilha
+A-66 - Saída 659,A-66 - Saída 662,Carro,False,Mérida
+A-66 - Saída 659,A-66 - Saída 662,Carro,True,Sevilha
+A-66 - Saída 662,A-66 - Saída 666,Carro,False,Mérida
+A-66 - Saída 662,A-66 - Saída 666,Carro,True,Sevilha
+A-66 - Saída 666,A-66 - Saída 670,Carro,False,Mérida
+A-66 - Saída 666,A-66 - Saída 670,Carro,True,Córdoba
+A-66 - Saída 666,A-66 - Saída 670,Carro,True,Sevilha
 A-66 - Saída 670,A-66 - Saída 675,Carro,False,Mérida
 A-66 - Saída 670,A-66 - Saída 675,Carro,True,Córdoba
 A-66 - Saída 670,A-66 - Saída 675,Carro,True,Sevilha
@@ -762,6 +777,11 @@ A2 - Saída 8,A2 - Saída 9,Carro,False,Lisboa
 A2 - Saída 8,A2 - Saída 9,Carro,False,Setúbal
 A2 - Saída 8,A2 - Saída 9,Carro,True,Algarve
 A2 - Saída 8,A2 - Saída 9,Carro,True,Grândola
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,False,Alcácer do Sal
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,False,Algarve
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,True,A6 - Évora
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,True,Lisboa
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,True,Setúbal
 A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Alcácer do Sal
 A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Lisboa
 A2 - Saída 9,Área de Serviço de Grândola,Carro,True,A26 - Beja

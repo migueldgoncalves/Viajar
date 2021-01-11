@@ -128,6 +128,12 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-66 - Saída 652,A-66 - Saída 654,Carro,1.9,A-66,S,1,2
+A-66 - Saída 654,A-66 - Saída 657,Carro,3.9,A-66,SE,1,2
+A-66 - Saída 657,A-66 - Saída 659,Carro,1.8,A-66,S,1,2
+A-66 - Saída 659,A-66 - Saída 662,Carro,2.4,A-66,S,1,2
+A-66 - Saída 662,A-66 - Saída 666,Carro,4.6,A-66,S,1,2
+A-66 - Saída 666,A-66 - Saída 670,Carro,3.8,A-66,SE,1,2
 A-66 - Saída 670,A-66 - Saída 675,Carro,5.4,A-66,S,1,2
 A-66 - Saída 675,A-66 - Saída 677,Carro,1.3,A-66,SE,1,2
 A-66 - Saída 677,A-66 - Saída 682,Carro,5.1,A-66,S,1,2
@@ -226,7 +232,8 @@ A-92 - Saída 146,A-92 - Saída 149,Carro,3.0,A-92,E,2,1
 A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,3.2,A-92,E,2,1
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,7.5,A-92,SO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
-A2 - Saída 8,A2 - Saída 9,Carro,22.6,A2,S,1,1
+A2 - Saída 8,A2 - Saída 9,Carro,22.6,A2,S,2,1
+A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,13.1,A2,NO,1,1
 A2 - Saída 9,Área de Serviço de Grândola,Carro,7.0,A2,SE,2,1
 A2 - Saída 11,A2 - Saída 12,Carro,26.8,A2,SE,2,1
 A2 - Saída 11,Aljustrel,Carro,7.9,,SE,3,2
@@ -549,7 +556,7 @@ Cerro do Enho,Vale de Andreu,Carro,2.3,,NE,1,3
 Cerro do Enho,Tanoeiro,Carro,1.6,,NO,2,1
 Choça Queimada,Quebradas,Carro,2.2,,S,1,3
 CO-32 - Fim,CO-32 - Saída 3,Carro,3.0,CO-32,SE,1,1
-CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,1.9,C0-32,SE,2,3
+CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,1.9,CO-32,SE,2,3
 Coito,Santa Marta,Carro,2.9,,NE,1,3
 Coito,Serro da Vinha de Baixo,Carro,1.7,,SO,2,1
 Colos,Cruzamento da N123-1 com a N263,Carro,3.3,N123-1,SE,2,3
