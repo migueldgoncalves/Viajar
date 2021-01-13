@@ -363,6 +363,33 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,A-66 - Cáceres
+A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,Madrid
+A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,True,Badajoz
+A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,False,Badajoz
+A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,A-66 - Cáceres
+A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,Madrid
+A-66 - Saída 626,A-66 - Saída 627,Carro,False,Mérida
+A-66 - Saída 626,A-66 - Saída 627,Carro,True,Sevilha
+A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,False,Sevilha
+A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,True,A-5 - Badajoz/Madrid
+A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,True,Cáceres
+A-66 - Saída 627,A-66 - Saída 630,Carro,False,Mérida
+A-66 - Saída 627,A-66 - Saída 630,Carro,True,Sevilha
+A-66 - Saída 627,A-66 - Saída 630,Carro,True,Torremejía
+A-66 - Saída 630,A-66 - Saída 636,Carro,False,Mérida
+A-66 - Saída 630,A-66 - Saída 636,Carro,True,Sevilha
+A-66 - Saída 636,A-66 - Saída 641,Carro,False,Mérida
+A-66 - Saída 636,A-66 - Saída 641,Carro,True,Almendralejo
+A-66 - Saída 636,A-66 - Saída 641,Carro,True,Sevilha
+A-66 - Saída 641,A-66 - Saída 648,Carro,False,Mérida
+A-66 - Saída 641,A-66 - Saída 648,Carro,True,Almendralejo
+A-66 - Saída 641,A-66 - Saída 648,Carro,True,Sevilha
+A-66 - Saída 648,A-66 - Saída 650,Carro,False,Mérida
+A-66 - Saída 648,A-66 - Saída 650,Carro,False,Torremejía
+A-66 - Saída 648,A-66 - Saída 650,Carro,True,Sevilha
+A-66 - Saída 650,A-66 - Saída 652,Carro,False,Mérida
+A-66 - Saída 650,A-66 - Saída 652,Carro,True,Sevilha
 A-66 - Saída 652,A-66 - Saída 654,Carro,False,Mérida
 A-66 - Saída 652,A-66 - Saída 654,Carro,True,Sevilha
 A-66 - Saída 652,A-66 - Saída 654,Carro,True,Villafranca de los Barros
@@ -772,6 +799,15 @@ A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Huelva
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
+A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
+A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
+A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
+A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,False,Lisboa
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,False,Setúbal
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Espanha
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,True,A13 - Santarém
 A2 - Saída 8,A2 - Saída 9,Carro,False,Alcácer do Sal
 A2 - Saída 8,A2 - Saída 9,Carro,False,Lisboa
 A2 - Saída 8,A2 - Saída 9,Carro,False,Setúbal
@@ -1134,6 +1170,11 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
+Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,False,Alcácer do Sal
+Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,False,Algarve
+Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,True,Lisboa
+Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,True,Setúbal
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Algarve
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Aljustrel
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Grândola
@@ -1142,6 +1183,12 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,A26 - Beja
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,Algarve
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Espanha
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Évora
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Vendas Novas
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Algarve
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Lisboa
+Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Setúbal
 Ayamonte,Costa Esuri,Barco,False,Ayamonte
 Ayamonte,Costa Esuri,Barco,False,Vila Real de Santo António
 Ayamonte,Costa Esuri,Barco,True,Alcoutim
