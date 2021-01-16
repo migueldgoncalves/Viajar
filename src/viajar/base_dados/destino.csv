@@ -243,6 +243,15 @@ A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Aeroporto de Sevil
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,True,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,False,Sevilha
 A-4 - Saída 558,AP-4 - Início,Carro,True,Cádiz
+A-4 - Saída 628,A-4 - Saída 631,Carro,False,Aeroporto de Jerez
+A-4 - Saída 628,A-4 - Saída 631,Carro,False,El Cuervo de Sevilla
+A-4 - Saída 628,A-4 - Saída 631,Carro,False,Sevilha
+A-4 - Saída 628,A-4 - Saída 631,Carro,True,Cádiz
+A-4 - Saída 628,A-4 - Saída 631,Carro,True,Jerez de la Frontera
+A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Cádiz
+A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Jerez de la Frontera
+A-4 - Saída 628,El Cuervo de Sevilla,Carro,True,El Cuervo de Sevilla
+A-4 - Saída 628,El Cuervo de Sevilla,Carro,True,Sevilha
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,False,Málaga
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,True,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
@@ -1157,8 +1166,27 @@ Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamon
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Cádiz
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Jerez de la Frontera
 AP-4 - Início,AP-4A - Saída 13,Carro,True,Dos Hermanas
-AP-4 - Início,Área de Serviço Los Palacios,Carro,False,Sevilha
-AP-4 - Início,Área de Serviço Los Palacios,Carro,True,Cádiz
+AP-4 - Início,Área de Serviço de Los Palacios,Carro,False,Sevilha
+AP-4 - Início,Área de Serviço de Los Palacios,Carro,True,Cádiz
+AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,False,Los Palacios y Villafranca
+AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,False,Sevilha
+AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,True,Cádiz
+AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,True,Jerez de la Frontera
+AP-4 - Saída 23-24,Área de Serviço de Los Palacios,Carro,False,Cádiz
+AP-4 - Saída 23-24,Área de Serviço de Los Palacios,Carro,False,Jerez de la Frontera
+AP-4 - Saída 23-24,Área de Serviço de Los Palacios,Carro,True,Sevilha
+AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,False,Cádiz
+AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,False,Jerez de la Frontera
+AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,True,Los Palacios y Villafranca
+AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,True,Sevilha
+AP-4 - Saída 44-45,AP-4 - Saída 53,Carro,False,Sevilha
+AP-4 - Saída 44-45,AP-4 - Saída 53,Carro,True,Cádiz
+AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Carro,False,Sevilha
+AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Carro,True,Cádiz
+AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Los Palacios y Villafranca
+AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Sevilha
+AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Cádiz
+AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Jerez de la Frontera
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
@@ -1179,6 +1207,8 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Aljustrel
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Grândola
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Lisboa
+Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,False,Sevilha
+Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,True,Cádiz
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Alcácer do Sal
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,A26 - Beja

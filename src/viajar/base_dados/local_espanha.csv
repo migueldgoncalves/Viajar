@@ -58,6 +58,8 @@ A-4 - Saída 533,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 536,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 553,Dos Hermanas,Sevilha,
 A-4 - Saída 558,Dos Hermanas,Sevilha,
+A-4 - Saída 628,Jerez de la Frontera,Cádiz,Rural
+A-4 - Saída 631,Jerez de la Frontera,Cádiz,Rural
 A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 92,Antequera,Málaga,
 A-45 - Saída 102,Antequera,Málaga,
@@ -182,9 +184,14 @@ Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Sevilha - San Pablo,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
 AP-4 - Início,Dos Hermanas,Sevilha,
+AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
+AP-4 - Saída 44-45,Las Cabezas de San Juan,Sevilha,
+AP-4 - Saída 53,Lebrija,Sevilha,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
 Arahal,Arahal,Sevilha,
-Área de Serviço Los Palacios,Los Palacios y Villafranca,Sevilha,
+Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,Rural
+Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
+Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
 Ayamonte,Ayamonte,Huelva,
 Barriada de Canela,Ayamonte,Huelva,
 Bollullos Par del Condado,Bollullos Par del Condado,Huelva,
@@ -197,6 +204,7 @@ Coria del Río,Coria del Río,Sevilha,
 Costa Esuri,Ayamonte,Huelva,
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
+Cruzamento da A-382 com a AP-4,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-45,Córdoba,Córdoba,
 Cruzamento da A-4 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-4 Norte com a SE-30,Sevilha,Sevilha,Este-Alcosa-Torreblanca
@@ -218,6 +226,7 @@ Cruzamento da H-30 com a H-31,Huelva,Huelva,
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Écija,Écija,Sevilha,
+El Cuervo de Sevilla,El Cuervo de Sevilla,Sevilha,
 El Granado,El Granado,Huelva,
 Estepa,Estepa,Sevilha,
 Gelves,Gelves,Sevilha,

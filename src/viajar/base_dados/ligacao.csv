@@ -75,6 +75,8 @@ A-4 - Saída 553,A-4 - Saída 558,Carro,5.3,A-4,SE,2,1
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,3.0,A-4,N,1,2
 A-4 - Saída 558,AP-4 - Início,Carro,1.5,A-4,SE,2,1
 A-4 - Saída 558,AP-4A - Saída 13,Carro,1.1,,N,3,2
+A-4 - Saída 628,A-4 - Saída 631,Carro,2.8,A-4,SO,2,1
+A-4 - Saída 628,El Cuervo de Sevilla,Carro,13.2,N-4,NE,1,2
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,1,3
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,3.3,A-45,NO,1,4
@@ -431,7 +433,13 @@ Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Carro,0.9,,NE,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,3,6
 AP-4 - Início,AP-4A - Saída 13,Carro,2.4,AP-4A,NO,3,1
-AP-4 - Início,Área de Serviço Los Palacios,Carro,4.8,AP-4,S,2,1
+AP-4 - Início,Área de Serviço de Los Palacios,Carro,4.8,AP-4,S,2,1
+AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,18.7,AP-4,S,2,1
+AP-4 - Saída 23-24,Área de Serviço de Los Palacios,Carro,3.6,AP-4,N,1,2
+AP-4 - Saída 44-45,AP-4 - Saída 53,Carro,8.3,AP-4,S,2,1
+AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,2.9,AP-4,NE,1,2
+AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Carro,16.2,AP-4,SO,2,1
+AP-4 - Saída 53,El Cuervo de Sevilla,Carro,8.9,N-4,SO,3,1
 Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4
@@ -442,6 +450,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
+Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,8.4,A2,SE,2,1
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,6.2,A6,SO,1,3
 Armação de Pêra,"Pêra, Silves",Carro,3.5,,NE,1,4
