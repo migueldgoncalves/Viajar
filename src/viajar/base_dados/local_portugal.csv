@@ -31,11 +31,13 @@ Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
 Aeroporto de Faro,Montenegro,Faro
 Afonso Vicente,Alcoutim,Alcoutim
+Águas de Moura,Marateca,Palmela
 "Álamo, Alcoutim",Alcoutim,Alcoutim
 "Álamo, Mértola",Espírito Santo,Mértola
 Albernoa,Albernoa,Beja
 Albufeira - Centro histórico,Albufeira,Albufeira
 Albufeira - Rua da Oura,Albufeira,Albufeira
+Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
 Alcantarilha,Alcantarilha,Silves
 Alcaria,Odeleite,Castro Marim
 Alcaria dos Javazes,Espírito Santo,Mértola
@@ -107,6 +109,7 @@ Cachopo,Cachopo,Tavira
 Cais da Mesquita,Espírito Santo,Mértola
 Cais da Praia do Barril,Santa Luzia,Tavira
 Caldas de Monchique,Monchique,Monchique
+Canal Caveira,Grândola,Grândola
 Carrapateira,Bordeira,Aljezur
 Carvoeiro,Carvoeiro,Lagoa
 "Casa Branca, Alcoutim",Alcoutim,Alcoutim
@@ -137,6 +140,7 @@ Corte Nova,Odeleite,Castro Marim
 Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
+Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
@@ -175,6 +179,7 @@ Cruzamento da N125 com a N398,Quelfes,Olhão
 Cruzamento da N265 com a N392,Salvador,Serpa
 Cruzamento da N266 com a N267 Oeste,Monchique,Monchique
 Cruzamento da N269 com a N269-2,Tunes,Silves
+Cruzamento do IC1 com o IP8,Grândola,Grândola
 Cruzamento do IC4 com a M520,São Pedro,Faro
 Cruzamento do IC4 com a N125,Almancil,Loulé
 Culatra,Sé,Faro
@@ -217,6 +222,7 @@ Faro - Avenida Calouste Gulbenkian,São Pedro,Faro
 Faro - São Pedro,São Pedro,Faro
 Faro - Sé,Sé,Faro
 Ferragudo,Ferragudo,Lagoa
+Ferreira do Alentejo,Ferreira do Alentejo,Ferreira do Alentejo
 Ferreiras,Ferreiras,Albufeira
 Fóia,Monchique,Monchique
 Fonte Benémola,Querença,Loulé
@@ -230,6 +236,7 @@ Foz de Odeleite,Odeleite,Castro Marim
 Furnazinhas,Odeleite,Castro Marim
 Fuseta,Fuseta,Olhão
 Giões,Giões,Alcoutim
+Grândola,Grândola,Grândola
 Guerreiros do Rio,Alcoutim,Alcoutim
 Guia,Guia,Albufeira
 Hangares,Sé,Faro
@@ -336,6 +343,7 @@ Pias,Pias,Serpa
 Piçarral,Azinhal,Castro Marim
 Picoitos,Santana de Cambas,Mértola
 Picota,Monchique,Monchique
+Pinhal Novo,Pinhal Novo,Palmela
 Poço Barreto,Silves,Silves
 Pomarão,Santana de Cambas,Mértola
 Ponta da Piedade,Santa Maria,Lagos

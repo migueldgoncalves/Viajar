@@ -245,10 +245,15 @@ A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,3.2,A-92,E,2,1
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,7.5,A-92,SO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,10.8,A13,S,1,4
-A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,2.6,A2,E,1,1
+A2 - Saída 6,Águas de Moura,Carro,3.4,N10,SO,3,1
+A2 - Saída 6,Cruzamento da A12 com a A2,Carro,17.2,A2,O,1,1
+A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,2.6,A2,E,2,1
 A2 - Saída 8,A2 - Saída 9,Carro,22.6,A2,S,2,1
+A2 - Saída 8,Águas de Moura,Carro,26.6,IC1,NO,4,2
+A2 - Saída 8,Alcácer do Sal,Carro,5.4,IC1,S,3,2
 A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,13.1,A2,NO,1,2
 A2 - Saída 9,Área de Serviço de Grândola,Carro,7.0,A2,SE,2,1
+A2 - Saída 9,Cruzamento do IC1 com o IP8,Carro,4.7,IP8,SO,3,1
 A2 - Saída 11,A2 - Saída 12,Carro,26.8,A2,SE,2,1
 A2 - Saída 11,Aljustrel,Carro,7.9,,SE,3,2
 A2 - Saída 11,Área de Serviço de Aljustrel,Carro,3.5,A2,N,1,2
@@ -326,6 +331,7 @@ A22 - Saída 18,Área de Repouso de Castro Marim,Carro,1.1,A22,NE,2,1
 A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
 A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
+A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
 Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
@@ -362,6 +368,7 @@ Albufeira - Rua da Oura,Cruzamento da N125 com a N269,Carro,4.5,,N,4,1
 Albufeira - Rua da Oura,Praia de Santa Eulália,Carro,1.8,,SE,1,2
 Albufeira - Rua da Oura,Praia da Oura,Carro,0.7,,S,2,1
 Albufeira - Rua da Oura,Praia dos Alemães,Carro,1.6,,SO,3,1
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,19.6,IC1,SO,1,3
 Alcantarilha,Armação de Pêra,Carro,3.2,,SO,1,2
 Alcantarilha,Estação de Alcantarilha,Carro,5.7,,N,4,2
 Alcantarilha,"Pêra, Silves",Carro,1.4,N125,SE,2,5
@@ -494,6 +501,7 @@ Barranco do Velho,Miradouro do Caldeirão,Carro,10.6,N2,N,3,1
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,3.3,N124,O,4,1
 Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
 Beja,Ervidel,Carro,22.4,N18,SO,6,3
+Beja,Ferreira do Alentejo,Carro,24.2,IP8,NO,7,1
 Beja,IP2 - Saída 42,Carro,5.5,IP2,S,2,1
 Beja,São Matias,Carro,12.1,IP2,N,1,2
 Beja,Serpa,Carro,27.9,IP8,SE,4,2
@@ -544,6 +552,8 @@ Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,S
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
 Caldas de Monchique,Cruzamento da N124 com a N266,Carro,11.1,,S,2,3
 Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
+Canal Caveira,Cruzamento da A2 com a A26,Carro,9.0,IC1,E,1,5
+Canal Caveira,Grândola,Carro,8.7,IC1,NO,2,3
 Carmona,Marchena,Carro,26.8,,SE,6,2
 Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
@@ -632,10 +642,7 @@ Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
-Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,4
-Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
-Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
-Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,16.0,IC1,S,4,5
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
@@ -715,6 +722,11 @@ Cruzamento da N269 com a N269-2,Ferreiras,Carro,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Carro,2.3,,NE,2,3
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,1.2,SE-30,E,1,2
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,0.8,SE-20,N,3,1
+Cruzamento do IC1 com o IP8,Grândola,Carro,3.4,IC1,S,2,4
+Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,4
+Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
+Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
+Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
 Culatra,Ilha da Armona,Barco,6.2,Ria Formosa,NE,1,2
 Culatra,Hangares,Barco,1.6,Ria Formosa,SO,2,1
 Culatra,Olhão,Barco,5.1,Ria Formosa,N,3,8
@@ -729,6 +741,7 @@ El Granado,Sanlúcar de Guadiana,Carro,7.8,,SO,1,1
 El Granado,Villanueva de los Castillejos,Carro,14.4,,E,3,1
 Entradas,IP2 - Saída 47,Carro,8.2,IP2,NE,1,2
 Entradas,IP2 - Saída 48,Carro,10.2,IP2,SO,2,1
+Ervidel,Ferreira do Alentejo,Carro,11.8,N2,NO,4,2
 Ervidel,Villa Romana de Pisões,Carro,13.6,,NE,2,2
 Espiche,"Luz, Lagos",Carro,1.9,,SE,2,1
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,4.1,N125,NE,1,4
@@ -757,6 +770,9 @@ Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Reg
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Alfa Pendular/Intercidades,S,1,2
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,29.0,N121,NE,4,4
+Estação de Ermidas - Sado,Grândola,Comboio,27.6,Linha do Sul - Alfa Pendular/Intercidades,NO,2,1
+Estação de Ermidas - Sado,Mimosa,Carro,10.9,IC1,SE,3,4
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,3.1,Linha do Algarve - Regional,SO,5,2
 Estação de Estômbar - Lagoa,Estação de Silves,Comboio,6.0,Linha do Algarve - Regional,NE,4,5
 Estação de Estômbar - Lagoa,Estômbar,Carro,0.5,,N,2,1
@@ -843,6 +859,7 @@ Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,1,3
 Giões,São Bartolomeu de Via Glória,Carro,7.0,,NO,3,2
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
+Grândola,Pinhal Novo,Comboio,69.5,Linha do Sul - Alfa Pendular/Intercidades,NO,2,1
 Guerreiros do Rio,Laranjeiras,Carro,1.2,,NO,1,1
 Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
 Guia,Marina de Albufeira,Carro,7.7,,SE,5,2

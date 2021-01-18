@@ -812,6 +812,16 @@ A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A2 - Saída 6,Águas de Moura,Carro,False,A2 - Algarve/Lisboa
+A2 - Saída 6,Águas de Moura,Carro,False,A6 - Espanha
+A2 - Saída 6,Águas de Moura,Carro,False,Pegões
+A2 - Saída 6,Águas de Moura,Carro,False,Vila Franca de Xira
+A2 - Saída 6,Águas de Moura,Carro,True,IC1 - Alcácer do Sal/Algarve
+A2 - Saída 6,Águas de Moura,Carro,True,Setúbal
+A2 - Saída 6,Cruzamento da A12 com a A2,Carro,False,A6 - Évora
+A2 - Saída 6,Cruzamento da A12 com a A2,Carro,False,Algarve
+A2 - Saída 6,Cruzamento da A12 com a A2,Carro,True,Lisboa
+A2 - Saída 6,Cruzamento da A12 com a A2,Carro,True,Setúbal
 A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,False,Lisboa
 A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,False,Setúbal
 A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
@@ -822,6 +832,17 @@ A2 - Saída 8,A2 - Saída 9,Carro,False,Lisboa
 A2 - Saída 8,A2 - Saída 9,Carro,False,Setúbal
 A2 - Saída 8,A2 - Saída 9,Carro,True,Algarve
 A2 - Saída 8,A2 - Saída 9,Carro,True,Grândola
+A2 - Saída 8,Águas de Moura,Carro,False,Alcácer do Sal
+A2 - Saída 8,Águas de Moura,Carro,False,Beja
+A2 - Saída 8,Águas de Moura,Carro,False,Sines
+A2 - Saída 8,Águas de Moura,Carro,True,Águas de Moura
+A2 - Saída 8,Águas de Moura,Carro,True,Setúbal
+A2 - Saída 8,Alcácer do Sal,Carro,False,A2 - Algarve
+A2 - Saída 8,Alcácer do Sal,Carro,False,Lisboa
+A2 - Saída 8,Alcácer do Sal,Carro,False,Setúbal
+A2 - Saída 8,Alcácer do Sal,Carro,True,Alcácer do Sal
+A2 - Saída 8,Alcácer do Sal,Carro,True,Grândola
+A2 - Saída 8,Alcácer do Sal,Carro,True,IP8 - Beja/Sines
 A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,False,Alcácer do Sal
 A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,False,Algarve
 A2 - Saída 8,Área de Serviço de Alcácer do Sal,Carro,True,A6 - Évora
@@ -831,6 +852,9 @@ A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Alcácer do Sal
 A2 - Saída 9,Área de Serviço de Grândola,Carro,False,Lisboa
 A2 - Saída 9,Área de Serviço de Grândola,Carro,True,A26 - Beja
 A2 - Saída 9,Área de Serviço de Grândola,Carro,True,Algarve
+A2 - Saída 9,Cruzamento do IC1 com o IP8,Carro,False,A2 - Algarve/Beja/Lisboa
+A2 - Saída 9,Cruzamento do IC1 com o IP8,Carro,True,IC1 - Grândola
+A2 - Saída 9,Cruzamento do IC1 com o IP8,Carro,True,Sines
 A2 - Saída 11,A2 - Saída 12,Carro,False,Aljustrel
 A2 - Saída 11,A2 - Saída 12,Carro,False,Lisboa
 A2 - Saída 11,A2 - Saída 12,Carro,True,Algarve
@@ -1031,6 +1055,9 @@ A22 - Saída 18,Castro Marim,Carro,True,Vila Real de Santo António
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
 A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
+A26 - Fim,Ferreira do Alentejo,Carro,False,IC1 - Lisboa
+A26 - Fim,Ferreira do Alentejo,Carro,True,Beja
+A26 - Fim,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
@@ -1047,6 +1074,11 @@ Aeroporto de Faro,Montenegro,Carro,True,Faro
 "Álamo, Mértola",Espírito Santo,Carro,False,Mértola
 "Álamo, Mértola",Espírito Santo,Carro,True,Alcoutim
 "Álamo, Mértola",Espírito Santo,Carro,True,Espírito Santo
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Alcácer do Sal
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Lisboa
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Beja
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Grândola
+Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Sines
 Alcantarilha,"Pêra, Silves",Carro,False,Portimão
 Alcantarilha,"Pêra, Silves",Carro,True,Albufeira
 Alcantarilha,"Pêra, Silves",Carro,True,Faro
@@ -1266,6 +1298,10 @@ Barranco do Velho,São Brás de Alportel,Carro,True,Faro
 Barranco do Velho,São Brás de Alportel,Carro,True,São Brás de Alportel
 Beja,Ervidel,Carro,False,Beja
 Beja,Ervidel,Carro,True,Aljustrel
+Beja,Ferreira do Alentejo,Carro,False,Beja
+Beja,Ferreira do Alentejo,Carro,False,Vila Verde de Ficalho
+Beja,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+Beja,Ferreira do Alentejo,Carro,True,Lisboa
 Beja,IP2 - Saída 42,Carro,False,Beja
 Beja,IP2 - Saída 42,Carro,True,Castro Verde
 Beja,IP2 - Saída 42,Carro,True,Mértola
@@ -1333,6 +1369,14 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
+Canal Caveira,Cruzamento da A2 com a A26,Carro,False,Grândola
+Canal Caveira,Cruzamento da A2 com a A26,Carro,False,Sines
+Canal Caveira,Cruzamento da A2 com a A26,Carro,True,Faro
+Canal Caveira,Cruzamento da A2 com a A26,Carro,True,Ourique
+Canal Caveira,Grândola,Carro,False,Faro
+Canal Caveira,Grândola,Carro,False,Ourique
+Canal Caveira,Grândola,Carro,True,Grândola
+Canal Caveira,Grândola,Carro,True,Lisboa
 Carvoeiro,Lagoa,Carro,False,Carvoeiro
 Carvoeiro,Lagoa,Carro,True,Lagoa
 Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,A22
@@ -1519,6 +1563,10 @@ Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Córdoba/Madrid
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,Aeroporto de Sevilha - San Pablo
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Ourique
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Portimão
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,A22
@@ -1674,6 +1722,9 @@ Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,False,A-49 - Huelva
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,False,A-66 - Mérida
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Ronda Urbana Norte de Sevilha
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Sevilha - Rua Torneo
+Cruzamento do IC1 com o IP8,Grândola,Carro,False,Alcácer do Sal
+Cruzamento do IC1 com o IP8,Grândola,Carro,False,Lisboa
+Cruzamento do IC1 com o IP8,Grândola,Carro,True,Grândola
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Faro
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,True,A22 - Espanha/Portimão
@@ -1700,6 +1751,11 @@ Entradas,IP2 - Saída 48,Carro,False,Entradas
 Entradas,IP2 - Saída 48,Carro,True,A2
 Entradas,IP2 - Saída 48,Carro,True,Castro Verde
 Entradas,IP2 - Saída 48,Carro,True,Ourique
+Ervidel,Ferreira do Alentejo,Carro,False,Aljustrel
+Ervidel,Ferreira do Alentejo,Carro,False,Castro Verde
+Ervidel,Ferreira do Alentejo,Carro,False,Faro
+Ervidel,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+Ervidel,Ferreira do Alentejo,Carro,True,Odivelas
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Luz
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Sagres
 Espiche,N125 - Acesso à Saída 1 da A22,Carro,False,Vila do Bispo
@@ -1773,6 +1829,18 @@ Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Lisboa - Orient
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Pinhal Novo
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Faro
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Tunes
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,False,Santiago do Cacém
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,False,Sines
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,True,Beja
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+Estação de Ermidas - Sado,Grândola,Comboio,False,Faro
+Estação de Ermidas - Sado,Grândola,Comboio,False,Tunes
+Estação de Ermidas - Sado,Grândola,Comboio,True,Lisboa - Oriente
+Estação de Ermidas - Sado,Grândola,Comboio,True,Pinhal Novo
+Estação de Ermidas - Sado,Mimosa,Carro,False,Grândola
+Estação de Ermidas - Sado,Mimosa,Carro,False,Lisboa
+Estação de Ermidas - Sado,Mimosa,Carro,True,Faro
+Estação de Ermidas - Sado,Mimosa,Carro,True,Ourique
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Tunes
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,False,Vila Real de Santo António
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,True,Lagos
@@ -1888,6 +1956,10 @@ Fuseta,Quatro Águas,Barco,False,Faro
 Fuseta,Quatro Águas,Barco,False,Portimão
 Fuseta,Quatro Águas,Barco,True,Huelva
 Fuseta,Quatro Águas,Barco,True,Vila Real de Santo António
+Grândola,Pinhal Novo,Comboio,False,Faro
+Grândola,Pinhal Novo,Comboio,False,Tunes
+Grândola,Pinhal Novo,Comboio,True,Lisboa - Oriente
+Grândola,Pinhal Novo,Comboio,True,Porto - Campanhã
 Guia,Zoomarine,Carro,False,Albufeira
 Guia,Zoomarine,Carro,False,Faro
 Guia,Zoomarine,Carro,True,Portimão
