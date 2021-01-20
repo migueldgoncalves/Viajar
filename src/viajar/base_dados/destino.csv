@@ -1079,6 +1079,9 @@ Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Lisboa
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Beja
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Grândola
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Sines
+Alcácer do Sal,Torrão,Carro,False,Alcácer do Sal
+Alcácer do Sal,Torrão,Carro,False,Setúbal
+Alcácer do Sal,Torrão,Carro,True,Torrão
 Alcantarilha,"Pêra, Silves",Carro,False,Portimão
 Alcantarilha,"Pêra, Silves",Carro,True,Albufeira
 Alcantarilha,"Pêra, Silves",Carro,True,Faro
@@ -1251,6 +1254,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Algarve
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Lisboa
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,True,Setúbal
+Aroche,Rosal de la Frontera,Carro,False,Aroche
+Aroche,Rosal de la Frontera,Carro,False,Sevilha
+Aroche,Rosal de la Frontera,Carro,True,Portugal
+Aroche,Rosal de la Frontera,Carro,True,Rosal de la Frontera
 Ayamonte,Costa Esuri,Barco,False,Ayamonte
 Ayamonte,Costa Esuri,Barco,False,Vila Real de Santo António
 Ayamonte,Costa Esuri,Barco,True,Alcoutim
@@ -1932,6 +1939,10 @@ Ferragudo,Marina de Portimão,Barco,True,Marina de Portimão
 Ferragudo,Porto Comercial de Portimão,Barco,False,Marina de Portimão
 Ferragudo,Porto Comercial de Portimão,Barco,True,Portimão - Centro da cidade
 Ferragudo,Porto Comercial de Portimão,Barco,True,Silves
+Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,False,Castro Verde
+Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,False,Ferreira do Alentejo
+Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,True,Odivelas
+Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,True,Torrão
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,False,Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Estádio Algarve
@@ -2158,6 +2169,10 @@ Odemira,São Teotónio,Carro,True,Aljezur
 Odemira,São Teotónio,Carro,True,Lagos
 Odemira,Vila Nova de Milfontes,Barco,False,Odemira
 Odemira,Vila Nova de Milfontes,Barco,True,Vila Nova de Milfontes
+"Odivelas, Ferreira do Alentejo",Torrão,Carro,False,Beja
+"Odivelas, Ferreira do Alentejo",Torrão,Carro,False,Ferreira do Alentejo
+"Odivelas, Ferreira do Alentejo",Torrão,Carro,True,Montemor-o-Novo
+"Odivelas, Ferreira do Alentejo",Torrão,Carro,True,Torrão
 Olhão,Pechão,Carro,False,Olhão
 Olhão,Pechão,Carro,True,A22
 Olhão,Variante de Faro - Nó com a M518,Carro,False,Olhão
