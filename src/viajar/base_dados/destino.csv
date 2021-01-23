@@ -375,6 +375,9 @@ A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,A-66 - Cáceres
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,Madrid
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,True,Badajoz
+A-5 - Saída 346,A-5 - Saída 352,Carro,False,Madrid
+A-5 - Saída 346,A-5 - Saída 352,Carro,False,Mérida
+A-5 - Saída 346,A-5 - Saída 352,Carro,True,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,False,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,A-66 - Cáceres
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,Madrid
@@ -1058,6 +1061,12 @@ A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,False,IC1 - Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,True,Beja
 A26 - Fim,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Espanha
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Évora
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Vendas Novas
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Algarve
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Lisboa
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Setúbal
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
@@ -1285,6 +1294,12 @@ Bar do Rio,Laranjeiras,Barco,True,Alcoutim
 Bar do Rio,Laranjeiras,Barco,True,Mértola
 Barragem da Bravura,Odiáxere,Carro,False,Barragem da Bravura
 Barragem da Bravura,Odiáxere,Carro,True,Odiáxere
+Barragem do Alqueva,"Estrela, Moura",Barco,False,Beja
+Barragem do Alqueva,"Estrela, Moura",Barco,False,Moura
+Barragem do Alqueva,"Estrela, Moura",Barco,False,Portel
+Barragem do Alqueva,"Estrela, Moura",Barco,True,Badajoz
+Barragem do Alqueva,"Estrela, Moura",Barco,True,Elvas
+Barragem do Alqueva,"Estrela, Moura",Barco,True,Mourão
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,False,Ameixal
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,False,Barranco do Velho
 Barranco do Velho,Cruzamento da N124 com a N396,Carro,True,Loulé

@@ -131,7 +131,8 @@ A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,1.4,A-5,SO,1,2
-A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,1.1,A-5,NE,1,1
+A-5 - Saída 346,A-5 - Saída 352,Carro,6.9,A-5,SO,1,1
+A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,1.1,A-5,NE,2,1
 A-66 - Saída 626,A-66 - Saída 627,Carro,1.0,A-66,S,1,2
 A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,1.2,A-66,NO,2,3
 A-66 - Saída 627,A-66 - Saída 630,Carro,3.4,A-66,S,1,2
@@ -332,6 +333,7 @@ A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
 A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
+A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,13.2,A6,SO,1,2
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
 Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
@@ -436,6 +438,7 @@ Alvor,Portimão - Avenida São Lourenço da Barrosa,Carro,4.8,,NE,2,7
 Alvor,Praia do Vau,Carro,4.1,,SE,1,3
 Amareleja,Barrancos,Carro,27.1,,SE,2,4
 Amareleja,Safara,Carro,13.4,,S,1,3
+Amareleja,Póvoa de São Miguel,Carro,11.0,,NO,4,2
 Amareleja,Valencia del Mombuey,Carro,12.9,,NE,3,2
 Ameixal,Miradouro do Caldeirão,Carro,9.7,N2,S,1,2
 Ameixal,Corte João Marques,Carro,8.7,,E,2,3
@@ -497,6 +500,8 @@ Barragem da Bravura,Odiáxere,Carro,9.2,N125-9,SE,1,2
 Barragem de Alcoutim,Corte Tabelião,Carro,2.1,,SO,2,1
 Barragem de Odeleite,Choça Queimada,Carro,1.0,,SE,1,3
 Barragem de Santa Clara,Estação de Santa Clara - Sabóia,Carro,6.8,,SO,1,3
+Barragem do Alqueva,"Estrela, Moura",Barco,14.1,Barragem do Alqueva,NE,2,2
+Barragem do Alqueva,Moura,Carro,12.9,,SE,1,5
 Barragem do Beliche,Sentinela,Carro,3.6,,N,1,3
 Barragem do Beliche,Beliche,Carro,0.6,,E,2,1
 Barragem do Beliche,Vale de Andreu,Carro,1.3,,SE,3,1
@@ -834,6 +839,7 @@ Estoi,Moncarapacho,Carro,10.3,,E,1,5
 Estoi,Pechão,Carro,4.8,N2-6,SE,2,3
 Estoi,Ruínas Romanas de Milreu,Carro,0.9,N2-6,O,4,1
 Estômbar,Parque Municipal do Sítio das Fontes,Carro,2.1,,N,2,1
+"Estrela, Moura",Póvoa de São Miguel,Carro,9.0,,SE,1,3
 Faro - Avenida Calouste Gulbenkian,Forum Algarve,Carro,1.7,,NO,1,1
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,2.7,N2,N,2,3
 Faro - Avenida Calouste Gulbenkian,Universidade do Algarve - Campus da Penha,Carro,1.8,,E,3,1
@@ -978,6 +984,10 @@ Montes Altos,Santana de Cambas,Carro,4.8,,SO,1,4
 Montinho de Odeleite,Vale do Pereiro,Carro,2.2,,N,2,3
 Moreanes,Santana de Cambas,Carro,4.4,,SE,3,2
 Moreanes,Sapos,Carro,4.2,,E,4,2
+Moura,Pias,Carro,15.3,,S,1,3
+Moura,Póvoa de São Miguel,Carro,16.3,,NE,4,1
+Moura,Safara,Carro,21.5,,SE,3,4
+Moura,Sobral da Adiça,Carro,24.5,,SE,2,4
 Murteira de Baixo,Murteira de Cima,Carro,0.4,,NO,1,2
 Murteira de Cima,Portela Alta de Cima,Carro,2.0,,NO,1,4
 Murteira de Cima,Sentinela,Carro,1.9,,S,3,4

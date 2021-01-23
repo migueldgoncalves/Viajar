@@ -26,6 +26,7 @@ A22 - Saída 7,Alcantarilha,Silves
 A22 - Saída 8,Pêra,Silves
 A22 - Saída 9,Ferreiras,Albufeira
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
+A6 - Saída 2,Vendas Novas,Vendas Novas
 Achada do Gamo,Santana de Cambas,Mértola
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
@@ -84,6 +85,7 @@ Barragem da Bravura,Bensafrim,Lagos
 Barragem de Alcoutim,Alcoutim,Alcoutim
 Barragem de Odeleite,Odeleite,Castro Marim
 Barragem de Santa Clara,Santa Clara-a-Velha,Odemira
+Barragem do Alqueva,São João Baptista,Moura
 Barragem do Beliche,Castro Marim,Castro Marim
 Barranco das Pereiras,Alcoutim,Alcoutim
 Barranco do Velho,Salir,Loulé
@@ -220,6 +222,7 @@ Estação de Tavira,Santiago,Tavira
 Estádio Algarve,Almancil,Loulé
 Estoi,Estoi,Faro
 Estômbar,Estômbar,Lagoa
+"Estrela, Moura",Póvoa de São Miguel,Moura
 Faro - Avenida Calouste Gulbenkian,São Pedro,Faro
 Faro - São Pedro,São Pedro,Faro
 Faro - Sé,Sé,Faro
@@ -314,6 +317,7 @@ Montinho,Alcoutim,Alcoutim
 Montinho das Laranjeiras,Alcoutim,Alcoutim
 Montinho de Odeleite,Odeleite,Castro Marim
 Moreanes,Santana de Cambas,Mértola
+Moura,Santo Agostinho,Moura
 Murteira de Baixo,Azinhal,Castro Marim
 Murteira de Cima,Azinhal,Castro Marim
 N125 - Acesso a Estômbar e Ferragudo,Estômbar,Lagoa
@@ -360,6 +364,7 @@ Portimão - Zona ribeirinha,Portimão,Portimão
 Porto Comercial de Portimão,Portimão,Portimão
 Porto de Faro,Sé,Faro
 Porto de Pesca de Portimão,Parchal,Lagoa
+Póvoa de São Miguel,Póvoa de São Miguel,Moura
 Praia da Amoreira,Aljezur,Aljezur
 Praia da Arrifana,Aljezur,Aljezur
 Praia da Barreta,Sé,Faro
