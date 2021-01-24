@@ -1318,6 +1318,10 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,True,Martim Long
 Barranco do Velho,São Brás de Alportel,Carro,False,Almodôvar
 Barranco do Velho,São Brás de Alportel,Carro,True,Faro
 Barranco do Velho,São Brás de Alportel,Carro,True,São Brás de Alportel
+Beja,Cuba,Comboio,False,Beja
+Beja,Cuba,Comboio,True,Casa Branca
+Beja,Cuba,Comboio,True,Évora
+Beja,Cuba,Comboio,True,Lisboa - Oriente
 Beja,Ervidel,Carro,False,Beja
 Beja,Ervidel,Carro,True,Aljustrel
 Beja,Ferreira do Alentejo,Carro,False,Beja
@@ -1755,6 +1759,10 @@ Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,A22 - 
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,Loulé
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Faro
+Cuba,Estação de Alvito,Comboio,False,Beja
+Cuba,Estação de Alvito,Comboio,True,Casa Branca
+Cuba,Estação de Alvito,Comboio,True,Évora
+Cuba,Estação de Alvito,Comboio,True,Lisboa - Oriente
 Culatra,Hangares,Barco,False,Olhão
 Culatra,Hangares,Barco,False,Vila Nova de Cacela
 Culatra,Hangares,Barco,True,Faro
@@ -1806,6 +1814,10 @@ Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Faro
 Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Vila Real de Santo António
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lagos
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lisboa - Oriente
+Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Casa Branca
+Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Évora
+Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Lisboa - Oriente
+Estação de Alcáçovas,Vila Nova da Baronia,Comboio,True,Beja
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
@@ -1817,6 +1829,10 @@ Estação de Almancil,Estação de Parque das Cidades,Comboio,False,Lagos
 Estação de Almancil,Estação de Parque das Cidades,Comboio,False,Tunes
 Estação de Almancil,Estação de Parque das Cidades,Comboio,True,Faro
 Estação de Almancil,Estação de Parque das Cidades,Comboio,True,Vila Real de Santo António
+Estação de Alvito,Vila Nova da Baronia,Comboio,False,Beja
+Estação de Alvito,Vila Nova da Baronia,Comboio,True,Casa Branca
+Estação de Alvito,Vila Nova da Baronia,Comboio,True,Évora
+Estação de Alvito,Vila Nova da Baronia,Comboio,True,Lisboa - Oriente
 Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,False,Faro
 Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,False,Tunes
 Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,True,Lisboa - Oriente
@@ -2070,6 +2086,18 @@ Ilha do Farol,Porto de Faro,Barco,True,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Vila Nova de Cacela
 Ilha do Farol,Praia da Barreta,Barco,True,Cabo de Santa Maria
+IP2 - Saída 38,IP2 - Saída 39,Carro,False,Évora
+IP2 - Saída 38,IP2 - Saída 39,Carro,False,Portel
+IP2 - Saída 38,IP2 - Saída 39,Carro,True,Beja
+IP2 - Saída 38,IP2 - Saída 39,Carro,True,Vidigueira
+IP2 - Saída 39,IP2 - Saída 40,Carro,False,Évora
+IP2 - Saída 39,IP2 - Saída 40,Carro,False,Vidigueira - Norte
+IP2 - Saída 39,IP2 - Saída 40,Carro,True,Beja
+IP2 - Saída 39,IP2 - Saída 40,Carro,True,Vidigueira - Sul
+IP2 - Saída 40,IP2 - Saída 41,Carro,False,Évora
+IP2 - Saída 40,IP2 - Saída 41,Carro,False,Vidigueira - Sul
+IP2 - Saída 40,IP2 - Saída 41,Carro,True,Beja
+IP2 - Saída 40,IP2 - Saída 41,Carro,True,São Matias
 IP2 - Saída 41,São Matias,Carro,False,Évora
 IP2 - Saída 41,São Matias,Carro,False,Vidigueira
 IP2 - Saída 41,São Matias,Carro,True,Beja

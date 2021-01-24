@@ -186,6 +186,7 @@ Cruzamento da N269 com a N269-2,Tunes,Silves
 Cruzamento do IC1 com o IP8,Grândola,Grândola
 Cruzamento do IC4 com a M520,São Pedro,Faro
 Cruzamento do IC4 com a N125,Almancil,Loulé
+Cuba,Cuba,Cuba
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
@@ -196,8 +197,10 @@ Espírito Santo,Espírito Santo,Mértola
 Estação da Luz,Luz de Tavira,Tavira
 Estação da Porta Nova,Santa Maria,Tavira
 Estação de Albufeira - Ferreiras,Ferreiras,Albufeira
+Estação de Alcáçovas,Nossa Senhora da Tourega,Évora
 Estação de Alcantarilha,Alcantarilha,Silves
 Estação de Almancil,Almancil,Loulé
+Estação de Alvito,Alvito,Alvito
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
 Estação de Boliqueime,Boliqueime,Loulé
 Estação de Bom João,Sé,Faro
@@ -260,6 +263,9 @@ IC27 - Saída 6,Alcoutim,Alcoutim
 IC27 - Saída 7,Alcoutim,Alcoutim
 Ilha da Armona,Quelfes,Olhão
 Ilha do Farol,Sé,Faro
+IP2 - Saída 38,Santana,Portel
+IP2 - Saída 39,Vidigueira,Vidigueira
+IP2 - Saída 40,Vidigueira,Vidigueira
 IP2 - Saída 41,São Matias,Beja
 IP2 - Saída 42,Santa Clara de Louredo,Beja
 IP2 - Saída 43,Trindade,Beja
@@ -476,7 +482,9 @@ Variante de Faro - Nó com a N2,Conceição,Faro
 Variante de Faro - Nó com o IC4,São Pedro,Faro
 "Vicentes, Alcoutim",Pereiro,Alcoutim
 "Vicentes, Mértola",Espírito Santo,Mértola
+Vidigueira,Vidigueira,Vidigueira
 Vila do Bispo,Vila do Bispo,Vila do Bispo
+Vila Nova da Baronia,Vila Nova da Baronia,Alvito
 Vila Nova de Cacela,Vila Nova de Cacela,Vila Real de Santo António
 Vila Nova de Milfontes,Vila Nova de Milfontes,Odemira
 Vila Nova de São Bento,Vila Nova de São Bento,Serpa
@@ -484,6 +492,7 @@ Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo Antó
 Vila Verde de Ficalho,Vila Verde de Ficalho,Serpa
 Vilamoura,Quarteira,Loulé
 Villa Romana de Pisões,Santiago Maior,Beja
+Villa Romana de São Cucufate,Vila de Frades,Vidigueira
 Vista Real,Castro Marim,Castro Marim
 Zambujal,Espírito Santo,Mértola
 Zambujeira do Mar,Zambujeira do Mar,Odemira

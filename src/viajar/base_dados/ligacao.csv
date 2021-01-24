@@ -513,6 +513,7 @@ Barranco do Velho,Cruzamento da N124 com a N396,Carro,3.3,N124,O,4,1
 Barrancos,Encinasola,Carro,11.5,,E,2,1
 Barrancos,Santo Aleixo da Restauração,Carro,21.5,,SO,3,2
 Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
+Beja,Cuba,Comboio,16.8,Linha do Alentejo - Intercidades/Regional,N,8,1
 Beja,Ervidel,Carro,22.4,N18,SO,6,3
 Beja,Ferreira do Alentejo,Carro,24.2,IP8,NO,7,1
 Beja,IP2 - Saída 42,Carro,5.5,IP2,S,2,1
@@ -740,6 +741,7 @@ Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
 Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
 Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
+Cuba,Estação de Alvito,Comboio,12.2,Linha do Alentejo - Intercidades/Regional,NO,2,1
 Culatra,Ilha da Armona,Barco,6.2,Ria Formosa,NE,1,2
 Culatra,Hangares,Barco,1.6,Ria Formosa,SO,2,1
 Culatra,Olhão,Barco,5.1,Ria Formosa,N,3,8
@@ -766,10 +768,12 @@ Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,5.2,Linha do 
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,17.1,Linha do Algarve - Alfa Pendular/Intercidades,SE,5,6
 Estação de Albufeira - Ferreiras,Ferreiras,Carro,1.2,,SO,2,2
 Estação de Albufeira - Ferreiras,Tunes,Comboio,5.2,Linha do Algarve - Alfa Pendular/Intercidades/Regional,NO,4,6
+Estação de Alcáçovas,Vila Nova da Baronia,Comboio,14.5,Linha do Alentejo - Intercidades,SE,1,2
 Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
 Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,5
 Estação de Almancil,Estação de Parque das Cidades,Comboio,4.2,Linha do Algarve - Regional,SE,3,4
 Estação de Almancil,Estação de Loulé,Comboio,3.4,Linha do Algarve - Regional,NO,4,3
+Estação de Alvito,Vila Nova da Baronia,Comboio,8.2,Linha do Alentejo - Intercidades/Regional,NO,2,1
 Estação de Amoreiras - Odemira,Estação de Funcheira,Comboio,8.9,Linha do Sul - Intercidades,NE,2,1
 Estação de Amoreiras - Odemira,Estação de Santa Clara - Sabóia,Comboio,31.3,Linha do Sul - Intercidades,SO,1,7
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,4.7,N123-1,S,3,4
@@ -916,7 +920,12 @@ IC27 - Saída 7,Tacões,Carro,3.5,N124,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
-IP2 - Saída 41,São Matias,Carro,6.3,IP2,SO,1,1
+IP2 - Saída 38,IP2 - Saída 39,Carro,4.0,IP2,SO,1,1
+IP2 - Saída 39,IP2 - Saída 40,Carro,2.7,IP2,S,2,1
+IP2 - Saída 39,Vidigueira,Carro,1.4,,S,3,2
+IP2 - Saída 40,IP2 - Saída 41,Carro,5.7,IP2,SO,2,1
+IP2 - Saída 40,Vidigueira,Carro,1.5,,N,3,1
+IP2 - Saída 41,São Matias,Carro,6.3,IP2,SO,2,1
 IP2 - Saída 42,IP2 - Saída 43,Carro,4.9,IP2,S,2,1
 IP2 - Saída 42,Santa Clara de Louredo,Carro,0.3,,E,3,1
 IP2 - Saída 43,IP2 - Saída 44,Carro,2.2,IP2,S,2,1
@@ -988,6 +997,7 @@ Moura,Pias,Carro,15.3,,S,1,3
 Moura,Póvoa de São Miguel,Carro,16.3,,NE,4,1
 Moura,Safara,Carro,21.5,,SE,3,4
 Moura,Sobral da Adiça,Carro,24.5,,SE,2,4
+Moura,Vidigueira,Carro,35.5,,NO,6,3
 Murteira de Baixo,Murteira de Cima,Carro,0.4,,NO,1,2
 Murteira de Cima,Portela Alta de Cima,Carro,2.0,,NO,1,4
 Murteira de Cima,Sentinela,Carro,1.9,,S,3,4
@@ -1143,5 +1153,6 @@ Universidade do Algarve - Campus de Gambelas,Variante de Faro - Nó com o IC4,Ca
 Universidade do Algarve - Campus da Penha,Variante de Faro - Nó com a M518,Carro,2.4,,NE,3,5
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Carro,2.0,Variante de Faro,E,1,2
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,1.9,Variante de Faro,NO,1,2
+Vidigueira,Villa Romana de São Cucufate,Carro,5.1,,NO,4,1
 Vila Nova de Milfontes,Zambujeira do Mar,Carro,31.2,,S,1,2
 Vila Nova de São Bento,Vila Verde de Ficalho,Carro,10.6,IP8,NE,3,1
