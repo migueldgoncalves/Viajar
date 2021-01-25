@@ -802,6 +802,13 @@ A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Almería
 A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Granada
 A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Jaén
 A-92 - Saída 149,Cruzamento da A-45 com a A-92,Carro,True,Málaga
+A-92 - Saída 160,A-92 - Saída 163,Carro,False,Cádiz
+A-92 - Saída 160,A-92 - Saída 163,Carro,False,Córdoba
+A-92 - Saída 160,A-92 - Saída 163,Carro,False,Huelva
+A-92 - Saída 160,A-92 - Saída 163,Carro,False,Sevilha
+A-92 - Saída 160,A-92 - Saída 163,Carro,True,Almería
+A-92 - Saída 160,A-92 - Saída 163,Carro,True,Granada
+A-92 - Saída 160,A-92 - Saída 163,Carro,True,Jaén
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Almería
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Granada
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,False,Jaén
@@ -809,8 +816,39 @@ A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Cádiz
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Córdoba
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Huelva
 A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
+A-92 - Saída 163,A-92 - Saída 167,Carro,False,Cádiz
+A-92 - Saída 163,A-92 - Saída 167,Carro,False,Córdoba
+A-92 - Saída 163,A-92 - Saída 167,Carro,False,Huelva
+A-92 - Saída 163,A-92 - Saída 167,Carro,False,Sevilha
+A-92 - Saída 163,A-92 - Saída 167,Carro,True,Almería
+A-92 - Saída 163,A-92 - Saída 167,Carro,True,Granada
+A-92 - Saída 163,A-92 - Saída 167,Carro,True,Jaén
+A-92 - Saída 167,A-92 - Saída 175,Carro,False,Cádiz
+A-92 - Saída 167,A-92 - Saída 175,Carro,False,Córdoba
+A-92 - Saída 167,A-92 - Saída 175,Carro,False,Huelva
+A-92 - Saída 167,A-92 - Saída 175,Carro,False,Sevilha
+A-92 - Saída 167,A-92 - Saída 175,Carro,True,Almería
+A-92 - Saída 167,A-92 - Saída 175,Carro,True,Granada
+A-92 - Saída 167,A-92 - Saída 175,Carro,True,Jaén
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,False,Cádiz
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,False,Córdoba
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,False,Huelva
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,False,Sevilha
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Almería
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Granada
+A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Jaén
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Almería
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Granada
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Jaén
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Cádiz
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Córdoba
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Huelva
+A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Sevilha
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
+A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,False,Málaga
+A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,True,Granada
+A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,True,Loja
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve

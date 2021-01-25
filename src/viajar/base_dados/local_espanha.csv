@@ -179,8 +179,13 @@ A-92 - Saída 142,Mollina,Málaga,
 A-92 - Saída 146,Antequera,Málaga,
 A-92 - Saída 149,Antequera,Málaga,
 A-92 - Saída 160,Archidona,Málaga,
+A-92 - Saída 163,Archidona,Málaga,
+A-92 - Saída 167,Archidona,Málaga,
+A-92 - Saída 175,Archidona,Málaga,
+A-92 - Saída 178,Loja,Granada,
 A-92 - Sevilha Este,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
+A-92M - Saída 1,Archidona,Málaga,
 Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Sevilha - San Pablo,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
@@ -222,6 +227,7 @@ Cruzamento da A-5 com a A-66 Sul,Mérida,Badajoz,
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
 Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
+Cruzamento da A-92 com a A-92M,Loja,Granada,
 Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da H-30 com a H-31,Huelva,Huelva,
