@@ -32,6 +32,45 @@ A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
 A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-4 - Saída 391,A-4 - Saída 396,Carro,False,Bailén
+A-4 - Saída 391,A-4 - Saída 396,Carro,False,Madrid
+A-4 - Saída 391,A-4 - Saída 396,Carro,True,Córdoba
+A-4 - Saída 396,Cruzamento da A-4 com a CO-31,Carro,False,Bailén
+A-4 - Saída 396,Cruzamento da A-4 com a CO-31,Carro,False,Madrid
+A-4 - Saída 396,Cruzamento da A-4 com a CO-31,Carro,False,Montoro
+A-4 - Saída 396,Cruzamento da A-4 com a CO-31,Carro,True,Córdoba
+A-4 - Saída 400,A-4 - Saída 401,Carro,False,Badajoz
+A-4 - Saída 400,A-4 - Saída 401,Carro,False,Bailén
+A-4 - Saída 400,A-4 - Saída 401,Carro,False,Madrid
+A-4 - Saída 400,A-4 - Saída 401,Carro,True,Cádiz
+A-4 - Saída 400,A-4 - Saída 401,Carro,True,Granada
+A-4 - Saída 400,A-4 - Saída 401,Carro,True,Málaga
+A-4 - Saída 400,A-4 - Saída 401,Carro,True,Sevilha
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,False,Cádiz
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,False,Granada
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,False,Málaga
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,False,Sevilha
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,True,Badajoz
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,True,Bailén
+A-4 - Saída 400,Cruzamento da A-4 com a CO-31,Carro,True,Madrid
+A-4 - Saída 401,A-4 - Saída 403,Carro,False,Badajoz
+A-4 - Saída 401,A-4 - Saída 403,Carro,False,Madrid
+A-4 - Saída 401,A-4 - Saída 403,Carro,True,Cádiz
+A-4 - Saída 401,A-4 - Saída 403,Carro,True,Granada
+A-4 - Saída 401,A-4 - Saída 403,Carro,True,Málaga
+A-4 - Saída 401,A-4 - Saída 403,Carro,True,Sevilha
+A-4 - Saída 403,A-4 - Saída 404,Carro,False,Badajoz
+A-4 - Saída 403,A-4 - Saída 404,Carro,False,Córdoba - Sul
+A-4 - Saída 403,A-4 - Saída 404,Carro,False,Granada
+A-4 - Saída 403,A-4 - Saída 404,Carro,False,Madrid
+A-4 - Saída 403,A-4 - Saída 404,Carro,True,A-45 - Málaga
+A-4 - Saída 403,A-4 - Saída 404,Carro,True,Cádiz
+A-4 - Saída 403,A-4 - Saída 404,Carro,True,Sevilha
+A-4 - Saída 404,A-4 - Saída 406,Carro,False,Badajoz
+A-4 - Saída 404,A-4 - Saída 406,Carro,False,Madrid
+A-4 - Saída 404,A-4 - Saída 406,Carro,True,A-45 - Málaga
+A-4 - Saída 404,A-4 - Saída 406,Carro,True,Cádiz
+A-4 - Saída 404,A-4 - Saída 406,Carro,True,Sevilha
 A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,False,Córdoba - Centro da cidade
 A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,False,Madrid
 A-4 - Saída 406,Cruzamento da A-4 com a A-45,Carro,True,A-45 - Málaga
