@@ -11,6 +11,22 @@ A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
 A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
 A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
 A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-4 - Saída 335,A-4 - Saída 339,Carro,3.6,A-4,SO,1,2
+A-4 - Saída 339,A-4 - Saída 346,Carro,6.4,A-4,SO,1,2
+A-4 - Saída 346,A-4 - Saída 348,Carro,2.1,A-4,SO,1,2
+A-4 - Saída 348,A-4 - Saída 350,Carro,1.8,A-4,O,1,2
+A-4 - Saída 350,A-4 - Saída 356,Carro,4.4,A-4,NO,1,2
+A-4 - Saída 356,A-4 - Saída 358,Carro,2.3,A-4,NO,1,2
+A-4 - Saída 358,A-4 - Saída 359,Carro,1.1,A-4,O,1,2
+A-4 - Saída 359,A-4 - Saída 361,Carro,1.8,A-4,SO,1,2
+A-4 - Saída 361,A-4 - Saída 364,Carro,3.0,A-4,SO,1,2
+A-4 - Saída 364,A-4 - Saída 367,Carro,3.6,A-4,SO,1,2
+A-4 - Saída 367,A-4 - Saída 370,Carro,2.1,A-4,SO,1,2
+A-4 - Saída 370,A-4 - Saída 374,Carro,4.6,A-4,SO,1,2
+A-4 - Saída 374,A-4 - Saída 377,Carro,3.1,A-4,SO,1,2
+A-4 - Saída 377,A-4 - Saída 383,Carro,5.1,A-4,SO,1,2
+A-4 - Saída 383,A-4 - Saída 385,Carro,2.0,A-4,SO,1,2
+A-4 - Saída 385,A-4 - Saída 391,Carro,5.6,A-4,SO,1,2
 A-4 - Saída 391,A-4 - Saída 396,Carro,4.6,A-4,SO,1,2
 A-4 - Saída 396,Cruzamento da A-4 com a CO-31,Carro,2.8,A-4,O,1,2
 A-4 - Saída 400,A-4 - Saída 401,Carro,0.6,A-4,SO,1,2
