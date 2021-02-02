@@ -11,6 +11,25 @@ A-376 - Saída 8,A-376 - Saída 11/13,Carro,3.3,A-376,SE,2,1
 A-376 - Saída 8,Cruzamento da A-376 com a SE-40,Carro,1.4,A-376,NO,1,4
 A-376 - Saída 11/13,A-376 - Saída 16,Carro,4.9,A-376,SE,2,1
 A-376 - Saída 16,A-376 - Saída 21,Carro,4.4,A-376,SE,2,1
+A-381 - Saída 1,A-381 - Saída 4,Carro,3.5,A-381,SE,2,1
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,0.9,A-381,NO,1,3
+A-381 - Saída 4,A-381 - Saída 10,Carro,7.0,A-381,SE,2,1
+A-381 - Saída 10,A-381 - Saída 17,Carro,6.5,A-381,SE,2,1
+A-381 - Saída 17,A-381 - Saída 24,Carro,6.6,A-381,SE,2,1
+A-381 - Saída 24,A-381 - Saída 31,Carro,7.1,A-381,SE,2,1
+A-381 - Saída 31,A-381 - Saída 36,Carro,4.4,A-381,E,2,1
+A-381 - Saída 36,A-381 - Saída 40,Carro,4.3,A-381,SE,2,1
+A-381 - Saída 40,A-381 - Saída 42,Carro,1.8,A-381,SE,2,1
+A-381 - Saída 42,A-381 - Saída 45,Carro,2.8,A-381,SE,2,1
+A-381 - Saída 45,A-381 - Saída 54,Carro,9.6,A-381,SE,2,1
+A-381 - Saída 54,A-381 - Saída 66,Carro,11.4,A-381,SE,2,1
+A-381 - Saída 66,A-381 - Saída 70,Carro,4.3,A-381,SE,2,1
+A-381 - Saída 70,A-381 - Saída 73,Carro,3.0,A-381,S,2,1
+A-381 - Saída 73,A-381 - Saída 77,Carro,4.2,A-381,SE,2,1
+A-381 - Saída 77,A-381 - Saída 80,Carro,3.5,A-381,SE,2,1
+A-381 - Saída 80,A-381 - Saída 85,Carro,4.7,A-381,SE,2,1
+A-381 - Saída 85,A-381 - Saída 87,Carro,1.4,A-381,NE,2,1
+A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,1.1,A-381,SE,2,3
 A-4 - Saída 335,A-4 - Saída 339,Carro,3.6,A-4,SO,1,2
 A-4 - Saída 339,A-4 - Saída 346,Carro,6.4,A-4,SO,1,2
 A-4 - Saída 346,A-4 - Saída 348,Carro,2.1,A-4,SO,1,2
@@ -99,6 +118,7 @@ A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Carro,3.0,A-4,N,1,2
 A-4 - Saída 558,AP-4 - Início,Carro,1.5,A-4,SE,2,1
 A-4 - Saída 558,AP-4A - Saída 13,Carro,1.1,,N,3,2
 A-4 - Saída 628,A-4 - Saída 631,Carro,2.8,A-4,SO,2,1
+A-4 - Saída 628,Aeroporto de Jerez,Carro,1.1,N-346,SE,3,1
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,13.2,N-4,NE,1,2
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,1,3
@@ -195,6 +215,21 @@ A-66 - Saída 795,A-66 - Saída 798,Carro,3.3,A-66,SE,1,2
 A-66 - Saída 798,A-66 - Saída 805,Carro,6.9,A-66,SE,1,2
 A-66 - Saída 805,A-66 - Saída 808,Carro,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,2.2,A-66,S,1,3
+A-7 - Saída 103,A-7 - Saída 104,Carro,1.6,A-7,NO,1,1
+A-7 - Saída 104,A-7 - Saída 105,Carro,0.8,A-7,NO,2,1
+A-7 - Saída 105,A-7 - Saída 106,Carro,0.6,A-7,NE,2,1
+A-7 - Saída 106,A-7 - Saída 107A,Carro,0.7,A-7,N,2,1
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,0.5,A-7,NE,2,1
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,0.6,A-7,NE,2,1
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,0.9,A-7,N,2,1
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,0.3,A-7,NO,2,1
+A-7 - Saída 108C,A-7 - Saída 109,Carro,0.6,A-7,NO,2,1
+A-7 - Saída 109,A-7 - Saída 110A,Carro,0.5,A-7,N,2,1
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,0.6,A-7,N,2,1
+A-7 - Saída 111,A-7 - Saída 112,Carro,0.7,A-7,NE,2,1
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,1.2,A-7,SO,1,2
+A-7 - Saída 112,A-7 - Saída 113A,Carro,0.6,A-7,NE,2,1
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,0.6,A-7,NE,2,1
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -373,14 +408,18 @@ Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,4.6,,SE,2,8
 Aeroporto de Beja,Aeroporto de Córdoba,Avião,272.4,,E,6,2
 Aeroporto de Beja,Aeroporto de Faro,Avião,115.7,,S,3,3
+Aeroporto de Beja,Aeroporto de Jerez,Avião,222.3,,SE,7,5
 Aeroporto de Beja,Aeroporto de Sevilha - San Pablo,Avião,193.4,,SE,4,3
 Aeroporto de Beja,Beja,Carro,9.6,,SE,1,3
 Aeroporto de Beja,Cuba,Carro,14.5,,NE,2,5
+Aeroporto de Córdoba,Aeroporto de Jerez,Avião,162.6,,SO,4,3
 Aeroporto de Córdoba,Aeroporto de Sevilha - San Pablo,Avião,104.0,,SO,3,5
 Aeroporto de Córdoba,CO-32 - Fim,Carro,4.1,N-437,NE,1,2
+Aeroporto de Faro,Aeroporto de Jerez,Avião,173.2,,SE,6,4
 Aeroporto de Faro,Montenegro,Carro,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Carro,4.8,,SO,2,1
 Aeroporto de Faro,Aeroporto de Sevilha - San Pablo,Avião,188.9,,NE,4,4
+Aeroporto de Jerez,Aeroporto de Sevilha - San Pablo,Avião,76.1,,N,2,6
 Afonso Vicente,Menires do Lavajo,Carro,1.3,,NE,1,2
 Afonso Vicente,Cortes Pereiras,Carro,2.9,,E,2,1
 Afonso Vicente,Cruzamento da N122 com a M507,Carro,3.5,,SO,3,2
@@ -668,6 +707,8 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
 Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,5.6,SE-40,NE,2,1
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
+Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1,2
+Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,17.2,AP-4,SO,2,1
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1

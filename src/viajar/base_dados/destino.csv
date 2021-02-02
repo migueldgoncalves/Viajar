@@ -32,6 +32,72 @@ A-376 - Saída 11/13,A-376 - Saída 16,Carro,True,Utrera
 A-376 - Saída 16,A-376 - Saída 21,Carro,False,Sevilha
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Ronda
 A-376 - Saída 16,A-376 - Saída 21,Carro,True,Utrera
+A-381 - Saída 1,A-381 - Saída 4,Carro,False,Jerez de la Frontera
+A-381 - Saída 1,A-381 - Saída 4,Carro,True,A-7 - Algeciras
+A-381 - Saída 1,A-381 - Saída 4,Carro,True,Medina Sidonia
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,False,Algeciras
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,False,Medina Sidonia
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,True,Cádiz
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,True,Jerez de la Frontera
+A-381 - Saída 1,Cruzamento da A-381 com a AP-4,Carro,True,Sevilha
+A-381 - Saída 4,A-381 - Saída 10,Carro,False,Jerez de la Frontera
+A-381 - Saída 4,A-381 - Saída 10,Carro,True,A-7 - Algeciras
+A-381 - Saída 4,A-381 - Saída 10,Carro,True,Medina Sidonia
+A-381 - Saída 10,A-381 - Saída 17,Carro,False,Jerez de la Frontera
+A-381 - Saída 10,A-381 - Saída 17,Carro,True,Algeciras
+A-381 - Saída 10,A-381 - Saída 17,Carro,True,Medina Sidonia
+A-381 - Saída 17,A-381 - Saída 24,Carro,False,AP-4 - Sevilha
+A-381 - Saída 17,A-381 - Saída 24,Carro,False,Jerez de la Frontera
+A-381 - Saída 17,A-381 - Saída 24,Carro,True,Algeciras
+A-381 - Saída 17,A-381 - Saída 24,Carro,True,Medina Sidonia
+A-381 - Saída 24,A-381 - Saída 31,Carro,False,AP-4 - Sevilha
+A-381 - Saída 24,A-381 - Saída 31,Carro,False,Jerez de la Frontera
+A-381 - Saída 24,A-381 - Saída 31,Carro,True,A-7 - Algeciras
+A-381 - Saída 24,A-381 - Saída 31,Carro,True,Alcalá de los Gazules
+A-381 - Saída 31,A-381 - Saída 36,Carro,False,Jerez de la Frontera
+A-381 - Saída 31,A-381 - Saída 36,Carro,True,A-7 - Algeciras
+A-381 - Saída 31,A-381 - Saída 36,Carro,True,Alcalá de los Gazules
+A-381 - Saída 36,A-381 - Saída 40,Carro,False,Jerez de la Frontera
+A-381 - Saída 36,A-381 - Saída 40,Carro,True,Algeciras
+A-381 - Saída 40,A-381 - Saída 42,Carro,False,Jerez de la Frontera
+A-381 - Saída 40,A-381 - Saída 42,Carro,True,Algeciras
+A-381 - Saída 42,A-381 - Saída 45,Carro,False,Jerez de la Frontera
+A-381 - Saída 42,A-381 - Saída 45,Carro,True,Algeciras
+A-381 - Saída 45,A-381 - Saída 54,Carro,False,Alcalá de los Gazules
+A-381 - Saída 45,A-381 - Saída 54,Carro,False,Jerez de la Frontera
+A-381 - Saída 45,A-381 - Saída 54,Carro,True,Algeciras
+A-381 - Saída 54,A-381 - Saída 66,Carro,False,AP-4 - Sevilha
+A-381 - Saída 54,A-381 - Saída 66,Carro,False,Alcalá de los Gazules
+A-381 - Saída 54,A-381 - Saída 66,Carro,False,Jerez de la Frontera
+A-381 - Saída 54,A-381 - Saída 66,Carro,True,Algeciras
+A-381 - Saída 54,A-381 - Saída 66,Carro,True,Los Barrios
+A-381 - Saída 66,A-381 - Saída 70,Carro,False,Alcalá de los Gazules
+A-381 - Saída 66,A-381 - Saída 70,Carro,False,Jerez de la Frontera
+A-381 - Saída 66,A-381 - Saída 70,Carro,True,A-7 - Algeciras
+A-381 - Saída 66,A-381 - Saída 70,Carro,True,Los Barrios
+A-381 - Saída 70,A-381 - Saída 73,Carro,False,Alcalá de los Gazules
+A-381 - Saída 70,A-381 - Saída 73,Carro,False,Jerez de la Frontera
+A-381 - Saída 70,A-381 - Saída 73,Carro,True,Algeciras
+A-381 - Saída 70,A-381 - Saída 73,Carro,True,Los Barrios
+A-381 - Saída 73,A-381 - Saída 77,Carro,False,Alcalá de los Gazules
+A-381 - Saída 73,A-381 - Saída 77,Carro,False,Jerez de la Frontera
+A-381 - Saída 73,A-381 - Saída 77,Carro,True,Algeciras
+A-381 - Saída 73,A-381 - Saída 77,Carro,True,Los Barrios
+A-381 - Saída 77,A-381 - Saída 80,Carro,False,AP-4 - Sevilha
+A-381 - Saída 77,A-381 - Saída 80,Carro,False,Jerez de la Frontera
+A-381 - Saída 77,A-381 - Saída 80,Carro,True,Algeciras
+A-381 - Saída 77,A-381 - Saída 80,Carro,True,Los Barrios
+A-381 - Saída 80,A-381 - Saída 85,Carro,False,AP-4 - Sevilha
+A-381 - Saída 80,A-381 - Saída 85,Carro,False,Jerez de la Frontera
+A-381 - Saída 80,A-381 - Saída 85,Carro,True,Algeciras
+A-381 - Saída 85,A-381 - Saída 87,Carro,False,AP-4 - Sevilha
+A-381 - Saída 85,A-381 - Saída 87,Carro,False,Jerez de la Frontera
+A-381 - Saída 85,A-381 - Saída 87,Carro,False,Los Barrios
+A-381 - Saída 85,A-381 - Saída 87,Carro,True,Algeciras
+A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,AP-4 - Sevilha
+A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Jerez de la Frontera
+A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Los Barrios
+A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,True,Algeciras
 A-4 - Saída 335,A-4 - Saída 339,Carro,False,Madrid
 A-4 - Saída 335,A-4 - Saída 339,Carro,True,Córdoba
 A-4 - Saída 335,A-4 - Saída 339,Carro,True,Montoro
@@ -347,6 +413,8 @@ A-4 - Saída 628,A-4 - Saída 631,Carro,False,El Cuervo de Sevilla
 A-4 - Saída 628,A-4 - Saída 631,Carro,False,Sevilha
 A-4 - Saída 628,A-4 - Saída 631,Carro,True,Cádiz
 A-4 - Saída 628,A-4 - Saída 631,Carro,True,Jerez de la Frontera
+A-4 - Saída 628,Aeroporto de Jerez,Carro,False,A-4 - Todas as direcções
+A-4 - Saída 628,Aeroporto de Jerez,Carro,True,Aeroporto de Jerez
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Cádiz
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Jerez de la Frontera
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,True,El Cuervo de Sevilla
@@ -590,6 +658,84 @@ A-66 - Saída 805,A-66 - Saída 808,Carro,True,Sevilha
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,False,Mérida
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,False,Venta del Alto
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,True,Sevilha
+A-7 - Saída 103,A-7 - Saída 104,Carro,False,Cádiz
+A-7 - Saída 103,A-7 - Saída 104,Carro,False,Tarifa
+A-7 - Saída 103,A-7 - Saída 104,Carro,True,Málaga
+A-7 - Saída 103,A-7 - Saída 104,Carro,True,San Roque
+A-7 - Saída 103,A-7 - Saída 104,Carro,True,Sevilha
+A-7 - Saída 104,A-7 - Saída 105,Carro,False,Cádiz
+A-7 - Saída 104,A-7 - Saída 105,Carro,False,Tarifa
+A-7 - Saída 104,A-7 - Saída 105,Carro,True,Málaga
+A-7 - Saída 104,A-7 - Saída 105,Carro,True,San Roque
+A-7 - Saída 104,A-7 - Saída 105,Carro,True,Sevilha
+A-7 - Saída 105,A-7 - Saída 106,Carro,False,Cádiz
+A-7 - Saída 105,A-7 - Saída 106,Carro,False,Tarifa
+A-7 - Saída 105,A-7 - Saída 106,Carro,True,Málaga
+A-7 - Saída 105,A-7 - Saída 106,Carro,True,San Roque
+A-7 - Saída 105,A-7 - Saída 106,Carro,True,Sevilha
+A-7 - Saída 106,A-7 - Saída 107A,Carro,False,Cádiz
+A-7 - Saída 106,A-7 - Saída 107A,Carro,False,Tarifa
+A-7 - Saída 106,A-7 - Saída 107A,Carro,True,Málaga
+A-7 - Saída 106,A-7 - Saída 107A,Carro,True,San Roque
+A-7 - Saída 106,A-7 - Saída 107A,Carro,True,Sevilha
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,False,Cádiz
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,False,Tarifa
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,True,Málaga
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,True,San Roque
+A-7 - Saída 107A,A-7 - Saída 107B,Carro,True,Sevilha
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,False,Cádiz
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,False,Tarifa
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,True,Málaga
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,True,San Roque
+A-7 - Saída 107B,A-7 - Saída 108A,Carro,True,Sevilha
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,False,Cádiz
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,False,Tarifa
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,True,Málaga
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,True,San Roque
+A-7 - Saída 108A,A-7 - Saída 108B,Carro,True,Sevilha
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,False,Algeciras - Centro da cidade
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,False,Cádiz
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,False,Tarifa
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,True,Málaga
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,True,San Roque
+A-7 - Saída 108B,A-7 - Saída 108C,Carro,True,Sevilha
+A-7 - Saída 108C,A-7 - Saída 109,Carro,False,Algeciras
+A-7 - Saída 108C,A-7 - Saída 109,Carro,False,Cádiz
+A-7 - Saída 108C,A-7 - Saída 109,Carro,True,Málaga
+A-7 - Saída 108C,A-7 - Saída 109,Carro,True,San Roque
+A-7 - Saída 108C,A-7 - Saída 109,Carro,True,Sevilha
+A-7 - Saída 109,A-7 - Saída 110A,Carro,False,Algeciras
+A-7 - Saída 109,A-7 - Saída 110A,Carro,False,Cádiz
+A-7 - Saída 109,A-7 - Saída 110A,Carro,True,Málaga
+A-7 - Saída 109,A-7 - Saída 110A,Carro,True,San Roque
+A-7 - Saída 109,A-7 - Saída 110A,Carro,True,Sevilha
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,False,Algeciras
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,False,Cádiz
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,True,Estepona
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,True,Málaga
+A-7 - Saída 110A,Cruzamento da A-381 com a A-7,Carro,True,San Roque
+A-7 - Saída 111,A-7 - Saída 112,Carro,False,Algeciras
+A-7 - Saída 111,A-7 - Saída 112,Carro,False,Cádiz
+A-7 - Saída 111,A-7 - Saída 112,Carro,False,Sevilha
+A-7 - Saída 111,A-7 - Saída 112,Carro,True,Estepona
+A-7 - Saída 111,A-7 - Saída 112,Carro,True,Málaga
+A-7 - Saída 111,A-7 - Saída 112,Carro,True,San Roque
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,False,Estepona
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,False,Málaga
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,False,San Roque
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,True,Algeciras
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,True,Cádiz
+A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,True,Sevilha
+A-7 - Saída 112,A-7 - Saída 113A,Carro,False,Algeciras
+A-7 - Saída 112,A-7 - Saída 113A,Carro,False,Cádiz
+A-7 - Saída 112,A-7 - Saída 113A,Carro,False,Sevilha
+A-7 - Saída 112,A-7 - Saída 113A,Carro,True,Málaga
+A-7 - Saída 112,A-7 - Saída 113A,Carro,True,San Roque
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,False,Algeciras
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,False,Cádiz
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,False,Sevilha
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,True,Málaga
+A-7 - Saída 113A,A-7 - Saída 113B,Carro,True,San Roque
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -1620,6 +1766,11 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,A-92 - Granada/Má
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,False,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Cádiz/Sevilha
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,Dos Hermanas
+Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,False,Cádiz
+Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,True,Sevilha
+Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,False,Jerez de la Frontera
+Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,False,Sevilha
+Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,True,Cádiz
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,A-4 - Córdoba
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,Aeroporto de Sevilha - San Pablo
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,A-49 - Huelva
