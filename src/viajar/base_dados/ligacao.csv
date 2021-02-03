@@ -230,6 +230,18 @@ A-7 - Saída 111,A-7 - Saída 112,Carro,0.7,A-7,NE,2,1
 A-7 - Saída 111,Cruzamento da A-381 com a A-7,Carro,1.2,A-7,SO,1,2
 A-7 - Saída 112,A-7 - Saída 113A,Carro,0.6,A-7,NE,2,1
 A-7 - Saída 113A,A-7 - Saída 113B,Carro,0.6,A-7,NE,2,1
+A-7 - Saída 113B,A-7 - Saída 115,Carro,1.7,A-7,NE,2,1
+A-7 - Saída 115,A-7 - Saída 116,Carro,0.7,A-7,NE,2,1
+A-7 - Saída 116,A-7 - Saída 117,Carro,1.3,A-7,NE,2,1
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,1.4,A-7,E,2,1
+A-7 - Saída 119,Cruzamento da A-383 com a A-7,Carro,4.3,A-7,NE,2,1
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,1.1,A-7,SO,1,2
+A-7 - Saída 127,A-7 - Saída 130,Carro,3.5,A-7,NE,2,1
+A-7 - Saída 127,Cruzamento da A-383 com a A-7,Carro,3.2,A-7,SO,1,2
+A-7 - Saída 130,A-7 - Saída 132,Carro,1.6,A-7,NE,2,1
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,1.2,A-7,NE,2,1
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,2.4,A-7/AP-7,NE,2,1
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -526,6 +538,8 @@ AP-4 - Saída 44-45,AP-4 - Saída 53,Carro,8.3,AP-4,S,2,1
 AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Carro,2.9,AP-4,NE,1,2
 AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Carro,16.2,AP-4,SO,2,1
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,8.9,N-4,SO,3,1
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,5.2,AP-7,S,1,2
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,11.3,AP-7,NE,2,1
 Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4
@@ -538,6 +552,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,8.4,A2,SE,2,1
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,4.5,AP-7,SO,1,2
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,6.2,A6,SO,1,3
 Armação de Pêra,"Pêra, Silves",Carro,3.5,,NE,1,4
 Armação de Pêra,Porches,Carro,5.5,,NO,4,2

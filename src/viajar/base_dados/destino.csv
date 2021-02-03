@@ -736,6 +736,63 @@ A-7 - Saída 113A,A-7 - Saída 113B,Carro,False,Cádiz
 A-7 - Saída 113A,A-7 - Saída 113B,Carro,False,Sevilha
 A-7 - Saída 113A,A-7 - Saída 113B,Carro,True,Málaga
 A-7 - Saída 113A,A-7 - Saída 113B,Carro,True,San Roque
+A-7 - Saída 113B,A-7 - Saída 115,Carro,False,Algeciras
+A-7 - Saída 113B,A-7 - Saída 115,Carro,False,Cádiz
+A-7 - Saída 113B,A-7 - Saída 115,Carro,False,Sevilha
+A-7 - Saída 113B,A-7 - Saída 115,Carro,True,Málaga
+A-7 - Saída 113B,A-7 - Saída 115,Carro,True,San Roque
+A-7 - Saída 115,A-7 - Saída 116,Carro,False,Algeciras
+A-7 - Saída 115,A-7 - Saída 116,Carro,False,Cádiz
+A-7 - Saída 115,A-7 - Saída 116,Carro,False,Sevilha
+A-7 - Saída 115,A-7 - Saída 116,Carro,True,Málaga
+A-7 - Saída 115,A-7 - Saída 116,Carro,True,San Roque
+A-7 - Saída 116,A-7 - Saída 117,Carro,False,Algeciras
+A-7 - Saída 116,A-7 - Saída 117,Carro,False,Cádiz
+A-7 - Saída 116,A-7 - Saída 117,Carro,False,Sevilha
+A-7 - Saída 116,A-7 - Saída 117,Carro,True,Málaga
+A-7 - Saída 116,A-7 - Saída 117,Carro,True,San Roque
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,False,Algeciras
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,False,Cádiz
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,False,Sevilha
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,True,Málaga
+A-7 - Saída 117,Cruzamento da A-7 com a CA-34,Carro,True,San Roque
+A-7 - Saída 119,Cruzamento da A-383 com a A-7,Carro,False,Algeciras
+A-7 - Saída 119,Cruzamento da A-383 com a A-7,Carro,False,Cádiz
+A-7 - Saída 119,Cruzamento da A-383 com a A-7,Carro,True,Estepona
+A-7 - Saída 119,Cruzamento da A-383 com a A-7,Carro,True,Málaga
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,False,Estepona
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,False,Málaga
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,True,Algeciras
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,True,Cádiz
+A-7 - Saída 119,Cruzamento da A-7 com a CA-34,Carro,True,Sevilha
+A-7 - Saída 127,A-7 - Saída 130,Carro,False,Algeciras
+A-7 - Saída 127,A-7 - Saída 130,Carro,False,Cádiz
+A-7 - Saída 127,A-7 - Saída 130,Carro,True,Estepona
+A-7 - Saída 127,A-7 - Saída 130,Carro,True,Málaga
+A-7 - Saída 127,Cruzamento da A-383 com a A-7,Carro,False,Estepona
+A-7 - Saída 127,Cruzamento da A-383 com a A-7,Carro,False,Málaga
+A-7 - Saída 127,Cruzamento da A-383 com a A-7,Carro,True,Algeciras
+A-7 - Saída 127,Cruzamento da A-383 com a A-7,Carro,True,Cádiz
+A-7 - Saída 130,A-7 - Saída 132,Carro,False,Algeciras
+A-7 - Saída 130,A-7 - Saída 132,Carro,False,Cádiz
+A-7 - Saída 130,A-7 - Saída 132,Carro,False,Guadiaro
+A-7 - Saída 130,A-7 - Saída 132,Carro,True,Estepona
+A-7 - Saída 130,A-7 - Saída 132,Carro,True,Málaga
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,False,Algeciras
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,False,Cádiz
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,False,Guadiaro
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,True,Estepona
+A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Carro,True,Málaga
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Cádiz
+A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Guadiaro
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,False,Algeciras
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,False,Cádiz
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,False,Guadiaro
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,True,Málaga
+A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,True,San Pedro de Alcántara
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -1514,6 +1571,16 @@ AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Los Palacios y Villafranca
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Sevilha
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Cádiz
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Jerez de la Frontera
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,False,Estepona
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,False,Málaga
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,True,Algeciras
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,True,Cádiz
+AP-7 - Saída 142,Área de Serviço de Manilva,Carro,True,Guadiaro
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,False,Algeciras
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,False,Cádiz
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,False,Guadiaro
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,True,Estepona
+AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,True,Málaga
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
@@ -1540,6 +1607,11 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,A26 - Beja
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,Algarve
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,False,Estepona
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,False,Málaga
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Algeciras
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Cádiz
+Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Guadiaro
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Espanha
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Évora
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Vendas Novas
