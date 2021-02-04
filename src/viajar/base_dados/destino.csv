@@ -793,6 +793,36 @@ A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,False,Cádiz
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,False,Guadiaro
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,True,Málaga
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,True,San Pedro de Alcántara
+A-7 - Saída 158,A-7 - Saída 160,Carro,False,Cádiz
+A-7 - Saída 158,A-7 - Saída 160,Carro,False,Estepona
+A-7 - Saída 158,A-7 - Saída 160,Carro,True,Málaga
+A-7 - Saída 158,A-7 - Saída 160,Carro,True,San Pedro de Alcántara
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,False,Estepona
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,False,Málaga
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,True,Cádiz
+A-7 - Saída 158,Cruzamento III da A-7 com a AP-7,Carro,True,Guadiaro
+A-7 - Saída 160,A-7 - Saída 163,Carro,False,Algeciras
+A-7 - Saída 160,A-7 - Saída 163,Carro,False,Estepona
+A-7 - Saída 160,A-7 - Saída 163,Carro,True,Málaga
+A-7 - Saída 160,A-7 - Saída 163,Carro,True,Marbella
+A-7 - Saída 163,A-7 - Saída 165,Carro,False,Cádiz
+A-7 - Saída 163,A-7 - Saída 165,Carro,False,Estepona
+A-7 - Saída 163,A-7 - Saída 165,Carro,True,Málaga
+A-7 - Saída 163,A-7 - Saída 165,Carro,True,Marbella
+A-7 - Saída 165,A-7 - Saída 168,Carro,False,Cádiz
+A-7 - Saída 165,A-7 - Saída 168,Carro,False,Estepona
+A-7 - Saída 165,A-7 - Saída 168,Carro,True,Málaga
+A-7 - Saída 165,A-7 - Saída 168,Carro,True,Marbella
+A-7 - Saída 168,A-7 - Saída 170,Carro,False,Algeciras
+A-7 - Saída 168,A-7 - Saída 170,Carro,False,Estepona
+A-7 - Saída 168,A-7 - Saída 170,Carro,True,Málaga
+A-7 - Saída 168,A-7 - Saída 170,Carro,True,Marbella
+A-7 - Saída 170,A-7 - Saída 172,Carro,False,Algeciras
+A-7 - Saída 170,A-7 - Saída 172,Carro,False,Estepona
+A-7 - Saída 170,A-7 - Saída 172,Carro,True,Málaga
+A-7 - Saída 170,A-7 - Saída 172,Carro,True,Marbella
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -1612,6 +1642,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Cádiz
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Guadiaro
+Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Málaga
+Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Marbella
+Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
+Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Estepona
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Espanha
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Évora
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Vendas Novas
