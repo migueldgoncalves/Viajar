@@ -202,6 +202,12 @@ A-7 - Saída 165,Estepona,Málaga,
 A-7 - Saída 168,Estepona,Málaga,
 A-7 - Saída 170,Marbella,Málaga,San Pedro de Alcántara
 A-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
+A-7 - Saída 174,Marbella,Málaga,Nueva Andalucía
+A-7 - Saída 175,Marbella,Málaga,Nueva Andalucía
+A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
+A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
+A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
+A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
 A-8009 - Saída 2,La Rinconada,Sevilha,
 A-8009 - Saída 4,La Rinconada,Sevilha,
 A-8009 - Saída 5,La Rinconada,Sevilha,
@@ -266,7 +272,9 @@ AP-4 - Saída 44-45,Las Cabezas de San Juan,Sevilha,
 AP-4 - Saída 53,Lebrija,Sevilha,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
 AP-7 - Saída 142,Manilva,Málaga,
+AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
 Arahal,Arahal,Sevilha,
+Área de Serviço de Altos de Marbella,Marbella,Málaga,Las Chapas
 Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,Rural
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
 Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
@@ -286,6 +294,8 @@ Costa Esuri,Ayamonte,Huelva,
 Cruzamento I da A-7 com a AP-7,San Roque,Cádiz,
 Cruzamento II da A-7 com a AP-7,Estepona,Málaga,
 Cruzamento III da A-7 com a AP-7,Estepona,Málaga,
+Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Málaga Oeste
+Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,

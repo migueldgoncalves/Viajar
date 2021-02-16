@@ -249,6 +249,14 @@ A-7 - Saída 163,A-7 - Saída 165,Carro,3.2,A-7,NE,2,1
 A-7 - Saída 165,A-7 - Saída 168,Carro,3.3,A-7,NE,2,1
 A-7 - Saída 168,A-7 - Saída 170,Carro,1.3,A-7,NE,2,1
 A-7 - Saída 170,A-7 - Saída 172,Carro,1.9,A-7,NE,2,1
+A-7 - Saída 172,A-7 - Saída 174,Carro,2.2,A-7,NE,2,1
+A-7 - Saída 174,A-7 - Saída 175,Carro,1.1,A-7,NE,2,1
+A-7 - Saída 175,A-7 - Saída 176,Carro,1.5,A-7,N,2,1
+A-7 - Saída 176,Cruzamento IV da A-7 com a AP-7,Carro,1.9,A-7,NE,2,3
+A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,2.3,A-7/AP-7,NE,2,1
+A-7/AP-7 - Saída 182,Cruzamento IV da A-7 com a AP-7,Carro,1.4,A-7/AP-7,O,1,2
+A-7/AP-7 - Saída 184,A-7/AP-7 - Saída 185,Carro,1.0,A-7/AP-7,NE,2,1
+A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Carro,1.3,A-7/AP-7,E,2,1
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -547,6 +555,8 @@ AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Carro,16.2,AP-4,SO,2,1
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,8.9,N-4,SO,3,1
 AP-7 - Saída 142,Área de Serviço de Manilva,Carro,5.2,AP-7,S,1,2
 AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,11.3,AP-7,NE,2,1
+AP-7 - Saída 172,Área de Serviço de Río Castor,Carro,11.5,AP-7,SO,1,2
+AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,8.7,AP-7,NE,2,1
 Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4
@@ -557,6 +567,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
+Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,3.5,AP-7,O,1,2
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,8.4,A2,SE,2,1
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,4.5,AP-7,SO,1,2

@@ -823,6 +823,40 @@ A-7 - Saída 170,A-7 - Saída 172,Carro,False,Algeciras
 A-7 - Saída 170,A-7 - Saída 172,Carro,False,Estepona
 A-7 - Saída 170,A-7 - Saída 172,Carro,True,Málaga
 A-7 - Saída 170,A-7 - Saída 172,Carro,True,Marbella
+A-7 - Saída 172,A-7 - Saída 174,Carro,False,Algeciras
+A-7 - Saída 172,A-7 - Saída 174,Carro,False,Estepona
+A-7 - Saída 172,A-7 - Saída 174,Carro,False,San Pedro de Alcántara
+A-7 - Saída 172,A-7 - Saída 174,Carro,True,Málaga
+A-7 - Saída 172,A-7 - Saída 174,Carro,True,Marbella
+A-7 - Saída 174,A-7 - Saída 175,Carro,False,Algeciras
+A-7 - Saída 174,A-7 - Saída 175,Carro,False,Cádiz
+A-7 - Saída 174,A-7 - Saída 175,Carro,False,San Pedro de Alcántara
+A-7 - Saída 174,A-7 - Saída 175,Carro,True,Málaga
+A-7 - Saída 174,A-7 - Saída 175,Carro,True,Marbella
+A-7 - Saída 175,A-7 - Saída 176,Carro,False,Algeciras
+A-7 - Saída 175,A-7 - Saída 176,Carro,False,Estepona
+A-7 - Saída 175,A-7 - Saída 176,Carro,True,Fuengirola
+A-7 - Saída 175,A-7 - Saída 176,Carro,True,Málaga
+A-7 - Saída 176,Cruzamento IV da A-7 com a AP-7,Carro,False,Algeciras
+A-7 - Saída 176,Cruzamento IV da A-7 com a AP-7,Carro,False,Estepona
+A-7 - Saída 176,Cruzamento IV da A-7 com a AP-7,Carro,True,Fuengirola
+A-7 - Saída 176,Cruzamento IV da A-7 com a AP-7,Carro,True,Málaga
+A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,False,Algeciras
+A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,False,San Pedro de Alcántara
+A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,True,Fuengirola
+A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,True,Málaga
+A-7/AP-7 - Saída 182,Cruzamento IV da A-7 com a AP-7,Carro,False,Málaga
+A-7/AP-7 - Saída 182,Cruzamento IV da A-7 com a AP-7,Carro,False,Marbella
+A-7/AP-7 - Saída 182,Cruzamento IV da A-7 com a AP-7,Carro,True,Algeciras
+A-7/AP-7 - Saída 182,Cruzamento IV da A-7 com a AP-7,Carro,True,San Pedro de Alcántara
+A-7/AP-7 - Saída 184,A-7/AP-7 - Saída 185,Carro,False,Algeciras
+A-7/AP-7 - Saída 184,A-7/AP-7 - Saída 185,Carro,False,Marbella
+A-7/AP-7 - Saída 184,A-7/AP-7 - Saída 185,Carro,True,Fuengirola
+A-7/AP-7 - Saída 184,A-7/AP-7 - Saída 185,Carro,True,Málaga
+A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Carro,False,Algeciras
+A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Carro,False,Marbella
+A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Carro,True,Fuengirola
+A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Carro,True,Málaga
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -1611,6 +1645,14 @@ AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,False,Cádiz
 AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,False,Guadiaro
 AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,True,Estepona
 AP-7 - Saída 142,Cruzamento II da A-7 com a AP-7,Carro,True,Málaga
+AP-7 - Saída 172,Área de Serviço de Río Castor,Carro,False,Málaga
+AP-7 - Saída 172,Área de Serviço de Río Castor,Carro,False,Marbella
+AP-7 - Saída 172,Área de Serviço de Río Castor,Carro,True,Algeciras
+AP-7 - Saída 172,Área de Serviço de Río Castor,Carro,True,Estepona
+AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,False,Algeciras
+AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,False,Estepona
+AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,True,Málaga
+AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,True,Marbella
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
@@ -1631,6 +1673,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,False,Aljustrel
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Grândola
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,True,Lisboa
+Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,False,Fuengirola
+Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,False,Málaga
+Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,True,Algeciras
+Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,True,Marbella
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,False,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,True,Cádiz
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Alcácer do Sal
