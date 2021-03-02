@@ -208,6 +208,8 @@ A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
+AP-7 - Saída 200,Mijas,Málaga,
+AP-7 - Saída 213,Mijas,Málaga,
 A-8009 - Saída 2,La Rinconada,Sevilha,
 A-8009 - Saída 4,La Rinconada,Sevilha,
 A-8009 - Saída 5,La Rinconada,Sevilha,
@@ -294,8 +296,9 @@ Costa Esuri,Ayamonte,Huelva,
 Cruzamento I da A-7 com a AP-7,San Roque,Cádiz,
 Cruzamento II da A-7 com a AP-7,Estepona,Málaga,
 Cruzamento III da A-7 com a AP-7,Estepona,Málaga,
-Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Málaga Oeste
+Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
 Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
+Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,

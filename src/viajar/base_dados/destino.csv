@@ -1653,6 +1653,18 @@ AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,False,Algeciras
 AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,False,Estepona
 AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,True,Málaga
 AP-7 - Saída 172,Cruzamento IV da A-7 com a AP-7,Carro,True,Marbella
+AP-7 - Saída 200,AP-7 - Saída 213,Carro,False,Algeciras
+AP-7 - Saída 200,AP-7 - Saída 213,Carro,False,Marbella
+AP-7 - Saída 200,AP-7 - Saída 213,Carro,True,Fuengirola
+AP-7 - Saída 200,AP-7 - Saída 213,Carro,True,Málaga
+AP-7 - Saída 200,Área de Serviço de Altos de Marbella,Carro,False,Fuengirola
+AP-7 - Saída 200,Área de Serviço de Altos de Marbella,Carro,False,Málaga
+AP-7 - Saída 200,Área de Serviço de Altos de Marbella,Carro,True,Algeciras
+AP-7 - Saída 200,Área de Serviço de Altos de Marbella,Carro,True,Marbella
+AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,False,Algeciras
+AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,False,Marbella
+AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,True,Benalmádena
+AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,True,Málaga
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
