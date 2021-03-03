@@ -208,8 +208,10 @@ A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
-AP-7 - Saída 200,Mijas,Málaga,
-AP-7 - Saída 213,Mijas,Málaga,
+A-7/AP-7 - Saída 217,Fuengirola,Málaga,
+A-7/AP-7 - Saída 222,Benalmádena,Málaga,
+A-7 - Saída 226,Málaga,Málaga,Churriana
+A-7 - Saída 230,Alhaurín de la Torre,Málaga,
 A-8009 - Saída 2,La Rinconada,Sevilha,
 A-8009 - Saída 4,La Rinconada,Sevilha,
 A-8009 - Saída 5,La Rinconada,Sevilha,
@@ -266,7 +268,7 @@ A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92M - Saída 1,Archidona,Málaga,
 Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Jerez,Jerez de la Frontera,Cádiz,Rural
-Aeroporto de Sevilha - San Pablo,Sevilha,Sevilha,Este-Alcosa-Torreblanca
+Aeroporto de Sevilha,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
 AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
@@ -275,8 +277,11 @@ AP-4 - Saída 53,Lebrija,Sevilha,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
 AP-7 - Saída 142,Manilva,Málaga,
 AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
+AP-7 - Saída 200,Mijas,Málaga,
+AP-7 - Saída 213,Mijas,Málaga,
 Arahal,Arahal,Sevilha,
 Área de Serviço de Altos de Marbella,Marbella,Málaga,Las Chapas
+Área de Serviço de Arroyo de la Miel,Torremolinos,Málaga,
 Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,Rural
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
 Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
@@ -299,6 +304,8 @@ Cruzamento III da A-7 com a AP-7,Estepona,Málaga,
 Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
 Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
+Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
+Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
