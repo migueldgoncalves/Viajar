@@ -30,6 +30,11 @@ A-381 - Saída 77,A-381 - Saída 80,Carro,3.5,A-381,SE,2,1
 A-381 - Saída 80,A-381 - Saída 85,Carro,4.7,A-381,SE,2,1
 A-381 - Saída 85,A-381 - Saída 87,Carro,1.4,A-381,NE,2,1
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,1.1,A-381,SE,2,3
+A-4 - Saída 323,A-4 - Saída 324,Carro,1.0,A-4,O,1,2
+A-4 - Saída 324,A-4 - Saída 325,Carro,0.6,A-4,SO,1,2
+A-4 - Saída 325,A-4 - Saída 326,Carro,0.8,A-4,NO,1,2
+A-4 - Saída 326,A-4 - Saída 329,Carro,3.0,A-4,NO,1,2
+A-4 - Saída 329,A-4 - Saída 335,Carro,5.2,A-4,SO,1,2
 A-4 - Saída 335,A-4 - Saída 339,Carro,3.6,A-4,SO,1,2
 A-4 - Saída 339,A-4 - Saída 346,Carro,6.4,A-4,SO,1,2
 A-4 - Saída 346,A-4 - Saída 348,Carro,2.1,A-4,SO,1,2
