@@ -465,7 +465,10 @@ A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
 A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
+A6 - Saída 2,A6 - Saída 3,Carro,18.7,A6,E,2,1
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,13.2,A6,SO,1,2
+A6 - Saída 3,A6 - Saída 4,Carro,5.5,A6,E,2,1
+A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,10.0,A6,SE,2,1
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
 Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6

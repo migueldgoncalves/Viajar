@@ -1647,12 +1647,27 @@ A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,False,IC1 - Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,True,Beja
 A26 - Fim,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+A6 - Saída 2,A6 - Saída 3,Carro,False,Algarve
+A6 - Saída 2,A6 - Saída 3,Carro,False,Lisboa
+A6 - Saída 2,A6 - Saída 3,Carro,False,Vendas Novas
+A6 - Saída 2,A6 - Saída 3,Carro,True,Espanha
+A6 - Saída 2,A6 - Saída 3,Carro,True,Évora
+A6 - Saída 2,A6 - Saída 3,Carro,True,Montemor-o-Novo
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Espanha
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Évora
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,False,Vendas Novas
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Algarve
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Lisboa
 A6 - Saída 2,Área de Serviço de Vendas Novas,Carro,True,Setúbal
+A6 - Saída 3,A6 - Saída 4,Carro,False,Algarve
+A6 - Saída 3,A6 - Saída 4,Carro,False,Lisboa
+A6 - Saída 3,A6 - Saída 4,Carro,False,Vendas Novas
+A6 - Saída 3,A6 - Saída 4,Carro,True,Espanha
+A6 - Saída 3,A6 - Saída 4,Carro,True,Évora
+A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,False,Lisboa
+A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,False,Montemor-o-Novo
+A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,True,Espanha
+A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,True,Évora
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
