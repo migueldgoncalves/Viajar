@@ -1668,6 +1668,20 @@ A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,False,Lisboa
 A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,False,Montemor-o-Novo
 A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,True,Espanha
 A6 - Saída 4,Área de Serviço de Montemor-o-Novo,Carro,True,Évora
+A6 - Saída 5,A6 - Saída 6,Carro,False,Lisboa
+A6 - Saída 5,A6 - Saída 6,Carro,False,Montemor-o-Novo
+A6 - Saída 5,A6 - Saída 6,Carro,True,Elvas
+A6 - Saída 5,A6 - Saída 6,Carro,True,Espanha
+A6 - Saída 5,A6 - Saída 6,Carro,True,Estremoz
+A6 - Saída 5,Área de Serviço de Montemor-o-Novo,Carro,False,Espanha
+A6 - Saída 5,Área de Serviço de Montemor-o-Novo,Carro,False,Évora
+A6 - Saída 5,Área de Serviço de Montemor-o-Novo,Carro,True,Lisboa
+A6 - Saída 5,Área de Serviço de Montemor-o-Novo,Carro,True,Montemor-o-Novo
+A6 - Saída 6,Área de Serviço de Estremoz,Carro,False,Évora
+A6 - Saída 6,Área de Serviço de Estremoz,Carro,False,Lisboa
+A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Elvas
+A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Espanha
+A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Estremoz
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
