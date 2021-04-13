@@ -697,6 +697,30 @@ A-5 - Saída 346,A-5 - Saída 352,Carro,True,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,False,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,A-66 - Cáceres
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,Madrid
+A-5 - Saída 380,A-5 - Saída 382,Carro,False,Madrid
+A-5 - Saída 380,A-5 - Saída 382,Carro,False,Mérida
+A-5 - Saída 380,A-5 - Saída 382,Carro,True,Badajoz
+A-5 - Saída 382,A-5 - Saída 395,Carro,False,Madrid
+A-5 - Saída 382,A-5 - Saída 395,Carro,False,Mérida
+A-5 - Saída 382,A-5 - Saída 395,Carro,True,Badajoz
+A-5 - Saída 395,A-5 - Saída 400,Carro,False,Córdoba
+A-5 - Saída 395,A-5 - Saída 400,Carro,False,Madrid
+A-5 - Saída 395,A-5 - Saída 400,Carro,False,Mérida
+A-5 - Saída 395,A-5 - Saída 400,Carro,True,Cáceres
+A-5 - Saída 395,A-5 - Saída 400,Carro,True,Lisboa
+A-5 - Saída 400,A-5 - Saída 403,Carro,False,Cáceres
+A-5 - Saída 400,A-5 - Saída 403,Carro,False,Córdoba
+A-5 - Saída 400,A-5 - Saída 403,Carro,False,Madrid
+A-5 - Saída 400,A-5 - Saída 403,Carro,True,Elvas
+A-5 - Saída 400,A-5 - Saída 403,Carro,True,Lisboa
+A-5 - Saída 403,A-5 - Saída 407,Carro,False,Cáceres
+A-5 - Saída 403,A-5 - Saída 407,Carro,False,Córdoba
+A-5 - Saída 403,A-5 - Saída 407,Carro,False,Madrid
+A-5 - Saída 403,A-5 - Saída 407,Carro,True,Elvas
+A-5 - Saída 403,A-5 - Saída 407,Carro,True,Lisboa
+A-5 - Saída 407,A6 - Saída 13,Carro,False,Espanha
+A-5 - Saída 407,A6 - Saída 13,Carro,True,Elvas
+A-5 - Saída 407,A6 - Saída 13,Carro,True,Lisboa
 A-66 - Saída 626,A-66 - Saída 627,Carro,False,Mérida
 A-66 - Saída 626,A-66 - Saída 627,Carro,True,Sevilha
 A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,False,Sevilha
@@ -1682,6 +1706,41 @@ A6 - Saída 6,Área de Serviço de Estremoz,Carro,False,Lisboa
 A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Elvas
 A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Espanha
 A6 - Saída 6,Área de Serviço de Estremoz,Carro,True,Estremoz
+A6 - Saída 7,A6 - Saída 8,Carro,False,Estremoz
+A6 - Saída 7,A6 - Saída 8,Carro,False,Évora
+A6 - Saída 7,A6 - Saída 8,Carro,False,Lisboa
+A6 - Saída 7,A6 - Saída 8,Carro,True,Borba
+A6 - Saída 7,A6 - Saída 8,Carro,True,Elvas
+A6 - Saída 7,A6 - Saída 8,Carro,True,Espanha
+A6 - Saída 7,Área de Serviço de Estremoz,Carro,False,Elvas
+A6 - Saída 7,Área de Serviço de Estremoz,Carro,False,Espanha
+A6 - Saída 7,Área de Serviço de Estremoz,Carro,False,Estremoz
+A6 - Saída 7,Área de Serviço de Estremoz,Carro,True,Évora
+A6 - Saída 7,Área de Serviço de Estremoz,Carro,True,Lisboa
+A6 - Saída 8,A6 - Saída 9,Carro,False,Borba
+A6 - Saída 8,A6 - Saída 9,Carro,False,Évora
+A6 - Saída 8,A6 - Saída 9,Carro,False,Lisboa
+A6 - Saída 8,A6 - Saída 9,Carro,True,Elvas
+A6 - Saída 8,A6 - Saída 9,Carro,True,Espanha
+A6 - Saída 9,A6 - Saída 10,Carro,False,Elvas - Oeste
+A6 - Saída 9,A6 - Saída 10,Carro,False,Évora
+A6 - Saída 9,A6 - Saída 10,Carro,False,Lisboa
+A6 - Saída 9,A6 - Saída 10,Carro,True,Elvas - Centro da cidade
+A6 - Saída 9,A6 - Saída 10,Carro,True,Espanha
+A6 - Saída 10,A6 - Saída 11,Carro,False,Elvas - Centro da cidade
+A6 - Saída 10,A6 - Saída 11,Carro,False,Évora
+A6 - Saída 10,A6 - Saída 11,Carro,False,Lisboa
+A6 - Saída 10,A6 - Saída 11,Carro,True,Elvas - Zona industrial
+A6 - Saída 10,A6 - Saída 11,Carro,True,Espanha
+A6 - Saída 11,A6 - Saída 12,Carro,False,Elvas - Zona industrial
+A6 - Saída 11,A6 - Saída 12,Carro,False,Évora
+A6 - Saída 11,A6 - Saída 12,Carro,False,Lisboa
+A6 - Saída 11,A6 - Saída 12,Carro,True,Elvas - Este
+A6 - Saída 11,A6 - Saída 12,Carro,True,Espanha
+A6 - Saída 12,A6 - Saída 13,Carro,False,A2 - Lisboa
+A6 - Saída 12,A6 - Saída 13,Carro,False,Elvas
+A6 - Saída 12,A6 - Saída 13,Carro,False,Évora
+A6 - Saída 12,A6 - Saída 13,Carro,True,Espanha
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
