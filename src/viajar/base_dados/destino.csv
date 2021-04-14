@@ -688,6 +688,10 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 341,A-5 - Saída 342,Carro,False,A-66 - Cáceres
+A-5 - Saída 341,A-5 - Saída 342,Carro,False,Madrid
+A-5 - Saída 341,A-5 - Saída 342,Carro,True,A-66 - Sevilha
+A-5 - Saída 341,A-5 - Saída 342,Carro,True,Badajoz
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,A-66 - Cáceres
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,Madrid
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,True,Badajoz
@@ -697,6 +701,26 @@ A-5 - Saída 346,A-5 - Saída 352,Carro,True,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,False,Badajoz
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,A-66 - Cáceres
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,True,Madrid
+A-5 - Saída 352,A-5 - Saída 354,Carro,False,Madrid
+A-5 - Saída 352,A-5 - Saída 354,Carro,True,Badajoz
+A-5 - Saída 354,A-5 - Saída 360,Carro,False,Madrid
+A-5 - Saída 354,A-5 - Saída 360,Carro,True,Badajoz
+A-5 - Saída 360,A-5 - Saída 365,Carro,False,Madrid
+A-5 - Saída 360,A-5 - Saída 365,Carro,False,Mérida
+A-5 - Saída 360,A-5 - Saída 365,Carro,True,Badajoz
+A-5 - Saída 365,A-5 - Saída 367,Carro,False,Madrid
+A-5 - Saída 365,A-5 - Saída 367,Carro,True,Badajoz
+A-5 - Saída 367,A-5 - Saída 372,Carro,False,Madrid
+A-5 - Saída 367,A-5 - Saída 372,Carro,True,Badajoz
+A-5 - Saída 372,A-5 - Saída 374,Carro,False,Madrid
+A-5 - Saída 372,A-5 - Saída 374,Carro,True,Badajoz
+A-5 - Saída 374,A-5 - Saída 376,Carro,False,Madrid
+A-5 - Saída 374,A-5 - Saída 376,Carro,False,Mérida
+A-5 - Saída 374,A-5 - Saída 376,Carro,True,Badajoz
+A-5 - Saída 376,A-5 - Saída 380,Carro,False,Madrid
+A-5 - Saída 376,A-5 - Saída 380,Carro,False,Mérida
+A-5 - Saída 376,A-5 - Saída 380,Carro,True,Badajoz
+A-5 - Saída 376,A-5 - Saída 380,Carro,True,Portugal
 A-5 - Saída 380,A-5 - Saída 382,Carro,False,Madrid
 A-5 - Saída 380,A-5 - Saída 382,Carro,False,Mérida
 A-5 - Saída 380,A-5 - Saída 382,Carro,True,Badajoz

@@ -208,9 +208,18 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-5 - Saída 341,A-5 - Saída 342,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,1.4,A-5,SO,1,2
-A-5 - Saída 346,A-5 - Saída 352,Carro,6.9,A-5,SO,1,1
+A-5 - Saída 346,A-5 - Saída 352,Carro,6.9,A-5,SO,1,2
 A-5 - Saída 346,Cruzamento da A-5 com a A-66 Sul,Carro,1.1,A-5,NE,2,1
+A-5 - Saída 352,A-5 - Saída 354,Carro,1.6,A-5,SO,1,2
+A-5 - Saída 354,A-5 - Saída 360,Carro,6.3,A-5,SO,1,2
+A-5 - Saída 360,A-5 - Saída 365,Carro,5.5,A-5,O,1,2
+A-5 - Saída 365,A-5 - Saída 367,Carro,1.8,A-5,SO,1,2
+A-5 - Saída 367,A-5 - Saída 372,Carro,5.6,A-5,O,1,2
+A-5 - Saída 372,A-5 - Saída 374,Carro,1.0,A-5,NO,1,2
+A-5 - Saída 374,A-5 - Saída 376,Carro,2.0,A-5,O,1,2
+A-5 - Saída 376,A-5 - Saída 380,Carro,4.2,A-5,NO,1,2
 A-5 - Saída 380,A-5 - Saída 382,Carro,1.5,A-5,O,1,2
 A-5 - Saída 382,A-5 - Saída 395,Carro,13.1,A-5,NO,1,2
 A-5 - Saída 395,A-5 - Saída 400,Carro,5.7,A-5,NO,1,2
