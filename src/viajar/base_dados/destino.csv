@@ -724,6 +724,8 @@ A-5 - Saída 376,A-5 - Saída 380,Carro,True,Portugal
 A-5 - Saída 380,A-5 - Saída 382,Carro,False,Madrid
 A-5 - Saída 380,A-5 - Saída 382,Carro,False,Mérida
 A-5 - Saída 380,A-5 - Saída 382,Carro,True,Badajoz
+A-5 - Saída 380,Talavera la Real,Carro,False,A-5 - Badajoz/Madrid
+A-5 - Saída 380,Talavera la Real,Carro,True,Talavera la Real
 A-5 - Saída 382,A-5 - Saída 395,Carro,False,Madrid
 A-5 - Saída 382,A-5 - Saída 395,Carro,False,Mérida
 A-5 - Saída 382,A-5 - Saída 395,Carro,True,Badajoz
@@ -732,6 +734,10 @@ A-5 - Saída 395,A-5 - Saída 400,Carro,False,Madrid
 A-5 - Saída 395,A-5 - Saída 400,Carro,False,Mérida
 A-5 - Saída 395,A-5 - Saída 400,Carro,True,Cáceres
 A-5 - Saída 395,A-5 - Saída 400,Carro,True,Lisboa
+A-5 - Saída 395,Urbanização Mirador de Cerro Gordo,Carro,False,A-5 - Lisboa/Madrid
+A-5 - Saída 395,Urbanização Mirador de Cerro Gordo,Carro,False,Badajoz
+A-5 - Saída 395,Urbanização Mirador de Cerro Gordo,Carro,True,Aeroporto de Badajoz
+A-5 - Saída 395,Urbanização Mirador de Cerro Gordo,Carro,True,Talavera la Real
 A-5 - Saída 400,A-5 - Saída 403,Carro,False,Cáceres
 A-5 - Saída 400,A-5 - Saída 403,Carro,False,Córdoba
 A-5 - Saída 400,A-5 - Saída 403,Carro,False,Madrid
@@ -3175,9 +3181,18 @@ Serpa,Vila Nova de São Bento,Carro,True,Vila Verde de Ficalho
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,A22
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,False,Castro Marim
 Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo António,Carro,True,Vila Real de Santo António
+Talavera la Real,Villafranco del Guadiana,Carro,False,A-5 - Madrid
+Talavera la Real,Villafranco del Guadiana,Carro,False,Talavera la Real
+Talavera la Real,Villafranco del Guadiana,Carro,True,Badajoz
+Talavera la Real,Villafranco del Guadiana,Carro,True,Villafranco del Guadiana
 Tavira - Norte,Tavira - Sul,Carro,False,Vila Real de Santo António
 Tavira - Norte,Tavira - Sul,Carro,True,Faro
 Tavira - Norte,Tavira - Sul,Carro,True,Olhão
+Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,False,A-5 - Lisboa
+Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,False,Badajoz
+Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,True,Aeroporto de Badajoz
+Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,True,Talavera la Real
+Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,True,Villafranco del Guadiana
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,False,Olhão
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,False,Vila Real de Santo António
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Carro,True,Aeroporto de Faro
