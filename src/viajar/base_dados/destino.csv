@@ -1455,6 +1455,27 @@ A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A2 - Saída 2,A2 - Saída 3,Carro,False,Almada
+A2 - Saída 2,A2 - Saída 3,Carro,False,Lisboa
+A2 - Saída 2,A2 - Saída 3,Carro,True,Montijo
+A2 - Saída 2,A2 - Saída 3,Carro,True,Setúbal
+A2 - Saída 2,A2 - Saída 3,Carro,True,Sul
+A2 - Saída 3,Área de Serviço de Palmela,Carro,False,Barreiro
+A2 - Saída 3,Área de Serviço de Palmela,Carro,False,Lisboa
+A2 - Saída 3,Área de Serviço de Palmela,Carro,True,Palmela
+A2 - Saída 3,Área de Serviço de Palmela,Carro,True,Setúbal
+A2 - Saída 3,Área de Serviço de Palmela,Carro,True,Sul
+A2 - Saída 4,Área de Serviço de Palmela,Carro,False,Palmela
+A2 - Saída 4,Área de Serviço de Palmela,Carro,False,Setúbal
+A2 - Saída 4,Área de Serviço de Palmela,Carro,False,Sul
+A2 - Saída 4,Área de Serviço de Palmela,Carro,True,Barreiro
+A2 - Saída 4,Área de Serviço de Palmela,Carro,True,Lisboa
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,False,Almada
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,False,Lisboa
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,False,Palmela
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,True,Algarve
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,True,Espanha
+A2 - Saída 4,Cruzamento da A12 com a A2,Carro,True,Setúbal
 A2 - Saída 6,Águas de Moura,Carro,False,A2 - Algarve/Lisboa
 A2 - Saída 6,Águas de Moura,Carro,False,A6 - Espanha
 A2 - Saída 6,Águas de Moura,Carro,False,Pegões
