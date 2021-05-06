@@ -1,5 +1,6 @@
 Nome,Freguesia,Concelho
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
+A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
 A2 - Saída 4,Palmela,Palmela
@@ -29,6 +30,17 @@ A22 - Saída 7,Alcantarilha,Silves
 A22 - Saída 8,Pêra,Silves
 A22 - Saída 9,Ferreiras,Albufeira
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
+A5 - Fim,Cascais,Cascais
+A5 - Saída 1,Alcântara,Lisboa
+A5 - Saída 2,Alcântara,Lisboa
+A5 - Saída 3,Benfica,Lisboa
+A5 - Saída 4,Algés,Oeiras
+A5 - Saída 5,Carnaxide,Oeiras
+A5 - Saída 7,Paço de Arcos,Oeiras
+A5 - Saída 8,São Domingos de Rana,Cascais
+A5 - Saída 9,Estoril,Cascais
+A5 - Saída 11,Alcabideche,Cascais
+A5 - Saída 12,Cascais,Cascais
 A6 - Saída 2,Vendas Novas,Vendas Novas
 A6 - Saída 3,Nossa Senhora do Bispo,Montemor-o-Novo
 A6 - Saída 4,Nossa Senhora da Vila,Montemor-o-Novo
@@ -86,8 +98,10 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Lagos,Bensafrim,Lagos
 Área de Serviço de Loulé,Boliqueime,Loulé
 Área de Serviço de Montemor-o-Novo,Nossa Senhora da Vila,Montemor-o-Novo
+Área de Serviço de Oeiras,Paço de Arcos,Oeiras
 Área de Serviço de Olhão,Moncarapacho,Olhão
 Área de Serviço de Palmela,Palmela,Palmela
+Área de Serviço de Seixal,Amora,Seixal
 Área de Serviço de Silves,Silves,Silves
 Área de Serviço de Vendas Novas,Landeira,Vendas Novas
 Armação de Pêra,Armação de Pêra,Silves
@@ -163,9 +177,11 @@ Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
 Cruzamento da A12 com a A2,Palmela,Palmela
+Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
+Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da N120 com a N125,São Sebastião,Lagos
@@ -208,6 +224,7 @@ Cuba,Cuba,Cuba
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
+Eixo Norte-Sul - Alcântara,Alcântara,Lisboa
 Entradas,Entradas,Castro Verde
 Ervidel,Ervidel,Aljustrel
 Espiche,Luz,Lagos

@@ -1460,6 +1460,16 @@ A2 - Saída 2,A2 - Saída 3,Carro,False,Lisboa
 A2 - Saída 2,A2 - Saída 3,Carro,True,Montijo
 A2 - Saída 2,A2 - Saída 3,Carro,True,Setúbal
 A2 - Saída 2,A2 - Saída 3,Carro,True,Sul
+A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Almada
+A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Costa da Caparica
+A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Lisboa
+A2 - Saída 1,Área de Serviço de Seixal,Carro,True,Setúbal
+A2 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A2 - Sul
+A2 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,Lisboa
+A2 - Saída 2,Área de Serviço de Seixal,Carro,False,Setúbal
+A2 - Saída 2,Área de Serviço de Seixal,Carro,True,Almada
+A2 - Saída 2,Área de Serviço de Seixal,Carro,True,Costa da Caparica
+A2 - Saída 2,Área de Serviço de Seixal,Carro,True,Lisboa
 A2 - Saída 3,Área de Serviço de Palmela,Carro,False,Barreiro
 A2 - Saída 3,Área de Serviço de Palmela,Carro,False,Lisboa
 A2 - Saída 3,Área de Serviço de Palmela,Carro,True,Palmela
@@ -1722,6 +1732,63 @@ A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,False,IC1 - Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,True,Beja
 A26 - Fim,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+A5 - Fim,A5 - Saída 12,Carro,False,Aldeia de Juso
+A5 - Fim,A5 - Saída 12,Carro,False,Birre
+A5 - Fim,A5 - Saída 12,Carro,True,Lisboa
+A5 - Saída 1,A5 - Saída 2,Carro,False,A2 - Sul
+A5 - Saída 1,A5 - Saída 2,Carro,False,Lisboa
+A5 - Saída 1,A5 - Saída 2,Carro,True,Cascais
+A5 - Saída 1,A5 - Saída 2,Carro,True,Sintra
+A5 - Saída 2,A5 - Saída 3,Carro,False,A2 - Sul
+A5 - Saída 2,A5 - Saída 3,Carro,False,Lisboa
+A5 - Saída 2,A5 - Saída 3,Carro,True,Amadora
+A5 - Saída 2,A5 - Saída 3,Carro,True,Cascais
+A5 - Saída 2,A5 - Saída 3,Carro,True,IC19 - Sintra
+A5 - Saída 3,A5 - Saída 4,Carro,False,A2 - Sul
+A5 - Saída 3,A5 - Saída 4,Carro,False,Lisboa
+A5 - Saída 3,A5 - Saída 4,Carro,True,Cascais
+A5 - Saída 3,A5 - Saída 4,Carro,True,Linda-a-Velha
+A5 - Saída 4,A5 - Saída 5,Carro,False,Lisboa
+A5 - Saída 4,A5 - Saída 5,Carro,False,Outras direcções
+A5 - Saída 4,A5 - Saída 5,Carro,True,Cascais
+A5 - Saída 4,A5 - Saída 5,Carro,True,Linda-a-Velha
+A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,False,Linda-a-Velha
+A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,False,Lisboa
+A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,True,A9 CREL
+A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,True,Cascais
+A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,True,Estádio Nacional
+A5 - Saída 7,A5 - Saída 8,Carro,False,Oeiras
+A5 - Saída 7,A5 - Saída 8,Carro,False,Lisboa
+A5 - Saída 7,A5 - Saída 8,Carro,True,Carcavelos
+A5 - Saída 7,A5 - Saída 8,Carro,True,Cascais
+A5 - Saída 7,Área de Serviço de Oeiras,Carro,False,Cascais
+A5 - Saída 7,Área de Serviço de Oeiras,Carro,False,Oeiras
+A5 - Saída 7,Área de Serviço de Oeiras,Carro,True,A9 CREL
+A5 - Saída 7,Área de Serviço de Oeiras,Carro,True,Estádio Nacional
+A5 - Saída 7,Área de Serviço de Oeiras,Carro,True,Lisboa
+A5 - Saída 8,A5 - Saída 9,Carro,False,Carcavelos
+A5 - Saída 8,A5 - Saída 9,Carro,False,Lisboa
+A5 - Saída 8,A5 - Saída 9,Carro,True,Cascais
+A5 - Saída 8,A5 - Saída 9,Carro,True,Estoril
+A5 - Saída 9,Cruzamento da A16 com a A5,Carro,False,Carcavelos
+A5 - Saída 9,Cruzamento da A16 com a A5,Carro,False,Lisboa
+A5 - Saída 9,Cruzamento da A16 com a A5,Carro,True,A16 - Sintra
+A5 - Saída 9,Cruzamento da A16 com a A5,Carro,True,Alcabideche
+A5 - Saída 9,Cruzamento da A16 com a A5,Carro,True,Cascais
+A5 - Saída 11,A5 - Saída 12,Carro,False,Carcavelos
+A5 - Saída 11,A5 - Saída 12,Carro,False,Lisboa
+A5 - Saída 11,A5 - Saída 12,Carro,True,Cascais
+A5 - Saída 11,A5 - Saída 12,Carro,True,Malveira da Serra
+A5 - Saída 11,Cruzamento da A16 com a A5,Carro,False,Alvide
+A5 - Saída 11,Cruzamento da A16 com a A5,Carro,False,Cascais
+A5 - Saída 11,Cruzamento da A16 com a A5,Carro,True,Carcavelos
+A5 - Saída 11,Cruzamento da A16 com a A5,Carro,True,Lisboa
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A1 - Norte
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A5 - Cascais
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,IC19 - Sintra
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,Lisboa - Marquês de Pombal
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,A2 - Sul
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,IC20 - Almada/Costa da Caparica
 A6 - Saída 2,A6 - Saída 3,Carro,False,Algarve
 A6 - Saída 2,A6 - Saída 3,Carro,False,Lisboa
 A6 - Saída 2,A6 - Saída 3,Carro,False,Vendas Novas
@@ -2027,6 +2094,11 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Cádiz
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Guadiaro
+Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,False,Cascais
+Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,False,Oeiras
+Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,A9 CREL
+Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,Estádio Nacional
+Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,Lisboa
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Málaga
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
