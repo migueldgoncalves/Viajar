@@ -37,6 +37,7 @@ Chucena,El Condado,Huelva
 Córdoba,Comarca de Córdoba,Córdoba
 Coria del Río,Aljarafe,Sevilha
 Coria del Río,Comarca Metropolitana de Sevilha,Sevilha
+Don Benito,La Serena-Vegas Altas,Badajoz
 Dos Hermanas,Comarca Metropolitana de Sevilha,Sevilha
 Écija,Comarca de Écija,Sevilha
 El Carpio,Alto Guadalquivir,Córdoba
@@ -56,6 +57,7 @@ Fuentes de Andalucía,Comarca de Écija,Sevilha
 Gelves,Aljarafe,Sevilha
 Gelves,Comarca Metropolitana de Sevilha,Sevilha
 Gibraleón,Comarca Metropolitana de Huelva,Huelva
+Guareña,Guadiana,Badajoz
 Guarromán,Sierra Morena,Jaén
 Guillena,Sierra Norte de Sevilha,Sevilha
 Huelva,Comarca Metropolitana de Huelva,Huelva
@@ -87,6 +89,7 @@ Marbella,Costa del Sol Occidental,Málaga
 Marchena,Campiña de Morón y Marchena,Sevilha
 Marmolejo,Campiña de Jaén,Jaén
 Medina Sidonia,La Janda,Cádiz
+Miajadas,Comarca de Trujillo,Cáceres
 Mijas,Costa del Sol Occidental,Málaga
 Mollina,Comarca de Antequera,Málaga
 Monesterio,Tentudía,Badajoz
@@ -109,9 +112,11 @@ San Bartolomé de la Torre,El Andévalo,Huelva
 San Juan de Aznalfarache,Aljarafe,Sevilha
 San Juan de Aznalfarache,Comarca Metropolitana de Sevilha,Sevilha
 San Juan del Puerto,Comarca Metropolitana de Huelva,Huelva
+San Pedro de Mérida,Centro,Badajoz
 San Roque,Campo de Gibraltar,Cádiz
 San Silvestre de Guzmán,Costa Occidental de Huelva,Huelva
 Sanlúcar de Guadiana,El Andévalo,Huelva
+Santa Amalia,Guadiana,Badajoz
 Santa Bárbara de Casa,El Andévalo,Huelva
 Santa Elena,Sierra Morena,Jaén
 Santa Olalla del Cala,Sierra de Huelva,Huelva
@@ -121,6 +126,7 @@ Sevilha,Comarca Metropolitana de Sevilha,Sevilha
 Talavera la Real,Vegas Bajas,Badajoz
 Torremejía,Tierra de Barros,Badajoz
 Torremolinos,Costa del Sol Occidental,Málaga
+Trujillanos,Centro,Badajoz
 Umbrete,Aljarafe,Sevilha
 Utrera,Bajo Guadalquivir,Sevilha
 Valencia del Mombuey,Sierra Suroeste,Badajoz

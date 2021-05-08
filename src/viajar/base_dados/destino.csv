@@ -688,10 +688,50 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 298,A-5 - Saída 300,Carro,False,Madrid
+A-5 - Saída 298,A-5 - Saída 300,Carro,False,Miajadas
+A-5 - Saída 298,A-5 - Saída 300,Carro,True,Badajoz
+A-5 - Saída 298,A-5 - Saída 300,Carro,True,Mérida
+A-5 - Saída 300,A-5 - Saída 304,Carro,False,Madrid
+A-5 - Saída 300,A-5 - Saída 304,Carro,False,Miajadas
+A-5 - Saída 300,A-5 - Saída 304,Carro,True,Badajoz
+A-5 - Saída 300,A-5 - Saída 304,Carro,True,Mérida
+A-5 - Saída 304,A-5 - Saída 310,Carro,False,Madrid
+A-5 - Saída 304,A-5 - Saída 310,Carro,False,Miajadas
+A-5 - Saída 304,A-5 - Saída 310,Carro,True,Badajoz
+A-5 - Saída 304,A-5 - Saída 310,Carro,True,Mérida
+A-5 - Saída 310,A-5 - Saída 316,Carro,False,Madrid
+A-5 - Saída 310,A-5 - Saída 316,Carro,False,Miajadas
+A-5 - Saída 310,A-5 - Saída 316,Carro,True,Badajoz
+A-5 - Saída 310,A-5 - Saída 316,Carro,True,Mérida
+A-5 - Saída 310,A-5 - Saída 316,Carro,True,Torrefresneda
+A-5 - Saída 316,A-5 - Saída 318,Carro,False,Madrid
+A-5 - Saída 316,A-5 - Saída 318,Carro,True,Badajoz
+A-5 - Saída 316,A-5 - Saída 318,Carro,True,Mérida
+A-5 - Saída 318,A-5 - Saída 325,Carro,False,Madrid
+A-5 - Saída 318,A-5 - Saída 325,Carro,True,Badajoz
+A-5 - Saída 318,A-5 - Saída 325,Carro,True,Mérida
+A-5 - Saída 318,A-5 - Saída 325,Carro,True,Portugal
+A-5 - Saída 325,A-5 - Saída 331,Carro,False,Madrid
+A-5 - Saída 325,A-5 - Saída 331,Carro,False,Torrefresneda
+A-5 - Saída 325,A-5 - Saída 331,Carro,True,Badajoz
+A-5 - Saída 325,A-5 - Saída 331,Carro,True,Mérida
+A-5 - Saída 331,A-5 - Saída 333-334,Carro,False,Madrid
+A-5 - Saída 331,A-5 - Saída 333-334,Carro,False,Torrefresneda
+A-5 - Saída 331,A-5 - Saída 333-334,Carro,True,Badajoz
+A-5 - Saída 331,A-5 - Saída 333-334,Carro,True,Mérida
+A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,False,Madrid
+A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,False,Torrefresneda
+A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,True,A-66 - Cáceres
+A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,True,Badajoz
 A-5 - Saída 341,A-5 - Saída 342,Carro,False,A-66 - Cáceres
 A-5 - Saída 341,A-5 - Saída 342,Carro,False,Madrid
 A-5 - Saída 341,A-5 - Saída 342,Carro,True,A-66 - Sevilha
 A-5 - Saída 341,A-5 - Saída 342,Carro,True,Badajoz
+A-5 - Saída 341,Cruzamento da A-5 com a A-66 Norte,Carro,False,A-66 - Sevilha
+A-5 - Saída 341,Cruzamento da A-5 com a A-66 Norte,Carro,False,Badajoz
+A-5 - Saída 341,Cruzamento da A-5 com a A-66 Norte,Carro,True,A-66 - Cáceres
+A-5 - Saída 341,Cruzamento da A-5 com a A-66 Norte,Carro,True,Madrid
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,A-66 - Cáceres
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,False,Madrid
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,True,Badajoz
