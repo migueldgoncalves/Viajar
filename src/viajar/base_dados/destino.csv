@@ -688,10 +688,95 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 197,A-5 - Saída 200,Carro,False,Madrid
+A-5 - Saída 197,A-5 - Saída 200,Carro,False,Navalmoral de la Mata
+A-5 - Saída 197,A-5 - Saída 200,Carro,True,Badajoz
+A-5 - Saída 197,A-5 - Saída 200,Carro,True,Trujillo
+A-5 - Saída 200,A-5 - Saída 207,Carro,False,Madrid
+A-5 - Saída 200,A-5 - Saída 207,Carro,False,Navalmoral de la Mata
+A-5 - Saída 200,A-5 - Saída 207,Carro,True,Badajoz
+A-5 - Saída 200,A-5 - Saída 207,Carro,True,Trujillo
+A-5 - Saída 207,A-5 - Saída 210,Carro,False,Madrid
+A-5 - Saída 207,A-5 - Saída 210,Carro,False,Navalmoral de la Mata
+A-5 - Saída 207,A-5 - Saída 210,Carro,True,Badajoz
+A-5 - Saída 207,A-5 - Saída 210,Carro,True,Trujillo
+A-5 - Saída 210,A-5 - Saída 219,Carro,False,Madrid
+A-5 - Saída 210,A-5 - Saída 219,Carro,False,Navalmoral de la Mata
+A-5 - Saída 210,A-5 - Saída 219,Carro,True,Badajoz
+A-5 - Saída 210,A-5 - Saída 219,Carro,True,Cáceres
+A-5 - Saída 210,A-5 - Saída 219,Carro,True,Trujillo
+A-5 - Saída 219,A-5 - Saída 227,Carro,False,Madrid
+A-5 - Saída 219,A-5 - Saída 227,Carro,False,Navalmoral de la Mata
+A-5 - Saída 219,A-5 - Saída 227,Carro,True,Badajoz
+A-5 - Saída 219,A-5 - Saída 227,Carro,True,Trujillo
+A-5 - Saída 227,A-5 - Saída 232,Carro,False,Madrid
+A-5 - Saída 227,A-5 - Saída 232,Carro,False,Navalmoral de la Mata
+A-5 - Saída 227,A-5 - Saída 232,Carro,True,Badajoz
+A-5 - Saída 227,A-5 - Saída 232,Carro,True,Trujillo
+A-5 - Saída 232,A-5 - Saída 240,Carro,False,Jaraicejo
+A-5 - Saída 232,A-5 - Saída 240,Carro,False,Madrid
+A-5 - Saída 232,A-5 - Saída 240,Carro,True,Badajoz
+A-5 - Saída 232,A-5 - Saída 240,Carro,True,Trujillo
+A-5 - Saída 240,Cruzamento da A-5 com a A-58,Carro,False,Madrid
+A-5 - Saída 240,Cruzamento da A-5 com a A-58,Carro,False,Navalmoral de la Mata
+A-5 - Saída 240,Cruzamento da A-5 com a A-58,Carro,True,Badajoz
+A-5 - Saída 240,Cruzamento da A-5 com a A-58,Carro,True,Trujillo
+A-5 - Saída 250,A-5 - Saída 253,Carro,False,Madrid
+A-5 - Saída 250,A-5 - Saída 253,Carro,False,Navalmoral de la Mata
+A-5 - Saída 250,A-5 - Saída 253,Carro,True,Badajoz
+A-5 - Saída 250,A-5 - Saída 253,Carro,True,Mérida
+A-5 - Saída 250,A-5 - Saída 253,Carro,True,Miajadas
+A-5 - Saída 250,Cruzamento da A-5 com a A-58,Carro,False,Badajoz
+A-5 - Saída 250,Cruzamento da A-5 com a A-58,Carro,False,Mérida
+A-5 - Saída 250,Cruzamento da A-5 com a A-58,Carro,False,Trujillo
+A-5 - Saída 250,Cruzamento da A-5 com a A-58,Carro,True,Madrid
+A-5 - Saída 250,Cruzamento da A-5 com a A-58,Carro,True,Navalmoral de la Mata
+A-5 - Saída 253,A-5 - Saída 259,Carro,False,Madrid
+A-5 - Saída 253,A-5 - Saída 259,Carro,False,Navalmoral de la Mata
+A-5 - Saída 253,A-5 - Saída 259,Carro,True,Badajoz
+A-5 - Saída 253,A-5 - Saída 259,Carro,True,Mérida
+A-5 - Saída 253,A-5 - Saída 259,Carro,True,Miajadas
+A-5 - Saída 253,A-5 - Saída 259,Carro,True,Portugal
+A-5 - Saída 259,A-5 - Saída 268,Carro,False,Madrid
+A-5 - Saída 259,A-5 - Saída 268,Carro,True,Badajoz
+A-5 - Saída 259,A-5 - Saída 268,Carro,True,Mérida
+A-5 - Saída 259,A-5 - Saída 268,Carro,True,Miajadas
+A-5 - Saída 268,A-5 - Saída 269,Carro,False,Madrid
+A-5 - Saída 268,A-5 - Saída 269,Carro,True,Badajoz
+A-5 - Saída 269,A-5 - Saída 272,Carro,False,Madrid
+A-5 - Saída 269,A-5 - Saída 272,Carro,False,Trujillo
+A-5 - Saída 269,A-5 - Saída 272,Carro,True,Badajoz
+A-5 - Saída 272,A-5 - Saída 275,Carro,False,Madrid
+A-5 - Saída 272,A-5 - Saída 275,Carro,False,Trujillo
+A-5 - Saída 272,A-5 - Saída 275,Carro,True,Badajoz
+A-5 - Saída 275,A-5 - Saída 277,Carro,False,Madrid
+A-5 - Saída 275,A-5 - Saída 277,Carro,True,Badajoz
+A-5 - Saída 275,A-5 - Saída 277,Carro,True,Mérida
+A-5 - Saída 275,A-5 - Saída 277,Carro,True,Miajadas
+A-5 - Saída 277,A-5 - Saída 281,Carro,False,Madrid
+A-5 - Saída 277,A-5 - Saída 281,Carro,False,Trujillo
+A-5 - Saída 277,A-5 - Saída 281,Carro,True,Badajoz
+A-5 - Saída 277,A-5 - Saída 281,Carro,True,Mérida
+A-5 - Saída 277,A-5 - Saída 281,Carro,True,Miajadas
+A-5 - Saída 281,A-5 - Saída 287,Carro,False,Madrid
+A-5 - Saída 281,A-5 - Saída 287,Carro,False,Trujillo
+A-5 - Saída 281,A-5 - Saída 287,Carro,True,Badajoz
+A-5 - Saída 281,A-5 - Saída 287,Carro,True,Miajadas
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,False,Madrid
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,False,Trujillo
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,True,Badajoz
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,True,Mérida
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,True,Portugal
+A-5 - Saída 287,Cruzamento da A-5 com a EX-A2,Carro,True,Torrefresneda
 A-5 - Saída 298,A-5 - Saída 300,Carro,False,Madrid
 A-5 - Saída 298,A-5 - Saída 300,Carro,False,Miajadas
 A-5 - Saída 298,A-5 - Saída 300,Carro,True,Badajoz
 A-5 - Saída 298,A-5 - Saída 300,Carro,True,Mérida
+A-5 - Saída 298,Cruzamento da A-5 com a EX-A2,Carro,False,Badajoz
+A-5 - Saída 298,Cruzamento da A-5 com a EX-A2,Carro,False,Mérida
+A-5 - Saída 298,Cruzamento da A-5 com a EX-A2,Carro,False,Torrefresneda
+A-5 - Saída 298,Cruzamento da A-5 com a EX-A2,Carro,True,Madrid
+A-5 - Saída 298,Cruzamento da A-5 com a EX-A2,Carro,True,Miajadas
 A-5 - Saída 300,A-5 - Saída 304,Carro,False,Madrid
 A-5 - Saída 300,A-5 - Saída 304,Carro,False,Miajadas
 A-5 - Saída 300,A-5 - Saída 304,Carro,True,Badajoz
@@ -791,6 +876,9 @@ A-5 - Saída 403,A-5 - Saída 407,Carro,True,Lisboa
 A-5 - Saída 407,A6 - Saída 13,Carro,False,Espanha
 A-5 - Saída 407,A6 - Saída 13,Carro,True,Elvas
 A-5 - Saída 407,A6 - Saída 13,Carro,True,Lisboa
+A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,False,Cáceres
+A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Mérida
+A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Sevilha
 A-66 - Saída 626,A-66 - Saída 627,Carro,False,Mérida
 A-66 - Saída 626,A-66 - Saída 627,Carro,True,Sevilha
 A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,False,Sevilha
@@ -2435,6 +2523,10 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,True,Sevilha - Tr
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,False,A-49 - Huelva/Sevilha
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Almensilla
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Palomares del Río
+Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Madrid
+Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Miajadas
+Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Don Benito
+Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Villanueva de la Serena
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-4 - Cádiz
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-49 - Huelva
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-66 - Mérida
