@@ -9,6 +9,7 @@ Almaraz,Campo Arañuelo,Cáceres
 Almendralejo,Tierra de Barros,Badajoz
 Almensilla,Aljarafe,Sevilha
 Almensilla,Comarca Metropolitana de Sevilha,Sevilha
+Almuradiel,Sierra Morena,Ciudad Real
 Andújar,Campiña de Jaén,Jaén
 Antequera,Comarca de Antequera,Málaga
 Arahal,Campiña de Morón y Marchena,Sevilha
@@ -17,6 +18,7 @@ Aroche,Sierra de Huelva,Huelva
 Arroyo de San Serván,Centro,Badajoz
 Ayamonte,Costa Occidental de Huelva,Huelva
 Bailén,Sierra Morena,Jaén
+Belvís de Monroy,Campo Arañuelo,Cáceres
 Benacazón,Aljarafe,Sevilha
 Benalmádena,Costa del Sol Occidental,Málaga
 Bollullos de la Mitación,Aljarafe,Sevilha
@@ -63,11 +65,13 @@ Gibraleón,Comarca Metropolitana de Huelva,Huelva
 Guareña,Guadiana,Badajoz
 Guarromán,Sierra Morena,Jaén
 Guillena,Sierra Norte de Sevilha,Sevilha
+Herreruela de Oropesa,La Campana de Oropesa,Toledo
 Huelva,Comarca Metropolitana de Huelva,Huelva
 Huévar del Aljarafe,Aljarafe,Sevilha
 Isla Cristina,Costa Occidental de Huelva,Huelva
 Jaraicejo,Comarca de Trujillo,Cáceres
 Jerez de la Frontera,Campiña de Jerez,Cádiz
+La Calzada de Oropesa,La Campana de Oropesa,Toledo
 La Campana,Campiña de Carmona,Sevilha
 La Carolina,Sierra Morena,Jaén
 La Carlota,Valle Medio del Guadalquivir,Córdoba
@@ -75,6 +79,7 @@ La Luisiana,Comarca de Écija,Sevilha
 La Puebla de Cazalla,Campiña de Morón y Marchena,Sevilha
 La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
 La Roda de Andalucía,Sierra Sur de Sevilha,Sevilha
+Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
 Lebrija,Bajo Guadalquivir,Sevilha
 Lepe,Costa Occidental de Huelva,Huelva
@@ -95,10 +100,12 @@ Marmolejo,Campiña de Jaén,Jaén
 Medina Sidonia,La Janda,Cádiz
 Miajadas,Comarca de Trujillo,Cáceres
 Mijas,Costa del Sol Occidental,Málaga
+Millanes,Campo Arañuelo,Cáceres
 Mollina,Comarca de Antequera,Málaga
 Monesterio,Tentudía,Badajoz
 Montoro,Alto Guadalquivir,Córdoba
 Oliva de la Frontera,Sierra Suroeste,Badajoz
+Oropesa,La Campana de Oropesa,Toledo
 Osuna,Sierra Sur de Sevilha,Sevilha
 Palomares del Río,Aljarafe,Sevilha
 Palomares del Río,Comarca Metropolitana de Sevilha,Sevilha
@@ -106,6 +113,7 @@ Paradas,Campiña de Morón y Marchena,Sevilha
 Paymogo,El Andévalo,Huelva
 Pedrera,Sierra Sur de Sevilha,Sevilha
 Pedro Abad,Alto Guadalquivir,Córdoba
+Peraleda de la Mata,Campo Arañuelo,Cáceres
 Puebla de Guzmán,El Andévalo,Huelva
 Puebla de Sancho Pérez,Zafra-Río Bodión,Badajoz
 Puerto de Santa Cruz,Comarca de Trujillo,Cáceres
@@ -129,6 +137,7 @@ Santa Elena,Sierra Morena,Jaén
 Santa Olalla del Cala,Sierra de Huelva,Huelva
 Santiponce,Aljarafe,Sevilha
 Santiponce,Comarca Metropolitana de Sevilha,Sevilha
+Saucedilla,Campo Arañuelo,Cáceres
 Sevilha,Comarca Metropolitana de Sevilha,Sevilha
 Talavera la Real,Vegas Bajas,Badajoz
 Torrecillas de la Tiesa,Comarca de Trujillo,Cáceres
