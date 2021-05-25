@@ -1,5 +1,6 @@
 Nome,Freguesia,Concelho
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
+A16 - Saída 2,Alcabideche,Cascais
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
@@ -53,6 +54,7 @@ A6 - Saída 10,São Vicente e Ventosa,Elvas
 A6 - Saída 11,Caia e São Pedro,Elvas
 A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
+A9 CREL - Saída 2,Barcarena,Oeiras
 Achada do Gamo,Santana de Cambas,Mértola
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
@@ -178,6 +180,7 @@ Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
 Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
+Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola

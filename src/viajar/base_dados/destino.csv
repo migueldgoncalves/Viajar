@@ -1659,6 +1659,10 @@ A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,A9 - Norte
+A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Lisboa
+A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Sintra
+A16 - Saída 2,Cruzamento da A16 com a A5,Carro,True,A5 - Cascais/Lisboa
 A2 - Saída 2,A2 - Saída 3,Carro,False,Almada
 A2 - Saída 2,A2 - Saída 3,Carro,False,Lisboa
 A2 - Saída 2,A2 - Saída 3,Carro,True,Montijo
@@ -2063,6 +2067,20 @@ A6 - Saída 12,A6 - Saída 13,Carro,False,A2 - Lisboa
 A6 - Saída 12,A6 - Saída 13,Carro,False,Elvas
 A6 - Saída 12,A6 - Saída 13,Carro,False,Évora
 A6 - Saída 12,A6 - Saída 13,Carro,True,Espanha
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,False,A5
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,False,Cascais
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,False,IC19
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,A1
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,A8
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,A10
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,IC16
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,IC17 CRIL
+A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,Loures
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A1
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A8
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A10
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,Loures
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,True,A5 - Cascais
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos
