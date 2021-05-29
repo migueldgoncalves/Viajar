@@ -571,6 +571,10 @@ A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Cádiz
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,False,Jerez de la Frontera
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,True,El Cuervo de Sevilla
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,True,Sevilha
+A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Toledo
+A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Torrijos
+A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Ávila
+A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,False,Málaga
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,True,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
@@ -691,6 +695,122 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 69,A-5 - Saída 72,Carro,False,Madrid
+A-5 - Saída 69,A-5 - Saída 72,Carro,False,Navalcarnero
+A-5 - Saída 69,A-5 - Saída 72,Carro,True,Badajoz
+A-5 - Saída 69,A-5 - Saída 72,Carro,True,Maqueda
+A-5 - Saída 72,A-5 - Saída 74,Carro,False,Madrid
+A-5 - Saída 72,A-5 - Saída 74,Carro,True,Badajoz
+A-5 - Saída 72,A-5 - Saída 74,Carro,True,Maqueda
+A-5 - Saída 74,Cruzamento da A-40 com a A-5,Carro,False,Madrid
+A-5 - Saída 74,Cruzamento da A-40 com a A-5,Carro,False,Navalcarnero
+A-5 - Saída 74,Cruzamento da A-40 com a A-5,Carro,True,Badajoz
+A-5 - Saída 74,Cruzamento da A-40 com a A-5,Carro,True,Portugal
+A-5 - Saída 74,Cruzamento da A-40 com a A-5,Carro,True,Talavera de la Reina
+A-5 - Saída 79,A-5 - Saída 83,Carro,False,Madrid
+A-5 - Saída 79,A-5 - Saída 83,Carro,False,Maqueda
+A-5 - Saída 79,A-5 - Saída 83,Carro,True,Badajoz
+A-5 - Saída 79,A-5 - Saída 83,Carro,True,Portugal
+A-5 - Saída 79,A-5 - Saída 83,Carro,True,Talavera de la Reina
+A-5 - Saída 79,Cruzamento da A-40 com a A-5,Carro,False,Badajoz
+A-5 - Saída 79,Cruzamento da A-40 com a A-5,Carro,False,Portugal
+A-5 - Saída 79,Cruzamento da A-40 com a A-5,Carro,False,Talavera de la Reina
+A-5 - Saída 79,Cruzamento da A-40 com a A-5,Carro,True,Madrid
+A-5 - Saída 79,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
+A-5 - Saída 83,A-5 - Saída 85,Carro,False,Madrid
+A-5 - Saída 83,A-5 - Saída 85,Carro,False,Maqueda
+A-5 - Saída 83,A-5 - Saída 85,Carro,True,Badajoz
+A-5 - Saída 83,A-5 - Saída 85,Carro,True,Talavera de la Reina
+A-5 - Saída 85,A-5 - Saída 86,Carro,False,Madrid
+A-5 - Saída 85,A-5 - Saída 86,Carro,False,Maqueda
+A-5 - Saída 85,A-5 - Saída 86,Carro,True,Badajoz
+A-5 - Saída 85,A-5 - Saída 86,Carro,True,Talavera de la Reina
+A-5 - Saída 86,A-5 - Saída 88,Carro,False,Madrid
+A-5 - Saída 86,A-5 - Saída 88,Carro,False,Maqueda
+A-5 - Saída 86,A-5 - Saída 88,Carro,True,Badajoz
+A-5 - Saída 86,A-5 - Saída 88,Carro,True,Talavera de la Reina
+A-5 - Saída 88,A-5 - Saída 90,Carro,False,Madrid
+A-5 - Saída 88,A-5 - Saída 90,Carro,False,Maqueda
+A-5 - Saída 88,A-5 - Saída 90,Carro,True,Badajoz
+A-5 - Saída 88,A-5 - Saída 90,Carro,True,Talavera de la Reina
+A-5 - Saída 90,A-5 - Saída 91,Carro,False,Madrid
+A-5 - Saída 90,A-5 - Saída 91,Carro,False,Maqueda
+A-5 - Saída 90,A-5 - Saída 91,Carro,True,Badajoz
+A-5 - Saída 90,A-5 - Saída 91,Carro,True,Talavera de la Reina
+A-5 - Saída 91,A-5 - Saída 92,Carro,False,Madrid
+A-5 - Saída 91,A-5 - Saída 92,Carro,False,Maqueda
+A-5 - Saída 91,A-5 - Saída 92,Carro,True,Badajoz
+A-5 - Saída 91,A-5 - Saída 92,Carro,True,Talavera de la Reina
+A-5 - Saída 92,A-5 - Saída 96,Carro,False,Madrid
+A-5 - Saída 92,A-5 - Saída 96,Carro,False,Maqueda
+A-5 - Saída 92,A-5 - Saída 96,Carro,True,Badajoz
+A-5 - Saída 92,A-5 - Saída 96,Carro,True,Talavera de la Reina
+A-5 - Saída 96,A-5 - Saída 101,Carro,False,Madrid
+A-5 - Saída 96,A-5 - Saída 101,Carro,False,Maqueda
+A-5 - Saída 96,A-5 - Saída 101,Carro,True,Badajoz
+A-5 - Saída 96,A-5 - Saída 101,Carro,True,Talavera de la Reina
+A-5 - Saída 101,A-5 - Saída 106,Carro,False,Madrid
+A-5 - Saída 101,A-5 - Saída 106,Carro,False,Maqueda
+A-5 - Saída 101,A-5 - Saída 106,Carro,True,Badajoz
+A-5 - Saída 101,A-5 - Saída 106,Carro,True,Talavera de la Reina
+A-5 - Saída 106,A-5 - Saída 111,Carro,False,Madrid
+A-5 - Saída 106,A-5 - Saída 111,Carro,False,Maqueda
+A-5 - Saída 106,A-5 - Saída 111,Carro,True,Badajoz
+A-5 - Saída 106,A-5 - Saída 111,Carro,True,Navalmoral de la Mata
+A-5 - Saída 106,A-5 - Saída 111,Carro,True,Trujillo
+A-5 - Saída 111,A-5 - Saída 115,Carro,False,Madrid
+A-5 - Saída 111,A-5 - Saída 115,Carro,False,Maqueda
+A-5 - Saída 111,A-5 - Saída 115,Carro,True,Badajoz
+A-5 - Saída 111,A-5 - Saída 115,Carro,True,Navalmoral de la Mata
+A-5 - Saída 111,A-5 - Saída 115,Carro,True,Trujillo
+A-5 - Saída 115,A-5 - Saída 118,Carro,False,Madrid
+A-5 - Saída 115,A-5 - Saída 118,Carro,False,Maqueda
+A-5 - Saída 115,A-5 - Saída 118,Carro,True,Badajoz
+A-5 - Saída 115,A-5 - Saída 118,Carro,True,Navalmoral de la Mata
+A-5 - Saída 115,A-5 - Saída 118,Carro,True,Trujillo
+A-5 - Saída 118,A-5 - Saída 123,Carro,False,Madrid
+A-5 - Saída 118,A-5 - Saída 123,Carro,False,Maqueda
+A-5 - Saída 118,A-5 - Saída 123,Carro,True,Badajoz
+A-5 - Saída 118,A-5 - Saída 123,Carro,True,Navalmoral de la Mata
+A-5 - Saída 118,A-5 - Saída 123,Carro,True,Trujillo
+A-5 - Saída 123,A-5 - Saída 124,Carro,False,Madrid
+A-5 - Saída 123,A-5 - Saída 124,Carro,False,Maqueda
+A-5 - Saída 123,A-5 - Saída 124,Carro,True,Badajoz
+A-5 - Saída 123,A-5 - Saída 124,Carro,True,Navalmoral de la Mata
+A-5 - Saída 123,A-5 - Saída 124,Carro,True,Trujillo
+A-5 - Saída 124,A-5 - Saída 126,Carro,False,Madrid
+A-5 - Saída 124,A-5 - Saída 126,Carro,False,Talavera de la Reina
+A-5 - Saída 124,A-5 - Saída 126,Carro,True,Badajoz
+A-5 - Saída 124,A-5 - Saída 126,Carro,True,Navalmoral de la Mata
+A-5 - Saída 126,A-5 - Saída 128,Carro,False,Madrid
+A-5 - Saída 126,A-5 - Saída 128,Carro,False,Talavera de la Reina
+A-5 - Saída 126,A-5 - Saída 128,Carro,True,Badajoz
+A-5 - Saída 126,A-5 - Saída 128,Carro,True,Navalmoral de la Mata
+A-5 - Saída 128,A-5 - Saída 130,Carro,False,Madrid
+A-5 - Saída 128,A-5 - Saída 130,Carro,False,Talavera de la Reina
+A-5 - Saída 128,A-5 - Saída 130,Carro,True,Badajoz
+A-5 - Saída 128,A-5 - Saída 130,Carro,True,Navalmoral de la Mata
+A-5 - Saída 128,A-5 - Saída 130,Carro,True,Trujillo
+A-5 - Saída 130,A-5 - Saída 135,Carro,False,Madrid
+A-5 - Saída 130,A-5 - Saída 135,Carro,False,Talavera de la Reina
+A-5 - Saída 130,A-5 - Saída 135,Carro,True,Badajoz
+A-5 - Saída 130,A-5 - Saída 135,Carro,True,Navalmoral de la Mata
+A-5 - Saída 130,A-5 - Saída 135,Carro,True,Trujillo
+A-5 - Saída 135,A-5 - Saída 142,Carro,False,Madrid
+A-5 - Saída 135,A-5 - Saída 142,Carro,False,Talavera de la Reina
+A-5 - Saída 135,A-5 - Saída 142,Carro,True,Badajoz
+A-5 - Saída 135,A-5 - Saída 142,Carro,True,Navalmoral de la Mata
+A-5 - Saída 135,A-5 - Saída 142,Carro,True,Trujillo
+A-5 - Saída 142,A-5 - Saída 145,Carro,False,Madrid
+A-5 - Saída 142,A-5 - Saída 145,Carro,False,Talavera de la Reina
+A-5 - Saída 142,A-5 - Saída 145,Carro,True,Badajoz
+A-5 - Saída 142,A-5 - Saída 145,Carro,True,Navalmoral de la Mata
+A-5 - Saída 142,A-5 - Saída 145,Carro,True,Trujillo
+A-5 - Saída 145,A-5 - Saída 146,Carro,False,Madrid
+A-5 - Saída 145,A-5 - Saída 146,Carro,False,Talavera de la Reina
+A-5 - Saída 145,A-5 - Saída 146,Carro,True,Badajoz
+A-5 - Saída 145,A-5 - Saída 146,Carro,True,Navalmoral de la Mata
+A-5 - Saída 145,A-5 - Saída 146,Carro,True,Trujillo
 A-5 - Saída 146,A-5 - Saída 148,Carro,False,Madrid
 A-5 - Saída 146,A-5 - Saída 148,Carro,False,Talavera de la Reina
 A-5 - Saída 146,A-5 - Saída 148,Carro,True,Badajoz
