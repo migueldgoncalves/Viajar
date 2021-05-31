@@ -391,6 +391,8 @@ A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Carro,1.5,A-7/AP-7,
 A-7 - Saída 226,A-7 - Saída 230,Carro,4.3,A-7 - Ronda Oeste de Málaga,NO,2,1
 A-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,2.5,A-7 - Ronda Oeste de Málaga,S,1,2
 A-7 - Saída 230,Cruzamento da A-357 com a A-7,Carro,4.3,A-7 - Ronda Oeste de Málaga,NE,2,1
+A-7 - Saída 235-237,Cruzamento da A-357 com a A-7,Carro,4.9,A-7 - Ronda Oeste de Málaga,SO,1,2
+A-7 - Saída 235-237,Cruzamento da A-7 com a AP-46,Carro,1.0,A-7 - Ronda Oeste de Málaga,NE,2,1
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -748,6 +750,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,3.5,AP-7,O,1,2
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,21.0,AP-46,SO,1,3
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,2.0,A5,E,1,2
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,8.4,A2,SE,2,1
@@ -939,6 +942,7 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,1.3,A-49,E,4,1
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,6.0,EX-A2,SE,3,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
+Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,4.8,A-7 - Ronda Oeste de Málaga,SE,2,1
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
