@@ -159,7 +159,12 @@ A-4 - Saída 628,El Cuervo de Sevilla,Carro,13.2,N-4,NE,1,2
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,4.6,A-40,NO,1,3
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,1,3
+A-45 - Saída 102,A-45 - Saída 107,Carro,5.7,A-45,SE,2,1
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,3.3,A-45,NO,1,4
+A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,7.2,A-45,SE,2,1
+A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,1.0,A-45,NE,1,2
+A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,1.4,A-45,SE,2,1
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,5.7,A-45,N,1,2
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,1.7,A-483,N,1,3
 A-483 - Saída 1,A-483 - Saída 3,Carro,2.1,A-483,SE,2,1
 A-483 - Saída 1,Bollullos Par del Condado,Carro,1.8,,E,3,2
@@ -469,6 +474,7 @@ A-92 - Saída 160,Cruzamento da A-45 com a A-92,Carro,7.5,A-92,SO,1,2
 A-92 - Saída 163,A-92 - Saída 167,Carro,3.1,A-92,NE,2,1
 A-92 - Saída 167,A-92 - Saída 175,Carro,8.5,A-92,NE,2,1
 A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,E,2,1
+A-92 - Saída 178,A-92 - Saída 180,Carro,2.5,A-92,NE,2,1
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,SO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92M,NE,1,3
@@ -750,6 +756,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,3.5,AP-7,O,1,2
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,4.0,AP-46,N,2,3
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,21.0,AP-46,SO,1,3
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,2.0,A5,E,1,2

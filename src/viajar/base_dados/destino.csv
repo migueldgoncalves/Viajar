@@ -581,11 +581,29 @@ A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Antequera
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Málaga
+A-45 - Saída 102,A-45 - Saída 107,Carro,False,Antequera
+A-45 - Saída 102,A-45 - Saída 107,Carro,True,Málaga
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,False,Casabermeja
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,False,Málaga
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Córdoba
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Granada
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,True,Sevilha
+A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,False,Antequera
+A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,False,Córdoba
+A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,False,Sevilha
+A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,True,Málaga
+A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,False,Málaga
+A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,True,Granada
+A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,True,Córdoba
+A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,True,Sevilha
+A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,False,Antequera
+A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,False,Córdoba
+A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,True,Málaga
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Algeciras
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Almería
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Málaga
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,True,Antequera
+A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,True,Córdoba
 A-483 - Saída 1,A-483 - Saída 3,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,Almonte
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
@@ -1774,6 +1792,9 @@ A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,False,Sevilha
 A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Almería
 A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Granada
 A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,True,Jaén
+A-92 - Saída 178,A-92 - Saída 180,Carro,False,Málaga
+A-92 - Saída 178,A-92 - Saída 180,Carro,False,Sevilha
+A-92 - Saída 178,A-92 - Saída 180,Carro,True,Granada
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Almería
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Granada
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,False,Jaén
@@ -2436,6 +2457,12 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Aeroporto de Málaga-Costa del Sol
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Málaga
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Torremolinos
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,False,Algeciras
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,False,Almería
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,False,Málaga
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,True,Córdoba
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,True,Granada
+Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,True,Sevilha
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Córdoba
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Granada
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Sevilha
