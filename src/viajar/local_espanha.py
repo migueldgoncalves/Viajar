@@ -46,8 +46,11 @@ class LocalEspanha(local.Local):
     #  Ex: Ayamonte, Província de Huelva, Andaluzia
     def imprimir_info_breve(self):
         nome = self.nome.split(",")[0]  # Ex: "Álamo, Alcoutim" e "Álamo, Mértola" -> Álamo
-        print("Está em", nome + ",", self.municipio + ",", "Província de", self.provincia + ",",
-              self.comunidade_autonoma)
+        if LocalEspanha.is_comunidade_uniprovincial(self.comunidade_autonoma):
+            print("Está em", nome + ",", self.municipio + ",", self.comunidade_autonoma)
+        else:
+            print("Está em", nome + ",", self.municipio + ",", "Província de", self.provincia + ",",
+                  self.comunidade_autonoma)
 
     def imprimir_info_completa(self):
         super().imprimir_info_completa()
@@ -70,6 +73,11 @@ class LocalEspanha(local.Local):
             for comarca in self.comarcas:
                 comarca_string = comarca_string + ', ' + comarca
             print("Comarcas:", comarca_string[2:])  # Os primeiros caracteres estão a mais
-        print("Província:", self.provincia)
+        if not LocalEspanha.is_comunidade_uniprovincial(self.comunidade_autonoma):
+            print("Província:", self.provincia)  # Comunidades autónomas uniprovinciais não têm governos provinciais
         print("Comunidade Autónoma:", self.comunidade_autonoma)
         print("País:", self.pais)
+
+    @staticmethod
+    def is_comunidade_uniprovincial(comunidade_autonoma):
+        return comunidade_autonoma in ["Comunidade de Madrid"]
