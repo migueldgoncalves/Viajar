@@ -891,6 +891,7 @@ Castro Verde,IP2 - Saída 49,Carro,1.6,N2,SO,5,3
 Castro Verde,Mina de Neves-Corvo,Carro,20.0,,SE,2,2
 Cercado,Deserto,Carro,0.3,,E,2,1
 Cercal do Alentejo,Colos,Carro,21.5,,SE,3,1
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,7.2,N120,NO,5,1
 Cercal do Alentejo,Mimosa,Carro,36.1,,NE,4,1
 Cercal do Alentejo,São Luís,Carro,10.6,N120,S,1,3
 Cercal do Alentejo,Vila Nova de Milfontes,Carro,14.4,,SO,2,4
@@ -963,6 +964,8 @@ Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
 Cruzamento da M524 com a M525,Tôr,Carro,1.3,,NO,4,1
 Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,,SO,2,2
+Cruzamento da N120 com a N120-1,Porto Covo,Carro,11.3,,O,2,1
+Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,14.0,N120-1,NO,3,2
 Cruzamento da N120 com a N125,Estação de Lagos,Carro,1.6,,SE,2,1
 Cruzamento da N120 com a N125,Lagos,Carro,1.6,,SE,4,1
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,1.8,N125,SO,5,2
@@ -1242,6 +1245,7 @@ IP2 - Saída 45,Trindade,Carro,1.1,,S,3,1
 IP2 - Saída 46,IP2 - Saída 47,Carro,3.3,IP2,S,2,1
 IP2 - Saída 48,IP2 - Saída 49,Carro,2.2,IP2,SO,2,1
 IP2 - Saída 49,IP2 - Saída 50,Carro,3.9,IP2,SO,2,1
+IP8 - Início,Praia de São Torpes,Carro,3.2,N120-1,SE,1,3
 Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,4
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
 Lagoa,Porches,Carro,5.2,N125,SE,2,6
@@ -1315,7 +1319,7 @@ Odeceixe,Rogil,Carro,8.9,N120,SO,1,2
 Odeceixe,São Teotónio,Carro,12.8,N120,NE,3,1
 Odemira,São Luís,Carro,17.2,N120,N,3,1
 Odemira,São Teotónio,Carro,13.9,N120,SO,2,4
-Odemira,Vila Nova de Milfontes,Barco,30.8,Rio Mira,NO,5,6
+Odemira,Vila Nova de Milfontes,Barco,30.8,Rio Mira,NO,5,8
 Odemira,Vila Nova de Milfontes,Carro,27.2,,NO,1,2
 "Odivelas, Ferreira do Alentejo",Torrão,Carro,16.8,N2,NO,2,1
 "Odivelas, Ferreira do Alentejo",Vila Nova da Baronia,Carro,19.2,,NE,4,4
@@ -1371,6 +1375,9 @@ Portimão - Centro histórico,Universidade do Algarve - Campus de Portimão,Carr
 Portimão - Zona ribeirinha,Porto Comercial de Portimão,Carro,2.2,,SE,2,1
 Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,E,4,4
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,N,4,3
+Porto Covo,Praia de São Torpes,Carro,8.7,,N,2,1
+Porto Covo,Vila Nova de Milfontes,Barco,17.3,Costa de Portugal Continental,S,4,6
+Porto Covo,Vila Nova de Milfontes,Carro,20.2,,S,3,5
 Praia da Arrifana,Ribat da Arrifana,Carro,6.3,,NO,2,2
 Praia da Boca do Rio,Salema,Carro,2.3,,O,3,1
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,4.7,Ria Formosa,NE,2,1
@@ -1424,7 +1431,7 @@ Ruínas Romanas de Milreu,São Brás de Alportel,Carro,8.1,N2,N,4,1
 Safara,Santo Aleixo da Restauração,Carro,8.2,,SE,2,1
 Safara,Sobral da Adiça,Carro,11.4,,SO,1,3
 Sagres,Vila do Bispo,Carro,9.4,,NE,1,5
-Sagres,Vila Nova de Milfontes,Barco,95.8,Costa de Portugal Continental,N,5,5
+Sagres,Vila Nova de Milfontes,Barco,95.8,Costa de Portugal Continental,N,5,7
 Salgueiros,Santana de Cambas,Comboio,3.7,Antiga Linha São Domingos - Pomarão,N,5,5
 San Bartolomé de la Torre,Villanueva de los Castillejos,Carro,16.8,,NO,1,3
 San Bartolomé de la Torre,Tariquejo,Carro,10.1,,SO,2,2

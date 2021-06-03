@@ -2650,6 +2650,12 @@ Castro Verde,IP2 - Saída 48,Carro,True,Aljustrel
 Castro Verde,IP2 - Saída 49,Carro,False,Almodôvar
 Castro Verde,IP2 - Saída 49,Carro,False,Castro Verde
 Castro Verde,IP2 - Saída 49,Carro,True,IP2 - Beja/Ourique
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,False,Cercal do Alentejo
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,False,Lagos
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,False,Odemira
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,True,Lisboa
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,True,Santiago do Cacém
+Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,True,Sines
 Cercal do Alentejo,São Luís,Carro,False,Cercal do Alentejo
 Cercal do Alentejo,São Luís,Carro,True,Odemira
 CO-32 - Fim,CO-32 - Saída 3,Carro,False,Aeroporto de Córdoba
@@ -2839,6 +2845,10 @@ Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Ourique
+Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Algarve
+Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Cercal do Alentejo
+Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Lisboa
+Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Sines
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Portimão
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,A22
@@ -3383,6 +3393,10 @@ IP2 - Saída 49,IP2 - Saída 50,Carro,False,Beja
 IP2 - Saída 49,IP2 - Saída 50,Carro,False,Castro Verde
 IP2 - Saída 49,IP2 - Saída 50,Carro,False,Mértola
 IP2 - Saída 49,IP2 - Saída 50,Carro,True,A2
+IP8 - Início,Praia de São Torpes,Carro,False,IP8 - Espanha/Lisboa
+IP8 - Início,Praia de São Torpes,Carro,False,Sines
+IP8 - Início,Praia de São Torpes,Carro,True,Algarve
+IP8 - Início,Praia de São Torpes,Carro,True,Cercal do Alentejo
 Isla Cristina,Punta del Moral,Barco,False,Huelva
 Isla Cristina,Punta del Moral,Barco,False,Sevilha
 Isla Cristina,Punta del Moral,Barco,True,Ayamonte
@@ -3512,6 +3526,10 @@ Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,True,Marina de Por
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,False,Marina de Portimão
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Portimão - Centro da cidade
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Silves
+Porto Covo,Vila Nova de Milfontes,Barco,False,Setúbal
+Porto Covo,Vila Nova de Milfontes,Barco,False,Sines
+Porto Covo,Vila Nova de Milfontes,Barco,True,Lagos
+Porto Covo,Vila Nova de Milfontes,Barco,True,Portimão
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,False,Vila Nova de Cacela
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Faro
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Tavira
