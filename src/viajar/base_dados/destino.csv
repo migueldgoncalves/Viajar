@@ -713,6 +713,17 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 31,A-5 - Saída 32,Carro,False,Madrid
+A-5 - Saída 31,A-5 - Saída 32,Carro,False,Móstoles
+A-5 - Saída 31,A-5 - Saída 32,Carro,True,Badajoz
+A-5 - Saída 31,A-5 - Saída 32,Carro,True,Maqueda
+A-5 - Saída 31,A-5 - Saída 32,Carro,True,Talavera de la Reina
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,False,Madrid
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,False,Móstoles
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,False,Navalcarnero
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,True,Badajoz
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,True,Maqueda
+A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,True,Talavera de la Reina
 A-5 - Saída 36,A-5 - Saída 40,Carro,False,Madrid
 A-5 - Saída 36,A-5 - Saída 40,Carro,False,Navalcarnero
 A-5 - Saída 36,A-5 - Saída 40,Carro,True,Badajoz
@@ -2841,6 +2852,11 @@ Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Madrid
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Miajadas
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Don Benito
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Villanueva de la Serena
+Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Badajoz
+Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Maqueda
+Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Talavera de la Reina
+Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Madrid
+Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Móstoles
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-4 - Cádiz
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-49 - Huelva
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-66 - Mérida
@@ -2889,6 +2905,11 @@ Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-92 - Granada/Sevilha
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Córdoba/Madrid
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,Aeroporto de Sevilha
+Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,False,Madrid
+Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,False,Móstoles
+Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Badajoz
+Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
+Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
@@ -3620,6 +3641,11 @@ Quatro Águas,Vila Real de Santo António,Barco,False,Faro
 Quatro Águas,Vila Real de Santo António,Barco,False,Portimão
 Quatro Águas,Vila Real de Santo António,Barco,True,Huelva
 Quatro Águas,Vila Real de Santo António,Barco,True,Sevilha
+R-5 - Saída 20,R-5 - Saída 28,Carro,False,Madrid
+R-5 - Saída 20,R-5 - Saída 28,Carro,False,Móstoles
+R-5 - Saída 20,R-5 - Saída 28,Carro,True,Badajoz
+R-5 - Saída 20,R-5 - Saída 28,Carro,True,Navalcarnero
+R-5 - Saída 20,R-5 - Saída 28,Carro,True,Talavera de la Reina
 Raposeira,Vila do Bispo,Carro,False,Lagos
 Raposeira,Vila do Bispo,Carro,False,Portimão
 Raposeira,Vila do Bispo,Carro,True,Sagres
