@@ -297,8 +297,8 @@ A-5 - Saída 310,A-5 - Saída 316,Carro,5.5,A-5,SO,1,2
 A-5 - Saída 316,A-5 - Saída 318,Carro,2.0,A-5,O,1,2
 A-5 - Saída 318,A-5 - Saída 325,Carro,7.7,A-5,SO,1,2
 A-5 - Saída 325,A-5 - Saída 331,Carro,5.4,A-5,O,1,2
-A-5 - Saída 331,A-5 - Saída 333-334,Carro,3.3,A-5,SO,1,2
-A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,5.4,A-5,O,1,2
+A-5 - Saída 331,A-5 - Saída 333,Carro,3.3,A-5,SO,1,2
+A-5 - Saída 333,Cruzamento da A-5 com a A-66 Norte,Carro,5.4,A-5,O,1,2
 A-5 - Saída 341,A-5 - Saída 342,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 341,Cruzamento da A-5 com a A-66 Norte,Carro,2.1,A-5,NE,2,1
 A-5 - Saída 342,Cruzamento da A-5 com a A-66 Sul,Carro,1.4,A-5,SO,1,2
@@ -1081,6 +1081,9 @@ Culatra,Ilha da Armona,Barco,6.2,Ria Formosa,NE,1,2
 Culatra,Hangares,Barco,1.6,Ria Formosa,SO,2,1
 Culatra,Olhão,Barco,5.1,Ria Formosa,N,3,8
 Deserto,Montinho,Carro,0.6,,SE,5,1
+Don Benito,EX-A2 - Fim,Carro,4.8,,NE,2,2
+Don Benito,EX-A2 - Saída 20,Carro,5.6,,N,1,3
+Don Benito,Villanueva de la Serena,Comboio,6.1,Linha Ciudad Real-Badajoz - Media Distancia/Regional Exprés,NE,3,3
 Dunas de Vila Real de Santo António,Monte Gordo,Carro,1.7,,O,1,2
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Carro,2.0,,NE,2,4
 Écija,Estepa,Carro,37.9,,SE,4,2
@@ -1181,6 +1184,13 @@ Estoi,Pechão,Carro,4.8,N2-6,SE,2,3
 Estoi,Ruínas Romanas de Milreu,Carro,0.9,N2-6,O,4,1
 Estômbar,Parque Municipal do Sítio das Fontes,Carro,2.1,,N,2,1
 "Estrela, Moura",Póvoa de São Miguel,Carro,9.0,,SE,1,3
+EX-A2 - Fim,EX-A2 - Saída 23,Carro,1.6,EX-A2,NO,1,2
+EX-A2 - Fim,Villanueva de la Serena,Carro,2.1,,NE,3,2
+EX-A2 - Saída 6,EX-A2 - Saída 8,Carro,2.2,EX-A2,S,2,1
+EX-A2 - Saída 8,EX-A2 - Saída 15,Carro,6.8,EX-A2,SE,2,1
+EX-A2 - Saída 15,EX-A2 - Saída 20,Carro,4.6,EX-A2,S,2,1
+EX-A2 - Saída 20,EX-A2 - Saída 23,Carro,3.1,EX-A2,SE,2,1
+EX-A2 - Saída 23,Villanueva de la Serena,Carro,5.0,,SE,3,1
 Faro - Avenida Calouste Gulbenkian,Forum Algarve,Carro,1.7,,NO,1,1
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,2.7,N2,N,2,3
 Faro - Avenida Calouste Gulbenkian,Universidade do Algarve - Campus da Penha,Carro,1.8,,E,3,1

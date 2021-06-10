@@ -1069,14 +1069,14 @@ A-5 - Saída 325,A-5 - Saída 331,Carro,False,Madrid
 A-5 - Saída 325,A-5 - Saída 331,Carro,False,Torrefresneda
 A-5 - Saída 325,A-5 - Saída 331,Carro,True,Badajoz
 A-5 - Saída 325,A-5 - Saída 331,Carro,True,Mérida
-A-5 - Saída 331,A-5 - Saída 333-334,Carro,False,Madrid
-A-5 - Saída 331,A-5 - Saída 333-334,Carro,False,Torrefresneda
-A-5 - Saída 331,A-5 - Saída 333-334,Carro,True,Badajoz
-A-5 - Saída 331,A-5 - Saída 333-334,Carro,True,Mérida
-A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,False,Madrid
-A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,False,Torrefresneda
-A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,True,A-66 - Cáceres
-A-5 - Saída 333-334,Cruzamento da A-5 com a A-66 Norte,Carro,True,Badajoz
+A-5 - Saída 331,A-5 - Saída 333,Carro,False,Madrid
+A-5 - Saída 331,A-5 - Saída 333,Carro,False,Torrefresneda
+A-5 - Saída 331,A-5 - Saída 333,Carro,True,Badajoz
+A-5 - Saída 331,A-5 - Saída 333,Carro,True,Mérida
+A-5 - Saída 333,Cruzamento da A-5 com a A-66 Norte,Carro,False,Madrid
+A-5 - Saída 333,Cruzamento da A-5 com a A-66 Norte,Carro,False,Torrefresneda
+A-5 - Saída 333,Cruzamento da A-5 com a A-66 Norte,Carro,True,A-66 - Cáceres
+A-5 - Saída 333,Cruzamento da A-5 com a A-66 Norte,Carro,True,Badajoz
 A-5 - Saída 341,A-5 - Saída 342,Carro,False,A-66 - Cáceres
 A-5 - Saída 341,A-5 - Saída 342,Carro,False,Madrid
 A-5 - Saída 341,A-5 - Saída 342,Carro,True,A-66 - Sevilha
@@ -3167,6 +3167,12 @@ Culatra,Ilha da Armona,Barco,True,Fuseta
 Culatra,Ilha da Armona,Barco,True,Vila Nova de Cacela
 Culatra,Olhão,Barco,False,Faro
 Culatra,Olhão,Barco,True,Olhão
+Don Benito,Villanueva de la Serena,Comboio,False,Badajoz
+Don Benito,Villanueva de la Serena,Comboio,False,Mérida
+Don Benito,Villanueva de la Serena,Comboio,True,Alcázar de San Juan
+Don Benito,Villanueva de la Serena,Comboio,True,Cabeza del Buey
+Don Benito,Villanueva de la Serena,Comboio,True,Ciudad Real
+Don Benito,Villanueva de la Serena,Comboio,True,Puertollano
 Entradas,IP2 - Saída 47,Carro,False,A2
 Entradas,IP2 - Saída 47,Carro,False,Castro Verde
 Entradas,IP2 - Saída 47,Carro,False,Entradas
@@ -3343,6 +3349,26 @@ Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi
 Estoi,Ruínas Romanas de Milreu,Carro,False,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,True,Faro
 Estoi,Ruínas Romanas de Milreu,Carro,True,Ruínas Romanas de Milreu
+EX-A2 - Fim,EX-A2 - Saída 23,Carro,False,Don Benito
+EX-A2 - Fim,EX-A2 - Saída 23,Carro,False,Villanueva de la Serena
+EX-A2 - Fim,EX-A2 - Saída 23,Carro,True,Madrid
+EX-A2 - Fim,EX-A2 - Saída 23,Carro,True,Miajadas
+EX-A2 - Saída 6,EX-A2 - Saída 8,Carro,False,Madrid
+EX-A2 - Saída 6,EX-A2 - Saída 8,Carro,False,Miajadas
+EX-A2 - Saída 6,EX-A2 - Saída 8,Carro,True,Don Benito
+EX-A2 - Saída 6,EX-A2 - Saída 8,Carro,True,Villanueva de la Serena
+EX-A2 - Saída 8,EX-A2 - Saída 15,Carro,False,Madrid
+EX-A2 - Saída 8,EX-A2 - Saída 15,Carro,False,Miajadas
+EX-A2 - Saída 8,EX-A2 - Saída 15,Carro,True,Don Benito
+EX-A2 - Saída 8,EX-A2 - Saída 15,Carro,True,Villanueva de la Serena
+EX-A2 - Saída 15,EX-A2 - Saída 20,Carro,False,Madrid
+EX-A2 - Saída 15,EX-A2 - Saída 20,Carro,False,Miajadas
+EX-A2 - Saída 15,EX-A2 - Saída 20,Carro,True,Don Benito
+EX-A2 - Saída 15,EX-A2 - Saída 20,Carro,True,Villanueva de la Serena
+EX-A2 - Saída 20,EX-A2 - Saída 23,Carro,False,Madrid
+EX-A2 - Saída 20,EX-A2 - Saída 23,Carro,False,Miajadas
+EX-A2 - Saída 20,EX-A2 - Saída 23,Carro,True,Don Benito
+EX-A2 - Saída 20,EX-A2 - Saída 23,Carro,True,Villanueva de la Serena
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,False,Faro
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,Estoi
 Faro - Avenida Calouste Gulbenkian,Variante de Faro - Nó com a N2,Carro,True,São Brás de Alportel
