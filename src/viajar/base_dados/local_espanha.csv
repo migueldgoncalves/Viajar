@@ -409,6 +409,9 @@ AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
 AP-4 - Saída 44-45,Las Cabezas de San Juan,Sevilha,
 AP-4 - Saída 53,Lebrija,Sevilha,
+AP-41 - Saída 2,Moraleja de Enmedio,Comunidade de Madrid,
+AP-41 - Saída 8,Serranillos del Valle,Comunidade de Madrid,
+AP-41 - Saída 16,Carranque,Toledo,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
 AP-7 - Saída 142,Manilva,Málaga,
 AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
@@ -422,6 +425,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
 Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
 Área de Serviço de Manilva,Manilva,Málaga,
+Área de Serviço de Polvoranca,Leganés,Comunidade de Madrid,
 Área de Serviço de Río Castor,Estepona,Málaga,
 Aroche,Aroche,Huelva,
 Ayamonte,Ayamonte,Huelva,
@@ -459,6 +463,7 @@ Cruzamento da A-4 Norte com a SE-40,La Rinconada,Sevilha,
 Cruzamento da A-4 Sul com a SE-30,Sevilha,Sevilha,Bellavista-La Palmera
 Cruzamento da A-4 Sul com a SE-40,Dos Hermanas,Sevilha,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
+Cruzamento da A-42 com a M-40,Madrid,Comunidade de Madrid,Villaverde
 Cruzamento da A-45 com a A-92,Antequera,Málaga,
 Cruzamento da A-45 com a A-92M,Antequera,Málaga,
 Cruzamento da A-45 com a AP-46,Antequera,Málaga,
@@ -484,6 +489,9 @@ Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
 Cruzamento da H-30 com a H-31,Huelva,Huelva,
+Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
+Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
+Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Écija,Écija,Sevilha,
@@ -499,6 +507,7 @@ Isla Cristina,Isla Cristina,Huelva,
 La Carlota,La Carlota,Córdoba,
 La Puebla de Cazalla,La Puebla de Cazalla,Sevilha,
 Lepe,Lepe,Huelva,
+M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
 Marchena,Marchena,Sevilha,
 Marismas de Isla Cristina,Ayamonte,Huelva,
@@ -517,6 +526,8 @@ Praia de Isla Canela,Ayamonte,Huelva,
 Puebla de Guzmán,Puebla de Guzmán,Huelva,
 Puerto de la Laja,El Granado,Huelva,
 Punta del Moral,Ayamonte,Huelva,
+R-5 - Saída 9,Leganés,Comunidade de Madrid,
+R-5 - Saída 11,Móstoles,Comunidade de Madrid,Sur-Este
 R-5 - Saída 20,Moraleja de Enmedio,Comunidade de Madrid,
 R-5 - Saída 28,Navalcarnero,Comunidade de Madrid,
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Sevilha,Sevilha,Norte

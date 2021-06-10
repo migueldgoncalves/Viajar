@@ -2451,6 +2451,12 @@ AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Los Palacios y Villafranca
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,False,Sevilha
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Cádiz
 AP-4 - Saída 53,El Cuervo de Sevilla,Carro,True,Jerez de la Frontera
+AP-41 - Saída 2,AP-41 - Saída 8,Carro,False,Madrid
+AP-41 - Saída 2,AP-41 - Saída 8,Carro,True,Toledo
+AP-41 - Saída 2,Cruzamento da AP-41 com a R-5,Carro,False,Toledo
+AP-41 - Saída 2,Cruzamento da AP-41 com a R-5,Carro,True,R-5 - Badajoz/Madrid
+AP-41 - Saída 8,AP-41 - Saída 16,Carro,False,Madrid
+AP-41 - Saída 8,AP-41 - Saída 16,Carro,True,Toledo
 AP-7 - Saída 142,Área de Serviço de Manilva,Carro,False,Estepona
 AP-7 - Saída 142,Área de Serviço de Manilva,Carro,False,Málaga
 AP-7 - Saída 142,Área de Serviço de Manilva,Carro,True,Algeciras
@@ -2539,6 +2545,16 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,A9 CREL
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,Estádio Nacional
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,Lisboa
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,False,Badajoz
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,False,Móstoles
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,False,Toledo
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,True,M-40
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,True,Madrid
+Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,False,M-40
+Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,False,Madrid
+Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,True,Badajoz
+Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,True,Móstoles
+Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,True,Toledo
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Málaga
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
@@ -2830,6 +2846,17 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-376 - Sevilha/U
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Carmona/Córdoba
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-92 - Granada/Málaga/Sevilha
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevilha
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-3
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-4
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-42 - Toledo
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,R-3
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,R-4
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-1
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-5 - Badajoz
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-6
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,M-607
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-2
+Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-5 - Badajoz/Toledo
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,False,Sevilha
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,True,Huelva
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-4 - Cádiz
@@ -2905,6 +2932,15 @@ Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-92 - Granada/Sevilha
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Córdoba/Madrid
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,Aeroporto de Sevilha
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Ourique
+Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,False,Badajoz
+Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,False,Navalcarnero
+Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,False,Toledo
+Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,True,Madrid
+Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,True,Móstoles
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,False,Madrid
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,False,Móstoles
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Badajoz
@@ -2912,10 +2948,43 @@ Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
-Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
-Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
-Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
-Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Ourique
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,True,A-42 - Toledo
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,True,R-5 - Badajoz/Toledo
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,A-1
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,A-5 - Badajoz
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,A-6
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,Feria de Madrid
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,M-607
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,False,R-2
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,True,A-3
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,True,A-4 - Córdoba
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,True,R-3
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,True,R-4 - Córdoba
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-2
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-3
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-4 - Córdoba
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,Feria de Madrid
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,M-40
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,R-2
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,R-3
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,R-4
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,True,Badajoz
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,True,Toledo
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,False,A-3
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,False,A-4
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,False,A-42 - Toledo
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,False,R-3
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,False,R-4
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,A-1
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,A-5 - Badajoz
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,A-6
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,Feria de Madrid
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,M-607
+Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,R-2
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Algarve
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Cercal do Alentejo
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Lisboa
@@ -3641,6 +3710,11 @@ Quatro Águas,Vila Real de Santo António,Barco,False,Faro
 Quatro Águas,Vila Real de Santo António,Barco,False,Portimão
 Quatro Águas,Vila Real de Santo António,Barco,True,Huelva
 Quatro Águas,Vila Real de Santo António,Barco,True,Sevilha
+R-5 - Saída 9,R-5 - Saída 11,Carro,False,Leganés
+R-5 - Saída 9,R-5 - Saída 11,Carro,False,Madrid
+R-5 - Saída 9,R-5 - Saída 11,Carro,True,Badajoz
+R-5 - Saída 9,R-5 - Saída 11,Carro,True,Navalcarnero
+R-5 - Saída 9,R-5 - Saída 11,Carro,True,Toledo
 R-5 - Saída 20,R-5 - Saída 28,Carro,False,Madrid
 R-5 - Saída 20,R-5 - Saída 28,Carro,False,Móstoles
 R-5 - Saída 20,R-5 - Saída 28,Carro,True,Badajoz
