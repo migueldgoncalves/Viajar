@@ -2670,6 +2670,18 @@ Budens,Raposeira,Carro,False,Lagos
 Budens,Raposeira,Carro,False,Portimão
 Budens,Raposeira,Carro,True,Sagres
 Budens,Raposeira,Carro,True,Vila do Bispo
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,False,Cádiz
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,False,Málaga
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,False,San Roque
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,True,Gibraltar
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,True,La Línea de la Concepción
+CA-34 - Acesso à Refinaria,Cruzamento da A-7 com a CA-34,Carro,False,Gibraltar
+CA-34 - Acesso à Refinaria,Cruzamento da A-7 com a CA-34,Carro,False,La Línea de la Concepción
+CA-34 - Acesso à Refinaria,Cruzamento da A-7 com a CA-34,Carro,True,A-7 - Cádiz/Málaga/Sevilha
+CA-34 - Acesso à Refinaria,Cruzamento da A-7 com a CA-34,Carro,True,San Roque
+CA-34 - Puente Mayorga,"Campamento, San Roque",Carro,False,San Roque
+CA-34 - Puente Mayorga,"Campamento, San Roque",Carro,True,Gibraltar
+CA-34 - Puente Mayorga,"Campamento, San Roque",Carro,True,La Línea de la Concepción
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Cabanas de Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,False,Tavira
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,True,Faro

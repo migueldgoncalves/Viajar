@@ -860,6 +860,11 @@ Budens,Salema,Carro,3.1,,S,3,2
 Burgau,Cruzamento da N125 com a M537-2,Carro,2.4,,NO,2,1
 Burgau,"Luz, Lagos",Carro,5.1,,NE,1,3
 Burgau,Praia da Boca do Rio,Carro,5.4,,SO,3,1
+CA-34 - Acesso à Refinaria,CA-34 - Puente Mayorga,Carro,1.2,CA-34,SE,2,1
+CA-34 - Acesso à Refinaria,Cruzamento da A-7 com a CA-34,Carro,1.8,CA-34,N,1,3
+CA-34 - Acesso à Refinaria,Refinaria de Gibraltar-San Roque,Carro,1.5,,SO,3,1
+CA-34 - Puente Mayorga,"Campamento, San Roque",Carro,1.1,N-351,SE,2,1
+CA-34 - Puente Mayorga,"Puente Mayorga, San Roque",Carro,0.4,,SO,3,1
 Cabanas de Tavira,"Conceição, Tavira",Carro,1.5,,N,1,3
 Cabanas de Tavira,Praia de Cabanas de Tavira,Barco,0.8,Ria Formosa,E,2,3
 Cabeço da Junqueira,Casinhas,Carro,1.7,,NE,1,3
@@ -881,6 +886,7 @@ Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,S
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
 Caldas de Monchique,Cruzamento da N124 com a N266,Carro,11.1,,S,2,3
 Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
+"Campamento, San Roque","Puente Mayorga, San Roque",Carro,1.3,,NO,2,2
 Canal Caveira,Cruzamento da A2 com a A26,Carro,9.0,IC1,E,1,5
 Canal Caveira,Grândola,Carro,8.7,IC1,NO,2,3
 Carmona,Marchena,Carro,26.8,,SE,6,2
