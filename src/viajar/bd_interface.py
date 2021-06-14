@@ -2,7 +2,7 @@ import pathlib
 import psycopg2
 from psycopg2 import OperationalError
 
-from viajar import viajar, local_portugal, local_espanha
+from viajar import viajar, local_portugal, local_espanha, local_gibraltar
 
 
 class BDInterface:
@@ -54,7 +54,13 @@ class BDInterface:
             if resultado == 1:  # Local de Espanha
                 pais = 'Espanha'
             else:
-                return None  # Local inválido
+                query = "SELECT COUNT(nome) FROM local_gibraltar WHERE nome = '" + nome + "';"
+                self.cursor.execute(query)
+                resultado = self.cursor.fetchall()[0][0]
+                if resultado == 1:  # Local de Gibraltar
+                    pais = 'Gibraltar'
+                else:
+                    return None  # Local inválido
 
         #  Determinar os locais circundantes
         query = "SELECT * FROM ligacao WHERE local_a = '" + nome + "' OR local_b = '" + nome + "';"
@@ -137,6 +143,13 @@ class BDInterface:
             comarcas = []
             for linha in resultado:
                 comarcas.append(linha[1].strip())
+        elif pais == 'Gibraltar':
+            query = "SELECT nome, major_residential_area FROM local_gibraltar WHERE nome = '" + nome + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            major_residential_areas = []
+            for linha in resultado:
+                major_residential_areas.append(linha[1].strip())
         else:
             return None
 
@@ -148,6 +161,9 @@ class BDInterface:
             local = local_espanha.LocalEspanha(nome, locais_circundantes, latitude, longitude, altitude, municipio,
                                                comarcas, provincia, comunidade_autonoma)
             local.set_distrito(distrito)
+        elif pais == 'Gibraltar':
+            local = local_gibraltar.LocalGibraltar(nome, locais_circundantes, latitude, longitude, altitude,
+                                                   major_residential_areas)
         else:
             return None
         local.set_sentidos(sentidos)
@@ -185,6 +201,11 @@ class BDInterface:
 
         path_csv = self.path + 'local_espanha.csv'
         query = "COPY local_espanha(nome, municipio, provincia, distrito) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = self.path + 'local_gibraltar.csv'
+        query = "COPY local_gibraltar(nome, major_residential_area) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
