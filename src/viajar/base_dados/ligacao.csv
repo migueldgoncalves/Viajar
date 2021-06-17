@@ -636,6 +636,7 @@ Aeroporto de Beja,Aeroporto de Jerez,Avião,222.3,,SE,7,5
 Aeroporto de Beja,Aeroporto de Sevilha,Avião,193.4,,SE,4,3
 Aeroporto de Beja,Beja,Carro,9.6,,SE,1,3
 Aeroporto de Beja,Cuba,Carro,14.5,,NE,2,5
+Aeroporto de Córdoba,Aeroporto de Gibraltar,Avião,193.1,,S,6,4
 Aeroporto de Córdoba,Aeroporto de Jerez,Avião,162.6,,SO,4,3
 Aeroporto de Córdoba,Aeroporto de Sevilha,Avião,104.0,,SO,3,5
 Aeroporto de Córdoba,CO-32 - Fim,Carro,4.1,N-437,NE,1,2
@@ -643,6 +644,9 @@ Aeroporto de Faro,Aeroporto de Jerez,Avião,173.2,,SE,6,4
 Aeroporto de Faro,Montenegro,Carro,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Carro,4.8,,SO,2,1
 Aeroporto de Faro,Aeroporto de Sevilha,Avião,188.9,,NE,4,4
+Aeroporto de Gibraltar,Aeroporto de Jerez,Avião,91.7,,NO,2,6
+Aeroporto de Gibraltar,Aeroporto de Sevilha,Avião,148.7,,NO,3,8
+Aeroporto de Gibraltar,Fronteira Espanha-Gibraltar - Lado de Gibraltar,Carro,0.1,,NO,1,2
 Aeroporto de Jerez,Aeroporto de Sevilha,Avião,76.1,,N,2,6
 Afonso Vicente,Menires do Lavajo,Carro,1.3,,NE,1,2
 Afonso Vicente,Cortes Pereiras,Carro,2.9,,E,2,1
@@ -1230,6 +1234,8 @@ Fonte Zambujo de Cima,Pereiro,Carro,3.4,,NO,1,3
 Formoa,Pomarão,Carro,2.0,,NE,1,3
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,1.9,IC4,N,2,3
 Fronteira Espanha-Gibraltar - Lado de Gibraltar,Fronteira Espanha-Gibraltar - Lado espanhol,Carro,0.1,,N,1,4
+Fronteira Espanha-Gibraltar - Lado de Gibraltar,Pista do Aeroporto de Gibraltar,Carro,0.4,,S,4,1
+Fronteira Espanha-Gibraltar - Lado de Gibraltar,Western Beach,Carro,0.5,,SO,3,1
 Fronteira Espanha-Gibraltar - Lado espanhol,La Línea de la Concepción - Centro da cidade,Carro,3.0,,N,2,4
 Fronteira Espanha-Gibraltar - Lado espanhol,"Paseo del Mediterráneo, La Línea de la Concepción",Carro,3.1,,NE,3,1
 Furnazinhas,Vaqueiros,Carro,17.6,,NO,2,1

@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS provincia cascade;
 DROP TABLE IF EXISTS municipio cascade;
 DROP TABLE IF EXISTS local_portugal cascade;
 DROP TABLE IF EXISTS local_espanha cascade;
+DROP TABLE IF EXISTS local_gibraltar cascade;
 DROP TABLE IF EXISTS comarca cascade;
 DROP TABLE IF EXISTS ligacao cascade;
 DROP TABLE IF EXISTS destino cascade;
@@ -55,6 +56,13 @@ CREATE TABLE local_espanha(
     PRIMARY KEY (nome),
     FOREIGN KEY (nome) references local(nome) on delete cascade,
     FOREIGN KEY (municipio, provincia) references municipio(municipio, provincia) on delete cascade
+);
+
+CREATE TABLE local_gibraltar(
+    nome varchar NOT NULL,
+    major_residential_area varchar NOT NULL,
+    PRIMARY KEY (nome, major_residential_area),
+    FOREIGN KEY (nome) references local(nome) on delete cascade
 );
 
 CREATE TABLE comarca(
