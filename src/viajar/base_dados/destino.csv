@@ -2297,6 +2297,8 @@ Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
 Aeroporto de Faro,Montenegro,Carro,True,Faro
+Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,False,Aeroporto de Málaga - Costa del Sol
+Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,A-7/MA-20 - Algeciras/Málaga
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,False,Alcoutim
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,False,Vila Real de Santo António
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,True,Mértola
@@ -2487,6 +2489,14 @@ AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,False,Algeciras
 AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,False,Marbella
 AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,True,Benalmádena
 AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Carro,True,Málaga
+AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,False,MA-20/MA-21 - Aeroporto de Málaga/Málaga Oeste
+AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,False,Torremolinos
+AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,True,Algeciras
+AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,True,Benalmádena
+AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Carro,True,Cádiz
+AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Carro,False,Algeciras
+AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Carro,False,Benalmádena
+AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Carro,True,MA-20/MA-21 - Aeroporto de Málaga/Málaga
 Aqualand Algarve,Porches,Carro,False,Albufeira
 Aqualand Algarve,Porches,Carro,False,Faro
 Aqualand Algarve,Porches,Carro,True,Lagoa
@@ -3004,6 +3014,10 @@ Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,A-6
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,Feria de Madrid
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,M-607
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,R-2
+Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Granada
+Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Málaga
+Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Sevilha
+Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,True,A-7/AP-7 - Algeciras/Benalmádena/Cádiz
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Algarve
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Cercal do Alentejo
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Lisboa
@@ -3174,6 +3188,12 @@ Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,A22 - 
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,Loulé
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Faro
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Algeciras
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Torremolinos
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Aeroporto de Málaga - Costa del Sol
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Almería
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Málaga
+Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Porto de Málaga
 Cuba,Estação de Alvito,Comboio,False,Beja
 Cuba,Estação de Alvito,Comboio,True,Casa Branca
 Cuba,Estação de Alvito,Comboio,True,Évora
