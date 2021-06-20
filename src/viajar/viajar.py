@@ -11,6 +11,8 @@ CARRO_STRING = "Voltar à estrada"
 BARCO_STRING = "Subir a bordo de um barco"
 AVIAO_STRING = "Embarcar num avião"
 COMBOIO_STRING = "Entrar a bordo de um comboio"
+COMBOIO_PADRAO_STRING = "Entrar a bordo de um comboio padrão"
+COMBOIO_ALTA_VELOCIDADE_STRING = "Entrar a bordo de um "  # Completar com o nome do comboio
 METRO_STRING = "Entrar numa composição de metro"
 INFORMACOES_LOCAL = "Mostrar informações do local"
 ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
@@ -42,6 +44,7 @@ CARRO = 'Carro'
 BARCO = 'Barco'
 AVIAO = 'Avião'
 COMBOIO = 'Comboio'
+COMBOIO_ALTA_VELOCIDADE = 'Comboio de Alta Velocidade'
 METRO = 'Metro'
 
 #  Outros
@@ -103,9 +106,21 @@ class Viajar:
         elif self.viagem_actual.get_modo() == AVIAO:
             print("\nEstá a bordo de um avião")
         elif self.viagem_actual.get_modo() == COMBOIO:
-            print("\nEstá a bordo de um comboio")
+            comboio_alta_velocidade_presente = False
+            for x in self.get_local_actual().get_locais_circundantes():
+                if x[1] == 'Comboio de Alta Velocidade':
+                    comboio_alta_velocidade_presente = True
+            if comboio_alta_velocidade_presente:
+                print("\nEstá a bordo de um comboio padrão")
+            else:
+                print("\nEstá a bordo de um comboio")
         elif self.viagem_actual.get_modo() == METRO:
             print("\nEstá a bordo de uma composição de metro")
+        elif self.viagem_actual.get_modo() == COMBOIO_ALTA_VELOCIDADE:
+            if self.get_local_actual().get_pais() == 'Portugal':
+                print("\nEstá a bordo de um Alfa Pendular")
+            elif self.get_local_actual().get_pais() == 'Espanha':
+                print("\nEstá a bordo de um AVE")
         print("Tem novos destinos disponíveis")
 
     #  #  #  #  #  #  #  #  #
@@ -220,9 +235,21 @@ class Viajar:
                     elif x == AVIAO:
                         print(iterador, SEPARADOR_MODO, AVIAO_STRING)
                     elif x == COMBOIO:
-                        print(iterador, SEPARADOR_MODO, COMBOIO_STRING)
+                        comboio_alta_velocidade_presente = False
+                        for y in self.get_local_actual().get_locais_circundantes():
+                            if y[1] == 'Comboio de Alta Velocidade':
+                                comboio_alta_velocidade_presente = True
+                        if comboio_alta_velocidade_presente:
+                            print(iterador, SEPARADOR_MODO, COMBOIO_PADRAO_STRING)
+                        else:
+                            print(iterador, SEPARADOR_MODO, COMBOIO_STRING)
                     elif x == METRO:
                         print(iterador, SEPARADOR_MODO, METRO_STRING)
+                    elif x == COMBOIO_ALTA_VELOCIDADE:
+                        if self.get_local_actual().get_pais() == 'Portugal':
+                            print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "Alfa Pendular")
+                        elif self.get_local_actual().get_pais() == 'Espanha':
+                            print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "AVE")
                     iterador += 1
 
             #  Opção das informações do local

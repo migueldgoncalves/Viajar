@@ -3251,10 +3251,16 @@ Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,True,Vila Rea
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,False,Lisboa - Oriente
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,False,Tunes
 Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,True,Faro
+Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio de Alta Velocidade,False,Lisboa - Oriente
+Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio de Alta Velocidade,False,Tunes
+Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio de Alta Velocidade,True,Faro
 Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Faro
 Estação de Albufeira - Ferreiras,Tunes,Comboio,False,Vila Real de Santo António
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lagos
 Estação de Albufeira - Ferreiras,Tunes,Comboio,True,Lisboa - Oriente
+Estação de Albufeira - Ferreiras,Tunes,Comboio de Alta Velocidade,False,Faro
+Estação de Albufeira - Ferreiras,Tunes,Comboio de Alta Velocidade,True,Lisboa - Oriente
+Estação de Albufeira - Ferreiras,Tunes,Comboio de Alta Velocidade,True,Pinhal Novo
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Casa Branca
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Évora
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Lisboa - Oriente
@@ -3308,6 +3314,10 @@ Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Lisboa - Orient
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Pinhal Novo
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Faro
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Tunes
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,False,Lisboa - Oriente
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,False,Pinhal Novo
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,True,Faro
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,True,Tunes
 Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,False,Santiago do Cacém
 Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,False,Sines
 Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,True,Beja
@@ -3316,6 +3326,10 @@ Estação de Ermidas - Sado,Grândola,Comboio,False,Faro
 Estação de Ermidas - Sado,Grândola,Comboio,False,Tunes
 Estação de Ermidas - Sado,Grândola,Comboio,True,Lisboa - Oriente
 Estação de Ermidas - Sado,Grândola,Comboio,True,Pinhal Novo
+Estação de Ermidas - Sado,Grândola,Comboio de Alta Velocidade,False,Faro
+Estação de Ermidas - Sado,Grândola,Comboio de Alta Velocidade,False,Tunes
+Estação de Ermidas - Sado,Grândola,Comboio de Alta Velocidade,True,Lisboa - Oriente
+Estação de Ermidas - Sado,Grândola,Comboio de Alta Velocidade,True,Pinhal Novo
 Estação de Ermidas - Sado,Mimosa,Carro,False,Grândola
 Estação de Ermidas - Sado,Mimosa,Carro,False,Lisboa
 Estação de Ermidas - Sado,Mimosa,Carro,True,Faro
@@ -3329,16 +3343,19 @@ Estação de Estômbar - Lagoa,Estação de Silves,Comboio,True,Vila Real de San
 Estação de Faro,Estação de Loulé,Comboio,False,Faro
 Estação de Faro,Estação de Loulé,Comboio,True,Lisboa - Oriente
 Estação de Faro,Estação de Loulé,Comboio,True,Tunes
+Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,False,Faro
+Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,True,Lisboa - Oriente
+Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Comboio,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
 Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
-Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,False,Lisboa - Oriente
-Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,False,Pinhal Novo
-Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,True,Faro
-Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,True,Tunes
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Lisboa - Oriente
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Pinhal Novo
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,True,Faro
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,True,Tunes
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Faro
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Lagos
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,True,Vila Real de Santo António
@@ -3371,9 +3388,9 @@ Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de S
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
-Estação de Santa Clara - Sabóia,Tunes,Comboio,False,Lisboa - Oriente
-Estação de Santa Clara - Sabóia,Tunes,Comboio,False,Pinhal Novo
-Estação de Santa Clara - Sabóia,Tunes,Comboio,True,Faro
+Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Lisboa - Oriente
+Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Pinhal Novo
+Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,True,Faro
 Estação de Silves,Poço Barreto,Comboio,False,Lagos
 Estação de Silves,Poço Barreto,Comboio,True,Tunes
 Estação de Silves,Poço Barreto,Comboio,True,Vila Real de Santo António
@@ -3463,6 +3480,10 @@ Grândola,Pinhal Novo,Comboio,False,Faro
 Grândola,Pinhal Novo,Comboio,False,Tunes
 Grândola,Pinhal Novo,Comboio,True,Lisboa - Oriente
 Grândola,Pinhal Novo,Comboio,True,Porto - Campanhã
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,False,Faro
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,False,Tunes
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,True,Lisboa - Oriente
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,True,Porto - Campanhã
 Guia,Zoomarine,Carro,False,Albufeira
 Guia,Zoomarine,Carro,False,Faro
 Guia,Zoomarine,Carro,True,Portimão

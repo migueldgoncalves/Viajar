@@ -909,7 +909,7 @@ Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
 "Campamento, San Roque",La Línea de la Concepción - Centro da cidade,Carro,3.7,,SE,3,1
 "Campamento, San Roque","Puente Mayorga, San Roque",Carro,1.3,,NO,2,2
 Canal Caveira,Cruzamento da A2 com a A26,Carro,9.0,IC1,E,1,5
-Canal Caveira,Grândola,Carro,8.7,IC1,NO,2,3
+Canal Caveira,Grândola,Carro,8.7,IC1,NO,2,5
 Carmona,Marchena,Carro,26.8,,SE,6,2
 Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
@@ -1007,7 +1007,7 @@ Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
-Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,16.0,IC1,S,4,5
+Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,16.0,IC1,S,4,7
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
@@ -1045,7 +1045,7 @@ Cruzamento da N123 com a N263,Cruzamento da N123-1 com a N263,Carro,20.2,,NE,3,2
 Cruzamento da N123 com a N263,Luzianes,Carro,18.1,N123,SE,2,2
 Cruzamento da N123 com a N263,Odemira,Carro,3.5,N123,SO,1,4
 Cruzamento da N123-1 com a N263,Estação de Amoreiras - Odemira,Carro,3.7,N123-1,SE,1,4
-Cruzamento da N123-1 com a N263,Estação de Funcheira,Carro,11.7,,E,4,6
+Cruzamento da N123-1 com a N263,Estação de Funcheira,Carro,11.7,,E,4,7
 Cruzamento da N123-1 com a N263,IC1 - Cruzamento com a N263,Carro,13.7,,NE,5,1
 Cruzamento da N124 com a M507-1,Giões,Carro,2.5,,N,1,1
 Cruzamento da N124 com a M507-1,Martim Longo,Carro,6.9,N124,SO,2,2
@@ -1097,7 +1097,7 @@ Cruzamento da N269 com a N269-2,Ferreiras,Carro,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Carro,2.3,,NE,2,3
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,1.2,SE-30,E,1,2
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,0.8,SE-20,N,3,1
-Cruzamento do IC1 com o IP8,Grândola,Carro,3.4,IC1,S,2,4
+Cruzamento do IC1 com o IP8,Grândola,Carro,3.4,IC1,S,2,6
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,4
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
 Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
@@ -1134,9 +1134,11 @@ Espírito Santo,Moinhos de Vento de Cima,Carro,4.5,,O,6,2
 Espírito Santo,Roncão de Cima,Carro,5.8,,NE,3,1
 Espírito Santo,Sedas,Carro,4.7,N122,SE,1,1
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Comboio,5.2,Linha do Algarve - Regional,E,3,4
-Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,17.1,Linha do Algarve - Alfa Pendular/Intercidades,SE,5,6
+Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio,17.1,Linha do Algarve - Intercidades,SE,5,6
+Estação de Albufeira - Ferreiras,Estação de Loulé,Comboio de Alta Velocidade,17.1,Linha do Algarve,SE,6,8
 Estação de Albufeira - Ferreiras,Ferreiras,Carro,1.2,,SO,2,2
-Estação de Albufeira - Ferreiras,Tunes,Comboio,5.2,Linha do Algarve - Alfa Pendular/Intercidades/Regional,NO,4,6
+Estação de Albufeira - Ferreiras,Tunes,Comboio,5.2,Linha do Algarve - Intercidades/Regional,NO,4,6
+Estação de Albufeira - Ferreiras,Tunes,Comboio de Alta Velocidade,5.2,Linha do Algarve,NO,7,9
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,14.5,Linha do Alentejo - Intercidades,SE,1,2
 Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
 Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,5
@@ -1158,10 +1160,12 @@ Estação de Cacela,Vila Nova de Cacela,Carro,0.8,,SE,1,4
 Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Regional,NE,2,4
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
-Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Alfa Pendular/Intercidades,S,1,2
-Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,29.0,N121,NE,4,4
-Estação de Ermidas - Sado,Grândola,Comboio,27.6,Linha do Sul - Alfa Pendular/Intercidades,NO,2,1
-Estação de Ermidas - Sado,Mimosa,Carro,10.9,IC1,SE,3,4
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Intercidades,S,1,2
+Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,35.1,Linha do Sul,S,3,4
+Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,29.0,N121,NE,6,4
+Estação de Ermidas - Sado,Grândola,Comboio,27.6,Linha do Sul - Intercidades,NO,2,1
+Estação de Ermidas - Sado,Grândola,Comboio de Alta Velocidade,27.6,Linha do Sul,NO,4,3
+Estação de Ermidas - Sado,Mimosa,Carro,10.9,IC1,SE,5,4
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Comboio,3.1,Linha do Algarve - Regional,SO,5,2
 Estação de Estômbar - Lagoa,Estação de Silves,Comboio,6.0,Linha do Algarve - Regional,NE,4,5
 Estação de Estômbar - Lagoa,Estômbar,Carro,0.5,,N,2,1
@@ -1169,12 +1173,13 @@ Estação de Estômbar - Lagoa,Mexilhoeira da Carregação,Carro,2.5,,O,3,2
 Estação de Estômbar - Lagoa,Slide & Splash,Carro,1.2,,SE,1,2
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
-Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Alfa Pendular/Intercidades,NO,4,5
+Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Intercidades,NO,4,5
+Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,15.8,Linha do Algarve,NO,5,7
 Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,4
 Estação de Ferragudo,Parchal,Carro,0.3,,SO,1,3
-Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio,40.2,Linha do Sul - Alfa Pendular,SO,3,9
-Estação de Funcheira,Ourique,Carro,16.3,,SE,4,4
-Estação de Funcheira,São Martinho das Amoreiras,Carro,11.6,,SO,5,5
+Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,40.2,Linha do Sul,SO,3,9
+Estação de Funcheira,Ourique,Carro,16.3,,SE,5,4
+Estação de Funcheira,São Martinho das Amoreiras,Carro,11.6,,SO,6,5
 Estação de Fuseta-A,Fuseta,Carro,0.7,,NE,1,2
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,0.9,Linha do Algarve - Regional,N,2,4
 Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
@@ -1203,7 +1208,7 @@ Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1
 Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
-Estação de Santa Clara - Sabóia,Tunes,Comboio,44.0,Linha do Sul - Alfa Pendular,SE,8,9
+Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,44.0,Linha do Sul,SE,8,10
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
@@ -1262,7 +1267,8 @@ Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,1,3
 Giões,São Bartolomeu de Via Glória,Carro,7.0,,NO,3,2
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
-Grândola,Pinhal Novo,Comboio,69.5,Linha do Sul - Alfa Pendular/Intercidades,NO,2,1
+Grândola,Pinhal Novo,Comboio,69.5,Linha do Sul - Intercidades,NO,2,1
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,69.5,Linha do Sul,NO,4,2
 Guerreiros do Rio,Laranjeiras,Carro,1.2,,NO,1,1
 Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
 Guia,Marina de Albufeira,Carro,7.7,,SE,5,2
