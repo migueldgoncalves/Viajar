@@ -34,10 +34,12 @@ ANTIGA_FREGUESIA = 9  # Existe dentro de uniões de antigas freguesias
 # Auto-estradas
 
 ES_A483 = ("A-483", "Bollullos-Matalascañas", ESPANHA)
+ES_A45 = ("A-45", "Autovía de Málaga", ESPANHA)
 ES_A49 = ("A-49", "Autopista del Quinto Centenario", ESPANHA)
 ES_A5 = ("A-5", "Autovía del Suroeste", ESPANHA)
 ES_A58 = ("A-58", "Autovía Trujillo-Cáceres", ESPANHA)
 ES_A66 = ("A-66", "Autovía Ruta de la Plata", ESPANHA)
+ES_A92M = ("A-92M", "Autovía A-92 Málaga", ESPANHA)
 ES_EXA1 = ("EX-A1", "Autovía del Norte de Extremadura", ESPANHA)
 ES_EXA2 = ("EX-A2", "Autovía de las Vegas Altas", ESPANHA)
 ES_M40 = ("M-40", "Autopista de Circunvalación M-40", ESPANHA)

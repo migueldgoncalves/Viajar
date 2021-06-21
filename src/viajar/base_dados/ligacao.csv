@@ -491,7 +491,12 @@ A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,E,2,1
 A-92 - Saída 178,A-92 - Saída 180,Carro,2.5,A-92,NE,2,1
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,SO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
+A-92M - Saída 1,A-92M - Saída 7,Carro,6.5,A-92M,SO,2,1
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92M,NE,1,3
+A-92M - Saída 7,A-92M - Saída 11,Carro,3.4,A-92M,SO,2,1
+A-92M - Saída 11,A-92M - Saída 16,Carro,5.0,A-92M,SO,2,1
+A-92M - Saída 16,A-92M - Saída 20,Carro,4.0,A-92M,S,2,1
+A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,4.5,A-92M,SO,2,3
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,10.8,A13,S,1,4
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,0.7,A16,S,1,3
 A2 - Saída 1,Área de Serviço de Seixal,Carro,6.1,A2,SE,2,1

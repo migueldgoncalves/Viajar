@@ -54,7 +54,7 @@ class GeradorInformacao:
                     longitude = saidas[saida][1]
                     municipio = self.get_divisao_administractiva(latitude, longitude, vias.MUNICIPIO)
                     provincia = self.get_divisao_administractiva(latitude, longitude, vias.PROVINCIA)
-                    f.write(f'{auto_estrada_numero} - Saída {saida},{municipio},{provincia}\n')
+                    f.write(f'{auto_estrada_numero} - Saída {saida},{municipio},{provincia},\n')
                     municipios.add(f'{municipio},{provincia},\n')
                     print(f'Saída {saida} terminada')
             # with open(MUNICIPIO_PATH, 'w') as f:

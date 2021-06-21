@@ -1858,9 +1858,19 @@ A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Huelva
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,True,Sevilha
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
+A-92M - Saída 1,A-92M - Saída 7,Carro,False,Granada
+A-92M - Saída 1,A-92M - Saída 7,Carro,True,Málaga
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,False,Málaga
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,True,Granada
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,True,Loja
+A-92M - Saída 7,A-92M - Saída 11,Carro,False,Granada
+A-92M - Saída 7,A-92M - Saída 11,Carro,True,Málaga
+A-92M - Saída 11,A-92M - Saída 16,Carro,False,Granada
+A-92M - Saída 11,A-92M - Saída 16,Carro,True,Málaga
+A-92M - Saída 16,A-92M - Saída 20,Carro,False,Granada
+A-92M - Saída 16,A-92M - Saída 20,Carro,True,Málaga
+A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,False,Granada
+A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,True,Málaga
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
