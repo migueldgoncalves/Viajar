@@ -372,6 +372,8 @@ A-4 - Saída 414,A-4 - Saída 418,Carro,True,Sevilha
 A-4 - Saída 418,A-4 - Saída 420,Carro,False,Córdoba
 A-4 - Saída 418,A-4 - Saída 420,Carro,True,Cádiz
 A-4 - Saída 418,A-4 - Saída 420,Carro,True,Sevilha
+A-4 - Saída 418,A-45 - Saída 16,Carro,False,A-4 - Sevilha
+A-4 - Saída 418,A-45 - Saída 16,Carro,True,Málaga
 A-4 - Saída 420,A-4 - Saída 424,Carro,False,Córdoba
 A-4 - Saída 420,A-4 - Saída 424,Carro,True,La Carlota
 A-4 - Saída 420,A-4 - Saída 424,Carro,True,Sevilha
@@ -575,8 +577,25 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Toledo
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Torrijos
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Ávila
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
+A-45 - Saída 5,A-45 - Saída 16,Carro,False,Córdoba
+A-45 - Saída 5,A-45 - Saída 16,Carro,True,Fernán Núñez
+A-45 - Saída 5,A-45 - Saída 16,Carro,True,Málaga
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,False,Málaga
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,True,Córdoba
+A-45 - Saída 16,A-45 - Saída 27,Carro,False,Córdoba
+A-45 - Saída 16,A-45 - Saída 27,Carro,True,Málaga
+A-45 - Saída 27,A-45 - Saída 36,Carro,False,Córdoba
+A-45 - Saída 27,A-45 - Saída 36,Carro,False,Montemayor
+A-45 - Saída 27,A-45 - Saída 36,Carro,True,Málaga
+A-45 - Saída 36,A-45 - Saída 40,Carro,False,Córdoba
+A-45 - Saída 36,A-45 - Saída 40,Carro,False,Montilla
+A-45 - Saída 36,A-45 - Saída 40,Carro,True,Lucena
+A-45 - Saída 36,A-45 - Saída 40,Carro,True,Málaga
+A-45 - Saída 40,A-45 - Saída 49,Carro,False,Córdoba
+A-45 - Saída 40,A-45 - Saída 49,Carro,True,Lucena
+A-45 - Saída 40,A-45 - Saída 49,Carro,True,Málaga
+A-45 - Saída 49,A-45 - Saída 51,Carro,False,Córdoba
+A-45 - Saída 49,A-45 - Saída 51,Carro,True,Málaga
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Antequera
