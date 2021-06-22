@@ -1500,6 +1500,47 @@ A-7 - Saída 235-237,Cruzamento da A-7 com a AP-46,Carro,False,Málaga
 A-7 - Saída 235-237,Cruzamento da A-7 com a AP-46,Carro,False,Torremolinos
 A-7 - Saída 235-237,Cruzamento da A-7 com a AP-46,Carro,True,A-45 - Córdoba/Granada/Sevilha
 A-7 - Saída 235-237,Cruzamento da A-7 com a AP-46,Carro,True,Almería
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Aeroporto de Málaga - Costa del Sol
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Algeciras
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Cádiz
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Córdoba
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Granada
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Porto de Málaga
+A-7 - Saída 242,A-7 - Saída 243,Carro,False,Sevilha
+A-7 - Saída 242,A-7 - Saída 243,Carro,True,Almería
+A-7 - Saída 242,A-7 - Saída 243,Carro,True,Rincón de la Victoria
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,False,Almería
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,False,Motril
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,False,Rincón de la Victoria
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,True,A-45/AP-46 - Córdoba/Granada/Sevilha
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,True,Algeciras
+A-7 - Saída 242,Cruzamento da A-45 com a A-7,Carro,True,MA-20 - Aeroporto de Málaga/Torremolinos
+A-7 - Saída 243,A-7 - Saída 244,Carro,False,Algeciras
+A-7 - Saída 243,A-7 - Saída 244,Carro,False,Ronda de Málaga
+A-7 - Saída 243,A-7 - Saída 244,Carro,True,Almería
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Aeroporto de Málaga - Costa del Sol
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Algeciras
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Cádiz
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Córdoba
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Granada
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Porto de Málaga
+A-7 - Saída 244,A-7 - Saída 245,Carro,False,Sevilha
+A-7 - Saída 244,A-7 - Saída 245,Carro,True,Almería
+A-7 - Saída 244,A-7 - Saída 245,Carro,True,Motril
+A-7 - Saída 244,A-7 - Saída 245,Carro,True,Rincón de la Victoria
+A-7 - Saída 245,A-7 - Saída 246,Carro,False,Córdoba
+A-7 - Saída 245,A-7 - Saída 246,Carro,False,Granada
+A-7 - Saída 245,A-7 - Saída 246,Carro,False,Sevilha
+A-7 - Saída 245,A-7 - Saída 246,Carro,True,Almería
+A-7 - Saída 245,A-7 - Saída 246,Carro,True,Motril
+A-7 - Saída 245,A-7 - Saída 246,Carro,True,Rincón de la Victoria
+A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Algeciras
+A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Ronda de Málaga
+A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Almería
+A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Rincón de la Victoria
+A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,False,Almería
+A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,False,Rincón de la Victoria
+A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,True,Málaga
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -2896,6 +2937,11 @@ Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-6
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,M-607
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-5 - Badajoz/Toledo
+Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,False,A-45 - Córdoba/Granada/Sevilha
+Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,False,Almería
+Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,True,AP-46 - Córdoba/Granada/Sevilha
+Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,True,Algeciras
+Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,True,MA-20 - Aeroporto de Málaga/Torremolinos
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,False,Sevilha
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,True,Huelva
 Cruzamento da A-49 com a SE-30,Cruzamento da A-66 com a SE-30,Carro,False,A-4 - Cádiz
@@ -3198,6 +3244,9 @@ Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,A22 - 
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,False,Loulé
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,True,Faro
+Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Almería
+Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Rincón de la Victoria
+Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Málaga
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Algeciras
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Torremolinos
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Aeroporto de Málaga - Costa del Sol

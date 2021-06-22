@@ -345,6 +345,12 @@ A-7/AP-7 - Saída 222,Benalmádena,Málaga,
 A-7 - Saída 226,Málaga,Málaga,Churriana
 A-7 - Saída 230,Alhaurín de la Torre,Málaga,
 A-7 - Saída 235-237,Málaga,Málaga,Puerto de la Torre
+A-7 - Saída 242,Málaga,Málaga,Ciudad Jardín
+A-7 - Saída 243,Málaga,Málaga,Este
+A-7 - Saída 244,Málaga,Málaga,Este
+A-7 - Saída 245,Málaga,Málaga,Este
+A-7 - Saída 246,Málaga,Málaga,Este
+A-7 - Saída 254,Rincón de la Victoria,Málaga,
 A-8009 - Saída 2,La Rinconada,Sevilha,
 A-8009 - Saída 4,La Rinconada,Sevilha,
 A-8009 - Saída 5,La Rinconada,Sevilha,
@@ -475,6 +481,7 @@ Cruzamento da A-4 Sul com a SE-30,Sevilha,Sevilha,Bellavista-La Palmera
 Cruzamento da A-4 Sul com a SE-40,Dos Hermanas,Sevilha,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
 Cruzamento da A-42 com a M-40,Madrid,Comunidade de Madrid,Villaverde
+Cruzamento da A-45 com a A-7,Málaga,Málaga,Ciudad Jardín
 Cruzamento da A-45 com a A-92,Antequera,Málaga,
 Cruzamento da A-45 com a A-92M,Antequera,Málaga,
 Cruzamento da A-45 com a AP-46,Antequera,Málaga,
@@ -506,6 +513,8 @@ Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
+Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
+Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
 Don Benito,Don Benito,Badajoz,
 Écija,Écija,Sevilha,
