@@ -165,13 +165,28 @@ A-45 - Saída 27,A-45 - Saída 36,Carro,10.0,A-45,SE,2,1
 A-45 - Saída 36,A-45 - Saída 40,Carro,3.2,A-45,SE,2,1
 A-45 - Saída 40,A-45 - Saída 49,Carro,8.3,A-45,SE,2,1
 A-45 - Saída 49,A-45 - Saída 51,Carro,2.8,A-45,SE,2,1
-A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,1,3
+A-45 - Saída 51,Cruzamento da A-318 com a A-45,Carro,4.2,A-45,SE,2,1
+A-45 - Saída 62,A-45 - Saída 72,Carro,9.2,A-45,S,2,1
+A-45 - Saída 62,Cruzamento da A-318 com a A-45,Carro,6.5,A-45,NO,1,2
+A-45 - Saída 72,A-45 - Saída 76,Carro,3.9,A-45,SO,2,1
+A-45 - Saída 76,A-45 - Saída 79,Carro,3.9,A-45,SO,2,1
+A-45 - Saída 79,A-45 - Saída 82,Carro,2.5,A-45,SE,2,1
+A-45 - Saída 82,A-45 - Saída 86,Carro,5.3,A-45,SO,2,1
+A-45 - Saída 86,A-45 - Saída 92,Carro,6.4,A-45,SO,2,1
+A-45 - Saída 92,A-92 - Saída 149,Carro,4.7,N-331,S,3,3
+A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,5.7,A-45,SE,2,3
 A-45 - Saída 102,A-45 - Saída 107,Carro,5.7,A-45,SE,2,1
 A-45 - Saída 102,Cruzamento da A-45 com a A-92,Carro,3.3,A-45,NO,1,4
 A-45 - Saída 107,Cruzamento da A-45 com a A-92M,Carro,7.2,A-45,SE,2,1
 A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,1.0,A-45,NE,1,2
 A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,1.4,A-45,SE,2,1
+A-45 - Saída 123,A-45 - Saída 124,Carro,1.4,A-45,SE,2,1
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,5.7,A-45,N,1,2
+A-45 - Saída 124,A-45 - Saída 127,Carro,2.6,A-45,S,2,1
+A-45 - Saída 127,A-45 - Saída 134,Carro,7.2,A-45,S,2,1
+A-45 - Saída 134,A-45 - Saída 136,Carro,2.0,A-45,S,2,1
+A-45 - Saída 136,A-45 - Saída 140,Carro,4.8,A-45,SE,2,1
+A-45 - Saída 140,Cruzamento da A-45 com a A-7,Carro,2.0,A-45,S,2,3
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,1.7,A-483,N,1,3
 A-483 - Saída 1,A-483 - Saída 3,Carro,2.1,A-483,SE,2,1
 A-483 - Saída 1,Bollullos Par del Condado,Carro,1.8,,E,3,2
@@ -824,6 +839,7 @@ Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 "Avenida de España, La Línea de la Concepción","Campamento, San Roque",Carro,1.7,N-351,NO,1,5
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.7,,E,3,3
+"Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3

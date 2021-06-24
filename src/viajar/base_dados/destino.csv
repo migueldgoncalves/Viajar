@@ -596,6 +596,31 @@ A-45 - Saída 40,A-45 - Saída 49,Carro,True,Lucena
 A-45 - Saída 40,A-45 - Saída 49,Carro,True,Málaga
 A-45 - Saída 49,A-45 - Saída 51,Carro,False,Córdoba
 A-45 - Saída 49,A-45 - Saída 51,Carro,True,Málaga
+A-45 - Saída 51,Cruzamento da A-318 com a A-45,Carro,False,Córdoba
+A-45 - Saída 51,Cruzamento da A-318 com a A-45,Carro,True,Málaga
+A-45 - Saída 62,A-45 - Saída 72,Carro,False,Córdoba
+A-45 - Saída 62,A-45 - Saída 72,Carro,False,Lucena
+A-45 - Saída 62,A-45 - Saída 72,Carro,True,Málaga
+A-45 - Saída 62,Cruzamento da A-318 com a A-45,Carro,False,Málaga
+A-45 - Saída 62,Cruzamento da A-318 com a A-45,Carro,True,Córdoba
+A-45 - Saída 72,A-45 - Saída 76,Carro,False,Córdoba
+A-45 - Saída 72,A-45 - Saída 76,Carro,False,Lucena
+A-45 - Saída 72,A-45 - Saída 76,Carro,True,Benamejí
+A-45 - Saída 72,A-45 - Saída 76,Carro,True,Málaga
+A-45 - Saída 76,A-45 - Saída 79,Carro,False,Córdoba
+A-45 - Saída 76,A-45 - Saída 79,Carro,True,Málaga
+A-45 - Saída 79,A-45 - Saída 82,Carro,False,Benamejí
+A-45 - Saída 79,A-45 - Saída 82,Carro,False,Córdoba
+A-45 - Saída 79,A-45 - Saída 82,Carro,True,Málaga
+A-45 - Saída 82,A-45 - Saída 86,Carro,False,Benamejí
+A-45 - Saída 82,A-45 - Saída 86,Carro,False,Córdoba
+A-45 - Saída 82,A-45 - Saída 86,Carro,True,Málaga
+A-45 - Saída 86,A-45 - Saída 92,Carro,False,Benamejí
+A-45 - Saída 86,A-45 - Saída 92,Carro,False,Córdoba
+A-45 - Saída 86,A-45 - Saída 92,Carro,True,Antequera
+A-45 - Saída 86,A-45 - Saída 92,Carro,True,Málaga
+A-45 - Saída 92,A-92 - Saída 149,Carro,False,A-45 - Córdoba/Lucena
+A-45 - Saída 92,A-92 - Saída 149,Carro,True,Antequera
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Benamejí
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,False,Córdoba
 A-45 - Saída 92,Cruzamento da A-45 com a A-92,Carro,True,Antequera
@@ -618,11 +643,25 @@ A-45 - Saída 115,Cruzamento da A-45 com a A-92M,Carro,True,Sevilha
 A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,False,Antequera
 A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,False,Córdoba
 A-45 - Saída 115,Cruzamento da A-45 com a AP-46,Carro,True,Málaga
+A-45 - Saída 123,A-45 - Saída 124,Carro,False,Antequera
+A-45 - Saída 123,A-45 - Saída 124,Carro,True,Málaga
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Algeciras
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Almería
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,False,Málaga
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,True,Antequera
 A-45 - Saída 123,Cruzamento da A-45 com a AP-46,Carro,True,Córdoba
+A-45 - Saída 124,A-45 - Saída 127,Carro,False,Antequera
+A-45 - Saída 124,A-45 - Saída 127,Carro,True,Málaga
+A-45 - Saída 127,A-45 - Saída 134,Carro,False,Antequera
+A-45 - Saída 127,A-45 - Saída 134,Carro,True,Málaga
+A-45 - Saída 134,A-45 - Saída 136,Carro,False,Antequera
+A-45 - Saída 134,A-45 - Saída 136,Carro,True,Málaga
+A-45 - Saída 136,A-45 - Saída 140,Carro,False,Antequera
+A-45 - Saída 136,A-45 - Saída 140,Carro,True,Málaga
+A-45 - Saída 140,Cruzamento da A-45 com a A-7,Carro,False,Córdoba
+A-45 - Saída 140,Cruzamento da A-45 com a A-7,Carro,False,Granada
+A-45 - Saída 140,Cruzamento da A-45 com a A-7,Carro,False,Sevilha
+A-45 - Saída 140,Cruzamento da A-45 com a A-7,Carro,True,Málaga
 A-483 - Saída 1,A-483 - Saída 3,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,Almonte
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
@@ -2656,6 +2695,10 @@ Aroche,Rosal de la Frontera,Carro,True,Rosal de la Frontera
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,False,Campamento
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,False,San Roque
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,True,Gibraltar
+"Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,False,Málaga
+"Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,True,Córdoba
+"Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,True,Granada
+"Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,True,Sevilha
 Ayamonte,Costa Esuri,Barco,False,Ayamonte
 Ayamonte,Costa Esuri,Barco,False,Vila Real de Santo António
 Ayamonte,Costa Esuri,Barco,True,Alcoutim

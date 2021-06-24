@@ -143,11 +143,22 @@ A-45 - Saída 36,Montilla,Córdoba,
 A-45 - Saída 40,Aguilar de la Frontera,Córdoba,
 A-45 - Saída 49,Monturque,Córdoba,
 A-45 - Saída 51,Lucena,Córdoba,
+A-45 - Saída 62,Lucena,Córdoba,
+A-45 - Saída 72,Encinas Reales,Córdoba,
+A-45 - Saída 76,Benamejí,Córdoba,
+A-45 - Saída 79,Benamejí,Córdoba,
+A-45 - Saída 82,Benamejí,Córdoba,
+A-45 - Saída 86,Antequera,Málaga,
 A-45 - Saída 92,Antequera,Málaga,
 A-45 - Saída 102,Antequera,Málaga,
 A-45 - Saída 107,Antequera,Málaga,
 A-45 - Saída 115,Antequera,Málaga,
 A-45 - Saída 123,Casabermeja,Málaga,
+A-45 - Saída 124,Casabermeja,Málaga,
+A-45 - Saída 127,Casabermeja,Málaga,
+A-45 - Saída 134,Málaga,Málaga,Palma-Palmilla
+A-45 - Saída 136,Málaga,Málaga,Ciudad Jardín
+A-45 - Saída 140,Málaga,Málaga,Ciudad Jardín
 A-483 - Saída 1,Bollullos Par del Condado,Huelva,
 A-483 - Saída 3,Bollullos Par del Condado,Huelva,
 A-49 - Saída 1,Camas,Sevilha,
@@ -447,6 +458,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Río Castor,Estepona,Málaga,
 Aroche,Aroche,Huelva,
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
+"Avenida de Jacinto Benavente, Málaga",Málaga,Málaga,Ciudad Jardín
 Ayamonte,Ayamonte,Huelva,
 Barriada de Canela,Ayamonte,Huelva,
 Bollullos Par del Condado,Bollullos Par del Condado,Huelva,
@@ -469,6 +481,7 @@ Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
 Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
+Cruzamento da A-318 com a A-45,Lucena,Córdoba,
 Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
