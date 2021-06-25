@@ -519,6 +519,15 @@ A-92 - Saída 167,A-92 - Saída 175,Carro,8.5,A-92,NE,2,1
 A-92 - Saída 175,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,E,2,1
 A-92 - Saída 178,A-92 - Saída 180,Carro,2.5,A-92,NE,2,1
 A-92 - Saída 178,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92,SO,1,2
+A-92 - Saída 180,A-92 - Saída 183,Carro,2.5,A-92,NE,2,1
+A-92 - Saída 183,A-92 - Saída 185,Carro,2.1,A-92,NE,2,1
+A-92 - Saída 185,A-92 - Saída 187,Carro,2.0,A-92,NE,2,1
+A-92 - Saída 187,A-92 - Saída 188,Carro,0.8,A-92,NE,2,1
+A-92 - Saída 188,A-92 - Saída 193,Carro,5.4,A-92,E,2,1
+A-92 - Saída 193,A-92 - Saída 197,Carro,3.4,A-92,NE,2,1
+A-92 - Saída 197,A-92 - Saída 200,Carro,3.4,A-92,NE,2,1
+A-92 - Saída 200,A-92 - Saída 203,Carro,3.0,A-92,NE,2,1
+A-92 - Saída 203,A-92 - Saída 206,Carro,2.9,A-92,E,2,1
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A-92M - Saída 1,A-92M - Saída 7,Carro,6.5,A-92M,SO,2,1
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92M,NE,1,3
