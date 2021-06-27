@@ -1,4 +1,8 @@
 Local A,Local B,Meio de transporte,Origem,Destino
+A-32 - Saída 1,Cruzamento da A-32 com a A-44,Carro,False,Albacete
+A-32 - Saída 1,Cruzamento da A-32 com a A-44,Carro,False,Linares
+A-32 - Saída 1,Cruzamento da A-32 com a A-44,Carro,False,Úbeda
+A-32 - Saída 1,Cruzamento da A-32 com a A-44,Carro,True,Bailén
 A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,False,Universidade Pablo de Olavide
 A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,False,Utrera
 A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,True,Sevilha
@@ -577,6 +581,11 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Toledo
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Torrijos
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Ávila
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
+A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Granada
+A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Jaén
+A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Málaga
+A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,True,Bailén
+A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,True,Madrid
 A-45 - Saída 5,A-45 - Saída 16,Carro,False,Córdoba
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Fernán Núñez
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Málaga
@@ -2022,6 +2031,118 @@ A-92 - Saída 203,A-92 - Saída 206,Carro,False,Sevilha
 A-92 - Saída 203,A-92 - Saída 206,Carro,True,Almería
 A-92 - Saída 203,A-92 - Saída 206,Carro,True,Granada
 A-92 - Saída 203,A-92 - Saída 206,Carro,True,Jaén
+A-92 - Saída 206,A-92 - Saída 211,Carro,False,Cádiz
+A-92 - Saída 206,A-92 - Saída 211,Carro,False,Córdoba
+A-92 - Saída 206,A-92 - Saída 211,Carro,False,Huelva
+A-92 - Saída 206,A-92 - Saída 211,Carro,False,Málaga
+A-92 - Saída 206,A-92 - Saída 211,Carro,False,Sevilha
+A-92 - Saída 206,A-92 - Saída 211,Carro,True,Almería
+A-92 - Saída 206,A-92 - Saída 211,Carro,True,Granada
+A-92 - Saída 206,A-92 - Saída 211,Carro,True,Jaén
+A-92 - Saída 211,A-92 - Saída 213,Carro,False,Cádiz
+A-92 - Saída 211,A-92 - Saída 213,Carro,False,Córdoba
+A-92 - Saída 211,A-92 - Saída 213,Carro,False,Huelva
+A-92 - Saída 211,A-92 - Saída 213,Carro,False,Málaga
+A-92 - Saída 211,A-92 - Saída 213,Carro,False,Sevilha
+A-92 - Saída 211,A-92 - Saída 213,Carro,True,Almería
+A-92 - Saída 211,A-92 - Saída 213,Carro,True,Granada
+A-92 - Saída 211,A-92 - Saída 213,Carro,True,Jaén
+A-92 - Saída 213,A-92 - Saída 215,Carro,False,Cádiz
+A-92 - Saída 213,A-92 - Saída 215,Carro,False,Córdoba
+A-92 - Saída 213,A-92 - Saída 215,Carro,False,Huelva
+A-92 - Saída 213,A-92 - Saída 215,Carro,False,Málaga
+A-92 - Saída 213,A-92 - Saída 215,Carro,False,Sevilha
+A-92 - Saída 213,A-92 - Saída 215,Carro,True,Almería
+A-92 - Saída 213,A-92 - Saída 215,Carro,True,Granada
+A-92 - Saída 213,A-92 - Saída 215,Carro,True,Jaén
+A-92 - Saída 215,A-92 - Saída 218,Carro,False,Cádiz
+A-92 - Saída 215,A-92 - Saída 218,Carro,False,Córdoba
+A-92 - Saída 215,A-92 - Saída 218,Carro,False,Huelva
+A-92 - Saída 215,A-92 - Saída 218,Carro,False,Málaga
+A-92 - Saída 215,A-92 - Saída 218,Carro,False,Sevilha
+A-92 - Saída 215,A-92 - Saída 218,Carro,True,Almería
+A-92 - Saída 215,A-92 - Saída 218,Carro,True,Granada
+A-92 - Saída 215,A-92 - Saída 218,Carro,True,Jaén
+A-92 - Saída 218,A-92 - Saída 220,Carro,False,Málaga
+A-92 - Saída 218,A-92 - Saída 220,Carro,False,Sevilha
+A-92 - Saída 218,A-92 - Saída 220,Carro,True,Almería
+A-92 - Saída 218,A-92 - Saída 220,Carro,True,Granada
+A-92 - Saída 218,A-92 - Saída 220,Carro,True,Jaén
+A-92 - Saída 220,A-92 - Saída 221,Carro,False,Cádiz
+A-92 - Saída 220,A-92 - Saída 221,Carro,False,Córdoba
+A-92 - Saída 220,A-92 - Saída 221,Carro,False,Huelva
+A-92 - Saída 220,A-92 - Saída 221,Carro,False,Málaga
+A-92 - Saída 220,A-92 - Saída 221,Carro,False,Sevilha
+A-92 - Saída 220,A-92 - Saída 221,Carro,True,Almería
+A-92 - Saída 220,A-92 - Saída 221,Carro,True,Granada
+A-92 - Saída 221,A-92 - Saída 225,Carro,False,Cádiz
+A-92 - Saída 221,A-92 - Saída 225,Carro,False,Córdoba
+A-92 - Saída 221,A-92 - Saída 225,Carro,False,Huelva
+A-92 - Saída 221,A-92 - Saída 225,Carro,False,Málaga
+A-92 - Saída 221,A-92 - Saída 225,Carro,False,Sevilha
+A-92 - Saída 221,A-92 - Saída 225,Carro,True,Almería
+A-92 - Saída 221,A-92 - Saída 225,Carro,True,Granada
+A-92 - Saída 221,A-92 - Saída 225,Carro,True,Jaén
+A-92 - Saída 225,A-92 - Saída 227,Carro,False,Cádiz
+A-92 - Saída 225,A-92 - Saída 227,Carro,False,Córdoba
+A-92 - Saída 225,A-92 - Saída 227,Carro,False,Huelva
+A-92 - Saída 225,A-92 - Saída 227,Carro,False,Málaga
+A-92 - Saída 225,A-92 - Saída 227,Carro,False,Sevilha
+A-92 - Saída 225,A-92 - Saída 227,Carro,True,Almería
+A-92 - Saída 225,A-92 - Saída 227,Carro,True,Granada
+A-92 - Saída 225,A-92 - Saída 227,Carro,True,Jaén
+A-92 - Saída 227,A-92 - Saída 229,Carro,False,Sevilha
+A-92 - Saída 227,A-92 - Saída 229,Carro,True,Almería
+A-92 - Saída 227,A-92 - Saída 229,Carro,True,Granada
+A-92 - Saída 227,A-92 - Saída 229,Carro,True,Jaén
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,False,Cádiz
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,False,Córdoba
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,False,Huelva
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,False,Málaga
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,False,Sevilha
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,True,Almería
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,True,Granada
+A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,True,Jaén
+A-92 - Saída 236,A-92 - Saída 237,Carro,False,Cádiz
+A-92 - Saída 236,A-92 - Saída 237,Carro,False,Córdoba
+A-92 - Saída 236,A-92 - Saída 237,Carro,False,Huelva
+A-92 - Saída 236,A-92 - Saída 237,Carro,False,Málaga
+A-92 - Saída 236,A-92 - Saída 237,Carro,False,Sevilha
+A-92 - Saída 236,A-92 - Saída 237,Carro,True,Almería
+A-92 - Saída 236,A-92 - Saída 237,Carro,True,Guadix
+A-92 - Saída 236,A-92 - Saída 237,Carro,True,Murcia
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,False,Almería
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,False,Granada - Norte
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,False,Jaén
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,True,Cádiz
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,True,Huelva
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,True,Málaga
+A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,True,Sevilha
+A-92 - Saída 237,A-92 - Saída 239,Carro,False,Cádiz
+A-92 - Saída 237,A-92 - Saída 239,Carro,False,Córdoba
+A-92 - Saída 237,A-92 - Saída 239,Carro,False,Huelva
+A-92 - Saída 237,A-92 - Saída 239,Carro,False,Málaga
+A-92 - Saída 237,A-92 - Saída 239,Carro,False,Sevilha
+A-92 - Saída 237,A-92 - Saída 239,Carro,True,Almería
+A-92 - Saída 237,A-92 - Saída 239,Carro,True,Granada
+A-92 - Saída 237,A-92 - Saída 239,Carro,True,Jaén
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Cádiz
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Córdoba
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Huelva
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Málaga
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Sevilha
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Almería
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Granada
+A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Jaén
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Cádiz
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Córdoba
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Granada
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Huelva
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Jaén
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Málaga
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Sevilha
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,False,Almería
+A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,False,Murcia
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A-92M - Saída 1,A-92M - Saída 7,Carro,False,Granada
@@ -2980,6 +3101,10 @@ Corte da Seda,Parque Empresarial de Alcoutim,Carro,True,Martim Longo
 Corte João Marques,Martim Longo,Carro,False,A2 - Almodôvar
 Corte João Marques,Martim Longo,Carro,False,Ameixal
 Corte João Marques,Martim Longo,Carro,True,Martim Longo
+Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,A-32 - Albacete
+Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,Granada
+Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,Jaén
+Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,True,A-4 - Córdoba/Madrid
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-4 - Cádiz
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,False,A-49 - Huelva
@@ -3066,6 +3191,14 @@ Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-6
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,M-607
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-5 - Badajoz/Toledo
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Cádiz
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Córdoba
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Huelva
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Málaga
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Sevilha
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,True,Almería
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,True,Granada
+Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,True,Jaén
 Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,False,A-45 - Córdoba/Granada/Sevilha
 Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,False,Almería
 Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,True,AP-46 - Córdoba/Granada/Sevilha

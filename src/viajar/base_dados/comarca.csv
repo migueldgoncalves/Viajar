@@ -1,6 +1,7 @@
 Município,Comarca,Província
 Aguadulce,Sierra Sur de Sevilha,Sevilha
 Aguilar de la Frontera,Campiña Sur,Córdoba
+Albolote,Vega de Granada,Granada
 Alcalá de Guadaíra,Comarca Metropolitana de Sevilha,Sevilha
 Alcalá de Guadaíra,Los Alcores,Sevilha
 Alcalá de los Gazules,La Janda,Cádiz
@@ -17,6 +18,7 @@ Arahal,Campiña de Morón y Marchena,Sevilha
 Archidona,Comarca Nororiental de Málaga,Málaga
 Aroche,Sierra de Huelva,Huelva
 Arroyo de San Serván,Centro,Badajoz
+Atarfe,Vega de Granada,Granada
 Ayamonte,Costa Occidental de Huelva,Huelva
 Bailén,Sierra Morena,Jaén
 Belvís de Monroy,Campo Arañuelo,Cáceres
@@ -43,7 +45,9 @@ Casarrubios del Monte,La Sagra,Toledo
 Castilleja de la Cuesta,Aljarafe,Sevilha
 Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
 Cazalegas,Sierra de San Vicente,Toledo
+Chauchina,Vega de Granada,Granada
 Chucena,El Condado,Huelva
+Cijuela,Vega de Granada,Granada
 Córdoba,Comarca de Córdoba,Córdoba
 Coria del Río,Aljarafe,Sevilha
 Coria del Río,Comarca Metropolitana de Sevilha,Sevilha
@@ -79,6 +83,7 @@ Huelva,Comarca Metropolitana de Huelva,Huelva
 Huétor Tájar,Comarca de Loja,Granada
 Huévar del Aljarafe,Aljarafe,Sevilha
 Isla Cristina,Costa Occidental de Huelva,Huelva
+Jabalquinto,Sierra Morena,Jaén
 Jaraicejo,Comarca de Trujillo,Cáceres
 Jerez de la Frontera,Campiña de Jerez,Cádiz
 La Calzada de Oropesa,La Campana de Oropesa,Toledo
@@ -90,6 +95,7 @@ La Luisiana,Comarca de Écija,Sevilha
 La Puebla de Cazalla,Campiña de Morón y Marchena,Sevilha
 La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
 La Roda de Andalucía,Sierra Sur de Sevilha,Sevilha
+Láchar,Vega de Granada,Granada
 Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
 Las Ventas de Retamosa,La Sagra,Toledo
@@ -140,10 +146,12 @@ Pedrera,Sierra Sur de Sevilha,Sevilha
 Pedro Abad,Alto Guadalquivir,Córdoba
 Pepino,Sierra de San Vicente,Toledo
 Peraleda de la Mata,Campo Arañuelo,Cáceres
+Pinos Puente,Vega de Granada,Granada
 Puebla de Guzmán,El Andévalo,Huelva
 Puebla de Sancho Pérez,Zafra-Río Bodión,Badajoz
 Puerto de Santa Cruz,Comarca de Trujillo,Cáceres
 Puerto Real,Bahía de Cádiz,Cádiz
+Pulianas,Vega de Granada,Granada
 Quismondo,Torrijos,Toledo
 Rincón de la Victoria,La Axarquía,Málaga
 Romangordo,Campo Arañuelo,Cáceres
@@ -164,6 +172,7 @@ Santa Bárbara de Casa,El Andévalo,Huelva
 Santa Cruz de la Sierra,Comarca de Trujillo,Cáceres
 Santa Cruz del Retamar,Torrijos,Toledo
 Santa Elena,Sierra Morena,Jaén
+Santa Fe,Vega de Granada,Granada
 Santa Olalla,Torrijos,Toledo
 Santa Olalla del Cala,Sierra de Huelva,Huelva
 Santiponce,Aljarafe,Sevilha

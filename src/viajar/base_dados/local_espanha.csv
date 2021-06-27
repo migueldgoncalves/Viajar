@@ -1,4 +1,5 @@
 Nome,Município,Província,Distrito
+A-32 - Saída 1,Bailén,Jaén,
 A-376 - Centro Comercial,Sevilha,Sevilha,Sur
 A-376 - Condequinto,Dos Hermanas,Sevilha,
 A-376 - Fim da auto-estrada,Utrera,Sevilha,
@@ -136,6 +137,7 @@ A-4 - Saída 558,Dos Hermanas,Sevilha,
 A-4 - Saída 628,Jerez de la Frontera,Cádiz,Rural
 A-4 - Saída 631,Jerez de la Frontera,Cádiz,Rural
 A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
+A-44 - Saída 12,Jabalquinto,Jaén,
 A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 16,Fernán Núñez,Córdoba,
 A-45 - Saída 27,Montilla,Córdoba,
@@ -429,6 +431,19 @@ A-92 - Saída 197,Salar,Granada,
 A-92 - Saída 200,Huétor Tájar,Granada,
 A-92 - Saída 203,Huétor Tájar,Granada,
 A-92 - Saída 206,Moraleda de Zafayona,Granada,
+A-92 - Saída 211,Moraleda de Zafayona,Granada,
+A-92 - Saída 213,Moraleda de Zafayona,Granada,
+A-92 - Saída 215,Moraleda de Zafayona,Granada,
+A-92 - Saída 218,Pinos Puente,Granada,
+A-92 - Saída 220,Láchar,Granada,
+A-92 - Saída 221,Láchar,Granada,
+A-92 - Saída 225,Cijuela,Granada,
+A-92 - Saída 227,Chauchina,Granada,
+A-92 - Saída 229,Santa Fe,Granada,
+A-92 - Saída 236,Atarfe,Granada,
+A-92 - Saída 237,Atarfe,Granada,
+A-92 - Saída 239,Albolote,Granada,
+A-92 - Saída 245,Pulianas,Granada,
 A-92 - Sevilha Este,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92M - Saída 1,Archidona,Málaga,
@@ -441,6 +456,7 @@ Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Jerez,Jerez de la Frontera,Cádiz,Rural
 Aeroporto de Málaga - Costa del Sol,Málaga,Málaga,Churriana
 Aeroporto de Sevilha,Sevilha,Sevilha,Este-Alcosa-Torreblanca
+Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
 AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
@@ -491,6 +507,7 @@ Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
 Cruzamento da A-318 com a A-45,Lucena,Córdoba,
+Cruzamento da A-32 com a A-44,Bailén,Jaén,
 Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
@@ -509,6 +526,7 @@ Cruzamento da A-4 Sul com a SE-30,Sevilha,Sevilha,Bellavista-La Palmera
 Cruzamento da A-4 Sul com a SE-40,Dos Hermanas,Sevilha,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
 Cruzamento da A-42 com a M-40,Madrid,Comunidade de Madrid,Villaverde
+Cruzamento da A-44 com a A-92,Albolote,Granada,
 Cruzamento da A-45 com a A-7,Málaga,Málaga,Ciudad Jardín
 Cruzamento da A-45 com a A-92,Antequera,Málaga,
 Cruzamento da A-45 com a A-92M,Antequera,Málaga,
@@ -530,7 +548,9 @@ Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
 Cruzamento da A-7 com a MA-20,Málaga,Málaga,Palma-Palmilla
 Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
+Cruzamento da A-92 com a A-92G,Santa Fe,Granada,
 Cruzamento da A-92 com a A-92M,Loja,Granada,
+Cruzamento da A-92 com a GR-30,Albolote,Granada,
 Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
