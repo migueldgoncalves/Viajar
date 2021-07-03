@@ -102,6 +102,114 @@ A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,AP-4 - Sevilha
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Jerez de la Frontera
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Los Barrios
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,True,Algeciras
+A-4 - Saída 144,A-4 - Saída 147,Carro,False,Madrid
+A-4 - Saída 144,A-4 - Saída 147,Carro,False,Puerto Lápice
+A-4 - Saída 144,A-4 - Saída 147,Carro,True,Córdoba
+A-4 - Saída 144,A-4 - Saída 147,Carro,True,Manzanares
+A-4 - Saída 147,A-4 - Saída 149,Carro,False,Madrid
+A-4 - Saída 147,A-4 - Saída 149,Carro,False,Puerto Lápice
+A-4 - Saída 147,A-4 - Saída 149,Carro,True,Bailén
+A-4 - Saída 147,A-4 - Saída 149,Carro,True,Córdoba
+A-4 - Saída 147,A-4 - Saída 149,Carro,True,Manzanares
+A-4 - Saída 149,A-4 - Saída 153,Carro,False,Madrid
+A-4 - Saída 149,A-4 - Saída 153,Carro,True,Córdoba
+A-4 - Saída 153,A-4 - Saída 155,Carro,False,Madrid
+A-4 - Saída 153,A-4 - Saída 155,Carro,True,Córdoba
+A-4 - Saída 155,A-4 - Saída 159,Carro,False,Madrid
+A-4 - Saída 155,A-4 - Saída 159,Carro,True,Córdoba
+A-4 - Saída 159,A-4 - Saída 160,Carro,False,Madrid
+A-4 - Saída 159,A-4 - Saída 160,Carro,True,Córdoba
+A-4 - Saída 160,A-4 - Saída 161,Carro,False,Madrid
+A-4 - Saída 160,A-4 - Saída 161,Carro,False,Puerto Lápice
+A-4 - Saída 160,A-4 - Saída 161,Carro,True,Córdoba
+A-4 - Saída 161,A-4 - Saída 167,Carro,False,Madrid
+A-4 - Saída 161,A-4 - Saída 167,Carro,True,Córdoba
+A-4 - Saída 167,Cruzamento da A-4 com a A-43,Carro,False,Madrid
+A-4 - Saída 167,Cruzamento da A-4 com a A-43,Carro,False,Puerto Lápice
+A-4 - Saída 167,Cruzamento da A-4 com a A-43,Carro,True,Córdoba
+A-4 - Saída 172,A-4 - Saída 174,Carro,False,Madrid
+A-4 - Saída 172,A-4 - Saída 174,Carro,False,Puerto Lápice
+A-4 - Saída 172,A-4 - Saída 174,Carro,True,Bailén
+A-4 - Saída 172,A-4 - Saída 174,Carro,True,Córdoba
+A-4 - Saída 172,A-4 - Saída 174,Carro,True,Valdepeñas
+A-4 - Saída 172,Cruzamento da A-4 com a A-43,Carro,False,Bailén
+A-4 - Saída 172,Cruzamento da A-4 com a A-43,Carro,False,Córdoba
+A-4 - Saída 172,Cruzamento da A-4 com a A-43,Carro,False,Manzanares
+A-4 - Saída 172,Cruzamento da A-4 com a A-43,Carro,True,Madrid
+A-4 - Saída 174,A-4 - Saída 175,Carro,False,Madrid
+A-4 - Saída 174,A-4 - Saída 175,Carro,False,Puerto Lápice
+A-4 - Saída 174,A-4 - Saída 175,Carro,True,Córdoba
+A-4 - Saída 174,A-4 - Saída 175,Carro,True,Valdepeñas
+A-4 - Saída 175,A-4 - Saída 178,Carro,False,Madrid
+A-4 - Saída 175,A-4 - Saída 178,Carro,True,Córdoba
+A-4 - Saída 175,A-4 - Saída 178,Carro,True,Valdepeñas
+A-4 - Saída 178,A-4 - Saída 179,Carro,False,Madrid
+A-4 - Saída 178,A-4 - Saída 179,Carro,True,Córdoba
+A-4 - Saída 179,A-4 - Saída 180,Carro,False,Madrid
+A-4 - Saída 179,A-4 - Saída 180,Carro,False,Manzanares
+A-4 - Saída 179,A-4 - Saída 180,Carro,True,Córdoba
+A-4 - Saída 180,A-4 - Saída 184,Carro,False,Madrid
+A-4 - Saída 180,A-4 - Saída 184,Carro,True,Córdoba
+A-4 - Saída 180,A-4 - Saída 184,Carro,True,Valdepeñas
+A-4 - Saída 184,A-4 - Saída 186,Carro,False,Madrid
+A-4 - Saída 184,A-4 - Saída 186,Carro,True,Córdoba
+A-4 - Saída 186,A-4 - Saída 191,Carro,False,Madrid
+A-4 - Saída 186,A-4 - Saída 191,Carro,True,Córdoba
+A-4 - Saída 191,A-4 - Saída 193,Carro,False,Madrid
+A-4 - Saída 191,A-4 - Saída 193,Carro,True,Córdoba
+A-4 - Saída 193,A-4 - Saída 197,Carro,False,Madrid
+A-4 - Saída 193,A-4 - Saída 197,Carro,False,Manzanares
+A-4 - Saída 193,A-4 - Saída 197,Carro,True,Andaluzia
+A-4 - Saída 197,A-4 - Saída 199,Carro,False,Madrid
+A-4 - Saída 197,A-4 - Saída 199,Carro,False,Valdepeñas
+A-4 - Saída 197,A-4 - Saída 199,Carro,True,Bailén
+A-4 - Saída 197,A-4 - Saída 199,Carro,True,Córdoba
+A-4 - Saída 197,A-4 - Saída 199,Carro,True,Valdepeñas
+A-4 - Saída 199,A-4 - Saída 200,Carro,False,Madrid
+A-4 - Saída 199,A-4 - Saída 200,Carro,True,Bailén
+A-4 - Saída 199,A-4 - Saída 200,Carro,True,Córdoba
+A-4 - Saída 199,A-4 - Saída 200,Carro,True,Valdepeñas
+A-4 - Saída 200,A-4 - Saída 201,Carro,False,Madrid
+A-4 - Saída 200,A-4 - Saída 201,Carro,True,Bailén
+A-4 - Saída 200,A-4 - Saída 201,Carro,True,Córdoba
+A-4 - Saída 200,A-4 - Saída 201,Carro,True,La Carolina
+A-4 - Saída 201,A-4 - Saída 202,Carro,False,Madrid
+A-4 - Saída 201,A-4 - Saída 202,Carro,True,Bailén
+A-4 - Saída 201,A-4 - Saída 202,Carro,True,Córdoba
+A-4 - Saída 201,A-4 - Saída 202,Carro,True,La Carolina
+A-4 - Saída 202,A-4 - Saída 205,Carro,False,Madrid
+A-4 - Saída 202,A-4 - Saída 205,Carro,True,Córdoba
+A-4 - Saída 205,A-4 - Saída 208,Carro,False,Madrid
+A-4 - Saída 205,A-4 - Saída 208,Carro,False,Valdepeñas
+A-4 - Saída 205,A-4 - Saída 208,Carro,True,Córdoba
+A-4 - Saída 208,A-4 - Saída 210,Carro,False,Madrid
+A-4 - Saída 208,A-4 - Saída 210,Carro,True,Bailén
+A-4 - Saída 208,A-4 - Saída 210,Carro,True,Córdoba
+A-4 - Saída 208,A-4 - Saída 210,Carro,True,La Carolina
+A-4 - Saída 210,A-4 - Saída 213,Carro,False,Madrid
+A-4 - Saída 210,A-4 - Saída 213,Carro,True,Córdoba
+A-4 - Saída 213,A-4 - Saída 216,Carro,False,Madrid
+A-4 - Saída 213,A-4 - Saída 216,Carro,True,Córdoba
+A-4 - Saída 216,A-4 - Saída 217,Carro,False,Madrid
+A-4 - Saída 216,A-4 - Saída 217,Carro,True,Córdoba
+A-4 - Saída 217,A-4 - Saída 220,Carro,False,Madrid
+A-4 - Saída 217,A-4 - Saída 220,Carro,True,Córdoba
+A-4 - Saída 220,A-4 - Saída 223,Carro,False,Madrid
+A-4 - Saída 220,A-4 - Saída 223,Carro,True,Córdoba
+A-4 - Saída 223,A-4 - Saída 227,Carro,False,Madrid
+A-4 - Saída 223,A-4 - Saída 227,Carro,True,Córdoba
+A-4 - Saída 227,A-4 - Saída 230,Carro,False,Madrid
+A-4 - Saída 227,A-4 - Saída 230,Carro,True,Córdoba
+A-4 - Saída 230,A-4 - Saída 231,Carro,False,Madrid
+A-4 - Saída 230,A-4 - Saída 231,Carro,True,Córdoba
+A-4 - Saída 231,A-4 - Saída 232,Carro,False,Madrid
+A-4 - Saída 231,A-4 - Saída 232,Carro,True,Córdoba
+A-4 - Saída 232,A-4 - Saída 234,Carro,False,Madrid
+A-4 - Saída 232,A-4 - Saída 234,Carro,True,Córdoba
+A-4 - Saída 234,A-4 - Saída 238,Carro,False,Madrid
+A-4 - Saída 234,A-4 - Saída 238,Carro,True,Córdoba
+A-4 - Saída 238,A-4 - Saída 241,Carro,False,Madrid
+A-4 - Saída 238,A-4 - Saída 241,Carro,True,Córdoba
 A-4 - Saída 241,A-4 - Saída 243,Carro,False,Madrid
 A-4 - Saída 241,A-4 - Saída 243,Carro,False,Valdepeñas
 A-4 - Saída 241,A-4 - Saída 243,Carro,True,Córdoba
