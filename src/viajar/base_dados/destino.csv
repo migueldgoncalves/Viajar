@@ -102,6 +102,105 @@ A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,AP-4 - Sevilha
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Jerez de la Frontera
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Los Barrios
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,True,Algeciras
+A-4 - Saída 69,A-4 - Saída 70,Carro,False,Madrid
+A-4 - Saída 69,A-4 - Saída 70,Carro,False,Ocaña
+A-4 - Saída 69,A-4 - Saída 70,Carro,True,Bailén
+A-4 - Saída 69,A-4 - Saída 70,Carro,True,Córdoba
+A-4 - Saída 69,A-4 - Saída 70,Carro,True,Puerto Bailén
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Bailén
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Córdoba
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Puerto Lápice
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Madrid
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Ocaña
+A-4 - Saída 70,A-4 - Saída 72,Carro,False,Madrid
+A-4 - Saída 70,A-4 - Saída 72,Carro,True,Córdoba
+A-4 - Saída 70,A-4 - Saída 72,Carro,True,Puerto Lápice
+A-4 - Saída 72,A-4 - Saída 79,Carro,False,Madrid
+A-4 - Saída 72,A-4 - Saída 79,Carro,False,Ocaña
+A-4 - Saída 72,A-4 - Saída 79,Carro,True,Córdoba
+A-4 - Saída 79,A-4 - Saída 81,Carro,False,Madrid
+A-4 - Saída 79,A-4 - Saída 81,Carro,False,Ocaña
+A-4 - Saída 79,A-4 - Saída 81,Carro,True,Córdoba
+A-4 - Saída 79,A-4 - Saída 81,Carro,True,Puerto Lápice
+A-4 - Saída 81,A-4 - Saída 83,Carro,False,Madrid
+A-4 - Saída 81,A-4 - Saída 83,Carro,True,Córdoba
+A-4 - Saída 81,A-4 - Saída 83,Carro,True,Puerto Lápice
+A-4 - Saída 83,A-4 - Saída 85,Carro,False,Madrid
+A-4 - Saída 83,A-4 - Saída 85,Carro,True,Bailén
+A-4 - Saída 83,A-4 - Saída 85,Carro,True,Córdoba
+A-4 - Saída 83,A-4 - Saída 85,Carro,True,Puerto Lápice
+A-4 - Saída 85,A-4 - Saída 92,Carro,False,Madrid
+A-4 - Saída 85,A-4 - Saída 92,Carro,True,Bailén
+A-4 - Saída 85,A-4 - Saída 92,Carro,True,Córdoba
+A-4 - Saída 85,A-4 - Saída 92,Carro,True,Puerto Lápice
+A-4 - Saída 92,A-4 - Saída 93,Carro,False,Madrid
+A-4 - Saída 92,A-4 - Saída 93,Carro,True,Bailén
+A-4 - Saída 92,A-4 - Saída 93,Carro,True,Córdoba
+A-4 - Saída 92,A-4 - Saída 93,Carro,True,Puerto Lápice
+A-4 - Saída 93,A-4 - Saída 94,Carro,False,Madrid
+A-4 - Saída 93,A-4 - Saída 94,Carro,False,Ocaña
+A-4 - Saída 93,A-4 - Saída 94,Carro,True,Bailén
+A-4 - Saída 93,A-4 - Saída 94,Carro,True,Córdoba
+A-4 - Saída 93,A-4 - Saída 94,Carro,True,Puerto Lápice
+A-4 - Saída 94,A-4 - Saída 98,Carro,False,Madrid
+A-4 - Saída 94,A-4 - Saída 98,Carro,True,Córdoba
+A-4 - Saída 98,A-4 - Saída 106,Carro,False,Madrid
+A-4 - Saída 98,A-4 - Saída 106,Carro,False,Ocaña
+A-4 - Saída 98,A-4 - Saída 106,Carro,True,Bailén
+A-4 - Saída 98,A-4 - Saída 106,Carro,True,Córdoba
+A-4 - Saída 98,A-4 - Saída 106,Carro,True,Puerto Lápice
+A-4 - Saída 106,A-4 - Saída 112,Carro,False,Madrid
+A-4 - Saída 106,A-4 - Saída 112,Carro,False,Ocaña
+A-4 - Saída 106,A-4 - Saída 112,Carro,True,Córdoba
+A-4 - Saída 106,A-4 - Saída 112,Carro,True,Puerto Lápice
+A-4 - Saída 112,A-4 - Saída 115,Carro,False,Madrid
+A-4 - Saída 112,A-4 - Saída 115,Carro,False,Ocaña
+A-4 - Saída 112,A-4 - Saída 115,Carro,True,Córdoba
+A-4 - Saída 112,A-4 - Saída 115,Carro,True,Puerto Lápice
+A-4 - Saída 115,A-4 - Saída 118,Carro,False,Madrid
+A-4 - Saída 115,A-4 - Saída 118,Carro,False,Ocaña
+A-4 - Saída 115,A-4 - Saída 118,Carro,True,Bailén
+A-4 - Saída 115,A-4 - Saída 118,Carro,True,Córdoba
+A-4 - Saída 115,A-4 - Saída 118,Carro,True,Puerto Lápice
+A-4 - Saída 118,A-4 - Saída 119,Carro,False,Madrid
+A-4 - Saída 118,A-4 - Saída 119,Carro,False,Ocaña
+A-4 - Saída 118,A-4 - Saída 119,Carro,True,Bailén
+A-4 - Saída 118,A-4 - Saída 119,Carro,True,Córdoba
+A-4 - Saída 118,A-4 - Saída 119,Carro,True,Puerto Lápice
+A-4 - Saída 119,Cruzamento da A-4 com a CM-42,Carro,False,Madrid
+A-4 - Saída 119,Cruzamento da A-4 com a CM-42,Carro,True,Bailén
+A-4 - Saída 119,Cruzamento da A-4 com a CM-42,Carro,True,Córdoba
+A-4 - Saída 119,Cruzamento da A-4 com a CM-42,Carro,True,Puerto Lápice
+A-4 - Saída 134,A-4 - Saída 135,Carro,False,Madrid
+A-4 - Saída 134,A-4 - Saída 135,Carro,False,Ocaña
+A-4 - Saída 134,A-4 - Saída 135,Carro,True,Bailén
+A-4 - Saída 134,A-4 - Saída 135,Carro,True,Córdoba
+A-4 - Saída 134,A-4 - Saída 135,Carro,True,Ciudad Real
+A-4 - Saída 134,Cruzamento da A-4 com a CM-42,Carro,False,Córdoba
+A-4 - Saída 134,Cruzamento da A-4 com a CM-42,Carro,True,Madrid
+A-4 - Saída 134,Cruzamento da A-4 com a CM-42,Carro,True,Ocaña
+A-4 - Saída 135,A-4 - Saída 136,Carro,False,Cuenca
+A-4 - Saída 135,A-4 - Saída 136,Carro,False,Madrid
+A-4 - Saída 135,A-4 - Saída 136,Carro,False,Ocaña
+A-4 - Saída 135,A-4 - Saída 136,Carro,True,Córdoba
+A-4 - Saída 135,A-4 - Saída 136,Carro,True,Ciudad Real
+A-4 - Saída 135,A-4 - Saída 136,Carro,True,Manzanares
+A-4 - Saída 136,A-4 - Saída 137,Carro,False,Madrid
+A-4 - Saída 136,A-4 - Saída 137,Carro,True,Bailén
+A-4 - Saída 136,A-4 - Saída 137,Carro,True,Córdoba
+A-4 - Saída 136,A-4 - Saída 137,Carro,True,Manzanares
+A-4 - Saída 137,A-4 - Saída 140,Carro,False,Madrid
+A-4 - Saída 137,A-4 - Saída 140,Carro,False,Puerto Lápice
+A-4 - Saída 137,A-4 - Saída 140,Carro,True,Bailén
+A-4 - Saída 137,A-4 - Saída 140,Carro,True,Córdoba
+A-4 - Saída 140,A-4 - Saída 142,Carro,False,Madrid
+A-4 - Saída 140,A-4 - Saída 142,Carro,False,Puerto Lápice
+A-4 - Saída 140,A-4 - Saída 142,Carro,True,Bailén
+A-4 - Saída 140,A-4 - Saída 142,Carro,True,Córdoba
+A-4 - Saída 142,A-4 - Saída 144,Carro,False,Madrid
+A-4 - Saída 142,A-4 - Saída 144,Carro,False,Puerto Lápice
+A-4 - Saída 142,A-4 - Saída 144,Carro,True,Bailén
+A-4 - Saída 142,A-4 - Saída 144,Carro,True,Córdoba
 A-4 - Saída 144,A-4 - Saída 147,Carro,False,Madrid
 A-4 - Saída 144,A-4 - Saída 147,Carro,False,Puerto Lápice
 A-4 - Saída 144,A-4 - Saída 147,Carro,True,Córdoba
@@ -3245,6 +3344,11 @@ Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,True,Sevilha
 Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,False,Jerez de la Frontera
 Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,False,Sevilha
 Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,True,Cádiz
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Aranjuez
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Madrid
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Ocaña
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,AP-36 - Albacete
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Córdoba
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,A-4 - Córdoba
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,Aeroporto de Sevilha
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,A-49 - Huelva

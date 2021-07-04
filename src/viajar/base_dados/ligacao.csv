@@ -31,6 +31,30 @@ A-381 - Saída 77,A-381 - Saída 80,Carro,3.5,A-381,SE,2,1
 A-381 - Saída 80,A-381 - Saída 85,Carro,4.7,A-381,SE,2,1
 A-381 - Saída 85,A-381 - Saída 87,Carro,1.4,A-381,NE,2,1
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,1.1,A-381,SE,2,3
+A-4 - Saída 69,A-4 - Saída 70,Carro,2.3,A-4,S,1,2
+A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,1.2,A-4,N,2,1
+A-4 - Saída 70,A-4 - Saída 72,Carro,2.7,A-4,S,1,2
+A-4 - Saída 72,A-4 - Saída 79,Carro,6.4,A-4,S,1,2
+A-4 - Saída 79,A-4 - Saída 81,Carro,1.0,A-4,S,1,2
+A-4 - Saída 81,A-4 - Saída 83,Carro,2.9,A-4,S,1,2
+A-4 - Saída 83,A-4 - Saída 85,Carro,1.7,A-4,S,1,2
+A-4 - Saída 85,A-4 - Saída 92,Carro,7.3,A-4,S,1,2
+A-4 - Saída 92,A-4 - Saída 93,Carro,0.9,A-4,S,1,2
+A-4 - Saída 93,A-4 - Saída 94,Carro,1.2,A-4,SO,1,2
+A-4 - Saída 94,A-4 - Saída 98,Carro,3.8,A-4,S,1,2
+A-4 - Saída 98,A-4 - Saída 106,Carro,8.8,A-4,S,1,2
+A-4 - Saída 106,A-4 - Saída 112,Carro,6.1,A-4,S,1,2
+A-4 - Saída 112,A-4 - Saída 115,Carro,2.1,A-4,S,1,2
+A-4 - Saída 115,A-4 - Saída 118,Carro,2.4,A-4,S,1,2
+A-4 - Saída 118,A-4 - Saída 119,Carro,1.8,A-4,S,1,2
+A-4 - Saída 119,Cruzamento da A-4 com a CM-42,Carro,2.0,A-4,SO,1,2
+A-4 - Saída 134,A-4 - Saída 135,Carro,0.7,A-4,SE,1,2
+A-4 - Saída 134,Cruzamento da A-4 com a CM-42,Carro,13.0,A-4,NO,2,1
+A-4 - Saída 135,A-4 - Saída 136,Carro,1.5,A-4,SE,1,2
+A-4 - Saída 136,A-4 - Saída 137,Carro,1.0,A-4,S,1,2
+A-4 - Saída 137,A-4 - Saída 140,Carro,2.7,A-4,SE,1,2
+A-4 - Saída 140,A-4 - Saída 142,Carro,1.7,A-4,SE,1,2
+A-4 - Saída 142,A-4 - Saída 144,Carro,2.8,A-4,SE,1,2
 A-4 - Saída 144,A-4 - Saída 147,Carro,2.8,A-4,SE,1,2
 A-4 - Saída 147,A-4 - Saída 149,Carro,1.7,A-4,S,1,2
 A-4 - Saída 149,A-4 - Saída 153,Carro,4.5,A-4,SE,1,2
@@ -1089,6 +1113,7 @@ Cruzamento da A-376 com a SE-40,Cruzamento da A-92 com a SE-40,Carro,5.6,SE-40,N
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,17.2,AP-4,SO,2,1
+Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1
