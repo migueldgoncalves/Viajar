@@ -249,6 +249,17 @@ A-49 - Saída 81,Huelva,Huelva,
 A-49 - Saída 87,Gibraleón,Huelva,
 A-49 - Saída 94,Gibraleón,Huelva,
 A-49 - Saída 99,Gibraleón,Huelva,
+A-5 - Saída 18,Móstoles,Comunidade de Madrid,Norte-Universidad
+A-5 - Saída 19,Móstoles,Comunidade de Madrid,Oeste
+A-5 - Saída 21,Móstoles,Comunidade de Madrid,Oeste
+A-5 - Saída 22,Móstoles,Comunidade de Madrid,Oeste
+A-5 - Saída 23,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
+A-5 - Saída 24,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
+A-5 - Saída 25,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
+A-5 - Saída 27,Navalcarnero,Comunidade de Madrid,
+A-5 - Saída 28,Navalcarnero,Comunidade de Madrid,
+A-5 - Saída 28B,Navalcarnero,Comunidade de Madrid,
+A-5 - Saída 29A,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 29B,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 31,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 32,Navalcarnero,Comunidade de Madrid,
@@ -345,6 +356,7 @@ A-5 - Saída 395,Badajoz,Badajoz,
 A-5 - Saída 400,Badajoz,Badajoz,
 A-5 - Saída 403,Badajoz,Badajoz,
 A-5 - Saída 407,Badajoz,Badajoz,
+A-5 - Quinta Asturias,Navalcarnero,Comunidade de Madrid,
 A-66 - Saída 613,Mérida,Badajoz,
 A-66 - Saída 626,Mérida,Badajoz,
 A-66 - Saída 627,Mérida,Badajoz,
@@ -645,6 +657,7 @@ Fronteira Espanha-Gibraltar - Lado espanhol,La Línea de la Concepción,Cádiz,
 Gelves,Gelves,Sevilha,
 Gibraleón,Gibraleón,Huelva,
 H-31 - Saída 80,Huelva,Huelva,
+Intu Xanadú,Arroyomolinos,Comunidade de Madrid,
 Isla Cristina,Isla Cristina,Huelva,
 La Carlota,La Carlota,Córdoba,
 La Línea de la Concepción - Centro da cidade,La Línea de la Concepción,Cádiz,

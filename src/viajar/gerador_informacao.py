@@ -6,7 +6,7 @@ import overpy
 import vias
 
 # Inserir aqui auto-estrada para ser analisada pelo gerador
-AUTO_ESTRADA_PARA_ANALISAR = vias.ES_EXA1
+AUTO_ESTRADA_PARA_ANALISAR = vias.ES_M30
 
 PATH_BASE = os.path.dirname(os.path.realpath(__file__))
 NOME_AUTO_ESTRADA = AUTO_ESTRADA_PARA_ANALISAR[0]

@@ -302,6 +302,22 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-5 - Saída 18,A-5 - Saída 19,Carro,1.6,A-5,SO,1,2
+A-5 - Saída 18,M-50 - Saída 62,Carro,2.8,,SE,2,2
+A-5 - Saída 19,A-5 - Saída 21,Carro,1.9,A-5,SO,1,2
+A-5 - Saída 21,A-5 - Saída 22,Carro,1.5,A-5,SO,1,2
+A-5 - Saída 22,A-5 - Saída 23,Carro,1.6,A-5,O,1,2
+A-5 - Saída 23,A-5 - Saída 24,Carro,0.8,A-5,SO,1,2
+A-5 - Saída 23,Intu Xanadú,Carro,1.3,,SO,3,3
+A-5 - Saída 24,A-5 - Saída 25,Carro,0.3,A-5,SO,1,2
+A-5 - Saída 24,Intu Xanadú,Carro,2.0,,E,3,2
+A-5 - Saída 25,A-5 - Quinta Asturias,Carro,0.5,A-5,O,1,2
+A-5 - Saída 25,Intu Xanadú,Carro,1.7,,E,3,1
+A-5 - Saída 27,A-5 - Saída 28,Carro,0.8,A-5,SO,1,2
+A-5 - Saída 27,A-5 - Quinta Asturias,Carro,1.9,A-5,E,2,1
+A-5 - Saída 28,A-5 - Saída 28B,Carro,0.7,A-5,SO,1,2
+A-5 - Saída 28B,A-5 - Saída 29A,Carro,0.5,A-5,SO,1,2
+A-5 - Saída 29A,A-5 - Saída 29B,Carro,0.5,A-5,SO,1,2
 A-5 - Saída 29B,A-5 - Saída 31,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 31,A-5 - Saída 32,Carro,1.3,A-5,O,1,2
 A-5 - Saída 31,R-5 - Saída 28,Carro,1.6,,S,3,3
