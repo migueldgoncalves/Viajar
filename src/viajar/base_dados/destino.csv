@@ -987,6 +987,11 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 29B,A-5 - Saída 31,Carro,False,Madrid
+A-5 - Saída 29B,A-5 - Saída 31,Carro,False,Móstoles
+A-5 - Saída 29B,A-5 - Saída 31,Carro,True,Badajoz
+A-5 - Saída 29B,A-5 - Saída 31,Carro,True,Maqueda
+A-5 - Saída 29B,A-5 - Saída 31,Carro,True,Talavera de la Reina
 A-5 - Saída 31,A-5 - Saída 32,Carro,False,Madrid
 A-5 - Saída 31,A-5 - Saída 32,Carro,False,Móstoles
 A-5 - Saída 31,A-5 - Saída 32,Carro,True,Badajoz
@@ -4174,6 +4179,27 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-1
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-2
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-3
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-4
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-42 - Toledo
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,R-2
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,R-3
+M-50 - Saída 59,M-50 - Saída 60,Carro,False,R-4
+M-50 - Saída 59,M-50 - Saída 60,Carro,True,A-5 - Badajoz
+M-50 - Saída 59,M-50 - Saída 60,Carro,True,A-6
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,A-2
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,A-3
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,A-4
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,A-42
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,R-3
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,R-4
+M-50 - Saída 60,M-50 - Saída 62,Carro,False,R-5 - Badajoz/Toledo
+M-50 - Saída 60,M-50 - Saída 62,Carro,True,A-5 - Badajoz
+M-50 - Saída 60,M-50 - Saída 62,Carro,True,A-6
 Marchena,Osuna,Comboio,False,Dos Hermanas
 Marchena,Osuna,Comboio,False,Sevilha - Santa Justa
 Marchena,Osuna,Comboio,True,Bobadilla

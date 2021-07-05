@@ -302,7 +302,9 @@ A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
+A-5 - Saída 29B,A-5 - Saída 31,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 31,A-5 - Saída 32,Carro,1.3,A-5,O,1,2
+A-5 - Saída 31,R-5 - Saída 28,Carro,1.6,,S,3,3
 A-5 - Saída 32,Cruzamento da A-5 com a R-5,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 36,A-5 - Saída 40,Carro,3.5,A-5,SO,1,2
 A-5 - Saída 36,Cruzamento da A-5 com a R-5,Carro,2.5,A-5,NE,2,1
@@ -1477,6 +1479,10 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
+M-50 - Saída 59,M-50 - Saída 60,Carro,1.2,M-50,NO,1,2
+M-50 - Saída 60,M-50 - Saída 62,Carro,1.6,M-50,NO,1,1
+M-50 - Saída 60,R-5 - Saída 9,Carro,2.3,,NE,4,3
+M-50 - Saída 60,R-5 - Saída 11,Carro,3.5,,S,3,3
 Manta Rota,Vila Nova de Cacela,Carro,2.3,,NO,1,2
 Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
 Marchena,Osuna,Comboio,31.0,Linha Utrera-Fuente de Piedra - Media Distancia,SE,7,7
