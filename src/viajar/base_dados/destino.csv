@@ -3500,6 +3500,13 @@ Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Maqueda
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Talavera de la Reina
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Madrid
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Móstoles
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-3
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-4
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-42
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-5
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,Las Rozas de Madrid
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,Majadahonda
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-4 - Cádiz
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-49 - Huelva
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-66 - Mérida
@@ -3601,6 +3608,19 @@ Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,A-6
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,Feria de Madrid
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,M-607
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,True,R-2
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,False,A-6 - A Coruña
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,A-3
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,A-4
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,A-42
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,A-5 - Badajoz
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,R-3
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,R-4
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,True,R-5
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,A-4
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,A-42
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,A-5 - Badajoz
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,R-5
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,True,A-6 - A Coruña
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Granada
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Málaga
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Sevilha
@@ -4252,6 +4272,73 @@ M-50 - Saída 60,M-50 - Saída 62,Carro,False,R-4
 M-50 - Saída 60,M-50 - Saída 62,Carro,False,R-5 - Badajoz/Toledo
 M-50 - Saída 60,M-50 - Saída 62,Carro,True,A-5 - Badajoz
 M-50 - Saída 60,M-50 - Saída 62,Carro,True,A-6
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,A-2
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,A-3
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,A-4
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,A-42
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,R-3
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,R-4
+M-50 - Saída 62,M-50 - Saída 63,Carro,False,R-5 - Badajoz/Toledo
+M-50 - Saída 62,M-50 - Saída 63,Carro,True,A-6 - A Coruña
+M-50 - Saída 63,M-50 - Saída 64,Carro,False,A-4
+M-50 - Saída 63,M-50 - Saída 64,Carro,False,A-42
+M-50 - Saída 63,M-50 - Saída 64,Carro,False,R-4
+M-50 - Saída 63,M-50 - Saída 64,Carro,False,R-5 - Badajoz
+M-50 - Saída 63,M-50 - Saída 64,Carro,True,A-6 - A Coruña
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,A-2
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,A-3
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,A-4
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,A-42
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,R-3
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,R-4
+M-50 - Saída 64,M-50 - Saída 65,Carro,False,R-5 - Badajoz
+M-50 - Saída 64,M-50 - Saída 65,Carro,True,A-6 - A Coruña
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,A-2
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,A-3
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,A-4
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,A-42
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,A-5 - Badajoz
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,R-3
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,R-4
+M-50 - Saída 65,M-50 - Saída 69,Carro,False,R-5
+M-50 - Saída 65,M-50 - Saída 69,Carro,True,A-6 - A Coruña
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,A-2
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,A-3
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,A-4
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,A-42
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,A-5 - Badajoz
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,R-3
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,R-4
+M-50 - Saída 69,M-50 - Saída 72,Carro,False,R-5
+M-50 - Saída 69,M-50 - Saída 72,Carro,True,A-6 - A Coruña
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,A-3
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,A-4
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,A-42
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,A-5 - Badajoz
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,R-3
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,R-4
+M-50 - Saída 79,M-50 - Saída 80,Carro,False,R-5
+M-50 - Saída 79,M-50 - Saída 80,Carro,True,A-6 - A Coruña
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,A-3
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,A-4
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,A-42
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,A-5 - Badajoz
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,R-3
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,R-4
+M-50 - Saída 80,M-50 - Saída 82,Carro,False,R-5
+M-50 - Saída 80,M-50 - Saída 82,Carro,True,A-6 - A Coruña
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,A-3
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,A-4
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,A-42
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,A-5 - Badajoz
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,R-3
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,R-4
+M-50 - Saída 82,M-50 - Saída 83,Carro,False,R-5
+M-50 - Saída 82,M-50 - Saída 83,Carro,True,A-6 - A Coruña
 Marchena,Osuna,Comboio,False,Dos Hermanas
 Marchena,Osuna,Comboio,False,Sevilha - Santa Justa
 Marchena,Osuna,Comboio,True,Bobadilla

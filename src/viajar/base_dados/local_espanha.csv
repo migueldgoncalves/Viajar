@@ -619,6 +619,7 @@ Cruzamento da A-5 com a CM-41,Valmojado,Toledo,
 Cruzamento da A-5 com a EX-A1,Millanes,Cáceres,
 Cruzamento da A-5 com a EX-A2,Miajadas,Cáceres,
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
+Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
 Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
@@ -635,6 +636,7 @@ Cruzamento da H-30 com a H-31,Huelva,Huelva,
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
+Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
@@ -667,6 +669,15 @@ M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-50 - Saída 59,Fuenlabrada,Comunidade de Madrid,Loranca - Nuevo Versalles - Parque Miraflores
 M-50 - Saída 60,Fuenlabrada,Comunidade de Madrid,Loranca - Nuevo Versalles - Parque Miraflores
 M-50 - Saída 62,Alcorcón,Comunidade de Madrid,Suroeste
+M-50 - Saída 63,Alcorcón,Comunidade de Madrid,Norte
+M-50 - Saída 64,Alcorcón,Comunidade de Madrid,Norte
+M-50 - Saída 65,Alcorcón,Comunidade de Madrid,Norte
+M-50 - Saída 69,Boadilla del Monte,Comunidade de Madrid,
+M-50 - Saída 72,Boadilla del Monte,Comunidade de Madrid,
+M-50 - Saída 79,Majadahonda,Comunidade de Madrid,
+M-50 - Saída 80,Majadahonda,Comunidade de Madrid,
+M-50 - Saída 82,Las Rozas de Madrid,Comunidade de Madrid,Centro
+M-50 - Saída 83,Las Rozas de Madrid,Comunidade de Madrid,Centro
 MA-20 - Saída 1,Málaga,Málaga,Churriana
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
 Marchena,Marchena,Sevilha,

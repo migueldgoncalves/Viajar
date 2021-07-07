@@ -303,7 +303,8 @@ A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,1.3,A-49,O,1,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
 A-5 - Saída 18,A-5 - Saída 19,Carro,1.6,A-5,SO,1,2
-A-5 - Saída 18,M-50 - Saída 62,Carro,2.8,,SE,2,2
+A-5 - Saída 18,M-50 - Saída 65,Carro,3.3,,NE,2,3
+A-5 - Saída 18,M-50 - Saída 62,Carro,2.8,,SE,3,3
 A-5 - Saída 19,A-5 - Saída 21,Carro,1.9,A-5,SO,1,2
 A-5 - Saída 21,A-5 - Saída 22,Carro,1.5,A-5,SO,1,2
 A-5 - Saída 22,A-5 - Saída 23,Carro,1.6,A-5,O,1,2
@@ -1150,6 +1151,7 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,1.3,A-49,E,4,1
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,6.0,EX-A2,SE,3,1
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,2.6,R-5,E,3,1
+Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,1.8,M-50,SO,1,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,4.8,A-7 - Ronda Oeste de Málaga,SE,2,1
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
@@ -1166,6 +1168,8 @@ Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,1.0,M-45,SE,2,3
 Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,0.8,M-40,E,1,1
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,1.3,R-5,SO,3,2
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,0.9,M-40,SO,1,2
+Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,4.1,M-50,S,2,1
+Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,2.8,M-50,NO,1,2
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
@@ -1496,9 +1500,17 @@ Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
 M-50 - Saída 59,M-50 - Saída 60,Carro,1.2,M-50,NO,1,2
-M-50 - Saída 60,M-50 - Saída 62,Carro,1.6,M-50,NO,1,1
+M-50 - Saída 60,M-50 - Saída 62,Carro,1.6,M-50,NO,1,2
 M-50 - Saída 60,R-5 - Saída 9,Carro,2.3,,NE,4,3
 M-50 - Saída 60,R-5 - Saída 11,Carro,3.5,,S,3,3
+M-50 - Saída 62,M-50 - Saída 63,Carro,1.8,M-50,NO,1,2
+M-50 - Saída 63,M-50 - Saída 64,Carro,0.4,M-50,N,1,2
+M-50 - Saída 64,M-50 - Saída 65,Carro,1.4,M-50,N,1,2
+M-50 - Saída 65,M-50 - Saída 69,Carro,3.3,M-50,NO,1,2
+M-50 - Saída 69,M-50 - Saída 72,Carro,3.5,M-50,N,1,2
+M-50 - Saída 79,M-50 - Saída 80,Carro,1.0,M-50,N,1,2
+M-50 - Saída 80,M-50 - Saída 82,Carro,2.2,M-50,N,1,2
+M-50 - Saída 82,M-50 - Saída 83,Carro,0.9,M-50,N,1,2
 Manta Rota,Vila Nova de Cacela,Carro,2.3,,NO,1,2
 Mar Shopping Algarve,Santa Bárbara de Nexe,Carro,4.4,,NE,3,3
 Marchena,Osuna,Comboio,31.0,Linha Utrera-Fuente de Piedra - Media Distancia,SE,7,7
