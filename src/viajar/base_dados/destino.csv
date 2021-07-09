@@ -2426,6 +2426,10 @@ A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A16 - Saída 2,A16 - Saída 3,Carro,False,A5 - Cascais/Lisboa
+A16 - Saída 2,A16 - Saída 3,Carro,True,A9 - Norte
+A16 - Saída 2,A16 - Saída 3,Carro,True,IC19 - Lisboa
+A16 - Saída 2,A16 - Saída 3,Carro,True,Sintra
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,A9 - Norte
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Lisboa
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Sintra
@@ -2714,6 +2718,17 @@ A5 - Saída 1,A5 - Saída 2,Carro,False,A2 - Sul
 A5 - Saída 1,A5 - Saída 2,Carro,False,Lisboa
 A5 - Saída 1,A5 - Saída 2,Carro,True,Cascais
 A5 - Saída 1,A5 - Saída 2,Carro,True,Sintra
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A1 - Norte
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A5 - Cascais
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,IC19 - Sintra
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,Lisboa - Marquês de Pombal
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,A2 - Sul
+A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,IC20 - Almada/Costa da Caparica
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,False,A2 - Sul
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,False,IC20 - Almada/Costa da Caparica
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,True,A1 - Norte
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,True,Lisboa - Praça de Espanha
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,True,Lisboa - Sete Rios
 A5 - Saída 2,A5 - Saída 3,Carro,False,A2 - Sul
 A5 - Saída 2,A5 - Saída 3,Carro,False,Lisboa
 A5 - Saída 2,A5 - Saída 3,Carro,True,Amadora
@@ -2758,12 +2773,6 @@ A5 - Saída 11,Cruzamento da A16 com a A5,Carro,False,Alvide
 A5 - Saída 11,Cruzamento da A16 com a A5,Carro,False,Cascais
 A5 - Saída 11,Cruzamento da A16 com a A5,Carro,True,Carcavelos
 A5 - Saída 11,Cruzamento da A16 com a A5,Carro,True,Lisboa
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A1 - Norte
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,A5 - Cascais
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,IC19 - Sintra
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,False,Lisboa - Marquês de Pombal
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,A2 - Sul
-A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,True,IC20 - Almada/Costa da Caparica
 A6 - Saída 2,A6 - Saída 3,Carro,False,Algarve
 A6 - Saída 2,A6 - Saída 3,Carro,False,Lisboa
 A6 - Saída 2,A6 - Saída 3,Carro,False,Vendas Novas
@@ -2844,10 +2853,25 @@ A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,IC16
 A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,IC17 CRIL
 A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,True,Loures
 A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A1
-A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A8
 A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A10
+A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,A8
 A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,False,Loures
 A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,True,A5 - Cascais
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,False,A16 - Sintra
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,False,Oeiras
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,True,A1
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,True,A10
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,True,A8
+A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,True,Loures
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,A1
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,A10
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,A8
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,IC16
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,IC17 CRIL
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,IC22
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,Loures
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,True,A16 - Sintra
+A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,True,Oeiras
 Achada do Gamo,Mina de São Domingos,Comboio,False,Pomarão
 Achada do Gamo,Mina de São Domingos,Comboio,True,Mina de São Domingos
 Achada do Gamo,Santana de Cambas,Comboio,False,Mina de São Domingos

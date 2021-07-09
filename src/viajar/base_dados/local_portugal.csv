@@ -1,6 +1,7 @@
 Nome,Freguesia,Concelho
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
 A16 - Saída 2,Alcabideche,Cascais
+A16 - Saída 3,Alcabideche,Cascais
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
@@ -55,6 +56,8 @@ A6 - Saída 11,Caia e São Pedro,Elvas
 A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
 A9 CREL - Saída 2,Barcarena,Oeiras
+A9 CREL - Saída 3,São Brás,Amadora
+A9 CREL - Saída 4,Loures,Loures
 Achada do Gamo,Santana de Cambas,Mértola
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
@@ -229,6 +232,7 @@ Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
 Eixo Norte-Sul - Alcântara,Alcântara,Lisboa
+Eixo Norte-Sul - Campolide,Campolide,Lisboa
 Entradas,Entradas,Castro Verde
 Ervidel,Ervidel,Aljustrel
 Espiche,Luz,Lagos
