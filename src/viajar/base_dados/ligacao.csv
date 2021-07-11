@@ -904,6 +904,7 @@ Ameixal,Salir,Carro,21.7,,SO,3,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,1,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Carro,0.9,,NE,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,3,6
+AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Carro,4.3,AP-36,SO,1,4
 AP-4 - Início,AP-4A - Saída 13,Carro,2.4,AP-4A,NO,3,1
 AP-4 - Início,Área de Serviço de Los Palacios,Carro,4.8,AP-4,S,2,1
 AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Carro,18.7,AP-4,S,2,1
@@ -945,6 +946,8 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,4.4,R-5,NE,2,1
 Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,1.5,R-5,SO,1,2
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,3.7,AP-7,SO,1,2
+Área de Serviço de Seseña,R-4 - Saída 12,Carro,7.7,R-4,NO,1,2
+Área de Serviço de Seseña,R-4 - Saída 22,Carro,2.5,R-4,SE,2,1
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,6.2,A6,SO,1,3
 Armação de Pêra,"Pêra, Silves",Carro,3.5,,NE,1,4
 Armação de Pêra,Porches,Carro,5.5,,NO,4,2
@@ -1137,7 +1140,9 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,17.2,AP-4,SO,2,1
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,2.6,A-4,SE,1,2
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,6.4,R-4,NO,3,2
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,2.9,AP-4,O,2,1
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.5,M-50,O,1,2
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1
@@ -1146,7 +1151,9 @@ Cruzamento da A-4 Sul com a SE-30,Ponte do Centenário,Carro,1.4,SE-30,NO,1,2
 Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,0.9,SE-30,E,2,1
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,5.1,A-4,S,3,1
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,3.3,SE-40,E,3,1
+Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,7.4,R-4,NO,1,2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,2.1,M-40,SO,1,2
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.6,M-50,E,2,1
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,1.4,A-92,NE,2,1
 Cruzamento da A-45 com a A-7,Cruzamento da A-7 com a MA-20,Carro,1.6,A-7,SO,1,2
 Cruzamento da A-49 com a H-31,H-31 - Saída 80,Carro,1.5,H-31,SO,3,1
@@ -1170,12 +1177,14 @@ Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,S
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
-Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,1.0,M-45,SE,2,3
-Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,0.8,M-40,E,1,1
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,1.3,M-40,E,1,1
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,1.0,M-45,SE,3,3
+Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,0.8,M-40,E,2,1
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,1.3,R-5,SO,3,2
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,0.9,M-40,SO,1,2
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,4.1,M-50,S,2,1
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,2.8,M-50,NO,1,2
+Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,2.1,R-4,SO,3,1
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
@@ -1505,6 +1514,15 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
+M-50 - Saída 53,M-50 - Saída 55,Carro,2.1,M-50,NO,1,2
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,2.2,M-50,SE,2,1
+M-50 - Saída 55,M-50 - Saída 56,Carro,1.3,M-50,NO,1,2
+M-50 - Saída 56,M-50 - Saída 58,Carro,1.7,M-50,NO,1,2
+M-50 - Saída 56,R-5 - Saída 9,Carro,3.1,,NO,4,5
+M-50 - Saída 56,R-5 - Saída 11,Carro,5.1,,SO,3,5
+M-50 - Saída 58,M-50 - Saída 59,Carro,0.8,M-50,NO,1,2
+M-50 - Saída 58,R-5 - Saída 9,Carro,1.5,,N,4,4
+M-50 - Saída 58,R-5 - Saída 11,Carro,2.6,,SO,3,4
 M-50 - Saída 59,M-50 - Saída 60,Carro,1.2,M-50,NO,1,2
 M-50 - Saída 60,M-50 - Saída 62,Carro,1.6,M-50,NO,1,2
 M-50 - Saída 60,R-5 - Saída 9,Carro,2.3,,NE,4,3
@@ -1665,6 +1683,11 @@ Quatro Águas,Vila Real de Santo António,Barco,26.9,Costa de Portugal Continent
 Quebradas,Sentinela,Carro,2.5,,SE,2,2
 Querença,São Brás de Alportel,Carro,16.3,,SE,2,5
 Quinta do Lago,Vale do Lobo,Carro,5.8,,O,2,2
+R-4 - Saída 1,R-4 - Saída 4,Carro,2.5,R-4,S,2,1
+R-4 - Saída 4,R-4 - Saída 12,Carro,8.2,R-4,SE,2,1
+R-4 - Saída 22,R-4 - Saída 29,Carro,7.1,R-4,S,2,1
+R-4 - Saída 29,R-4 - Saída 32,Carro,2.8,R-4,SE,2,1
+R-4 - Saída 32,R-4 - Saída 38,Carro,5.9,R-4,SE,2,1
 R-5 - Saída 9,R-5 - Saída 11,Carro,3.5,R-5,SO,1,2
 R-5 - Saída 20,R-5 - Saída 28,Carro,8.5,R-5,O,1,2
 Raposeira,Vila do Bispo,Carro,1.9,N125,O,2,2

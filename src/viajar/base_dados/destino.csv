@@ -3014,6 +3014,9 @@ Ameixal,Miradouro do Caldeirão,Carro,True,São Brás de Alportel
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelva
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamonte
+AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,A-31 - Albacete
+AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Madrid
+AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Ocaña
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Cádiz
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Jerez de la Frontera
 AP-4 - Início,AP-4A - Saída 13,Carro,True,Dos Hermanas
@@ -3154,6 +3157,14 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Estepona
+Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Aranjuez
+Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Córdoba
+Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Ocaña
+Área de Serviço de Seseña,R-4 - Saída 12,Carro,True,Madrid
+Área de Serviço de Seseña,R-4 - Saída 22,Carro,False,Madrid
+Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Aranjuez
+Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Córdoba
+Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Ocaña
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Espanha
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Évora
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Vendas Novas
@@ -3430,10 +3441,26 @@ Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,M
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Ocaña
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,AP-36 - Albacete
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,True,Córdoba
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,False,AP-36 - Albacete
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,False,Córdoba
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,False,Puerto Lápice
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,True,Aranjuez
+Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,True,Madrid
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,A-48 - Algeciras
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,Jerez de la Frontera
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,Sevilha
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,True,Cádiz
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-2
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-3
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-4 - Córdoba
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,R-2
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,R-3
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-42
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-5
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-6
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,R-4 - Córdoba
+Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,R-5
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,A-4 - Córdoba
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,False,Aeroporto de Sevilha
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,True,A-49 - Huelva
@@ -3477,6 +3504,9 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-376 - Sevilha/U
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Carmona/Córdoba
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-92 - Granada/Málaga/Sevilha
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevilha
+Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Córdoba
+Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Ocaña
+Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,True,Madrid
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-3
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-4
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-42 - Toledo
@@ -3488,6 +3518,17 @@ Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-6
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,M-607
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-5 - Badajoz/Toledo
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-42 - Toledo
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-5
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-6
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,R-5 - Badajoz/Toledo
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-2
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-3
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,A-4 - Córdoba
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,R-2
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,R-3
+Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,True,R-4 - Córdoba
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Cádiz
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Córdoba
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,False,Huelva
@@ -3602,6 +3643,17 @@ Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,False,A-3
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,False,A-4
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,False,A-42
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,False,R-4
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,False,R-5 - Badajoz/Toledo
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,A-1
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,A-5 - Badajoz
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,A-6
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,Feria de Madrid
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,M-607
+Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,R-2
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
@@ -3652,6 +3704,10 @@ Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,A-42
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,A-5 - Badajoz
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,False,R-5
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Carro,True,A-6 - A Coruña
+Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,False,M-50 - Madrid
+Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,True,Aranjuez
+Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,True,Córdoba
+Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,True,Ocaña
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Granada
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Málaga
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Sevilha
@@ -4282,6 +4338,61 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-1
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-2
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-3
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-4
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-42 - Toledo
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,R-2
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,R-3
+M-50 - Saída 53,M-50 - Saída 55,Carro,False,R-4
+M-50 - Saída 53,M-50 - Saída 55,Carro,True,A-5 - Badajoz
+M-50 - Saída 53,M-50 - Saída 55,Carro,True,A-6
+M-50 - Saída 53,M-50 - Saída 55,Carro,True,R-5 - Badajoz/Toledo
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,False,A-5 - Badajoz
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,False,A-6
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,False,R-5 - Badajoz/Toledo
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,True,A-3
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,True,A-4
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,True,A-42 - Toledo
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,True,R-3
+M-50 - Saída 53,Cruzamento da A-42 com a M-50,Carro,True,R-4
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,A-1
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,A-2
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,A-3
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,A-4
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,A-42 - Toledo
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,R-2
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,R-3
+M-50 - Saída 55,M-50 - Saída 56,Carro,False,R-4
+M-50 - Saída 55,M-50 - Saída 56,Carro,True,A-5 - Badajoz
+M-50 - Saída 55,M-50 - Saída 56,Carro,True,A-6
+M-50 - Saída 55,M-50 - Saída 56,Carro,True,R-5 - Badajoz/Toledo
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,A-1
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,A-2
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,A-3
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,A-4
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,A-42 - Toledo
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,R-2
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,R-3
+M-50 - Saída 56,M-50 - Saída 58,Carro,False,R-4
+M-50 - Saída 56,M-50 - Saída 58,Carro,True,A-5 - Badajoz
+M-50 - Saída 56,M-50 - Saída 58,Carro,True,A-6
+M-50 - Saída 56,M-50 - Saída 58,Carro,True,R-5 - Badajoz/Toledo
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,A-1
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,A-2
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,A-3
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,A-4
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,A-42 - Toledo
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,Aeroporto de Madrid-Barajas
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,R-2
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,R-3
+M-50 - Saída 58,M-50 - Saída 59,Carro,False,R-4
+M-50 - Saída 58,M-50 - Saída 59,Carro,True,A-5 - Badajoz
+M-50 - Saída 58,M-50 - Saída 59,Carro,True,A-6
 M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-1
 M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-2
 M-50 - Saída 59,M-50 - Saída 60,Carro,False,A-3
@@ -4525,6 +4636,26 @@ Quatro Águas,Vila Real de Santo António,Barco,False,Faro
 Quatro Águas,Vila Real de Santo António,Barco,False,Portimão
 Quatro Águas,Vila Real de Santo António,Barco,True,Huelva
 Quatro Águas,Vila Real de Santo António,Barco,True,Sevilha
+R-4 - Saída 1,R-4 - Saída 4,Carro,False,M-50 - Madrid
+R-4 - Saída 1,R-4 - Saída 4,Carro,True,Aranjuez
+R-4 - Saída 1,R-4 - Saída 4,Carro,True,Córdoba
+R-4 - Saída 1,R-4 - Saída 4,Carro,True,Ocaña
+R-4 - Saída 4,R-4 - Saída 12,Carro,False,M-50 - Madrid
+R-4 - Saída 4,R-4 - Saída 12,Carro,True,Aranjuez
+R-4 - Saída 4,R-4 - Saída 12,Carro,True,Córdoba
+R-4 - Saída 4,R-4 - Saída 12,Carro,True,Ocaña
+R-4 - Saída 22,R-4 - Saída 29,Carro,False,Madrid
+R-4 - Saída 22,R-4 - Saída 29,Carro,True,Aranjuez
+R-4 - Saída 22,R-4 - Saída 29,Carro,True,Córdoba
+R-4 - Saída 22,R-4 - Saída 29,Carro,True,Ocaña
+R-4 - Saída 29,R-4 - Saída 32,Carro,False,Madrid
+R-4 - Saída 29,R-4 - Saída 32,Carro,True,Aranjuez
+R-4 - Saída 29,R-4 - Saída 32,Carro,True,Córdoba
+R-4 - Saída 29,R-4 - Saída 32,Carro,True,Ocaña
+R-4 - Saída 32,R-4 - Saída 38,Carro,False,Aranjuez
+R-4 - Saída 32,R-4 - Saída 38,Carro,False,Madrid
+R-4 - Saída 32,R-4 - Saída 38,Carro,True,Córdoba
+R-4 - Saída 32,R-4 - Saída 38,Carro,True,Ocaña
 R-5 - Saída 9,R-5 - Saída 11,Carro,False,Leganés
 R-5 - Saída 9,R-5 - Saída 11,Carro,False,Madrid
 R-5 - Saída 9,R-5 - Saída 11,Carro,True,Badajoz
