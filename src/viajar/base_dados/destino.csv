@@ -788,11 +788,70 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Toledo
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Torrijos
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Ávila
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
+A-44 - Saída 12,A-44 - Saída 17,Carro,False,Bailén
+A-44 - Saída 12,A-44 - Saída 17,Carro,False,Madrid
+A-44 - Saída 12,A-44 - Saída 17,Carro,True,Granada
+A-44 - Saída 12,A-44 - Saída 17,Carro,True,Jaén
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Granada
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Jaén
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,False,Málaga
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,True,Bailén
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,True,Madrid
+A-44 - Saída 17,A-44 - Saída 18,Carro,False,Bailén
+A-44 - Saída 17,A-44 - Saída 18,Carro,False,Madrid
+A-44 - Saída 17,A-44 - Saída 18,Carro,True,Granada
+A-44 - Saída 17,A-44 - Saída 18,Carro,True,Jaén
+A-44 - Saída 18,A-44 - Saída 26,Carro,False,Bailén
+A-44 - Saída 18,A-44 - Saída 26,Carro,False,Madrid
+A-44 - Saída 18,A-44 - Saída 26,Carro,True,Granada
+A-44 - Saída 18,A-44 - Saída 26,Carro,True,Jaén
+A-44 - Saída 18,A-44 - Saída 26,Carro,True,Málaga
+A-44 - Saída 26,Cruzamento da A-316 com a A-44,Carro,False,Bailén
+A-44 - Saída 26,Cruzamento da A-316 com a A-44,Carro,False,Madrid
+A-44 - Saída 26,Cruzamento da A-316 com a A-44,Carro,True,Jaén
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,False,Bailén
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,False,Jaén
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,True,Almería
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,True,Granada
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,True,Málaga
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,False,Granada
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,False,Jaén - Sul
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,True,Bailén
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,True,Jaén - Norte
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,True,Madrid
+A-44 - Saída 46,A-44 - Saída 50,Carro,False,Bailén
+A-44 - Saída 46,A-44 - Saída 50,Carro,False,Jaén
+A-44 - Saída 46,A-44 - Saída 50,Carro,False,Madrid
+A-44 - Saída 46,A-44 - Saída 50,Carro,True,Almería
+A-44 - Saída 46,A-44 - Saída 50,Carro,True,Granada
+A-44 - Saída 46,A-44 - Saída 50,Carro,True,Málaga
+A-44 - Saída 50,A-44 - Saída 59,Carro,False,Jaén
+A-44 - Saída 50,A-44 - Saída 59,Carro,True,Almería
+A-44 - Saída 50,A-44 - Saída 59,Carro,True,Granada
+A-44 - Saída 50,A-44 - Saída 59,Carro,True,Málaga
+A-44 - Saída 59,A-44 - Saída 64,Carro,False,Jaén
+A-44 - Saída 59,A-44 - Saída 64,Carro,True,Granada
+A-44 - Saída 64,A-44 - Saída 67,Carro,False,Jaén
+A-44 - Saída 64,A-44 - Saída 67,Carro,True,Granada
+A-44 - Saída 67,A-44 - Saída 74,Carro,False,Jaén
+A-44 - Saída 67,A-44 - Saída 74,Carro,True,Granada
+A-44 - Saída 74,A-44 - Saída 77,Carro,False,Bailén
+A-44 - Saída 74,A-44 - Saída 77,Carro,False,Jaén
+A-44 - Saída 74,A-44 - Saída 77,Carro,True,Granada
+A-44 - Saída 77,A-44 - Saída 79,Carro,False,Jaén
+A-44 - Saída 77,A-44 - Saída 79,Carro,True,Granada
+A-44 - Saída 79,A-44 - Saída 84,Carro,False,Jaén
+A-44 - Saída 79,A-44 - Saída 84,Carro,True,Granada
+A-44 - Saída 84,A-44 - Saída 89,Carro,False,Bailén
+A-44 - Saída 84,A-44 - Saída 89,Carro,False,Jaén
+A-44 - Saída 84,A-44 - Saída 89,Carro,False,Madrid
+A-44 - Saída 84,A-44 - Saída 89,Carro,True,Granada
+A-44 - Saída 89,A-44 - Saída 97,Carro,False,Bailén
+A-44 - Saída 89,A-44 - Saída 97,Carro,False,Jaén
+A-44 - Saída 89,A-44 - Saída 97,Carro,False,Madrid
+A-44 - Saída 89,A-44 - Saída 97,Carro,True,Almería
+A-44 - Saída 89,A-44 - Saída 97,Carro,True,Granada
+A-44 - Saída 89,A-44 - Saída 97,Carro,True,Málaga
 A-45 - Saída 5,A-45 - Saída 16,Carro,False,Córdoba
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Fernán Núñez
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Málaga

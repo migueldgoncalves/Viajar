@@ -222,7 +222,23 @@ A-4 - Saída 628,A-4 - Saída 631,Carro,2.8,A-4,SO,2,1
 A-4 - Saída 628,Aeroporto de Jerez,Carro,1.1,N-346,SE,3,1
 A-4 - Saída 628,El Cuervo de Sevilla,Carro,13.2,N-4,NE,1,2
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,4.6,A-40,NO,1,3
+A-44 - Saída 12,A-44 - Saída 17,Carro,4.0,A-44,SO,2,1
 A-44 - Saída 12,Cruzamento da A-32 com a A-44,Carro,9.5,A-44,NE,1,2
+A-44 - Saída 17,A-44 - Saída 18,Carro,1.7,A-44,S,2,1
+A-44 - Saída 18,A-44 - Saída 26,Carro,7.9,A-44,S,2,1
+A-44 - Saída 26,Cruzamento da A-316 com a A-44,Carro,10.6,A-44,S,2,1
+A-44 - Saída 40-42,A-44 - Saída 46,Carro,5.6,A-44,SE,2,1
+A-44 - Saída 40-42,Cruzamento da A-316 com a A-44,Carro,4.4,A-44,NO,1,2
+A-44 - Saída 46,A-44 - Saída 50,Carro,4.0,A-44,SE,2,1
+A-44 - Saída 50,A-44 - Saída 59,Carro,8.5,A-44,SE,2,1
+A-44 - Saída 59,A-44 - Saída 64,Carro,4.4,A-44,SE,2,1
+A-44 - Saída 64,A-44 - Saída 67,Carro,3.7,A-44,S,2,1
+A-44 - Saída 67,A-44 - Saída 74,Carro,6.7,A-44,SO,2,1
+A-44 - Saída 74,A-44 - Saída 77,Carro,3.1,A-44,SO,2,1
+A-44 - Saída 77,A-44 - Saída 79,Carro,3.7,A-44,SE,2,1
+A-44 - Saída 79,A-44 - Saída 84,Carro,3.0,A-44,SE,2,1
+A-44 - Saída 84,A-44 - Saída 89,Carro,4.8,A-44,SE,2,1
+A-44 - Saída 89,A-44 - Saída 97,Carro,8.2,A-44,S,2,1
 A-45 - Saída 5,A-45 - Saída 16,Carro,10.2,A-45,S,2,1
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 16,A-45 - Saída 27,Carro,10.9,A-45,SE,2,1
