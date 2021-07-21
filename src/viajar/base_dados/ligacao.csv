@@ -239,6 +239,13 @@ A-44 - Saída 77,A-44 - Saída 79,Carro,3.7,A-44,SE,2,1
 A-44 - Saída 79,A-44 - Saída 84,Carro,3.0,A-44,SE,2,1
 A-44 - Saída 84,A-44 - Saída 89,Carro,4.8,A-44,SE,2,1
 A-44 - Saída 89,A-44 - Saída 97,Carro,8.2,A-44,S,2,1
+A-44 - Saída 97,A-44 - Saída 103,Carro,5.9,A-44,SO,2,1
+A-44 - Saída 103,A-44 - Saída 108,Carro,5.3,A-44,SO,2,1
+A-44 - Saída 108,A-44 - Saída 111,Carro,3.0,A-44,SO,2,1
+A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,3.9,A-44,S,2,1
+A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,2.1,GR-30,S,2,3
+A-44 - Saída 116,Cruzamento Norte da A-44 com a GR-30,Carro,1.4,GR-30,N,1,2
+A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,0.9,GR-30,NO,1,4
 A-45 - Saída 5,A-45 - Saída 16,Carro,10.2,A-45,S,2,1
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 16,A-45 - Saída 27,Carro,10.9,A-45,SE,2,1
@@ -639,7 +646,7 @@ A-92 - Saída 225,A-92 - Saída 227,Carro,2.3,A-92,E,2,1
 A-92 - Saída 227,A-92 - Saída 229,Carro,2.7,A-92,E,2,1
 A-92 - Saída 229,Cruzamento da A-92 com a A-92G,Carro,1.0,A-92,E,2,1
 A-92 - Saída 236,A-92 - Saída 237,Carro,1.6,A-92,NE,2,1
-A-92 - Saída 236,Cruzamento da A-92 com a A-92G,Carro,4.7,A-92,SO,1,2
+A-92 - Saída 236,Cruzamento da A-92 com a GR-43,Carro,1.3,A-92,SO,1,2
 A-92 - Saída 237,A-92 - Saída 239,Carro,2.1,A-92,E,2,1
 A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,0.4,A-92,NE,2,1
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,3.9,A-92,O,1,2
@@ -1185,6 +1192,7 @@ Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,4.8,A-7 - Rond
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
+Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,3.3,A-92,NE,2,1
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1

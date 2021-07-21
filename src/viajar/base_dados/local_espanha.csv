@@ -213,6 +213,11 @@ A-44 - Saída 79,Iznalloz,Granada,
 A-44 - Saída 84,Campotéjar,Granada,
 A-44 - Saída 89,Dehesas Viejas,Granada,
 A-44 - Saída 97,Iznalloz,Granada,
+A-44 - Saída 103,Deifontes,Granada,
+A-44 - Saída 108,Albolote,Granada,
+A-44 - Saída 111,Albolote,Granada,
+A-44 - Saída 116,Albolote,Granada,
+A-44 - Saída 119,Albolote,Granada,
 A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 16,Fernán Núñez,Córdoba,
 A-45 - Saída 27,Montilla,Córdoba,
@@ -650,6 +655,7 @@ Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-92 com a A-92G,Santa Fe,Granada,
 Cruzamento da A-92 com a A-92M,Loja,Granada,
 Cruzamento da A-92 com a GR-30,Albolote,Granada,
+Cruzamento da A-92 com a GR-43,Pinos Puente,Granada,
 Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
@@ -665,6 +671,7 @@ Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
+Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
 Don Benito,Don Benito,Badajoz,
