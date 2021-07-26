@@ -269,6 +269,14 @@ A-49 - Saída 81,Huelva,Huelva,
 A-49 - Saída 87,Gibraleón,Huelva,
 A-49 - Saída 94,Gibraleón,Huelva,
 A-49 - Saída 99,Gibraleón,Huelva,
+A-5 - Saída 3,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-5 - Saída 5A,Madrid,Comunidade de Madrid,Latina
+A-5 - Saída 11,Alcorcón,Comunidade de Madrid,Norte
+A-5 - Saída 12,Alcorcón,Comunidade de Madrid,Norte
+A-5 - Saída 12A,Alcorcón,Comunidade de Madrid,Norte
+A-5 - Saída 12B,Alcorcón,Comunidade de Madrid,Norte
+A-5 - Saída 13,Alcorcón,Comunidade de Madrid,Norte
+A-5 - Saída 14,Alcorcón,Comunidade de Madrid,Norte
 A-5 - Saída 18,Móstoles,Comunidade de Madrid,Norte-Universidad
 A-5 - Saída 19,Móstoles,Comunidade de Madrid,Oeste
 A-5 - Saída 21,Móstoles,Comunidade de Madrid,Oeste
@@ -376,7 +384,15 @@ A-5 - Saída 395,Badajoz,Badajoz,
 A-5 - Saída 400,Badajoz,Badajoz,
 A-5 - Saída 403,Badajoz,Badajoz,
 A-5 - Saída 407,Badajoz,Badajoz,
+A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
+A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
+A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
+A-5 - Carretera de Boadilla del Monte,Madrid,Comunidade de Madrid,Latina
+A-5 - Cuatro Vientos,Madrid,Comunidade de Madrid,Latina
+A-5 - El Batán,Madrid,Comunidade de Madrid,Latina
+A-5 - Museo del Aire,Madrid,Comunidade de Madrid,Latina
 A-5 - Quinta Asturias,Navalcarnero,Comunidade de Madrid,
+A-5R - Alcorcón Norte,Alcorcón,Comunidade de Madrid,Norte
 A-66 - Saída 613,Mérida,Badajoz,
 A-66 - Saída 626,Mérida,Badajoz,
 A-66 - Saída 627,Mérida,Badajoz,
@@ -644,6 +660,8 @@ Cruzamento da A-5 com a A-66 Sul,Mérida,Badajoz,
 Cruzamento da A-5 com a CM-41,Valmojado,Toledo,
 Cruzamento da A-5 com a EX-A1,Millanes,Cáceres,
 Cruzamento da A-5 com a EX-A2,Miajadas,Cáceres,
+Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
+Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
 Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
@@ -663,6 +681,7 @@ Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
 Cruzamento da CA-35 com a CA-36,Puerto Real,Cádiz,
 Cruzamento da H-30 com a H-31,Huelva,Huelva,
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
+Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
@@ -674,6 +693,7 @@ Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
+"Cuesta de San Vicente, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Don Benito,Don Benito,Badajoz,
 Écija,Écija,Sevilha,
 El Cuervo de Sevilla,El Cuervo de Sevilla,Sevilha,
@@ -696,8 +716,11 @@ La Carlota,La Carlota,Córdoba,
 La Línea de la Concepción - Centro da cidade,La Línea de la Concepción,Cádiz,
 La Puebla de Cazalla,La Puebla de Cazalla,Sevilha,
 Lepe,Lepe,Huelva,
+M-30 - Calle de San Pol de Mar,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Saída 17,Madrid,Comunidade de Madrid,Arganzuela
 M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-40 - Saída 30,Madrid,Comunidade de Madrid,Latina
+M-40 - Saída 31,Madrid,Comunidade de Madrid,Latina
 M-50 - Saída 53,Leganés,Comunidade de Madrid,
 M-50 - Saída 55,Leganés,Comunidade de Madrid,
 M-50 - Saída 56,Leganés,Comunidade de Madrid,

@@ -1074,6 +1074,58 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-5 - Saída 3,A-5 - El Batán,Carro,False,M-30 - Todas as direcções
+A-5 - Saída 3,A-5 - El Batán,Carro,False,Madrid - Centro da cidade
+A-5 - Saída 3,A-5 - El Batán,Carro,False,Madrid - Paseo de Extremadura
+A-5 - Saída 3,A-5 - El Batán,Carro,True,Badajoz
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,False,Badajoz
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,False,Parque de Atracções de Madrid
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,False,Zoo Aquarium de Madrid
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,True,M-30 - Todas as direcções
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,True,Madrid - Plaza de España
+A-5 - Saída 3,Cruzamento da A-5 com a M-30,Carro,True,Madrid - Plaza del Rey
+A-5 - Saída 5A,A-5 - Carretera de Boadilla del Monte,Carro,False,Madrid - Centro da cidade
+A-5 - Saída 5A,A-5 - Carretera de Boadilla del Monte,Carro,False,Madrid - Paseo de Extremadura
+A-5 - Saída 5A,A-5 - Carretera de Boadilla del Monte,Carro,True,Badajoz
+A-5 - Saída 5A,A-5 - El Batán,Carro,False,Badajoz
+A-5 - Saída 5A,A-5 - El Batán,Carro,True,M-30 - Todas as direcções
+A-5 - Saída 5A,A-5 - El Batán,Carro,True,Madrid - Centro da cidade
+A-5 - Saída 5A,A-5 - El Batán,Carro,True,Madrid - Paseo de Extremadura
+A-5 - Saída 11,A-5 - Saída 12A,Carro,False,M-30 - Todas as direcções
+A-5 - Saída 11,A-5 - Saída 12A,Carro,False,Madrid - Centro da cidade
+A-5 - Saída 11,A-5 - Saída 12A,Carro,True,Alcorcón
+A-5 - Saída 11,A-5 - Saída 12A,Carro,True,Badajoz
+A-5 - Saída 11,A-5 - Saída 12A,Carro,True,Portugal
+A-5 - Saída 11,A-5 - Saída 12A,Carro,True,Talavera de la Reina
+A-5 - Saída 11,A-5 - Museo del Aire,Carro,False,Alcorcón
+A-5 - Saída 11,A-5 - Museo del Aire,Carro,False,Badajoz
+A-5 - Saída 11,A-5 - Museo del Aire,Carro,False,Portugal
+A-5 - Saída 11,A-5 - Museo del Aire,Carro,False,Talavera de la Reina
+A-5 - Saída 11,A-5 - Museo del Aire,Carro,True,Madrid
+A-5 - Saída 12,A-5 - Saída 12B,Carro,False,Badajoz
+A-5 - Saída 12,A-5 - Saída 12B,Carro,False,Portugal
+A-5 - Saída 12,A-5 - Saída 12B,Carro,True,M-40 - Todas as direcções
+A-5 - Saída 12,A-5 - Saída 12B,Carro,True,Madrid
+A-5 - Saída 12,A-5 - Saída 13,Carro,False,Madrid
+A-5 - Saída 12,A-5 - Saída 13,Carro,True,Badajoz
+A-5 - Saída 12,A-5 - Saída 13,Carro,True,Móstoles
+A-5 - Saída 12,A-5 - Saída 13,Carro,True,Portugal
+A-5 - Saída 12,A-5 - Saída 13,Carro,True,Talavera de la Reina
+A-5 - Saída 12A,A-5 - Saída 12B,Carro,False,M-30 - Todas as direcções
+A-5 - Saída 12A,A-5 - Saída 12B,Carro,False,Madrid - Centro da cidade
+A-5 - Saída 12A,A-5 - Saída 12B,Carro,True,Badajoz
+A-5 - Saída 12A,A-5 - Saída 12B,Carro,True,Móstoles
+A-5 - Saída 12A,A-5R - Alcorcón Norte,Carro,False,A-5 - Badajoz/Madrid/Móstoles
+A-5 - Saída 12A,A-5R - Alcorcón Norte,Carro,True,M-40 - Todas as direcções
+A-5 - Saída 13,A-5 - Saída 14,Carro,False,Madrid
+A-5 - Saída 13,A-5 - Saída 14,Carro,True,Badajoz
+A-5 - Saída 13,A-5 - Saída 14,Carro,True,Móstoles
+A-5 - Saída 13,A-5 - Saída 14,Carro,True,Talavera de la Reina
+A-5 - Saída 14,A-5 - Saída 18,Carro,False,Madrid
+A-5 - Saída 14,A-5 - Saída 18,Carro,True,Badajoz
+A-5 - Saída 14,A-5 - Saída 18,Carro,True,Navalcarnero
+A-5 - Saída 14,A-5 - Saída 18,Carro,True,Portugal
+A-5 - Saída 14,A-5 - Saída 18,Carro,True,Talavera de la Reina
 A-5 - Saída 18,A-5 - Saída 19,Carro,False,Alcorcón
 A-5 - Saída 18,A-5 - Saída 19,Carro,False,Madrid
 A-5 - Saída 18,A-5 - Saída 19,Carro,True,Badajoz
@@ -1562,6 +1614,28 @@ A-5 - Saída 403,A-5 - Saída 407,Carro,True,Lisboa
 A-5 - Saída 407,A6 - Saída 13,Carro,False,Espanha
 A-5 - Saída 407,A6 - Saída 13,Carro,True,Elvas
 A-5 - Saída 407,A6 - Saída 13,Carro,True,Lisboa
+A-5 - Aluche,A-5 - Avenida de los Poblados,Carro,False,Madrid - Centro da cidade
+A-5 - Aluche,A-5 - Avenida de los Poblados,Carro,False,Madrid - Paseo de Extremadura
+A-5 - Aluche,A-5 - Avenida de los Poblados,Carro,True,Badajoz
+A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Carro,False,Badajoz
+A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Carro,True,Madrid - Centro da cidade
+A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Carro,True,Madrid - Paseo de Extremadura
+A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Carro,False,Madrid - Centro da cidade
+A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Carro,False,Madrid - Paseo de Extremadura
+A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Carro,True,Badajoz
+A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Carro,True,M-40 - Todas as direcções
+A-5 - Calle de Allande,A-5 - Cuatro Vientos,Carro,False,Madrid
+A-5 - Calle de Allande,A-5 - Cuatro Vientos,Carro,True,Badajoz
+A-5 - Calle de Allande,A-5 - Cuatro Vientos,Carro,True,M-40 - Todas as direcções
+A-5 - Cuatro Vientos,Cruzamento da A-5 com a M-40,Carro,False,Madrid
+A-5 - Cuatro Vientos,Cruzamento da A-5 com a M-40,Carro,True,Badajoz
+A-5 - Museo del Aire,Cruzamento da A-5 com a M-40,Carro,False,Alcorcón
+A-5 - Museo del Aire,Cruzamento da A-5 com a M-40,Carro,False,Badajoz
+A-5 - Museo del Aire,Cruzamento da A-5 com a M-40,Carro,False,Portugal
+A-5 - Museo del Aire,Cruzamento da A-5 com a M-40,Carro,False,Talavera de la Reina
+A-5 - Museo del Aire,Cruzamento da A-5 com a M-40,Carro,True,Madrid
+A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,False,A-5 - Alcorcón/Badajoz/Madrid - Centro da cidade
+A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,True,M-40 - Todas as direcções
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,False,Cáceres
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Mérida
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Sevilha
@@ -3651,6 +3725,52 @@ Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Madrid
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Miajadas
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Don Benito
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Villanueva de la Serena
+Cruzamento da A-5 com a M-30,"Cuesta de San Vicente, Madrid",Carro,False,Badajoz
+Cruzamento da A-5 com a M-30,"Cuesta de San Vicente, Madrid",Carro,False,Casa de Campo
+Cruzamento da A-5 com a M-30,"Cuesta de San Vicente, Madrid",Carro,False,M-30 - Todas as direcções
+Cruzamento da A-5 com a M-30,"Cuesta de San Vicente, Madrid",Carro,True,Madrid - Plaza de España
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,False,A-3
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,False,A-4
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,False,A-42
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,False,A-5 - Badajoz
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,True,A-1
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,True,A-2
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,True,A-6 - A Coruña
+Cruzamento da A-5 com a M-30,M-30 - Calle de San Pol de Mar,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,False,A-1
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,False,A-2
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,False,A-6 - A Coruña
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,True,A-2
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,True,A-3
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,True,A-4
+Cruzamento da A-5 com a M-30,M-30 - Saída 17,Carro,True,A-42 - Toledo
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,A-3
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,A-4
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,A-42
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,A-5 - Badajoz
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,R-4
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,False,R-5 - Badajoz
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,A-1
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,A-2
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,A-6
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,Feria de Madrid
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,M-607
+Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,True,R-2
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,A-1
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,A-2
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,A-6 - A Coruña
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,Feria de Madrid
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,M-607
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,False,R-2
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,A-3
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,A-4
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,A-42
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,A-5 - Badajoz
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,R-4
+Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,True,R-5 - Badajoz
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Badajoz
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Maqueda
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Talavera de la Reina
@@ -4432,6 +4552,17 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-3
+M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-4
+M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-42
+M-40 - Saída 30,M-40 - Saída 31,Carro,False,R-4
+M-40 - Saída 30,M-40 - Saída 31,Carro,False,R-5 - Badajoz/Toledo
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,A-1
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,A-5 - Badajoz
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,A-6
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,Feria de Madrid
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,M-607
+M-40 - Saída 30,M-40 - Saída 31,Carro,True,R-2
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-1
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-2
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-3
