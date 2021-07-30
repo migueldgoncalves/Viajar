@@ -3668,6 +3668,14 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevi
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Córdoba
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Ocaña
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,True,Madrid
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,A-4 - Córdoba
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Madrid - Calle de Alcalá
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Madrid - Calle de Méndez Álvaro
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Madrid - Calle de O'Donnell
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Terminal Rodoviário Sul de Madrid
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-1
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-5 - Badajoz
+Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-6
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-3
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-4
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-42 - Toledo
@@ -4552,6 +4560,16 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-30 - Saída 15,M-30 - Saída 16,Carro,False,A-4 - Córdoba
+M-30 - Saída 15,M-30 - Saída 16,Carro,False,A-42 - Toledo
+M-30 - Saída 15,M-30 - Saída 16,Carro,True,A-1
+M-30 - Saída 15,M-30 - Saída 16,Carro,True,A-5 - Badajoz
+M-30 - Saída 15,M-30 - Saída 16,Carro,True,A-6
+M-30 - Saída 16,M-30 - Saída 17,Carro,False,A-3
+M-30 - Saída 16,M-30 - Saída 17,Carro,False,A-4
+M-30 - Saída 16,M-30 - Saída 17,Carro,False,A-42
+M-30 - Saída 16,M-30 - Saída 17,Carro,True,A-6 - A Coruña
+M-30 - Saída 16,M-30 - Saída 17,Carro,True,Calle San Pol de Mar
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-3
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-4
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-42
