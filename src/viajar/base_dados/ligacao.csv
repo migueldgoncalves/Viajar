@@ -681,6 +681,9 @@ A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,4.5,A-92M,SO,2,3
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,10.8,A13,S,1,4
 A16 - Saída 2,A16 - Saída 3,Carro,1.2,A16,NE,2,1
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,0.7,A16,S,1,3
+A16 - Saída 3,A16 - Saída 4-5,Carro,1.0,A16,NE,2,1
+A16 - Saída 4-5,A16 - Saída 6,Carro,1.4,A16,NE,2,1
+A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,4.1,A16,NE,2,1
 A2 - Saída 1,Área de Serviço de Seixal,Carro,6.1,A2,SE,2,1
 A2 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,4.9,Ponte 25 de Abril,N,1,2
 A2 - Saída 2,A2 - Saída 3,Carro,8.6,A2,SE,2,1
@@ -992,6 +995,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,3.7,AP-7,SO,1,2
 Área de Serviço de Seseña,R-4 - Saída 12,Carro,7.7,R-4,NO,1,2
 Área de Serviço de Seseña,R-4 - Saída 22,Carro,2.5,R-4,SE,2,1
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,1.2,A16,S,1,2
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,6.2,A6,SO,1,3
 Armação de Pêra,"Pêra, Silves",Carro,3.5,,NE,1,4
 Armação de Pêra,Porches,Carro,5.5,,NO,4,2
@@ -1223,6 +1227,8 @@ Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,3.3,A-92,NE,
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,1.2,IC19,SE,4,1
+Cruzamento da A16 com o IC19,Ranholas,Carro,0.6,N9,O,3,1
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,16.0,IC1,S,4,7
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,SO,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1

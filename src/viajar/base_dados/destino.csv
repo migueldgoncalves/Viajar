@@ -2595,6 +2595,18 @@ A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,A9 - Norte
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Lisboa
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,False,Sintra
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,True,A5 - Cascais/Lisboa
+A16 - Saída 3,A16 - Saída 4-5,Carro,False,A5 - Cascais/Lisboa
+A16 - Saída 3,A16 - Saída 4-5,Carro,True,A9 - Norte
+A16 - Saída 3,A16 - Saída 4-5,Carro,True,IC19 - Lisboa
+A16 - Saída 3,A16 - Saída 4-5,Carro,True,Sintra
+A16 - Saída 4-5,A16 - Saída 6,Carro,False,A5 - Cascais/Lisboa
+A16 - Saída 4-5,A16 - Saída 6,Carro,True,A9 - Norte
+A16 - Saída 4-5,A16 - Saída 6,Carro,True,IC19 - Lisboa
+A16 - Saída 4-5,A16 - Saída 6,Carro,True,Sintra
+A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,False,A5 - Cascais
+A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,True,A9 - Norte
+A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,True,IC19 - Lisboa
+A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,True,Sintra
 A2 - Saída 2,A2 - Saída 3,Carro,False,Almada
 A2 - Saída 2,A2 - Saída 3,Carro,False,Lisboa
 A2 - Saída 2,A2 - Saída 3,Carro,True,Montijo
@@ -3326,6 +3338,11 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Aranjuez
 Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Córdoba
 Área de Serviço de Seseña,R-4 - Saída 22,Carro,True,Ocaña
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,False,A9 - Norte
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,False,Sintra - Centro da cidade
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,True,A5 - Cascais
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,True,IC19 - Lisboa
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,True,Sintra
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Espanha
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Évora
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Carro,False,Vendas Novas
@@ -3846,6 +3863,15 @@ Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-376 - Utrera
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,False,A-92 - Granada/Sevilha
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,A-4 - Córdoba/Madrid
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,True,Aeroporto de Sevilha
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,False,A16 - Cascais/Mafra
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,False,A9 - Norte
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,False,Sintra
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,True,Amadora
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,True,Lisboa
+Cruzamento da A16 com o IC19,Ranholas,Carro,False,A16 - Colares/Mafra/Praias/Sintra - Centro da cidade
+Cruzamento da A16 com o IC19,Ranholas,Carro,False,IC19 - Lisboa
+Cruzamento da A16 com o IC19,Ranholas,Carro,True,Cascais
+Cruzamento da A16 com o IC19,Ranholas,Carro,True,Sintra
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve

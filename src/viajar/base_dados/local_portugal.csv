@@ -2,6 +2,8 @@ Nome,Freguesia,Concelho
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
 A16 - Saída 2,Alcabideche,Cascais
 A16 - Saída 3,Alcabideche,Cascais
+A16 - Saída 4-5,Alcabideche,Cascais
+A16 - Saída 6,Alcabideche,Cascais
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
@@ -108,6 +110,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Palmela,Palmela,Palmela
 Área de Serviço de Seixal,Amora,Seixal
 Área de Serviço de Silves,Silves,Silves
+Área de Serviço de Sintra,São Pedro de Penaferrim,Sintra
 Área de Serviço de Vendas Novas,Landeira,Vendas Novas
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
@@ -184,6 +187,7 @@ Cortes Pereiras,Alcoutim,Alcoutim
 Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
+Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
@@ -295,6 +299,7 @@ Hortas,Monte Gordo,Vila Real de Santo António
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Silves
 IC1 - Cruzamento com a N263,Panóias,Ourique
 IC1 - Fim,Ferreiras,Albufeira
+IC19 - Saída 13,São Pedro de Penaferrim,Sintra
 IC27 - Fim,Pereiro,Alcoutim
 IC27 - Início,Castro Marim,Castro Marim
 IC27 - Saída 1,Castro Marim,Castro Marim
@@ -462,6 +467,7 @@ Quelfes,Quelfes,Olhão
 Querença,Querença,Loulé
 Quinta do Lago,Almancil,Loulé
 Quinta do Vale Golf Resort,Castro Marim,Castro Marim
+Ranholas,São Pedro de Penaferrim,Sintra
 Raposeira,Raposeira,Vila do Bispo
 Ribat da Arrifana,Aljezur,Aljezur
 Ribeira do Vascão,Espírito Santo,Mértola
