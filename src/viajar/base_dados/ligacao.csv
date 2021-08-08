@@ -779,7 +779,8 @@ A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
 A5 - Fim,A5 - Saída 12,Carro,0.5,A5,E,1,2
-A5 - Saída 1,A5 - Saída 2,Carro,1.6,A5,O,3,1
+A5 - Saída 1,A5 - Saída 2,Carro,1.6,A5,O,4,1
+A5 - Saída 1,"Avenida Engenheiro Duarte Pacheco, Lisboa",Carro,1.1,A5,E,3,1
 A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,1.6,Eixo Norte-Sul,S,2,1
 A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,0.7,Eixo Norte-Sul,NE,1,1
 A5 - Saída 2,A5 - Saída 3,Carro,1.5,A5,SO,2,1
@@ -806,8 +807,6 @@ A6 - Saída 9,A6 - Saída 10,Carro,5.4,A6,NE,2,1
 A6 - Saída 10,A6 - Saída 11,Carro,2.9,A6,SE,2,1
 A6 - Saída 11,A6 - Saída 12,Carro,3.4,A6,SE,2,1
 A6 - Saída 12,A6 - Saída 13,Carro,5.2,A6,SE,2,1
-A9 CREL - Saída 2,Cruzamento da A16 com a A9 CREL,Carro,2.4,A9 CREL,N,2,1
-A9 CREL - Saída 2,Cruzamento da A5 com a A9 CREL,Carro,3.9,A9 CREL,S,1,3
 A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,6.8,A9 CREL,NE,2,1
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,3.1,A9 CREL,SO,1,2
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
@@ -1227,9 +1226,13 @@ Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,3.3,A-92,NE,
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-40,SE-40 - Saída 5,Carro,3.4,SE-40,NE,2,1
+Cruzamento da A16 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Carro,2.4,A9 CREL,S,1,2
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,1.2,IC19,SE,4,1
 Cruzamento da A16 com o IC19,Ranholas,Carro,0.6,N9,O,3,1
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,16.0,IC1,S,4,7
+Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Carro,3.9,A9 CREL,N,3,1
+Cruzamento da A9 CREL com o IC19,IC19 - Saída 5,Carro,0.8,IC19,E,4,1
+Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Carro,0.8,IC19,O,3,2
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,SO,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
@@ -1329,6 +1332,8 @@ Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
 Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
 Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
+Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,0.9,IC19,O,1,2
+Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,0.6,Segunda Circular,NE,2,1
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,5.0,A-7,NO,1,2
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,1.1,MA-20,NE,2,1
 Cuba,Estação de Alvito,Carro,16.7,,NO,7,3
@@ -1510,6 +1515,17 @@ IC1 - Cruzamento com a N124,Tunes,Carro,10.9,IC1,S,2,5
 IC1 - Cruzamento com a N263,Messejana,Carro,9.5,,NE,3,1
 IC1 - Cruzamento com a N263,Mimosa,Carro,20.6,IC1,N,4,2
 IC1 - Cruzamento com a N263,Ourique,Carro,21.6,IC1,SE,2,5
+IC19 - Palácio de Queluz,IC19 - Saída 4,Carro,0.8,IC19,E,2,1
+IC19 - Palácio de Queluz,IC19 - Saída 5,Carro,0.7,IC19,O,1,2
+IC19 - Saída 2,IC19 - Saída 2A,Carro,0.9,IC19,O,1,2
+IC19 - Saída 2A,IC19 - Saída 3,Carro,0.9,IC19,NO,1,2
+IC19 - Saída 3,IC19 - Saída 4,Carro,1.3,IC19,NO,1,2
+IC19 - Saída 7,IC19 - Saída 8,Carro,1.9,IC19,NO,1,2
+IC19 - Saída 8,IC19 - Saída 9,Carro,0.7,IC19,NO,1,2
+IC19 - Saída 9,IC19 - Saída 10,Carro,1.3,IC19,O,1,2
+IC19 - Saída 10,IC19 - Saída 11,Carro,1.2,IC19,NO,1,2
+IC19 - Saída 11,IC19 - Saída 12,Carro,1.0,IC19,O,1,2
+IC19 - Saída 12,IC19 - Saída 13,Carro,1.5,IC19,O,1,2
 IC27 - Fim,IC27 - Saída 7,Carro,6.1,IC27,S,2,1
 IC27 - Fim,Parque Empresarial de Alcoutim,Carro,7.7,N122,SE,4,5
 IC27 - Início,IC27 - Saída 1,Carro,1.1,IC27,NO,1,2

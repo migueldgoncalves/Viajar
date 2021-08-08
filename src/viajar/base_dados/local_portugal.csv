@@ -35,7 +35,7 @@ A22 - Saída 8,Pêra,Silves
 A22 - Saída 9,Ferreiras,Albufeira
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
 A5 - Fim,Cascais,Cascais
-A5 - Saída 1,Alcântara,Lisboa
+A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
 A5 - Saída 3,Benfica,Lisboa
 A5 - Saída 4,Algés,Oeiras
@@ -57,7 +57,6 @@ A6 - Saída 10,São Vicente e Ventosa,Elvas
 A6 - Saída 11,Caia e São Pedro,Elvas
 A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
-A9 CREL - Saída 2,Barcarena,Oeiras
 A9 CREL - Saída 3,São Brás,Amadora
 A9 CREL - Saída 4,Loures,Loures
 Achada do Gamo,Santana de Cambas,Mértola
@@ -114,6 +113,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Vendas Novas,Landeira,Vendas Novas
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
+"Avenida Engenheiro Duarte Pacheco, Lisboa",Campolide,Lisboa
 Azinhal,Azinhal,Castro Marim
 Balurco de Baixo,Alcoutim,Alcoutim
 Balurco de Cima,Alcoutim,Alcoutim
@@ -192,6 +192,7 @@ Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
+Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da N120 com a N120-1,Cercal do Alentejo,Santiago do Cacém
@@ -231,6 +232,7 @@ Cruzamento da N269 com a N269-2,Tunes,Silves
 Cruzamento do IC1 com o IP8,Grândola,Grândola
 Cruzamento do IC4 com a M520,São Pedro,Faro
 Cruzamento do IC4 com a N125,Almancil,Loulé
+Cruzamento do IC17 CRIL com o IC19,Benfica,Lisboa
 Cuba,Cuba,Cuba
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
@@ -299,6 +301,18 @@ Hortas,Monte Gordo,Vila Real de Santo António
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Silves
 IC1 - Cruzamento com a N263,Panóias,Ourique
 IC1 - Fim,Ferreiras,Albufeira
+IC19 - Palácio de Queluz,Queluz,Sintra
+IC19 - Saída 2,Buraca,Amadora
+IC19 - Saída 2A,Damaia,Amadora
+IC19 - Saída 3,Venteira,Amadora
+IC19 - Saída 4,Venteira,Amadora
+IC19 - Saída 5,Queluz,Sintra
+IC19 - Saída 7,Barcarena,Oeiras
+IC19 - Saída 8,Massamá,Sintra
+IC19 - Saída 9,Cacém,Sintra
+IC19 - Saída 10,Cacém,Sintra
+IC19 - Saída 11,Rio de Mouro,Sintra
+IC19 - Saída 12,Rio de Mouro,Sintra
 IC19 - Saída 13,São Pedro de Penaferrim,Sintra
 IC27 - Fim,Pereiro,Alcoutim
 IC27 - Início,Castro Marim,Castro Marim
@@ -505,6 +519,7 @@ São Matias,São Matias,Beja
 São Teotónio,São Teotónio,Odemira
 Sapos,Santana de Cambas,Mértola
 Sedas,Espírito Santo,Mértola
+Segunda Circular - Radial de Benfica,Benfica,Lisboa
 Sentinela,Azinhal,Castro Marim
 Serpa,Santa Maria,Serpa
 Serro da Vinha de Baixo,Pereiro,Alcoutim
