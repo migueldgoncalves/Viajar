@@ -1179,6 +1179,8 @@ Corte Tabelião,Parque Empresarial de Alcoutim,Carro,6.6,,S,2,4
 Corte Tabelião,IC27 - Fim,Carro,5.9,,NO,3,3
 Cross of Sacrifice,Pista do Aeroporto de Gibraltar,Carro,0.3,,N,1,2
 Cross of Sacrifice,Victoria Stadium,Carro,0.1,,O,2,1
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,1.4,M-30,SO,1,2
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,5.7,M-30 - Bypass Sul,SO,2,3
 Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,3.0,A-44,NO,1,3
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
@@ -1189,6 +1191,8 @@ Cruzamento da A-381 com a AP-4,Cruzamento da A-4 com a AP-4,Carro,17.2,AP-4,SO,2
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,6.4,R-4,NO,3,2
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,2.9,AP-4,O,2,1
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,1.5,M-30,NE,2,1
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,0.9,M-30,NO,1,2
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.5,M-50,O,1,2
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,SE-30 - Saída 1,Carro,1.0,SE-30,SE,1,2
@@ -1199,6 +1203,7 @@ Cruzamento da A-4 Sul com a SE-30,SE-30 - Saída 8,Carro,0.9,SE-30,E,2,1
 Cruzamento da A-4 Sul com a SE-30,Cruzamento da A-4 Sul com a SE-40,Carro,5.1,A-4,S,3,1
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,3.3,SE-40,E,3,1
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,7.4,R-4,NO,1,2
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,1.3,M-30,SE,2,1
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,1.0,M-30,NO,1,2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,2.1,M-40,SO,1,2
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.6,M-50,E,2,1
@@ -1589,6 +1594,7 @@ Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
+M-30 - Saída 10,M-30 - Saída 11,Carro,0.5,M-30,SO,1,2
 M-30 - Saída 15,M-30 - Saída 16,Carro,1.1,M-30,NO,1,2
 M-30 - Saída 16,M-30 - Saída 17,Carro,0.7,M-30,N,1,2
 M-40 - Saída 30,M-40 - Saída 31,Carro,1.1,M-40,O,1,2

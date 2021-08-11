@@ -3567,6 +3567,23 @@ Corte da Seda,Parque Empresarial de Alcoutim,Carro,True,Martim Longo
 Corte João Marques,Martim Longo,Carro,False,A2 - Almodôvar
 Corte João Marques,Martim Longo,Carro,False,Ameixal
 Corte João Marques,Martim Longo,Carro,True,Martim Longo
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-1
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-2 - Zaragoza
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-6
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,Feria de Madrid
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,Madrid - Calle de Alcalá
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,True,A-4 - Córdoba
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,True,A-42 - Toledo
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,True,Madrid - Calle Méndez Álvaro
+Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,True,Terminal Rodoviário Sul de Madrid
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,False,A-1
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,False,A-2
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,False,A-3 - Valencia
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,A-5 - Badajoz
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,A-6 - A Coruña
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,Madrid - Glorieta de Pirámides
 Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,A-32 - Albacete
 Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,Granada
 Cruzamento da A-32 com a A-44,Cruzamento da A-4 com a A-44,Carro,False,Jaén
@@ -3617,6 +3634,23 @@ Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,A-48 - A
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,Jerez de la Frontera
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,False,Sevilha
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,True,Cádiz
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,False,A-42 - Toledo
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,False,A-5
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,False,A-6
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,False,Madrid - Avenida de Andalucía
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,A-1
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,A-2
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,A-3
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,Feria de Madrid
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,Madrid - Calle de Alcalá
+Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,True,Madrid - Calle de O'Donnell
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,False,A-1
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,False,A-2
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,False,A-3 - Valencia
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-42 - Toledo
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-5
+Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-6
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-2
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-3
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-4 - Córdoba
@@ -3674,6 +3708,12 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevi
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Córdoba
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,False,Ocaña
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,True,Madrid
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,False,A-42 - Toledo
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,False,A-5
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,False,A-6
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,True,A-4 - Córdoba
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,True,Madrid - Calle de Méndez Álvaro
+Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,True,Terminal Rodoviário Sul de Madrid
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,A-4 - Córdoba
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Madrid - Calle de Alcalá
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Madrid - Calle de Méndez Álvaro
@@ -4670,6 +4710,13 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-1
+M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-2
+M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-3
+M-30 - Saída 10,M-30 - Saída 11,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Saída 10,M-30 - Saída 11,Carro,True,A-4
+M-30 - Saída 10,M-30 - Saída 11,Carro,True,A-42
+M-30 - Saída 10,M-30 - Saída 11,Carro,True,A-5
 M-30 - Saída 15,M-30 - Saída 16,Carro,False,A-4 - Córdoba
 M-30 - Saída 15,M-30 - Saída 16,Carro,False,A-42 - Toledo
 M-30 - Saída 15,M-30 - Saída 16,Carro,True,A-1
