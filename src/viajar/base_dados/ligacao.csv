@@ -1007,6 +1007,8 @@ Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.7,,E,3,3
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
+"Avenida de Kansas City, Sevilha",Cruzamento da A-4 Norte com a SE-30,Carro,1.5,,NE,1,4
+"Avenida de Kansas City, Sevilha",Estação de Sevilha-Santa Justa,Carro,0.8,,SO,2,1
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
@@ -1205,6 +1207,7 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,3.3,SE-40,E,3,1
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,7.4,R-4,NO,1,2
 Cruzamento da A-42 com a M-30,M-30 - Saída 13,Carro,1.3,M-30,SE,2,1
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,1.0,M-30,NO,1,2
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,0.8,A-42,NE,3,1
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,2.1,M-40,SO,1,2
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.6,M-50,E,2,1
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Carro,1.4,A-92,NE,2,1
@@ -1398,6 +1401,10 @@ Estação de Cacela,Vila Nova de Cacela,Carro,0.8,,SE,1,4
 Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Regional,NE,2,4
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,2
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,2
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,35.1,Linha do Sul,S,3,4
 Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,29.0,N121,NE,6,4
@@ -1430,6 +1437,7 @@ Estação de Lagos,Meia Praia,Comboio,2.6,Linha do Algarve - Regional,NE,5,3
 Estação da Luz,Luz de Tavira,Carro,0.6,,NO,1,2
 Estação da Luz,Estação de Tavira,Comboio,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Comboio,3.3,Linha do Algarve - Regional,SO,3,3
+Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.2,,SO,1,2
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,32.0,Linha do Sul - Intercidades,NO,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2,8
@@ -1451,6 +1459,7 @@ Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
 Estação de Tavira,Tavira - Sul,Carro,0.6,,NE,1,3
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,75.4,LAV Madrid-Sevilha,NE,2,1
 Estádio Algarve,Santa Bárbara de Nexe,Carro,2.6,,NE,2,2
 Estepa,Pedrera,Carro,10.5,,S,3,2
 Estoi,Moncarapacho,Carro,10.3,,E,1,5

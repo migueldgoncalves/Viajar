@@ -3722,6 +3722,12 @@ Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,False,Terminal Rodoviário 
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-1
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-5 - Badajoz
 Cruzamento da A-42 com a M-30,M-30 - Saída 15,Carro,True,A-6
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,M-30 - Todas as direcções
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,Madrid - Plaza Elíptica
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,R-5 - Badajoz
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,Toledo
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,True,Estação de Atocha
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,True,Madrid - Paseo de Santa María de la Cabeza
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-3
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-4
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-42 - Toledo
@@ -4321,6 +4327,33 @@ Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
 Estação de Castro Marim,Vista Real,Carro,False,Altura
 Estação de Castro Marim,Vista Real,Carro,True,Castro Marim
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,False,Barcelona-Sants
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,False,Madrid-Puerta de Atocha
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,False,Valencia-Joaquín Sorolla
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Antequera-Santa Ana
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Córdoba
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Granada
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Málaga-María Zambrano
+Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Sevilha-Santa Justa
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Antequera-Santa Ana
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Córdoba
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Granada
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Málaga-María Zambrano
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Sevilha-Santa Justa
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,True,Barcelona-Sants
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Antequera-Santa Ana
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Granada
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Madrid-Puerta de Atocha
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Málaga-María Zambrano
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,True,Sevilha-Santa Justa
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,False,Antequera-Santa Ana
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,False,Granada
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,False,Málaga-María Zambrano
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,False,Sevilha-Santa Justa
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Barcelona-Sants
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Madrid-Puerta de Atocha
+Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Lisboa - Oriente
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,False,Pinhal Novo
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,True,Faro
@@ -4410,6 +4443,14 @@ Estação de Silves,Silves,Carro,False,Armação de Pêra
 Estação de Silves,Silves,Carro,False,Lagoa
 Estação de Silves,Silves,Carro,False,Portimão
 Estação de Silves,Silves,Carro,True,Silves - Centro da cidade
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Antequera-Santa Ana
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Córdoba
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Granada
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Málaga-María Zambrano
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Sevilha-Santa Justa
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Barcelona-Sants
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Madrid-Puerta de Atocha
+Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
 Estoi,Pechão,Carro,False,Estoi
 Estoi,Pechão,Carro,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi
