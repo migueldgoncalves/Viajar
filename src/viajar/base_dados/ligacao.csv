@@ -1567,6 +1567,7 @@ IC27 - Saída 7,Tacões,Carro,3.5,N124,NO,5,2
 Ilha da Armona,Olhão,Barco,2.9,Ria Formosa,NO,3,7
 Ilha do Farol,Porto de Faro,Barco,6.0,Ria Formosa,NO,2,2
 Ilha do Farol,Praia da Barreta,Barco,1.4,Ria Formosa,SO,3,1
+Ilha do Pessegueiro,Porto Covo,Barco,1.7,Costa de Portugal Continental,N,1,6
 IP2 - Saída 38,IP2 - Saída 39,Carro,4.0,IP2,SO,1,1
 IP2 - Saída 39,IP2 - Saída 40,Carro,2.7,IP2,S,2,1
 IP2 - Saída 39,Vidigueira,Carro,1.4,,S,3,2
@@ -1740,12 +1741,16 @@ Portimão - Centro histórico,Universidade do Algarve - Campus de Portimão,Carr
 Portimão - Zona ribeirinha,Porto Comercial de Portimão,Carro,2.2,,SE,2,1
 Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,E,4,4
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,N,4,3
+Porto Covo,Porto de Recreio de Sines,Barco,17.5,Costa de Portugal Continental,NO,4,3
 Porto Covo,Praia de São Torpes,Carro,8.7,,N,2,1
-Porto Covo,Vila Nova de Milfontes,Barco,17.3,Costa de Portugal Continental,S,4,6
+Porto Covo,Vila Nova de Milfontes,Barco,17.3,Costa de Portugal Continental,S,5,6
 Porto Covo,Vila Nova de Milfontes,Carro,20.2,,S,3,5
+Porto de Pesca de Sines,Porto de Sines - Terminal de Granéis Líquidos,Carro,0.8,,O,2,1
+Porto de Pesca de Sines,Sines,Carro,1.3,,NE,1,2
 Porto de Recreio de Sines,Porto de Sines - Terminal Multipurpose,Carro,1.6,,SE,1,2
 Porto de Recreio de Sines,Sines,Carro,1.8,,NO,2,1
 Porto de Sines - Terminal de Gás Natural,Porto de Sines - Terminal Multipurpose,Carro,1.2,,SO,2,1
+Porto de Sines - Terminal de Granéis Líquidos,Sines,Carro,3.9,,NE,2,3
 Praia da Arrifana,Ribat da Arrifana,Carro,6.3,,NO,2,2
 Praia da Boca do Rio,Salema,Carro,2.3,,O,3,1
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,4.7,Ria Formosa,NE,2,1

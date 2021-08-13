@@ -4678,6 +4678,9 @@ Ilha do Farol,Porto de Faro,Barco,True,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Faro
 Ilha do Farol,Praia da Barreta,Barco,False,Vila Nova de Cacela
 Ilha do Farol,Praia da Barreta,Barco,True,Cabo de Santa Maria
+Ilha do Pessegueiro,Porto Covo,Barco,False,Ilha do Pessegueiro
+Ilha do Pessegueiro,Porto Covo,Barco,True,Lagos
+Ilha do Pessegueiro,Porto Covo,Barco,True,Sines
 IP2 - Saída 38,IP2 - Saída 39,Carro,False,Évora
 IP2 - Saída 38,IP2 - Saída 39,Carro,False,Portel
 IP2 - Saída 38,IP2 - Saída 39,Carro,True,Beja
@@ -5033,6 +5036,10 @@ Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,True,Marina de Por
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,False,Marina de Portimão
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Portimão - Centro da cidade
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,True,Silves
+Porto Covo,Porto de Recreio de Sines,Barco,False,Lagos
+Porto Covo,Porto de Recreio de Sines,Barco,False,Portimão
+Porto Covo,Porto de Recreio de Sines,Barco,True,Sesimbra
+Porto Covo,Porto de Recreio de Sines,Barco,True,Setúbal
 Porto Covo,Vila Nova de Milfontes,Barco,False,Setúbal
 Porto Covo,Vila Nova de Milfontes,Barco,False,Sines
 Porto Covo,Vila Nova de Milfontes,Barco,True,Lagos
