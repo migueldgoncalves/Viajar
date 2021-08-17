@@ -2884,6 +2884,38 @@ A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,False,IC1 - Lisboa
 A26 - Fim,Ferreira do Alentejo,Carro,True,Beja
 A26 - Fim,Ferreira do Alentejo,Carro,True,Ferreira do Alentejo
+A26 - Saída 2,A26 - Saída 3,Carro,False,A26-1 - Vila Nova de Santo André
+A26 - Saída 2,A26 - Saída 3,Carro,False,Odemira
+A26 - Saída 2,A26 - Saída 3,Carro,False,Sines
+A26 - Saída 2,A26 - Saída 3,Carro,True,A2 - Algarve/Lisboa
+A26 - Saída 2,A26 - Saída 3,Carro,True,Beja
+A26 - Saída 2,A26 - Saída 3,Carro,True,Santiago do Cacém
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,False,A2 - Algarve/Lisboa
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,False,Beja
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,False,Santiago do Cacém
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,True,A26-1 - Vila Nova de Santo André
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,True,Odemira
+A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,True,Sines
+A26 - Saída 3,A26 - Saída 4,Carro,False,Sines
+A26 - Saída 3,A26 - Saída 4,Carro,True,A2 - Algarve/Lisboa
+A26 - Saída 3,A26 - Saída 4,Carro,True,Beja
+A26 - Saída 3,A26 - Saída 4,Carro,True,Santiago do Cacém
+A26-1 - Saída 1,A26-1 - Saída 2,Carro,False,A26 - Beja/Sines
+A26-1 - Saída 1,A26-1 - Saída 2,Carro,False,Porto de Sines
+A26-1 - Saída 1,A26-1 - Saída 2,Carro,True,Melides
+A26-1 - Saída 1,A26-1 - Saída 2,Carro,True,Vila Nova de Santo André
+A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,False,Melides
+A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,False,Vila Nova de Santo André
+A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,True,A26 - Beja/Sines
+A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,True,Porto de Sines
+A26-1 - Saída 2,A26-1 - Saída 3,Carro,False,A26 - Beja/Sines
+A26-1 - Saída 2,A26-1 - Saída 3,Carro,False,Porto de Sines
+A26-1 - Saída 2,A26-1 - Saída 3,Carro,True,Melides
+A26-1 - Saída 2,A26-1 - Saída 3,Carro,True,Vila Nova de Santo André
+A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Odemira
+A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Sines
+A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Melides
+A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Tróia
 A5 - Fim,A5 - Saída 12,Carro,False,Aldeia de Juso
 A5 - Fim,A5 - Saída 12,Carro,False,Birre
 A5 - Fim,A5 - Saída 12,Carro,True,Lisboa
@@ -3920,6 +3952,10 @@ Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Ourique
+Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26 - Beja
+Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26-1 - Vila Nova de Santo André
+Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Odemira
+Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Porto de Sines
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Carro,True,A1
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Carro,True,A10
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Carro,True,A8

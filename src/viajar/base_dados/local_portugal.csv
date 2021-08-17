@@ -34,6 +34,12 @@ A22 - Saída 7,Alcantarilha,Silves
 A22 - Saída 8,Pêra,Silves
 A22 - Saída 9,Ferreiras,Albufeira
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
+A26 - Saída 2,Sines,Sines
+A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
+A26 - Saída 4,Santiago do Cacém,Santiago do Cacém
+A26-1 - Saída 1,Sines,Sines
+A26-1 - Saída 2,Santo André,Santiago do Cacém
+A26-1 - Saída 3,Santo André,Santiago do Cacém
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -191,6 +197,7 @@ Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
+Cruzamento da A26 com a A26-1,Sines,Sines
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
@@ -486,6 +493,7 @@ Quinta do Lago,Almancil,Loulé
 Quinta do Vale Golf Resort,Castro Marim,Castro Marim
 Ranholas,São Pedro de Penaferrim,Sintra
 Raposeira,Raposeira,Vila do Bispo
+Refinaria de Sines,Sines,Sines
 Ribat da Arrifana,Aljezur,Aljezur
 Ribeira do Vascão,Espírito Santo,Mértola
 Rocha da Pena,Salir,Loulé
@@ -562,6 +570,7 @@ Vila do Bispo,Vila do Bispo,Vila do Bispo
 Vila Nova da Baronia,Vila Nova da Baronia,Alvito
 Vila Nova de Cacela,Vila Nova de Cacela,Vila Real de Santo António
 Vila Nova de Milfontes,Vila Nova de Milfontes,Odemira
+Vila Nova de Santo André,Santo André,Santiago do Cacém
 Vila Nova de São Bento,Vila Nova de São Bento,Serpa
 Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
 Vila Verde de Ficalho,Vila Verde de Ficalho,Serpa
