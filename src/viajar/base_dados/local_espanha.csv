@@ -479,6 +479,16 @@ A-7 - Saída 244,Málaga,Málaga,Este
 A-7 - Saída 245,Málaga,Málaga,Este
 A-7 - Saída 246,Málaga,Málaga,Este
 A-7 - Saída 254,Rincón de la Victoria,Málaga,
+A-7 - Saída 256,Rincón de la Victoria,Málaga,
+A-7 - Saída 258,Rincón de la Victoria,Málaga,
+A-7 - Saída 265,Vélez-Málaga,Málaga,
+A-7 - Saída 272,Vélez-Málaga,Málaga,
+A-7 - Saída 274,Vélez-Málaga,Málaga,
+A-7 - Saída 277,Algarrobo,Málaga,
+A-7 - Saída 285,Torrox,Málaga,
+A-7 - Saída 292,Frigiliana,Málaga,
+A-7 - Saída 295,Nerja,Málaga,
+A-7 - Saída 305,Almuñécar,Granada,
 A-8009 - Saída 2,La Rinconada,Sevilha,
 A-8009 - Saída 4,La Rinconada,Sevilha,
 A-8009 - Saída 5,La Rinconada,Sevilha,
@@ -698,6 +708,7 @@ Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
 "Cuesta de San Vicente, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
+Cueva de Nerja,Nerja,Málaga,
 Don Benito,Don Benito,Badajoz,
 Écija,Écija,Sevilha,
 El Cuervo de Sevilla,El Cuervo de Sevilla,Sevilha,

@@ -2030,9 +2030,60 @@ A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Algeciras
 A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Ronda de Málaga
 A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Almería
 A-7 - Saída 246,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Rincón de la Victoria
+A-7 - Saída 254,A-7 - Saída 256,Carro,False,Algeciras
+A-7 - Saída 254,A-7 - Saída 256,Carro,False,Málaga
+A-7 - Saída 254,A-7 - Saída 256,Carro,True,Almería
+A-7 - Saída 254,A-7 - Saída 256,Carro,True,Vélez-Málaga
 A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,False,Almería
 A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,False,Rincón de la Victoria
 A-7 - Saída 254,Cruzamento Este da A-7 com a MA-24,Carro,True,Málaga
+A-7 - Saída 256,A-7 - Saída 258,Carro,False,Algeciras
+A-7 - Saída 256,A-7 - Saída 258,Carro,False,Málaga
+A-7 - Saída 256,A-7 - Saída 258,Carro,False,Rincón de la Victoria
+A-7 - Saída 256,A-7 - Saída 258,Carro,True,Barcelona
+A-7 - Saída 256,A-7 - Saída 258,Carro,True,Motril
+A-7 - Saída 258,A-7 - Saída 265,Carro,False,Algeciras
+A-7 - Saída 258,A-7 - Saída 265,Carro,False,Málaga
+A-7 - Saída 258,A-7 - Saída 265,Carro,False,Rincón de la Victoria
+A-7 - Saída 258,A-7 - Saída 265,Carro,True,Almería
+A-7 - Saída 258,A-7 - Saída 265,Carro,True,Motril
+A-7 - Saída 258,A-7 - Saída 265,Carro,True,Vélez-Málaga
+A-7 - Saída 265,A-7 - Saída 272,Carro,False,Algeciras
+A-7 - Saída 265,A-7 - Saída 272,Carro,False,Málaga
+A-7 - Saída 265,A-7 - Saída 272,Carro,False,Rincón de la Victoria
+A-7 - Saída 265,A-7 - Saída 272,Carro,True,Almería
+A-7 - Saída 265,A-7 - Saída 272,Carro,True,Motril
+A-7 - Saída 265,A-7 - Saída 272,Carro,True,Vélez-Málaga
+A-7 - Saída 272,A-7 - Saída 274,Carro,False,Málaga
+A-7 - Saída 272,A-7 - Saída 274,Carro,False,Vélez-Málaga
+A-7 - Saída 272,A-7 - Saída 274,Carro,True,Almería
+A-7 - Saída 272,A-7 - Saída 274,Carro,True,Motril
+A-7 - Saída 272,A-7 - Saída 274,Carro,True,Nerja
+A-7 - Saída 274,A-7 - Saída 277,Carro,False,Algeciras
+A-7 - Saída 274,A-7 - Saída 277,Carro,False,Málaga
+A-7 - Saída 274,A-7 - Saída 277,Carro,False,Vélez-Málaga
+A-7 - Saída 274,A-7 - Saída 277,Carro,True,Almería
+A-7 - Saída 274,A-7 - Saída 277,Carro,True,Motril
+A-7 - Saída 274,A-7 - Saída 277,Carro,True,Nerja
+A-7 - Saída 277,A-7 - Saída 285,Carro,False,Málaga
+A-7 - Saída 277,A-7 - Saída 285,Carro,False,Vélez-Málaga
+A-7 - Saída 277,A-7 - Saída 285,Carro,True,Almería
+A-7 - Saída 277,A-7 - Saída 285,Carro,True,Motril
+A-7 - Saída 277,A-7 - Saída 285,Carro,True,Nerja
+A-7 - Saída 285,A-7 - Saída 292,Carro,False,Málaga
+A-7 - Saída 285,A-7 - Saída 292,Carro,False,Vélez-Málaga
+A-7 - Saída 285,A-7 - Saída 292,Carro,True,Almería
+A-7 - Saída 285,A-7 - Saída 292,Carro,True,Nerja
+A-7 - Saída 292,A-7 - Saída 295,Carro,False,Málaga
+A-7 - Saída 292,A-7 - Saída 295,Carro,False,Vélez-Málaga
+A-7 - Saída 292,A-7 - Saída 295,Carro,True,Almería
+A-7 - Saída 292,A-7 - Saída 295,Carro,True,Almuñécar
+A-7 - Saída 292,A-7 - Saída 295,Carro,True,Motril
+A-7 - Saída 295,A-7 - Saída 305,Carro,False,Málaga
+A-7 - Saída 295,A-7 - Saída 305,Carro,False,Nerja
+A-7 - Saída 295,A-7 - Saída 305,Carro,True,Almería
+A-7 - Saída 295,A-7 - Saída 305,Carro,True,Almuñécar
+A-7 - Saída 295,A-7 - Saída 305,Carro,True,Motril
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -2583,10 +2634,26 @@ A-92M - Saída 16,A-92M - Saída 20,Carro,False,Granada
 A-92M - Saída 16,A-92M - Saída 20,Carro,True,Málaga
 A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,False,Granada
 A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,True,Málaga
+A13 - Saída 2,Área de Serviço de Montijo,Carro,False,A2 - Algarve
+A13 - Saída 2,Área de Serviço de Montijo,Carro,False,A6 - Évora
+A13 - Saída 2,Área de Serviço de Montijo,Carro,False,Pegões
+A13 - Saída 2,Área de Serviço de Montijo,Carro,True,Santarém
+A13 - Saída 2,Área de Serviço de Montijo,Carro,True,Santo Estêvão
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Norte
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,False,Santarém
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A2 - Algarve
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora
+A13 - Saída 3,Área de Serviço de Montijo,Carro,False,Santarém
+A13 - Saída 3,Área de Serviço de Montijo,Carro,False,Santo Estêvão
+A13 - Saída 3,Área de Serviço de Montijo,Carro,True,A2 - Algarve
+A13 - Saída 3,Área de Serviço de Montijo,Carro,True,A6 - Évora
+A13 - Saída 3,Área de Serviço de Montijo,Carro,True,Pegões
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,False,A2 - Algarve
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,False,A6 - Évora
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,False,Santo Estêvão
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,A1 - Carregado
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,A10 - Benavente
+A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,Santarém
 A16 - Saída 2,A16 - Saída 3,Carro,False,A5 - Cascais/Lisboa
 A16 - Saída 2,A16 - Saída 3,Carro,True,A9 - Norte
 A16 - Saída 2,A16 - Saída 3,Carro,True,IC19 - Lisboa
