@@ -43,7 +43,6 @@ Camas,Comarca Metropolitana de Sevilha,Sevilha
 Cambil,Sierra Mágina,Jaén
 Campillo de Arenas,Sierra Mágina,Jaén
 Campotéjar,Los Montes,Granada
-Casabermeja,Comarca de Antequera,Málaga
 Carboneros,Sierra Morena,Jaén
 Cárcheles,Sierra Mágina,Jaén
 Carmona,Campiña de Carmona,Sevilha
@@ -51,6 +50,7 @@ Carmona,Los Alcores,Sevilha
 Carranque,La Sagra,Toledo
 Carrión de los Céspedes,Aljarafe,Sevilha
 Cartaya,Costa Occidental de Huelva,Huelva
+Casabermeja,Comarca de Antequera,Málaga
 Casarrubios del Monte,La Sagra,Toledo
 Castilleja de la Cuesta,Aljarafe,Sevilha
 Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
@@ -108,19 +108,19 @@ Jaraicejo,Comarca de Trujillo,Cáceres
 Jerez de la Frontera,Campiña de Jerez,Cádiz
 La Calzada de Oropesa,La Campana de Oropesa,Toledo
 La Campana,Campiña de Carmona,Sevilha
-La Carolina,Sierra Morena,Jaén
 La Carlota,Valle Medio del Guadalquivir,Córdoba
-La Guardia,Mesa de Ocaña,Toledo
+La Carolina,Sierra Morena,Jaén
 La Guardia de Jaén,Comarca Metropolitana de Jaén,Jaén
+La Guardia,Mesa de Ocaña,Toledo
 La Línea de la Concepción,Campo de Gibraltar,Cádiz
 La Luisiana,Comarca de Écija,Sevilha
 La Puebla de Cazalla,Campiña de Morón y Marchena,Sevilha
 La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
 La Roda de Andalucía,Sierra Sur de Sevilha,Sevilha
-Las Rozas de Madrid,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Láchar,Vega de Granada,Granada
 Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
+Las Rozas de Madrid,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Las Ventas de Retamosa,La Sagra,Toledo
 Lebrija,Bajo Guadalquivir,Sevilha
 Leganés,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
@@ -212,8 +212,8 @@ Santa Cruz de Mudela,Sierra Morena,Ciudad Real
 Santa Cruz del Retamar,Torrijos,Toledo
 Santa Elena,Sierra Morena,Jaén
 Santa Fe,Vega de Granada,Granada
-Santa Olalla,Torrijos,Toledo
 Santa Olalla del Cala,Sierra de Huelva,Huelva
+Santa Olalla,Torrijos,Toledo
 Santiponce,Aljarafe,Sevilha
 Santiponce,Comarca Metropolitana de Sevilha,Sevilha
 Santo Domingo-Caudilla,Torrijos,Toledo

@@ -1,34 +1,4 @@
 Nome,Município,Província,Distrito
-A-32 - Saída 1,Bailén,Jaén,
-A-376 - Centro Comercial,Sevilha,Sevilha,Sur
-A-376 - Condequinto,Dos Hermanas,Sevilha,
-A-376 - Fim da auto-estrada,Utrera,Sevilha,
-A-376 - Montequinto,Dos Hermanas,Sevilha,
-A-376 - Saída 11/13,Alcalá de Guadaíra,Sevilha,
-A-376 - Saída 16,Alcalá de Guadaíra,Sevilha,
-A-376 - Saída 21,Utrera,Sevilha,
-A-376 - Saída 4A,Dos Hermanas,Sevilha,
-A-376 - Saída 4B,Dos Hermanas,Sevilha,
-A-376 - Saída 8,Alcalá de Guadaíra,Sevilha,
-A-376 - Universidade Pablo de Olavide,Dos Hermanas,Sevilha,
-A-381 - Saída 1,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 4,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 10,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 17,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 24,Medina Sidonia,Cádiz,
-A-381 - Saída 31,Medina Sidonia,Cádiz,
-A-381 - Saída 36,Alcalá de los Gazules,Cádiz,
-A-381 - Saída 40,Alcalá de los Gazules,Cádiz,
-A-381 - Saída 42,Alcalá de los Gazules,Cádiz,
-A-381 - Saída 45,Alcalá de los Gazules,Cádiz,
-A-381 - Saída 54,Alcalá de los Gazules,Cádiz,
-A-381 - Saída 66,Los Barrios,Cádiz,
-A-381 - Saída 70,Los Barrios,Cádiz,
-A-381 - Saída 73,Los Barrios,Cádiz,
-A-381 - Saída 77,Los Barrios,Cádiz,
-A-381 - Saída 80,Los Barrios,Cádiz,
-A-381 - Saída 85,Los Barrios,Cádiz,
-A-381 - Saída 87,Los Barrios,Cádiz,
 A-4 - Saída 69,Ocaña,Toledo,
 A-4 - Saída 70,Dosbarrios,Toledo,
 A-4 - Saída 72,Dosbarrios,Toledo,
@@ -196,79 +166,14 @@ A-4 - Saída 553,Dos Hermanas,Sevilha,
 A-4 - Saída 558,Dos Hermanas,Sevilha,
 A-4 - Saída 628,Jerez de la Frontera,Cádiz,Rural
 A-4 - Saída 631,Jerez de la Frontera,Cádiz,Rural
-A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
-A-44 - Saída 12,Jabalquinto,Jaén,
-A-44 - Saída 17,Jabalquinto,Jaén,
-A-44 - Saída 18,Mengíbar,Jaén,
-A-44 - Saída 26,Jaén,Jaén,
-A-44 - Saída 40-42,Jaén,Jaén,
-A-44 - Saída 46,La Guardia de Jaén,Jaén,
-A-44 - Saída 50,Pegalajar,Jaén,
-A-44 - Saída 59,Cárcheles,Jaén,
-A-44 - Saída 64,Cambil,Jaén,
-A-44 - Saída 67,Campillo de Arenas,Jaén,
-A-44 - Saída 74,Campillo de Arenas,Jaén,
-A-44 - Saída 77,Noalejo,Jaén,
-A-44 - Saída 79,Iznalloz,Granada,
-A-44 - Saída 84,Campotéjar,Granada,
-A-44 - Saída 89,Dehesas Viejas,Granada,
-A-44 - Saída 97,Iznalloz,Granada,
-A-44 - Saída 103,Deifontes,Granada,
-A-44 - Saída 108,Albolote,Granada,
-A-44 - Saída 111,Albolote,Granada,
-A-44 - Saída 116,Albolote,Granada,
-A-44 - Saída 119,Albolote,Granada,
-A-45 - Saída 5,Córdoba,Córdoba,
-A-45 - Saída 16,Fernán Núñez,Córdoba,
-A-45 - Saída 27,Montilla,Córdoba,
-A-45 - Saída 36,Montilla,Córdoba,
-A-45 - Saída 40,Aguilar de la Frontera,Córdoba,
-A-45 - Saída 49,Monturque,Córdoba,
-A-45 - Saída 51,Lucena,Córdoba,
-A-45 - Saída 62,Lucena,Córdoba,
-A-45 - Saída 72,Encinas Reales,Córdoba,
-A-45 - Saída 76,Benamejí,Córdoba,
-A-45 - Saída 79,Benamejí,Córdoba,
-A-45 - Saída 82,Benamejí,Córdoba,
-A-45 - Saída 86,Antequera,Málaga,
-A-45 - Saída 92,Antequera,Málaga,
-A-45 - Saída 102,Antequera,Málaga,
-A-45 - Saída 107,Antequera,Málaga,
-A-45 - Saída 115,Antequera,Málaga,
-A-45 - Saída 123,Casabermeja,Málaga,
-A-45 - Saída 124,Casabermeja,Málaga,
-A-45 - Saída 127,Casabermeja,Málaga,
-A-45 - Saída 134,Málaga,Málaga,Palma-Palmilla
-A-45 - Saída 136,Málaga,Málaga,Ciudad Jardín
-A-45 - Saída 140,Málaga,Málaga,Ciudad Jardín
-A-483 - Saída 1,Bollullos Par del Condado,Huelva,
-A-483 - Saída 3,Bollullos Par del Condado,Huelva,
-A-49 - Saída 1,Camas,Sevilha,
-A-49 - Saída 105,Cartaya,Huelva,
-A-49 - Saída 11,Bollullos de la Mitación,Sevilha,
-A-49 - Saída 113,Lepe,Huelva,
-A-49 - Saída 117,Lepe,Huelva,
-A-49 - Saída 122,Isla Cristina,Huelva,
-A-49 - Saída 125,Ayamonte,Huelva,
-A-49 - Saída 129,Ayamonte,Huelva,
-A-49 - Saída 131,Ayamonte,Huelva,
-A-49 - Saída 14,Umbrete,Sevilha,
-A-49 - Saída 16,Benacazón,Sevilha,
-A-49 - Saída 1B,Castilleja de la Cuesta,Sevilha,
-A-49 - Saída 2,Castilleja de la Cuesta,Sevilha,
-A-49 - Saída 23,Huévar del Aljarafe,Sevilha,
-A-49 - Saída 28,Carrión de los Céspedes,Sevilha,
-A-49 - Saída 3,Castilleja de la Cuesta,Sevilha,
-A-49 - Saída 34,Chucena,Huelva,
-A-49 - Saída 48,Bollullos Par del Condado,Huelva,
-A-49 - Saída 5,Bormujos,Sevilha,
-A-49 - Saída 53,Villarrasa,Huelva,
-A-49 - Saída 60,Bonares,Huelva,
-A-49 - Saída 75,San Juan del Puerto,Huelva,
-A-49 - Saída 81,Huelva,Huelva,
-A-49 - Saída 87,Gibraleón,Huelva,
-A-49 - Saída 94,Gibraleón,Huelva,
-A-49 - Saída 99,Gibraleón,Huelva,
+A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
+A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
+A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
+A-5 - Carretera de Boadilla del Monte,Madrid,Comunidade de Madrid,Latina
+A-5 - Cuatro Vientos,Madrid,Comunidade de Madrid,Latina
+A-5 - El Batán,Madrid,Comunidade de Madrid,Latina
+A-5 - Museo del Aire,Madrid,Comunidade de Madrid,Latina
+A-5 - Quinta Asturias,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 3,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 A-5 - Saída 5A,Madrid,Comunidade de Madrid,Latina
 A-5 - Saída 11,Alcorcón,Comunidade de Madrid,Norte
@@ -384,15 +289,136 @@ A-5 - Saída 395,Badajoz,Badajoz,
 A-5 - Saída 400,Badajoz,Badajoz,
 A-5 - Saída 403,Badajoz,Badajoz,
 A-5 - Saída 407,Badajoz,Badajoz,
-A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
-A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
-A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
-A-5 - Carretera de Boadilla del Monte,Madrid,Comunidade de Madrid,Latina
-A-5 - Cuatro Vientos,Madrid,Comunidade de Madrid,Latina
-A-5 - El Batán,Madrid,Comunidade de Madrid,Latina
-A-5 - Museo del Aire,Madrid,Comunidade de Madrid,Latina
-A-5 - Quinta Asturias,Navalcarnero,Comunidade de Madrid,
 A-5R - Alcorcón Norte,Alcorcón,Comunidade de Madrid,Norte
+A-7 - Saída 103,Algeciras,Cádiz,
+A-7 - Saída 104,Algeciras,Cádiz,
+A-7 - Saída 105,Algeciras,Cádiz,
+A-7 - Saída 106,Algeciras,Cádiz,
+A-7 - Saída 107A,Algeciras,Cádiz,
+A-7 - Saída 107B,Algeciras,Cádiz,
+A-7 - Saída 108A,Algeciras,Cádiz,
+A-7 - Saída 108B,Algeciras,Cádiz,
+A-7 - Saída 108C,Algeciras,Cádiz,
+A-7 - Saída 109,Algeciras,Cádiz,
+A-7 - Saída 110A,Los Barrios,Cádiz,
+A-7 - Saída 111,Los Barrios,Cádiz,
+A-7 - Saída 112,Los Barrios,Cádiz,
+A-7 - Saída 113A,Los Barrios,Cádiz,
+A-7 - Saída 113B,Los Barrios,Cádiz,
+A-7 - Saída 115,San Roque,Cádiz,
+A-7 - Saída 116,San Roque,Cádiz,
+A-7 - Saída 117,San Roque,Cádiz,
+A-7 - Saída 119,San Roque,Cádiz,
+A-7 - Saída 127,San Roque,Cádiz,
+A-7 - Saída 130,San Roque,Cádiz,
+A-7 - Saída 132,San Roque,Cádiz,
+A-7 - Saída 158,Estepona,Málaga,
+A-7 - Saída 160,Estepona,Málaga,
+A-7 - Saída 163,Estepona,Málaga,
+A-7 - Saída 165,Estepona,Málaga,
+A-7 - Saída 168,Estepona,Málaga,
+A-7 - Saída 170,Marbella,Málaga,San Pedro de Alcántara
+A-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
+A-7 - Saída 174,Marbella,Málaga,Nueva Andalucía
+A-7 - Saída 175,Marbella,Málaga,Nueva Andalucía
+A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
+A-7 - Saída 226,Málaga,Málaga,Churriana
+A-7 - Saída 230,Alhaurín de la Torre,Málaga,
+A-7 - Saída 235-237,Málaga,Málaga,Puerto de la Torre
+A-7 - Saída 242,Málaga,Málaga,Ciudad Jardín
+A-7 - Saída 243,Málaga,Málaga,Este
+A-7 - Saída 244,Málaga,Málaga,Este
+A-7 - Saída 245,Málaga,Málaga,Este
+A-7 - Saída 246,Málaga,Málaga,Este
+A-7 - Saída 254,Rincón de la Victoria,Málaga,
+A-7 - Saída 256,Rincón de la Victoria,Málaga,
+A-7 - Saída 258,Rincón de la Victoria,Málaga,
+A-7 - Saída 265,Vélez-Málaga,Málaga,
+A-7 - Saída 272,Vélez-Málaga,Málaga,
+A-7 - Saída 274,Vélez-Málaga,Málaga,
+A-7 - Saída 277,Algarrobo,Málaga,
+A-7 - Saída 285,Torrox,Málaga,
+A-7 - Saída 292,Frigiliana,Málaga,
+A-7 - Saída 295,Nerja,Málaga,
+A-7 - Saída 305,Almuñécar,Granada,
+A-7/AP-7 - Saída 155,Estepona,Málaga,
+A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
+A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
+A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
+A-7/AP-7 - Saída 217,Fuengirola,Málaga,
+A-7/AP-7 - Saída 222,Benalmádena,Málaga,
+A-32 - Saída 1,Bailén,Jaén,
+A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
+A-44 - Saída 12,Jabalquinto,Jaén,
+A-44 - Saída 17,Jabalquinto,Jaén,
+A-44 - Saída 18,Mengíbar,Jaén,
+A-44 - Saída 26,Jaén,Jaén,
+A-44 - Saída 40-42,Jaén,Jaén,
+A-44 - Saída 46,La Guardia de Jaén,Jaén,
+A-44 - Saída 50,Pegalajar,Jaén,
+A-44 - Saída 59,Cárcheles,Jaén,
+A-44 - Saída 64,Cambil,Jaén,
+A-44 - Saída 67,Campillo de Arenas,Jaén,
+A-44 - Saída 74,Campillo de Arenas,Jaén,
+A-44 - Saída 77,Noalejo,Jaén,
+A-44 - Saída 79,Iznalloz,Granada,
+A-44 - Saída 84,Campotéjar,Granada,
+A-44 - Saída 89,Dehesas Viejas,Granada,
+A-44 - Saída 97,Iznalloz,Granada,
+A-44 - Saída 103,Deifontes,Granada,
+A-44 - Saída 108,Albolote,Granada,
+A-44 - Saída 111,Albolote,Granada,
+A-44 - Saída 116,Albolote,Granada,
+A-44 - Saída 119,Albolote,Granada,
+A-45 - Saída 5,Córdoba,Córdoba,
+A-45 - Saída 16,Fernán Núñez,Córdoba,
+A-45 - Saída 27,Montilla,Córdoba,
+A-45 - Saída 36,Montilla,Córdoba,
+A-45 - Saída 40,Aguilar de la Frontera,Córdoba,
+A-45 - Saída 49,Monturque,Córdoba,
+A-45 - Saída 51,Lucena,Córdoba,
+A-45 - Saída 62,Lucena,Córdoba,
+A-45 - Saída 72,Encinas Reales,Córdoba,
+A-45 - Saída 76,Benamejí,Córdoba,
+A-45 - Saída 79,Benamejí,Córdoba,
+A-45 - Saída 82,Benamejí,Córdoba,
+A-45 - Saída 86,Antequera,Málaga,
+A-45 - Saída 92,Antequera,Málaga,
+A-45 - Saída 102,Antequera,Málaga,
+A-45 - Saída 107,Antequera,Málaga,
+A-45 - Saída 115,Antequera,Málaga,
+A-45 - Saída 123,Casabermeja,Málaga,
+A-45 - Saída 124,Casabermeja,Málaga,
+A-45 - Saída 127,Casabermeja,Málaga,
+A-45 - Saída 134,Málaga,Málaga,Palma-Palmilla
+A-45 - Saída 136,Málaga,Málaga,Ciudad Jardín
+A-45 - Saída 140,Málaga,Málaga,Ciudad Jardín
+A-49 - Saída 1,Camas,Sevilha,
+A-49 - Saída 1B,Castilleja de la Cuesta,Sevilha,
+A-49 - Saída 2,Castilleja de la Cuesta,Sevilha,
+A-49 - Saída 3,Castilleja de la Cuesta,Sevilha,
+A-49 - Saída 5,Bormujos,Sevilha,
+A-49 - Saída 11,Bollullos de la Mitación,Sevilha,
+A-49 - Saída 14,Umbrete,Sevilha,
+A-49 - Saída 16,Benacazón,Sevilha,
+A-49 - Saída 23,Huévar del Aljarafe,Sevilha,
+A-49 - Saída 28,Carrión de los Céspedes,Sevilha,
+A-49 - Saída 34,Chucena,Huelva,
+A-49 - Saída 48,Bollullos Par del Condado,Huelva,
+A-49 - Saída 53,Villarrasa,Huelva,
+A-49 - Saída 60,Bonares,Huelva,
+A-49 - Saída 75,San Juan del Puerto,Huelva,
+A-49 - Saída 81,Huelva,Huelva,
+A-49 - Saída 87,Gibraleón,Huelva,
+A-49 - Saída 94,Gibraleón,Huelva,
+A-49 - Saída 99,Gibraleón,Huelva,
+A-49 - Saída 105,Cartaya,Huelva,
+A-49 - Saída 113,Lepe,Huelva,
+A-49 - Saída 117,Lepe,Huelva,
+A-49 - Saída 122,Isla Cristina,Huelva,
+A-49 - Saída 125,Ayamonte,Huelva,
+A-49 - Saída 129,Ayamonte,Huelva,
+A-49 - Saída 131,Ayamonte,Huelva,
 A-66 - Saída 613,Mérida,Badajoz,
 A-66 - Saída 626,Mérida,Badajoz,
 A-66 - Saída 627,Mérida,Badajoz,
@@ -432,69 +458,6 @@ A-66 - Saída 795,Guillena,Sevilha,
 A-66 - Saída 798,Guillena,Sevilha,
 A-66 - Saída 805,Salteras,Sevilha,
 A-66 - Saída 808,Santiponce,Sevilha,
-A-7 - Saída 103,Algeciras,Cádiz,
-A-7 - Saída 104,Algeciras,Cádiz,
-A-7 - Saída 105,Algeciras,Cádiz,
-A-7 - Saída 106,Algeciras,Cádiz,
-A-7 - Saída 107A,Algeciras,Cádiz,
-A-7 - Saída 107B,Algeciras,Cádiz,
-A-7 - Saída 108A,Algeciras,Cádiz,
-A-7 - Saída 108B,Algeciras,Cádiz,
-A-7 - Saída 108C,Algeciras,Cádiz,
-A-7 - Saída 109,Algeciras,Cádiz,
-A-7 - Saída 110A,Los Barrios,Cádiz,
-A-7 - Saída 111,Los Barrios,Cádiz,
-A-7 - Saída 112,Los Barrios,Cádiz,
-A-7 - Saída 113A,Los Barrios,Cádiz,
-A-7 - Saída 113B,Los Barrios,Cádiz,
-A-7 - Saída 115,San Roque,Cádiz,
-A-7 - Saída 116,San Roque,Cádiz,
-A-7 - Saída 117,San Roque,Cádiz,
-A-7 - Saída 119,San Roque,Cádiz,
-A-7 - Saída 127,San Roque,Cádiz,
-A-7 - Saída 130,San Roque,Cádiz,
-A-7 - Saída 132,San Roque,Cádiz,
-A-7/AP-7 - Saída 155,Estepona,Málaga,
-A-7 - Saída 158,Estepona,Málaga,
-A-7 - Saída 160,Estepona,Málaga,
-A-7 - Saída 163,Estepona,Málaga,
-A-7 - Saída 165,Estepona,Málaga,
-A-7 - Saída 168,Estepona,Málaga,
-A-7 - Saída 170,Marbella,Málaga,San Pedro de Alcántara
-A-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
-A-7 - Saída 174,Marbella,Málaga,Nueva Andalucía
-A-7 - Saída 175,Marbella,Málaga,Nueva Andalucía
-A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
-A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
-A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
-A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
-A-7/AP-7 - Saída 217,Fuengirola,Málaga,
-A-7/AP-7 - Saída 222,Benalmádena,Málaga,
-A-7 - Saída 226,Málaga,Málaga,Churriana
-A-7 - Saída 230,Alhaurín de la Torre,Málaga,
-A-7 - Saída 235-237,Málaga,Málaga,Puerto de la Torre
-A-7 - Saída 242,Málaga,Málaga,Ciudad Jardín
-A-7 - Saída 243,Málaga,Málaga,Este
-A-7 - Saída 244,Málaga,Málaga,Este
-A-7 - Saída 245,Málaga,Málaga,Este
-A-7 - Saída 246,Málaga,Málaga,Este
-A-7 - Saída 254,Rincón de la Victoria,Málaga,
-A-7 - Saída 256,Rincón de la Victoria,Málaga,
-A-7 - Saída 258,Rincón de la Victoria,Málaga,
-A-7 - Saída 265,Vélez-Málaga,Málaga,
-A-7 - Saída 272,Vélez-Málaga,Málaga,
-A-7 - Saída 274,Vélez-Málaga,Málaga,
-A-7 - Saída 277,Algarrobo,Málaga,
-A-7 - Saída 285,Torrox,Málaga,
-A-7 - Saída 292,Frigiliana,Málaga,
-A-7 - Saída 295,Nerja,Málaga,
-A-7 - Saída 305,Almuñécar,Granada,
-A-8009 - Saída 2,La Rinconada,Sevilha,
-A-8009 - Saída 4,La Rinconada,Sevilha,
-A-8009 - Saída 5,La Rinconada,Sevilha,
-A-8057 - Saída 0A,San Juan de Aznalfarache,Sevilha,
-A-8057 - Saída 2,Mairena del Aljarafe,Sevilha,
-A-8058 - Saída 0,San Juan de Aznalfarache,Sevilha,
 A-92 - Andalucía Residencial,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Saída 5,Alcalá de Guadaíra,Sevilha,
 A-92 - Saída 7,Alcalá de Guadaíra,Sevilha,
@@ -570,6 +533,43 @@ A-92M - Saída 7,Villanueva del Trabuco,Málaga,
 A-92M - Saída 11,Villanueva del Trabuco,Málaga,
 A-92M - Saída 16,Villanueva del Rosario,Málaga,
 A-92M - Saída 20,Antequera,Málaga,
+A-376 - Centro Comercial,Sevilha,Sevilha,Sur
+A-376 - Condequinto,Dos Hermanas,Sevilha,
+A-376 - Fim da auto-estrada,Utrera,Sevilha,
+A-376 - Montequinto,Dos Hermanas,Sevilha,
+A-376 - Saída 4A,Dos Hermanas,Sevilha,
+A-376 - Saída 4B,Dos Hermanas,Sevilha,
+A-376 - Saída 8,Alcalá de Guadaíra,Sevilha,
+A-376 - Saída 11/13,Alcalá de Guadaíra,Sevilha,
+A-376 - Saída 16,Alcalá de Guadaíra,Sevilha,
+A-376 - Saída 21,Utrera,Sevilha,
+A-376 - Universidade Pablo de Olavide,Dos Hermanas,Sevilha,
+A-381 - Saída 1,Jerez de la Frontera,Cádiz,Rural
+A-381 - Saída 4,Jerez de la Frontera,Cádiz,Rural
+A-381 - Saída 10,Jerez de la Frontera,Cádiz,Rural
+A-381 - Saída 17,Jerez de la Frontera,Cádiz,Rural
+A-381 - Saída 24,Medina Sidonia,Cádiz,
+A-381 - Saída 31,Medina Sidonia,Cádiz,
+A-381 - Saída 36,Alcalá de los Gazules,Cádiz,
+A-381 - Saída 40,Alcalá de los Gazules,Cádiz,
+A-381 - Saída 42,Alcalá de los Gazules,Cádiz,
+A-381 - Saída 45,Alcalá de los Gazules,Cádiz,
+A-381 - Saída 54,Alcalá de los Gazules,Cádiz,
+A-381 - Saída 66,Los Barrios,Cádiz,
+A-381 - Saída 70,Los Barrios,Cádiz,
+A-381 - Saída 73,Los Barrios,Cádiz,
+A-381 - Saída 77,Los Barrios,Cádiz,
+A-381 - Saída 80,Los Barrios,Cádiz,
+A-381 - Saída 85,Los Barrios,Cádiz,
+A-381 - Saída 87,Los Barrios,Cádiz,
+A-483 - Saída 1,Bollullos Par del Condado,Huelva,
+A-483 - Saída 3,Bollullos Par del Condado,Huelva,
+A-8009 - Saída 2,La Rinconada,Sevilha,
+A-8009 - Saída 4,La Rinconada,Sevilha,
+A-8009 - Saída 5,La Rinconada,Sevilha,
+A-8057 - Saída 0A,San Juan de Aznalfarache,Sevilha,
+A-8057 - Saída 2,Mairena del Aljarafe,Sevilha,
+A-8058 - Saída 0,San Juan de Aznalfarache,Sevilha,
 Aeroporto de Badajoz,Badajoz,Badajoz,
 Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Jerez,Jerez de la Frontera,Cádiz,Rural
@@ -577,20 +577,20 @@ Aeroporto de Málaga - Costa del Sol,Málaga,Málaga,Churriana
 Aeroporto de Sevilha,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
-AP-36 - Saída 3,Ocaña,Toledo,
 AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
 AP-4 - Saída 44-45,Las Cabezas de San Juan,Sevilha,
 AP-4 - Saída 53,Lebrija,Sevilha,
-AP-41 - Saída 2,Moraleja de Enmedio,Comunidade de Madrid,
-AP-41 - Saída 8,Serranillos del Valle,Comunidade de Madrid,
-AP-41 - Saída 16,Carranque,Toledo,
 AP-4A - Saída 13,Dos Hermanas,Sevilha,
 AP-7 - Saída 142,Manilva,Málaga,
 AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
 AP-7 - Saída 200,Mijas,Málaga,
 AP-7 - Saída 213,Mijas,Málaga,
 AP-7 - Saída 226,Torremolinos,Málaga,
+AP-36 - Saída 3,Ocaña,Toledo,
+AP-41 - Saída 2,Moraleja de Enmedio,Comunidade de Madrid,
+AP-41 - Saída 8,Serranillos del Valle,Comunidade de Madrid,
+AP-41 - Saída 16,Carranque,Toledo,
 Arahal,Arahal,Sevilha,
 Área de Serviço de Altos de Marbella,Marbella,Málaga,Las Chapas
 Área de Serviço de Arroyo de la Miel,Torremolinos,Málaga,
@@ -629,22 +629,12 @@ Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
-Cruzamento da A-316 com a A-44,Jaén,Jaén,
-Cruzamento da A-318 com a A-45,Lucena,Córdoba,
-Cruzamento da A-32 com a A-44,Bailén,Jaén,
-Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
-Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
-Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
-Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
-Cruzamento da A-381 com a AP-4,Jerez de la Frontera,Cádiz,Rural
-Cruzamento da A-382 com a AP-4,Jerez de la Frontera,Cádiz,
-Cruzamento da A-383 com a A-7,San Roque,Cádiz,
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
 Cruzamento da A-4 com a A-43,Manzanares,Ciudad Real,
 Cruzamento da A-4 com a A-44,Bailén,Jaén,
 Cruzamento da A-4 com a A-45,Córdoba,Córdoba,
-Cruzamento da A-4 com a AP-36 e a R-4,Ocaña,Toledo,
 Cruzamento da A-4 com a AP-4,Puerto Real,Cádiz,
+Cruzamento da A-4 com a AP-36 e a R-4,Ocaña,Toledo,
 Cruzamento da A-4 com a CM-42,Madridejos,Toledo,
 Cruzamento da A-4 com a CO-31,Córdoba,Córdoba,
 Cruzamento da A-4 com a M-30,Madrid,Comunidade de Madrid,Arganzuela
@@ -654,6 +644,20 @@ Cruzamento da A-4 Norte com a SE-30,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Cruzamento da A-4 Norte com a SE-40,La Rinconada,Sevilha,
 Cruzamento da A-4 Sul com a SE-30,Sevilha,Sevilha,Bellavista-La Palmera
 Cruzamento da A-4 Sul com a SE-40,Dos Hermanas,Sevilha,
+Cruzamento da A-5 com a A-58,Trujillo,Cáceres,
+Cruzamento da A-5 com a A-66 Norte,Mérida,Badajoz,
+Cruzamento da A-5 com a A-66 Sul,Mérida,Badajoz,
+Cruzamento da A-5 com a CM-41,Valmojado,Toledo,
+Cruzamento da A-5 com a EX-A1,Millanes,Cáceres,
+Cruzamento da A-5 com a EX-A2,Miajadas,Cáceres,
+Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
+Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
+Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
+Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
+Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
+Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
+Cruzamento da A-7 com a MA-20,Málaga,Málaga,Palma-Palmilla
+Cruzamento da A-32 com a A-44,Bailén,Jaén,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
 Cruzamento da A-40 com a R-4,Ocaña,Toledo,
 Cruzamento da A-42 com a M-30,Madrid,Comunidade de Madrid,Carabanchel
@@ -668,28 +672,24 @@ Cruzamento da A-49 com a A-483,Bollullos Par del Condado,Huelva,
 Cruzamento da A-49 com a H-31,Huelva,Huelva,
 Cruzamento da A-49 com a SE-30,Camas,Sevilha,
 Cruzamento da A-49 com a SE-40,Espartinas,Sevilha,
-Cruzamento da A-5 com a A-58,Trujillo,Cáceres,
-Cruzamento da A-5 com a A-66 Norte,Mérida,Badajoz,
-Cruzamento da A-5 com a A-66 Sul,Mérida,Badajoz,
-Cruzamento da A-5 com a CM-41,Valmojado,Toledo,
-Cruzamento da A-5 com a EX-A1,Millanes,Cáceres,
-Cruzamento da A-5 com a EX-A2,Miajadas,Cáceres,
-Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
-Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
-Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
-Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
-Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
-Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
-Cruzamento da A-7 com a MA-20,Málaga,Málaga,Palma-Palmilla
-Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
-Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-92 com a A-92G,Santa Fe,Granada,
 Cruzamento da A-92 com a A-92M,Loja,Granada,
 Cruzamento da A-92 com a GR-30,Albolote,Granada,
 Cruzamento da A-92 com a GR-43,Pinos Puente,Granada,
 Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
 Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
+Cruzamento da A-316 com a A-44,Jaén,Jaén,
+Cruzamento da A-318 com a A-45,Lucena,Córdoba,
+Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
+Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
+Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
+Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
+Cruzamento da A-381 com a AP-4,Jerez de la Frontera,Cádiz,Rural
+Cruzamento da A-382 com a AP-4,Jerez de la Frontera,Cádiz,
+Cruzamento da A-383 com a A-7,San Roque,Cádiz,
+Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
+Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
 Cruzamento da CA-35 com a CA-36,Puerto Real,Cádiz,
@@ -816,18 +816,18 @@ SE-20 - Parque de Alamillo,Santiponce,Sevilha,
 SE-20 - Pino Montano,Sevilha,Sevilha,Norte
 SE-20 - San Jerónimo,Sevilha,Sevilha,Norte
 SE-30 - Saída 1,Sevilha,Sevilha,Este-Alcosa-Torreblanca
-SE-30 - Saída 12,Sevilha,Sevilha,Los Remedios
-SE-30 - Saída 14,Sevilha,Sevilha,Triana
-SE-30 - Saída 15,San Juan de Aznalfarache,Sevilha,
-SE-30 - Saída 21,Sevilha,Sevilha,Triana
 SE-30 - Saída 3,Sevilha,Sevilha,Cerro-Amate
 SE-30 - Saída 4,Sevilha,Sevilha,Cerro-Amate
 SE-30 - Saída 5,Alcalá de Guadaíra,Sevilha,
 SE-30 - Saída 8,Sevilha,Sevilha,Bellavista-La Palmera
+SE-30 - Saída 12,Sevilha,Sevilha,Los Remedios
+SE-30 - Saída 14,Sevilha,Sevilha,Triana
+SE-30 - Saída 15,San Juan de Aznalfarache,Sevilha,
+SE-30 - Saída 21,Sevilha,Sevilha,Triana
 SE-40 - Reinício,Palomares del Río,Sevilha,
+SE-40 - Saída 5,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 SE-40 - Saída 19,Dos Hermanas,Sevilha,
 SE-40 - Saída 35,Almensilla,Sevilha,
-SE-40 - Saída 5,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Sevilha - Avenida Expo 92,Sevilha,Sevilha,Triana
 Sevilha - Parque de Alamillo,Sevilha,Sevilha,Triana
 Talavera la Real,Talavera la Real,Badajoz,

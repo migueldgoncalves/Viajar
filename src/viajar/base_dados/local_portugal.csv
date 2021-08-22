@@ -1,10 +1,4 @@
 Nome,Freguesia,Concelho
-A13 - Saída 2,Santo Isidro de Pegões,Montijo
-A13 - Saída 3,Samora Correia,Benavente
-A16 - Saída 2,Alcabideche,Cascais
-A16 - Saída 3,Alcabideche,Cascais
-A16 - Saída 4-5,Alcabideche,Cascais
-A16 - Saída 6,Alcabideche,Cascais
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
@@ -16,31 +10,6 @@ A2 - Saída 11,Rio de Moinhos,Aljustrel
 A2 - Saída 12,Castro Verde,Castro Verde
 A2 - Saída 13,Gomes Aires,Almodôvar
 A2 - Saída 14,São Bartolomeu de Messines,Silves
-A22 - Início,Bensafrim,Lagos
-A22 - Saída 1,Bensafrim,Lagos
-A22 - Saída 11,Boliqueime,Loulé
-A22 - Saída 12,São Clemente,Loulé
-A22 - Saída 13,Almancil,Loulé
-A22 - Saída 14,Estoi,Faro
-A22 - Saída 15,Moncarapacho,Olhão
-A22 - Saída 16,Santiago,Tavira
-A22 - Saída 17,Altura,Castro Marim
-A22 - Saída 18,Castro Marim,Castro Marim
-A22 - Saída 2,Bensafrim,Lagos
-A22 - Saída 3,Mexilhoeira Grande,Portimão
-A22 - Saída 4,Portimão,Portimão
-A22 - Saída 5,Portimão,Portimão
-A22 - Saída 6,Silves,Silves
-A22 - Saída 7,Alcantarilha,Silves
-A22 - Saída 8,Pêra,Silves
-A22 - Saída 9,Ferreiras,Albufeira
-A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
-A26 - Saída 2,Sines,Sines
-A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
-A26 - Saída 4,Santiago do Cacém,Santiago do Cacém
-A26-1 - Saída 1,Sines,Sines
-A26-1 - Saída 2,Santo André,Santiago do Cacém
-A26-1 - Saída 3,Santo André,Santiago do Cacém
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -66,6 +35,37 @@ A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
 A9 CREL - Saída 3,São Brás,Amadora
 A9 CREL - Saída 4,Loures,Loures
+A13 - Saída 2,Santo Isidro de Pegões,Montijo
+A13 - Saída 3,Samora Correia,Benavente
+A16 - Saída 2,Alcabideche,Cascais
+A16 - Saída 3,Alcabideche,Cascais
+A16 - Saída 4-5,Alcabideche,Cascais
+A16 - Saída 6,Alcabideche,Cascais
+A22 - Início,Bensafrim,Lagos
+A22 - Saída 1,Bensafrim,Lagos
+A22 - Saída 2,Bensafrim,Lagos
+A22 - Saída 3,Mexilhoeira Grande,Portimão
+A22 - Saída 4,Portimão,Portimão
+A22 - Saída 5,Portimão,Portimão
+A22 - Saída 6,Silves,Silves
+A22 - Saída 7,Alcantarilha,Silves
+A22 - Saída 8,Pêra,Silves
+A22 - Saída 9,Ferreiras,Albufeira
+A22 - Saída 11,Boliqueime,Loulé
+A22 - Saída 12,São Clemente,Loulé
+A22 - Saída 13,Almancil,Loulé
+A22 - Saída 14,Estoi,Faro
+A22 - Saída 15,Moncarapacho,Olhão
+A22 - Saída 16,Santiago,Tavira
+A22 - Saída 17,Altura,Castro Marim
+A22 - Saída 18,Castro Marim,Castro Marim
+A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
+A26 - Saída 2,Sines,Sines
+A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
+A26 - Saída 4,Santiago do Cacém,Santiago do Cacém
+A26-1 - Saída 1,Sines,Sines
+A26-1 - Saída 2,Santo André,Santiago do Cacém
+A26-1 - Saída 3,Santo André,Santiago do Cacém
 Achada do Gamo,Santana de Cambas,Mértola
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
@@ -79,8 +79,8 @@ Albufeira - Centro histórico,Albufeira,Albufeira
 Albufeira - Rua da Oura,Albufeira,Albufeira
 Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
 Alcantarilha,Alcantarilha,Silves
-Alcaria,Odeleite,Castro Marim
 Alcaria dos Javazes,Espírito Santo,Mértola
+Alcaria,Odeleite,Castro Marim
 Alcarias Grandes,Azinhal,Castro Marim
 Alcoutim,Alcoutim,Alcoutim
 Alferce,Alferce,Monchique
@@ -192,50 +192,50 @@ Corte Nova,Odeleite,Castro Marim
 Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
+Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
+Cruzamento da A2 com a A22,Paderne,Albufeira
+Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
+Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
+Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente
 Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
-Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
-Cruzamento da A2 com a A22,Paderne,Albufeira
-Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
 Cruzamento da A26 com a A26-1,Sines,Sines
-Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
-Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da N120 com a N120-1,Cercal do Alentejo,Santiago do Cacém
 Cruzamento da N120 com a N125,São Sebastião,Lagos
 Cruzamento da N120 com a N268,Aljezur,Aljezur
-Cruzamento da N122 com a M1059,Alcoutim,Alcoutim
-Cruzamento da N122 com a M1060,Odeleite,Castro Marim
-Cruzamento da N122 com a M1063,Odeleite,Castro Marim
 Cruzamento da N122 com a M507,Pereiro,Alcoutim
 Cruzamento da N122 com a M507-2,Alcoutim,Alcoutim
 Cruzamento da N122 com a M512,Azinhal,Castro Marim
+Cruzamento da N122 com a M1059,Alcoutim,Alcoutim
+Cruzamento da N122 com a M1060,Odeleite,Castro Marim
+Cruzamento da N122 com a M1063,Odeleite,Castro Marim
 Cruzamento da N122 com a N123,Mértola,Mértola
 Cruzamento da N122 com a N267,Mértola,Mértola
 Cruzamento da N123 com a N263,Santa Maria,Odemira
 Cruzamento da N123-1 com a N263,Santa Luzia,Ourique
-Cruzamento da N124-1 com a N125,Lagoa,Lagoa
 Cruzamento da N124 com a M507-1,Giões,Alcoutim
 Cruzamento da N124 com a N125,Portimão,Portimão
 Cruzamento da N124 com a N266,Portimão,Portimão
 Cruzamento da N124 com a N270,São Bartolomeu de Messines,Silves
 Cruzamento da N124 com a N396,Querença,Loulé
-Cruzamento da N125-4 com a M521,São Clemente,Loulé
-Cruzamento da N125 com a M1347,Santiago,Tavira
+Cruzamento da N124-1 com a N125,Lagoa,Lagoa
 Cruzamento da N125 com a M516-2,Moncarapacho,Olhão
 Cruzamento da N125 com a M526,Boliqueime,Loulé
 Cruzamento da N125 com a M531-1,Alvor,Portimão
 Cruzamento da N125 com a M535,Budens,Vila do Bispo
 Cruzamento da N125 com a M537-2,Budens,Vila do Bispo
+Cruzamento da N125 com a M1347,Santiago,Tavira
 Cruzamento da N125 com a N125-6,Castro Marim,Castro Marim
 Cruzamento da N125 com a N269,Ferreiras,Albufeira
 Cruzamento da N125 com a N395,Ferreiras,Albufeira
 Cruzamento da N125 com a N396,São Clemente,Loulé
 Cruzamento da N125 com a N398,Quelfes,Olhão
+Cruzamento da N125-4 com a M521,São Clemente,Loulé
 Cruzamento da N265 com a N392,Salvador,Serpa
 Cruzamento da N266 com a N267 Oeste,Monchique,Monchique
 Cruzamento da N269 com a N269-2,Tunes,Silves
@@ -294,9 +294,9 @@ Ferreiras,Ferreiras,Albufeira
 Fóia,Monchique,Monchique
 Fonte Benémola,Querença,Loulé
 Fonte do Penedo,Odeleite,Castro Marim
-Fonte Zambujo,Pereiro,Alcoutim
 Fonte Zambujo de Baixo,Pereiro,Alcoutim
 Fonte Zambujo de Cima,Pereiro,Alcoutim
+Fonte Zambujo,Pereiro,Alcoutim
 Formoa,Santana de Cambas,Mértola
 Forum Algarve,São Pedro,Faro
 Foz de Odeleite,Odeleite,Castro Marim
@@ -447,10 +447,10 @@ Porto de Faro,Sé,Faro
 Porto de Pesca de Portimão,Parchal,Lagoa
 Porto de Pesca de Sines,Sines,Sines
 Porto de Recreio de Sines,Sines,Sines
+Porto de Sines - Terminal XXI,Sines,Sines
 Porto de Sines - Terminal de Gás Natural,Sines,Sines
 Porto de Sines - Terminal de Granéis Líquidos,Sines,Sines
 Porto de Sines - Terminal Multipurpose,Sines,Sines
-Porto de Sines - Terminal XXI,Sines,Sines
 Póvoa de São Miguel,Póvoa de São Miguel,Moura
 Praia da Amoreira,Aljezur,Aljezur
 Praia da Arrifana,Aljezur,Aljezur
