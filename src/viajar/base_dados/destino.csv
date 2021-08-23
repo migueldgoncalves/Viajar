@@ -4540,6 +4540,24 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Palmela,Estação de Setúbal,Comboio,False,Barreiro
+Estação de Palmela,Estação de Setúbal,Comboio,False,Pinhal Novo
+Estação de Palmela,Estação de Setúbal,Comboio,True,Praias do Sado-A
+Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Praias do Sado-A
+Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Setúbal
+Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Barreiro
+Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Pinhal Novo
+Estação de Penalva,Pinhal Novo,Comboio,False,Lisboa - Oriente
+Estação de Penalva,Pinhal Novo,Comboio,False,Porto - Campanhã
+Estação de Penalva,Pinhal Novo,Comboio,True,Faro
+Estação de Penalva,Pinhal Novo,Comboio,True,Tunes
+Estação de Penteado,Pinhal Novo,Comboio,False,Barreiro
+Estação de Penteado,Pinhal Novo,Comboio,True,Beja
+Estação de Penteado,Pinhal Novo,Comboio,True,Évora
+Estação de Penteado,Pinhal Novo,Comboio,True,Faro
+Estação de Penteado,Pinhal Novo,Comboio,True,Lisboa - Oriente
+Estação de Penteado,Pinhal Novo,Comboio,True,Praias do Sado-A
+Estação de Penteado,Pinhal Novo,Comboio,True,Setúbal
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
@@ -4554,6 +4572,13 @@ Estação de Silves,Silves,Carro,False,Armação de Pêra
 Estação de Silves,Silves,Carro,False,Lagoa
 Estação de Silves,Silves,Carro,False,Portimão
 Estação de Silves,Silves,Carro,True,Silves - Centro da cidade
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,False,Praias do Sado-A
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,False,Setúbal
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,True,Barreiro
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,True,Beja
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,True,Évora
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,True,Faro
+Estação de Venda do Alcaide,Pinhal Novo,Comboio,True,Lisboa - Oriente
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Antequera-Santa Ana
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Córdoba
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,False,Granada
