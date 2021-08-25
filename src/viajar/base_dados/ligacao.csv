@@ -140,6 +140,8 @@ A26 - Saída 2,Cruzamento da A26 com a A26-1,Carro,2.2,A26,SO,1,1
 A26 - Saída 2,Refinaria de Sines,Carro,1.6,,S,3,1
 A26 - Saída 3,A26 - Saída 4,Carro,0.9,A26,NE,2,1
 A26 - Saída 3,A26-1 - Saída 2,Carro,7.4,,NO,3,3
+A26 - Saída 4,IP8 - Cruzamento com a N261,Carro,5.2,IP8,N,2,1
+A26 - Saída 4,Santiago do Cacém,Carro,5.4,,NE,3,1
 A26-1 - Saída 1,A26-1 - Saída 2,Carro,6.2,A26-1,NE,2,1
 A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,2.3,A26-1,S,1,2
 A26-1 - Saída 2,A26-1 - Saída 3,Carro,2.0,A26-1,NE,2,1
@@ -1038,6 +1040,7 @@ Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,5,7
 Azinhal,Cruzamento da N122 com a M512,Carro,0.8,N122,SO,2,1
+Badoca Safari Park,IP8 - Cruzamento com a N261,Carro,0.9,,NE,1,2
 Balurco de Baixo,"Casa Branca, Alcoutim",Carro,0.3,,NO,3,3
 Balurco de Baixo,Cerro,Carro,0.5,,NO,5,4
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Carro,2.3,N122,S,1,1
@@ -1287,6 +1290,9 @@ Cruzamento da M-50 com a R-4,R-4 - Saída 1,Carro,2.1,R-4,SO,3,1
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,2.2,MA-20,SO,1,2
 Cruzamento da N120 com a N120-1,Porto Covo,Carro,11.3,,O,2,1
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,14.0,N120-1,NO,3,2
+Cruzamento da N120 com a N120-1,Santiago do Cacém,Carro,21.5,N120,N,4,2
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,25.2,N121,E,2,8
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,2.6,N120,O,1,6
 Cruzamento da N120 com a N125,Estação de Lagos,Carro,1.6,,SE,2,1
 Cruzamento da N120 com a N125,Lagos,Carro,1.6,,SE,4,1
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,1.8,N125,SO,5,2
@@ -1615,6 +1621,8 @@ IP2 - Saída 45,Trindade,Carro,1.1,,S,3,1
 IP2 - Saída 46,IP2 - Saída 47,Carro,3.3,IP2,S,2,1
 IP2 - Saída 48,IP2 - Saída 49,Carro,2.2,IP2,SO,2,1
 IP2 - Saída 49,IP2 - Saída 50,Carro,3.9,IP2,SO,2,1
+IP8 - Cruzamento com a N261,Santiago do Cacém,Carro,5.2,,SE,4,4
+IP8 - Cruzamento com a N261,Vila Nova de Santo André,Carro,6.1,,NO,3,2
 IP8 - Início,Porto de Sines - Terminal XXI,Carro,1.4,,SO,2,1
 IP8 - Início,Porto de Sines - Terminal de Gás Natural,Carro,1.2,,O,3,1
 IP8 - Início,Praia de São Torpes,Carro,3.2,N120-1,SE,1,3
@@ -1681,6 +1689,7 @@ Mexilhoeira da Carregação,Parchal,Carro,1.6,,SO,3,1
 Mexilhoeira da Carregação,Portimão - Centro histórico,Barco,2.8,Rio Arade,O,4,6
 Mexilhoeira da Carregação,Silves,Barco,8.9,Rio Arade,NE,5,5
 Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Carro,2.1,N125,O,2,1
+Mimosa,Santiago do Cacém,Carro,35.0,,NO,5,5
 Mina de São Domingos,Montes Altos,Carro,3.4,,S,4,2
 Mina de São Domingos,Moreanes,Carro,6.8,,SO,1,2
 Mina de São Domingos,Sapos,Carro,5.7,,SO,3,3
@@ -1839,6 +1848,7 @@ Rosal de la Frontera,Sobral da Adiça,Carro,9.3,,NO,4,1
 Rosal de la Frontera,Vila Verde de Ficalho,Carro,7.9,IP8,SO,2,2
 Ruínas Romanas de Milreu,Santa Bárbara de Nexe,Carro,6.3,,O,3,1
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,8.1,N2,N,4,1
+Ruínas Romanas de Miróbriga,Santiago do Cacém,Carro,1.3,,NO,1,3
 Safara,Santo Aleixo da Restauração,Carro,8.2,,SE,2,1
 Safara,Sobral da Adiça,Carro,11.4,,SO,1,3
 Sagres,Vila do Bispo,Carro,9.4,,NE,1,5

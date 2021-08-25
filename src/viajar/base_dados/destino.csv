@@ -485,6 +485,9 @@ A26 - Saída 3,A26 - Saída 4,Carro,False,Sines
 A26 - Saída 3,A26 - Saída 4,Carro,True,A2 - Algarve/Lisboa
 A26 - Saída 3,A26 - Saída 4,Carro,True,Beja
 A26 - Saída 3,A26 - Saída 4,Carro,True,Santiago do Cacém
+A26 - Saída 4,IP8 - Cruzamento com a N261,Carro,False,Sines
+A26 - Saída 4,IP8 - Cruzamento com a N261,Carro,True,A2 - Algarve/Lisboa
+A26 - Saída 4,IP8 - Cruzamento com a N261,Carro,True,Grândola
 A26-1 - Saída 1,A26-1 - Saída 2,Carro,False,A26 - Beja/Sines
 A26-1 - Saída 1,A26-1 - Saída 2,Carro,False,Porto de Sines
 A26-1 - Saída 1,A26-1 - Saída 2,Carro,True,Melides
@@ -4135,6 +4138,19 @@ Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Algarve
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Cercal do Alentejo
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Lisboa
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Sines
+Cruzamento da N120 com a N120-1,Santiago do Cacém,Carro,False,Cercal do Alentejo
+Cruzamento da N120 com a N120-1,Santiago do Cacém,Carro,False,Lagos
+Cruzamento da N120 com a N120-1,Santiago do Cacém,Carro,True,Santiago do Cacém
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,False,Santiago do Cacém
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,False,Sines
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,True,Beja
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,True,Estação de Ermidas - Sado
+Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,True,Ferreira do Alentejo
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Beja
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Grândola
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Lisboa
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Grândola
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Lisboa
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Portimão
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,A22
