@@ -3669,6 +3669,15 @@ Corte da Seda,Parque Empresarial de Alcoutim,Carro,True,Martim Longo
 Corte João Marques,Martim Longo,Carro,False,A2 - Almodôvar
 Corte João Marques,Martim Longo,Carro,False,Ameixal
 Corte João Marques,Martim Longo,Carro,True,Martim Longo
+Cruz de João Mendes,Cruzamento da N120 com a N121,Carro,False,Alcácer do Sal
+Cruz de João Mendes,Cruzamento da N120 com a N121,Carro,False,Grândola
+Cruz de João Mendes,Cruzamento da N120 com a N121,Carro,False,Lisboa
+Cruz de João Mendes,Cruzamento da N120 com a N121,Carro,True,Santiago do Cacém
+Cruz de João Mendes,Grândola,Carro,False,Santiago do Cacém
+Cruz de João Mendes,Grândola,Carro,True,Grândola
+Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,False,A2 - Algarve/Lisboa
+Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,False,Grândola
+Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,True,Sines
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
@@ -4149,8 +4158,9 @@ Cruzamento da N120 com a N121,Estação de Ermidas - Sado,Carro,True,Ferreira do
 Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Beja
 Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Grândola
 Cruzamento da N120 com a N121,Santiago do Cacém,Carro,False,Lisboa
-Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Grândola
-Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Lisboa
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Cercal do Alentejo
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Santiago do Cacém
+Cruzamento da N120 com a N121,Santiago do Cacém,Carro,True,Sines
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Lagos - Centro da cidade
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,False,Portimão
 Cruzamento da N120 com a N125,N125 - Acesso à Saída 1 da A22,Carro,True,A22
