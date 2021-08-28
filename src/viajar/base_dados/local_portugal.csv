@@ -136,6 +136,7 @@ Barragem de Odeleite,Odeleite,Castro Marim
 Barragem de Santa Clara,Santa Clara-a-Velha,Odemira
 Barragem do Alqueva,São João Baptista,Moura
 Barragem do Beliche,Castro Marim,Castro Marim
+Barragem do Pego do Altar,Santa Susana,Alcácer do Sal
 Barranco das Pereiras,Alcoutim,Alcoutim
 Barranco do Velho,Salir,Loulé
 Barrancos,Barrancos,Barrancos
@@ -208,6 +209,7 @@ Cruzamento da A26 com a A26-1,Sines,Sines
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da M544 com a N261,Santo André,Santiago do Cacém
+Cruzamento da N5 com a N262,Torrão,Alcácer do Sal
 Cruzamento da N120 com a N120-1,Cercal do Alentejo,Santiago do Cacém
 Cruzamento da N120 com a N121,Santiago do Cacém,Santiago do Cacém
 Cruzamento da N120 com a N125,São Sebastião,Lagos
@@ -359,6 +361,8 @@ IP2 - Saída 48,Castro Verde,Castro Verde
 IP2 - Saída 49,Castro Verde,Castro Verde
 IP2 - Saída 50,Castro Verde,Castro Verde
 IP8 - Cruzamento com a N261,Santo André,Santiago do Cacém
+IP8 - Cruzamento com a N261-1,Grândola,Grândola
+IP8 - Cruzamento com a N261-2,Melides,Grândola
 IP8 - Início,Sines,Sines
 Junqueira,Castro Marim,Castro Marim
 Lagoa de Santo André,Santo André,Santiago do Cacém
@@ -380,6 +384,7 @@ Marmeleiro,Alcoutim,Alcoutim
 Marmelete,Marmelete,Monchique
 Martim Longo,Martim Longo,Alcoutim
 Meia Praia,São Sebastião,Lagos
+Melides,Melides,Grândola
 Menires do Lavajo,Alcoutim,Alcoutim
 Mértola,Mértola,Mértola
 Mesquita,Espírito Santo,Mértola
@@ -482,6 +487,7 @@ Praia da Rocha,Portimão,Portimão
 Praia de Benagil,Lagoa,Lagoa
 Praia de Cabanas de Tavira,Cabanas de Tavira,Tavira
 Praia de Faro,Montenegro,Faro
+Praia de Melides,Melides,Grândola
 Praia de Monte Clérigo,Aljezur,Aljezur
 Praia de Odeceixe,Odeceixe,Aljezur
 Praia de Santa Eulália,Olhos de Água,Albufeira
@@ -529,6 +535,7 @@ Santa Catarina da Fonte do Bispo,Santa Catarina da Fonte do Bispo,Tavira
 Santa Clara de Louredo,Santa Clara de Louredo,Beja
 Santa Luzia,Santa Luzia,Tavira
 Santa Marta,Alcoutim,Alcoutim
+Santa Susana,Santa Susana,Alcácer do Sal
 Santana da Serra,Santana da Serra,Ourique
 Santana de Cambas,Santana de Cambas,Mértola
 Santiago do Cacém,Santiago do Cacém,Santiago do Cacém

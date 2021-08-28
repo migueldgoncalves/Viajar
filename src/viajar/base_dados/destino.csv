@@ -3154,14 +3154,13 @@ Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,
 "Álamo, Mértola",Espírito Santo,Carro,False,Mértola
 "Álamo, Mértola",Espírito Santo,Carro,True,Alcoutim
 "Álamo, Mértola",Espírito Santo,Carro,True,Espírito Santo
+Alcácer do Sal,Cruzamento da N5 com a N262,Carro,False,Alcácer do Sal
+Alcácer do Sal,Cruzamento da N5 com a N262,Carro,True,Torrão
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Alcácer do Sal
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Lisboa
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Beja
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Grândola
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,True,Sines
-Alcácer do Sal,Torrão,Carro,False,Alcácer do Sal
-Alcácer do Sal,Torrão,Carro,False,Setúbal
-Alcácer do Sal,Torrão,Carro,True,Torrão
 Alcantarilha,"Pêra, Silves",Carro,False,Portimão
 Alcantarilha,"Pêra, Silves",Carro,True,Albufeira
 Alcantarilha,"Pêra, Silves",Carro,True,Faro
@@ -3678,6 +3677,10 @@ Cruz de João Mendes,Grândola,Carro,True,Grândola
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,False,A2 - Algarve/Lisboa
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,False,Grândola
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,True,Sines
+Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,False,Santiago do Cacém
+Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,False,Sines
+Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,True,A2 - Algarve/Lisboa
+Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,True,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
@@ -4143,6 +4146,9 @@ Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Granada
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Málaga
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,False,Sevilha
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Carro,True,A-7/AP-7 - Algeciras/Benalmádena/Cádiz
+Cruzamento da N5 com a N262,Torrão,Carro,False,Alcácer do Sal
+Cruzamento da N5 com a N262,Torrão,Carro,False,Setúbal
+Cruzamento da N5 com a N262,Torrão,Carro,True,Torrão
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Algarve
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,False,Cercal do Alentejo
 Cruzamento da N120 com a N120-1,Praia de São Torpes,Carro,True,Lisboa
@@ -4319,6 +4325,10 @@ Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Sevilha - Rua Torne
 Cruzamento do IC1 com o IP8,Grândola,Carro,False,Alcácer do Sal
 Cruzamento do IC1 com o IP8,Grândola,Carro,False,Lisboa
 Cruzamento do IC1 com o IP8,Grândola,Carro,True,Grândola
+Cruzamento do IC1 com o IP8,IP8 - Cruzamento com a N261-1,Carro,False,Grândola
+Cruzamento do IC1 com o IP8,IP8 - Cruzamento com a N261-1,Carro,False,Lisboa
+Cruzamento do IC1 com o IP8,IP8 - Cruzamento com a N261-1,Carro,True,Santiago do Cacém
+Cruzamento do IC1 com o IP8,IP8 - Cruzamento com a N261-1,Carro,True,Sines
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Aeroporto de Faro
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,False,Faro
 Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,True,A22 - Espanha/Portimão
@@ -4894,6 +4904,10 @@ IP2 - Saída 49,IP2 - Saída 50,Carro,False,Beja
 IP2 - Saída 49,IP2 - Saída 50,Carro,False,Castro Verde
 IP2 - Saída 49,IP2 - Saída 50,Carro,False,Mértola
 IP2 - Saída 49,IP2 - Saída 50,Carro,True,A2
+IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Carro,False,A2 - Algarve/Lisboa
+IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Carro,False,Grândola
+IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Carro,True,Santiago do Cacém
+IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Carro,True,Sines
 IP8 - Início,Praia de São Torpes,Carro,False,IP8 - Espanha/Lisboa
 IP8 - Início,Praia de São Torpes,Carro,False,Sines
 IP8 - Início,Praia de São Torpes,Carro,True,Algarve
