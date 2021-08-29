@@ -3154,6 +3154,10 @@ Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,
 "Álamo, Mértola",Espírito Santo,Carro,False,Mértola
 "Álamo, Mértola",Espírito Santo,Carro,True,Alcoutim
 "Álamo, Mértola",Espírito Santo,Carro,True,Espírito Santo
+Alcácer do Sal,Cais Palafítico da Carrasqueira,Barco,False,Alcácer do Sal
+Alcácer do Sal,Cais Palafítico da Carrasqueira,Barco,True,Lagos
+Alcácer do Sal,Cais Palafítico da Carrasqueira,Barco,True,Setúbal
+Alcácer do Sal,Cais Palafítico da Carrasqueira,Barco,True,Tróia
 Alcácer do Sal,Cruzamento da N5 com a N262,Carro,False,Alcácer do Sal
 Alcácer do Sal,Cruzamento da N5 com a N262,Carro,True,Torrão
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,False,Alcácer do Sal
@@ -3594,6 +3598,10 @@ Cais da Praia do Barril,Santa Luzia,Barco,False,Praia do Barril
 Cais da Praia do Barril,Santa Luzia,Barco,True,Faro
 Cais da Praia do Barril,Santa Luzia,Barco,True,Tavira
 Cais da Praia do Barril,Santa Luzia,Barco,True,Vila Nova de Cacela
+Cais Palafítico da Carrasqueira,Urbanização Soltróia,Barco,False,Alcácer do Sal
+Cais Palafítico da Carrasqueira,Urbanização Soltróia,Barco,True,Lagos
+Cais Palafítico da Carrasqueira,Urbanização Soltróia,Barco,True,Setúbal
+Cais Palafítico da Carrasqueira,Urbanização Soltróia,Barco,True,Tróia
 Canal Caveira,Cruzamento da A2 com a A26,Carro,False,Grândola
 Canal Caveira,Cruzamento da A2 com a A26,Carro,False,Sines
 Canal Caveira,Cruzamento da A2 com a A26,Carro,True,Faro
@@ -3644,6 +3652,9 @@ Colos,Cruzamento da N123-1 com a N263,Carro,False,Cercal do Alentejo
 Colos,Cruzamento da N123-1 com a N263,Carro,False,Colos
 Colos,Cruzamento da N123-1 com a N263,Carro,True,Odemira
 Colos,Cruzamento da N123-1 com a N263,Carro,True,São Martinho das Amoreiras
+Comporta,Urbanização Soltróia,Barco,False,Comporta
+Comporta,Urbanização Soltróia,Barco,True,Alcácer do Sal
+Comporta,Urbanização Soltróia,Barco,True,Tróia
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,A22 - Espanha/Loulé/A2 - Lisboa
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,False,São Brás de Alportel
 "Conceição, Faro",Variante de Faro - Nó com a N2,Carro,True,Faro
@@ -5212,6 +5223,10 @@ Porto Covo,Vila Nova de Milfontes,Barco,False,Setúbal
 Porto Covo,Vila Nova de Milfontes,Barco,False,Sines
 Porto Covo,Vila Nova de Milfontes,Barco,True,Lagos
 Porto Covo,Vila Nova de Milfontes,Barco,True,Portimão
+Porto de Recreio de Sines,Tróia,Barco,False,Lagos
+Porto de Recreio de Sines,Tróia,Barco,False,Portimão
+Porto de Recreio de Sines,Tróia,Barco,True,Sesimbra
+Porto de Recreio de Sines,Tróia,Barco,True,Setúbal
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,False,Vila Nova de Cacela
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Faro
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Tavira
@@ -5406,6 +5421,10 @@ Talavera la Real,Villafranco del Guadiana,Carro,True,Villafranco del Guadiana
 Tavira - Norte,Tavira - Sul,Carro,False,Vila Real de Santo António
 Tavira - Norte,Tavira - Sul,Carro,True,Faro
 Tavira - Norte,Tavira - Sul,Carro,True,Olhão
+Tróia,Urbanização Soltróia,Barco,False,Lagos
+Tróia,Urbanização Soltróia,Barco,False,Setúbal
+Tróia,Urbanização Soltróia,Barco,False,Tróia
+Tróia,Urbanização Soltróia,Barco,True,Alcácer do Sal
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,False,A-5 - Lisboa
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,False,Badajoz
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,True,Aeroporto de Badajoz

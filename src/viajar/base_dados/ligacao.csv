@@ -839,6 +839,7 @@ A-8058 - Saída 0,SE-30 - Saída 15,Carro,1.1,A-8058,NE,1,3
 Achada do Gamo,Mina de São Domingos,Comboio,1.8,Antiga Linha São Domingos - Pomarão,N,3,5
 Achada do Gamo,Montes Altos,Carro,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Comboio,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
+Adega da Herdade da Comporta,Comporta,Carro,0.9,,E,1,4
 Aeródromo de Portimão,Aeroporto de Beja,Avião,116.4,,NE,5,5
 Aeródromo de Portimão,Aeroporto de Faro,Avião,56.4,,SE,4,5
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
@@ -897,6 +898,8 @@ Albufeira - Rua da Oura,Cruzamento da N125 com a N269,Carro,4.5,,N,4,1
 Albufeira - Rua da Oura,Praia da Oura,Carro,0.7,,S,2,1
 Albufeira - Rua da Oura,Praia de Santa Eulália,Carro,1.8,,SE,1,2
 Albufeira - Rua da Oura,Praia dos Alemães,Carro,1.6,,SO,3,1
+Alcácer do Sal,Cais Palafítico da Carrasqueira,Barco,26.9,Rio Sado,O,6,3
+Alcácer do Sal,Comporta,Carro,29.0,,O,5,2
 Alcácer do Sal,Cruzamento da N5 com a N262,Carro,21.1,N5,SE,3,3
 Alcácer do Sal,Cruzamento do IC1 com o IP8,Carro,19.6,IC1,SO,1,3
 Alcácer do Sal,Santa Susana,Carro,14.8,,NE,4,1
@@ -1134,6 +1137,8 @@ Cais da Mesquita,Pomarão,Barco,0.1,Rio Guadiana,NE,3,4
 Cais da Praia do Barril,Pedras de El-Rei,Carro,0.7,,NO,1,1
 Cais da Praia do Barril,Praia do Barril,Comboio,1.1,Comboio da Praia do Barril,SE,2,3
 Cais da Praia do Barril,Santa Luzia,Barco,1.8,Ria Formosa,NE,3,4
+Cais Palafítico da Carrasqueira,Comporta,Carro,5.4,,SO,1,3
+Cais Palafítico da Carrasqueira,Urbanização Soltróia,Barco,11.6,Rio Sado,NO,2,5
 Caldas de Monchique,Cruzamento da N124 com a N266,Carro,11.1,,S,2,3
 Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
 "Calle Cartagena, La Línea de la Concepción","Campamento, San Roque",Carro,2.7,,O,1,4
@@ -1148,6 +1153,9 @@ Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
 Carrapateira,Vila do Bispo,Carro,13.4,,S,4,1
 Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,,O,2,3
+Carvalhal,Comporta,Carro,8.6,,NO,3,1
+Carvalhal,IP8 - Cruzamento com a N261-1,Carro,17.3,,SE,2,4
+Carvalhal,Melides,Carro,19.6,,S,1,4
 Carvoeiro,Ferragudo,Carro,7.8,,NO,3,1
 Carvoeiro,Lagoa,Carro,4.7,N124-1,N,2,1
 Carvoeiro,Praia do Vale de Centeanes,Carro,2.3,,SE,1,2
@@ -1184,6 +1192,9 @@ CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Carro,1.9,CO-32,SE,2,3
 Coito,Santa Marta,Carro,2.9,,NE,1,3
 Coito,Serro da Vinha de Baixo,Carro,1.7,,SO,2,1
 Colos,Cruzamento da N123-1 com a N263,Carro,3.3,N123-1,SE,2,3
+Comporta,Praia da Comporta,Carro,2.1,,O,5,1
+Comporta,Urbanização Soltróia,Barco,12.2,Rio Sado,NO,7,6
+Comporta,Urbanização Soltróia,Carro,11.9,,NO,6,1
 "Conceição, Faro",Cruzamento do IC4 com a M520,Carro,4.3,,SO,5,3
 "Conceição, Faro",Estoi,Carro,4.3,,NE,2,3
 "Conceição, Faro",Pechão,Carro,4.6,,E,3,4
@@ -1801,7 +1812,7 @@ Portimão - Centro histórico,Universidade do Algarve - Campus de Portimão,Carr
 Portimão - Zona ribeirinha,Porto Comercial de Portimão,Carro,2.2,,SE,2,1
 Portimão - Zona ribeirinha,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,E,4,4
 Porto Comercial de Portimão,Porto de Pesca de Portimão,Barco,0.9,Rio Arade,N,4,3
-Porto Covo,Porto de Recreio de Sines,Barco,17.5,Costa de Portugal Continental,NO,4,3
+Porto Covo,Porto de Recreio de Sines,Barco,17.5,Costa de Portugal Continental,NO,4,4
 Porto Covo,Praia de São Torpes,Carro,8.7,,N,2,1
 Porto Covo,Vila Nova de Milfontes,Barco,17.3,Costa de Portugal Continental,S,5,6
 Porto Covo,Vila Nova de Milfontes,Carro,20.2,,S,3,5
@@ -1809,6 +1820,7 @@ Porto de Pesca de Sines,Porto de Sines - Terminal de Granéis Líquidos,Carro,0.
 Porto de Pesca de Sines,Sines,Carro,1.3,,NE,1,2
 Porto de Recreio de Sines,Porto de Sines - Terminal Multipurpose,Carro,1.6,,SE,1,2
 Porto de Recreio de Sines,Sines,Carro,1.8,,NO,2,1
+Porto de Recreio de Sines,Tróia,Barco,73.0,Costa de Portugal Continental,N,3,2
 Porto de Sines - Terminal de Gás Natural,Porto de Sines - Terminal Multipurpose,Carro,1.2,,SO,2,1
 Porto de Sines - Terminal de Granéis Líquidos,Sines,Carro,3.9,,NE,2,3
 Praia da Arrifana,Ribat da Arrifana,Carro,6.3,,NO,2,2
@@ -1869,6 +1881,7 @@ Rosal de la Frontera,Vila Verde de Ficalho,Carro,7.9,IP8,SO,2,2
 Ruínas Romanas de Milreu,Santa Bárbara de Nexe,Carro,6.3,,O,3,1
 Ruínas Romanas de Milreu,São Brás de Alportel,Carro,8.1,N2,N,4,1
 Ruínas Romanas de Miróbriga,Santiago do Cacém,Carro,1.3,,NO,1,3
+Ruínas Romanas de Tróia,Urbanização Soltróia,Carro,4.0,,SE,1,2
 Safara,Santo Aleixo da Restauração,Carro,8.2,,SE,2,1
 Safara,Sobral da Adiça,Carro,11.4,,SO,1,3
 Sagres,Vila do Bispo,Carro,9.4,,NE,1,5
@@ -1907,6 +1920,8 @@ Sul do Sapal de Castro Marim e Vila Real de Santo António,Vila Real de Santo An
 Talavera la Real,Villafranco del Guadiana,Carro,8.4,N-5,O,2,3
 Tavira - Norte,Tavira - Sul,Carro,1.5,N125,SO,3,1
 Torrão,Vila Nova da Baronia,Carro,16.8,,E,3,5
+Tróia,Urbanização Soltróia,Barco,5.4,Rio Sado,SE,3,4
+Tróia,Urbanização Soltróia,Carro,5.2,,SE,1,3
 Universidade do Algarve - Campus da Penha,Variante de Faro - Nó com a M518,Carro,2.4,,NE,3,5
 Universidade do Algarve - Campus de Gambelas,Variante de Faro - Nó com o IC4,Carro,2.1,,SE,2,5
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Carro,4.0,N-5,E,2,1

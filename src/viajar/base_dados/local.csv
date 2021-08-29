@@ -638,6 +638,7 @@ A-8057 - Saída 0A,37.362863,-6.037469,37,
 A-8057 - Saída 2,37.357206,-6.049056,78,
 A-8058 - Saída 0,37.365542,-6.032121,23,
 Achada do Gamo,37.654760,-7.507547,125,
+Adega da Herdade da Comporta,38.379530,-8.790003,1,
 Aeródromo de Portimão,37.147621,-8.580169,2,
 Aeroporto de Badajoz,38.894054,-6.818687,180,
 Aeroporto de Beja,38.063206,-7.939608,188,
@@ -775,6 +776,7 @@ Cacela Velha,37.157275,-7.546349,26,Ria Formosa
 Cachopo,37.332957,-7.817305,387,
 Cais da Mesquita,37.55446,-7.526229,4,Parque Natural do Vale do Guadiana
 Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira
+Cais Palafítico da Carrasqueira,38.412722,-8.757114,1,Reserva Natural do Estuário do Sado
 Caldas de Monchique,37.284505,-8.554239,210,
 "Calle Cartagena, La Línea de la Concepción",36.176928,-5.348877,9,
 "Campamento, San Roque",36.175365,-5.374118,10,
@@ -782,6 +784,7 @@ Canal Caveira,38.134474,-8.488352,47,
 Carmona,37.471167,-5.641719,217,
 Carrapateira,37.183972,-8.894624,32,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Cartaya,37.283868,-7.153844,22,
+Carvalhal,38.309545,-8.747237,12,
 Carvoeiro,37.097062,-8.471109,10,
 "Casa Branca, Alcoutim",37.427782,-7.510975,206,
 "Casa Branca, Castro Marim",37.318916,-7.514484,130,
@@ -805,6 +808,7 @@ CO-32 - Fim,37.867263,-4.812437,102,
 CO-32 - Saída 3,37.841956,-4.801985,120,
 Coito,37.475472,-7.590636,222,
 Colos,37.734081,-8.459506,151,
+Comporta,38.379786,-8.784954,9,Reserva Natural do Estuário do Sado
 "Conceição, Faro",37.061574,-7.9177,33,
 "Conceição, Tavira",37.147989,-7.604968,29,
 Coria del Río,37.288856,-6.053764,7,
@@ -1258,6 +1262,7 @@ Praia da Barreta,36.964761,-7.872067,2,Ria Formosa - Ilha da Barreta
 Praia da Boca do Rio,37.066339,-8.808828,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Bordeira,37.198304,-8.899774,0,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Cacela Velha,37.15288,-7.542684,0,Ria Formosa - Ilha de Cabanas
+Praia da Comporta,38.380605,-8.803467,2,
 Praia da Cordoama,37.109022,-8.937039,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Praia da Cova Redonda,37.098722,-8.380841,5,
 Praia da Falésia,37.086076,-8.167851,0,
@@ -1335,6 +1340,7 @@ Rosal de la Frontera,37.967832,-7.220338,220,
 Rotunda da Árvore,37.391148,-7.445127,25,
 Ruínas Romanas de Milreu,37.094824,-7.904695,74,
 Ruínas Romanas de Miróbriga,38.010156,-8.683699,243,
+Ruínas Romanas de Tróia,38.486443,-8.884697,3,
 Safara,38.108640,-7.217422,204,
 Sagres,37.010201,-8.938871,23,Parque Natural do Sudoeste Alentejano e Costa Vicentina
 Salema,37.065616,-8.824692,12,Parque Natural do Sudoeste Alentejano e Costa Vicentina
@@ -1411,11 +1417,13 @@ Tôr,37.195727,-8.035204,167,
 Torneiro,37.43145,-7.496974,186,
 Torrão,38.293899,-8.223782,107,
 Trindade,37.884931,-7.893941,172,
+Tróia,38.491501,-8.902716,3,
 Tunes,37.164900,-8.256395,65,
 Universidade do Algarve - Campus da Penha,37.027222,-7.922699,9,
 Universidade do Algarve - Campus de Gambelas,37.043905,-7.972196,19,Ria Formosa
 Universidade do Algarve - Campus de Portimão,37.143685,-8.536411,7,
 Urbanização Mirador de Cerro Gordo,38.888342,-6.902053,203,
+Urbanização Soltróia,38.457368,-8.861341,13,
 Vale de Andreu,37.266109,-7.504033,87,
 Vale do Lobo,37.054282,-8.061386,33,
 Vale do Pereiro,37.359369,-7.531822,188,

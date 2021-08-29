@@ -67,6 +67,7 @@ A26-1 - Saída 1,Sines,Sines
 A26-1 - Saída 2,Santo André,Santiago do Cacém
 A26-1 - Saída 3,Santo André,Santiago do Cacém
 Achada do Gamo,Santana de Cambas,Mértola
+Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
 Aeroporto de Faro,Montenegro,Faro
@@ -162,9 +163,11 @@ Cacela Velha,Vila Nova de Cacela,Vila Real de Santo António
 Cachopo,Cachopo,Tavira
 Cais da Mesquita,Espírito Santo,Mértola
 Cais da Praia do Barril,Santa Luzia,Tavira
+Cais Palafítico da Carrasqueira,Comporta,Alcácer do Sal
 Caldas de Monchique,Monchique,Monchique
 Canal Caveira,Grândola,Grândola
 Carrapateira,Bordeira,Aljezur
+Carvalhal,Carvalhal,Grândola
 Carvoeiro,Carvoeiro,Lagoa
 "Casa Branca, Alcoutim",Alcoutim,Alcoutim
 "Casa Branca, Castro Marim",Odeleite,Castro Marim
@@ -184,6 +187,7 @@ Cerro do Enho,Castro Marim,Castro Marim
 Choça Queimada,Odeleite,Castro Marim
 Coito,Pereiro,Alcoutim
 Colos,Colos,Odemira
+Comporta,Comporta,Alcácer do Sal
 "Conceição, Faro",Conceição,Faro
 "Conceição, Tavira",Conceição,Tavira
 Corte da Seda,Alcoutim,Alcoutim
@@ -474,6 +478,7 @@ Praia da Barreta,Sé,Faro
 Praia da Boca do Rio,Budens,Vila do Bispo
 Praia da Bordeira,Bordeira,Aljezur
 Praia da Cacela Velha,Vila Nova de Cacela,Vila Real de Santo António
+Praia da Comporta,Carvalhal,Grândola
 Praia da Cordoama,Vila do Bispo,Vila do Bispo
 Praia da Cova Redonda,Porches,Lagoa
 Praia da Falésia,Olhos de Água,Albufeira
@@ -525,6 +530,7 @@ Roncão do Meio,Espírito Santo,Mértola
 Rotunda da Árvore,Alcoutim,Alcoutim
 Ruínas Romanas de Milreu,Estoi,Faro
 Ruínas Romanas de Miróbriga,Santiago do Cacém,Santiago do Cacém
+Ruínas Romanas de Tróia,Carvalhal,Grândola
 Safara,Safara,Moura
 Sagres,Sagres,Vila do Bispo
 Salema,Budens,Vila do Bispo
@@ -574,10 +580,12 @@ Tôr,Tôr,Loulé
 Torneiro,Alcoutim,Alcoutim
 Torrão,Torrão,Alcácer do Sal
 Trindade,Trindade,Beja
+Tróia,Carvalhal,Grândola
 Tunes,Tunes,Silves
 Universidade do Algarve - Campus da Penha,Sé,Faro
 Universidade do Algarve - Campus de Gambelas,Montenegro,Faro
 Universidade do Algarve - Campus de Portimão,Portimão,Portimão
+Urbanização Soltróia,Carvalhal,Grândola
 Vale de Andreu,Castro Marim,Castro Marim
 Vale do Lobo,Almancil,Loulé
 Vale do Pereiro,Odeleite,Castro Marim
