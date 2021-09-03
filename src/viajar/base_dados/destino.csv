@@ -3278,9 +3278,22 @@ Ameixal,Miradouro do Caldeirão,Carro,False,Lisboa
 Ameixal,Miradouro do Caldeirão,Carro,True,Faro
 Ameixal,Miradouro do Caldeirão,Carro,True,Loulé
 Ameixal,Miradouro do Caldeirão,Carro,True,São Brás de Alportel
+Antiga Estação de Aljaraque,Cartaya,Comboio,False,Gibraleón
+Antiga Estação de Aljaraque,Cartaya,Comboio,False,Huelva
+Antiga Estação de Aljaraque,Cartaya,Comboio,False,Zafra
+Antiga Estação de Aljaraque,Cartaya,Comboio,True,Ayamonte
+Antiga Estação de Aljaraque,Gibraleón,Comboio,False,Ayamonte
+Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Huelva
+Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Sevilha
+Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Zafra
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelva
+Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Zafra
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,True,Ayamonte
+Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Comboio,False,Ayamonte
+Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Comboio,True,Gibraleón
+Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Comboio,True,Huelva
+Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Comboio,True,Zafra
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Cádiz
 AP-4 - Início,AP-4A - Saída 13,Carro,False,Jerez de la Frontera
 AP-4 - Início,AP-4A - Saída 13,Carro,True,Dos Hermanas
@@ -3610,6 +3623,10 @@ Canal Caveira,Grândola,Carro,False,Faro
 Canal Caveira,Grândola,Carro,False,Ourique
 Canal Caveira,Grândola,Carro,True,Grândola
 Canal Caveira,Grândola,Carro,True,Lisboa
+Cartaya,Lepe,Comboio,False,Gibraleón
+Cartaya,Lepe,Comboio,False,Huelva
+Cartaya,Lepe,Comboio,False,Zafra
+Cartaya,Lepe,Comboio,True,Ayamonte
 Carvoeiro,Lagoa,Carro,False,Carvoeiro
 Carvoeiro,Lagoa,Carro,True,Lagoa
 Castro Marim,Sul do Sapal de Castro Marim e Vila Real de Santo António,Carro,False,A22
@@ -4930,6 +4947,10 @@ Isla Cristina,Punta del Moral,Barco,True,Portugal
 Junqueira,Montes Castelhanos,Carro,False,Castro Marim
 Junqueira,Montes Castelhanos,Carro,True,Alcoutim
 Junqueira,Montes Castelhanos,Carro,True,Azinhal
+La Redondela,Lepe,Comboio,False,Ayamonte
+La Redondela,Lepe,Comboio,True,Gibraleón
+La Redondela,Lepe,Comboio,True,Huelva
+La Redondela,Lepe,Comboio,True,Zafra
 Lagoa,Porches,Carro,False,Lagoa
 Lagoa,Porches,Carro,False,Portimão
 Lagoa,Porches,Carro,True,Albufeira
