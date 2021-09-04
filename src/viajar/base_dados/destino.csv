@@ -2357,6 +2357,9 @@ A-49 - Saída 122,A-49 - Saída 125,Carro,False,Huelva
 A-49 - Saída 122,A-49 - Saída 125,Carro,False,Lepe
 A-49 - Saída 122,A-49 - Saída 125,Carro,True,Ayamonte
 A-49 - Saída 122,A-49 - Saída 125,Carro,True,Portugal
+A-49 - Saída 122,Cruzamento da N-431 com a N-446,Carro,False,A-49 - Huelva/Portugal
+A-49 - Saída 122,Cruzamento da N-431 com a N-446,Carro,True,Isla Cristina
+A-49 - Saída 122,Cruzamento da N-431 com a N-446,Carro,True,Praias
 A-49 - Saída 125,A-49 - Saída 129,Carro,False,Huelva
 A-49 - Saída 125,A-49 - Saída 129,Carro,False,Lepe
 A-49 - Saída 125,A-49 - Saída 129,Carro,True,Ayamonte
@@ -2365,6 +2368,8 @@ A-49 - Saída 129,A-49 - Saída 131,Carro,False,Ayamonte
 A-49 - Saída 129,A-49 - Saída 131,Carro,False,Huelva
 A-49 - Saída 129,A-49 - Saída 131,Carro,True,Ayamonte
 A-49 - Saída 129,A-49 - Saída 131,Carro,True,Portugal
+A-49 - Saída 129,Cruzamento da A-499 com a N-431,Carro,False,A-49 - Portugal
+A-49 - Saída 129,Cruzamento da A-499 com a N-431,Carro,True,Ayamonte - Este
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
@@ -4075,6 +4080,10 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Cádiz/Sevilh
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,Dos Hermanas
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,False,Cádiz
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,True,Sevilha
+Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Ayamonte
+Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Portugal
+Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Huelva
+Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Lepe
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,False,A-4 - Córdoba
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,False,Aeroporto de Sevilha
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,True,A-49 - Huelva

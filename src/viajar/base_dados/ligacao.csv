@@ -643,10 +643,12 @@ A-49 - Saída 117,A-49 - Saída 122,Carro,5.3,A-49,SO,1,2
 A-49 - Saída 117,Lepe,Carro,6.5,,SE,4,3
 A-49 - Saída 117,Villablanca,Carro,9.1,,NO,3,3
 A-49 - Saída 122,A-49 - Saída 125,Carro,3.1,A-49,SO,1,2
-A-49 - Saída 122,Pozo del Camino,Carro,4.4,,S,3,2
+A-49 - Saída 122,Cruzamento da N-431 com a N-446,Carro,1.7,N-446,S,3,1
 A-49 - Saída 125,A-49 - Saída 129,Carro,3.9,A-49,O,1,2
+A-49 - Saída 125,Cruzamento da A-499 com a N-431,Carro,1.5,,S,4,3
 A-49 - Saída 125,Villablanca,Carro,6.1,,N,3,2
 A-49 - Saída 129,A-49 - Saída 131,Carro,2.3,A-49,O,1,2
+A-49 - Saída 129,Cruzamento da A-499 com a N-431,Carro,3.6,N-431,E,4,2
 A-49 - Saída 129,Polígono Industrial de Ayamonte,Carro,1.3,,SO,3,2
 A-49 - Saída 131,Ayamonte,Carro,3.4,,S,3,2
 A-49 - Saída 131,Costa Esuri,Carro,2.5,,N,4,1
@@ -979,7 +981,7 @@ Ameixal,Miradouro do Caldeirão,Carro,9.7,N2,S,1,2
 Ameixal,Salir,Carro,21.7,,SO,3,1
 Antiga Estação de Aljaraque,Cartaya,Comboio,8.1,Antiga Linha Gibraleón-Ayamonte,SO,1,2
 Antiga Estação de Aljaraque,Gibraleón,Comboio,12.2,Antiga Linha Gibraleón-Ayamonte,NE,2,1
-Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,1,6
+Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,1,8
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,4,1
 Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Comboio,5.3,Antiga Linha Gibraleón-Ayamonte,E,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Carro,0.9,,NE,3,1
@@ -1043,9 +1045,11 @@ Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 "Avenida de Kansas City, Sevilha",Cruzamento da A-4 Norte com a SE-30,Carro,1.5,,NE,1,4
 "Avenida de Kansas City, Sevilha",Estação de Sevilha-Santa Justa,Carro,0.8,,SO,2,1
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
-Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,4,3
+Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,6,3
+Ayamonte,Cruzamento da A-499 com a N-431,Carro,6.5,,NE,5,1
+Ayamonte,Moinho de Maré El Pintado,Carro,1.7,,E,4,1
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
-Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,5,7
+Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,7,7
 Azinhal,Cruzamento da N122 com a M512,Carro,0.8,N122,SO,2,1
 Badoca Safari Park,IP8 - Cruzamento com a N261,Carro,0.9,,NE,1,2
 Balurco de Baixo,"Casa Branca, Alcoutim",Carro,0.3,,NO,3,3
@@ -1290,6 +1294,7 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1,2
+Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,3.1,N-431,E,4,3
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
@@ -1394,6 +1399,7 @@ Cruzamento da N266 com a N267 Oeste,Monchique,Carro,2.7,,NE,1,4
 Cruzamento da N269 com a N269-2,Ferreiras,Carro,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Carro,2.3,,NE,2,3
 Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,,SO,2,4
+Cruzamento da N-431 com a N-446,Pozo del Camino,Carro,2.8,,S,2,2
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,0.8,SE-20,N,3,1
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,1.2,SE-30,E,1,2
 Cruzamento do IC1 com o IP8,Grândola,Carro,3.4,IC1,S,2,6
