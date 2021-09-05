@@ -3151,6 +3151,11 @@ Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
 Aeroporto de Faro,Montenegro,Carro,True,Faro
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,False,Aeroporto de Madrid-Barajas
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Collado Villalba
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Atocha
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Príncipe Pío
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,False,Aeroporto de Málaga - Costa del Sol
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,A-7/MA-20 - Algeciras/Málaga
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,False,Alcoutim
@@ -4580,6 +4585,16 @@ Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
 Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,False,Aeroporto de Madrid-Barajas
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Collado Villalba
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Atocha
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Príncipe Pío
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Collado Villalba
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Atocha
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Príncipe Pío
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,True,Aeroporto de Madrid-Barajas
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,True,Faro
@@ -4599,6 +4614,26 @@ Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo Ant�
 Estação de Lagos,Meia Praia,Comboio,False,Lagos
 Estação de Lagos,Meia Praia,Comboio,True,Tunes
 Estação de Lagos,Meia Praia,Comboio,True,Vila Real de Santo António
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Alcalá de Henares
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Collado Villalba
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Guadalajara
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Madrid-Atocha
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Madrid-Príncipe Pío
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Aeroporto de Madrid-Barajas
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Cercedilla
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Collado Villalba
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Madrid-Príncipe Pío
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Aeroporto de Madrid-Barajas
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Cercedilla
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Collado Villalba
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Madrid-Príncipe Pío
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Alcalá de Henares
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Collado Villalba
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Guadalajara
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Atocha
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Príncipe Pío
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Faro
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Tunes
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Lisboa - Oriente
@@ -4613,6 +4648,16 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Aeroporto de Madrid-Barajas
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Cercedilla
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Collado Villalba
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Madrid-Príncipe Pío
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Alcalá de Henares
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Collado Villalba
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Guadalajara
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Madrid-Atocha
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Madrid-Príncipe Pío
 Estação de Palmela,Estação de Setúbal,Comboio,False,Barreiro
 Estação de Palmela,Estação de Setúbal,Comboio,False,Pinhal Novo
 Estação de Palmela,Estação de Setúbal,Comboio,True,Praias do Sado-A
