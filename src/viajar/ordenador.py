@@ -50,27 +50,40 @@ OESTE = "O"
 NOROESTE = "NO"
 
 
-def ordenar_ficheiros_csv():
+def ordenar_ficheiros_csv(ficheiro_a_ordenar=None, cabecalho=True):
     """
     Ordena os ficheiros .csv da base de dados
+    :param ficheiro_a_ordenar: Path absoluto para ficheiro .csv a ordenar. Se for None, são ordenados todos os .csv da base de dados
+    :param cabecalho: Se True, considera que a 1ª linha do ficheiro .csv é o cabeçalho
     :return:
     """
     print('A começar ordenação...')
 
-    ordenar_ligacoes_destinos()
-    print('Locais das tabelas de ligação e destino ordenados')
+    if ficheiro_a_ordenar is None:
+        ordenar_ligacoes_destinos()
+        print('Locais das tabelas de ligação e destino ordenados')
 
     chave = cmp_to_key(ordenador)
 
-    for ficheiro in [CSV_COMARCA, CSV_CONCELHO, CSV_DESTINO, CSV_LIGACAO, CSV_LOCAL, CSV_LOCAL_ESPANHA,
-                     CSV_LOCAL_GIBRALTAR, CSV_LOCAL_PORTUGAL, CSV_MUNICIPIO, CSV_PROVINCIA]:
-        path_csv = path + ficheiro
+    if ficheiro_a_ordenar is not None:
+        ficheiros_a_ordenar = [ficheiro_a_ordenar]
+    else:
+        ficheiros_a_ordenar = [CSV_COMARCA, CSV_CONCELHO, CSV_DESTINO, CSV_LIGACAO, CSV_LOCAL, CSV_LOCAL_ESPANHA,
+                               CSV_LOCAL_GIBRALTAR, CSV_LOCAL_PORTUGAL, CSV_MUNICIPIO, CSV_PROVINCIA]
+
+    for ficheiro in ficheiros_a_ordenar:
+        if ficheiro_a_ordenar is None:
+            path_csv = path + ficheiro
+        else:
+            path_csv = ficheiro
 
         linhas = csv_para_list(path_csv)
-        cabecalho = linhas.pop(0)
+        if cabecalho:
+            cabecalho = linhas.pop(0)
         print(f'A ordenar ficheiro {ficheiro}. {len(linhas)} entradas no ficheiro')
         linhas.sort(key=chave)
-        linhas.insert(0, cabecalho)
+        if cabecalho:
+            linhas.insert(0, cabecalho)
         list_para_csv(path_csv, linhas)
 
     print('Ordenação concluída')
@@ -454,6 +467,3 @@ def obter_ponto_cardeal_oposto(ponto_cardeal):
         return SUDESTE
     else:
         return ''
-
-
-ordenar_ficheiros_csv()
