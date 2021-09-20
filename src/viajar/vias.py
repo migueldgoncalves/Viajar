@@ -25,13 +25,11 @@ DISTRITO_ES = 9
 GIBRALTAR_NIVEL_ADMIN = 4
 
 # Portugal
-ENTIDADE_INTERMUNICIPAL = 5  # Nos Açores e na Madeira identificam ilhas
 DISTRITO_PT = 6
 CONCELHO = 7
 FREGUESIA = 8
-ANTIGA_FREGUESIA = 9  # Existe dentro de uniões de antigas freguesias
 
-# Auto-estradas
+# Auto-estradas e vias rápidas
 
 ES_A483 = ("A-483", "Bollullos-Matalascañas", ESPANHA)
 ES_A45 = ("A-45", "Autovía de Málaga", ESPANHA)
@@ -39,6 +37,7 @@ ES_A49 = ("A-49", "Autopista del Quinto Centenario", ESPANHA)
 ES_A5 = ("A-5", "Autovía del Suroeste", ESPANHA)
 ES_A58 = ("A-58", "Autovía Trujillo-Cáceres", ESPANHA)
 ES_A66 = ("A-66", "Autovía Ruta de la Plata", ESPANHA)
+ES_A7 = ("A-7", "Autovía del Mediterráneo", ESPANHA)
 ES_A92 = ("A-92", "Autovía de Andalucía", ESPANHA)
 ES_A92M = ("A-92M", "Autovía A-92 Málaga", ESPANHA)
 ES_AP4 = ("AP-4", "Autopista del Sur", ESPANHA)
@@ -51,8 +50,11 @@ ES_M50 = ("M-50", "Autopista de Circunvalación M-50", ESPANHA)
 
 PT_A1 = ("A1", "Autoestrada do Norte", PORTUGAL)
 PT_A2 = ("A2", "Autoestrada do Sul", PORTUGAL)
+PT_A23 = ("A23", "Autoestrada da Beira Interior", PORTUGAL)
+PT_A25 = ("A25", "Autoestrada da Beira Alta", PORTUGAL)
 PT_A5 = ("A5", "Autoestrada da Costa do Estoril", PORTUGAL)
 PT_A26 = ("A26", "Autoestrada do Baixo Alentejo", PORTUGAL)
+PT_IC27 = ("IC27", "IC 27", PORTUGAL)
 
 # Linhas ferroviárias
 
