@@ -2169,17 +2169,9 @@ A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,False,Bailén
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,False,Jaén
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,True,Granada
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,True,Motril
-A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,False,Bailén
-A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,False,Jaén
-A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,False,Madrid
-A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,True,Granada
-A-44 - Saída 116,Cruzamento Norte da A-44 com a GR-30,Carro,False,A-92 - Málaga/Murcia
-A-44 - Saída 116,Cruzamento Norte da A-44 com a GR-30,Carro,False,Granada
-A-44 - Saída 116,Cruzamento Norte da A-44 com a GR-30,Carro,True,Jaén
-A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,False,Granada
-A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,False,Motril
-A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,True,Jaén
-A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,True,Madrid
+A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,False,Motril
+A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,True,Granada
+A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,True,Jaén
 A-45 - Saída 5,A-45 - Saída 16,Carro,False,Córdoba
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Fernán Núñez
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Málaga
@@ -4035,6 +4027,15 @@ Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,False,Sevilh
 Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,True,Almería
 Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,True,Granada - Norte
 Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,True,Jaén
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,False,A-92 - Málaga/Murcia
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,False,Granada
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,True,Bailén
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,True,Jaén
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,True,Madrid
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,False,Jaén
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,False,Madrid
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,True,Granada
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,True,Motril
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-4 - Cádiz
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-49 - Huelva
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,False,A-92 - Granada/Málaga
@@ -4085,6 +4086,14 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Cádiz/Sevilh
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,True,Dos Hermanas
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,False,Cádiz
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,True,Sevilha
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,False,Alhambra
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,False,Motril
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,False,Sierra Nevada
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,True,Jaén
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,True,Madrid
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Carro,False,Granada
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Carro,False,Jaén
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Carro,True,Motril
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Ayamonte
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Portugal
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Huelva
@@ -4394,6 +4403,12 @@ Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,Tr
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Almería
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Rincón de la Victoria
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,True,Málaga
+Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Carro,False,Jaén
+Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Carro,True,A-92 - Málaga/Murcia
+Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Carro,True,Granada
+Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Carro,False,Motril
+Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Carro,True,A-395 - Sierra Nevada
+Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Carro,True,Granada - Centro da cidade
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Algeciras
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,False,Torremolinos
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,True,Aeroporto de Málaga - Costa del Sol
@@ -4782,6 +4797,57 @@ Fuseta,Quatro Águas,Barco,False,Faro
 Fuseta,Quatro Águas,Barco,False,Portimão
 Fuseta,Quatro Águas,Barco,True,Huelva
 Fuseta,Quatro Águas,Barco,True,Vila Real de Santo António
+GR-30 - Saída 1,GR-30 - Saída 2,Carro,False,Jaén
+GR-30 - Saída 1,GR-30 - Saída 2,Carro,False,Madrid
+GR-30 - Saída 1,GR-30 - Saída 2,Carro,True,A-92 - Málaga/Murcia
+GR-30 - Saída 1,GR-30 - Saída 2,Carro,True,Granada
+GR-30 - Saída 4,GR-30 - Saída 5,Carro,False,Jaén
+GR-30 - Saída 4,GR-30 - Saída 5,Carro,False,Madrid
+GR-30 - Saída 4,GR-30 - Saída 5,Carro,True,Granada
+GR-30 - Saída 4,GR-30 - Saída 5,Carro,True,Motril
+GR-30 - Saída 5,GR-30 - Saída 6,Carro,False,Jaén
+GR-30 - Saída 5,GR-30 - Saída 6,Carro,False,Madrid
+GR-30 - Saída 5,GR-30 - Saída 6,Carro,True,Granada
+GR-30 - Saída 5,GR-30 - Saída 6,Carro,True,Motril
+GR-30 - Saída 6,GR-30 - Saída 7,Carro,False,Jaén
+GR-30 - Saída 6,GR-30 - Saída 7,Carro,False,Madrid
+GR-30 - Saída 6,GR-30 - Saída 7,Carro,True,Granada
+GR-30 - Saída 6,GR-30 - Saída 7,Carro,True,Motril
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,False,Jaén
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,False,Madrid
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,True,A-395 Ronda Sul
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,True,Alhambra
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,True,Motril
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,True,Sierra Nevada
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,False,Jaén
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,False,Madrid
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,True,A-395 Ronda Sul
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,True,Alhambra
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,True,Motril
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,True,Sierra Nevada
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,False,Jaén
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,False,Madrid
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,True,A-395 Ronda Sul
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,True,Alhambra
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,True,Motril
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,True,Sierra Nevada
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,False,Jaén
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,False,Madrid
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,True,A-395 Ronda Sul
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,True,Alhambra
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,True,Motril
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,True,Sierra Nevada
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,False,A-44 - Jaén
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,True,A-395 Ronda Sul
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,True,Alhambra
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,True,Motril
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,True,Sierra Nevada
+GR-30 - Saída 18,GR-30 - Saída 21,Carro,False,Granada
+GR-30 - Saída 18,GR-30 - Saída 21,Carro,False,Jaén
+GR-30 - Saída 18,GR-30 - Saída 21,Carro,True,Motril
+GR-30 - Saída 21,GR-30 - Saída 23,Carro,False,Granada
+GR-30 - Saída 21,GR-30 - Saída 23,Carro,False,Jaén
+GR-30 - Saída 21,GR-30 - Saída 23,Carro,True,Motril
 Grândola,Pinhal Novo,Comboio de Alta Velocidade,False,Faro
 Grândola,Pinhal Novo,Comboio de Alta Velocidade,False,Tunes
 Grândola,Pinhal Novo,Comboio de Alta Velocidade,True,Lisboa - Oriente

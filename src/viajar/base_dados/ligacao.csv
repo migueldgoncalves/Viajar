@@ -573,9 +573,7 @@ A-44 - Saída 97,A-44 - Saída 103,Carro,5.9,A-44,SO,2,1
 A-44 - Saída 103,A-44 - Saída 108,Carro,5.3,A-44,SO,2,1
 A-44 - Saída 108,A-44 - Saída 111,Carro,3.0,A-44,SO,2,1
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,3.9,A-44,S,2,1
-A-44 - Saída 116,Cruzamento da A-92 com a GR-30,Carro,2.1,GR-30,S,2,3
-A-44 - Saída 116,Cruzamento Norte da A-44 com a GR-30,Carro,1.4,GR-30,N,1,2
-A-44 - Saída 119,Cruzamento da A-92 com a GR-30,Carro,0.9,GR-30,NO,1,4
+A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,1.3,GR-30,N,1,2
 A-45 - Saída 5,A-45 - Saída 16,Carro,10.2,A-45,S,2,1
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 16,A-45 - Saída 27,Carro,10.9,A-45,SE,2,1
@@ -1294,6 +1292,8 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,1.3,A-49,E,4,1
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
 Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,3.3,A-92,NE,2,1
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,0.8,GR-30,NO,3,2
+Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,0.9,GR-30,SE,4,1
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 3,Carro,0.6,SE-30,S,1,2
 Cruzamento da A-92 com a SE-40,Cruzamento da A-376 com a SE-40,Carro,5.6,SE-40,SO,1,2
@@ -1302,6 +1302,8 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Carro,1.2,SE-30,NE,2,1
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Carro,2.6,SE-30,SO,1,2
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Carro,4.9,SE-40,SO,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1,2
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,1.3,GR-30,NO,1,2
+Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Carro,2.3,GR-30,SO,2,1
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,3.1,N-431,E,4,3
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
@@ -1419,6 +1421,8 @@ Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
 Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,0.9,IC19,O,1,2
 Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,0.6,Segunda Circular,NE,2,1
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,5.0,A-7,NO,1,2
+Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Carro,1.1,GR-30,S,2,1
+Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Carro,3.1,GR-30,N,1,2
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Carro,1.1,MA-20,NE,2,1
 Cuba,Estação de Alvito,Carro,16.7,,NO,7,3
 Cuba,Estação de Alvito,Comboio,12.2,Linha do Alentejo - Intercidades/Regional,NO,2,1
@@ -1601,6 +1605,17 @@ Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,2,3
 Giões,São Bartolomeu de Via Glória,Carro,7.0,,NO,3,2
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
+GR-30 - Saída 1,GR-30 - Saída 2,Carro,1.6,GR-30,S,2,1
+GR-30 - Saída 4,GR-30 - Saída 5,Carro,1.0,GR-30,SE,2,1
+GR-30 - Saída 5,GR-30 - Saída 6,Carro,1.3,GR-30,SE,2,1
+GR-30 - Saída 6,GR-30 - Saída 7,Carro,1.2,GR-30,S,2,1
+GR-30 - Saída 7,GR-30 - Saída 9,Carro,1.7,GR-30,SO,2,1
+GR-30 - Saída 9,GR-30 - Saída 11,Carro,2.0,GR-30,SE,2,1
+GR-30 - Saída 11,GR-30 - Saída 12,Carro,1.2,GR-30,SE,2,1
+GR-30 - Saída 12,GR-30 - Saída 13,Carro,1.0,GR-30,SE,2,1
+GR-30 - Saída 13,GR-30 - Saída 15,Carro,1.7,GR-30,S,2,1
+GR-30 - Saída 18,GR-30 - Saída 21,Carro,2.9,GR-30,SO,2,1
+GR-30 - Saída 21,GR-30 - Saída 23,Carro,2.4,GR-30,SO,2,1
 Grândola,IP8 - Cruzamento com a N261-1,Carro,5.2,,NO,9,3
 Grândola,IP8 - Cruzamento com a N261-2,Carro,9.1,,SO,8,2
 Grândola,Pinhal Novo,Comboio,69.5,Linha do Sul - Intercidades,NO,2,1

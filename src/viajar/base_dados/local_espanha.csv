@@ -368,8 +368,7 @@ A-44 - Saída 97,Iznalloz,Granada,
 A-44 - Saída 103,Deifontes,Granada,
 A-44 - Saída 108,Albolote,Granada,
 A-44 - Saída 111,Albolote,Granada,
-A-44 - Saída 116,Albolote,Granada,
-A-44 - Saída 119,Albolote,Granada,
+A-44 - Saída 144,Padul,Granada,
 A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 16,Fernán Núñez,Córdoba,
 A-45 - Saída 27,Montilla,Córdoba,
@@ -690,6 +689,7 @@ Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
 Cruzamento da A-381 com a AP-4,Jerez de la Frontera,Cádiz,Rural
 Cruzamento da A-382 com a AP-4,Jerez de la Frontera,Cádiz,
 Cruzamento da A-383 com a A-7,San Roque,Cádiz,
+Cruzamento da A-395 com a GR-30,Granada,Granada,Zaidín
 Cruzamento da A-499 com a N-431,Ayamonte,Huelva,
 Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
@@ -710,6 +710,7 @@ Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
+Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
 "Cuesta de San Vicente, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cueva de Nerja,Nerja,Málaga,
@@ -739,6 +740,20 @@ EX-A2 - Saída 23,Don Benito,Badajoz,
 Fronteira Espanha-Gibraltar - Lado espanhol,La Línea de la Concepción,Cádiz,
 Gelves,Gelves,Sevilha,
 Gibraleón,Gibraleón,Huelva,
+GR-30 - Saída 1,Albolote,Granada,
+GR-30 - Saída 2,Albolote,Granada,
+GR-30 - Saída 4,Albolote,Granada,
+GR-30 - Saída 5,Peligros,Granada,
+GR-30 - Saída 6,Peligros,Granada,
+GR-30 - Saída 7,Pulianas,Granada,
+GR-30 - Saída 9,Granada,Granada,Chana
+GR-30 - Saída 11,Granada,Granada,Ronda
+GR-30 - Saída 12,Granada,Granada,Ronda
+GR-30 - Saída 13,Granada,Granada,Ronda
+GR-30 - Saída 15,Granada,Granada,Ronda
+GR-30 - Saída 18,Ogíjares,Granada,
+GR-30 - Saída 21,Alhendín,Granada,
+GR-30 - Saída 23,Villa de Otura,Granada,
 H-31 - Saída 80,Huelva,Huelva,
 Intu Xanadú,Arroyomolinos,Comunidade de Madrid,
 Isla Cristina,Isla Cristina,Huelva,
