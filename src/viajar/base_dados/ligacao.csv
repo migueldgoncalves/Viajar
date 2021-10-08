@@ -541,6 +541,10 @@ A-7 - Saída 285,A-7 - Saída 292,Carro,6.8,A-7,E,2,1
 A-7 - Saída 292,A-7 - Saída 295,Carro,3.3,A-7,E,2,1
 A-7 - Saída 295,A-7 - Saída 305,Carro,9.7,A-7,E,2,1
 A-7 - Saída 295,Cueva de Nerja,Carro,2.2,,E,3,1
+A-7 - Saída 305,A-7 - Saída 314,Carro,9.1,A-7,E,2,1
+A-7 - Saída 314,A-7 - Saída 322,Carro,8.1,A-7,NE,2,1
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,2.5,A-7,NE,2,1
+A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,5.9,A-7,NO,1,2
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,2.4,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,2.3,A-7/AP-7,NE,2,1
@@ -573,7 +577,15 @@ A-44 - Saída 97,A-44 - Saída 103,Carro,5.9,A-44,SO,2,1
 A-44 - Saída 103,A-44 - Saída 108,Carro,5.3,A-44,SO,2,1
 A-44 - Saída 108,A-44 - Saída 111,Carro,3.0,A-44,SO,2,1
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,3.9,A-44,S,2,1
-A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,1.3,GR-30,N,1,2
+A-44 - Saída 144,A-44 - Saída 153,Carro,8.8,A-44,SE,2,1
+A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,1.3,A-44,N,1,2
+A-44 - Saída 153,A-44 - Saída 157,Carro,4.4,A-44,SE,2,1
+A-44 - Saída 157,A-44 - Saída 160,Carro,2.9,A-44,SE,2,1
+A-44 - Saída 160,A-44 - Saída 164,Carro,4.0,A-44,SE,2,1
+A-44 - Saída 164,A-44 - Saída 167,Carro,2.9,A-44,S,2,1
+A-44 - Saída 167,A-44 - Saída 175,Carro,8.4,A-44,SE,2,1
+A-44 - Saída 175,A-44 - Saída 181,Carro,6.1,A-44,S,2,1
+A-44 - Saída 181,Cruzamento da A-7 com a A-44,Carro,2.5,A-44,S,2,3
 A-45 - Saída 5,A-45 - Saída 16,Carro,10.2,A-45,S,2,1
 A-45 - Saída 5,Cruzamento da A-4 com a A-45,Carro,7.4,A-45,NO,1,4
 A-45 - Saída 16,A-45 - Saída 27,Carro,10.9,A-45,SE,2,1
@@ -625,20 +637,24 @@ A-49 - Saída 75,Cruzamento da A-49 com a H-31,Carro,3.3,A-49,SO,1,2
 A-49 - Saída 81,A-49 - Saída 87,Carro,6.3,A-49,NO,1,2
 A-49 - Saída 81,Centro Penitenciario de Huelva,Carro,3.2,,SE,4,1
 A-49 - Saída 81,Cruzamento da A-49 com a H-31,Carro,3.9,A-49,SE,2,1
-A-49 - Saída 81,H-31 - Saída 80,Carro,3.7,,SE,3,3
+A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,3.9,N-431,NO,5,2
+A-49 - Saída 81,H-31 - Saída 80,Carro,3.7,N-431,SE,3,3
 A-49 - Saída 87,A-49 - Saída 94,Carro,6.3,A-49,SO,1,2
-A-49 - Saída 87,Gibraleón,Carro,3.4,,N,3,3
+A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,2.7,H-30,S,3,1
+A-49 - Saída 87,Gibraleón,Carro,3.4,N-431,N,4,3
 A-49 - Saída 94,A-49 - Saída 99,Carro,4.6,A-49,SO,1,2
-A-49 - Saída 94,Gibraleón,Carro,8.3,,NE,3,4
+A-49 - Saída 94,Gibraleón,Carro,8.3,N-431,NE,3,4
 A-49 - Saída 99,A-49 - Saída 105,Carro,7.7,A-49,O,1,2
-A-49 - Saída 99,Cartaya,Carro,9.3,,SO,3,5
+A-49 - Saída 99,Antiga Estação de Aljaraque,Carro,2.2,,E,4,3
+A-49 - Saída 99,Cartaya,Carro,9.3,N-431,SO,3,5
 A-49 - Saída 105,A-49 - Saída 113,Carro,7.0,A-49,SO,1,2
 A-49 - Saída 105,Cartaya,Carro,6.0,,S,3,3
 A-49 - Saída 105,Tariquejo,Carro,7.7,,N,4,1
 A-49 - Saída 113,A-49 - Saída 117,Carro,3.7,A-49,SO,1,2
-A-49 - Saída 113,Cruzamento da N-431 com a N-444,Carro,3.9,,SE,3,1
+A-49 - Saída 113,Cruzamento da N-431 com a N-444,Carro,3.9,N-444,SE,3,1
 A-49 - Saída 117,A-49 - Saída 122,Carro,5.3,A-49,SO,1,2
-A-49 - Saída 117,Lepe,Carro,6.5,,SE,4,3
+A-49 - Saída 117,Cruzamento da N-431 com a N-445,Carro,3.4,N-445,SE,4,2
+A-49 - Saída 117,Lepe,Carro,6.2,,SE,5,5
 A-49 - Saída 117,Villablanca,Carro,9.1,,NO,3,3
 A-49 - Saída 122,A-49 - Saída 125,Carro,3.1,A-49,SO,1,2
 A-49 - Saída 122,Cruzamento da N-431 com a N-446,Carro,1.7,N-446,S,3,1
@@ -1165,7 +1181,7 @@ Carmona,Marchena,Carro,26.8,,SE,6,2
 Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
 Carrapateira,Vila do Bispo,Carro,13.4,,S,4,1
-Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,,O,4,3
+Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,N-431,O,4,3
 Cartaya,Lepe,Comboio,8.3,Antiga Linha Gibraleón-Ayamonte,SO,1,2
 Carvalhal,Comporta,Carro,8.6,,NO,3,1
 Carvalhal,IP8 - Cruzamento com a N261-1,Carro,17.3,,SE,2,4
@@ -1275,6 +1291,8 @@ Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,4.2,M-40,NO,1,
 Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,1.3,M-40,SE,2,1
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,2.6,R-5,E,3,1
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,1.8,M-50,SO,1,1
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,4.1,A-7,SO,1,2
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,6.3,A-7,SE,2,1
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,4.8,A-7 - Ronda Oeste de Málaga,SE,2,1
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Carro,1.6,A-7,NE,2,1
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Carro,7.4,R-4,NO,1,2
@@ -1312,6 +1330,9 @@ Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,S
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,0.8,N-431,E,3,1
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,5.9,N-431,O,1,4
+Cruzamento da HU-3400 com a N-431,La Redondela,Carro,4.9,,SO,2,3
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
@@ -1408,7 +1429,8 @@ Cruzamento da N266 com a N267 Oeste,Marmelete,Carro,14.2,,NO,2,1
 Cruzamento da N266 com a N267 Oeste,Monchique,Carro,2.7,,NE,1,4
 Cruzamento da N269 com a N269-2,Ferreiras,Carro,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Carro,2.3,,NE,2,3
-Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,,SO,2,4
+Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,N-431,SO,2,4
+Cruzamento da N-431 com a N-445,Lepe,Carro,2.9,N-431,E,3,3
 Cruzamento da N-431 com a N-446,Pozo del Camino,Carro,2.8,,S,2,2
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,0.8,SE-20,N,3,1
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,1.2,SE-30,E,1,2

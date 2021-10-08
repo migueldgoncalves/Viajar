@@ -2041,6 +2041,23 @@ A-7 - Saída 295,A-7 - Saída 305,Carro,False,Nerja
 A-7 - Saída 295,A-7 - Saída 305,Carro,True,Almería
 A-7 - Saída 295,A-7 - Saída 305,Carro,True,Almuñécar
 A-7 - Saída 295,A-7 - Saída 305,Carro,True,Motril
+A-7 - Saída 305,A-7 - Saída 314,Carro,False,Almuñécar - Oeste
+A-7 - Saída 305,A-7 - Saída 314,Carro,False,Málaga
+A-7 - Saída 305,A-7 - Saída 314,Carro,True,Almería
+A-7 - Saída 305,A-7 - Saída 314,Carro,True,Motril
+A-7 - Saída 314,A-7 - Saída 322,Carro,False,Almuñécar
+A-7 - Saída 314,A-7 - Saída 322,Carro,False,Málaga
+A-7 - Saída 314,A-7 - Saída 322,Carro,True,Almería
+A-7 - Saída 314,A-7 - Saída 322,Carro,True,Motril
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,False,Almuñécar
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,False,Málaga
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,A-44 - Granada
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,Almería
+A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,Motril
+A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,False,Adra
+A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,False,Almería
+A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,True,Málaga
+A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,True,Motril
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras
@@ -2169,9 +2186,31 @@ A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,False,Bailén
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,False,Jaén
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,True,Granada
 A-44 - Saída 111,Cruzamento Norte da A-44 com a GR-30,Carro,True,Motril
+A-44 - Saída 144,A-44 - Saída 153,Carro,False,Granada
+A-44 - Saída 144,A-44 - Saída 153,Carro,False,Jaén
+A-44 - Saída 144,A-44 - Saída 153,Carro,True,Motril
 A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,False,Motril
 A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,True,Granada
 A-44 - Saída 144,Cruzamento Sul da A-44 com a GR-30,Carro,True,Jaén
+A-44 - Saída 153,A-44 - Saída 157,Carro,False,Granada
+A-44 - Saída 153,A-44 - Saída 157,Carro,False,Jaén
+A-44 - Saída 153,A-44 - Saída 157,Carro,True,Motril
+A-44 - Saída 157,A-44 - Saída 160,Carro,False,Dúrcal
+A-44 - Saída 157,A-44 - Saída 160,Carro,False,Granada
+A-44 - Saída 157,A-44 - Saída 160,Carro,True,Motril
+A-44 - Saída 160,A-44 - Saída 164,Carro,False,Granada
+A-44 - Saída 160,A-44 - Saída 164,Carro,True,Motril
+A-44 - Saída 164,A-44 - Saída 167,Carro,False,Granada
+A-44 - Saída 164,A-44 - Saída 167,Carro,False,Jaén
+A-44 - Saída 164,A-44 - Saída 167,Carro,True,Motril
+A-44 - Saída 167,A-44 - Saída 175,Carro,False,Granada
+A-44 - Saída 167,A-44 - Saída 175,Carro,True,Motril
+A-44 - Saída 175,A-44 - Saída 181,Carro,False,Granada
+A-44 - Saída 175,A-44 - Saída 181,Carro,True,Motril
+A-44 - Saída 181,Cruzamento da A-7 com a A-44,Carro,False,Granada
+A-44 - Saída 181,Cruzamento da A-7 com a A-44,Carro,False,Jaén
+A-44 - Saída 181,Cruzamento da A-7 com a A-44,Carro,False,Vélez de Benaudalla
+A-44 - Saída 181,Cruzamento da A-7 com a A-44,Carro,True,Motril
 A-45 - Saída 5,A-45 - Saída 16,Carro,False,Córdoba
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Fernán Núñez
 A-45 - Saída 5,A-45 - Saída 16,Carro,True,Málaga
@@ -2321,18 +2360,35 @@ A-49 - Saída 81,A-49 - Saída 87,Carro,True,Gibraleón
 A-49 - Saída 81,A-49 - Saída 87,Carro,True,Portugal
 A-49 - Saída 81,Cruzamento da A-49 com a H-31,Carro,False,Portugal
 A-49 - Saída 81,Cruzamento da A-49 com a H-31,Carro,True,Sevilha
+A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,False,Sevilha
+A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,True,Gibraleón
+A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,True,Portugal
+A-49 - Saída 81,H-31 - Saída 80,Carro,False,Gibraleón
+A-49 - Saída 81,H-31 - Saída 80,Carro,False,Portugal
+A-49 - Saída 81,H-31 - Saída 80,Carro,True,Huelva
 A-49 - Saída 87,A-49 - Saída 94,Carro,False,Gibraleón
 A-49 - Saída 87,A-49 - Saída 94,Carro,False,Huelva
 A-49 - Saída 87,A-49 - Saída 94,Carro,True,Cartaya
 A-49 - Saída 87,A-49 - Saída 94,Carro,True,Portugal
+A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,False,A-49 - Sevilha
+A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,False,Gibraleón
+A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,False,Portugal
+A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,True,Huelva
+A-49 - Saída 87,Gibraleón,Carro,False,Huelva
+A-49 - Saída 87,Gibraleón,Carro,True,Gibraleón
 A-49 - Saída 94,A-49 - Saída 99,Carro,False,Huelva Norte
 A-49 - Saída 94,A-49 - Saída 99,Carro,False,Sevilha
 A-49 - Saída 94,A-49 - Saída 99,Carro,True,Cartaya
 A-49 - Saída 94,A-49 - Saída 99,Carro,True,Portugal
+A-49 - Saída 94,Gibraleón,Carro,False,Cartaya
+A-49 - Saída 94,Gibraleón,Carro,False,Portugal
+A-49 - Saída 94,Gibraleón,Carro,True,Gibraleón
 A-49 - Saída 99,A-49 - Saída 105,Carro,False,Gibraleón
 A-49 - Saída 99,A-49 - Saída 105,Carro,False,Huelva
 A-49 - Saída 99,A-49 - Saída 105,Carro,True,Cartaya
 A-49 - Saída 99,A-49 - Saída 105,Carro,True,Portugal
+A-49 - Saída 99,Cartaya,Carro,False,Gibraleón
+A-49 - Saída 99,Cartaya,Carro,True,Cartaya
 A-49 - Saída 105,A-49 - Saída 113,Carro,False,Cartaya
 A-49 - Saída 105,A-49 - Saída 113,Carro,False,Huelva
 A-49 - Saída 105,A-49 - Saída 113,Carro,True,Lepe
@@ -2341,10 +2397,17 @@ A-49 - Saída 113,A-49 - Saída 117,Carro,False,Huelva
 A-49 - Saída 113,A-49 - Saída 117,Carro,False,Lepe
 A-49 - Saída 113,A-49 - Saída 117,Carro,True,Lepe
 A-49 - Saída 113,A-49 - Saída 117,Carro,True,Portugal
+A-49 - Saída 113,Cruzamento da N-431 com a N-444,Carro,False,A-49 - Huelva/Portugal
+A-49 - Saída 113,Cruzamento da N-431 com a N-444,Carro,True,Cartaya
+A-49 - Saída 113,Cruzamento da N-431 com a N-444,Carro,True,Lepe
 A-49 - Saída 117,A-49 - Saída 122,Carro,False,Huelva
 A-49 - Saída 117,A-49 - Saída 122,Carro,False,Lepe
 A-49 - Saída 117,A-49 - Saída 122,Carro,True,Ayamonte
 A-49 - Saída 117,A-49 - Saída 122,Carro,True,Portugal
+A-49 - Saída 117,Cruzamento da N-431 com a N-445,Carro,False,A-49 - Huelva/Portugal
+A-49 - Saída 117,Cruzamento da N-431 com a N-445,Carro,False,Villablanca
+A-49 - Saída 117,Cruzamento da N-431 com a N-445,Carro,True,Lepe
+A-49 - Saída 117,Cruzamento da N-431 com a N-445,Carro,True,Praias
 A-49 - Saída 122,A-49 - Saída 125,Carro,False,Huelva
 A-49 - Saída 122,A-49 - Saída 125,Carro,False,Lepe
 A-49 - Saída 122,A-49 - Saída 125,Carro,True,Ayamonte
@@ -3625,6 +3688,9 @@ Canal Caveira,Grândola,Carro,False,Faro
 Canal Caveira,Grândola,Carro,False,Ourique
 Canal Caveira,Grândola,Carro,True,Grândola
 Canal Caveira,Grândola,Carro,True,Lisboa
+Cartaya,Cruzamento da N-431 com a N-444,Carro,False,Cartaya
+Cartaya,Cruzamento da N-431 com a N-444,Carro,True,Lepe
+Cartaya,Cruzamento da N-431 com a N-444,Carro,True,Portugal
 Cartaya,Lepe,Comboio,False,Gibraleón
 Cartaya,Lepe,Comboio,False,Huelva
 Cartaya,Lepe,Comboio,False,Zafra
@@ -3924,6 +3990,17 @@ Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-5
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-42
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,Las Rozas de Madrid
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,Majadahonda
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,False,A-44 - Granada/Jaén
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,False,Almería
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,True,Almuñécar
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,True,GR-14 - Motril/Porto de Motril/Salobreña
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-14,Carro,True,Málaga
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,False,A-44 - Granada
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,False,Almuñécar
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,False,Málaga
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,False,Salobreña
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,True,Almería
+Cruzamento da A-7 com a A-44,Cruzamento da A-7 com a GR-16,Carro,True,GR-16 - Motril/Porto de Motril
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,False,A-357 - Cártama
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,False,Algeciras
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Carro,False,AP-46 - Córdoba
@@ -4128,6 +4205,14 @@ Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Ayamonte
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Portugal
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Praia de La Redondela
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,True,Huelva
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,True,Lepe
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Lepe
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Ayamonte
+Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Portugal
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
@@ -4362,6 +4447,14 @@ Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,False,Loulé
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,A22
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Aeroporto de Faro
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Carro,True,Faro
+Cruzamento da N-431 com a N-444,Lepe,Carro,False,Cartaya
+Cruzamento da N-431 com a N-444,Lepe,Carro,True,Lepe
+Cruzamento da N-431 com a N-444,Lepe,Carro,True,Praia de Islantilla
+Cruzamento da N-431 com a N-444,Lepe,Carro,True,Praia de La Antilla
+Cruzamento da N-431 com a N-445,Lepe,Carro,False,Ayamonte
+Cruzamento da N-431 com a N-445,Lepe,Carro,False,Portugal
+Cruzamento da N-431 com a N-445,Lepe,Carro,True,Huelva
+Cruzamento da N-431 com a N-445,Lepe,Carro,True,Lepe
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,A-49 - Huelva
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,A-66 - Mérida
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,False,Isla Mágica

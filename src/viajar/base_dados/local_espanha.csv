@@ -341,6 +341,9 @@ A-7 - Saída 285,Torrox,Málaga,
 A-7 - Saída 292,Frigiliana,Málaga,
 A-7 - Saída 295,Nerja,Málaga,
 A-7 - Saída 305,Almuñécar,Granada,
+A-7 - Saída 314,Almuñécar,Granada,
+A-7 - Saída 322,Salobreña,Granada,
+A-7 - Saída 342,Motril,Granada,
 A-7/AP-7 - Saída 155,Estepona,Málaga,
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
@@ -369,6 +372,13 @@ A-44 - Saída 103,Deifontes,Granada,
 A-44 - Saída 108,Albolote,Granada,
 A-44 - Saída 111,Albolote,Granada,
 A-44 - Saída 144,Padul,Granada,
+A-44 - Saída 153,Villamena,Granada,
+A-44 - Saída 157,Nigüelas,Granada,
+A-44 - Saída 160,Lecrín,Granada,
+A-44 - Saída 164,Lecrín,Granada,
+A-44 - Saída 167,El Pinar,Granada,
+A-44 - Saída 175,Vélez de Benaudalla,Granada,
+A-44 - Saída 181,Vélez de Benaudalla,Granada,
 A-45 - Saída 5,Córdoba,Córdoba,
 A-45 - Saída 16,Fernán Núñez,Córdoba,
 A-45 - Saída 27,Montilla,Córdoba,
@@ -655,8 +665,11 @@ Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
 Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
+Cruzamento da A-7 com a A-44,Vélez de Benaudalla,Granada,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
 Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
+Cruzamento da A-7 com a GR-14,Motril,Granada,
+Cruzamento da A-7 com a GR-16,Motril,Granada,
 Cruzamento da A-7 com a MA-20,Málaga,Málaga,Palma-Palmilla
 Cruzamento da A-32 com a A-44,Bailén,Jaén,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
@@ -697,6 +710,8 @@ Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
 Cruzamento da CA-35 com a CA-36,Puerto Real,Cádiz,
 Cruzamento da H-30 com a H-31,Huelva,Huelva,
+Cruzamento da H-30 com a N-431,Huelva,Huelva,
+Cruzamento da HU-3400 com a N-431,Lepe,Huelva,
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
@@ -705,6 +720,7 @@ Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
 Cruzamento da M-50 com a R-4,Getafe,Comunidade de Madrid,
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
+Cruzamento da N-431 com a N-445,Lepe,Huelva,
 Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
