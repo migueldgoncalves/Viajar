@@ -3819,6 +3819,19 @@ Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26 - Beja
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26-1 - Vila Nova de Santo André
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Odemira
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Porto de Sines
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,A-4 - Córdoba
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,A-5
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,A-6
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,A-42
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,Madrid - Calle Méndez Álvaro
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,False,Terminal Rodoviário Sul de Madrid
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,A-1
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,A-2
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,Feria de Madrid
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,Madrid - Avenida del Doctor García Tapia
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,Madrid - Calle de O'Donnell
+Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,True,R-3 - Valencia
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-1
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-2 - Zaragoza
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,False,A-6
@@ -4213,6 +4226,31 @@ Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,True,Lep
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Lepe
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Ayamonte
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Portugal
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-3 - Valencia
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-4
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-5
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-42
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,A-1 - Burgos
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,A-2 - Zaragoza
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,A-6
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,Feria de Madrid
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,Madrid - Calle de Alcalá
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,Madrid - Calle de Costa Rica
+Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,True,Madrid - Calle de San Marcelo
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,A-1 - Burgos
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,A-2 - Zaragoza
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,A-6
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,Feria de Madrid
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,Madrid - Calle de Alcalá
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,Madrid - Calle de Costa Rica
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,False,Madrid - Calle de San Marcelo
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-3 - Valencia
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-4
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-5
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-6
+Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-42
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
@@ -5175,6 +5213,18 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,A-1 - Burgos
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,A-2 - Zaragoza
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,A-6
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,Feria de Madrid
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,M-607
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,Madrid - Calle de Costa Rica
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,False,Madrid - Calle de Salvador de Madariaga
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,True,A-3 - Valencia
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,True,A-4
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,True,A-5
+M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,True,A-42
 M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-1
 M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-2
 M-30 - Saída 10,M-30 - Saída 11,Carro,False,A-3
