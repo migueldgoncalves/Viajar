@@ -1265,6 +1265,8 @@ Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,1.2,IC19,SE,4,1
 Cruzamento da A16 com o IC19,Ranholas,Carro,0.6,N9,O,3,1
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,3.6,IP8,S,3,4
 Cruzamento da A26 com a A26-1,Sines,Carro,3.5,,SO,4,4
+Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,0.8,M-30,N,2,1
+Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Carro,0.8,M-30,S,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,0.7,M-30,NE,2,1
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,1.4,M-30,SO,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,5.7,M-30 - Bypass Sul,SO,3,3
@@ -1739,6 +1741,8 @@ Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 "Luz, Lagos",N125 - Acesso à Saída 1 da A22,Carro,4.2,,NE,2,5
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
+M-30 - Saída 3,M-30 - Saída 4,Carro,1.0,M-30,S,1,2
+M-30 - Saída 5B-6A,M-30 - Saída 6A-B,Carro,0.8,M-30,S,1,2
 M-30 - Saída 6A-B,M-30 - Saída 6B,Carro,0.7,M-30,S,1,2
 M-30 - Saída 10,M-30 - Saída 11,Carro,0.5,M-30,SO,1,2
 M-30 - Saída 15,M-30 - Saída 16,Carro,1.1,M-30,NO,1,2
