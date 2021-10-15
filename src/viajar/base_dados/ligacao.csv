@@ -146,6 +146,11 @@ A26-1 - Saída 1,A26-1 - Saída 2,Carro,6.2,A26-1,NE,2,1
 A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,2.3,A26-1,S,1,2
 A26-1 - Saída 2,A26-1 - Saída 3,Carro,2.0,A26-1,NE,2,1
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,1.0,A26-1,N,2,1
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,0.8,A-2,SO,1,1
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,0.5,A-2,NE,2,3
+A-2 - Saída 4C,A-2 - Saída 5,Carro,0.8,A-2,NE,2,1
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,0.7,A-2,SO,1,4
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,1.6,A-2,E,2,1
 A-4 - Saída 69,A-4 - Saída 70,Carro,2.3,A-4,S,1,2
 A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,1.2,A-4,N,2,1
 A-4 - Saída 70,A-4 - Saída 72,Carro,2.7,A-4,S,1,2

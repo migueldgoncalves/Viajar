@@ -1,4 +1,8 @@
 Nome,Município,Província,Distrito
+A-2 - Saída 3,Madrid,Comunidade de Madrid,Chamartín
+A-2 - Saída 4C,Madrid,Comunidade de Madrid,Ciudad Lineal
+A-2 - Saída 5,Madrid,Comunidade de Madrid,Hortaleza
+A-2 - Saída 7-8,Madrid,Comunidade de Madrid,San Blas-Canillejas
 A-4 - Saída 69,Ocaña,Toledo,
 A-4 - Saída 70,Dosbarrios,Toledo,
 A-4 - Saída 72,Dosbarrios,Toledo,
@@ -614,6 +618,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Río Castor,Estepona,Málaga,
 Área de Serviço de Seseña,Seseña,Toledo,
 Aroche,Aroche,Huelva,
+"Avenida de América, Madrid",Madrid,Comunidade de Madrid,Chamartín
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
 "Avenida de Jacinto Benavente, Málaga",Málaga,Málaga,Ciudad Jardín
 "Avenida de Kansas City, Sevilha",Sevilha,Sevilha,San Pablo-Santa Justa

@@ -504,6 +504,31 @@ A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Odemira
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Sines
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Melides
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Tróia
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-30 - Todas as direcções
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-40 - Todas as direcções
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Zaragoza
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,True,Madrid - Avenida de América
+A-2 - Saída 3,"Avenida de América, Madrid",Carro,True,Madrid - Centro da cidade
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,False,Madrid - Avenida de América
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,False,Madrid - Centro da cidade
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,True,Aeroporto de Madrid-Barajas
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,True,M-40 - Todas as direcções
+A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,True,Zaragoza
+A-2 - Saída 4C,A-2 - Saída 5,Carro,False,M-30 - Todas as direcções
+A-2 - Saída 4C,A-2 - Saída 5,Carro,False,Madrid
+A-2 - Saída 4C,A-2 - Saída 5,Carro,True,Aeroporto de Madrid-Barajas
+A-2 - Saída 4C,A-2 - Saída 5,Carro,True,Feria de Madrid
+A-2 - Saída 4C,A-2 - Saída 5,Carro,True,Zaragoza
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,False,Feria de Madrid
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,False,Zaragoza
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,M-30
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,Madrid - Avenida de América
+A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,Madrid - Centro da cidade
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,Madrid
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Aeroporto de Madrid-Barajas
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Zaragoza
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Madrid
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Ocaña
 A-4 - Saída 69,A-4 - Saída 70,Carro,True,Bailén
