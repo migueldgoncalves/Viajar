@@ -33,7 +33,7 @@ A5 - Fim,A5 - Saída 12,Carro,0.5,A5,E,1,2
 A5 - Saída 1,A5 - Saída 2,Carro,1.6,A5,O,4,1
 A5 - Saída 1,"Avenida Engenheiro Duarte Pacheco, Lisboa",Carro,1.1,A5,E,3,1
 A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,1.6,Eixo Norte-Sul,S,2,1
-A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,0.7,Eixo Norte-Sul,NE,1,1
+A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,0.7,Eixo Norte-Sul,NE,1,2
 A5 - Saída 2,A5 - Saída 3,Carro,1.5,A5,SO,2,1
 A5 - Saída 3,A5 - Saída 4,Carro,1.0,A5,SO,2,1
 A5 - Saída 4,A5 - Saída 5,Carro,1.4,A5,O,2,1
@@ -1472,6 +1472,8 @@ Dunas de Vila Real de Santo António,Monte Gordo,Carro,1.7,,O,1,2
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Carro,2.0,,NE,2,4
 Écija,Estepa,Carro,37.9,,SE,4,2
 Écija,Osuna,Carro,35.1,,S,3,2
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,1.3,Eixo Norte-Sul,N,1,2
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,1.2,Radial de Benfica,NO,1,2
 El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
 El Granado,Sanlúcar de Guadiana,Carro,7.8,,SO,1,1
@@ -1938,6 +1940,7 @@ R-4 - Saída 29,R-4 - Saída 32,Carro,2.8,R-4,SE,2,1
 R-4 - Saída 32,R-4 - Saída 38,Carro,5.9,R-4,SE,2,1
 R-5 - Saída 9,R-5 - Saída 11,Carro,3.5,R-5,SO,1,2
 R-5 - Saída 20,R-5 - Saída 28,Carro,8.5,R-5,O,1,2
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,1.3,Radial de Benfica,O,1,3
 Raposeira,Vila do Bispo,Carro,1.9,N125,O,2,2
 Ribeira do Vascão,Santa Marta,Carro,3.6,N122,S,1,2
 Ribeira do Vascão,Sedas,Carro,2.7,N122,NO,2,2
@@ -1988,6 +1991,9 @@ SE-30 - Saída 21,Sevilha - Parque de Alamillo,Carro,0.8,,N,3,2
 SE-40 - Reinício,SE-40 - Saída 35,Carro,6.9,SE-40,O,1,2
 Sedas,"Vicentes, Mértola",Carro,3.0,,NO,4,1
 Sedas,Zambujal,Carro,1.3,,SO,5,1
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,0.6,Segunda Circular,SO,1,2
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,0.4,Segunda Circular,NE,2,1
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,0.6,Segunda Circular,SO,1,2
 Serpa,Vila Nova de São Bento,Carro,18.1,IP8,E,3,1
 Serro da Vinha de Baixo,Serro da Vinha de Cima,Carro,0.8,,SE,3,1
 Sobral da Adiça,Vila Verde de Ficalho,Carro,12.7,,SO,2,3

@@ -4568,12 +4568,11 @@ Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,True,Alfragide
 Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,True,Amadora
 Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,True,Sintra
 Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,A5 - Cascais
-Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,Algés
-Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,IC17 CRIL
-Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,IC19 - Sintra
+Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,IC17 CRIL - Algés
+Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,False,IC19 - Amadora/Sintra
 Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,True,A2 - Sul
 Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,True,Aeroporto de Lisboa
-Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,True,Campolide
+Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,True,Lisboa - Campolide
 Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,True,Lisboa - Centro da cidade
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Almería
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,False,Rincón de la Victoria
@@ -4608,6 +4607,18 @@ Don Benito,Villanueva de la Serena,Comboio,True,Alcázar de San Juan
 Don Benito,Villanueva de la Serena,Comboio,True,Cabeza del Buey
 Don Benito,Villanueva de la Serena,Comboio,True,Ciudad Real
 Don Benito,Villanueva de la Serena,Comboio,True,Puertollano
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,False,A2 - Sul
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,False,Lisboa - Alcântara
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,False,Lisboa - Belém
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,True,A1 - Norte
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,True,Jardim Zoológico de Lisboa
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,True,Lisboa - Sete Rios
+Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,True,Segunda Circular
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,False,Eixo Norte-Sul - A1 Norte/A2 Sul
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,False,Lisboa - Campolide
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,IC17 CRIL - Algés
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,IC19 - Sintra
+Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,Lisboa - Benfica
 Entradas,IP2 - Saída 47,Carro,False,A2
 Entradas,IP2 - Saída 47,Carro,False,Castro Verde
 Entradas,IP2 - Saída 47,Carro,False,Entradas
@@ -5651,6 +5662,13 @@ R-5 - Saída 20,R-5 - Saída 28,Carro,False,Móstoles
 R-5 - Saída 20,R-5 - Saída 28,Carro,True,Badajoz
 R-5 - Saída 20,R-5 - Saída 28,Carro,True,Navalcarnero
 R-5 - Saída 20,R-5 - Saída 28,Carro,True,Talavera de la Reina
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,False,A2 - Sul
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,False,Jardim Zoológico de Lisboa
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,False,Lisboa - Campolide
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,False,Lisboa - Sete Rios
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,True,A5 - Cascais
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC17 CRIL - Algés
+Radial de Benfica - Acesso a Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC19 - Sintra
 Raposeira,Vila do Bispo,Carro,False,Lagos
 Raposeira,Vila do Bispo,Carro,False,Portimão
 Raposeira,Vila do Bispo,Carro,True,Sagres
@@ -5761,6 +5779,25 @@ SE-30 - Saída 14,SE-30 - Saída 15,Carro,True,Coria del Río
 SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Coria del Río/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Huelva/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,Almensilla
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,A-1 - Norte
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,Lisboa - Campo Grande
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,True,A5 - Cascais
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,True,IC17 CRIL - Algés
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,True,IC19 - Sintra
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,True,Parque Florestal de Monsanto
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,False,A5 - Cascais
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,False,IC17 CRIL - Algés
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,False,IC19 - Sintra
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,False,Parque Florestal de Monsanto
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,True,A1 - Norte
+Segunda Circular - Benfica,Segunda Circular - Estrada de Benfica,Carro,True,Aeroporto de Lisboa
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,False,Eixo Norte-Sul
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,False,Lisboa - Centro da cidade
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,A5 - Cascais
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC17 CRIL - Algés
+Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC19 - Amadora/Sintra
 Serpa,Vila Nova de São Bento,Carro,False,Beja
 Serpa,Vila Nova de São Bento,Carro,False,Lisboa
 Serpa,Vila Nova de São Bento,Carro,True,Vila Nova de São Bento
