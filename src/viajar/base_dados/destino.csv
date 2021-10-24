@@ -4548,6 +4548,20 @@ Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,False,A-49 - Huelva
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,False,A-66 - Mérida
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Ronda Urbana Norte de Sevilha
 Cruzamento da SE-20 com a SE-30,SE-30 - Saída 21,Carro,True,Sevilha - Rua Torneo
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,False,A1 - Norte
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,False,Aeroporto de Lisboa
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,False,Eixo Norte-Sul
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,False,Lisboa - Campo Grande
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,False,Lisboa - Centro da cidade
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,True,IC19 - Sintra
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,True,Lisboa - Benfica
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Saída 7,Carro,True,Parque Florestal de Monsanto
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,False,Eixo Norte-Sul
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,False,IC19 - Sintra
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,False,Lisboa - Benfica
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,True,A1 - Norte
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,True,Aeroporto de Lisboa
+Cruzamento do Eixo Norte-Sul com a Segunda Circular,Segunda Circular - Telheiras,Carro,True,Lisboa - Campo Grande
 Cruzamento do IC1 com o IP8,Grândola,Carro,False,Alcácer do Sal
 Cruzamento do IC1 com o IP8,Grândola,Carro,False,Lisboa
 Cruzamento do IC1 com o IP8,Grândola,Carro,True,Grândola
@@ -5779,7 +5793,13 @@ SE-30 - Saída 14,SE-30 - Saída 15,Carro,True,Coria del Río
 SE-40 - Reinício,SE-40 - Saída 35,Carro,False,A-8058 - Coria del Río/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,A-49 - Huelva/Sevilha
 SE-40 - Reinício,SE-40 - Saída 35,Carro,True,Almensilla
-Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,A-1 - Norte
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,False,IC17 CRIL - Algés
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,False,IC19 - Sintra
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,False,Parque Florestal de Monsanto
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,True,A1 - Norte
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,True,Aeroporto de Lisboa
+Segunda Circular - Avenida Lusíada,Segunda Circular - Centro Comercial Colombo,Carro,True,Lisboa - Campo Grande
+Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,A1 - Norte
 Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,Aeroporto de Lisboa
 Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,False,Lisboa - Campo Grande
 Segunda Circular - Avenida Lusíada,Segunda Circular - Estrada de Benfica,Carro,True,A5 - Cascais
@@ -5798,6 +5818,12 @@ Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,False,Lisb
 Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,A5 - Cascais
 Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC17 CRIL - Algés
 Segunda Circular - Benfica,Segunda Circular - Radial de Benfica,Carro,True,IC19 - Amadora/Sintra
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,False,IC19 - Sintra
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,False,Lisboa - Benfica
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,False,Parque Florestal de Monsanto
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,A1 - Norte
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,Aeroporto de Lisboa
+Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,Lisboa - Campo Grande
 Serpa,Vila Nova de São Bento,Carro,False,Beja
 Serpa,Vila Nova de São Bento,Carro,False,Lisboa
 Serpa,Vila Nova de São Bento,Carro,True,Vila Nova de São Bento
