@@ -30,11 +30,11 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
 
         latitude_origem, longitude_destino = origem
         latitude_destino, longitude_destino = destino
-        diff_lat: float = destino[0] - origem[0]
-        diff_lon: float = destino[1] - origem[1]
+        diff_lat: float = float(destino[0]) - float(origem[0])
+        diff_lon: float = float(destino[1]) - float(origem[1])
 
         parametro_1: float = sin(_para_radianos(diff_lat / 2)) ** 2
-        parametro_2: float = cos(_para_radianos(latitude_origem)) * cos(_para_radianos(latitude_destino)) * (
+        parametro_2: float = cos(_para_radianos(float(latitude_origem))) * cos(_para_radianos(float(latitude_destino))) * (
                 sin(_para_radianos(diff_lon / 2)) ** 2)
         distancia: float = 2 * RAIO_TERRA * asin(sqrt(parametro_1 + parametro_2))
 
@@ -46,8 +46,8 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
     distancia_norte_sul: float = _obter_distancia_haversine((origem[0], 0), (destino[0], 0))  # Será sempre >= 0
     distancia_este_oeste: float = _obter_distancia_haversine((0, origem[1]), (0, destino[1]))  # Será sempre >= 0
 
-    diff_lat: float = destino[0] - origem[0]
-    diff_lon: float = destino[1] - origem[1]
+    diff_lat: float = float(destino[0]) - float(origem[0])
+    diff_lon: float = float(destino[1]) - float(origem[1])
 
     if diff_lat == 0:
         if diff_lon > 0:

@@ -14,7 +14,7 @@ NOROESTE = haversine.NOROESTE
 obter_ponto_cardeal = haversine.obter_ponto_cardeal
 
 
-class TestGeradorInformacao(unittest.TestCase):
+class TestHaversine(unittest.TestCase):
 
     def test_obter_ponto_cardeal_mesmo_ponto(self):
         self.assertEqual("", obter_ponto_cardeal((39.0, 0), (39.0, 0)))

@@ -11,6 +11,7 @@ except:
 
 import viajar.vias as vias
 import viajar.ordenador as ordenador
+import viajar.haversine as haversine
 
 
 class Path:
@@ -68,6 +69,12 @@ OSM_GIBRALTAR: Path = Path(PASTA_OSM, 'gibraltar-latest.osm.pbf')
 OSM_PORTUGAL: Path = Path(PASTA_OSM, 'portugal-latest.osm.pbf')
 OSM_ESPANHA: Path = Path(PASTA_OSM, 'spain-latest.osm.pbf')
 
+OPCAO_SAIR = 0
+OPCAO_LOCAIS_DIV_ADMIN = 1
+OPCAO_LIGACOES_DESTINOS = 2
+OPCAO_CIMA_BAIXO = 1
+OPCAO_BAIXO_CIMA = 2
+
 # Parâmetros do OpenStreetMap
 
 TIPO_NO: str = "n"  # Node
@@ -99,18 +106,74 @@ class GeradorInformacao:
         self.municipio_path: Path = Path(PASTA_TEMP, f'{self.auto_estrada_numero}_municipio.csv')
         self.comarca_path: Path = Path(PASTA_TEMP, f'{self.auto_estrada_numero}_comarca.csv')
         self.concelho_path: Path = Path(PASTA_TEMP, f'{self.auto_estrada_numero}_concelho.csv')
+        self.ligacao_path: Path = Path(PASTA_TEMP, f'{self.auto_estrada_numero}_ligacao.csv')
+        self.destino_path: Path = Path(PASTA_TEMP, f'{self.auto_estrada_numero}_destino.csv')
 
-        if os.path.exists(self.local_path.path):
-            print(f'A auto-estrada {self.auto_estrada_numero} parece já ter sido processada antes.')
-            print(f'Se continuar, irá reescrever os ficheiros criados. Deseja prosseguir?')
-            while True:
-                opcao = repr(input(f'Escreva S para prosseguir ou N para cancelar a operação, depois pressione ENTER:'))
-                if 's' in opcao.lower():
-                    print()
-                    break
-                elif 'n' in opcao.lower():
-                    print(f'Processamento da {self.auto_estrada_numero} cancelado')
-                    exit(0)
+        print("Bem-vindo/a ao gerador automático de informação.")
+        print("Escreva a opção desejada e pressione ENTER.")
+        print(f"{OPCAO_SAIR} - Sair do programa")
+        print(f"{OPCAO_LOCAIS_DIV_ADMIN} - Gerar locais e divisões administrativas da {self.auto_estrada_numero}")
+        print(f"{OPCAO_LIGACOES_DESTINOS} - Gerar ligações e destinos da {self.auto_estrada_numero}")
+        while True:
+            opcao = input("Escreva a opção desejada e pressione ENTER: ")
+            if opcao == str(OPCAO_SAIR):
+                print("Escolheu sair.")
+                print("Boa viagem!")
+                exit(0)
+            elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
+                print(f"Escolheu gerar os locais e divisões administrativas da {self.auto_estrada_numero}.")
+                self.opcao_obter_locais_divs_admins()
+                break
+            elif opcao == str(OPCAO_LIGACOES_DESTINOS):
+                print(f"Escolheu gerar as ligações e destinos da {self.auto_estrada_numero}.")
+                self.opcao_obter_ligacoes_destinos()
+                break
+        exit(0)
+
+    def opcao_obter_ligacoes_destinos(self):
+        """
+        A partir de um ficheiro de locais de uma auto-estrada, cria os ficheiros de ligações e de destinos correspondentes
+        """
+        if not os.path.exists(self.local_path.path):
+            print(f'O ficheiro de locais da {self.auto_estrada_numero} não existe.')
+            print(f'Execute este programa novamente e seleccione a opção {OPCAO_LOCAIS_DIV_ADMIN}.')
+            exit(0)
+        aviso: str = f'A auto-estrada {self.auto_estrada_numero} parece já ter um ficheiro de ligações.'
+        self._detector_ficheiro_repetido(self.ligacao_path.path, aviso)
+        aviso: str = f'A auto-estrada {self.auto_estrada_numero} parece já ter um ficheiro de destinos.'
+        self._detector_ficheiro_repetido(self.destino_path.path, aviso)
+
+        print(f'Como deseja que a auto-estrada {self.auto_estrada_numero} seja ordenada?')
+        print("Escreva a opção desejada e pressione ENTER")
+        print(f"{OPCAO_SAIR} - Sair do programa")
+        print(f"{OPCAO_CIMA_BAIXO} - De cima para baixo")
+        print(f"{OPCAO_BAIXO_CIMA} - De baixo para cima")
+        while True:
+            opcao = input("Escreva a opção desejada e pressione ENTER: ")
+            if opcao == str(OPCAO_SAIR):
+                print("Escolheu sair.")
+                print("Boa viagem!")
+                exit(0)
+            elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
+                print("A auto-estrada será ordenada de cima para baixo")
+                invertido: bool = False
+                break
+            elif opcao == str(OPCAO_LIGACOES_DESTINOS):
+                print(f"A auto-estrada será ordenada de baixo para cima")
+                invertido: bool = True
+                break
+
+        self.create_ficheiros_ligacoes_destinos(invertido=invertido)
+        print(f'Auto-estrada {self.auto_estrada_numero} processada')
+        print("Boa viagem!")
+
+    def opcao_obter_locais_divs_admins(self):
+        """
+        Recolhe informação sobre as saídas de uma auto-estrada usando o OSM e cria os respectivos ficheiros de locais e
+        de divisões administrativas
+        """
+        aviso: str = f'A auto-estrada {self.auto_estrada_numero} parece já ter sido processada antes.'
+        self._detector_ficheiro_repetido(self.local_path.path, aviso)
 
         if self.pais == vias.PORTUGAL:
             self.ficheiro_osm: str = OSM_PORTUGAL.path
@@ -128,11 +191,11 @@ class GeradorInformacao:
         with open(CHAVE_API_PATH.path, 'r', encoding=ENCODING) as f:
             self.api_key: str = f.readlines()[0]
 
-        self.create_ficheiros()
+        self.create_ficheiros_locais_divisoes_admin()
         print(f'Auto-estrada {self.auto_estrada_numero} processada')
         print("Boa viagem!")
 
-    def create_ficheiros(self):
+    def create_ficheiros_locais_divisoes_admin(self):
         print("################")
         print(f'A iniciar processamento da auto-estrada {self.auto_estrada_numero}...')
         print(f'Isto vai demorar uns minutos')
@@ -239,6 +302,48 @@ class GeradorInformacao:
         else:
             pass
 
+    def create_ficheiros_ligacoes_destinos(self, invertido: bool):
+        with open(self.local_path.path, 'r', encoding=ENCODING) as f:
+            conteudo: list = f.readlines()
+
+        if len(conteudo) == 0:
+            print(f'O ficheiro de locais da auto-estrada {self.auto_estrada_numero} está vazio.')
+            print("A sair.")
+            exit(0)
+        elif len(conteudo) == 1:
+            print(f'O ficheiro de locais da auto-estrada {self.auto_estrada_numero} só tem 1 local.')
+            print("Não é possível criar ligações nem destinos.")
+            print("A sair.")
+            exit(0)
+
+        if invertido:
+            conteudo = list(reversed(conteudo))
+
+        ligacoes: list = []
+        destinos: list = []
+        for idx, local in enumerate(conteudo):
+            if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
+                local_a: str = conteudo[idx].split(",")[0]
+                local_b: str = conteudo[idx + 1].split(",")[0]
+                meio_transporte: str = 'Carro'
+                info_extra: str = self.auto_estrada_numero
+                latitude_a, longitude_a = conteudo[idx].split(',')[1], conteudo[idx].split(',')[2]
+                latitude_b, longitude_b = conteudo[idx + 1].split(',')[1], conteudo[idx + 1].split(',')[2]
+                ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
+
+                ligacao: str = f'{local_a},{local_b},{meio_transporte},,{info_extra},{ponto_cardeal},2,1\n'  # Distância fica em branco
+                destino_false: str = f'{local_a},{local_b},{meio_transporte},False,\n'
+                destino_true: str = f'{local_a},{local_b},{meio_transporte},True,\n'
+
+                ligacoes.append(ligacao)
+                destinos.append(destino_false)
+                destinos.append(destino_true)
+
+        with open(self.ligacao_path.path, 'w', encoding=ENCODING) as f:
+            f.writelines(ligacoes)
+        with open(self.destino_path.path, 'w', encoding=ENCODING) as f:
+            f.writelines(destinos)
+
     def get_altitude(self, latitude: float, longitude: float) -> int:
         try:
             url: str = f'https://maps.googleapis.com/maps/api/elevation/json?locations={latitude},{longitude}&key={self.api_key}'
@@ -300,6 +405,26 @@ class GeradorInformacao:
         print("Coordenadas de saídas obtidas\n")
 
         return saidas
+
+    def _detector_ficheiro_repetido(self, path: str, aviso: str):
+        """
+        Detecta se o ficheiro fornecido existe. Se existe, apresenta o aviso ao utilizador e dá opção de escolha.
+        Se a opção for de cancelar, sai do programa, caso contrário continua
+        :param path: Path do ficheiro
+        :param aviso: String de aviso que indique qual o ficheiro já existente
+        :return:
+        """
+        if os.path.exists(path):
+            print(aviso)
+            print(f'Se continuar, irá reescrever o ficheiro criado. Deseja prosseguir?')
+            while True:
+                opcao = repr(input(f'Escreva S para prosseguir ou N para cancelar a operação, depois pressione ENTER:'))
+                if 's' in opcao.lower():
+                    print()
+                    break
+                elif 'n' in opcao.lower():
+                    print(f'Processamento da {self.auto_estrada_numero} cancelado.')
+                    exit(0)
 
 
 class AutoEstradaSaidasNosHandler(osmium.SimpleHandler):
