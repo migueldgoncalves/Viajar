@@ -1,4 +1,7 @@
 Local A,Local B,Meio de transporte,Origem,Destino
+A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Alverca
+A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Norte
+A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,True,Lisboa
 A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Almada
 A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Costa da Caparica
 A2 - Saída 1,Área de Serviço de Seixal,Carro,False,Lisboa
@@ -3802,6 +3805,10 @@ Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,False,Santiago do Cacé
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,False,Sines
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,True,A2 - Algarve/Lisboa
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,True,Grândola
+Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False,A1 - Norte
+Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False,A12 - Ponte Vasco da Gama/Sul
+Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Aeroporto de Lisboa
+Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Lisboa - Centro da cidade
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve
@@ -5824,6 +5831,44 @@ Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,Fa
 Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,A1 - Norte
 Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,Aeroporto de Lisboa
 Segunda Circular - Centro Comercial Colombo,Segunda Circular - Saída 7,Carro,True,Lisboa - Campo Grande
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,False,Eixo Norte-Sul
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,False,IC19 - Sintra
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,False,Lisboa - Centro da cidade
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,True,A1 - Norte
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,True,A12 - Ponte Vasco da Gama/Sul
+Segunda Circular - Encarnação,Segunda Circular - Saída 1,Carro,True,Sacavém
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,False,A1 - Norte
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,False,A12 - Ponte Vasco da Gama/Sul
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,False,Sacavém
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,True,Aeroporto de Lisboa
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,True,Eixo Norte-Sul
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,True,IC19 - Sintra
+Segunda Circular - Encarnação,Segunda Circular - Saída 2,Carro,True,Lisboa - Centro da cidade
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,False,A1 - Norte
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,False,A8 - Oeste
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,False,A12 - Ponte Vasco da Gama/Sul
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,False,Aeroporto de Lisboa - Chegadas
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,True,Eixo Norte-Sul
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,True,IC19 - Sintra
+Segunda Circular - Saída 2,Segunda Circular - Saída 3,Carro,True,Lisboa - Campo Grande
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,False,A1 - Norte
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,False,Sacavém
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,True,Eixo Norte-Sul
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,True,IC19 - Sintra
+Segunda Circular - Saída 3,Segunda Circular - Saída 4,Carro,True,Lisboa - Campo Grande
+Segunda Circular - Saída 4,Segunda Circular - Saída 5,Carro,False,A1 - Norte
+Segunda Circular - Saída 4,Segunda Circular - Saída 5,Carro,False,A12 - Ponte Vasco da Gama
+Segunda Circular - Saída 4,Segunda Circular - Saída 5,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Saída 4,Segunda Circular - Saída 5,Carro,True,Eixo Norte-Sul
+Segunda Circular - Saída 4,Segunda Circular - Saída 5,Carro,True,Lisboa - Campo Grande
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,False,A1 - Norte
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,False,Aeroporto de Lisboa
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,False,Lisboa - Campo Grande
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,True,Eixo Norte-Sul
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,True,IC19 - Sintra
+Segunda Circular - Saída 5,Segunda Circular - Telheiras,Carro,True,Lisboa - Benfica
 Serpa,Vila Nova de São Bento,Carro,False,Beja
 Serpa,Vila Nova de São Bento,Carro,False,Lisboa
 Serpa,Vila Nova de São Bento,Carro,True,Vila Nova de São Bento

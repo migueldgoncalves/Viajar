@@ -1,4 +1,5 @@
 Nome,Freguesia,Concelho
+A1 - São João da Talha,São João da Talha,Loures
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
 A2 - Saída 3,Quinta do Anjo,Palmela
@@ -71,6 +72,8 @@ Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
 Aeroporto de Beja,São Brissos,Beja
 Aeroporto de Faro,Montenegro,Faro
+Aeroporto de Lisboa - Terminal 1,Santa Maria dos Olivais,Lisboa
+Aeroporto de Lisboa - Terminal 2,Santa Maria dos Olivais,Lisboa
 Afonso Vicente,Alcoutim,Alcoutim
 Águas de Moura,Marateca,Palmela
 "Álamo, Alcoutim",Alcoutim,Alcoutim
@@ -199,6 +202,7 @@ Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
 Cruz de João Mendes,São Francisco da Serra,Santiago do Cacém
+Cruzamento da A1 com a A12 e o IC17 CRIL,Prior Velho,Loures
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
@@ -565,8 +569,14 @@ Sedas,Espírito Santo,Mértola
 Segunda Circular - Avenida Lusíada,Benfica,Lisboa
 Segunda Circular - Benfica,Benfica,Lisboa
 Segunda Circular - Centro Comercial Colombo,Carnide,Lisboa
+Segunda Circular - Encarnação,Santa Maria dos Olivais,Lisboa
 Segunda Circular - Estrada de Benfica,Benfica,Lisboa
 Segunda Circular - Radial de Benfica,Benfica,Lisboa
+Segunda Circular - Saída 1,Santa Maria dos Olivais,Lisboa
+Segunda Circular - Saída 2,Santa Maria dos Olivais,Lisboa
+Segunda Circular - Saída 3,Santa Maria dos Olivais,Lisboa
+Segunda Circular - Saída 4,Lumiar,Lisboa
+Segunda Circular - Saída 5,Lumiar,Lisboa
 Segunda Circular - Saída 7,Carnide,Lisboa
 Segunda Circular - Telheiras,Lumiar,Lisboa
 Sentinela,Azinhal,Castro Marim
