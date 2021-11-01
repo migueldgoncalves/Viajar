@@ -1,4 +1,52 @@
 Local A,Local B,Meio de transporte,Origem,Destino
+A1 - Saída 1A,A1 - São João da Talha,Carro,False,Alverca
+A1 - Saída 1A,A1 - São João da Talha,Carro,False,Norte
+A1 - Saída 1A,A1 - São João da Talha,Carro,True,A12 - Sul
+A1 - Saída 1A,A1 - São João da Talha,Carro,True,IC17 CRIL - Algés
+A1 - Saída 1A,A1 - São João da Talha,Carro,True,Lisboa
+A1 - Saída 1A,Cruzamento da A1 com a A9 CREL,Carro,False,Lisboa
+A1 - Saída 1A,Cruzamento da A1 com a A9 CREL,Carro,False,Sacavém
+A1 - Saída 1A,Cruzamento da A1 com a A9 CREL,Carro,True,Alverca
+A1 - Saída 1A,Cruzamento da A1 com a A9 CREL,Carro,True,Porto
+A1 - Saída 2A,A1 - Saída 3,Carro,False,Alverca
+A1 - Saída 2A,A1 - Saída 3,Carro,False,Lisboa
+A1 - Saída 2A,A1 - Saída 3,Carro,True,Carregado
+A1 - Saída 2A,A1 - Saída 3,Carro,True,Porto
+A1 - Saída 2A,Cruzamento da A1 com a A9 CREL,Carro,False,Porto
+A1 - Saída 2A,Cruzamento da A1 com a A9 CREL,Carro,False,Vila Franca de Xira
+A1 - Saída 2A,Cruzamento da A1 com a A9 CREL,Carro,True,Alverca
+A1 - Saída 2A,Cruzamento da A1 com a A9 CREL,Carro,True,Lisboa
+A1 - Saída 3,A1 - Saída 3A,Carro,False,Lisboa
+A1 - Saída 3,A1 - Saída 3A,Carro,False,Vila Franca de Xira
+A1 - Saída 3,A1 - Saída 3A,Carro,True,Carregado
+A1 - Saída 3,A1 - Saída 3A,Carro,True,Porto
+A1 - Saída 3A,Cruzamento da A1 com a A10,Carro,False,Lisboa
+A1 - Saída 3A,Cruzamento da A1 com a A10,Carro,False,Vila Franca de Xira
+A1 - Saída 3A,Cruzamento da A1 com a A10,Carro,True,Aveiras
+A1 - Saída 3A,Cruzamento da A1 com a A10,Carro,True,Porto
+A1 - Saída 5,A1 - Saída 5A,Carro,False,Aveiras
+A1 - Saída 5,A1 - Saída 5A,Carro,False,Lisboa
+A1 - Saída 5,A1 - Saída 5A,Carro,True,Cartaxo
+A1 - Saída 5,A1 - Saída 5A,Carro,True,Porto
+A1 - Saída 5,Área de Serviço de Aveiras,Carro,False,Aveiras
+A1 - Saída 5,Área de Serviço de Aveiras,Carro,False,Porto
+A1 - Saída 5,Área de Serviço de Aveiras,Carro,True,Alenquer
+A1 - Saída 5,Área de Serviço de Aveiras,Carro,True,Lisboa
+A1 - Saída 5A,A1 - Saída 6,Carro,False,Cartaxo
+A1 - Saída 5A,A1 - Saída 6,Carro,False,Lisboa
+A1 - Saída 5A,A1 - Saída 6,Carro,True,Porto
+A1 - Saída 5A,A1 - Saída 6,Carro,True,Santarém
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,A2
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,A6
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,A13
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,Lisboa
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,Santarém
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,True,Porto
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,True,Torres Novas
+A1 - Saída 8,Cruzamento da A1 com a A23,Carro,False,Fátima
+A1 - Saída 8,Cruzamento da A1 com a A23,Carro,False,Porto
+A1 - Saída 8,Cruzamento da A1 com a A23,Carro,True,Lisboa
+A1 - Saída 8,Cruzamento da A1 com a A23,Carro,True,Torres Novas
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Alverca
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Norte
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,True,Lisboa
@@ -3488,6 +3536,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Aeroporto de Málaga-Costa del Sol
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Málaga
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,True,Torremolinos
+Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,False,Aveiras
+Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,False,Porto
+Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,True,Alenquer
+Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,True,Lisboa
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Córdoba
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Granada
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,False,Sevilha
@@ -3530,6 +3582,14 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,True,Estepona
+Área de Serviço de Santarém,Cruzamento da A1 com a A15,Carro,False,Porto
+Área de Serviço de Santarém,Cruzamento da A1 com a A15,Carro,False,Torres Novas
+Área de Serviço de Santarém,Cruzamento da A1 com a A15,Carro,True,Lisboa
+Área de Serviço de Santarém,Cruzamento da A1 com a A15,Carro,True,Santarém
+Área de Serviço de Santarém,Cruzamento da A1 com a A23,Carro,False,Lisboa
+Área de Serviço de Santarém,Cruzamento da A1 com a A23,Carro,False,Santarém
+Área de Serviço de Santarém,Cruzamento da A1 com a A23,Carro,True,Porto
+Área de Serviço de Santarém,Cruzamento da A1 com a A23,Carro,True,Torres Novas
 Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Aranjuez
 Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Córdoba
 Área de Serviço de Seseña,R-4 - Saída 12,Carro,False,Ocaña

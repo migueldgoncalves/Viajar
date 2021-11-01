@@ -1,4 +1,12 @@
 Nome,Freguesia,Concelho
+A1 - Saída 1A,Santa Iria de Azóia,Loures
+A1 - Saída 2A,Vila Franca de Xira,Vila Franca de Xira
+A1 - Saída 3,Vila Franca de Xira,Vila Franca de Xira
+A1 - Saída 3A,Castanheira do Ribatejo,Vila Franca de Xira
+A1 - Saída 5,Aveiras de Cima,Azambuja
+A1 - Saída 5A,Vila Chã de Ourique,Cartaxo
+A1 - Saída 6,Várzea,Santarém
+A1 - Saída 8,Fátima,Ourém
 A1 - São João da Talha,São João da Talha,Loures
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
@@ -110,6 +118,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
 Área de Serviço de Aljustrel,São João de Negrilhos,Aljustrel
 Área de Serviço de Almodôvar,Gomes Aires,Almodôvar
+Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
 Área de Serviço de Grândola,Grândola,Grândola
 Área de Serviço de Lagos,Bensafrim,Lagos
@@ -119,6 +128,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Oeiras,Paço de Arcos,Oeiras
 Área de Serviço de Olhão,Moncarapacho,Olhão
 Área de Serviço de Palmela,Palmela,Palmela
+Área de Serviço de Santarém,Casével,Santarém
 Área de Serviço de Seixal,Amora,Seixal
 Área de Serviço de Silves,Silves,Silves
 Área de Serviço de Sintra,São Pedro de Penaferrim,Sintra
@@ -202,7 +212,11 @@ Corte Tabelião,Alcoutim,Alcoutim
 Corte Velha,Odeleite,Castro Marim
 Cortes Pereiras,Alcoutim,Alcoutim
 Cruz de João Mendes,São Francisco da Serra,Santiago do Cacém
+Cruzamento da A1 com a A9 CREL,Alverca do Ribatejo,Vila Franca de Xira
+Cruzamento da A1 com a A10,Carregado,Alenquer
 Cruzamento da A1 com a A12 e o IC17 CRIL,Prior Velho,Loures
+Cruzamento da A1 com a A15,Várzea,Santarém
+Cruzamento da A1 com a A23,Bugalhos,Alcanena
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola

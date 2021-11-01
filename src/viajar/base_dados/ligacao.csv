@@ -1,4 +1,15 @@
 Local A,Local B,Meio de transporte,Distância,Informação extra,Ponto cardeal,Ordem A,Ordem B
+A1 - Saída 1A,A1 - São João da Talha,Carro,3.1,A1,S,1,2
+A1 - Saída 1A,Cruzamento da A1 com a A9 CREL,Carro,6.1,A1,NE,2,1
+A1 - Saída 2A,A1 - Saída 3,Carro,3.6,A1,NE,2,1
+A1 - Saída 2A,Cruzamento da A1 com a A9 CREL,Carro,7.4,A1,SO,1,2
+A1 - Saída 3,A1 - Saída 3A,Carro,3.9,A1,N,2,1
+A1 - Saída 3A,Cruzamento da A1 com a A10,Carro,1.2,A1,N,2,1
+A1 - Saída 5,A1 - Saída 5A,Carro,11.3,A1,NE,2,1
+A1 - Saída 5,Área de Serviço de Aveiras,Carro,2.6,A1,SO,1,2
+A1 - Saída 5A,A1 - Saída 6,Carro,8.0,A1,NE,2,1
+A1 - Saída 6,Cruzamento da A1 com a A15,Carro,1.3,A1,NE,2,1
+A1 - Saída 8,Cruzamento da A1 com a A23,Carro,20.3,A1,S,1,2
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,3.7,A1,S,1,2
 A2 - Saída 1,Área de Serviço de Seixal,Carro,6.1,A2,SE,2,1
 A2 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,4.9,Ponte 25 de Abril,N,1,2
@@ -1059,6 +1070,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,3.5,AP-7,O,1,2
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,1.6,A-7/AP-7,NE,2,1
+Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,13.8,A1,SO,1,2
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,21.0,AP-46,SO,1,3
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,4.0,AP-46,N,2,3
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,9.2,AP-4,SO,2,1
@@ -1068,6 +1080,8 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Carro,4.4,R-5,NE,2,1
 Área de Serviço de Polvoranca,R-5 - Saída 9,Carro,1.5,R-5,SO,1,2
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Carro,3.7,AP-7,SO,1,2
+Área de Serviço de Santarém,Cruzamento da A1 com a A15,Carro,17.3,A1,SO,1,2
+Área de Serviço de Santarém,Cruzamento da A1 com a A23,Carro,9.6,A1,N,2,1
 Área de Serviço de Seseña,R-4 - Saída 12,Carro,7.7,R-4,NO,1,2
 Área de Serviço de Seseña,R-4 - Saída 22,Carro,2.5,R-4,SE,2,1
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Carro,1.2,A16,S,1,2
