@@ -7,6 +7,15 @@ A1 - Saída 5,Aveiras de Cima,Azambuja
 A1 - Saída 5A,Vila Chã de Ourique,Cartaxo
 A1 - Saída 6,Várzea,Santarém
 A1 - Saída 8,Fátima,Ourém
+A1 - Saída 9,Santa Eufémia,Leiria
+A1 - Saída 10,Pombal,Pombal
+A1 - Saída 10A,Soure,Soure
+A1 - Saída 12,Ribeira de Frades,Coimbra
+A1 - Saída 14,Sepins,Cantanhede
+A1 - Saída 15,Nossa Senhora de Fátima,Aveiro
+A1 - Saída 17,Beduído,Estarreja
+A1 - Saída 18,Feira,Santa Maria da Feira
+A1 - Saída 18B,Perosinho,Vila Nova de Gaia
 A1 - São João da Talha,São João da Talha,Loures
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
@@ -118,16 +127,20 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
 Área de Serviço de Aljustrel,São João de Negrilhos,Aljustrel
 Área de Serviço de Almodôvar,Gomes Aires,Almodôvar
+Área de Serviço de Antuã-Estarreja,Salreu,Estarreja
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
 Área de Serviço de Grândola,Grândola,Grândola
 Área de Serviço de Lagos,Bensafrim,Lagos
+Área de Serviço de Leiria,Arrabal,Leiria
 Área de Serviço de Loulé,Boliqueime,Loulé
+Área de Serviço de Mealhada-Cantanhede,Murtede,Cantanhede
 Área de Serviço de Montemor-o-Novo,Nossa Senhora da Vila,Montemor-o-Novo
 Área de Serviço de Montijo,Canha,Montijo
 Área de Serviço de Oeiras,Paço de Arcos,Oeiras
 Área de Serviço de Olhão,Moncarapacho,Olhão
 Área de Serviço de Palmela,Palmela,Palmela
+Área de Serviço de Pombal,Redinha,Pombal
 Área de Serviço de Santarém,Casével,Santarém
 Área de Serviço de Seixal,Amora,Seixal
 Área de Serviço de Silves,Silves,Silves
@@ -215,8 +228,13 @@ Cruz de João Mendes,São Francisco da Serra,Santiago do Cacém
 Cruzamento da A1 com a A9 CREL,Alverca do Ribatejo,Vila Franca de Xira
 Cruzamento da A1 com a A10,Carregado,Alenquer
 Cruzamento da A1 com a A12 e o IC17 CRIL,Prior Velho,Loures
+Cruzamento da A1 com a A13-1,Sebal,Condeixa-a-Nova
+Cruzamento da A1 com a A14,Vil de Matos,Coimbra
 Cruzamento da A1 com a A15,Várzea,Santarém
+Cruzamento da A1 com a A20,Pedroso,Vila Nova de Gaia
 Cruzamento da A1 com a A23,Bugalhos,Alcanena
+Cruzamento da A1 com a A25,Albergaria-a-Velha,Albergaria-a-Velha
+Cruzamento da A1 com a A41 CREP,Nogueira da Regedoura,Santa Maria da Feira
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
@@ -227,6 +245,7 @@ Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
+Cruzamento da A20 com a A32,Pedroso,Vila Nova de Gaia
 Cruzamento da A26 com a A26-1,Sines,Sines
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé

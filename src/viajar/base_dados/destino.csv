@@ -43,10 +43,75 @@ A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,Lisboa
 A1 - Saída 6,Cruzamento da A1 com a A15,Carro,False,Santarém
 A1 - Saída 6,Cruzamento da A1 com a A15,Carro,True,Porto
 A1 - Saída 6,Cruzamento da A1 com a A15,Carro,True,Torres Novas
+A1 - Saída 8,Área de Serviço de Leiria,Carro,False,Fátima
+A1 - Saída 8,Área de Serviço de Leiria,Carro,False,Lisboa
+A1 - Saída 8,Área de Serviço de Leiria,Carro,True,Leiria
+A1 - Saída 8,Área de Serviço de Leiria,Carro,True,Porto
 A1 - Saída 8,Cruzamento da A1 com a A23,Carro,False,Fátima
 A1 - Saída 8,Cruzamento da A1 com a A23,Carro,False,Porto
 A1 - Saída 8,Cruzamento da A1 com a A23,Carro,True,Lisboa
 A1 - Saída 8,Cruzamento da A1 com a A23,Carro,True,Torres Novas
+A1 - Saída 9,A1 - Saída 10,Carro,False,Leiria
+A1 - Saída 9,A1 - Saída 10,Carro,False,Lisboa
+A1 - Saída 9,A1 - Saída 10,Carro,True,Pombal
+A1 - Saída 9,A1 - Saída 10,Carro,True,Porto
+A1 - Saída 9,Área de Serviço de Leiria,Carro,False,Leiria
+A1 - Saída 9,Área de Serviço de Leiria,Carro,False,Porto
+A1 - Saída 9,Área de Serviço de Leiria,Carro,True,Fátima
+A1 - Saída 9,Área de Serviço de Leiria,Carro,True,Lisboa
+A1 - Saída 10,Área de Serviço de Pombal,Carro,False,Lisboa
+A1 - Saída 10,Área de Serviço de Pombal,Carro,False,Pombal
+A1 - Saída 10,Área de Serviço de Pombal,Carro,True,Porto
+A1 - Saída 10,Área de Serviço de Pombal,Carro,True,Soure
+A1 - Saída 10A,Área de Serviço de Pombal,Carro,False,Porto
+A1 - Saída 10A,Área de Serviço de Pombal,Carro,False,Soure
+A1 - Saída 10A,Área de Serviço de Pombal,Carro,True,Lisboa
+A1 - Saída 10A,Área de Serviço de Pombal,Carro,True,Pombal
+A1 - Saída 10A,Cruzamento da A1 com a A13-1,Carro,False,Lisboa
+A1 - Saída 10A,Cruzamento da A1 com a A13-1,Carro,False,Soure
+A1 - Saída 10A,Cruzamento da A1 com a A13-1,Carro,True,Condeixa-a-Nova
+A1 - Saída 10A,Cruzamento da A1 com a A13-1,Carro,True,Porto
+A1 - Saída 12,Cruzamento da A1 com a A13-1,Carro,False,Coimbra - Sul
+A1 - Saída 12,Cruzamento da A1 com a A13-1,Carro,False,Porto
+A1 - Saída 12,Cruzamento da A1 com a A13-1,Carro,True,Condeixa-a-Nova
+A1 - Saída 12,Cruzamento da A1 com a A13-1,Carro,True,Lisboa
+A1 - Saída 12,Cruzamento da A1 com a A14,Carro,False,Coimbra - Sul
+A1 - Saída 12,Cruzamento da A1 com a A14,Carro,False,Lisboa
+A1 - Saída 12,Cruzamento da A1 com a A14,Carro,True,A14 - Figueira da Foz
+A1 - Saída 12,Cruzamento da A1 com a A14,Carro,True,Coimbra - Norte
+A1 - Saída 12,Cruzamento da A1 com a A14,Carro,True,Porto
+A1 - Saída 14,A1 - Saída 15,Carro,False,Lisboa
+A1 - Saída 14,A1 - Saída 15,Carro,False,Mealhada
+A1 - Saída 14,A1 - Saída 15,Carro,True,Aveiro
+A1 - Saída 14,A1 - Saída 15,Carro,True,Porto
+A1 - Saída 14,Área de Serviço de Mealhada-Cantanhede,Carro,False,Mealhada
+A1 - Saída 14,Área de Serviço de Mealhada-Cantanhede,Carro,False,Porto
+A1 - Saída 14,Área de Serviço de Mealhada-Cantanhede,Carro,True,Coimbra
+A1 - Saída 14,Área de Serviço de Mealhada-Cantanhede,Carro,True,Lisboa
+A1 - Saída 15,Cruzamento da A1 com a A25,Carro,False,Lisboa
+A1 - Saída 15,Cruzamento da A1 com a A25,Carro,False,Oliveira do Bairro
+A1 - Saída 15,Cruzamento da A1 com a A25,Carro,True,A25 - Viseu
+A1 - Saída 15,Cruzamento da A1 com a A25,Carro,True,Porto
+A1 - Saída 17,A1 - Saída 18,Carro,False,Estarreja
+A1 - Saída 17,A1 - Saída 18,Carro,False,Lisboa
+A1 - Saída 17,A1 - Saída 18,Carro,True,Porto
+A1 - Saída 17,A1 - Saída 18,Carro,True,Santa Maria da Feira
+A1 - Saída 17,Área de Serviço de Antuã-Estarreja,Carro,False,Estarreja
+A1 - Saída 17,Área de Serviço de Antuã-Estarreja,Carro,False,Porto
+A1 - Saída 17,Área de Serviço de Antuã-Estarreja,Carro,True,Albergaria-a-Velha
+A1 - Saída 17,Área de Serviço de Antuã-Estarreja,Carro,True,Lisboa
+A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Carro,False,Lisboa
+A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Carro,False,Santa Maria da Feira
+A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Carro,True,Espinho
+A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Carro,True,Porto
+A1 - Saída 18B,Cruzamento da A1 com a A20,Carro,False,A41 - Espinho
+A1 - Saída 18B,Cruzamento da A1 com a A20,Carro,False,Lisboa
+A1 - Saída 18B,Cruzamento da A1 com a A20,Carro,False,Santa Maria da Feira
+A1 - Saída 18B,Cruzamento da A1 com a A20,Carro,True,Porto
+A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,False,Carvalhos
+A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,False,Porto
+A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,True,Espinho
+A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,True,Lisboa
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Alverca
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Norte
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,True,Lisboa
@@ -3530,6 +3595,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,False,Málaga
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,True,Marbella
+Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,False,Estarreja
+Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,False,Porto
+Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,True,Albergaria-a-Velha
+Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,True,Lisboa
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,False,Algeciras
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,False,Benalmádena
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,False,Cádiz
@@ -3563,6 +3632,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Algeciras
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Cádiz
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Carro,True,Guadiaro
+Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Carro,False,Mealhada
+Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Carro,False,Porto
+Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Carro,True,Coimbra
+Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Carro,True,Lisboa
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,False,Cascais
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,False,Oeiras
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Carro,True,A9 CREL
@@ -3869,6 +3942,12 @@ Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False,A12 - Ponte Vasco da Gama/Sul
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Aeroporto de Lisboa
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Lisboa - Centro da cidade
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,False,Lisboa
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,False,Santa Maria da Feira
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,True,A3 - Braga
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,True,Gondomar
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,True,Ponte do Freixo
+Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,True,Porto
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Carro,True,Algarve

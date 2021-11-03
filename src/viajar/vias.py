@@ -31,7 +31,7 @@ FREGUESIA = 8
 
 # Auto-estradas e vias rápidas
 
-ES_AP4 = ("AP-4", "Autopista del Sur", ESPANHA)
+ES_A2 = ("A-2", "Autovía del Nordeste", ESPANHA)
 ES_A5 = ("A-5", "Autovía del Suroeste", ESPANHA)
 ES_A7 = ("A-7", "Autovía del Mediterráneo", ESPANHA)
 ES_A44 = ("A-44", "Autovía de Sierra Nevada-Costa Tropical", ESPANHA)
@@ -42,6 +42,7 @@ ES_A66 = ("A-66", "Autovía Ruta de la Plata", ESPANHA)
 ES_A92 = ("A-92", "Autovía de Andalucía", ESPANHA)
 ES_A92M = ("A-92M", "Autovía A-92 Málaga", ESPANHA)
 ES_A483 = ("A-483", "Bollullos-Matalascañas", ESPANHA)
+ES_AP4 = ("AP-4", "Autopista del Sur", ESPANHA)
 ES_EXA1 = ("EX-A1", "Autovía del Norte de Extremadura", ESPANHA)
 ES_EXA2 = ("EX-A2", "Autovía de las Vegas Altas", ESPANHA)
 ES_GR30 = ("GR-30", "Circunvalación de Granada", ESPANHA)
