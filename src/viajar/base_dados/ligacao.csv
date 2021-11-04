@@ -98,6 +98,8 @@ A16 - Saída 2,Cruzamento da A16 com a A5,Carro,0.7,A16,S,1,3
 A16 - Saída 3,A16 - Saída 4-5,Carro,1.0,A16,NE,2,1
 A16 - Saída 4-5,A16 - Saída 6,Carro,1.4,A16,NE,2,1
 A16 - Saída 6,Cruzamento da A16 com o IC19,Carro,4.1,A16,NE,2,1
+A20 - Saída 3,Cruzamento da A20 com a A29,Carro,1.4,A20,SO,1,2
+A20 - Saída 3,Cruzamento da A20 com a A44,Carro,4.2,A20,N,2,1
 A22 - Início,A22 - Saída 1,Carro,3.1,A22,SE,1,1
 A22 - Início,Bensafrim,Carro,0.8,N120,SE,2,3
 A22 - Início,Cruzamento da N120 com a N268,Carro,14.2,N120,NO,3,1
@@ -1316,6 +1318,9 @@ Cruzamento da A9 CREL com o IC19,IC19 - Saída 5,Carro,0.8,IC19,E,4,1
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Carro,0.8,IC19,O,3,2
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Carro,1.2,IC19,SE,4,1
 Cruzamento da A16 com o IC19,Ranholas,Carro,0.6,N9,O,3,1
+Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Carro,0.7,A20,S,1,2
+Cruzamento da A20 com a A43,Cruzamento da A20 com a A44,Carro,1.5,A20/IC23 VCI/Ponte do Freixo,S,1,2
+Cruzamento da A20 com a A43,IC23 - Campanhã,Carro,0.6,A20/IC23 VCI,NO,2,1
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,3.6,IP8,S,3,4
 Cruzamento da A26 com a A26-1,Sines,Carro,3.5,,SO,4,4
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,0.8,M-30,N,2,1

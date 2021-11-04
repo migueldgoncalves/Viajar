@@ -59,6 +59,7 @@ A16 - Saída 2,Alcabideche,Cascais
 A16 - Saída 3,Alcabideche,Cascais
 A16 - Saída 4-5,Alcabideche,Cascais
 A16 - Saída 6,Alcabideche,Cascais
+A20 - Saída 3,Vilar de Andorinho,Vila Nova de Gaia
 A22 - Início,Bensafrim,Lagos
 A22 - Saída 1,Bensafrim,Lagos
 A22 - Saída 2,Bensafrim,Lagos
@@ -245,7 +246,10 @@ Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
+Cruzamento da A20 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A20 com a A32,Pedroso,Vila Nova de Gaia
+Cruzamento da A20 com a A43,Campanhã,Porto
+Cruzamento da A20 com a A44,Oliveira do Douro,Vila Nova de Gaia
 Cruzamento da A26 com a A26-1,Sines,Sines
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
@@ -378,6 +382,7 @@ IC19 - Saída 10,Cacém,Sintra
 IC19 - Saída 11,Rio de Mouro,Sintra
 IC19 - Saída 12,Rio de Mouro,Sintra
 IC19 - Saída 13,São Pedro de Penaferrim,Sintra
+IC23 - Campanhã,Campanhã,Porto
 IC27 - Fim,Pereiro,Alcoutim
 IC27 - Início,Castro Marim,Castro Marim
 IC27 - Saída 1,Castro Marim,Castro Marim
