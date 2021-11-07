@@ -630,6 +630,11 @@ A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Odemira
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,False,Sines
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Melides
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,True,Tróia
+A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,False,Alcobendas
+A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,False,Burgos
+A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,M-11
+A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,M-30
+A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,Madrid
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Aeroporto de Madrid-Barajas
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-30 - Todas as direcções
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-40 - Todas as direcções
@@ -1896,6 +1901,10 @@ A-5 - Saída 403,A-5 - Saída 407,Carro,True,Elvas
 A-5 - Saída 403,A-5 - Saída 407,Carro,True,Lisboa
 A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,False,A-5 - Alcorcón/Badajoz/Madrid - Centro da cidade
 A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,True,M-40 - Todas as direcções
+A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,False,Madrid
+A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,True,A Coruña
+A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,False,A Coruña
+A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,True,Madrid
 A-7 - Saída 103,A-7 - Saída 104,Carro,False,Cádiz
 A-7 - Saída 103,A-7 - Saída 104,Carro,False,Tarifa
 A-7 - Saída 103,A-7 - Saída 104,Carro,True,Málaga
@@ -4019,6 +4028,36 @@ Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26 - Beja
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,False,A26-1 - Vila Nova de Santo André
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Odemira
 Cruzamento da A26 com a A26-1,IP8 - Início,Carro,True,Porto de Sines
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,A-1
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,A-5
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,A-6
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,M-30
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,M-607
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,False,Madrid - Paseo de la Castellana
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,True,Feria de Madrid
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,A-1 - Burgos
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,A-6
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,Feria de Madrid
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,M-607
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,False,Madrid - Avenida de la Ilustración
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,True,A-2 - Zaragoza
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,True,A-3
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,True,A-4
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,True,A-42
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,True,Madrid - Avenida de Pío XII
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,A-1 - Burgos
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,A-2
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,A-3
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,A-4
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,Estação de Chamartín
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,False,Feria de Madrid
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,A-5
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,A-6
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,M-607 - Colmenar Viejo
+Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,Madrid - Paseo de la Castellana
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-3 - Valencia
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-4
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-5
@@ -4215,6 +4254,23 @@ Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Maqueda
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,False,Talavera de la Reina
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Madrid
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,True,Móstoles
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,False,A-1
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,False,A-2
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-3
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-4
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-5 - Badajoz
+Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-42
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-4
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-5
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-42
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-1
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-2
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-3
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Madrid - Avenida de la Ilustración
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,False,A-6 - A Coruña
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-3
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-4
@@ -4470,6 +4526,25 @@ Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-4
 Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-5
 Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-6
 Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,True,A-42
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,False,A-1 - Burgos
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,False,A-2
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,False,A-3
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,False,M-607 - Colmenar Viejo
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,True,A-5
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,True,A-6
+Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,True,Madrid - Avenida de la Ilustración
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,False,M-607 - Avenida del Cardenal Herrera Oria/Colmenar Viejo/Hospital Ramón y Cajal
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,A-1 - Burgos
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,A-2
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,A-3
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,A-4
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,Feria de Madrid
+Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,Madrid - Paseo de la Castellana
+Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,False,M-30 - A-1/A-2/A-3/A-4/Aeroporto de Madrid-Barajas/Feria de Madrid/Paseo de la Castellana
+Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,True,Colmenar Viejo
+Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,True,Tres Cantos
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
@@ -5457,6 +5532,76 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-3
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-4
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-5 - Badajoz
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-42
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,True,A-1
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,True,A-2
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,True,A-6 - A Coruña
+M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,True,Aeroporto de Madrid-Barajas
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,False,A-1 - Burgos
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,False,A-2
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,False,A-3
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,False,A-4
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,True,A-5
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,True,A-6 - A Coruña
+M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,True,A-42
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,False,A-1 - Burgos
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,False,A-2
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,False,A-3
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,False,Madrid - Paseo de la Castellana
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,True,A-5
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,True,A-6 - A Coruña
+M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,True,A-42
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,False,A-5
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,False,A-6
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,False,A-42
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,True,A-1 - Burgos
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,True,A-2
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,True,A-3
+M-30 - Glorieta José Francisco de Isla,M-30 - Plaza Juan Pablo Forner,Carro,True,Aeroporto de Madrid-Barajas
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,A-1
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,A-2
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,A-3
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,Feria de Madrid
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,False,Madrid - Avenida de la Ilustración
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,True,A-5
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,True,A-6 - A Coruña
+M-30 - Glorieta José Francisco de Isla,M-30 - Saída 27,Carro,True,A-42
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,False,A-1
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,False,A-2
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,False,A-6 - A Coruña
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,True,A-3
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,True,A-4
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,True,A-5 - Badajoz
+M-30 - Palacio de la Moncloa,M-30 - Saída 20,Carro,True,A-42
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,A-1 - Burgos
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,A-6
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,Feria de Madrid
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,M-607
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,False,Madrid - Avenida de la Ilustración
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,True,A-2 - Zaragoza
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,True,A-3
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,True,A-4
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,True,A-42
+M-30 - Saída 2,M-30 - Saída 2A-B-C,Carro,True,Madrid - Calle de Costa Rica
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,A-1 - Burgos
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,A-6
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,Aeroporto de Madrid-Barajas
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,Feria de Madrid
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,M-607
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,False,Madrid - Avenida de la Ilustración
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,True,A-3 - Valencia
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,True,A-4
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,True,A-5
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,True,A-42
+M-30 - Saída 2A-B-C,M-30 - Saída 3,Carro,True,Madrid - Calle de Alcalá
 M-30 - Saída 3,M-30 - Saída 4,Carro,False,A-1 - Burgos
 M-30 - Saída 3,M-30 - Saída 4,Carro,False,A-6
 M-30 - Saída 3,M-30 - Saída 4,Carro,False,Aeroporto de Madrid-Barajas
@@ -5512,6 +5657,35 @@ M-30 - Saída 16,M-30 - Saída 17,Carro,False,A-4
 M-30 - Saída 16,M-30 - Saída 17,Carro,False,A-42
 M-30 - Saída 16,M-30 - Saída 17,Carro,True,A-6 - A Coruña
 M-30 - Saída 16,M-30 - Saída 17,Carro,True,Calle San Pol de Mar
+M-30 - Saída 19,M-30 - Saída 20,Carro,False,A-3
+M-30 - Saída 19,M-30 - Saída 20,Carro,False,A-4
+M-30 - Saída 19,M-30 - Saída 20,Carro,False,A-5 - Badajoz
+M-30 - Saída 19,M-30 - Saída 20,Carro,False,A-42
+M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-1
+M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-2
+M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-6 - A Coruña
+M-30 - Saída 19,M-30 - Saída 20,Carro,True,Aeroporto de Madrid-Barajas
+M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-4
+M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-5
+M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-6 - Plaza Moncloa
+M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-42
+M-30 - Saída 24,M-30 - Saída 25,Carro,True,A-2
+M-30 - Saída 24,M-30 - Saída 25,Carro,True,A-3
+M-30 - Saída 24,M-30 - Saída 25,Carro,True,Madrid - Avenida de la Ilustración
+M-30 - Saída 25,M-30 - Saída 26,Carro,False,A-4
+M-30 - Saída 25,M-30 - Saída 26,Carro,False,A-5
+M-30 - Saída 25,M-30 - Saída 26,Carro,False,A-6 - A Coruña
+M-30 - Saída 25,M-30 - Saída 26,Carro,False,A-42
+M-30 - Saída 25,M-30 - Saída 26,Carro,True,A-2
+M-30 - Saída 25,M-30 - Saída 26,Carro,True,A-3
+M-30 - Saída 25,M-30 - Saída 26,Carro,True,Madrid - Avenida de la Ilustración
+M-30 - Saída 26,M-30 - Saída 27,Carro,False,A-4
+M-30 - Saída 26,M-30 - Saída 27,Carro,False,A-5
+M-30 - Saída 26,M-30 - Saída 27,Carro,False,A-6 - A Coruña
+M-30 - Saída 26,M-30 - Saída 27,Carro,False,A-42
+M-30 - Saída 26,M-30 - Saída 27,Carro,True,A-2
+M-30 - Saída 26,M-30 - Saída 27,Carro,True,A-3
+M-30 - Saída 26,M-30 - Saída 27,Carro,True,Madrid - Avenida de la Ilustración
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-3
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-4
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-42

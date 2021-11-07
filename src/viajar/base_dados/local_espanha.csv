@@ -1,4 +1,5 @@
 Nome,Município,Província,Distrito
+A-1 - Saída 11,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 A-2 - Saída 3,Madrid,Comunidade de Madrid,Chamartín
 A-2 - Saída 4C,Madrid,Comunidade de Madrid,Ciudad Lineal
 A-2 - Saída 5,Madrid,Comunidade de Madrid,Hortaleza
@@ -294,6 +295,8 @@ A-5 - Saída 400,Badajoz,Badajoz,
 A-5 - Saída 403,Badajoz,Badajoz,
 A-5 - Saída 407,Badajoz,Badajoz,
 A-5R - Alcorcón Norte,Alcorcón,Comunidade de Madrid,Norte
+A-6 - Saída 19,Las Rozas de Madrid,Comunidade de Madrid,Centro
+A-6 - Saída 24,Las Rozas de Madrid,Comunidade de Madrid,Norte
 A-7 - Saída 103,Algeciras,Cádiz,
 A-7 - Saída 104,Algeciras,Cádiz,
 A-7 - Saída 105,Algeciras,Cádiz,
@@ -644,6 +647,7 @@ Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
 Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
+Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
@@ -670,6 +674,7 @@ Cruzamento da A-5 com a EX-A2,Miajadas,Cáceres,
 Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
+Cruzamento da A-6 com a M-30,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-7 com a A-44,Vélez de Benaudalla,Granada,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
@@ -719,6 +724,7 @@ Cruzamento da H-30 com a H-31,Huelva,Huelva,
 Cruzamento da H-30 com a N-431,Huelva,Huelva,
 Cruzamento da HU-3400 com a N-431,Lepe,Huelva,
 Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
+Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
@@ -785,7 +791,15 @@ La Línea de la Concepción - Centro da cidade,La Línea de la Concepción,Cádi
 La Puebla de Cazalla,La Puebla de Cazalla,Sevilha,
 La Redondela,Isla Cristina,Huelva,
 Lepe,Lepe,Huelva,
+M-11 - Saída 1,Madrid,Comunidade de Madrid,Hortaleza
 M-30 - Calle de San Pol de Mar,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Glorieta de José Moñino,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Glorieta de las Reales Academias,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Glorieta José Francisco de Isla,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Palacio de la Moncloa,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Plaza Juan Pablo Forner,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Saída 2,Madrid,Comunidade de Madrid,Chamartín
+M-30 - Saída 2A-B-C,Madrid,Comunidade de Madrid,Ciudad Lineal
 M-30 - Saída 3,Madrid,Comunidade de Madrid,Chamartín
 M-30 - Saída 4,Madrid,Comunidade de Madrid,Chamartín
 M-30 - Saída 5B-6A,Madrid,Comunidade de Madrid,Ciudad Lineal
@@ -798,6 +812,13 @@ M-30 - Saída 13,Madrid,Comunidade de Madrid,Usera
 M-30 - Saída 15,Madrid,Comunidade de Madrid,Arganzuela
 M-30 - Saída 16,Madrid,Comunidade de Madrid,Carabanchel
 M-30 - Saída 17,Madrid,Comunidade de Madrid,Arganzuela
+M-30 - Saída 19,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Saída 20,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Saída 24,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-30 - Saída 25,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Saída 26,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Saída 27,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-30 - Saída 31,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-40 - Saída 30,Madrid,Comunidade de Madrid,Latina
 M-40 - Saída 31,Madrid,Comunidade de Madrid,Latina
@@ -817,6 +838,7 @@ M-50 - Saída 79,Majadahonda,Comunidade de Madrid,
 M-50 - Saída 80,Majadahonda,Comunidade de Madrid,
 M-50 - Saída 82,Las Rozas de Madrid,Comunidade de Madrid,Centro
 M-50 - Saída 83,Las Rozas de Madrid,Comunidade de Madrid,Centro
+M-607 - Saída 9A,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 MA-20 - Saída 1,Málaga,Málaga,Churriana
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
 Marchena,Marchena,Sevilha,
