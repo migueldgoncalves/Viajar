@@ -1,4 +1,5 @@
 Nome,Freguesia,Concelho
+A1 - Canidelo,Canidelo,Vila Nova de Gaia
 A1 - Saída 1A,Santa Iria de Azóia,Loures
 A1 - Saída 2A,Vila Franca de Xira,Vila Franca de Xira
 A1 - Saída 3,Vila Franca de Xira,Vila Franca de Xira
@@ -16,6 +17,8 @@ A1 - Saída 15,Nossa Senhora de Fátima,Aveiro
 A1 - Saída 17,Beduído,Estarreja
 A1 - Saída 18,Feira,Santa Maria da Feira
 A1 - Saída 18B,Perosinho,Vila Nova de Gaia
+A1 - Saída 20,Mafamude,Vila Nova de Gaia
+A1 - Saída 23,São Pedro da Afurada,Vila Nova de Gaia
 A1 - São João da Talha,São João da Talha,Loures
 A2 - Saída 1,Pragal,Almada
 A2 - Saída 2,Arrentela,Seixal
@@ -28,6 +31,7 @@ A2 - Saída 11,Rio de Moinhos,Aljustrel
 A2 - Saída 12,Castro Verde,Castro Verde
 A2 - Saída 13,Gomes Aires,Almodôvar
 A2 - Saída 14,São Bartolomeu de Messines,Silves
+A3 - Início,Paranhos,Porto
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -131,6 +135,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Antuã-Estarreja,Salreu,Estarreja
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
+Área de Serviço de Gaia,Mafamude,Vila Nova de Gaia
 Área de Serviço de Grândola,Grândola,Grândola
 Área de Serviço de Lagos,Bensafrim,Lagos
 Área de Serviço de Leiria,Arrabal,Leiria
@@ -235,7 +240,9 @@ Cruzamento da A1 com a A15,Várzea,Santarém
 Cruzamento da A1 com a A20,Pedroso,Vila Nova de Gaia
 Cruzamento da A1 com a A23,Bugalhos,Alcanena
 Cruzamento da A1 com a A25,Albergaria-a-Velha,Albergaria-a-Velha
+Cruzamento da A1 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A1 com a A41 CREP,Nogueira da Regedoura,Santa Maria da Feira
+Cruzamento da A1 com a A44,Vilar do Paraíso,Vila Nova de Gaia
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
@@ -246,6 +253,7 @@ Cruzamento da A12 com a A2,Palmela,Palmela
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
+Cruzamento da A20 com a A28,Ramalde,Porto
 Cruzamento da A20 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A20 com a A32,Pedroso,Vila Nova de Gaia
 Cruzamento da A20 com a A43,Campanhã,Porto
@@ -382,7 +390,15 @@ IC19 - Saída 10,Cacém,Sintra
 IC19 - Saída 11,Rio de Mouro,Sintra
 IC19 - Saída 12,Rio de Mouro,Sintra
 IC19 - Saída 13,São Pedro de Penaferrim,Sintra
+IC23 - Avenida da Boavista Nascente,Lordelo do Ouro,Porto
+IC23 - Avenida da Boavista Poente,Ramalde,Porto
 IC23 - Campanhã,Campanhã,Porto
+IC23 - Campo Alegre,Lordelo do Ouro,Porto
+IC23 - Cruzamento com a N14,Paranhos,Porto
+IC23 - Estádio do Dragão,Campanhã,Porto
+IC23 - Nó das Antas,Paranhos,Porto
+IC23 - Paranhos,Paranhos,Porto
+IC23 - Rua do Amial,Paranhos,Porto
 IC27 - Fim,Pereiro,Alcoutim
 IC27 - Início,Castro Marim,Castro Marim
 IC27 - Saída 1,Castro Marim,Castro Marim

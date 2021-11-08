@@ -1,4 +1,14 @@
 Local A,Local B,Meio de transporte,Origem,Destino
+A1 - Canidelo,A1 - Saída 23,Carro,False,A44 - Espinho
+A1 - Canidelo,A1 - Saída 23,Carro,False,Lisboa
+A1 - Canidelo,A1 - Saída 23,Carro,False,Vila Nova de Gaia - Centro da cidade
+A1 - Canidelo,A1 - Saída 23,Carro,True,Porto
+A1 - Canidelo,A1 - Saída 23,Carro,True,Vila Nova de Gaia - São Pedro da Afurada
+A1 - Canidelo,Cruzamento da A1 com a A44,Carro,False,Porto
+A1 - Canidelo,Cruzamento da A1 com a A44,Carro,False,Vila Nova de Gaia - Devesas
+A1 - Canidelo,Cruzamento da A1 com a A44,Carro,True,A29 - Espinho
+A1 - Canidelo,Cruzamento da A1 com a A44,Carro,True,Lisboa
+A1 - Canidelo,Cruzamento da A1 com a A44,Carro,True,Vila Nova de Gaia - Coimbrões
 A1 - Saída 1A,A1 - São João da Talha,Carro,False,Alverca
 A1 - Saída 1A,A1 - São João da Talha,Carro,False,Norte
 A1 - Saída 1A,A1 - São João da Talha,Carro,True,A12 - Sul
@@ -112,6 +122,20 @@ A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,False,Carvalhos
 A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,False,Porto
 A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,True,Espinho
 A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,True,Lisboa
+A1 - Saída 20,Área de Serviço de Gaia,Carro,False,Ponte da Arrábida
+A1 - Saída 20,Área de Serviço de Gaia,Carro,False,Porto
+A1 - Saída 20,Área de Serviço de Gaia,Carro,False,Vila Nova de Gaia
+A1 - Saída 20,Área de Serviço de Gaia,Carro,True,Lisboa
+A1 - Saída 20,Área de Serviço de Gaia,Carro,True,Vila Nova de Gaia - Carvalhos
+A1 - Saída 20,Cruzamento da A1 com a A44,Carro,False,Lisboa
+A1 - Saída 20,Cruzamento da A1 com a A44,Carro,False,Vila Nova de Gaia - Santo Ovídio
+A1 - Saída 20,Cruzamento da A1 com a A44,Carro,True,Porto
+A1 - Saída 20,Cruzamento da A1 com a A44,Carro,True,Vila Nova de Gaia - Coimbrões
+A1 - Saída 23,IC23 - Campo Alegre,Carro,False,A1 - Lisboa
+A1 - Saída 23,IC23 - Campo Alegre,Carro,False,Ponte da Arrábida
+A1 - Saída 23,IC23 - Campo Alegre,Carro,False,Vila Nova de Gaia
+A1 - Saída 23,IC23 - Campo Alegre,Carro,True,Outras direcções
+A1 - Saída 23,IC23 - Campo Alegre,Carro,True,Porto
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Alverca
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,False,Norte
 A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,True,Lisboa
@@ -230,6 +254,19 @@ A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,A2 - Faro/Lisboa/Portimã
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,False,Salir
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,IC1 - Albufeira/Lisboa
 A2 - Saída 14,IC1 - Cruzamento com a N124,Carro,True,Silves
+A3 - Início,IC23 - Nó das Antas,Carro,False,A3 - Braga
+A3 - Início,IC23 - Nó das Antas,Carro,False,A4 - Vila Real
+A3 - Início,IC23 - Nó das Antas,Carro,False,A41 CREP - Aeroporto do Porto
+A3 - Início,IC23 - Nó das Antas,Carro,False,Ponte da Arrábida
+A3 - Início,IC23 - Nó das Antas,Carro,True,A1 - Lisboa
+A3 - Início,IC23 - Nó das Antas,Carro,True,Ponte do Freixo
+A3 - Início,IC23 - Nó das Antas,Carro,True,Vila Nova de Gaia
+A3 - Início,IC23 - Paranhos,Carro,False,A1 - Lisboa
+A3 - Início,IC23 - Paranhos,Carro,False,A3 - Braga
+A3 - Início,IC23 - Paranhos,Carro,False,A4 - Vila Real
+A3 - Início,IC23 - Paranhos,Carro,False,Ponte do Freixo
+A3 - Início,IC23 - Paranhos,Carro,True,A28 - Viana do Castelo
+A3 - Início,IC23 - Paranhos,Carro,True,Ponte da Arrábida
 A5 - Fim,A5 - Saída 12,Carro,False,Aldeia de Juso
 A5 - Fim,A5 - Saída 12,Carro,False,Birre
 A5 - Fim,A5 - Saída 12,Carro,True,Lisboa
@@ -3642,6 +3679,11 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,True,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,False,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Carro,True,Cádiz
+Área de Serviço de Gaia,Cruzamento da A1 com a A29,Carro,False,Ponte da Arrábida
+Área de Serviço de Gaia,Cruzamento da A1 com a A29,Carro,False,Porto
+Área de Serviço de Gaia,Cruzamento da A1 com a A29,Carro,False,Vila Nova de Gaia
+Área de Serviço de Gaia,Cruzamento da A1 com a A29,Carro,True,Carvalhos
+Área de Serviço de Gaia,Cruzamento da A1 com a A29,Carro,True,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Alcácer do Sal
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Carro,True,A26 - Beja
@@ -3961,6 +4003,12 @@ Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,False,A12 - Ponte Vasco da Gama/Sul
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Aeroporto de Lisboa
 Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,True,Lisboa - Centro da cidade
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,False,Carvalhos
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,False,Lisboa
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,True,A28 - Viana do Castelo
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,True,Ponte da Arrábida
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,True,Porto
+Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,True,Vila Nova de Gaia - Centro da cidade
 Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,False,Lisboa
 Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,False,Santa Maria da Feira
 Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,True,A3 - Braga
@@ -4005,6 +4053,17 @@ Cruzamento da A16 com o IC19,Ranholas,Carro,False,A16 - Colares/Mafra/Praias/Sin
 Cruzamento da A16 com o IC19,Ranholas,Carro,False,IC19 - Lisboa
 Cruzamento da A16 com o IC19,Ranholas,Carro,True,Cascais
 Cruzamento da A16 com o IC19,Ranholas,Carro,True,Sintra
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,False,A3 - Braga
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,False,A4 - Vila Real
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,False,Ponte do Freixo
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,True,A1 - Lisboa
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,True,Ponte da Arrábida
+Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Carro,True,Vila Nova de Gaia
+Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Carro,False,A28 - Viana do Castelo
+Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Carro,False,Ponte da Arrábida
+Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Carro,True,A3 - Braga
+Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Carro,True,A4 - Vila Real
+Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Carro,True,Ponte do Freixo
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Carro,False,Ponte do Freixo
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Carro,False,Porto
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Carro,False,Vila Nova de Gaia
@@ -5395,6 +5454,39 @@ IC19 - Saída 12,IC19 - Saída 13,Carro,True,A16 - Cascais/Sintra
 IC19 - Saída 12,IC19 - Saída 13,Carro,True,Carcavelos
 IC19 - Saída 12,IC19 - Saída 13,Carro,True,Mem Martins - Centro da cidade
 IC19 - Saída 12,IC19 - Saída 13,Carro,True,Sintra
+IC23 - Avenida da Boavista Nascente,IC23 - Avenida da Boavista Poente,Carro,False,A1 - Lisboa
+IC23 - Avenida da Boavista Nascente,IC23 - Avenida da Boavista Poente,Carro,True,Ponte do Freixo
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,False,A3 - Braga
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,False,A4 - Vila Real
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,False,A28 - Viana do Castelo
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,False,A41 CREP - Aeroporto do Porto
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,False,Ponte do Freixo
+IC23 - Avenida da Boavista Nascente,IC23 - Campo Alegre,Carro,True,Ponte da Arrábida
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,False,A1 - Lisboa
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,False,Ponte do Freixo
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,False,Vila Nova de Gaia
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,True,A3 - Braga
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,True,A4 - Vila Real
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,True,A41 CREP - Aeroporto do Porto
+IC23 - Campanhã,IC23 - Estádio do Dragão,Carro,True,Ponte da Arrábida
+IC23 - Cruzamento com a N14,IC23 - Rua do Amial,Carro,False,A28 - Viana do Castelo
+IC23 - Cruzamento com a N14,IC23 - Rua do Amial,Carro,False,Ponte da Arrábida
+IC23 - Cruzamento com a N14,IC23 - Rua do Amial,Carro,True,A3 - Braga
+IC23 - Cruzamento com a N14,IC23 - Rua do Amial,Carro,True,A4 - Vila Real
+IC23 - Cruzamento com a N14,IC23 - Rua do Amial,Carro,True,Ponte do Freixo
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,False,A1 - Lisboa
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,False,Ponte do Freixo
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,False,Vila Nova de Gaia
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,True,A3 - Braga
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,True,A4 - Vila Real
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,True,A41 CREP - Aeroporto do Porto
+IC23 - Estádio do Dragão,IC23 - Nó das Antas,Carro,True,Ponte da Arrábida
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,False,A1 - Lisboa
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,False,A3 - Braga
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,False,A4 - Vila Real
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,False,Ponte do Freixo
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,True,A28 - Viana do Castelo
+IC23 - Paranhos,IC23 - Rua do Amial,Carro,True,Ponte da Arrábida
 IC27 - Fim,IC27 - Saída 7,Carro,False,Beja
 IC27 - Fim,IC27 - Saída 7,Carro,False,Mértola
 IC27 - Fim,IC27 - Saída 7,Carro,True,Castro Marim
