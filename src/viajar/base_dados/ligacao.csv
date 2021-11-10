@@ -1550,6 +1550,7 @@ Dunas de Vila Real de Santo António,Vila Real de Santo António,Carro,2.0,,NE,2
 Écija,Estepa,Carro,37.9,,SE,4,2
 Écija,Osuna,Carro,35.1,,S,3,2
 Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,1.3,Eixo Norte-Sul,N,1,2
+Eixo Norte-Sul - Campolide,Estação de Campolide,Carro,1.0,,NE,3,1
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,1.2,Radial de Benfica,NO,1,2
 El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
@@ -1565,6 +1566,9 @@ Espiche,N125 - Acesso à Saída 1 da A22,Carro,4.1,N125,NE,1,4
 Espírito Santo,Moinhos de Vento de Cima,Carro,4.5,,O,6,2
 Espírito Santo,Roncão de Cima,Carro,5.8,,NE,3,1
 Espírito Santo,Sedas,Carro,4.7,N122,SE,1,1
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,11.8,Linha do Alentejo - Intercidades,SE,1,2
+Estação da Casa Branca,Estação de Évora,Comboio,26.6,Linha de Évora - Intercidades,E,3,1
+Estação da Casa Branca,Vendas Novas,Comboio,33.6,Linha do Alentejo - Intercidades,O,2,1
 Estação da Luz,Estação de Tavira,Comboio,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Comboio,3.3,Linha do Algarve - Regional,SO,3,3
 Estação da Luz,Luz de Tavira,Carro,0.6,,NO,1,2
@@ -1595,12 +1599,17 @@ Estação de Bom João,Porto de Faro,Carro,2.0,,S,1,1
 Estação de Bom João,Variante de Faro - Nó com a M518,Carro,2.6,,NE,3,3
 Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Regional,NE,2,4
 Estação de Cacela,Vila Nova de Cacela,Carro,0.8,,SE,1,4
+Estação de Campolide,Estação do Pragal,Comboio,7.3,Linha do Sul/Ponte 25 de Abril - Fertagus,S,2,2
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,2
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
+Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
+Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,2
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
+Estação de Corroios,Estação de Foros de Amora,Comboio,2.6,Linha do Sul - Fertagus,SE,1,2
+Estação de Corroios,Estação do Pragal,Comboio,5.1,Linha do Sul - Fertagus,NO,2,1
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,35.1,Linha do Sul,S,3,4
 Estação de Ermidas - Sado,Ferreira do Alentejo,Carro,29.0,N121,NE,6,4
@@ -1616,8 +1625,11 @@ Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Intercidad
 Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,15.8,Linha do Algarve,NO,5,7
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
+Estação de Fernando Pó,Estação de Pegões,Comboio,7.0,Linha do Alentejo - Intercidades,E,1,2
+Estação de Fernando Pó,Estação de Poceirão,Comboio,4.5,Linha do Alentejo - Intercidades,O,2,1
 Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,4
 Estação de Ferragudo,Parchal,Carro,0.3,,SO,1,3
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,2.8,Linha do Sul - Fertagus,O,2,1
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,2.8,Linhas C-1/C-10/CIVIS C-2 - Cercanías Madrid,SO,1,3
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,4.0,Linhas C-1/C-10 - Cercanías Madrid,E,2,1
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,40.2,Linha do Sul,SO,3,9
@@ -1647,8 +1659,10 @@ Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-
 Estação de Palmela,Estação de Setúbal,Comboio,4.9,Linha do Sado - CP Lisboa/Fertagus,S,2,1
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,4.0,Linha do Sado - CP Lisboa/Fertagus,NO,1,2
 Estação de Parque das Cidades,Mar Shopping Algarve,Carro,2.5,,NO,2,4
+Estação de Pegões,Estação de São João das Craveiras,Comboio,3.0,Linha do Alentejo - Intercidades,E,1,2
 Estação de Penalva,Pinhal Novo,Comboio,8.7,Linha do Sul - Fertagus,NE,1,2
 Estação de Penteado,Pinhal Novo,Comboio,3.7,Linha do Sado - CP Lisboa,SE,1,3
+Estação de Poceirão,Pinhal Novo,Comboio,15.0,Linha do Alentejo - Intercidades,O,2,5
 Estação de Portimão,Mexilhoeira Grande,Comboio,8.9,Linha do Algarve - Regional,NO,5,3
 Estação de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,2.1,,SO,2,4
 Estação de Portimão,Universidade do Algarve - Campus de Portimão,Carro,0.2,,SE,1,2
@@ -1657,12 +1671,14 @@ Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,44.0,Linha do Sul,SE,8,10
+Estação de São João das Craveiras,Vendas Novas,Comboio,11.9,Linha do Alentejo - Intercidades,E,1,2
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
 Estação de Silves,Silves,Carro,2.5,N124-1,N,2,1
 Estação de Tavira,Tavira - Sul,Carro,0.6,,NE,1,3
 Estação de Venda do Alcaide,Pinhal Novo,Comboio,3.8,Linha do Sado - CP Lisboa/Fertagus,NO,1,4
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,75.4,LAV Madrid-Sevilha,NE,2,1
+Estação do Pragal,Pinhal Novo,Comboio,29.5,Linha do Sul - Intercidades,SE,3,6
 Estádio Algarve,Santa Bárbara de Nexe,Carro,2.6,,NE,2,2
 Estepa,Pedrera,Carro,10.5,,S,3,2
 Estoi,Moncarapacho,Carro,10.3,,E,1,5
@@ -1731,7 +1747,7 @@ GR-30 - Saída 21,GR-30 - Saída 23,Carro,2.4,GR-30,SO,2,1
 Grândola,IP8 - Cruzamento com a N261-1,Carro,5.2,,NO,9,3
 Grândola,IP8 - Cruzamento com a N261-2,Carro,9.1,,SO,8,2
 Grândola,Pinhal Novo,Comboio,69.5,Linha do Sul - Intercidades,NO,2,1
-Grândola,Pinhal Novo,Comboio de Alta Velocidade,69.5,Linha do Sul,NO,4,5
+Grândola,Pinhal Novo,Comboio de Alta Velocidade,69.5,Linha do Sul,NO,4,7
 Guerreiros do Rio,Laranjeiras,Carro,1.2,,NO,1,1
 Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
 Guia,Marina de Albufeira,Carro,7.7,,SE,5,2

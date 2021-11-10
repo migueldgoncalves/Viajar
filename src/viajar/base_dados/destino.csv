@@ -4965,6 +4965,21 @@ Espiche,N125 - Acesso à Saída 1 da A22,Carro,True,Portimão
 Espírito Santo,Sedas,Carro,False,Beja
 Espírito Santo,Sedas,Carro,False,Mértola
 Espírito Santo,Sedas,Carro,True,Alcoutim
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Évora
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Lisboa - Oriente
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Pinhal Novo
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,True,Beja
+Estação da Casa Branca,Estação de Alcáçovas,Comboio,True,Vila Nova da Baronia
+Estação da Casa Branca,Estação de Évora,Comboio,False,Beja
+Estação da Casa Branca,Estação de Évora,Comboio,False,Lisboa - Oriente
+Estação da Casa Branca,Estação de Évora,Comboio,False,Pinhal Novo
+Estação da Casa Branca,Estação de Évora,Comboio,True,Évora
+Estação da Casa Branca,Vendas Novas,Comboio,False,Beja
+Estação da Casa Branca,Vendas Novas,Comboio,False,Évora
+Estação da Casa Branca,Vendas Novas,Comboio,False,Vila Nova da Baronia
+Estação da Casa Branca,Vendas Novas,Comboio,True,Faro
+Estação da Casa Branca,Vendas Novas,Comboio,True,Lisboa - Oriente
+Estação da Casa Branca,Vendas Novas,Comboio,True,Pinhal Novo
 Estação da Luz,Estação de Tavira,Comboio,False,Faro
 Estação da Luz,Estação de Tavira,Comboio,False,Lagos
 Estação da Luz,Estação de Tavira,Comboio,True,Vila Real de Santo António
@@ -5035,6 +5050,13 @@ Estação de Bom João,Olhão,Comboio,True,Vila Real de Santo António
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Faro
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Lagos
 Estação de Cacela,Estação de Castro Marim,Comboio,True,Vila Real de Santo António
+Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Oriente
+Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Sete Rios
+Estação de Campolide,Estação do Pragal,Comboio,False,Porto - Campanhã
+Estação de Campolide,Estação do Pragal,Comboio,True,Barreiro
+Estação de Campolide,Estação do Pragal,Comboio,True,Faro
+Estação de Campolide,Estação do Pragal,Comboio,True,Pinhal Novo
+Estação de Campolide,Estação do Pragal,Comboio,True,Setúbal
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Faro
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
@@ -5055,6 +5077,20 @@ Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Córdoba
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Granada
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Málaga-María Zambrano
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,True,Sevilha-Santa Justa
+Estação de Coina,Estação de Fogueteiro,Comboio,False,Barreiro
+Estação de Coina,Estação de Fogueteiro,Comboio,False,Faro
+Estação de Coina,Estação de Fogueteiro,Comboio,False,Pinhal Novo
+Estação de Coina,Estação de Fogueteiro,Comboio,False,Setúbal
+Estação de Coina,Estação de Fogueteiro,Comboio,True,Lisboa - Campolide
+Estação de Coina,Estação de Fogueteiro,Comboio,True,Lisboa - Oriente
+Estação de Coina,Estação de Fogueteiro,Comboio,True,Porto - Campanhã
+Estação de Coina,Estação de Penalva,Comboio,False,Lisboa - Campolide
+Estação de Coina,Estação de Penalva,Comboio,False,Lisboa - Oriente
+Estação de Coina,Estação de Penalva,Comboio,False,Porto - Campanhã
+Estação de Coina,Estação de Penalva,Comboio,True,Barreiro
+Estação de Coina,Estação de Penalva,Comboio,True,Faro
+Estação de Coina,Estação de Penalva,Comboio,True,Pinhal Novo
+Estação de Coina,Estação de Penalva,Comboio,True,Setúbal
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Antequera-Santa Ana
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Granada
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Madrid-Puerta de Atocha
@@ -5067,6 +5103,20 @@ Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio 
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Barcelona-Sants
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Madrid-Puerta de Atocha
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
+Estação de Corroios,Estação de Foros de Amora,Comboio,False,Lisboa - Campolide
+Estação de Corroios,Estação de Foros de Amora,Comboio,False,Lisboa - Oriente
+Estação de Corroios,Estação de Foros de Amora,Comboio,False,Porto - Campanhã
+Estação de Corroios,Estação de Foros de Amora,Comboio,True,Barreiro
+Estação de Corroios,Estação de Foros de Amora,Comboio,True,Faro
+Estação de Corroios,Estação de Foros de Amora,Comboio,True,Pinhal Novo
+Estação de Corroios,Estação de Foros de Amora,Comboio,True,Setúbal
+Estação de Corroios,Estação do Pragal,Comboio,False,Barreiro
+Estação de Corroios,Estação do Pragal,Comboio,False,Faro
+Estação de Corroios,Estação do Pragal,Comboio,False,Pinhal Novo
+Estação de Corroios,Estação do Pragal,Comboio,False,Setúbal
+Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Campolide
+Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Oriente
+Estação de Corroios,Estação do Pragal,Comboio,True,Porto - Campanhã
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,True,Faro
@@ -5106,9 +5156,28 @@ Estação de Faro,Estação de Loulé,Comboio,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Comboio,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
+Estação de Fernando Pó,Estação de Pegões,Comboio,False,Faro
+Estação de Fernando Pó,Estação de Pegões,Comboio,False,Lisboa - Oriente
+Estação de Fernando Pó,Estação de Pegões,Comboio,False,Pinhal Novo
+Estação de Fernando Pó,Estação de Pegões,Comboio,True,Beja
+Estação de Fernando Pó,Estação de Pegões,Comboio,True,Évora
+Estação de Fernando Pó,Estação de Pegões,Comboio,True,Pinhal Novo
+Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Beja
+Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Casa Branca
+Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Évora
+Estação de Fernando Pó,Estação de Poceirão,Comboio,True,Faro
+Estação de Fernando Pó,Estação de Poceirão,Comboio,True,Lisboa - Oriente
+Estação de Fernando Pó,Estação de Poceirão,Comboio,True,Pinhal Novo
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
 Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Barreiro
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Faro
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Pinhal Novo
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Setúbal
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Lisboa - Campolide
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Lisboa - Oriente
+Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Porto - Campanhã
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Collado Villalba
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Atocha
@@ -5189,9 +5258,20 @@ Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Praias do Sado-
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Setúbal
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Barreiro
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Pinhal Novo
+Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Faro
+Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Lisboa - Oriente
+Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Pinhal Novo
+Estação de Pegões,Estação de São João das Craveiras,Comboio,True,Beja
+Estação de Pegões,Estação de São João das Craveiras,Comboio,True,Casa Branca
+Estação de Pegões,Estação de São João das Craveiras,Comboio,True,Évora
+Estação de Penalva,Pinhal Novo,Comboio,False,Lisboa - Campolide
 Estação de Penalva,Pinhal Novo,Comboio,False,Lisboa - Oriente
 Estação de Penalva,Pinhal Novo,Comboio,False,Porto - Campanhã
+Estação de Penalva,Pinhal Novo,Comboio,True,Barreiro
+Estação de Penalva,Pinhal Novo,Comboio,True,Beja
+Estação de Penalva,Pinhal Novo,Comboio,True,Évora
 Estação de Penalva,Pinhal Novo,Comboio,True,Faro
+Estação de Penalva,Pinhal Novo,Comboio,True,Setúbal
 Estação de Penalva,Pinhal Novo,Comboio,True,Tunes
 Estação de Penteado,Pinhal Novo,Comboio,False,Barreiro
 Estação de Penteado,Pinhal Novo,Comboio,True,Beja
@@ -5200,12 +5280,24 @@ Estação de Penteado,Pinhal Novo,Comboio,True,Faro
 Estação de Penteado,Pinhal Novo,Comboio,True,Lisboa - Oriente
 Estação de Penteado,Pinhal Novo,Comboio,True,Praias do Sado-A
 Estação de Penteado,Pinhal Novo,Comboio,True,Setúbal
+Estação de Poceirão,Pinhal Novo,Comboio,False,Beja
+Estação de Poceirão,Pinhal Novo,Comboio,False,Casa Branca
+Estação de Poceirão,Pinhal Novo,Comboio,False,Évora
+Estação de Poceirão,Pinhal Novo,Comboio,True,Faro
+Estação de Poceirão,Pinhal Novo,Comboio,True,Lisboa - Oriente
+Estação de Poceirão,Pinhal Novo,Comboio,True,Porto - Campanhã
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,True,Faro
+Estação de São João das Craveiras,Vendas Novas,Comboio,False,Faro
+Estação de São João das Craveiras,Vendas Novas,Comboio,False,Lisboa - Oriente
+Estação de São João das Craveiras,Vendas Novas,Comboio,False,Pinhal Novo
+Estação de São João das Craveiras,Vendas Novas,Comboio,True,Beja
+Estação de São João das Craveiras,Vendas Novas,Comboio,True,Casa Branca
+Estação de São João das Craveiras,Vendas Novas,Comboio,True,Évora
 Estação de Silves,Poço Barreto,Comboio,False,Lagos
 Estação de Silves,Poço Barreto,Comboio,True,Tunes
 Estação de Silves,Poço Barreto,Comboio,True,Vila Real de Santo António
@@ -5229,6 +5321,12 @@ Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Ve
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Barcelona-Sants
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Madrid-Puerta de Atocha
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
+Estação do Pragal,Pinhal Novo,Comboio,False,Lisboa - Oriente
+Estação do Pragal,Pinhal Novo,Comboio,False,Porto - Campanhã
+Estação do Pragal,Pinhal Novo,Comboio,True,Beja
+Estação do Pragal,Pinhal Novo,Comboio,True,Évora
+Estação do Pragal,Pinhal Novo,Comboio,True,Faro
+Estação do Pragal,Pinhal Novo,Comboio,True,Tunes
 Estoi,Pechão,Carro,False,Estoi
 Estoi,Pechão,Carro,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi

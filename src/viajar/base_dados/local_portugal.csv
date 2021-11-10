@@ -314,6 +314,7 @@ Entradas,Entradas,Castro Verde
 Ervidel,Ervidel,Aljustrel
 Espiche,Luz,Lagos
 Espírito Santo,Espírito Santo,Mértola
+Estação da Casa Branca,Santiago do Escoural,Montemor-o-Novo
 Estação da Luz,Luz de Tavira,Tavira
 Estação da Porta Nova,Santa Maria,Tavira
 Estação de Albufeira - Ferreiras,Ferreiras,Albufeira
@@ -325,11 +326,18 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
 Estação de Boliqueime,Boliqueime,Loulé
 Estação de Bom João,Sé,Faro
 Estação de Cacela,Vila Nova de Cacela,Vila Real de Santo António
+Estação de Campolide,Campolide,Lisboa
 Estação de Castro Marim,Castro Marim,Castro Marim
+Estação de Coina,Aldeia de Paio Pires,Seixal
+Estação de Corroios,Corroios,Seixal
 Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
+Estação de Évora,Horta das Figueiras,Évora
 Estação de Faro,São Pedro,Faro
+Estação de Fernando Pó,Marateca,Palmela
 Estação de Ferragudo,Parchal,Lagoa
+Estação de Fogueteiro,Arrentela,Seixal
+Estação de Foros de Amora,Amora,Seixal
 Estação de Funcheira,Garvão,Ourique
 Estação de Fuseta-A,Fuseta,Olhão
 Estação de Fuseta-Moncarapacho,Moncarapacho,Olhão
@@ -339,14 +347,18 @@ Estação de Messines - Alte,São Bartolomeu de Messines,Silves
 Estação de Monte Gordo,Monte Gordo,Vila Real de Santo António
 Estação de Palmela,Palmela,Palmela
 Estação de Parque das Cidades,Almancil,Loulé
+Estação de Pegões,Santo Isidro de Pegões,Montijo
 Estação de Penalva,Quinta do Anjo,Palmela
 Estação de Penteado,Moita,Moita
+Estação de Poceirão,Poceirão,Palmela
 Estação de Portimão,Portimão,Portimão
 Estação de Santa Clara - Sabóia,Santa Clara-a-Velha,Odemira
+Estação de São João das Craveiras,Pegões,Montijo
 Estação de Setúbal,São Sebastião,Setúbal
 Estação de Silves,Silves,Silves
 Estação de Tavira,Santiago,Tavira
 Estação de Venda do Alcaide,Palmela,Palmela
+Estação do Pragal,Pragal,Almada
 Estádio Algarve,Almancil,Loulé
 Estoi,Estoi,Faro
 Estômbar,Estômbar,Lagoa
@@ -667,6 +679,7 @@ Vaqueiros,Vaqueiros,Alcoutim
 Variante de Faro - Nó com a M518,São Pedro,Faro
 Variante de Faro - Nó com a N2,Conceição,Faro
 Variante de Faro - Nó com o IC4,São Pedro,Faro
+Vendas Novas,Vendas Novas,Vendas Novas
 "Vicentes, Alcoutim",Pereiro,Alcoutim
 "Vicentes, Mértola",Espírito Santo,Mértola
 Vidigueira,Vidigueira,Vidigueira
