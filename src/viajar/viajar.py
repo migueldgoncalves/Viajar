@@ -14,6 +14,7 @@ COMBOIO_STRING = "Entrar a bordo de um comboio"
 COMBOIO_PADRAO_STRING = "Entrar a bordo de um comboio padrão"
 COMBOIO_ALTA_VELOCIDADE_STRING = "Entrar a bordo de um "  # Completar com o nome do comboio
 METRO_STRING = "Entrar numa composição de metro"
+TRANSBORDO_STRING = "Fazer transbordo"
 INFORMACOES_LOCAL = "Mostrar informações do local"
 ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
 OPCAO_CARRO = "s"
@@ -46,6 +47,7 @@ AVIAO = 'Avião'
 COMBOIO = 'Comboio'
 COMBOIO_ALTA_VELOCIDADE = 'Comboio de Alta Velocidade'
 METRO = 'Metro'
+TRANSBORDO = 'Transbordo'
 
 #  Outros
 LOCAL_INICIAL = 'Guerreiros do Rio'
@@ -121,6 +123,8 @@ class Viajar:
                 print("\nEstá a bordo de um Alfa Pendular")
             elif self.get_local_actual().get_pais() == 'Espanha':
                 print("\nEstá a bordo de um AVE")
+        elif self.viagem_actual.get_modo() == TRANSBORDO:
+            print("\nEstá a fazer transbordo")
         print("Tem novos destinos disponíveis")
 
     #  #  #  #  #  #  #  #  #
@@ -206,8 +210,11 @@ class Viajar:
                 distancia = locais_circundantes[x][1]
                 if meio_transporte == self.viagem_actual.get_modo():
                     locais_circundantes_modo_actual.append(nome_local)
-                    texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local + ' ' + "(" + ponto_cardeal + ", " \
-                        + str(distancia) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
+                    if meio_transporte == TRANSBORDO:
+                        texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local  # Exemplo: 1 - Aeroporto de Lisboa
+                    else:
+                        texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local + ' ' + "(" + ponto_cardeal + ", " \
+                            + str(distancia) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
                     #  Destinos possíveis por essa direcção
                     sentido = self.get_local_actual().get_sentido(nome_local, meio_transporte)
                     #  Info extra da direcção
@@ -250,6 +257,8 @@ class Viajar:
                             print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "Alfa Pendular")
                         elif self.get_local_actual().get_pais() == 'Espanha':
                             print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "AVE")
+                    elif x == TRANSBORDO:
+                        print(iterador, SEPARADOR_MODO, TRANSBORDO_STRING)
                     iterador += 1
 
             #  Opção das informações do local

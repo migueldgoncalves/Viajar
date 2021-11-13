@@ -4965,6 +4965,13 @@ Espiche,N125 - Acesso à Saída 1 da A22,Carro,True,Portimão
 Espírito Santo,Sedas,Carro,False,Beja
 Espírito Santo,Sedas,Carro,False,Mértola
 Espírito Santo,Sedas,Carro,True,Alcoutim
+"Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Metro,False,Aeroporto
+"Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Metro,True,Oriente
+"Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Metro,True,São Sebastião
+Estação Cabo Ruivo,Gare do Oriente,Metro,False,Alameda
+Estação Cabo Ruivo,Gare do Oriente,Metro,False,São Sebastião
+Estação Cabo Ruivo,Gare do Oriente,Metro,True,Aeroporto
+Estação Cabo Ruivo,Gare do Oriente,Metro,True,Oriente
 Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Évora
 Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Lisboa - Oriente
 Estação da Casa Branca,Estação de Alcáçovas,Comboio,False,Pinhal Novo
@@ -5327,6 +5334,12 @@ Estação do Pragal,Pinhal Novo,Comboio,True,Beja
 Estação do Pragal,Pinhal Novo,Comboio,True,Évora
 Estação do Pragal,Pinhal Novo,Comboio,True,Faro
 Estação do Pragal,Pinhal Novo,Comboio,True,Tunes
+Estação Encarnação,Estação Moscavide,Metro,False,Aeroporto
+Estação Encarnação,Estação Moscavide,Metro,True,Oriente
+Estação Encarnação,Estação Moscavide,Metro,True,São Sebastião
+Estação Moscavide,Gare do Oriente,Metro,False,Aeroporto
+Estação Moscavide,Gare do Oriente,Metro,True,Oriente
+Estação Moscavide,Gare do Oriente,Metro,True,São Sebastião
 Estoi,Pechão,Carro,False,Estoi
 Estoi,Pechão,Carro,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi

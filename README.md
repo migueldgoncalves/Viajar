@@ -2,7 +2,7 @@
 
 Viajar de carro, barco, comboio e avião, pelo Baixo Guadiana e mais além, unicamente com recurso a código
 
-Desenvolvido em Python 3.5
+Desenvolvido em Python 3.9
 
 ## Apresentação
 
@@ -71,3 +71,7 @@ Isso deve-se ao uso da biblioteca msvcrt para detectar e ler teclas pressionadas
 
 O comando Run do IDE PyCharm apenas irá funcionar se em Run > Edit Configurations se seleccione a opção Emulate terminal in output console.
 Porém, com esse comando todos os caracteres não-ASCII irão aparecer desformatados
+
+## Links úteis
+
+* [Criar novo meio de transporte](https://github.com/migueldgoncalves/Viajar/blob/master/docs/criar_novo_meio_transporte.md)
