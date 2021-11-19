@@ -2,6 +2,11 @@
 Nomes de vias para serem processados pelo gerador de informação
 """
 
+# Tipo de via
+
+VIA_ESTRADA = 'Estrada'
+VIA_FERROVIA = 'Ferrovia'
+
 # País
 
 ANDORRA = "AD"
@@ -83,4 +88,7 @@ PT_IC27 = ("IC27", "IC 27", PORTUGAL)
 
 # Linhas ferroviárias
 
-LINHA_DO_NORTE = ("Linha do Norte", PORTUGAL)
+ES_CIUDAD_REAL_BADAJOZ = ("Ciudad Real-Badajoz", ESPANHA, VIA_FERROVIA)
+
+PT_LINHA_DE_CASCAIS = ("Linha de Cascais", PORTUGAL, VIA_FERROVIA)
+PT_LINHA_DO_NORTE = ("Linha do Norte", PORTUGAL, VIA_FERROVIA)

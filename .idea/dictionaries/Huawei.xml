@@ -393,6 +393,7 @@
       <w>conceição</w>
       <w>concelho</w>
       <w>concepción</w>
+      <w>concluidas</w>
       <w>condado</w>
       <w>condequinto</w>
       <w>considerar</w>
@@ -403,6 +404,7 @@
       <w>conta</w>
       <w>contador</w>
       <w>contagem</w>
+      <w>conteudo</w>
       <w>controlado</w>
       <w>contrário</w>
       <w>contêm</w>
@@ -470,6 +472,7 @@
       <w>despeñaperros</w>
       <w>destino</w>
       <w>destinos</w>
+      <w>detecta</w>
       <w>detectar</w>
       <w>determinar</w>
       <w>deve</w>
@@ -493,6 +496,7 @@
       <w>distancia</w>
       <w>distrito</w>
       <w>distância</w>
+      <w>divisoes</w>
       <w>dois</w>
       <w>dominante</w>
       <w>dosbarrios</w>
@@ -535,7 +539,9 @@
       <w>espírito</w>
       <w>esquerda</w>
       <w>esse</w>
+      <w>estacao</w>
       <w>estacionamento</w>
+      <w>estacoes</w>
       <w>estado</w>
       <w>estar</w>
       <w>estatisticas</w>
@@ -576,6 +582,7 @@
       <w>ferreira</w>
       <w>ferreiras</w>
       <w>ferro</w>
+      <w>ferroviaria</w>
       <w>ferroviário</w>
       <w>fertagus</w>
       <w>ficalho</w>
@@ -656,6 +663,7 @@
       <w>herencia</w>
       <w>hermanas</w>
       <w>herreruela</w>
+      <w>historica</w>
       <w>histórico</w>
       <w>hortaleza</w>
       <w>hortas</w>
@@ -674,6 +682,7 @@
       <w>incrementar</w>
       <w>independentemente</w>
       <w>infinita</w>
+      <w>informacao</w>
       <w>informacoes</w>
       <w>informação</w>
       <w>informações</w>
@@ -729,6 +738,7 @@
       <w>leganés</w>
       <w>lepe</w>
       <w>ligacao</w>
+      <w>ligacoes</w>
       <w>ligação</w>
       <w>linares</w>
       <w>linha</w>
@@ -868,6 +878,7 @@
       <w>mude</w>
       <w>mudela</w>
       <w>municipio</w>
+      <w>municipios</w>
       <w>município</w>
       <w>murtede</w>
       <w>murteira</w>
@@ -1106,10 +1117,12 @@
       <w>região</w>
       <w>reiniciar</w>
       <w>reinício</w>
+      <w>relacao</w>
       <w>relativa</w>
       <w>repouso</w>
       <w>reserva</w>
       <w>residencial</w>
+      <w>respectivos</w>
       <w>restantes</w>
       <w>restauração</w>
       <w>resultado</w>
@@ -1142,6 +1155,7 @@
       <w>sagra</w>
       <w>sagres</w>
       <w>saida</w>
+      <w>saidas</w>
       <w>sair</w>
       <w>salar</w>
       <w>salema</w>
@@ -1336,6 +1350,8 @@
       <w>voltar</w>
       <w>vrsa</w>
       <w>vélez</w>
+      <w>wkbfab</w>
+      <w>wkblib</w>
       <w>xanadú</w>
       <w>xira</w>
       <w>zafayona</w>
