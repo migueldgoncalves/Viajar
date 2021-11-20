@@ -88,7 +88,10 @@ PT_IC27 = ("IC27", "IC 27", PORTUGAL)
 
 # Linhas ferroviárias
 
+ES_CERCANIAS_MADRID_C3 = ("Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", ESPANHA, VIA_FERROVIA)
 ES_CIUDAD_REAL_BADAJOZ = ("Ciudad Real-Badajoz", ESPANHA, VIA_FERROVIA)
 
 PT_LINHA_DE_CASCAIS = ("Linha de Cascais", PORTUGAL, VIA_FERROVIA)
+PT_LINHA_DE_CINTURA = ("Linha de Cintura", PORTUGAL, VIA_FERROVIA)
 PT_LINHA_DO_NORTE = ("Linha do Norte", PORTUGAL, VIA_FERROVIA)
+PT_LINHA_DE_SINTRA = ("Linha de Sintra", PORTUGAL, VIA_FERROVIA)

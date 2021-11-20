@@ -5020,6 +5020,12 @@ Estação de Alcáçovas,Vila Nova da Baronia,Comboio,True,Beja
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
+Estação de Alhos Vedros,Estação de Baixa da Banheira,Comboio,False,Pinhal Novo
+Estação de Alhos Vedros,Estação de Baixa da Banheira,Comboio,False,Praias do Sado-A
+Estação de Alhos Vedros,Estação de Baixa da Banheira,Comboio,True,Barreiro
+Estação de Alhos Vedros,Estação de Moita,Comboio,False,Barreiro
+Estação de Alhos Vedros,Estação de Moita,Comboio,True,Pinhal Novo
+Estação de Alhos Vedros,Estação de Moita,Comboio,True,Praias do Sado-A
 Estação de Almancil,Estação de Loulé,Comboio,False,Faro
 Estação de Almancil,Estação de Loulé,Comboio,False,Vila Real de Santo António
 Estação de Almancil,Estação de Loulé,Comboio,True,Lagos
@@ -5044,6 +5050,15 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Colos
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Estação de Amoreiras - Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,True,São Martinho das Amoreiras
+Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Pinhal Novo
+Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Praias do Sado-A
+Estação de Baixa da Banheira,Estação do Lavradio,Comboio,True,Barreiro
+Estação de Barreiro-A,Estação do Barreiro,Comboio,False,Pinhal Novo
+Estação de Barreiro-A,Estação do Barreiro,Comboio,False,Praias do Sado-A
+Estação de Barreiro-A,Estação do Barreiro,Comboio,True,Barreiro
+Estação de Barreiro-A,Estação do Lavradio,Comboio,False,Barreiro
+Estação de Barreiro-A,Estação do Lavradio,Comboio,True,Pinhal Novo
+Estação de Barreiro-A,Estação do Lavradio,Comboio,True,Praias do Sado-A
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Lagos
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Tunes
 Estação de Boliqueime,Estação de Loulé,Comboio,True,Faro
@@ -5057,9 +5072,21 @@ Estação de Bom João,Olhão,Comboio,True,Vila Real de Santo António
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Faro
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Lagos
 Estação de Cacela,Estação de Castro Marim,Comboio,True,Vila Real de Santo António
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Barreiro
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Faro
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Lisboa - Alcântara-Terra
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Lisboa - Rossio
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Pinhal Novo
+Estação de Campolide,Estação de Sete Rios,Comboio,False,Setúbal
+Estação de Campolide,Estação de Sete Rios,Comboio,True,Lisboa - Oriente
+Estação de Campolide,Estação de Sete Rios,Comboio,True,Lisboa - Santa Apolónia
+Estação de Campolide,Estação de Sete Rios,Comboio,True,Porto - Campanhã
+Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Alcântara-Terra
 Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Oriente
+Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Rossio
 Estação de Campolide,Estação do Pragal,Comboio,False,Lisboa - Sete Rios
 Estação de Campolide,Estação do Pragal,Comboio,False,Porto - Campanhã
+Estação de Campolide,Estação do Pragal,Comboio,False,Sintra
 Estação de Campolide,Estação do Pragal,Comboio,True,Barreiro
 Estação de Campolide,Estação do Pragal,Comboio,True,Faro
 Estação de Campolide,Estação do Pragal,Comboio,True,Pinhal Novo
@@ -5241,6 +5268,9 @@ Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Pin
 Estação de Messines - Alte,Tunes,Comboio,False,Lisboa - Oriente
 Estação de Messines - Alte,Tunes,Comboio,False,Pinhal Novo
 Estação de Messines - Alte,Tunes,Comboio,True,Faro
+Estação de Moita,Estação de Penteado,Comboio,False,Barreiro
+Estação de Moita,Estação de Penteado,Comboio,True,Pinhal Novo
+Estação de Moita,Estação de Penteado,Comboio,True,Praias do Sado-A
 Estação de Monte Gordo,Hortas,Carro,False,Manta Rota
 Estação de Monte Gordo,Hortas,Carro,False,Vila Nova de Cacela
 Estação de Monte Gordo,Hortas,Carro,True,Espanha
@@ -5296,6 +5326,12 @@ Estação de Poceirão,Pinhal Novo,Comboio,True,Porto - Campanhã
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Comboio,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Comboio,True,Lagos
+Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,False,Barreiro
+Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,False,Setúbal
+Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,True,Praias do Sado-A
+Estação de Praça do Quebedo,Estação de Setúbal,Comboio,False,Praias do Sado-A
+Estação de Praça do Quebedo,Estação de Setúbal,Comboio,True,Barreiro
+Estação de Praça do Quebedo,Estação de Setúbal,Comboio,True,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,True,Faro
