@@ -364,7 +364,12 @@ class GeradorInformacao:
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
                 local_a: str = conteudo[idx].split(",")[0]
-                local_b: str = conteudo[idx + 1].split(",")[0]
+                local_b: str = conteudo[idx + 1].split(",")[0].strip()
+
+                if local_b == '':  # Linha vazia - Parar processamento aqui
+                    print("Linha vazia encontrada - Processamento será apenas parcial")
+                    break
+
                 if self.via_tipo == VIA_FERROVIA:
                     meio_transporte: str = 'Comboio'
                 else:

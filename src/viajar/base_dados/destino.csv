@@ -4993,9 +4993,38 @@ Estação da Luz,Estação de Tavira,Comboio,True,Vila Real de Santo António
 Estação da Luz,Livramento,Comboio,False,Vila Real de Santo António
 Estação da Luz,Livramento,Comboio,True,Faro
 Estação da Luz,Livramento,Comboio,True,Lagos
+Estação da Parede,Estação de Carcavelos,Comboio,False,Cascais
+Estação da Parede,Estação de Carcavelos,Comboio,False,São Pedro do Estoril
+Estação da Parede,Estação de Carcavelos,Comboio,True,Lisboa - Cais do Sodré
+Estação da Parede,Estação de Carcavelos,Comboio,True,Oeiras
+Estação da Parede,Estação de São Pedro do Estoril,Comboio,False,Lisboa - Cais do Sodré
+Estação da Parede,Estação de São Pedro do Estoril,Comboio,False,Oeiras
+Estação da Parede,Estação de São Pedro do Estoril,Comboio,True,Cascais
 Estação da Porta Nova,Estação de Tavira,Comboio,False,Vila Real de Santo António
 Estação da Porta Nova,Estação de Tavira,Comboio,True,Faro
 Estação da Porta Nova,Estação de Tavira,Comboio,True,Lagos
+Estação da Póvoa,Estação de Alverca,Comboio,False,Lisboa - Alcântara-Terra
+Estação da Póvoa,Estação de Alverca,Comboio,False,Lisboa - Oriente
+Estação da Póvoa,Estação de Alverca,Comboio,False,Lisboa - Santa Apolónia
+Estação da Póvoa,Estação de Alverca,Comboio,True,Azambuja
+Estação da Póvoa,Estação de Alverca,Comboio,True,Porto - Campanhã
+Estação da Póvoa,Estação de Alverca,Comboio,True,Vila Franca de Xira
+Estação da Póvoa,Estação de Santa Iria,Comboio,False,Azambuja
+Estação da Póvoa,Estação de Santa Iria,Comboio,False,Porto - Campanhã
+Estação da Póvoa,Estação de Santa Iria,Comboio,False,Vila Franca de Xira
+Estação da Póvoa,Estação de Santa Iria,Comboio,True,Lisboa - Alcântara-Terra
+Estação da Póvoa,Estação de Santa Iria,Comboio,True,Lisboa - Oriente
+Estação da Póvoa,Estação de Santa Iria,Comboio,True,Lisboa - Santa Apolónia
+Estação da Póvoa,Gare do Oriente,Comboio,False,Azambuja
+Estação da Póvoa,Gare do Oriente,Comboio,False,Porto - Campanhã
+Estação da Póvoa,Gare do Oriente,Comboio,False,Vila Franca de Xira
+Estação da Póvoa,Gare do Oriente,Comboio,True,Faro
+Estação da Póvoa,Gare do Oriente,Comboio,True,Lisboa - Alcântara-Terra
+Estação da Póvoa,Gare do Oriente,Comboio,True,Lisboa - Rossio
+Estação da Póvoa,Gare do Oriente,Comboio,True,Lisboa - Santa Apolónia
+Estação da Póvoa,Gare do Oriente,Comboio,True,Lisboa - Sete Rios
+Estação da Póvoa,Gare do Oriente,Comboio,True,Pinhal Novo
+Estação da Póvoa,Gare do Oriente,Comboio,True,Sintra
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,False,Agualva - Cacém
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,False,Lisboa - Rossio
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,False,Mira Sintra - Meleças
@@ -5054,6 +5083,12 @@ Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Casa Branca
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Évora
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,False,Lisboa - Oriente
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,True,Beja
+Estação de Alcântara-Mar,Estação de Belém,Comboio,False,Lisboa - Cais do Sodré
+Estação de Alcântara-Mar,Estação de Belém,Comboio,True,Algés
+Estação de Alcântara-Mar,Estação de Belém,Comboio,True,Cascais
+Estação de Alcântara-Mar,Estação de Santos,Comboio,False,Algés
+Estação de Alcântara-Mar,Estação de Santos,Comboio,False,Cascais
+Estação de Alcântara-Mar,Estação de Santos,Comboio,True,Lisboa - Cais do Sodré
 Estação de Alcântara-Terra,Estação de Campolide,Comboio,False,Cascais
 Estação de Alcântara-Terra,Estação de Campolide,Comboio,False,Lisboa - Alcântara-Terra
 Estação de Alcântara-Terra,Estação de Campolide,Comboio,False,Lisboa - Cais do Sodré
@@ -5069,6 +5104,14 @@ Estação de Alcântara-Terra,Estação de Campolide,Comboio,True,Sintra
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
+Estação de Algés,Estação de Belém,Comboio,False,Cascais
+Estação de Algés,Estação de Belém,Comboio,False,Oeiras
+Estação de Algés,Estação de Belém,Comboio,True,Lisboa - Alcântara-Mar
+Estação de Algés,Estação de Belém,Comboio,True,Lisboa - Cais do Sodré
+Estação de Algés,Estação de Cruz Quebrada,Comboio,False,Lisboa - Alcântara-Mar
+Estação de Algés,Estação de Cruz Quebrada,Comboio,False,Lisboa - Cais do Sodré
+Estação de Algés,Estação de Cruz Quebrada,Comboio,True,Cascais
+Estação de Algés,Estação de Cruz Quebrada,Comboio,True,Oeiras
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Comboio,False,Agualva - Cacém
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Comboio,False,Lisboa - Rossio
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Comboio,False,Mira Sintra - Meleças
@@ -5153,6 +5196,18 @@ Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Braço de Prat
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Oriente
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Santa Apolónia
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Porto - Campanhã
+Estação de Bobadela,Estação de Sacavém,Comboio,False,Azambuja
+Estação de Bobadela,Estação de Sacavém,Comboio,False,Porto - Campanhã
+Estação de Bobadela,Estação de Sacavém,Comboio,False,Vila Franca de Xira
+Estação de Bobadela,Estação de Sacavém,Comboio,True,Lisboa - Alcântara-Terra
+Estação de Bobadela,Estação de Sacavém,Comboio,True,Lisboa - Oriente
+Estação de Bobadela,Estação de Sacavém,Comboio,True,Lisboa - Santa Apolónia
+Estação de Bobadela,Estação de Santa Iria,Comboio,False,Lisboa - Alcântara-Terra
+Estação de Bobadela,Estação de Santa Iria,Comboio,False,Lisboa - Oriente
+Estação de Bobadela,Estação de Santa Iria,Comboio,False,Lisboa - Santa Apolónia
+Estação de Bobadela,Estação de Santa Iria,Comboio,True,Azambuja
+Estação de Bobadela,Estação de Santa Iria,Comboio,True,Porto - Campanhã
+Estação de Bobadela,Estação de Santa Iria,Comboio,True,Vila Franca de Xira
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Lagos
 Estação de Boliqueime,Estação de Loulé,Comboio,False,Tunes
 Estação de Boliqueime,Estação de Loulé,Comboio,True,Faro
@@ -5190,6 +5245,9 @@ Estação de Braço de Prata,Gare do Oriente,Comboio,True,Vila Franca de Xira
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Faro
 Estação de Cacela,Estação de Castro Marim,Comboio,False,Lagos
 Estação de Cacela,Estação de Castro Marim,Comboio,True,Vila Real de Santo António
+Estação de Cais do Sodré,Estação de Santos,Comboio,False,Lisboa - Cais do Sodré
+Estação de Cais do Sodré,Estação de Santos,Comboio,True,Cascais
+Estação de Cais do Sodré,Estação de Santos,Comboio,True,Lisboa - Alcântara-Mar
 Estação de Campolide,Estação de Sete Rios,Comboio,False,Barreiro
 Estação de Campolide,Estação de Sete Rios,Comboio,False,Faro
 Estação de Campolide,Estação de Sete Rios,Comboio,False,Lisboa - Alcântara-Terra
@@ -5220,11 +5278,26 @@ Estação de Campolide,Estação do Rossio,Comboio,False,Pinhal Novo
 Estação de Campolide,Estação do Rossio,Comboio,False,Porto - Campanhã
 Estação de Campolide,Estação do Rossio,Comboio,False,Sintra
 Estação de Campolide,Estação do Rossio,Comboio,True,Lisboa - Rossio
+Estação de Carcavelos,Estação de Oeiras,Comboio,False,Cascais
+Estação de Carcavelos,Estação de Oeiras,Comboio,False,São Pedro do Estoril
+Estação de Carcavelos,Estação de Oeiras,Comboio,True,Algés
+Estação de Carcavelos,Estação de Oeiras,Comboio,True,Lisboa - Cais do Sodré
+Estação de Cascais,Estação de Monte Estoril,Comboio,False,Cascais
+Estação de Cascais,Estação de Monte Estoril,Comboio,True,Lisboa - Cais do Sodré
+Estação de Cascais,Estação de Monte Estoril,Comboio,True,São Pedro do Estoril
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Faro
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,True,Vila Real de Santo António
 Estação de Castro Marim,Vista Real,Carro,False,Altura
 Estação de Castro Marim,Vista Real,Carro,True,Castro Marim
+Estação de Caxias,Estação de Cruz Quebrada,Comboio,False,Cascais
+Estação de Caxias,Estação de Cruz Quebrada,Comboio,False,Oeiras
+Estação de Caxias,Estação de Cruz Quebrada,Comboio,True,Algés
+Estação de Caxias,Estação de Cruz Quebrada,Comboio,True,Lisboa - Cais do Sodré
+Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Algés
+Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Lisboa - Cais do Sodré
+Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Cascais
+Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Oeiras
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Antequera-Santa Ana
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Córdoba
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Granada
@@ -5467,6 +5540,9 @@ Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,False,Mira Sintra
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,False,Sintra
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,True,Lisboa - Benfica
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,True,Lisboa - Rossio
+Estação de Monte Estoril,Estação do Estoril,Comboio,False,Cascais
+Estação de Monte Estoril,Estação do Estoril,Comboio,True,Lisboa - Cais do Sodré
+Estação de Monte Estoril,Estação do Estoril,Comboio,True,São Pedro do Estoril
 Estação de Monte Gordo,Hortas,Carro,False,Manta Rota
 Estação de Monte Gordo,Hortas,Carro,False,Vila Nova de Cacela
 Estação de Monte Gordo,Hortas,Carro,True,Espanha
@@ -5474,6 +5550,12 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Alcântara-Terra
+Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Oriente
+Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Santa Apolónia
+Estação de Moscavide,Estação de Sacavém,Comboio,True,Azambuja
+Estação de Moscavide,Estação de Sacavém,Comboio,True,Porto - Campanhã
+Estação de Moscavide,Estação de Sacavém,Comboio,True,Vila Franca de Xira
 Estação de Moscavide,Gare do Oriente,Comboio,False,Azambuja
 Estação de Moscavide,Gare do Oriente,Comboio,False,Porto - Campanhã
 Estação de Moscavide,Gare do Oriente,Comboio,False,Vila Franca de Xira
@@ -5495,6 +5577,14 @@ Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Collado Vill
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Guadalajara
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Madrid-Atocha
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Madrid-Príncipe Pío
+Estação de Oeiras,Estação de Santo Amaro,Comboio,False,Cascais
+Estação de Oeiras,Estação de Santo Amaro,Comboio,False,São Pedro do Estoril
+Estação de Oeiras,Estação de Santo Amaro,Comboio,True,Algés
+Estação de Oeiras,Estação de Santo Amaro,Comboio,True,Lisboa - Cais do Sodré
+Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,False,Algés
+Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,False,Lisboa - Cais do Sodré
+Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,True,Cascais
+Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,True,Oeiras
 Estação de Palmela,Estação de Setúbal,Comboio,False,Barreiro
 Estação de Palmela,Estação de Setúbal,Comboio,False,Pinhal Novo
 Estação de Palmela,Estação de Setúbal,Comboio,True,Praias do Sado-A
@@ -5568,6 +5658,12 @@ Estação de São João das Craveiras,Vendas Novas,Comboio,False,Pinhal Novo
 Estação de São João das Craveiras,Vendas Novas,Comboio,True,Beja
 Estação de São João das Craveiras,Vendas Novas,Comboio,True,Casa Branca
 Estação de São João das Craveiras,Vendas Novas,Comboio,True,Évora
+Estação de São João do Estoril,Estação de São Pedro do Estoril,Comboio,False,Cascais
+Estação de São João do Estoril,Estação de São Pedro do Estoril,Comboio,True,Lisboa - Cais do Sodré
+Estação de São João do Estoril,Estação de São Pedro do Estoril,Comboio,True,Oeiras
+Estação de São João do Estoril,Estação do Estoril,Comboio,False,Lisboa - Cais do Sodré
+Estação de São João do Estoril,Estação do Estoril,Comboio,False,São Pedro do Estoril
+Estação de São João do Estoril,Estação do Estoril,Comboio,True,Cascais
 Estação de Sete Rios,Estação do Pragal,Comboio,False,Lisboa - Oriente
 Estação de Sete Rios,Estação do Pragal,Comboio,False,Lisboa - Santa Apolónia
 Estação de Sete Rios,Estação do Pragal,Comboio,False,Porto - Campanhã

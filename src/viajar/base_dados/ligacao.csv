@@ -1577,8 +1577,13 @@ Estação da Casa Branca,Vendas Novas,Comboio,33.6,Linha do Alentejo - Intercida
 Estação da Luz,Estação de Tavira,Comboio,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Comboio,3.3,Linha do Algarve - Regional,SO,3,3
 Estação da Luz,Luz de Tavira,Carro,0.6,,NO,1,2
+Estação da Parede,Estação de Carcavelos,Comboio,1.7,Linha de Cascais - CP Lisboa,E,1,2
+Estação da Parede,Estação de São Pedro do Estoril,Comboio,1.5,Linha de Cascais - CP Lisboa,O,2,1
 Estação da Porta Nova,Estação de Tavira,Comboio,1.6,Linha do Algarve - Regional,SO,3,2
 Estação da Porta Nova,Tavira - Norte,Carro,0.7,,S,1,2
+Estação da Póvoa,Estação de Alverca,Comboio,4.3,Linha da Azambuja/Linha do Norte - CP Lisboa/Regional,NE,2,1
+Estação da Póvoa,Estação de Santa Iria,Comboio,2.6,Linha da Azambuja/Linha do Norte - CP Lisboa,SO,1,2
+Estação da Póvoa,Gare do Oriente,Comboio,11.0,Linha da Azambuja/Linha do Norte - Regional,S,3,7
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,1.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação das Mercês,Estação de Rio de Mouro,Comboio,1.1,Linha de Sintra - CP Lisboa,SE,1,2
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,2.2,Linha de Sintra - CP Lisboa,SE,1,2
@@ -1592,9 +1597,14 @@ Estação de Albufeira - Ferreiras,Ferreiras,Carro,1.2,,SO,2,2
 Estação de Albufeira - Ferreiras,Tunes,Comboio,5.2,Linha do Algarve - Intercidades/Regional,NO,4,6
 Estação de Albufeira - Ferreiras,Tunes,Comboio de Alta Velocidade,5.2,Linha do Algarve,NO,7,9
 Estação de Alcáçovas,Vila Nova da Baronia,Comboio,14.5,Linha do Alentejo - Intercidades,SE,1,2
+Estação de Alcântara-Mar,Estação de Alcântara-Terra,Transbordo,0.0,,N,3,2
+Estação de Alcântara-Mar,Estação de Belém,Comboio,2.2,Linha de Cascais - CP Lisboa,O,2,1
+Estação de Alcântara-Mar,Estação de Santos,Comboio,1.7,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Alcântara-Terra,Estação de Campolide,Comboio,3.0,Linha da Azambuja/Linha de Cintura - CP Lisboa,N,1,6
 Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
 Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,5
+Estação de Algés,Estação de Belém,Comboio,3.0,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Algés,Estação de Cruz Quebrada,Comboio,2.0,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Comboio,3.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação de Alhos Vedros,Estação de Baixa da Banheira,Comboio,1.7,Linha do Alentejo/Linha do Sado - CP Lisboa,O,1,2
 Estação de Alhos Vedros,Estação de Moita,Comboio,2.8,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
@@ -1614,6 +1624,8 @@ Estação de Barreiro-A,Estação do Lavradio,Comboio,1.3,Linha do Alentejo/Linh
 Estação de Benfica,Estação de Campolide,Comboio,3.2,Linha de Sintra - CP Lisboa,E,1,5
 Estação de Benfica,Estação de Santa Cruz - Damaia,Comboio,1.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação de Benfica,Estação de Sete Rios,Comboio,3.1,Concordância de Sete Rios - CP Lisboa,E,3,3
+Estação de Bobadela,Estação de Sacavém,Comboio,1.4,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,2
+Estação de Bobadela,Estação de Santa Iria,Comboio,3.9,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,1
 Estação de Boliqueime,Estação de Loulé,Comboio,8.6,Linha do Algarve - Regional,SE,3,4
 Estação de Bom João,Estação de Faro,Comboio,2.2,Linha do Algarve - Regional,NO,5,2
 Estação de Bom João,Faro - Sé,Carro,1.7,,N,2,3
@@ -1625,11 +1637,16 @@ Estação de Braço de Prata,Estação de Santa Apolónia,Comboio,4.0,Linha do N
 Estação de Braço de Prata,Gare do Oriente,Comboio,2.5,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,3
 Estação de Cacela,Estação de Castro Marim,Comboio,5.9,Linha do Algarve - Regional,NE,2,4
 Estação de Cacela,Vila Nova de Cacela,Carro,0.8,,SE,1,4
+Estação de Cais do Sodré,Estação de Santos,Comboio,0.9,Linha de Cascais - CP Lisboa,O,1,1
 Estação de Campolide,Estação de Sete Rios,Comboio,1.0,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus,N,3,1
 Estação de Campolide,Estação do Pragal,Comboio,7.3,Linha do Sul/Ponte 25 de Abril - Fertagus,S,2,2
 Estação de Campolide,Estação do Rossio,Comboio,3.1,Linha de Sintra/Túnel do Rossio - CP Lisboa,SE,4,1
+Estação de Carcavelos,Estação de Oeiras,Comboio,1.6,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Cascais,Estação de Monte Estoril,Comboio,1.1,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
+Estação de Caxias,Estação de Cruz Quebrada,Comboio,2.0,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Caxias,Estação de Paço de Arcos,Comboio,1.4,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,2
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
@@ -1642,7 +1659,7 @@ Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,1.1,Linha da Azambuja
 Estação de Entrecampos,Estação de Santa Apolónia,Comboio,6.0,Concordância de Xabregas - InterRegional/Regional,SE,3,2
 Estação de Entrecampos,Estação de Sete Rios,Comboio,1.9,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus/Intercidades/InterRegional/Regional,O,1,2
 Estação de Entrecampos,Gare do Oriente,Comboio,4.6,Linha de Cintura - Intercidades,NE,4,5
-Estação de Entrecampos,Gare do Oriente,Comboio de Alta Velocidade,4.6,Linha de Cintura,NE,6,7
+Estação de Entrecampos,Gare do Oriente,Comboio de Alta Velocidade,4.6,Linha de Cintura,NE,6,8
 Estação de Entrecampos,Pinhal Novo,Comboio de Alta Velocidade,39.7,Linha do Sul,SE,5,8
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Estação de Funcheira,Comboio de Alta Velocidade,35.1,Linha do Sul,S,3,4
@@ -1690,11 +1707,15 @@ Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2,8
 Estação de Moita,Estação de Penteado,Comboio,3.6,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,0.9,Linha de Sintra - CP Lisboa,E,1,2
+Estação de Monte Estoril,Estação do Estoril,Comboio,0.7,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Monte Gordo,Hortas,Carro,0.9,N125,SE,1,1
 Estação de Monte Gordo,Monte Gordo,Carro,1.5,,S,2,1
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,2.7,Linha do Algarve - Regional,NE,4,8
+Estação de Moscavide,Estação de Sacavém,Comboio,2.0,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,1
 Estação de Moscavide,Gare do Oriente,Comboio,1.2,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,4
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,1,2
+Estação de Oeiras,Estação de Santo Amaro,Comboio,0.6,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,2.4,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Palmela,Estação de Setúbal,Comboio,4.9,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,S,2,1
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,4.0,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,NO,1,2
 Estação de Parque das Cidades,Mar Shopping Algarve,Carro,2.5,,NO,2,4
@@ -1710,13 +1731,15 @@ Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,4.9,Linha d
 Estação de Praça do Quebedo,Estação de Setúbal,Comboio,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,0.9,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Santa Apolónia,Gare do Oriente,Comboio,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
-Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,6.5,Linha do Norte,N,4,8
+Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,6.5,Linha do Norte,N,4,9
 Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1
 Estação de Santa Clara - Sabóia,Monchique,Carro,30.9,,SO,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Carro,23.7,,SE,2,4
 Estação de Santa Clara - Sabóia,São Teotónio,Carro,27.0,,O,4,2
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,44.0,Linha do Sul,SE,8,10
 Estação de São João das Craveiras,Vendas Novas,Comboio,11.9,Linha do Alentejo - Intercidades,E,1,2
+Estação de São João do Estoril,Estação de São Pedro do Estoril,Comboio,1.5,Linha de Cascais - CP Lisboa,E,1,2
+Estação de São João do Estoril,Estação do Estoril,Comboio,1.2,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Sete Rios,Estação do Pragal,Comboio,8.3,Linha do Sul - Intercidades,S,4,4
 Estação de Silves,Parque Municipal do Sítio das Fontes,Carro,6.1,,SO,3,2
 Estação de Silves,Poço Barreto,Comboio,5.1,Linha do Algarve - Regional,SE,4,6
