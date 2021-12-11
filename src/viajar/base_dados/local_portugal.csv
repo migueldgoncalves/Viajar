@@ -316,6 +316,7 @@ Espiche,Luz,Lagos
 Espírito Santo,Espírito Santo,Mértola
 "Estação Aeroporto, Metro de Lisboa",Santa Maria dos Olivais,Lisboa
 Estação Cabo Ruivo,Santa Maria de Olivais,Lisboa
+Estação da Azambuja,Azambuja,Azambuja
 Estação da Casa Branca,Santiago do Escoural,Montemor-o-Novo
 Estação da Luz,Luz de Tavira,Tavira
 Estação da Parede,Parede,Cascais
@@ -330,6 +331,7 @@ Estação de Alcântara-Terra,Prazeres,Lisboa
 Estação de Alcantarilha,Alcantarilha,Silves
 Estação de Algés,Algés,Oeiras
 Estação de Algueirão - Mem Martins,Algueirão-Mem Martins,Sintra
+Estação de Alhandra,Alhandra,Vila Franca de Xira
 Estação de Alhos Vedros,Alhos Vedros,Moita
 Estação de Almancil,Almancil,Loulé
 Estação de Alverca,Alverca do Ribatejo,Vila Franca de Xira
@@ -349,6 +351,7 @@ Estação de Cais do Sodré,São Paulo,Lisboa
 Estação de Campolide,Campolide,Lisboa
 Estação de Carcavelos,Carcavelos,Cascais
 Estação de Cascais,Cascais,Cascais
+Estação de Castanheira do Ribatejo,Castanheira do Ribatejo,Vila Franca de Xira
 Estação de Castro Marim,Castro Marim,Castro Marim
 Estação de Caxias,Caxias,Oeiras
 Estação de Coina,Aldeia de Paio Pires,Seixal
@@ -356,6 +359,7 @@ Estação de Corroios,Corroios,Seixal
 Estação de Cruz Quebrada,Cruz Quebrada - Dafundo,Oeiras
 Estação de Entrecampos,Nossa Senhora de Fátima,Lisboa
 Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
+Estação de Espadanal da Azambuja,Vila Nova da Rainha,Azambuja
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
 Estação de Évora,Horta das Figueiras,Évora
 Estação de Faro,São Pedro,Faro
@@ -409,7 +413,11 @@ Estação de Silves,Silves,Silves
 Estação de Sintra,Santa Maria e São Miguel,Sintra
 Estação de Tavira,Santiago,Tavira
 Estação de Venda do Alcaide,Palmela,Palmela
+Estação de Vila Franca de Xira,Vila Franca de Xira,Vila Franca de Xira
+Estação de Vila Nova da Rainha,Vila Nova da Rainha,Azambuja
+Estação de Virtudes,Aveiras de Baixo,Azambuja
 Estação do Barreiro,Barreiro,Barreiro
+Estação do Carregado,Castanheira do Ribatejo,Vila Franca de Xira
 Estação do Estoril,Estoril,Cascais
 Estação do Lavradio,Lavradio,Barreiro
 Estação do Pragal,Pragal,Almada
