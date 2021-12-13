@@ -3406,7 +3406,7 @@ Aeroporto de Faro,Montenegro,Carro,True,Faro
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,False,Aeroporto de Madrid-Barajas
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Collado Villalba
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Atocha
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Chamartín
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Príncipe Pío
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,False,Aeroporto de Málaga - Costa del Sol
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,A-7/MA-20 - Algeciras/Málaga
@@ -5187,6 +5187,12 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,True,São Mar
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Pinhal Novo
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Praias do Sado-A
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,True,Barreiro
+Estação de Barquinha,Estação do Entroncamento,Comboio,False,Abrantes
+Estação de Barquinha,Estação do Entroncamento,Comboio,False,Badajoz
+Estação de Barquinha,Estação do Entroncamento,Comboio,False,Covilhã
+Estação de Barquinha,Estação do Entroncamento,Comboio,False,Guarda
+Estação de Barquinha,Estação do Entroncamento,Comboio,True,Lisboa - Santa Apolónia
+Estação de Barquinha,Estação do Entroncamento,Comboio,True,Porto - Campanhã
 Estação de Barreiro-A,Estação do Barreiro,Comboio,False,Pinhal Novo
 Estação de Barreiro-A,Estação do Barreiro,Comboio,False,Praias do Sado-A
 Estação de Barreiro-A,Estação do Barreiro,Comboio,True,Barreiro
@@ -5336,6 +5342,22 @@ Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Algés
 Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Lisboa - Cais do Sodré
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Cascais
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Oeiras
+Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,False,Pombal
+Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,False,Porto - Campanhã
+Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,True,Entroncamento
+Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,True,Lisboa - Santa Apolónia
+Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Comboio,False,Pombal
+Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Comboio,False,Porto - Campanhã
+Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Comboio,True,Entroncamento
+Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Comboio,True,Lisboa - Santa Apolónia
+Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Comboio,False,Entroncamento
+Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Comboio,False,Lisboa - Santa Apolónia
+Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Comboio,True,Pombal
+Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Comboio,True,Porto - Campanhã
+Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,False,Pombal
+Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,False,Porto - Campanhã
+Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,True,Lisboa - Santa Apolónia
+Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,True,Santarém
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Antequera-Santa Ana
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Córdoba
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,False,Granada
@@ -5506,17 +5528,21 @@ Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Porto - Campanh
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Collado Villalba
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Atocha
-Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Chamartín
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Príncipe Pío
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Collado Villalba
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Atocha
-Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Chamartín
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,False,Madrid-Príncipe Pío
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,True,Aeroporto de Madrid-Barajas
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,True,Faro
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,True,Tunes
+Estação de Fungalvaz,Estação de Paialvo,Comboio,False,Pombal
+Estação de Fungalvaz,Estação de Paialvo,Comboio,False,Porto - Campanhã
+Estação de Fungalvaz,Estação de Paialvo,Comboio,True,Entroncamento
+Estação de Fungalvaz,Estação de Paialvo,Comboio,True,Lisboa - Santa Apolónia
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Faro
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,False,Lagos
 Estação de Fuseta-A,Estação de Fuseta-Moncarapacho,Comboio,True,Vila Real de Santo António
@@ -5532,6 +5558,19 @@ Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo Ant�
 Estação de Lagos,Meia Praia,Comboio,False,Lagos
 Estação de Lagos,Meia Praia,Comboio,True,Tunes
 Estação de Lagos,Meia Praia,Comboio,True,Vila Real de Santo António
+Estação de Lamarosa,Estação de Paialvo,Comboio,False,Entroncamento
+Estação de Lamarosa,Estação de Paialvo,Comboio,False,Lisboa - Santa Apolónia
+Estação de Lamarosa,Estação de Paialvo,Comboio,True,Pombal
+Estação de Lamarosa,Estação de Paialvo,Comboio,True,Porto - Campanhã
+Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Entroncamento
+Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Lisboa - Santa Apolónia
+Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Pombal
+Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Porto - Campanhã
+Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,True,Tomar
+Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Pombal
+Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Porto - Campanhã
+Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Lisboa - Santa Apolónia
+Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Santarém
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Alcalá de Henares
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Collado Villalba
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Guadalajara
@@ -5540,12 +5579,12 @@ Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Madrid-Príncipe
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Aeroporto de Madrid-Barajas
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Cercedilla
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Collado Villalba
-Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Madrid-Chamartín
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,True,Madrid-Príncipe Pío
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Cercedilla
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Collado Villalba
-Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Madrid-Chamartín
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,False,Madrid-Príncipe Pío
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Alcalá de Henares
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Collado Villalba
@@ -5568,6 +5607,14 @@ Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,False,Mira 
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,False,Sintra
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,True,Lisboa - Benfica
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,True,Lisboa - Rossio
+Estação de Mato de Miranda,Estação de Riachos,Comboio,False,Lisboa - Santa Apolónia
+Estação de Mato de Miranda,Estação de Riachos,Comboio,False,Santarém
+Estação de Mato de Miranda,Estação de Riachos,Comboio,True,Entroncamento
+Estação de Mato de Miranda,Estação de Riachos,Comboio,True,Porto - Campanhã
+Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,False,Entroncamento
+Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,False,Porto - Campanhã
+Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,True,Lisboa - Santa Apolónia
+Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,True,Santarém
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Faro
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,False,Tunes
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Lisboa - Oriente
@@ -5613,7 +5660,7 @@ Estação de Moscavide,Gare do Oriente,Comboio,True,Sintra
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Cercedilla
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Collado Villalba
-Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Madrid-Chamartín-Clara Campoamor
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Madrid-Chamartín
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,False,Madrid-Príncipe Pío
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Alcalá de Henares
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,True,Collado Villalba
@@ -5681,6 +5728,26 @@ Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,False,Mira Sintr
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,False,Sintra
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,True,Lisboa - Benfica
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,True,Lisboa - Rossio
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,False,Lisboa - Santa Apolónia
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,False,Vila Franca de Xira
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,True,Entroncamento
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,True,Porto - Campanhã
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,False,Azambuja
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,False,Lisboa - Santa Apolónia
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,True,Porto - Campanhã
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,True,Santarém
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,False,Porto - Campanhã
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,False,Santarém
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,True,Lisboa - Oriente
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,True,Lisboa - Santa Apolónia
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,False,Porto - Campanhã
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,False,Santarém
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Azambuja
+Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Lisboa - Santa Apolónia
+Estação de Riachos,Estação do Entroncamento,Comboio,False,Lisboa - Santa Apolónia
+Estação de Riachos,Estação do Entroncamento,Comboio,False,Santarém
+Estação de Riachos,Estação do Entroncamento,Comboio,True,Pombal
+Estação de Riachos,Estação do Entroncamento,Comboio,True,Porto - Campanhã
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,False,Lisboa - Santa Apolónia
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Faro
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Pinhal Novo
@@ -5689,12 +5756,46 @@ Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,San
 Estação de Santa Apolónia,Gare do Oriente,Comboio,False,Lisboa - Santa Apolónia
 Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Entroncamento
 Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Hendaia
-Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Madrid-Chamartín-Clara Campoamor
+Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Madrid-Chamartín
 Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Porto - Campanhã
 Estação de Santa Apolónia,Gare do Oriente,Comboio,True,Santarém
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Lisboa - Oriente
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,False,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,Comboio de Alta Velocidade,True,Faro
+Estação de Santana-Cartaxo,Estação de Setil,Comboio,False,Porto - Campanhã
+Estação de Santana-Cartaxo,Estação de Setil,Comboio,False,Santarém
+Estação de Santana-Cartaxo,Estação de Setil,Comboio,True,Azambuja
+Estação de Santana-Cartaxo,Estação de Setil,Comboio,True,Lisboa - Santa Apolónia
+Estação de Santana-Cartaxo,Estação de Vale de Santarém,Comboio,False,Azambuja
+Estação de Santana-Cartaxo,Estação de Vale de Santarém,Comboio,False,Lisboa - Santa Apolónia
+Estação de Santana-Cartaxo,Estação de Vale de Santarém,Comboio,True,Porto - Campanhã
+Estação de Santana-Cartaxo,Estação de Vale de Santarém,Comboio,True,Santarém
+Estação de Santarém,Estação de Vale de Figueira,Comboio,False,Azambuja
+Estação de Santarém,Estação de Vale de Figueira,Comboio,False,Lisboa - Santa Apolónia
+Estação de Santarém,Estação de Vale de Figueira,Comboio,True,Entroncamento
+Estação de Santarém,Estação de Vale de Figueira,Comboio,True,Porto - Campanhã
+Estação de Santarém,Estação de Vale de Santarém,Comboio,False,Entroncamento
+Estação de Santarém,Estação de Vale de Santarém,Comboio,False,Porto - Campanhã
+Estação de Santarém,Estação de Vale de Santarém,Comboio,True,Azambuja
+Estação de Santarém,Estação de Vale de Santarém,Comboio,True,Lisboa - Santa Apolónia
+Estação de Santarém,Estação de Vila Franca de Xira,Comboio,False,Entroncamento
+Estação de Santarém,Estação de Vila Franca de Xira,Comboio,False,Porto - Campanhã
+Estação de Santarém,Estação de Vila Franca de Xira,Comboio,True,Faro
+Estação de Santarém,Estação de Vila Franca de Xira,Comboio,True,Lisboa - Oriente
+Estação de Santarém,Estação de Vila Franca de Xira,Comboio,True,Lisboa - Santa Apolónia
+Estação de Santarém,Estação do Entroncamento,Comboio de Alta Velocidade,False,Lisboa - Oriente
+Estação de Santarém,Estação do Entroncamento,Comboio de Alta Velocidade,False,Lisboa - Santa Apolónia
+Estação de Santarém,Estação do Entroncamento,Comboio de Alta Velocidade,True,Coimbra-B
+Estação de Santarém,Estação do Entroncamento,Comboio de Alta Velocidade,True,Porto - Campanhã
+Estação de Santarém,Estação do Entroncamento,Comboio,False,Lisboa - Santa Apolónia
+Estação de Santarém,Estação do Entroncamento,Comboio,False,Vila Franca de Xira
+Estação de Santarém,Estação do Entroncamento,Comboio,True,Pombal
+Estação de Santarém,Estação do Entroncamento,Comboio,True,Porto - Campanhã
+Estação de Santarém,Gare do Oriente,Comboio de Alta Velocidade,False,Entroncamento
+Estação de Santarém,Gare do Oriente,Comboio de Alta Velocidade,False,Porto - Campanhã
+Estação de Santarém,Gare do Oriente,Comboio de Alta Velocidade,True,Faro
+Estação de Santarém,Gare do Oriente,Comboio de Alta Velocidade,True,Lisboa - Santa Apolónia
+Estação de Santarém,Gare do Oriente,Comboio de Alta Velocidade,True,Pinhal Novo
 Estação de São João das Craveiras,Vendas Novas,Comboio,False,Faro
 Estação de São João das Craveiras,Vendas Novas,Comboio,False,Lisboa - Oriente
 Estação de São João das Craveiras,Vendas Novas,Comboio,False,Pinhal Novo
@@ -5748,6 +5849,10 @@ Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Ve
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Barcelona-Sants
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Madrid-Puerta de Atocha
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,True,Valencia-Joaquín Sorolla
+Estação do Entroncamento,Gare do Oriente,Comboio,False,Coimbra-B
+Estação do Entroncamento,Gare do Oriente,Comboio,False,Hendaia
+Estação do Entroncamento,Gare do Oriente,Comboio,False,Madrid-Chamartín
+Estação do Entroncamento,Gare do Oriente,Comboio,True,Lisboa - Santa Apolónia
 Estação do Pragal,Pinhal Novo,Comboio,False,Lisboa - Oriente
 Estação do Pragal,Pinhal Novo,Comboio,False,Porto - Campanhã
 Estação do Pragal,Pinhal Novo,Comboio,True,Beja
