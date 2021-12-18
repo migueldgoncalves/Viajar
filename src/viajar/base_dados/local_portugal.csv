@@ -57,8 +57,10 @@ A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
 A9 CREL - Saída 3,São Brás,Amadora
 A9 CREL - Saída 4,Loures,Loures
+A10 - Saída 5,Benavente,Benavente
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
 A13 - Saída 3,Samora Correia,Benavente
+A13 - Saída 5,Foros de Salvaterra,Salvaterra de Magos
 A16 - Saída 2,Alcabideche,Cascais
 A16 - Saída 3,Alcabideche,Cascais
 A16 - Saída 4-5,Alcabideche,Cascais
@@ -82,6 +84,11 @@ A22 - Saída 15,Moncarapacho,Olhão
 A22 - Saída 16,Santiago,Tavira
 A22 - Saída 17,Altura,Castro Marim
 A22 - Saída 18,Castro Marim,Castro Marim
+A23 - Saída 1,Zibreira,Torres Novas
+A23 - Saída 2,Santa Maria,Torres Novas
+A23 - Saída 3,Nossa Senhora de Fátima,Entroncamento
+A23 - Saída 5,Asseiceira,Tomar
+A23 - Saída 6,Praia do Ribatejo,Vila Nova da Barquinha
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
 A26 - Saída 2,Sines,Sines
 A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
@@ -250,6 +257,7 @@ Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente
 Cruzamento da A12 com a A2,Palmela,Palmela
+Cruzamento da A13 com a A23,Atalaia,Vila Nova da Barquinha
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
@@ -402,7 +410,7 @@ Estação de Praias do Sado-A,Sado,Setúbal
 Estação de Queluz - Belas,Queluz,Sintra
 Estação de Reboleira,Águas Livres,Amadora
 Estação de Reguengo-Vale da Pedra-Pontével,Vale da Pedra,Cartaxo
-Estação de Riachos,Riachos,Torres Novas
+Estação de Riachos-Torres Novas-Golegã,Riachos,Torres Novas
 Estação de Rio de Mouro,Rio de Mouro,Sintra
 Estação de Roma-Areeiro,Alvalade,Lisboa
 Estação de Sacavém,Parque das Nações,Lisboa

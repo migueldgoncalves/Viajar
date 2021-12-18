@@ -96,10 +96,13 @@ A6 - Saída 12,A6 - Saída 13,Carro,5.2,A6,SE,2,1
 A6 - Saída 13,A-5 - Saída 407,Carro,2.4,A6,E,2,1
 A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,6.8,A9 CREL,NE,2,1
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,3.1,A9 CREL,SO,1,2
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,14.5,A10 - Ponte da Lezíria,NO,2,3
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,7.1,A10,SE,1,3
 A13 - Saída 2,Área de Serviço de Montijo,Carro,5.7,A13,NO,2,1
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,10.8,A13,S,1,4
 A13 - Saída 3,Área de Serviço de Montijo,Carro,13.7,A13,SE,1,2
 A13 - Saída 3,Cruzamento da A10 com a A13,Carro,10.9,A13,NO,2,1
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,12.4,A13,SO,1,2
 A16 - Saída 2,A16 - Saída 3,Carro,1.2,A16,NE,2,1
 A16 - Saída 2,Cruzamento da A16 com a A5,Carro,0.7,A16,S,1,3
 A16 - Saída 3,A16 - Saída 4-5,Carro,1.0,A16,NE,2,1
@@ -169,6 +172,13 @@ A22 - Saída 17,Altura,Carro,2.4,,S,3,1
 A22 - Saída 18,Área de Repouso de Castro Marim,Carro,1.1,A22,NE,2,1
 A22 - Saída 18,Castro Marim,Carro,1.7,N122,S,4,1
 A22 - Saída 18,IC27 - Início,Carro,0.5,N122,N,3,2
+A23 - Saída 1,A23 - Saída 2,Carro,8.2,A23,E,2,1
+A23 - Saída 1,Cruzamento da A1 com a A23,Carro,0.9,A23,SO,1,3
+A23 - Saída 2,A23 - Saída 3,Carro,3.9,A23,E,2,1
+A23 - Saída 2,Estação de Riachos-Torres Novas-Golegã,Carro,5.0,,SE,3,3
+A23 - Saída 3,Cruzamento da A13 com a A23,Carro,4.1,A23,NE,2,1
+A23 - Saída 5,A23 - Saída 6,Carro,3.3,A23,E,2,1
+A23 - Saída 5,Cruzamento da A13 com a A23,Carro,5.1,A23,O,1,2
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
 A26 - Saída 2,A26 - Saída 3,Carro,5.3,A26,NE,2,1
@@ -1720,7 +1730,7 @@ Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Carro,1.1,,E,1,3
 Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.2,,SO,1,2
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,2.7,Linha da Azambuja/Linha de Cintura - CP Lisboa,NO,1,2
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,2.1,Linha de Sintra - CP Lisboa,E,1,2
-Estação de Mato de Miranda,Estação de Riachos,Comboio,8.4,Linha do Norte - Regional,NE,2,1
+Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,8.4,Linha do Norte - Regional,NE,2,1
 Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,9.8,Linha do Norte - Regional,SO,1,2
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,32.0,Linha do Sul - Intercidades,NO,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
@@ -1754,7 +1764,7 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,20.
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,2.1,Linha do Norte - Regional,NE,2,1
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,24.1,Linha do Norte - InterRegional,SO,3,6
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,5.3,Linha do Norte - Regional,O,1,2
-Estação de Riachos,Estação do Entroncamento,Comboio,4.2,Linha do Norte - Regional,NE,2,1
+Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,4.2,Linha do Norte - Regional,NE,2,1
 Estação de Santa Apolónia,Gare do Oriente,Comboio,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,6.5,Linha do Norte,N,4,12
 Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1

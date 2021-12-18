@@ -420,6 +420,16 @@ A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,IC22
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,False,Loures
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,True,A16 - Sintra
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,True,Oeiras
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,False,Algarve
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,False,Benavente
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,True,A1 - Carregado
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,True,A9 CREL
+A10 - Saída 5,Cruzamento da A1 com a A10,Carro,True,Arruda dos Vinhos
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,False,A1 - Carregado
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,False,A9 CREL
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,False,Benavente
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A2 - Algarve
+A10 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A13 - Santarém
 A13 - Saída 2,Área de Serviço de Montijo,Carro,False,A2 - Algarve
 A13 - Saída 2,Área de Serviço de Montijo,Carro,False,A6 - Évora
 A13 - Saída 2,Área de Serviço de Montijo,Carro,False,Pegões
@@ -440,6 +450,13 @@ A13 - Saída 3,Cruzamento da A10 com a A13,Carro,False,Santo Estêvão
 A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,A1 - Carregado
 A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,A10 - Benavente
 A13 - Saída 3,Cruzamento da A10 com a A13,Carro,True,Santarém
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,False,A15 - Rio Maior
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,False,Salvaterra de Magos
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,False,Santarém
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A1 - Carregado
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A2
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A6
+A13 - Saída 5,Cruzamento da A10 com a A13,Carro,True,A10 - Benavente
 A16 - Saída 2,A16 - Saída 3,Carro,False,A5 - Cascais/Lisboa
 A16 - Saída 2,A16 - Saída 3,Carro,True,A9 - Norte
 A16 - Saída 2,A16 - Saída 3,Carro,True,IC19 - Lisboa
@@ -626,6 +643,30 @@ A22 - Saída 18,IC27 - Início,Carro,False,Vila Real de Santo António
 A22 - Saída 18,IC27 - Início,Carro,True,Alcoutim
 A22 - Saída 18,IC27 - Início,Carro,True,Beja
 A22 - Saída 18,IC27 - Início,Carro,True,Sapal de Castro Marim e Vila Real de Santo António
+A23 - Saída 1,A23 - Saída 2,Carro,False,A1 - Lisboa/Porto
+A23 - Saída 1,A23 - Saída 2,Carro,True,Abrantes
+A23 - Saída 1,A23 - Saída 2,Carro,True,Torres Novas
+A23 - Saída 1,Cruzamento da A1 com a A23,Carro,False,Abrantes
+A23 - Saída 1,Cruzamento da A1 com a A23,Carro,False,Castelo Branco
+A23 - Saída 1,Cruzamento da A1 com a A23,Carro,False,Torres Novas
+A23 - Saída 1,Cruzamento da A1 com a A23,Carro,True,A1 - Lisboa/Porto
+A23 - Saída 2,A23 - Saída 3,Carro,False,A1
+A23 - Saída 2,A23 - Saída 3,Carro,False,Torres Novas
+A23 - Saída 2,A23 - Saída 3,Carro,True,Abrantes
+A23 - Saída 2,A23 - Saída 3,Carro,True,Entroncamento
+A23 - Saída 3,Cruzamento da A13 com a A23,Carro,False,A1
+A23 - Saída 3,Cruzamento da A13 com a A23,Carro,False,Torres Novas
+A23 - Saída 3,Cruzamento da A13 com a A23,Carro,True,Abrantes
+A23 - Saída 3,Cruzamento da A13 com a A23,Carro,True,Entroncamento - Centro da cidade
+A23 - Saída 5,A23 - Saída 6,Carro,False,Entroncamento
+A23 - Saída 5,A23 - Saída 6,Carro,False,Torres Novas
+A23 - Saída 5,A23 - Saída 6,Carro,True,Abrantes
+A23 - Saída 5,A23 - Saída 6,Carro,True,Castelo Branco
+A23 - Saída 5,A23 - Saída 6,Carro,True,Constância
+A23 - Saída 5,Cruzamento da A13 com a A23,Carro,False,Abrantes
+A23 - Saída 5,Cruzamento da A13 com a A23,Carro,False,Castelo Branco
+A23 - Saída 5,Cruzamento da A13 com a A23,Carro,True,Entroncamento
+A23 - Saída 5,Cruzamento da A13 com a A23,Carro,True,Torres Novas
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
 A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
@@ -5607,10 +5648,10 @@ Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,False,Mira 
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,False,Sintra
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,True,Lisboa - Benfica
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,True,Lisboa - Rossio
-Estação de Mato de Miranda,Estação de Riachos,Comboio,False,Lisboa - Santa Apolónia
-Estação de Mato de Miranda,Estação de Riachos,Comboio,False,Santarém
-Estação de Mato de Miranda,Estação de Riachos,Comboio,True,Entroncamento
-Estação de Mato de Miranda,Estação de Riachos,Comboio,True,Porto - Campanhã
+Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,False,Lisboa - Santa Apolónia
+Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,False,Santarém
+Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,True,Entroncamento
+Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,True,Porto - Campanhã
 Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,False,Entroncamento
 Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,False,Porto - Campanhã
 Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,True,Lisboa - Santa Apolónia
@@ -5744,10 +5785,10 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,Fals
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,False,Santarém
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Azambuja
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Lisboa - Santa Apolónia
-Estação de Riachos,Estação do Entroncamento,Comboio,False,Lisboa - Santa Apolónia
-Estação de Riachos,Estação do Entroncamento,Comboio,False,Santarém
-Estação de Riachos,Estação do Entroncamento,Comboio,True,Pombal
-Estação de Riachos,Estação do Entroncamento,Comboio,True,Porto - Campanhã
+Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Lisboa - Santa Apolónia
+Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Santarém
+Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Pombal
+Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Porto - Campanhã
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,False,Lisboa - Santa Apolónia
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Faro
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Pinhal Novo
