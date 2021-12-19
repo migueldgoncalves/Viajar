@@ -4,6 +4,7 @@ A-2 - Saída 3,Madrid,Comunidade de Madrid,Chamartín
 A-2 - Saída 4C,Madrid,Comunidade de Madrid,Ciudad Lineal
 A-2 - Saída 5,Madrid,Comunidade de Madrid,Hortaleza
 A-2 - Saída 7-8,Madrid,Comunidade de Madrid,San Blas-Canillejas
+A-2 - Saída 9,Madrid,Comunidade de Madrid,San Blas-Canillejas
 A-4 - Saída 69,Ocaña,Toledo,
 A-4 - Saída 70,Dosbarrios,Toledo,
 A-4 - Saída 72,Dosbarrios,Toledo,
@@ -748,8 +749,12 @@ Don Benito,Don Benito,Badajoz,
 El Cuervo de Sevilla,El Cuervo de Sevilla,Sevilha,
 El Granado,El Granado,Huelva,
 Encinasola,Encinasola,Huelva,
+Estação de Aeropuerto T1-T2-T3,Madrid,Comunidade de Madrid,Barajas
+Estação de Aeropuerto T4,Madrid,Comunidade de Madrid,Barajas
+Estação de Barajas,Madrid,Comunidade de Madrid,Barajas
 Estação de Ciudad Real,Ciudad Real,Ciudad Real,
 Estação de Córdoba,Córdoba,Córdoba,Noroeste
+Estação de Feria de Madrid,Madrid,Comunidade de Madrid,Barajas
 Estação de Fuente de la Mora,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Madrid-Atocha,Madrid,Comunidade de Madrid,Arganzuela
 Estação de Madrid-Chamartín-Clara Campoamor,Madrid,Comunidade de Madrid,Chamartín
@@ -851,6 +856,7 @@ Paradas,Paradas,Sevilha,
 "Paseo del Mediterráneo, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
 Paymogo,Paymogo,Huelva,
 Pedrera,Pedrera,Sevilha,
+"Plaza del Emperador Carlos V, Madrid",Madrid,Comunidade de Madrid,Arganzuela
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Ponte de Alamillo,Sevilha,Sevilha,Triana
 Ponte do Centenário,Sevilha,Sevilha,Bellavista-La Palmera

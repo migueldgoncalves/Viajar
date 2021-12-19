@@ -738,6 +738,8 @@ A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,Madrid - Centro da cidad
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,Madrid
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Aeroporto de Madrid-Barajas
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Zaragoza
+A-2 - Saída 7-8,A-2 - Saída 9,Carro,False,Madrid
+A-2 - Saída 7-8,A-2 - Saída 9,Carro,True,Zaragoza
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Madrid
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Ocaña
 A-4 - Saída 69,A-4 - Saída 70,Carro,True,Bailén
@@ -3444,11 +3446,6 @@ Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
 Aeroporto de Faro,Montenegro,Carro,True,Faro
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,False,Aeroporto de Madrid-Barajas
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Collado Villalba
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Atocha
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Chamartín
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,True,Madrid-Príncipe Pío
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,False,Aeroporto de Málaga - Costa del Sol
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,A-7/MA-20 - Algeciras/Málaga
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,False,Alcoutim
@@ -5087,6 +5084,20 @@ Estação das Mercês,Estação de Rio de Mouro,Comboio,False,Sintra
 Estação das Mercês,Estação de Rio de Mouro,Comboio,True,Agualva - Cacém
 Estação das Mercês,Estação de Rio de Mouro,Comboio,True,Lisboa - Rossio
 Estação das Mercês,Estação de Rio de Mouro,Comboio,True,Mira Sintra - Meleças
+Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,False,Mar de Cristal
+Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,False,Nuevos Ministerios
+Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,True,Aeropuerto T4
+Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,False,Aeropuerto T4
+Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,True,Mar de Cristal
+Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,True,Nuevos Ministerios
+Estação de Aeropuerto T4,Estação de Barajas,Metro,False,Aeropuerto T4
+Estação de Aeropuerto T4,Estação de Barajas,Metro,True,Aeropuerto T1-T2-T3
+Estação de Aeropuerto T4,Estação de Barajas,Metro,True,Nuevos Ministerios
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,False,Aeroporto de Madrid-Barajas
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,True,Collado Villalba
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,True,Madrid-Atocha
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,True,Madrid-Chamartín
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,True,Madrid-Príncipe Pío
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,False,Caldas da Rainha
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,False,Figueira da Foz
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,False,Mira Sintra - Meleças

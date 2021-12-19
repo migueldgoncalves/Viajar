@@ -199,6 +199,7 @@ A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,0.5,A-2,NE,2,3
 A-2 - Saída 4C,A-2 - Saída 5,Carro,0.8,A-2,NE,2,1
 A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,0.7,A-2,SO,1,4
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,1.6,A-2,E,2,1
+A-2 - Saída 7-8,A-2 - Saída 9,Carro,1.5,A-2,E,2,1
 A-4 - Saída 69,A-4 - Saída 70,Carro,2.3,A-4,S,1,2
 A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,1.2,A-4,N,2,1
 A-4 - Saída 70,A-4 - Saída 72,Carro,2.7,A-4,S,1,2
@@ -967,7 +968,7 @@ Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 3,Carro,0.9,,SO,1,3
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Málaga - Costa del Sol,Avião,429.8,,S,7,8
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Sevilha,Avião,395.2,,SO,4,11
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto Federico García Lorca Granada-Jaén,Avião,367.0,,S,8,6
-Aeroporto de Madrid-Barajas - Terminal 4,Estação de Valdebebas,Comboio,2.6,Linhas C-1/C-10 - Cercanías Madrid,SO,1,2
+Aeroporto de Madrid-Barajas - Terminal 4,Estação de Aeropuerto T4,Transbordo,0.0,,N,1,2
 Aeroporto de Málaga - Costa del Sol,Aeroporto de Sevilha,Avião,148.8,,NO,5,9
 Aeroporto de Málaga - Costa del Sol,Aeroporto Federico García Lorca Granada-Jaén,Avião,85.3,,NE,7,5
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,2.8,MA-23,SE,1,2
@@ -1599,6 +1600,10 @@ Estação da Póvoa,Estação de Santa Iria,Comboio,2.6,Linha da Azambuja/Linha 
 Estação da Póvoa,Gare do Oriente,Comboio,11.0,Linha da Azambuja/Linha do Norte - Regional,S,3,7
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,1.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação das Mercês,Estação de Rio de Mouro,Comboio,1.1,Linha de Sintra - CP Lisboa,SE,1,2
+Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,1.3,Linha 8 - Metro de Madrid,NO,1,2
+Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,3.9,Linha 8 - Metro de Madrid,O,2,1
+Estação de Aeropuerto T4,Estação de Barajas,Metro,1.9,Linha 8 - Metro de Madrid,SE,3,1
+Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,2.6,Linhas C-1/C-10 - Cercanías Madrid,SO,1,2
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,2.2,Linha de Sintra - CP Lisboa,SE,1,2
 Estação de Agualva - Cacém,Estação de Mira Sintra - Meleças,Comboio,3.0,Linha de Sintra - CP Lisboa/InterRegional/Regional,NO,3,1
 Estação de Agualva - Cacém,Estação de Rio de Mouro,Comboio,3.4,Linha de Sintra - CP Lisboa,NO,2,1
@@ -1670,7 +1675,7 @@ Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,4.3,Linha d
 Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Comboio,15.2,Linha do Norte - InterRegional,S,3,4
 Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Comboio,3.0,Linha do Norte - Regional,NO,2,1
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,23.3,Linha do Norte - Intercidades,S,4,5
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,2
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,4
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
 Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
@@ -1723,11 +1728,14 @@ Estação de Lagos,Meia Praia,Comboio,2.6,Linha do Algarve - Regional,NE,5,3
 Estação de Lamarosa,Estação de Paialvo,Comboio,6.3,Linha do Norte - Regional,N,2,1
 Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,1.3,Ramal de Tomar - Regional,N,3,1
 Estação de Lamarosa,Estação do Entroncamento,Comboio,8.1,Linha do Norte - InterRegional/Regional,S,1,2
-Estação de Madrid-Atocha,Estação de Recoletos,Comboio,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,2,1
+Estação de Madrid-Atocha,Estação de Madrid-Puerta de Atocha,Transbordo,0.0,,N,3,3
+Estação de Madrid-Atocha,Estação de Recoletos,Comboio,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,4,1
 Estação de Madrid-Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.6,,SO,1,3
+Estação de Madrid-Atocha,"Plaza del Emperador Carlos V, Madrid",Transbordo,0.0,,S,2,2
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Carro,1.1,,E,1,3
 Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.2,,SO,1,2
+Estação de Madrid-Puerta de Atocha,"Plaza del Emperador Carlos V, Madrid",Transbordo,0.0,,S,2,3
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,2.7,Linha da Azambuja/Linha de Cintura - CP Lisboa,NO,1,2
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,2.1,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,8.4,Linha do Norte - Regional,NE,2,1
@@ -2078,6 +2086,7 @@ Ourique,São Martinho das Amoreiras,Carro,23.6,N123,O,2,2
 Paderne,Tunes,Carro,6.2,,SO,7,1
 Parchal,Porto de Pesca de Portimão,Carro,1.0,,O,4,1
 Parque Mineiro Cova dos Mouros,Vaqueiros,Carro,4.3,,SO,1,5
+"Paseo de Santa María de la Cabeza, Madrid","Plaza del Emperador Carlos V, Madrid",Carro,1.1,,NE,4,1
 Paymogo,Puebla de Guzmán,Carro,18.0,,SE,2,3
 Paymogo,Santa Bárbara de Casa,Carro,15.5,,NE,3,1
 Pechão,Quelfes,Carro,5.1,,E,2,3
