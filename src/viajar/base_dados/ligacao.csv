@@ -200,6 +200,9 @@ A-2 - Saída 4C,A-2 - Saída 5,Carro,0.8,A-2,NE,2,1
 A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,0.7,A-2,SO,1,4
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,1.6,A-2,E,2,1
 A-2 - Saída 7-8,A-2 - Saída 9,Carro,1.5,A-2,E,2,1
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,1.7,A-2,E,2,1
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,3.2,A-2,E,2,1
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,0.7,A-2,O,1,2
 A-4 - Saída 69,A-4 - Saída 70,Carro,2.3,A-4,S,1,2
 A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Carro,1.2,A-4,N,2,1
 A-4 - Saída 70,A-4 - Saída 72,Carro,2.7,A-4,S,1,2

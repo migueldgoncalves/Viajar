@@ -735,11 +735,33 @@ A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,False,Zaragoza
 A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,M-30
 A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,Madrid - Avenida de América
 A-2 - Saída 4C,Cruzamento da A-2 com a M-30,Carro,True,Madrid - Centro da cidade
-A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,Madrid
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,M-30
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,Madrid - Avenida de América
+A-2 - Saída 5,A-2 - Saída 7-8,Carro,False,Madrid - Centro da cidade
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Aeroporto de Madrid-Barajas
 A-2 - Saída 5,A-2 - Saída 7-8,Carro,True,Zaragoza
 A-2 - Saída 7-8,A-2 - Saída 9,Carro,False,Madrid
 A-2 - Saída 7-8,A-2 - Saída 9,Carro,True,Zaragoza
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,False,M-30
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,False,Madrid
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,False,Madrid - Avenida de América
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,True,Aeroporto de Madrid-Barajas
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,True,M-40 - Todas as direcções
+A-2 - Saída 9,Cruzamento da A-2 com a M-14,Carro,True,Zaragoza
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,False,M-14 - Aeroporto de Madrid-Barajas
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,False,M-40
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,False,Madrid
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,True,Barcelona
+A-2 - Saída 11-12,A-2 - Saída 15,Carro,True,Zaragoza
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Alcalá de Henares
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Barcelona
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Zaragoza
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,Feria de Madrid
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-12 - Aeroporto de Madrid-Barajas-Terminal 4
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-14 - Aeroporto de Madrid-Barajas
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-40 - Todas as direcções
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,Madrid - Avenida de América
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,Madrid - Centro da cidade
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Madrid
 A-4 - Saída 69,A-4 - Saída 70,Carro,False,Ocaña
 A-4 - Saída 69,A-4 - Saída 70,Carro,True,Bailén
