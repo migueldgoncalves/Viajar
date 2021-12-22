@@ -2690,6 +2690,23 @@ A-49 - Saída 129,Cruzamento da A-499 com a N-431,Carro,True,Ayamonte - Este
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-58 - Fim,A-58 - Saída 42,Carro,False,Cáceres
+A-58 - Fim,A-58 - Saída 42,Carro,True,A-5 - Madrid
+A-58 - Fim,A-58 - Saída 42,Carro,True,Trujillo
+A-58 - Saída 4,A-58 - Saída 9,Carro,False,A-5 - Madrid
+A-58 - Saída 4,A-58 - Saída 9,Carro,False,Trujillo - Norte
+A-58 - Saída 4,A-58 - Saída 9,Carro,True,Cáceres
+A-58 - Saída 4,Cruzamento da A-5 com a A-58,Carro,False,Cáceres
+A-58 - Saída 4,Cruzamento da A-5 com a A-58,Carro,True,A-5 - Madrid
+A-58 - Saída 9,A-58 - Saída 15,Carro,False,Trujillo
+A-58 - Saída 9,A-58 - Saída 15,Carro,True,Cáceres
+A-58 - Saída 15,A-58 - Saída 21,Carro,False,Trujillo
+A-58 - Saída 15,A-58 - Saída 21,Carro,True,Cáceres
+A-58 - Saída 21,A-58 - Saída 35,Carro,False,Trujillo
+A-58 - Saída 21,A-58 - Saída 35,Carro,True,Cáceres
+A-58 - Saída 35,A-58 - Saída 42,Carro,False,A-5 - Madrid
+A-58 - Saída 35,A-58 - Saída 42,Carro,False,Trujillo
+A-58 - Saída 35,A-58 - Saída 42,Carro,True,Cáceres
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,False,Cáceres
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Mérida
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,True,Sevilha
