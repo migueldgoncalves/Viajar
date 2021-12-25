@@ -3322,6 +3322,15 @@ A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,False,Sevilha
 A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Almería
 A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Granada
 A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,True,Jaén
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Cádiz
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Córdoba
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Granada
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Huelva
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Jaén
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Málaga
+A-92 - Saída 245,A-92 - Saída 249,Carro,False,Sevilha
+A-92 - Saída 245,A-92 - Saída 249,Carro,True,Almería
+A-92 - Saída 245,A-92 - Saída 249,Carro,True,Murcia
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,False,Almería
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,False,Murcia
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Cádiz
@@ -3331,6 +3340,19 @@ A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Huelva
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Jaén
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Málaga
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,True,Sevilha
+A-92 - Saída 249,A-92 - Saída 250,Carro,False,Granada
+A-92 - Saída 249,A-92 - Saída 250,Carro,True,Almería
+A-92 - Saída 249,A-92 - Saída 250,Carro,True,Murcia
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Cádiz
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Córdoba
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Granada
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Huelva
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Jaén
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Málaga
+A-92 - Saída 250,A-92 - Saída 253,Carro,False,Sevilha
+A-92 - Saída 250,A-92 - Saída 253,Carro,True,Almería
+A-92 - Saída 250,A-92 - Saída 253,Carro,True,Guadix
+A-92 - Saída 250,A-92 - Saída 253,Carro,True,Murcia
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A-92M - Saída 1,A-92M - Saída 7,Carro,False,Granada

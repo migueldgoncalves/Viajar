@@ -867,7 +867,10 @@ A-92 - Saída 236,A-92 - Saída 237,Carro,1.6,A-92,NE,2,1
 A-92 - Saída 236,Cruzamento da A-92 com a GR-43,Carro,1.3,A-92,SO,1,2
 A-92 - Saída 237,A-92 - Saída 239,Carro,2.1,A-92,E,2,1
 A-92 - Saída 239,Cruzamento da A-44 com a A-92,Carro,0.4,A-92,NE,2,1
+A-92 - Saída 245,A-92 - Saída 249,Carro,4.2,A-92,E,2,1
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,3.9,A-92,O,1,2
+A-92 - Saída 249,A-92 - Saída 250,Carro,0.9,A-92,SE,2,1
+A-92 - Saída 250,A-92 - Saída 253,Carro,2.7,A-92,E,2,1
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A-92M - Saída 1,A-92M - Saída 7,Carro,6.5,A-92M,SO,2,1
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92M,NE,1,3
