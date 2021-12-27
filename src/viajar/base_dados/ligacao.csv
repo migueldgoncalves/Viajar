@@ -774,7 +774,7 @@ A-66 - Saída 798,A-66 - Saída 805,Carro,6.9,A-66,SE,1,2
 A-66 - Saída 805,A-66 - Saída 808,Carro,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Carro,2.2,A-66,S,1,3
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Carro,0.7,A-92,E,2,1
-A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,1.0,A-92,O,1,3
+A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Carro,1.0,A-92,O,1,4
 A-92 - Saída 5,A-92 - Torreblanca,Carro,2.1,A-92,NO,1,2
 A-92 - Saída 5,Cruzamento da A-92 com a SE-40,Carro,2.5,A-92,SE,2,3
 A-92 - Saída 7,A-92 - Saída 9,Carro,1.2,A-92,SE,2,1
@@ -871,6 +871,23 @@ A-92 - Saída 245,A-92 - Saída 249,Carro,4.2,A-92,E,2,1
 A-92 - Saída 245,Cruzamento da A-92 com a GR-30,Carro,3.9,A-92,O,1,2
 A-92 - Saída 249,A-92 - Saída 250,Carro,0.9,A-92,SE,2,1
 A-92 - Saída 250,A-92 - Saída 253,Carro,2.7,A-92,E,2,1
+A-92 - Saída 253,A-92 - Saída 256,Carro,3.5,A-92,E,2,1
+A-92 - Saída 256,A-92 - Saída 259,Carro,2.6,A-92,NE,2,1
+A-92 - Saída 259,A-92 - Saída 264,Carro,5.2,A-92,NE,2,1
+A-92 - Saída 264,A-92 - Saída 269,Carro,4.8,A-92,E,2,1
+A-92 - Saída 269,A-92 - Saída 276,Carro,7.0,A-92,E,2,1
+A-92 - Saída 276,A-92 - Saída 278,Carro,1.4,A-92,E,2,1
+A-92 - Saída 278,A-92 - Saída 282,Carro,4.5,A-92,E,2,1
+A-92 - Saída 282,A-92 - Saída 286,Carro,4.3,A-92,E,2,1
+A-92 - Saída 286,A-92 - Saída 288,Carro,2.0,A-92,E,2,1
+A-92 - Saída 288,A-92 - Saída 292,Carro,3.9,A-92,E,2,1
+A-92 - Saída 292,A-92 - Saída 293,Carro,1.1,A-92,E,2,1
+A-92 - Saída 292,Guadix,Carro,3.5,,SE,3,1
+A-92 - Saída 293,A-92 - Saída 294,Carro,0.9,A-92,E,2,1
+A-92 - Saída 294,Cruzamento da A-92 com a A-92N,Carro,2.0,A-92,E,2,1
+A-92 - Saída 294,Estação de Guadix,Carro,1.5,,E,3,3
+A-92 - Saída 294,Guadix,Carro,2.1,,S,3,2
+A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,7.8,A-92,NO,1,2
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,0.8,A-92,E,2,1
 A-92M - Saída 1,A-92M - Saída 7,Carro,6.5,A-92M,SO,2,1
 A-92M - Saída 1,Cruzamento da A-92 com a A-92M,Carro,1.5,A-92M,NE,1,3
@@ -878,6 +895,7 @@ A-92M - Saída 7,A-92M - Saída 11,Carro,3.4,A-92M,SO,2,1
 A-92M - Saída 11,A-92M - Saída 16,Carro,5.0,A-92M,SO,2,1
 A-92M - Saída 16,A-92M - Saída 20,Carro,4.0,A-92M,S,2,1
 A-92M - Saída 20,Cruzamento da A-45 com a A-92M,Carro,4.5,A-92M,SO,2,3
+A-92N - Saída 3,Cruzamento da A-92 com a A-92N,Carro,3.2,A-92N,SO,1,3
 A-376 - Centro Comercial,A-376 - Universidade Pablo de Olavide,Carro,0.9,A-376,SE,2,1
 A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Carro,0.4,A-376,NO,1,3
 A-376 - Condequinto,A-376 - Montequinto,Carro,0.6,A-376,SE,2,1
@@ -1148,6 +1166,8 @@ Armação de Pêra,Praia da Cova Redonda,Carro,3.5,,SO,3,1
 Aroche,Barrancos,Carro,32.8,,N,2,1
 Aroche,Rosal de la Frontera,Carro,26.9,N-433,O,1,3
 Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
+"Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Carro,1.2,A-92,E,1,3
+"Avenida de Andalucía, Sevilha",Estação de Sevilha-Santa Justa,Carro,2.2,,O,2,2
 "Avenida de España, La Línea de la Concepción","Calle Cartagena, La Línea de la Concepción",Carro,2.5,,NE,2,3
 "Avenida de España, La Línea de la Concepción","Campamento, San Roque",Carro,1.7,N-351,NO,1,5
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
@@ -1415,6 +1435,7 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,1.3,A-49,E,4,1
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,6.8,SE-40,S,3,1
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,2.4,SE-30,E,1,2
 Cruzamento da A-92 com a A-92G,Cruzamento da A-92 com a GR-43,Carro,3.3,A-92,NE,2,1
+Cruzamento da A-92 com a A-92N,Estação de Guadix,Carro,1.5,,SO,4,2
 Cruzamento da A-92 com a GR-30,GR-30 - Saída 2,Carro,0.8,GR-30,NO,3,2
 Cruzamento da A-92 com a GR-30,GR-30 - Saída 4,Carro,0.9,GR-30,SE,4,1
 Cruzamento da A-92 com a SE-30,SE-30 - Saída 1,Carro,1.5,SE-30,NO,2,1
@@ -1692,7 +1713,7 @@ Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Ve
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
 Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
-Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,2
+Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,3
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Comboio,2.6,Linha do Sul - Fertagus,SE,1,2
 Estação de Corroios,Estação do Pragal,Comboio,5.1,Linha do Sul - Fertagus,NO,2,1
@@ -1734,6 +1755,7 @@ Estação de Fuseta-A,Fuseta,Carro,0.7,,NE,1,2
 Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
 Estação de Fuseta-Moncarapacho,Fuseta,Carro,0.8,N125-5,SE,2,1
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,2.9,Linha do Algarve - Regional,NE,3,4
+Estação de Guadix,Guadix,Carro,1.9,,SO,1,3
 Estação de Lagos,Lagos,Carro,2.4,,S,4,2
 Estação de Lagos,Marina de Lagos,Carro,0.3,,SO,2,1
 Estação de Lagos,Meia Praia,Carro,3.2,,NE,3,1

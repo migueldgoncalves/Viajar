@@ -555,6 +555,19 @@ A-92 - Saída 245,Pulianas,Granada,
 A-92 - Saída 249,Alfacar,Granada,
 A-92 - Saída 250,Víznar,Granada,
 A-92 - Saída 253,Víznar,Granada,
+A-92 - Saída 256,Huétor de Santillán,Granada,
+A-92 - Saída 259,Huétor de Santillán,Granada,
+A-92 - Saída 264,Huétor de Santillán,Granada,
+A-92 - Saída 269,Huétor de Santillán,Granada,
+A-92 - Saída 276,Diezma,Granada,
+A-92 - Saída 278,Diezma,Granada,
+A-92 - Saída 282,La Peza,Granada,
+A-92 - Saída 286,Purullena,Granada,
+A-92 - Saída 288,Purullena,Granada,
+A-92 - Saída 292,Guadix,Granada,
+A-92 - Saída 293,Guadix,Granada,
+A-92 - Saída 294,Guadix,Granada,
+A-92 - Saída 303,Valle del Zalabí,Granada,
 A-92 - Sevilha Este,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92 - Torreblanca,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-92M - Saída 1,Archidona,Málaga,
@@ -562,6 +575,7 @@ A-92M - Saída 7,Villanueva del Trabuco,Málaga,
 A-92M - Saída 11,Villanueva del Trabuco,Málaga,
 A-92M - Saída 16,Villanueva del Rosario,Málaga,
 A-92M - Saída 20,Antequera,Málaga,
+A-92N - Saída 3,Guadix,Granada,
 A-376 - Centro Comercial,Sevilha,Sevilha,Sur
 A-376 - Condequinto,Dos Hermanas,Sevilha,
 A-376 - Fim da auto-estrada,Utrera,Sevilha,
@@ -635,6 +649,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Seseña,Seseña,Toledo,
 Aroche,Aroche,Huelva,
 "Avenida de América, Madrid",Madrid,Comunidade de Madrid,Chamartín
+"Avenida de Andalucía, Sevilha",Sevilha,Sevilha,San Pablo-Santa Justa
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
 "Avenida de Jacinto Benavente, Málaga",Málaga,Málaga,Ciudad Jardín
 "Avenida de Kansas City, Sevilha",Sevilha,Sevilha,San Pablo-Santa Justa
@@ -714,6 +729,7 @@ Cruzamento da A-49 com a SE-40,Espartinas,Sevilha,
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
 Cruzamento da A-92 com a A-92G,Santa Fe,Granada,
 Cruzamento da A-92 com a A-92M,Loja,Granada,
+Cruzamento da A-92 com a A-92N,Guadix,Granada,
 Cruzamento da A-92 com a GR-30,Albolote,Granada,
 Cruzamento da A-92 com a GR-43,Pinos Puente,Granada,
 Cruzamento da A-92 com a SE-30,Sevilha,Sevilha,Cerro-Amate
@@ -769,6 +785,7 @@ Estação de Ciudad Real,Ciudad Real,Ciudad Real,
 Estação de Córdoba,Córdoba,Córdoba,Noroeste
 Estação de Feria de Madrid,Madrid,Comunidade de Madrid,Barajas
 Estação de Fuente de la Mora,Madrid,Comunidade de Madrid,Hortaleza
+Estação de Guadix,Guadix,Granada,
 Estação de Madrid-Atocha,Madrid,Comunidade de Madrid,Arganzuela
 Estação de Madrid-Chamartín-Clara Campoamor,Madrid,Comunidade de Madrid,Chamartín
 Estação de Madrid-Puerta de Atocha,Madrid,Comunidade de Madrid,Arganzuela
@@ -801,6 +818,7 @@ GR-30 - Saída 15,Granada,Granada,Ronda
 GR-30 - Saída 18,Ogíjares,Granada,
 GR-30 - Saída 21,Alhendín,Granada,
 GR-30 - Saída 23,Villa de Otura,Granada,
+Guadix,Guadix,Granada,
 H-31 - Saída 80,Huelva,Huelva,
 Intu Xanadú,Arroyomolinos,Comunidade de Madrid,
 Isla Cristina,Isla Cristina,Huelva,
