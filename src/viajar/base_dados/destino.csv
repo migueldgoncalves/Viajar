@@ -2367,6 +2367,29 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Toledo
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,False,Torrijos
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Ávila
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Carro,True,Maqueda
+A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Carro,False,Madrid - Glorieta de Santa María de la Cabeza
+A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Carro,True,R-5 - Badajoz/Toledo
+A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Carro,True,Toledo
+A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Carro,False,Madrid - Plaza Elíptica
+A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Carro,False,R-5 - Badajoz
+A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Carro,False,Toledo
+A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Carro,True,M-30 - Todas as direcções
+A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Carro,True,Madrid - Glorieta de Santa María de la Cabeza
+A-42 - Paseo de Santa María de la Cabeza,A-42 - Saída 4,Carro,False,M-30
+A-42 - Paseo de Santa María de la Cabeza,A-42 - Saída 4,Carro,False,Madrid - Centro da cidade
+A-42 - Paseo de Santa María de la Cabeza,A-42 - Saída 4,Carro,True,R-5 - Badajoz/Toledo
+A-42 - Paseo de Santa María de la Cabeza,A-42 - Saída 4,Carro,True,Toledo
+A-42 - Saída 4,A-42 - Saída 5,Carro,False,M-30
+A-42 - Saída 4,A-42 - Saída 5,Carro,False,Madrid - Centro da cidade
+A-42 - Saída 4,A-42 - Saída 5,Carro,False,Madrid - Plaza Elíptica
+A-42 - Saída 4,A-42 - Saída 5,Carro,True,Getafe
+A-42 - Saída 4,A-42 - Saída 5,Carro,True,R-5 - Badajoz/Toledo
+A-42 - Saída 4,A-42 - Saída 5,Carro,True,Toledo
+A-42 - Saída 5,Cruzamento da A-42 com a M-40,Carro,False,M-30
+A-42 - Saída 5,Cruzamento da A-42 com a M-40,Carro,False,Madrid - Centro da cidade
+A-42 - Saída 5,Cruzamento da A-42 com a M-40,Carro,False,Madrid - Plaza Elíptica
+A-42 - Saída 5,Cruzamento da A-42 com a M-40,Carro,True,Getafe
+A-42 - Saída 5,Cruzamento da A-42 com a M-40,Carro,True,Toledo
 A-44 - Saída 12,A-44 - Saída 17,Carro,False,Bailén
 A-44 - Saída 12,A-44 - Saída 17,Carro,False,Madrid
 A-44 - Saída 12,A-44 - Saída 17,Carro,True,Granada
@@ -4588,7 +4611,7 @@ Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro
 Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,R-5 - Badajoz
 Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,False,Toledo
 Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,True,Estação de Atocha
-Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,True,Madrid - Paseo de Santa María de la Cabeza
+Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Carro,True,Madrid - Glorieta de Santa María de la Cabeza
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-3
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-4
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,False,A-42 - Toledo
@@ -4600,6 +4623,20 @@ Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,A-6
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,M-607
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-2
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Carro,True,R-5 - Badajoz/Toledo
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,A-1
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,A-5 - Badajoz
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,A-6
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,A-42 - Toledo
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,M-607
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,R-2
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,False,R-5 - Badajoz/Toledo
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,A-2
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,A-3
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,A-4 - Córdoba
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,Feria de Madrid
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,R-3
+Cruzamento da A-42 com a M-40,M-40 - Saída 24,Carro,True,R-4 - Córdoba
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-5
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-6
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-42 - Toledo
@@ -4838,6 +4875,19 @@ Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,A-6
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,Feria de Madrid
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,M-607
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,True,R-2
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,A-3
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,A-4
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,A-5 - Badajoz
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,A-42
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,R-4
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,False,R-5 - Badajoz
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,A-1
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,A-2
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,A-6 - A Coruña
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,Feria de Madrid
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,M-607
+Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,R-2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-3
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-4 - Córdoba

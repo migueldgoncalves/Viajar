@@ -362,6 +362,10 @@ A-7/AP-7 - Saída 217,Fuengirola,Málaga,
 A-7/AP-7 - Saída 222,Benalmádena,Málaga,
 A-32 - Saída 1,Bailén,Jaén,
 A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
+A-42 - Calle de Antonio López,Madrid,Comunidade de Madrid,Usera
+A-42 - Paseo de Santa María de la Cabeza,Madrid,Comunidade de Madrid,Carabanchel
+A-42 - Saída 4,Madrid,Comunidade de Madrid,Carabanchel
+A-42 - Saída 5,Madrid,Comunidade de Madrid,Carabanchel
 A-44 - Saída 12,Jabalquinto,Jaén,
 A-44 - Saída 17,Jabalquinto,Jaén,
 A-44 - Saída 18,Mengíbar,Jaén,
@@ -855,9 +859,11 @@ M-30 - Saída 25,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-30 - Saída 26,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-30 - Saída 27,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-30 - Saída 31,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-40 - Saída 24,Madrid,Comunidade de Madrid,Villaverde
 M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-40 - Saída 30,Madrid,Comunidade de Madrid,Latina
 M-40 - Saída 31,Madrid,Comunidade de Madrid,Latina
+M-40 - Saída 38,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
 M-50 - Saída 53,Leganés,Comunidade de Madrid,
 M-50 - Saída 55,Leganés,Comunidade de Madrid,
 M-50 - Saída 56,Leganés,Comunidade de Madrid,
