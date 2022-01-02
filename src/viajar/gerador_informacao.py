@@ -236,6 +236,8 @@ class GeradorInformacao:
                 latitude: float = saidas_estacoes_coordenadas[saida_ou_estacao].get_latitude()
                 longitude: float = saidas_estacoes_coordenadas[saida_ou_estacao].get_longitude()
                 altitude: int = 0
+                info_extra: str = ''
+                lote: int = 0
                 if self.obter_altitudes:
                     if self.via_tipo == VIA_FERROVIA:
                         print(f'A obter a altitude da estação {saida_ou_estacao}...')
@@ -243,9 +245,9 @@ class GeradorInformacao:
                         print(f'A obter a altitude da saída {saida_ou_estacao}...')
                     altitude: int = self.get_altitude(latitude, longitude)
                 if self.via_tipo == VIA_FERROVIA:
-                    f.write(f'Estação de {saida_ou_estacao},{latitude},{longitude},{altitude},\n')
+                    f.write(f'Estação de {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
                 else:
-                    f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{latitude},{longitude},{altitude},\n')
+                    f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
         ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.local_path.path, cabecalho=False)
         print(f'Ficheiro de locais criado')
 

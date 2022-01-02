@@ -15,6 +15,7 @@ CREATE TABLE local(
     longitude numeric NOT NULL,
     altitude integer NOT NULL,
     info_extra varchar,
+    lote integer NOT NULL,
     PRIMARY KEY (nome)
 );
 

@@ -12,6 +12,7 @@ class Local:
         self.altitude = altitude  # Metros
         self.pais = ''
         self.info_extra = ''  # Informação extra associada ao local. Ex: Reserva natural
+        self.lote = 0  # 100 = Local faz parte dos primeiros 100 locais introduzidos
 
     def set_nome(self, nome):
         self.nome = nome
@@ -36,6 +37,9 @@ class Local:
 
     def set_info_extra(self, info_extra):
         self.info_extra = info_extra
+
+    def set_lote(self, lote):
+        self.lote = lote
 
     def add_local_circundante(self, local, meio_transporte, ponto_cardeal, distancia):
         self.locais_circundantes[(local, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
@@ -111,6 +115,9 @@ class Local:
 
     def get_info_extra(self):
         return self.info_extra
+
+    def get_lote(self):
+        return self.lote
 
     def imprimir_info_breve(self):
         print("Está em", self.nome)

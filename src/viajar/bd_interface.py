@@ -111,6 +111,7 @@ class BDInterface:
         info_extra = ''
         if resultado[0][4] is not None:
             info_extra = resultado[0][4].strip()
+        lote = int(resultado[0][5])
 
         #  Determinar os parâmetros específicos do país
         if pais == 'Portugal':
@@ -169,13 +170,14 @@ class BDInterface:
         local.set_sentidos(sentidos)
         local.set_sentidos_info_extra(sentidos_info_extra)
         local.set_info_extra(info_extra)
+        local.set_lote(lote)
 
         return local
 
     #  Preenche a base de dados
     def preencher_base_dados(self):
         path_csv = self.path + 'local.csv'
-        query = "COPY local(nome, latitude, longitude, altitude, info_extra) FROM '" + path_csv + \
+        query = "COPY local(nome, latitude, longitude, altitude, info_extra, lote) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
