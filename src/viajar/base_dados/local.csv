@@ -78,7 +78,7 @@ A22 - Saída 8,37.139121,-8.323551,53,,0
 A22 - Saída 9,37.136305,-8.255258,97,,0
 A22 - Saída 11,37.146803,-8.125147,104,,0
 A22 - Saída 12,37.120512,-8.040666,80,,0
-A22 - Saída 13,37.095094,-7.993573,71,,0
+A22 - Saída 13,37.095094,-7.993573,71,,300
 A22 - Saída 14,37.09589,-7.916541,89,,100
 A22 - Saída 15,37.10791,-7.800772,116,,100
 A22 - Saída 16,37.137293,-7.694742,97,,100
@@ -584,7 +584,7 @@ A-66 - Saída 790,37.573227,-6.107458,159,,0
 A-66 - Saída 795,37.534068,-6.093038,69,,0
 A-66 - Saída 798,37.511061,-6.071201,49,,0
 A-66 - Saída 805,37.456867,-6.044449,12,,0
-A-66 - Saída 808,37.430924,-6.031791,7,,0
+A-66 - Saída 808,37.430924,-6.031791,7,,200
 A-92 - Andalucía Residencial,37.386032,-5.929249,18,,0
 A-92 - Saída 5,37.377893,-5.892741,31,,0
 A-92 - Saída 7,37.356552,-5.865473,43,,0
@@ -760,7 +760,7 @@ Alvor,37.130155,-8.593241,18,,0
 Amareleja,38.208057,-7.226053,201,,0
 Ameixal,37.364243,-7.963277,418,,0
 Antiga Estação de Aljaraque,37.322834,-7.057116,47,,0
-Antiga Estação de Isla Cristina - Pozo del Camino,37.221285,-7.322543,4,,0
+Antiga Estação de Isla Cristina - Pozo del Camino,37.221285,-7.322543,4,,200
 AP-4 - Início,37.242204,-5.910401,53,,0
 AP-4 - Saída 23-24,37.163431,-5.908798,9,,0
 AP-4 - Saída 44-45,36.979134,-5.951837,17,,0
@@ -801,7 +801,7 @@ Arahal,37.260348,-5.544021,120,,0
 Área de Serviço de Montemor-o-Novo,38.617671,-8.079619,297,,0
 Área de Serviço de Montijo,38.726397,-8.670269,79,,0
 Área de Serviço de Oeiras,38.714190,-9.285304,82,,0
-Área de Serviço de Olhão,37.125327,-7.770864,114,,0
+Área de Serviço de Olhão,37.125327,-7.770864,114,,200
 Área de Serviço de Palmela,38.585227,-8.930490,64,,0
 Área de Serviço de Polvoranca,40.337014,-3.802135,679,,0
 Área de Serviço de Pombal,40.013412,-8.600130,60,,0
@@ -838,9 +838,9 @@ Barragem do Alqueva,38.197295,-7.496486,145,,0
 Barragem do Beliche,37.275203,-7.509301,52,,100
 Barragem do Pego do Altar,38.417944,-8.392519,54,,0
 Barranco das Pereiras,37.375979,-7.440443,9,,30
-Barranco do Velho,37.237686,-7.936897,471,,0
+Barranco do Velho,37.237686,-7.936897,471,,200
 Barrancos,38.131245,-6.976935,340,,0
-Barriada de Canela,37.199587,-7.403262,3,,0
+Barriada de Canela,37.199587,-7.403262,3,,200
 Beja,38.015317,-7.862804,270,,100
 Beliche,37.275026,-7.505045,40,,0
 Benafim,37.234108,-8.126277,278,,0
@@ -858,14 +858,14 @@ Budens,37.086905,-8.830957,49,,0
 Burgau,37.072898,-8.774542,25,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 CA-34 - Acesso à Refinaria,36.191389,-5.385167,5,,0
 CA-34 - Puente Mayorga,36.182248,-5.380882,5,,0
-Cabanas de Tavira,37.13531,-7.600363,3,Ria Formosa,0
+Cabanas de Tavira,37.13531,-7.600363,3,Ria Formosa,200
 Cabeço da Junqueira,37.249328,-7.482872,55,,0
-Cabo de Santa Maria,36.959245,-7.891501,0,Ria Formosa - Ilha da Barreta,0
+Cabo de Santa Maria,36.959245,-7.891501,0,Ria Formosa - Ilha da Barreta,200
 Cabo de São Vicente,37.023133,-8.996423,60,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Cacela Velha,37.157275,-7.546349,26,Ria Formosa,0
+Cacela Velha,37.157275,-7.546349,26,Ria Formosa,200
 Cachopo,37.332957,-7.817305,387,,100
-Cais da Mesquita,37.55446,-7.526229,4,Parque Natural do Vale do Guadiana,0
-Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira,0
+Cais da Mesquita,37.55446,-7.526229,4,Parque Natural do Vale do Guadiana,200
+Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira,200
 Cais Palafítico da Carrasqueira,38.412722,-8.757114,1,Reserva Natural do Estuário do Sado,0
 Caldas de Monchique,37.284505,-8.554239,210,,0
 "Calle Cartagena, La Línea de la Concepción",36.176928,-5.348877,9,,0
@@ -880,7 +880,7 @@ Carvoeiro,37.097062,-8.471109,10,,0
 "Casa Branca, Castro Marim",37.318916,-7.514484,130,,100
 Cascata do Pego do Inferno,37.155403,-7.696081,10,,0
 Cascata do Pulo do Lobo - Margem Direita,37.804165,-7.633939,32,Parque Natural do Vale do Guadiana,100
-Cascata do Pulo do Lobo - Margem Esquerda,37.804322,-7.633016,30,Parque Natural do Vale do Guadiana,0
+Cascata do Pulo do Lobo - Margem Esquerda,37.804322,-7.633016,30,Parque Natural do Vale do Guadiana,200
 Casinhas,37.254808,-7.4764,18,,0
 Castelo de Paderne,37.157185,-8.200162,90,,0
 Castro de Alferce,37.321503,-8.491470,482,,0
@@ -899,7 +899,7 @@ CO-32 - Saída 3,37.841956,-4.801985,120,,0
 Coito,37.475472,-7.590636,222,,0
 Colos,37.734081,-8.459506,151,,0
 Comporta,38.379786,-8.784954,9,Reserva Natural do Estuário do Sado,0
-"Conceição, Faro",37.061574,-7.9177,33,,0
+"Conceição, Faro",37.061574,-7.9177,33,,300
 "Conceição, Tavira",37.147989,-7.604968,29,,100
 Coria del Río,37.288856,-6.053764,7,,0
 Corte da Seda,37.44543,-7.496576,160,,0
@@ -966,7 +966,7 @@ Cruzamento da A-4 com a M-50,40.276711,-3.690829,592,,0
 Cruzamento da A-4 com a SE-20,37.415523,-5.927024,18,,0
 Cruzamento da A-4 Norte com a SE-30,37.408012,-5.948593,20,,0
 Cruzamento da A-4 Norte com a SE-40,37.431546,-5.842137,38,,0
-Cruzamento da A-4 Sul com a SE-30,37.341333,-5.981543,4,,0
+Cruzamento da A-4 Sul com a SE-30,37.341333,-5.981543,4,,200
 Cruzamento da A-4 Sul com a SE-40,37.296855,-5.979238,13,,0
 Cruzamento da A-5 com a A-58,39.499462,-5.840492,477,,0
 Cruzamento da A-5 com a A-66 Norte,38.944092,-6.343036,268,,0
@@ -996,11 +996,11 @@ Cruzamento da A-45 com a A-7,36.757216,-4.426484,42,,0
 Cruzamento da A-45 com a A-92,37.070510,-4.529941,446,,0
 Cruzamento da A-45 com a A-92M,36.967613,-4.442754,797,,0
 Cruzamento da A-45 com a AP-46,36.949307,-4.441751,646,,0
-Cruzamento da A-49 com a A-483,37.354358,-6.559195,127,,0
-Cruzamento da A-49 com a H-31,37.312759,-6.876701,13,,0
+Cruzamento da A-49 com a A-483,37.354358,-6.559195,127,,200
+Cruzamento da A-49 com a H-31,37.312759,-6.876701,13,,200
 Cruzamento da A-49 com a SE-30,37.389184,-6.026031,5,,200
-Cruzamento da A-49 com a SE-40,37.368806,-6.10437,86,,0
-Cruzamento da A-66 com a SE-30,37.412414,-6.033472,12,,0
+Cruzamento da A-49 com a SE-40,37.368806,-6.10437,86,,200
+Cruzamento da A-66 com a SE-30,37.412414,-6.033472,12,,200
 Cruzamento da A-92 com a A-92G,37.191388,-3.738156,571,,0
 Cruzamento da A-92 com a A-92M,37.129865,-4.288358,729,,0
 Cruzamento da A-92 com a A-92N,37.320671,-3.117870,982,,0
@@ -1050,7 +1050,7 @@ Cruzamento da N122 com a M512,37.281742,-7.470695,93,,0
 Cruzamento da N122 com a M1059,37.400355,-7.508941,176,,0
 Cruzamento da N122 com a M1060,37.373061,-7.527176,156,,0
 Cruzamento da N122 com a M1063,37.318274,-7.480551,124,,0
-Cruzamento da N122 com a N123,37.702519,-7.748,180,Parque Natural do Vale do Guadiana,0
+Cruzamento da N122 com a N123,37.702519,-7.748,180,Parque Natural do Vale do Guadiana,200
 Cruzamento da N122 com a N267,37.630994,-7.680053,106,Parque Natural do Vale do Guadiana,0
 Cruzamento da N123 com a N263,37.604124,-8.610436,23,,0
 Cruzamento da N123-1 com a N263,37.711360,-8.440538,200,,0
@@ -1060,29 +1060,29 @@ Cruzamento da N124 com a N266,37.200426,-8.529317,13,,0
 Cruzamento da N124 com a N270,37.244393,-8.249638,161,,0
 Cruzamento da N124 com a N396,37.231853,-7.961769,315,,0
 Cruzamento da N124-1 com a N125,37.139328, -8.468676,56,,0
-Cruzamento da N125 com a M516-2,37.063244,-7.75982,7,,0
+Cruzamento da N125 com a M516-2,37.063244,-7.75982,7,,200
 Cruzamento da N125 com a M526,37.118547,-8.138639,39,,0
 Cruzamento da N125 com a M531-1,37.161191,-8.569327,9,,0
 Cruzamento da N125 com a M535,37.093659,-8.807304,30,,0
 Cruzamento da N125 com a M537-2,37.090887,-8.782888,14,,0
-Cruzamento da N125 com a M1347,37.100225,-7.682129,24,,0
-Cruzamento da N125 com a N125-6,37.184062,-7.483801,20,,0
+Cruzamento da N125 com a M1347,37.100225,-7.682129,24,,200
+Cruzamento da N125 com a N125-6,37.184062,-7.483801,20,,200
 Cruzamento da N125 com a N269,37.123170,-8.223860,83,,0
 Cruzamento da N125 com a N395,37.119146,-8.246176,68,,0
 Cruzamento da N125 com a N396,37.098617,-8.050912,43,,0
-Cruzamento da N125 com a N398,37.043428,-7.818297,17,,0
+Cruzamento da N125 com a N398,37.043428,-7.818297,17,,200
 Cruzamento da N125-4 com a M521,37.123857,-8.016177,142,,0
-Cruzamento da N265 com a N392,37.820185,-7.500759,233,,0
+Cruzamento da N265 com a N392,37.820185,-7.500759,233,,200
 Cruzamento da N266 com a N267 Oeste,37.297409,-8.565256,351,,0
 Cruzamento da N269 com a N269-2,37.151259,-8.272834,58,,0
 Cruzamento da N-431 com a N-444,37.278547,-7.185022,10,,0
 Cruzamento da N-431 com a N-445,37.253774,-7.232826,49,,0
 Cruzamento da N-431 com a N-446,37.245933,-7.306258,47,,0
-Cruzamento da SE-20 com a SE-30,37.413544,-6.00624,15,,0
+Cruzamento da SE-20 com a SE-30,37.413544,-6.00624,15,,200
 Cruzamento do Eixo Norte-Sul com a Segunda Circular,38.757524,-9.172200,99,,0
 Cruzamento do IC1 com o IP8,38.205283,-8.563367,85,,0
-Cruzamento do IC4 com a M520,37.051365,-7.953663,10,,0
-Cruzamento do IC4 com a N125,37.073374,-7.97838,33,,0
+Cruzamento do IC4 com a M520,37.051365,-7.953663,10,,300
+Cruzamento do IC4 com a N125,37.073374,-7.97838,33,,300
 Cruzamento do IC17 CRIL com o IC19,38.740446,-9.204520,116,,0
 Cruzamento Este da A-7 com a MA-24,36.723538,-4.301936,88,,0
 Cruzamento Norte da A-44 com a GR-30,37.271002,-3.658168,672,,0
@@ -1092,7 +1092,7 @@ Cruzamento Sul da MA-20 com a MA-21,36.648404,-4.488732,24,,0
 Cuba,38.165358,-7.891609,175,,0
 "Cuesta de San Vicente, Madrid",40.420373,-3.715705,609,,0
 Cueva de Nerja,36.762029,-3.845080,158,,0
-Culatra,36.993994,-7.840545,2,Ria Formosa - Ilha da Culatra,0
+Culatra,36.993994,-7.840545,2,Ria Formosa - Ilha da Culatra,200
 Deserto,37.428911,-7.516223,198,,0
 Don Benito,38.953866,-5.862498,285,,0
 Dunas de Vila Real de Santo António,37.183042,-7.430759,4,,100
@@ -1111,9 +1111,9 @@ Espírito Santo,37.543213,-7.647608,175,,40
 Estação Cabo Ruivo,38.763189,-9.103961,24,,0
 Estação da Azambuja,39.06815,-8.866945,6,,0
 Estação da Casa Branca,38.498055,-8.158036,201,,0
-Estação da Luz,37.089047,-7.700091,26,,0
+Estação da Luz,37.089047,-7.700091,26,,200
 Estação da Parede,38.689804,-9.356589,24,,0
-Estação da Porta Nova,37.133203,-7.647859,24,,0
+Estação da Porta Nova,37.133203,-7.647859,24,,200
 Estação da Póvoa,38.859203,-9.064168,4,,0
 Estação das Mercês,38.793173,-9.330721,158,,0
 Estação de Aeropuerto T1-T2-T3,40.468300,-3.571098,610,,0
@@ -1141,7 +1141,7 @@ Estação de Belém,38.696168,-9.197585,4,,0
 Estação de Benfica,38.744372,-9.199966,93,,0
 Estação de Bobadela,38.806962,-9.094524,4,,0
 Estação de Boliqueime,37.122815,-8.152667,46,,0
-Estação de Bom João,37.014076,-7.92142,6,,0
+Estação de Bom João,37.014076,-7.92142,6,,200
 Estação de Braço de Prata,38.746226,-9.103204,27,,0
 Estação de Cacela,37.176448,-7.538596,39,,0
 Estação de Cais do Sodré,38.705979,-9.145404,2,,0
@@ -1149,7 +1149,7 @@ Estação de Campolide,38.732551,-9.168170,48,,0
 Estação de Carcavelos,38.687835,-9.337171,23,,0
 Estação de Cascais,38.700885,-9.417835,12,,0
 Estação de Castanheira do Ribatejo,38.988949,-8.965442,4,,0
-Estação de Castro Marim,37.196822,-7.483779,3,,0
+Estação de Castro Marim,37.196822,-7.483779,3,,200
 Estação de Caxias,38.698747,-9.274404,6,,0
 Estação de Chão de Maçãs-Fátima,39.653933,-8.49371,147,,0
 Estação de Ciudad Real,38.985029,-3.912797,634,,0
@@ -1162,7 +1162,7 @@ Estação de Ermidas - Sado,38.002478,-8.414080,78,,0
 Estação de Espadanal da Azambuja,39.050769,-8.902517,6,,0
 Estação de Estômbar - Lagoa,37.143429,-8.485506,18,,0
 Estação de Évora,38.560571,-7.907194,254,,0
-Estação de Faro,37.018466,-7.939585,2,,0
+Estação de Faro,37.018466,-7.939585,2,,200
 Estação de Feria de Madrid,40.463849,-3.616293,670,,0
 Estação de Fernando Pó,38.636516,-8.691447,57,,0
 Estação de Ferragudo,37.138716,-8.519069,3,,0
@@ -1171,8 +1171,8 @@ Estação de Foros de Amora,38.620704,-9.128845,26,,0
 Estação de Fuente de la Mora,40.484875,-3.662566,709,,0
 Estação de Funcheira,37.727240,-8.337805,101,,0
 Estação de Fungalvaz,39.616507,-8.495005,98,,0
-Estação de Fuseta-A,37.053515,-7.74973,14,,0
-Estação de Fuseta-Moncarapacho,37.06012,-7.75126,5,,0
+Estação de Fuseta-A,37.053515,-7.74973,14,,200
+Estação de Fuseta-Moncarapacho,37.06012,-7.75126,5,,200
 Estação de Guadix,37.316780,-3.127145,934,,0
 Estação de Lagos,37.108514,-8.671666,3,,0
 Estação de Lamarosa,39.528796,-8.469124,66,,0
@@ -1188,14 +1188,14 @@ Estação de Mira Sintra - Meleças,38.78955,-9.31264,151,,0
 Estação de Moita,38.644839,-8.996217,6,,0
 Estação de Monte Abraão,38.755468,-9.265341,121,,0
 Estação de Monte Estoril,38.703596,-9.406433,8,,0
-Estação de Monte Gordo,37.190063,-7.448293,3,,0
+Estação de Monte Gordo,37.190063,-7.448293,3,,200
 Estação de Moscavide,38.777675,-9.099501,13,,0
 Estação de Nuevos Ministerios,40.446607,-3.692221,681,,0
 Estação de Oeiras,38.688451,-9.318814,19,,0
 Estação de Paço de Arcos,38.697115,-9.290141,22,,0
 Estação de Paialvo,39.579633,-8.4738,72,,0
 Estação de Palmela,38.571172,-8.872722,50,,0
-Estação de Parque das Cidades,37.080296,-7.984628,41,,0
+Estação de Parque das Cidades,37.080296,-7.984628,41,,200
 Estação de Pegões,38.662344,-8.619292,91,,0
 Estação de Penalva,38.590356,-8.995411,38,,0
 Estação de Penteado,38.638417,-8.957291,28,,0
@@ -1231,7 +1231,7 @@ Estação de Sevilha-Santa Justa,37.393095,-5.973690,10,,200
 Estação de Silves,37.175774,-8.440459,52,,0
 Estação de Sintra,38.799269,-9.385375,202,,0
 Estação de Soudos - Vila Nova,39.542884,-8.471611,81,,0
-Estação de Tavira,37.121088,-7.655511,28,,0
+Estação de Tavira,37.121088,-7.655511,28,,200
 Estação de Valdebebas,40.482421,-3.616405,663,,0
 Estação de Vale de Figueira,39.313765,-8.629973,49,,0
 Estação de Vale de Santarém,39.18838,-8.723838,11,,0
@@ -1249,9 +1249,9 @@ Estação do Pragal,38.666067,-9.179738,56,,0
 Estação do Rossio,38.714552,-9.141884,25,,0
 Estação Encarnação,38.774940,-9.115523,62,,0
 Estação Moscavide,38.774716,-9.102718,29,,0
-Estádio Algarve,37.08825,-7.974713,47,,0
+Estádio Algarve,37.08825,-7.974713,47,,300
 Estepa,37.291665,-4.877462,520,,0
-Estoi,37.094233,-7.895173,110,,0
+Estoi,37.094233,-7.895173,110,,300
 Estômbar,37.146234,-8.485166,24,,0
 "Estrela, Moura",38.268534,-7.388922,163,,0
 EX-A2 - Fim,38.968825,-5.817421,293,,0
@@ -1260,7 +1260,7 @@ EX-A2 - Saída 8,39.088456,-5.891802,265,,0
 EX-A2 - Saída 15,39.029984,-5.871028,250,,0
 EX-A2 - Saída 20,38.991471,-5.85974,250,,0
 EX-A2 - Saída 23,38.982628,-5.828538,268,,0
-Faro - Avenida Calouste Gulbenkian,37.025699,-7.93572,30,,0
+Faro - Avenida Calouste Gulbenkian,37.025699,-7.93572,30,,300
 Faro - São Pedro,37.018508,-7.935332,10,,200
 Faro - Sé,37.018561,-7.921867,20,,200
 Ferragudo,37.122789,-8.519334,28,,0
@@ -1273,7 +1273,7 @@ Fonte Zambujo,37.418809,-7.579482,225,,0
 Fonte Zambujo de Baixo,37.414693,-7.585233,209,,0
 Fonte Zambujo de Cima,37.423578,-7.57889,240,,0
 Formoa,37.554394,-7.540005,50,Parque Natural do Vale do Guadiana,0
-Forum Algarve,37.028857,-7.944702,6,,0
+Forum Algarve,37.028857,-7.944702,6,,300
 Foz de Odeleite,37.354951,-7.44231,18,,10
 Fronteira Espanha-Gibraltar - Lado de Gibraltar,36.154746,-5.348576,4,,0
 Fronteira Espanha-Gibraltar - Lado espanhol,36.155424,-5.348380,3,,0
@@ -1301,8 +1301,8 @@ Grândola,38.176890,-8.565237,99,,0
 Guadix,37.300661,-3.134869,918,,0
 Guerreiros do Rio,37.396353,-7.446837,18,,1
 Guia,37.126255,-8.298924,53,,0
-H-31 - Saída 80,37.308308,-6.892289,9,,0
-Hangares,36.985922,-7.855092,3,Ria Formosa - Ilha da Culatra,0
+H-31 - Saída 80,37.308308,-6.892289,9,,200
+Hangares,36.985922,-7.855092,3,Ria Formosa - Ilha da Culatra,200
 Hortas,37.18847,-7.444839,4,,100
 IC1 - Cruzamento com a N124,37.250919,-8.272591,105,,0
 IC1 - Cruzamento com a N263,37.787552,-8.327132,115,,0
@@ -1338,8 +1338,8 @@ IC27 - Saída 4,37.334783,-7.492552,68,,50
 IC27 - Saída 5,37.358173,-7.517545,148,,20
 IC27 - Saída 6,37.400166,-7.524631,116,,20
 IC27 - Saída 7,37.430967,-7.532168,222,,20
-Ilha da Armona,37.019218,-7.802199,4,Ria Formosa - Ilha da Armona,0
-Ilha do Farol,36.975104,-7.864938,2,Ria Formosa - Ilha da Culatra,0
+Ilha da Armona,37.019218,-7.802199,4,Ria Formosa - Ilha da Armona,200
+Ilha do Farol,36.975104,-7.864938,2,Ria Formosa - Ilha da Culatra,200
 Ilha do Pessegueiro,37.833390,-8.797625,20,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Intu Xanadú,40.299420,-3.926128,619,,0
 IP2 - Saída 38,38.252942,-7.784170,310,,0
@@ -1370,10 +1370,10 @@ Lagoa de Santo André,38.102910,-8.790820,2,Reserva Natural das Lagoas de Santo 
 Lagos,37.101359,-8.672518,10,,0
 Laranjeiras,37.403058,-7.457947,10,,10
 Lepe,37.255024,-7.20303,21,,200
-Livramento,37.074243,-7.732431,10,,0
+Livramento,37.074243,-7.732431,10,,200
 Lombardos,37.587178,-7.642559,123,Parque Natural do Vale do Guadiana,0
 Loulé,37.138646,-8.020993,176,,0
-Luz de Tavira,37.092083,-7.704389,33,,0
+Luz de Tavira,37.092083,-7.704389,33,,200
 "Luz, Lagos",37.086444,-8.730622,28,,0
 Luzianes,37.586656,-8.491707,109,,0
 M-11 - Saída 1,40.483587,-3.663497,702,,0
@@ -1434,15 +1434,15 @@ Marchena,37.328643,-5.415876,134,,0
 Marina de Albufeira,37.084085,-8.267512,4,,0
 Marina de Lagos,37.107874,-8.674058,3,,0
 Marina de Portimão,37.118834,-8.528009,3,,0
-Marismas de Isla Cristina,37.201359,-7.351221,2,,0
+Marismas de Isla Cristina,37.201359,-7.351221,2,,200
 Marmeleiro,37.452326,-7.479719,122,,0
 Marmelete,37.311379,-8.668884,374,,0
 Martim Longo,37.43955,-7.768907,285,,30
 Meia Praia,37.116700,-8.646935,3,,0
 Melides,38.147665,-8.728276,44,,0
-Menires do Lavajo,37.50142,-7.534983,140,,0
+Menires do Lavajo,37.50142,-7.534983,140,,200
 Mértola,37.641575,-7.660828,60,Parque Natural do Vale do Guadiana,40
-Mesquita,37.540953,-7.537359,123,Parque Natural do Vale do Guadiana,0
+Mesquita,37.540953,-7.537359,123,Parque Natural do Vale do Guadiana,200
 Messejana,37.832113,-8.242402,207,,0
 Mexilhoeira da Carregação,37.144388,-8.508279,13,,0
 Mexilhoeira Grande,37.158254,-8.614530,41,,0
@@ -1454,21 +1454,21 @@ Miradouro do Caldeirão,37.301705,-7.95039,577,,0
 Moinho de Maré El Pintado,37.211487,-7.390102,4,,0
 Moinhos de Vento de Baixo,37.549479,-7.689897,230,,0
 Moinhos de Vento de Cima,37.546466,-7.696261,223,,0
-Moncarapacho,37.08519,-7.787652,50,,0
+Moncarapacho,37.08519,-7.787652,50,,200
 Monchique,37.318032,-8.555812,440,,0
-Monte Alto,37.625567,-7.623546,148,Parque Natural do Vale do Guadiana,0
+Monte Alto,37.625567,-7.623546,148,Parque Natural do Vale do Guadiana,200
 Monte Costa,37.640709,-7.566385,167,Parque Natural do Vale do Guadiana,0
 Monte Fernandes,37.620130,-7.620569,128,Parque Natural do Vale do Guadiana,40
 Monte Francisco,37.235113,-7.451201,16,,100
 Monte Gordo,37.180685,-7.449131,5,,100
 Monte Vascão,37.513199,-7.525509,124,,0
-Montenegro,37.032185,-7.961368,27,,0
+Montenegro,37.032185,-7.961368,27,,300
 Montes Altos,37.651812,-7.494929,167,,0
 Montes Castelhanos,37.257686,-7.472255,26,,0
 Montinho,37.425271,-7.514797,215,,0
 Montinho das Laranjeiras,37.405647,-7.463037,22,,10
 Montinho de Odeleite,37.343914,-7.530219,148,,0
-Moreanes,37.646636,-7.559927,148,Parque Natural do Vale do Guadiana,0
+Moreanes,37.646636,-7.559927,148,Parque Natural do Vale do Guadiana,200
 Moura,38.141131,-7.450092,182,,0
 Murteira de Baixo,37.303901,-7.491383,123,,0
 Murteira de Cima,37.306248,-7.494167,130,,0
@@ -1495,12 +1495,12 @@ Parchal,37.136550,-8.516689,8,,0
 Parque Empresarial de Alcoutim,37.437696,-7.509327,174,,10
 Parque Mineiro Cova dos Mouros,37.403339,-7.717642,194,,0
 Parque Municipal do Sítio das Fontes,37.161972,-8.485661,6,,0
-Parque Temático da Serra do Caldeirão,37.242737,-7.933784,482,,0
+Parque Temático da Serra do Caldeirão,37.242737,-7.933784,482,,200
 "Paseo de Santa María de la Cabeza, Madrid",40.401031,-3.699183,591,,0
 "Paseo del Mediterráneo, La Línea de la Concepción",36.167240,-5.337731,3,,0
 Paymogo,37.740617,-7.343653,174,,0
-Pechão,37.057395,-7.872091,45,,0
-Pedras de El-Rei,37.093915,-7.678125,13,Ria Formosa,0
+Pechão,37.057395,-7.872091,45,,300
+Pedras de El-Rei,37.093915,-7.678125,13,Ria Formosa,200
 Pedrera,37.224808,-4.895464,462,,0
 Penha da Águia,37.58407,-7.595603,22,Parque Natural do Vale do Guadiana,40
 "Pêra, Silves",37.119993,-8.341489,39,,0
@@ -1517,8 +1517,8 @@ Polígono Industrial de Ayamonte,37.232794,-7.391258,7,,0
 Pomarão,37.556289,-7.524924,24,Parque Natural do Vale do Guadiana,40
 Ponta da Piedade,37.079472,-8.668779,40,,0
 Ponta de Sagres,36.997361,-8.948779,38,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Ponte de Alamillo,37.413298,-5.990623,11,,0
-Ponte do Centenário,37.349008,-5.993076,1,,0
+Ponte de Alamillo,37.413298,-5.990623,11,,200
+Ponte do Centenário,37.349008,-5.993076,1,,200
 Ponte Internacional do Baixo Guadiana,37.55509,-7.522702,17,,50
 Ponte Internacional do Guadiana,37.237619,-7.419194,0,,100
 Porches,37.125932,-8.398577,84,,0
@@ -1529,7 +1529,7 @@ Portimão - Centro histórico,37.140529,-8.536915,8,,0
 Portimão - Zona ribeirinha,37.134552,-8.535114,3,,0
 Porto Comercial de Portimão,37.127249,-8.530300,3,,0
 Porto Covo,37.851199,-8.792533,27,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Porto de Faro,37.003344,-7.918372,2,Ria Formosa,0
+Porto de Faro,37.003344,-7.918372,2,Ria Formosa,300
 Porto de Pesca de Portimão,37.134488,-8.527612,3,,0
 Porto de Pesca de Sines,37.952044,-8.873070,4,,0
 Porto de Recreio de Sines,37.950335,-8.865533,0,,0
@@ -1538,27 +1538,27 @@ Porto de Sines - Terminal de Gás Natural,37.940949,-8.843963,13,,0
 Porto de Sines - Terminal de Granéis Líquidos,37.952320,-8.882514,8,,0
 Porto de Sines - Terminal Multipurpose,37.940331,-8.852208,5,,0
 Póvoa de São Miguel,38.225190,-7.334263,205,,0
-Pozo del Camino,37.224303,-7.315088,8,,0
+Pozo del Camino,37.224303,-7.315088,8,,200
 Praia da Amoreira,37.349843,-8.844951,6,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Praia da Arrifana,37.292325,-8.864630,4,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Praia da Barreta,36.964761,-7.872067,2,Ria Formosa - Ilha da Barreta,0
+Praia da Barreta,36.964761,-7.872067,2,Ria Formosa - Ilha da Barreta,200
 Praia da Boca do Rio,37.066339,-8.808828,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Praia da Bordeira,37.198304,-8.899774,0,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Praia da Cacela Velha,37.15288,-7.542684,0,Ria Formosa - Ilha de Cabanas,0
+Praia da Cacela Velha,37.15288,-7.542684,0,Ria Formosa - Ilha de Cabanas,200
 Praia da Comporta,38.380605,-8.803467,2,,0
 Praia da Cordoama,37.109022,-8.937039,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Praia da Cova Redonda,37.098722,-8.380841,5,,0
 Praia da Falésia,37.086076,-8.167851,0,,0
-Praia da Fuseta,37.043291,-7.74484,7,Ria Formosa - Ilha da Armona,0
+Praia da Fuseta,37.043291,-7.74484,7,Ria Formosa - Ilha da Armona,200
 Praia da Galé,37.082919,-8.319839,3,,0
-Praia da Ilha de Tavira,37.110247,-7.620043,4,Ria Formosa - Ilha de Tavira,0
+Praia da Ilha de Tavira,37.110247,-7.620043,4,Ria Formosa - Ilha de Tavira,200
 Praia da Marinha,37.089735,-8.412923,3,,0
 Praia da Nossa Senhora da Rocha,37.097179,-8.385359,5,,0
 Praia da Oura,37.08609,-8.225988,0,,0
 Praia da Rocha,37.116398,-8.535407,4,,0
 Praia de Benagil,37.087373,-8.425918,5,,0
-Praia de Cabanas de Tavira,37.133752,-7.589909,2,Ria Formosa - Ilha de Cabanas,0
-Praia de Faro,37.001995,-7.98688,2,Ria Formosa,0
+Praia de Cabanas de Tavira,37.133752,-7.589909,2,Ria Formosa - Ilha de Cabanas,200
+Praia de Faro,37.001995,-7.98688,2,Ria Formosa,300
 Praia de Isla Canela,37.173693,-7.377384,4,,200
 Praia de Melides,38.128686,-8.793418,0,,0
 Praia de Monte Clérigo,37.340872,-8.852814,6,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
@@ -1566,7 +1566,7 @@ Praia de Odeceixe,37.442107,-8.797797,1,Parque Natural do Sudoeste Alentejano e 
 Praia de Santa Eulália,37.087918,-8.214419,0,,0
 Praia de São Torpes,37.923976,-8.806044,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Praia do Amado,37.167059,-8.902610,3,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
-Praia do Barril,37.086015,-7.662209,4,Ria Formosa - Ilha de Tavira,0
+Praia do Barril,37.086015,-7.662209,4,Ria Formosa - Ilha de Tavira,200
 Praia do Carvalho,37.086610,-8.431875,3,,0
 Praia do Castelejo,37.099811,-8.945301,4,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Praia do Martinhal,37.019065,-8.926126,1,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
@@ -1581,14 +1581,14 @@ Puebla de Guzmán,37.613073,-7.246990,197,,0
 "Puente Mayorga, San Roque",36.181353,-5.384371,2,,0
 Puerto de la Laja,37.52435,-7.493351,22,,40
 Puertollano,38.688087,-4.107529,694,,0
-Punta del Moral,37.189202,-7.34245,4,,0
+Punta del Moral,37.189202,-7.34245,4,,200
 Quarteira,37.071868,-8.101996,20,,0
-Quatro Águas,37.116418,-7.629095,2,Ria Formosa,0
+Quatro Águas,37.116418,-7.629095,2,Ria Formosa,200
 Quebradas,37.306705,-7.522628,177,,100
-Quelfes,37.057613,-7.821595,24,,0
+Quelfes,37.057613,-7.821595,24,,200
 Querença,37.198992,-7.987344,260,,0
 Quinta do Lago,37.046156,-8.016172,17,Ria Formosa,0
-Quinta do Vale Golf Resort,37.247759,-7.450114,34,,0
+Quinta do Vale Golf Resort,37.247759,-7.450114,34,,300
 R-4 - Saída 1,40.258799,-3.731782,618,,0
 R-4 - Saída 4,40.237318,-3.737709,622,,0
 R-4 - Saída 12,40.181903,-3.709883,655,,0
@@ -1622,7 +1622,7 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,37.413666,-5.950079,18,,0
 Ronda Urbana Norte de Sevilha - Poligono Store,37.41612,-5.956364,18,,0
 Rosal de la Frontera,37.967832,-7.220338,220,,0
 Rotunda da Árvore,37.391148,-7.445127,25,,10
-Ruínas Romanas de Milreu,37.094824,-7.904695,74,,0
+Ruínas Romanas de Milreu,37.094824,-7.904695,74,,300
 Ruínas Romanas de Miróbriga,38.010156,-8.683699,243,,0
 Ruínas Romanas de Tróia,38.486443,-8.884697,3,,0
 Safara,38.108640,-7.217422,204,,0
@@ -1635,10 +1635,10 @@ San Juan de Aznalfarache,37.359535,-6.034063,34,,0
 San Silvestre de Guzmán,37.388086,-7.348589,154,,100
 Sanlúcar de Guadiana,37.472943,-7.466232,24,,20
 Santa Bárbara de Casa,37.796547,-7.188991,310,,0
-Santa Bárbara de Nexe,37.103587,-7.964152,145,,0
-Santa Catarina da Fonte do Bispo,37.153797,-7.788195,139,,0
+Santa Bárbara de Nexe,37.103587,-7.964152,145,,300
+Santa Catarina da Fonte do Bispo,37.153797,-7.788195,139,,200
 Santa Clara de Louredo,37.971006,-7.872097,206,,0
-Santa Luzia,37.101131,-7.661133,6,Ria Formosa,0
+Santa Luzia,37.101131,-7.661133,6,Ria Formosa,200
 Santa Marta,37.492988,-7.570396,176,,30
 Santa Susana,38.446672,-8.391277,45,,0
 Santana da Serra,37.500729,-8.301012,184,,0
@@ -1667,15 +1667,15 @@ SE-30 - Saída 3,37.38142,-5.942411,19,,0
 SE-30 - Saída 4,37.376116,-5.944181,13,,0
 SE-30 - Saída 5,37.36679,-5.94475,12,,0
 SE-30 - Saída 8,37.34085,-5.97218,4,,0
-SE-30 - Saída 12,37.358868,-6.004847,8,,0
-SE-30 - Saída 14,37.37199,-6.014716,10,,0
-SE-30 - Saída 15,37.373371,-6.027443,7,,0
-SE-30 - Saída 21,37.413296,-5.993232,14,,0
+SE-30 - Saída 12,37.358868,-6.004847,8,,200
+SE-30 - Saída 14,37.37199,-6.014716,10,,200
+SE-30 - Saída 15,37.373371,-6.027443,7,,200
+SE-30 - Saída 21,37.413296,-5.993232,14,,200
 SE-40 - Reinício,37.307748,-6.039054,4,,0
 SE-40 - Saída 5,37.389391,-5.858575,40,,0
 SE-40 - Saída 19,37.299734,-5.943293,33,,0
 SE-40 - Saída 35,37.311034,-6.098245,43,,0
-Sedas,37.52993,-7.600367,179,Parque Natural do Vale do Guadiana,0
+Sedas,37.52993,-7.600367,179,Parque Natural do Vale do Guadiana,200
 Segunda Circular - Avenida Lusíada,38.752384,-9.187432,85,,0
 Segunda Circular - Benfica,38.745595,-9.193399,86,,0
 Segunda Circular - Centro Comercial Colombo,38.755089,-9.184377,85,,0
@@ -1690,24 +1690,24 @@ Segunda Circular - Saída 5,38.759416,-9.155748,85,,0
 Segunda Circular - Saída 7,38.757354,-9.178565,94,,0
 Segunda Circular - Telheiras,38.757262,-9.166217,87,,0
 Sentinela,37.295558,-7.498928,147,,100
-Serpa,37.944035,-7.597431,215,,0
+Serpa,37.944035,-7.597431,215,,200
 Serro da Vinha de Baixo,37.469191,-7.605179,200,,0
 Serro da Vinha de Cima,37.46505,-7.603019,214,,0
 Sevilha - Avenida Expo 92,37.389797,-6.011761,10,,200
 Sevilha - Parque de Alamillo,37.418651,-5.995225,7,,0
 Silves,37.189283,-8.440256,24,,0
 Sines,37.956229,-8.866808,40,,0
-Sítio da Fábrica,37.154436,-7.553698,9,Ria Formosa,0
+Sítio da Fábrica,37.154436,-7.553698,9,Ria Formosa,200
 Slide & Splash,37.139453,-8.474781,51,,0
 Sobral da Adiça,38.023353,-7.258106,200,,0
-Sul do Sapal de Castro Marim e Vila Real de Santo António,37.206474,-7.434472,5,Sapal de Castro Marim e Vila Real de Santo António,0
+Sul do Sapal de Castro Marim e Vila Real de Santo António,37.206474,-7.434472,5,Sapal de Castro Marim e Vila Real de Santo António,200
 Tacões,37.440001,-7.554761,226,,0
 Talavera la Real,38.875714,-6.768792,186,,0
 Tamejoso,37.611788,-7.601455,126,Parque Natural do Vale do Guadiana,0
 Tanoeiro,37.263978,-7.533592,60,,0
 Tariquejo,37.39624,-7.152048,108,,200
 Tavira - Norte,37.129233,-7.647129,16,,100
-Tavira - Sul,37.123689,-7.651181,16,,0
+Tavira - Sul,37.123689,-7.651181,16,,200
 Tenência,37.367805,-7.493125,103,,20
 Tôr,37.195727,-8.035204,167,,0
 Torneiro,37.43145,-7.496974,186,,0
@@ -1715,20 +1715,20 @@ Torrão,38.293899,-8.223782,107,,0
 Trindade,37.884931,-7.893941,172,,0
 Tróia,38.491501,-8.902716,3,,0
 Tunes,37.164900,-8.256395,65,,0
-Universidade do Algarve - Campus da Penha,37.027222,-7.922699,9,,0
-Universidade do Algarve - Campus de Gambelas,37.043905,-7.972196,19,Ria Formosa,0
+Universidade do Algarve - Campus da Penha,37.027222,-7.922699,9,,300
+Universidade do Algarve - Campus de Gambelas,37.043905,-7.972196,19,Ria Formosa,300
 Universidade do Algarve - Campus de Portimão,37.143685,-8.536411,7,,0
 Urbanização Mirador de Cerro Gordo,38.888342,-6.902053,203,,0
 Urbanização Soltróia,38.457368,-8.861341,13,,0
 Vale de Andreu,37.266109,-7.504033,87,,0
 Vale do Lobo,37.054282,-8.061386,33,,0
 Vale do Pereiro,37.359369,-7.531822,188,,0
-Vale do Poço,37.762489,-7.538029,220,Parque Natural do Vale do Guadiana,0
+Vale do Poço,37.762489,-7.538029,220,Parque Natural do Vale do Guadiana,200
 Valencia del Mombuey,38.242917,-7.118810,295,,0
 Vaqueiros,37.384277,-7.72819,228,,30
-Variante de Faro - Nó com a M518,37.031154,-7.913966,8,,0
-Variante de Faro - Nó com a N2,37.04255,-7.929253,19,,0
-Variante de Faro - Nó com o IC4,37.039694,-7.950254,14,,0
+Variante de Faro - Nó com a M518,37.031154,-7.913966,8,,300
+Variante de Faro - Nó com a N2,37.04255,-7.929253,19,,300
+Variante de Faro - Nó com o IC4,37.039694,-7.950254,14,,300
 Vendas Novas,38.676804,-8.461373,142,,0
 "Vicentes, Alcoutim",37.456744,-7.584939,214,,0
 "Vicentes, Mértola",37.541742,-7.611763,159,Parque Natural do Vale do Guadiana,0
@@ -1739,7 +1739,7 @@ Vila Nova da Baronia,38.288591,-8.037843,187,,0
 Vila Nova de Cacela,37.173663,-7.531126,24,,100
 Vila Nova de Milfontes,37.723609,-8.782080,30,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
 Vila Nova de Santo André,38.061112,-8.785251,23,,0
-Vila Nova de São Bento,37.925569,-7.409812,247,,0
+Vila Nova de São Bento,37.925569,-7.409812,247,,200
 Vila Real de Santo António,37.194148,-7.418,8,,50
 Vila Verde de Ficalho,37.946791,-7.299725,227,,0
 Vilamoura,37.087887,-8.119071,16,,0
@@ -1749,7 +1749,7 @@ Villablanca,37.302562,-7.341807,93,,100
 Villafranco del Guadiana,38.883990,-6.860705,178,,0
 Villanueva de la Serena,38.973992,-5.798687,296,,0
 Villanueva de los Castillejos,37.500435,-7.270432,213,,100
-Vista Real,37.222571,-7.460221,22,,0
+Vista Real,37.222571,-7.460221,22,,300
 Western Beach,36.153103,-5.351108,2,,0
 Zambujal,37.523755,-7.603783,174,,0
 Zambujeira do Mar,37.524674,-8.784966,40,Parque Natural do Sudoeste Alentejano e Costa Vicentina,0
