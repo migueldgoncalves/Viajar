@@ -738,6 +738,19 @@ A-58 - Saída 9,A-58 - Saída 15,Carro,6.2,A-58,O,2,1
 A-58 - Saída 15,A-58 - Saída 21,Carro,5.8,A-58,O,2,1
 A-58 - Saída 21,A-58 - Saída 35,Carro,13.6,A-58,O,2,1
 A-58 - Saída 35,A-58 - Saída 42,Carro,6.8,A-58,O,2,1
+A-66 - Saída 523,A-66 - Saída 528,Carro,5.3,A-66,S,1,2
+A-66 - Saída 528,A-66 - Saída 539,Carro,11.2,A-66,S,1,2
+A-66 - Saída 539,A-66 - Saída 542,Carro,2.4,A-66,S,1,2
+A-66 - Saída 542,A-66 - Saída 545,Carro,2.7,A-66,SO,1,2
+A-66 - Saída 545,A-66 - Saída 551,Carro,6.8,A-66,S,1,2
+A-66 - Saída 551,A-66 - Saída 555,Carro,3.6,A-66,SE,1,2
+A-66 - Saída 555,A-66 - Saída 564,Carro,7.7,A-66,SE,1,2
+A-66 - Saída 564,A-66 - Saída 576,Carro,11.8,A-66,S,1,2
+A-66 - Saída 576,A-66 - Saída 582,Carro,7.2,A-66,S,1,2
+A-66 - Saída 582,A-66 - Saída 590,Carro,7.8,A-66,S,1,2
+A-66 - Saída 590,A-66 - Saída 592,Carro,2.4,A-66,S,1,2
+A-66 - Saída 592,A-66 - Saída 606,Carro,13.7,A-66,SO,1,2
+A-66 - Saída 606,A-66 - Saída 613,Carro,7.1,A-66,S,1,2
 A-66 - Saída 613,Cruzamento da A-5 com a A-66 Norte,Carro,4.0,A-66,S,1,3
 A-66 - Saída 626,A-66 - Saída 627,Carro,1.0,A-66,S,1,2
 A-66 - Saída 626,Cruzamento da A-5 com a A-66 Sul,Carro,1.2,A-66,NO,2,3
