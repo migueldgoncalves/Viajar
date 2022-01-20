@@ -2730,6 +2730,61 @@ A-58 - Saída 21,A-58 - Saída 35,Carro,True,Cáceres
 A-58 - Saída 35,A-58 - Saída 42,Carro,False,A-5 - Madrid
 A-58 - Saída 35,A-58 - Saída 42,Carro,False,Trujillo
 A-58 - Saída 35,A-58 - Saída 42,Carro,True,Cáceres
+A-66 - Saída 424,A-66 - Saída 427,Carro,False,Béjar
+A-66 - Saída 424,A-66 - Saída 427,Carro,False,Salamanca
+A-66 - Saída 424,A-66 - Saída 427,Carro,True,Baños de Montemayor
+A-66 - Saída 424,A-66 - Saída 427,Carro,True,Cáceres
+A-66 - Saída 427,A-66 - Saída 436,Carro,False,Baños de Montemayor
+A-66 - Saída 427,A-66 - Saída 436,Carro,False,Salamanca
+A-66 - Saída 427,A-66 - Saída 436,Carro,True,Aldeanueva del Camino
+A-66 - Saída 427,A-66 - Saída 436,Carro,True,Cáceres
+A-66 - Saída 436,A-66 - Saída 442,Carro,False,Salamanca
+A-66 - Saída 436,A-66 - Saída 442,Carro,True,Cáceres
+A-66 - Saída 436,A-66 - Saída 442,Carro,True,Plasencia
+A-66 - Saída 442,A-66 - Saída 446,Carro,False,Salamanca
+A-66 - Saída 442,A-66 - Saída 446,Carro,True,Cáceres
+A-66 - Saída 442,A-66 - Saída 446,Carro,True,Plasencia
+A-66 - Saída 446,A-66 - Saída 449,Carro,False,Salamanca
+A-66 - Saída 446,A-66 - Saída 449,Carro,True,Cáceres
+A-66 - Saída 446,A-66 - Saída 449,Carro,True,Plasencia
+A-66 - Saída 449,A-66 - Saída 455,Carro,False,Salamanca
+A-66 - Saída 449,A-66 - Saída 455,Carro,True,Cáceres
+A-66 - Saída 449,A-66 - Saída 455,Carro,True,Plasencia
+A-66 - Saída 455,A-66 - Saída 463,Carro,False,Salamanca
+A-66 - Saída 455,A-66 - Saída 463,Carro,True,Cáceres
+A-66 - Saída 463,A-66 - Saída 471,Carro,False,Salamanca
+A-66 - Saída 463,A-66 - Saída 471,Carro,True,Cáceres
+A-66 - Saída 463,A-66 - Saída 471,Carro,True,Plasencia
+A-66 - Saída 471,Cruzamento da A-66 com a EX-A1,Carro,False,Plasencia - Centro da cidade
+A-66 - Saída 471,Cruzamento da A-66 com a EX-A1,Carro,False,Salamanca
+A-66 - Saída 471,Cruzamento da A-66 com a EX-A1,Carro,True,Cáceres
+A-66 - Saída 485,A-66 - Saída 488,Carro,False,Plasencia
+A-66 - Saída 485,A-66 - Saída 488,Carro,False,Salamanca
+A-66 - Saída 485,A-66 - Saída 488,Carro,True,Cáceres
+A-66 - Saída 485,Cruzamento da A-66 com a EX-A1,Carro,False,Cáceres
+A-66 - Saída 485,Cruzamento da A-66 com a EX-A1,Carro,True,Plasencia
+A-66 - Saída 485,Cruzamento da A-66 com a EX-A1,Carro,True,Salamanca
+A-66 - Saída 488,A-66 - Saída 494,Carro,False,Plasencia
+A-66 - Saída 488,A-66 - Saída 494,Carro,False,Salamanca
+A-66 - Saída 488,A-66 - Saída 494,Carro,True,Cáceres
+A-66 - Saída 488,A-66 - Saída 494,Carro,True,Cañaveral
+A-66 - Saída 494,A-66 - Saída 498,Carro,False,Plasencia
+A-66 - Saída 494,A-66 - Saída 498,Carro,False,Salamanca
+A-66 - Saída 494,A-66 - Saída 498,Carro,True,Cáceres
+A-66 - Saída 494,A-66 - Saída 498,Carro,True,Cañaveral
+A-66 - Saída 498,A-66 - Saída 503,Carro,False,Plasencia
+A-66 - Saída 498,A-66 - Saída 503,Carro,False,Salamanca
+A-66 - Saída 498,A-66 - Saída 503,Carro,True,Cáceres
+A-66 - Saída 498,A-66 - Saída 503,Carro,True,Cañaveral
+A-66 - Saída 503,A-66 - Saída 505,Carro,False,Plasencia
+A-66 - Saída 503,A-66 - Saída 505,Carro,False,Salamanca
+A-66 - Saída 503,A-66 - Saída 505,Carro,True,Cáceres
+A-66 - Saída 503,A-66 - Saída 505,Carro,True,Cañaveral
+A-66 - Saída 505,A-66 - Saída 508,Carro,False,Plasencia
+A-66 - Saída 505,A-66 - Saída 508,Carro,False,Salamanca
+A-66 - Saída 505,A-66 - Saída 508,Carro,True,Cáceres
+A-66 - Saída 508,A-66 - Saída 523,Carro,False,Salamanca
+A-66 - Saída 508,A-66 - Saída 523,Carro,True,Cáceres
 A-66 - Saída 523,A-66 - Saída 528,Carro,False,Cañaveral
 A-66 - Saída 523,A-66 - Saída 528,Carro,False,Plasencia
 A-66 - Saída 523,A-66 - Saída 528,Carro,False,Salamanca

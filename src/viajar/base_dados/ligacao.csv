@@ -738,6 +738,23 @@ A-58 - Saída 9,A-58 - Saída 15,Carro,6.2,A-58,O,2,1
 A-58 - Saída 15,A-58 - Saída 21,Carro,5.8,A-58,O,2,1
 A-58 - Saída 21,A-58 - Saída 35,Carro,13.6,A-58,O,2,1
 A-58 - Saída 35,A-58 - Saída 42,Carro,6.8,A-58,O,2,1
+A-66 - Saída 424,A-66 - Saída 427,Carro,3.2,A-66,SO,1,2
+A-66 - Saída 427,A-66 - Saída 436,Carro,8.4,A-66,SO,1,2
+A-66 - Saída 436,A-66 - Saída 442,Carro,6.1,A-66,O,1,2
+A-66 - Saída 442,A-66 - Saída 446,Carro,3.2,A-66,SO,1,2
+A-66 - Saída 446,A-66 - Saída 449,Carro,2.7,A-66,SO,1,2
+A-66 - Saída 449,A-66 - Saída 455,Carro,6.1,A-66,SO,1,2
+A-66 - Saída 455,A-66 - Saída 463,Carro,7.5,A-66,SO,1,2
+A-66 - Saída 463,A-66 - Saída 471,Carro,7.7,A-66,SO,1,2
+A-66 - Saída 471,Cruzamento da A-66 com a EX-A1,Carro,6.9,A-66,SO,1,2
+A-66 - Saída 485,A-66 - Saída 488,Carro,4.3,A-66,SO,1,2
+A-66 - Saída 485,Cruzamento da A-66 com a EX-A1,Carro,5.5,A-66,NE,2,1
+A-66 - Saída 488,A-66 - Saída 494,Carro,5.8,A-66,SO,1,2
+A-66 - Saída 494,A-66 - Saída 498,Carro,3.8,A-66,SO,1,2
+A-66 - Saída 498,A-66 - Saída 503,Carro,5.0,A-66,O,1,2
+A-66 - Saída 503,A-66 - Saída 505,Carro,1.8,A-66,S,1,2
+A-66 - Saída 505,A-66 - Saída 508,Carro,2.5,A-66,S,1,2
+A-66 - Saída 508,A-66 - Saída 523,Carro,12.7,A-66,S,1,2
 A-66 - Saída 523,A-66 - Saída 528,Carro,5.3,A-66,S,1,2
 A-66 - Saída 528,A-66 - Saída 539,Carro,11.2,A-66,S,1,2
 A-66 - Saída 539,A-66 - Saída 542,Carro,2.4,A-66,S,1,2
