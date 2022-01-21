@@ -4667,6 +4667,31 @@ Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-2
 Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-3
 Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Aeroporto de Madrid-Barajas
 Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Madrid - Avenida de la Ilustración
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-1
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-2
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,Feria de Madrid
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,M-607
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,R-2
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,A-3
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,A-4
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,A-5 - Badajoz
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,A-42
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,R-4
+Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,True,R-5 - Badajoz
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,False,A-4
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,False,A-5
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,False,A-42
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,False,R-5
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,A-1
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,A-2
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,Feria de Madrid
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,M-607 - Colmenar Viejo
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,R-2
+Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,True,R-3
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,False,A-6 - A Coruña
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-3
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,True,A-4
@@ -4994,6 +5019,18 @@ Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,Aeroporto de Madrid-B
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,Feria de Madrid
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,M-607
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,True,R-2
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,A-1
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,A-2
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,Feria de Madrid
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,M-607 - Colmenar Viejo
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,R-2
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,False,R-3
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-4
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-5
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-6 - A Coruña
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-42
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,R-5
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-3
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-4 - Córdoba
@@ -6803,6 +6840,54 @@ M-40 - Saída 30,M-40 - Saída 31,Carro,True,A-6
 M-40 - Saída 30,M-40 - Saída 31,Carro,True,Feria de Madrid
 M-40 - Saída 30,M-40 - Saída 31,Carro,True,M-607
 M-40 - Saída 30,M-40 - Saída 31,Carro,True,R-2
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,A-3
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,A-4
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,A-5
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,A-42
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,R-4
+M-40 - Saída 38,M-40 - Saída 40,Carro,False,R-5
+M-40 - Saída 38,M-40 - Saída 40,Carro,True,A-1
+M-40 - Saída 38,M-40 - Saída 40,Carro,True,A-6 - A Coruña
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,A-3
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,A-4
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,A-5 - Badajoz
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,A-42
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,R-4
+M-40 - Saída 40,M-40 - Saída 41,Carro,False,R-5 - Badajoz
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,A-1
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,A-2
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,A-3
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,A-6
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,Aeroporto de Madrid-Barajas
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,Feria de Madrid
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,M-607 - Colmenar Viejo
+M-40 - Saída 40,M-40 - Saída 41,Carro,True,R-2
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,A-3
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,A-4
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,A-5
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,A-42
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,R-4
+M-40 - Saída 41,M-40 - Saída 45,Carro,False,R-5
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,A-1
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,A-2
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,A-3
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,A-6
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,Aeroporto de Madrid-Barajas
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,Feria de Madrid
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,M-607
+M-40 - Saída 41,M-40 - Saída 45,Carro,True,R-2
+M-40 - Saída 51,M-40 - Saída 54,Carro,False,A-4
+M-40 - Saída 51,M-40 - Saída 54,Carro,False,A-5
+M-40 - Saída 51,M-40 - Saída 54,Carro,False,A-6 - A Coruña
+M-40 - Saída 51,M-40 - Saída 54,Carro,False,A-42
+M-40 - Saída 51,M-40 - Saída 54,Carro,False,R-5
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,A-1
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,A-2
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,Aeroporto de Madrid-Barajas
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,Feria de Madrid
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,M-607 - Colmenar Viejo
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,R-2
+M-40 - Saída 51,M-40 - Saída 54,Carro,True,R-3
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-1
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-2
 M-50 - Saída 53,M-50 - Saída 55,Carro,False,A-3

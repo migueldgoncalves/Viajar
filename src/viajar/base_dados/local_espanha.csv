@@ -737,6 +737,7 @@ Cruzamento da A-5 com a M-30,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
 Cruzamento da A-6 com a M-30,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+Cruzamento da A-6 com a M-40,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-7 com a A-44,Vélez de Benaudalla,Granada,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
@@ -791,6 +792,7 @@ Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
+Cruzamento da M-40 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
@@ -894,6 +896,11 @@ M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-40 - Saída 30,Madrid,Comunidade de Madrid,Latina
 M-40 - Saída 31,Madrid,Comunidade de Madrid,Latina
 M-40 - Saída 38,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
+M-40 - Saída 40,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
+M-40 - Saída 41,Pozuelo de Alarcón,Comunidade de Madrid,Distrito I
+M-40 - Saída 45,Pozuelo de Alarcón,Comunidade de Madrid,Distrito I
+M-40 - Saída 51,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+M-40 - Saída 54,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-50 - Saída 53,Leganés,Comunidade de Madrid,
 M-50 - Saída 55,Leganés,Comunidade de Madrid,
 M-50 - Saída 56,Leganés,Comunidade de Madrid,
