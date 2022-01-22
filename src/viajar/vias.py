@@ -35,6 +35,7 @@ CONCELHO = 7
 FREGUESIA = 8
 
 # Auto-estradas e vias rápidas
+#   (<Nome curto>, <Nome comprido segundo o OSM>, <País>)
 
 ES_A1 = ("A-1", "Autovía del Norte", ESPANHA)
 ES_A2 = ("A-2", "Autovía del Nordeste", ESPANHA)
@@ -88,6 +89,8 @@ PT_A28 = ("A28", "Autoestrada do Litoral Norte", PORTUGAL)
 PT_IC27 = ("IC27", "IC 27", PORTUGAL)
 
 # Linhas ferroviárias
+#   (<Nome segundo o OSM>, <País>, VIA_FERROVIA)
+#   É essencial acrescentar VIA_FERROVIA no fim
 
 ES_CERCANIAS_MADRID_C3 = ("Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", ESPANHA, VIA_FERROVIA)
 ES_CIUDAD_REAL_BADAJOZ = ("Ciudad Real-Badajoz", ESPANHA, VIA_FERROVIA)
