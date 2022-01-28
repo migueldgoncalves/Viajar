@@ -1253,7 +1253,7 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Carro,0.9,N124,NE,2,1
 Barranco do Velho,São Brás de Alportel,Carro,14.1,N2,S,1,2
 Barrancos,Encinasola,Carro,11.5,,E,2,1
 Barrancos,Santo Aleixo da Restauração,Carro,21.5,,SO,3,2
-Barriada de Canela,Praia de Isla Canela,Carro,4.3,,SE,2,1
+Barriada de Canela,Playa de Isla Canela,Carro,4.3,,SE,2,1
 Beja,Cuba,Comboio,16.8,Linha do Alentejo - Intercidades/Regional,N,8,1
 Beja,Ervidel,Carro,22.4,N18,SO,6,3
 Beja,Ferreira do Alentejo,Carro,24.2,IP8,NO,7,1
@@ -1326,6 +1326,7 @@ Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
 Carrapateira,Vila do Bispo,Carro,13.4,,S,4,1
 Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,N-431,O,4,3
+Cartaya,El Terrón,Barco,6.0,Rio Piedras,S,6,3
 Cartaya,Lepe,Comboio,8.3,Antiga Linha Gibraleón-Ayamonte,SO,1,2
 Carvalhal,Comporta,Carro,8.6,,NO,3,1
 Carvalhal,IP8 - Cruzamento com a N261-1,Carro,17.3,,SE,2,4
@@ -1487,6 +1488,9 @@ Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Carro,5.9,AP-4,N,1
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Carro,1.3,GR-30,NO,1,2
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Carro,2.3,GR-30,SO,2,1
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,3.1,N-431,E,4,3
+Cruzamento da A-5054 com a HU-3400,La Redondela,Carro,1.9,,N,2,5
+Cruzamento da A-5054 com a HU-3400,Playa Central,Carro,3.8,,O,1,2
+Cruzamento da A-5054 com a HU-3400,Urbasur,Carro,2.2,,E,3,1
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
@@ -1601,6 +1605,7 @@ Cruzamento da N266 com a N267 Oeste,Monchique,Carro,2.7,,NE,1,4
 Cruzamento da N269 com a N269-2,Ferreiras,Carro,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Carro,2.3,,NE,2,3
 Cruzamento da N-431 com a N-444,Lepe,Carro,3.1,N-431,SO,2,4
+Cruzamento da N-431 com a N-445,La Antilla,Carro,6.5,,SE,4,2
 Cruzamento da N-431 com a N-445,Lepe,Carro,2.9,N-431,E,3,3
 Cruzamento da N-431 com a N-446,Pozo del Camino,Carro,2.8,,S,2,2
 Cruzamento da SE-20 com a SE-30,SE-20 - Estádio de La Cartuja,Carro,0.8,SE-20,N,3,1
@@ -1642,6 +1647,8 @@ El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
 El Granado,Sanlúcar de Guadiana,Carro,7.8,,SO,1,1
 El Granado,Villanueva de los Castillejos,Carro,14.4,,E,3,1
+El Terrón,La Antilla,Carro,4.2,,SO,2,4
+El Terrón,Lepe,Carro,4.4,,NO,1,7
 Encinasola,Oliva de la Frontera,Carro,20.0,,N,2,1
 Entradas,IP2 - Saída 47,Carro,8.2,IP2,NE,1,2
 Entradas,IP2 - Saída 48,Carro,10.2,IP2,SO,2,1
@@ -2028,16 +2035,22 @@ IP8 - Cruzamento com a N261-2,Melides,Carro,7.9,,O,3,1
 IP8 - Início,Porto de Sines - Terminal XXI,Carro,1.4,,SO,2,1
 IP8 - Início,Porto de Sines - Terminal de Gás Natural,Carro,1.2,,O,3,1
 IP8 - Início,Praia de São Torpes,Carro,3.2,N120-1,SE,1,3
-Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,2,4
+Isla Cristina,Playa Central,Carro,2.0,,SE,2,1
+Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,3,4
+Islantilla,La Antilla,Carro,1.8,,E,2,1
+Islantilla,Urbasur,Carro,2.0,,O,1,2
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
+La Antilla,Pinares de Lepe,Carro,2.6,,N,3,2
 La Línea de la Concepción - Centro da cidade,"Paseo del Mediterráneo, La Línea de la Concepción",Carro,1.5,,E,5,2
 La Redondela,Lepe,Comboio,8.3,Antiga Linha Gibraleón-Ayamonte,NE,2,1
+La Redondela,Pozo del Camino,Carro,4.3,,O,4,3
 Lagoa de Santo André,Vila Nova de Santo André,Carro,7.5,,S,1,3
 Lagoa,Porches,Carro,5.2,N125,SE,2,6
 Lagoa,Slide & Splash,Carro,2.3,,NO,5,1
 Lagos,N125 - Acesso à Saída 1 da A22,Carro,4.1,,NO,4,1
 Lagos,Praia Dona Ana,Carro,2.4,,S,3,1
 Laranjeiras,Montinho das Laranjeiras,Carro,0.5,,NO,2,2
+Lepe,Pinares de Lepe,Carro,3.5,,S,6,1
 Livramento,Luz de Tavira,Carro,3.2,N125,NE,1,3
 Lombardos,Roncão de Cima,Carro,2.3,,SE,2,3
 Loulé,Mina de Sal-Gema de Loulé,Carro,1.6,,SE,4,1
@@ -2180,6 +2193,7 @@ Pereiro,"Vicentes, Alcoutim",Carro,1.8,,NE,4,1
 Pias,Serpa,Carro,15.7,,SO,1,4
 Pias,Vila Nova de São Bento,Carro,13.9,,SE,2,4
 Picoitos,Salgueiros,Carro,2.0,,E,2,1
+Playa de Isla Canela,Punta del Moral,Carro,4.3,,NE,2,1
 Poço Barreto,Porches,Carro,5.8,,S,3,4
 Poço Barreto,Silves,Carro,7.1,,NE,4,2
 Pomarão,Ponte Internacional do Baixo Guadiana,Carro,0.2,,SE,1,2
@@ -2233,7 +2247,6 @@ Praia da Marinha,Praia de Benagil,Carro,2.6,,SO,2,1
 Praia da Nossa Senhora da Rocha,Praia Nova,Carro,0.5,,SO,2,1
 Praia da Rocha,Praia do Vau,Carro,2.6,,O,3,2
 Praia de Benagil,Praia do Carvalho,Carro,3.9,,O,2,1
-Praia de Isla Canela,Punta del Moral,Carro,4.3,,NE,2,1
 Praia de Monte Clérigo,Ribat da Arrifana,Carro,5.2,,SO,1,3
 Praia do Carvalho,Praia do Vale de Centeanes,Carro,2.3,,NO,2,1
 Praia do Castelejo,Vila do Bispo,Carro,4.0,,SE,1,3
