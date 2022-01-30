@@ -1168,6 +1168,9 @@ Aqualand Algarve,Porches,Carro,3.4,N125,SO,2,1
 Aquashow,Cruzamento da N125 com a N396,Carro,2.3,,NE,2,4
 Aquashow,Estação de Loulé,Carro,2.8,,NE,1,2
 Aquashow,Quarteira,Carro,3.7,,SO,3,1
+Aquopolis Cartaya,Cartaya,Carro,3.5,,NO,1,6
+Aquopolis Cartaya,Cruzamento da A-5058 com a A-5059,Carro,7.0,,SE,3,1
+Aquopolis Cartaya,El Rompido,Carro,6.0,,S,2,1
 Arahal,Carmona,Carro,26.2,,NO,2,7
 Arahal,Marchena,Comboio,13.3,Linha Utrera-Fuente de Piedra - Media Distancia,NE,7,6
 Arahal,Paradas,Carro,6.2,,NE,3,1
@@ -1326,7 +1329,7 @@ Carrapateira,Praia da Bordeira,Carro,2.6,,N,2,1
 Carrapateira,Praia do Amado,Carro,2.2,,SO,3,1
 Carrapateira,Vila do Bispo,Carro,13.4,,S,4,1
 Cartaya,Cruzamento da N-431 com a N-444,Carro,4.2,N-431,O,4,3
-Cartaya,El Terrón,Barco,6.0,Rio Piedras,S,6,3
+Cartaya,El Terrón,Barco,6.0,Rio Piedras,S,7,3
 Cartaya,Lepe,Comboio,8.3,Antiga Linha Gibraleón-Ayamonte,SO,1,2
 Carvalhal,Comporta,Carro,8.6,,NO,3,1
 Carvalhal,IP8 - Cruzamento com a N261-1,Carro,17.3,,SE,2,4
@@ -1491,6 +1494,8 @@ Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Carro,3.1,N-431,
 Cruzamento da A-5054 com a HU-3400,La Redondela,Carro,1.9,,N,2,5
 Cruzamento da A-5054 com a HU-3400,Playa Central,Carro,3.8,,O,1,2
 Cruzamento da A-5054 com a HU-3400,Urbasur,Carro,2.2,,E,3,1
+Cruzamento da A-5058 com a A-5059,El Portil,Carro,3.6,,SE,3,2
+Cruzamento da A-5058 com a A-5059,Nuevo Portil,Carro,3.7,,S,2,3
 Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Carro,0.7,SE-20,NO,1,2
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Carro,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
@@ -1647,6 +1652,10 @@ El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
 El Granado,Sanlúcar de Guadiana,Carro,7.8,,SO,1,1
 El Granado,Villanueva de los Castillejos,Carro,14.4,,E,3,1
+El Portil,Nuevo Portil,Carro,1.3,,O,1,2
+El Rompido,El Terrón,Barco,6.0,Rio Piedras,O,3,4
+El Rompido,Flecha del Rompido,Barco,2.0,Rio Piedras,SE,4,1
+El Rompido,Nuevo Portil,Carro,4.8,,E,2,1
 El Terrón,La Antilla,Carro,4.2,,SO,2,4
 El Terrón,Lepe,Carro,4.4,,NO,1,7
 Encinasola,Oliva de la Frontera,Carro,20.0,,N,2,1
@@ -1917,6 +1926,7 @@ Ferragudo,Parchal,Carro,2.8,,N,2,2
 Ferragudo,Porto Comercial de Portimão,Barco,0.7,Rio Arade,NO,4,3
 Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,13.3,N2,N,5,1
 Ferreiras,Paderne,Carro,7.6,,NE,1,6
+Flecha del Rompido,Nuevo Portil,Barco,2.2,Rio Piedras,NE,2,5
 Fóia,Monchique,Carro,7.8,,E,1,3
 Fonte Benémola,Querença,Carro,2.4,,SE,1,4
 Fonte Zambujo de Cima,Pereiro,Carro,3.4,,NO,1,3
@@ -2036,7 +2046,7 @@ IP8 - Início,Porto de Sines - Terminal XXI,Carro,1.4,,SO,2,1
 IP8 - Início,Porto de Sines - Terminal de Gás Natural,Carro,1.2,,O,3,1
 IP8 - Início,Praia de São Torpes,Carro,3.2,N120-1,SE,1,3
 Isla Cristina,Playa Central,Carro,2.0,,SE,2,1
-Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,3,4
+Isla Cristina,Punta del Moral,Barco,1.6,Marismas de Isla Cristina,SO,3,5
 Islantilla,La Antilla,Carro,1.8,,E,2,1
 Islantilla,Urbasur,Carro,2.0,,O,1,2
 Junqueira,Montes Castelhanos,Carro,0.6,N122,N,1,3
@@ -2158,6 +2168,7 @@ Murteira de Cima,Portela Alta de Cima,Carro,2.0,,NO,1,4
 Murteira de Cima,Sentinela,Carro,1.9,,S,3,4
 N125 - Acesso à Saída 2 da A22,Odiáxere,Carro,1.3,N125,NE,1,3
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,2.5,N125,SO,3,1
+Nuevo Portil,Punta del Moral,Barco,29.6,Costa Atlântica de Espanha Continental,O,4,4
 Odeceixe,Praia de Odeceixe,Carro,3.5,,NO,2,1
 Odeceixe,Rogil,Carro,8.9,N120,SO,1,2
 Odeceixe,São Teotónio,Carro,12.8,N120,NE,3,1

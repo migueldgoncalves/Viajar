@@ -5347,6 +5347,13 @@ Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,Fa
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,IC17 CRIL - Algés
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,IC19 - Sintra
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,True,Lisboa - Benfica
+El Rompido,El Terrón,Barco,False,Flecha del Rompido
+El Rompido,El Terrón,Barco,False,Huelva
+El Rompido,El Terrón,Barco,False,Portugal
+El Rompido,El Terrón,Barco,True,Cartaya
+El Rompido,Flecha del Rompido,Barco,False,Cartaya
+El Rompido,Flecha del Rompido,Barco,True,Huelva
+El Rompido,Flecha del Rompido,Barco,True,Portugal
 Entradas,IP2 - Saída 47,Carro,False,A2
 Entradas,IP2 - Saída 47,Carro,False,Castro Verde
 Entradas,IP2 - Saída 47,Carro,False,Entradas
@@ -6337,6 +6344,10 @@ Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,False,Castro Verde
 Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,False,Ferreira do Alentejo
 Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,True,Odivelas
 Ferreira do Alentejo,"Odivelas, Ferreira do Alentejo",Carro,True,Torrão
+Flecha del Rompido,Nuevo Portil,Barco,False,Cartaya
+Flecha del Rompido,Nuevo Portil,Barco,False,Flecha del Rompido
+Flecha del Rompido,Nuevo Portil,Barco,True,Huelva
+Flecha del Rompido,Nuevo Portil,Barco,True,Portugal
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,False,Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Aeroporto de Faro
 Forum Algarve,Variante de Faro - Nó com o IC4,Carro,True,Estádio Algarve
@@ -6657,9 +6668,8 @@ IP8 - Início,Praia de São Torpes,Carro,False,IP8 - Espanha/Lisboa
 IP8 - Início,Praia de São Torpes,Carro,False,Sines
 IP8 - Início,Praia de São Torpes,Carro,True,Algarve
 IP8 - Início,Praia de São Torpes,Carro,True,Cercal do Alentejo
-Isla Cristina,Punta del Moral,Barco,False,Huelva
-Isla Cristina,Punta del Moral,Barco,False,Sevilha
-Isla Cristina,Punta del Moral,Barco,True,Ayamonte
+Isla Cristina,Punta del Moral,Barco,False,Isla Cristina
+Isla Cristina,Punta del Moral,Barco,True,Huelva
 Isla Cristina,Punta del Moral,Barco,True,Portugal
 Junqueira,Montes Castelhanos,Carro,False,Castro Marim
 Junqueira,Montes Castelhanos,Carro,True,Alcoutim
@@ -7068,6 +7078,10 @@ N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,False,A22
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,False,Portimão
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,True,Lagos
 N125 - Acesso à Saída 3 da A22,Odiáxere,Carro,True,Odiáxere
+Nuevo Portil,Punta del Moral,Barco,False,Huelva
+Nuevo Portil,Punta del Moral,Barco,False,Sevilha
+Nuevo Portil,Punta del Moral,Barco,True,Faro
+Nuevo Portil,Punta del Moral,Barco,True,Vila Real de Santo António
 Odeceixe,Rogil,Carro,False,Odeceixe
 Odeceixe,Rogil,Carro,False,Sines
 Odeceixe,Rogil,Carro,True,Aljezur
