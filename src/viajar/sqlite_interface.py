@@ -44,6 +44,7 @@ class SQLiteBDInterface:
             exit(1)
 
         print("Base de dados criada e preenchida com sucesso")
+        input("Prima qualquer tecla para sair")
         exit(0)
 
     def apagar_bd_existente(self):
@@ -85,6 +86,8 @@ class SQLiteBDInterface:
                             linha[j] = 0
                         elif linha[j] == 'True':
                             linha[j] = 1
+                        if type(linha[j]) == str and '"' in linha[j]:
+                            linha[j] = linha[j].replace("\"", "")  # "Álamo, Alcoutim" -> Álamo, Alcoutim
                     self.cursor.execute(query_sql, linha)
 
         print("A iniciar preenchimento da base de dados...")

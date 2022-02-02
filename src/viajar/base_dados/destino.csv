@@ -3704,10 +3704,22 @@ A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,False,Los Barrios
 A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,True,Algeciras
 A-483 - Saída 1,A-483 - Saída 3,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 1,A-483 - Saída 3,Carro,True,Almonte
-A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocio
+A-483 - Saída 1,A-483 - Saída 3,Carro,True,El Rocío
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,False,Almonte
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,False,Parque Nacional de Doñana
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,True,A-49 - Huelva/Sevilha
+A-483 - Saída 3,A-483 - Saída 8,Carro,False,A-49 - Huelva/Sevilha
+A-483 - Saída 3,A-483 - Saída 8,Carro,False,Bollullos Par del Condado
+A-483 - Saída 3,A-483 - Saída 8,Carro,True,Almonte
+A-483 - Saída 3,A-483 - Saída 8,Carro,True,El Rocío
+A-483 - Saída 8,A-483 - Saída 11,Carro,False,A-49 - Huelva/Sevilha
+A-483 - Saída 8,A-483 - Saída 11,Carro,False,Bollullos Par del Condado
+A-483 - Saída 8,A-483 - Saída 11,Carro,True,El Rocío
+A-483 - Saída 8,A-483 - Saída 11,Carro,True,Matalascañas
+A-483 - Saída 11,A-483 - Saída 13,Carro,False,A-49 - Huelva/Sevilha
+A-483 - Saída 11,A-483 - Saída 13,Carro,False,Bollullos Par del Condado
+A-483 - Saída 11,A-483 - Saída 13,Carro,True,El Rocío
+A-483 - Saída 11,A-483 - Saída 13,Carro,True,Matalascañas
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -4932,6 +4944,10 @@ Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
+Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,False,A-49 - Portugal
+Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,False,Ayamonte
+Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,False,Gibraleón
+Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,True,Huelva
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Ayamonte
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Portugal
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,False,Praia de La Redondela

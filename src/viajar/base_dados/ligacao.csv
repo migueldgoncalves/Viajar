@@ -701,7 +701,7 @@ A-49 - Saída 75,Cruzamento da A-49 com a H-31,Carro,3.3,A-49,SO,1,2
 A-49 - Saída 81,A-49 - Saída 87,Carro,6.3,A-49,NO,1,2
 A-49 - Saída 81,Centro Penitenciario de Huelva,Carro,3.2,,SE,4,1
 A-49 - Saída 81,Cruzamento da A-49 com a H-31,Carro,3.9,A-49,SE,2,1
-A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,3.9,N-431,NO,5,2
+A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,3.9,N-431,NO,5,3
 A-49 - Saída 81,H-31 - Saída 80,Carro,3.7,N-431,SE,3,3
 A-49 - Saída 87,A-49 - Saída 94,Carro,6.3,A-49,SO,1,2
 A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,2.7,H-30,S,3,1
@@ -965,7 +965,13 @@ A-381 - Saída 87,Cruzamento da A-381 com a A-7,Carro,1.1,A-381,SE,2,3
 A-483 - Saída 1,A-483 - Saída 3,Carro,2.1,A-483,SE,2,1
 A-483 - Saída 1,Bollullos Par del Condado,Carro,1.8,,E,3,2
 A-483 - Saída 1,Cruzamento da A-49 com a A-483,Carro,1.7,A-483,N,1,3
-A-483 - Saída 3,Bollullos Par del Condado,Carro,2.1,,N,2,3
+A-483 - Saída 3,A-483 - Saída 8,Carro,3.9,A-483,S,2,1
+A-483 - Saída 3,Bollullos Par del Condado,Carro,2.1,,N,3,3
+A-483 - Saída 8,A-483 - Saída 11,Carro,3.2,A-483,S,2,1
+A-483 - Saída 11,A-483 - Saída 13,Carro,2.5,A-483,SE,2,1
+A-483 - Saída 11,Almonte,Carro,1.2,,E,3,1
+A-483 - Saída 13,Almonte,Carro,1.7,,N,3,2
+A-483 - Saída 13,El Rocío,Carro,14.0,,S,2,1
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -1503,6 +1509,7 @@ Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,S
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
+Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,5.6,H-30,S,2,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,0.8,N-431,E,3,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,5.9,N-431,O,1,4
 Cruzamento da HU-3400 com a N-431,La Redondela,Carro,4.9,,SO,2,3
