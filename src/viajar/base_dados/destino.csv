@@ -2316,10 +2316,68 @@ A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,False,Málaga
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,A-44 - Granada
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,Almería
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Carro,True,Motril
+A-7 - Saída 342,A-7 - Saída 354,Carro,False,Málaga
+A-7 - Saída 342,A-7 - Saída 354,Carro,False,Motril
+A-7 - Saída 342,A-7 - Saída 354,Carro,True,Adra
+A-7 - Saída 342,A-7 - Saída 354,Carro,True,Almería
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,False,Adra
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,False,Almería
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,True,Málaga
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Carro,True,Motril
+A-7 - Saída 354,A-7 - Saída 359,Carro,False,Málaga
+A-7 - Saída 354,A-7 - Saída 359,Carro,True,Adra
+A-7 - Saída 354,A-7 - Saída 359,Carro,True,Almería
+A-7 - Saída 359,A-7 - Saída 373,Carro,False,Málaga
+A-7 - Saída 359,A-7 - Saída 373,Carro,False,Motril
+A-7 - Saída 359,A-7 - Saída 373,Carro,True,Almería
+A-7 - Saída 373,A-7 - Saída 375,Carro,False,Málaga
+A-7 - Saída 373,A-7 - Saída 375,Carro,False,Motril
+A-7 - Saída 373,A-7 - Saída 375,Carro,True,Adra
+A-7 - Saída 373,A-7 - Saída 375,Carro,True,Almería
+A-7 - Saída 375,A-7 - Saída 384,Carro,False,Málaga
+A-7 - Saída 375,A-7 - Saída 384,Carro,False,Motril
+A-7 - Saída 375,A-7 - Saída 384,Carro,True,Adra
+A-7 - Saída 375,A-7 - Saída 384,Carro,True,Almería
+A-7 - Saída 384,A-7 - Saída 389,Carro,False,Málaga
+A-7 - Saída 384,A-7 - Saída 389,Carro,False,Motril
+A-7 - Saída 384,A-7 - Saída 389,Carro,True,Almería
+A-7 - Saída 384,A-7 - Saída 389,Carro,True,El Ejido
+A-7 - Saída 389,A-7 - Saída 391,Carro,False,Málaga
+A-7 - Saída 389,A-7 - Saída 391,Carro,False,Motril
+A-7 - Saída 389,A-7 - Saída 391,Carro,True,Almería
+A-7 - Saída 389,A-7 - Saída 391,Carro,True,El Ejido
+A-7 - Saída 391,A-7 - Saída 398,Carro,False,Málaga
+A-7 - Saída 391,A-7 - Saída 398,Carro,True,Almería
+A-7 - Saída 391,A-7 - Saída 398,Carro,True,El Ejido
+A-7 - Saída 398,A-7 - Saída 400,Carro,False,Adra
+A-7 - Saída 398,A-7 - Saída 400,Carro,False,Málaga
+A-7 - Saída 398,A-7 - Saída 400,Carro,False,Motril
+A-7 - Saída 398,A-7 - Saída 400,Carro,True,Almería
+A-7 - Saída 400,A-7 - Saída 403,Carro,False,Adra
+A-7 - Saída 400,A-7 - Saída 403,Carro,False,Málaga
+A-7 - Saída 400,A-7 - Saída 403,Carro,False,Motril
+A-7 - Saída 400,A-7 - Saída 403,Carro,True,Almería
+A-7 - Saída 400,A-7 - Saída 403,Carro,True,El Ejido
+A-7 - Saída 403,A-7 - Saída 404,Carro,False,Adra
+A-7 - Saída 403,A-7 - Saída 404,Carro,False,Málaga
+A-7 - Saída 403,A-7 - Saída 404,Carro,False,Motril
+A-7 - Saída 403,A-7 - Saída 404,Carro,True,Almería
+A-7 - Saída 403,A-7 - Saída 404,Carro,True,El Ejido
+A-7 - Saída 404,A-7 - Saída 406,Carro,False,Adra
+A-7 - Saída 404,A-7 - Saída 406,Carro,False,Málaga
+A-7 - Saída 404,A-7 - Saída 406,Carro,False,Motril
+A-7 - Saída 404,A-7 - Saída 406,Carro,True,Almería
+A-7 - Saída 404,A-7 - Saída 406,Carro,True,El Ejido
+A-7 - Saída 406,A-7 - Saída 409,Carro,False,Adra
+A-7 - Saída 406,A-7 - Saída 409,Carro,False,Málaga
+A-7 - Saída 406,A-7 - Saída 409,Carro,False,Motril
+A-7 - Saída 406,A-7 - Saída 409,Carro,True,Almería
+A-7 - Saída 406,A-7 - Saída 409,Carro,True,Murcia
+A-7 - Saída 409,A-7 - Saída 411,Carro,False,Adra
+A-7 - Saída 409,A-7 - Saída 411,Carro,False,Málaga
+A-7 - Saída 409,A-7 - Saída 411,Carro,False,Motril
+A-7 - Saída 409,A-7 - Saída 411,Carro,True,Almería
+A-7 - Saída 409,A-7 - Saída 411,Carro,True,Murcia
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras
