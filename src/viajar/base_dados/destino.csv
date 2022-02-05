@@ -2378,6 +2378,59 @@ A-7 - Saída 409,A-7 - Saída 411,Carro,False,Málaga
 A-7 - Saída 409,A-7 - Saída 411,Carro,False,Motril
 A-7 - Saída 409,A-7 - Saída 411,Carro,True,Almería
 A-7 - Saída 409,A-7 - Saída 411,Carro,True,Murcia
+A-7 - Saída 411,A-7 - Saída 414,Carro,False,El Ejido
+A-7 - Saída 411,A-7 - Saída 414,Carro,False,Málaga
+A-7 - Saída 411,A-7 - Saída 414,Carro,False,Motril
+A-7 - Saída 411,A-7 - Saída 414,Carro,True,Almería
+A-7 - Saída 411,A-7 - Saída 414,Carro,True,Murcia
+A-7 - Saída 414,A-7 - Saída 420,Carro,False,El Ejido
+A-7 - Saída 414,A-7 - Saída 420,Carro,False,Málaga
+A-7 - Saída 414,A-7 - Saída 420,Carro,False,Motril
+A-7 - Saída 414,A-7 - Saída 420,Carro,True,Almería
+A-7 - Saída 414,A-7 - Saída 420,Carro,True,Murcia
+A-7 - Saída 420,A-7 - Saída 424,Carro,False,El Ejido
+A-7 - Saída 420,A-7 - Saída 424,Carro,False,Málaga
+A-7 - Saída 420,A-7 - Saída 424,Carro,False,Motril
+A-7 - Saída 420,A-7 - Saída 424,Carro,True,Almería
+A-7 - Saída 420,A-7 - Saída 424,Carro,True,Murcia
+A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Carro,False,El Ejido
+A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Carro,False,Málaga
+A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Carro,False,Motril
+A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Carro,True,Almería
+A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Carro,True,Murcia
+A-7 - Saída 431,A-7 - Saída 438,Carro,False,El Ejido
+A-7 - Saída 431,A-7 - Saída 438,Carro,False,Málaga
+A-7 - Saída 431,A-7 - Saída 438,Carro,False,Motril
+A-7 - Saída 431,A-7 - Saída 438,Carro,True,Almería
+A-7 - Saída 431,A-7 - Saída 438,Carro,True,Murcia
+A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Carro,False,Almería
+A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Carro,False,Murcia
+A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Carro,True,El Ejido
+A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Carro,True,Málaga
+A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Carro,True,Motril
+A-7 - Saída 438,A-7 - Saída 443,Carro,False,El Ejido
+A-7 - Saída 438,A-7 - Saída 443,Carro,False,Málaga
+A-7 - Saída 438,A-7 - Saída 443,Carro,False,Porto de Almería
+A-7 - Saída 438,A-7 - Saída 443,Carro,True,A-92 - Granada
+A-7 - Saída 438,A-7 - Saída 443,Carro,True,Murcia
+A-7 - Saída 443,A-7 - Saída 446,Carro,False,El Ejido
+A-7 - Saída 443,A-7 - Saída 446,Carro,False,Málaga
+A-7 - Saída 443,A-7 - Saída 446,Carro,False,Porto de Almería
+A-7 - Saída 443,A-7 - Saída 446,Carro,True,A-92 - Granada
+A-7 - Saída 443,A-7 - Saída 446,Carro,True,Murcia
+A-7 - Saída 446,A-7 - Saída 448,Carro,False,El Ejido
+A-7 - Saída 446,A-7 - Saída 448,Carro,False,Málaga
+A-7 - Saída 446,A-7 - Saída 448,Carro,True,A-92 - Granada
+A-7 - Saída 446,A-7 - Saída 448,Carro,True,Murcia
+A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,False,Almería
+A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,False,Málaga
+A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,False,Porto de Almería
+A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,True,Aeroporto de Almería
+A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,True,Murcia
+A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Aeroporto de Almería
+A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Murcia
+A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Vera
+A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,True,Almería
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras
