@@ -3688,6 +3688,14 @@ A-92 - Saída 294,Cruzamento da A-92 com a A-92N,Carro,False,Sevilha
 A-92 - Saída 294,Cruzamento da A-92 com a A-92N,Carro,True,Almería
 A-92 - Saída 294,Cruzamento da A-92 com a A-92N,Carro,True,Baza
 A-92 - Saída 294,Cruzamento da A-92 com a A-92N,Carro,True,Murcia
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Cádiz
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Córdoba
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Granada
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Huelva
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Jaén
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Málaga
+A-92 - Saída 303,A-92 - Saída 307,Carro,False,Sevilha
+A-92 - Saída 303,A-92 - Saída 307,Carro,True,Almería
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,False,Almería
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Cádiz
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Córdoba
@@ -3696,6 +3704,130 @@ A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Huelva
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Jaén
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Málaga
 A-92 - Saída 303,Cruzamento da A-92 com a A-92N,Carro,True,Sevilha
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Cádiz
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Córdoba
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Granada
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Huelva
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Jaén
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Málaga
+A-92 - Saída 307,A-92 - Saída 312,Carro,False,Sevilha
+A-92 - Saída 307,A-92 - Saída 312,Carro,True,Almería
+A-92 - Saída 312,A-92 - Saída 318,Carro,False,Granada
+A-92 - Saída 312,A-92 - Saída 318,Carro,True,Almería
+A-92 - Saída 318,A-92 - Saída 321,Carro,False,Granada
+A-92 - Saída 318,A-92 - Saída 321,Carro,True,Almería
+A-92 - Saída 321,A-92 - Saída 326,Carro,False,Granada
+A-92 - Saída 321,A-92 - Saída 326,Carro,False,Guadix
+A-92 - Saída 321,A-92 - Saída 326,Carro,True,Almería
+A-92 - Saída 326,A-92 - Saída 330,Carro,False,Granada
+A-92 - Saída 326,A-92 - Saída 330,Carro,True,Almería
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Cádiz
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Córdoba
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Granada
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Huelva
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Jaén
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Málaga
+A-92 - Saída 330,A-92 - Saída 333,Carro,False,Sevilha
+A-92 - Saída 330,A-92 - Saída 333,Carro,True,Almería
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Cádiz
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Córdoba
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Granada
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Huelva
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Jaén
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Málaga
+A-92 - Saída 333,A-92 - Saída 336,Carro,False,Sevilha
+A-92 - Saída 333,A-92 - Saída 336,Carro,True,Almería
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Cádiz
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Córdoba
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Granada
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Huelva
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Jaén
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Málaga
+A-92 - Saída 336,A-92 - Saída 341,Carro,False,Sevilha
+A-92 - Saída 336,A-92 - Saída 341,Carro,True,Almería
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Cádiz
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Córdoba
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Granada
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Huelva
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Jaén
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Málaga
+A-92 - Saída 341,A-92 - Saída 345,Carro,False,Sevilha
+A-92 - Saída 341,A-92 - Saída 345,Carro,True,Almería
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Cádiz
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Córdoba
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Granada
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Huelva
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Jaén
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Málaga
+A-92 - Saída 345,A-92 - Saída 352,Carro,False,Sevilha
+A-92 - Saída 345,A-92 - Saída 352,Carro,True,Almería
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Cádiz
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Córdoba
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Granada
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Huelva
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Jaén
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Málaga
+A-92 - Saída 352,A-92 - Saída 354,Carro,False,Sevilha
+A-92 - Saída 352,A-92 - Saída 354,Carro,True,Almería
+A-92 - Saída 352,A-92 - Saída 354,Carro,True,Gérgal
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Cádiz
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Córdoba
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Granada
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Huelva
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Jaén
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Málaga
+A-92 - Saída 354,A-92 - Saída 356,Carro,False,Sevilha
+A-92 - Saída 354,A-92 - Saída 356,Carro,True,Almería
+A-92 - Saída 354,A-92 - Saída 356,Carro,True,Gérgal
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Cádiz
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Córdoba
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Granada
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Huelva
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Jaén
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Málaga
+A-92 - Saída 356,A-92 - Saída 358,Carro,False,Sevilha
+A-92 - Saída 356,A-92 - Saída 358,Carro,True,Almería
+A-92 - Saída 356,A-92 - Saída 358,Carro,True,Gérgal
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Cádiz
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Córdoba
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Granada
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Huelva
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Jaén
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Málaga
+A-92 - Saída 358,A-92 - Saída 360,Carro,False,Sevilha
+A-92 - Saída 358,A-92 - Saída 360,Carro,True,Almería
+A-92 - Saída 358,A-92 - Saída 360,Carro,True,Gérgal
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Cádiz
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Córdoba
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Granada
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Huelva
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Jaén
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Málaga
+A-92 - Saída 360,A-92 - Saída 362,Carro,False,Sevilha
+A-92 - Saída 360,A-92 - Saída 362,Carro,True,Almería
+A-92 - Saída 362,A-92 - Saída 364,Carro,False,Granada
+A-92 - Saída 362,A-92 - Saída 364,Carro,False,Guadix
+A-92 - Saída 362,A-92 - Saída 364,Carro,True,Almería
+A-92 - Saída 364,A-92 - Saída 368,Carro,False,Granada
+A-92 - Saída 364,A-92 - Saída 368,Carro,False,Guadix
+A-92 - Saída 364,A-92 - Saída 368,Carro,True,Almería
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Cádiz
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Córdoba
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Granada
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Huelva
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Jaén
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Málaga
+A-92 - Saída 368,A-92 - Saída 376,Carro,False,Sevilha
+A-92 - Saída 368,A-92 - Saída 376,Carro,True,Almería
+A-92 - Saída 376,A-92 - Saída 382,Carro,False,Granada
+A-92 - Saída 376,A-92 - Saída 382,Carro,True,Almería
+A-92 - Saída 376,A-92 - Saída 382,Carro,True,Rioja
+A-92 - Saída 382,A-92 - Saída 387,Carro,False,Granada
+A-92 - Saída 382,A-92 - Saída 387,Carro,False,Guadix
+A-92 - Saída 382,A-92 - Saída 387,Carro,True,Almería
+A-92 - Saída 387,Cruzamento da A-7 com a A-92,Carro,False,Granada
+A-92 - Saída 387,Cruzamento da A-7 com a A-92,Carro,False,Guadix
+A-92 - Saída 387,Cruzamento da A-7 com a A-92,Carro,True,Almería
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,False,SE-30 - Todas as direcções
 A-92 - Sevilha Este,A-92 - Torreblanca,Carro,True,Málaga
 A-92M - Saída 1,A-92M - Saída 7,Carro,False,Granada

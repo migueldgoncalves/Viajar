@@ -1,4 +1,6 @@
 Município,Comarca,Província
+Abla,Los Filabres-Tabernas,Almería
+Abrucena,Los Filabres-Tabernas,Almería
 Adra,Poniente Almeriense,Almería
 Aguadulce,Sierra Sur de Sevilha,Sevilha
 Aguilar de la Frontera,Campiña Sur,Córdoba
@@ -11,6 +13,7 @@ Alcorcón,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Alcuéscar,Sierra de Montánchez,Cáceres
 Aldea del Cano,Sierra de Montánchez,Cáceres
 Aldeanueva del Camino,Valle del Ambroz,Cáceres
+Aldeire,Comarca de Guadix,Granada
 Alfacar,Vega de Granada,Granada
 Algarrobo,La Axarquía,Málaga
 Algeciras,Campo de Gibraltar,Cádiz
@@ -83,6 +86,7 @@ Dehesas Viejas,Los Montes,Granada
 Deifontes,Los Montes,Granada
 Deleitosa,Villuercas-Ibores-Jara,Cáceres
 Diezma,Comarca de Guadix,Granada
+Dólar,Comarca de Guadix,Granada
 Don Benito,La Serena-Vegas Altas,Badajoz
 Dos Hermanas,Comarca Metropolitana de Sevilha,Sevilha
 Dosbarrios,Mesa de Ocaña,Toledo
@@ -102,6 +106,7 @@ Espartinas,Comarca Metropolitana de Sevilha,Sevilha
 Estepa,Sierra Sur de Sevilha,Sevilha
 Estepona,Costa del Sol Occidental,Málaga
 Fernán Núñez,Campiña Sur,Córdoba
+Fiñana,Los Filabres-Tabernas,Almería
 Frigiliana,La Axarquía,Málaga
 Fuengirola,Costa del Sol Occidental,Málaga
 Fuenlabrada,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
@@ -110,6 +115,7 @@ Fuente de Piedra,Comarca de Antequera,Málaga
 Fuentes de Andalucía,Comarca de Écija,Sevilha
 Gelves,Aljarafe,Sevilha
 Gelves,Comarca Metropolitana de Sevilha,Sevilha
+Gérgal,Los Filabres-Tabernas,Almería
 Getafe,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Gibraleón,Comarca Metropolitana de Huelva,Huelva
 Granada,Vega de Granada,Granada
@@ -121,6 +127,7 @@ Herencia,La Mancha,Ciudad Real
 Herreruela de Oropesa,La Campana de Oropesa,Toledo
 Hinojal,Tajo-Salor,Cáceres
 Huelva,Comarca Metropolitana de Huelva,Huelva
+Huéneja,Comarca de Guadix,Granada
 Huétor de Santillán,Vega de Granada,Granada
 Huétor Tájar,Comarca de Loja,Granada
 Huévar del Aljarafe,Aljarafe,Sevilha
@@ -131,6 +138,7 @@ Jaén,Comarca Metropolitana de Jaén,Jaén
 Jaraicejo,Comarca de Trujillo,Cáceres
 Jarilla,Trasierra-Tierras de Granadilla,Cáceres
 Jerez de la Frontera,Campiña de Jerez,Cádiz
+La Calahorra,Comarca de Guadix,Granada
 La Calzada de Oropesa,La Campana de Oropesa,Toledo
 La Campana,Campiña de Carmona,Sevilha
 La Carlota,Valle Medio del Guadalquivir,Córdoba
@@ -149,6 +157,7 @@ Láchar,Vega de Granada,Granada
 Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
 Las Rozas de Madrid,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
+Las Tres Villas,Los Filabres-Tabernas,Almería
 Las Ventas de Retamosa,La Sagra,Toledo
 Lebrija,Bajo Guadalquivir,Sevilha
 Lecrín,Valle de Lecrín,Granada
@@ -194,6 +203,7 @@ Moraleda de Zafayona,Comarca de Loja,Granada
 Moraleja de Enmedio,Comarca Sur,Comunidade de Madrid
 Móstoles,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Motril,Costa Granadina,Granada
+Nacimiento,Los Filabres-Tabernas,Almería
 Navalcarnero,Comarca Sur,Comunidade de Madrid
 Nerja,La Axarquía,Málaga
 Nigüelas,Valle de Lecrín,Granada
@@ -211,6 +221,7 @@ Palomares del Río,Aljarafe,Sevilha
 Palomares del Río,Comarca Metropolitana de Sevilha,Sevilha
 Paradas,Campiña de Morón y Marchena,Sevilha
 Paymogo,El Andévalo,Huelva
+Pechina,Comarca Metropolitana de Almería,Almería
 Pedrera,Sierra Sur de Sevilha,Sevilha
 Pedro Abad,Alto Guadalquivir,Córdoba
 Pegalajar,Sierra Mágina,Jaén
@@ -233,6 +244,7 @@ Punta Umbría,Comarca Metropolitana de Huelva,Huelva
 Purullena,Comarca de Guadix,Granada
 Quismondo,Torrijos,Toledo
 Rincón de la Victoria,La Axarquía,Málaga
+Rioja,Comarca Metropolitana de Almería,Almería
 Romangordo,Campo Arañuelo,Cáceres
 Roquetas de Mar,Poniente Almeriense,Almería
 Rosal de la Frontera,Sierra de Huelva,Huelva
@@ -265,6 +277,7 @@ Saucedilla,Campo Arañuelo,Cáceres
 Serranillos del Valle,Comarca Sur,Comunidade de Madrid
 Seseña,La Sagra,Toledo
 Sevilha,Comarca Metropolitana de Sevilha,Sevilha
+Tabernas,Los Filabres-Tabernas,Almería
 Talavera de la Reina,Talavera de la Reina,Toledo
 Talavera la Real,Vegas Bajas,Badajoz
 Tembleque,Mancha Alta de Toledo,Toledo
