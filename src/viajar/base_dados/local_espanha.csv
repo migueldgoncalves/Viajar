@@ -377,6 +377,7 @@ A-7 - Saída 443,Almería,Almería,
 A-7 - Saída 446,Almería,Almería,
 A-7 - Saída 448,Almería,Almería,
 A-7 - Saída 456,Almería,Almería,
+A-7 - Saída 460,Almería,Almería,
 A-7/AP-7 - Saída 155,Estepona,Málaga,
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
@@ -693,13 +694,19 @@ A-8009 - Saída 5,La Rinconada,Sevilha,
 A-8057 - Saída 0A,San Juan de Aznalfarache,Sevilha,
 A-8057 - Saída 2,Mairena del Aljarafe,Sevilha,
 A-8058 - Saída 0,San Juan de Aznalfarache,Sevilha,
+Aeroporto de Almería,Almería,Almería,
 Aeroporto de Badajoz,Badajoz,Badajoz,
 Aeroporto de Córdoba,Córdoba,Córdoba,
 Aeroporto de Jerez,Jerez de la Frontera,Cádiz,Rural
+Aeroporto de Madrid-Barajas - Terminal 1,Madrid,Comunidade de Madrid,Barajas
+Aeroporto de Madrid-Barajas - Terminal 2,Madrid,Comunidade de Madrid,Barajas
+Aeroporto de Madrid-Barajas - Terminal 3,Madrid,Comunidade de Madrid,Barajas
 Aeroporto de Madrid-Barajas - Terminal 4,Madrid,Comunidade de Madrid,Barajas
+Aeroporto de Madrid-Barajas - Terminal 4S,Madrid,Comunidade de Madrid,Barajas
 Aeroporto de Málaga - Costa del Sol,Málaga,Málaga,Churriana
 Aeroporto de Sevilha,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
+AL-12 - Saída 7,Almería,Almería,
 Almonte,Almonte,Huelva,
 Antiga Estação de Aljaraque,Gibraleón,Huelva,
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
@@ -875,6 +882,7 @@ Estação de Aeropuerto T1-T2-T3,Madrid,Comunidade de Madrid,Barajas
 Estação de Aeropuerto T4,Madrid,Comunidade de Madrid,Barajas
 Estação de Barajas,Madrid,Comunidade de Madrid,Barajas
 Estação de Ciudad Real,Ciudad Real,Ciudad Real,
+Estação de Colombia,Madrid,Comunidade de Madrid,Chamartín
 Estação de Córdoba,Córdoba,Córdoba,Noroeste
 Estação de Feria de Madrid,Madrid,Comunidade de Madrid,Barajas
 Estação de Fuente de la Mora,Madrid,Comunidade de Madrid,Hortaleza
@@ -882,7 +890,9 @@ Estação de Guadix,Guadix,Granada,
 Estação de Madrid-Atocha,Madrid,Comunidade de Madrid,Arganzuela
 Estação de Madrid-Chamartín-Clara Campoamor,Madrid,Comunidade de Madrid,Chamartín
 Estação de Madrid-Puerta de Atocha,Madrid,Comunidade de Madrid,Arganzuela
+Estação de Mar de Cristal,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Nuevos Ministerios,Madrid,Comunidade de Madrid,Chamberí
+Estação de Pinar del Rey,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Recoletos,Madrid,Comunidade de Madrid,Centro
 Estação de Sevilha-Santa Justa,Sevilha,Sevilha,San Pablo-Santa Justa
 Estação de Valdebebas,Madrid,Comunidade de Madrid,Barajas

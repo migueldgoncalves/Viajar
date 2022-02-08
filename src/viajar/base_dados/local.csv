@@ -474,6 +474,7 @@ A-7 - Saída 443,36.853755,-2.473843,93,,1900
 A-7 - Saída 446,36.872814,-2.461168,178,,1900
 A-7 - Saída 448,36.892826,-2.445209,118,,1900
 A-7 - Saída 456,36.884484,-2.376515,138,,1900
+A-7 - Saída 460,36.873833,-2.336202,92,,1900
 A-7/AP-7 - Saída 155,36.433242,-5.161364,35,,900
 A-7/AP-7 - Saída 182,36.514207,-4.915104,64,,900
 A-7/AP-7 - Saída 184,36.519054,-4.890873,68,,900
@@ -793,6 +794,7 @@ A-8058 - Saída 0,37.365542,-6.032121,23,,300
 Achada do Gamo,37.654760,-7.507547,125,,500
 Adega da Herdade da Comporta,38.379530,-8.790003,1,,1500
 Aeródromo de Portimão,37.147621,-8.580169,2,,500
+Aeroporto de Almería,36.847553,-2.372585,18,,1900
 Aeroporto de Badajoz,38.894054,-6.818687,180,,1000
 Aeroporto de Beja,38.063206,-7.939608,188,,100
 Aeroporto de Córdoba,37.844473,-4.843614,90,,800
@@ -801,12 +803,17 @@ Aeroporto de Gibraltar,36.153987,-5.346462,4,,1200
 Aeroporto de Jerez,36.750464,-6.064958,25,,900
 Aeroporto de Lisboa - Terminal 1,38.770451,-9.129680,97,,1600
 Aeroporto de Lisboa - Terminal 2,38.763883,-9.136831,100,,1600
+Aeroporto de Madrid-Barajas - Terminal 1,40.464054,-3.570048,600,,1900
+Aeroporto de Madrid-Barajas - Terminal 2,40.468172,-3.569377,600,,1900
+Aeroporto de Madrid-Barajas - Terminal 3,40.472124,-3.570989,600,,1900
 Aeroporto de Madrid-Barajas - Terminal 4,40.491458,-3.590943,615,,1500
+Aeroporto de Madrid-Barajas - Terminal 4S,40.494427,-3.567495,595,,1900
 Aeroporto de Málaga - Costa del Sol,36.676401,-4.491684,9,,1200
 Aeroporto de Sevilha,37.423697,-5.899924,31,,200
 Aeroporto Federico García Lorca Granada-Jaén,37.185033,-3.777586,568,,1200
 Afonso Vicente,37.493201,-7.541276,168,,400
 Águas de Moura,38.583505,-8.689135,14,,800
+AL-12 - Saída 7,36.849653,-2.380107,24,,1900
 "Álamo, Alcoutim",37.386987,-7.444663,28,,10
 "Álamo, Mértola",37.581075,-7.685135,163,Parque Natural do Vale do Guadiana,40
 Albernoa,37.860334,-7.958729,134,,700
@@ -1243,6 +1250,7 @@ Estação de Caxias,38.698747,-9.274404,6,,1700
 Estação de Chão de Maçãs-Fátima,39.653933,-8.49371,147,,1800
 Estação de Ciudad Real,38.985029,-3.912797,634,,1500
 Estação de Coina,38.584795,-9.051206,26,,1700
+Estação de Colombia,40.457233,-3.676936,706,,1900
 Estação de Córdoba,37.888479,-4.789593,122,,1500
 Estação de Corroios,38.636598,-9.151573,21,,1700
 Estação de Cruz Quebrada,38.699788,-9.251994,7,,1700
@@ -1269,6 +1277,7 @@ Estação de Loulé,37.104634,-8.058654,50,,400
 Estação de Madrid-Atocha,40.406173,-3.689191,626,,1500
 Estação de Madrid-Chamartín-Clara Campoamor,40.472109,-3.682496,735,,1500
 Estação de Madrid-Puerta de Atocha,40.404744,-3.688834,612,,1400
+Estação de Mar de Cristal,40.469471,-3.638367,678,,1900
 Estação de Marvila,38.739083,-9.108672,35,,1700
 Estação de Massamá - Barcarena,38.751624,-9.283877,129,,1700
 Estação de Mato de Miranda,39.368442,-8.554366,18,,1700
@@ -1288,6 +1297,7 @@ Estação de Parque das Cidades,37.080296,-7.984628,41,,200
 Estação de Pegões,38.662344,-8.619292,91,,1700
 Estação de Penalva,38.590356,-8.995411,38,,1500
 Estação de Penteado,38.638417,-8.957291,28,,1500
+Estação de Pinar del Rey,40.468048,-3.648071,702,,1900
 Estação de Poceirão,38.634504,-8.744198,39,,1700
 Estação de Portela de Sintra,38.802247,-9.376375,196,,1700
 Estação de Portimão,37.144542,-8.537462,2,,500

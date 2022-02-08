@@ -2427,6 +2427,15 @@ A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,False,Málaga
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,False,Porto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,True,Aeroporto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,True,Murcia
+A-7 - Saída 456,A-7 - Saída 460,Carro,False,A-92 - Granada
+A-7 - Saída 456,A-7 - Saída 460,Carro,False,Málaga
+A-7 - Saída 456,A-7 - Saída 460,Carro,False,Ronda de Almería
+A-7 - Saída 456,A-7 - Saída 460,Carro,True,Murcia
+A-7 - Saída 456,A-7 - Saída 460,Carro,True,Vera
+A-7 - Saída 456,AL-12 - Saída 7,Carro,False,A-7 - Murcia/Ronda de Almería
+A-7 - Saída 456,AL-12 - Saída 7,Carro,True,Aeroporto de Almería
+A-7 - Saída 456,AL-12 - Saída 7,Carro,True,AL-12 - Almería
+A-7 - Saída 456,AL-12 - Saída 7,Carro,True,La Cañada
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Aeroporto de Almería
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Murcia
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Vera
@@ -3997,6 +4006,11 @@ Aeroporto de Faro,Montenegro,Carro,False,Aeroporto de Faro
 Aeroporto de Faro,Montenegro,Carro,False,Praia de Faro
 Aeroporto de Faro,Montenegro,Carro,True,A22
 Aeroporto de Faro,Montenegro,Carro,True,Faro
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,False,Terminal 1
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,False,Terminal 2
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,False,Terminal 3
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,False,Terminal 4
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,True,Terminal 4S
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,False,Aeroporto de Málaga - Costa del Sol
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Carro,True,A-7/MA-20 - Algeciras/Málaga
 "Álamo, Mértola",Cruzamento da N122 com a N267,Carro,False,Alcoutim
@@ -6072,6 +6086,12 @@ Estação de Coina,Estação de Penalva,Comboio,True,Barreiro
 Estação de Coina,Estação de Penalva,Comboio,True,Faro
 Estação de Coina,Estação de Penalva,Comboio,True,Pinhal Novo
 Estação de Coina,Estação de Penalva,Comboio,True,Setúbal
+Estação de Colombia,Estação de Nuevos Ministerios,Metro,False,Aeropuerto T4
+Estação de Colombia,Estação de Nuevos Ministerios,Metro,False,Mar de Cristal
+Estação de Colombia,Estação de Nuevos Ministerios,Metro,True,Nuevos Ministerios
+Estação de Colombia,Estação de Pinar del Rey,Metro,False,Nuevos Ministerios
+Estação de Colombia,Estação de Pinar del Rey,Metro,True,Aeropuerto T4
+Estação de Colombia,Estação de Pinar del Rey,Metro,True,Mar de Cristal
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Antequera-Santa Ana
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Granada
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,False,Madrid-Puerta de Atocha
@@ -6188,6 +6208,10 @@ Estação de Faro,Estação de Loulé,Comboio,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Comboio,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,False,Aeropuerto T1-T2-T3
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,False,Aeropuerto T4
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,True,Colombia
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,True,Nuevos Ministerios
 Estação de Fernando Pó,Estação de Pegões,Comboio,False,Faro
 Estação de Fernando Pó,Estação de Pegões,Comboio,False,Lisboa - Oriente
 Estação de Fernando Pó,Estação de Pegões,Comboio,False,Pinhal Novo
@@ -6276,6 +6300,10 @@ Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,C
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Guadalajara
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Atocha
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Príncipe Pío
+Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T1-T2-T3
+Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T4
+Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,True,Colombia
+Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,True,Nuevos Ministerios
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Braço de Prata
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Oriente
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Santa Apolónia

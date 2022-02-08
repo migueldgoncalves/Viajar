@@ -628,6 +628,8 @@ A-7 - Saída 438,A-7 - Saída 443,Carro,3.9,A-7 - Ronda de Almería,NE,2,1
 A-7 - Saída 443,A-7 - Saída 446,Carro,2.7,A-7 - Ronda de Almería,NE,2,1
 A-7 - Saída 446,A-7 - Saída 448,Carro,2.8,A-7 - Ronda de Almería,NE,2,1
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,2.7,A-7,E,2,1
+A-7 - Saída 456,A-7 - Saída 460,Carro,3.8,A-7,E,2,1
+A-7 - Saída 456,AL-12 - Saída 7,Carro,4.0,N-347,S,3,1
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,3.7,A-7,O,1,2
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,2.4,A-7/AP-7,NE,2,1
@@ -1037,11 +1039,16 @@ Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Avião,187.7,,NO,6,8
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,4.6,,SE,2,8
+Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Avião,415.5,,N,2,4
+Aeroporto de Almería,Aeroporto de Málaga - Costa del Sol,Avião,190.3,,E,5,10
+Aeroporto de Almería,Aeroporto de Sevilha,Avião,319.5,,NO,4,13
+Aeroporto de Almería,Aeroporto Federico García Lorca Granada-Jaén,Avião,130.9,,NO,3,7
+Aeroporto de Almería,AL-12 - Saída 7,Carro,1.0,,NO,1,2
 Aeroporto de Badajoz,Aeroporto de Beja,Avião,132.4,,SO,3,8
 Aeroporto de Badajoz,Aeroporto de Córdoba,Avião,208.1,,SE,6,5
 Aeroporto de Badajoz,Aeroporto de Faro,Avião,231.5,,SO,4,7
 Aeroporto de Badajoz,Aeroporto de Lisboa - Terminal 1,Avião,201.1,,O,8,5
-Aeroporto de Badajoz,Aeroporto de Madrid-Barajas - Terminal 4,Avião,329.1,,NE,7,2
+Aeroporto de Badajoz,Aeroporto de Madrid-Barajas - Terminal 3,Avião,329.1,,NE,7,3
 Aeroporto de Badajoz,Aeroporto de Sevilha,Avião,182.8,,SE,5,7
 Aeroporto de Badajoz,Talavera la Real,Carro,6.4,,SE,2,1
 Aeroporto de Badajoz,Villafranco del Guadiana,Carro,5.9,,SO,1,2
@@ -1055,21 +1062,21 @@ Aeroporto de Beja,Cuba,Carro,14.5,,NE,2,5
 Aeroporto de Córdoba,Aeroporto de Gibraltar,Avião,193.1,,S,6,4
 Aeroporto de Córdoba,Aeroporto de Jerez,Avião,162.6,,SO,4,3
 Aeroporto de Córdoba,Aeroporto de Lisboa - Terminal 1,Avião,389.1,,NO,10,12
-Aeroporto de Córdoba,Aeroporto de Madrid-Barajas - Terminal 4,Avião,313.3,,NE,9,6
+Aeroporto de Córdoba,Aeroporto de Madrid-Barajas - Terminal 3,Avião,313.3,,NE,9,4
 Aeroporto de Córdoba,Aeroporto de Málaga - Costa del Sol,Avião,132.8,,S,7,6
 Aeroporto de Córdoba,Aeroporto de Sevilha,Avião,104.0,,SO,3,5
 Aeroporto de Córdoba,Aeroporto Federico García Lorca Granada-Jaén,Avião,119.3,,SE,8,2
 Aeroporto de Córdoba,CO-32 - Fim,Carro,4.1,N-437,NE,1,2
 Aeroporto de Faro,Aeroporto de Jerez,Avião,173.2,,SE,6,4
 Aeroporto de Faro,Aeroporto de Lisboa - Terminal 1,Avião,221.3,,NO,10,7
-Aeroporto de Faro,Aeroporto de Madrid-Barajas - Terminal 4,Avião,542.0,,NE,9,3
+Aeroporto de Faro,Aeroporto de Madrid-Barajas - Terminal 3,Avião,542.0,,NE,9,5
 Aeroporto de Faro,Aeroporto de Málaga - Costa del Sol,Avião,312.1,,E,8,2
 Aeroporto de Faro,Aeroporto de Sevilha,Avião,188.9,,NE,4,4
 Aeroporto de Faro,Montenegro,Carro,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Carro,4.8,,SO,2,1
 Aeroporto de Gibraltar,Aeroporto de Jerez,Avião,91.7,,NO,2,6
 Aeroporto de Gibraltar,Aeroporto de Lisboa - Terminal 1,Avião,444.4,,NO,7,11
-Aeroporto de Gibraltar,Aeroporto de Madrid-Barajas - Terminal 4,Avião,505.7,,N,6,5
+Aeroporto de Gibraltar,Aeroporto de Madrid-Barajas - Terminal 3,Avião,505.7,,N,6,6
 Aeroporto de Gibraltar,Aeroporto de Málaga - Costa del Sol,Avião,96.4,,NE,5,4
 Aeroporto de Gibraltar,Aeroporto de Sevilha,Avião,148.7,,NO,3,8
 Aeroporto de Gibraltar,Fronteira Espanha-Gibraltar - Lado de Gibraltar,Carro,0.1,,NO,1,2
@@ -1078,15 +1085,20 @@ Aeroporto de Jerez,Aeroporto de Málaga - Costa del Sol,Avião,139.9,,E,7,3
 Aeroporto de Jerez,Aeroporto de Sevilha,Avião,76.1,,N,2,6
 Aeroporto de Jerez,Aeroporto Federico García Lorca Granada-Jaén,Avião,209.1,,NE,8,4
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Lisboa - Terminal 2,Carro,1.1,,O,3,1
-Aeroporto de Lisboa - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 4,Avião,512.4,,NE,4,9
+Aeroporto de Lisboa - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 3,Avião,512.4,,NE,4,7
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Málaga - Costa del Sol,Avião,470.9,,SE,10,9
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Sevilha,Avião,322.2,,SE,9,12
 Aeroporto de Lisboa - Terminal 1,"Estação Aeroporto, Metro de Lisboa",Transbordo,0.0,,S,14,1
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 2,Carro,0.4,,E,2,3
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 3,Carro,0.9,,SO,1,3
-Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Málaga - Costa del Sol,Avião,429.8,,S,7,8
-Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Sevilha,Avião,395.2,,SO,4,11
-Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto Federico García Lorca Granada-Jaén,Avião,367.0,,S,8,6
+Aeroporto de Madrid-Barajas - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 2,Transbordo,0.0,,N,1,3
+Aeroporto de Madrid-Barajas - Terminal 2,Aeroporto de Madrid-Barajas - Terminal 3,Transbordo,0.0,,NO,2,2
+Aeroporto de Madrid-Barajas - Terminal 2,Estação de Aeropuerto T1-T2-T3,Transbordo,0.0,,O,1,4
+Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Málaga - Costa del Sol,Avião,429.8,,S,8,8
+Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Sevilha,Avião,395.2,,SO,9,11
+Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto Federico García Lorca Granada-Jaén,Avião,367.0,,S,10,6
+Aeroporto de Madrid-Barajas - Terminal 3,Estação de Aeropuerto T1-T2-T3,Transbordo,0.0,,S,1,3
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Comboio,2.2,Aeroporto de Madrid-Barajas,E,2,1
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Aeropuerto T4,Transbordo,0.0,,N,1,2
 Aeroporto de Málaga - Costa del Sol,Aeroporto de Sevilha,Avião,148.8,,NO,5,9
 Aeroporto de Málaga - Costa del Sol,Aeroporto Federico García Lorca Granada-Jaén,Avião,85.3,,NE,7,5
@@ -1823,6 +1835,8 @@ Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Ve
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
 Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
+Estação de Colombia,Estação de Nuevos Ministerios,Metro,1.8,Linha 8 - Metro de Madrid,SO,2,1
+Estação de Colombia,Estação de Pinar del Rey,Metro,2.8,Linha 8 - Metro de Madrid,NE,1,2
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,3
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Comboio,2.6,Linha do Sul - Fertagus,SE,1,2
@@ -1849,6 +1863,7 @@ Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Intercidad
 Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,15.8,Linha do Algarve,NO,5,7
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,2.0,Linha 8 - Metro de Madrid,O,2,1
 Estação de Fernando Pó,Estação de Pegões,Comboio,7.0,Linha do Alentejo - Intercidades,E,1,2
 Estação de Fernando Pó,Estação de Poceirão,Comboio,4.5,Linha do Alentejo - Intercidades,O,2,1
 Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,4
@@ -1877,10 +1892,11 @@ Estação de Madrid-Atocha,Estação de Madrid-Puerta de Atocha,Transbordo,0.0,,
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,4,1
 Estação de Madrid-Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.6,,SO,1,3
 Estação de Madrid-Atocha,"Plaza del Emperador Carlos V, Madrid",Transbordo,0.0,,S,2,2
-Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
+Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,3
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Carro,1.1,,E,1,3
 Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.2,,SO,1,2
 Estação de Madrid-Puerta de Atocha,"Plaza del Emperador Carlos V, Madrid",Transbordo,0.0,,S,2,3
+Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,0.9,Linha 8 - Metro de Madrid,O,2,1
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,2.7,Linha da Azambuja/Linha de Cintura - CP Lisboa,NO,1,2
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,2.1,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Comboio,8.4,Linha do Norte - Regional,NE,2,1
@@ -1896,7 +1912,7 @@ Estação de Monte Gordo,Monte Gordo,Carro,1.5,,S,2,1
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,2.7,Linha do Algarve - Regional,NE,4,8
 Estação de Moscavide,Estação de Sacavém,Comboio,2.0,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,1
 Estação de Moscavide,Gare do Oriente,Comboio,1.2,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,4
-Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,1,2
+Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
 Estação de Oeiras,Estação de Santo Amaro,Comboio,0.6,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,2.4,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Palmela,Estação de Setúbal,Comboio,4.9,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,S,2,1
