@@ -631,6 +631,16 @@ A-7 - Saída 448,Cruzamento da A-7 com a A-92,Carro,2.7,A-7,E,2,1
 A-7 - Saída 456,A-7 - Saída 460,Carro,3.8,A-7,E,2,1
 A-7 - Saída 456,AL-12 - Saída 7,Carro,4.0,N-347,S,3,1
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,3.7,A-7,O,1,2
+A-7 - Saída 460,A-7 - Saída 467,Carro,6.4,A-7,E,2,1
+A-7 - Saída 467,A-7 - Saída 471,Carro,3.6,A-7,E,2,1
+A-7 - Saída 471,A-7 - Saída 475,Carro,3.7,A-7,NE,2,1
+A-7 - Saída 475,A-7 - Saída 479,Carro,4.4,A-7,N,2,1
+A-7 - Saída 479,A-7 - Saída 481,Carro,2.5,A-7,NE,2,1
+A-7 - Saída 481,A-7 - Saída 487,Carro,5.1,A-7,E,2,1
+A-7 - Saída 487,A-7 - Saída 494,Carro,7.0,A-7,NE,2,1
+A-7 - Saída 494,A-7 - Saída 504,Carro,9.9,A-7,N,2,1
+A-7 - Saída 504,A-7 - Saída 510,Carro,6.4,A-7,NE,2,1
+A-7 - Saída 510,A-7 - Saída 513,Carro,3.1,A-7,NE,2,1
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,2.4,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,2.3,A-7/AP-7,NE,2,1

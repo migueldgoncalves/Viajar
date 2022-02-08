@@ -2440,6 +2440,42 @@ A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Aeroporto de Almería
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Murcia
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,False,Vera
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Carro,True,Almería
+A-7 - Saída 460,A-7 - Saída 467,Carro,False,A-92 - Granada
+A-7 - Saída 460,A-7 - Saída 467,Carro,False,Aeroporto de Almería
+A-7 - Saída 460,A-7 - Saída 467,Carro,False,Almería
+A-7 - Saída 460,A-7 - Saída 467,Carro,False,Málaga
+A-7 - Saída 460,A-7 - Saída 467,Carro,True,Murcia
+A-7 - Saída 460,A-7 - Saída 467,Carro,True,Vera
+A-7 - Saída 467,A-7 - Saída 471,Carro,False,Almería
+A-7 - Saída 467,A-7 - Saída 471,Carro,True,Murcia
+A-7 - Saída 467,A-7 - Saída 471,Carro,True,Níjar
+A-7 - Saída 471,A-7 - Saída 475,Carro,False,Almería
+A-7 - Saída 471,A-7 - Saída 475,Carro,True,Murcia
+A-7 - Saída 471,A-7 - Saída 475,Carro,True,Níjar
+A-7 - Saída 475,A-7 - Saída 479,Carro,False,Aeroporto de Almería
+A-7 - Saída 475,A-7 - Saída 479,Carro,False,Almería
+A-7 - Saída 475,A-7 - Saída 479,Carro,True,Murcia
+A-7 - Saída 475,A-7 - Saída 479,Carro,True,Níjar
+A-7 - Saída 479,A-7 - Saída 481,Carro,False,Almería
+A-7 - Saída 479,A-7 - Saída 481,Carro,True,Murcia
+A-7 - Saída 479,A-7 - Saída 481,Carro,True,Vera
+A-7 - Saída 481,A-7 - Saída 487,Carro,False,Almería
+A-7 - Saída 481,A-7 - Saída 487,Carro,False,Níjar
+A-7 - Saída 481,A-7 - Saída 487,Carro,True,Murcia
+A-7 - Saída 481,A-7 - Saída 487,Carro,True,Vera
+A-7 - Saída 487,A-7 - Saída 494,Carro,False,Almería
+A-7 - Saída 487,A-7 - Saída 494,Carro,False,Níjar
+A-7 - Saída 487,A-7 - Saída 494,Carro,True,Murcia
+A-7 - Saída 487,A-7 - Saída 494,Carro,True,Vera
+A-7 - Saída 494,A-7 - Saída 504,Carro,False,Almería
+A-7 - Saída 494,A-7 - Saída 504,Carro,True,Murcia
+A-7 - Saída 494,A-7 - Saída 504,Carro,True,Vera
+A-7 - Saída 504,A-7 - Saída 510,Carro,False,Almería
+A-7 - Saída 504,A-7 - Saída 510,Carro,True,Murcia
+A-7 - Saída 504,A-7 - Saída 510,Carro,True,Vera
+A-7 - Saída 510,A-7 - Saída 513,Carro,False,Almería
+A-7 - Saída 510,A-7 - Saída 513,Carro,False,Níjar
+A-7 - Saída 510,A-7 - Saída 513,Carro,True,Murcia
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras
