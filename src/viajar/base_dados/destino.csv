@@ -2476,6 +2476,71 @@ A-7 - Saída 504,A-7 - Saída 510,Carro,True,Vera
 A-7 - Saída 510,A-7 - Saída 513,Carro,False,Almería
 A-7 - Saída 510,A-7 - Saída 513,Carro,False,Níjar
 A-7 - Saída 510,A-7 - Saída 513,Carro,True,Murcia
+A-7 - Saída 513,A-7 - Saída 514,Carro,False,Almería
+A-7 - Saída 513,A-7 - Saída 514,Carro,False,Níjar
+A-7 - Saída 513,A-7 - Saída 514,Carro,True,Murcia
+A-7 - Saída 514,A-7 - Saída 516,Carro,False,Almería
+A-7 - Saída 514,A-7 - Saída 516,Carro,True,Murcia
+A-7 - Saída 514,A-7 - Saída 516,Carro,True,Vera
+A-7 - Saída 516,A-7 - Saída 520,Carro,False,Almería
+A-7 - Saída 516,A-7 - Saída 520,Carro,False,Níjar
+A-7 - Saída 516,A-7 - Saída 520,Carro,True,Los Gallardos
+A-7 - Saída 516,A-7 - Saída 520,Carro,True,Murcia
+A-7 - Saída 516,A-7 - Saída 520,Carro,True,Vera
+A-7 - Saída 520,A-7 - Saída 525,Carro,False,Almería
+A-7 - Saída 520,A-7 - Saída 525,Carro,True,Murcia
+A-7 - Saída 520,A-7 - Saída 525,Carro,True,Vera
+A-7 - Saída 525,A-7 - Saída 529,Carro,False,Almería
+A-7 - Saída 525,A-7 - Saída 529,Carro,False,Los Gallardos
+A-7 - Saída 525,A-7 - Saída 529,Carro,True,Murcia
+A-7 - Saída 525,A-7 - Saída 529,Carro,True,Vera
+A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Carro,False,Almería
+A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Carro,False,Los Gallardos
+A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Carro,True,Huércal-Overa
+A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Carro,True,Murcia
+A-7 - Saída 537,A-7 - Saída 543,Carro,False,Almería
+A-7 - Saída 537,A-7 - Saída 543,Carro,True,Huércal-Overa
+A-7 - Saída 537,A-7 - Saída 543,Carro,True,Murcia
+A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,False,Huércal-Overa
+A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,False,Murcia
+A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,True,Almería
+A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,True,Vera
+A-7 - Saída 543,A-7 - Saída 547,Carro,False,Almería
+A-7 - Saída 543,A-7 - Saída 547,Carro,False,Vera
+A-7 - Saída 543,A-7 - Saída 547,Carro,True,Huércal-Overa
+A-7 - Saída 543,A-7 - Saída 547,Carro,True,Murcia
+A-7 - Saída 547,A-7 - Saída 549,Carro,False,Almería
+A-7 - Saída 547,A-7 - Saída 549,Carro,False,Vera
+A-7 - Saída 547,A-7 - Saída 549,Carro,True,Huércal-Overa
+A-7 - Saída 547,A-7 - Saída 549,Carro,True,Murcia
+A-7 - Saída 547,A-7 - Saída 549,Carro,True,Puerto Lumbreras
+A-7 - Saída 549,A-7 - Saída 553,Carro,False,Almería
+A-7 - Saída 549,A-7 - Saída 553,Carro,False,Vera
+A-7 - Saída 549,A-7 - Saída 553,Carro,True,Murcia
+A-7 - Saída 549,A-7 - Saída 553,Carro,True,Puerto Lumbreras
+A-7 - Saída 553,A-7 - Saída 559,Carro,False,Almería
+A-7 - Saída 553,A-7 - Saída 559,Carro,False,Vera
+A-7 - Saída 553,A-7 - Saída 559,Carro,True,Murcia
+A-7 - Saída 553,A-7 - Saída 559,Carro,True,Puerto Lumbreras
+A-7 - Saída 559,A-7 - Saída 563,Carro,False,Almería
+A-7 - Saída 559,A-7 - Saída 563,Carro,False,Vera
+A-7 - Saída 559,A-7 - Saída 563,Carro,True,Murcia
+A-7 - Saída 559,A-7 - Saída 563,Carro,True,Puerto Lumbreras
+A-7 - Saída 563,A-7 - Saída 565,Carro,False,Almería
+A-7 - Saída 563,A-7 - Saída 565,Carro,False,Huércal-Overa
+A-7 - Saída 563,A-7 - Saída 565,Carro,True,Murcia
+A-7 - Saída 563,A-7 - Saída 565,Carro,True,Puerto Lumbreras
+A-7 - Saída 565,A-7 - Saída 661,Carro,False,Almería
+A-7 - Saída 565,A-7 - Saída 661,Carro,False,Vera
+A-7 - Saída 565,A-7 - Saída 661,Carro,True,Murcia
+A-7 - Saída 565,A-7 - Saída 661,Carro,True,Puerto Lumbreras
+A-7 - Saída 655,A-7 - Saída 661,Carro,False,Murcia
+A-7 - Saída 655,A-7 - Saída 661,Carro,True,Almería
+A-7 - Saída 655,A-7 - Saída 661,Carro,True,Vera
+A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,False,Almería
+A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,False,Vera
+A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,True,Lorca
+A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,True,Murcia
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras

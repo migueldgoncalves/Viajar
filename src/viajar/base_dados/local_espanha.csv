@@ -388,6 +388,21 @@ A-7 - Saída 494,Níjar,Almería,
 A-7 - Saída 504,Sorbas,Almería,
 A-7 - Saída 510,Sorbas,Almería,
 A-7 - Saída 513,Bédar,Almería,
+A-7 - Saída 514,Los Gallardos,Almería,
+A-7 - Saída 516,Los Gallardos,Almería,
+A-7 - Saída 520,Los Gallardos,Almería,
+A-7 - Saída 525,Vera,Almería,
+A-7 - Saída 529,Antas,Almería,
+A-7 - Saída 537,Antas,Almería,
+A-7 - Saída 543,Huércal-Overa,Almería,
+A-7 - Saída 547,Huércal-Overa,Almería,
+A-7 - Saída 549,Huércal-Overa,Almería,
+A-7 - Saída 553,Huércal-Overa,Almería,
+A-7 - Saída 559,Huércal-Overa,Almería,
+A-7 - Saída 563,Huércal-Overa,Almería,
+A-7 - Saída 565,Huércal-Overa,Almería,
+A-7 - Saída 655,Puerto Lumbreras,Região de Murcia,
+A-7 - Saída 661,Puerto Lumbreras,Região de Murcia,
 A-7/AP-7 - Saída 155,Estepona,Málaga,
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
@@ -774,6 +789,7 @@ Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
 Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
+Cruzamento VIII da A-7 com a AP-7,Antas,Almería,
 Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas - Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
@@ -806,6 +822,7 @@ Cruzamento da A-6 com a M-30,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-40,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
 Cruzamento da A-7 com a A-44,Vélez de Benaudalla,Granada,
+Cruzamento da A-7 com a A-91,Puerto Lumbreras,Região de Murcia,
 Cruzamento da A-7 com a A-92,Viator,Almería,
 Cruzamento da A-7 com a A-1051,Roquetas de Mar,Almería,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre

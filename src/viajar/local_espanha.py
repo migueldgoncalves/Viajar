@@ -80,4 +80,4 @@ class LocalEspanha(local.Local):
 
     @staticmethod
     def is_comunidade_uniprovincial(comunidade_autonoma):
-        return comunidade_autonoma in ["Comunidade de Madrid"]
+        return comunidade_autonoma in ["Comunidade de Madrid", "Região de Murcia"]
