@@ -4073,6 +4073,26 @@ A-483 - Saída 11,A-483 - Saída 13,Carro,False,A-49 - Huelva/Sevilha
 A-483 - Saída 11,A-483 - Saída 13,Carro,False,Bollullos Par del Condado
 A-483 - Saída 11,A-483 - Saída 13,Carro,True,El Rocío
 A-483 - Saída 11,A-483 - Saída 13,Carro,True,Matalascañas
+A-497 - Fim,A-497 - Saída 15,Carro,False,Praias
+A-497 - Fim,A-497 - Saída 15,Carro,False,Punta Umbría
+A-497 - Fim,A-497 - Saída 15,Carro,True,Huelva
+A-497 - Início,A-497 - Saída 3,Carro,False,Huelva
+A-497 - Início,A-497 - Saída 3,Carro,True,Ayamonte
+A-497 - Início,A-497 - Saída 3,Carro,True,Punta Umbría
+A-497 - Saída 3,A-497 - Saída 5,Carro,False,Huelva
+A-497 - Saída 3,A-497 - Saída 5,Carro,True,El Portil
+A-497 - Saída 3,A-497 - Saída 5,Carro,True,El Rompido
+A-497 - Saída 3,A-497 - Saída 5,Carro,True,Punta Umbría
+A-497 - Saída 5,A-497 - Saída 7,Carro,False,Huelva
+A-497 - Saída 5,A-497 - Saída 7,Carro,True,El Portil
+A-497 - Saída 5,A-497 - Saída 7,Carro,True,El Rompido
+A-497 - Saída 5,A-497 - Saída 7,Carro,True,Punta Umbría
+A-497 - Saída 7,A-497 - Saída 9,Carro,False,Huelva
+A-497 - Saída 7,A-497 - Saída 9,Carro,True,Punta Umbría
+A-497 - Saída 9,A-497 - Saída 10,Carro,False,Huelva
+A-497 - Saída 9,A-497 - Saída 10,Carro,True,Punta Umbría
+A-497 - Saída 10,A-497 - Saída 15,Carro,False,Huelva
+A-497 - Saída 10,A-497 - Saída 15,Carro,True,Punta Umbría
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,False,Sevilha
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,Alcalá del Río
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,True,La Rinconada
@@ -5300,6 +5320,19 @@ Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,False,Móstoles
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Badajoz
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,True,Talavera de la Reina
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,False,Portugal
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,False,Sevilha
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,True,La Rábida
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,True,Porto de Huelva
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,True,San Juan del Puerto
+Cruzamento da H-30 com a H-31,H-30 - Saída 9,Carro,False,Sevilha
+Cruzamento da H-30 com a H-31,H-30 - Saída 9,Carro,True,Portugal
+Cruzamento da H-30 com a H-31,H-30 - Saída 9,Carro,True,Punta Umbría
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,False,A-49 - Sevilha
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,False,Ayamonte
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,False,La Rábida
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,True,Huelva - Centro da cidade
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,True,Universidade de Huelva - Campus de El Carmen
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,False,Huelva
 Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,True,Sevilha
 Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,False,A-49 - Portugal
@@ -6822,6 +6855,33 @@ Grândola,Pinhal Novo,Comboio,True,Porto - Campanhã
 Guia,Zoomarine,Carro,False,Albufeira
 Guia,Zoomarine,Carro,False,Faro
 Guia,Zoomarine,Carro,True,Portimão
+H-30 - Centro Comercial,H-30 - Saída 11A,Carro,False,Portugal
+H-30 - Centro Comercial,H-30 - Saída 11A,Carro,False,Sevilha
+H-30 - Centro Comercial,H-30 - Saída 11A,Carro,True,La Rábida
+H-30 - Centro Comercial,H-30 - Saída 11A,Carro,True,Porto de Huelva
+H-30 - Paseo Marítimo,H-30 - Saída 8,Carro,False,Gibraleón
+H-30 - Paseo Marítimo,H-30 - Saída 8,Carro,False,Portugal
+H-30 - Paseo Marítimo,H-30 - Saída 8,Carro,True,Sevilha
+H-30 - Saída 8,H-30 - Saída 9,Carro,False,Gibraleón
+H-30 - Saída 8,H-30 - Saída 9,Carro,False,Portugal
+H-30 - Saída 8,H-30 - Saída 9,Carro,True,Sevilha
+H-30 - Saída 11A,H-30 - Saída 11B,Carro,False,Portugal
+H-30 - Saída 11A,H-30 - Saída 11B,Carro,False,Sevilha
+H-30 - Saída 11A,H-30 - Saída 11B,Carro,True,La Rábida
+H-30 - Saída 11A,H-30 - Saída 11B,Carro,True,Porto de Huelva
+H-30 - Saída 11B,H-30 - Saída 12,Carro,False,Portugal
+H-30 - Saída 11B,H-30 - Saída 12,Carro,False,Sevilha
+H-30 - Saída 11B,H-30 - Saída 12,Carro,True,La Rábida
+H-30 - Saída 11B,H-30 - Saída 12,Carro,True,Porto de Huelva
+H-30 - Saída 12,H-30 - Saída 15,Carro,False,Portugal
+H-30 - Saída 12,H-30 - Saída 15,Carro,False,Sevilha
+H-30 - Saída 12,H-30 - Saída 15,Carro,True,La Rábida
+H-30 - Saída 12,H-30 - Saída 15,Carro,True,Porto de Huelva
+H-30 - Saída 15,H-30 - Saída 18,Carro,False,Huelva
+H-30 - Saída 15,H-30 - Saída 18,Carro,False,Sevilha
+H-30 - Saída 15,H-30 - Saída 18,Carro,True,Ferry
+H-30 - Saída 15,H-30 - Saída 18,Carro,True,La Rábida
+H-30 - Saída 15,H-30 - Saída 18,Carro,True,Porto Exterior de Huelva
 Hangares,Ilha do Farol,Barco,False,Olhão
 Hangares,Ilha do Farol,Barco,False,Vila Nova de Cacela
 Hangares,Ilha do Farol,Barco,True,Faro

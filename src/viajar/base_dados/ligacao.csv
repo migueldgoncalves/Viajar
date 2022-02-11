@@ -1048,6 +1048,17 @@ A-483 - Saída 11,A-483 - Saída 13,Carro,2.5,A-483,SE,2,1
 A-483 - Saída 11,Almonte,Carro,1.2,,E,3,1
 A-483 - Saída 13,Almonte,Carro,1.7,,N,3,2
 A-483 - Saída 13,El Rocío,Carro,14.0,,S,2,1
+A-497 - Fim,A-497 - Saída 15,Carro,0.8,A-497,N,1,2
+A-497 - Fim,Punta Umbría,Carro,2.0,,E,2,1
+A-497 - Início,A-497 - Saída 3,Carro,2.9,A-497,O,1,1
+A-497 - Início,"Paseo Marítimo, Huelva",Carro,1.2,,N,2,2
+A-497 - Saída 3,A-497 - Saída 5,Carro,2.1,A-497,SO,2,1
+A-497 - Saída 5,A-497 - Saída 7,Carro,1.9,A-497,SO,2,1
+A-497 - Saída 7,A-497 - Saída 9,Carro,2.6,A-497,S,2,1
+A-497 - Saída 9,A-497 - Saída 10,Carro,0.9,A-497,S,2,1
+A-497 - Saída 9,Cruzamento da A-5058 com a A-5059,Carro,4.2,,O,3,4
+A-497 - Saída 10,A-497 - Saída 15,Carro,5.6,A-497,SE,2,1
+A-497 - Saída 15,Punta Umbría,Carro,2.3,,SE,3,2
 A-8009 - Saída 2,A-8009 - Saída 4,Carro,1.5,A-8009,N,2,1
 A-8009 - Saída 2,Cruzamento da A-8009 com a SE-20,Carro,2.0,A-8009,S,1,3
 A-8009 - Saída 4,A-8009 - Saída 5,Carro,1.5,A-8009,N,2,1
@@ -1594,7 +1605,10 @@ Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Carro,1.5,SE-20,SO,1,2
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Carro,2.9,CA-35,SO,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Carro,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Carro,2.8,R-5,SO,1,2
-Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,1,2
+Cruzamento da H-30 com a H-31,H-30 - Centro Comercial,Carro,0.5,H-30,SE,2,1
+Cruzamento da H-30 com a H-31,H-30 - Saída 9,Carro,0.8,H-30,NO,1,2
+Cruzamento da H-30 com a H-31,H-31 - Fim,Carro,0.8,H-31,SO,4,1
+Cruzamento da H-30 com a H-31,H-31 - Saída 80,Carro,4.4,H-31,NE,3,2
 Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,5.6,H-30,S,2,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,0.8,N-431,E,3,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,5.9,N-431,O,1,4
@@ -2067,6 +2081,14 @@ Guerreiros do Rio,Rotunda da Árvore,Carro,0.7,,S,2,1
 Guia,Marina de Albufeira,Carro,7.7,,SE,5,2
 Guia,Praia da Galé,Carro,6.5,,SO,3,3
 Guia,Zoomarine,Carro,1.6,N125,O,4,1
+H-30 - Centro Comercial,H-30 - Saída 11A,Carro,0.5,H-30,SE,2,1
+H-30 - Paseo Marítimo,H-30 - Saída 8,Carro,1.0,H-30,E,2,1
+H-30 - Paseo Marítimo,"Paseo Marítimo, Huelva",Carro,1.1,,SO,3,1
+H-30 - Saída 8,H-30 - Saída 9,Carro,0.7,H-30,E,2,1
+H-30 - Saída 11A,H-30 - Saída 11B,Carro,0.5,H-30,S,2,1
+H-30 - Saída 11B,H-30 - Saída 12,Carro,0.6,H-30,S,2,1
+H-30 - Saída 12,H-30 - Saída 15,Carro,2.7,H-30,SO,2,1
+H-30 - Saída 15,H-30 - Saída 18,Carro,3.5,H-30,S,2,1
 Hangares,Ilha do Farol,Barco,1.5,Ria Formosa,SO,2,1
 Hortas,Vila Real de Santo António,Carro,2.4,N125,E,2,3
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,2.0,N124,NO,4,1
