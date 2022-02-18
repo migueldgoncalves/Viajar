@@ -21,30 +21,11 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
     :param destino: Idem
     :return: Abreviatura do ponto cardeal, ou "" se origem e destino forem iguais
     """
-    def _obter_distancia_haversine(origem: (float, float), destino: (float, float)) -> float:
-        """
-        Retorna distância em linha recta em km entre origem e destino. Erro até 0.5%
-        """
-        def _para_radianos(decimal: float) -> float:
-            return decimal * pi / 180
-
-        latitude_origem, longitude_destino = origem
-        latitude_destino, longitude_destino = destino
-        diff_lat: float = float(destino[0]) - float(origem[0])
-        diff_lon: float = float(destino[1]) - float(origem[1])
-
-        parametro_1: float = sin(_para_radianos(diff_lat / 2)) ** 2
-        parametro_2: float = cos(_para_radianos(float(latitude_origem))) * cos(_para_radianos(float(latitude_destino))) * (
-                sin(_para_radianos(diff_lon / 2)) ** 2)
-        distancia: float = 2 * RAIO_TERRA * asin(sqrt(parametro_1 + parametro_2))
-
-        return distancia
-
     if origem == destino:  # Mesmo ponto
         return ""
 
-    distancia_norte_sul: float = _obter_distancia_haversine((origem[0], 0), (destino[0], 0))  # Será sempre >= 0
-    distancia_este_oeste: float = _obter_distancia_haversine((0, origem[1]), (0, destino[1]))  # Será sempre >= 0
+    distancia_norte_sul: float = obter_distancia_haversine((origem[0], 0), (destino[0], 0))  # Será sempre >= 0
+    distancia_este_oeste: float = obter_distancia_haversine((0, origem[1]), (0, destino[1]))  # Será sempre >= 0
 
     diff_lat: float = float(destino[0]) - float(origem[0])
     diff_lon: float = float(destino[1]) - float(origem[1])
@@ -99,3 +80,23 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
                 return NOROESTE
 
     return ""
+
+
+def obter_distancia_haversine(origem: (float, float), destino: (float, float)) -> float:
+    """
+    Retorna distância em linha recta em km entre origem e destino. Erro até 0.5%
+    """
+    def _para_radianos(decimal: float) -> float:
+        return decimal * pi / 180
+
+    latitude_origem, longitude_destino = origem
+    latitude_destino, longitude_destino = destino
+    diff_lat: float = float(destino[0]) - float(origem[0])
+    diff_lon: float = float(destino[1]) - float(origem[1])
+
+    parametro_1: float = sin(_para_radianos(diff_lat / 2)) ** 2
+    parametro_2: float = cos(_para_radianos(float(latitude_origem))) * cos(_para_radianos(float(latitude_destino))) * (
+            sin(_para_radianos(diff_lon / 2)) ** 2)
+    distancia: float = 2 * RAIO_TERRA * asin(sqrt(parametro_1 + parametro_2))
+
+    return distancia
