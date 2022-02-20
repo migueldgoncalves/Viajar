@@ -1,6 +1,6 @@
 import os
 import matplotlib.pyplot
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Set
 
 import requests
 try:
@@ -517,14 +517,16 @@ class GeradorInformacao:
         return saidas_ou_estacoes
 
     def get_nos_vias_em_rectangulo(self):
-        self.ficheiro_osm = OSM_GIBRALTAR.path
+        self.ficheiro_osm = OSM_PORTUGAL.path
 
         print("A iniciar cálculo das distâncias...")
         print("A obter representação da região... Isto demorará uns minutos.")
 
-        h = ObterNosVias([(36.1434, -5.36), (36.1435, -5.35)], self.via_tipo)
+        # self.via_tipo = VIA_FERROVIA
+
+        # h = ObterNosVias([(36.1434, -5.36), (36.1435, -5.35)], self.via_tipo)
         # h = ObterNosVias([(36, -6), (37, -5)], self.via_tipo)
-        # h = ObterNosVias([(37.0, -9.36), (38.0, -8.0)], self.via_tipo)
+        h = ObterNosVias([(37.0, -9.36), (38.0, -8.0)], self.via_tipo)
         # h = ObterNosVias([(39.0, -7.36), (40.0, -6.0)], self.via_tipo)
         h.apply_file(self.ficheiro_osm, locations=True)
         vias_dict = h.vias
@@ -565,15 +567,57 @@ class GeradorInformacao:
                             (h.min_longitude <= no_anterior.longitude <= h.max_longitude):  # Nó circundante está dentro do rectângulo
                         if nos.get(no.node_id, None):
                             nos[no.node_id].nos_circundantes.add(no_anterior.node_id)
+
+        nos = {no_id: nos[no_id] for no_id in nos if len(nos[no_id].nos_circundantes) > 0}  # Manter apenas nós que tenham nós circundantes
         for no_id in nos:
             if nos[no_id].nos_circundantes:
                 pass
                 # print(no_id, nos[no_id].nos_circundantes, nos[no_id].latitude, nos[no_id].longitude)
 
-        # latitudes = [h.nos[n].latitude for n in h.nos]
-        # longitudes = [h.nos[n].longitude for n in h.nos]
-        # matplotlib.pyplot.plot(latitudes, longitudes)
-        # matplotlib.pyplot.show()
+        print(len(nos))
+        print(len(vias_dict))
+
+        # TODO: Converter coordenadas fornecidas em nó mais perto dessas coordenadas
+        origem_no_id = 3625701429  # Gibraltar
+        destino_no_id = 3440155800  # Gibraltar - Distância esperada, 2.0 km
+        origem_no_id = 5002251049  # Portugal
+        destino_no_id = 1866347602  # Portugal
+
+        # Algoritmo de Dijkstra
+        distancia_infinita: int = 999999  # km
+        nos_nao_visitados: Set[int] = set(nos.keys())
+        distancias: Dict[int, float] = {no_id: 0 if no_id == origem_no_id else distancia_infinita for no_id in nos}
+        no_actual: int = origem_no_id
+
+        while destino_no_id in nos_nao_visitados:
+            distancia_para_no: float = distancias[no_actual]
+            nos_circundantes: Set[int] = nos[no_actual].nos_circundantes
+
+            for no_circundante in nos_circundantes:
+                if no_circundante not in nos_nao_visitados:
+                    continue  # Nó já visitado - Distância mais curta já é conhecida
+                coordenadas_no_actual: Tuple[float, float] = (nos[no_actual].latitude, nos[no_actual].longitude)
+                coordenadas_no_circundante: Tuple[float, float] = (nos[no_circundante].latitude, nos[no_circundante].longitude)
+                distancia_entre_nos: float = haversine.obter_distancia_haversine(coordenadas_no_actual, coordenadas_no_circundante)
+
+                if distancia_entre_nos + distancia_para_no < distancias[no_circundante]:  # Distância obtida é menor - Actualizar
+                    distancias[no_circundante] = distancia_entre_nos + distancia_para_no
+
+            nos_nao_visitados.remove(no_actual)
+            if len(nos_nao_visitados) % 100 == 0:
+                print(len(nos_nao_visitados))
+            if all(distancias[no_id] == distancia_infinita for no_id in nos_nao_visitados) and no_actual != origem_no_id:
+                break  # Se nesta fase todas as distâncias para nós não visitados sâo infinitas, esses nós são inalcançáveis - Terminar algoritmo
+
+            menor_distancia_conhecida: float = distancia_infinita
+            for no_id in nos_nao_visitados:
+                if distancias[no_id] < menor_distancia_conhecida:
+                    menor_distancia_conhecida = distancias[no_id]
+                    no_actual = no_id
+        distancia_para_destino: float = round(distancias[destino_no_id], 1)
+        print(f'Distância entre origem e destino é {distancia_para_destino} km')
+
+
         return
 
 
