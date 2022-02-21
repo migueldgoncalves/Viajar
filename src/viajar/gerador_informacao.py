@@ -1,5 +1,4 @@
 import os
-import matplotlib.pyplot
 from typing import List, Tuple, Dict, Set
 
 import requests
@@ -531,6 +530,7 @@ class GeradorInformacao:
         h.apply_file(self.ficheiro_osm, locations=True)
         vias_dict = h.vias
         print(len(h.vias))
+        print(h.tags)
 
         distancia_norte_sul = round(haversine.obter_distancia_haversine((h.min_latitude, h.min_longitude), (h.max_latitude, h.min_longitude)), 1)
         distancia_este_oeste = round(haversine.obter_distancia_haversine((h.min_latitude, h.min_longitude), (h.min_latitude, h.max_longitude)), 1)
@@ -581,7 +581,15 @@ class GeradorInformacao:
         origem_no_id = 3625701429  # Gibraltar
         destino_no_id = 3440155800  # Gibraltar - Distância esperada, 2.0 km
         origem_no_id = 5002251049  # Portugal
-        destino_no_id = 1866347602  # Portugal
+        destino_no_id = 1866347602  # Portugal - Distância esperada, 129.3 km
+        destino_no_id = 1373593428  # Portugal - Distância esperada, 1.0 km
+        destino_no_id = 3743033126  # Portugal - Distância esperada, 1.1 km
+
+        origem: Tuple[float, float] = (37.15528, -8.86921)
+        destino: Tuple[float, float] = (37.8213, -8.3597)
+        origem_no_id: int = self._coordenadas_para_no(origem[0], origem[1], nos).node_id
+        destino_no_id: int = self._coordenadas_para_no(destino[0], destino[1], nos).node_id
+        print(origem_no_id, destino_no_id)
 
         # Algoritmo de Dijkstra
         distancia_infinita: int = 999999  # km
@@ -620,6 +628,26 @@ class GeradorInformacao:
 
         return
 
+    def _coordenadas_para_no(self, latitude: float, longitude: float, nos: dict):
+        """
+        Dadas coordenadas e um dicionário de nós, retorna o nó mais próximo das coordenadas indicadas
+        O cálculo é aproximado - Usa-se o Teorema de Pitágoras em vez das distâncias de Haversine para mais rapidez
+            Um grau de longitude em distância na Península Ibérica não corresponde exactamente a um grau de latitude
+        """
+        no_mais_proximo: Node = Node(0, 0.0, 0.0)
+        distancia_pitagoras: float = 999999.0
+        for no_id in nos:
+            no: Node = nos[no_id]
+
+            diferenca_latitude = abs(no.latitude - latitude)
+            diferenca_longitude = abs(no.longitude - longitude)
+            distancia = (diferenca_latitude ** 2 + diferenca_longitude ** 2) ** 1/2
+
+            if distancia < distancia_pitagoras:
+                no_mais_proximo = no
+                distancia_pitagoras = distancia
+
+        return no_mais_proximo
 
     def _detector_ficheiro_repetido(self, path: str, aviso: str):
         """
@@ -789,6 +817,19 @@ class ObterNosVias(osmium.SimpleHandler):
         self.max_latitude: float = -90.0
         self.min_longitude: float = 180.0
         self.max_longitude: float = -180.0
+        self.tags = set()
+
+        # Estradas e caminhos com tags não incluídas nesta lista não costumam ser usadas no âmbito deste projecto
+        # Referência: https://wiki.openstreetmap.org/wiki/Key:highway
+        # self.tags_estradas_pretendidas: list = [
+        #     'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential', 'motorway_link',
+        #     'trunk_link', 'primary_link', 'secondary_link', 'tertiary_link', 'living_street', 'service',
+        #     'motorway_junction']
+        self.tags_estradas_pretendidas: list = [
+            'motorway', 'trunk', 'primary', 'secondary', 'motorway_link',
+            'trunk_link', 'primary_link', 'secondary_link',
+            'motorway_junction']
+        # TODO: Será preciso criar 2 categorias de tags: urbano e regional (?)
 
         # Calcula os extremos do rectângulo
         for coordenadas in lista_coordenadas:
@@ -825,9 +866,10 @@ class ObterNosVias(osmium.SimpleHandler):
         """
         Vias com pelo menos um nó dentro do rectângulo desejado
         """
-        # Está-se à procura de estradas e a via é uma estrada OU está-se à procura de ferrovias e a via é uma ferrovia
-        if self.via_tipo == VIA_ESTRADA and w.tags.get(TAG_HIGHWAY) or \
+        # Está-se à procura de estradas e a via é uma estrada do tipo desejado OU está-se à procura de ferrovias e a via é uma ferrovia
+        if self.via_tipo == VIA_ESTRADA and w.tags.get(TAG_HIGHWAY) and w.tags.get(TAG_HIGHWAY) in self.tags_estradas_pretendidas or \
                 self.via_tipo == VIA_FERROVIA and w.tags.get(TAG_RAILWAY):
+            self.tags.add(w.tags.get(TAG_HIGHWAY))
             lista_nos: List[Node] = []
             via_cruza_rectangulo: bool = False  # Via pode também estar contida no rectângulo
             for node_ref in w.nodes:
