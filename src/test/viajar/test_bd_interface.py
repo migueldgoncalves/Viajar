@@ -1,6 +1,6 @@
 import unittest
 
-from viajar import bd_interface
+from viajar.auxiliar import bd_interface
 
 
 class TestBDInterface(unittest.TestCase):

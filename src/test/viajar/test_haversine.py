@@ -1,6 +1,6 @@
 import unittest
 
-from viajar import haversine
+from viajar.auxiliar import haversine
 
 NORTE = haversine.NORTE
 NORDESTE = haversine.NORDESTE

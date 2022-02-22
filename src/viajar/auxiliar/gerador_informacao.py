@@ -10,9 +10,10 @@ except:
     print("Bibliotecas osmium e/ou shapely não instaladas. Está a executar este ficheiro em Windows?")
     exit(1)
 
-import viajar.vias as vias
-import viajar.ordenador as ordenador
-import viajar.haversine as haversine
+import viajar.auxiliar.vias as vias
+import viajar.auxiliar.ordenador as ordenador
+import viajar.auxiliar.haversine as haversine
+import viajar.auxiliar.calculadora_distancias as calculadora_distancias
 
 
 class Path:
@@ -61,11 +62,11 @@ COORDENADAS_CASAS_DECIMAIS: int = 6
 ENCODING: str = 'utf-8'
 
 PATH_BASE: Path = Path(os.path.dirname(os.path.realpath(__file__)))
-CHAVE_API_PATH: Path = Path(PATH_BASE, '..', 'api_key.txt')
-PASTA_TEMP: Path = Path(PATH_BASE, 'tmp')
+CHAVE_API_PATH: Path = Path(PATH_BASE, '../..', 'api_key.txt')
+PASTA_TEMP: Path = Path(PATH_BASE, '..', 'tmp')
 
 # Contêm a informação de países vinda do OpenStreetMap
-PASTA_OSM: Path = Path(PATH_BASE, 'osm')
+PASTA_OSM: Path = Path(PATH_BASE, '..', 'osm')
 OSM_GIBRALTAR: Path = Path(PASTA_OSM, 'gibraltar-latest.osm.pbf')
 OSM_PORTUGAL: Path = Path(PASTA_OSM, 'portugal-latest.osm.pbf')
 OSM_ESPANHA: Path = Path(PASTA_OSM, 'spain-latest.osm.pbf')
@@ -75,11 +76,11 @@ OPCAO_LOCAIS_DIV_ADMIN = 1
 OPCAO_LIGACOES_DESTINOS = 2
 OPCAO_CIMA_BAIXO = 1
 OPCAO_BAIXO_CIMA = 2
+OPCAO_AREA_INTERCIDADES = 1
+OPCAO_AREA_URBANA = 2
 
 VIA_FERROVIA = vias.VIA_FERROVIA
 VIA_ESTRADA = vias.VIA_ESTRADA
-
-MARGEM_RECTANGULO_DISTANCIAS = 0  # 1 grau = muito aproximadamente 100 km na Península Ibérica
 
 # Parâmetros do OpenStreetMap
 
@@ -89,8 +90,6 @@ TIPO_RELACAO: str = "r"  # Relation
 
 MOTORWAY_JUNCTION: str = 'motorway_junction'
 FREGUESIA_HISTORICA: str = 'historic_parish'
-TAG_HIGHWAY: str = 'highway'  # No OpenStreetMap, estradas recebem a tag 'highway'
-TAG_RAILWAY: str = 'railway'
 
 # A global factory that creates WKB from a osmium geometry
 wkbfab = osmium.geom.WKBFactory()
@@ -154,8 +153,18 @@ class GeradorInformacao:
         """
         A partir de um ficheiro de locais de uma via, cria os ficheiros de ligações e de destinos correspondentes
         """
-        self.get_nos_vias_em_rectangulo()
-        return
+        if self.pais == vias.PORTUGAL:
+            self.ficheiro_osm: str = OSM_PORTUGAL.path
+        elif self.pais == vias.ESPANHA:
+            self.ficheiro_osm: str = OSM_ESPANHA.path
+        elif self.pais == vias.GIBRALTAR:
+            self.ficheiro_osm: str = OSM_ESPANHA.path
+        # elif self.pais == vias.ANDORRA:
+        #     self.ficheiro_osm: str = OSM_ANDORRA.path
+        else:
+            print(f'País inválido - Processamento da {self.via_identificador} cancelado')
+            exit(1)
+
         if not os.path.exists(self.local_path.path):
             print(f'O ficheiro de locais da {self.via_identificador} não existe.')
             print(f'Execute este programa novamente e seleccione a opção {OPCAO_LOCAIS_DIV_ADMIN}.')
@@ -368,37 +377,39 @@ class GeradorInformacao:
         if invertido:
             conteudo = list(reversed(conteudo))
 
-        # Plano para criar um gerador de distâncias
-        # Parte 1 - Obter mapa
-        # Parte 2 - Obter distância entre origem e destino
+        if self.via_tipo == VIA_FERROVIA:
+            area_tipo = calculadora_distancias.AREA_INTERCIDADES  # Para ferrovias não se irá distinguir o tipo de área
+        else:  # Estrada
+            print(f'Qual o tipo de área que está a ser coberta?')
+            print("Escreva a opção desejada e pressione ENTER")
+            print(f"{OPCAO_SAIR} - Sair do programa")
+            print(f"{OPCAO_AREA_INTERCIDADES} - Área intercidades. Adequada para auto-estradas e outras vias importantes")
+            print(f"{OPCAO_AREA_URBANA} - Área urbana. Adequada para ruas dentro da mesma cidade")
+            while True:
+                opcao = input("Escreva a opção desejada e pressione ENTER: ")
+                if opcao == str(OPCAO_SAIR):
+                    print("Escolheu sair.")
+                    print("Boa viagem!")
+                    exit(0)
+                elif opcao == str(OPCAO_AREA_INTERCIDADES):
+                    print(f"A área será intercidades")
+                    area_tipo = calculadora_distancias.AREA_INTERCIDADES
+                    break
+                elif opcao == str(OPCAO_AREA_URBANA):
+                    print(f"A área será urbana")
+                    area_tipo = calculadora_distancias.AREA_URBANA
+                    break
 
-        # Parte 1
-        # Obter o rectângulo que contenha os pontos de interesse
-        #   Talvez dar uma margem para garantir que não seja demasiado estreito
-        #   Acrescentar margem de 0.1 graus (muito aproximadamente 10 km) a cada lado
-        # Obter pontos desse rectângulo
-        # Obter ligações entre os pontos desse rectângulo
-        #   Provado que quem serve de união são as vias, não as relações
-        #   Basta obter as vias
-        #   Como perceber se uma via nos interessa?
-        #       highway tag está presente
-        # Cortar as vias
-        #   Só queremos as partes que atravessam o rectângulo
-        #   Vamos assumir que uma via só atravessa o rectângulo 1 vez
-        # Para cada nó, guardar os nós circundantes
-        #   Não importa a ordem
-
-        # Mapa criado - Podemos fazer daqui qualquer cálculo de distâncias entre 2 pontos no mapa
-
-        # Parte 2
-        # Vamos para o caso mais simples - Ponto de partida e de chegada são os mais próximos possíveis aos originais
-        # De entre todos os pontos disponíveis, encontrar os mais próximos aos que desejamos
-        #   Distância de Haversine para todos os pontos até lá chegarmos
-        #   OU
-        #   Obter o ponto mais próximo (só fazendo contas com as coordenadas) a este, oeste, norte e sul, e calcular
-        #       a distância de Haversine com esses pontos
-        # Sabendo o ponto de origem e de destino, aplicar o algoritmo de Dijkstra
-        # Quando terminar, saberás a distância
+        # Gerar mapa para depois se calcularem as distâncias
+        todas_coordenadas: Set[Tuple[float, float]] = set()
+        for idx, local in enumerate(conteudo):
+            if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
+                latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
+                latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
+                todas_coordenadas.add((latitude_a, longitude_a))
+                todas_coordenadas.add((latitude_b, longitude_b))
+        calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
+        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, area_tipo, self.ficheiro_osm)
 
         ligacoes: list = []
         destinos: list = []
@@ -416,17 +427,23 @@ class GeradorInformacao:
                 else:
                     meio_transporte: str = 'Carro'
                 info_extra: str = self.via_identificador
-                latitude_a, longitude_a = conteudo[idx].split(',')[1], conteudo[idx].split(',')[2]
-                latitude_b, longitude_b = conteudo[idx + 1].split(',')[1], conteudo[idx + 1].split(',')[2]
+                latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
+                latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
+                distancia: float = calc_dist.calcular_distancia((latitude_a, longitude_a), (latitude_b, longitude_b))
+                if distancia == calculadora_distancias.DISTANCIA_INFINITA:
+                    print("Não foi possível calcular distância - Continuando...")
+                    distancia = 0.0
                 ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
 
-                ligacao: str = f'{local_a},{local_b},{meio_transporte},,{info_extra},{ponto_cardeal},2,1\n'  # Distância fica em branco
+                ligacao: str = f'{local_a},{local_b},{meio_transporte},{distancia},{info_extra},{ponto_cardeal},2,1\n'
                 destino_false: str = f'{local_a},{local_b},{meio_transporte},False,\n'
                 destino_true: str = f'{local_a},{local_b},{meio_transporte},True,\n'
 
                 ligacoes.append(ligacao)
                 destinos.append(destino_false)
                 destinos.append(destino_true)
+
+                print(f'{idx + 1}/{len(conteudo) - 1} ligações processadas')
 
         with open(self.ligacao_path.path, 'w', encoding=ENCODING) as f:
             f.writelines(ligacoes)
@@ -514,140 +531,6 @@ class GeradorInformacao:
             print("Coordenadas de saídas obtidas\n")
 
         return saidas_ou_estacoes
-
-    def get_nos_vias_em_rectangulo(self):
-        self.ficheiro_osm = OSM_PORTUGAL.path
-
-        print("A iniciar cálculo das distâncias...")
-        print("A obter representação da região... Isto demorará uns minutos.")
-
-        # self.via_tipo = VIA_FERROVIA
-
-        # h = ObterNosVias([(36.1434, -5.36), (36.1435, -5.35)], self.via_tipo)
-        # h = ObterNosVias([(36, -6), (37, -5)], self.via_tipo)
-        h = ObterNosVias([(37.0, -9.36), (38.0, -8.0)], self.via_tipo)
-        # h = ObterNosVias([(39.0, -7.36), (40.0, -6.0)], self.via_tipo)
-        h.apply_file(self.ficheiro_osm, locations=True)
-        vias_dict = h.vias
-        print(len(h.vias))
-        print(h.tags)
-
-        distancia_norte_sul = round(haversine.obter_distancia_haversine((h.min_latitude, h.min_longitude), (h.max_latitude, h.min_longitude)), 1)
-        distancia_este_oeste = round(haversine.obter_distancia_haversine((h.min_latitude, h.min_longitude), (h.min_latitude, h.max_longitude)), 1)
-        print(f"A área de interesse tem {distancia_norte_sul} km norte-sul e {distancia_este_oeste} km este-oeste")
-
-        nos: Dict[int, Node] = h.nos  # Depois de receber os nós circundantes, terá toda a informação para se correr o algoritmo de Dijkstra
-
-        # Adicionar nós circundantes
-        for via_id in h.vias:
-            via: Via = h.vias[via_id]
-            if len(via.lista_nos) <= 1:
-                continue
-            for index, no in enumerate(via.lista_nos):  # Todos os nós da via, estejam ou não no rectângulo desejado
-                if index == 0:
-                    no_seguinte: Node = via.lista_nos[1]
-                    if (h.min_latitude <= no_seguinte.latitude <= h.max_latitude) and \
-                            (h.min_longitude <= no_seguinte.longitude <= h.max_longitude):  # Nó circundante está dentro do rectângulo
-                        if nos.get(no.node_id, None):
-                            nos[no.node_id].nos_circundantes.add(no_seguinte.node_id)
-                elif index == len(via.lista_nos) - 1:  # Último nó da via
-                    no_anterior: Node = via.lista_nos[index - 1]
-                    if (h.min_latitude <= no_anterior.latitude <= h.max_latitude) and \
-                            (h.min_longitude <= no_anterior.longitude <= h.max_longitude):  # Nó circundante está dentro do rectângulo
-                        if nos.get(no.node_id, None):
-                            nos[no.node_id].nos_circundantes.add(no_anterior.node_id)
-                else:  # Nó a meio da via
-                    no_seguinte: Node = via.lista_nos[index + 1]
-                    if (h.min_latitude <= no_seguinte.latitude <= h.max_latitude) and \
-                            (h.min_longitude <= no_seguinte.longitude <= h.max_longitude):  # Nó circundante está dentro do rectângulo
-                        if nos.get(no.node_id, None):
-                            nos[no.node_id].nos_circundantes.add(no_seguinte.node_id)
-                    no_anterior: Node = via.lista_nos[index - 1]
-                    if (h.min_latitude <= no_anterior.latitude <= h.max_latitude) and \
-                            (h.min_longitude <= no_anterior.longitude <= h.max_longitude):  # Nó circundante está dentro do rectângulo
-                        if nos.get(no.node_id, None):
-                            nos[no.node_id].nos_circundantes.add(no_anterior.node_id)
-
-        nos = {no_id: nos[no_id] for no_id in nos if len(nos[no_id].nos_circundantes) > 0}  # Manter apenas nós que tenham nós circundantes
-        for no_id in nos:
-            if nos[no_id].nos_circundantes:
-                pass
-                # print(no_id, nos[no_id].nos_circundantes, nos[no_id].latitude, nos[no_id].longitude)
-
-        print(len(nos))
-        print(len(vias_dict))
-
-        # TODO: Converter coordenadas fornecidas em nó mais perto dessas coordenadas
-        origem_no_id = 3625701429  # Gibraltar
-        destino_no_id = 3440155800  # Gibraltar - Distância esperada, 2.0 km
-        origem_no_id = 5002251049  # Portugal
-        destino_no_id = 1866347602  # Portugal - Distância esperada, 129.3 km
-        destino_no_id = 1373593428  # Portugal - Distância esperada, 1.0 km
-        destino_no_id = 3743033126  # Portugal - Distância esperada, 1.1 km
-
-        origem: Tuple[float, float] = (37.15528, -8.86921)
-        destino: Tuple[float, float] = (37.8213, -8.3597)
-        origem_no_id: int = self._coordenadas_para_no(origem[0], origem[1], nos).node_id
-        destino_no_id: int = self._coordenadas_para_no(destino[0], destino[1], nos).node_id
-        print(origem_no_id, destino_no_id)
-
-        # Algoritmo de Dijkstra
-        distancia_infinita: int = 999999  # km
-        nos_nao_visitados: Set[int] = set(nos.keys())
-        distancias: Dict[int, float] = {no_id: 0 if no_id == origem_no_id else distancia_infinita for no_id in nos}
-        no_actual: int = origem_no_id
-
-        while destino_no_id in nos_nao_visitados:
-            distancia_para_no: float = distancias[no_actual]
-            nos_circundantes: Set[int] = nos[no_actual].nos_circundantes
-
-            for no_circundante in nos_circundantes:
-                if no_circundante not in nos_nao_visitados:
-                    continue  # Nó já visitado - Distância mais curta já é conhecida
-                coordenadas_no_actual: Tuple[float, float] = (nos[no_actual].latitude, nos[no_actual].longitude)
-                coordenadas_no_circundante: Tuple[float, float] = (nos[no_circundante].latitude, nos[no_circundante].longitude)
-                distancia_entre_nos: float = haversine.obter_distancia_haversine(coordenadas_no_actual, coordenadas_no_circundante)
-
-                if distancia_entre_nos + distancia_para_no < distancias[no_circundante]:  # Distância obtida é menor - Actualizar
-                    distancias[no_circundante] = distancia_entre_nos + distancia_para_no
-
-            nos_nao_visitados.remove(no_actual)
-            if len(nos_nao_visitados) % 100 == 0:
-                print(len(nos_nao_visitados))
-            if all(distancias[no_id] == distancia_infinita for no_id in nos_nao_visitados) and no_actual != origem_no_id:
-                break  # Se nesta fase todas as distâncias para nós não visitados sâo infinitas, esses nós são inalcançáveis - Terminar algoritmo
-
-            menor_distancia_conhecida: float = distancia_infinita
-            for no_id in nos_nao_visitados:
-                if distancias[no_id] < menor_distancia_conhecida:
-                    menor_distancia_conhecida = distancias[no_id]
-                    no_actual = no_id
-        distancia_para_destino: float = round(distancias[destino_no_id], 1)
-        print(f'Distância entre origem e destino é {distancia_para_destino} km')
-
-
-        return
-
-    def _coordenadas_para_no(self, latitude: float, longitude: float, nos: dict):
-        """
-        Dadas coordenadas e um dicionário de nós, retorna o nó mais próximo das coordenadas indicadas
-        O cálculo é aproximado - Usa-se o Teorema de Pitágoras em vez das distâncias de Haversine para mais rapidez
-            Um grau de longitude em distância na Península Ibérica não corresponde exactamente a um grau de latitude
-        """
-        no_mais_proximo: Node = Node(0, 0.0, 0.0)
-        distancia_pitagoras: float = 999999.0
-        for no_id in nos:
-            no: Node = nos[no_id]
-
-            diferenca_latitude = abs(no.latitude - latitude)
-            diferenca_longitude = abs(no.longitude - longitude)
-            distancia = (diferenca_latitude ** 2 + diferenca_longitude ** 2) ** 1/2
-
-            if distancia < distancia_pitagoras:
-                no_mais_proximo = no
-                distancia_pitagoras = distancia
-
-        return no_mais_proximo
 
     def _detector_ficheiro_repetido(self, path: str, aviso: str):
         """
@@ -797,112 +680,3 @@ class CoordenadasParaDivisoesAdministrativas(osmium.SimpleHandler):
                                       f'{self.saidas_estacoes_concluidas}/{len(self.lista_coordenadas)} locais')
         except:  # Pode não ter sido possível converter relação em área
             pass
-
-
-# OBTER DISTÂNCIAS
-
-class ObterNosVias(osmium.SimpleHandler):
-    """
-    Dado um conjunto de coordenadas, calcula um rectângulo que contenha todos os pontos fornecidos, com uma margem
-        ajustável, e obtém os pontos que estejam dentro do rectângulo e as vias com pelo menos 1 ponto no seu interior
-    """
-    def __init__(self, lista_coordenadas: List[Tuple[float, float]], via_tipo: str):
-        super(ObterNosVias, self).__init__()
-
-        self.nos: Dict[int, Node] = {}
-        self.vias: Dict[int, Via] = {}
-        self.via_tipo: str = via_tipo
-
-        self.min_latitude: float = 90.0
-        self.max_latitude: float = -90.0
-        self.min_longitude: float = 180.0
-        self.max_longitude: float = -180.0
-        self.tags = set()
-
-        # Estradas e caminhos com tags não incluídas nesta lista não costumam ser usadas no âmbito deste projecto
-        # Referência: https://wiki.openstreetmap.org/wiki/Key:highway
-        # self.tags_estradas_pretendidas: list = [
-        #     'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential', 'motorway_link',
-        #     'trunk_link', 'primary_link', 'secondary_link', 'tertiary_link', 'living_street', 'service',
-        #     'motorway_junction']
-        self.tags_estradas_pretendidas: list = [
-            'motorway', 'trunk', 'primary', 'secondary', 'motorway_link',
-            'trunk_link', 'primary_link', 'secondary_link',
-            'motorway_junction']
-        # TODO: Será preciso criar 2 categorias de tags: urbano e regional (?)
-
-        # Calcula os extremos do rectângulo
-        for coordenadas in lista_coordenadas:
-            latitude: float = coordenadas[0]
-            longitude: float = coordenadas[1]
-            if latitude < self.min_latitude:
-                self.min_latitude = latitude
-            if latitude > self.max_latitude:
-                self.max_latitude = latitude
-            if longitude < self.min_longitude:
-                self.min_longitude = longitude
-            if longitude > self.max_longitude:
-                self.max_longitude = longitude
-
-        # Acrescenta a margem ao rectângulo, em graus decimais
-        self.min_latitude -= MARGEM_RECTANGULO_DISTANCIAS
-        self.max_latitude += MARGEM_RECTANGULO_DISTANCIAS
-        self.min_longitude -= MARGEM_RECTANGULO_DISTANCIAS
-        self.max_longitude += MARGEM_RECTANGULO_DISTANCIAS
-
-        print(self.min_latitude, self.min_longitude, self.max_latitude, self.max_longitude)
-
-    def node(self, n):
-        """
-        Nós dentro do rectângulo desejado
-        """
-        if (self.min_latitude <= n.location.lat <= self.max_latitude) and \
-                (self.min_longitude <= n.location.lon <= self.max_longitude):
-            # print(n)
-            novo_no = Node(n.id, n.location.lat, n.location.lon)
-            self.nos[n.id] = novo_no
-
-    def way(self, w):
-        """
-        Vias com pelo menos um nó dentro do rectângulo desejado
-        """
-        # Está-se à procura de estradas e a via é uma estrada do tipo desejado OU está-se à procura de ferrovias e a via é uma ferrovia
-        if self.via_tipo == VIA_ESTRADA and w.tags.get(TAG_HIGHWAY) and w.tags.get(TAG_HIGHWAY) in self.tags_estradas_pretendidas or \
-                self.via_tipo == VIA_FERROVIA and w.tags.get(TAG_RAILWAY):
-            self.tags.add(w.tags.get(TAG_HIGHWAY))
-            lista_nos: List[Node] = []
-            via_cruza_rectangulo: bool = False  # Via pode também estar contida no rectângulo
-            for node_ref in w.nodes:
-                try:
-                    novo_no = Node(node_ref.ref, node_ref.lat, node_ref.lon)
-                except:  # É possível para node refs não terem coordenadas - Descartar
-                    continue
-                lista_nos.append(novo_no)
-                if (self.min_latitude <= node_ref.lat <= self.max_latitude) and \
-                        (self.min_longitude <= node_ref.lon <= self.max_longitude):  # Nó está dentro do rectângulo
-                    via_cruza_rectangulo = True
-
-            if via_cruza_rectangulo:
-                nova_via = Via(w.id, lista_nos)
-                self.vias[w.id] = nova_via
-                # print(w)
-
-
-class Node:
-    """
-    Classe para guardar dados de um nó
-    """
-    def __init__(self, node_id: int, latitude: float, longitude: float):
-        self.node_id: int = node_id
-        self.latitude: float = latitude
-        self.longitude: float = longitude
-        self.nos_circundantes: set[int] = set()
-
-
-class Via:
-    """
-    Classe para guardar dados de uma via
-    """
-    def __init__(self, via_id, lista_nos: List[Node]):
-        self.via_id: int = via_id
-        self.lista_nos: List[Node] = lista_nos

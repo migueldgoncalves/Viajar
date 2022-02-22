@@ -1,7 +1,8 @@
 import random
 import datetime
 
-from viajar import viagem, bd_interface
+from viajar import viagem
+from viajar.auxiliar import bd_interface
 from carro import carro
 
 #  Opções

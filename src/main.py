@@ -2,7 +2,7 @@
 Main - Executar para aceder a todos os scripts disponíveis
 """
 
-import viajar.vias as vias
+import viajar.auxiliar.vias as vias
 # INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
 VIA = vias.ES_A497
 
@@ -68,11 +68,11 @@ while True:
         ronda.Ronda.ronda_loop(ronda.Ronda())
 
     elif opcao == OPCAO_GERADOR:
-        import viajar.gerador_informacao as gerador
+        import viajar.auxiliar.gerador_informacao as gerador
         gerador.GeradorInformacao(VIA)
     elif opcao == OPCAO_ORDENADOR:
-        from viajar import ordenador
+        from viajar.auxiliar import ordenador
         ordenador.ordenar_ficheiros_csv()
     elif opcao == OPCAO_SQLITE:
-        from viajar import sqlite_interface
+        from viajar.auxiliar import sqlite_interface
         sqlite_interface.SQLiteBDInterface()

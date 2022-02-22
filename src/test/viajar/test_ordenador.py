@@ -1,6 +1,6 @@
 import unittest
 
-from viajar import ordenador
+from viajar.auxiliar import ordenador
 
 
 class TestOrdenador(unittest.TestCase):
