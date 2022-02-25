@@ -1,6 +1,7 @@
 import csv
 import pathlib
 from functools import cmp_to_key
+import os
 
 """
 Ordenador do conteúdo de ficheiros .csv
@@ -28,8 +29,7 @@ CSV_MUNICIPIO = 'municipio.csv'
 CSV_PROVINCIA = 'provincia.csv'
 
 # Path da directoria relativa à base de dados
-path = str(pathlib.Path(__file__).parent.absolute()) + '\\\\base_dados\\'
-path = path.replace('\\\\', '\\')  # Necessário para a execução dos testes
+path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '..', 'base_dados')
 
 # Posições dos campos dos ficheiros .csv
 LOCAL_A = 0
@@ -73,7 +73,7 @@ def ordenar_ficheiros_csv(ficheiro_a_ordenar=None, cabecalho=True):
 
     for ficheiro in ficheiros_a_ordenar:
         if ficheiro_a_ordenar is None:
-            path_csv = path + ficheiro
+            path_csv = os.path.join(path, ficheiro)
         else:
             path_csv = ficheiro
 
@@ -97,8 +97,8 @@ def ordenar_ligacoes_destinos():
         -Tabela destino: inverter origem (False -> True)
     :return:
     """
-    path_ligacao = path + CSV_LIGACAO
-    path_destino = path + CSV_DESTINO
+    path_ligacao = os.path.join(path, CSV_LIGACAO)
+    path_destino = os.path.join(path, CSV_DESTINO)
 
     for path_csv in [path_ligacao, path_destino]:
         linhas = csv_para_list(path_csv)

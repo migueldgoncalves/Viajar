@@ -67,7 +67,7 @@ PASTA_TEMP: Path = Path(PATH_BASE, '..', 'tmp')
 
 # Contêm a informação de países vinda do OpenStreetMap
 PASTA_OSM: Path = Path(PATH_BASE, '..', 'osm')
-OSM_GIBRALTAR: Path = Path(PASTA_OSM, 'gibraltar-latest.osm.pbf')
+OSM_GIBRALTAR: Path = Path(PASTA_OSM, 'andalucia-latest.osm.pbf')  # Ficheiro .pbf só para Gibraltar não disponível
 OSM_PORTUGAL: Path = Path(PASTA_OSM, 'portugal-latest.osm.pbf')
 OSM_ESPANHA: Path = Path(PASTA_OSM, 'spain-latest.osm.pbf')
 
@@ -95,7 +95,7 @@ FREGUESIA_HISTORICA: str = 'historic_parish'
 wkbfab = osmium.geom.WKBFactory()
 
 """
-Gera ficheiros .csv com informação de saídas de auto-estradas
+Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferroviárias, e suas ligações
 """
 
 
@@ -158,7 +158,7 @@ class GeradorInformacao:
         elif self.pais == vias.ESPANHA:
             self.ficheiro_osm: str = OSM_ESPANHA.path
         elif self.pais == vias.GIBRALTAR:
-            self.ficheiro_osm: str = OSM_ESPANHA.path
+            self.ficheiro_osm: str = OSM_GIBRALTAR.path
         # elif self.pais == vias.ANDORRA:
         #     self.ficheiro_osm: str = OSM_ANDORRA.path
         else:
@@ -211,7 +211,7 @@ class GeradorInformacao:
         elif self.pais == vias.ESPANHA:
             self.ficheiro_osm: str = OSM_ESPANHA.path
         elif self.pais == vias.GIBRALTAR:
-            self.ficheiro_osm: str = OSM_ESPANHA.path
+            self.ficheiro_osm: str = OSM_GIBRALTAR.path
         # elif self.pais == vias.ANDORRA:
         #     self.ficheiro_osm: str = OSM_ANDORRA.path
         else:
@@ -377,39 +377,18 @@ class GeradorInformacao:
         if invertido:
             conteudo = list(reversed(conteudo))
 
-        if self.via_tipo == VIA_FERROVIA:
-            area_tipo = calculadora_distancias.AREA_INTERCIDADES  # Para ferrovias não se irá distinguir o tipo de área
-        else:  # Estrada
-            print(f'Qual o tipo de área que está a ser coberta?')
-            print("Escreva a opção desejada e pressione ENTER")
-            print(f"{OPCAO_SAIR} - Sair do programa")
-            print(f"{OPCAO_AREA_INTERCIDADES} - Área intercidades. Adequada para auto-estradas e outras vias importantes")
-            print(f"{OPCAO_AREA_URBANA} - Área urbana. Adequada para ruas dentro da mesma cidade")
-            while True:
-                opcao = input("Escreva a opção desejada e pressione ENTER: ")
-                if opcao == str(OPCAO_SAIR):
-                    print("Escolheu sair.")
-                    print("Boa viagem!")
-                    exit(0)
-                elif opcao == str(OPCAO_AREA_INTERCIDADES):
-                    print(f"A área será intercidades")
-                    area_tipo = calculadora_distancias.AREA_INTERCIDADES
-                    break
-                elif opcao == str(OPCAO_AREA_URBANA):
-                    print(f"A área será urbana")
-                    area_tipo = calculadora_distancias.AREA_URBANA
-                    break
-
-        # Gerar mapa para depois se calcularem as distâncias
+        # Gerar mapa para depois com ele se calcularem as distâncias
         todas_coordenadas: Set[Tuple[float, float]] = set()
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
+                if conteudo[idx + 1].strip() == '':  # Linha vazia - Parar processamento aqui
+                    break
                 latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
                 latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
                 todas_coordenadas.add((latitude_a, longitude_a))
                 todas_coordenadas.add((latitude_b, longitude_b))
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
-        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, area_tipo, self.ficheiro_osm)
+        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, self.ficheiro_osm, via_nome=self.via_nome)
 
         ligacoes: list = []
         destinos: list = []
@@ -426,16 +405,20 @@ class GeradorInformacao:
                     meio_transporte: str = 'Comboio'
                 else:
                     meio_transporte: str = 'Carro'
+
                 info_extra: str = self.via_identificador
                 latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
                 latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
-                distancia: float = calc_dist.calcular_distancia((latitude_a, longitude_a), (latitude_b, longitude_b))
+                ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
+                ordem_a = 2
+                ordem_b = 1
+
+                distancia: float = calc_dist.calcular_distancia_com_ajustes((latitude_a, longitude_a), (latitude_b, longitude_b))
                 if distancia == calculadora_distancias.DISTANCIA_INFINITA:
                     print("Não foi possível calcular distância - Continuando...")
                     distancia = 0.0
-                ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
 
-                ligacao: str = f'{local_a},{local_b},{meio_transporte},{distancia},{info_extra},{ponto_cardeal},2,1\n'
+                ligacao: str = f'{local_a},{local_b},{meio_transporte},{distancia},{info_extra},{ponto_cardeal},{ordem_a},{ordem_b}\n'
                 destino_false: str = f'{local_a},{local_b},{meio_transporte},False,\n'
                 destino_true: str = f'{local_a},{local_b},{meio_transporte},True,\n'
 
@@ -443,7 +426,7 @@ class GeradorInformacao:
                 destinos.append(destino_false)
                 destinos.append(destino_true)
 
-                print(f'{idx + 1}/{len(conteudo) - 1} ligações processadas')
+                print(f'{idx + 1}/{len(conteudo) - 1} ligações processadas')  # Conta todas as linhas mesmo com linhas vazias pelo meio
 
         with open(self.ligacao_path.path, 'w', encoding=ENCODING) as f:
             f.writelines(ligacoes)

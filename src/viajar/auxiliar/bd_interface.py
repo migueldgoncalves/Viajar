@@ -1,14 +1,14 @@
 import pathlib
 import psycopg2
 from psycopg2 import OperationalError
+import os
 
 from viajar import viajar, local_portugal, local_espanha, local_gibraltar
 
 
 class BDInterface:
     # Path da directoria relativa à base de dados
-    path = str(pathlib.Path(__file__).parent.absolute()) + '\\viajar\\base_dados\\'
-    path = path.replace('\\viajar\\viajar', '\\viajar')  # Necessário para a execução dos testes
+    path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '..', 'base_dados')
 
     base_dados = 'viajar'
     utilizador = 'postgres'
@@ -30,7 +30,7 @@ class BDInterface:
             self.cursor = self.ligacao.cursor()
 
             #  Cria e preenche a base de dados
-            path_script = self.path + 'base_dados.sql'
+            path_script = os.path.join(self.path, 'base_dados.sql')
             with open(path_script, mode='r') as file:
                 queries = file.read().split(';\n')
             for query in queries:
@@ -176,52 +176,52 @@ class BDInterface:
 
     #  Preenche a base de dados
     def preencher_base_dados(self):
-        path_csv = self.path + 'local.csv'
+        path_csv = os.path.join(self.path, 'local.csv')
         query = "COPY local(nome, latitude, longitude, altitude, info_extra, lote) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'concelho.csv'
+        path_csv = os.path.join(self.path, 'concelho.csv')
         query = "COPY concelho(concelho, entidade_intermunicipal, distrito, regiao) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'provincia.csv'
+        path_csv = os.path.join(self.path, 'provincia.csv')
         query = "COPY provincia(provincia, comunidade_autonoma) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'municipio.csv'
+        path_csv = os.path.join(self.path, 'municipio.csv')
         query = "COPY municipio(municipio, provincia) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_portugal.csv'
+        path_csv = os.path.join(self.path, 'local_portugal.csv')
         query = "COPY local_portugal(nome, freguesia, concelho) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_espanha.csv'
+        path_csv = os.path.join(self.path, 'local_espanha.csv')
         query = "COPY local_espanha(nome, municipio, provincia, distrito) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'local_gibraltar.csv'
+        path_csv = os.path.join(self.path, 'local_gibraltar.csv')
         query = "COPY local_gibraltar(nome, major_residential_area) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'comarca.csv'
+        path_csv = os.path.join(self.path, 'comarca.csv')
         query = "COPY comarca(municipio, comarca, provincia) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'ligacao.csv'
+        path_csv = os.path.join(self.path, 'ligacao.csv')
         query = "COPY ligacao(local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a, " \
                 "ordem_b) FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = self.path + 'destino.csv'
+        path_csv = os.path.join(self.path, 'destino.csv')
         query = "COPY destino(local_a, local_b, meio_transporte, origem, destino) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
