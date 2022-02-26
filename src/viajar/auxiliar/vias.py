@@ -96,6 +96,7 @@ PT_IC27 = ("IC27", "IC 27", PORTUGAL)
 
 ES_CERCANIAS_MADRID_C3 = ("Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", ESPANHA, VIA_FERROVIA)
 ES_CIUDAD_REAL_BADAJOZ = ("Ciudad Real-Badajoz", ESPANHA, VIA_FERROVIA)
+ES_METRO_MADRID_LINHA_8 = ("Línea 8: Nuevos Ministerios-Aeropuerto T4", ESPANHA, VIA_FERROVIA)
 
 PT_METRO_LISBOA_LINHA_VERMELHA = ("Linha Vermelha: São Sebastião → Aeroporto", PORTUGAL, VIA_FERROVIA)
 PT_LINHA_DE_CASCAIS = ("Linha de Cascais", PORTUGAL, VIA_FERROVIA)

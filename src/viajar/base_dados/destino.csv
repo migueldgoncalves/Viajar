@@ -713,6 +713,9 @@ A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,False,Burgos
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,M-11
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,M-30
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,Madrid
+A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,False,M-30 - A-2/A-3/A-4
+A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,False,Madrid
+A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,True,Burgos
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Aeroporto de Madrid-Barajas
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-30 - Todas as direcções
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-40 - Todas as direcções
@@ -757,7 +760,7 @@ A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Alcalá de Henares
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Barcelona
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,False,Zaragoza
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,Feria de Madrid
-A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-12 - Aeroporto de Madrid-Barajas-Terminal 4
+A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-12 - Aeroporto de Madrid-Barajas Terminal 4
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-14 - Aeroporto de Madrid-Barajas
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,M-40 - Todas as direcções
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Carro,True,Madrid - Avenida de América
@@ -4848,6 +4851,44 @@ Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,A-5
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,A-6
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,M-607 - Colmenar Viejo
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,True,Madrid - Paseo de la Castellana
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,A-2 - Zaragoza
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,A-3
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,A-4
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,Feria de Madrid
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,R-2 - Zaragoza
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,R-3
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,False,R-4
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,True,A-5
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,True,A-6
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,True,A-42
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,True,M-607 - Colmenar Viejo/Tres Cantos
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,True,R-5
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,A-5
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,A-6
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,M-30 - Madrid
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,M-607
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-2 - Zaragoza
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-3
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-4
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,Feria de Madrid
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,R-2 - Zaragoza
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,R-3
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,R-4
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,False,A-2 - Madrid/Zaragoza
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,False,M-40
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,True,M-11
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,True,M-12
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,True,M-13
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,A-2 - Zaragoza
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,M-30
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,Madrid - Avenida de América
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,A-2 - Zaragoza
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,M-21 - Centro de Transportes de Coslada/Porto Seco de Madrid/San Fernando
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,M-40 - A-3/A-4/R-3/R-4
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-3 - Valencia
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-4
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,False,A-5
@@ -4897,6 +4938,31 @@ Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,False,Aeroporto de Madrid-Ba
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,A-5 - Badajoz
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,A-6 - A Coruña
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,True,Madrid - Glorieta de Pirámides
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,False,A-3 - Valência
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,False,A-4
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,False,A-42
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,False,R-4
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,A-1
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,A-2
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,Feria de Madrid
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,M-607
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,R-2
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,True,R-3 - Valência
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,A-1
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,A-2
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,A-3 - Valência
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,Feria de Madrid
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,M-607
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,R-2
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,False,R-3 - Valência
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,A-4 - Córdoba
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,A-5
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,A-6
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,A-42
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,R-4 - Córdoba
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,True,R-5
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Aranjuez
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Madrid
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,False,Ocaña
@@ -4935,6 +5001,30 @@ Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,False,A-3 - Valencia
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-5
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-6
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,True,A-42 - Toledo
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,False,A-4
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,False,A-5
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,False,A-6
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,False,A-42
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,False,M-30
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,A-1
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,A-2
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,A-3 - Valência
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,Feria de Madrid
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,R-2
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,True,R-3 - Valência
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,A-2
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,A-3
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,A-4 - Córdoba
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,Feria de Madrid
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,R-3
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,False,R-4 - Córdoba
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,True,A-5
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,True,A-6
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,True,A-42 - Toledo
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,True,M-607
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,True,R-5
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-2
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-3
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,False,A-4 - Córdoba
@@ -5052,15 +5142,15 @@ Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-3
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-4
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-5 - Badajoz
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,True,A-42
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-4
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-5
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-6 - A Coruña
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,False,A-42
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-1
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-2
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,A-3
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Aeroporto de Madrid-Barajas
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,True,Madrid - Avenida de la Ilustración
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,False,A-4
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,False,A-5
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,False,A-6 - A Coruña
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,False,A-42
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,True,A-1
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,True,A-2
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,True,A-3
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,True,Madrid - Avenida de la Ilustración
 Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-1
 Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-2
 Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,False,A-6 - A Coruña
@@ -5347,6 +5437,76 @@ Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,True,Lep
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,False,Lepe
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Ayamonte
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,True,Portugal
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,A-2
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,A-3
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,A-4
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,A-5
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,M-40
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,Madrid - Avenida de América
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,False,Madrid - Centro da cidade
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,True,M-12
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,True,M-13
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,A-2 - Zaragoza
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,A-3
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,A-4
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,Feria de Madrid
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,False,R-3
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-1
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-5
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,A-6
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,M-607
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,True,R-2 - Zaragoza
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,False,A-1
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,False,A-5
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,False,A-6
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,False,M-607
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,False,R-2 - Zaragoza
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,True,A-2 - Zaragoza
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,True,A-3
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,True,A-4
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,True,R-3
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,True,R-4
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,A-1
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,A-5
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,A-6
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,Feria de Madrid
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,M-12 - Aeroporto de Madrid-Barajas Terminal 4
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,M-607
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,False,R-2 - Zaragoza
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,A-2 - Zaragoza
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,A-3
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,A-4
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,A-42
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,R-3
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,R-4
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,True,R-5
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,A-2 - Zaragoza
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,A-3
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,A-4
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,R-3
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,False,R-4
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,True,A-1
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,True,A-5
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,True,A-6
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,True,Feria de Madrid
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,True,M-607
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,A-1
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,A-2 - Zaragoza
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,A-5
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,A-6
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,Feria de Madrid
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,M-607
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,False,R-2 - Zaragoza
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,A-3 - Valência
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,A-4
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,A-5
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,A-42
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,R-3 - Valência
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,True,R-4
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-3 - Valencia
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-4
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,False,A-5
@@ -5391,6 +5551,30 @@ Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,True,Madrid - Paseo de la 
 Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,False,M-30 - A-1/A-2/A-3/A-4/Aeroporto de Madrid-Barajas/Feria de Madrid/Paseo de la Castellana
 Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,True,Colmenar Viejo
 Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,True,Tres Cantos
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,A-4 - Córdoba
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,A-5
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,A-6
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,A-42
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,R-4 - Córdoba
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,False,R-5
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,A-1
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,A-2
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,A-3 - Valência
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,Feria de Madrid
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,M-607
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,R-2
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,True,R-3 - Valência
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,False,A-2
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,False,A-3
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,False,R-3
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,False,R-4
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,True,A-4 - Córdoba
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,True,A-5
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,True,A-6
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,True,A-42
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,True,R-5
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,False,A-6
@@ -5442,6 +5626,32 @@ Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-5
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-6 - A Coruña
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,A-42
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,True,R-5
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,False,A-3 - Valência
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,False,A-4
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,False,A-42
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,False,R-4
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,False,R-5
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,A-1
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,A-2 - Zaragoza
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,A-5
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,A-6
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,Feria de Madrid
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,M-607
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,True,R-2 - Zaragoza
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,A-1
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,A-2 - Zaragoza
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,A-5
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,A-6
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,Feria de Madrid
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,M-607
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,False,R-2 - Zaragoza
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,True,A-3 - Valência
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,True,A-4
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,True,A-42
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,True,R-4
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,True,R-5
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-3
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,False,A-4 - Córdoba
@@ -7137,6 +7347,15 @@ Livramento,Luz de Tavira,Carro,True,Vila Real de Santo António
 Luzianes,São Martinho das Amoreiras,Carro,False,Monchique
 Luzianes,São Martinho das Amoreiras,Carro,True,Beja
 Luzianes,São Martinho das Amoreiras,Carro,True,Ourique
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,False,A-1
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,False,Aeroporto de Madrid-Barajas - Terminal 4
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,False,M-12
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,False,M-13
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,False,R-2
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,True,A-2
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,True,M-40
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,True,Madrid - Centro da cidade
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,True,Todas as direcções
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-3
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-4
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,False,A-5 - Badajoz
@@ -7270,6 +7489,15 @@ M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-1
 M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-2
 M-30 - Saída 19,M-30 - Saída 20,Carro,True,A-6 - A Coruña
 M-30 - Saída 19,M-30 - Saída 20,Carro,True,Aeroporto de Madrid-Barajas
+M-30 - Saída 23B,M-30 - Saída 24,Carro,False,A-4
+M-30 - Saída 23B,M-30 - Saída 24,Carro,False,A-5
+M-30 - Saída 23B,M-30 - Saída 24,Carro,False,A-6 - A Coruña
+M-30 - Saída 23B,M-30 - Saída 24,Carro,False,A-42
+M-30 - Saída 23B,M-30 - Saída 24,Carro,True,A-1
+M-30 - Saída 23B,M-30 - Saída 24,Carro,True,A-2
+M-30 - Saída 23B,M-30 - Saída 24,Carro,True,A-3
+M-30 - Saída 23B,M-30 - Saída 24,Carro,True,Aeroporto de Madrid-Barajas
+M-30 - Saída 23B,M-30 - Saída 24,Carro,True,Madrid - Avenida de la Ilustración
 M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-4
 M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-5
 M-30 - Saída 24,M-30 - Saída 25,Carro,False,A-6 - Plaza Moncloa
@@ -7291,6 +7519,75 @@ M-30 - Saída 26,M-30 - Saída 27,Carro,False,A-42
 M-30 - Saída 26,M-30 - Saída 27,Carro,True,A-2
 M-30 - Saída 26,M-30 - Saída 27,Carro,True,A-3
 M-30 - Saída 26,M-30 - Saída 27,Carro,True,Madrid - Avenida de la Ilustración
+M-40 - Saída 5,M-40 - Saída 6,Carro,False,A-1
+M-40 - Saída 5,M-40 - Saída 6,Carro,False,A-5
+M-40 - Saída 5,M-40 - Saída 6,Carro,False,A-6
+M-40 - Saída 5,M-40 - Saída 6,Carro,False,M-607
+M-40 - Saída 5,M-40 - Saída 6,Carro,False,R-2 - Zaragoza
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,A-2 - Zaragoza
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,A-3
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,A-4
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,Aeroporto de Madrid-Barajas
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,R-3
+M-40 - Saída 5,M-40 - Saída 6,Carro,True,R-4
+M-40 - Saída 6,M-40 - Saída 7,Carro,False,A-1
+M-40 - Saída 6,M-40 - Saída 7,Carro,False,A-5
+M-40 - Saída 6,M-40 - Saída 7,Carro,False,A-6
+M-40 - Saída 6,M-40 - Saída 7,Carro,False,M-607
+M-40 - Saída 6,M-40 - Saída 7,Carro,False,R-2 - Zaragoza
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,A-2 - Zaragoza
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,A-3
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,A-4
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,Aeroporto de Madrid-Barajas
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,R-3
+M-40 - Saída 6,M-40 - Saída 7,Carro,True,R-4
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,A-1
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,A-2
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,Aeroporto de Madrid-Barajas
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,Feria de Madrid
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,M-607
+M-40 - Saída 10,M-40 - Saída 12,Carro,False,R-2
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,A-3 - Valência
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,A-4
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,A-42
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,R-3 - Valência
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,R-4
+M-40 - Saída 10,M-40 - Saída 12,Carro,True,R-5
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,A-1
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,A-2
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,A-3 - Valência
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,Aeroporto de Madrid-Barajas
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,Feria de Madrid
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,M-607
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,R-2
+M-40 - Saída 19A,M-40 - Saída 20,Carro,False,R-3 - Valência
+M-40 - Saída 19A,M-40 - Saída 20,Carro,True,A-4
+M-40 - Saída 19A,M-40 - Saída 20,Carro,True,A-5
+M-40 - Saída 19A,M-40 - Saída 20,Carro,True,A-6
+M-40 - Saída 19A,M-40 - Saída 20,Carro,True,A-42
+M-40 - Saída 19A,M-40 - Saída 20,Carro,True,R-5
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,A-2
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,A-3
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,A-4 - Córdoba
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,Aeroporto de Madrid-Barajas
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,Feria de Madrid
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,R-3
+M-40 - Saída 22,M-40 - Saída 23,Carro,False,R-4 - Córdoba
+M-40 - Saída 22,M-40 - Saída 23,Carro,True,A-5
+M-40 - Saída 22,M-40 - Saída 23,Carro,True,A-6
+M-40 - Saída 22,M-40 - Saída 23,Carro,True,A-42
+M-40 - Saída 22,M-40 - Saída 23,Carro,True,M-607
+M-40 - Saída 22,M-40 - Saída 23,Carro,True,R-5
+M-40 - Saída 23,M-40 - Saída 24,Carro,False,A-1
+M-40 - Saída 23,M-40 - Saída 24,Carro,False,A-2
+M-40 - Saída 23,M-40 - Saída 24,Carro,False,A-3
+M-40 - Saída 23,M-40 - Saída 24,Carro,False,A-4
+M-40 - Saída 23,M-40 - Saída 24,Carro,False,Aeroporto de Madrid-Barajas
+M-40 - Saída 23,M-40 - Saída 24,Carro,True,A-5
+M-40 - Saída 23,M-40 - Saída 24,Carro,True,A-6
+M-40 - Saída 23,M-40 - Saída 24,Carro,True,A-42 - Toledo
+M-40 - Saída 23,M-40 - Saída 24,Carro,True,M-607
+M-40 - Saída 23,M-40 - Saída 24,Carro,True,R-5 - Badajoz/Toledo
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-3
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-4
 M-40 - Saída 30,M-40 - Saída 31,Carro,False,A-42

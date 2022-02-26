@@ -194,6 +194,7 @@ A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Carro,2.3,A26-1,S,1,2
 A26-1 - Saída 2,A26-1 - Saída 3,Carro,2.0,A26-1,NE,2,1
 A26-1 - Saída 3,Vila Nova de Santo André,Carro,1.0,A26-1,N,2,1
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,2.3,A-1,SO,1,3
+A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,0.9,A-1,N,2,3
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,0.8,A-2,SO,1,1
 A-2 - Saída 3,Cruzamento da A-2 com a M-30,Carro,0.5,A-2,NE,2,3
 A-2 - Saída 4C,A-2 - Saída 5,Carro,0.8,A-2,NE,2,1
@@ -1077,7 +1078,7 @@ Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Avião,187.7,,NO,6,8
 Aeródromo de Portimão,Alvor,Carro,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Carro,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,4.6,,SE,2,8
-Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Avião,415.5,,N,2,4
+Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Avião,415.5,,N,2,5
 Aeroporto de Almería,Aeroporto de Málaga - Costa del Sol,Avião,190.3,,E,5,10
 Aeroporto de Almería,Aeroporto de Sevilha,Avião,319.5,,NO,4,13
 Aeroporto de Almería,Aeroporto Federico García Lorca Granada-Jaén,Avião,130.9,,NO,3,7
@@ -1130,8 +1131,10 @@ Aeroporto de Lisboa - Terminal 1,"Estação Aeroporto, Metro de Lisboa",Transbor
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 2,Carro,0.4,,E,2,3
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 3,Carro,0.9,,SO,1,3
 Aeroporto de Madrid-Barajas - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 2,Transbordo,0.0,,N,1,3
+Aeroporto de Madrid-Barajas - Terminal 1,M-14 - T1-T2-T3 Sul,Carro,0.5,,SO,2,3
 Aeroporto de Madrid-Barajas - Terminal 2,Aeroporto de Madrid-Barajas - Terminal 3,Transbordo,0.0,,NO,2,2
 Aeroporto de Madrid-Barajas - Terminal 2,Estação de Aeropuerto T1-T2-T3,Transbordo,0.0,,O,1,4
+Aeroporto de Madrid-Barajas - Terminal 2,M-14 - T1-T2-T3 Sul,Carro,0.9,,SO,4,4
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Málaga - Costa del Sol,Avião,429.8,,S,8,8
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Sevilha,Avião,395.2,,SO,9,11
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto Federico García Lorca Granada-Jaén,Avião,367.0,,S,10,6
@@ -1527,11 +1530,17 @@ Cruzamento da A26 com a A26-1,Sines,Carro,3.5,,SO,4,4
 Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Carro,0.9,M-11,E,4,1
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Carro,1.3,M-30,S,1,2
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Carro,1.0,M-30,O,2,1
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a M-607,Carro,2.8,M-40,O,2,1
+Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Carro,2.0,M-40,SE,1,2
+Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Carro,1.1,M-14,NE,4,1
+Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Carro,1.1,M-14,S,3,3
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Carro,0.8,M-30,N,2,1
 Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Carro,0.8,M-30,S,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Carro,0.7,M-30,NE,2,1
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Carro,1.4,M-30,SO,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Carro,5.7,M-30 - Bypass Sul,SO,3,3
+Cruzamento da A-3 com a M-40,M-40 - Saída 14,Carro,1.6,M-40,N,2,1
+Cruzamento da A-3 com a M-40,M-40 - Saída 16,Carro,0.8,M-40,SO,1,2
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Carro,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a A-44,Cruzamento da A-32 com a A-44,Carro,3.0,A-44,SE,3,1
 Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Carro,17.2,AP-4,NE,1,2
@@ -1539,6 +1548,8 @@ Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Carro,2.9,AP-4,O,2,1
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Carro,6.4,R-4,NO,3,2
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Carro,1.5,M-30,NE,2,1
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Carro,0.9,M-30,NO,1,2
+Cruzamento da A-4 com a M-40,M-40 - Saída 20,Carro,1.1,M-40,E,2,1
+Cruzamento da A-4 com a M-40,M-40 - Saída 22,Carro,0.6,M-40,O,1,2
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Carro,2.5,M-50,O,1,2
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Carro,2.4,SE-20,NO,3,2
 Cruzamento da A-4 Norte com a SE-30,Ronda Urbana Norte de Sevilha - Poligono Calonge,Carro,0.7,Ronda Urbana Norte de Sevilha,N,2,1
@@ -1556,7 +1567,7 @@ Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Carro,4.2,M-40,NO,1,
 Cruzamento da A-5 com a M-40,M-40 - Saída 31,Carro,1.3,M-40,SE,2,1
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Carro,2.6,R-5,E,3,1
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Carro,1.1,M-30,S,2,1
-Cruzamento da A-6 com a M-30,M-30 - Saída 24,Carro,2.4,M-30,N,1,2
+Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Carro,1.5,M-30,N,1,2
 Cruzamento da A-6 com a M-40,M-40 - Saída 45,Carro,1.5,M-40,O,2,1
 Cruzamento da A-6 com a M-40,M-40 - Saída 51,Carro,4.3,M-40,E,1,2
 Cruzamento da A-6 com a M-50,M-50 - Saída 83,Carro,1.8,M-50,SO,3,1
@@ -1621,16 +1632,26 @@ Cruzamento da M544 com a N261,IP8 - Cruzamento com a N261,Carro,7.7,,S,3,5
 Cruzamento da M544 com a N261,Lagoa de Santo André,Carro,3.9,,O,1,2
 Cruzamento da M544 com a N261,Melides,Carro,6.1,,N,5,2
 Cruzamento da M544 com a N261,Vila Nova de Santo André,Carro,7.0,,SO,2,4
+Cruzamento da M-11 com a M-14,M-14 - T1-T2-T3 Sul,Carro,0.6,M-14,NE,2,1
+Cruzamento da M-11 com a M-40,Cruzamento da M-40 com a R-2,Carro,1.9,M-40,N,2,1
+Cruzamento da M-11 com a M-40,M-40 - Saída 5,Carro,1.8,M-40,SE,1,2
+Cruzamento da M-12 com a M-40,Cruzamento da M-14 com a M-21 e a M-40,Carro,1.8,M-40,SE,1,2
+Cruzamento da M-12 com a M-40,M-40 - Saída 7,Carro,0.9,M-40,O,2,1
+Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Carro,1.3,M-40,S,1,2
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Carro,0.8,M-30,N,2,1
 Cruzamento da M-23 com a M-30,M-30 - Saída 8,Carro,0.8,M-30,SO,1,2
 Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Carro,0.5,M-30 - Avenida de la Ilustración,O,2,1
 Cruzamento da M-30 com a M-607,M-30 - Saída 31,Carro,0.9,M-30,SE,1,2
 Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Carro,0.6,M-607,NO,3,1
+Cruzamento da M-31 com a M-40,M-40 - Saída 16,Carro,2.4,M-40,NE,2,1
+Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Carro,0.8,M-40,SO,1,2
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Carro,1.0,M-45,SE,3,3
 Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Carro,0.8,M-40,E,2,1
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Carro,1.3,M-40,O,1,2
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Carro,2.0,M-40,NE,1,2
-Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,3.7,M-40,SO,1,1
+Cruzamento da M-40 com a M-607,M-40 - Saída 54,Carro,3.7,M-40,SO,2,1
+Cruzamento da M-40 com a R-3,M-40 - Saída 12,Carro,1.1,M-40,NE,2,1
+Cruzamento da M-40 com a R-3,M-40 - Saída 14,Carro,0.9,M-40,SO,1,2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Carro,1.3,R-5,SO,3,2
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Carro,0.9,M-40,SO,1,2
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Carro,4.1,M-50,S,2,1
@@ -1797,9 +1818,9 @@ Estação da Póvoa,Estação de Santa Iria,Comboio,2.6,Linha da Azambuja/Linha 
 Estação da Póvoa,Gare do Oriente,Comboio,11.0,Linha da Azambuja/Linha do Norte - Regional,S,3,7
 Estação das Mercês,Estação de Algueirão - Mem Martins,Comboio,1.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação das Mercês,Estação de Rio de Mouro,Comboio,1.1,Linha de Sintra - CP Lisboa,SE,1,2
-Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,1.3,Linha 8 - Metro de Madrid,NO,1,2
-Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,3.9,Linha 8 - Metro de Madrid,O,2,1
-Estação de Aeropuerto T4,Estação de Barajas,Metro,1.9,Linha 8 - Metro de Madrid,SE,3,1
+Estação de Aeropuerto T1-T2-T3,Estação de Barajas,Metro,1.4,Linha 8 - Metro de Madrid,NO,1,2
+Estação de Aeropuerto T1-T2-T3,Estação de Feria de Madrid,Metro,4.0,Linha 8 - Metro de Madrid,O,2,1
+Estação de Aeropuerto T4,Estação de Barajas,Metro,2.1,Linha 8 - Metro de Madrid,SE,3,1
 Estação de Aeropuerto T4,Estação de Valdebebas,Comboio,2.6,Linhas C-1/C-10 - Cercanías Madrid,SO,1,2
 Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Comboio,2.2,Linha de Sintra - CP Lisboa,SE,1,2
 Estação de Agualva - Cacém,Estação de Mira Sintra - Meleças,Comboio,3.0,Linha de Sintra - CP Lisboa/InterRegional/Regional,NO,3,1
@@ -1877,7 +1898,7 @@ Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
 Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
 Estação de Colombia,Estação de Nuevos Ministerios,Metro,1.8,Linha 8 - Metro de Madrid,SO,2,1
-Estação de Colombia,Estação de Pinar del Rey,Metro,2.8,Linha 8 - Metro de Madrid,NE,1,2
+Estação de Colombia,Estação de Pinar del Rey,Metro,2.9,Linha 8 - Metro de Madrid,NE,1,2
 Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidade,125.6,LAV Madrid-Sevilha,SO,1,3
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Comboio,2.6,Linha do Sul - Fertagus,SE,1,2
@@ -1904,7 +1925,9 @@ Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Intercidad
 Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,15.8,Linha do Algarve,NO,5,7
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
-Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,2.0,Linha 8 - Metro de Madrid,O,2,1
+Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,2.3,Linha 8 - Metro de Madrid,O,2,1
+Estação de Feria de Madrid,M-40 - Saída 5,Carro,0.7,,O,3,3
+Estação de Feria de Madrid,M-40 - Saída 6,Carro,1.1,,S,4,3
 Estação de Fernando Pó,Estação de Pegões,Comboio,7.0,Linha do Alentejo - Intercidades,E,1,2
 Estação de Fernando Pó,Estação de Poceirão,Comboio,4.5,Linha do Alentejo - Intercidades,O,2,1
 Estação de Ferragudo,Estação de Portimão,Comboio,2.0,Linha do Algarve - Regional,NO,3,4
@@ -2190,6 +2213,7 @@ Luz de Tavira,Moncarapacho,Carro,7.9,,O,4,2
 Luz de Tavira,Santo Estêvão,Carro,4.2,,N,5,4
 "Luz, Lagos",N125 - Acesso à Saída 1 da A22,Carro,4.2,,NE,2,5
 Luzianes,São Martinho das Amoreiras,Carro,12.4,N123,NE,3,1
+M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Carro,1.3,M-14,S,1,2
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Carro,1.0,M-30,NO,1,2
 M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Carro,0.6,M-30 - Avenida de la Ilustración,SO,2,1
 M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Carro,0.4,M-30 - Avenida de la Ilustración,O,2,1
@@ -2205,10 +2229,17 @@ M-30 - Saída 10,M-30 - Saída 11,Carro,0.5,M-30,SO,1,2
 M-30 - Saída 15,M-30 - Saída 16,Carro,1.1,M-30,NO,1,2
 M-30 - Saída 16,M-30 - Saída 17,Carro,0.7,M-30,N,1,2
 M-30 - Saída 19,M-30 - Saída 20,Carro,1.6,M-30,NO,1,2
+M-30 - Saída 23B,M-30 - Saída 24,Carro,0.9,M-30,N,1,2
 M-30 - Saída 24,M-30 - Saída 25,Carro,0.6,M-30,N,1,2
 M-30 - Saída 25,M-30 - Saída 26,Carro,1.3,M-30,E,1,2
 M-30 - Saída 25,M-40 - Saída 51,Carro,0.7,,NO,3,3
 M-30 - Saída 26,M-30 - Saída 27,Carro,0.6,M-30,E,1,2
+M-40 - Saída 5,M-40 - Saída 6,Carro,0.6,M-40,SE,1,2
+M-40 - Saída 6,M-40 - Saída 7,Carro,0.8,M-40,SE,1,2
+M-40 - Saída 10,M-40 - Saída 12,Carro,1.8,M-40,SO,1,2
+M-40 - Saída 19A,M-40 - Saída 20,Carro,0.7,M-40,SO,1,2
+M-40 - Saída 22,M-40 - Saída 23,Carro,0.8,M-40,O,1,2
+M-40 - Saída 23,M-40 - Saída 24,Carro,1.8,M-40,O,1,2
 M-40 - Saída 30,M-40 - Saída 31,Carro,1.1,M-40,O,1,2
 M-40 - Saída 38,M-40 - Saída 40,Carro,1.6,M-40,NO,1,2
 M-40 - Saída 40,M-40 - Saída 41,Carro,2.2,M-40,N,1,2
