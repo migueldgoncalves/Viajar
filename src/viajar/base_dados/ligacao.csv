@@ -539,7 +539,22 @@ A-5 - Saída 395,Urbanização Mirador de Cerro Gordo,Carro,1.4,N-5,E,3,1
 A-5 - Saída 400,A-5 - Saída 403,Carro,3.0,A-5,SO,1,2
 A-5 - Saída 403,A-5 - Saída 407,Carro,3.8,A-5,SO,1,2
 A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,1.4,A-5R,E,2,3
-A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,2.8,A-6,NO,1,1
+A-6 - Palacio de la Moncloa,A-6 - Saída 5,Carro,0.6,A-6,NO,2,1
+A-6 - Palacio de la Moncloa,"Plaza del Cardenal Cisneros, Madrid",Carro,0.8,A-6,SE,1,2
+A-6 - Parque Deportivo,A-6 - Saída 8,Carro,0.8,A-6,O,2,1
+A-6 - Parque Deportivo,Cruzamento da A-6 com a M-30,Carro,0.7,A-6,SE,1,4
+A-6 - Saída 5,Cruzamento da A-6 com a M-30,Carro,0.8,A-6,NO,2,3
+A-6 - Saída 8,A-6 - Saída 9,Carro,1.1,A-6,O,2,1
+A-6 - Saída 9,A-6 - Saída 10A,Carro,0.5,A-6,O,2,1
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,0.6,A-6,O,2,1
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,1.2,A-6,O,2,3
+A-6 - Saída 12,A-6 - Saída 13,Carro,0.6,A-6,O,2,1
+A-6 - Saída 12,Cruzamento da A-6 com a M-40,Carro,1.3,A-6,E,1,4
+A-6 - Saída 13,A-6 - Saída 15,Carro,2.2,A-6,O,2,1
+A-6 - Saída 15,A-6 - Saída 17,Carro,1.1,A-6,O,2,1
+A-6 - Saída 17,A-6 - Saída 18,Carro,0.9,A-6,NO,2,1
+A-6 - Saída 18,A-6 - Saída 19,Carro,1.6,A-6,NO,2,1
+A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,2.8,A-6,NO,2,1
 A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,2.3,A-6,S,1,2
 A-7 - Saída 103,A-7 - Saída 104,Carro,1.6,A-7,NO,1,1
 A-7 - Saída 104,A-7 - Saída 105,Carro,0.8,A-7,NO,2,1
@@ -1280,6 +1295,7 @@ Aquopolis Cartaya,El Rompido,Carro,6.0,,S,2,1
 Arahal,Carmona,Carro,26.2,,NO,2,7
 Arahal,Marchena,Comboio,13.3,Linha Utrera-Fuente de Piedra - Media Distancia,NE,7,6
 Arahal,Paradas,Carro,6.2,,NE,3,1
+"Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,0.7,A-6,NO,1,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2

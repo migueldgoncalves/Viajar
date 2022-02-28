@@ -2006,6 +2006,55 @@ A-5 - Saída 403,A-5 - Saída 407,Carro,True,Elvas
 A-5 - Saída 403,A-5 - Saída 407,Carro,True,Lisboa
 A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,False,A-5 - Alcorcón/Badajoz/Madrid - Centro da cidade
 A-5R - Alcorcón Norte,M-40 - Saída 31,Carro,True,M-40 - Todas as direcções
+A-6 - Palacio de la Moncloa,A-6 - Saída 5,Carro,False,Madrid
+A-6 - Palacio de la Moncloa,A-6 - Saída 5,Carro,True,A Coruña
+A-6 - Palacio de la Moncloa,"Plaza del Cardenal Cisneros, Madrid",Carro,False,A Coruña
+A-6 - Palacio de la Moncloa,"Plaza del Cardenal Cisneros, Madrid",Carro,True,Madrid
+A-6 - Parque Deportivo,A-6 - Saída 8,Carro,False,Madrid - Calle de la Princesa
+A-6 - Parque Deportivo,A-6 - Saída 8,Carro,False,Madrid - Centro da cidade
+A-6 - Parque Deportivo,A-6 - Saída 8,Carro,True,A Coruña
+A-6 - Parque Deportivo,Cruzamento da A-6 com a M-30,Carro,False,A Coruña
+A-6 - Parque Deportivo,Cruzamento da A-6 com a M-30,Carro,True,Madrid - Calle de la Princesa
+A-6 - Parque Deportivo,Cruzamento da A-6 com a M-30,Carro,True,Madrid - Centro da cidade
+A-6 - Saída 5,Cruzamento da A-6 com a M-30,Carro,False,Madrid - Centro da cidade
+A-6 - Saída 5,Cruzamento da A-6 com a M-30,Carro,False,Madrid - Moncloa
+A-6 - Saída 5,Cruzamento da A-6 com a M-30,Carro,True,A Coruña
+A-6 - Saída 8,A-6 - Saída 9,Carro,False,Madrid - Calle de la Princesa
+A-6 - Saída 8,A-6 - Saída 9,Carro,False,Madrid - Centro da cidade
+A-6 - Saída 8,A-6 - Saída 9,Carro,True,A Coruña
+A-6 - Saída 9,A-6 - Saída 10A,Carro,False,M-30
+A-6 - Saída 9,A-6 - Saída 10A,Carro,False,Madrid - Centro da cidade
+A-6 - Saída 9,A-6 - Saída 10A,Carro,False,Madrid - Moncloa
+A-6 - Saída 9,A-6 - Saída 10A,Carro,True,A Coruña
+A-6 - Saída 9,A-6 - Saída 10A,Carro,True,Collado Villalba
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,False,M-30
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,False,Madrid - Centro da cidade
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,False,Madrid - Moncloa
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,True,A Coruña
+A-6 - Saída 10A,A-6 - Saída 10B,Carro,True,Collado Villalba
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,False,M-30
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,False,Madrid - Centro da cidade
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,False,Madrid - Moncloa
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,True,A Coruña
+A-6 - Saída 10B,Cruzamento da A-6 com a M-40,Carro,True,Collado Villalba
+A-6 - Saída 12,A-6 - Saída 13,Carro,False,Madrid
+A-6 - Saída 12,A-6 - Saída 13,Carro,True,A Coruña
+A-6 - Saída 12,A-6 - Saída 13,Carro,True,Collado Villalba
+A-6 - Saída 12,Cruzamento da A-6 com a M-40,Carro,False,A Coruña
+A-6 - Saída 12,Cruzamento da A-6 com a M-40,Carro,False,Collado Villalba
+A-6 - Saída 12,Cruzamento da A-6 com a M-40,Carro,True,Madrid
+A-6 - Saída 13,A-6 - Saída 15,Carro,False,Madrid
+A-6 - Saída 13,A-6 - Saída 15,Carro,True,A Coruña
+A-6 - Saída 13,A-6 - Saída 15,Carro,True,Collado Villalba
+A-6 - Saída 15,A-6 - Saída 17,Carro,False,Madrid
+A-6 - Saída 15,A-6 - Saída 17,Carro,True,A Coruña
+A-6 - Saída 15,A-6 - Saída 17,Carro,True,Collado Villalba
+A-6 - Saída 17,A-6 - Saída 18,Carro,False,Madrid
+A-6 - Saída 17,A-6 - Saída 18,Carro,True,A Coruña
+A-6 - Saída 17,A-6 - Saída 18,Carro,True,Collado Villalba
+A-6 - Saída 18,A-6 - Saída 19,Carro,False,Madrid
+A-6 - Saída 18,A-6 - Saída 19,Carro,True,A Coruña
+A-6 - Saída 18,A-6 - Saída 19,Carro,True,Collado Villalba
 A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,False,Madrid
 A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,True,A Coruña
 A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,False,A Coruña
@@ -4362,6 +4411,9 @@ Arahal,Marchena,Comboio,False,Dos Hermanas
 Arahal,Marchena,Comboio,False,Sevilha - Santa Justa
 Arahal,Marchena,Comboio,True,Bobadilla
 Arahal,Marchena,Comboio,True,Málaga - María Zambrano
+"Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,False,Estação de Moncloa
+"Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,True,A Coruña
+"Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,True,Madrid - Ciudad Universitaria
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha

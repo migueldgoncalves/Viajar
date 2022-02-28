@@ -381,12 +381,21 @@ class GeradorInformacao:
         todas_coordenadas: Set[Tuple[float, float]] = set()
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
+                linha_a: str = conteudo[idx]
+                linha_b: str = conteudo[idx + 1]
+                elementos_a: List[str] = linha_a.split(",")
+                elementos_b: List[str] = linha_b.split(",")
+                elementos_a: List[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: List[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+
                 if conteudo[idx + 1].strip() == '':  # Linha vazia - Parar processamento aqui
                     break
-                latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
-                latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
+
+                latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
+                latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
                 todas_coordenadas.add((latitude_a, longitude_a))
                 todas_coordenadas.add((latitude_b, longitude_b))
+
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
         calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, self.ficheiro_osm, via_nome=self.via_nome)
 
@@ -394,8 +403,15 @@ class GeradorInformacao:
         destinos: list = []
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
-                local_a: str = conteudo[idx].split(",")[0]
-                local_b: str = conteudo[idx + 1].split(",")[0].strip()
+                linha_a: str = conteudo[idx]
+                linha_b: str = conteudo[idx + 1]
+                elementos_a: List[str] = linha_a.split(",")
+                elementos_b: List[str] = linha_b.split(",")
+                elementos_a: List[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: List[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+
+                local_a: str = elementos_a[0]
+                local_b: str = elementos_b[0].strip()
 
                 if local_b == '':  # Linha vazia - Parar processamento aqui
                     print("Linha vazia encontrada - Processamento será apenas parcial")
@@ -407,8 +423,8 @@ class GeradorInformacao:
                     meio_transporte: str = 'Carro'
 
                 info_extra: str = self.via_identificador
-                latitude_a, longitude_a = float(conteudo[idx].split(',')[1]), float(conteudo[idx].split(',')[2])
-                latitude_b, longitude_b = float(conteudo[idx + 1].split(',')[1]), float(conteudo[idx + 1].split(',')[2])
+                latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
+                latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
                 ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
                 ordem_a = 2
                 ordem_b = 1

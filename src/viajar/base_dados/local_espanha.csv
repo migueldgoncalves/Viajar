@@ -298,6 +298,18 @@ A-5 - Saída 400,Badajoz,Badajoz,
 A-5 - Saída 403,Badajoz,Badajoz,
 A-5 - Saída 407,Badajoz,Badajoz,
 A-5R - Alcorcón Norte,Alcorcón,Comunidade de Madrid,Norte
+A-6 - Palacio de la Moncloa,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Parque Deportivo,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 5,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 8,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 9,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 10A,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 10B,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 12,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 13,Madrid,Comunidade de Madrid,Moncloa-Aravaca
+A-6 - Saída 15,Las Rozas de Madrid,Comunidade de Madrid,Centro
+A-6 - Saída 17,Las Rozas de Madrid,Comunidade de Madrid,Centro
+A-6 - Saída 18,Las Rozas de Madrid,Comunidade de Madrid,Centro
 A-6 - Saída 19,Las Rozas de Madrid,Comunidade de Madrid,Centro
 A-6 - Saída 24,Las Rozas de Madrid,Comunidade de Madrid,Norte
 A-7 - Saída 103,Algeciras,Cádiz,
@@ -759,6 +771,7 @@ AP-41 - Saída 8,Serranillos del Valle,Comunidade de Madrid,
 AP-41 - Saída 16,Carranque,Toledo,
 Aquopolis Cartaya,Cartaya,Huelva,
 Arahal,Arahal,Sevilha,
+"Arco de la Victoria, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Área de Serviço de Altos de Marbella,Marbella,Málaga,Las Chapas
 Área de Serviço de Arroyo de la Miel,Torremolinos,Málaga,
 Área de Serviço de Cortijo de Robledo,Antequera,Málaga,
@@ -1074,6 +1087,7 @@ Pedrera,Pedrera,Sevilha,
 Pinares de Lepe,Lepe,Huelva,
 Playa Central,Isla Cristina,Huelva,
 Playa de Isla Canela,Ayamonte,Huelva,
+"Plaza del Cardenal Cisneros, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 "Plaza del Emperador Carlos V, Madrid",Madrid,Comunidade de Madrid,Arganzuela
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Ponte de Alamillo,Sevilha,Sevilha,Triana
