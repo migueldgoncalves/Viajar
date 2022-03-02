@@ -667,6 +667,54 @@ A23 - Saída 5,Cruzamento da A13 com a A23,Carro,False,Abrantes
 A23 - Saída 5,Cruzamento da A13 com a A23,Carro,False,Castelo Branco
 A23 - Saída 5,Cruzamento da A13 com a A23,Carro,True,Entroncamento
 A23 - Saída 5,Cruzamento da A13 com a A23,Carro,True,Torres Novas
+A23 - Saída 6,A23 - Saída 7,Carro,False,Entroncamento
+A23 - Saída 6,A23 - Saída 7,Carro,False,Torres Novas
+A23 - Saída 6,A23 - Saída 7,Carro,True,Abrantes
+A23 - Saída 6,A23 - Saída 7,Carro,True,Constância - Centro da cidade
+A23 - Saída 7,A23 - Saída 8,Carro,False,Constância
+A23 - Saída 7,A23 - Saída 8,Carro,False,Entroncamento
+A23 - Saída 7,A23 - Saída 8,Carro,True,Abrantes
+A23 - Saída 7,A23 - Saída 8,Carro,True,Castelo Branco
+A23 - Saída 8,A23 - Saída 9,Carro,False,Constância
+A23 - Saída 8,A23 - Saída 9,Carro,False,Entroncamento
+A23 - Saída 8,A23 - Saída 9,Carro,True,Abrantes
+A23 - Saída 8,A23 - Saída 9,Carro,True,Castelo Branco
+A23 - Saída 9,A23 - Saída 10,Carro,False,Abrantes - Oeste
+A23 - Saída 9,A23 - Saída 10,Carro,False,Entroncamento
+A23 - Saída 9,A23 - Saída 10,Carro,True,Abrantes - Norte
+A23 - Saída 9,A23 - Saída 10,Carro,True,Castelo Branco
+A23 - Saída 10,Área de Serviço de Abrantes,Carro,False,Abrantes
+A23 - Saída 10,Área de Serviço de Abrantes,Carro,False,Torres Novas
+A23 - Saída 10,Área de Serviço de Abrantes,Carro,True,Castelo Branco
+A23 - Saída 10,Área de Serviço de Abrantes,Carro,True,IP2 - Portalegre
+A23 - Saída 11,A23 - Saída 12,Carro,False,A1 - Lisboa
+A23 - Saída 11,A23 - Saída 12,Carro,False,Abrantes
+A23 - Saída 11,A23 - Saída 12,Carro,True,Castelo Branco
+A23 - Saída 11,A23 - Saída 12,Carro,True,IP2 - Portalegre
+A23 - Saída 11,Área de Serviço de Abrantes,Carro,False,Castelo Branco
+A23 - Saída 11,Área de Serviço de Abrantes,Carro,False,IP2 - Portalegre
+A23 - Saída 11,Área de Serviço de Abrantes,Carro,True,Abrantes
+A23 - Saída 11,Área de Serviço de Abrantes,Carro,True,Torres Novas
+A23 - Saída 12,A23 - Saída 13,Carro,False,A1 - Lisboa
+A23 - Saída 12,A23 - Saída 13,Carro,False,Abrantes
+A23 - Saída 12,A23 - Saída 13,Carro,True,Castelo Branco
+A23 - Saída 12,A23 - Saída 13,Carro,True,IP2 - Portalegre
+A23 - Saída 13,A23 - Saída 14,Carro,False,A1 - Lisboa
+A23 - Saída 13,A23 - Saída 14,Carro,False,Abrantes
+A23 - Saída 13,A23 - Saída 14,Carro,True,Castelo Branco
+A23 - Saída 13,A23 - Saída 14,Carro,True,IP2 - Portalegre
+A23 - Saída 14,A23 - Saída 15,Carro,False,A1 - Lisboa
+A23 - Saída 14,A23 - Saída 15,Carro,False,Abrantes
+A23 - Saída 14,A23 - Saída 15,Carro,True,Castelo Branco
+A23 - Saída 14,A23 - Saída 15,Carro,True,IP2 - Portalegre
+A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,False,Abrantes
+A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,False,IP2 - Portalegre
+A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,True,Castelo Branco
+A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,True,Guarda
+A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,False,Castelo Branco
+A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,False,Guarda
+A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,True,Abrantes
+A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,True,IP2 - Portalegre
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
 A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
