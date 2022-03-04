@@ -1900,6 +1900,8 @@ Estação de Bom João,Faro - Sé,Carro,1.7,,N,2,3
 Estação de Bom João,Olhão,Comboio,7.8,Linha do Algarve - Regional,NE,4,6
 Estação de Bom João,Porto de Faro,Carro,2.0,,S,1,1
 Estação de Bom João,Variante de Faro - Nó com a M518,Carro,2.6,,NE,3,3
+Estação de Bombarral,Estação de Outeiro,Comboio,9.2,Linha do Oeste - InterRegional/Regional,S,1,2
+Estação de Bombarral,Estação de Paúl,Comboio,3.5,Linha do Oeste - Regional,N,2,1
 Estação de Braço de Prata,Estação de Marvila,Comboio,0.8,Linha da Azambuja/Linha de Cintura - CP Lisboa,SO,1,2
 Estação de Braço de Prata,Estação de Santa Apolónia,Comboio,4.0,Linha do Norte - CP Lisboa,SO,3,1
 Estação de Braço de Prata,Gare do Oriente,Comboio,2.5,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,3
@@ -1931,6 +1933,10 @@ Estação de Córdoba,Estação de Sevilha-Santa Justa,Comboio de Alta Velocidad
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,Comboio de Alta Velocidade,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Comboio,2.6,Linha do Sul - Fertagus,SE,1,2
 Estação de Corroios,Estação do Pragal,Comboio,5.1,Linha do Sul - Fertagus,NO,2,1
+Estação de Dois Portos,Estação de Feliteira,Comboio,2.5,Linha do Oeste - Regional,S,1,2
+Estação de Dois Portos,Estação de Pêro Negro,Comboio,6.9,Linha do Oeste - InterRegional,S,3,4
+Estação de Dois Portos,Estação de Runa,Comboio,4.4,Linha do Oeste - Regional,NO,2,1
+Estação de Dois Portos,Estação de Torres Vedras,Comboio,9.2,Linha do Oeste - InterRegional,NO,4,3
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,1.1,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus,E,2,1
 Estação de Entrecampos,Estação de Santa Apolónia,Comboio,6.0,Concordância de Xabregas - InterRegional/Regional,SE,3,2
 Estação de Entrecampos,Estação de Sete Rios,Comboio,1.9,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus/Intercidades/InterRegional/Regional,O,1,2
@@ -1953,6 +1959,7 @@ Estação de Faro,Estação de Loulé,Comboio,15.8,Linha do Algarve - Intercidad
 Estação de Faro,Estação de Loulé,Comboio de Alta Velocidade,15.8,Linha do Algarve,NO,5,7
 Estação de Faro,Estação de Parque das Cidades,Comboio,8.1,Linha do Algarve - Regional,NO,3,3
 Estação de Faro,Faro - São Pedro,Carro,0.8,,E,1,3
+Estação de Feliteira,Estação de Zibreira,Comboio,2.0,Linha do Oeste - Regional,S,1,2
 Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,2.3,Linha 8 - Metro de Madrid,O,2,1
 Estação de Feria de Madrid,M-40 - Saída 5,Carro,0.7,,O,3,3
 Estação de Feria de Madrid,M-40 - Saída 6,Carro,1.1,,S,4,3
@@ -1973,6 +1980,8 @@ Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
 Estação de Fuseta-Moncarapacho,Fuseta,Carro,0.8,N125-5,SE,2,1
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,2.9,Linha do Algarve - Regional,NE,3,4
 Estação de Guadix,Guadix,Carro,1.9,,SO,1,3
+Estação de Jerumelo,Estação de Malveira,Comboio,3.5,Linha do Oeste - Regional,SO,1,2
+Estação de Jerumelo,Estação de Sapataria,Comboio,4.0,Linha do Oeste - Regional,NE,2,1
 Estação de Lagos,Lagos,Carro,2.4,,S,4,2
 Estação de Lagos,Marina de Lagos,Carro,0.3,,SO,2,1
 Estação de Lagos,Meia Praia,Carro,3.2,,NE,3,1
@@ -1988,6 +1997,10 @@ Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,C
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Carro,1.1,,E,1,3
 Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.2,,SO,1,2
 Estação de Madrid-Puerta de Atocha,"Plaza del Emperador Carlos V, Madrid",Transbordo,0.0,,S,2,3
+Estação de Mafra,Estação de Malveira,Comboio,5.1,Linha do Oeste - Regional,NE,2,1
+Estação de Mafra,Estação de Pedra Furada,Comboio,3.3,Linha do Oeste - Regional,S,1,2
+Estação de Malveira,Estação de Pêro Negro,Comboio,9.8,Linha do Oeste - InterRegional,NE,4,3
+Estação de Malveira,Estação de Sabugo,Comboio,13.0,Linha do Oeste - InterRegional,S,3,3
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,0.9,Linha 8 - Metro de Madrid,O,2,1
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,2.7,Linha da Azambuja/Linha de Cintura - CP Lisboa,NO,1,2
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Comboio,2.1,Linha de Sintra - CP Lisboa,E,1,2
@@ -1996,6 +2009,7 @@ Estação de Mato de Miranda,Estação de Vale de Figueira,Comboio,9.8,Linha do 
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,32.0,Linha do Sul - Intercidades,NO,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Carro,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2,8
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,5.1,Linha do Oeste - InterRegional/Regional,N,2,1
 Estação de Moita,Estação de Penteado,Comboio,3.6,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,0.9,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Monte Estoril,Estação do Estoril,Comboio,0.7,Linha de Cascais - CP Lisboa,E,1,2
@@ -2006,13 +2020,17 @@ Estação de Moscavide,Estação de Sacavém,Comboio,2.0,Linha da Azambuja/Linha
 Estação de Moscavide,Gare do Oriente,Comboio,1.2,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,4
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
 Estação de Oeiras,Estação de Santo Amaro,Comboio,0.6,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Outeiro,Estação de Ramalhal,Comboio,6.9,Linha do Oeste - InterRegional/Regional,SO,1,2
 Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,2.4,Linha de Cascais - CP Lisboa,O,2,1
 Estação de Palmela,Estação de Setúbal,Comboio,4.9,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,S,2,1
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,4.0,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,NO,1,2
 Estação de Parque das Cidades,Mar Shopping Algarve,Carro,2.5,,NO,2,4
+Estação de Pedra Furada,Estação de Sabugo,Comboio,4.6,Linha do Oeste - Regional,S,1,2
 Estação de Pegões,Estação de São João das Craveiras,Comboio,3.0,Linha do Alentejo - Intercidades,E,1,2
 Estação de Penalva,Pinhal Novo,Comboio,8.7,Linha do Sul - Fertagus,NE,1,2
 Estação de Penteado,Pinhal Novo,Comboio,3.7,Linha do Alentejo/Linha do Sado - CP Lisboa,SE,2,3
+Estação de Pêro Negro,Estação de Sapataria,Comboio,2.4,Linha do Oeste - Regional,S,1,2
+Estação de Pêro Negro,Estação de Zibreira,Comboio,2.4,Linha do Oeste - Regional,NE,2,1
 Estação de Poceirão,Pinhal Novo,Comboio,15.0,Linha do Alentejo - Intercidades,O,2,5
 Estação de Portela de Sintra,Estação de Sintra,Comboio,0.9,Linha de Sintra - CP Lisboa,O,2,1
 Estação de Portimão,Mexilhoeira Grande,Comboio,8.9,Linha do Algarve - Regional,NO,5,3
@@ -2020,12 +2038,14 @@ Estação de Portimão,Portimão - Avenida São Lourenço da Barrosa,Carro,2.1,,
 Estação de Portimão,Universidade do Algarve - Campus de Portimão,Carro,0.2,,SE,1,2
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,4.9,Linha do Sado/Linha do Sul - CP Lisboa,E,2,1
 Estação de Praça do Quebedo,Estação de Setúbal,Comboio,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,7.1,Linha do Oeste - InterRegional/Regional,SO,1,2
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,0.9,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Comboio,20.1,Linha do Norte - InterRegional,NE,4,3
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Comboio,2.1,Linha do Norte - Regional,NE,2,1
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Comboio,24.1,Linha do Norte - InterRegional,SO,3,6
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,5.3,Linha do Norte - Regional,O,1,2
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,4.2,Linha do Norte - Regional,NE,2,1
+Estação de Runa,Estação de Torres Vedras,Comboio,4.9,Linha do Oeste - Regional,O,2,1
 Estação de Santa Apolónia,Gare do Oriente,Comboio,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,6.5,Linha do Norte,N,4,12
 Estação de Santa Clara - Sabóia,Luzianes,Carro,11.3,,N,5,1

@@ -6395,6 +6395,16 @@ Estação de Bom João,Estação de Faro,Comboio,True,Tunes
 Estação de Bom João,Olhão,Comboio,False,Faro
 Estação de Bom João,Olhão,Comboio,False,Lagos
 Estação de Bom João,Olhão,Comboio,True,Vila Real de Santo António
+Estação de Bombarral,Estação de Outeiro,Comboio,False,Caldas da Rainha
+Estação de Bombarral,Estação de Outeiro,Comboio,False,Figueira da Foz
+Estação de Bombarral,Estação de Outeiro,Comboio,True,Agualva - Cacém
+Estação de Bombarral,Estação de Outeiro,Comboio,True,Jerumelo
+Estação de Bombarral,Estação de Outeiro,Comboio,True,Lisboa - Rossio
+Estação de Bombarral,Estação de Paúl,Comboio,False,Agualva - Cacém
+Estação de Bombarral,Estação de Paúl,Comboio,False,Jerumelo
+Estação de Bombarral,Estação de Paúl,Comboio,False,Lisboa - Rossio
+Estação de Bombarral,Estação de Paúl,Comboio,True,Caldas da Rainha
+Estação de Bombarral,Estação de Paúl,Comboio,True,Figueira da Foz
 Estação de Braço de Prata,Estação de Marvila,Comboio,False,Azambuja
 Estação de Braço de Prata,Estação de Marvila,Comboio,False,Lisboa - Oriente
 Estação de Braço de Prata,Estação de Marvila,Comboio,False,Porto - Campanhã
@@ -6562,6 +6572,24 @@ Estação de Corroios,Estação do Pragal,Comboio,False,Setúbal
 Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Campolide
 Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Oriente
 Estação de Corroios,Estação do Pragal,Comboio,True,Porto - Campanhã
+Estação de Dois Portos,Estação de Feliteira,Comboio,False,Caldas da Rainha
+Estação de Dois Portos,Estação de Feliteira,Comboio,False,Figueira da Foz
+Estação de Dois Portos,Estação de Feliteira,Comboio,True,Agualva - Cacém
+Estação de Dois Portos,Estação de Feliteira,Comboio,True,Jerumelo
+Estação de Dois Portos,Estação de Feliteira,Comboio,True,Lisboa - Rossio
+Estação de Dois Portos,Estação de Pêro Negro,Comboio,False,Caldas da Rainha
+Estação de Dois Portos,Estação de Pêro Negro,Comboio,False,Figueira da Foz
+Estação de Dois Portos,Estação de Pêro Negro,Comboio,True,Agualva - Cacém
+Estação de Dois Portos,Estação de Pêro Negro,Comboio,True,Lisboa - Rossio
+Estação de Dois Portos,Estação de Runa,Comboio,False,Agualva - Cacém
+Estação de Dois Portos,Estação de Runa,Comboio,False,Jerumelo
+Estação de Dois Portos,Estação de Runa,Comboio,False,Lisboa - Rossio
+Estação de Dois Portos,Estação de Runa,Comboio,True,Caldas da Rainha
+Estação de Dois Portos,Estação de Runa,Comboio,True,Figueira da Foz
+Estação de Dois Portos,Estação de Torres Vedras,Comboio,False,Agualva - Cacém
+Estação de Dois Portos,Estação de Torres Vedras,Comboio,False,Lisboa - Rossio
+Estação de Dois Portos,Estação de Torres Vedras,Comboio,True,Caldas da Rainha
+Estação de Dois Portos,Estação de Torres Vedras,Comboio,True,Figueira da Foz
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Agualva-Cacém
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Faro
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Lisboa - Alcântara-Terra
@@ -6652,6 +6680,11 @@ Estação de Faro,Estação de Loulé,Comboio,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Comboio,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Comboio,True,Tunes
+Estação de Feliteira,Estação de Zibreira,Comboio,False,Caldas da Rainha
+Estação de Feliteira,Estação de Zibreira,Comboio,False,Figueira da Foz
+Estação de Feliteira,Estação de Zibreira,Comboio,True,Agualva - Cacém
+Estação de Feliteira,Estação de Zibreira,Comboio,True,Jerumelo
+Estação de Feliteira,Estação de Zibreira,Comboio,True,Lisboa - Rossio
 Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,False,Aeropuerto T1-T2-T3
 Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,False,Aeropuerto T4
 Estação de Feria de Madrid,Estação de Mar de Cristal,Metro,True,Colombia
@@ -6708,6 +6741,14 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Jerumelo,Estação de Malveira,Comboio,False,Caldas da Rainha
+Estação de Jerumelo,Estação de Malveira,Comboio,False,Figueira da Foz
+Estação de Jerumelo,Estação de Malveira,Comboio,True,Agualva - Cacém
+Estação de Jerumelo,Estação de Malveira,Comboio,True,Lisboa - Rossio
+Estação de Jerumelo,Estação de Sapataria,Comboio,False,Agualva - Cacém
+Estação de Jerumelo,Estação de Sapataria,Comboio,False,Lisboa - Rossio
+Estação de Jerumelo,Estação de Sapataria,Comboio,True,Caldas da Rainha
+Estação de Jerumelo,Estação de Sapataria,Comboio,True,Figueira da Foz
 Estação de Lagos,Meia Praia,Comboio,False,Lagos
 Estação de Lagos,Meia Praia,Comboio,True,Tunes
 Estação de Lagos,Meia Praia,Comboio,True,Vila Real de Santo António
@@ -6744,6 +6785,24 @@ Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,C
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Guadalajara
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Atocha
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Comboio,True,Madrid-Príncipe Pío
+Estação de Mafra,Estação de Malveira,Comboio,False,Agualva - Cacém
+Estação de Mafra,Estação de Malveira,Comboio,False,Lisboa - Rossio
+Estação de Mafra,Estação de Malveira,Comboio,True,Caldas da Rainha
+Estação de Mafra,Estação de Malveira,Comboio,True,Figueira da Foz
+Estação de Mafra,Estação de Malveira,Comboio,True,Jerumelo
+Estação de Mafra,Estação de Pedra Furada,Comboio,False,Caldas da Rainha
+Estação de Mafra,Estação de Pedra Furada,Comboio,False,Figueira da Foz
+Estação de Mafra,Estação de Pedra Furada,Comboio,False,Jerumelo
+Estação de Mafra,Estação de Pedra Furada,Comboio,True,Agualva - Cacém
+Estação de Mafra,Estação de Pedra Furada,Comboio,True,Lisboa - Rossio
+Estação de Malveira,Estação de Pêro Negro,Comboio,False,Agualva - Cacém
+Estação de Malveira,Estação de Pêro Negro,Comboio,False,Lisboa - Rossio
+Estação de Malveira,Estação de Pêro Negro,Comboio,True,Caldas da Rainha
+Estação de Malveira,Estação de Pêro Negro,Comboio,True,Figueira da Foz
+Estação de Malveira,Estação de Sabugo,Comboio,False,Caldas da Rainha
+Estação de Malveira,Estação de Sabugo,Comboio,False,Figueira da Foz
+Estação de Malveira,Estação de Sabugo,Comboio,True,Agualva - Cacém
+Estação de Malveira,Estação de Sabugo,Comboio,True,Lisboa - Rossio
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T1-T2-T3
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T4
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,True,Colombia
@@ -6779,6 +6838,11 @@ Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Comboio,True,Pin
 Estação de Messines - Alte,Tunes,Comboio,False,Lisboa - Oriente
 Estação de Messines - Alte,Tunes,Comboio,False,Pinhal Novo
 Estação de Messines - Alte,Tunes,Comboio,True,Faro
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,False,Agualva - Cacém
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,False,Lisboa - Rossio
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Caldas da Rainha
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Figueira da Foz
+Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Jerumelo
 Estação de Moita,Estação de Penteado,Comboio,False,Barreiro
 Estação de Moita,Estação de Penteado,Comboio,True,Pinhal Novo
 Estação de Moita,Estação de Penteado,Comboio,True,Praias do Sado-A
@@ -6828,6 +6892,11 @@ Estação de Oeiras,Estação de Santo Amaro,Comboio,False,Cascais
 Estação de Oeiras,Estação de Santo Amaro,Comboio,False,São Pedro do Estoril
 Estação de Oeiras,Estação de Santo Amaro,Comboio,True,Algés
 Estação de Oeiras,Estação de Santo Amaro,Comboio,True,Lisboa - Cais do Sodré
+Estação de Outeiro,Estação de Ramalhal,Comboio,False,Caldas da Rainha
+Estação de Outeiro,Estação de Ramalhal,Comboio,False,Figueira da Foz
+Estação de Outeiro,Estação de Ramalhal,Comboio,True,Agualva - Cacém
+Estação de Outeiro,Estação de Ramalhal,Comboio,True,Jerumelo
+Estação de Outeiro,Estação de Ramalhal,Comboio,True,Lisboa - Rossio
 Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,False,Algés
 Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,False,Lisboa - Cais do Sodré
 Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,True,Cascais
@@ -6839,6 +6908,11 @@ Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Praias do Sado-
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,False,Setúbal
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Barreiro
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,True,Pinhal Novo
+Estação de Pedra Furada,Estação de Sabugo,Comboio,False,Caldas da Rainha
+Estação de Pedra Furada,Estação de Sabugo,Comboio,False,Figueira da Foz
+Estação de Pedra Furada,Estação de Sabugo,Comboio,False,Jerumelo
+Estação de Pedra Furada,Estação de Sabugo,Comboio,True,Agualva - Cacém
+Estação de Pedra Furada,Estação de Sabugo,Comboio,True,Lisboa - Rossio
 Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Faro
 Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Lisboa - Oriente
 Estação de Pegões,Estação de São João das Craveiras,Comboio,False,Pinhal Novo
@@ -6861,6 +6935,16 @@ Estação de Penteado,Pinhal Novo,Comboio,True,Faro
 Estação de Penteado,Pinhal Novo,Comboio,True,Lisboa - Oriente
 Estação de Penteado,Pinhal Novo,Comboio,True,Praias do Sado-A
 Estação de Penteado,Pinhal Novo,Comboio,True,Setúbal
+Estação de Pêro Negro,Estação de Sapataria,Comboio,False,Caldas da Rainha
+Estação de Pêro Negro,Estação de Sapataria,Comboio,False,Figueira da Foz
+Estação de Pêro Negro,Estação de Sapataria,Comboio,True,Agualva - Cacém
+Estação de Pêro Negro,Estação de Sapataria,Comboio,True,Jerumelo
+Estação de Pêro Negro,Estação de Sapataria,Comboio,True,Lisboa - Rossio
+Estação de Pêro Negro,Estação de Zibreira,Comboio,False,Agualva - Cacém
+Estação de Pêro Negro,Estação de Zibreira,Comboio,False,Jerumelo
+Estação de Pêro Negro,Estação de Zibreira,Comboio,False,Lisboa - Rossio
+Estação de Pêro Negro,Estação de Zibreira,Comboio,True,Caldas da Rainha
+Estação de Pêro Negro,Estação de Zibreira,Comboio,True,Figueira da Foz
 Estação de Poceirão,Pinhal Novo,Comboio,False,Beja
 Estação de Poceirão,Pinhal Novo,Comboio,False,Casa Branca
 Estação de Poceirão,Pinhal Novo,Comboio,False,Évora
@@ -6880,6 +6964,11 @@ Estação de Praça do Quebedo,Estação de Praias do Sado-A,Comboio,True,Praias
 Estação de Praça do Quebedo,Estação de Setúbal,Comboio,False,Praias do Sado-A
 Estação de Praça do Quebedo,Estação de Setúbal,Comboio,True,Barreiro
 Estação de Praça do Quebedo,Estação de Setúbal,Comboio,True,Pinhal Novo
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,False,Caldas da Rainha
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,False,Figueira da Foz
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,True,Agualva - Cacém
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,True,Jerumelo
+Estação de Ramalhal,Estação de Torres Vedras,Comboio,True,Lisboa - Rossio
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,False,Agualva - Cacém
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,False,Mira Sintra - Meleças
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Comboio,False,Sintra
@@ -6905,6 +6994,11 @@ Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,Fal
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Santarém
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Pombal
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Porto - Campanhã
+Estação de Runa,Estação de Torres Vedras,Comboio,False,Agualva - Cacém
+Estação de Runa,Estação de Torres Vedras,Comboio,False,Jerumelo
+Estação de Runa,Estação de Torres Vedras,Comboio,False,Lisboa - Rossio
+Estação de Runa,Estação de Torres Vedras,Comboio,True,Caldas da Rainha
+Estação de Runa,Estação de Torres Vedras,Comboio,True,Figueira da Foz
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,False,Lisboa - Santa Apolónia
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Faro
 Estação de Santa Apolónia,Gare do Oriente,Comboio de Alta Velocidade,True,Pinhal Novo

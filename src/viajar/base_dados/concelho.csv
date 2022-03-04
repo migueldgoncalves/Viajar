@@ -19,6 +19,7 @@ Barrancos,Baixo Alentejo,Beja,Baixo Alentejo
 Barreiro,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Beja,Baixo Alentejo,Beja,Baixo Alentejo
 Benavente,Lezíria do Tejo,Santarém,Ribatejo
+Bombarral,Oeste,Leiria,Estremadura
 Borba,Alentejo Central,Évora,Alto Alentejo
 Cantanhede,Região de Coimbra,Coimbra,Beira Litoral
 Cartaxo,Lezíria do Tejo,Santarém,Ribatejo
@@ -46,6 +47,7 @@ Lisboa,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Loulé,Algarve,Faro,Algarve
 Loures,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Mação,Médio Tejo,Santarém,Beira Baixa
+Mafra,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Mértola,Baixo Alentejo,Beja,Baixo Alentejo
 Moita,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Monchique,Algarve,Faro,Algarve
@@ -73,10 +75,12 @@ Setúbal,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Silves,Algarve,Faro,Algarve
 Sines,Alentejo Litoral,Setúbal,Baixo Alentejo
 Sintra,Área Metropolitana de Lisboa,Lisboa,Estremadura
+Sobral de Monte Agraço,Oeste,Lisboa,Estremadura
 Soure,Região de Coimbra,Coimbra,Beira Litoral
 Tavira,Algarve,Faro,Algarve
 Tomar,Médio Tejo,Santarém,Ribatejo
 Torres Novas,Médio Tejo,Santarém,Ribatejo
+Torres Vedras,Oeste,Lisboa,Estremadura
 Vendas Novas,Alentejo Central,Évora,Alto Alentejo
 Vidigueira,Baixo Alentejo,Beja,Baixo Alentejo
 Vila do Bispo,Algarve,Faro,Algarve

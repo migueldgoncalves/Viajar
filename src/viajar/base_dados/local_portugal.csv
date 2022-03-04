@@ -366,6 +366,7 @@ Estação de Benfica,Benfica,Lisboa
 Estação de Bobadela,Bobadela,Loures
 Estação de Boliqueime,Boliqueime,Loulé
 Estação de Bom João,Sé,Faro
+Estação de Bombarral,Bombarral,Bombarral
 Estação de Braço de Prata,Marvila,Lisboa
 Estação de Cacela,Vila Nova de Cacela,Vila Real de Santo António
 Estação de Cais do Sodré,São Paulo,Lisboa
@@ -379,12 +380,14 @@ Estação de Chão de Maçãs-Fátima,Sabacheira,Tomar
 Estação de Coina,Aldeia de Paio Pires,Seixal
 Estação de Corroios,Corroios,Seixal
 Estação de Cruz Quebrada,Cruz Quebrada - Dafundo,Oeiras
+Estação de Dois Portos,Dois Portos,Torres Vedras
 Estação de Entrecampos,Nossa Senhora de Fátima,Lisboa
 Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
 Estação de Espadanal da Azambuja,Vila Nova da Rainha,Azambuja
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
 Estação de Évora,Horta das Figueiras,Évora
 Estação de Faro,São Pedro,Faro
+Estação de Feliteira,Dois Portos,Torres Vedras
 Estação de Fernando Pó,Marateca,Palmela
 Estação de Ferragudo,Parchal,Lagoa
 Estação de Fogueteiro,Arrentela,Seixal
@@ -393,9 +396,12 @@ Estação de Funcheira,Garvão,Ourique
 Estação de Fungalvaz,Assentiz,Torres Novas
 Estação de Fuseta-A,Fuseta,Olhão
 Estação de Fuseta-Moncarapacho,Moncarapacho,Olhão
+Estação de Jerumelo,Sapataria,Sobral de Monte Agraço
 Estação de Lagos,São Sebastião,Lagos
 Estação de Lamarosa,Olaia,Torres Novas
 Estação de Loulé,São Sebastião,Loulé
+Estação de Mafra,Igreja Nova,Mafra
+Estação de Malveira,Malveira,Mafra
 Estação de Marvila,Marvila,Lisboa
 Estação de Massamá - Barcarena,Massamá,Sintra
 Estação de Mato de Miranda,Azinhaga,Golegã
@@ -407,24 +413,31 @@ Estação de Monte Estoril,Estoril,Cascais
 Estação de Monte Gordo,Monte Gordo,Vila Real de Santo António
 Estação de Moscavide,Moscavide,Loures
 Estação de Oeiras,Oeiras e São Julião da Barra,Oeiras
+Estação de Outeiro,Outeiro da Cabeça,Torres Vedras
 Estação de Paço de Arcos,Paço de Arcos,Oeiras
 Estação de Paialvo,Madalena,Tomar
 Estação de Palmela,Palmela,Palmela
 Estação de Parque das Cidades,Almancil,Loulé
+Estação de Paúl,Roliça,Bombarral
+Estação de Pedra Furada,Almargem do Bispo,Sintra
 Estação de Pegões,Santo Isidro de Pegões,Montijo
 Estação de Penalva,Quinta do Anjo,Palmela
 Estação de Penteado,Moita,Moita
+Estação de Pêro Negro,Sapataria,Sobral de Monte Agraço
 Estação de Poceirão,Poceirão,Palmela
 Estação de Portela de Sintra,Santa Maria e São Miguel,Sintra
 Estação de Portimão,Portimão,Portimão
 Estação de Praça do Quebedo,Santa Maria da Graça,Setúbal
 Estação de Praias do Sado-A,Sado,Setúbal
 Estação de Queluz - Belas,Queluz,Sintra
+Estação de Ramalhal,Ramalhal,Torres Vedras
 Estação de Reboleira,Águas Livres,Amadora
 Estação de Reguengo-Vale da Pedra-Pontével,Vale da Pedra,Cartaxo
 Estação de Riachos-Torres Novas-Golegã,Riachos,Torres Novas
 Estação de Rio de Mouro,Rio de Mouro,Sintra
 Estação de Roma-Areeiro,Alvalade,Lisboa
+Estação de Runa,Runa,Torres Vedras
+Estação de Sabugo,Almargem do Bispo,Sintra
 Estação de Sacavém,Parque das Nações,Lisboa
 Estação de Santa Apolónia,Santa Engrácia,Lisboa
 Estação de Santa Clara - Sabóia,Santa Clara-a-Velha,Odemira
@@ -437,6 +450,7 @@ Estação de Santos,Santos-o-Velho,Lisboa
 Estação de São João das Craveiras,Pegões,Montijo
 Estação de São João do Estoril,Estoril,Cascais
 Estação de São Pedro do Estoril,Estoril,Cascais
+Estação de Sapataria,Sapataria,Sobral de Monte Agraço
 Estação de Seiça-Ourém,Seiça,Ourém
 Estação de Sete Rios,São Domingos de Benfica,Lisboa
 Estação de Setil,Vale da Pedra,Cartaxo
@@ -445,12 +459,14 @@ Estação de Silves,Silves,Silves
 Estação de Sintra,Santa Maria e São Miguel,Sintra
 Estação de Soudos - Vila Nova,Paialvo,Tomar
 Estação de Tavira,Santiago,Tavira
+Estação de Torres Vedras,Santa Maria do Castelo e São Miguel,Torres Vedras
 Estação de Vale de Figueira,Vale de Figueira,Santarém
 Estação de Vale de Santarém,Vale de Santarém,Santarém
 Estação de Venda do Alcaide,Palmela,Palmela
 Estação de Vila Franca de Xira,Vila Franca de Xira,Vila Franca de Xira
 Estação de Vila Nova da Rainha,Vila Nova da Rainha,Azambuja
 Estação de Virtudes,Aveiras de Baixo,Azambuja
+Estação de Zibreira,Sobral de Monte Agraço,Sobral de Monte Agraço
 Estação do Barreiro,Barreiro,Barreiro
 Estação do Carregado,Castanheira do Ribatejo,Vila Franca de Xira
 Estação do Entroncamento,São João Baptista,Entroncamento
