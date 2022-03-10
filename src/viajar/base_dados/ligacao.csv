@@ -781,6 +781,7 @@ A-49 - Saída 53,Cruzamento da A-49 com a A-483,Carro,3.6,A-49,E,2,1
 A-49 - Saída 60,A-49 - Saída 75,Carro,14.9,A-49,SO,1,2
 A-49 - Saída 75,Cruzamento da A-49 com a H-31,Carro,3.3,A-49,SO,1,2
 A-49 - Saída 81,A-49 - Saída 87,Carro,6.3,A-49,NO,1,2
+A-49 - Saída 81,Cemitério de Nuestra Señora de la Soledad,Carro,4.3,,SO,6,2
 A-49 - Saída 81,Centro Penitenciario de Huelva,Carro,3.2,,SE,4,1
 A-49 - Saída 81,Cruzamento da A-49 com a H-31,Carro,3.9,A-49,SE,2,1
 A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,3.9,N-431,NO,5,3
@@ -1340,6 +1341,10 @@ Aroche,Rosal de la Frontera,Carro,26.9,N-433,O,1,3
 Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Carro,1.2,A-92,E,1,3
 "Avenida de Andalucía, Sevilha",Estação de Sevilha-Santa Justa,Carro,2.2,,O,2,2
+Avenida de Diego Morón x Avenida de Santa Marta,Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,Carro,0.6,,E,4,2
+Avenida de Diego Morón x Avenida de Santa Marta,"Avenida de Santa Marta, Huelva",Carro,0.8,,S,3,2
+Avenida de Diego Morón x Avenida de Santa Marta,H-30 - Saída 8,Carro,0.5,,N,2,3
+Avenida de Diego Morón x Avenida de Santa Marta,"Humilladero de la Cinta, Huelva",Carro,1.3,,O,1,4
 "Avenida de España, La Línea de la Concepción","Calle Cartagena, La Línea de la Concepción",Carro,2.5,,NE,2,3
 "Avenida de España, La Línea de la Concepción","Campamento, San Roque",Carro,1.7,N-351,NO,1,5
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
@@ -1347,6 +1352,9 @@ Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
 "Avenida de Kansas City, Sevilha",Cruzamento da A-4 Norte com a SE-30,Carro,1.5,,NE,1,4
 "Avenida de Kansas City, Sevilha",Estação de Sevilha-Santa Justa,Carro,0.8,,SO,2,1
+Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,"Avenida de Santa Marta, Huelva",Carro,0.9,,SO,1,3
+Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,H-30 - Saída 9,Carro,0.5,,N,3,3
+"Avenida de Santa Marta, Huelva","Parque Moret, Huelva",Carro,0.5,,NO,1,2
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,6,3
 Ayamonte,Cruzamento da A-499 com a N-431,Carro,6.5,,NE,5,1
@@ -1487,6 +1495,7 @@ Castro Verde,Cruzamento da N122 com a N123,Carro,31.5,N123,E,1,4
 Castro Verde,IP2 - Saída 48,Carro,1.1,N2,N,4,3
 Castro Verde,IP2 - Saída 49,Carro,1.6,N2,SO,5,3
 Castro Verde,Mina de Neves-Corvo,Carro,20.0,,SE,2,2
+Cemitério de Nuestra Señora de la Soledad,H-30 - Saída 8,Carro,0.9,,S,1,4
 Cercado,Deserto,Carro,0.3,,E,2,1
 Cercal do Alentejo,Colos,Carro,21.5,,SE,3,1
 Cercal do Alentejo,Cruzamento da N120 com a N120-1,Carro,7.2,N120,NO,5,1
@@ -2182,6 +2191,7 @@ Guia,Praia da Galé,Carro,6.5,,SO,3,3
 Guia,Zoomarine,Carro,1.6,N125,O,4,1
 H-30 - Centro Comercial,H-30 - Saída 11A,Carro,0.5,H-30,SE,2,1
 H-30 - Paseo Marítimo,H-30 - Saída 8,Carro,1.0,H-30,E,2,1
+H-30 - Paseo Marítimo,"Humilladero de la Cinta, Huelva",Carro,0.6,,S,4,2
 H-30 - Paseo Marítimo,"Paseo Marítimo, Huelva",Carro,1.1,,SO,3,1
 H-30 - Saída 8,H-30 - Saída 9,Carro,0.7,H-30,E,2,1
 H-30 - Saída 11A,H-30 - Saída 11B,Carro,0.5,H-30,S,2,1
@@ -2190,6 +2200,8 @@ H-30 - Saída 12,H-30 - Saída 15,Carro,2.7,H-30,SO,2,1
 H-30 - Saída 15,H-30 - Saída 18,Carro,3.5,H-30,S,2,1
 Hangares,Ilha do Farol,Barco,1.5,Ria Formosa,SO,2,1
 Hortas,Vila Real de Santo António,Carro,2.4,N125,E,2,3
+"Humilladero de la Cinta, Huelva","Parque Moret, Huelva",Carro,1.0,,SE,3,1
+"Humilladero de la Cinta, Huelva","Paseo Marítimo, Huelva",Carro,0.6,,O,1,3
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,2.0,N124,NO,4,1
 IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,16.7,IC1,NO,3,1
 IC1 - Cruzamento com a N124,Tunes,Carro,10.9,IC1,S,2,5
