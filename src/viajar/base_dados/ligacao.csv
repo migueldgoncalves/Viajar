@@ -1080,7 +1080,9 @@ A-483 - Saída 13,El Rocío,Carro,14.0,,S,2,1
 A-497 - Fim,A-497 - Saída 15,Carro,0.8,A-497,N,1,2
 A-497 - Fim,Punta Umbría,Carro,2.0,,E,2,1
 A-497 - Início,A-497 - Saída 3,Carro,2.9,A-497,O,1,1
+A-497 - Início,Centro Comercial Aqualon,Carro,0.7,,S,4,1
 A-497 - Início,"Paseo Marítimo, Huelva",Carro,1.2,,N,2,2
+A-497 - Início,Praça de Touros de La Merced,Carro,0.5,,E,3,1
 A-497 - Saída 3,A-497 - Saída 5,Carro,2.1,A-497,SO,2,1
 A-497 - Saída 5,A-497 - Saída 7,Carro,1.9,A-497,SO,2,1
 A-497 - Saída 7,A-497 - Saída 9,Carro,2.6,A-497,S,2,1
@@ -1498,7 +1500,11 @@ Castro Verde,Cruzamento da N122 com a N123,Carro,31.5,N123,E,1,4
 Castro Verde,IP2 - Saída 48,Carro,1.1,N2,N,4,3
 Castro Verde,IP2 - Saída 49,Carro,1.6,N2,SO,5,3
 Castro Verde,Mina de Neves-Corvo,Carro,20.0,,SE,2,2
+Catedral de Huelva,Centro Comercial Aqualon,Carro,0.8,,O,3,2
+Catedral de Huelva,Praça de Touros de La Merced,Carro,0.3,,N,1,3
+Catedral de Huelva,Universidade de Huelva - Campus de La Merced,Carro,0.1,,E,2,2
 Cemitério de Nuestra Señora de la Soledad,H-30 - Saída 8,Carro,0.9,,S,1,4
+Centro Comercial Aqualon,Porto Interior de Huelva,Carro,0.9,,S,3,1
 Centro Comercial Holea,H-30 - Centro Comercial,Carro,0.4,,NE,2,4
 Centro Comercial Holea,H-30 - Saída 11A,Carro,0.5,,SE,3,3
 Centro Comercial Holea,Universidade de Huelva - Campus de El Carmen,Carro,0.4,,SO,1,4
@@ -2121,6 +2127,8 @@ Estação do Pragal,Pinhal Novo,Comboio,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Metro,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
 Estação Moscavide,Gare do Oriente,Metro,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
 Estádio Algarve,Santa Bárbara de Nexe,Carro,2.6,,NE,2,2
+Estádio Nuevo Colombino,H-30 - Saída 15,Carro,1.3,,E,2,3
+Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Carro,0.6,,N,1,2
 Estepa,Pedrera,Carro,10.5,,S,3,2
 Estoi,Moncarapacho,Carro,10.3,,E,1,5
 Estoi,Pechão,Carro,4.8,N2-6,SE,2,3
@@ -2217,6 +2225,7 @@ Hortas,Vila Real de Santo António,Carro,2.4,N125,E,2,3
 "Hospital Infanta Elena, Huelva","Polígono Industrial San Diego, Huelva",Carro,1.0,,SE,2,1
 "Humilladero de la Cinta, Huelva","Parque Moret, Huelva",Carro,1.0,,SE,3,1
 "Humilladero de la Cinta, Huelva","Paseo Marítimo, Huelva",Carro,0.6,,O,1,3
+"Humilladero de la Cinta, Huelva",Praça de Touros de La Merced,Carro,1.5,,S,5,2
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Carro,2.0,N124,NO,4,1
 IC1 - Cruzamento com a N124,São Marcos da Serra,Carro,16.7,IC1,NO,3,1
 IC1 - Cruzamento com a N124,Tunes,Carro,10.9,IC1,S,2,5
@@ -2397,6 +2406,7 @@ Mina de São Domingos,Sapos,Carro,5.7,,SO,3,3
 Mina de São Domingos,Vale do Poço,Carro,11.4,,N,2,1
 Moinhos de Vento de Baixo,Moinhos de Vento de Cima,Carro,0.8,,SO,2,1
 Moinhos de Vento de Cima,São Bartolomeu de Via Glória,Carro,3.2,,SO,3,1
+Molhe da Compañía de Río Tinto,Porto Interior de Huelva,Carro,0.4,,N,1,2
 Moncarapacho,Quelfes,Carro,4.7,,SO,4,2
 Moncarapacho,Santo Estêvão,Carro,9.5,,NE,6,3
 Monchique,Picota,Carro,4.1,,SE,2,1
@@ -2498,6 +2508,7 @@ Porto de Recreio de Sines,Sines,Carro,1.8,,NO,2,1
 Porto de Recreio de Sines,Tróia,Barco,73.0,Costa de Portugal Continental,N,3,2
 Porto de Sines - Terminal de Gás Natural,Porto de Sines - Terminal Multipurpose,Carro,1.2,,SO,2,1
 Porto de Sines - Terminal de Granéis Líquidos,Sines,Carro,3.9,,NE,2,3
+Praça de Touros de La Merced,Universidade de Huelva - Campus de La Merced,Carro,0.3,,S,4,1
 Praia da Arrifana,Ribat da Arrifana,Carro,6.3,,NO,2,2
 Praia da Boca do Rio,Salema,Carro,2.3,,O,3,1
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,4.7,Ria Formosa,NE,2,1
