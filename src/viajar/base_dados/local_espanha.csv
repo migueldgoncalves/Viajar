@@ -784,15 +784,19 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Seseña,Seseña,Toledo,
 Aroche,Aroche,Huelva,
 "Avenida de América, Madrid",Madrid,Comunidade de Madrid,Chamartín
+Avenida de Andalucía x Avenida Pío XII,Huelva,Huelva,
+"Avenida de Andalucía, Huelva",Huelva,Huelva,
 "Avenida de Andalucía, Sevilha",Sevilha,Sevilha,San Pablo-Santa Justa
 Avenida de Diego Morón x Avenida de Santa Marta,Huelva,Huelva,
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
+Avenida de Guatemala x Avenida del Nuevo Colombino,Huelva,Huelva,
 "Avenida de Jacinto Benavente, Málaga",Málaga,Málaga,Ciudad Jardín
 "Avenida de Kansas City, Sevilha",Sevilha,Sevilha,San Pablo-Santa Justa
 Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,Huelva,Huelva,
 "Avenida de Santa Marta, Huelva",Huelva,Huelva,
 Ayamonte,Ayamonte,Huelva,
 Barriada de Canela,Ayamonte,Huelva,
+Barrio Reina Victoria,Huelva,Huelva,
 Bollullos Par del Condado,Bollullos Par del Condado,Huelva,
 CA-34 - Acesso à Refinaria,San Roque,Cádiz,
 CA-34 - Puente Mayorga,San Roque,Cádiz,
@@ -1004,6 +1008,7 @@ H-31 - Saída 80,Huelva,Huelva,
 Hospital Universitário Juan Ramón Jiménez,Huelva,Huelva,
 Hospital Vázquez Díaz,Huelva,Huelva,
 "Humilladero de la Cinta, Huelva",Huelva,Huelva,
+IES La Rábida,Huelva,Huelva,
 Intu Xanadú,Arroyomolinos,Comunidade de Madrid,
 Isla Cristina,Isla Cristina,Huelva,
 Islantilla,Lepe,Huelva,
@@ -1086,6 +1091,7 @@ MA-20 - Saída 1,Málaga,Málaga,Churriana
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
 Marchena,Marchena,Sevilha,
 Marismas de Isla Cristina,Ayamonte,Huelva,
+Mirador del Conquero,Huelva,Huelva,
 Moinho de Maré El Pintado,Ayamonte,Huelva,
 Molhe da Compañía de Río Tinto,Huelva,Huelva,
 Nuevo Portil,Cartaya,Huelva,
@@ -1101,8 +1107,11 @@ Pedrera,Pedrera,Sevilha,
 Pinares de Lepe,Lepe,Huelva,
 Playa Central,Isla Cristina,Huelva,
 Playa de Isla Canela,Ayamonte,Huelva,
+Plaza de Fray Genaro Prieto,Huelva,Huelva,
+Plaza de Ivonne Cazenave,Huelva,Huelva,
 "Plaza del Cardenal Cisneros, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 "Plaza del Emperador Carlos V, Madrid",Madrid,Comunidade de Madrid,Arganzuela
+Plaza del Huerto Paco,Huelva,Huelva,
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Polígono Industrial Fortiz,Huelva,Huelva,
 "Polígono Industrial San Diego, Huelva",Huelva,Huelva,
@@ -1132,6 +1141,7 @@ R-5 - Saída 11,Móstoles,Comunidade de Madrid,Sur-Este
 R-5 - Saída 20,Moraleja de Enmedio,Comunidade de Madrid,
 R-5 - Saída 28,Navalcarnero,Comunidade de Madrid,
 Refinaria de Gibraltar-San Roque,San Roque,Cádiz,
+Reitoria da Universidade de Huelva,Huelva,Huelva,
 Ronda Urbana Norte de Sevilha - Centro Deportivo Los Mares,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Glorieta Berrocal,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Glorieta de San Lázaro,Sevilha,Sevilha,Macarena
