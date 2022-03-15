@@ -967,6 +967,7 @@ Avenida de Diego Morón x Avenida de Santa Marta,37.279830,-6.936456,42,,2100
 Avenida de Guatemala x Avenida del Nuevo Colombino,37.25316,-6.93517,9,,2100
 "Avenida de Jacinto Benavente, Málaga",36.750590,-4.424563,34,,1200
 "Avenida de Kansas City, Sevilha",37.399896,-5.962515,12,,1400
+Avenida de la Villa de Madrid x Avenida del Sur,37.25199,-6.95329,3,,2100
 Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,37.278681,-6.930025,33,,2100
 "Avenida de Santa Marta, Huelva",37.272806,-6.936263,40,,2100
 "Avenida Engenheiro Duarte Pacheco, Lisboa",38.723738,-9.163532,93,,1400
@@ -1019,6 +1020,7 @@ Cais da Praia do Barril,37.091461,-7.673185,1,Ria Formosa - Ilha de Tavira,200
 Cais Palafítico da Carrasqueira,38.412722,-8.757114,1,Reserva Natural do Estuário do Sado,1500
 Caldas de Monchique,37.284505,-8.554239,210,,500
 "Calle Cartagena, La Línea de la Concepción",36.176928,-5.348877,9,,1200
+Calle Gravina x Calle Plus Ultra,37.25736,-6.95455,3,,2100
 "Campamento, San Roque",36.175365,-5.374118,10,,1200
 Canal Caveira,38.134474,-8.488352,47,,800
 Carmona,37.471167,-5.641719,217,,600
@@ -1573,6 +1575,7 @@ IC27 - Saída 5,37.358173,-7.517545,148,,20
 IC27 - Saída 6,37.400166,-7.524631,116,,20
 IC27 - Saída 7,37.430967,-7.532168,222,,20
 IES La Rábida,37.263715,-6.948550,46,,2100
+"Iglesia de San Pedro, Huelva",37.26003,-6.95073,22,,2100
 Ilha da Armona,37.019218,-7.802199,4,Ria Formosa - Ilha da Armona,200
 Ilha do Farol,36.975104,-7.864938,2,Ria Formosa - Ilha da Culatra,200
 Ilha do Pessegueiro,37.833390,-8.797625,20,Parque Natural do Sudoeste Alentejano e Costa Vicentina,1500
@@ -1777,9 +1780,13 @@ Playa Central,37.195447,-7.305476,2,,1800
 Playa de Isla Canela,37.173693,-7.377384,4,,200
 Plaza de Fray Genaro Prieto,37.25664,-6.93885,21,,2100
 Plaza de Ivonne Cazenave,37.26198,-6.94906,25,,2100
+"Plaza de la Vera Cruz, Huelva",37.25833,-6.95198,9,,2100
+Plaza de Quintero Báez,37.25858,-6.95021,14,,2100
 "Plaza del Cardenal Cisneros, Madrid",40.439835,-3.726525,635,,2000
 "Plaza del Emperador Carlos V, Madrid",40.408702,-3.692018,623,,1800
 Plaza del Huerto Paco,37.26677,-6.94304,33,,2100
+"Plaza del Lino, Huelva",37.25966,-6.95356,3,,2100
+"Plaza Doce de Octubre, Huelva",37.255825,-6.957236,3,,2100
 Poço Barreto,37.164008,-8.388715,43,,400
 Polígono Industrial de Ayamonte,37.232794,-7.391258,7,,300
 Polígono Industrial Fortiz,37.292135,-6.897049,7,,2100
@@ -1983,6 +1990,7 @@ Tariquejo,37.39624,-7.152048,108,,200
 Tavira - Norte,37.129233,-7.647129,16,,100
 Tavira - Sul,37.123689,-7.651181,16,,200
 Tenência,37.367805,-7.493125,103,,20
+Terminal Rodoviário de Huelva,37.257768,-6.957471,3,,2100
 Tôr,37.195727,-8.035204,167,,500
 Torneiro,37.43145,-7.496974,186,,300
 Torrão,38.293899,-8.223782,107,,800
