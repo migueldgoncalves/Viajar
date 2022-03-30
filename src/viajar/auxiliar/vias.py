@@ -16,6 +16,9 @@ PORTUGAL = "PT"
 
 # Níveis administractivos do OpenStreetMap
 
+# Geral
+PAIS = 2
+
 # Andorra
 PAROQUIA = 7
 
@@ -30,6 +33,7 @@ DISTRITO_ES = 9
 GIBRALTAR_NIVEL_ADMIN = 4
 
 # Portugal
+REGIAO_AUTONOMA = 4
 DISTRITO_PT = 6
 CONCELHO = 7
 FREGUESIA = 8
