@@ -4,11 +4,47 @@ import requests
 from xml.dom import minidom
 
 import viajar.auxiliar.vias as vias
+from viajar.auxiliar.coordenada import Coordenada
 
+# Servidores
 IP_DOCKER = '127.0.0.1'
 ESPANHA_PORTO = 12345
 PORTUGAL_PORTO = 12346
 ANDORRA_PORTO = 12347
+
+##############################
+# Constantes do OpenStreetMap
+##############################
+
+# Níveis administrativos do OpenStreetMap
+
+# Geral
+PAIS = 2
+
+# Andorra
+PAROQUIA = 7
+
+# Espanha
+COMUNIDADE_AUTONOMA = 4
+PROVINCIA = 6
+COMARCA = 7
+MUNICIPIO = 8
+DISTRITO_ES = 9
+
+# Gibraltar
+GIBRALTAR_NIVEL_ADMIN = 4
+
+# Portugal
+REGIAO_AUTONOMA = 4
+DISTRITO_PT = 6
+CONCELHO = 7
+FREGUESIA = 8
+FREGUESIA_HISTORICA = 'historic_parish'
+
+##############################
+
+VIA_FERROVIA = vias.VIA_FERROVIA
+VIA_ESTRADA = vias.VIA_ESTRADA
 
 
 class OsmInterface:
@@ -36,11 +72,10 @@ class OsmInterface:
 
     @staticmethod
     def obter_divisoes_administrativas_de_ponto(latitude: float, longitude: float, pais: str = None) -> dict[Union[str, int], str]:
-        query = 'way[name="Estació Nacional d\'Autobussos"];' \
-                'out geom;'  # Funciona!
-        query = 'area[name="Andorra la Vella"][admin_level=7];' \
-                'out geom;'  # Funciona!
-
+        """
+        A maior parte das divisões administrativas encontradas terão um número como identificador (entre 1 e 11), mas
+            também poderão ter uma string como identificador (ex: historic_parish - Antiga freguesia portuguesa)
+        """
         query = f'is_in({latitude},{longitude}); out geom;'
         if not pais:
             pais: str = OsmInterface.detectar_pais_por_coordenadas(latitude, longitude)
@@ -73,6 +108,115 @@ class OsmInterface:
                     resposta[chave] = nome
 
         return dict(sorted(resposta.items(), key=lambda item: str(item[0])))  # Ordena resposta pela chave
+
+    @staticmethod
+    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordenada]]:
+        """
+        Dado o nome de uma estrada e o respectivo país, retorna as saídas e respectivas coordenadas
+        Destina-se sobretudo a auto-estradas e vias rápidas
+        """
+        # A query obtém tanto relações como vias com o nome da estrada
+        query = f'rel[name="{nome_estrada}"];' \
+                f'way(r)->.w1;' \
+                f'way[name="{nome_estrada}"]->.w2;' \
+                f'(node(w.w1);' \
+                f'node(w.w2);)->.n1;' \
+                f'node.n1[highway="motorway_junction"];' \
+                f'out geom;'
+
+        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        if not raw_result:
+            return {}
+
+        resposta = {}
+        for no in raw_result.childNodes:
+            if no.nodeName == 'node':
+                coordenadas: Coordenada = Coordenada(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                saida_id: Optional[str] = None
+                for n in no.childNodes:
+                    if n.nodeName == 'tag':
+                        if n.hasAttribute('k') and n.getAttribute('k') == 'ref':  # Saída tem identificador
+                            saida_id = n.getAttribute('v')
+                if saida_id:
+                    if saida_id not in resposta:
+                        resposta[saida_id] = []
+                    resposta[saida_id].append(coordenadas)
+
+        if not resposta:
+            if OsmInterface.testar_ligacao():
+                print("A estrada fornecida não tem saídas com identificadores")
+            return {}
+
+        return dict(sorted(resposta.items(), key=lambda item: item[0]))  # Ordena resposta pelo identificador da saída
+
+    @staticmethod
+    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordenada]]:
+        """
+        Dado o nome de uma linha ferroviária e o respectivo país, retorna as estações e respectivas coordenadas
+        """
+        # A query obtém tanto relações como vias com o nome da linha ferroviária
+        query = f'rel[name="{nome_linha_ferroviaria}"];' \
+                f'way(r)->.w1;' \
+                f'way[name="{nome_linha_ferroviaria}"]->.w2;' \
+                f'(node(w.w1);' \
+                f'node(w.w2);)->.n1;' \
+                f'node.n1[name];' \
+                f'out geom;'
+
+        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        if not raw_result:
+            return {}
+
+        resposta = {}
+        for no in raw_result.childNodes:
+            if no.nodeName == 'node':
+                coordenadas: Coordenada = Coordenada(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                estacao: Optional[str] = None
+                for n in no.childNodes:
+                    if n.nodeName == 'tag':
+                        if n.hasAttribute('k') and n.getAttribute('k') == 'name':  # Nó tem nome - Provável estação ou apeadeiro
+                            estacao = n.getAttribute('v')
+                if estacao:
+                    if estacao not in resposta:
+                        resposta[estacao] = []
+                    resposta[estacao].append(coordenadas)
+
+        if not resposta:
+            if OsmInterface.testar_ligacao():
+                print("Não se encontraram estações ou apeadeiros para a linha ou ramal fornecido")
+            return {}
+
+        return resposta
+
+    @staticmethod
+    def detectar_pais_por_coordenadas(latitude: float, longitude: float) -> Optional[str]:
+        """
+        Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
+        :return: Nome do país se for possível determinar, None caso contrário
+        """
+        for pais in [vias.PORTUGAL, vias.ESPANHA, vias.ANDORRA]:
+            divisoes: dict[Union[str, int], str] = OsmInterface.obter_divisoes_administrativas_de_ponto(latitude, longitude, pais)
+
+            if divisoes.get(PAIS):  # Espera-se que cubra Portugal, Andorra e Gibraltar
+                pais = divisoes[PAIS]
+                if pais == 'Portugal':
+                    return vias.PORTUGAL
+                elif pais == 'Andorra':
+                    return vias.ANDORRA
+                elif pais == 'Gibraltar':
+                    return vias.GIBRALTAR
+                elif pais == 'Spain':
+                    return vias.ESPANHA
+                else:  # País não coberto
+                    return None
+
+            elif divisoes.get(COMUNIDADE_AUTONOMA):  # Espera-se que cubra Espanha
+                comunidade_autonoma = divisoes[COMUNIDADE_AUTONOMA]
+
+                if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
+                    return vias.ESPANHA
+        else:
+            return None
 
     @staticmethod
     def _query(query: str, pais: str, debug: bool = False) -> Optional[minidom.Element]:
@@ -114,49 +258,37 @@ class OsmInterface:
         url_servidor = f'http://{IP_DOCKER}:{porto}/api/interpreter'  # Usar https se o servidor não for local
         return url_servidor
 
-    @staticmethod
-    def detectar_pais_por_coordenadas(latitude: float, longitude: float) -> Optional[str]:
-        return OsmInterface._detectar_pais(latitude, longitude)
 
-    @staticmethod
-    def _detectar_pais(latitude: float = 0.0, longitude: float = 0.0):
-        """
-        Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
-        :param latitude: Deve ser fornecida com a longitude
-        :param longitude: Deve ser fornecida com a latitude (pode ser 0.0)
-        :return: Nome do país se for possível determinar, None caso contrário
-        """
-        if longitude or latitude:   # Coordenadas (0.0, 0.0) estão muito afastadas de Península Ibérica
-            for pais in [vias.PORTUGAL, vias.ESPANHA, vias.ANDORRA]:
-                divisoes: dict[str, str] = OsmInterface.obter_divisoes_administrativas_de_ponto(latitude, longitude, pais)
+class Node:
+    """
+    Classe para guardar dados de um nó
+    """
+    def __init__(self, node_id: int, latitude: float, longitude: float):
+        self.node_id: int = node_id
+        self.latitude: float = latitude
+        self.longitude: float = longitude
+        self.nos_circundantes: set[int] = set()
 
-                if divisoes.get(vias.PAIS):  # Espera-se que cubra Portugal, Andorra e Gibraltar
-                    pais = divisoes[vias.PAIS]
-                    if pais == 'Portugal':
-                        return vias.PORTUGAL
-                    elif pais == 'Andorra':
-                        return vias.ANDORRA
-                    elif pais == 'Gibraltar':
-                        return vias.GIBRALTAR
-                    elif pais == 'Spain':
-                        return vias.ESPANHA
-                    else:  # País não coberto
-                        return None
 
-                elif divisoes.get(vias.COMUNIDADE_AUTONOMA):  # Espera-se que cubra Espanha
-                    comunidade_autonoma = divisoes[vias.COMUNIDADE_AUTONOMA]
-
-                    if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
-                        return vias.ESPANHA
-
-            else:
-                return None
-        else:
-            return None
+class Via:
+    """
+    Classe para guardar dados de uma via
+    """
+    def __init__(self, via_id, lista_nos: list[Node]):
+        self.via_id: int = via_id
+        self.lista_nos: list[Node] = lista_nos
 
 
 # a = OsmInterface.obter_divisoes_administrativas_de_ponto(37.35, -7.44)  # Ayamonte
 # a = OsmInterface.obter_divisoes_administrativas_de_ponto(42.60, 1.47)  # Andorra
-a = OsmInterface.obter_divisoes_administrativas_de_ponto(39.0, -7.0)  # Portugal
+# a = OsmInterface.obter_divisoes_administrativas_de_ponto(39.0, -7.0)  # Portugal
 # a = OsmInterface.obter_divisoes_administrativas_de_ponto(36.133772, -5.351501)  # Gibraltar
-pprint.pprint(a)
+# pprint.pprint(a)
+
+# nome_estrada = "Autoestrada da Costa do Estoril"
+# nome_estrada = "Autovía del Suroeste"
+# pprint.pprint(OsmInterface.obter_saidas_de_estrada(nome_estrada, pais=vias.ESPANHA))
+# nome_linha = 'Linha de Cascais'
+# nome_linha = "Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez"
+# nome_linha = "Línea 8: Nuevos Ministerios-Aeropuerto T4"
+# pprint.pprint(OsmInterface.obter_estacoes_de_linha_ferroviaria(nome_linha, pais=vias.ESPANHA))

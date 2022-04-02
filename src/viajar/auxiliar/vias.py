@@ -14,30 +14,6 @@ ESPANHA = "ES"
 GIBRALTAR = "GI"
 PORTUGAL = "PT"
 
-# Níveis administractivos do OpenStreetMap
-
-# Geral
-PAIS = 2
-
-# Andorra
-PAROQUIA = 7
-
-# Espanha
-COMUNIDADE_AUTONOMA = 4
-PROVINCIA = 6
-COMARCA = 7
-MUNICIPIO = 8
-DISTRITO_ES = 9
-
-# Gibraltar
-GIBRALTAR_NIVEL_ADMIN = 4
-
-# Portugal
-REGIAO_AUTONOMA = 4
-DISTRITO_PT = 6
-CONCELHO = 7
-FREGUESIA = 8
-
 # Auto-estradas e vias rápidas
 #   (<Nome curto>, <Nome comprido segundo o OSM>, <País>)
 
