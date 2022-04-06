@@ -1,19 +1,14 @@
 import os
-from typing import List, Tuple, Dict, Set
+from typing import Union, Optional
 
 import requests
-try:
-    import osmium
-    import shapely.wkb as wkblib
-    from shapely.geometry import Point
-except:
-    print("Bibliotecas osmium e/ou shapely não instaladas. Está a executar este ficheiro em Windows?")
-    exit(1)
 
 import viajar.auxiliar.vias as vias
 import viajar.auxiliar.ordenador as ordenador
 import viajar.auxiliar.haversine as haversine
 import viajar.auxiliar.calculadora_distancias as calculadora_distancias
+import viajar.auxiliar.osm_interface as osm_interface
+from viajar.auxiliar.coordenada import Coordenada
 
 
 class Path:
@@ -37,12 +32,6 @@ PATH_BASE: Path = Path(os.path.dirname(os.path.realpath(__file__)))
 CHAVE_API_PATH: Path = Path(PATH_BASE, '../..', 'api_key.txt')
 PASTA_TEMP: Path = Path(PATH_BASE, '..', 'tmp')
 
-# Contêm a informação de países vinda do OpenStreetMap
-PASTA_OSM: Path = Path(PATH_BASE, '..', 'osm')
-OSM_GIBRALTAR: Path = Path(PASTA_OSM, 'andalucia-latest.osm.pbf')  # Ficheiro .pbf só para Gibraltar não disponível
-OSM_PORTUGAL: Path = Path(PASTA_OSM, 'portugal-latest.osm.pbf')
-OSM_ESPANHA: Path = Path(PASTA_OSM, 'spain-latest.osm.pbf')
-
 OPCAO_SAIR = 0
 OPCAO_LOCAIS_DIV_ADMIN = 1
 OPCAO_LIGACOES_DESTINOS = 2
@@ -54,18 +43,6 @@ OPCAO_AREA_URBANA = 2
 VIA_FERROVIA = vias.VIA_FERROVIA
 VIA_ESTRADA = vias.VIA_ESTRADA
 
-# Parâmetros do OpenStreetMap
-
-TIPO_NO: str = "n"  # Node
-TIPO_VIA: str = "w"  # Way
-TIPO_RELACAO: str = "r"  # Relation
-
-MOTORWAY_JUNCTION: str = 'motorway_junction'
-FREGUESIA_HISTORICA: str = 'historic_parish'
-
-# A global factory that creates WKB from a osmium geometry
-wkbfab = osmium.geom.WKBFactory()
-
 """
 Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferroviárias, e suas ligações
 """
@@ -73,7 +50,7 @@ Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferrov
 
 class GeradorInformacao:
 
-    def __init__(self, via_para_analisar: tuple, obter_altitudes=True):
+    def __init__(self, via_para_analisar: tuple, obter_altitudes=True) -> None:
         if len(via_para_analisar) == 3 and via_para_analisar[2] == VIA_FERROVIA:
             self.via_tipo = VIA_FERROVIA
             self.via_nome: str = via_para_analisar[0]  # Ex: Linha do Norte
@@ -88,12 +65,12 @@ class GeradorInformacao:
 
         self.obter_altitudes: bool = obter_altitudes
 
-        self.ficheiro_osm = None
         self.api_key = None
 
         self.local_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local.csv')
         self.local_espanha_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_espanha.csv')
         self.local_portugal_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_portugal.csv')
+        self.local_gibraltar_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_gibraltar.csv')
         self.municipio_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_municipio.csv')
         self.comarca_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_comarca.csv')
         self.concelho_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_concelho.csv')
@@ -113,7 +90,7 @@ class GeradorInformacao:
                 exit(0)
             elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
                 print(f"Escolheu gerar os locais e divisões administrativas da {self.via_identificador}.")
-                self.opcao_obter_locais_divs_admins()
+                self.opcao_obter_locais_divisoes_admins()
                 break
             elif opcao == str(OPCAO_LIGACOES_DESTINOS):
                 print(f"Escolheu gerar as ligações e destinos da {self.via_identificador}.")
@@ -121,19 +98,11 @@ class GeradorInformacao:
                 break
         exit(0)
 
-    def opcao_obter_ligacoes_destinos(self):
+    def opcao_obter_ligacoes_destinos(self) -> None:
         """
         A partir de um ficheiro de locais de uma via, cria os ficheiros de ligações e de destinos correspondentes
         """
-        if self.pais == vias.PORTUGAL:
-            self.ficheiro_osm: str = OSM_PORTUGAL.path
-        elif self.pais == vias.ESPANHA:
-            self.ficheiro_osm: str = OSM_ESPANHA.path
-        elif self.pais == vias.GIBRALTAR:
-            self.ficheiro_osm: str = OSM_GIBRALTAR.path
-        # elif self.pais == vias.ANDORRA:
-        #     self.ficheiro_osm: str = OSM_ANDORRA.path
-        else:
+        if self.pais not in [vias.ANDORRA, vias.ESPANHA, vias.GIBRALTAR, vias.PORTUGAL]:
             print(f'País inválido - Processamento da {self.via_identificador} cancelado')
             exit(1)
 
@@ -170,7 +139,7 @@ class GeradorInformacao:
         print(f'{self.via_identificador} processada')
         print("Boa viagem!")
 
-    def opcao_obter_locais_divs_admins(self):
+    def opcao_obter_locais_divisoes_admins(self) -> None:
         """
         Recolhe informação sobre as saídas de uma auto-estrada / estações de uma linha ferroviária usando o OSM e cria
         os respectivos ficheiros de locais e de divisões administrativas
@@ -178,15 +147,7 @@ class GeradorInformacao:
         aviso: str = f'A {self.via_identificador} parece já ter sido processada antes.'
         self._detector_ficheiro_repetido(self.local_path.path, aviso)
 
-        if self.pais == vias.PORTUGAL:
-            self.ficheiro_osm: str = OSM_PORTUGAL.path
-        elif self.pais == vias.ESPANHA:
-            self.ficheiro_osm: str = OSM_ESPANHA.path
-        elif self.pais == vias.GIBRALTAR:
-            self.ficheiro_osm: str = OSM_GIBRALTAR.path
-        # elif self.pais == vias.ANDORRA:
-        #     self.ficheiro_osm: str = OSM_ANDORRA.path
-        else:
+        if self.pais not in [vias.ANDORRA, vias.ESPANHA, vias.GIBRALTAR, vias.PORTUGAL]:
             print(f'País inválido - Processamento da {self.via_identificador} cancelado')
             exit(1)
 
@@ -194,18 +155,17 @@ class GeradorInformacao:
         with open(CHAVE_API_PATH.path, 'r', encoding=ENCODING) as f:
             self.api_key: str = f.readlines()[0]
 
-        self.create_ficheiros_locais_divisoes_admin()
+        self.create_ficheiros_locais_divisoes_admins()
         print(f'{self.via_identificador} processada')
         print("Boa viagem!")
 
-    def create_ficheiros_locais_divisoes_admin(self):
+    def create_ficheiros_locais_divisoes_admins(self) -> None:
         print("################")
         print(f'A iniciar processamento da {self.via_identificador}...')
-        print(f'Isto vai demorar uns minutos')
         print("################\n")
 
-        saidas_estacoes_coordenadas: dict = self.get_saidas_estacoes()
-        saidas_estacoes_ordenadas: list = list(saidas_estacoes_coordenadas.keys())
+        saidas_estacoes_coordenadas: dict[str, Coordenada] = self.get_saidas_estacoes()
+        saidas_estacoes_ordenadas: list[str] = list(saidas_estacoes_coordenadas.keys())
         saidas_estacoes_ordenadas.sort()
 
         if self.via_tipo == VIA_FERROVIA:
@@ -242,21 +202,21 @@ class GeradorInformacao:
         saidas_estacoes_terminadas: int = 0
 
         if self.pais == vias.ESPANHA:
-            municipios: set = set()
-            comarcas: set = set()
+            municipios: set[str] = set()
+            comarcas: set[str] = set()
 
-            divisoes_pretendidas: list = [vias.PROVINCIA, vias.COMARCA, vias.MUNICIPIO, vias.DISTRITO_ES]
-            divisoes_saidas_estacoes: dict = self.get_divisoes_administrativas(  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
-                list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)
+            divisoes_pretendidas: list[int] = [osm_interface.PROVINCIA, osm_interface.COMARCA, osm_interface.MUNICIPIO, osm_interface.DISTRITO_ES]
+            divisoes_saidas_estacoes: dict[Coordenada, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
+                list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
             with open(self.local_espanha_path.path, 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordenada = saidas_estacoes_coordenadas[saida_ou_estacao]
 
-                    municipio: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.MUNICIPIO, "")
-                    provincia: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.PROVINCIA, "")
-                    comarca: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.COMARCA, '')  # Nem sempre está disponível
-                    distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.DISTRITO_ES, '')  # Só disponível nas grandes cidades
+                    municipio: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.MUNICIPIO, "")
+                    provincia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PROVINCIA, "")
+                    comarca: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.COMARCA, '')  # Nem sempre está disponível
+                    distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.DISTRITO_ES, '')  # Só disponível nas grandes cidades
 
                     if self.via_tipo == VIA_FERROVIA:
                         f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
@@ -291,19 +251,22 @@ class GeradorInformacao:
             print("Ficheiro de comarcas terminado")
 
         elif self.pais == vias.PORTUGAL:
-            concelhos: set = set()
+            concelhos: set[str] = set()
 
-            divisoes_pretendidas: list = [vias.DISTRITO_PT, vias.CONCELHO, vias.FREGUESIA]
-            divisoes_saidas_estacoes: dict = self.get_divisoes_administrativas(  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
-                list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)
+            divisoes_pretendidas: list[Union[str, int]] = [
+                osm_interface.DISTRITO_PT, osm_interface.CONCELHO, osm_interface.FREGUESIA, osm_interface.FREGUESIA_HISTORICA]
+            divisoes_saidas_estacoes:  dict[Coordenada, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
+                list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
             with open(self.local_portugal_path.path, 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordenada = saidas_estacoes_coordenadas[saida_ou_estacao]
 
-                    freguesia: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.FREGUESIA, "")  # Antiga freguesia, se existir
-                    concelho: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.CONCELHO, "")
-                    distrito: str = divisoes_saidas_estacoes.get(ponto, {}).get(vias.DISTRITO_PT, "")
+                    freguesia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.FREGUESIA_HISTORICA, "")  # Antiga freguesia, se existir
+                    if not freguesia:
+                        freguesia = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.FREGUESIA, "")
+                    concelho: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.CONCELHO, "")
+                    distrito: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.DISTRITO_PT, "")
 
                     if self.via_tipo == VIA_FERROVIA:
                         f.write(f'Estação de {saida_ou_estacao},{freguesia},{concelho}\n')
@@ -332,9 +295,9 @@ class GeradorInformacao:
         else:
             pass
 
-    def create_ficheiros_ligacoes_destinos(self, invertido: bool):
+    def create_ficheiros_ligacoes_destinos(self, invertido: bool) -> None:
         with open(self.local_path.path, 'r', encoding=ENCODING) as f:
-            conteudo: list = f.readlines()
+            conteudo: list[str] = f.readlines()
 
         if len(conteudo) == 0:
             print(f'O ficheiro de locais da {self.via_identificador} está vazio.')
@@ -350,37 +313,37 @@ class GeradorInformacao:
             conteudo = list(reversed(conteudo))
 
         # Gerar mapa para depois com ele se calcularem as distâncias
-        todas_coordenadas: Set[Tuple[float, float]] = set()
+        todas_coordenadas: set[Coordenada] = set()
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
                 linha_a: str = conteudo[idx]
                 linha_b: str = conteudo[idx + 1]
-                elementos_a: List[str] = linha_a.split(",")
-                elementos_b: List[str] = linha_b.split(",")
-                elementos_a: List[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elementos_b: List[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+                elementos_a: list[str] = linha_a.split(",")
+                elementos_b: list[str] = linha_b.split(",")
+                elementos_a: list[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: list[str] = ordenador.separar_por_virgulas(lista=elementos_b)
 
                 if conteudo[idx + 1].strip() == '':  # Linha vazia - Parar processamento aqui
                     break
 
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
                 latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
-                todas_coordenadas.add((latitude_a, longitude_a))
-                todas_coordenadas.add((latitude_b, longitude_b))
+                todas_coordenadas.add(Coordenada(latitude_a, longitude_a))
+                todas_coordenadas.add(Coordenada(latitude_b, longitude_b))
 
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
-        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, self.ficheiro_osm, via_nome=self.via_nome)
+        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, self.pais, via_nome=self.via_nome)
 
-        ligacoes: list = []
-        destinos: list = []
+        ligacoes: list[str] = []
+        destinos: list[str] = []
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
                 linha_a: str = conteudo[idx]
                 linha_b: str = conteudo[idx + 1]
-                elementos_a: List[str] = linha_a.split(",")
-                elementos_b: List[str] = linha_b.split(",")
-                elementos_a: List[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elementos_b: List[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+                elementos_a: list[str] = linha_a.split(",")
+                elementos_b: list[str] = linha_b.split(",")
+                elementos_a: list[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: list[str] = ordenador.separar_por_virgulas(lista=elementos_b)
 
                 local_a: str = elementos_a[0]
                 local_b: str = elementos_b[0].strip()
@@ -401,7 +364,8 @@ class GeradorInformacao:
                 ordem_a = 2
                 ordem_b = 1
 
-                distancia: float = calc_dist.calcular_distancia_com_ajustes((latitude_a, longitude_a), (latitude_b, longitude_b))
+                distancia: float = calc_dist.calcular_distancia_com_ajustes(
+                    Coordenada(latitude_a, longitude_a), Coordenada(latitude_b, longitude_b))
                 if distancia == calculadora_distancias.DISTANCIA_INFINITA:
                     print("Não foi possível calcular distância - Continuando...")
                     distancia = 0.0
@@ -429,34 +393,49 @@ class GeradorInformacao:
             print(str(e))
             return 0
 
-    def get_divisoes_administrativas(self, locais: list, divisoes_pretendidas: list) -> dict:
+    def get_divisoes_administrativas(self, locais: list[Coordenada], divisoes_pretendidas: list[Union[str, int]]
+                                     ) -> dict[Coordenada, dict[Union[str, int], Optional[str]]]:
         """
         Dado uma lista de coordenadas, retorna dicionário com, para cada local, os nomes das divisões administrativas pretendidas
         """
         print("A obter divisões administrativas...")
 
-        h: CoordenadasParaDivisoesAdministrativas = CoordenadasParaDivisoesAdministrativas(locais, divisoes_pretendidas, self.pais)
-        h.apply_file(self.ficheiro_osm, locations=True)
+        divisoes_admins_por_pontos: dict[Coordenada, dict[Union[str, int], Optional[str]]] = {}
+        for coordenadas in locais:
+            divisoes_admins_de_ponto: dict[Union[str, int], Optional[str]] = {}
+
+            retorno: dict[Union[str, int], str] = osm_interface.OsmInterface.obter_divisoes_administrativas_de_ponto(coordenadas)
+
+            for chave in retorno:
+                if chave not in divisoes_pretendidas:
+                    continue
+
+                divisao_admin: Union[str, int] = retorno[chave]
+                divisoes_admins_de_ponto[chave] = divisao_admin
+
+            for chave in divisoes_pretendidas:
+                if chave not in divisoes_admins_de_ponto:  # Se divisão pretendida não foi encontrada para aquele ponto, inserir None
+                    divisoes_admins_de_ponto[chave] = None
+
+            divisoes_admins_por_pontos[coordenadas] = divisoes_admins_de_ponto
 
         print("Divisões administrativas obtidas\n")
+        return divisoes_admins_por_pontos
 
-        return h.coordenadas_divisoes_admin
-
-    def get_saidas_estacoes(self) -> dict:
+    def get_saidas_estacoes(self) -> dict[str, Coordenada]:
         if self.via_tipo == VIA_FERROVIA:
             print("A obter nós correspondentes a estações...")
         else:
             print("A obter nós correspondentes a saídas...")
 
-        h: ViaParaNos = ViaParaNos(self.via_nome)
-        h.apply_file(self.ficheiro_osm, locations=True)
-        nos_id_set: set = h.via_nos_ids
-        vias_a_processar: set = h.vias_osm_a_processar
-        h: ViaParaNos = ViaParaNos(self.via_nome, vias_osm_a_processar=vias_a_processar, via_nos_ids=nos_id_set)
-        h.apply_file(self.ficheiro_osm, locations=True)  # Segunda passagem, necessário em certas auto-estradas
-        nos_id_set: set = h.via_nos_ids
+        if self.via_tipo == VIA_FERROVIA:
+            saidas_estacoes_temp: dict[str, list[Coordenada]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
+                self.via_nome, self.pais)
+        else:
+            saidas_estacoes_temp: dict[str, list[Coordenada]] = osm_interface.OsmInterface.obter_saidas_de_estrada(
+                self.via_nome, self.pais)
 
-        if len(nos_id_set) == 0:
+        if len(saidas_estacoes_temp) == 0:
             if self.via_tipo == VIA_FERROVIA:
                 print(f"Não foi encontrado nenhum nó associado às estações da {self.via_identificador}. "
                       f"A ferrovia está em {self.pais}?")
@@ -467,25 +446,7 @@ class GeradorInformacao:
                 print(f'Pode também ser uma auto-estrada sem números de saída no OpenStreetMap')
             exit(0)
 
-        if self.via_tipo == VIA_FERROVIA:
-            print("Nós correspondentes a estações obtidos\n")
-            print("A obter nomes de estações e coordenadas de nós...")
-        else:
-            print("Nós correspondentes a saídas obtidos\n")
-            print("A obter números de saídas e coordenadas de nós...")
-
-        h: NosParaSaidasEstacoes = NosParaSaidasEstacoes(nos_id_set, self.via_tipo)  # Processa tanto estradas como ferrovias
-        h.apply_file(self.ficheiro_osm, locations=True)
-        saidas_estacoes_temp: dict = h.saidas_estacoes_dict
-
-        if self.via_tipo == VIA_FERROVIA:
-            print("Coordenadas de nós e nomes de estações obtidos\n")
-            print("A obter coordenadas de estações...")
-        else:
-            print("Coordenadas de nós e números de saídas obtidos\n")
-            print("A obter coordenadas de saídas...")
-
-        saidas_ou_estacoes: dict = {}
+        saidas_ou_estacoes: dict[str, Coordenada] = {}  # Contém apenas o "centro" de cada estação ou saída
         for saida_ou_estacao in saidas_estacoes_temp:
             latitude = 0.0
             longitude = 0.0
@@ -503,7 +464,7 @@ class GeradorInformacao:
 
         return saidas_ou_estacoes
 
-    def _detector_ficheiro_repetido(self, path: str, aviso: str):
+    def _detector_ficheiro_repetido(self, path: str, aviso: str) -> None:
         """
         Detecta se o ficheiro fornecido existe. Se existe, apresenta o aviso ao utilizador e dá opção de escolha.
         Se a opção for de cancelar, sai do programa, caso contrário continua
@@ -522,132 +483,3 @@ class GeradorInformacao:
                 elif 'n' in opcao.lower():
                     print(f'Processamento da {self.via_identificador} cancelado.')
                     exit(0)
-
-
-# OBTER AUTO-ESTRADAS E VIAS FERROVIÁRIAS
-
-class ViaParaNos(osmium.SimpleHandler):
-    """
-    Dado um nome de uma estrada ou ferrovia (Ex: "Autoestrada do Norte", "Autovía de Málaga", "Linha do Norte"), em 2
-        chamadas obtém os IDs dos nós dessa via
-    1ª chamada - Obtém IDs de nós pertencentes a relações e vias OSM com o nome da estrada ou ferrovia desejada, assim
-        como IDs de vias OSM com outros nomes / sem nome pertencentes a relações com o nome da via desejada
-    2ª chamada - Dadas as vias OSM encontradas e os IDs dos nós já encontrados, obtém os IDs dos nós dessas vias OSM
-        Fornecer os IDs dos nós já encontrados destina-se apenas aos prints da classe
-    Nota: O OSM também tem o conceito de vias ("ways"). Geralmente estão incluídas em relações ("relations").
-    """
-    def __init__(self, via_nome: str, vias_osm_a_processar: set = None, via_nos_ids: set = None):
-        super(ViaParaNos, self).__init__()
-        self.via_nome: str = via_nome
-        self.via_nos_ids: set = set()
-        self.vias_osm_a_processar: set = set()
-        if via_nos_ids:  # Segunda passagem pelo ficheiro
-            self.via_nos_ids = via_nos_ids
-        if vias_osm_a_processar:  # Segunda passagem pelo ficheiro
-            self.vias_osm_a_processar = vias_osm_a_processar
-
-    def relation(self, r):
-        if r.tags.get('name') == self.via_nome:
-            for membro in r.members:
-                if membro.type == TIPO_NO:
-                    self.via_nos_ids.add(membro.ref)  # ref contêm o ID do elemento
-                    if len(self.via_nos_ids) == 1:
-                        print("1 nó encontrado")
-                    else:
-                        print(f'{len(self.via_nos_ids)} nós encontrados')
-                elif membro.type == TIPO_VIA:
-                    self.vias_osm_a_processar.add(membro.ref)  # Guarda ID da via para segunda passagem pelo ficheiro
-
-    def way(self, w):
-        if w.tags.get('name') == self.via_nome or w.id in self.vias_osm_a_processar:
-            for node in w.nodes:
-                self.via_nos_ids.add(node.ref)
-                if len(self.via_nos_ids) == 1:
-                    print("1 nó encontrado")
-                else:
-                    print(f'{len(self.via_nos_ids)} nós encontrados')
-
-
-class NosParaSaidasEstacoes(osmium.SimpleHandler):
-    """
-    Dado um conjunto de IDs de nós correspondentes a uma via (estrada ou ferrovia), retorna o número da saída / nome da
-        estação e as coordenadas desses nós
-    """
-    def __init__(self, nos_id_set: set, via_tipo: str):
-        super(NosParaSaidasEstacoes, self).__init__()
-        self.nos_id_set: set = nos_id_set
-        self.via_tipo: str = via_tipo  # Estrada ou ferrovia
-        self.saidas_estacoes_dict: dict = {}
-        self.nos_processados: int = 0
-
-    def node(self, n):
-        if n.id in self.nos_id_set:
-            if (n.tags.get('highway') and n.tags.get('highway') == MOTORWAY_JUNCTION and n.tags.get('ref')) or \
-                    n.tags and n.tags.get('name'):  # Para ferrovias
-                if self.via_tipo == VIA_FERROVIA:
-                    referencia: str = n.tags.get('name')  # Estação ferroviária (Ex: Gare do Oriente)
-                else:
-                    referencia: str = n.tags.get('ref')  # Saída de estrada (Ex: 2A)
-                if not self.saidas_estacoes_dict.get(referencia, []) and referencia is not None:
-                    self.saidas_estacoes_dict[referencia]: list = []
-                try:
-                    ponto: Coordenada = Coordenada(n.location.lat, n.location.lon)
-                    self.saidas_estacoes_dict[referencia].append(ponto)
-                    self.nos_processados += 1
-                    if self.via_tipo == VIA_FERROVIA:
-                        print(f'{self.nos_processados} nós com informação de estação encontrados de entre '
-                              f'{len(self.nos_id_set)} disponíveis')
-                    else:
-                        print(f'{self.nos_processados} nós com informação de saída encontrados de entre '
-                              f'{len(self.nos_id_set)} disponíveis')
-                except:  # Nó não tem latitude, longitude, ou os dois
-                    pass
-
-
-class CoordenadasParaDivisoesAdministrativas(osmium.SimpleHandler):
-    """
-    Dado um conjunto de coordenadas, retorna um dicionário onde a chave é um tuplo de coordenadas (lat, lon) e o valor é
-    outro dicionário onde a chave é o nível administrativo (Ex: Em Portugal, distrito = 6) e o valor o nome da divisão
-    """
-    def __init__(self, lista_coordenadas: list, divisoes_pretendidas: list, pais: str):
-        super(CoordenadasParaDivisoesAdministrativas, self).__init__()
-        self.lista_coordenadas: list = lista_coordenadas
-        self.divisoes_pretendidas: list = divisoes_pretendidas  # Quais as divisões administrativas pretendidas
-        self.pais: str = pais
-        self.coordenadas_divisoes_admin: dict = {}
-        self.antiga_freguesia: dict = {}  # {(36.5, -8.5): True} - As coordenadas estão numa antiga freguesia
-        self.saidas_estacoes_concluidas: int = 0
-
-    def area(self, a):
-        try:
-            if a.tags.get('border_type') == FREGUESIA_HISTORICA and self.pais == vias.PORTUGAL:
-                wkb = wkbfab.create_multipolygon(a)
-                area = wkblib.loads(wkb, hex=True)
-
-                for ponto in self.lista_coordenadas:
-                    if not self.coordenadas_divisoes_admin.get(ponto):
-                        self.coordenadas_divisoes_admin[ponto] = {}
-                    if area.contains(Point(ponto.get_longitude(), ponto.get_latitude())):  # (longitude, latitude)
-                        self.coordenadas_divisoes_admin[ponto][vias.FREGUESIA] = a.tags.get('name')
-                        self.antiga_freguesia[ponto] = True
-                        if len(self.coordenadas_divisoes_admin[ponto]) == len(self.divisoes_pretendidas):
-                            self.saidas_estacoes_concluidas += 1
-                            print(f'Divisões administrativas obtidas para '
-                                  f'{self.saidas_estacoes_concluidas}/{len(self.lista_coordenadas)} locais')
-            for nivel_admin in self.divisoes_pretendidas:
-                if a.tags.get('admin_level') and int(a.tags.get('admin_level')) == nivel_admin:
-                    wkb = wkbfab.create_multipolygon(a)
-                    area = wkblib.loads(wkb, hex=True)
-
-                    for ponto in self.lista_coordenadas:
-                        if not self.coordenadas_divisoes_admin.get(ponto):
-                            self.coordenadas_divisoes_admin[ponto] = {}
-                        if area.contains(Point(ponto.get_longitude(), ponto.get_latitude())) and \
-                                not self.antiga_freguesia.get(ponto, False):  # Local não está já associado a antiga freguesia
-                            self.coordenadas_divisoes_admin[ponto][nivel_admin] = a.tags.get('name')
-                            if len(self.coordenadas_divisoes_admin[ponto]) == len(self.divisoes_pretendidas):
-                                self.saidas_estacoes_concluidas += 1
-                                print(f'Divisões administrativas obtidas para '
-                                      f'{self.saidas_estacoes_concluidas}/{len(self.lista_coordenadas)} locais')
-        except:  # Pode não ter sido possível converter relação em área
-            pass
