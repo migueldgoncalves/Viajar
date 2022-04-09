@@ -5179,6 +5179,11 @@ Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-4 - Carmona/Có
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-92 - Granada/Málaga/Sevilha
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,A-376 - Sevilha/Utrera
 Cruzamento da A-4 Sul com a SE-40,SE-40 - Saída 19,Carro,True,Aeroporto de Sevilha
+Cruzamento da A-5 com a EX-A1,EX-A1 - Saída 9,Carro,False,A-5
+Cruzamento da A-5 com a EX-A1,EX-A1 - Saída 9,Carro,False,Navalmoral de la Mata
+Cruzamento da A-5 com a EX-A1,EX-A1 - Saída 9,Carro,True,Navalmoral de la Mata
+Cruzamento da A-5 com a EX-A1,EX-A1 - Saída 9,Carro,True,Parque Nacional de Monfragüe
+Cruzamento da A-5 com a EX-A1,EX-A1 - Saída 9,Carro,True,Plasencia
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Madrid
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,False,Miajadas
 Cruzamento da A-5 com a EX-A2,EX-A2 - Saída 6,Carro,True,Don Benito
@@ -5397,6 +5402,16 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Carro,True,Sevilha - Tr
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,False,A-49 - Huelva/Sevilha
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Almensilla
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Carro,True,Palomares del Río
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,False,A-66
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,False,Coria
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,False,Plasencia
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,False,Portugal
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,True,A-5
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Carro,True,Navalmoral de la Mata
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Carro,False,Navalmoral de la Mata
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Carro,False,Plasencia
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Carro,True,Coria
+Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Carro,True,Portugal
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-4 - Cádiz
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-49 - Huelva
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Carro,False,A-66 - Mérida
@@ -7286,6 +7301,60 @@ Estoi,Ruínas Romanas de Milreu,Carro,False,Estoi
 Estoi,Ruínas Romanas de Milreu,Carro,False,Olhão
 Estoi,Ruínas Romanas de Milreu,Carro,True,Faro
 Estoi,Ruínas Romanas de Milreu,Carro,True,Ruínas Romanas de Milreu
+EX-A1 - Fim,EX-A1 - Saída 92,Carro,False,Portugal
+EX-A1 - Fim,EX-A1 - Saída 92,Carro,True,Coria
+EX-A1 - Fim,EX-A1 - Saída 92,Carro,True,Navalmoral de la Mata
+EX-A1 - Fim,EX-A1 - Saída 92,Carro,True,Plasencia
+EX-A1 - Saída 9,EX-A1 - Saída 16,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 9,EX-A1 - Saída 16,Carro,True,Plasencia
+EX-A1 - Saída 9,EX-A1 - Saída 16,Carro,True,Portugal
+EX-A1 - Saída 16,EX-A1 - Saída 23,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 16,EX-A1 - Saída 23,Carro,True,Plasencia
+EX-A1 - Saída 16,EX-A1 - Saída 23,Carro,True,Portugal
+EX-A1 - Saída 23,EX-A1 - Saída 29,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 23,EX-A1 - Saída 29,Carro,True,Plasencia
+EX-A1 - Saída 23,EX-A1 - Saída 29,Carro,True,Portugal
+EX-A1 - Saída 29,EX-A1 - Saída 38,Carro,False,A-5
+EX-A1 - Saída 29,EX-A1 - Saída 38,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 29,EX-A1 - Saída 38,Carro,True,Plasencia
+EX-A1 - Saída 29,EX-A1 - Saída 38,Carro,True,Portugal
+EX-A1 - Saída 38,EX-A1 - Saída 42,Carro,False,A-5
+EX-A1 - Saída 38,EX-A1 - Saída 42,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 38,EX-A1 - Saída 42,Carro,True,Malpartida de Plasencia - Sul
+EX-A1 - Saída 38,EX-A1 - Saída 42,Carro,True,Plasencia
+EX-A1 - Saída 38,EX-A1 - Saída 42,Carro,True,Portugal
+EX-A1 - Saída 42,EX-A1 - Saída 46,Carro,False,A-5
+EX-A1 - Saída 42,EX-A1 - Saída 46,Carro,False,Malpartida de Plasencia
+EX-A1 - Saída 42,EX-A1 - Saída 46,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 42,EX-A1 - Saída 46,Carro,True,Plasencia
+EX-A1 - Saída 42,EX-A1 - Saída 46,Carro,True,Portugal
+EX-A1 - Saída 58,EX-A1 - Saída 61,Carro,False,Plasencia
+EX-A1 - Saída 58,EX-A1 - Saída 61,Carro,True,Coria
+EX-A1 - Saída 58,EX-A1 - Saída 61,Carro,True,Portugal
+EX-A1 - Saída 61,EX-A1 - Saída 66,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 61,EX-A1 - Saída 66,Carro,False,Plasencia
+EX-A1 - Saída 61,EX-A1 - Saída 66,Carro,True,Coria
+EX-A1 - Saída 66,EX-A1 - Saída 72,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 66,EX-A1 - Saída 72,Carro,False,Plasencia
+EX-A1 - Saída 66,EX-A1 - Saída 72,Carro,True,Coria
+EX-A1 - Saída 66,EX-A1 - Saída 72,Carro,True,Portugal
+EX-A1 - Saída 72,EX-A1 - Saída 77,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 72,EX-A1 - Saída 77,Carro,False,Plasencia
+EX-A1 - Saída 72,EX-A1 - Saída 77,Carro,True,Coria
+EX-A1 - Saída 72,EX-A1 - Saída 77,Carro,True,Portugal
+EX-A1 - Saída 77,EX-A1 - Saída 82,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 77,EX-A1 - Saída 82,Carro,False,Plasencia
+EX-A1 - Saída 77,EX-A1 - Saída 82,Carro,True,Coria
+EX-A1 - Saída 77,EX-A1 - Saída 82,Carro,True,Portugal
+EX-A1 - Saída 82,EX-A1 - Saída 88,Carro,False,Coria
+EX-A1 - Saída 82,EX-A1 - Saída 88,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 82,EX-A1 - Saída 88,Carro,False,Plasencia
+EX-A1 - Saída 82,EX-A1 - Saída 88,Carro,True,Moraleja
+EX-A1 - Saída 82,EX-A1 - Saída 88,Carro,True,Portugal
+EX-A1 - Saída 88,EX-A1 - Saída 92,Carro,False,Navalmoral de la Mata
+EX-A1 - Saída 88,EX-A1 - Saída 92,Carro,False,Plasencia
+EX-A1 - Saída 88,EX-A1 - Saída 92,Carro,True,Moraleja
+EX-A1 - Saída 88,EX-A1 - Saída 92,Carro,True,Portugal
 EX-A2 - Fim,EX-A2 - Saída 23,Carro,False,Don Benito
 EX-A2 - Fim,EX-A2 - Saída 23,Carro,False,Villanueva de la Serena
 EX-A2 - Fim,EX-A2 - Saída 23,Carro,True,Madrid
