@@ -1278,6 +1278,7 @@ Antiga Estação de Aljaraque,Gibraleón,Comboio,12.2,Antiga Linha Gibraleón-Ay
 Antiga Estação de Huelva-Término,Avenida de la Villa de Madrid x Avenida del Sur,Carro,0.3,,SO,2,4
 Antiga Estação de Huelva-Término,Ayuntamiento de Huelva,Carro,0.4,,N,4,2
 Antiga Estação de Huelva-Término,Gran Teatro de Huelva,Carro,0.4,,N,3,1
+Antiga Estação de Huelva-Término,"Plaza de Isabel la Católica, Huelva",Carro,0.3,,NE,5,3
 Antiga Estação de Huelva-Término,"Plaza Doce de Octubre, Huelva",Carro,0.6,,NO,1,5
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,7.3,Antiga Linha Gibraleón-Ayamonte,O,1,8
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Carro,3.0,,S,4,1
@@ -1347,6 +1348,7 @@ Aroche,Rosal de la Frontera,Carro,26.9,N-433,O,1,3
 Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 Avenida de Andalucía x Avenida Pío XII,"Avenida de Andalucía, Huelva",Carro,1.1,,NE,1,3
 Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Carro,0.6,,O,3,3
+Avenida de Andalucía x Avenida Pío XII,"Plaza de la Dinastía de los Litri, Huelva",Carro,0.5,,SO,5,1
 Avenida de Andalucía x Avenida Pío XII,Plaza del Huerto Paco,Carro,0.7,,N,2,3
 Avenida de Andalucía x Avenida Pío XII,Reitoria da Universidade de Huelva,Carro,0.4,,S,4,1
 "Avenida de Andalucía, Huelva","Avenida de Santa Marta, Huelva",Carro,0.5,,N,2,4
@@ -1362,7 +1364,9 @@ Avenida de Diego Morón x Avenida de Santa Marta,"Humilladero de la Cinta, Huelv
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.7,,E,3,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Barrio Reina Victoria,Carro,0.5,,NO,2,2
+Avenida de Guatemala x Avenida del Nuevo Colombino,Centro Comercial Costa Luz,Carro,0.7,,NO,5,2
 Avenida de Guatemala x Avenida del Nuevo Colombino,H-30 - Saída 15,Carro,1.6,,SO,3,4
+Avenida de Guatemala x Avenida del Nuevo Colombino,Museu de Huelva,Carro,0.8,,O,4,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Plaza de Fray Genaro Prieto,Carro,0.6,,NO,1,3
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
 "Avenida de Kansas City, Sevilha",Cruzamento da A-4 Norte com a SE-30,Carro,1.5,,NE,1,4
@@ -1383,8 +1387,10 @@ Ayamonte,Cruzamento da A-499 com a N-431,Carro,6.5,,NE,5,1
 Ayamonte,Moinho de Maré El Pintado,Carro,1.7,,E,4,1
 Ayamonte,Polígono Industrial de Ayamonte,Carro,3.7,,NE,1,1
 Ayamonte,Vila Real de Santo António,Barco,2.2,Rio Guadiana,SO,7,7
+Ayuntamiento de Huelva,Casa Colón,Carro,0.3,,SE,7,2
 Ayuntamiento de Huelva,"Convento de Santa María de Gracia, Huelva",Carro,0.2,,O,5,3
 Ayuntamiento de Huelva,Gran Teatro de Huelva,Carro,0.3,,SO,3,5
+Ayuntamiento de Huelva,"Plaza de Isabel la Católica, Huelva",Carro,0.3,,SE,6,1
 Ayuntamiento de Huelva,"Plaza de las Monjas, Huelva",Carro,0.3,,O,4,6
 Ayuntamiento de Huelva,Plaza de Quintero Báez,Carro,0.2,,N,1,6
 Azinhal,Cruzamento da N122 com a M512,Carro,0.8,N122,SO,2,1
@@ -1515,6 +1521,9 @@ Carvoeiro,Praia do Vale de Centeanes,Carro,2.3,,SE,1,2
 "Casa Branca, Alcoutim",Cerro,Carro,0.3,,SO,2,2
 "Casa Branca, Alcoutim",Deserto,Carro,0.6,,O,1,3
 "Casa Branca, Castro Marim",Choça Queimada,Carro,0.8,,NO,1,2
+Casa Colón,Estação de Huelva,Carro,0.5,,SE,3,1
+Casa Colón,Museu de Huelva,Carro,0.3,,E,4,2
+Casa Colón,"Plaza de Isabel la Católica, Huelva",Carro,0.2,,SO,1,2
 Cascata do Pulo do Lobo - Margem Direita,Cruzamento da N122 com a N123,Carro,16.5,,SO,1,2
 Cascata do Pulo do Lobo - Margem Esquerda,Vale do Poço,Carro,12.3,,SE,1,2
 Casinhas,Junqueira,Carro,0.7,,E,2,3
@@ -1536,6 +1545,9 @@ Cemitério de Nuestra Señora de la Soledad,H-30 - Saída 8,Carro,0.9,,S,1,4
 Centro Comercial Aqualon,"Plaza del Lino, Huelva",Carro,0.8,,E,5,3
 Centro Comercial Aqualon,Porto Interior de Huelva,Carro,0.9,,S,3,1
 Centro Comercial Aqualon,Terminal Rodoviário de Huelva,Carro,0.6,,S,4,1
+Centro Comercial Costa Luz,Museu de Huelva,Carro,0.3,,SO,3,4
+Centro Comercial Costa Luz,"Parque Alonso Sánchez, Huelva",Carro,0.5,,NO,4,4
+Centro Comercial Costa Luz,Plaza de Fray Genaro Prieto,Carro,0.4,,E,1,4
 Centro Comercial Holea,H-30 - Centro Comercial,Carro,0.4,,NE,2,4
 Centro Comercial Holea,H-30 - Saída 11A,Carro,0.5,,SE,3,3
 Centro Comercial Holea,Universidade de Huelva - Campus de El Carmen,Carro,0.4,,SO,1,4
@@ -2056,6 +2068,8 @@ Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
 Estação de Fuseta-Moncarapacho,Fuseta,Carro,0.8,N125-5,SE,2,1
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,2.9,Linha do Algarve - Regional,NE,3,4
 Estação de Guadix,Guadix,Carro,1.9,,SO,1,3
+Estação de Huelva,H-30 - Saída 15,Carro,1.6,,S,2,6
+Estação de Huelva,Museu de Huelva,Carro,0.3,,N,3,1
 Estação de Jerumelo,Estação de Malveira,Comboio,3.5,Linha do Oeste - Regional,SO,1,2
 Estação de Jerumelo,Estação de Sapataria,Comboio,4.0,Linha do Oeste - Regional,NE,2,1
 Estação de Lagos,Lagos,Carro,2.4,,S,4,2
@@ -2244,6 +2258,7 @@ GR-30 - Saída 12,GR-30 - Saída 13,Carro,1.0,GR-30,SE,2,1
 GR-30 - Saída 13,GR-30 - Saída 15,Carro,1.7,GR-30,S,2,1
 GR-30 - Saída 18,GR-30 - Saída 21,Carro,2.9,GR-30,SO,2,1
 GR-30 - Saída 21,GR-30 - Saída 23,Carro,2.4,GR-30,SO,2,1
+Gran Teatro de Huelva,"Plaza de Isabel la Católica, Huelva",Carro,0.5,,SE,6,4
 Gran Teatro de Huelva,"Plaza de las Monjas, Huelva",Carro,0.2,,N,4,1
 Gran Teatro de Huelva,"Plaza Doce de Octubre, Huelva",Carro,0.6,,O,2,6
 Grândola,IP8 - Cruzamento com a N261-1,Carro,5.2,,NO,9,3
@@ -2330,6 +2345,7 @@ IES La Rábida,Mirador del Conquero,Carro,0.6,,N,1,2
 IES La Rábida,Plaza de Ivonne Cazenave,Carro,0.2,,S,2,2
 IES La Rábida,Plaza del Huerto Paco,Carro,0.6,,NE,3,5
 "Iglesia de San Pedro, Huelva",Plaza de Ivonne Cazenave,Carro,0.3,,NE,2,4
+"Iglesia de San Pedro, Huelva","Plaza de la Dinastía de los Litri, Huelva",Carro,0.4,,E,6,3
 "Iglesia de San Pedro, Huelva","Plaza de la Vera Cruz, Huelva",Carro,0.3,,SO,4,2
 "Iglesia de San Pedro, Huelva",Plaza de Quintero Báez,Carro,0.3,,S,5,3
 "Iglesia de San Pedro, Huelva","Plaza del Lino, Huelva",Carro,0.4,,O,3,5
@@ -2514,6 +2530,9 @@ Ourique,Santana da Serra,Carro,20.3,IC1,SO,1,3
 Ourique,São Martinho das Amoreiras,Carro,23.6,N123,O,2,2
 Paderne,Tunes,Carro,6.2,,SO,7,1
 Parchal,Porto de Pesca de Portimão,Carro,1.0,,O,4,1
+"Parque Alonso Sánchez, Huelva","Plaza de Cristóbal Quintero, Huelva",Carro,0.2,,E,2,1
+"Parque Alonso Sánchez, Huelva","Plaza de la Dinastía de los Litri, Huelva",Carro,0.3,,N,1,5
+"Parque Alonso Sánchez, Huelva",Plaza de Quintero Báez,Carro,0.3,,O,3,8
 Parque Mineiro Cova dos Mouros,Vaqueiros,Carro,4.3,,SO,1,5
 "Parque Moret, Huelva",Plaza del Huerto Paco,Carro,0.8,,S,3,1
 "Paseo de Santa María de la Cabeza, Madrid","Plaza del Emperador Carlos V, Madrid",Carro,1.1,,NE,4,1
@@ -2531,9 +2550,13 @@ Pias,Serpa,Carro,15.7,,SO,1,4
 Pias,Vila Nova de São Bento,Carro,13.9,,SE,2,4
 Picoitos,Salgueiros,Carro,2.0,,E,2,1
 Playa de Isla Canela,Punta del Moral,Carro,4.3,,NE,2,1
+"Plaza de Cristóbal Quintero, Huelva","Plaza de la Dinastía de los Litri, Huelva",Carro,0.4,,NO,3,6
+"Plaza de Cristóbal Quintero, Huelva",Reitoria da Universidade de Huelva,Carro,0.3,,NE,2,3
 Plaza de Fray Genaro Prieto,Reitoria da Universidade de Huelva,Carro,0.7,,NO,1,2
+Plaza de Ivonne Cazenave,"Plaza de la Dinastía de los Litri, Huelva",Carro,0.3,,SO,6,2
 Plaza de Ivonne Cazenave,Plaza de Quintero Báez,Carro,0.4,,S,5,2
 Plaza de Ivonne Cazenave,Universidade de Huelva - Campus de La Merced,Carro,0.3,,O,1,3
+"Plaza de la Dinastía de los Litri, Huelva",Plaza de Quintero Báez,Carro,0.3,,SO,4,7
 "Plaza de la Vera Cruz, Huelva","Plaza de las Monjas, Huelva",Carro,0.2,,SE,6,2
 "Plaza de la Vera Cruz, Huelva",Plaza de Quintero Báez,Carro,0.2,,E,3,1
 "Plaza de la Vera Cruz, Huelva","Plaza del Lino, Huelva",Carro,0.3,,NO,5,6
