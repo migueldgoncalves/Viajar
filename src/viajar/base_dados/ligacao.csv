@@ -1351,6 +1351,7 @@ Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Carro,0.6,,O,3
 Avenida de Andalucía x Avenida Pío XII,"Plaza de la Dinastía de los Litri, Huelva",Carro,0.5,,SO,5,1
 Avenida de Andalucía x Avenida Pío XII,Plaza del Huerto Paco,Carro,0.7,,N,2,3
 Avenida de Andalucía x Avenida Pío XII,Reitoria da Universidade de Huelva,Carro,0.4,,S,4,1
+"Avenida de Andalucía, Huelva",Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Carro,0.8,,SE,4,4
 "Avenida de Andalucía, Huelva","Avenida de Santa Marta, Huelva",Carro,0.5,,N,2,4
 "Avenida de Andalucía, Huelva",H-31 - Fim,Carro,0.8,,NE,1,4
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Carro,1.2,A-92,E,1,3
@@ -1368,6 +1369,12 @@ Avenida de Guatemala x Avenida del Nuevo Colombino,Centro Comercial Costa Luz,Ca
 Avenida de Guatemala x Avenida del Nuevo Colombino,H-30 - Saída 15,Carro,1.6,,SO,3,4
 Avenida de Guatemala x Avenida del Nuevo Colombino,Museu de Huelva,Carro,0.8,,O,4,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Plaza de Fray Genaro Prieto,Carro,0.6,,NO,1,3
+Avenida de Honduras x Avenida de las Fuerzas Armadas,Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Carro,0.5,,NO,4,3
+Avenida de Honduras x Avenida de las Fuerzas Armadas,H-30 - Saída 11A,Carro,0.8,,NE,2,9
+Avenida de Honduras x Avenida de las Fuerzas Armadas,Polígono Industrial Polirrosa,Carro,0.4,,SE,3,5
+Avenida de Honduras x Avenida de las Fuerzas Armadas,Universidade de Huelva - Campus de El Carmen,Carro,0.9,,N,1,7
+Avenida de Honduras x Avenida de Pablo Ruiz Picasso,H-31 - Fim,Carro,0.8,,N,1,5
+Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Universidade de Huelva - Campus de El Carmen,Carro,0.5,,NE,2,8
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
 "Avenida de Kansas City, Sevilha",Cruzamento da A-4 Norte com a SE-30,Carro,1.5,,NE,1,4
 "Avenida de Kansas City, Sevilha",Estação de Sevilha-Santa Justa,Carro,0.8,,SO,2,1
@@ -2280,10 +2287,15 @@ H-30 - Saída 9,Hospital Universitário Juan Ramón Jiménez,Carro,0.5,,S,4,2
 H-30 - Saída 9,Hospital Vázquez Díaz,Carro,1.0,,SE,5,1
 H-30 - Saída 11A,H-30 - Saída 11B,Carro,0.5,H-30,S,2,1
 H-30 - Saída 11A,"Hospital Infanta Elena, Huelva",Carro,1.3,,NE,5,1
+H-30 - Saída 11A,Polígono Industrial La Paz,Carro,0.7,,S,7,2
+H-30 - Saída 11A,Polígono Industrial Polirrosa,Carro,0.7,,SO,8,2
 H-30 - Saída 11A,"Polígono Industrial San Diego, Huelva",Carro,1.3,,NE,6,2
 H-30 - Saída 11A,Universidade de Huelva - Campus de El Carmen,Carro,0.9,,O,4,5
 H-30 - Saída 11B,H-30 - Saída 12,Carro,0.6,H-30,S,2,1
+H-30 - Saída 11B,Polígono Industrial La Esperanza,Carro,0.4,,S,3,1
+H-30 - Saída 11B,Polígono Industrial Polirrosa,Carro,0.8,,O,4,3
 H-30 - Saída 12,H-30 - Saída 15,Carro,2.7,H-30,SO,2,1
+H-30 - Saída 12,Polígono Industrial La Paz,Carro,0.5,,NE,3,1
 H-30 - Saída 15,H-30 - Saída 18,Carro,3.5,H-30,S,2,1
 H-31 - Fim,Universidade de Huelva - Campus de El Carmen,Carro,0.5,,SE,3,1
 H-31 - Saída 80,Polígono Industrial Tartessos,Carro,2.4,,E,4,2
@@ -2569,6 +2581,9 @@ Poço Barreto,Porches,Carro,5.8,,S,3,4
 Poço Barreto,Silves,Carro,7.1,,NE,4,2
 Polígono Industrial Fortiz,"Polígono Industrial San Diego, Huelva",Carro,2.5,,SO,1,3
 Polígono Industrial Fortiz,Polígono Industrial Tartessos,Carro,2.9,,NE,2,1
+Polígono Industrial La Esperanza,Polígono Industrial La Paz,Carro,0.9,,E,2,3
+Polígono Industrial La Esperanza,Polígono Industrial Polirrosa,Carro,0.7,,N,3,4
+Polígono Industrial Polirrosa,Universidade de Huelva - Campus de El Carmen,Carro,1.0,,NO,1,6
 Pomarão,Ponte Internacional do Baixo Guadiana,Carro,0.2,,SE,1,2
 Pomarão,Puerto de la Laja,Barco,5.5,Rio Guadiana,S,5,3
 Pomarão,Salgueiros,Carro,4.6,,N,2,2
