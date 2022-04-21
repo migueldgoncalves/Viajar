@@ -1347,12 +1347,14 @@ Aroche,Barrancos,Carro,32.8,,N,2,1
 Aroche,Rosal de la Frontera,Carro,26.9,N-433,O,1,3
 Autódromo Internacional do Algarve,Marmelete,Carro,12.5,,NO,2,2
 Avenida de Andalucía x Avenida Pío XII,"Avenida de Andalucía, Huelva",Carro,1.1,,NE,1,3
+Avenida de Andalucía x Avenida Pío XII,"Calle Galaroza, Huelva",Carro,1.1,,E,6,6
 Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Carro,0.6,,O,3,3
 Avenida de Andalucía x Avenida Pío XII,"Plaza de la Dinastía de los Litri, Huelva",Carro,0.5,,SO,5,1
 Avenida de Andalucía x Avenida Pío XII,Plaza del Huerto Paco,Carro,0.7,,N,2,3
 Avenida de Andalucía x Avenida Pío XII,Reitoria da Universidade de Huelva,Carro,0.4,,S,4,1
 "Avenida de Andalucía, Huelva",Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Carro,0.8,,SE,4,4
 "Avenida de Andalucía, Huelva","Avenida de Santa Marta, Huelva",Carro,0.5,,N,2,4
+"Avenida de Andalucía, Huelva","Calle Galaroza, Huelva",Carro,0.8,,S,5,1
 "Avenida de Andalucía, Huelva",H-31 - Fim,Carro,0.8,,NE,1,4
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Carro,1.2,A-92,E,1,3
 "Avenida de Andalucía, Sevilha",Estação de Sevilha-Santa Justa,Carro,2.2,,O,2,2
@@ -1364,15 +1366,22 @@ Avenida de Diego Morón x Avenida de Santa Marta,"Humilladero de la Cinta, Huelv
 "Avenida de España, La Línea de la Concepción","Campamento, San Roque",Carro,1.7,N-351,NO,1,5
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.7,,E,3,3
+Avenida de Guatemala x Avenida del Nuevo Colombino,Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Carro,1.2,,NE,6,3
+Avenida de Guatemala x Avenida del Nuevo Colombino,Avenida del Nuevo Colombino x Calle Jabugo,Carro,0.8,,NE,7,5
 Avenida de Guatemala x Avenida del Nuevo Colombino,Barrio Reina Victoria,Carro,0.5,,NO,2,2
+Avenida de Guatemala x Avenida del Nuevo Colombino,"Calle Cervantes, Huelva",Carro,0.9,,E,8,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Centro Comercial Costa Luz,Carro,0.7,,NO,5,2
 Avenida de Guatemala x Avenida del Nuevo Colombino,H-30 - Saída 15,Carro,1.6,,SO,3,4
 Avenida de Guatemala x Avenida del Nuevo Colombino,Museu de Huelva,Carro,0.8,,O,4,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Plaza de Fray Genaro Prieto,Carro,0.6,,NO,1,3
 Avenida de Honduras x Avenida de las Fuerzas Armadas,Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Carro,0.5,,NO,4,3
+Avenida de Honduras x Avenida de las Fuerzas Armadas,Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Carro,0.8,,SO,6,2
+Avenida de Honduras x Avenida de las Fuerzas Armadas,Avenida del Nuevo Colombino x Calle Jabugo,Carro,1.1,,SO,7,3
+Avenida de Honduras x Avenida de las Fuerzas Armadas,"Calle Galaroza, Huelva",Carro,1.0,,O,5,3
 Avenida de Honduras x Avenida de las Fuerzas Armadas,H-30 - Saída 11A,Carro,0.8,,NE,2,9
 Avenida de Honduras x Avenida de las Fuerzas Armadas,Polígono Industrial Polirrosa,Carro,0.4,,SE,3,5
 Avenida de Honduras x Avenida de las Fuerzas Armadas,Universidade de Huelva - Campus de El Carmen,Carro,0.9,,N,1,7
+Avenida de Honduras x Avenida de Pablo Ruiz Picasso,"Calle Galaroza, Huelva",Carro,0.9,,SO,5,2
 Avenida de Honduras x Avenida de Pablo Ruiz Picasso,H-31 - Fim,Carro,0.8,,N,1,5
 Avenida de Honduras x Avenida de Pablo Ruiz Picasso,Universidade de Huelva - Campus de El Carmen,Carro,0.5,,NE,2,8
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,0.8,A-45,N,1,4
@@ -1388,6 +1397,14 @@ Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,Hospital 
 Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,Universidade de Huelva - Campus de El Carmen,Carro,1.4,,SE,6,2
 "Avenida de Santa Marta, Huelva","Parque Moret, Huelva",Carro,0.5,,NO,1,2
 "Avenida de Santa Marta, Huelva",Plaza del Huerto Paco,Carro,0.9,,SO,5,2
+Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Avenida del Nuevo Colombino x Calle Jabugo,Carro,0.4,,SE,6,1
+Avenida del Alcalde Federico Molina Orta x Calle Galaroza,"Calle Galaroza, Huelva",Carro,0.5,,NO,1,7
+Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Plaza de Fray Genaro Prieto,Carro,0.8,,SO,4,6
+Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Reitoria da Universidade de Huelva,Carro,1.3,,O,5,5
+Avenida del Nuevo Colombino x Calle Jabugo,"Calle Cervantes, Huelva",Carro,1.0,,SE,7,1
+Avenida del Nuevo Colombino x Calle Jabugo,Plaza de Fray Genaro Prieto,Carro,1.1,,O,6,7
+Avenida del Nuevo Colombino x Calle Jabugo,Polígono Industrial La Esperanza,Carro,1.0,,NE,4,4
+Avenida del Nuevo Colombino x Calle Jabugo,Polígono Industrial Polirrosa,Carro,1.1,,NE,2,6
 Ayamonte,Barriada de Canela,Carro,2.2,,S,3,1
 Ayamonte,Costa Esuri,Barco,7.6,Rio Guadiana,N,6,3
 Ayamonte,Cruzamento da A-499 com a N-431,Carro,6.5,,NE,5,1
@@ -1502,6 +1519,9 @@ Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Carro,3.4,,NO,1,3
 "Calle Cartagena, La Línea de la Concepción","Campamento, San Roque",Carro,2.7,,O,1,4
 "Calle Cartagena, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.0,,S,2,2
 "Calle Cartagena, La Línea de la Concepción","Paseo del Mediterráneo, La Línea de la Concepción",Carro,2.2,,SE,4,3
+"Calle Cervantes, Huelva",Polígono Industrial La Esperanza,Carro,1.0,,NE,2,5
+"Calle Galaroza, Huelva",Plaza de Fray Genaro Prieto,Carro,1.2,,SO,4,5
+"Calle Galaroza, Huelva",Reitoria da Universidade de Huelva,Carro,1.0,,SO,5,4
 Calle Gravina x Calle Plus Ultra,Gran Teatro de Huelva,Carro,0.3,,SE,5,3
 Calle Gravina x Calle Plus Ultra,"Plaza de la Vera Cruz, Huelva",Carro,0.2,,NE,4,4
 Calle Gravina x Calle Plus Ultra,"Plaza de las Monjas, Huelva",Carro,0.4,,E,6,4
