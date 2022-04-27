@@ -4370,7 +4370,7 @@ Antiga Estação de Aljaraque,Cartaya,Comboio,False,Zafra
 Antiga Estação de Aljaraque,Cartaya,Comboio,True,Ayamonte
 Antiga Estação de Aljaraque,Gibraleón,Comboio,False,Ayamonte
 Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Huelva
-Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Sevilha
+Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Sevilha-Santa Justa
 Antiga Estação de Aljaraque,Gibraleón,Comboio,True,Zafra
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Comboio,False,Huelva
@@ -6442,6 +6442,10 @@ Estação de Barreiro-A,Estação do Barreiro,Comboio,True,Barreiro
 Estação de Barreiro-A,Estação do Lavradio,Comboio,False,Barreiro
 Estação de Barreiro-A,Estação do Lavradio,Comboio,True,Pinhal Novo
 Estação de Barreiro-A,Estação do Lavradio,Comboio,True,Praias do Sado-A
+"Estação de Belmonte, Huelva",Gibraleón,Comboio,False,Jabugo-Galaroza
+"Estação de Belmonte, Huelva",Gibraleón,Comboio,False,Zafra
+"Estação de Belmonte, Huelva",Gibraleón,Comboio,True,Huelva
+"Estação de Belmonte, Huelva",Gibraleón,Comboio,True,Sevilha-Santa Justa
 Estação de Benfica,Estação de Campolide,Comboio,False,Agualva - Cacém
 Estação de Benfica,Estação de Campolide,Comboio,False,Caldas da Rainha
 Estação de Benfica,Estação de Campolide,Comboio,False,Figueira da Foz
@@ -6868,6 +6872,14 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Huelva,Gibraleón,Comboio,False,Huelva
+Estação de Huelva,Gibraleón,Comboio,False,Sevilha-Santa Justa
+Estação de Huelva,Gibraleón,Comboio,True,Jabugo-Galaroza
+Estação de Huelva,Gibraleón,Comboio,True,Zafra
+Estação de Huelva,San Juan del Puerto,Comboio,False,Huelva
+Estação de Huelva,San Juan del Puerto,Comboio,False,Zafra
+Estação de Huelva,San Juan del Puerto,Comboio,True,Madrid-Atocha
+Estação de Huelva,San Juan del Puerto,Comboio,True,Sevilha-Santa Justa
 Estação de Jerumelo,Estação de Malveira,Comboio,False,Caldas da Rainha
 Estação de Jerumelo,Estação de Malveira,Comboio,False,Figueira da Foz
 Estação de Jerumelo,Estação de Malveira,Comboio,True,Agualva - Cacém
@@ -7519,6 +7531,11 @@ H-30 - Saída 15,H-30 - Saída 18,Carro,False,Sevilha
 H-30 - Saída 15,H-30 - Saída 18,Carro,True,Ferry
 H-30 - Saída 15,H-30 - Saída 18,Carro,True,La Rábida
 H-30 - Saída 15,H-30 - Saída 18,Carro,True,Porto Exterior de Huelva
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,False,Huelva
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,True,Ferry
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,True,La Rábida
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,True,Mazagón
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,True,Porto Exterior de Huelva
 Hangares,Ilha do Farol,Barco,False,Olhão
 Hangares,Ilha do Farol,Barco,False,Vila Nova de Cacela
 Hangares,Ilha do Farol,Barco,True,Faro

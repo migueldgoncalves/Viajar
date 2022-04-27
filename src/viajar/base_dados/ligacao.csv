@@ -788,9 +788,9 @@ A-49 - Saída 81,Cruzamento da H-30 com a N-431,Carro,3.9,N-431,NO,5,3
 A-49 - Saída 81,H-31 - Saída 80,Carro,3.7,N-431,SE,3,3
 A-49 - Saída 87,A-49 - Saída 94,Carro,6.3,A-49,SO,1,2
 A-49 - Saída 87,Cruzamento da H-30 com a N-431,Carro,2.7,H-30,S,3,1
-A-49 - Saída 87,Gibraleón,Carro,3.4,N-431,N,4,3
+A-49 - Saída 87,Gibraleón,Carro,3.4,N-431,N,4,5
 A-49 - Saída 94,A-49 - Saída 99,Carro,4.6,A-49,SO,1,2
-A-49 - Saída 94,Gibraleón,Carro,8.3,N-431,NE,3,4
+A-49 - Saída 94,Gibraleón,Carro,8.3,N-431,NE,3,6
 A-49 - Saída 99,A-49 - Saída 105,Carro,7.7,A-49,O,1,2
 A-49 - Saída 99,Antiga Estação de Aljaraque,Carro,2.2,,E,4,3
 A-49 - Saída 99,Cartaya,Carro,9.3,N-431,SO,3,5
@@ -1274,7 +1274,7 @@ Ameixal,Corte João Marques,Carro,8.7,,E,2,3
 Ameixal,Miradouro do Caldeirão,Carro,9.7,N2,S,1,2
 Ameixal,Salir,Carro,21.7,,SO,3,1
 Antiga Estação de Aljaraque,Cartaya,Comboio,8.1,Antiga Linha Gibraleón-Ayamonte,SO,1,2
-Antiga Estação de Aljaraque,Gibraleón,Comboio,12.2,Antiga Linha Gibraleón-Ayamonte,NE,2,1
+Antiga Estação de Aljaraque,Gibraleón,Comboio,12.2,Antiga Linha Gibraleón-Ayamonte,NE,2,3
 Antiga Estação de Huelva-Término,Avenida de la Villa de Madrid x Avenida del Sur,Carro,0.3,,SO,2,4
 Antiga Estação de Huelva-Término,Ayuntamiento de Huelva,Carro,0.4,,N,4,2
 Antiga Estação de Huelva-Término,Gran Teatro de Huelva,Carro,0.4,,N,3,1
@@ -1366,6 +1366,9 @@ Avenida de Diego Morón x Avenida de Santa Marta,"Humilladero de la Cinta, Huelv
 "Avenida de España, La Línea de la Concepción","Campamento, San Roque",Carro,1.7,N-351,NO,1,5
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,1.9,N-351,SE,4,1
 "Avenida de España, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Carro,1.7,,E,3,3
+"Avenida de Francisco Montenegro, Huelva",Estádio Nuevo Colombino,Carro,2.2,,N,1,3
+"Avenida de Francisco Montenegro, Huelva",H-30 - Saída 18,Carro,1.8,,SE,2,3
+"Avenida de Francisco Montenegro, Huelva",Polígono Industrial Francisco Montenegro,Carro,0.5,,E,3,1
 Avenida de Guatemala x Avenida del Nuevo Colombino,Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Carro,1.2,,NE,6,3
 Avenida de Guatemala x Avenida del Nuevo Colombino,Avenida del Nuevo Colombino x Calle Jabugo,Carro,0.8,,NE,7,5
 Avenida de Guatemala x Avenida del Nuevo Colombino,Barrio Reina Victoria,Carro,0.5,,NO,2,2
@@ -2000,6 +2003,7 @@ Estação de Barquinha,Estação de Tancos,Comboio,3.6,Linha da Beira Baixa - Re
 Estação de Barquinha,Estação do Entroncamento,Comboio,3.8,Linha da Beira Baixa - Regional,O,1,3
 Estação de Barreiro-A,Estação do Barreiro,Comboio,1.1,Linha do Alentejo/Linha do Sado - CP Lisboa,SO,1,1
 Estação de Barreiro-A,Estação do Lavradio,Comboio,1.3,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
+"Estação de Belmonte, Huelva",Gibraleón,Comboio,11.5,Linha Zafra-Huelva - Media Distancia,S,1,2
 Estação de Benfica,Estação de Campolide,Comboio,3.2,Linha de Sintra - CP Lisboa,E,1,5
 Estação de Benfica,Estação de Santa Cruz - Damaia,Comboio,1.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação de Benfica,Estação de Sete Rios,Comboio,3.1,Concordância de Sete Rios - CP Lisboa,E,3,3
@@ -2095,8 +2099,10 @@ Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
 Estação de Fuseta-Moncarapacho,Fuseta,Carro,0.8,N125-5,SE,2,1
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,2.9,Linha do Algarve - Regional,NE,3,4
 Estação de Guadix,Guadix,Carro,1.9,,SO,1,3
+Estação de Huelva,Gibraleón,Comboio,17.8,Linha Zafra-Huelva - Media Distancia,N,5,1
 Estação de Huelva,H-30 - Saída 15,Carro,1.6,,S,2,6
 Estação de Huelva,Museu de Huelva,Carro,0.3,,N,3,1
+Estação de Huelva,San Juan del Puerto,Comboio,12.4,Linha Sevilha-Huelva - Media Distancia,NE,4,1
 Estação de Jerumelo,Estação de Malveira,Comboio,3.5,Linha do Oeste - Regional,SO,1,2
 Estação de Jerumelo,Estação de Sapataria,Comboio,4.0,Linha do Oeste - Regional,NE,2,1
 Estação de Lagos,Lagos,Carro,2.4,,S,4,2
@@ -2271,7 +2277,7 @@ Fuseta,Praia do Barril,Barco,8.6,Ria Formosa,NE,3,2
 Fuseta,Quatro Águas,Barco,15.4,Costa de Portugal Continental,NE,6,4
 Gelves,San Juan de Aznalfarache,Carro,3.0,,N,1,2
 Gelves,SE-40 - Reinício,Carro,4.0,,S,2,2
-Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,2,3
+Gibraleón,San Bartolomé de la Torre,Carro,15.3,,NO,4,3
 Giões,São Bartolomeu de Via Glória,Carro,7.0,,NO,3,2
 Giões,Serro da Vinha de Baixo,Carro,9.1,,E,2,2
 GR-30 - Saída 1,GR-30 - Saída 2,Carro,1.6,GR-30,S,2,1
@@ -2317,6 +2323,8 @@ H-30 - Saída 11B,Polígono Industrial Polirrosa,Carro,0.8,,O,4,3
 H-30 - Saída 12,H-30 - Saída 15,Carro,2.7,H-30,SO,2,1
 H-30 - Saída 12,Polígono Industrial La Paz,Carro,0.5,,NE,3,1
 H-30 - Saída 15,H-30 - Saída 18,Carro,3.5,H-30,S,2,1
+H-30 - Saída 18,N-442 - Acesso Norte ao Porto Exterior de Huelva,Carro,1.1,N-442,S,2,1
+H-30 - Saída 18,Punta del Sebo,Carro,0.4,,SO,4,1
 H-31 - Fim,Universidade de Huelva - Campus de El Carmen,Carro,0.5,,SE,3,1
 H-31 - Saída 80,Polígono Industrial Tartessos,Carro,2.4,,E,4,2
 Hangares,Ilha do Farol,Barco,1.5,Ria Formosa,SO,2,1
