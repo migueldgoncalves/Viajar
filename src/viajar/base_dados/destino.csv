@@ -2105,8 +2105,17 @@ A-6 - Saída 18,A-6 - Saída 19,Carro,True,A Coruña
 A-6 - Saída 18,A-6 - Saída 19,Carro,True,Collado Villalba
 A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,False,Madrid
 A-6 - Saída 19,Cruzamento da A-6 com a M-50,Carro,True,A Coruña
+A-6 - Saída 24,A-6 - Saída 26,Carro,False,Madrid
+A-6 - Saída 24,A-6 - Saída 26,Carro,True,A Coruña
+A-6 - Saída 24,A-6 - Saída 26,Carro,True,Collado Villalba
 A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,False,A Coruña
 A-6 - Saída 24,Cruzamento da A-6 com a M-50,Carro,True,Madrid
+A-6 - Saída 26,A-6 - Saída 27,Carro,False,Madrid
+A-6 - Saída 26,A-6 - Saída 27,Carro,True,A Coruña
+A-6 - Saída 26,A-6 - Saída 27,Carro,True,Collado Villalba
+A-6 - Saída 27,A-6 - Saída 29,Carro,False,Madrid
+A-6 - Saída 27,A-6 - Saída 29,Carro,True,A Coruña
+A-6 - Saída 27,A-6 - Saída 29,Carro,True,Collado Villalba
 A-7 - Saída 103,A-7 - Saída 104,Carro,False,Cádiz
 A-7 - Saída 103,A-7 - Saída 104,Carro,False,Tarifa
 A-7 - Saída 103,A-7 - Saída 104,Carro,True,Málaga
@@ -4584,6 +4593,12 @@ Aroche,Rosal de la Frontera,Carro,True,Rosal de la Frontera
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,False,Campamento
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,False,San Roque
 "Avenida de España, La Línea de la Concepción",Fronteira Espanha-Gibraltar - Lado espanhol,Carro,True,Gibraltar
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,False,Cádiz
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,False,Mazagón
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,False,San Juan del Puerto
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,False,Sevilha
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,True,Huelva
+"Avenida de Francisco Montenegro, Huelva",Porto Interior de Huelva,Barco,True,Punta Umbría
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,False,Málaga
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,True,Córdoba
 "Avenida de Jacinto Benavente, Málaga",Cruzamento da A-45 com a A-7,Carro,True,Granada
@@ -8271,6 +8286,10 @@ Nuevo Portil,Punta del Moral,Barco,False,Huelva
 Nuevo Portil,Punta del Moral,Barco,False,Sevilha
 Nuevo Portil,Punta del Moral,Barco,True,Faro
 Nuevo Portil,Punta del Moral,Barco,True,Vila Real de Santo António
+Nuevo Portil,Punta Umbría,Barco,False,Faro
+Nuevo Portil,Punta Umbría,Barco,False,Vila Real de Santo António
+Nuevo Portil,Punta Umbría,Barco,True,Huelva
+Nuevo Portil,Punta Umbría,Barco,True,Sevilha
 Odeceixe,Rogil,Carro,False,Odeceixe
 Odeceixe,Rogil,Carro,False,Sines
 Odeceixe,Rogil,Carro,True,Aljezur
@@ -8353,6 +8372,10 @@ Porto de Recreio de Sines,Tróia,Barco,False,Lagos
 Porto de Recreio de Sines,Tróia,Barco,False,Portimão
 Porto de Recreio de Sines,Tróia,Barco,True,Sesimbra
 Porto de Recreio de Sines,Tróia,Barco,True,Setúbal
+Porto Interior de Huelva,Punta Umbría,Barco,False,Huelva
+Porto Interior de Huelva,Punta Umbría,Barco,True,Faro
+Porto Interior de Huelva,Punta Umbría,Barco,True,Punta Umbría
+Porto Interior de Huelva,Punta Umbría,Barco,True,Vila Real de Santo António
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,False,Vila Nova de Cacela
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Faro
 Praia da Cacela Velha,Praia de Cabanas de Tavira,Barco,True,Tavira

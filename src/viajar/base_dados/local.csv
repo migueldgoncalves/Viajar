@@ -419,6 +419,9 @@ A-6 - Saída 17,40.482223,-3.855613,718,,2000
 A-6 - Saída 18,40.487434,-3.864588,734,,2000
 A-6 - Saída 19,40.500001,-3.873478,722,,1600
 A-6 - Saída 24,40.542270,-3.893070,737,,1600
+A-6 - Saída 26,40.557814,-3.900923,769,,2100
+A-6 - Saída 27,40.567692,-3.915164,817,,2100
+A-6 - Saída 29,40.577767,-3.938485,876,,2100
 A-7 - Saída 103,36.113029,-5.455825,25,,900
 A-7 - Saída 104,36.124918,-5.461969,38,,900
 A-7 - Saída 105,36.131492,-5.464308,21,,900
@@ -1032,6 +1035,7 @@ Caldas de Monchique,37.284505,-8.554239,210,,500
 Calle Gravina x Calle Plus Ultra,37.25736,-6.95455,3,,2100
 "Campamento, San Roque",36.175365,-5.374118,10,,1200
 Canal Caveira,38.134474,-8.488352,47,,800
+Canal de Calatilla,37.25084,-6.96839,0,Marismas del Odiel,2100
 Carmona,37.471167,-5.641719,217,,600
 Carrapateira,37.183972,-8.894624,32,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
 Cartaya,37.283868,-7.153844,22,,200
@@ -1512,6 +1516,7 @@ EX-A2 - Saída 15,39.029984,-5.871028,250,,1200
 EX-A2 - Saída 20,38.991471,-5.85974,250,,1200
 EX-A2 - Saída 23,38.982628,-5.828538,268,,1200
 Faro - Avenida Calouste Gulbenkian,37.025699,-7.93572,30,,300
+Faro del Espigón,37.10811,-6.83239,0,Marismas del Odiel,2100
 Faro - São Pedro,37.018508,-7.935332,10,,200
 Faro - Sé,37.018561,-7.921867,20,,200
 Ferragudo,37.122789,-8.519334,28,,500
@@ -1629,6 +1634,8 @@ IP8 - Cruzamento com a N261-1,38.198078,-8.612951,139,,1500
 IP8 - Cruzamento com a N261-2,38.155074,-8.649418,279,,1500
 IP8 - Início,37.939691,-8.830744,26,,1100
 Isla Cristina,37.199897,-7.322322,3,,200
+Isla de Bacuta Sur,37.2341,-6.9646,5,Marismas del Odiel,2100
+Isla Saltés,37.1827,-6.9402,0,Marismas del Odiel,2100
 Islantilla,37.206800,-7.233227,7,,1800
 Junqueira,37.254084,-7.470771,17,,100
 La Antilla,37.207655,-7.213389,5,,1800
@@ -1812,6 +1819,7 @@ Pinhal Novo,38.630126,-8.912986,40,,800
 Pista do Aeroporto de Gibraltar,36.151192,-5.348712,3,,1200
 Playa Central,37.195447,-7.305476,2,,1800
 Playa de Isla Canela,37.173693,-7.377384,4,,200
+Playa del Espigón Juan Carlos I,37.1471,-6.8947,3,Marismas del Odiel,2100
 "Plaza de Cristóbal Quintero, Huelva",37.25784,-6.94520,31,,2100
 Plaza de Fray Genaro Prieto,37.25664,-6.93885,21,,2100
 "Plaza de Isabel la Católica, Huelva",37.25428,-6.94891,13,,2100
@@ -1899,6 +1907,7 @@ Praia dos Salgados,37.088645, -8.329042,5,,400
 Praia Nova,37.096126,-8.388199,5,,400
 Praia Verde,37.173851,-7.479848,4,,100
 Puebla de Guzmán,37.613073,-7.246990,197,,600
+Puente del Burro,37.2162,-6.9653,0,Marismas del Odiel,2100
 "Puente Mayorga, San Roque",36.181353,-5.384371,2,,1200
 Puerto de la Laja,37.52435,-7.493351,22,,40
 Puertollano,38.688087,-4.107529,694,,1500
@@ -1953,6 +1962,7 @@ Safara,38.108640,-7.217422,204,,800
 Sagres,37.010201,-8.938871,23,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
 Salema,37.065616,-8.824692,12,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
 Salgueiros,37.589126,-7.536155,121,Parque Natural do Vale do Guadiana,40
+Salinas del Odiel,37.25707,-6.97159,4,Marismas del Odiel,2100
 Salir,37.241031,-8.044129,246,,400
 San Bartolomé de la Torre,37.446629,-7.104909,125,,200
 San Juan de Aznalfarache,37.359535,-6.034063,34,,400

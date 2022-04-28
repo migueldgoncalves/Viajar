@@ -51,7 +51,7 @@ METRO = 'Metro'
 TRANSBORDO = 'Transbordo'
 
 #  Outros
-LOCAL_INICIAL = 'Estação de Huelva'
+LOCAL_INICIAL = 'Guerreiros do Rio'
 CASAS_DECIMAIS = 2
 
 
