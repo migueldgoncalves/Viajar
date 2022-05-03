@@ -2643,6 +2643,41 @@ A-7 - Saída 565,A-7 - Saída 661,Carro,False,Almería
 A-7 - Saída 565,A-7 - Saída 661,Carro,False,Vera
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Murcia
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Puerto Lumbreras
+A-7 - Saída 591,A-7 - Saída 594,Carro,False,Murcia
+A-7 - Saída 591,A-7 - Saída 594,Carro,True,Almería
+A-7 - Saída 591,A-7 - Saída 594,Carro,True,Granada
+A-7 - Saída 594,A-7 - Saída 596,Carro,False,Murcia
+A-7 - Saída 594,A-7 - Saída 596,Carro,True,Almería
+A-7 - Saída 594,A-7 - Saída 596,Carro,True,Granada
+A-7 - Saída 596,A-7 - Saída 598,Carro,False,Alcantarilla
+A-7 - Saída 596,A-7 - Saída 598,Carro,False,Murcia
+A-7 - Saída 596,A-7 - Saída 598,Carro,True,Almería
+A-7 - Saída 596,A-7 - Saída 598,Carro,True,Granada
+A-7 - Saída 598,Cruzamento da A-7 com a RM-2,Carro,False,Alcantarilla
+A-7 - Saída 598,Cruzamento da A-7 com a RM-2,Carro,False,Murcia
+A-7 - Saída 598,Cruzamento da A-7 com a RM-2,Carro,True,Almería
+A-7 - Saída 598,Cruzamento da A-7 com a RM-2,Carro,True,Granada
+A-7 - Saída 598,Cruzamento da A-7 com a RM-2,Carro,True,Lorca
+A-7 - Saída 609,Cruzamento da A-7 com a RM-2,Carro,False,Almería
+A-7 - Saída 609,Cruzamento da A-7 com a RM-2,Carro,False,Granada
+A-7 - Saída 609,Cruzamento da A-7 com a RM-2,Carro,False,Lorca
+A-7 - Saída 609,Cruzamento da A-7 com a RM-2,Carro,True,Murcia
+A-7 - Saída 609,Cruzamento da A-7 com a RM-3,Carro,False,Alhama de Murcia
+A-7 - Saída 609,Cruzamento da A-7 com a RM-3,Carro,False,Murcia
+A-7 - Saída 609,Cruzamento da A-7 com a RM-3,Carro,True,Almería
+A-7 - Saída 609,Cruzamento da A-7 com a RM-3,Carro,True,Granada
+A-7 - Saída 616,A-7 - Saída 618,Carro,False,Alhama de Murcia
+A-7 - Saída 616,A-7 - Saída 618,Carro,False,Murcia
+A-7 - Saída 616,A-7 - Saída 618,Carro,True,Almería
+A-7 - Saída 616,A-7 - Saída 618,Carro,True,Granada
+A-7 - Saída 616,A-7 - Saída 618,Carro,True,Lorca
+A-7 - Saída 616,Cruzamento da A-7 com a RM-3,Carro,False,Almería
+A-7 - Saída 616,Cruzamento da A-7 com a RM-3,Carro,False,Granada
+A-7 - Saída 616,Cruzamento da A-7 com a RM-3,Carro,False,Lorca
+A-7 - Saída 616,Cruzamento da A-7 com a RM-3,Carro,True,Murcia
+A-7 - Saída 618,A-7 - Saída 622,Carro,False,Murcia
+A-7 - Saída 618,A-7 - Saída 622,Carro,True,Almería
+A-7 - Saída 618,A-7 - Saída 622,Carro,True,Granada
 A-7 - Saída 622,A-7 - Saída 623,Carro,False,Murcia
 A-7 - Saída 622,A-7 - Saída 623,Carro,True,Almería
 A-7 - Saída 622,A-7 - Saída 623,Carro,True,Granada
