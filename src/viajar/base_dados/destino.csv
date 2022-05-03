@@ -2643,6 +2643,58 @@ A-7 - Saída 565,A-7 - Saída 661,Carro,False,Almería
 A-7 - Saída 565,A-7 - Saída 661,Carro,False,Vera
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Murcia
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Puerto Lumbreras
+A-7 - Saída 622,A-7 - Saída 623,Carro,False,Murcia
+A-7 - Saída 622,A-7 - Saída 623,Carro,True,Almería
+A-7 - Saída 622,A-7 - Saída 623,Carro,True,Granada
+A-7 - Saída 623,A-7 - Saída 628,Carro,False,Murcia
+A-7 - Saída 623,A-7 - Saída 628,Carro,True,Almería
+A-7 - Saída 623,A-7 - Saída 628,Carro,True,Granada
+A-7 - Saída 628,A-7 - Saída 630,Carro,False,Alhama de Murcia
+A-7 - Saída 628,A-7 - Saída 630,Carro,False,Murcia
+A-7 - Saída 628,A-7 - Saída 630,Carro,True,Almería
+A-7 - Saída 628,A-7 - Saída 630,Carro,True,Granada
+A-7 - Saída 628,A-7 - Saída 630,Carro,True,Puerto Lumbreras
+A-7 - Saída 630,A-7 - Saída 633,Carro,False,Alhama de Murcia
+A-7 - Saída 630,A-7 - Saída 633,Carro,False,Murcia
+A-7 - Saída 630,A-7 - Saída 633,Carro,True,Almería
+A-7 - Saída 630,A-7 - Saída 633,Carro,True,Granada
+A-7 - Saída 630,A-7 - Saída 633,Carro,True,Puerto Lumbreras
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,False,Alhama de Murcia
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,False,Murcia
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,True,Almería
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,True,Granada
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,True,Puerto Lumbreras
+A-7 - Saída 640,A-7 - Saída 642,Carro,False,Lorca
+A-7 - Saída 640,A-7 - Saída 642,Carro,False,Murcia
+A-7 - Saída 640,A-7 - Saída 642,Carro,True,Almería
+A-7 - Saída 640,A-7 - Saída 642,Carro,True,Granada
+A-7 - Saída 640,Cruzamento da A-7 com a RM-11,Carro,False,Almería
+A-7 - Saída 640,Cruzamento da A-7 com a RM-11,Carro,False,Granada
+A-7 - Saída 640,Cruzamento da A-7 com a RM-11,Carro,False,Puerto Lumbreras
+A-7 - Saída 640,Cruzamento da A-7 com a RM-11,Carro,True,Murcia
+A-7 - Saída 642,A-7 - Saída 644,Carro,False,Murcia
+A-7 - Saída 642,A-7 - Saída 644,Carro,True,Almería
+A-7 - Saída 642,A-7 - Saída 644,Carro,True,Granada
+A-7 - Saída 644,A-7 - Saída 645,Carro,False,Lorca
+A-7 - Saída 644,A-7 - Saída 645,Carro,False,Murcia
+A-7 - Saída 644,A-7 - Saída 645,Carro,True,Almería
+A-7 - Saída 644,A-7 - Saída 645,Carro,True,Granada
+A-7 - Saída 644,A-7 - Saída 645,Carro,True,Puerto Lumbreras
+A-7 - Saída 645,A-7 - Saída 646,Carro,False,Lorca
+A-7 - Saída 645,A-7 - Saída 646,Carro,False,Murcia
+A-7 - Saída 645,A-7 - Saída 646,Carro,True,Almería
+A-7 - Saída 645,A-7 - Saída 646,Carro,True,Granada
+A-7 - Saída 645,A-7 - Saída 646,Carro,True,Puerto Lumbreras
+A-7 - Saída 646,A-7 - Saída 649,Carro,False,Lorca
+A-7 - Saída 646,A-7 - Saída 649,Carro,False,Murcia
+A-7 - Saída 646,A-7 - Saída 649,Carro,True,Almería
+A-7 - Saída 646,A-7 - Saída 649,Carro,True,Granada
+A-7 - Saída 646,A-7 - Saída 649,Carro,True,Puerto Lumbreras
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,False,Lorca
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,False,Murcia
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,True,Almería
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,True,Granada
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,True,Puerto Lumbreras - Sul
 A-7 - Saída 655,A-7 - Saída 661,Carro,False,Murcia
 A-7 - Saída 655,A-7 - Saída 661,Carro,True,Almería
 A-7 - Saída 655,A-7 - Saída 661,Carro,True,Vera

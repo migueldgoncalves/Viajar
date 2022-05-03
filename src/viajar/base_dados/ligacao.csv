@@ -687,6 +687,18 @@ A-7 - Saída 553,A-7 - Saída 559,Carro,5.4,A-7,NE,2,1
 A-7 - Saída 559,A-7 - Saída 563,Carro,4.0,A-7,NE,2,1
 A-7 - Saída 563,A-7 - Saída 565,Carro,2.2,A-7,NE,2,1
 A-7 - Saída 565,A-7 - Saída 661,Carro,2.0,A-7,NE,2,1
+A-7 - Saída 622,A-7 - Saída 623,Carro,2.1,A-7,O,1,2
+A-7 - Saída 623,A-7 - Saída 628,Carro,4.8,A-7,O,1,2
+A-7 - Saída 628,A-7 - Saída 630,Carro,1.9,A-7,O,1,2
+A-7 - Saída 630,A-7 - Saída 633,Carro,3.3,A-7,O,1,2
+A-7 - Saída 633,Cruzamento da A-7 com a RM-11,Carro,4.2,A-7,S,1,2
+A-7 - Saída 640,A-7 - Saída 642,Carro,2.5,A-7,SO,1,2
+A-7 - Saída 640,Cruzamento da A-7 com a RM-11,Carro,3.4,A-7,NE,2,1
+A-7 - Saída 642,A-7 - Saída 644,Carro,1.5,A-7,SO,1,2
+A-7 - Saída 644,A-7 - Saída 645,Carro,1.5,A-7,SO,1,2
+A-7 - Saída 645,A-7 - Saída 646,Carro,1.2,A-7,SO,1,2
+A-7 - Saída 646,A-7 - Saída 649,Carro,2.5,A-7,SO,1,2
+A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,1.9,A-7,O,1,2
 A-7 - Saída 655,A-7 - Saída 661,Carro,6.3,A-7,SO,1,2
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,3.4,A-7,N,2,1
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
