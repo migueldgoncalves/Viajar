@@ -1,5 +1,6 @@
 Concelho,Entidade Intermunicipal,Distrito,Região
 Abrantes,Médio Tejo,Santarém,Ribatejo
+Águeda,Região de Aveiro,Aveiro,Beira Litoral
 Albergaria-a-Velha,Região de Aveiro,Aveiro,Beira Litoral
 Albufeira,Algarve,Faro,Algarve
 Alcácer do Sal,Alentejo Litoral,Setúbal,Baixo Alentejo
@@ -40,6 +41,7 @@ Ferreira do Alentejo,Baixo Alentejo,Beja,Baixo Alentejo
 Gavião,Alto Alentejo,Portalegre,Alto Alentejo
 Golegã,Lezíria do Tejo,Santarém,Ribatejo
 Grândola,Alentejo Litoral,Setúbal,Baixo Alentejo
+Ílhavo,Região de Aveiro,Aveiro,Beira Litoral
 Lagoa,Algarve,Faro,Algarve
 Lagos,Algarve,Faro,Algarve
 Leiria,Região de Leiria,Leiria,Beira Litoral
@@ -58,6 +60,7 @@ Moura,Baixo Alentejo,Beja,Baixo Alentejo
 Odemira,Alentejo Litoral,Beja,Baixo Alentejo
 Oeiras,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Olhão,Algarve,Faro,Algarve
+Oliveira de Frades,Viseu Dão-Lafões,Viseu,Beira Alta
 Ourém,Médio Tejo,Santarém,Beira Litoral
 Ourique,Baixo Alentejo,Beja,Baixo Alentejo
 Palmela,Área Metropolitana de Lisboa,Setúbal,Estremadura
@@ -73,6 +76,7 @@ São Brás de Alportel,Algarve,Faro,Algarve
 Seixal,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Serpa,Baixo Alentejo,Beja,Baixo Alentejo
 Setúbal,Área Metropolitana de Lisboa,Setúbal,Estremadura
+Sever do Vouga,Região de Aveiro,Aveiro,Beira Litoral
 Silves,Algarve,Faro,Algarve
 Sines,Alentejo Litoral,Setúbal,Baixo Alentejo
 Sintra,Área Metropolitana de Lisboa,Lisboa,Estremadura
@@ -90,3 +94,5 @@ Vila Nova da Barquinha,Médio Tejo,Santarém,Ribatejo
 Vila Nova de Gaia,Área Metropolitana do Porto,Porto,Douro Litoral
 Vila Real de Santo António,Algarve,Faro,Algarve
 Vila Velha de Ródão,Beira Baixa,Castelo Branco,Beira Baixa
+Viseu,Viseu Dão-Lafões,Viseu,Beira Alta
+Vouzela,Viseu Dão-Lafões,Viseu,Beira Alta

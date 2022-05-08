@@ -99,6 +99,26 @@ A23 - Saída 13,Belver,Gavião
 A23 - Saída 14,Envendos,Mação
 A23 - Saída 15,Fratel,Vila Velha de Ródão
 A23 - Saída 16,Fratel,Vila Velha de Ródão
+A25 - Início,Gafanha da Nazaré,Ílhavo
+A25 - Saída 1,Gafanha da Encarnação,Ílhavo
+A25 - Saída 1A,Gafanha da Nazaré,Ílhavo
+A25 - Saída 2,Gafanha da Nazaré,Ílhavo
+A25 - Saída 3,Glória,Aveiro
+A25 - Saída 3A,Esgueira,Aveiro
+A25 - Saída 4,Esgueira,Aveiro
+A25 - Saída 5A,Esgueira,Aveiro
+A25 - Saída 6,Fermelã,Estarreja
+A25 - Saída 8,Albergaria-a-Velha,Albergaria-a-Velha
+A25 - Saída 9,Macinhata do Vouga,Águeda
+A25 - Saída 10,Talhadas,Sever do Vouga
+A25 - Saída 11,Reigoso,Oliveira de Frades
+A25 - Saída 12,Campia,Vouzela
+A25 - Saída 13,Cambra,Vouzela
+A25 - Saída 14,Paços de Vilharigues,Vouzela
+A25 - Saída 15,Ventosa,Vouzela
+A25 - Saída 16,Boaldeia,Viseu
+A25 - Saída 16A,Boaldeia,Viseu
+A25 - Saída 18,São João de Lourosa,Viseu
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
 A26 - Saída 2,Sines,Sines
 A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
@@ -152,7 +172,9 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Almodôvar,Gomes Aires,Almodôvar
 Área de Serviço de Antuã-Estarreja,Salreu,Estarreja
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
+Área de Serviço de Aveiro,Cacia,Aveiro
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
+Área de Serviço de Gafanha da Nazaré,Gafanha da Nazaré,Ílhavo
 Área de Serviço de Gaia,Mafamude,Vila Nova de Gaia
 Área de Serviço de Grândola,Grândola,Grândola
 Área de Serviço de Lagos,Bensafrim,Lagos
@@ -171,6 +193,8 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Sintra,São Pedro de Penaferrim,Sintra
 Área de Serviço de Vendas Novas,Landeira,Vendas Novas
 Área de Serviço de Vila Velha de Ródão,Fratel,Vila Velha de Ródão
+Área de Serviço de Viseu,São João de Lourosa,Viseu
+Área de Serviço de Vouzela,Campia,Vouzela
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
 "Avenida Engenheiro Duarte Pacheco, Lisboa",Campolide,Lisboa
@@ -273,11 +297,14 @@ Cruzamento da A13 com a A23,Atalaia,Vila Nova da Barquinha
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
+Cruzamento da A17 com a A25,Eixo,Aveiro
 Cruzamento da A20 com a A28,Ramalde,Porto
 Cruzamento da A20 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A20 com a A32,Pedroso,Vila Nova de Gaia
 Cruzamento da A20 com a A43,Campanhã,Porto
 Cruzamento da A20 com a A44,Oliveira do Douro,Vila Nova de Gaia
+Cruzamento da A24 com a A25 e o IP3,São Cipriano,Viseu
+Cruzamento da A25 com a A29,Angeja,Albergaria-a-Velha
 Cruzamento da A26 com a A26-1,Sines,Sines
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
