@@ -215,7 +215,27 @@ A25 - Saída 14,A25 - Saída 15,Carro,6.5,A25,E,2,1
 A25 - Saída 15,A25 - Saída 16,Carro,5.2,A25,S,2,1
 A25 - Saída 16,A25 - Saída 16A,Carro,0.8,A25,SE,2,1
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Carro,9.4,A25,E,2,1
+A25 - Saída 18,A25 - Saída 19,Carro,5.9,A25,NE,2,1
 A25 - Saída 18,Área de Serviço de Viseu,Carro,1.2,A25,O,1,2
+A25 - Saída 19,A25 - Saída 20,Carro,2.6,A25,SE,2,1
+A25 - Saída 20,A25 - Saída 21,Carro,4.7,A25,E,2,1
+A25 - Saída 21,Área de Serviço de Mangualde,Carro,1.8,A25,E,2,1
+A25 - Saída 22,A25 - Saída 23,Carro,12.3,A25,E,2,1
+A25 - Saída 22,Área de Serviço de Mangualde,Carro,2.0,A25,O,1,2
+A25 - Saída 23,A25 - Saída 24,Carro,8.1,A25,E,2,1
+A25 - Saída 24,A25 - Saída 25,Carro,12.0,A25,E,2,1
+A25 - Saída 25,A25 - Saída 26,Carro,1.3,A25,E,2,1
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,4.0,A25,E,2,1
+A25 - Saída 27,A25 - Saída 28,Carro,2.3,A25,E,2,1
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,0.9,A25,SO,1,2
+A25 - Saída 28,A25 - Saída 28A,Carro,0.7,A25,E,2,1
+A25 - Saída 28A,A25 - Saída 29,Carro,13.9,A25,SE,2,1
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,2.6,A25,E,2,1
+A25 - Saída 31,A25 - Saída 32,Carro,7.4,A25,E,2,1
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,13.9,A25,O,1,2
+A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,2.6,A25,E,2,1
+A25 - Saída 33,A-62 - Saída 355,Carro,2.1,A25,E,2,1
+A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,9.6,A25,O,1,2
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
 A26 - Saída 2,A26 - Saída 3,Carro,5.3,A26,NE,2,1
@@ -870,6 +890,9 @@ A-58 - Saída 9,A-58 - Saída 15,Carro,6.2,A-58,O,2,1
 A-58 - Saída 15,A-58 - Saída 21,Carro,5.8,A-58,O,2,1
 A-58 - Saída 21,A-58 - Saída 35,Carro,13.6,A-58,O,2,1
 A-58 - Saída 35,A-58 - Saída 42,Carro,6.8,A-58,O,2,1
+A-62 - Saída 339,A-62 - Saída 344,Carro,4.7,A-62,O,1,2
+A-62 - Saída 344,A-62 - Saída 352,Carro,7.9,A-62,O,1,2
+A-62 - Saída 352,A-62 - Saída 355,Carro,3.1,A-62,NO,1,2
 A-66 - Saída 424,A-66 - Saída 427,Carro,3.2,A-66,SO,1,2
 A-66 - Saída 427,A-66 - Saída 436,Carro,8.4,A-66,SO,1,2
 A-66 - Saída 436,A-66 - Saída 442,Carro,6.1,A-66,O,1,2

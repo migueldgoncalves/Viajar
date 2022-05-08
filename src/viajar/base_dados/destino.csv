@@ -821,11 +821,99 @@ A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Carro,False,Aveiro
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Carro,True,A24 - Vila Real
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Carro,True,Guarda
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Carro,True,Viseu
+A25 - Saída 18,A25 - Saída 19,Carro,False,Aveiro
+A25 - Saída 18,A25 - Saída 19,Carro,False,IP3 - Coimbra
+A25 - Saída 18,A25 - Saída 19,Carro,False,Viseu - Centro da cidade
+A25 - Saída 18,A25 - Saída 19,Carro,True,Espanha
+A25 - Saída 18,A25 - Saída 19,Carro,True,Guarda
 A25 - Saída 18,Área de Serviço de Viseu,Carro,False,Guarda
 A25 - Saída 18,Área de Serviço de Viseu,Carro,False,Viseu
 A25 - Saída 18,Área de Serviço de Viseu,Carro,True,A24 - Vila Real
 A25 - Saída 18,Área de Serviço de Viseu,Carro,True,Aveiro
 A25 - Saída 18,Área de Serviço de Viseu,Carro,True,IP3 - Coimbra
+A25 - Saída 19,A25 - Saída 20,Carro,False,Aveiro
+A25 - Saída 19,A25 - Saída 20,Carro,False,Viseu
+A25 - Saída 19,A25 - Saída 20,Carro,True,Espanha
+A25 - Saída 19,A25 - Saída 20,Carro,True,Guarda
+A25 - Saída 20,A25 - Saída 21,Carro,False,Aveiro
+A25 - Saída 20,A25 - Saída 21,Carro,False,Viseu
+A25 - Saída 20,A25 - Saída 21,Carro,True,Espanha
+A25 - Saída 20,A25 - Saída 21,Carro,True,Guarda
+A25 - Saída 21,Área de Serviço de Mangualde,Carro,False,Aveiro
+A25 - Saída 21,Área de Serviço de Mangualde,Carro,False,Viseu
+A25 - Saída 21,Área de Serviço de Mangualde,Carro,True,Espanha
+A25 - Saída 21,Área de Serviço de Mangualde,Carro,True,Guarda
+A25 - Saída 22,A25 - Saída 23,Carro,False,Aveiro
+A25 - Saída 22,A25 - Saída 23,Carro,False,Viseu
+A25 - Saída 22,A25 - Saída 23,Carro,True,Espanha
+A25 - Saída 22,A25 - Saída 23,Carro,True,Guarda
+A25 - Saída 22,Área de Serviço de Mangualde,Carro,False,Espanha
+A25 - Saída 22,Área de Serviço de Mangualde,Carro,False,Guarda
+A25 - Saída 22,Área de Serviço de Mangualde,Carro,True,Aveiro
+A25 - Saída 22,Área de Serviço de Mangualde,Carro,True,Viseu
+A25 - Saída 23,A25 - Saída 24,Carro,False,Aveiro
+A25 - Saída 23,A25 - Saída 24,Carro,False,Viseu
+A25 - Saída 23,A25 - Saída 24,Carro,True,Espanha
+A25 - Saída 23,A25 - Saída 24,Carro,True,Guarda
+A25 - Saída 24,A25 - Saída 25,Carro,False,Aveiro
+A25 - Saída 24,A25 - Saída 25,Carro,False,Viseu
+A25 - Saída 24,A25 - Saída 25,Carro,True,Espanha
+A25 - Saída 24,A25 - Saída 25,Carro,True,Guarda
+A25 - Saída 25,A25 - Saída 26,Carro,False,Aveiro
+A25 - Saída 25,A25 - Saída 26,Carro,False,Viseu
+A25 - Saída 25,A25 - Saída 26,Carro,True,Espanha
+A25 - Saída 25,A25 - Saída 26,Carro,True,Guarda
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,False,Aveiro
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,False,Celorico da Beira - Centro da cidade
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,False,Viseu
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,True,Espanha
+A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,True,Guarda
+A25 - Saída 27,A25 - Saída 28,Carro,False,Aveiro
+A25 - Saída 27,A25 - Saída 28,Carro,False,Viseu
+A25 - Saída 27,A25 - Saída 28,Carro,True,A23 - Covilhã
+A25 - Saída 27,A25 - Saída 28,Carro,True,Espanha
+A25 - Saída 27,A25 - Saída 28,Carro,True,Guarda
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,False,Espanha
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,False,Guarda
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,True,Aveiro
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,True,Celorico da Beira - Centro da cidade
+A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,True,Viseu
+A25 - Saída 28,A25 - Saída 28A,Carro,False,Aveiro
+A25 - Saída 28,A25 - Saída 28A,Carro,False,Viseu
+A25 - Saída 28,A25 - Saída 28A,Carro,True,A23 - Covilhã
+A25 - Saída 28,A25 - Saída 28A,Carro,True,Espanha
+A25 - Saída 28,A25 - Saída 28A,Carro,True,Guarda
+A25 - Saída 28A,A25 - Saída 29,Carro,False,Aveiro
+A25 - Saída 28A,A25 - Saída 29,Carro,False,Viseu
+A25 - Saída 28A,A25 - Saída 29,Carro,True,A23 - Covilhã
+A25 - Saída 28A,A25 - Saída 29,Carro,True,Espanha
+A25 - Saída 28A,A25 - Saída 29,Carro,True,Guarda
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,False,Aveiro
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,False,Guarda - Norte
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,True,A23 - Covilhã
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,True,Espanha
+A25 - Saída 29,Cruzamento da A23 com a A25,Carro,True,Vilar Formoso
+A25 - Saída 31,A25 - Saída 32,Carro,False,A23 - Castelo Branco
+A25 - Saída 31,A25 - Saída 32,Carro,False,Aveiro
+A25 - Saída 31,A25 - Saída 32,Carro,False,Guarda
+A25 - Saída 31,A25 - Saída 32,Carro,True,Espanha
+A25 - Saída 31,A25 - Saída 32,Carro,True,Vilar Formoso
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,False,Espanha
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,False,Vilar Formoso
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,True,A23 - Castelo Branco
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,True,Aveiro
+A25 - Saída 31,Cruzamento da A23 com a A25,Carro,True,Guarda
+A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,False,Aveiro
+A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,False,Guarda
+A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,True,Espanha
+A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,True,Vilar Formoso
+A25 - Saída 33,A-62 - Saída 355,Carro,False,Portugal
+A25 - Saída 33,A-62 - Saída 355,Carro,True,Ciudad Rodrigo
+A25 - Saída 33,A-62 - Saída 355,Carro,True,Espanha
+A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,False,Espanha
+A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,False,Vilar Formoso
+A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,True,Aveiro
+A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,True,Guarda
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
 A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
@@ -3258,6 +3346,17 @@ A-58 - Saída 21,A-58 - Saída 35,Carro,True,Cáceres
 A-58 - Saída 35,A-58 - Saída 42,Carro,False,A-5 - Madrid
 A-58 - Saída 35,A-58 - Saída 42,Carro,False,Trujillo
 A-58 - Saída 35,A-58 - Saída 42,Carro,True,Cáceres
+A-62 - Saída 339,A-62 - Saída 344,Carro,False,Ciudad Rodrigo
+A-62 - Saída 339,A-62 - Saída 344,Carro,False,Salamanca
+A-62 - Saída 339,A-62 - Saída 344,Carro,True,Fuentes de Oñoro
+A-62 - Saída 339,A-62 - Saída 344,Carro,True,Portugal
+A-62 - Saída 344,A-62 - Saída 352,Carro,False,Ciudad Rodrigo
+A-62 - Saída 344,A-62 - Saída 352,Carro,False,Salamanca
+A-62 - Saída 344,A-62 - Saída 352,Carro,True,Fuentes de Oñoro
+A-62 - Saída 344,A-62 - Saída 352,Carro,True,Portugal
+A-62 - Saída 352,A-62 - Saída 355,Carro,False,Ciudad Rodrigo
+A-62 - Saída 352,A-62 - Saída 355,Carro,False,Espanha
+A-62 - Saída 352,A-62 - Saída 355,Carro,True,Portugal
 A-66 - Saída 424,A-66 - Saída 427,Carro,False,Béjar
 A-66 - Saída 424,A-66 - Saída 427,Carro,False,Salamanca
 A-66 - Saída 424,A-66 - Saída 427,Carro,True,Baños de Montemayor

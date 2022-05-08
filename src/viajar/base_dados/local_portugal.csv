@@ -119,6 +119,21 @@ A25 - Saída 15,Ventosa,Vouzela
 A25 - Saída 16,Boaldeia,Viseu
 A25 - Saída 16A,Boaldeia,Viseu
 A25 - Saída 18,São João de Lourosa,Viseu
+A25 - Saída 19,Rio de Loba,Viseu
+A25 - Saída 20,Fragosela,Viseu
+A25 - Saída 21,Fornos de Maceira Dão,Mangualde
+A25 - Saída 22,Mangualde,Mangualde
+A25 - Saída 23,Chãs de Tavares,Mangualde
+A25 - Saída 24,Fornos de Algodres,Fornos de Algodres
+A25 - Saída 25,São Pedro,Celorico da Beira
+A25 - Saída 26,São Pedro,Celorico da Beira
+A25 - Saída 27,Ratoeira,Celorico da Beira
+A25 - Saída 28,Açores,Celorico da Beira
+A25 - Saída 28A,Açores,Celorico da Beira
+A25 - Saída 29,Arrifana,Guarda
+A25 - Saída 31,Pínzio,Pinhel
+A25 - Saída 32,Freixo,Almeida
+A25 - Saída 33,Vilar Formoso,Almeida
 A26 - Fim,Figueira dos Cavaleiros,Ferreira do Alentejo
 A26 - Saída 2,Sines,Sines
 A26 - Saída 3,Santiago do Cacém,Santiago do Cacém
@@ -173,6 +188,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Antuã-Estarreja,Salreu,Estarreja
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Aveiro,Cacia,Aveiro
+Área de Serviço de Celorico da Beira,Lajeosa do Mondego,Celorico da Beira
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
 Área de Serviço de Gafanha da Nazaré,Gafanha da Nazaré,Ílhavo
 Área de Serviço de Gaia,Mafamude,Vila Nova de Gaia
@@ -180,6 +196,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Lagos,Bensafrim,Lagos
 Área de Serviço de Leiria,Arrabal,Leiria
 Área de Serviço de Loulé,Boliqueime,Loulé
+Área de Serviço de Mangualde,Mangualde,Mangualde
 Área de Serviço de Mealhada-Cantanhede,Murtede,Cantanhede
 Área de Serviço de Montemor-o-Novo,Nossa Senhora da Vila,Montemor-o-Novo
 Área de Serviço de Montijo,Canha,Montijo
@@ -195,6 +212,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Vila Velha de Ródão,Fratel,Vila Velha de Ródão
 Área de Serviço de Viseu,São João de Lourosa,Viseu
 Área de Serviço de Vouzela,Campia,Vouzela
+Área de Serviço do Alto de Leomil,Castelo Mendo,Almeida
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
 "Avenida Engenheiro Duarte Pacheco, Lisboa",Campolide,Lisboa
@@ -303,6 +321,7 @@ Cruzamento da A20 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A20 com a A32,Pedroso,Vila Nova de Gaia
 Cruzamento da A20 com a A43,Campanhã,Porto
 Cruzamento da A20 com a A44,Oliveira do Douro,Vila Nova de Gaia
+Cruzamento da A23 com a A25,Arrifana,Guarda
 Cruzamento da A24 com a A25 e o IP3,São Cipriano,Viseu
 Cruzamento da A25 com a A29,Angeja,Albergaria-a-Velha
 Cruzamento da A26 com a A26-1,Sines,Sines
