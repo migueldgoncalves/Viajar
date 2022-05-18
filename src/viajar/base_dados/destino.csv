@@ -6628,16 +6628,30 @@ Estação de Alcântara-Terra,Estação de Campolide,Comboio,True,Sintra
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
+Estação de Alfarelos,Estação de Figueira da Foz,Comboio,False,Coimbra-B
+Estação de Alfarelos,Estação de Figueira da Foz,Comboio,False,Lisboa - Santa Apolónia
+Estação de Alfarelos,Estação de Figueira da Foz,Comboio,False,Porto - Campanhã
+Estação de Alfarelos,Estação de Figueira da Foz,Comboio,True,Figueira da Foz
 Estação de Alfarelos,Estação de Formoselha,Comboio,False,Entroncamento
 Estação de Alfarelos,Estação de Formoselha,Comboio,False,Figueira da Foz
 Estação de Alfarelos,Estação de Formoselha,Comboio,False,Lisboa - Santa Apolónia
 Estação de Alfarelos,Estação de Formoselha,Comboio,False,Pombal
 Estação de Alfarelos,Estação de Formoselha,Comboio,True,Coimbra-B
 Estação de Alfarelos,Estação de Formoselha,Comboio,True,Porto - Campanhã
+Estação de Alfarelos,Estação de Montemor,Comboio,False,Coimbra-B
+Estação de Alfarelos,Estação de Montemor,Comboio,False,Lisboa - Santa Apolónia
+Estação de Alfarelos,Estação de Montemor,Comboio,False,Porto - Campanhã
+Estação de Alfarelos,Estação de Montemor,Comboio,True,Bifurcação de Lares
+Estação de Alfarelos,Estação de Montemor,Comboio,True,Figueira da Foz
 Estação de Alfarelos,Estação de Pombal,Comboio,False,Coimbra-B
 Estação de Alfarelos,Estação de Pombal,Comboio,False,Porto - Campanhã
 Estação de Alfarelos,Estação de Pombal,Comboio,True,Entroncamento
 Estação de Alfarelos,Estação de Pombal,Comboio,True,Lisboa - Santa Apolónia
+Estação de Alfarelos,Estação de Verride,Comboio,False,Coimbra-B
+Estação de Alfarelos,Estação de Verride,Comboio,False,Lisboa - Santa Apolónia
+Estação de Alfarelos,Estação de Verride,Comboio,False,Porto - Campanhã
+Estação de Alfarelos,Estação de Verride,Comboio,True,Leiria
+Estação de Alfarelos,Estação de Verride,Comboio,True,Lisboa - Rossio
 Estação de Alfarelos,Estação de Vila Nova de Anços,Comboio,False,Coimbra-B
 Estação de Alfarelos,Estação de Vila Nova de Anços,Comboio,False,Figueira da Foz
 Estação de Alfarelos,Estação de Vila Nova de Anços,Comboio,False,Porto - Campanhã
@@ -6797,6 +6811,21 @@ Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Braço de Prat
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Oriente
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Lisboa - Santa Apolónia
 Estação de Benfica,Estação de Sete Rios,Comboio,True,Porto - Campanhã
+Estação de Bifurcação de Lares,Estação de Lares,Comboio,False,Alfarelos
+Estação de Bifurcação de Lares,Estação de Lares,Comboio,False,Coimbra-B
+Estação de Bifurcação de Lares,Estação de Lares,Comboio,False,Leiria
+Estação de Bifurcação de Lares,Estação de Lares,Comboio,False,Lisboa - Rossio
+Estação de Bifurcação de Lares,Estação de Lares,Comboio,True,Figueira da Foz
+Estação de Bifurcação de Lares,Estação de Louriçal,Comboio,False,Alfarelos
+Estação de Bifurcação de Lares,Estação de Louriçal,Comboio,False,Coimbra-B
+Estação de Bifurcação de Lares,Estação de Louriçal,Comboio,False,Figueira da Foz
+Estação de Bifurcação de Lares,Estação de Louriçal,Comboio,True,Leiria
+Estação de Bifurcação de Lares,Estação de Louriçal,Comboio,True,Lisboa - Rossio
+Estação de Bifurcação de Lares,Estação de Reveles,Comboio,False,Figueira da Foz
+Estação de Bifurcação de Lares,Estação de Reveles,Comboio,False,Leiria
+Estação de Bifurcação de Lares,Estação de Reveles,Comboio,False,Lisboa - Rossio
+Estação de Bifurcação de Lares,Estação de Reveles,Comboio,True,Alfarelos
+Estação de Bifurcação de Lares,Estação de Reveles,Comboio,True,Coimbra-B
 Estação de Bobadela,Estação de Sacavém,Comboio,False,Azambuja
 Estação de Bobadela,Estação de Sacavém,Comboio,False,Porto - Campanhã
 Estação de Bobadela,Estação de Sacavém,Comboio,False,Vila Franca de Xira
@@ -7190,6 +7219,12 @@ Estação de Fernando Pó,Estação de Poceirão,Comboio,True,Pinhal Novo
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Tunes
 Estação de Ferragudo,Estação de Portimão,Comboio,False,Vila Real de Santo António
 Estação de Ferragudo,Estação de Portimão,Comboio,True,Lagos
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,False,Figueira da Foz
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,True,Alfarelos
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,True,Bifurcação de Lares
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,True,Coimbra-B
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,True,Leiria
+Estação de Figueira da Foz,Estação de Fontela-A,Comboio,True,Lisboa - Rossio
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Barreiro
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Faro
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Pinhal Novo
@@ -7197,6 +7232,18 @@ Estação de Fogueteiro,Estação de Foros de Amora,Comboio,False,Setúbal
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Lisboa - Campolide
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Lisboa - Oriente
 Estação de Fogueteiro,Estação de Foros de Amora,Comboio,True,Porto - Campanhã
+Estação de Fontela,Estação de Fontela-A,Comboio,False,Alfarelos
+Estação de Fontela,Estação de Fontela-A,Comboio,False,Coimbra-B
+Estação de Fontela,Estação de Fontela-A,Comboio,False,Figueira da Foz
+Estação de Fontela,Estação de Fontela-A,Comboio,False,Leiria
+Estação de Fontela,Estação de Fontela-A,Comboio,False,Lisboa - Rossio
+Estação de Fontela,Estação de Fontela-A,Comboio,True,Figueira da Foz
+Estação de Fontela,Estação de Lares,Comboio,False,Figueira da Foz
+Estação de Fontela,Estação de Lares,Comboio,True,Alfarelos
+Estação de Fontela,Estação de Lares,Comboio,True,Bifurcação de Lares
+Estação de Fontela,Estação de Lares,Comboio,True,Coimbra-B
+Estação de Fontela,Estação de Lares,Comboio,True,Leiria
+Estação de Fontela,Estação de Lares,Comboio,True,Lisboa - Rossio
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Collado Villalba
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Atocha
@@ -7228,6 +7275,16 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Guia,Estação de Louriçal,Comboio,False,Leiria
+Estação de Guia,Estação de Louriçal,Comboio,False,Lisboa - Rossio
+Estação de Guia,Estação de Louriçal,Comboio,True,Bifurcação de Lares
+Estação de Guia,Estação de Louriçal,Comboio,True,Coimbra-B
+Estação de Guia,Estação de Louriçal,Comboio,True,Figueira da Foz
+Estação de Guia,Estação de Monte Redondo,Comboio,False,Bifurcação de Lares
+Estação de Guia,Estação de Monte Redondo,Comboio,False,Coimbra-B
+Estação de Guia,Estação de Monte Redondo,Comboio,False,Figueira da Foz
+Estação de Guia,Estação de Monte Redondo,Comboio,True,Leiria
+Estação de Guia,Estação de Monte Redondo,Comboio,True,Lisboa - Rossio
 Estação de Huelva,Gibraleón,Comboio,False,Huelva
 Estação de Huelva,Gibraleón,Comboio,False,Sevilha-Santa Justa
 Estação de Huelva,Gibraleón,Comboio,True,Jabugo-Galaroza
@@ -7262,11 +7319,25 @@ Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Pombal
 Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Porto - Campanhã
 Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Lisboa - Santa Apolónia
 Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Santarém
+Estação de Leiria,Estação de Marinha Grande,Comboio,False,Bifurcação de Lares
+Estação de Leiria,Estação de Marinha Grande,Comboio,False,Coimbra-B
+Estação de Leiria,Estação de Marinha Grande,Comboio,False,Figueira da Foz
+Estação de Leiria,Estação de Marinha Grande,Comboio,True,Caldas da Rainha
+Estação de Leiria,Estação de Marinha Grande,Comboio,True,Lisboa - Rossio
+Estação de Leiria,Estação de Monte Real,Comboio,False,Caldas da Rainha
+Estação de Leiria,Estação de Monte Real,Comboio,False,Lisboa - Rossio
+Estação de Leiria,Estação de Monte Real,Comboio,True,Bifurcação de Lares
+Estação de Leiria,Estação de Monte Real,Comboio,True,Coimbra-B
+Estação de Leiria,Estação de Monte Real,Comboio,True,Figueira da Foz
 Estação de Litém,Estação de Vermoil,Comboio,False,Entroncamento
 Estação de Litém,Estação de Vermoil,Comboio,False,Lisboa - Santa Apolónia
 Estação de Litém,Estação de Vermoil,Comboio,True,Coimbra-B
 Estação de Litém,Estação de Vermoil,Comboio,True,Pombal
 Estação de Litém,Estação de Vermoil,Comboio,True,Porto - Campanhã
+Estação de Louriçal,Estação de Verride,Comboio,False,Leiria
+Estação de Louriçal,Estação de Verride,Comboio,False,Lisboa - Rossio
+Estação de Louriçal,Estação de Verride,Comboio,True,Alfarelos
+Estação de Louriçal,Estação de Verride,Comboio,True,Coimbra-B
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Alcalá de Henares
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Collado Villalba
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,False,Guadalajara
@@ -7321,6 +7392,14 @@ Estação de Martingança,Estação de Valado-Nazaré-Alcobaça,Comboio,False,Co
 Estação de Martingança,Estação de Valado-Nazaré-Alcobaça,Comboio,False,Leiria
 Estação de Martingança,Estação de Valado-Nazaré-Alcobaça,Comboio,True,Caldas da Rainha
 Estação de Martingança,Estação de Valado-Nazaré-Alcobaça,Comboio,True,Lisboa - Rossio
+Estação de Marujal,Estação de Montemor,Comboio,False,Bifurcação de Lares
+Estação de Marujal,Estação de Montemor,Comboio,False,Figueira da Foz
+Estação de Marujal,Estação de Montemor,Comboio,True,Alfarelos
+Estação de Marujal,Estação de Montemor,Comboio,True,Coimbra-B
+Estação de Marujal,Estação de Verride,Comboio,False,Alfarelos
+Estação de Marujal,Estação de Verride,Comboio,False,Coimbra-B
+Estação de Marujal,Estação de Verride,Comboio,True,Bifurcação de Lares
+Estação de Marujal,Estação de Verride,Comboio,True,Figueira da Foz
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Braço de Prata
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Oriente
 Estação de Marvila,Estação de Roma-Areeiro,Comboio,False,Lisboa - Santa Apolónia
@@ -7375,6 +7454,11 @@ Estação de Monte Gordo,Hortas,Carro,True,Vila Real de Santo António
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Faro
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,False,Lagos
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,True,Vila Real de Santo António
+Estação de Monte Real,Estação de Monte Redondo,Comboio,False,Leiria
+Estação de Monte Real,Estação de Monte Redondo,Comboio,False,Lisboa - Rossio
+Estação de Monte Real,Estação de Monte Redondo,Comboio,True,Bifurcação de Lares
+Estação de Monte Real,Estação de Monte Redondo,Comboio,True,Coimbra-B
+Estação de Monte Real,Estação de Monte Redondo,Comboio,True,Figueira da Foz
 Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Alcântara-Terra
 Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Oriente
 Estação de Moscavide,Estação de Sacavém,Comboio,False,Lisboa - Santa Apolónia
@@ -7539,6 +7623,10 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,Fals
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,False,Santarém
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Azambuja
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,True,Lisboa - Santa Apolónia
+Estação de Reveles,Estação de Verride,Comboio,False,Bifurcação de Lares
+Estação de Reveles,Estação de Verride,Comboio,False,Figueira da Foz
+Estação de Reveles,Estação de Verride,Comboio,True,Alfarelos
+Estação de Reveles,Estação de Verride,Comboio,True,Coimbra-B
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Lisboa - Santa Apolónia
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Santarém
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Pombal
