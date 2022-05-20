@@ -4,7 +4,7 @@ Main - Executar para aceder a todos os scripts disponíveis
 
 import viajar.auxiliar.vias as vias
 # INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
-VIA = vias.PT_RAMAL_DE_ALFARELOS
+VIA = vias.PT_LINHA_DO_NORTE
 
 OPCAO_SAIR = 0
 
