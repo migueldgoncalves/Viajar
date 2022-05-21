@@ -6520,6 +6520,7 @@ Estação de Abrantes,Estação de Bemposta,Comboio,False,Covilhã
 Estação de Abrantes,Estação de Bemposta,Comboio,False,Entroncamento
 Estação de Abrantes,Estação de Bemposta,Comboio,False,Guarda
 Estação de Abrantes,Estação de Bemposta,Comboio,True,Badajoz
+Estação de Abrantes,Estação de Bemposta,Comboio,True,Elvas
 Estação de Abrantes,Estação de Bemposta,Comboio,True,Portalegre
 Estação de Abrantes,Estação de Tramagal,Comboio,False,Badajoz
 Estação de Abrantes,Estação de Tramagal,Comboio,False,Covilhã
@@ -6785,6 +6786,26 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Colos
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Estação de Amoreiras - Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,False,Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Carro,True,São Martinho das Amoreiras
+Estação de Arronches,Estação de Assumar,Comboio,False,Badajoz
+Estação de Arronches,Estação de Assumar,Comboio,False,Elvas
+Estação de Arronches,Estação de Assumar,Comboio,True,Entroncamento
+Estação de Arronches,Estação de Assumar,Comboio,True,Guarda
+Estação de Arronches,Estação de Assumar,Comboio,True,Portalegre
+Estação de Arronches,Estação de Santa Eulália-A,Comboio,False,Entroncamento
+Estação de Arronches,Estação de Santa Eulália-A,Comboio,False,Guarda
+Estação de Arronches,Estação de Santa Eulália-A,Comboio,False,Portalegre
+Estação de Arronches,Estação de Santa Eulália-A,Comboio,True,Badajoz
+Estação de Arronches,Estação de Santa Eulália-A,Comboio,True,Elvas
+Estação de Assumar,Estação de Portalegre,Comboio,False,Badajoz
+Estação de Assumar,Estação de Portalegre,Comboio,False,Elvas
+Estação de Assumar,Estação de Portalegre,Comboio,True,Abrantes
+Estação de Assumar,Estação de Portalegre,Comboio,True,Entroncamento
+Estação de Assumar,Estação de Portalegre,Comboio,True,Guarda
+Estação de Badajoz,Estação de Elvas,Comboio,False,Badajoz
+Estação de Badajoz,Estação de Elvas,Comboio,False,Espanha
+Estação de Badajoz,Estação de Elvas,Comboio,True,Entroncamento
+Estação de Badajoz,Estação de Elvas,Comboio,True,Guarda
+Estação de Badajoz,Estação de Elvas,Comboio,True,Portalegre
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Pinhal Novo
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Praias do Sado-A
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,True,Barreiro
@@ -6811,6 +6832,12 @@ Estação de Barreiro-A,Estação do Lavradio,Comboio,True,Praias do Sado-A
 "Estação de Belmonte, Huelva",Gibraleón,Comboio,False,Zafra
 "Estação de Belmonte, Huelva",Gibraleón,Comboio,True,Huelva
 "Estação de Belmonte, Huelva",Gibraleón,Comboio,True,Sevilha-Santa Justa
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,False,Abrantes
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,False,Entroncamento
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,False,Guarda
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,True,Badajoz
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,True,Elvas
+Estação de Bemposta,Estação de Ponte de Sôr,Comboio,True,Portalegre
 Estação de Bencanta,Estação de Coimbra-B,Comboio,False,Alfarelos
 Estação de Bencanta,Estação de Coimbra-B,Comboio,False,Figueira da Foz
 Estação de Bencanta,Estação de Coimbra-B,Comboio,False,Lisboa - Santa Apolónia
@@ -6983,6 +7010,26 @@ Estação de Carcavelos,Estação de Oeiras,Comboio,False,Cascais
 Estação de Carcavelos,Estação de Oeiras,Comboio,False,São Pedro do Estoril
 Estação de Carcavelos,Estação de Oeiras,Comboio,True,Algés
 Estação de Carcavelos,Estação de Oeiras,Comboio,True,Lisboa - Cais do Sodré
+Estação de Carrascal-Delongo,Estação de Curvaceiras,Comboio,False,Entroncamento
+Estação de Carrascal-Delongo,Estação de Curvaceiras,Comboio,False,Lisboa - Santa Apolónia
+Estação de Carrascal-Delongo,Estação de Curvaceiras,Comboio,False,Pombal
+Estação de Carrascal-Delongo,Estação de Curvaceiras,Comboio,False,Porto - Campanhã
+Estação de Carrascal-Delongo,Estação de Curvaceiras,Comboio,True,Tomar
+Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,False,Tomar
+Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Entroncamento
+Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Lisboa - Santa Apolónia
+Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Pombal
+Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Porto - Campanhã
+Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,False,Tomar
+Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Entroncamento
+Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Lisboa - Santa Apolónia
+Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Pombal
+Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Porto - Campanhã
+Estação de Carvalhos de Figueiredo,Estação de Tomar,Comboio,False,Entroncamento
+Estação de Carvalhos de Figueiredo,Estação de Tomar,Comboio,False,Lisboa - Santa Apolónia
+Estação de Carvalhos de Figueiredo,Estação de Tomar,Comboio,False,Pombal
+Estação de Carvalhos de Figueiredo,Estação de Tomar,Comboio,False,Porto - Campanhã
+Estação de Carvalhos de Figueiredo,Estação de Tomar,Comboio,True,Tomar
 Estação de Casais,Estação de Espadaneira,Comboio,False,Alfarelos
 Estação de Casais,Estação de Espadaneira,Comboio,False,Figueira da Foz
 Estação de Casais,Estação de Espadaneira,Comboio,False,Lisboa - Santa Apolónia
@@ -7041,6 +7088,18 @@ Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Algés
 Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Lisboa - Cais do Sodré
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Cascais
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Oeiras
+Estação de Chança,Estação de Crato,Comboio,False,Abrantes
+Estação de Chança,Estação de Crato,Comboio,False,Entroncamento
+Estação de Chança,Estação de Crato,Comboio,False,Guarda
+Estação de Chança,Estação de Crato,Comboio,True,Badajoz
+Estação de Chança,Estação de Crato,Comboio,True,Elvas
+Estação de Chança,Estação de Crato,Comboio,True,Portalegre
+Estação de Chança,Estação de Torre das Vargens,Comboio,False,Badajoz
+Estação de Chança,Estação de Torre das Vargens,Comboio,False,Elvas
+Estação de Chança,Estação de Torre das Vargens,Comboio,False,Portalegre
+Estação de Chança,Estação de Torre das Vargens,Comboio,True,Abrantes
+Estação de Chança,Estação de Torre das Vargens,Comboio,True,Entroncamento
+Estação de Chança,Estação de Torre das Vargens,Comboio,True,Guarda
 Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,False,Coimbra-B
 Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,False,Pombal
 Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,False,Porto - Campanhã
@@ -7144,6 +7203,16 @@ Estação de Corroios,Estação do Pragal,Comboio,False,Setúbal
 Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Campolide
 Estação de Corroios,Estação do Pragal,Comboio,True,Lisboa - Oriente
 Estação de Corroios,Estação do Pragal,Comboio,True,Porto - Campanhã
+Estação de Crato,Estação de Portalegre,Comboio,False,Abrantes
+Estação de Crato,Estação de Portalegre,Comboio,False,Entroncamento
+Estação de Crato,Estação de Portalegre,Comboio,False,Guarda
+Estação de Crato,Estação de Portalegre,Comboio,True,Badajoz
+Estação de Crato,Estação de Portalegre,Comboio,True,Elvas
+Estação de Curvaceiras,Estação de Santa Cita,Comboio,False,Entroncamento
+Estação de Curvaceiras,Estação de Santa Cita,Comboio,False,Lisboa - Santa Apolónia
+Estação de Curvaceiras,Estação de Santa Cita,Comboio,False,Pombal
+Estação de Curvaceiras,Estação de Santa Cita,Comboio,False,Porto - Campanhã
+Estação de Curvaceiras,Estação de Santa Cita,Comboio,True,Tomar
 Estação de Dagorda - Peniche,Estação de Óbidos,Comboio,False,Agualva - Cacém
 Estação de Dagorda - Peniche,Estação de Óbidos,Comboio,False,Jerumelo
 Estação de Dagorda - Peniche,Estação de Óbidos,Comboio,False,Lisboa - Rossio
@@ -7172,6 +7241,11 @@ Estação de Dois Portos,Estação de Torres Vedras,Comboio,False,Agualva - Cac�
 Estação de Dois Portos,Estação de Torres Vedras,Comboio,False,Lisboa - Rossio
 Estação de Dois Portos,Estação de Torres Vedras,Comboio,True,Caldas da Rainha
 Estação de Dois Portos,Estação de Torres Vedras,Comboio,True,Coimbra-B
+Estação de Elvas,Estação de Santa Eulália-A,Comboio,False,Badajoz
+Estação de Elvas,Estação de Santa Eulália-A,Comboio,False,Espanha
+Estação de Elvas,Estação de Santa Eulália-A,Comboio,True,Entroncamento
+Estação de Elvas,Estação de Santa Eulália-A,Comboio,True,Guarda
+Estação de Elvas,Estação de Santa Eulália-A,Comboio,True,Portalegre
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Agualva-Cacém
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Faro
 Estação de Entrecampos,Estação de Roma-Areeiro,Comboio,False,Lisboa - Alcântara-Terra
@@ -7399,6 +7473,11 @@ Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Lisboa - San
 Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Pombal
 Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,False,Porto - Campanhã
 Estação de Lamarosa,Estação de Soudos - Vila Nova,Comboio,True,Tomar
+Estação de Lamarosa,Estação de Tomar,Comboio,False,Entroncamento
+Estação de Lamarosa,Estação de Tomar,Comboio,False,Lisboa - Santa Apolónia
+Estação de Lamarosa,Estação de Tomar,Comboio,False,Pombal
+Estação de Lamarosa,Estação de Tomar,Comboio,False,Porto - Campanhã
+Estação de Lamarosa,Estação de Tomar,Comboio,True,Tomar
 Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Coimbra-B
 Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Pombal
 Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Porto - Campanhã
@@ -7677,6 +7756,12 @@ Estação de Pombal,Estação do Entroncamento,Comboio de Alta Velocidade,False,
 Estação de Pombal,Estação do Entroncamento,Comboio de Alta Velocidade,False,Porto - Campanhã
 Estação de Pombal,Estação do Entroncamento,Comboio de Alta Velocidade,True,Lisboa - Oriente
 Estação de Pombal,Estação do Entroncamento,Comboio de Alta Velocidade,True,Santarém
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,False,Abrantes
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,False,Entroncamento
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,False,Guarda
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,True,Badajoz
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,True,Elvas
+Estação de Ponte de Sôr,Estação de Torre das Vargens,Comboio,True,Portalegre
 Estação de Portela de Sintra,Estação de Sintra,Comboio,False,Agualva - Cacém
 Estação de Portela de Sintra,Estação de Sintra,Comboio,False,Lisboa - Rossio
 Estação de Portela de Sintra,Estação de Sintra,Comboio,False,Mira Sintra - Meleças

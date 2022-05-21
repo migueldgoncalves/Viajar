@@ -412,6 +412,8 @@ Estação de Alvito,Alvito,Alvito
 Estação de Amadora,Mina de Água,Amadora
 Estação de Amial,Ameal,Coimbra
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
+Estação de Arronches,Assunção,Arronches
+Estação de Assumar,Assumar,Monforte
 Estação de Baixa da Banheira,Baixa da Banheira,Moita
 Estação de Barquinha,Vila Nova da Barquinha,Vila Nova da Barquinha
 Estação de Barragem de Belver,Ortiga,Mação
@@ -431,20 +433,26 @@ Estação de Cais do Sodré,São Paulo,Lisboa
 Estação de Caldas da Rainha,Santo Onofre,Caldas da Rainha
 Estação de Campolide,Campolide,Lisboa
 Estação de Carcavelos,Carcavelos,Cascais
+Estação de Carrascal-Delongo,Paialvo,Tomar
+Estação de Carvalhos de Figueiredo,Madalena,Tomar
 Estação de Casais,São Martinho do Bispo,Coimbra
 Estação de Cascais,Cascais,Cascais
 Estação de Castanheira do Ribatejo,Castanheira do Ribatejo,Vila Franca de Xira
 Estação de Castro Marim,Castro Marim,Castro Marim
 Estação de Caxarias,Caxarias,Ourém
 Estação de Caxias,Caxias,Oeiras
+Estação de Chança,Chancelaria,Alter do Chão
 Estação de Chão de Maçãs-Fátima,Sabacheira,Tomar
 Estação de Coimbra,São Bartolomeu,Coimbra
 Estação de Coimbra-B,Eiras,Coimbra
 Estação de Coina,Aldeia de Paio Pires,Seixal
 Estação de Corroios,Corroios,Seixal
+Estação de Crato,Crato e Mártires,Crato
 Estação de Cruz Quebrada,Cruz Quebrada - Dafundo,Oeiras
+Estação de Curvaceiras,Madalena,Tomar
 Estação de Dagorda - Peniche,Santa Maria,Óbidos
 Estação de Dois Portos,Dois Portos,Torres Vedras
+Estação de Elvas,Caia e São Pedro,Elvas
 Estação de Entrecampos,Nossa Senhora de Fátima,Lisboa
 Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
 Estação de Espadanal da Azambuja,Vila Nova da Rainha,Azambuja
@@ -514,6 +522,8 @@ Estação de Pereira,Pereira,Montemor-o-Velho
 Estação de Pêro Negro,Sapataria,Sobral de Monte Agraço
 Estação de Poceirão,Poceirão,Palmela
 Estação de Pombal,Pombal,Pombal
+Estação de Ponte de Sôr,Ponte de Sôr,Ponte de Sôr
+Estação de Portalegre,Urra,Portalegre
 Estação de Portela de Sintra,Santa Maria e São Miguel,Sintra
 Estação de Portimão,Portimão,Portimão
 Estação de Praça do Quebedo,Santa Maria da Graça,Setúbal
@@ -532,8 +542,10 @@ Estação de Sabugo,Almargem do Bispo,Sintra
 Estação de Sacavém,Parque das Nações,Lisboa
 Estação de Salir do Porto,Salir do Porto,Caldas da Rainha
 Estação de Santa Apolónia,Santa Engrácia,Lisboa
+Estação de Santa Cita,Madalena,Tomar
 Estação de Santa Clara - Sabóia,Santa Clara-a-Velha,Odemira
 Estação de Santa Cruz - Damaia,Águas Livres,Amadora
+Estação de Santa Eulália-A,Santa Eulália,Elvas
 Estação de Santa Iria,Santa Iria de Azóia,Loures
 Estação de Santa Margarida,Santa Margarida da Coutada,Constância
 Estação de Santana-Cartaxo,Vila Chã de Ourique,Cartaxo
@@ -559,6 +571,8 @@ Estação de Souselas,Souselas,Coimbra
 Estação de Tancos,Praia do Ribatejo,Vila Nova da Barquinha
 Estação de Taveiro,Taveiro,Coimbra
 Estação de Tavira,Santiago,Tavira
+Estação de Tomar,São João Baptista,Tomar
+Estação de Torre das Vargens,Ponte de Sôr,Ponte de Sôr
 Estação de Torres Vedras,Santa Maria do Castelo e São Miguel,Torres Vedras
 Estação de Tramagal,Tramagal,Abrantes
 Estação de Valado-Nazaré-Alcobaça,Valado dos Frades,Nazaré
