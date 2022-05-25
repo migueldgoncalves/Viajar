@@ -32,6 +32,8 @@ A2 - Saída 12,Castro Verde,Castro Verde
 A2 - Saída 13,Gomes Aires,Almodôvar
 A2 - Saída 14,São Bartolomeu de Messines,Silves
 A3 - Início,Paranhos,Porto
+A3 - Saída 2,Pedrouços,Maia
+A3 - Saída 5,São Martinho,Trofa
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -189,6 +191,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Aveiro,Cacia,Aveiro
 Área de Serviço de Celorico da Beira,Lajeosa do Mondego,Celorico da Beira
+Área de Serviço de Coronado/Trofa,São Mamede,Trofa
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
 Área de Serviço de Gafanha da Nazaré,Gafanha da Nazaré,Ílhavo
 Área de Serviço de Gaia,Mafamude,Vila Nova de Gaia
@@ -307,6 +310,9 @@ Cruzamento da A1 com a A44,Vilar do Paraíso,Vila Nova de Gaia
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
+Cruzamento da A3 com a A4,Pedrouços,Maia
+Cruzamento da A3 com a A7,Cabeçudos,Vila Nova de Famalicão
+Cruzamento da A3 com a A41 CREP,São Pedro Fins,Maia
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente

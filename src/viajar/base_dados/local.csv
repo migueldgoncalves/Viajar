@@ -32,6 +32,8 @@ A2 - Saída 12,37.665539,-8.157774,253,,700
 A2 - Saída 13,37.521372,-8.181839,235,,500
 A2 - Saída 14,37.253438,-8.255587,125,,400
 A3 - Início,41.171820,-8.595418,130,,1600
+A3 - Saída 2,41.182413,-8.593479,113,,2300
+A3 - Saída 5,41.33552,-8.509227,78,,2300
 A5 - Fim,38.722438,-9.447006,64,,1000
 A5 - Saída 1,38.723243,-9.175877,39,Parque Florestal de Monsanto,1000
 A5 - Saída 2,38.724587,-9.193881,170,Parque Florestal de Monsanto,1000
@@ -991,6 +993,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Aveiras,39.123257,-8.907457,76,,1600
 Área de Serviço de Aveiro,40.66106,-8.59188,21,,2200
 Área de Serviço de Celorico da Beira,40.6301,-7.3571,495,,2200
+Área de Serviço de Coronado/Trofa,41.26367,-8.56393,102,,2300
 Área de Serviço de Cortijo de Robledo,36.917477,-4.439805,557,,1100
 Área de Serviço de El Cuadrejón,36.781382,-6.043598,47,,800
 Área de Serviço de El Fantasma,37.001929,-5.938830,58,,800
@@ -1172,6 +1175,9 @@ Cruzamento da A1 com a A44,41.115178,-8.626368,94,,1700
 Cruzamento da A2 com a A6 e a A13,38.602459,-8.643525,51,,800
 Cruzamento da A2 com a A22,37.154436,-8.209989,94,,400
 Cruzamento da A2 com a A26,38.118064,-8.414056,72,,700
+Cruzamento da A3 com a A4,41.197406,-8.588564,96,,2300
+Cruzamento da A3 com a A7,41.381731,-8.500477,58,,2300
+Cruzamento da A3 com a A41 CREP,41.24100,-8.56423,115,,2300
 Cruzamento da A5 com a A9 CREL,38.714489,-9.2642,64,,1000
 Cruzamento da A9 CREL com o IC19,38.747774,-9.273421,141,,1100
 Cruzamento da A10 com a A13,38.904728,-8.780689,29,,1500
