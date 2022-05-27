@@ -20,12 +20,14 @@ Arraiolos,Alentejo Central,Évora,Alto Alentejo
 Arronches,Alto Alentejo,Portalegre,Alto Alentejo
 Aveiro,Região de Aveiro,Aveiro,Beira Litoral
 Azambuja,Lezíria do Tejo,Lisboa,Ribatejo
+Barcelos,Cávado,Braga,Minho
 Barrancos,Baixo Alentejo,Beja,Baixo Alentejo
 Barreiro,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Beja,Baixo Alentejo,Beja,Baixo Alentejo
 Benavente,Lezíria do Tejo,Santarém,Ribatejo
 Bombarral,Oeste,Leiria,Estremadura
 Borba,Alentejo Central,Évora,Alto Alentejo
+Braga,Cávado,Braga,Minho
 Caldas da Rainha,Oeste,Leiria,Estremadura
 Cantanhede,Região de Coimbra,Coimbra,Beira Litoral
 Cartaxo,Lezíria do Tejo,Santarém,Ribatejo
@@ -83,6 +85,7 @@ Ourique,Baixo Alentejo,Beja,Baixo Alentejo
 Palmela,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Pinhel,Beiras e Serra da Estrela,Guarda,Beira Alta
 Pombal,Região de Leiria,Leiria,Beira Litoral
+Ponte de Lima,Alto Minho,Viana do Castelo,Minho
 Ponte de Sôr,Alto Alentejo,Portalegre,Alto Alentejo
 Portalegre,Alto Alentejo,Portalegre,Alto Alentejo
 Portel,Alentejo Central,Évora,Alto Alentejo
@@ -107,11 +110,13 @@ Tomar,Médio Tejo,Santarém,Ribatejo
 Torres Novas,Médio Tejo,Santarém,Ribatejo
 Torres Vedras,Oeste,Lisboa,Estremadura
 Trofa,Área Metropolitana do Porto,Porto,Douro Litoral
+Valença,Alto Minho,Viana do Castelo,Minho
 Vendas Novas,Alentejo Central,Évora,Alto Alentejo
 Vidigueira,Baixo Alentejo,Beja,Baixo Alentejo
 Vila do Bispo,Algarve,Faro,Algarve
 Vila Franca de Xira,Área Metropolitana de Lisboa,Lisboa,Ribatejo
 Vila Nova da Barquinha,Médio Tejo,Santarém,Ribatejo
+Vila Nova de Cerveira,Alto Minho,Viana do Castelo,Minho
 Vila Nova de Famalicão,Ave,Braga,Minho
 Vila Nova de Gaia,Área Metropolitana do Porto,Porto,Douro Litoral
 Vila Real de Santo António,Algarve,Faro,Algarve

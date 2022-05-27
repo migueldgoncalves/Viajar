@@ -69,6 +69,16 @@ A3 - Início,IC23 - Paranhos,Carro,0.8,A20/IC23 VCI,O,2,1
 A3 - Saída 2,Cruzamento da A3 com a A4,Carro,1.8,A3,N,2,1
 A3 - Saída 5,Área de Serviço de Coronado/Trofa,Carro,10.2,A3,SO,1,2
 A3 - Saída 5,Cruzamento da A3 com a A7,Carro,5.4,A3,N,2,1
+A3 - Saída 7,A3 - Saída 8,Carro,7.2,A3,N,2,1
+A3 - Saída 7,Cruzamento da A3 com a A7,Carro,8.7,A3,S,1,2
+A3 - Saída 8,Cruzamento da A3 com a A11,Carro,3.3,A3,NO,2,1
+A3 - Saída 10,A3 - Saída 11,Carro,10.1,A3,N,2,1
+A3 - Saída 10,Área de Serviço de Barcelos,Carro,10.0,A3,S,1,2
+A3 - Saída 11,Cruzamento da A3 com a A27,Carro,1.3,A3,N,2,1
+A3 - Saída 13,A3 - Saída 14,Carro,8.1,A3,N,2,1
+A3 - Saída 13,Cruzamento da A3 com a A27,Carro,20.5,A3,SE,1,2
+A3 - Saída 14,A3 - Saída 15,Carro,4.6,A3,N,2,1
+A3 - Saída 15,A-55 - Saída 30,Carro,0.7,A3,NO,2,1
 A5 - Fim,A5 - Saída 12,Carro,0.5,A5,E,1,2
 A5 - Saída 1,A5 - Saída 2,Carro,1.6,A5,O,4,1
 A5 - Saída 1,"Avenida Engenheiro Duarte Pacheco, Lisboa",Carro,1.1,A5,E,3,1
@@ -1402,6 +1412,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,7.7,A1,S,1,2
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Carro,1.6,A-7/AP-7,NE,2,1
 Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,13.8,A1,SO,1,2
+Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Carro,11.1,A3,SE,1,2
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Carro,2.5,A3,S,1,2
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Carro,21.0,AP-46,SO,1,3
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Carro,4.0,AP-46,N,2,3

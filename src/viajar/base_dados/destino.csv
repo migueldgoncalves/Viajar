@@ -286,6 +286,45 @@ A3 - Saída 5,Cruzamento da A3 com a A7,Carro,False,Santo Tirso
 A3 - Saída 5,Cruzamento da A3 com a A7,Carro,True,A7 - Famalicão/Guimarães
 A3 - Saída 5,Cruzamento da A3 com a A7,Carro,True,Braga
 A3 - Saída 5,Cruzamento da A3 com a A7,Carro,True,Valença
+A3 - Saída 7,A3 - Saída 8,Carro,False,Famalicão
+A3 - Saída 7,A3 - Saída 8,Carro,False,Porto
+A3 - Saída 7,A3 - Saída 8,Carro,True,Braga
+A3 - Saída 7,A3 - Saída 8,Carro,True,Valença
+A3 - Saída 7,Cruzamento da A3 com a A7,Carro,False,Cruz
+A3 - Saída 7,Cruzamento da A3 com a A7,Carro,False,Valença
+A3 - Saída 7,Cruzamento da A3 com a A7,Carro,True,Famalicão
+A3 - Saída 7,Cruzamento da A3 com a A7,Carro,True,Porto
+A3 - Saída 8,Cruzamento da A3 com a A11,Carro,False,Braga - Sul
+A3 - Saída 8,Cruzamento da A3 com a A11,Carro,False,Porto
+A3 - Saída 8,Cruzamento da A3 com a A11,Carro,True,A11 - Barcelos
+A3 - Saída 8,Cruzamento da A3 com a A11,Carro,True,Valença
+A3 - Saída 10,A3 - Saída 11,Carro,False,Braga
+A3 - Saída 10,A3 - Saída 11,Carro,False,Porto
+A3 - Saída 10,A3 - Saída 11,Carro,True,Ponte de Lima
+A3 - Saída 10,A3 - Saída 11,Carro,True,Valença
+A3 - Saída 10,Área de Serviço de Barcelos,Carro,False,Ponte de Lima
+A3 - Saída 10,Área de Serviço de Barcelos,Carro,False,Valença
+A3 - Saída 10,Área de Serviço de Barcelos,Carro,True,Braga
+A3 - Saída 10,Área de Serviço de Barcelos,Carro,True,Porto
+A3 - Saída 11,Cruzamento da A3 com a A27,Carro,False,Braga
+A3 - Saída 11,Cruzamento da A3 com a A27,Carro,False,Porto
+A3 - Saída 11,Cruzamento da A3 com a A27,Carro,True,Espanha
+A3 - Saída 11,Cruzamento da A3 com a A27,Carro,True,Valença
+A3 - Saída 13,A3 - Saída 14,Carro,False,Braga
+A3 - Saída 13,A3 - Saída 14,Carro,False,Porto
+A3 - Saída 13,A3 - Saída 14,Carro,True,Espanha
+A3 - Saída 13,A3 - Saída 14,Carro,True,Valença
+A3 - Saída 13,Cruzamento da A3 com a A27,Carro,False,Espanha
+A3 - Saída 13,Cruzamento da A3 com a A27,Carro,False,Valença
+A3 - Saída 13,Cruzamento da A3 com a A27,Carro,True,Braga
+A3 - Saída 13,Cruzamento da A3 com a A27,Carro,True,Ponte de Lima
+A3 - Saída 14,A3 - Saída 15,Carro,False,Porto
+A3 - Saída 14,A3 - Saída 15,Carro,False,Viana do Castelo
+A3 - Saída 14,A3 - Saída 15,Carro,True,Espanha
+A3 - Saída 14,A3 - Saída 15,Carro,True,Valença
+A3 - Saída 15,A-55 - Saída 30,Carro,False,Porto
+A3 - Saída 15,A-55 - Saída 30,Carro,False,Valença
+A3 - Saída 15,A-55 - Saída 30,Carro,True,Espanha
 A5 - Fim,A5 - Saída 12,Carro,False,Aldeia de Juso
 A5 - Fim,A5 - Saída 12,Carro,False,Birre
 A5 - Fim,A5 - Saída 12,Carro,True,Lisboa
@@ -4817,6 +4856,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,False,Porto
 Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,True,Alenquer
 Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Carro,True,Lisboa
+Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Carro,False,Ponte de Lima
+Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Carro,False,Valença
+Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Carro,True,Braga
+Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Carro,True,Porto
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Carro,False,Santo Tirso
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Carro,False,Valença
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Carro,True,Maia

@@ -6,7 +6,7 @@ class LocalEspanha(local.Local):
     def __init__(self, nome, locais_circundantes, latitude, longitude, altitude, municipio, comarcas, provincia,
                  comunidade_autonoma):
         super().__init__(nome, locais_circundantes, latitude, longitude, altitude)
-        self.distrito = ''
+        self.distrito = ''  # Na Galiza pode guardar o nome da paróquia (nível equivalente no OpenStreetMap)
         self.municipio = municipio
         self.comarcas = comarcas
         self.provincia = provincia
@@ -55,8 +55,14 @@ class LocalEspanha(local.Local):
     def imprimir_info_completa(self):
         super().imprimir_info_completa()
         if self.distrito != '':
-            print("Distrito:", self.distrito)
-        print("Município:", self.municipio)
+            if self.comunidade_autonoma == 'Galiza':  # Na Galiza os municípios (localmente, concellos) subdividem-se em paróquias (parroquias)
+                print("Paróquia:", self.distrito)  # Mesmo nível administrativo no OpenStreetMap
+            else:
+                print("Distrito:", self.distrito)
+        if self.comunidade_autonoma == 'Galiza':
+            print("Concelho:", self.municipio)  # Na Galiza, concellos
+        else:
+            print("Município:", self.municipio)
         if len(self.comarcas) == 0:
             if self.comunidade_autonoma == "Extremadura":
                 #  A Extremadura tem uma segunda entidade semelhante à comarca, a mancomunidade integral
