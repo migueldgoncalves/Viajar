@@ -122,26 +122,40 @@ class CalculadoraDistancias:
         print("Representação da área obtida")
         return
 
-    def calcular_distancia_com_ajustes(self, origem: Coordenada, destino: Coordenada) -> float:
+    def calcular_distancia_com_ajustes(self, origem: Coordenada, destino: Coordenada, menos_verificacoes=True) -> float:
         """
         Repete o cálculo das distâncias ajustando ligeiramente as coordenadas de origem e destino. Permite superar o
             haver duas vias OSM paralelas numa mesma auto-estrada, por exemplo
         Destina-se sobretudo ao cálculo de distâncias dentro de uma mesma estrada/ferrovia
         """
-        for ajuste_1 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
-            for ajuste_2 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
-                for ajuste_3 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
-                    for ajuste_4 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
-                        latitude_origem = origem.latitude + ajuste_1
-                        longitude_origem = origem.longitude + ajuste_2
-                        latitude_destino = destino.latitude + ajuste_3
-                        longitude_destino = destino.longitude + ajuste_4
+        def _calcular_distancia_com_ajustes(origem: Coordenada, destino: Coordenada,
+                                            ajuste_1: float, ajuste_2: float, ajuste_3: float, ajuste_4: float,
+                                            verboso=False):
+            latitude_origem = origem.latitude + ajuste_1
+            longitude_origem = origem.longitude + ajuste_2
+            latitude_destino = destino.latitude + ajuste_3
+            longitude_destino = destino.longitude + ajuste_4
 
-                        distancia: float = self.calcular_distancia(
-                            Coordenada(latitude_origem, longitude_origem), Coordenada(latitude_destino, longitude_destino),
-                            verboso=False)
-                        if distancia < DISTANCIA_INFINITA:
-                            return distancia
+            origem = Coordenada(latitude_origem, longitude_origem)
+            destino = Coordenada(latitude_destino, longitude_destino)
+
+            distancia: float = self.calcular_distancia(origem, destino, verboso=verboso)
+            return distancia
+
+        if menos_verificacoes:  # 9 verificações
+            for ajuste_1 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                for ajuste_2 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                    distancia: float = _calcular_distancia_com_ajustes(origem, destino, ajuste_1, ajuste_1, ajuste_2, ajuste_2, verboso=False)
+                    if distancia < DISTANCIA_INFINITA:
+                        return distancia
+        else:  # 81 verificações
+            for ajuste_1 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                for ajuste_2 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                    for ajuste_3 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                        for ajuste_4 in [-AJUSTE_COORDENADAS, 0, AJUSTE_COORDENADAS]:
+                            distancia: float = _calcular_distancia_com_ajustes(origem, destino, ajuste_1, ajuste_2, ajuste_3, ajuste_4, verboso=False)
+                            if distancia < DISTANCIA_INFINITA:
+                                return distancia
 
         return DISTANCIA_INFINITA
 
