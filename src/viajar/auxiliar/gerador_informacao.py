@@ -2,6 +2,7 @@ import os
 from typing import Union, Optional
 
 import requests
+import matplotlib.pyplot as plt
 
 import viajar.auxiliar.vias as vias
 import viajar.auxiliar.ordenador as ordenador
@@ -313,7 +314,7 @@ class GeradorInformacao:
             conteudo = list(reversed(conteudo))
 
         # Gerar mapa para depois com ele se calcularem as distâncias
-        todas_coordenadas: set[Coordenada] = set()
+        todas_coordenadas: list[Coordenada] = []
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
                 linha_a: str = conteudo[idx]
@@ -328,11 +329,34 @@ class GeradorInformacao:
 
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
                 latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
-                todas_coordenadas.add(Coordenada(latitude_a, longitude_a))
-                todas_coordenadas.add(Coordenada(latitude_b, longitude_b))
+                if not Coordenada(latitude_a, longitude_a) in todas_coordenadas:
+                    todas_coordenadas.append(Coordenada(latitude_a, longitude_a))
+                if not Coordenada(latitude_b, longitude_b) in todas_coordenadas:
+                    todas_coordenadas.append(Coordenada(latitude_b, longitude_b))
+
+        # Mostrar via a cobrir num gráfico
+        latitudes = [coordenadas.latitude for coordenadas in todas_coordenadas]
+        longitudes = [coordenadas.longitude for coordenadas in todas_coordenadas]
+        plt.plot(longitudes, latitudes)
+        plt.ylabel('Latitude')
+        plt.xlabel('Longitude')
+        intervalo_latitudes = max(latitudes) - min(latitudes)
+        intervalo_longitudes = max(longitudes) - min(longitudes)
+        intervalo = max((intervalo_latitudes, intervalo_longitudes))
+        if intervalo_longitudes == intervalo:
+            plt.xlim(min(longitudes), min(longitudes) + intervalo)
+        else:  # Centrar gráfico
+            margem = (intervalo - intervalo_longitudes) / 2
+            plt.xlim(min(longitudes) - margem, max(longitudes) + margem)
+        if intervalo_latitudes == intervalo:
+            plt.ylim(min(latitudes), min(latitudes) + intervalo)
+        else:  # Centrar gráfico
+            margem = (intervalo - intervalo_latitudes) / 2
+            plt.ylim(min(latitudes) - margem, max(latitudes) + margem)
+        plt.show()
 
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
-        calc_dist.gerar_mapa_processado(list(todas_coordenadas), self.via_tipo, self.pais, via_nome=self.via_nome)
+        calc_dist.gerar_mapa_processado(todas_coordenadas, self.via_tipo, self.pais, via_nome=self.via_nome)
 
         ligacoes: list[str] = []
         destinos: list[str] = []
