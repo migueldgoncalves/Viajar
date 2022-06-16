@@ -524,7 +524,32 @@ A-49 - Saída 122,Isla Cristina,Huelva,
 A-49 - Saída 125,Ayamonte,Huelva,
 A-49 - Saída 129,Ayamonte,Huelva,
 A-49 - Saída 131,Ayamonte,Huelva,
+A-55 - Rúa Loureiro,Vigo,Pontevedra,Vigo
+A-55 - Saída 2A,Vigo,Pontevedra,Sárdoma
+A-55 - Saída 2B,Vigo,Pontevedra,Sárdoma
+A-55 - Saída 3,Vigo,Pontevedra,Bembrive
+A-55 - Saída 4,Vigo,Pontevedra,Bembrive
+A-55 - Saída 5,Vigo,Pontevedra,Bembrive
+A-55 - Saída 5B,Vigo,Pontevedra,Lavadores
+A-55 - Saída 6,Vigo,Pontevedra,Cabral
+A-55 - Saída 7,Vigo,Pontevedra,Cabral
+A-55 - Saída 9,Mos,Pontevedra,Tameiga
+A-55 - Saída 10A,Mos,Pontevedra,Tameiga
+A-55 - Saída 10B,Mos,Pontevedra,Tameiga
+A-55 - Saída 11,Mos,Pontevedra,Petelos
+A-55 - Saída 12,Mos,Pontevedra,Petelos
+A-55 - Saída 14,Mos,Pontevedra,Sanguiñeda
+A-55 - Saída 17,O Porriño,Pontevedra,Torneiros
+A-55 - Saída 18,O Porriño,Pontevedra,Atios
+A-55 - Saída 21,O Porriño,Pontevedra,San Salvador de Budiño
+A-55 - Saída 22,O Porriño,Pontevedra,San Salvador de Budiño
+A-55 - Saída 23,O Porriño,Pontevedra,San Salvador de Budiño
+A-55 - Saída 24,Tui,Pontevedra,Guillarei
+A-55 - Saída 26A,Tui,Pontevedra,Guillarei
+A-55 - Saída 29,Tui,Pontevedra,Randufe
 A-55 - Saída 30,Tui,Pontevedra,Areas
+A-55 - Via de Servicio Norte,Vigo,Pontevedra,Vigo
+A-55 - Via de Servicio Sul,Vigo,Pontevedra,Lavadores
 A-58 - Fim,Cáceres,Cáceres,
 A-58 - Saída 4,Trujillo,Cáceres,
 A-58 - Saída 9,Trujillo,Cáceres,
@@ -924,6 +949,7 @@ Cruzamento da A-49 com a A-483,Bollullos Par del Condado,Huelva,
 Cruzamento da A-49 com a H-31,Huelva,Huelva,
 Cruzamento da A-49 com a SE-30,Camas,Sevilha,
 Cruzamento da A-49 com a SE-40,Espartinas,Sevilha,
+Cruzamento da A-52 com a A-55,Mos,Pontevedra,Sanguiñeda
 Cruzamento da A-66 com a EX-A1,Plasencia,Cáceres,
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
 Cruzamento da A-92 com a A-92G,Santa Fe,Granada,
@@ -977,8 +1003,10 @@ Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
+Cruzamento Norte da A-55 com a AP-9,Vigo,Pontevedra,Cabral
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
+Cruzamento Sul da A-55 com a AP-9,Tui,Pontevedra,Rebordáns
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
 "Cuesta de San Vicente, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cueva de Nerja,Nerja,Málaga,
@@ -1069,6 +1097,7 @@ H-30 - Saída 15,Huelva,Huelva,
 H-30 - Saída 18,Huelva,Huelva,
 H-31 - Fim,Huelva,Huelva,
 H-31 - Saída 80,Huelva,Huelva,
+Hospital do Meixoeiro,Vigo,Pontevedra,Bembrive
 "Hospital Infanta Elena, Huelva",Huelva,Huelva,
 Hospital Universitário Juan Ramón Jiménez,Huelva,Huelva,
 Hospital Vázquez Díaz,Huelva,Huelva,
@@ -1207,6 +1236,7 @@ Ponte Internacional do Guadiana,Ayamonte,Huelva,
 Porto Interior de Huelva,Huelva,Huelva,
 Pozo del Camino,Ayamonte,Huelva,
 Praça de Touros de La Merced,Huelva,Huelva,
+"Praza de España, Vigo",Vigo,Pontevedra,Vigo
 Puebla de Guzmán,Puebla de Guzmán,Huelva,
 Puente del Burro,Huelva,Huelva,
 "Puente Mayorga, San Roque",San Roque,Cádiz,

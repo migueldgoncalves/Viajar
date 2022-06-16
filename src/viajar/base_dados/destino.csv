@@ -3387,6 +3387,125 @@ A-49 - Saída 129,Cruzamento da A-499 com a N-431,Carro,True,Ayamonte - Este
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Carro,True,Portugal
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Aeroporto de Vigo
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Instituto Ferial de Vigo
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Madrid
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,O Porriño
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Ourense
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Portugal
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,False,Tui
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Carro,True,Vigo - Centro da cidade
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Sul,Carro,False,Vigo - Centro da cidade
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Sul,Carro,True,O Porriño
+A-55 - Rúa Loureiro,A-55 - Via de Servicio Sul,Carro,True,Ourense
+A-55 - Saída 2A,A-55 - Saída 2B,Carro,False,Vigo - Centro da cidade
+A-55 - Saída 2A,A-55 - Saída 2B,Carro,True,O Porriño
+A-55 - Saída 2A,A-55 - Saída 2B,Carro,True,Ourense
+A-55 - Saída 2A,A-55 - Saída 2B,Carro,True,Tui
+A-55 - Saída 2A,A-55 - Via de Servicio Sul,Carro,False,O Porriño
+A-55 - Saída 2A,A-55 - Via de Servicio Sul,Carro,False,Ourense
+A-55 - Saída 2A,A-55 - Via de Servicio Sul,Carro,True,Vigo - Centro da cidade
+A-55 - Saída 2B,A-55 - Saída 3,Carro,False,Vigo
+A-55 - Saída 2B,A-55 - Saída 3,Carro,True,O Porriño
+A-55 - Saída 2B,A-55 - Saída 3,Carro,True,Ourense
+A-55 - Saída 2B,A-55 - Saída 3,Carro,True,Tui
+A-55 - Saída 3,A-55 - Saída 4,Carro,False,Vigo
+A-55 - Saída 3,A-55 - Saída 4,Carro,True,A-52 - Madrid/Ourense
+A-55 - Saída 3,A-55 - Saída 4,Carro,True,Portugal
+A-55 - Saída 3,A-55 - Saída 4,Carro,True,Tui
+A-55 - Saída 4,A-55 - Saída 5,Carro,False,Vigo
+A-55 - Saída 4,A-55 - Saída 5,Carro,True,O Porriño
+A-55 - Saída 4,A-55 - Saída 5,Carro,True,Ourense
+A-55 - Saída 5,A-55 - Saída 5B,Carro,False,Vigo
+A-55 - Saída 5,A-55 - Saída 5B,Carro,True,O Porriño
+A-55 - Saída 5,A-55 - Saída 5B,Carro,True,Ourense
+A-55 - Saída 5B,A-55 - Saída 6,Carro,False,Vigo
+A-55 - Saída 5B,A-55 - Saída 6,Carro,True,O Porriño
+A-55 - Saída 5B,A-55 - Saída 6,Carro,True,Ourense
+A-55 - Saída 6,A-55 - Saída 7,Carro,False,Vigo
+A-55 - Saída 6,A-55 - Saída 7,Carro,True,O Porriño
+A-55 - Saída 6,A-55 - Saída 7,Carro,True,Ourense
+A-55 - Saída 7,Cruzamento Norte da A-55 com a AP-9,Carro,False,Vigo
+A-55 - Saída 7,Cruzamento Norte da A-55 com a AP-9,Carro,True,O Porriño
+A-55 - Saída 7,Cruzamento Norte da A-55 com a AP-9,Carro,True,Ourense
+A-55 - Saída 9,A-55 - Saída 10A,Carro,False,Vigo
+A-55 - Saída 9,A-55 - Saída 10A,Carro,True,O Porriño
+A-55 - Saída 9,A-55 - Saída 10A,Carro,True,Ourense
+A-55 - Saída 9,Cruzamento Norte da A-55 com a AP-9,Carro,False,A-52 - Madrid/Ourense
+A-55 - Saída 9,Cruzamento Norte da A-55 com a AP-9,Carro,False,O Porriño
+A-55 - Saída 9,Cruzamento Norte da A-55 com a AP-9,Carro,False,Tui
+A-55 - Saída 9,Cruzamento Norte da A-55 com a AP-9,Carro,True,Vigo
+A-55 - Saída 10A,A-55 - Saída 10B,Carro,False,Vigo
+A-55 - Saída 10A,A-55 - Saída 10B,Carro,True,O Porriño
+A-55 - Saída 10A,A-55 - Saída 10B,Carro,True,Ourense
+A-55 - Saída 10B,A-55 - Saída 11,Carro,False,Vigo
+A-55 - Saída 10B,A-55 - Saída 11,Carro,True,O Porriño
+A-55 - Saída 10B,A-55 - Saída 11,Carro,True,Ourense
+A-55 - Saída 11,A-55 - Saída 12,Carro,False,Vigo
+A-55 - Saída 11,A-55 - Saída 12,Carro,True,O Porriño
+A-55 - Saída 11,A-55 - Saída 12,Carro,True,Ourense
+A-55 - Saída 12,Cruzamento da A-52 com a A-55,Carro,False,AP-9 - Pontevedra
+A-55 - Saída 12,Cruzamento da A-52 com a A-55,Carro,False,Vigo
+A-55 - Saída 12,Cruzamento da A-52 com a A-55,Carro,True,A-52 - Madrid/Ourense
+A-55 - Saída 12,Cruzamento da A-52 com a A-55,Carro,True,Portugal
+A-55 - Saída 12,Cruzamento da A-52 com a A-55,Carro,True,Tui
+A-55 - Saída 14,A-55 - Saída 17,Carro,False,A-52 - Ourense
+A-55 - Saída 14,A-55 - Saída 17,Carro,False,Pontevedra
+A-55 - Saída 14,A-55 - Saída 17,Carro,False,Vigo
+A-55 - Saída 14,A-55 - Saída 17,Carro,True,Portugal
+A-55 - Saída 14,A-55 - Saída 17,Carro,True,Tui
+A-55 - Saída 14,Cruzamento da A-52 com a A-55,Carro,False,O Porriño
+A-55 - Saída 14,Cruzamento da A-52 com a A-55,Carro,False,Portugal
+A-55 - Saída 14,Cruzamento da A-52 com a A-55,Carro,False,Tui
+A-55 - Saída 14,Cruzamento da A-52 com a A-55,Carro,True,AP-9 - Pontevedra
+A-55 - Saída 14,Cruzamento da A-52 com a A-55,Carro,True,Vigo
+A-55 - Saída 17,A-55 - Saída 18,Carro,False,A-52 - Ourense
+A-55 - Saída 17,A-55 - Saída 18,Carro,False,Pontevedra
+A-55 - Saída 17,A-55 - Saída 18,Carro,False,Vigo
+A-55 - Saída 17,A-55 - Saída 18,Carro,True,Portugal
+A-55 - Saída 17,A-55 - Saída 18,Carro,True,Tui
+A-55 - Saída 18,A-55 - Saída 21,Carro,False,Vigo
+A-55 - Saída 18,A-55 - Saída 21,Carro,True,Portugal
+A-55 - Saída 18,A-55 - Saída 21,Carro,True,Tui
+A-55 - Saída 21,A-55 - Saída 22,Carro,False,A-52 - Ourense
+A-55 - Saída 21,A-55 - Saída 22,Carro,False,Pontevedra
+A-55 - Saída 21,A-55 - Saída 22,Carro,False,Vigo
+A-55 - Saída 21,A-55 - Saída 22,Carro,True,Portugal
+A-55 - Saída 21,A-55 - Saída 22,Carro,True,Tui
+A-55 - Saída 22,A-55 - Saída 23,Carro,False,A-52 - Ourense
+A-55 - Saída 22,A-55 - Saída 23,Carro,False,Pontevedra
+A-55 - Saída 22,A-55 - Saída 23,Carro,False,Vigo
+A-55 - Saída 22,A-55 - Saída 23,Carro,True,Portugal
+A-55 - Saída 22,A-55 - Saída 23,Carro,True,Tui
+A-55 - Saída 23,A-55 - Saída 24,Carro,False,Pontevedra
+A-55 - Saída 23,A-55 - Saída 24,Carro,False,Vigo
+A-55 - Saída 23,A-55 - Saída 24,Carro,True,Portugal
+A-55 - Saída 23,A-55 - Saída 24,Carro,True,Tui
+A-55 - Saída 24,A-55 - Saída 26A,Carro,False,A-52 - Ourense
+A-55 - Saída 24,A-55 - Saída 26A,Carro,False,Pontevedra
+A-55 - Saída 24,A-55 - Saída 26A,Carro,False,Vigo
+A-55 - Saída 24,A-55 - Saída 26A,Carro,True,Portugal
+A-55 - Saída 24,A-55 - Saída 26A,Carro,True,Tui
+A-55 - Saída 26A,Cruzamento Sul da A-55 com a AP-9,Carro,False,A-52 - Ourense
+A-55 - Saída 26A,Cruzamento Sul da A-55 com a AP-9,Carro,False,Pontevedra
+A-55 - Saída 26A,Cruzamento Sul da A-55 com a AP-9,Carro,False,Vigo
+A-55 - Saída 26A,Cruzamento Sul da A-55 com a AP-9,Carro,True,Portugal
+A-55 - Saída 29,A-55 - Saída 30,Carro,False,A-52 - Ourense
+A-55 - Saída 29,A-55 - Saída 30,Carro,False,Pontevedra
+A-55 - Saída 29,A-55 - Saída 30,Carro,False,Vigo
+A-55 - Saída 29,A-55 - Saída 30,Carro,True,Portugal
+A-55 - Saída 29,Cruzamento Sul da A-55 com a AP-9,Carro,False,Portugal
+A-55 - Saída 29,Cruzamento Sul da A-55 com a AP-9,Carro,True,A-52 - Ourense
+A-55 - Saída 29,Cruzamento Sul da A-55 com a AP-9,Carro,True,Pontevedra
+A-55 - Saída 29,Cruzamento Sul da A-55 com a AP-9,Carro,True,Vigo
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Aeroporto de Vigo
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Instituto Ferial de Vigo
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Madrid
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,O Porriño
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Ourense
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Portugal
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,False,Tui
+A-55 - Via de Servicio Norte,"Praza de España, Vigo",Carro,True,Vigo - Centro da cidade
 A-58 - Fim,A-58 - Saída 42,Carro,False,Cáceres
 A-58 - Fim,A-58 - Saída 42,Carro,True,A-5 - Madrid
 A-58 - Fim,A-58 - Saída 42,Carro,True,Trujillo
