@@ -32,17 +32,17 @@ A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Carro,4.2,A1,S,1,2
 A1 - Saída 20,Área de Serviço de Gaia,Carro,1.2,A1,SE,2,1
 A1 - Saída 20,Cruzamento da A1 com a A44,Carro,1.7,A1,O,1,2
 A1 - Saída 23,IC23 - Campo Alegre,Carro,1.0,A1/IC23 VCI/Ponte da Arrábida,N,1,2
-A1 - São João da Talha,Cruzamento da A1 com a A12 e o IC17 CRIL,Carro,3.7,A1,S,1,2
+A1 - São João da Talha,Cruzamento da A1 com a A12 e a IC17 CRIL,Carro,3.7,A1,S,1,4
 A2 - Saída 1,Área de Serviço de Seixal,Carro,6.1,A2,SE,2,1
 A2 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,4.9,Ponte 25 de Abril,N,1,2
 A2 - Saída 2,A2 - Saída 3,Carro,8.6,A2,SE,2,1
 A2 - Saída 2,Área de Serviço de Seixal,Carro,3.0,A2,NO,1,2
 A2 - Saída 3,Área de Serviço de Palmela,Carro,7.6,A2,E,2,1
 A2 - Saída 4,Área de Serviço de Palmela,Carro,5.9,A2,O,1,2
-A2 - Saída 4,Cruzamento da A12 com a A2,Carro,2.0,A2,SE,2,1
+A2 - Saída 4,Cruzamento da A2 com a A12,Carro,2.0,A2,SE,2,1
 A2 - Saída 6,Águas de Moura,Carro,3.4,N10,SO,3,1
 A2 - Saída 6,Cruzamento da A2 com a A6 e a A13,Carro,2.6,A2,E,2,1
-A2 - Saída 6,Cruzamento da A12 com a A2,Carro,17.2,A2,O,1,2
+A2 - Saída 6,Cruzamento da A2 com a A12,Carro,17.2,A2,O,1,2
 A2 - Saída 8,A2 - Saída 9,Carro,22.6,A2,S,2,1
 A2 - Saída 8,Águas de Moura,Carro,26.6,IC1,NO,4,2
 A2 - Saída 8,Alcácer do Sal,Carro,5.4,IC1,S,3,2
@@ -85,8 +85,11 @@ A5 - Saída 1,"Avenida Engenheiro Duarte Pacheco, Lisboa",Carro,1.1,A5,E,3,1
 A5 - Saída 1,Eixo Norte-Sul - Alcântara,Carro,1.6,Eixo Norte-Sul,S,2,1
 A5 - Saída 1,Eixo Norte-Sul - Campolide,Carro,0.7,Eixo Norte-Sul,NE,1,2
 A5 - Saída 2,A5 - Saída 3,Carro,1.5,A5,SO,2,1
-A5 - Saída 3,A5 - Saída 4,Carro,1.0,A5,SO,2,1
-A5 - Saída 4,A5 - Saída 5,Carro,1.4,A5,O,2,1
+A5 - Saída 3,A5 - Saída 4,Carro,1.0,A5,SO,2,3
+A5 - Saída 3,IC17 CRIL - Saída 4,Carro,0.3,N117,N,3,4
+A5 - Saída 4,A5 - Saída 5,Carro,1.4,A5,O,4,1
+A5 - Saída 4,IC17 CRIL - Saída 2,Carro,0.6,IC17 CRIL,S,1,2
+A5 - Saída 4,IC17 CRIL - Saída 4,Carro,1.3,IC17 CRIL,NE,2,1
 A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Carro,2.8,A5,SO,2,1
 A5 - Saída 7,A5 - Saída 8,Carro,3.8,A5,SO,2,1
 A5 - Saída 7,Área de Serviço de Oeiras,Carro,1.0,A5,E,1,2
@@ -110,10 +113,19 @@ A6 - Saída 11,A6 - Saída 12,Carro,3.4,A6,SE,2,1
 A6 - Saída 11,Estação de Elvas,Carro,1.6,,SE,3,3
 A6 - Saída 12,A6 - Saída 13,Carro,5.2,A6,SE,2,1
 A6 - Saída 13,A-5 - Saída 407,Carro,2.4,A6,E,2,1
+A8 - Início,Cruzamento da IC17 CRIL com o IC22,Carro,1.3,IC17 CRIL,SO,1,2
+A8 - Início,IC17 CRIL - Acesso Norte à Saída 1 da A8,Carro,1.5,IC17 CRIL,NE,2,1
 A9 CREL - Saída 3,A9 CREL - Saída 4,Carro,6.8,A9 CREL,NE,2,1
 A9 CREL - Saída 3,Cruzamento da A16 com a A9 CREL,Carro,3.1,A9 CREL,SO,1,2
 A10 - Saída 5,Cruzamento da A1 com a A10,Carro,14.5,A10 - Ponte da Lezíria,NO,2,3
 A10 - Saída 5,Cruzamento da A10 com a A13,Carro,7.1,A10,SE,1,3
+A12 - Cruzamento com a N10-8,Cruzamento da A2 com a A12,Carro,2.8,A12,N,1,4
+A12 - Cruzamento com a N10-8,"Rotunda dos Golfinhos, Setúbal",Carro,2.5,A12,S,2,1
+A12 - Saída 2,Cruzamento da A2 com a A12,Carro,9.4,A12,S,2,3
+A12 - Saída 2,Cruzamento da A12 com a A33,Carro,9.6,A12,NO,1,2
+A12 - Saída 2,Pinhal Novo,Carro,4.5,,SO,3,9
+A12 - Saída 4,Área de Serviço de Alcochete,Carro,12.7,A12 - Ponte Vasco da Gama,SE,2,1
+A12 - Saída 4,Cruzamento da A1 com a A12 e a IC17 CRIL,Carro,1.0,A12,NO,1,2
 A13 - Saída 2,Área de Serviço de Montijo,Carro,5.7,A13,NO,2,1
 A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Carro,10.8,A13,S,1,4
 A13 - Saída 3,Área de Serviço de Montijo,Carro,13.7,A13,SE,1,2
@@ -1439,6 +1451,7 @@ Arahal,Paradas,Carro,6.2,,NE,3,1
 "Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,0.7,A-6,NO,1,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
+Área de Serviço de Alcochete,Cruzamento da A12 com a A33,Carro,4.1,A12,E,2,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Carro,3.5,AP-7,O,1,2
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Carro,7.7,A1,S,1,2
@@ -1761,7 +1774,8 @@ Cruz de João Mendes,Cruzamento da N120 com a N121,Carro,8.7,N120,SO,2,3
 Cruz de João Mendes,Grândola,Carro,13.0,N120,NE,1,7
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Carro,10.3,IP8,SO,3,6
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Carro,8.1,IP8,N,5,1
-Cruzamento da A1 com a A12 e o IC17 CRIL,Segunda Circular - Saída 1,Carro,1.1,Segunda Circular,SO,1,2
+Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Carro,2.5,IC17 CRIL,NO,1,2
+Cruzamento da A1 com a A12 e a IC17 CRIL,Segunda Circular - Saída 1,Carro,1.1,Segunda Circular,SO,3,2
 Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Carro,2.4,A1,N,3,2
 Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Carro,1.3,A20,N,2,1
 Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Carro,2.4,A25,O,3,2
@@ -1880,6 +1894,11 @@ Cruzamento da H-30 com a N-431,H-30 - Paseo Marítimo,Carro,5.6,H-30,S,2,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-445,Carro,0.8,N-431,E,3,1
 Cruzamento da HU-3400 com a N-431,Cruzamento da N-431 com a N-446,Carro,5.9,N-431,O,1,4
 Cruzamento da HU-3400 com a N-431,La Redondela,Carro,4.9,,SO,2,3
+Cruzamento da IC17 CRIL com o IC19,IC17 CRIL - Saída 5,Carro,1.3,IC17 CRIL,SO,1,2
+Cruzamento da IC17 CRIL com o IC19,IC17 CRIL - Saída 7,Carro,1.3,IC17 CRIL,NO,2,1
+Cruzamento da IC17 CRIL com o IC19,IC19 - Saída 2,Carro,0.9,IC19,O,3,2
+Cruzamento da IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,0.6,Segunda Circular,NE,4,1
+Cruzamento da IC17 CRIL com o IC22,IC17 CRIL - Saída 10,Carro,0.4,IC17 CRIL,SO,1,2
 Cruzamento da M524 com a M525,Fonte Benémola,Carro,3.4,,NE,2,2
 Cruzamento da M524 com a M525,Loulé,Carro,6.8,,S,1,7
 Cruzamento da M524 com a M525,Salir,Carro,7.3,,N,3,3
@@ -2007,8 +2026,8 @@ Cruzamento do IC4 com a M520,Cruzamento do IC4 com a N125,Carro,3.4,IC4,NO,2,1
 Cruzamento do IC4 com a M520,Variante de Faro - Nó com o IC4,Carro,1.3,IC4,S,1,4
 Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Carro,1.2,,NO,3,1
 Cruzamento do IC4 com a N125,Estádio Algarve,Carro,2.4,,N,4,1
-Cruzamento do IC17 CRIL com o IC19,IC19 - Saída 2,Carro,0.9,IC19,O,1,2
-Cruzamento do IC17 CRIL com o IC19,Segunda Circular - Radial de Benfica,Carro,0.6,Segunda Circular,NE,2,1
+Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Odivelas Oeste,Carro,2.3,IC17 CRIL,NE,2,1
+Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Carro,1.3,IC17 CRIL,S,1,2
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Carro,5.0,A-7,NO,1,2
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Carro,1.1,GR-30,S,2,1
 Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Carro,3.1,GR-30,N,1,2
@@ -2031,6 +2050,7 @@ Dunas de Vila Real de Santo António,Vila Real de Santo António,Carro,2.0,,NE,2
 Écija,Osuna,Carro,35.1,,S,3,2
 Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Carro,1.3,Eixo Norte-Sul,N,1,2
 Eixo Norte-Sul - Campolide,Estação de Campolide,Carro,1.0,,NE,3,1
+Eixo Norte-Sul - Fim,IC17 CRIL - Acesso Norte à Saída 1 da A8,Carro,0.8,IC17 CRIL,O,1,2
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Carro,1.2,Radial de Benfica,NO,1,2
 El Granado,Puebla de Guzmán,Carro,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Carro,7.5,,O,2,1
@@ -2113,6 +2133,8 @@ Estação de Alfarelos,Estação de Vila Nova de Anços,Comboio,7.0,Linha do Nor
 Estação de Alferrarede,Estação de Mouriscas-A,Comboio,9.8,Linha da Beira Baixa - Regional,E,2,1
 Estação de Algés,Estação de Belém,Comboio,3.0,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Algés,Estação de Cruz Quebrada,Comboio,2.0,Linha de Cascais - CP Lisboa,O,2,1
+Estação de Algés,IC17 CRIL - Início,Transbordo,0.0,,S,3,2
+Estação de Algés,IC17 CRIL - Saída 1,Carro,0.5,,NE,4,3
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Comboio,3.2,Linha de Sintra - CP Lisboa,O,2,1
 Estação de Alhandra,Estação de Alverca,Comboio,4.2,Linha da Azambuja/Linha do Norte - CP Lisboa,SO,1,2
 Estação de Alhandra,Estação de Vila Franca de Xira,Comboio,4.2,Linha da Azambuja/Linha do Norte - CP Lisboa,NE,2,1
@@ -2539,6 +2561,13 @@ IC1 - Cruzamento com a N124,Tunes,Carro,10.9,IC1,S,2,5
 IC1 - Cruzamento com a N263,Messejana,Carro,9.5,,NE,3,1
 IC1 - Cruzamento com a N263,Mimosa,Carro,20.6,IC1,N,4,2
 IC1 - Cruzamento com a N263,Ourique,Carro,21.6,IC1,SE,2,5
+IC17 CRIL - Início,IC17 CRIL - Saída 1,Carro,0.8,IC17 CRIL,NE,1,1
+IC17 CRIL - Odivelas Oeste,IC17 CRIL - Saída 10,Carro,1.6,IC17 CRIL,E,2,1
+IC17 CRIL - Saída 1,IC17 CRIL - Saída 2,Carro,1.1,IC17 CRIL,NE,2,1
+IC17 CRIL - Saída 4,IC17 CRIL - Saída 5,Carro,0.9,IC17 CRIL,N,2,1
+IC17 CRIL - Saída 4,Lisboa Camping & Bungalows,Carro,0.6,,NE,3,2
+IC17 CRIL - Saída 5,Lisboa Camping & Bungalows,Carro,0.8,,SE,3,1
+IC17 CRIL - Saída 7,IC17 CRIL - Saída 8,Carro,0.9,IC17 CRIL,NE,2,1
 IC19 - Palácio de Queluz,IC19 - Saída 4,Carro,0.8,IC19,E,2,1
 IC19 - Palácio de Queluz,IC19 - Saída 5,Carro,0.7,IC19,O,1,2
 IC19 - Saída 2,IC19 - Saída 2A,Carro,0.9,IC19,O,1,2

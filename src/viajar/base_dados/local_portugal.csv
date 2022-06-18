@@ -64,9 +64,13 @@ A6 - Saída 10,São Vicente e Ventosa,Elvas
 A6 - Saída 11,Caia e São Pedro,Elvas
 A6 - Saída 12,Caia e São Pedro,Elvas
 A6 - Saída 13,Caia e São Pedro,Elvas
+A8 - Início,Olival Basto,Odivelas
 A9 CREL - Saída 3,São Brás,Amadora
 A9 CREL - Saída 4,Loures,Loures
 A10 - Saída 5,Benavente,Benavente
+A12 - Cruzamento com a N10-8,São Sebastião,Setúbal
+A12 - Saída 2,Pinhal Novo,Palmela
+A12 - Saída 4,Sacavém,Loures
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
 A13 - Saída 3,Samora Correia,Benavente
 A13 - Saída 5,Foros de Salvaterra,Salvaterra de Magos
@@ -192,6 +196,7 @@ Aquashow,Quarteira,Loulé
 Área de Repouso de Castro Marim,Castro Marim,Castro Marim
 Área de Serviço de Abrantes,Alferrarede,Abrantes
 Área de Serviço de Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
+Área de Serviço de Alcochete,Samouco,Alcochete
 Área de Serviço de Aljustrel,São João de Negrilhos,Aljustrel
 Área de Serviço de Almodôvar,Gomes Aires,Almodôvar
 Área de Serviço de Antuã-Estarreja,Salreu,Estarreja
@@ -305,7 +310,7 @@ Cortes Pereiras,Alcoutim,Alcoutim
 Cruz de João Mendes,São Francisco da Serra,Santiago do Cacém
 Cruzamento da A1 com a A9 CREL,Alverca do Ribatejo,Vila Franca de Xira
 Cruzamento da A1 com a A10,Carregado,Alenquer
-Cruzamento da A1 com a A12 e o IC17 CRIL,Prior Velho,Loures
+Cruzamento da A1 com a A12 e a IC17 CRIL,Prior Velho,Loures
 Cruzamento da A1 com a A13-1,Sebal,Condeixa-a-Nova
 Cruzamento da A1 com a A14,Vil de Matos,Coimbra
 Cruzamento da A1 com a A15,Várzea,Santarém
@@ -316,6 +321,7 @@ Cruzamento da A1 com a A29,Vilar de Andorinho,Vila Nova de Gaia
 Cruzamento da A1 com a A41 CREP,Nogueira da Regedoura,Santa Maria da Feira
 Cruzamento da A1 com a A44,Vilar do Paraíso,Vila Nova de Gaia
 Cruzamento da A2 com a A6 e a A13,Landeira,Vendas Novas
+Cruzamento da A2 com a A12,Palmela,Palmela
 Cruzamento da A2 com a A22,Paderne,Albufeira
 Cruzamento da A2 com a A26,Azinheira dos Barros e São Mamede do Sádão,Grândola
 Cruzamento da A3 com a A4,Pedrouços,Maia
@@ -326,7 +332,7 @@ Cruzamento da A3 com a A41 CREP,São Pedro Fins,Maia
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente
-Cruzamento da A12 com a A2,Palmela,Palmela
+Cruzamento da A12 com a A33,Montijo,Montijo
 Cruzamento da A13 com a A23,Atalaia,Vila Nova da Barquinha
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
@@ -341,6 +347,8 @@ Cruzamento da A23 com a A25,Arrifana,Guarda
 Cruzamento da A24 com a A25 e o IP3,São Cipriano,Viseu
 Cruzamento da A25 com a A29,Angeja,Albergaria-a-Velha
 Cruzamento da A26 com a A26-1,Sines,Sines
+Cruzamento da IC17 CRIL com o IC19,Benfica,Lisboa
+Cruzamento da IC17 CRIL com o IC22,Olival Basto,Odivelas
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
 Cruzamento da M524 com a M525,Tôr,Loulé
 Cruzamento da M544 com a N261,Santo André,Santiago do Cacém
@@ -384,13 +392,14 @@ Cruzamento do Eixo Norte-Sul com a Segunda Circular,Lumiar,Lisboa
 Cruzamento do IC1 com o IP8,Grândola,Grândola
 Cruzamento do IC4 com a M520,São Pedro,Faro
 Cruzamento do IC4 com a N125,Almancil,Loulé
-Cruzamento do IC17 CRIL com o IC19,Benfica,Lisboa
+Cruzamento do IC16 com a IC17 CRIL,Encosta do Sol,Amadora
 Cuba,Cuba,Cuba
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
 Dunas de Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
 Eixo Norte-Sul - Alcântara,Alcântara,Lisboa
 Eixo Norte-Sul - Campolide,Campolide,Lisboa
+Eixo Norte-Sul - Fim,Camarate,Loures
 Eixo Norte-Sul - Radial de Benfica,Campolide,Lisboa
 Entradas,Entradas,Castro Verde
 Ervidel,Ervidel,Aljustrel
@@ -644,6 +653,16 @@ Hortas,Monte Gordo,Vila Real de Santo António
 IC1 - Cruzamento com a N124,São Bartolomeu de Messines,Silves
 IC1 - Cruzamento com a N263,Panóias,Ourique
 IC1 - Fim,Ferreiras,Albufeira
+IC17 CRIL - Acesso Norte à Saída 1 da A8,Camarate,Loures
+IC17 CRIL - Início,Algés,Oeiras
+IC17 CRIL - Odivelas Oeste,Odivelas,Odivelas
+IC17 CRIL - Saída 1,Algés,Oeiras
+IC17 CRIL - Saída 2,São Francisco Xavier,Lisboa
+IC17 CRIL - Saída 4,Alfragide,Amadora
+IC17 CRIL - Saída 5,Alfragide,Amadora
+IC17 CRIL - Saída 7,Benfica,Lisboa
+IC17 CRIL - Saída 8,Falagueira-Venda Nova,Amadora
+IC17 CRIL - Saída 10,Odivelas,Odivelas
 IC19 - Palácio de Queluz,Queluz,Sintra
 IC19 - Saída 2,Buraca,Amadora
 IC19 - Saída 2A,Damaia,Amadora
@@ -700,6 +719,7 @@ Lagoa de Santo André,Santo André,Santiago do Cacém
 Lagoa,Lagoa,Lagoa
 Lagos,Santa Maria,Lagos
 Laranjeiras,Alcoutim,Alcoutim
+Lisboa Camping & Bungalows,Benfica,Lisboa
 Livramento,Luz de Tavira,Tavira
 Lombardos,Mértola,Mértola
 Loulé,São Clemente,Loulé
@@ -856,6 +876,7 @@ Roncão de Baixo,Espírito Santo,Mértola
 Roncão de Cima,Espírito Santo,Mértola
 Roncão do Meio,Espírito Santo,Mértola
 Rotunda da Árvore,Alcoutim,Alcoutim
+"Rotunda dos Golfinhos, Setúbal",São Sebastião,Setúbal
 Ruínas Romanas de Milreu,Estoi,Faro
 Ruínas Romanas de Miróbriga,Santiago do Cacém,Santiago do Cacém
 Ruínas Romanas de Tróia,Carvalhal,Grândola

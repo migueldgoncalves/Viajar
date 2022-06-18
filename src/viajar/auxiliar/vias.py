@@ -65,12 +65,52 @@ PT_A3 = ("A3", "Autoestrada de Entre-Douro-e-Minho", PORTUGAL)
 PT_A4 = ("A4", "Autoestrada Transmontana", PORTUGAL)
 PT_A5 = ("A5", "Autoestrada da Costa do Estoril", PORTUGAL)
 PT_A6 = ("A6", "Autoestrada do Alentejo Central", PORTUGAL)
+PT_A7 = ("A7", "Autoestrada do Douro", PORTUGAL)
+PT_A8 = ("A8", "Autoestrada do Oeste", PORTUGAL)
+PT_A8_1 = ("A8-1", "Circular Oriental de Leiria", PORTUGAL)
+PT_A9 = ("A9 CREL", "Circular Regional Exterior de Lisboa (CREL)", PORTUGAL)
+PT_A10 = ("A10", "Autoestrada do Ribatejo", PORTUGAL)
+PT_A11 = ("A11", "Autoestrada do Baixo Minho", PORTUGAL)
+PT_A12 = ("A12", "Autoestrada do Sul do Tejo", PORTUGAL)
+PT_A13 = ("A13", "Autoestrada do Pinhal Interior", PORTUGAL)
+PT_A13_1 = ("A13-1", "Radial de Coimbra", PORTUGAL)
+PT_A14 = ("A14", "Autoestrada do Baixo Mondego", PORTUGAL)
+PT_A15 = ("A15", "Autoestrada do Atlântico", PORTUGAL)
+PT_A16 = ("A16", "Circular Exterior da Área Metropolitana de Lisboa", PORTUGAL)
+PT_A17 = ("A17", "Autoestrada do Litoral Centro", PORTUGAL)
+# A A18 está em projecto
+PT_A19 = ("A19", "Variante da Batalha", PORTUGAL)
 PT_A20 = ("A20", "Circular Regional Interior do Porto", PORTUGAL)
+PT_A21 = ("A21", "Autoestrada de Mafra", PORTUGAL)
+PT_A22 = ("A22", "Via do Infante", PORTUGAL)
 PT_A23 = ("A23", "Autoestrada da Beira Interior", PORTUGAL)
+PT_A24 = ("A24", "Autoestrada do Interior Norte", PORTUGAL)
 PT_A25 = ("A25", "Autoestrada das Beiras Litoral e Alta", PORTUGAL)
 PT_A26 = ("A26", "Autoestrada do Baixo Alentejo", PORTUGAL)
+PT_A26_1 = ("A26-1", "Variante de Sines", PORTUGAL)
+PT_A27 = ("A27", "Autoestrada do Vale do Lima", PORTUGAL)
 PT_A28 = ("A28", "Autoestrada do Litoral Norte", PORTUGAL)
+PT_A29 = ("A29", "Autoestrada da Costa de Prata", PORTUGAL)
+# A A30 corresponde a um troço do IC2 em Lisboa
+# A A31 corresponde a um troço do IC2 em Coimbra
+PT_A32 = ("A32", "Autoestrada de Entre Douro-e-Vouga", PORTUGAL)
+PT_A33 = ("A33", "Circular Regional Interior da Península de Setúbal (CRIPS)", PORTUGAL)
+# A A34 corresponde a um troço do IC8 em Pombal
+# A A35 corresponde ao IC12
+# A A36 corresponde à IC17 CRIL
+# A A37 corresponde ao IC19
+# A A38 corresponde ao IC20
+# A A39 corresponde ao IC21
+# A A40 corresponde ao IC22
+PT_A41 = ("A41 CREP", "Circular Regional Exterior do Porto", PORTUGAL)
+PT_A42 = ("A42", "Autoestrada do Douro Litoral", PORTUGAL)
+PT_A43 = ("A43", "Radial de Gondomar", PORTUGAL)
+PT_A44 = ("A44", "Autoestrada de Vila Nova de Gaia", PORTUGAL)
+PT_CSB = ("Circular Sul de Braga", "Circular Sul de Braga", PORTUGAL)
+PT_IC17 = ("IC17 CRIL", "Circular Regional Interior de Lisboa (CRIL)", PORTUGAL)
+PT_IC22 = ("IC22", "Radial de Odivelas", PORTUGAL)
 PT_IC27 = ("IC27", "IC 27", PORTUGAL)
+PT_VRI = ("VRI", "Via Regional Interior", PORTUGAL)
 
 # Linhas ferroviárias
 #   (<Nome segundo o OSM>, <País>, VIA_FERROVIA)

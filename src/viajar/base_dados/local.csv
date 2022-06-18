@@ -64,9 +64,13 @@ A6 - Saída 10,38.908953,-7.177894,336,,1000
 A6 - Saída 11,38.902961,-7.146798,240,,1000
 A6 - Saída 12,38.889935,-7.112100,208,,1000
 A6 - Saída 13,38.883746,-7.052777,176,,1000
+A8 - Início,38.79580,-9.15999,17,,2300
 A9 CREL - Saída 3,38.786238,-9.242296,177,,1300
 A9 CREL - Saída 4,38.824940,-9.192534,146,,1300
 A10 - Saída 5,38.955415,-8.828052,15,,1800
+A12 - Cruzamento com a N10-8,38.55727,-8.86932,39,,2300
+A12 - Saída 2,38.65755,-8.89305,32,,2300
+A12 - Saída 4,38.78600,-9.10576,27,,2300
 A13 - Saída 2,38.685239,-8.639099,70,,800
 A13 - Saída 3,38.837320,-8.726664,44,,1500
 A13 - Saída 5,38.998509,-8.711216,32,,1800
@@ -1018,6 +1022,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Repouso de Castro Marim,37.236479,-7.437882,15,,100
 Área de Serviço de Abrantes,39.485528,-8.156857,70,,2000
 Área de Serviço de Alcácer do Sal,38.515557,-8.585400,82,,800
+Área de Serviço de Alcochete,38.72650,-8.98717,9,,2300
 Área de Serviço de Aljustrel,37.923720,-8.242707,99,,700
 Área de Serviço de Almodôvar,37.536129,-8.183866,263,,600
 Área de Serviço de Altos de Marbella,36.518514,-4.830436,59,,900
@@ -1196,7 +1201,7 @@ Cruzamento VII da A-7 com a AP-7,36.623396,-4.517056,124,,900
 Cruzamento VIII da A-7 com a AP-7,37.257739,-1.901801,127,,1900
 Cruzamento da A1 com a A9 CREL,38.893676,-9.048849,39,,1600
 Cruzamento da A1 com a A10,39.017140,-8.965980,9,,1600
-Cruzamento da A1 com a A12 e o IC17 CRIL,38.790813,-9.114443,55,,1600
+Cruzamento da A1 com a A12 e a IC17 CRIL,38.790813,-9.114443,55,,1600
 Cruzamento da A1 com a A13-1,40.131594,-8.496468,53,,1600
 Cruzamento da A1 com a A14,40.273256,-8.481637,45,,1600
 Cruzamento da A1 com a A15,39.268048,-8.724290,43,,1600
@@ -1207,6 +1212,7 @@ Cruzamento da A1 com a A29,41.093983,-8.589270,146,,1700
 Cruzamento da A1 com a A41 CREP,41.011392,-8.582885,119,,1600
 Cruzamento da A1 com a A44,41.115178,-8.626368,94,,1700
 Cruzamento da A2 com a A6 e a A13,38.602459,-8.643525,51,,800
+Cruzamento da A2 com a A12,38.581137,-8.863207,48,,800
 Cruzamento da A2 com a A22,37.154436,-8.209989,94,,400
 Cruzamento da A2 com a A26,38.118064,-8.414056,72,,700
 Cruzamento da A3 com a A4,41.197406,-8.588564,96,,2300
@@ -1217,7 +1223,7 @@ Cruzamento da A3 com a A41 CREP,41.24100,-8.56423,115,,2300
 Cruzamento da A5 com a A9 CREL,38.714489,-9.2642,64,,1000
 Cruzamento da A9 CREL com o IC19,38.747774,-9.273421,141,,1100
 Cruzamento da A10 com a A13,38.904728,-8.780689,29,,1500
-Cruzamento da A12 com a A2,38.581137,-8.863207,48,,800
+Cruzamento da A12 com a A33,38.71741,-8.94180,39,,2300
 Cruzamento da A13 com a A23,39.488664,-8.447542,62,,1800
 Cruzamento da A16 com a A5,38.726438,-9.417486,107,,1000
 Cruzamento da A16 com a A9 CREL,38.769107,-9.268470,178,,1100
@@ -1324,6 +1330,8 @@ Cruzamento da CA-35 com a CA-36,36.521909,-6.224320,2,,1300
 Cruzamento da H-30 com a H-31,37.277543,-6.921695,22,,300
 Cruzamento da H-30 com a N-431,37.333182,-6.949061,8,,1600
 Cruzamento da HU-3400 com a N-431,37.252555,-7.241842,62,,1500
+Cruzamento da IC17 CRIL com o IC19,38.740446,-9.204520,116,,1400
+Cruzamento da IC17 CRIL com o IC22,38.78994,-9.16978,19,,2300
 Cruzamento da M509 com a M512,37.313195,-7.551205,172,,300
 Cruzamento da M524 com a M525,37.191082,-8.025535,127,,400
 Cruzamento da M544 com a N261,38.102213,-8.747254,28,,1500
@@ -1388,7 +1396,7 @@ Cruzamento do Eixo Norte-Sul com a Segunda Circular,38.757524,-9.172200,99,,1600
 Cruzamento do IC1 com o IP8,38.205283,-8.563367,85,,800
 Cruzamento do IC4 com a M520,37.051365,-7.953663,10,,300
 Cruzamento do IC4 com a N125,37.073374,-7.97838,33,,300
-Cruzamento do IC17 CRIL com o IC19,38.740446,-9.204520,116,,1400
+Cruzamento do IC16 com a IC17 CRIL,38.76861,-9.20883,54,,2300
 Cruzamento Este da A-7 com a MA-24,36.723538,-4.301936,88,,1200
 Cruzamento Norte da A-44 com a GR-30,37.271002,-3.658168,672,,1400
 Cruzamento Norte da A-55 com a AP-9,42.21112,-8.66209,270,,2300
@@ -1406,6 +1414,7 @@ Dunas de Vila Real de Santo António,37.183042,-7.430759,4,,100
 Écija,37.541854,-5.081388,108,,700
 Eixo Norte-Sul - Alcântara,38.709584,-9.177854,45,,1000
 Eixo Norte-Sul - Campolide,38.727801,-9.172317,43,,1300
+Eixo Norte-Sul - Fim,38.80227,-9.13719,117,,2300
 Eixo Norte-Sul - Radial de Benfica,38.737988,-9.171358,77,,1600
 El Cuervo de Sevilla,36.853502,-6.038737,62,,800
 El Granado,37.520717,-7.416822,135,,50
@@ -1750,6 +1759,16 @@ Hospital Vázquez Díaz,37.279639,-6.921097,33,,2100
 IC1 - Cruzamento com a N124,37.250919,-8.272591,105,,400
 IC1 - Cruzamento com a N263,37.787552,-8.327132,115,,800
 IC1 - Fim,37.128002,-8.257777,83,,400
+IC17 CRIL - Acesso Norte à Saída 1 da A8,38.80322,-9.14677,86,,2300
+IC17 CRIL - Início,38.69791,-9.22924,6,,2300
+IC17 CRIL - Odivelas Oeste,38.78097,-9.18963,28,,2300
+IC17 CRIL - Saída 1,38.70185,-9.22668,18,,2300
+IC17 CRIL - Saída 2,38.7105,-9.2221,42,Parque Florestal de Monsanto,2300
+IC17 CRIL - Saída 4,38.72222,-9.21087,65,Parque Florestal de Monsanto,2300
+IC17 CRIL - Saída 5,38.72938,-9.21018,83,,2300
+IC17 CRIL - Saída 7,38.75061,-9.21073,82,,2300
+IC17 CRIL - Saída 8,38.75771,-9.20648,104,,2300
+IC17 CRIL - Saída 10,38.78739,-9.17298,20,,2300
 IC19 - Palácio de Queluz,38.748355,-9.256257,92,,1400
 IC19 - Saída 2,38.739977,-9.214261,131,,1400
 IC19 - Saída 2A,38.741668,-9.223941,139,,1400
@@ -1819,6 +1838,7 @@ Lagoa de Santo André,38.102910,-8.790820,2,Reserva Natural das Lagoas de Santo 
 Lagos,37.101359,-8.672518,10,,500
 Laranjeiras,37.403058,-7.457947,10,,10
 Lepe,37.255024,-7.20303,21,,200
+Lisboa Camping & Bungalows,38.72415,-9.20488,91,Parque Florestal de Monsanto,2300
 Livramento,37.074243,-7.732431,10,,200
 Lombardos,37.587178,-7.642559,123,Parque Natural do Vale do Guadiana,600
 Loulé,37.138646,-8.020993,176,,400
@@ -2127,6 +2147,7 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,37.413666,-5.950079,18,,300
 Ronda Urbana Norte de Sevilha - Poligono Store,37.41612,-5.956364,18,,300
 Rosal de la Frontera,37.967832,-7.220338,220,,700
 Rotunda da Árvore,37.391148,-7.445127,25,,10
+"Rotunda dos Golfinhos, Setúbal",38.53596,-8.87468,40,,2300
 Ruínas Romanas de Milreu,37.094824,-7.904695,74,,300
 Ruínas Romanas de Miróbriga,38.010156,-8.683699,243,,1500
 Ruínas Romanas de Tróia,38.486443,-8.884697,3,,1500
