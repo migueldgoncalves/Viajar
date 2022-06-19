@@ -1,5 +1,16 @@
 Nome,Município,Província,Distrito
 A-1 - Saída 11,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+A-1 - Saída 14,Alcobendas,Comunidade de Madrid,
+A-1 - Saída 15,Alcobendas,Comunidade de Madrid,
+A-1 - Saída 16,Alcobendas,Comunidade de Madrid,
+A-1 - Saída 19,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 20,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 23,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 24,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 26,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 28,San Sebastián de los Reyes,Comunidade de Madrid,
+A-1 - Saída 29,Colmenar Viejo,Comunidade de Madrid,
+A-1 - Saída 30,Colmenar Viejo,Comunidade de Madrid,
 A-2 - Saída 3,Madrid,Comunidade de Madrid,Chamartín
 A-2 - Saída 4C,Madrid,Comunidade de Madrid,Ciudad Lineal
 A-2 - Saída 5,Madrid,Comunidade de Madrid,Hortaleza
@@ -889,7 +900,9 @@ Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
 Cruzamento VIII da A-7 com a AP-7,Antas,Almería,
 Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
+Cruzamento da A-1 com a M-12,Alcobendas,Comunidade de Madrid,
 Cruzamento da A-1 com a M-40,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+Cruzamento da A-1 com a M-50,San Sebastián de los Reyes,Comunidade de Madrid,
 Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas - Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz

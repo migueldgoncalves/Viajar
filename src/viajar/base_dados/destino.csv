@@ -1071,6 +1071,55 @@ A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Carro,True,Madrid
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,False,M-30 - A-2/A-3/A-4
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,False,Madrid
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Carro,True,Burgos
+A-1 - Saída 14,A-1 - Saída 15,Carro,False,M-30
+A-1 - Saída 14,A-1 - Saída 15,Carro,False,M-40
+A-1 - Saída 14,A-1 - Saída 15,Carro,False,Madrid
+A-1 - Saída 14,A-1 - Saída 15,Carro,True,Burgos
+A-1 - Saída 14,Cruzamento da A-1 com a M-40,Carro,False,Burgos
+A-1 - Saída 14,Cruzamento da A-1 com a M-40,Carro,True,M-30
+A-1 - Saída 14,Cruzamento da A-1 com a M-40,Carro,True,M-40
+A-1 - Saída 14,Cruzamento da A-1 com a M-40,Carro,True,Madrid
+A-1 - Saída 15,A-1 - Saída 16,Carro,False,M-30
+A-1 - Saída 15,A-1 - Saída 16,Carro,False,M-40
+A-1 - Saída 15,A-1 - Saída 16,Carro,False,Madrid
+A-1 - Saída 15,A-1 - Saída 16,Carro,True,Burgos
+A-1 - Saída 15,A-1 - Saída 16,Carro,True,M-50
+A-1 - Saída 15,A-1 - Saída 16,Carro,True,R-2
+A-1 - Saída 16,Cruzamento da A-1 com a M-12,Carro,False,M-30
+A-1 - Saída 16,Cruzamento da A-1 com a M-12,Carro,False,M-40
+A-1 - Saída 16,Cruzamento da A-1 com a M-12,Carro,False,Madrid
+A-1 - Saída 16,Cruzamento da A-1 com a M-12,Carro,True,Burgos
+A-1 - Saída 19,A-1 - Saída 20,Carro,False,Madrid
+A-1 - Saída 19,A-1 - Saída 20,Carro,True,Burgos
+A-1 - Saída 19,A-1 - Saída 20,Carro,True,M-50
+A-1 - Saída 19,A-1 - Saída 20,Carro,True,R-2
+A-1 - Saída 19,Cruzamento da A-1 com a M-12,Carro,False,Burgos
+A-1 - Saída 19,Cruzamento da A-1 com a M-12,Carro,False,M-50
+A-1 - Saída 19,Cruzamento da A-1 com a M-12,Carro,False,R-2
+A-1 - Saída 19,Cruzamento da A-1 com a M-12,Carro,True,Madrid
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,False,Aeroporto de Madrid-Barajas
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,False,M-30
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,False,M-40
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,False,Madrid
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,True,Burgos
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,True,M-50
+A-1 - Saída 20,Cruzamento da A-1 com a M-50,Carro,True,R-2
+A-1 - Saída 23,A-1 - Saída 24,Carro,False,Madrid
+A-1 - Saída 23,A-1 - Saída 24,Carro,True,Burgos
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,False,Burgos
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,True,M-30
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,True,M-40
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,True,M-50
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,True,Madrid
+A-1 - Saída 23,Cruzamento da A-1 com a M-50,Carro,True,R-2
+A-1 - Saída 24,A-1 - Saída 26,Carro,False,Madrid
+A-1 - Saída 24,A-1 - Saída 26,Carro,True,Burgos
+A-1 - Saída 26,A-1 - Saída 28,Carro,False,Madrid
+A-1 - Saída 26,A-1 - Saída 28,Carro,True,Burgos
+A-1 - Saída 28,A-1 - Saída 29,Carro,False,Madrid
+A-1 - Saída 28,A-1 - Saída 29,Carro,True,Burgos
+A-1 - Saída 29,A-1 - Saída 30,Carro,False,Madrid
+A-1 - Saída 29,A-1 - Saída 30,Carro,True,Burgos
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Aeroporto de Madrid-Barajas
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-30 - Todas as direcções
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-40 - Todas as direcções
@@ -7644,8 +7693,8 @@ Estação de Fernando Pó,Estação de Pegões,Comboio,False,Faro
 Estação de Fernando Pó,Estação de Pegões,Comboio,False,Lisboa - Oriente
 Estação de Fernando Pó,Estação de Pegões,Comboio,False,Pinhal Novo
 Estação de Fernando Pó,Estação de Pegões,Comboio,True,Beja
+Estação de Fernando Pó,Estação de Pegões,Comboio,True,Casa Branca
 Estação de Fernando Pó,Estação de Pegões,Comboio,True,Évora
-Estação de Fernando Pó,Estação de Pegões,Comboio,True,Pinhal Novo
 Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Beja
 Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Casa Branca
 Estação de Fernando Pó,Estação de Poceirão,Comboio,False,Évora
