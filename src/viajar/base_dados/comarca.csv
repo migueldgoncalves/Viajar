@@ -57,6 +57,7 @@ Bollullos Par del Condado,El Condado,Huelva
 Bonares,El Condado,Huelva
 Bormujos,Aljarafe,Sevilha
 Bormujos,Comarca Metropolitana de Sevilha,Sevilha
+Buitrago del Lozoya,Sierra Norte de Madrid,Comunidade de Madrid
 Calera y Chozas,La Campana de Oropesa,Toledo
 Calzadilla de los Barros,Zafra-Río Bodión,Badajoz
 Camas,Aljarafe,Sevilha
@@ -84,6 +85,7 @@ Casatejada,Campo Arañuelo,Cáceres
 Castilleja de la Cuesta,Aljarafe,Sevilha
 Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
 Cazalegas,Sierra de San Vicente,Toledo
+Cerezo de Abajo,Comunidad de Villa y Tierra de Sepúlveda,Segóvia
 Chauchina,Vega de Granada,Granada
 Chucena,El Condado,Huelva
 Cijuela,Vega de Granada,Granada
@@ -106,6 +108,7 @@ El Cuervo de Sevilla,Bajo Guadalquivir,Sevilha
 El Ejido,Poniente Almeriense,Almería
 El Garrobo,Sierra Norte de Sevilha,Sevilha
 El Granado,El Andévalo,Huelva
+El Molar,Cuenca del Medio Jarama,Comunidade de Madrid
 El Pinar,Valle de Lecrín,Granada
 El Ronquillo,Sierra Norte de Sevilha,Sevilha
 Encinas Reales,Subbética,Córdoba
@@ -132,6 +135,7 @@ Gérgal,Los Filabres-Tabernas,Almería
 Getafe,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Gibraleón,Comarca Metropolitana de Huelva,Huelva
 Granada,Vega de Granada,Granada
+Guadalix de la Sierra,Cuenca Alta del Manzanares,Comunidade de Madrid
 Guadix,Comarca de Guadix,Granada
 Guareña,Guadiana,Badajoz
 Guarromán,Sierra Morena,Jaén
@@ -140,6 +144,7 @@ Guillena,Sierra Norte de Sevilha,Sevilha
 Herencia,La Mancha,Ciudad Real
 Herreruela de Oropesa,La Campana de Oropesa,Toledo
 Hinojal,Tajo-Salor,Cáceres
+Horcajo de la Sierra-Aoslos,Sierra Norte de Madrid,Comunidade de Madrid
 Huelva,Comarca Metropolitana de Huelva,Huelva
 Huéneja,Comarca de Guadix,Granada
 Huércal-Overa,Levante Almeriense,Almería
@@ -153,6 +158,7 @@ Jaén,Comarca Metropolitana de Jaén,Jaén
 Jaraicejo,Comarca de Trujillo,Cáceres
 Jarilla,Trasierra-Tierras de Granadilla,Cáceres
 Jerez de la Frontera,Campiña de Jerez,Cádiz
+La Cabrera,Sierra Norte de Madrid,Comunidade de Madrid
 La Calahorra,Comarca de Guadix,Granada
 La Calzada de Oropesa,La Campana de Oropesa,Toledo
 La Campana,Campiña de Carmona,Sevilha
@@ -168,6 +174,7 @@ La Peza,Comarca de Guadix,Granada
 La Puebla de Cazalla,Campiña de Morón y Marchena,Sevilha
 La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
 La Roda de Andalucía,Sierra Sur de Sevilha,Sevilha
+La Serna del Monte,Sierra Norte de Madrid,Comunidade de Madrid
 Láchar,Vega de Granada,Granada
 Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
@@ -190,6 +197,7 @@ Los Cerralbos,Torrijos,Toledo
 Los Gallardos,Levante Almeriense,Almería
 Los Palacios y Villafranca,Bajo Guadalquivir,Sevilha
 Los Santos de Maimona,Zafra-Río Bodión,Badajoz
+Lozoyuela-Navas-Sieteiglesias,Sierra Norte de Madrid,Comunidade de Madrid
 Lucena,Subbética,Córdoba
 Lucillos,Torrijos,Toledo
 Lújar,Costa Granadina,Granada
@@ -247,6 +255,7 @@ Paradas,Campiña de Morón y Marchena,Sevilha
 Paymogo,El Andévalo,Huelva
 Pechina,Comarca Metropolitana de Almería,Almería
 Pedrera,Sierra Sur de Sevilha,Sevilha
+Pedrezuela,Cuenca del Medio Jarama,Comunidade de Madrid
 Pedro Abad,Alto Guadalquivir,Córdoba
 Pegalajar,Sierra Mágina,Jaén
 Peligros,Vega de Granada,Granada
@@ -254,6 +263,7 @@ Pepino,Sierra de San Vicente,Toledo
 Peraleda de la Mata,Campo Arañuelo,Cáceres
 Pinos Puente,Vega de Granada,Granada
 Pinto,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
+Piñuécar-Gandullas,Sierra Norte de Madrid,Comunidade de Madrid
 Polopos,Costa Granadina,Granada
 Pozuelo de Alarcón,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Puebla de Guzmán,El Andévalo,Huelva
@@ -277,6 +287,7 @@ Salar,Comarca de Loja,Granada
 Salobreña,Costa Granadina,Granada
 Salteras,Aljarafe,Sevilha
 Salteras,Comarca Metropolitana de Sevilha,Sevilha
+San Agustín del Guadalix,Cuenca del Medio Jarama,Comunidade de Madrid
 San Bartolomé de la Torre,El Andévalo,Huelva
 San Juan de Aznalfarache,Aljarafe,Sevilha
 San Juan de Aznalfarache,Comarca Metropolitana de Sevilha,Sevilha
@@ -299,10 +310,12 @@ Santiago del Campo,Tajo-Salor,Cáceres
 Santiponce,Aljarafe,Sevilha
 Santiponce,Comarca Metropolitana de Sevilha,Sevilha
 Santo Domingo-Caudilla,Torrijos,Toledo
+Santo Tomé del Puerto,Comunidad de Villa y Tierra de Sepúlveda,Segóvia
 Saucedilla,Campo Arañuelo,Cáceres
 Serranillos del Valle,Comarca Sur,Comunidade de Madrid
 Seseña,La Sagra,Toledo
 Sevilha,Comarca Metropolitana de Sevilha,Sevilha
+Somosierra,Sierra Norte de Madrid,Comunidade de Madrid
 Sorbas,Levante Almeriense,Almería
 Tabernas,Los Filabres-Tabernas,Almería
 Talavera de la Reina,Talavera de la Reina,Toledo
@@ -328,6 +341,7 @@ Valle del Zalabí,Comarca de Guadix,Granada
 Valmojado,La Sagra,Toledo
 Vélez de Benaudalla,Costa Granadina,Granada
 Vélez-Málaga,La Axarquía,Málaga
+Venturada,Sierra Norte de Madrid,Comunidade de Madrid
 Vera,Levante Almeriense,Almería
 Viator,Comarca Metropolitana de Almería,Almería
 Vícar,Poniente Almeriense,Almería

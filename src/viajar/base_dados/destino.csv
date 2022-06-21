@@ -1120,6 +1120,67 @@ A-1 - Saída 28,A-1 - Saída 29,Carro,False,Madrid
 A-1 - Saída 28,A-1 - Saída 29,Carro,True,Burgos
 A-1 - Saída 29,A-1 - Saída 30,Carro,False,Madrid
 A-1 - Saída 29,A-1 - Saída 30,Carro,True,Burgos
+A-1 - Saída 30,A-1 - Saída 34,Carro,False,Madrid
+A-1 - Saída 30,A-1 - Saída 34,Carro,True,Burgos
+A-1 - Saída 34,A-1 - Saída 36,Carro,False,Madrid
+A-1 - Saída 34,A-1 - Saída 36,Carro,True,Burgos
+A-1 - Saída 36,A-1 - Saída 38,Carro,False,Madrid
+A-1 - Saída 36,A-1 - Saída 38,Carro,True,Burgos
+A-1 - Saída 38,A-1 - Saída 41,Carro,False,Madrid
+A-1 - Saída 38,A-1 - Saída 41,Carro,True,Burgos
+A-1 - Saída 41,A-1 - Saída 45,Carro,False,Madrid
+A-1 - Saída 41,A-1 - Saída 45,Carro,True,Burgos
+A-1 - Saída 45,A-1 - Saída 47,Carro,False,Madrid
+A-1 - Saída 45,A-1 - Saída 47,Carro,True,Burgos
+A-1 - Saída 47,A-1 - Saída 49,Carro,False,Madrid
+A-1 - Saída 47,A-1 - Saída 49,Carro,True,Burgos
+A-1 - Saída 49,A-1 - Saída 50,Carro,False,Madrid
+A-1 - Saída 49,A-1 - Saída 50,Carro,True,Burgos
+A-1 - Saída 50,A-1 - Saída 55,Carro,False,Madrid
+A-1 - Saída 50,A-1 - Saída 55,Carro,True,Burgos
+A-1 - Saída 55,A-1 - Saída 57,Carro,False,Madrid
+A-1 - Saída 55,A-1 - Saída 57,Carro,True,Burgos
+A-1 - Saída 57,A-1 - Saída 60,Carro,False,Madrid
+A-1 - Saída 57,A-1 - Saída 60,Carro,True,Burgos
+A-1 - Saída 60,A-1 - Saída 65,Carro,False,Madrid
+A-1 - Saída 60,A-1 - Saída 65,Carro,True,Burgos
+A-1 - Saída 65,A-1 - Saída 66,Carro,False,Madrid
+A-1 - Saída 65,A-1 - Saída 66,Carro,True,Burgos
+A-1 - Saída 66,A-1 - Saída 67,Carro,False,Madrid
+A-1 - Saída 66,A-1 - Saída 67,Carro,True,Burgos
+A-1 - Saída 67,A-1 - Saída 68,Carro,False,Madrid
+A-1 - Saída 67,A-1 - Saída 68,Carro,True,Burgos
+A-1 - Saída 68,A-1 - Saída 69,Carro,False,Madrid
+A-1 - Saída 68,A-1 - Saída 69,Carro,True,Burgos
+A-1 - Saída 69,A-1 - Saída 72,Carro,False,Madrid
+A-1 - Saída 69,A-1 - Saída 72,Carro,True,Burgos
+A-1 - Saída 72,A-1 - Saída 74,Carro,False,Madrid
+A-1 - Saída 72,A-1 - Saída 74,Carro,True,Burgos
+A-1 - Saída 74,A-1 - Saída 75,Carro,False,Madrid
+A-1 - Saída 74,A-1 - Saída 75,Carro,True,Burgos
+A-1 - Saída 75,A-1 - Saída 76,Carro,False,Madrid
+A-1 - Saída 75,A-1 - Saída 76,Carro,True,Burgos
+A-1 - Saída 76,A-1 - Saída 79,Carro,False,Madrid
+A-1 - Saída 76,A-1 - Saída 79,Carro,True,Burgos
+A-1 - Saída 79,A-1 - Saída 83,Carro,False,Madrid
+A-1 - Saída 79,A-1 - Saída 83,Carro,True,Burgos
+A-1 - Saída 83,A-1 - Saída 85,Carro,False,Madrid
+A-1 - Saída 83,A-1 - Saída 85,Carro,True,Burgos
+A-1 - Saída 85,A-1 - Saída 87,Carro,False,Madrid
+A-1 - Saída 85,A-1 - Saída 87,Carro,True,Burgos
+A-1 - Saída 87,A-1 - Saída 92,Carro,False,Madrid
+A-1 - Saída 87,A-1 - Saída 92,Carro,True,Burgos
+A-1 - Saída 92,A-1 - Saída 99,Carro,False,Madrid
+A-1 - Saída 92,A-1 - Saída 99,Carro,False,Puerto de Somosierra
+A-1 - Saída 92,A-1 - Saída 99,Carro,True,Burgos
+A-1 - Saída 99,A-1 - Saída 100,Carro,False,Madrid
+A-1 - Saída 99,A-1 - Saída 100,Carro,True,Aranda de Duero
+A-1 - Saída 99,A-1 - Saída 100,Carro,True,Burgos
+A-1 - Saída 99,A-1 - Saída 100,Carro,True,Soria
+A-1 - Saída 100,A-1 - Saída 103,Carro,False,Madrid
+A-1 - Saída 100,A-1 - Saída 103,Carro,True,Aranda de Duero
+A-1 - Saída 100,A-1 - Saída 103,Carro,True,Burgos
+A-1 - Saída 100,A-1 - Saída 103,Carro,True,Soria
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,Aeroporto de Madrid-Barajas
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-30 - Todas as direcções
 A-2 - Saída 3,"Avenida de América, Madrid",Carro,False,M-40 - Todas as direcções
