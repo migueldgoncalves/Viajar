@@ -15,6 +15,7 @@ OPCAO_COMBATE = 3
 OPCAO_GERADOR = 4
 OPCAO_ORDENADOR = 5
 OPCAO_SQLITE = 6
+OPCAO_DELIMITADOR = 7
 
 print("===============================")
 print("Bem-vindo/a ao projecto Viajar")
@@ -34,6 +35,7 @@ while True:
     print(f'{OPCAO_GERADOR} - Gerador automático de informação')
     print(f'{OPCAO_ORDENADOR} - Ordenador de ficheiros .csv')
     print(f'{OPCAO_SQLITE} - Criador de bases de dados SQLite')
+    print(f'{OPCAO_DELIMITADOR} - Calculadora de pontos extremos de uma região')
 
     try:
         opcao = int(input("Insira o número pretendido e depois prima ENTER: "))
@@ -76,3 +78,6 @@ while True:
     elif opcao == OPCAO_SQLITE:
         from viajar.auxiliar import sqlite_interface
         sqlite_interface.SQLiteBDInterface()
+    elif opcao == OPCAO_DELIMITADOR:
+        from viajar.auxiliar import delimitador_regioes
+        delimitador_regioes.obter_pontos_extremos()

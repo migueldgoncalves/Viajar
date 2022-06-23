@@ -494,5 +494,3 @@ class OsmInterface:
 
         url_servidor = f'http://{IP_DOCKER}:{porto}/api/interpreter'  # Usar https se o servidor não for local
         return url_servidor
-
-print(OsmInterface.obter_pontos_extremos_regiao("Sierra Norte", COMARCA, vias.ESPANHA))
