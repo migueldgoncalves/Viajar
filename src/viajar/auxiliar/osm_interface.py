@@ -62,6 +62,30 @@ TAGS_ESTRADAS_PRETENDIDAS = {
 }
 
 
+class PontosExtremos:
+    """
+    Classe para guardar pontos extremos de uma região
+    """
+    def __init__(self, nome: str, nivel_administrativo: int, pais: str,
+                 norte: Coordenada, sul: Coordenada, este: Coordenada, oeste: Coordenada):
+        self.nome: str = nome
+        self.nivel_administrativo: int = nivel_administrativo
+        self.pais: str = pais
+        self.norte: Coordenada = norte
+        self.sul: Coordenada = sul
+        self.este: Coordenada = este
+        self.oeste: Coordenada = oeste
+
+    def __str__(self):
+        return f'Nome: {self.nome}\n' \
+               f'Nível administrativo: {self.nivel_administrativo}\n' \
+               f'País: {self.pais}\n' \
+               f'Norte: {self.norte}\n' \
+               f'Sul: {self.sul}\n' \
+               f'Este: {self.este}\n' \
+               f'Oeste: {self.oeste}'
+
+
 class Node:
     """
     Classe para guardar dados de um nó
@@ -377,6 +401,61 @@ class OsmInterface:
             return None
 
     @staticmethod
+    def obter_pontos_extremos_regiao(nome: str, nivel_administrativo: int, pais: str) -> Optional[PontosExtremos]:
+        # Freguesias históricas portuguesas não têm nível associado
+        query = f'rel[name="{nome}"][admin_level="{nivel_administrativo}"];' \
+                'out geom;'
+
+        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        if not raw_result:
+            print("Nenhum resultado obtido")
+            return None
+
+        max_norte: Coordenada = Coordenada(-90.0, 0.0)
+        max_sul: Coordenada = Coordenada(90.0, 0.0)
+        max_oeste: Coordenada = Coordenada(0.0, 180.0)
+        max_este: Coordenada = Coordenada(0.0, -180.0)
+        for no in raw_result.childNodes:
+            if no.nodeName == 'relation' and no.hasAttribute('id'):  # Região pretendida
+                for n2 in no.childNodes:
+                    if n2.nodeName == 'member' and n2.hasAttribute('type') and n2.getAttribute('type') == 'node' and \
+                            n2.hasAttribute('lat') and n2.hasAttribute('lon'):  # Nó que delimita a região
+                        lat = float(n2.getAttribute('lat'))
+                        lon = float(n2.getAttribute('lon'))
+                        if lat > max_norte.latitude:
+                            max_norte.set_latitude(lat)
+                            max_norte.set_longitude(lon)
+                        if lat < max_sul.latitude:
+                            max_sul.set_latitude(lat)
+                            max_sul.set_longitude(lon)
+                        if lon > max_este.longitude:
+                            max_este.set_latitude(lat)
+                            max_este.set_longitude(lon)
+                        if lon < max_oeste.longitude:
+                            max_oeste.set_latitude(lat)
+                            max_oeste.set_longitude(lon)
+                    elif n2.nodeName == 'member' and n2.hasAttribute('type') and n2.getAttribute('type') == 'way':  # Via que delimita a região
+                        for n3 in n2.childNodes:
+                            if n3.nodeName == 'nd' and n3.hasAttribute('lat') and n3.hasAttribute('lon'):
+                                lat = float(n3.getAttribute('lat'))
+                                lon = float(n3.getAttribute('lon'))
+                                if lat > max_norte.latitude:
+                                    max_norte.set_latitude(lat)
+                                    max_norte.set_longitude(lon)
+                                if lat < max_sul.latitude:
+                                    max_sul.set_latitude(lat)
+                                    max_sul.set_longitude(lon)
+                                if lon > max_este.longitude:
+                                    max_este.set_latitude(lat)
+                                    max_este.set_longitude(lon)
+                                if lon < max_oeste.longitude:
+                                    max_oeste.set_latitude(lat)
+                                    max_oeste.set_longitude(lon)
+
+        pontos_extremos = PontosExtremos(nome, nivel_administrativo, pais, max_norte, max_sul, max_este, max_oeste)
+        return pontos_extremos
+
+    @staticmethod
     def _query(query: str, pais: str, debug: bool = False) -> Optional[minidom.Element]:
         try:
             url_servidor: str = OsmInterface._obter_url_servidor(pais)
@@ -415,3 +494,5 @@ class OsmInterface:
 
         url_servidor = f'http://{IP_DOCKER}:{porto}/api/interpreter'  # Usar https se o servidor não for local
         return url_servidor
+
+print(OsmInterface.obter_pontos_extremos_regiao("Sierra Norte", COMARCA, vias.ESPANHA))
