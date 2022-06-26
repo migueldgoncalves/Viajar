@@ -448,13 +448,28 @@ A-7 - Saída 520,Los Gallardos,Almería,
 A-7 - Saída 525,Vera,Almería,
 A-7 - Saída 529,Antas,Almería,
 A-7 - Saída 537,Antas,Almería,
+A-7 - Saída 538,Granja de Rocamora,Alicante,
+A-7 - Saída 541,Cox,Alicante,
 A-7 - Saída 543,Huércal-Overa,Almería,
+A-7 - Saída 545,Orihuela,Alicante,
 A-7 - Saída 547,Huércal-Overa,Almería,
 A-7 - Saída 549,Huércal-Overa,Almería,
 "A-7 - Saída 553, Almería",Huércal-Overa,Almería,
+"A-7 - Saída 553, Murcia",Santomera,Região de Murcia,
+A-7 - Saída 555,Santomera,Região de Murcia,
 "A-7 - Saída 559, Almería",Huércal-Overa,Almería,
+"A-7 - Saída 559, Murcia",Murcia,Região de Murcia,Esparragal
 "A-7 - Saída 563, Almería",Huércal-Overa,Almería,
+"A-7 - Saída 563, Murcia",Murcia,Região de Murcia,Cabezo de Torres
 A-7 - Saída 565,Huércal-Overa,Almería,
+A-7 - Saída 571,Murcia,Região de Murcia,La Ñora
+A-7 - Saída 575,Murcia,Região de Murcia,Javalí Nuevo
+A-7 - Saída 581,Murcia,Região de Murcia,Sangonera la Seca
+A-7 - Saída 584,Murcia,Região de Murcia,Sangonera la Seca
+A-7 - Saída 585,Murcia,Região de Murcia,Sangonera la Seca
+A-7 - Saída 586,Librilla,Região de Murcia,
+A-7 - Saída 588,Librilla,Região de Murcia,
+A-7 - Saída 589,Librilla,Região de Murcia,
 A-7 - Saída 591,Librilla,Região de Murcia,
 A-7 - Saída 594,Librilla,Região de Murcia,
 A-7 - Saída 596,Alhama de Murcia,Região de Murcia,
@@ -475,6 +490,8 @@ A-7 - Saída 646,Puerto Lumbreras,Região de Murcia,
 A-7 - Saída 649,Puerto Lumbreras,Região de Murcia,
 A-7 - Saída 655,Puerto Lumbreras,Região de Murcia,
 A-7 - Saída 661,Puerto Lumbreras,Região de Murcia,
+A-7/A-30 - Saída 135,Murcia,Região de Murcia,El Puntal
+A-7/A-30 - Saída 136,Murcia,Região de Murcia,El Puntal
 A-7/AP-7 - Saída 155,Estepona,Málaga,
 A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
 A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
@@ -972,6 +989,7 @@ Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
 Cruzamento da A-7 com a GR-14,Motril,Granada,
 Cruzamento da A-7 com a GR-16,Motril,Granada,
 Cruzamento da A-7 com a MA-20,Málaga,Málaga,Palma-Palmilla
+Cruzamento da A-7 com a MU-30 e a RM-15,Alcantarilla,Região de Murcia,
 Cruzamento da A-7 com a RM-2,Alhama de Murcia,Região de Murcia,
 Cruzamento da A-7 com a RM-3,Totana,Região de Murcia,
 Cruzamento da A-7 com a RM-11,Lorca,Região de Murcia,
@@ -1043,9 +1061,11 @@ Cruzamento da N-431 com a N-445,Lepe,Huelva,
 Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
+Cruzamento Norte da A-7 com a A-30,Murcia,Região de Murcia,El Puntal
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Norte da A-55 com a AP-9,Vigo,Pontevedra,Cabral
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
+Cruzamento Sul da A-7 com a A-30,Murcia,Região de Murcia,Guadalupe
 Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
 Cruzamento Sul da A-55 com a AP-9,Tui,Pontevedra,Rebordáns
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,

@@ -3031,10 +3031,18 @@ A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,False,Huércal-Overa
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,False,Murcia
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,True,Almería
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,True,Vera
+A-7 - Saída 538,A-7 - Saída 541,Carro,False,Alicante
+A-7 - Saída 538,A-7 - Saída 541,Carro,False,Crevillent
+A-7 - Saída 538,A-7 - Saída 541,Carro,True,Murcia
+A-7 - Saída 541,A-7 - Saída 545,Carro,False,Alicante
+A-7 - Saída 541,A-7 - Saída 545,Carro,True,Murcia
 A-7 - Saída 543,A-7 - Saída 547,Carro,False,Almería
 A-7 - Saída 543,A-7 - Saída 547,Carro,False,Vera
 A-7 - Saída 543,A-7 - Saída 547,Carro,True,Huércal-Overa
 A-7 - Saída 543,A-7 - Saída 547,Carro,True,Murcia
+A-7 - Saída 545,"A-7 - Saída 553, Murcia",Carro,False,Alicante
+A-7 - Saída 545,"A-7 - Saída 553, Murcia",Carro,False,Valência
+A-7 - Saída 545,"A-7 - Saída 553, Murcia",Carro,True,Murcia
 A-7 - Saída 547,A-7 - Saída 549,Carro,False,Almería
 A-7 - Saída 547,A-7 - Saída 549,Carro,False,Vera
 A-7 - Saída 547,A-7 - Saída 549,Carro,True,Huércal-Overa
@@ -3048,18 +3056,66 @@ A-7 - Saída 549,"A-7 - Saída 553, Almería",Carro,True,Puerto Lumbreras
 "A-7 - Saída 553, Almería","A-7 - Saída 559, Almería",Carro,False,Vera
 "A-7 - Saída 553, Almería","A-7 - Saída 559, Almería",Carro,True,Murcia
 "A-7 - Saída 553, Almería","A-7 - Saída 559, Almería",Carro,True,Puerto Lumbreras
+"A-7 - Saída 553, Murcia",A-7 - Saída 555,Carro,False,Alicante
+"A-7 - Saída 553, Murcia",A-7 - Saída 555,Carro,False,Valência
+"A-7 - Saída 553, Murcia",A-7 - Saída 555,Carro,True,Murcia
+A-7 - Saída 555,"A-7 - Saída 559, Murcia",Carro,False,Alicante
+A-7 - Saída 555,"A-7 - Saída 559, Murcia",Carro,False,Valência
+A-7 - Saída 555,"A-7 - Saída 559, Murcia",Carro,True,Cartagena
+A-7 - Saída 555,"A-7 - Saída 559, Murcia",Carro,True,Murcia
 "A-7 - Saída 559, Almería","A-7 - Saída 563, Almería",Carro,False,Almería
 "A-7 - Saída 559, Almería","A-7 - Saída 563, Almería",Carro,False,Vera
 "A-7 - Saída 559, Almería","A-7 - Saída 563, Almería",Carro,True,Murcia
 "A-7 - Saída 559, Almería","A-7 - Saída 563, Almería",Carro,True,Puerto Lumbreras
+"A-7 - Saída 559, Murcia","A-7 - Saída 563, Murcia",Carro,False,Alicante
+"A-7 - Saída 559, Murcia","A-7 - Saída 563, Murcia",Carro,False,Valência
+"A-7 - Saída 559, Murcia","A-7 - Saída 563, Murcia",Carro,True,Cartagena
+"A-7 - Saída 559, Murcia","A-7 - Saída 563, Murcia",Carro,True,Murcia
 "A-7 - Saída 563, Almería",A-7 - Saída 565,Carro,False,Almería
 "A-7 - Saída 563, Almería",A-7 - Saída 565,Carro,False,Huércal-Overa
 "A-7 - Saída 563, Almería",A-7 - Saída 565,Carro,True,Murcia
 "A-7 - Saída 563, Almería",A-7 - Saída 565,Carro,True,Puerto Lumbreras
+"A-7 - Saída 563, Murcia",Cruzamento Norte da A-7 com a A-30,Carro,False,Alicante
+"A-7 - Saída 563, Murcia",Cruzamento Norte da A-7 com a A-30,Carro,True,Andaluzia
+"A-7 - Saída 563, Murcia",Cruzamento Norte da A-7 com a A-30,Carro,True,Murcia
 A-7 - Saída 565,A-7 - Saída 661,Carro,False,Almería
 A-7 - Saída 565,A-7 - Saída 661,Carro,False,Vera
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Murcia
 A-7 - Saída 565,A-7 - Saída 661,Carro,True,Puerto Lumbreras
+A-7 - Saída 571,A-7 - Saída 575,Carro,False,Murcia
+A-7 - Saída 571,A-7 - Saída 575,Carro,True,Alcantarilla
+A-7 - Saída 571,A-7 - Saída 575,Carro,True,Almería
+A-7 - Saída 571,A-7 - Saída 575,Carro,True,Granada
+A-7 - Saída 571,Cruzamento Sul da A-7 com a A-30,Carro,False,Alcantarilla
+A-7 - Saída 571,Cruzamento Sul da A-7 com a A-30,Carro,False,Almería
+A-7 - Saída 571,Cruzamento Sul da A-7 com a A-30,Carro,False,Granada
+A-7 - Saída 571,Cruzamento Sul da A-7 com a A-30,Carro,True,Murcia
+A-7 - Saída 575,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,False,Murcia
+A-7 - Saída 575,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,True,Alcantarilla
+A-7 - Saída 575,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,True,Almería
+A-7 - Saída 575,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,True,Granada
+A-7 - Saída 581,A-7 - Saída 584,Carro,False,Murcia
+A-7 - Saída 581,A-7 - Saída 584,Carro,True,Alhama de Murcia
+A-7 - Saída 581,A-7 - Saída 584,Carro,True,Almería
+A-7 - Saída 581,A-7 - Saída 584,Carro,True,Granada
+A-7 - Saída 581,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,False,Alhama de Murcia
+A-7 - Saída 581,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,False,Almería
+A-7 - Saída 581,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,False,Granada
+A-7 - Saída 581,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,True,Murcia
+A-7 - Saída 584,A-7 - Saída 585,Carro,False,Murcia
+A-7 - Saída 584,A-7 - Saída 585,Carro,True,Almería
+A-7 - Saída 584,A-7 - Saída 585,Carro,True,Granada
+A-7 - Saída 585,A-7 - Saída 586,Carro,False,Murcia
+A-7 - Saída 585,A-7 - Saída 586,Carro,True,Alhama de Murcia
+A-7 - Saída 585,A-7 - Saída 586,Carro,True,Almería
+A-7 - Saída 585,A-7 - Saída 586,Carro,True,Granada
+A-7 - Saída 586,A-7 - Saída 588,Carro,False,Murcia
+A-7 - Saída 586,A-7 - Saída 588,Carro,True,Almería
+A-7 - Saída 588,A-7 - Saída 589,Carro,False,Murcia
+A-7 - Saída 588,A-7 - Saída 589,Carro,True,Almería
+A-7 - Saída 589,A-7 - Saída 591,Carro,False,Murcia
+A-7 - Saída 589,A-7 - Saída 591,Carro,True,Almería
+A-7 - Saída 589,A-7 - Saída 591,Carro,True,Granada
 A-7 - Saída 591,A-7 - Saída 594,Carro,False,Murcia
 A-7 - Saída 591,A-7 - Saída 594,Carro,True,Almería
 A-7 - Saída 591,A-7 - Saída 594,Carro,True,Granada
@@ -3154,6 +3210,22 @@ A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,False,Almería
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,False,Vera
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,True,Lorca
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,True,Murcia
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,False,Albacete
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,False,Alicante
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,False,Molina de Segura
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,True,Almería
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,True,Cartagena
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,True,Murcia
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,True,Ronda Oeste de Murcia
+A-7/A-30 - Saída 135,Cruzamento Norte da A-7 com a A-30,Carro,False,Almería
+A-7/A-30 - Saída 135,Cruzamento Norte da A-7 com a A-30,Carro,False,Cartagena
+A-7/A-30 - Saída 135,Cruzamento Norte da A-7 com a A-30,Carro,False,Granada
+A-7/A-30 - Saída 135,Cruzamento Norte da A-7 com a A-30,Carro,True,Alicante
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,False,Albacete
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,False,Alicante
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,True,Andaluzia
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,True,Cartagena
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,True,Murcia
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,Málaga
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,False,San Pedro de Alcántara
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,True,Algeciras

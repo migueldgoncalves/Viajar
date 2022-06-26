@@ -57,6 +57,8 @@ class LocalEspanha(local.Local):
         if self.distrito != '':
             if self.comunidade_autonoma == 'Galiza':  # Na Galiza os municípios (localmente, concellos) subdividem-se em paróquias (parroquias)
                 print("Paróquia:", self.distrito)  # Mesmo nível administrativo no OpenStreetMap
+            elif self.comunidade_autonoma == 'Região de Murcia':
+                print("Pedanía:", self.distrito)
             else:
                 print("Distrito:", self.distrito)
         if self.comunidade_autonoma == 'Galiza':

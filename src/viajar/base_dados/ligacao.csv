@@ -794,13 +794,30 @@ A-7 - Saída 525,A-7 - Saída 529,Carro,3.2,A-7,NE,2,1
 A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Carro,4.9,A-7,N,2,1
 A-7 - Saída 537,A-7 - Saída 543,Carro,5.8,A-7,NO,2,1
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Carro,3.8,A-7,SE,1,2
+A-7 - Saída 538,A-7 - Saída 541,Carro,2.6,A-7,O,1,2
+A-7 - Saída 541,A-7 - Saída 545,Carro,4.1,A-7,SO,1,2
 A-7 - Saída 543,A-7 - Saída 547,Carro,3.7,A-7,N,2,1
+A-7 - Saída 545,"A-7 - Saída 553, Murcia",Carro,8.2,A-7,O,1,2
 A-7 - Saída 547,A-7 - Saída 549,Carro,2.5,A-7,N,2,1
 A-7 - Saída 549,"A-7 - Saída 553, Almería",Carro,4.5,A-7,N,2,1
 "A-7 - Saída 553, Almería","A-7 - Saída 559, Almería",Carro,5.4,A-7,NE,2,1
+"A-7 - Saída 553, Murcia",A-7 - Saída 555,Carro,2.3,A-7,O,1,2
+A-7 - Saída 555,"A-7 - Saída 559, Murcia",Carro,3.3,A-7,SO,1,2
 "A-7 - Saída 559, Almería","A-7 - Saída 563, Almería",Carro,4.0,A-7,NE,2,1
+"A-7 - Saída 559, Murcia","A-7 - Saída 563, Murcia",Carro,4.2,A-7,SO,1,2
 "A-7 - Saída 563, Almería",A-7 - Saída 565,Carro,2.2,A-7,NE,2,1
+"A-7 - Saída 563, Murcia",Cruzamento Norte da A-7 com a A-30,Carro,3.7,A-7,SO,1,2
 A-7 - Saída 565,A-7 - Saída 661,Carro,2.0,A-7,NE,2,1
+A-7 - Saída 571,A-7 - Saída 575,Carro,3.9,A-7,O,1,2
+A-7 - Saída 571,Cruzamento Sul da A-7 com a A-30,Carro,2.0,A-7,E,2,1
+A-7 - Saída 575,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,2.6,A-7,SO,1,2
+A-7 - Saída 581,A-7 - Saída 584,Carro,3.0,A-7,SO,1,2
+A-7 - Saída 581,Cruzamento da A-7 com a MU-30 e a RM-15,Carro,4.6,A-7,N,2,1
+A-7 - Saída 584,A-7 - Saída 585,Carro,0.6,A-7,SO,1,2
+A-7 - Saída 585,A-7 - Saída 586,Carro,1.6,A-7,SO,1,2
+A-7 - Saída 586,A-7 - Saída 588,Carro,1.6,A-7,SO,1,2
+A-7 - Saída 588,A-7 - Saída 589,Carro,1.6,A-7,SO,1,2
+A-7 - Saída 589,A-7 - Saída 591,Carro,1.5,A-7,SO,1,2
 A-7 - Saída 591,A-7 - Saída 594,Carro,2.4,A-7,O,1,2
 A-7 - Saída 594,A-7 - Saída 596,Carro,2.2,A-7,SO,1,2
 A-7 - Saída 596,A-7 - Saída 598,Carro,2.0,A-7,SO,1,2
@@ -824,6 +841,9 @@ A-7 - Saída 646,A-7 - Saída 649,Carro,2.5,A-7,SO,1,2
 A-7 - Saída 649,Cruzamento da A-7 com a A-91,Carro,1.9,A-7,O,1,2
 A-7 - Saída 655,A-7 - Saída 661,Carro,6.3,A-7,SO,1,2
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Carro,3.4,A-7,N,2,1
+A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Carro,1.2,A-7/A-30,S,1,2
+A-7/A-30 - Saída 135,Cruzamento Norte da A-7 com a A-30,Carro,0.9,A-7/A-30,E,2,1
+A-7/A-30 - Saída 136,Cruzamento Sul da A-7 com a A-30,Carro,1.2,A-7/A-30,S,1,2
 A-7/AP-7 - Saída 155,Cruzamento II da A-7 com a AP-7,Carro,1.1,A-7/AP-7,O,1,2
 A-7/AP-7 - Saída 155,Cruzamento III da A-7 com a AP-7,Carro,2.4,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 182,A-7/AP-7 - Saída 184,Carro,2.3,A-7/AP-7,NE,2,1
