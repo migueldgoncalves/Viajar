@@ -2270,6 +2270,7 @@ Estação de Casais,Estação de Taveiro,Comboio,1.4,Linha do Norte - Urbanos de
 Estação de Cascais,Estação de Monte Estoril,Comboio,1.1,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Castanheira do Ribatejo,Estação de Vila Franca de Xira,Comboio,4.1,Linha da Azambuja/Linha do Norte - CP Lisboa,SO,1,2
 Estação de Castanheira do Ribatejo,Estação do Carregado,Comboio,2.2,Linha da Azambuja/Linha do Norte - CP Lisboa,NE,2,1
+Estação de Castelejo,Estação de Santa Comba Dão,Comboio,4.4,Linha da Beira Alta - Regional,O,1,2
 Estação de Castro Marim,Estação de Monte Gordo,Comboio,3.4,Linha do Algarve - Regional,SE,3,5
 Estação de Castro Marim,Vista Real,Carro,3.8,N125-6,NE,2,3
 Estação de Caxarias,Estação de Chão de Maçãs-Fátima,Comboio,9.5,Linha do Norte - Intercidades/InterRegional,SE,3,4
@@ -2287,9 +2288,10 @@ Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Comboio,23.3,Li
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,Comboio de Alta Velocidade,170.7,LAV Madrid-Sevilha,N,2,4
 Estação de Ciudad Real,Puertollano,Comboio de Alta Velocidade,39.1,LAV Madrid-Sevilha,SO,1,2
 Estação de Coimbra,Estação de Coimbra-B,Comboio,1.7,Ramal da Lousã - Regional/Urbanos de Coimbra,NO,1,3
-Estação de Coimbra-B,Estação de Pampilhosa,Comboio,14.0,Linha do Norte - Intercidades/InterRegional,N,5,3
+Estação de Coimbra-B,Estação de Pampilhosa,Comboio,14.0,Linha do Norte - Intercidades/InterRegional,N,5,4
 Estação de Coimbra-B,Estação de Pombal,Comboio,47.7,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SO,6,5
-Estação de Coimbra-B,Estação de Pombal,Comboio de Alta Velocidade,47.7,Linha do Norte,SO,7,7
+Estação de Coimbra-B,Estação de Pombal,Comboio de Alta Velocidade,47.7,Linha do Norte,SO,8,7
+Estação de Coimbra-B,Estação de Santa Comba Dão,Comboio,35.1,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,NE,7,3
 Estação de Coina,Estação de Fogueteiro,Comboio,5.2,Linha do Sul - Fertagus,O,2,1
 Estação de Coina,Estação de Penalva,Comboio,8.7,Linha do Sul - Fertagus,E,1,2
 Estação de Colombia,Estação de Nuevos Ministerios,Metro,1.8,Linha 8 - Metro de Madrid,SO,2,1
@@ -2377,6 +2379,8 @@ Estação de Leiria,Estação de Marinha Grande,Comboio,10.0,Linha do Oeste - In
 Estação de Leiria,Estação de Monte Real,Comboio,11.9,Linha do Oeste - InterRegional/Regional,N,2,1
 Estação de Litém,Estação de Vermoil,Comboio,5.5,Linha do Norte - Regional,O,2,1
 Estação de Louriçal,Estação de Verride,Comboio,7.1,Linha do Oeste/Ramal de Alfarelos - InterRegional/Regional,NE,3,3
+Estação de Luso - Buçaco,Estação de Soito,Comboio,8.2,Linha da Beira Alta - Regional,E,2,1
+Estação de Luso - Buçaco,Estação de Vacariça,Comboio,5.2,Linha da Beira Alta - Regional,SO,1,2
 Estação de Madrid-Atocha,Estação de Madrid-Puerta de Atocha,Transbordo,0.0,,N,3,3
 Estação de Madrid-Atocha,Estação de Recoletos,Comboio,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,4,1
 Estação de Madrid-Atocha,"Paseo de Santa María de la Cabeza, Madrid",Carro,1.6,,SO,1,3
@@ -2406,11 +2410,15 @@ Estação de Messines - Alte,Tunes,Comboio,12.1,Linha do Sul - Intercidades,SE,2
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,5.1,Linha do Oeste - InterRegional/Regional,N,2,1
 Estação de Moita,Estação de Penteado,Comboio,3.6,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
 Estação de Monte Abraão,Estação de Queluz - Belas,Comboio,0.9,Linha de Sintra - CP Lisboa,E,1,2
+Estação de Monte de Lobos,Estação de Mortágua,Comboio,2.8,Linha da Beira Alta - Regional,SE,2,1
+Estação de Monte de Lobos,Estação de Soito,Comboio,3.4,Linha da Beira Alta - Regional,O,1,2
 Estação de Monte Estoril,Estação do Estoril,Comboio,0.7,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Monte Gordo,Hortas,Carro,0.9,N125,SE,1,1
 Estação de Monte Gordo,Monte Gordo,Carro,1.5,,S,2,1
 Estação de Monte Gordo,Vila Real de Santo António,Comboio,2.7,Linha do Algarve - Regional,NE,4,8
 Estação de Monte Real,Estação de Monte Redondo,Comboio,5.1,Linha do Oeste - InterRegional/Regional,N,2,1
+Estação de Mortágua,Estação de Pampilhosa,Comboio,23.1,Linha da Beira Alta - Intercidades,O,3,5
+Estação de Mortágua,Estação de Santa Comba Dão,Comboio,11.8,Linha da Beira Alta - Intercidades/Regional,E,2,1
 Estação de Moscavide,Estação de Sacavém,Comboio,2.0,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,1
 Estação de Moscavide,Gare do Oriente,Comboio,1.2,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,4
 Estação de Nuevos Ministerios,Estação de Recoletos,Comboio,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
@@ -2420,6 +2428,7 @@ Estação de Paço de Arcos,Estação de Santo Amaro,Comboio,2.4,Linha de Cascai
 Estação de Palmela,Estação de Setúbal,Comboio,4.9,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,S,2,1
 Estação de Palmela,Estação de Venda do Alcaide,Comboio,4.0,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,NO,1,2
 Estação de Pampilhosa,Estação de Souselas,Comboio,6.4,Linha do Norte - Regional,S,1,2
+Estação de Pampilhosa,Estação de Vacariça,Comboio,3.6,Linha da Beira Alta - Regional,NE,3,1
 Estação de Parque das Cidades,Mar Shopping Algarve,Carro,2.5,,NO,2,4
 Estação de Pataias,Estação de Valado-Nazaré-Alcobaça,Comboio,8.7,Linha do Oeste - Regional,S,1,2
 Estação de Paúl,Estação de São Mamede,Comboio,3.6,Linha do Oeste - Regional,NO,2,1
