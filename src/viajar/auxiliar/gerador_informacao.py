@@ -358,6 +358,13 @@ class GeradorInformacao:
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
         calc_dist.gerar_mapa_processado(todas_coordenadas, self.via_tipo, self.pais, via_nome=self.via_nome)
 
+        origem = ordenador.separar_por_virgulas(lista=conteudo[0].split(','))[0]
+        destino = ordenador.separar_por_virgulas(lista=conteudo[-1].split(','))[0]
+        print("\nIntroduza os destinos já conhecidos separados por vírgulas, depois pressione ENTER.")
+        print("Ou pressione ENTER sem destinos para gerar um ficheiro sem destinos pré-preenchidos.")
+        destinos_para_inicio: list[str] = input(f"Introduza os destinos desde {destino} em direcção a {origem}: ").split(",")
+        destinos_para_fim: list[str] = input(f"Introduza os destinos desde {origem} em direcção a {destino}: ").split(",")
+
         ligacoes: list[str] = []
         destinos: list[str] = []
         for idx, local in enumerate(conteudo):
@@ -395,11 +402,20 @@ class GeradorInformacao:
                     distancia = 0.0
 
                 ligacao: str = f'{local_a},{local_b},{meio_transporte},{distancia},{info_extra},{ponto_cardeal},{ordem_a},{ordem_b}\n'
-                destino_false: str = f'{local_a},{local_b},{meio_transporte},False,\n'
-                destino_true: str = f'{local_a},{local_b},{meio_transporte},True,\n'
-
                 ligacoes.append(ligacao)
+
+                if destinos_para_inicio:
+                    for destino in destinos_para_inicio:
+                        destino_false: str = f'{local_a},{local_b},{meio_transporte},False,{destino}\n'
+                        destinos.append(destino_false)
+                destino_false: str = f'{local_a},{local_b},{meio_transporte},False,\n'  # Linha vazia para facilitar o adicionar de mais destinos
                 destinos.append(destino_false)
+
+                if destinos_para_fim:
+                    for destino in destinos_para_fim:
+                        destino_true: str = f'{local_a},{local_b},{meio_transporte},True,{destino}\n'
+                        destinos.append(destino_true)
+                destino_true: str = f'{local_a},{local_b},{meio_transporte},True,\n'  # Linha vazia para facilitar o adicionar de mais destinos
                 destinos.append(destino_true)
 
                 print(f'{idx + 1}/{len(conteudo) - 1} ligações processadas')  # Conta todas as linhas mesmo com linhas vazias pelo meio
