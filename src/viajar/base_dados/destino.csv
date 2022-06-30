@@ -7470,6 +7470,18 @@ Estação de Campolide,Estação do Rossio,Comboio,False,Pinhal Novo
 Estação de Campolide,Estação do Rossio,Comboio,False,Porto - Campanhã
 Estação de Campolide,Estação do Rossio,Comboio,False,Sintra
 Estação de Campolide,Estação do Rossio,Comboio,True,Lisboa - Rossio
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,False,Covilhã
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,False,Guarda
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,False,Vilar Formoso
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,True,Lisboa - Santa Apolónia
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,True,Pampilhosa
+Estação de Canas-Felgueira,Estação de Lapa do Lobo,Comboio,True,Porto - Campanhã
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,False,Lisboa - Santa Apolónia
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,False,Pampilhosa
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,False,Porto - Campanhã
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,True,Covilhã
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,True,Guarda
+Estação de Canas-Felgueira,Estação de Nelas,Comboio,True,Vilar Formoso
 Estação de Carcavelos,Estação de Oeiras,Comboio,False,Cascais
 Estação de Carcavelos,Estação de Oeiras,Comboio,False,São Pedro do Estoril
 Estação de Carcavelos,Estação de Oeiras,Comboio,True,Algés
@@ -7484,6 +7496,28 @@ Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Entr
 Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Lisboa - Santa Apolónia
 Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Pombal
 Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Comboio,True,Porto - Campanhã
+Estação de Carregal do Sal,Estação de Nelas,Comboio,False,Lisboa - Santa Apolónia
+Estação de Carregal do Sal,Estação de Nelas,Comboio,False,Pampilhosa
+Estação de Carregal do Sal,Estação de Nelas,Comboio,False,Porto - Campanhã
+Estação de Carregal do Sal,Estação de Nelas,Comboio,True,Covilhã
+Estação de Carregal do Sal,Estação de Nelas,Comboio,True,Guarda
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,False,Lisboa - Santa Apolónia
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,False,Pampilhosa
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,False,Porto - Campanhã
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,True,Covilhã
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,True,Guarda
+Estação de Carregal do Sal,Estação de Oliveirinha-Cabanas,Comboio,True,Vilar Formoso
+Estação de Carregal do Sal,Estação de Papízios,Comboio,False,Covilhã
+Estação de Carregal do Sal,Estação de Papízios,Comboio,False,Guarda
+Estação de Carregal do Sal,Estação de Papízios,Comboio,False,Vilar Formoso
+Estação de Carregal do Sal,Estação de Papízios,Comboio,True,Lisboa - Santa Apolónia
+Estação de Carregal do Sal,Estação de Papízios,Comboio,True,Pampilhosa
+Estação de Carregal do Sal,Estação de Papízios,Comboio,True,Porto - Campanhã
+Estação de Carregal do Sal,Estação de Santa Comba Dão,Comboio,False,Covilhã
+Estação de Carregal do Sal,Estação de Santa Comba Dão,Comboio,False,Guarda
+Estação de Carregal do Sal,Estação de Santa Comba Dão,Comboio,True,Lisboa - Santa Apolónia
+Estação de Carregal do Sal,Estação de Santa Comba Dão,Comboio,True,Pampilhosa
+Estação de Carregal do Sal,Estação de Santa Comba Dão,Comboio,True,Porto - Campanhã
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,False,Tomar
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Entroncamento
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Comboio,True,Lisboa - Santa Apolónia
@@ -7517,6 +7551,12 @@ Estação de Castanheira do Ribatejo,Estação do Carregado,Comboio,False,Lisboa
 Estação de Castanheira do Ribatejo,Estação do Carregado,Comboio,False,Vila Franca de Xira
 Estação de Castanheira do Ribatejo,Estação do Carregado,Comboio,True,Azambuja
 Estação de Castanheira do Ribatejo,Estação do Carregado,Comboio,True,Porto - Campanhã
+Estação de Castelejo,Estação de Papízios,Comboio,False,Lisboa - Santa Apolónia
+Estação de Castelejo,Estação de Papízios,Comboio,False,Pampilhosa
+Estação de Castelejo,Estação de Papízios,Comboio,False,Porto - Campanhã
+Estação de Castelejo,Estação de Papízios,Comboio,True,Covilhã
+Estação de Castelejo,Estação de Papízios,Comboio,True,Guarda
+Estação de Castelejo,Estação de Papízios,Comboio,True,Vilar Formoso
 Estação de Castelejo,Estação de Santa Comba Dão,Comboio,False,Covilhã
 Estação de Castelejo,Estação de Santa Comba Dão,Comboio,False,Guarda
 Estação de Castelejo,Estação de Santa Comba Dão,Comboio,False,Vilar Formoso
@@ -7909,6 +7949,12 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Gouveia,Estação de Mangualde,Comboio,False,Covilhã
+Estação de Gouveia,Estação de Mangualde,Comboio,False,Guarda
+Estação de Gouveia,Estação de Mangualde,Comboio,False,Vilar Formoso
+Estação de Gouveia,Estação de Mangualde,Comboio,True,Lisboa - Santa Apolónia
+Estação de Gouveia,Estação de Mangualde,Comboio,True,Pampilhosa
+Estação de Gouveia,Estação de Mangualde,Comboio,True,Porto - Campanhã
 Estação de Guia,Estação de Louriçal,Comboio,False,Leiria
 Estação de Guia,Estação de Louriçal,Comboio,False,Lisboa - Rossio
 Estação de Guia,Estação de Louriçal,Comboio,True,Bifurcação de Lares
@@ -7958,6 +8004,12 @@ Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Pombal
 Estação de Lamarosa,Estação do Entroncamento,Comboio,False,Porto - Campanhã
 Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Lisboa - Santa Apolónia
 Estação de Lamarosa,Estação do Entroncamento,Comboio,True,Santarém
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,False,Covilhã
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,False,Guarda
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,False,Vilar Formoso
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,True,Lisboa - Santa Apolónia
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,True,Pampilhosa
+Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Comboio,True,Porto - Campanhã
 Estação de Leiria,Estação de Marinha Grande,Comboio,False,Bifurcação de Lares
 Estação de Leiria,Estação de Marinha Grande,Comboio,False,Coimbra-B
 Estação de Leiria,Estação de Marinha Grande,Comboio,False,Figueira da Foz
@@ -8027,6 +8079,22 @@ Estação de Malveira,Estação de Sabugo,Comboio,False,Caldas da Rainha
 Estação de Malveira,Estação de Sabugo,Comboio,False,Coimbra-B
 Estação de Malveira,Estação de Sabugo,Comboio,True,Agualva - Cacém
 Estação de Malveira,Estação de Sabugo,Comboio,True,Lisboa - Rossio
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,False,Covilhã
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,False,Guarda
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,False,Vilar Formoso
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,True,Lisboa - Santa Apolónia
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,True,Pampilhosa
+Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,True,Porto - Campanhã
+Estação de Mangualde,Estação de Nelas,Comboio,False,Covilhã
+Estação de Mangualde,Estação de Nelas,Comboio,False,Guarda
+Estação de Mangualde,Estação de Nelas,Comboio,True,Lisboa - Santa Apolónia
+Estação de Mangualde,Estação de Nelas,Comboio,True,Pampilhosa
+Estação de Mangualde,Estação de Nelas,Comboio,True,Porto - Campanhã
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,False,Guarda
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,False,Hendaye
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,False,Madrid-Chamartín
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,True,Coimbra-B
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,True,Lisboa - Santa Apolónia
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T1-T2-T3
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,False,Aeropuerto T4
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,True,Colombia
@@ -8092,6 +8160,12 @@ Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,False,Lisboa - R
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Caldas da Rainha
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Figueira da Foz
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Comboio,True,Jerumelo
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,False,Covilhã
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,False,Guarda
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,False,Vilar Formoso
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,True,Lisboa - Santa Apolónia
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,True,Pampilhosa
+Estação de Moimenta-Alcafache,Estação de Nelas,Comboio,True,Porto - Campanhã
 Estação de Moita,Estação de Penteado,Comboio,False,Barreiro
 Estação de Moita,Estação de Penteado,Comboio,True,Pinhal Novo
 Estação de Moita,Estação de Penteado,Comboio,True,Praias do Sado-A
@@ -8129,7 +8203,6 @@ Estação de Monte Real,Estação de Monte Redondo,Comboio,True,Coimbra-B
 Estação de Monte Real,Estação de Monte Redondo,Comboio,True,Figueira da Foz
 Estação de Mortágua,Estação de Pampilhosa,Comboio,False,Covilhã
 Estação de Mortágua,Estação de Pampilhosa,Comboio,False,Guarda
-Estação de Mortágua,Estação de Pampilhosa,Comboio,False,Vilar Formoso
 Estação de Mortágua,Estação de Pampilhosa,Comboio,True,Lisboa - Santa Apolónia
 Estação de Mortágua,Estação de Pampilhosa,Comboio,True,Porto - Campanhã
 Estação de Mortágua,Estação de Santa Comba Dão,Comboio,False,Lisboa - Santa Apolónia
