@@ -409,6 +409,7 @@ Espírito Santo,Espírito Santo,Mértola
 Estação Cabo Ruivo,Santa Maria de Olivais,Lisboa
 Estação da Azambuja,Azambuja,Azambuja
 Estação da Casa Branca,Santiago do Escoural,Montemor-o-Novo
+Estação da Guarda,Guarda,Guarda
 Estação da Luz,Luz de Tavira,Tavira
 Estação da Parede,Parede,Cascais
 Estação da Porta Nova,Santa Maria,Tavira
@@ -423,6 +424,7 @@ Estação de Alcáçovas,Nossa Senhora da Tourega,Évora
 Estação de Alcântara-Mar,Prazeres,Lisboa
 Estação de Alcântara-Terra,Prazeres,Lisboa
 Estação de Alcantarilha,Alcantarilha,Silves
+Estação de Aldeia,Castelo Bom,Almeida
 Estação de Alfarelos,Granja do Ulmeiro,Soure
 Estação de Alferrarede,Alferrarede,Abrantes
 Estação de Algés,Algés,Oeiras
@@ -440,6 +442,7 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
 Estação de Arronches,Assunção,Arronches
 Estação de Assumar,Assumar,Monforte
 Estação de Baixa da Banheira,Baixa da Banheira,Moita
+Estação de Baraçal,Baraçal,Celorico da Beira
 Estação de Barquinha,Vila Nova da Barquinha,Vila Nova da Barquinha
 Estação de Barragem de Belver,Ortiga,Mação
 Estação de Barreiro-A,Barreiro,Barreiro
@@ -469,6 +472,8 @@ Estação de Castelejo,São João de Areias,Santa Comba Dão
 Estação de Castro Marim,Castro Marim,Castro Marim
 Estação de Caxarias,Caxarias,Ourém
 Estação de Caxias,Caxias,Oeiras
+Estação de Celorico da Beira,Forno Telheiro,Celorico da Beira
+Estação de Cerdeira,Cerdeira,Sabugal
 Estação de Chança,Chancelaria,Alter do Chão
 Estação de Chão de Maçãs-Fátima,Sabacheira,Tomar
 Estação de Coimbra,São Bartolomeu,Coimbra
@@ -497,11 +502,14 @@ Estação de Fogueteiro,Arrentela,Seixal
 Estação de Fontela,Vila Verde,Figueira da Foz
 Estação de Fontela-A,Vila Verde,Figueira da Foz
 Estação de Formoselha,Santo Varão,Montemor-o-Velho
+Estação de Fornos de Algodres,Fornos de Algodres,Fornos de Algodres
 Estação de Foros de Amora,Amora,Seixal
+Estação de Freineda,Freineda,Almeida
 Estação de Funcheira,Garvão,Ourique
 Estação de Fungalvaz,Assentiz,Torres Novas
 Estação de Fuseta-A,Fuseta,Olhão
 Estação de Fuseta-Moncarapacho,Moncarapacho,Olhão
+Estação de Gata,Casal de Cinza,Guarda
 Estação de Gouveia,Abrunhosa-a-Velha,Mangualde
 Estação de Guia,Guia,Pombal
 Estação de Jerumelo,Sapataria,Sobral de Monte Agraço
@@ -526,6 +534,7 @@ Estação de Mato de Miranda,Azinhaga,Golegã
 Estação de Mealhada,Mealhada,Mealhada
 Estação de Messines - Alte,São Bartolomeu de Messines,Silves
 Estação de Mira Sintra - Meleças,Belas,Sintra
+Estação de Miuzela,Miuzela,Almeida
 Estação de Moimenta-Alcafache,Espinho,Mangualde
 Estação de Moita,Moita,Moita
 Estação de Monte Abraão,Queluz,Sintra
@@ -574,6 +583,7 @@ Estação de Reguengo-Vale da Pedra-Pontével,Vale da Pedra,Cartaxo
 Estação de Reveles,Abrunheira,Montemor-o-Velho
 Estação de Riachos-Torres Novas-Golegã,Riachos,Torres Novas
 Estação de Rio de Mouro,Rio de Mouro,Sintra
+Estação de Rochoso,Rochoso,Guarda
 Estação de Roma-Areeiro,Alvalade,Lisboa
 Estação de Runa,Runa,Torres Vedras
 Estação de Sabugo,Almargem do Bispo,Sintra
@@ -622,10 +632,13 @@ Estação de Vale de Santarém,Vale de Santarém,Santarém
 Estação de Venda do Alcaide,Palmela,Palmela
 Estação de Vermoil,Santiago de Litém,Pombal
 Estação de Verride,Verride,Montemor-o-Velho
+Estação de Vila Fernando,Vila Fernando,Guarda
+Estação de Vila Franca das Naves,Vila Franca das Naves,Trancoso
 Estação de Vila Franca de Xira,Vila Franca de Xira,Vila Franca de Xira
 Estação de Vila Nova da Rainha,Vila Nova da Rainha,Azambuja
 Estação de Vila Nova de Anços,Vila Nova de Anços,Soure
 Estação de Vila Pouca do Campo,Ameal,Coimbra
+Estação de Vilar Formoso,Vilar Formoso,Almeida
 Estação de Vilela-Fornos,Torre de Vilela,Coimbra
 Estação de Virtudes,Aveiras de Baixo,Azambuja
 Estação de Zibreira,Sobral de Monte Agraço,Sobral de Monte Agraço
@@ -921,6 +934,7 @@ São Marcos da Serra,São Marcos da Serra,Silves
 São Martinho,Alcoutim,Alcoutim
 São Martinho das Amoreiras,São Martinho das Amoreiras,Odemira
 São Matias,São Matias,Beja
+São Miguel da Guarda,Guarda,Guarda
 São Teotónio,São Teotónio,Odemira
 Sapos,Santana de Cambas,Mértola
 Sedas,Espírito Santo,Mértola
@@ -984,6 +998,7 @@ Vila Nova de São Bento,Vila Nova de São Bento,Serpa
 Vila Real de Santo António,Vila Real de Santo António,Vila Real de Santo António
 Vila Verde de Ficalho,Vila Verde de Ficalho,Serpa
 Vilamoura,Quarteira,Loulé
+Vilar Formoso,Vilar Formoso,Almeida
 Villa Romana de Pisões,Santiago Maior,Beja
 Villa Romana de São Cucufate,Vila de Frades,Vidigueira
 Vista Real,Castro Marim,Castro Marim

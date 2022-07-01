@@ -1022,6 +1022,10 @@ A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,False,Espanha
 A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,False,Vilar Formoso
 A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,True,Aveiro
 A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,True,Guarda
+A25 - Saída 33,Vilar Formoso,Carro,False,A25 - Aveiro/Guarda
+A25 - Saída 33,Vilar Formoso,Carro,True,Estação de Vilar Formoso
+A25 - Saída 33,Vilar Formoso,Carro,True,Sabugal
+A25 - Saída 33,Vilar Formoso,Carro,True,Terminal TIR de Vilar Formoso
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Beja
 A26 - Fim,Cruzamento da A2 com a A26,Carro,False,Ferreira do Alentejo
 A26 - Fim,Cruzamento da A2 com a A26,Carro,True,A2 - Algarve/Lisboa
@@ -6928,6 +6932,25 @@ Estação da Casa Branca,Vendas Novas,Comboio,False,Vila Nova da Baronia
 Estação da Casa Branca,Vendas Novas,Comboio,True,Faro
 Estação da Casa Branca,Vendas Novas,Comboio,True,Lisboa - Oriente
 Estação da Casa Branca,Vendas Novas,Comboio,True,Pinhal Novo
+Estação da Guarda,Estação de Celorico da Beira,Comboio,False,Hendaye
+Estação da Guarda,Estação de Celorico da Beira,Comboio,False,Madrid-Chamartín
+Estação da Guarda,Estação de Celorico da Beira,Comboio,False,Vilar Formoso
+Estação da Guarda,Estação de Celorico da Beira,Comboio,True,Coimbra-B
+Estação da Guarda,Estação de Celorico da Beira,Comboio,True,Lisboa - Santa Apolónia
+Estação da Guarda,Estação de Gata,Comboio,False,Covilhã
+Estação da Guarda,Estação de Gata,Comboio,False,Pampilhosa
+Estação da Guarda,Estação de Gata,Comboio,True,Vilar Formoso
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,False,Covilhã
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,False,Entroncamento
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,False,Vilar Formoso
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,True,Lisboa - Santa Apolónia
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,True,Pampilhosa
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,True,Porto - Campanhã
+Estação da Guarda,Estação de Vilar Formoso,Comboio,False,Coimbra-B
+Estação da Guarda,Estação de Vilar Formoso,Comboio,False,Lisboa - Santa Apolónia
+Estação da Guarda,Estação de Vilar Formoso,Comboio,True,Hendaye
+Estação da Guarda,Estação de Vilar Formoso,Comboio,True,Madrid-Chamartín
+Estação da Guarda,Estação de Vilar Formoso,Comboio,True,Salamanca
 Estação da Luz,Estação de Tavira,Comboio,False,Faro
 Estação da Luz,Estação de Tavira,Comboio,False,Lagos
 Estação da Luz,Estação de Tavira,Comboio,True,Vila Real de Santo António
@@ -7105,6 +7128,14 @@ Estação de Alcântara-Terra,Estação de Campolide,Comboio,True,Sintra
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Comboio,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Comboio,True,Lagos
+Estação de Aldeia,Estação de Freineda,Comboio,False,Vilar Formoso
+Estação de Aldeia,Estação de Freineda,Comboio,True,Covilhã
+Estação de Aldeia,Estação de Freineda,Comboio,True,Guarda
+Estação de Aldeia,Estação de Freineda,Comboio,True,Pampilhosa
+Estação de Aldeia,Estação de Vilar Formoso,Comboio,False,Covilhã
+Estação de Aldeia,Estação de Vilar Formoso,Comboio,False,Guarda
+Estação de Aldeia,Estação de Vilar Formoso,Comboio,False,Pampilhosa
+Estação de Aldeia,Estação de Vilar Formoso,Comboio,True,Vilar Formoso
 Estação de Alfarelos,Estação de Coimbra-B,Comboio,False,Entroncamento
 Estação de Alfarelos,Estação de Coimbra-B,Comboio,False,Figueira da Foz
 Estação de Alfarelos,Estação de Coimbra-B,Comboio,False,Leiria
@@ -7273,6 +7304,18 @@ Estação de Badajoz,Estação de Elvas,Comboio,True,Portalegre
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Pinhal Novo
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,False,Praias do Sado-A
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,True,Barreiro
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,False,Covilhã
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,False,Guarda
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,False,Vilar Formoso
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,True,Lisboa - Santa Apolónia
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,True,Pampilhosa
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,True,Porto - Campanhã
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,False,Lisboa - Santa Apolónia
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,False,Pampilhosa
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,False,Porto - Campanhã
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,True,Covilhã
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,True,Guarda
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,True,Vilar Formoso
 Estação de Barquinha,Estação de Tancos,Comboio,False,Entroncamento
 Estação de Barquinha,Estação de Tancos,Comboio,False,Lisboa - Santa Apolónia
 Estação de Barquinha,Estação de Tancos,Comboio,False,Porto - Campanhã
@@ -7598,6 +7641,30 @@ Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Algés
 Estação de Caxias,Estação de Paço de Arcos,Comboio,False,Lisboa - Cais do Sodré
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Cascais
 Estação de Caxias,Estação de Paço de Arcos,Comboio,True,Oeiras
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,False,Covilhã
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,False,Guarda
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,False,Vilar Formoso
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,True,Lisboa - Santa Apolónia
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,True,Pampilhosa
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,True,Porto - Campanhã
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,False,Guarda
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,False,Hendaye
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,False,Madrid-Chamartín
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,True,Coimbra-B
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,True,Lisboa - Santa Apolónia
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,False,Lisboa - Santa Apolónia
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,False,Pampilhosa
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,False,Porto - Campanhã
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,True,Covilhã
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,True,Guarda
+Estação de Cerdeira,Estação de Miuzela,Comboio,False,Covilhã
+Estação de Cerdeira,Estação de Miuzela,Comboio,False,Guarda
+Estação de Cerdeira,Estação de Miuzela,Comboio,False,Pampilhosa
+Estação de Cerdeira,Estação de Miuzela,Comboio,True,Vilar Formoso
+Estação de Cerdeira,Estação de Rochoso,Comboio,False,Vilar Formoso
+Estação de Cerdeira,Estação de Rochoso,Comboio,True,Covilhã
+Estação de Cerdeira,Estação de Rochoso,Comboio,True,Guarda
+Estação de Cerdeira,Estação de Rochoso,Comboio,True,Pampilhosa
 Estação de Chança,Estação de Crato,Comboio,False,Abrantes
 Estação de Chança,Estação de Crato,Comboio,False,Entroncamento
 Estação de Chança,Estação de Crato,Comboio,False,Guarda
@@ -7918,6 +7985,21 @@ Estação de Formoselha,Estação de Pereira,Comboio,False,Figueira da Foz
 Estação de Formoselha,Estação de Pereira,Comboio,False,Lisboa - Santa Apolónia
 Estação de Formoselha,Estação de Pereira,Comboio,True,Coimbra-B
 Estação de Formoselha,Estação de Pereira,Comboio,True,Porto - Campanhã
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,False,Covilhã
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,False,Guarda
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,False,Vilar Formoso
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,True,Lisboa - Santa Apolónia
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,True,Pampilhosa
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,True,Porto - Campanhã
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,False,Covilhã
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,False,Guarda
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,True,Lisboa - Santa Apolónia
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,True,Pampilhosa
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,True,Porto - Campanhã
+Estação de Freineda,Estação de Miuzela,Comboio,False,Vilar Formoso
+Estação de Freineda,Estação de Miuzela,Comboio,True,Covilhã
+Estação de Freineda,Estação de Miuzela,Comboio,True,Guarda
+Estação de Freineda,Estação de Miuzela,Comboio,True,Pampilhosa
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,False,Aeroporto de Madrid-Barajas
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Collado Villalba
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,True,Madrid-Atocha
@@ -7949,6 +8031,10 @@ Estação de Fuseta-Moncarapacho,Fuseta,Carro,True,Fuseta
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Faro
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,False,Lagos
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,True,Vila Real de Santo António
+Estação de Gata,Estação de Vila Fernando,Comboio,False,Covilhã
+Estação de Gata,Estação de Vila Fernando,Comboio,False,Guarda
+Estação de Gata,Estação de Vila Fernando,Comboio,False,Pampilhosa
+Estação de Gata,Estação de Vila Fernando,Comboio,True,Vilar Formoso
 Estação de Gouveia,Estação de Mangualde,Comboio,False,Covilhã
 Estação de Gouveia,Estação de Mangualde,Comboio,False,Guarda
 Estação de Gouveia,Estação de Mangualde,Comboio,False,Vilar Formoso
@@ -8404,6 +8490,10 @@ Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,Fal
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,False,Santarém
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Pombal
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,True,Porto - Campanhã
+Estação de Rochoso,Estação de Vila Fernando,Comboio,False,Vilar Formoso
+Estação de Rochoso,Estação de Vila Fernando,Comboio,True,Covilhã
+Estação de Rochoso,Estação de Vila Fernando,Comboio,True,Guarda
+Estação de Rochoso,Estação de Vila Fernando,Comboio,True,Pampilhosa
 Estação de Runa,Estação de Torres Vedras,Comboio,False,Agualva - Cacém
 Estação de Runa,Estação de Torres Vedras,Comboio,False,Jerumelo
 Estação de Runa,Estação de Torres Vedras,Comboio,False,Lisboa - Rossio

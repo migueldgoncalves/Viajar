@@ -252,6 +252,7 @@ A25 - Saída 22,A25 - Saída 23,Carro,12.3,A25,E,2,1
 A25 - Saída 22,Área de Serviço de Mangualde,Carro,2.0,A25,O,1,2
 A25 - Saída 23,A25 - Saída 24,Carro,8.1,A25,E,2,1
 A25 - Saída 24,A25 - Saída 25,Carro,12.0,A25,E,2,1
+A25 - Saída 24,Estação de Fornos de Algodres,Carro,2.6,,NE,3,4
 A25 - Saída 25,A25 - Saída 26,Carro,1.3,A25,E,2,1
 A25 - Saída 26,Área de Serviço de Celorico da Beira,Carro,4.0,A25,E,2,1
 A25 - Saída 27,A25 - Saída 28,Carro,2.3,A25,E,2,1
@@ -259,11 +260,13 @@ A25 - Saída 27,Área de Serviço de Celorico da Beira,Carro,0.9,A25,SO,1,2
 A25 - Saída 28,A25 - Saída 28A,Carro,0.7,A25,E,2,1
 A25 - Saída 28A,A25 - Saída 29,Carro,13.9,A25,SE,2,1
 A25 - Saída 29,Cruzamento da A23 com a A25,Carro,2.6,A25,E,2,1
+A25 - Saída 29,São Miguel da Guarda,Carro,1.2,,S,3,1
 A25 - Saída 31,A25 - Saída 32,Carro,7.4,A25,E,2,1
 A25 - Saída 31,Cruzamento da A23 com a A25,Carro,13.9,A25,O,1,2
 A25 - Saída 32,Área de Serviço do Alto de Leomil,Carro,2.6,A25,E,2,1
 A25 - Saída 33,A-62 - Saída 355,Carro,2.1,A25,E,2,1
 A25 - Saída 33,Área de Serviço do Alto de Leomil,Carro,9.6,A25,O,1,2
+A25 - Saída 33,Vilar Formoso,Carro,1.6,IP5,SE,3,1
 A26 - Fim,Cruzamento da A2 com a A26,Carro,12.8,A26,NO,1,3
 A26 - Fim,Ferreira do Alentejo,Carro,16.1,IP8,SE,2,3
 A26 - Saída 2,A26 - Saída 3,Carro,5.3,A26,NE,2,1
@@ -2143,6 +2146,11 @@ Estação da Azambuja,Estação de Virtudes,Comboio,3.0,Linha do Norte - Regiona
 Estação da Casa Branca,Estação de Alcáçovas,Comboio,11.8,Linha do Alentejo - Intercidades,SE,1,2
 Estação da Casa Branca,Estação de Évora,Comboio,26.6,Linha de Évora - Intercidades,E,3,1
 Estação da Casa Branca,Vendas Novas,Comboio,33.6,Linha do Alentejo - Intercidades,O,2,1
+Estação da Guarda,Estação de Celorico da Beira,Comboio,38.1,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,NO,3,5
+Estação da Guarda,Estação de Gata,Comboio,4.1,Linha da Beira Alta - Regional,SE,2,1
+Estação da Guarda,Estação de Vila Franca das Naves,Comboio,24.3,Linha da Beira Alta - Intercidades/Regional,N,1,2
+Estação da Guarda,Estação de Vilar Formoso,Comboio,45.5,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,E,4,2
+Estação da Guarda,São Miguel da Guarda,Carro,1.0,,NO,5,2
 Estação da Luz,Estação de Tavira,Comboio,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Comboio,3.3,Linha do Algarve - Regional,SO,3,3
 Estação da Luz,Luz de Tavira,Carro,0.6,,NO,1,2
@@ -2184,6 +2192,8 @@ Estação de Alcântara-Mar,Estação de Santos,Comboio,1.7,Linha de Cascais - C
 Estação de Alcântara-Terra,Estação de Campolide,Comboio,3.0,Linha da Azambuja/Linha de Cintura - CP Lisboa,N,1,6
 Estação de Alcantarilha,Poço Barreto,Carro,3.7,,O,3,1
 Estação de Alcantarilha,Poço Barreto,Comboio,3.6,Linha do Algarve - Regional,O,5,5
+Estação de Aldeia,Estação de Freineda,Comboio,2.6,Linha da Beira Alta - Regional,O,1,2
+Estação de Aldeia,Estação de Vilar Formoso,Comboio,5.1,Linha da Beira Alta - Regional,E,2,1
 Estação de Alfarelos,Estação de Coimbra-B,Comboio,18.9,Linha do Norte - Intercidades/InterRegional,E,6,4
 Estação de Alfarelos,Estação de Figueira da Foz,Comboio,14.7,Linha do Oeste/Ramal de Alfarelos - InterRegional,O,7,2
 Estação de Alfarelos,Estação de Formoselha,Comboio,2.8,Linha do Norte - Regional/Urbanos de Coimbra,NE,2,1
@@ -2223,6 +2233,8 @@ Estação de Arronches,Estação de Santa Eulália-A,Comboio,13.5,Linha do Leste
 Estação de Assumar,Estação de Portalegre,Comboio,10.3,Linha do Leste - Regional,NO,1,2
 Estação de Badajoz,Estação de Elvas,Comboio,10.7,Linha do Leste - Regional,O,1,2
 Estação de Baixa da Banheira,Estação do Lavradio,Comboio,1.2,Linha do Alentejo/Linha do Sado - CP Lisboa,O,1,2
+Estação de Baraçal,Estação de Celorico da Beira,Comboio,5.2,Linha da Beira Alta - Regional,O,1,2
+Estação de Baraçal,Estação de Vila Franca das Naves,Comboio,8.6,Linha da Beira Alta - Regional,NE,2,1
 Estação de Barquinha,Estação de Tancos,Comboio,3.6,Linha da Beira Baixa - Regional,E,2,1
 Estação de Barquinha,Estação do Entroncamento,Comboio,3.8,Linha da Beira Baixa - Regional,O,1,3
 Estação de Barreiro-A,Estação do Barreiro,Comboio,1.1,Linha do Alentejo/Linha do Sado - CP Lisboa,SO,1,1
@@ -2286,6 +2298,11 @@ Estação de Caxarias,Estação de Seiça-Ourém,Comboio,6.5,Linha do Norte - Re
 Estação de Caxarias,Estação do Entroncamento,Comboio,32.7,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,S,5,8
 Estação de Caxias,Estação de Cruz Quebrada,Comboio,2.0,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Caxias,Estação de Paço de Arcos,Comboio,1.4,Linha de Cascais - CP Lisboa,O,2,1
+Estação de Celorico da Beira,Estação de Fornos de Algodres,Comboio,15.7,Linha da Beira Alta - Intercidades/Regional,O,1,2
+Estação de Celorico da Beira,Estação de Mangualde,Comboio,39.4,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,O,4,6
+Estação de Celorico da Beira,Estação de Vila Franca das Naves,Comboio,13.8,Linha da Beira Alta - Intercidades,E,3,3
+Estação de Cerdeira,Estação de Miuzela,Comboio,3.2,Linha da Beira Alta - Regional,E,2,1
+Estação de Cerdeira,Estação de Rochoso,Comboio,3.9,Linha da Beira Alta - Regional,O,1,2
 Estação de Chança,Estação de Crato,Comboio,15.5,Linha do Leste - Regional,E,2,1
 Estação de Chança,Estação de Torre das Vargens,Comboio,9.6,Linha do Leste - Regional,O,1,2
 Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Comboio,4.3,Linha do Norte - Regional,S,1,2
@@ -2354,6 +2371,9 @@ Estação de Fogueteiro,Estação de Foros de Amora,Comboio,2.8,Linha do Sul - F
 Estação de Fontela,Estação de Fontela-A,Comboio,1.1,Linha do Oeste - Regional/Urbanos de Coimbra,O,2,1
 Estação de Fontela,Estação de Lares,Comboio,3.6,Linha do Oeste - Regional/Urbanos de Coimbra,E,1,2
 Estação de Formoselha,Estação de Pereira,Comboio,2.1,Linha do Norte - Regional/Urbanos de Coimbra,E,2,1
+Estação de Fornos de Algodres,Estação de Gouveia,Comboio,7.9,Linha da Beira Alta - Regional,O,1,2
+Estação de Fornos de Algodres,Estação de Mangualde,Comboio,23.7,Linha da Beira Alta - Intercidades,O,3,4
+Estação de Freineda,Estação de Miuzela,Comboio,15.1,Linha da Beira Alta - Regional,SO,1,2
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Comboio,2.8,Linhas C-1/C-10/CIVIS C-2 - Cercanías Madrid,SO,1,3
 Estação de Fuente de la Mora,Estação de Valdebebas,Comboio,4.0,Linhas C-1/C-10 - Cercanías Madrid,E,2,1
 Estação de Funcheira,Estação de Santa Clara - Sabóia,Comboio de Alta Velocidade,40.2,Linha do Sul,SO,3,9
@@ -2365,6 +2385,7 @@ Estação de Fuseta-A,Fuseta,Carro,0.7,,NE,1,2
 Estação de Fuseta-A,Olhão,Comboio,8.7,Linha do Algarve - Regional,SO,3,5
 Estação de Fuseta-Moncarapacho,Fuseta,Carro,0.8,N125-5,SE,2,1
 Estação de Fuseta-Moncarapacho,Livramento,Comboio,2.9,Linha do Algarve - Regional,NE,3,4
+Estação de Gata,Estação de Vila Fernando,Comboio,6.5,Linha da Beira Alta - Regional,E,2,1
 Estação de Gouveia,Estação de Mangualde,Comboio,15.8,Linha da Beira Alta - Regional,O,1,2
 Estação de Guadix,Guadix,Carro,1.9,,SO,1,3
 Estação de Guia,Estação de Louriçal,Comboio,7.8,Linha do Oeste - InterRegional/Regional,N,2,1
@@ -2404,7 +2425,7 @@ Estação de Malveira,Estação de Pêro Negro,Comboio,9.8,Linha do Oeste - Inte
 Estação de Malveira,Estação de Sabugo,Comboio,13.0,Linha do Oeste - InterRegional,S,3,3
 Estação de Mangualde,Estação de Moimenta-Alcafache,Comboio,4.6,Linha da Beira Alta - Regional,O,1,2
 Estação de Mangualde,Estação de Nelas,Comboio,11.3,Linha da Beira Alta - Intercidades,SO,3,4
-Estação de Mangualde,Estação de Santa Comba Dão,Comboio,42.8,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,SO,4,5
+Estação de Mangualde,Estação de Santa Comba Dão,Comboio,42.8,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,SO,5,5
 Estação de Mar de Cristal,Estação de Pinar del Rey,Metro,0.9,Linha 8 - Metro de Madrid,O,2,1
 Estação de Marinha Grande,Estação de Martingança,Comboio,6.1,Linha do Oeste - InterRegional/Regional,S,1,2
 Estação de Martingança,Estação de Pataias,Comboio,5.2,Linha do Oeste - Regional,SO,1,2
@@ -2473,6 +2494,7 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,C
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Comboio,5.3,Linha do Norte - Regional,O,1,2
 Estação de Reveles,Estação de Verride,Comboio,4.9,Ramal de Alfarelos - Urbanos de Coimbra,E,2,1
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Comboio,4.2,Linha do Norte - Regional,NE,2,1
+Estação de Rochoso,Estação de Vila Fernando,Comboio,5.0,Linha da Beira Alta - Regional,O,1,2
 Estação de Runa,Estação de Torres Vedras,Comboio,4.9,Linha do Oeste - Regional,O,2,1
 Estação de Salir do Porto,Estação de São Martinho do Porto,Comboio,2.3,Linha do Oeste - Regional,NE,2,1
 Estação de Santa Apolónia,Gare do Oriente,Comboio,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
@@ -2507,6 +2529,7 @@ Estação de Tavira,Tavira - Sul,Carro,0.6,,NE,1,3
 Estação de Venda do Alcaide,Pinhal Novo,Comboio,3.8,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,NO,1,4
 Estação de Vila Franca de Xira,Gare do Oriente,Comboio,23.7,Linha do Norte - Intercidades/InterRegional,SO,5,8
 Estação de Vila Nova da Rainha,Estação do Carregado,Comboio,4.1,Linha da Azambuja/Linha do Norte - CP Lisboa,SO,1,2
+Estação de Vilar Formoso,Vilar Formoso,Carro,0.7,,NO,3,2
 Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,Comboio de Alta Velocidade,75.4,LAV Madrid-Sevilha,NE,2,1
 Estação do Entroncamento,Gare do Oriente,Comboio,99.8,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SO,7,9
 Estação do Pragal,Pinhal Novo,Comboio,29.5,Linha do Sul - Intercidades,SE,3,6
