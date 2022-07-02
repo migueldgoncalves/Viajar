@@ -112,6 +112,25 @@ A23 - Saída 13,Belver,Gavião
 A23 - Saída 14,Envendos,Mação
 A23 - Saída 15,Fratel,Vila Velha de Ródão
 A23 - Saída 16,Fratel,Vila Velha de Ródão
+A23 - Saída 17,Fratel,Vila Velha de Ródão
+A23 - Saída 18,Fratel,Vila Velha de Ródão
+A23 - Saída 19,Vila Velha de Ródão,Vila Velha de Ródão
+A23 - Saída 20,Retaxo,Castelo Branco
+A23 - Saída 21,Benquerenças,Castelo Branco
+A23 - Saída 22,Castelo Branco,Castelo Branco
+A23 - Saída 23,Castelo Branco,Castelo Branco
+A23 - Saída 24,Alcains,Castelo Branco
+A23 - Saída 25,Lardosa,Castelo Branco
+A23 - Saída 26,Castelo Novo,Fundão
+A23 - Saída 27,Castelo Novo,Fundão
+A23 - Saída 28,Donas,Fundão
+A23 - Saída 29,Valverde,Fundão
+A23 - Saída 30,Ferro,Covilhã
+A23 - Saída 31,Ferro,Covilhã
+A23 - Saída 32,Caria,Belmonte
+A23 - Saída 33,Maçainhas,Belmonte
+A23 - Saída 34,Benespera,Guarda
+A23 - Saída 35,Guarda,Guarda
 A25 - Início,Gafanha da Nazaré,Ílhavo
 A25 - Saída 1,Gafanha da Encarnação,Ílhavo
 A25 - Saída 1A,Gafanha da Nazaré,Ílhavo
@@ -194,6 +213,7 @@ Ameixal,Ameixal,Loulé
 Aqualand Algarve,Alcantarilha,Silves
 Aquashow,Quarteira,Loulé
 Área de Repouso de Castro Marim,Castro Marim,Castro Marim
+Área de Serviço da Guarda,Arrifana,Guarda
 Área de Serviço de Abrantes,Alferrarede,Abrantes
 Área de Serviço de Alcácer do Sal,Santa Maria do Castelo,Alcácer do Sal
 Área de Serviço de Alcochete,Samouco,Alcochete
@@ -203,6 +223,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Aveiras,Aveiras de Cima,Azambuja
 Área de Serviço de Aveiro,Cacia,Aveiro
 Área de Serviço de Barcelos,Alheira,Barcelos
+Área de Serviço de Castelo Branco,Castelo Branco,Castelo Branco
 Área de Serviço de Celorico da Beira,Lajeosa do Mondego,Celorico da Beira
 Área de Serviço de Coronado/Trofa,São Mamede,Trofa
 Área de Serviço de Estremoz,São Bento do Ameixial,Estremoz
@@ -229,6 +250,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Viseu,São João de Lourosa,Viseu
 Área de Serviço de Vouzela,Campia,Vouzela
 Área de Serviço do Alto de Leomil,Castelo Mendo,Almeida
+Área de Serviço do Fundão,Alcaria,Fundão
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
 "Avenida Engenheiro Duarte Pacheco, Lisboa",Campolide,Lisboa

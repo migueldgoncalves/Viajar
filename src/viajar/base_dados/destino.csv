@@ -819,10 +819,99 @@ A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,False,Abrantes
 A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,False,IP2 - Portalegre
 A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,True,Castelo Branco
 A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,True,Guarda
+A23 - Saída 16,A23 - Saída 17,Carro,False,Abrantes
+A23 - Saída 16,A23 - Saída 17,Carro,False,IP2 - Portalegre
+A23 - Saída 16,A23 - Saída 17,Carro,True,Castelo Branco
+A23 - Saída 16,A23 - Saída 17,Carro,True,Guarda
 A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,False,Castelo Branco
 A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,False,Guarda
 A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,True,Abrantes
 A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,True,IP2 - Portalegre
+A23 - Saída 17,A23 - Saída 18,Carro,False,Abrantes
+A23 - Saída 17,A23 - Saída 18,Carro,False,IP2 - Portalegre
+A23 - Saída 17,A23 - Saída 18,Carro,True,Castelo Branco
+A23 - Saída 17,A23 - Saída 18,Carro,True,Guarda
+A23 - Saída 18,A23 - Saída 19,Carro,False,Abrantes
+A23 - Saída 18,A23 - Saída 19,Carro,False,IP2 - Portalegre
+A23 - Saída 18,A23 - Saída 19,Carro,True,Castelo Branco
+A23 - Saída 18,A23 - Saída 19,Carro,True,Guarda
+A23 - Saída 19,A23 - Saída 20,Carro,False,Abrantes
+A23 - Saída 19,A23 - Saída 20,Carro,False,IP2 - Portalegre
+A23 - Saída 19,A23 - Saída 20,Carro,True,Castelo Branco
+A23 - Saída 19,A23 - Saída 20,Carro,True,Guarda
+A23 - Saída 20,A23 - Saída 21,Carro,False,Abrantes
+A23 - Saída 20,A23 - Saída 21,Carro,False,IP2 - Portalegre
+A23 - Saída 20,A23 - Saída 21,Carro,True,Castelo Branco
+A23 - Saída 20,A23 - Saída 21,Carro,True,Guarda
+A23 - Saída 21,A23 - Saída 22,Carro,False,Castelo Branco - Sul
+A23 - Saída 21,A23 - Saída 22,Carro,False,IP2 - Portalegre
+A23 - Saída 21,A23 - Saída 22,Carro,True,Castelo Branco - Centro da cidade
+A23 - Saída 21,A23 - Saída 22,Carro,True,Guarda
+A23 - Saída 22,A23 - Saída 23,Carro,False,Castelo Branco - Centro da cidade
+A23 - Saída 22,A23 - Saída 23,Carro,False,IP2 - Portalegre
+A23 - Saída 22,A23 - Saída 23,Carro,True,Castelo Branco - Norte
+A23 - Saída 22,A23 - Saída 23,Carro,True,Guarda
+A23 - Saída 23,Área de Serviço de Castelo Branco,Carro,False,Castelo Branco
+A23 - Saída 23,Área de Serviço de Castelo Branco,Carro,False,Portalegre
+A23 - Saída 23,Área de Serviço de Castelo Branco,Carro,True,Covilhã
+A23 - Saída 23,Área de Serviço de Castelo Branco,Carro,True,Guarda
+A23 - Saída 24,A23 - Saída 25,Carro,False,Castelo Branco
+A23 - Saída 24,A23 - Saída 25,Carro,False,Portalegre
+A23 - Saída 24,A23 - Saída 25,Carro,True,Covilhã
+A23 - Saída 24,A23 - Saída 25,Carro,True,Guarda
+A23 - Saída 24,Área de Serviço de Castelo Branco,Carro,False,Covilhã
+A23 - Saída 24,Área de Serviço de Castelo Branco,Carro,False,Guarda
+A23 - Saída 24,Área de Serviço de Castelo Branco,Carro,True,Castelo Branco
+A23 - Saída 24,Área de Serviço de Castelo Branco,Carro,True,Portalegre
+A23 - Saída 25,A23 - Saída 26,Carro,False,Castelo Branco
+A23 - Saída 25,A23 - Saída 26,Carro,False,Portalegre
+A23 - Saída 25,A23 - Saída 26,Carro,True,Covilhã
+A23 - Saída 25,A23 - Saída 26,Carro,True,Guarda
+A23 - Saída 26,A23 - Saída 27,Carro,False,Castelo Branco
+A23 - Saída 26,A23 - Saída 27,Carro,False,Portalegre
+A23 - Saída 26,A23 - Saída 27,Carro,True,Covilhã
+A23 - Saída 26,A23 - Saída 27,Carro,True,Fundão
+A23 - Saída 27,A23 - Saída 28,Carro,False,Castelo Branco
+A23 - Saída 27,A23 - Saída 28,Carro,False,Portalegre
+A23 - Saída 27,A23 - Saída 28,Carro,True,Covilhã
+A23 - Saída 27,A23 - Saída 28,Carro,True,Fundão
+A23 - Saída 27,A23 - Saída 28,Carro,True,Guarda
+A23 - Saída 28,A23 - Saída 29,Carro,False,Castelo Branco
+A23 - Saída 28,A23 - Saída 29,Carro,False,Portalegre
+A23 - Saída 28,A23 - Saída 29,Carro,True,Covilhã
+A23 - Saída 28,A23 - Saída 29,Carro,True,Guarda
+A23 - Saída 29,Área de Serviço do Fundão,Carro,False,Castelo Branco
+A23 - Saída 29,Área de Serviço do Fundão,Carro,False,IP2 - Portalegre
+A23 - Saída 29,Área de Serviço do Fundão,Carro,True,Covilhã
+A23 - Saída 29,Área de Serviço do Fundão,Carro,True,Guarda
+A23 - Saída 30,A23 - Saída 31,Carro,False,Covilhã - Sul
+A23 - Saída 30,A23 - Saída 31,Carro,False,IP2 - Portalegre
+A23 - Saída 30,A23 - Saída 31,Carro,True,Covilhã - Norte
+A23 - Saída 30,A23 - Saída 31,Carro,True,Guarda
+A23 - Saída 30,Área de Serviço do Fundão,Carro,False,Covilhã
+A23 - Saída 30,Área de Serviço do Fundão,Carro,False,Guarda
+A23 - Saída 30,Área de Serviço do Fundão,Carro,True,Castelo Branco
+A23 - Saída 30,Área de Serviço do Fundão,Carro,True,IP2 - Portalegre
+A23 - Saída 31,A23 - Saída 32,Carro,False,Covilhã
+A23 - Saída 31,A23 - Saída 32,Carro,False,IP2 - Portalegre
+A23 - Saída 31,A23 - Saída 32,Carro,True,A25 - Vilar Formoso
+A23 - Saída 31,A23 - Saída 32,Carro,True,Guarda
+A23 - Saída 32,A23 - Saída 33,Carro,False,Covilhã
+A23 - Saída 32,A23 - Saída 33,Carro,False,IP2 - Portalegre
+A23 - Saída 32,A23 - Saída 33,Carro,True,A25 - Vilar Formoso
+A23 - Saída 32,A23 - Saída 33,Carro,True,Guarda
+A23 - Saída 33,A23 - Saída 34,Carro,False,Covilhã
+A23 - Saída 33,A23 - Saída 34,Carro,False,IP2 - Portalegre
+A23 - Saída 33,A23 - Saída 34,Carro,True,A25 - Vilar Formoso
+A23 - Saída 33,A23 - Saída 34,Carro,True,Guarda
+A23 - Saída 34,A23 - Saída 35,Carro,False,Covilhã
+A23 - Saída 34,A23 - Saída 35,Carro,False,IP2 - Portalegre
+A23 - Saída 34,A23 - Saída 35,Carro,True,A25 - Vilar Formoso
+A23 - Saída 34,A23 - Saída 35,Carro,True,Guarda
+A23 - Saída 35,Área de Serviço da Guarda,Carro,False,Castelo Branco
+A23 - Saída 35,Área de Serviço da Guarda,Carro,False,Covilhã
+A23 - Saída 35,Área de Serviço da Guarda,Carro,False,Guarda - Sul
+A23 - Saída 35,Área de Serviço da Guarda,Carro,True,A25 - Aveiro/Vilar Formoso
 A25 - Início,A25 - Saída 1,Carro,False,Praias
 A25 - Início,A25 - Saída 1,Carro,True,Aveiro
 A25 - Saída 1,A25 - Saída 1A,Carro,False,Praias
@@ -5184,6 +5273,10 @@ Arahal,Marchena,Comboio,True,Málaga - María Zambrano
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Faro
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,False,Lisboa
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,True,Espanha
+Área de Serviço da Guarda,Cruzamento da A23 com a A25,Carro,False,Castelo Branco
+Área de Serviço da Guarda,Cruzamento da A23 com a A25,Carro,False,Covilhã
+Área de Serviço da Guarda,Cruzamento da A23 com a A25,Carro,False,Guarda - Sul
+Área de Serviço da Guarda,Cruzamento da A23 com a A25,Carro,True,A25 - Aveiro/Vilar Formoso
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,False,Alcácer do Sal
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,False,Algarve
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,True,A6 - Évora

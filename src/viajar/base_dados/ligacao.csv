@@ -218,7 +218,29 @@ A23 - Saída 12,A23 - Saída 13,Carro,6.1,A23,E,2,1
 A23 - Saída 13,A23 - Saída 14,Carro,8.3,A23,E,2,1
 A23 - Saída 14,A23 - Saída 15,Carro,5.6,A23,E,2,1
 A23 - Saída 15,Área de Serviço de Vila Velha de Ródão,Carro,2.3,A23,NE,2,1
+A23 - Saída 16,A23 - Saída 17,Carro,4.5,A23,N,2,1
 A23 - Saída 16,Área de Serviço de Vila Velha de Ródão,Carro,2.5,A23,SO,1,2
+A23 - Saída 17,A23 - Saída 18,Carro,5.5,A23,N,2,1
+A23 - Saída 18,A23 - Saída 19,Carro,4.8,A23,NE,2,1
+A23 - Saída 19,A23 - Saída 20,Carro,11.4,A23,NE,2,1
+A23 - Saída 20,A23 - Saída 21,Carro,4.3,A23,NE,2,1
+A23 - Saída 21,A23 - Saída 22,Carro,5.4,A23,NE,2,1
+A23 - Saída 22,A23 - Saída 23,Carro,4.0,A23,NE,2,1
+A23 - Saída 23,Área de Serviço de Castelo Branco,Carro,4.2,A23,N,2,1
+A23 - Saída 24,A23 - Saída 25,Carro,8.2,A23,N,2,1
+A23 - Saída 24,Área de Serviço de Castelo Branco,Carro,3.5,A23,S,1,2
+A23 - Saída 25,A23 - Saída 26,Carro,4.7,A23,N,2,1
+A23 - Saída 26,A23 - Saída 27,Carro,5.6,A23,N,2,1
+A23 - Saída 27,A23 - Saída 28,Carro,7.9,A23,N,2,1
+A23 - Saída 28,A23 - Saída 29,Carro,4.3,A23,N,2,1
+A23 - Saída 29,Área de Serviço do Fundão,Carro,2.1,A23,N,2,1
+A23 - Saída 30,A23 - Saída 31,Carro,5.9,A23,NE,2,1
+A23 - Saída 30,Área de Serviço do Fundão,Carro,4.4,A23,S,1,2
+A23 - Saída 31,A23 - Saída 32,Carro,9.2,A23,NE,2,1
+A23 - Saída 32,A23 - Saída 33,Carro,8.9,A23,NE,2,1
+A23 - Saída 33,A23 - Saída 34,Carro,8.9,A23,NE,2,1
+A23 - Saída 34,A23 - Saída 35,Carro,9.6,A23,NE,2,1
+A23 - Saída 35,Área de Serviço da Guarda,Carro,2.4,A23,N,2,1
 A25 - Início,A25 - Saída 1,Carro,1.6,A25,E,1,1
 A25 - Saída 1,A25 - Saída 1A,Carro,1.2,A25,E,2,1
 A25 - Saída 1A,Área de Serviço de Gafanha da Nazaré,Carro,1.6,A25,E,2,1
@@ -1514,6 +1536,7 @@ Arahal,Marchena,Comboio,13.3,Linha Utrera-Fuente de Piedra - Media Distancia,NE,
 Arahal,Paradas,Carro,6.2,,NE,3,1
 "Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Carro,0.7,A-6,NO,1,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Carro,1.7,A22,E,2,1
+Área de Serviço da Guarda,Cruzamento da A23 com a A25,Carro,2.7,A23,N,2,3
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Carro,11.3,A2,NO,1,2
 Área de Serviço de Alcochete,Cruzamento da A12 com a A33,Carro,4.1,A12,E,2,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Carro,28.0,A2,NO,1,2
