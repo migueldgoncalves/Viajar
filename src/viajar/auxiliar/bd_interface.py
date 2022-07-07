@@ -3,7 +3,7 @@ import psycopg2
 from psycopg2 import OperationalError
 import os
 
-from viajar import viajar, local_portugal, local_espanha, local_gibraltar
+from viajar import viajar, location_portugal, location_spain, location_gibraltar
 
 
 class BDInterface:
@@ -81,7 +81,7 @@ class BDInterface:
             distancia = float(linha[3])
             meio_transporte = linha[2].strip()
             if linha[4] is not None:
-                sentidos_info_extra[(local_circundante, meio_transporte)] = [linha[4].strip()]
+                sentidos_info_extra[(local_circundante, meio_transporte)] = linha[4].strip()
             locais_circundantes[(local_circundante, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
         locais_circundantes = BDInterface.ordenar_dicionario(locais_circundantes, ordem)
 
@@ -156,21 +156,21 @@ class BDInterface:
 
         #  Criar o local
         if pais == 'Portugal':
-            local = local_portugal.LocalPortugal(nome, locais_circundantes, latitude, longitude, altitude, freguesia,
-                                                 concelho, distrito, entidade_intermunicipal, regiao)
+            local = location_portugal.LocationPortugal(nome, locais_circundantes, latitude, longitude, altitude, freguesia,
+                                                       concelho, distrito, entidade_intermunicipal, regiao)
         elif pais == 'Espanha':
-            local = local_espanha.LocalEspanha(nome, locais_circundantes, latitude, longitude, altitude, municipio,
-                                               comarcas, provincia, comunidade_autonoma)
-            local.set_distrito(distrito)
+            local = location_spain.LocationSpain(nome, locais_circundantes, latitude, longitude, altitude, municipio,
+                                                 comarcas, provincia, comunidade_autonoma)
+            local.set_district(distrito)
         elif pais == 'Gibraltar':
-            local = local_gibraltar.LocalGibraltar(nome, locais_circundantes, latitude, longitude, altitude,
-                                                   major_residential_areas)
+            local = location_gibraltar.LocationGibraltar(nome, locais_circundantes, latitude, longitude, altitude,
+                                                         major_residential_areas)
         else:
             return None
-        local.set_sentidos(sentidos)
-        local.set_sentidos_info_extra(sentidos_info_extra)
-        local.set_info_extra(info_extra)
-        local.set_lote(lote)
+        local.set_destinations(sentidos)
+        local.set_ways(sentidos_info_extra)
+        local.set_protected_area(info_extra)
+        local.set_batch(lote)
 
         return local
 

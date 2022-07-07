@@ -86,7 +86,7 @@ class Viajar:
 
     def informacoes_local(self):
         print("")
-        self.get_local_actual().imprimir_info_completa()
+        self.get_local_actual().print_info_complete()
 
     def estatisticas_viagem(self):
         print("\nPercorreu", round(self.viagem_actual.get_distancia(), CASAS_DECIMAIS), "km")
@@ -110,7 +110,7 @@ class Viajar:
             print("\nEstá a bordo de um avião")
         elif self.viagem_actual.get_modo() == COMBOIO:
             comboio_alta_velocidade_presente = False
-            for x in self.get_local_actual().get_locais_circundantes():
+            for x in self.get_local_actual().get_connections():
                 if x[1] == 'Comboio de Alta Velocidade':
                     comboio_alta_velocidade_presente = True
             if comboio_alta_velocidade_presente:
@@ -120,9 +120,9 @@ class Viajar:
         elif self.viagem_actual.get_modo() == METRO:
             print("\nEstá a bordo de uma composição de metro")
         elif self.viagem_actual.get_modo() == COMBOIO_ALTA_VELOCIDADE:
-            if self.get_local_actual().get_pais() == 'Portugal':
+            if self.get_local_actual().get_country() == 'Portugal':
                 print("\nEstá a bordo de um Alfa Pendular")
-            elif self.get_local_actual().get_pais() == 'Espanha':
+            elif self.get_local_actual().get_country() == 'Espanha':
                 print("\nEstá a bordo de um AVE")
         elif self.viagem_actual.get_modo() == TRANSBORDO:
             print("\nEstá a fazer transbordo")
@@ -161,7 +161,7 @@ class Viajar:
 
     def actualizar_viagem(self, destino, meio_transporte, carro_pedido):
         print("Escolheu ir para", destino)
-        locais_circundantes = self.get_local_actual().get_locais_circundantes()
+        locais_circundantes = self.get_local_actual().get_connections()
         distancia = locais_circundantes[(destino, meio_transporte)][1]
         if not carro_pedido:  # A simulação de carro não está a ser usada
             self.incrementar_tempo(distancia / int(random.uniform(VELOCIDADE_MINIMA, VELOCIDADE_MAXIMA)) * 3600)
@@ -191,12 +191,12 @@ class Viajar:
 
     def realizar_viagem(self):
         while True:
-            locais_circundantes = self.get_local_actual().get_locais_circundantes()
+            locais_circundantes = self.get_local_actual().get_connections()
             dados_locais = list(locais_circundantes.keys())
 
             #  Imprimir início do menu
             print("")
-            self.get_local_actual().imprimir_info_breve()
+            self.get_local_actual().print_info_brief()
             print("Escolha uma das seguintes opções")
             print("Escreva o número correspondente e pressione ENTER")
             print(SAIR, SEPARADOR_MODO, SAIR_STRING)  # Opção de sair
@@ -217,9 +217,9 @@ class Viajar:
                         texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local + ' ' + "(" + ponto_cardeal + ", " \
                             + str(distancia) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
                     #  Destinos possíveis por essa direcção
-                    sentido = self.get_local_actual().get_sentido(nome_local, meio_transporte)
+                    sentido = self.get_local_actual().get_destinations_as_string(nome_local, meio_transporte)
                     #  Info extra da direcção
-                    sentido_info_extra = self.get_local_actual().get_sentido_info_extra(nome_local, meio_transporte)
+                    sentido_info_extra = self.get_local_actual().get_way(nome_local, meio_transporte)
                     if sentido is not None:
                         if sentido_info_extra is None:
                             texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
@@ -244,7 +244,7 @@ class Viajar:
                         print(iterador, SEPARADOR_MODO, AVIAO_STRING)
                     elif x == COMBOIO:
                         comboio_alta_velocidade_presente = False
-                        for y in self.get_local_actual().get_locais_circundantes():
+                        for y in self.get_local_actual().get_connections():
                             if y[1] == 'Comboio de Alta Velocidade':
                                 comboio_alta_velocidade_presente = True
                         if comboio_alta_velocidade_presente:
@@ -254,9 +254,9 @@ class Viajar:
                     elif x == METRO:
                         print(iterador, SEPARADOR_MODO, METRO_STRING)
                     elif x == COMBOIO_ALTA_VELOCIDADE:
-                        if self.get_local_actual().get_pais() == 'Portugal':
+                        if self.get_local_actual().get_country() == 'Portugal':
                             print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "Alfa Pendular")
-                        elif self.get_local_actual().get_pais() == 'Espanha':
+                        elif self.get_local_actual().get_country() == 'Spain':
                             print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "AVE")
                     elif x == TRANSBORDO:
                         print(iterador, SEPARADOR_MODO, TRANSBORDO_STRING)
