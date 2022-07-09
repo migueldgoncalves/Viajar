@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from viajar import location
 
+COUNTRY = 'Spain'
+
 
 def is_single_province_autonomous_community(autonomous_community: str, province: str) -> bool:
     return autonomous_community == province
@@ -21,7 +23,7 @@ class LocationSpain(location.Location):
         self.comarcas: list[str] = comarcas  # OSM admin level 7. According to https://en.wikipedia.org/wiki/Comarcas_of_Spain, translation can be district, county, area, or zone
         self.province: str = province  # ES: Provincia (OSM admin level 6)
         self.autonomous_community: str = autonomous_community  # ES: Comunidad Autónoma (OSM admin level 4)
-        self.country = 'Spain'
+        self.country = COUNTRY
 
     def set_district(self, district: str) -> None:
         """

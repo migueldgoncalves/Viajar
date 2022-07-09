@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from viajar import location
 
+COUNTRY = 'Portugal'
+
 
 class LocationPortugal(location.Location):
     """
@@ -17,7 +19,7 @@ class LocationPortugal(location.Location):
         self.district: str = district  # PT: Distrito (OSM admin level 6)
         self.intermunicipal_entity: str = intermunicipal_entity  # PT: Entidade intermunicipal
         self.region: str = region  # PT: Região
-        self.country: str = 'Portugal'
+        self.country: str = COUNTRY
 
     def set_parish(self, parish: str) -> None:
         """

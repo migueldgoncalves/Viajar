@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from viajar import location
 
+COUNTRY = 'United Kingdom - British Overseas Territory of Gibraltar'
+
 
 class LocationGibraltar(location.Location):
 
@@ -9,7 +11,7 @@ class LocationGibraltar(location.Location):
                  longitude: float, altitude: int, major_residential_areas: list[str]):
         super().__init__(name, connections, latitude, longitude, altitude)
         self.major_residential_areas: list[str] = major_residential_areas
-        self.country = 'United Kingdom - British Overseas Territory of Gibraltar'
+        self.country = COUNTRY
 
     def set_major_residential_areas(self, major_residential_areas: list[str]) -> None:
         self.major_residential_areas = major_residential_areas

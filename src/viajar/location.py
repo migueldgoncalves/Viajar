@@ -102,11 +102,19 @@ class Location:
             return destinations_string[3:]  # Removes first chars
         return None
 
-    def get_cardinal_point(self, surrounding_location: str, means_transport: str) -> str:
-        return self.connections[(surrounding_location, means_transport)][0]
+    def get_cardinal_point(self, surrounding_location: str, means_transport: str) -> Optional[str]:
+        connection: Optional[tuple[str, float, str]] = self.connections.get((surrounding_location, means_transport), None)
+        if connection:
+            return connection[0]
+        else:
+            return None
 
-    def get_distance(self, surrounding_location: str, means_transport: str) -> float:
-        return self.connections[(surrounding_location, means_transport)][1]
+    def get_distance(self, surrounding_location: str, means_transport: str) -> Optional[float]:
+        connection: Optional[tuple[str, float, str]] = self.connections.get((surrounding_location, means_transport), None)
+        if connection:
+            return connection[1]
+        else:
+            return None
 
     def get_coordinates(self) -> tuple[float, float]:
         return self.coordinates
