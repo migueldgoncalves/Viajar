@@ -1,4 +1,5 @@
 import unittest
+import copy
 
 from viajar import location, location_portugal, location_spain, location_gibraltar
 
@@ -45,15 +46,15 @@ class LocationTest(unittest.TestCase):
         self.major_residential_areas: list[str] = ['North District', 'East Side']
 
         self.location: location.Location = location.Location(
-            self.name, self.connections, self.latitude, self.longitude, self.altitude)
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude)
         self.location_portugal: location_portugal.LocationPortugal = location_portugal.LocationPortugal(
-            self.name, self.connections, self.latitude, self.longitude, self.altitude, self.parish, self.municipality_pt,
-            self.district_pt, self.intermunicipal_entity, self.region)
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.parish,
+            self.municipality_pt, self.district_pt, self.intermunicipal_entity, self.region)
         self.location_spain: location_spain.LocationSpain = location_spain.LocationSpain(
-            self.name, self.connections, self.latitude, self.longitude, self.altitude, self.municipality_es, self.comarcas,
-            self.province, self.autonomous_community)
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.municipality_es,
+            self.comarcas, self.province, self.autonomous_community)
         self.location_gibraltar: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
-            self.name, self.connections, self.latitude, self.longitude, self.altitude, self.major_residential_areas)
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.major_residential_areas)
 
     def test_getters_location(self):
         self.assertEqual(self.name, self.location.get_name())
@@ -111,7 +112,7 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(None, self.location.remove_connection('Évora', 'Car'))
         self.assertEqual(None, self.location.remove_connection('Guarda', 'Boat'))
 
-        self.location.set_destinations(self.destinations)
+        self.location.set_destinations(copy.deepcopy(self.destinations))
         self.assertEqual(tuple(self.destinations.keys()), tuple(self.location.get_destinations().keys()))
         self.assertEqual(tuple(self.destinations.values()), tuple(self.location.get_destinations().values()))
         self.assertEqual(None, self.location.get_destinations_as_string('Aveiro', 'Tram'))
@@ -139,12 +140,12 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(tuple(self.destinations.values()), tuple(self.location.get_destinations().values()))
         self.assertEqual(None, self.location.get_destinations_as_string('Aveiro', 'Tram'))
 
-        self.location.set_ways(self.ways)
+        self.location.set_ways(copy.deepcopy(self.ways))
         self.assertEqual(tuple(self.ways.keys()), tuple(self.location.get_ways().keys()))
         self.assertEqual(tuple(self.ways.values()), tuple(self.location.get_ways().values()))
         self.assertEqual(self.ways[('Setúbal', 'Car')], self.location.get_way('Setúbal', 'Car'))
         self.assertEqual(self.ways[('Cascais', 'Train')], self.location.get_way('Cascais', 'Train'))
-        self.assertEqual({}, self.location.get_way('Aveiro', 'Tram'))
+        self.assertEqual(None, self.location.get_way('Aveiro', 'Tram'))
         self.location.add_way('Portalegre', 'Car', 'IP2')
         self.location.add_way('Portalegre', 'Car', 'IP2')
         self.ways[('Portalegre', 'Car')] = 'IP2'
@@ -208,12 +209,12 @@ class LocationTest(unittest.TestCase):
 
     def test_location_spain(self):
         self.assertEqual(self.name, self.location_spain.get_name())
-        self.location_portugal.set_name('Madrid')
+        self.location_spain.set_name('Madrid')
         self.assertEqual('Madrid', self.location_spain.get_name())
 
+        self.assertEqual('', self.location_spain.get_district())
+        self.location_spain.set_district(self.district_es)
         self.assertEqual(self.district_es, self.location_spain.get_district())
-        self.location_spain.set_district('South')
-        self.assertEqual('South', self.location_spain.get_district())
 
         self.assertEqual(self.municipality_es, self.location_spain.get_municipality())
         self.location_spain.set_municipality('Barcelona')

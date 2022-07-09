@@ -59,17 +59,22 @@ class Location:
     def add_destination(self, destination: str, surrounding_location: str, means_transport: str, way: str) -> None:
         if not (surrounding_location, means_transport) in self.destinations:
             self.destinations[(surrounding_location, means_transport)] = []
+        elif destination in self.destinations[(surrounding_location, means_transport)]:
+            return
         self.destinations[(surrounding_location, means_transport)].append(destination)
         self.add_way(surrounding_location, means_transport, way)
 
     def remove_connection(self, surrounding_location: str, means_transport: str) -> None:
-        del self.connections[(surrounding_location, means_transport)]
+        if (surrounding_location, means_transport) in self.connections:
+            del self.connections[(surrounding_location, means_transport)]
 
     def remove_destinations_from_connection(self, surrounding_location: str, means_transport: str) -> None:
-        del self.destinations[(surrounding_location, means_transport)]
+        if (surrounding_location, means_transport) in self.destinations:
+            del self.destinations[(surrounding_location, means_transport)]
 
     def remove_way(self, surrounding_location: str, means_transport: str) -> None:
-        del self.ways[(surrounding_location, means_transport)]
+        if (surrounding_location, means_transport) in self.ways:
+            del self.ways[(surrounding_location, means_transport)]
 
     def get_name(self) -> str:
         return self.name

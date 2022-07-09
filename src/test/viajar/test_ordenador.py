@@ -7,7 +7,7 @@ class TestOrdenador(unittest.TestCase):
 
     def test_ordenador(self):
         self.assertEqual(ordenador.IGUAL, ordenador.ordenador('"Álamo, Guerreiros do Rio"', '"Álamo, Guerreiros do Rio"'))
-        self.assertEqual(ordenador.IGUAL, ordenador.ordenador('"Álamo, Guerreiros do Rio"', 'Álamo, Guerreiros do Rio'))
+        self.assertEqual(ordenador.MAIOR, ordenador.ordenador('"Álamo, Guerreiros do Rio"', 'Álamo, Guerreiros do Rio'))
         self.assertEqual(ordenador.MENOR, ordenador.ordenador('"Álamo, Guerreiros do Rio"', 'Guerreiros do Rio'))
         self.assertEqual(ordenador.MAIOR, ordenador.ordenador('"Álamo, Guerreiros do Rio"', 'A-1 - Saída 1'))
         self.assertEqual(ordenador.MENOR, ordenador.ordenador('Guerreiros do Rio', 'Laranjeiras'))
