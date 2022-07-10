@@ -31,13 +31,13 @@ VELOCIDADE_MINIMA = 50
 VELOCIDADE_MAXIMA = 120
 
 #  Modos de viagem
-CARRO = 'Carro'
-BARCO = 'Barco'
-AVIAO = 'Avião'
-COMBOIO = 'Comboio'
-COMBOIO_ALTA_VELOCIDADE = 'Comboio de Alta Velocidade'
-METRO = 'Metro'
-TRANSBORDO = 'Transbordo'
+CARRO = 'Car'
+BARCO = 'Boat'
+AVIAO = 'Plane'
+COMBOIO = 'Train'
+COMBOIO_ALTA_VELOCIDADE = 'High-Speed Train'
+METRO = 'Subway'
+TRANSBORDO = 'Transfer'
 
 #  Outros
 LOCAL_INICIAL = 'Guerreiros do Rio'

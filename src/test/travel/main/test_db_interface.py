@@ -1,6 +1,8 @@
 import unittest
 
 from travel.main import db_interface
+from travel.main.cardinal_points import NORTE, NORDESTE, ESTE, SUDESTE, SUL, SUDOESTE, OESTE, NOROESTE
+from travel.main.travel import CARRO, BARCO, COMBOIO, AVIAO, COMBOIO_ALTA_VELOCIDADE, METRO, TRANSBORDO
 
 
 class TestBDInterface(unittest.TestCase):
@@ -13,7 +15,7 @@ class TestBDInterface(unittest.TestCase):
 
         self.assertEqual('Palmeira', local.name)
         self.assertEqual(1, len(list(local.connections)))
-        self.assertEqual(['NE', 0.7, 'Carro'], local.connections[('IC27 - Saída 6', 'Carro')])
+        self.assertEqual([NORDESTE, 0.7, CARRO], local.connections[('IC27 - Saída 6', CARRO)])
         self.assertEqual(0, len(list(local.destinations)))
         self.assertEqual(0, len(list(local.ways)))
         self.assertEqual((37.398627, -7.52961), local.coordinates)
@@ -51,7 +53,7 @@ class TestBDInterface(unittest.TestCase):
 
         self.assertEqual('Marismas de Isla Cristina', local.name)
         self.assertEqual(1, len(list(local.connections)))
-        self.assertEqual(['SE', 2.5, 'Carro'], local.connections[('Punta del Moral', 'Carro')])
+        self.assertEqual([SUDESTE, 2.5, CARRO], local.connections[('Punta del Moral', CARRO)])
         self.assertEqual(0, len(list(local.destinations)))
         self.assertEqual(0, len(list(local.ways)))
         self.assertEqual((37.201359, -7.351221), local.coordinates)

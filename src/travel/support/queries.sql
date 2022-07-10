@@ -1,7 +1,7 @@
 -- Auxiliary queries to get statistics from the database
 
 -- Show number of connections by means of transport
-select meio_transporte, count(meio_transporte) FROM ligacao group by meio_transporte
+select meio_transporte, count(meio_transporte) from ligacao group by meio_transporte
                                                             order by count(meio_transporte), meio_transporte;
 
 -- Show number of connections by way

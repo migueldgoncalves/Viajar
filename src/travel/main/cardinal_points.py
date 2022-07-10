@@ -7,9 +7,9 @@ NORDESTE = "NE"
 ESTE = "E"
 SUDESTE = "SE"
 SUL = "S"
-SUDOESTE = "SO"
-OESTE = "O"
-NOROESTE = "NO"
+SUDOESTE = "SW"
+OESTE = "W"
+NOROESTE = "NW"
 
 
 def obter_ponto_cardeal_oposto(cardinal_point: str) -> str:
