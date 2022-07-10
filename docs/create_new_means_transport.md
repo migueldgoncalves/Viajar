@@ -8,7 +8,7 @@ Conhecimentos de programação são recomendados.
 
 ### Passos
 
-1. Aceder ao ficheiro [travel.py](https://github.com/migueldgoncalves/Viajar/blob/master/src/travel/main/viajar.py).
+1. Aceder ao ficheiro [travel.py](https://github.com/migueldgoncalves/Viajar/blob/master/src/travel/main/travel.py).
 2. Nas constantes referentes às opções do menu, acrescentar uma constante para o novo meio de transporte. O nome da constante deverá ter o formato `<meio_transporte>_STRING`, em maiúsculas e sem acentos. Por exemplo, para o avião a string é `AVIAO_STRING`.
 3. Nas constantes referentes aos meios de transporte, acrescentar uma constante para o novo meio de transporte.
 4. No método `mudar_modo`, no if do método, acrescentar um elif para o novo meio de transporte. A string a imprimir deverá ter um `\n` no início.
