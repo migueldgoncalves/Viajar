@@ -1,8 +1,9 @@
+import travel.support.ways as vias
+
 """
 Main - Executar para aceder a todos os scripts disponíveis
 """
 
-import viajar.auxiliar.vias as vias
 # INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
 VIA = vias.PT_A23
 
@@ -50,11 +51,11 @@ while True:
     # Colocar os imports junto do respectivo código permite correr o script com Linux e Windows
 
     elif opcao == OPCAO_VIAJAR:
-        from viajar import viajar
-        viajar.Viajar.realizar_viagem(viajar.Viajar())
+        from travel.main import travel
+        travel.Viajar().realizar_viagem()
     elif opcao == OPCAO_CARRO:
-        from carro import carro
-        carro.Carro.viajar(carro.Carro(), distancia_a_percorrer=0, destino="")
+        from car import car
+        car.Carro().viajar(distancia_a_percorrer=0, destino="")
         '''
         README CARRO
 
@@ -66,18 +67,18 @@ while True:
         Porém, com esse comando todos os caracteres não-ASCII irão aparecer desformatados
         '''
     elif opcao == OPCAO_COMBATE:
-        from combate import ronda
-        ronda.Ronda.ronda_loop(ronda.Ronda())
+        from combat import round
+        round.Ronda().ronda_loop()
 
     elif opcao == OPCAO_GERADOR:
-        import viajar.auxiliar.gerador_informacao as gerador
+        import travel.support.information_generator as gerador
         gerador.GeradorInformacao(VIA)
     elif opcao == OPCAO_ORDENADOR:
-        from viajar.auxiliar import ordenador
-        ordenador.ordenar_ficheiros_csv()
+        from travel.support import sorter
+        sorter.ordenar_ficheiros_csv()
     elif opcao == OPCAO_SQLITE:
-        from viajar.auxiliar import sqlite_interface
+        from travel.support import sqlite_interface
         sqlite_interface.SQLiteBDInterface()
     elif opcao == OPCAO_DELIMITADOR:
-        from viajar.auxiliar import delimitador_regioes
-        delimitador_regioes.obter_pontos_extremos()
+        from travel.support import region_bounds_finder
+        region_bounds_finder.obter_pontos_extremos()

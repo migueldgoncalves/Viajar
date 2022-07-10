@@ -1,0 +1,244 @@
+import pathlib
+import psycopg2
+from psycopg2 import OperationalError
+import os
+
+from travel.main import location_portugal, location_spain, location_gibraltar
+from travel.main.cardinal_points import obter_ponto_cardeal_oposto
+
+
+class DBInterface:
+    # DB folder path
+    folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', '../database')
+
+    database_name: str = 'viajar'
+    username: str = 'postgres'
+    password: str = 'postgres'
+    host: str = 'localhost'
+    sql_port: int = 5432
+
+    def __init__(self):
+        try:
+            # Connects to the DB
+            self.connection: psycopg2.connection = psycopg2.connect(
+                database=self.database_name,
+                user=self.username,
+                password=self.password,
+                host=self.host,
+                port=self.sql_port
+            )
+            self.connection.autocommit = True
+            self.cursor: psycopg2.cursor = self.connection.cursor()
+
+            # Creates and populates the DB
+            sql_script_path: str = os.path.join(self.folder_path, 'database.sql')
+            with open(sql_script_path, mode='r') as file:
+                queries = file.read().split(';\n')
+            for query in queries:
+                self.cursor.execute(query + ';')
+            self.preencher_base_dados()
+        except OperationalError as e:
+            print(f"Ocorreu o erro '{e}'")
+
+    #  Retorna um local com todas as suas informações
+    def obter_local(self, nome):
+        #  Determinar o país
+        query = "SELECT COUNT(nome) FROM local_portugal WHERE nome = '" + nome + "';"
+        self.cursor.execute(query)
+        resultado = self.cursor.fetchall()[0][0]
+        if resultado == 1:  # Local de Portugal
+            pais = 'Portugal'
+        else:
+            query = "SELECT COUNT(nome) FROM local_espanha WHERE nome = '" + nome + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()[0][0]
+            if resultado == 1:  # Local de Espanha
+                pais = 'Espanha'
+            else:
+                query = "SELECT COUNT(nome) FROM local_gibraltar WHERE nome = '" + nome + "';"
+                self.cursor.execute(query)
+                resultado = self.cursor.fetchall()[0][0]
+                if resultado == 1:  # Local de Gibraltar
+                    pais = 'Gibraltar'
+                else:
+                    return None  # Local inválido
+
+        #  Determinar os locais circundantes
+        query = "SELECT * FROM ligacao WHERE local_a = '" + nome + "' OR local_b = '" + nome + "';"
+        self.cursor.execute(query)
+        resultado = self.cursor.fetchall()
+        locais_circundantes = {}
+        ordem = []
+        sentidos_info_extra = {}
+        for linha in resultado:
+            if linha[0].strip() == nome:  # Local A
+                ordem.append(linha[6])  # Ordem A
+                local_circundante = linha[1].strip()
+                ponto_cardeal = linha[5].strip()
+            else:  # Local B
+                ordem.append(linha[7])  # Ordem B
+                local_circundante = linha[0].strip()
+                ponto_cardeal = obter_ponto_cardeal_oposto(linha[5].strip())
+            distancia = float(linha[3])
+            meio_transporte = linha[2].strip()
+            if linha[4] is not None:
+                sentidos_info_extra[(local_circundante, meio_transporte)] = linha[4].strip()
+            locais_circundantes[(local_circundante, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
+        locais_circundantes = DBInterface.ordenar_dicionario(locais_circundantes, ordem)
+
+        #  Determinar os destinos por sentido
+        query = "SELECT * FROM destino WHERE " \
+                "(local_a = '" + nome + "' AND origem = 'true') OR (local_b = '" + nome + "' AND origem = 'false');"
+        self.cursor.execute(query)
+        resultado = self.cursor.fetchall()
+        sentidos = {}
+        for local_circundante in locais_circundantes:
+            nome_local = local_circundante[0]
+            meio_transporte = local_circundante[1]
+            destinos = []
+            for linha in resultado:
+                if (nome_local in [linha[0], linha[1]]) & (meio_transporte == linha[2]):
+                    destinos.append(linha[4].strip())
+            if len(destinos) > 0:
+                sentidos[(nome_local, meio_transporte)] = destinos
+
+        #  Determinar os restantes parâmetros gerais
+        query = "SELECT * FROM local WHERE nome = '" + nome + "';"
+        self.cursor.execute(query)
+        resultado = self.cursor.fetchall()
+        latitude = float(resultado[0][1])
+        longitude = float(resultado[0][2])
+        altitude = int(resultado[0][3])
+        info_extra = ''
+        if resultado[0][4] is not None:
+            info_extra = resultado[0][4].strip()
+        lote = int(resultado[0][5])
+
+        #  Determinar os parâmetros específicos do país
+        if pais == 'Portugal':
+            query = "SELECT local_portugal.nome, freguesia, concelho.concelho, entidade_intermunicipal, distrito, regiao " \
+                    "FROM local_portugal, concelho " \
+                    "WHERE local_portugal.concelho = concelho.concelho AND local_portugal.nome = '" + nome + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            freguesia = resultado[0][1].strip()
+            concelho = resultado[0][2].strip()
+            distrito = resultado[0][4].strip()
+            entidade_intermunicipal = resultado[0][3].strip()
+            regiao = resultado[0][5].strip()
+        elif pais == 'Espanha':
+            query = "SELECT nome, municipio, distrito, provincia.provincia, comunidade_autonoma " \
+                    "FROM local_espanha, provincia " \
+                    "WHERE local_espanha.provincia = provincia.provincia AND local_espanha.nome = '" + nome + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            distrito = ''
+            if resultado[0][2] is not None:
+                distrito = resultado[0][2].strip()
+            municipio = resultado[0][1].strip()
+            provincia = resultado[0][3].strip()
+            comunidade_autonoma = resultado[0][4].strip()
+            query = "SELECT * FROM comarca WHERE municipio = '" + municipio + "' AND provincia = '" + provincia + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            comarcas = []
+            for linha in resultado:
+                comarcas.append(linha[1].strip())
+        elif pais == 'Gibraltar':
+            query = "SELECT nome, major_residential_area FROM local_gibraltar WHERE nome = '" + nome + "';"
+            self.cursor.execute(query)
+            resultado = self.cursor.fetchall()
+            major_residential_areas = []
+            for linha in resultado:
+                major_residential_areas.append(linha[1].strip())
+        else:
+            return None
+
+        #  Criar o local
+        if pais == 'Portugal':
+            local = location_portugal.LocationPortugal(nome, locais_circundantes, latitude, longitude, altitude, freguesia,
+                                                       concelho, distrito, entidade_intermunicipal, regiao)
+        elif pais == 'Espanha':
+            local = location_spain.LocationSpain(nome, locais_circundantes, latitude, longitude, altitude, municipio,
+                                                 comarcas, provincia, comunidade_autonoma)
+            local.set_district(distrito)
+        elif pais == 'Gibraltar':
+            local = location_gibraltar.LocationGibraltar(nome, locais_circundantes, latitude, longitude, altitude,
+                                                         major_residential_areas)
+        else:
+            return None
+        local.set_destinations(sentidos)
+        local.set_ways(sentidos_info_extra)
+        local.set_protected_area(info_extra)
+        local.set_batch(lote)
+
+        return local
+
+    #  Preenche a base de dados
+    def preencher_base_dados(self):
+        path_csv = os.path.join(self.folder_path, 'location.csv')
+        query = "COPY local(nome, latitude, longitude, altitude, info_extra, lote) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'concelho.csv')
+        query = "COPY concelho(concelho, entidade_intermunicipal, distrito, regiao) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'province.csv')
+        query = "COPY provincia(provincia, comunidade_autonoma) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'municipio.csv')
+        query = "COPY municipio(municipio, provincia) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'location_portugal.csv')
+        query = "COPY local_portugal(nome, freguesia, concelho) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'location_spain.csv')
+        query = "COPY local_espanha(nome, municipio, provincia, distrito) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'location_gibraltar.csv')
+        query = "COPY local_gibraltar(nome, major_residential_area) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'comarca.csv')
+        query = "COPY comarca(municipio, comarca, provincia) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'connection.csv')
+        query = "COPY ligacao(local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a, " \
+                "ordem_b) FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+        path_csv = os.path.join(self.folder_path, 'destination.csv')
+        query = "COPY destino(local_a, local_b, meio_transporte, origem, destino) FROM '" + path_csv + \
+                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        self.cursor.execute(query)
+
+    #  Retorna o número de locais da base de dados
+    def obter_numero_locais(self):
+        query = "SELECT COUNT(nome) FROM local;"
+        self.cursor.execute(query)
+        return self.cursor.fetchall()[0][0]
+
+    #  Ordena os elementos de um dicionário de acordo com uma ordem fornecida
+    @staticmethod
+    def ordenar_dicionario(dicionario, ordem):
+        novo_dic = {}
+        for i in range(len(dicionario)):
+            for j in range(len(dicionario)):
+                if ordem[j] == len(novo_dic) + 1:
+                    chave = list(dicionario)[j]
+                    novo_dic[chave] = dicionario[chave]
+        return novo_dic
