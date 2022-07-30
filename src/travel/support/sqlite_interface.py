@@ -21,7 +21,7 @@ FICHEIRO_BD = 'Travel'  # Sem extensão - Nome do ficheiro de BD a ser criado
 
 PATH_BD = os.path.join(PASTA_DESTINO, FICHEIRO_BD)
 
-SCRIPT_SQLITE = 'database_sqlite.sql'
+SCRIPT_SQLITE = 'database.sql'
 PATH_SCRIPT = os.path.join(PASTA_CSV, SCRIPT_SQLITE)
 
 
@@ -92,7 +92,7 @@ class SQLiteBDInterface:
 
         print("A iniciar preenchimento da base de dados...")
 
-        preencher_tabela('location.csv', "INSERT INTO Location(name, latitude, longitude, altitude, extra_info, batch) VALUES(?, ?, ?, ?, ?, ?);")
+        preencher_tabela('location.csv', "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, batch) VALUES(?, ?, ?, ?, ?, ?);")
         preencher_tabela('concelho.csv', "INSERT INTO Concelho(concelho, intermunicipal_entity, district, region) VALUES(?, ?, ?, ?);")
         preencher_tabela('province.csv', "INSERT INTO Province(province, autonomous_community) VALUES(?, ?);")
         preencher_tabela('municipio.csv', "INSERT INTO Municipio(municipio, province) VALUES(?, ?);")
@@ -100,7 +100,7 @@ class SQLiteBDInterface:
         preencher_tabela('location_spain.csv', "INSERT INTO LocationSpain(name, municipio, province, district) VALUES(?, ?, ?, ?);")
         preencher_tabela('location_gibraltar.csv', "INSERT INTO LocationGibraltar(name, major_residential_area) VALUES(?, ?);")
         preencher_tabela('comarca.csv', "INSERT INTO Comarca(municipio, comarca, province) VALUES(?, ?, ?);")
-        preencher_tabela('connection.csv', "INSERT INTO Connection(location_a, location_b, means_transport, distance, extra_info, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
+        preencher_tabela('connection.csv', "INSERT INTO Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
         preencher_tabela('destination.csv', "INSERT INTO Destination(location_a, location_b, means_transport, starting_point, destination) VALUES(?, ?, ?, ?, ?)")
 
         print("Base de dados preenchida")

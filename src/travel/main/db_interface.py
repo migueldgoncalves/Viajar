@@ -9,9 +9,11 @@ from travel.main.cardinal_points import obter_ponto_cardeal_oposto
 
 class DBInterface:
     # DB folder path
-    folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', '../database')
+    folder_name: str = 'database'
+    folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', f'../{folder_name}')
+    database_file: str = 'database.sql'
 
-    database_name: str = 'viajar'
+    database_name: str = 'travel'
     username: str = 'postgres'
     password: str = 'postgres'
     host: str = 'localhost'
@@ -19,43 +21,68 @@ class DBInterface:
 
     def __init__(self):
         try:
-            # Connects to the DB
             self.connection: psycopg2.connection = psycopg2.connect(
                 database=self.database_name,
-                user=self.username,
-                password=self.password,
-                host=self.host,
-                port=self.sql_port
+                user=DBInterface.username,
+                password=DBInterface.password,
+                host=DBInterface.host,
+                port=DBInterface.sql_port
             )
             self.connection.autocommit = True
             self.cursor: psycopg2.cursor = self.connection.cursor()
 
             # Creates and populates the DB
-            sql_script_path: str = os.path.join(self.folder_path, 'database.sql')
+            sql_script_path: str = os.path.join(DBInterface.folder_path, DBInterface.database_file)
             with open(sql_script_path, mode='r') as file:
-                queries = file.read().split(';\n')
+                queries: list[str] = file.read().split(';\n')
             for query in queries:
+                query = DBInterface._convert_sqlite_to_postgresql(query)
                 self.cursor.execute(query + ';')
             self.preencher_base_dados()
         except OperationalError as e:
             print(f"Ocorreu o erro '{e}'")
 
+    @staticmethod
+    def _convert_sqlite_to_postgresql(query: str) -> str:
+        """
+        Converts a query in the database.sql from SQLite to PostgreSQL
+        File database.sql is written in SQLite as scheme is dictated by Android and therefore more restrictive
+        Example conversions: PostgreSQL support boolean values, while in SQLite integers must be used
+
+        Most of the file can be used for both SQL dialects
+        """
+        # Add CASCADE to queries dropping tables for PostgreSQL
+        if query.startswith("DROP"):  # Ex: DROP TABLE IF EXISTS Location; -> DROP TABLE IF EXISTS Location CASCADE;
+            query = f'{query} CASCADE'
+
+        # Defines boolean table columns in PostgreSQL - In SQLite there is no boolean data type
+        if 'starting_point' in query and 'Destination' in query:  # Ex: starting_point INTEGER NOT NULL, -> starting_point BOOLEAN NOT NULL,
+            query_parts: list[str] = query.split(',')
+            updated_query_parts: list[str] = []
+            for query_part in query_parts:
+                if "starting_point" in query_part:
+                    query_part = query_part.replace('INTEGER', 'BOOLEAN')
+                updated_query_parts.append(query_part)
+            query = ','.join(updated_query_parts)
+
+        return query
+
     #  Retorna um local com todas as suas informações
     def obter_local(self, nome):
         #  Determinar o país
-        query = "SELECT COUNT(nome) FROM local_portugal WHERE nome = '" + nome + "';"
+        query = "SELECT COUNT(name) FROM LocationPortugal WHERE name = '" + nome + "';"
         self.cursor.execute(query)
         resultado = self.cursor.fetchall()[0][0]
         if resultado == 1:  # Local de Portugal
             pais = 'Portugal'
         else:
-            query = "SELECT COUNT(nome) FROM local_espanha WHERE nome = '" + nome + "';"
+            query = "SELECT COUNT(name) FROM LocationSpain WHERE name = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()[0][0]
             if resultado == 1:  # Local de Espanha
                 pais = 'Espanha'
             else:
-                query = "SELECT COUNT(nome) FROM local_gibraltar WHERE nome = '" + nome + "';"
+                query = "SELECT COUNT(name) FROM LocationGibraltar WHERE name = '" + nome + "';"
                 self.cursor.execute(query)
                 resultado = self.cursor.fetchall()[0][0]
                 if resultado == 1:  # Local de Gibraltar
@@ -64,7 +91,7 @@ class DBInterface:
                     return None  # Local inválido
 
         #  Determinar os locais circundantes
-        query = "SELECT * FROM ligacao WHERE local_a = '" + nome + "' OR local_b = '" + nome + "';"
+        query = "SELECT * FROM Connection WHERE location_a = '" + nome + "' OR location_b = '" + nome + "';"
         self.cursor.execute(query)
         resultado = self.cursor.fetchall()
         locais_circundantes = {}
@@ -87,8 +114,8 @@ class DBInterface:
         locais_circundantes = DBInterface.ordenar_dicionario(locais_circundantes, ordem)
 
         #  Determinar os destinos por sentido
-        query = "SELECT * FROM destino WHERE " \
-                "(local_a = '" + nome + "' AND origem = 'true') OR (local_b = '" + nome + "' AND origem = 'false');"
+        query = "SELECT * FROM Destination WHERE " \
+                "(location_a = '" + nome + "' AND starting_point = 'true') OR (location_b = '" + nome + "' AND starting_point = 'false');"
         self.cursor.execute(query)
         resultado = self.cursor.fetchall()
         sentidos = {}
@@ -103,7 +130,7 @@ class DBInterface:
                 sentidos[(nome_local, meio_transporte)] = destinos
 
         #  Determinar os restantes parâmetros gerais
-        query = "SELECT * FROM local WHERE nome = '" + nome + "';"
+        query = "SELECT * FROM Location WHERE name = '" + nome + "';"
         self.cursor.execute(query)
         resultado = self.cursor.fetchall()
         latitude = float(resultado[0][1])
@@ -116,9 +143,9 @@ class DBInterface:
 
         #  Determinar os parâmetros específicos do país
         if pais == 'Portugal':
-            query = "SELECT local_portugal.nome, freguesia, concelho.concelho, entidade_intermunicipal, distrito, regiao " \
-                    "FROM local_portugal, concelho " \
-                    "WHERE local_portugal.concelho = concelho.concelho AND local_portugal.nome = '" + nome + "';"
+            query = "SELECT LocationPortugal.name, parish, Concelho.concelho, intermunicipal_entity, district, region " \
+                    "FROM LocationPortugal, Concelho " \
+                    "WHERE LocationPortugal.concelho = Concelho.concelho AND LocationPortugal.name = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             freguesia = resultado[0][1].strip()
@@ -127,9 +154,9 @@ class DBInterface:
             entidade_intermunicipal = resultado[0][3].strip()
             regiao = resultado[0][5].strip()
         elif pais == 'Espanha':
-            query = "SELECT nome, municipio, distrito, provincia.provincia, comunidade_autonoma " \
-                    "FROM local_espanha, provincia " \
-                    "WHERE local_espanha.provincia = provincia.provincia AND local_espanha.nome = '" + nome + "';"
+            query = "SELECT name, municipio, district, Province.province, autonomous_community " \
+                    "FROM LocationSpain, Province " \
+                    "WHERE LocationSpain.province = Province.province AND LocationSpain.name = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             distrito = ''
@@ -138,14 +165,14 @@ class DBInterface:
             municipio = resultado[0][1].strip()
             provincia = resultado[0][3].strip()
             comunidade_autonoma = resultado[0][4].strip()
-            query = "SELECT * FROM comarca WHERE municipio = '" + municipio + "' AND provincia = '" + provincia + "';"
+            query = "SELECT * FROM Comarca WHERE municipio = '" + municipio + "' AND province = '" + provincia + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             comarcas = []
             for linha in resultado:
                 comarcas.append(linha[1].strip())
         elif pais == 'Gibraltar':
-            query = "SELECT nome, major_residential_area FROM local_gibraltar WHERE nome = '" + nome + "';"
+            query = "SELECT name, major_residential_area FROM LocationGibraltar WHERE name = '" + nome + "';"
             self.cursor.execute(query)
             resultado = self.cursor.fetchall()
             major_residential_areas = []
@@ -177,58 +204,58 @@ class DBInterface:
     #  Preenche a base de dados
     def preencher_base_dados(self):
         path_csv = os.path.join(self.folder_path, 'location.csv')
-        query = "COPY local(nome, latitude, longitude, altitude, info_extra, lote) FROM '" + path_csv + \
+        query = "COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'concelho.csv')
-        query = "COPY concelho(concelho, entidade_intermunicipal, distrito, regiao) FROM '" + path_csv + \
+        query = "COPY Concelho(concelho, intermunicipal_entity, district, region) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'province.csv')
-        query = "COPY provincia(provincia, comunidade_autonoma) FROM '" + path_csv + \
+        query = "COPY Province(province, autonomous_community) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'municipio.csv')
-        query = "COPY municipio(municipio, provincia) FROM '" + path_csv + \
+        query = "COPY Municipio(municipio, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'location_portugal.csv')
-        query = "COPY local_portugal(nome, freguesia, concelho) FROM '" + path_csv + \
+        query = "COPY LocationPortugal(name, parish, concelho) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'location_spain.csv')
-        query = "COPY local_espanha(nome, municipio, provincia, distrito) FROM '" + path_csv + \
+        query = "COPY LocationSpain(name, municipio, province, district) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'location_gibraltar.csv')
-        query = "COPY local_gibraltar(nome, major_residential_area) FROM '" + path_csv + \
+        query = "COPY LocationGibraltar(name, major_residential_area) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'comarca.csv')
-        query = "COPY comarca(municipio, comarca, provincia) FROM '" + path_csv + \
+        query = "COPY Comarca(municipio, comarca, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'connection.csv')
-        query = "COPY ligacao(local_a, local_b, meio_transporte, distancia, info_extra, ponto_cardeal, ordem_a, " \
-                "ordem_b) FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
+        query = "COPY Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b)" \
+                " FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
         path_csv = os.path.join(self.folder_path, 'destination.csv')
-        query = "COPY destino(local_a, local_b, meio_transporte, origem, destino) FROM '" + path_csv + \
+        query = "COPY Destination(location_a, location_b, means_transport, starting_point, destination) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
     #  Retorna o número de locais da base de dados
     def obter_numero_locais(self):
-        query = "SELECT COUNT(nome) FROM local;"
+        query = "SELECT COUNT(name) FROM Location;"
         self.cursor.execute(query)
         return self.cursor.fetchall()[0][0]
 
