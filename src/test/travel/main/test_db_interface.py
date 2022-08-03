@@ -10,7 +10,20 @@ test_db_name: str = 'viajartestdatabase'
 class TestBDInterface(unittest.TestCase):
 
     def setUp(self):
-        self.bd_interface = db_interface.DBInterface()
+        self.bd_interface = DBInterface()
+        self.bd_interface.create_and_populate_travel_db()
+
+        try:
+            DBInterface.delete_database(test_db_name)
+        except:  # DB does not exist?
+            pass
+    
+    def test_database_creation_deletion(self):
+        self.assertFalse(DBInterface.is_db_created(test_db_name))
+        self.assertTrue(DBInterface.create_database(test_db_name))
+        self.assertTrue(DBInterface.is_db_created(test_db_name))
+        self.assertTrue(DBInterface.delete_database(test_db_name))
+        self.assertFalse(DBInterface.is_db_created(test_db_name))
 
     def test_local_base_portugal(self):
         local = self.bd_interface.obter_local('Palmeira')

@@ -1,16 +1,23 @@
+from typing import Optional
+
 import pathlib
-import psycopg2
-from psycopg2 import OperationalError
 import os
+import subprocess
+
+import psycopg2
+from psycopg2 import OperationalError, sql
 
 from travel.main import location_portugal, location_spain, location_gibraltar
 from travel.main.cardinal_points import get_opposite_cardinal_point
 
 
 class DBInterface:
-    # DB folder path
-    folder_name: str = 'database'
-    folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', f'../{folder_name}')
+    """
+    Interface to the creation and population of the PostgreSQL database in use by this program
+    """
+
+    db_folder_name: str = 'database'
+    db_folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', f'../{db_folder_name}')
     database_file: str = 'database.sql'
 
     database_name: str = 'travel'
@@ -20,9 +27,28 @@ class DBInterface:
     sql_port: int = 5432
 
     def __init__(self):
+        self.connection: Optional[psycopg2.connection] = None
+        self.cursor: Optional[psycopg2.cursor] = None
+
+    def create_and_populate_travel_db(self) -> bool:
+        """
+        Main routine - Should be called in order to create the DB, if it does not exist, and then populate it
+        Returns True on success, False on failure
+        """
         try:
-            self.connection: psycopg2.connection = psycopg2.connect(
-                database=self.database_name,
+            if not DBInterface.is_db_created(DBInterface.database_name):
+                success = DBInterface.create_database(DBInterface.database_name)
+                if not success:
+                    print(f"Failed to create the {DBInterface.database_name} database")
+                    return False
+        except Exception as e:
+            print(f"Exception while checking if {DBInterface.database_name} exists")
+            print(''.join(e.args))
+            return False
+
+        try:
+            self.connection = psycopg2.connect(
+                database=DBInterface.database_name,
                 user=DBInterface.username,
                 password=DBInterface.password,
                 host=DBInterface.host,
@@ -32,18 +58,116 @@ class DBInterface:
             self.cursor: psycopg2.cursor = self.connection.cursor()
 
             # Creates and populates the DB
-            sql_script_path: str = os.path.join(DBInterface.folder_path, DBInterface.database_file)
+            sql_script_path: str = os.path.join(DBInterface.db_folder_path, DBInterface.database_file)
             with open(sql_script_path, mode='r') as file:
                 queries: list[str] = file.read().split(';\n')
             for query in queries:
-                query = DBInterface._convert_sqlite_to_postgresql(query)
+                query = DBInterface.convert_sqlite_to_postgresql(query)
                 self.cursor.execute(query + ';')
             self.preencher_base_dados()
         except OperationalError as e:
             print(f"Ocorreu o erro '{e}'")
 
     @staticmethod
-    def _convert_sqlite_to_postgresql(query: str) -> str:
+    def is_db_created(db_name: str) -> bool:
+        """
+        Returns True if database with provided name exists, False otherwise, raises exception if any problem occurs
+        """
+        if not db_name:
+            raise Exception("No DB name provided")
+        elif len(db_name.strip()) == 0:
+            raise Exception("Empty DB name provided")
+
+        # Note: Environmental variable set only for this Python process, not system-wide
+        # Allows call to psql to not show prompt for password
+        # TODO: Improve security - See https://www.postgresql.org/docs/current/libpq-pgpass.html
+        env_variable: str = "PGPASSWORD"
+        try:
+            os.environ[env_variable] = DBInterface.password
+        except Exception as e:
+            print(f"Error while setting {env_variable} environmental variable")
+            raise Exception(''.join(e.args))
+
+        psql_command: list[str] = ['\\l', f'{db_name}']
+        command: list[str] = ['psql', '-U', f'{DBInterface.username}', '-c']
+        command.extend(psql_command)
+
+        try:
+            # Note: Will print error message if DB is not found - Nothing to worry about
+            p: subprocess.Popen = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+            p.stdin.close()
+            p.wait()
+        except Exception as e:
+            print(f"Error while running psql command to check if {db_name} database exists")
+            raise Exception(''.join(e.args))
+
+        if p.stderr:
+            stderr = p.stderr.read()
+            p.stderr.close()
+            raise Exception(f'{stderr}')
+        elif not p.stdout:
+            raise Exception(f"No output obtained from psql command to check if {db_name} database exists")
+
+        success_indicator = db_name  # If command result includes DB name, DB exists
+        output: str = f'{p.stdout.read()}'
+        p.stdout.close()
+        return success_indicator in output
+
+    @staticmethod
+    def create_database(db_name: str):
+        """
+        Given a string, creates a database with the provided name. Returns True on success, False otherwise
+        Database creation will fail if it already exists, so checking beforehand is required
+        """
+        return DBInterface._create_or_delete_database(db_name, create=True)
+
+    @staticmethod
+    def delete_database(db_name: str):
+        """
+        Given a string, deletes the database with the provided name. Returns True on success, False otherwise
+        Database deletion will fail if it does not exist, so checking beforehand is required
+
+        Deletion will fail if another session (for example, in pgAdmin) is opened in the DB
+        """
+        return DBInterface._create_or_delete_database(db_name, create=False)
+
+    @staticmethod
+    def _create_or_delete_database(db_name: str, create: bool = True) -> bool:
+        """
+        Returns True on success, False otherwise
+        """
+        try:
+            # Connects to PostgreSQL - No database name needs to be provided at this point
+            connection: psycopg2.connection = psycopg2.connect(
+                user=DBInterface.username,
+                password=DBInterface.password,
+                host=DBInterface.host,
+                port=DBInterface.sql_port
+            )
+            connection.autocommit = True
+            cursor: psycopg2.cursor = connection.cursor()
+
+            # Creates or deletes the database
+            if create:
+                db_query: str = sql.SQL("CREATE DATABASE {};").format(sql.Identifier(db_name))
+            else:  # Delete
+                db_query: str = sql.SQL("DROP DATABASE {};").format(sql.Identifier(db_name))
+            cursor.execute(db_query)
+            connection.close()
+
+            return True
+
+        except Exception as e:
+            if create:
+                print(f"Exception while creating the database {db_name}")
+            else:
+                print(f"Exception while deleting the database {db_name}")
+            print(''.join(e.args))
+
+            return False
+
+    @staticmethod
+    def convert_sqlite_to_postgresql(query: str) -> str:
         """
         Converts a query in the database.sql from SQLite to PostgreSQL
         File database.sql is written in SQLite as scheme is dictated by Android and therefore more restrictive
@@ -207,52 +331,52 @@ class DBInterface:
 
     #  Preenche a base de dados
     def preencher_base_dados(self):
-        path_csv = os.path.join(self.folder_path, 'location.csv')
+        path_csv = os.path.join(self.db_folder_path, 'location.csv')
         query = "COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'concelho.csv')
+        path_csv = os.path.join(self.db_folder_path, 'concelho.csv')
         query = "COPY Concelho(concelho, intermunicipal_entity, district, region) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'province.csv')
+        path_csv = os.path.join(self.db_folder_path, 'province.csv')
         query = "COPY Province(province, autonomous_community) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'municipio.csv')
+        path_csv = os.path.join(self.db_folder_path, 'municipio.csv')
         query = "COPY Municipio(municipio, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'location_portugal.csv')
+        path_csv = os.path.join(self.db_folder_path, 'location_portugal.csv')
         query = "COPY LocationPortugal(name, parish, concelho) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'location_spain.csv')
+        path_csv = os.path.join(self.db_folder_path, 'location_spain.csv')
         query = "COPY LocationSpain(name, municipio, province, district) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'location_gibraltar.csv')
+        path_csv = os.path.join(self.db_folder_path, 'location_gibraltar.csv')
         query = "COPY LocationGibraltar(name, major_residential_area) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'comarca.csv')
+        path_csv = os.path.join(self.db_folder_path, 'comarca.csv')
         query = "COPY Comarca(municipio, comarca, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'connection.csv')
+        path_csv = os.path.join(self.db_folder_path, 'connection.csv')
         query = "COPY Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b)" \
                 " FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.folder_path, 'destination.csv')
+        path_csv = os.path.join(self.db_folder_path, 'destination.csv')
         query = "COPY Destination(location_a, location_b, means_transport, starting_point, destination) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)

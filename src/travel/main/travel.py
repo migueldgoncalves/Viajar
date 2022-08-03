@@ -47,7 +47,8 @@ CASAS_DECIMAIS = 2
 class Viajar:
 
     def __init__(self):
-        self.base_dados = db_interface.DBInterface()  # Contêm todos os locais disponíveis
+        self.base_dados = db_interface.DBInterface()  # Contém todos os locais disponíveis
+        self.base_dados.create_and_populate_travel_db()
 
         #  Inicializar viagem
         self.viagem_actual = journey.Journey()
