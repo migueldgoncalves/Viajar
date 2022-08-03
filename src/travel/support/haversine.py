@@ -1,6 +1,6 @@
 from math import sin, cos, sqrt, asin, pi
 
-from travel.main.cardinal_points import NORTE, NORDESTE, ESTE, SUDESTE, SUL, SUDOESTE, OESTE, NOROESTE
+from travel.main.cardinal_points import NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH, SOUTHWEST, WEST, NORTHWEST
 
 RAIO_TERRA = 6371  # km
 
@@ -24,52 +24,52 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
 
     if diff_lat == 0:
         if diff_lon > 0:
-            return ESTE
+            return EAST
         elif diff_lon < 0:
-            return OESTE
+            return WEST
     elif diff_lon == 0:
         if diff_lat > 0:
-            return NORTE
+            return NORTH
         elif diff_lat < 0:
-            return SUL
+            return SOUTH
     elif diff_lat == diff_lon:
         if diff_lat > 0 and diff_lon > 0:
-            return NORDESTE
+            return NORTHEAST
         elif diff_lat < 0 and diff_lon > 0:
-            return SUDESTE
+            return SOUTHEAST
         elif diff_lat < 0 and diff_lon < 0:
-            return SUDOESTE
+            return SOUTHWEST
         elif diff_lat > 0 and diff_lon < 0:
-            return NOROESTE
+            return NORTHWEST
     else:
         if diff_lat > 0 and diff_lon > 0:  # N, NE, E
             if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
-                return NORTE
+                return NORTH
             elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
-                return ESTE
+                return EAST
             else:
-                return NORDESTE
+                return NORTHEAST
         elif diff_lat < 0 and diff_lon > 0:  # E, SE, S
             if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
-                return SUL
+                return SOUTH
             elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
-                return ESTE
+                return EAST
             else:
-                return SUDESTE
+                return SOUTHEAST
         elif diff_lat < 0 and diff_lon < 0:  # S, SO, O
             if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
-                return SUL
+                return SOUTH
             elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
-                return OESTE
+                return WEST
             else:
-                return SUDOESTE
+                return SOUTHWEST
         elif diff_lat > 0 and diff_lon < 0:  # O, NO, N
             if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
-                return NORTE
+                return NORTH
             elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
-                return OESTE
+                return WEST
             else:
-                return NOROESTE
+                return NORTHWEST
 
     return ""
 

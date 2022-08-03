@@ -2,32 +2,32 @@
 Wrapper module for cardinal point constants and utils
 """
 
-NORTE = "N"
-NORDESTE = "NE"
-ESTE = "E"
-SUDESTE = "SE"
-SUL = "S"
-SUDOESTE = "SW"
-OESTE = "W"
-NOROESTE = "NW"
+NORTH = "N"
+NORTHEAST = "NE"
+EAST = "E"
+SOUTHEAST = "SE"
+SOUTH = "S"
+SOUTHWEST = "SW"
+WEST = "W"
+NORTHWEST = "NW"
 
 
-def obter_ponto_cardeal_oposto(cardinal_point: str) -> str:
-    if cardinal_point == NORTE:
-        return SUL
-    elif cardinal_point == NORDESTE:
-        return SUDOESTE
-    elif cardinal_point == ESTE:
-        return OESTE
-    elif cardinal_point == SUDESTE:
-        return NOROESTE
-    elif cardinal_point == SUL:
-        return NORTE
-    elif cardinal_point == SUDOESTE:
-        return NORDESTE
-    elif cardinal_point == OESTE:
-        return ESTE
-    elif cardinal_point == NOROESTE:
-        return SUDESTE
+def get_opposite_cardinal_point(cardinal_point: str) -> str:
+    if cardinal_point == NORTH:
+        return SOUTH
+    elif cardinal_point == NORTHEAST:
+        return SOUTHWEST
+    elif cardinal_point == EAST:
+        return WEST
+    elif cardinal_point == SOUTHEAST:
+        return NORTHWEST
+    elif cardinal_point == SOUTH:
+        return NORTH
+    elif cardinal_point == SOUTHWEST:
+        return NORTHEAST
+    elif cardinal_point == WEST:
+        return EAST
+    elif cardinal_point == NORTHWEST:
+        return SOUTHEAST
     else:
         return ''

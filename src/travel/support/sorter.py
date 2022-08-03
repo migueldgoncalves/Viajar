@@ -3,7 +3,7 @@ import pathlib
 from functools import cmp_to_key
 import os
 
-from travel.main.cardinal_points import obter_ponto_cardeal_oposto
+from travel.main.cardinal_points import get_opposite_cardinal_point
 
 """
 Ordenador do conteúdo de ficheiros .csv
@@ -114,7 +114,7 @@ def ordenar_ligacoes_destinos():
                     ordem_a = campos[ORDEM_A]
                     ordem_b = campos[ORDEM_B]
 
-                    campos[PONTO_CARDEAL] = obter_ponto_cardeal_oposto(campos[PONTO_CARDEAL])
+                    campos[PONTO_CARDEAL] = get_opposite_cardinal_point(campos[PONTO_CARDEAL])
                     campos[ORDEM_A] = ordem_b
                     campos[ORDEM_B] = ordem_a
 

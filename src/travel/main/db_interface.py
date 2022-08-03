@@ -4,7 +4,7 @@ from psycopg2 import OperationalError
 import os
 
 from travel.main import location_portugal, location_spain, location_gibraltar
-from travel.main.cardinal_points import obter_ponto_cardeal_oposto
+from travel.main.cardinal_points import get_opposite_cardinal_point
 
 
 class DBInterface:
@@ -54,6 +54,10 @@ class DBInterface:
         # Add CASCADE to queries dropping tables for PostgreSQL
         if query.startswith("DROP"):  # Ex: DROP TABLE IF EXISTS Location; -> DROP TABLE IF EXISTS Location CASCADE;
             query = f'{query} CASCADE'
+
+        # While in SQLite the REAL datatype uses 8 bytes, in PostgreSQL it uses 4 bytes and is limited to a precision of 6 digits
+        if 'REAL' in query:
+            query = query.replace('REAL', 'NUMERIC')
 
         # Defines boolean table columns in PostgreSQL - In SQLite there is no boolean data type
         if 'starting_point' in query and 'Destination' in query:  # Ex: starting_point INTEGER NOT NULL, -> starting_point BOOLEAN NOT NULL,
@@ -105,7 +109,7 @@ class DBInterface:
             else:  # Local B
                 ordem.append(linha[7])  # Ordem B
                 local_circundante = linha[0].strip()
-                ponto_cardeal = obter_ponto_cardeal_oposto(linha[5].strip())
+                ponto_cardeal = get_opposite_cardinal_point(linha[5].strip())
             distancia = float(linha[3])
             meio_transporte = linha[2].strip()
             if linha[4] is not None:

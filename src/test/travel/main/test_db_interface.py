@@ -1,8 +1,10 @@
 import unittest
 
-from travel.main import db_interface
-from travel.main.cardinal_points import NORTE, NORDESTE, ESTE, SUDESTE, SUL, SUDOESTE, OESTE, NOROESTE
+from travel.main.db_interface import DBInterface
+from travel.main.cardinal_points import NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH, SOUTHWEST, WEST, NORTHWEST
 from travel.main.travel import CARRO, BARCO, COMBOIO, AVIAO, COMBOIO_ALTA_VELOCIDADE, METRO, TRANSBORDO
+
+test_db_name: str = 'viajartestdatabase'
 
 
 class TestBDInterface(unittest.TestCase):
@@ -15,7 +17,7 @@ class TestBDInterface(unittest.TestCase):
 
         self.assertEqual('Palmeira', local.name)
         self.assertEqual(1, len(list(local.connections)))
-        self.assertEqual([NORDESTE, 0.7, CARRO], local.connections[('IC27 - Saída 6', CARRO)])
+        self.assertEqual([NORTHEAST, 0.7, CARRO], local.connections[('IC27 - Saída 6', CARRO)])
         self.assertEqual(0, len(list(local.destinations)))
         self.assertEqual(0, len(list(local.ways)))
         self.assertEqual((37.398627, -7.52961), local.coordinates)
@@ -53,7 +55,7 @@ class TestBDInterface(unittest.TestCase):
 
         self.assertEqual('Marismas de Isla Cristina', local.name)
         self.assertEqual(1, len(list(local.connections)))
-        self.assertEqual([SUDESTE, 2.5, CARRO], local.connections[('Punta del Moral', CARRO)])
+        self.assertEqual([SOUTHEAST, 2.5, CARRO], local.connections[('Punta del Moral', CARRO)])
         self.assertEqual(0, len(list(local.destinations)))
         self.assertEqual(0, len(list(local.ways)))
         self.assertEqual((37.201359, -7.351221), local.coordinates)
@@ -75,15 +77,15 @@ class TestBDInterface(unittest.TestCase):
         ordem_4 = [2, 3, 1]
         ordem_5 = [1, 2, 3]
         ordem_6 = [1, 3, 2]
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem))
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_2))
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_3))
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_4))
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_5))
-        self.assertEqual(dicionario, db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_6))
-        self.assertEqual(['um', 'dois', 'tres'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem)))
-        self.assertEqual(['dois', 'um', 'tres'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_2)))
-        self.assertEqual(['um', 'tres', 'dois'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_3)))
-        self.assertEqual(['dois', 'tres', 'um'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_4)))
-        self.assertEqual(['tres', 'um', 'dois'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_5)))
-        self.assertEqual(['tres', 'dois', 'um'], list(db_interface.DBInterface.ordenar_dicionario(dicionario, ordem_6)))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem_2))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem_3))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem_4))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem_5))
+        self.assertEqual(dicionario, DBInterface.ordenar_dicionario(dicionario, ordem_6))
+        self.assertEqual(['um', 'dois', 'tres'], list(DBInterface.ordenar_dicionario(dicionario, ordem)))
+        self.assertEqual(['dois', 'um', 'tres'], list(DBInterface.ordenar_dicionario(dicionario, ordem_2)))
+        self.assertEqual(['um', 'tres', 'dois'], list(DBInterface.ordenar_dicionario(dicionario, ordem_3)))
+        self.assertEqual(['dois', 'tres', 'um'], list(DBInterface.ordenar_dicionario(dicionario, ordem_4)))
+        self.assertEqual(['tres', 'um', 'dois'], list(DBInterface.ordenar_dicionario(dicionario, ordem_5)))
+        self.assertEqual(['tres', 'dois', 'um'], list(DBInterface.ordenar_dicionario(dicionario, ordem_6)))
