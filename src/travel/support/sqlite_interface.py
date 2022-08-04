@@ -2,6 +2,8 @@ import sqlite3
 import os
 import csv
 
+from travel.main import paths_and_files
+
 """
 Este módulo permite criar uma base de dados SQLite a partir dos ficheiros .csv deste projecto
 Permite actualizar a base de dados do projecto Android de uma forma rápida
@@ -13,16 +15,8 @@ QUOTING = csv.QUOTE_NONE
 ENCODING = 'utf-8'
 ESCAPECHAR = ''
 
-# ALTERAR AQUI PATHS
-# Devem estar fora da drive C: - Pode haver problemas de permissões
-PASTA_DESTINO = 'D:\\AndroidStudioProjects\\Viajar\\app\\src\\main\\assets'  # A pasta do projecto Android onde colocar a BD
-PASTA_CSV = 'D:\\PycharmProjects\\Viajar\\src\\travel\\database'  # A pasta do projecto Python onde estão os ficheiros .csv
-FICHEIRO_BD = 'Travel'  # Sem extensão - Nome do ficheiro de BD a ser criado
-
-PATH_BD = os.path.join(PASTA_DESTINO, FICHEIRO_BD)
-
-SCRIPT_SQLITE = 'database.sql'
-PATH_SCRIPT = os.path.join(PASTA_CSV, SCRIPT_SQLITE)
+PATH_BD = paths_and_files.ANDROID_DB_FILE_PATH
+PATH_SQL_SCRIPT = paths_and_files.DB_SCRIPT_PATH
 
 
 class SQLiteBDInterface:
@@ -57,7 +51,7 @@ class SQLiteBDInterface:
     def criar_base_dados(self):
         try:
             print("A criar base de dados...")
-            with open(PATH_SCRIPT, mode='r') as file:
+            with open(PATH_SQL_SCRIPT, mode='r') as file:
                 queries = file.read().split(';\n')
             for query in queries:
                 self.cursor.execute(query)
@@ -70,10 +64,9 @@ class SQLiteBDInterface:
 
     #  Preenche a base de dados
     def preencher_base_dados(self):
-        def preencher_tabela(ficheiro, query_sql):
-            print(f"A criar tabela a partir do ficheiro {ficheiro}...")
+        def preencher_tabela(path_csv, query_sql):
+            print(f"A criar tabela a partir do ficheiro {path_csv}...")
 
-            path_csv = os.path.join(PASTA_CSV, ficheiro)
             with open(path_csv, mode='r', encoding=ENCODING) as ficheiro:
                 conteudo = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING, escapechar=ESCAPECHAR)
                 for i, linha in enumerate(conteudo):
@@ -92,16 +85,16 @@ class SQLiteBDInterface:
 
         print("A iniciar preenchimento da base de dados...")
 
-        preencher_tabela('location.csv', "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, batch) VALUES(?, ?, ?, ?, ?, ?);")
-        preencher_tabela('concelho.csv', "INSERT INTO Concelho(concelho, intermunicipal_entity, district, region) VALUES(?, ?, ?, ?);")
-        preencher_tabela('province.csv', "INSERT INTO Province(province, autonomous_community) VALUES(?, ?);")
-        preencher_tabela('municipio.csv', "INSERT INTO Municipio(municipio, province) VALUES(?, ?);")
-        preencher_tabela('location_portugal.csv', "INSERT INTO LocationPortugal(name, parish, concelho) VALUES(?, ?, ?);")
-        preencher_tabela('location_spain.csv', "INSERT INTO LocationSpain(name, municipio, province, district) VALUES(?, ?, ?, ?);")
-        preencher_tabela('location_gibraltar.csv', "INSERT INTO LocationGibraltar(name, major_residential_area) VALUES(?, ?);")
-        preencher_tabela('comarca.csv', "INSERT INTO Comarca(municipio, comarca, province) VALUES(?, ?, ?);")
-        preencher_tabela('connection.csv', "INSERT INTO Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
-        preencher_tabela('destination.csv', "INSERT INTO Destination(location_a, location_b, means_transport, starting_point, destination) VALUES(?, ?, ?, ?, ?)")
+        preencher_tabela(paths_and_files.CSV_LOCATION_PATH, "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, batch) VALUES(?, ?, ?, ?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_CONCELHO_PATH, "INSERT INTO Concelho(concelho, intermunicipal_entity, district, region) VALUES(?, ?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_PROVINCE_PATH, "INSERT INTO Province(province, autonomous_community) VALUES(?, ?);")
+        preencher_tabela(paths_and_files.CSV_MUNICIPIO_PATH, "INSERT INTO Municipio(municipio, province) VALUES(?, ?);")
+        preencher_tabela(paths_and_files.CSV_LOCATION_PORTUGAL_PATH, "INSERT INTO LocationPortugal(name, parish, concelho) VALUES(?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_LOCATION_SPAIN_PATH, "INSERT INTO LocationSpain(name, municipio, province, district) VALUES(?, ?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, "INSERT INTO LocationGibraltar(name, major_residential_area) VALUES(?, ?);")
+        preencher_tabela(paths_and_files.CSV_COMARCA_PATH, "INSERT INTO Comarca(municipio, comarca, province) VALUES(?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_CONNECTION_PATH, "INSERT INTO Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
+        preencher_tabela(paths_and_files.CSV_DESTINATION_PATH, "INSERT INTO Destination(location_a, location_b, means_transport, starting_point, destination) VALUES(?, ?, ?, ?, ?)")
 
         print("Base de dados preenchida")
 

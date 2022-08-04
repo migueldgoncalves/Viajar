@@ -2203,11 +2203,11 @@ Estação de Agualva - Cacém,Estação de Sete Rios,Train,14.2,Linha de Sintra 
 Estação de Albergaria dos Doze,Estação de Caxarias,Train,10.3,Linha do Norte - Regional,SE,1,2
 Estação de Albergaria dos Doze,Estação de Litém,Train,6.4,Linha do Norte - Regional,N,2,1
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Train,5.2,Linha do Algarve - Regional,E,3,4
-Estação de Albufeira - Ferreiras,Estação de Loulé,Train,17.1,Linha do Algarve - Intercidades,SE,5,6
 Estação de Albufeira - Ferreiras,Estação de Loulé,High-Speed Train,17.1,Linha do Algarve,SE,6,8
+Estação de Albufeira - Ferreiras,Estação de Loulé,Train,17.1,Linha do Algarve - Intercidades,SE,5,6
 Estação de Albufeira - Ferreiras,Ferreiras,Car,1.2,,SW,2,2
-Estação de Albufeira - Ferreiras,Tunes,Train,5.2,Linha do Algarve - Intercidades/Regional,NW,4,6
 Estação de Albufeira - Ferreiras,Tunes,High-Speed Train,5.2,Linha do Algarve,NW,7,9
+Estação de Albufeira - Ferreiras,Tunes,Train,5.2,Linha do Algarve - Intercidades/Regional,NW,4,6
 Estação de Alcáçovas,Vila Nova da Baronia,Train,14.5,Linha do Alentejo - Intercidades,SE,1,2
 Estação de Alcântara-Mar,Estação de Alcântara-Terra,Transfer,0.0,,N,3,2
 Estação de Alcântara-Mar,Estação de Belém,Train,2.2,Linha de Cascais - CP Lisboa,W,2,1
@@ -2336,8 +2336,8 @@ Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,1
 Estação de Ciudad Real,Puertollano,High-Speed Train,39.1,LAV Madrid-Sevilha,SW,1,2
 Estação de Coimbra,Estação de Coimbra-B,Train,1.7,Ramal da Lousã - Regional/Urbanos de Coimbra,NW,1,3
 Estação de Coimbra-B,Estação de Pampilhosa,Train,14.0,Linha do Norte - Intercidades/InterRegional,N,5,4
-Estação de Coimbra-B,Estação de Pombal,Train,47.7,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SW,6,5
 Estação de Coimbra-B,Estação de Pombal,High-Speed Train,47.7,Linha do Norte,SW,8,7
+Estação de Coimbra-B,Estação de Pombal,Train,47.7,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SW,6,5
 Estação de Coimbra-B,Estação de Santa Comba Dão,Train,35.1,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,NE,7,4
 Estação de Coina,Estação de Fogueteiro,Train,5.2,Linha do Sul - Fertagus,W,2,1
 Estação de Coina,Estação de Penalva,Train,8.7,Linha do Sul - Fertagus,E,1,2
@@ -2359,14 +2359,14 @@ Estação de Elvas,Estação de Santa Eulália-A,Train,18.2,Linha do Leste - Reg
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,1.1,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus,E,2,1
 Estação de Entrecampos,Estação de Santa Apolónia,Train,6.0,Concordância de Xabregas - InterRegional/Regional,SE,3,2
 Estação de Entrecampos,Estação de Sete Rios,Train,1.9,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus/Intercidades/InterRegional/Regional,W,1,2
-Estação de Entrecampos,Gare do Oriente,Train,4.6,Linha de Cintura - Intercidades,NE,4,5
 Estação de Entrecampos,Gare do Oriente,High-Speed Train,4.6,Linha de Cintura,NE,6,10
+Estação de Entrecampos,Gare do Oriente,Train,4.6,Linha de Cintura - Intercidades,NE,4,5
 Estação de Entrecampos,Pinhal Novo,High-Speed Train,39.7,Linha do Sul,SE,5,8
-Estação de Ermidas - Sado,Estação de Funcheira,Train,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Estação de Funcheira,High-Speed Train,35.1,Linha do Sul,S,3,4
+Estação de Ermidas - Sado,Estação de Funcheira,Train,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Ferreira do Alentejo,Car,29.0,N121,NE,6,4
-Estação de Ermidas - Sado,Grândola,Train,27.6,Linha do Sul - Intercidades,NW,2,1
 Estação de Ermidas - Sado,Grândola,High-Speed Train,27.6,Linha do Sul,NW,4,3
+Estação de Ermidas - Sado,Grândola,Train,27.6,Linha do Sul - Intercidades,NW,2,1
 Estação de Ermidas - Sado,Mimosa,Car,10.9,IC1,SE,5,4
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,2.7,Linha da Azambuja/Linha do Norte - CP Lisboa,SW,1,2
 Estação de Espadaneira,Estação de Taveiro,Train,2.6,Linha do Norte - Regional,W,3,4
@@ -2377,8 +2377,8 @@ Estação de Estômbar - Lagoa,Mexilhoeira da Carregação,Car,2.5,,W,3,2
 Estação de Estômbar - Lagoa,Slide & Splash,Car,1.2,,SE,1,2
 Estação de Famalicão da Nazaré,Estação de São Martinho do Porto,Train,5.0,Linha do Oeste - Regional,W,1,2
 Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,8.6,Linha do Oeste - Regional,NE,2,1
-Estação de Faro,Estação de Loulé,Train,15.8,Linha do Algarve - Intercidades,NW,4,5
 Estação de Faro,Estação de Loulé,High-Speed Train,15.8,Linha do Algarve,NW,5,7
+Estação de Faro,Estação de Loulé,Train,15.8,Linha do Algarve - Intercidades,NW,4,5
 Estação de Faro,Estação de Parque das Cidades,Train,8.1,Linha do Algarve - Regional,NW,3,3
 Estação de Faro,Faro - São Pedro,Car,0.8,,E,1,3
 Estação de Feliteira,Estação de Zibreira,Train,2.0,Linha do Oeste - Regional,S,1,2
@@ -2520,8 +2520,8 @@ Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,4.2,L
 Estação de Rochoso,Estação de Vila Fernando,Train,5.0,Linha da Beira Alta - Regional,W,1,2
 Estação de Runa,Estação de Torres Vedras,Train,4.9,Linha do Oeste - Regional,W,2,1
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,2.3,Linha do Oeste - Regional,NE,2,1
-Estação de Santa Apolónia,Gare do Oriente,Train,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
 Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,6.5,Linha do Norte,N,4,12
+Estação de Santa Apolónia,Gare do Oriente,Train,6.5,Linha do Norte - Intercidades/InterRegional/Lusitânia Comboio Hotel/Regional/Sud Expresso,N,3,6
 Estação de Santa Clara - Sabóia,Luzianes,Car,11.3,,N,5,1
 Estação de Santa Clara - Sabóia,Monchique,Car,30.9,,SW,1,5
 Estação de Santa Clara - Sabóia,São Marcos da Serra,Car,23.7,,SE,2,4
@@ -2533,8 +2533,8 @@ Estação de Santana-Cartaxo,Estação de Vale de Santarém,Train,6.0,Linha do N
 Estação de Santarém,Estação de Vale de Figueira,Train,9.4,Linha do Norte - Regional,NE,2,1
 Estação de Santarém,Estação de Vale de Santarém,Train,8.1,Linha do Norte - Regional,SW,1,2
 Estação de Santarém,Estação de Vila Franca de Xira,Train,44.2,Linha do Norte - Intercidades,SW,5,7
-Estação de Santarém,Estação do Entroncamento,Train,31.9,Linha do Norte - Intercidades/InterRegional,NE,4,4
 Estação de Santarém,Estação do Entroncamento,High-Speed Train,31.9,Linha do Norte,NE,7,9
+Estação de Santarém,Estação do Entroncamento,Train,31.9,Linha do Norte - Intercidades/InterRegional,NE,4,4
 Estação de Santarém,Gare do Oriente,High-Speed Train,67.9,Linha do Norte,SW,6,11
 Estação de São João das Craveiras,Vendas Novas,Train,11.9,Linha do Alentejo - Intercidades,E,1,2
 Estação de São João do Estoril,Estação de São Pedro do Estoril,Train,1.5,Linha de Cascais - CP Lisboa,E,1,2
@@ -2646,8 +2646,8 @@ Gran Teatro de Huelva,"Plaza de las Monjas, Huelva",Car,0.2,,N,4,1
 Gran Teatro de Huelva,"Plaza Doce de Octubre, Huelva",Car,0.6,,W,2,6
 Grândola,IP8 - Cruzamento com a N261-1,Car,5.2,,NW,9,3
 Grândola,IP8 - Cruzamento com a N261-2,Car,9.1,,SW,8,2
-Grândola,Pinhal Novo,Train,69.5,Linha do Sul - Intercidades,NW,2,1
 Grândola,Pinhal Novo,High-Speed Train,69.5,Linha do Sul,NW,4,7
+Grândola,Pinhal Novo,Train,69.5,Linha do Sul - Intercidades,NW,2,1
 Guerreiros do Rio,Laranjeiras,Car,1.2,,NW,1,1
 Guerreiros do Rio,Rotunda da Árvore,Car,0.7,,S,2,1
 Guia,Marina de Albufeira,Car,7.7,,SE,5,2

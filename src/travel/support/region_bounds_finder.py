@@ -148,7 +148,7 @@ def obter_pontos_extremos():
                     imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
 
     except Exception as e:
-        print("Ocurreu uma excepção")
+        print("Ocorreu uma excepção")
         print(e.args)
         print("A sair...")
         exit(1)

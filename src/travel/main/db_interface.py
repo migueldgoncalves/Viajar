@@ -1,6 +1,5 @@
 from typing import Optional
 
-import pathlib
 import os
 import subprocess
 
@@ -9,16 +8,13 @@ from psycopg2 import OperationalError, sql
 
 from travel.main import location_portugal, location_spain, location_gibraltar
 from travel.main.cardinal_points import get_opposite_cardinal_point
+from travel.main import paths_and_files
 
 
 class DBInterface:
     """
     Interface to the creation and population of the PostgreSQL database in use by this program
     """
-
-    db_folder_name: str = 'database'
-    db_folder_path: str = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '', f'../{db_folder_name}')
-    database_file: str = 'database.sql'
 
     database_name: str = 'travel'
     username: str = 'postgres'
@@ -58,7 +54,7 @@ class DBInterface:
             self.cursor: psycopg2.cursor = self.connection.cursor()
 
             # Creates and populates the DB
-            sql_script_path: str = os.path.join(DBInterface.db_folder_path, DBInterface.database_file)
+            sql_script_path: str = paths_and_files.DB_SCRIPT_PATH
             with open(sql_script_path, mode='r') as file:
                 queries: list[str] = file.read().split(';\n')
             for query in queries:
@@ -331,52 +327,52 @@ class DBInterface:
 
     #  Preenche a base de dados
     def preencher_base_dados(self):
-        path_csv = os.path.join(self.db_folder_path, 'location.csv')
+        path_csv = paths_and_files.CSV_LOCATION_PATH
         query = "COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'concelho.csv')
+        path_csv = paths_and_files.CSV_CONCELHO_PATH
         query = "COPY Concelho(concelho, intermunicipal_entity, district, region) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'province.csv')
+        path_csv = paths_and_files.CSV_PROVINCE_PATH
         query = "COPY Province(province, autonomous_community) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'municipio.csv')
+        path_csv = paths_and_files.CSV_MUNICIPIO_PATH
         query = "COPY Municipio(municipio, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'location_portugal.csv')
+        path_csv = paths_and_files.CSV_LOCATION_PORTUGAL_PATH
         query = "COPY LocationPortugal(name, parish, concelho) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'location_spain.csv')
+        path_csv = paths_and_files.CSV_LOCATION_SPAIN_PATH
         query = "COPY LocationSpain(name, municipio, province, district) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'location_gibraltar.csv')
+        path_csv = paths_and_files.CSV_LOCATION_GIBRALTAR_PATH
         query = "COPY LocationGibraltar(name, major_residential_area) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'comarca.csv')
+        path_csv = paths_and_files.CSV_COMARCA_PATH
         query = "COPY Comarca(municipio, comarca, province) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'connection.csv')
+        path_csv = paths_and_files.CSV_CONNECTION_PATH
         query = "COPY Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b)" \
                 " FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)
 
-        path_csv = os.path.join(self.db_folder_path, 'destination.csv')
+        path_csv = paths_and_files.CSV_DESTINATION_PATH
         query = "COPY Destination(location_a, location_b, means_transport, starting_point, destination) FROM '" + path_csv + \
                 "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
         self.cursor.execute(query)

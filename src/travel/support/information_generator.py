@@ -10,6 +10,7 @@ import travel.support.haversine as haversine
 import travel.support.distance_calculator as calculadora_distancias
 import travel.support.osm_interface as osm_interface
 from travel.support.coordinate import Coordenada
+from travel.main import paths_and_files
 
 
 class Path:
@@ -29,9 +30,8 @@ class Path:
 COORDENADAS_CASAS_DECIMAIS: int = 6
 ENCODING: str = 'utf-8'
 
-PATH_BASE: Path = Path(os.path.dirname(os.path.realpath(__file__)))
-CHAVE_API_PATH: Path = Path(PATH_BASE, '../..', 'api_key.txt')
-PASTA_TEMP: Path = Path(PATH_BASE, '..', 'tmp')
+CHAVE_API_PATH: Path = Path(paths_and_files.GOOGLE_API_KEY_FILEPATH)
+PASTA_TEMP: Path = Path(paths_and_files.TMP_FOLDER_PATH)
 
 OPCAO_SAIR = 0
 OPCAO_LOCAIS_DIV_ADMIN = 1

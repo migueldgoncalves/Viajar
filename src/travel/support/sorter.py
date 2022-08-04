@@ -1,9 +1,8 @@
 import csv
-import pathlib
 from functools import cmp_to_key
-import os
 
 from travel.main.cardinal_points import get_opposite_cardinal_point
+from travel.main import paths_and_files
 
 """
 Ordenador do conteúdo de ficheiros .csv
@@ -18,20 +17,6 @@ QUOTECHAR = '"'
 QUOTING = csv.QUOTE_NONE
 ENCODING = 'utf-8'
 ESCAPECHAR = ''
-
-CSV_COMARCA = 'comarca.csv'
-CSV_CONCELHO = 'concelho.csv'
-CSV_DESTINO = 'destination.csv'
-CSV_LIGACAO = 'connection.csv'
-CSV_LOCAL = 'location.csv'
-CSV_LOCAL_ESPANHA = 'location_spain.csv'
-CSV_LOCAL_GIBRALTAR = 'location_gibraltar.csv'
-CSV_LOCAL_PORTUGAL = 'location_portugal.csv'
-CSV_MUNICIPIO = 'municipio.csv'
-CSV_PROVINCIA = 'province.csv'
-
-# Path da directoria relativa à base de dados
-path = os.path.join(str(pathlib.Path(__file__).parent.absolute()), '..', 'database')
 
 # Posições dos campos dos ficheiros .csv
 LOCAL_A = 0
@@ -60,19 +45,19 @@ def ordenar_ficheiros_csv(ficheiro_a_ordenar=None, cabecalho=True):
     if ficheiro_a_ordenar is not None:
         ficheiros_a_ordenar = [ficheiro_a_ordenar]
     else:
-        ficheiros_a_ordenar = [CSV_COMARCA, CSV_CONCELHO, CSV_DESTINO, CSV_LIGACAO, CSV_LOCAL, CSV_LOCAL_ESPANHA,
-                               CSV_LOCAL_GIBRALTAR, CSV_LOCAL_PORTUGAL, CSV_MUNICIPIO, CSV_PROVINCIA]
+        ficheiros_a_ordenar = [
+            paths_and_files.CSV_COMARCA_PATH, paths_and_files.CSV_CONCELHO_PATH, paths_and_files.CSV_DESTINATION_PATH,
+            paths_and_files.CSV_CONNECTION_PATH, paths_and_files.CSV_LOCATION_PATH, paths_and_files.CSV_LOCATION_SPAIN_PATH,
+            paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, paths_and_files.CSV_LOCATION_PORTUGAL_PATH,
+            paths_and_files.CSV_MUNICIPIO_PATH, paths_and_files.CSV_PROVINCE_PATH
+        ]
 
-    for ficheiro in ficheiros_a_ordenar:
-        if ficheiro_a_ordenar is None:
-            path_csv = os.path.join(path, ficheiro)
-        else:
-            path_csv = ficheiro
+    for path_csv in ficheiros_a_ordenar:
 
         linhas = csv_para_list(path_csv)
         if cabecalho:
             cabecalho = linhas.pop(0)
-        print(f'A ordenar ficheiro {ficheiro}. {len(linhas)} entradas no ficheiro')
+        print(f'A ordenar ficheiro {path_csv}. {len(linhas)} entradas no ficheiro')
         linhas.sort(key=chave)
         if cabecalho:
             linhas.insert(0, cabecalho)
@@ -89,8 +74,8 @@ def ordenar_ligacoes_destinos():
         -Tabela destino: inverter origem (False -> True)
     :return:
     """
-    path_ligacao = os.path.join(path, CSV_LIGACAO)
-    path_destino = os.path.join(path, CSV_DESTINO)
+    path_ligacao = paths_and_files.CSV_CONNECTION_PATH
+    path_destino = paths_and_files.CSV_DESTINATION_PATH
 
     for path_csv in [path_ligacao, path_destino]:
         linhas = csv_para_list(path_csv)
