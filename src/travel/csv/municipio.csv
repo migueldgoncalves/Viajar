@@ -1,6 +1,7 @@
 Municipio,Province
 Abla,Almería
 Abrucena,Almería
+Adanero,Ávila
 Adra,Almería
 Aguadulce,Sevilha
 Aguilar de la Frontera,Córdoba
@@ -31,15 +32,18 @@ Almería,Almería
 Almonte,Huelva
 Almuñécar,Granada
 Almuradiel,Ciudad Real
+Alpedrete,Comunidade de Madrid
 Andújar,Jaén
 Antas,Almería
 Antequera,Málaga
 Arahal,Sevilha
 Aranjuez,Comunidade de Madrid
 Archidona,Málaga
+Arévalo,Ávila
 Aroche,Huelva
 Arroyo de San Serván,Badajoz
 Arroyomolinos,Comunidade de Madrid
+Ataquines,Valladolid
 Atarfe,Granada
 Ayamonte,Huelva
 Badajoz,Badajoz
@@ -87,6 +91,7 @@ Chauchina,Granada
 Chucena,Huelva
 Cijuela,Granada
 Ciudad Real,Ciudad Real
+Collado Villalba,Comunidade de Madrid
 Colmenar Viejo,Comunidade de Madrid
 Córdoba,Córdoba
 Coria,Cáceres
@@ -104,6 +109,7 @@ Dosbarrios,Toledo
 El Carpio,Córdoba
 El Cuervo de Sevilla,Sevilha
 El Ejido,Almería
+El Espinar,Segóvia
 El Garrobo,Sevilha
 El Granado,Huelva
 El Molar,Comunidade de Madrid
@@ -114,6 +120,7 @@ Encinasola,Huelva
 Escurial,Cáceres
 Espartinas,Sevilha
 Espeja,Salamanca
+Espinosa de los Caballeros,Ávila
 Estepa,Sevilha
 Estepona,Málaga
 Fernán Núñez,Córdoba
@@ -125,6 +132,7 @@ Fuente de Cantos,Badajoz
 Fuente de Piedra,Málaga
 Fuentes de Andalucía,Sevilha
 Fuentes de Oñoro,Salamanca
+Galapagar,Comunidade de Madrid
 Galisteo,Cáceres
 Gelves,Sevilha
 Gérgal,Almería
@@ -133,11 +141,13 @@ Gibraleón,Huelva
 Granada,Granada
 Granja de Rocamora,Alicante
 Guadalix de la Sierra,Comunidade de Madrid
+Guadarrama,Comunidade de Madrid
 Guadix,Granada
 Guareña,Badajoz
 Guarromán,Jaén
 Guijo de Galisteo,Cáceres
 Guillena,Sevilha
+Gutierre-Muñoz,Ávila
 Herencia,Ciudad Real
 Herreruela de Oropesa,Toledo
 Hinojal,Cáceres
@@ -211,6 +221,8 @@ Maqueda,Toledo
 Marbella,Málaga
 Marchena,Sevilha
 Marmolejo,Jaén
+Martín Muñoz de la Dehesa,Segóvia
+Medina del Campo,Valladolid
 Medina Sidonia,Cádiz
 Membrilla,Ciudad Real
 Mengíbar,Jaén
@@ -243,11 +255,13 @@ Ogíjares,Granada
 Oliva de la Frontera,Badajoz
 Oliva de Plasencia,Cáceres
 Ontígola,Toledo
+Orbita,Ávila
 Orihuela,Alicante
 Oropesa,Toledo
 Osuna,Sevilha
 Otero,Toledo
 Padul,Granada
+Palacios de Goda,Ávila
 Palomares del Río,Sevilha
 Palos de la Frontera,Huelva
 Paradas,Sevilha
@@ -290,10 +304,14 @@ San Agustín del Guadalix,Comunidade de Madrid
 San Bartolomé de la Torre,Huelva
 San Juan de Aznalfarache,Sevilha
 San Juan del Puerto,Huelva
+San Lorenzo de El Escorial,Comunidade de Madrid
+San Pablo de la Moraleja,Valladolid
 San Pedro de Mérida,Badajoz
 San Roque,Cádiz
 San Sebastián de los Reyes,Comunidade de Madrid
 San Silvestre de Guzmán,Huelva
+San Vicente del Palacio,Valladolid
+Sanchidrián,Ávila
 Sanlúcar de Guadiana,Huelva
 Santa Amalia,Badajoz
 Santa Bárbara de Casa,Huelva
@@ -347,6 +365,7 @@ Vigo,Pontevedra
 Villa de Otura,Granada
 Villa del Río,Córdoba
 Villablanca,Huelva
+Villacastín,Segóvia
 Villafranca de Córdoba,Córdoba
 Villafranca de los Barros,Badajoz
 Villamena,Granada

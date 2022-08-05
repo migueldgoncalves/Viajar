@@ -384,9 +384,9 @@ class GeradorInformacao:
                     break
 
                 if self.via_tipo == VIA_FERROVIA:
-                    meio_transporte: str = 'Comboio'
+                    meio_transporte: str = 'Train'
                 else:
-                    meio_transporte: str = 'Carro'
+                    meio_transporte: str = 'Car'
 
                 info_extra: str = self.via_identificador
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])

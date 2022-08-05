@@ -1,6 +1,7 @@
 Municipio,Comarca,Province
 Abla,Los Filabres-Tabernas,Almería
 Abrucena,Los Filabres-Tabernas,Almería
+Adanero,La Moraña,Ávila
 Adra,Poniente Almeriense,Almería
 Aguadulce,Sierra Sur de Sevilha,Sevilha
 Aguilar de la Frontera,Campiña Sur,Córdoba
@@ -33,15 +34,18 @@ Almería,Comarca Metropolitana de Almería,Almería
 Almonte,El Condado,Huelva
 Almuñécar,Costa Granadina,Granada
 Almuradiel,Sierra Morena,Ciudad Real
+Alpedrete,Cuenca del Guadarrama,Comunidade de Madrid
 Andújar,Campiña de Jaén,Jaén
 Antas,Levante Almeriense,Almería
 Antequera,Comarca de Antequera,Málaga
 Arahal,Campiña de Morón y Marchena,Sevilha
 Aranjuez,Comarca de Las Vegas,Comunidade de Madrid
 Archidona,Comarca Nororiental de Málaga,Málaga
+Arévalo,La Moraña,Ávila
 Aroche,Sierra de Huelva,Huelva
 Arroyo de San Serván,Centro,Badajoz
 Arroyomolinos,Comarca Sur,Comunidade de Madrid
+Ataquines,Tierra de Medina,Valladolid
 Atarfe,Vega de Granada,Granada
 Ayamonte,Costa Occidental de Huelva,Huelva
 Bailén,Sierra Morena,Jaén
@@ -91,6 +95,7 @@ Chauchina,Vega de Granada,Granada
 Chucena,El Condado,Huelva
 Cijuela,Vega de Granada,Granada
 Ciudad Real,Campo de Calatrava,Ciudad Real
+Collado Villalba,Cuenca del Guadarrama,Comunidade de Madrid
 Colmenar Viejo,Cuenca Alta del Manzanares,Comunidade de Madrid
 Córdoba,Comarca de Córdoba,Córdoba
 Coria del Río,Aljarafe,Sevilha
@@ -108,6 +113,7 @@ Dosbarrios,Mesa de Ocaña,Toledo
 El Carpio,Alto Guadalquivir,Córdoba
 El Cuervo de Sevilla,Bajo Guadalquivir,Sevilha
 El Ejido,Poniente Almeriense,Almería
+El Espinar,Comunidad de Ciudad y Tierra de Segovia,Segóvia
 El Garrobo,Sierra Norte de Sevilha,Sevilha
 El Granado,El Andévalo,Huelva
 El Molar,Cuenca del Medio Jarama,Comunidade de Madrid
@@ -119,6 +125,7 @@ Escurial,Comarca de Trujillo,Cáceres
 Espartinas,Aljarafe,Sevilha
 Espartinas,Comarca Metropolitana de Sevilha,Sevilha
 Espeja,Ciudad Rodrigo,Salamanca
+Espinosa de los Caballeros,La Moraña,Ávila
 Estepa,Sierra Sur de Sevilha,Sevilha
 Estepona,Costa del Sol Occidental,Málaga
 Fernán Núñez,Campiña Sur,Córdoba
@@ -130,6 +137,7 @@ Fuente de Cantos,Tentudía,Badajoz
 Fuente de Piedra,Comarca de Antequera,Málaga
 Fuentes de Andalucía,Comarca de Écija,Sevilha
 Fuentes de Oñoro,Ciudad Rodrigo,Salamanca
+Galapagar,Cuenca del Guadarrama,Comunidade de Madrid
 Galisteo,Valle del Alagón,Cáceres
 Gelves,Aljarafe,Sevilha
 Gelves,Comarca Metropolitana de Sevilha,Sevilha
@@ -139,11 +147,13 @@ Gibraleón,Comarca Metropolitana de Huelva,Huelva
 Granada,Vega de Granada,Granada
 Granja de Rocamora,El Baix Segura / Vega Baja del Segura,Alicante
 Guadalix de la Sierra,Cuenca Alta del Manzanares,Comunidade de Madrid
+Guadarrama,Cuenca del Guadarrama,Comunidade de Madrid
 Guadix,Comarca de Guadix,Granada
 Guareña,Guadiana,Badajoz
 Guarromán,Sierra Morena,Jaén
 Guijo de Galisteo,Valle del Alagón,Cáceres
 Guillena,Sierra Norte de Sevilha,Sevilha
+Gutierre-Muñoz,La Moraña,Ávila
 Herencia,La Mancha,Ciudad Real
 Herreruela de Oropesa,La Campana de Oropesa,Toledo
 Hinojal,Tajo-Salor,Cáceres
@@ -218,6 +228,8 @@ Maqueda,Torrijos,Toledo
 Marbella,Costa del Sol Occidental,Málaga
 Marchena,Campiña de Morón y Marchena,Sevilha
 Marmolejo,Campiña de Jaén,Jaén
+Martín Muñoz de la Dehesa,Campiña Segoviana,Segóvia
+Medina del Campo,Tierra de Medina,Valladolid
 Medina Sidonia,La Janda,Cádiz
 Membrilla,La Mancha,Ciudad Real
 Mengíbar,Comarca Metropolitana de Jaén,Jaén
@@ -248,11 +260,13 @@ Ogíjares,Vega de Granada,Granada
 Oliva de la Frontera,Sierra Suroeste,Badajoz
 Oliva de Plasencia,Trasierra-Tierras de Granadilla,Cáceres
 Ontígola,Mesa de Ocaña,Toledo
+Orbita,La Moraña,Ávila
 Orihuela,El Baix Segura / Vega Baja del Segura,Alicante
 Oropesa,La Campana de Oropesa,Toledo
 Osuna,Sierra Sur de Sevilha,Sevilha
 Otero,Torrijos,Toledo
 Padul,Valle de Lecrín,Granada
+Palacios de Goda,La Moraña,Ávila
 Palomares del Río,Aljarafe,Sevilha
 Palomares del Río,Comarca Metropolitana de Sevilha,Sevilha
 Palos de la Frontera,Comarca Metropolitana de Huelva,Huelva
@@ -297,10 +311,14 @@ San Bartolomé de la Torre,El Andévalo,Huelva
 San Juan de Aznalfarache,Aljarafe,Sevilha
 San Juan de Aznalfarache,Comarca Metropolitana de Sevilha,Sevilha
 San Juan del Puerto,Comarca Metropolitana de Huelva,Huelva
+San Lorenzo de El Escorial,Cuenca del Guadarrama,Comunidade de Madrid
+San Pablo de la Moraleja,Tierra de Medina,Valladolid
 San Pedro de Mérida,Centro,Badajoz
 San Roque,Campo de Gibraltar,Cádiz
 San Sebastián de los Reyes,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 San Silvestre de Guzmán,Costa Occidental de Huelva,Huelva
+San Vicente del Palacio,Tierra de Medina,Valladolid
+Sanchidrián,La Moraña,Ávila
 Sanlúcar de Guadiana,El Andévalo,Huelva
 Santa Amalia,Guadiana,Badajoz
 Santa Bárbara de Casa,El Andévalo,Huelva
@@ -355,6 +373,7 @@ Vigo,Comarca de Vigo,Pontevedra
 Villa de Otura,Vega de Granada,Granada
 Villa del Río,Alto Guadalquivir,Córdoba
 Villablanca,Costa Occidental de Huelva,Huelva
+Villacastín,Comunidad de Ciudad y Tierra de Segovia,Segóvia
 Villafranca de Córdoba,Alto Guadalquivir,Córdoba
 Villafranca de los Barros,Tierra de Barros-Río Matachel,Badajoz
 Villamena,Valle de Lecrín,Granada

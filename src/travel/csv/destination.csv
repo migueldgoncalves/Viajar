@@ -2626,6 +2626,95 @@ A-6 - Saída 26,A-6 - Saída 27,Car,True,Collado Villalba
 A-6 - Saída 27,A-6 - Saída 29,Car,False,Madrid
 A-6 - Saída 27,A-6 - Saída 29,Car,True,A Coruña
 A-6 - Saída 27,A-6 - Saída 29,Car,True,Collado Villalba
+A-6 - Saída 29,A-6 - Saída 33,Car,False,Madrid
+A-6 - Saída 29,A-6 - Saída 33,Car,True,A Coruña
+A-6 - Saída 33,A-6 - Saída 36,Car,False,Madrid
+A-6 - Saída 33,A-6 - Saída 36,Car,True,A Coruña
+A-6 - Saída 33,A-6 - Saída 36,Car,True,Collado Villalba
+A-6 - Saída 36,A-6 - Saída 38,Car,False,Madrid
+A-6 - Saída 36,A-6 - Saída 38,Car,True,A Coruña
+A-6 - Saída 38,A-6 - Saída 39,Car,False,Madrid
+A-6 - Saída 38,A-6 - Saída 39,Car,True,A Coruña
+A-6 - Saída 39,AP-6 - Saída 42,Car,False,Madrid
+A-6 - Saída 39,AP-6 - Saída 42,Car,True,A Coruña
+A-6 - Saída 110,A-6 - Saída 112,Car,False,Adanero
+A-6 - Saída 110,A-6 - Saída 112,Car,False,AP-6 - Madrid
+A-6 - Saída 110,A-6 - Saída 112,Car,True,A Coruña
+A-6 - Saída 110,A-6 - Saída 112,Car,True,Adanero
+A-6 - Saída 110,A-6 - Saída 112,Car,True,Tordesillas
+A-6 - Saída 110,AP-6 - Saída 108,Car,False,A Coruña
+A-6 - Saída 110,AP-6 - Saída 108,Car,False,Adanero
+A-6 - Saída 110,AP-6 - Saída 108,Car,False,Tordesillas
+A-6 - Saída 110,AP-6 - Saída 108,Car,True,Madrid
+A-6 - Saída 110,AP-6 - Saída 108,Car,True,Túnel de Guadarrama
+A-6 - Saída 112,A-6 - Saída 114,Car,False,Adanero
+A-6 - Saída 112,A-6 - Saída 114,Car,False,Ávila
+A-6 - Saída 112,A-6 - Saída 114,Car,False,Madrid
+A-6 - Saída 112,A-6 - Saída 114,Car,True,A Coruña
+A-6 - Saída 112,A-6 - Saída 114,Car,True,Arévalo
+A-6 - Saída 112,A-6 - Saída 114,Car,True,Valladolid
+A-6 - Saída 114,A-6 - Saída 117,Car,False,Ávila
+A-6 - Saída 114,A-6 - Saída 117,Car,False,Madrid
+A-6 - Saída 114,A-6 - Saída 117,Car,True,A Coruña
+A-6 - Saída 114,A-6 - Saída 117,Car,True,Arévalo
+A-6 - Saída 114,A-6 - Saída 117,Car,True,Valladolid
+A-6 - Saída 117,A-6 - Saída 119,Car,False,Adanero
+A-6 - Saída 117,A-6 - Saída 119,Car,False,Ávila
+A-6 - Saída 117,A-6 - Saída 119,Car,False,Madrid
+A-6 - Saída 117,A-6 - Saída 119,Car,True,A Coruña
+A-6 - Saída 117,A-6 - Saída 119,Car,True,Valladolid
+A-6 - Saída 119,A-6 - Saída 122,Car,False,Madrid
+A-6 - Saída 119,A-6 - Saída 122,Car,True,A Coruña
+A-6 - Saída 119,A-6 - Saída 122,Car,True,Tordesillas
+A-6 - Saída 122,A-6 - Saída 124,Car,False,Adanero
+A-6 - Saída 122,A-6 - Saída 124,Car,False,Ávila
+A-6 - Saída 122,A-6 - Saída 124,Car,False,Madrid
+A-6 - Saída 122,A-6 - Saída 124,Car,True,A Coruña
+A-6 - Saída 122,A-6 - Saída 124,Car,True,Tordesillas
+A-6 - Saída 124,A-6 - Saída 126,Car,False,Adanero
+A-6 - Saída 124,A-6 - Saída 126,Car,False,Ávila
+A-6 - Saída 124,A-6 - Saída 126,Car,False,Madrid
+A-6 - Saída 124,A-6 - Saída 126,Car,True,A Coruña
+A-6 - Saída 124,A-6 - Saída 126,Car,True,Medina del Campo
+A-6 - Saída 124,A-6 - Saída 126,Car,True,Valladolid
+A-6 - Saída 126,A-6 - Saída 129,Car,False,Adanero
+A-6 - Saída 126,A-6 - Saída 129,Car,False,Ávila
+A-6 - Saída 126,A-6 - Saída 129,Car,False,Madrid
+A-6 - Saída 126,A-6 - Saída 129,Car,True,A Coruña
+A-6 - Saída 126,A-6 - Saída 129,Car,True,Tordesillas
+A-6 - Saída 129,A-6 - Saída 134,Car,False,Arévalo
+A-6 - Saída 129,A-6 - Saída 134,Car,False,Madrid
+A-6 - Saída 129,A-6 - Saída 134,Car,True,A Coruña
+A-6 - Saída 129,A-6 - Saída 134,Car,True,Medina del Campo
+A-6 - Saída 129,A-6 - Saída 134,Car,True,Valladolid
+A-6 - Saída 134,A-6 - Saída 138,Car,False,Arévalo
+A-6 - Saída 134,A-6 - Saída 138,Car,False,Madrid
+A-6 - Saída 134,A-6 - Saída 138,Car,True,A Coruña
+A-6 - Saída 134,A-6 - Saída 138,Car,True,Medina del Campo
+A-6 - Saída 134,A-6 - Saída 138,Car,True,Valladolid
+A-6 - Saída 138,A-6 - Saída 141,Car,False,Arévalo
+A-6 - Saída 138,A-6 - Saída 141,Car,False,Madrid
+A-6 - Saída 138,A-6 - Saída 141,Car,True,A Coruña
+A-6 - Saída 138,A-6 - Saída 141,Car,True,Medina del Campo
+A-6 - Saída 138,A-6 - Saída 141,Car,True,Valladolid
+A-6 - Saída 141,A-6 - Saída 147,Car,False,Arévalo
+A-6 - Saída 141,A-6 - Saída 147,Car,False,Madrid
+A-6 - Saída 141,A-6 - Saída 147,Car,True,A Coruña
+A-6 - Saída 141,A-6 - Saída 147,Car,True,Medina del Campo
+A-6 - Saída 141,A-6 - Saída 147,Car,True,Valladolid
+A-6 - Saída 147,A-6 - Saída 149,Car,False,Madrid
+A-6 - Saída 147,A-6 - Saída 149,Car,True,A Coruña
+A-6 - Saída 147,A-6 - Saída 149,Car,True,Valladolid
+A-6 - Saída 149,A-6 - Saída 156,Car,False,Arévalo
+A-6 - Saída 149,A-6 - Saída 156,Car,False,Madrid
+A-6 - Saída 149,A-6 - Saída 156,Car,True,A Coruña
+A-6 - Saída 149,A-6 - Saída 156,Car,True,Medina del Campo
+A-6 - Saída 149,A-6 - Saída 156,Car,True,Valladolid
+A-6 - Saída 156,A-6 - Saída 157,Car,False,Arévalo
+A-6 - Saída 156,A-6 - Saída 157,Car,False,Madrid
+A-6 - Saída 156,A-6 - Saída 157,Car,True,A Coruña
+A-6 - Saída 156,A-6 - Saída 157,Car,True,A-62 - Valladolid
+A-6 - Saída 156,A-6 - Saída 157,Car,True,Tordesillas
 A-7 - Saída 103,A-7 - Saída 104,Car,False,Cádiz
 A-7 - Saída 103,A-7 - Saída 104,Car,False,Tarifa
 A-7 - Saída 103,A-7 - Saída 104,Car,True,Málaga
@@ -5212,6 +5301,37 @@ AP-4 - Saída 53,El Cuervo de Sevilla,Car,False,Los Palacios y Villafranca
 AP-4 - Saída 53,El Cuervo de Sevilla,Car,False,Sevilha
 AP-4 - Saída 53,El Cuervo de Sevilla,Car,True,Cádiz
 AP-4 - Saída 53,El Cuervo de Sevilla,Car,True,Jerez de la Frontera
+AP-6 - Saída 42,Área de Serviço de Villalba,Car,False,Collado Villalba
+AP-6 - Saída 42,Área de Serviço de Villalba,Car,False,Madrid
+AP-6 - Saída 42,Área de Serviço de Villalba,Car,True,A Coruña
+AP-6 - Saída 42,Área de Serviço de Villalba,Car,True,Puerto de Guadarrama
+AP-6 - Saída 42,Área de Serviço de Villalba,Car,True,Túnel de Guadarrama
+AP-6 - Saída 47,AP-6 - Saída 51,Car,False,Collado Villalba
+AP-6 - Saída 47,AP-6 - Saída 51,Car,False,Madrid
+AP-6 - Saída 47,AP-6 - Saída 51,Car,True,A Coruña
+AP-6 - Saída 47,AP-6 - Saída 51,Car,True,Puerto de Guadarrama
+AP-6 - Saída 47,AP-6 - Saída 51,Car,True,Túnel de Guadarrama
+AP-6 - Saída 47,Área de Serviço de Villalba,Car,False,A Coruña
+AP-6 - Saída 47,Área de Serviço de Villalba,Car,False,Puerto de Guadarrama
+AP-6 - Saída 47,Área de Serviço de Villalba,Car,False,Túnel de Guadarrama
+AP-6 - Saída 47,Área de Serviço de Villalba,Car,True,Collado Villalba
+AP-6 - Saída 47,Área de Serviço de Villalba,Car,True,Madrid
+AP-6 - Saída 51,AP-6 - Saída 60,Car,False,Collado Villalba
+AP-6 - Saída 51,AP-6 - Saída 60,Car,False,Madrid
+AP-6 - Saída 51,AP-6 - Saída 60,Car,True,A Coruña
+AP-6 - Saída 51,AP-6 - Saída 60,Car,True,Túnel de Guadarrama
+AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,False,Collado Villalba
+AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,False,Madrid
+AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,True,A Coruña
+AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,True,Ávila
+AP-6 - Saída 102,AP-6 - Saída 108,Car,False,Madrid
+AP-6 - Saída 102,AP-6 - Saída 108,Car,False,Villacastín
+AP-6 - Saída 102,AP-6 - Saída 108,Car,True,A Coruña
+AP-6 - Saída 102,AP-6 - Saída 108,Car,True,Valladolid
+AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
+AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
+AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
+AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,False,Estepona
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,False,Málaga
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,True,Algeciras
@@ -5392,6 +5512,14 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,True,Algarve
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,True,Lisboa
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,True,Setúbal
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-51,Car,False,Collado Villalba
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-51,Car,False,Madrid
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-51,Car,True,A Coruña
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-51,Car,True,Ávila
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-61,Car,False,A Coruña
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-61,Car,False,Ávila
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-61,Car,True,Collado Villalba
+Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-61,Car,True,Madrid
 Área de Serviço de Viseu,Cruzamento da A24 com a A25 e o IP3,Car,False,Guarda
 Área de Serviço de Viseu,Cruzamento da A24 com a A25 e o IP3,Car,False,Viseu
 Área de Serviço de Viseu,Cruzamento da A24 com a A25 e o IP3,Car,True,A24 - Vila Real
