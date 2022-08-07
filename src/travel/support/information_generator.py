@@ -64,6 +64,11 @@ class GeradorInformacao:
             self.via_identificador: str = self.estrada_numero
             self.pais: str = via_para_analisar[2]  # Ex: ES
 
+        # Replaces forbidden chars for paths present in identifiers of ways - Found in some OSM names for Spanish railways
+        # Ex: "Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez" -> "Tren C-3 - Chamartín - Sol - Atocha - Aranjuez"
+        # Ex: "Línea 8: Nuevos Ministerios-Aeropuerto T4" -> "Línea 8 - Nuevos Ministerios-Aeropuerto T4"
+        self.via_identificador = self.via_identificador.replace(': ', ' - ').replace('->', '-')
+
         self.obter_altitudes: bool = obter_altitudes
 
         self.api_key = None
