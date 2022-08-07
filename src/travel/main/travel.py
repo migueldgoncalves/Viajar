@@ -48,7 +48,10 @@ class Viajar:
 
     def __init__(self):
         self.base_dados = db_interface.DBInterface()  # Contém todos os locais disponíveis
-        self.base_dados.create_and_populate_travel_db()
+        self.db_initialized: bool = self.base_dados.create_and_populate_travel_db()
+        if not self.db_initialized:  # Error while initializing the DB
+            # Error print is printed when trying to start journey - Not adding here prevents printing same message twice
+            return
 
         #  Inicializar viagem
         self.viagem_actual = journey.Journey()
@@ -56,7 +59,7 @@ class Viajar:
         self.viagem_actual.set_current_location(LOCAL_INICIAL)
         self.viagem_actual.set_current_means_transport(CARRO)
         print("Bem-vindo/a à viagem")
-        print("Tem", self.base_dados.obter_numero_locais(), "locais disponíveis para visitar")
+        print("Tem", self.base_dados.get_total_location_number(), "locais disponíveis para visitar")
         print("O seu local de origem será", LOCAL_INICIAL)
         print("")
 
@@ -67,11 +70,11 @@ class Viajar:
     #  Opções adicionais do menu  #
     #  #  #  #  #  #  #  #  #  #  #
 
-    @staticmethod
-    def sair():
+    def sair(self):
         print("")
         print("Escolheu sair da viagem")
         print("Até à próxima")
+        self.base_dados.exit()
         exit()
 
     def informacoes_local(self):
@@ -135,7 +138,7 @@ class Viajar:
             return False
 
     def get_local_actual(self):
-        return self.base_dados.obter_local(self.viagem_actual.get_current_location())
+        return self.base_dados.get_location_object(self.viagem_actual.get_current_location())
 
     @staticmethod
     def conversor_tempo(segundos):
@@ -180,6 +183,10 @@ class Viajar:
     #  #  #  #  #  #  #  #
 
     def realizar_viagem(self):
+        if not self.db_initialized:  # Failed to initialize DB - Cancel journey
+            print("Error while initializing DB - Cannot start journey")
+            return
+
         while True:
             locais_circundantes = self.get_local_actual().get_connections()
             dados_locais = list(locais_circundantes.keys())

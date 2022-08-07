@@ -4,9 +4,9 @@ import os
 import subprocess
 
 import psycopg2
-from psycopg2 import OperationalError, sql
+from psycopg2 import sql
 
-from travel.main import location_portugal, location_spain, location_gibraltar
+from travel.main import location, location_portugal, location_spain, location_gibraltar
 from travel.main.cardinal_points import get_opposite_cardinal_point
 from travel.main import paths_and_files
 
@@ -31,17 +31,19 @@ class DBInterface:
         Main routine - Should be called in order to create the DB, if it does not exist, and then populate it
         Returns True on success, False on failure
         """
+        # Create the DB if it does not exist
         try:
             if not DBInterface.is_db_created(DBInterface.database_name):
-                success = DBInterface.create_database(DBInterface.database_name)
+                success: bool = DBInterface.create_database(DBInterface.database_name)
                 if not success:
                     print(f"Failed to create the {DBInterface.database_name} database")
                     return False
         except Exception as e:
-            print(f"Exception while checking if {DBInterface.database_name} exists")
+            print(f"Exception while checking if {DBInterface.database_name} database exists and creating it if needed")
             print(''.join(e.args))
             return False
 
+        # Connect to the DB
         try:
             self.connection = psycopg2.connect(
                 database=DBInterface.database_name,
@@ -51,8 +53,31 @@ class DBInterface:
                 port=DBInterface.sql_port
             )
             self.connection.autocommit = True
-            self.cursor: psycopg2.cursor = self.connection.cursor()
+            self.cursor = self.connection.cursor()
+        except Exception as e:
+            print(f"Exception while creating the cursor to access the {DBInterface.database_name} database")
+            print(''.join(e.args))
+            return False
 
+        # Create the tables of the DB
+        success: bool = self.create_db_tables()
+        if not success:
+            print(f'Failed to create the tables of the {DBInterface.database_name} database')
+            return False
+
+        # Populate the DB
+        success: bool = self.populate_travel_db()
+        if not success:
+            print(f'Failed to populate the {DBInterface.database_name} database')
+            return False
+
+        return True
+
+    def create_db_tables(self) -> bool:
+        """
+        Returns True if tables were successfully created in the database with provided name, False otherwise
+        """
+        try:
             # Creates and populates the DB
             sql_script_path: str = paths_and_files.DB_SCRIPT_PATH
             with open(sql_script_path, mode='r') as file:
@@ -60,9 +85,12 @@ class DBInterface:
             for query in queries:
                 query = DBInterface.convert_sqlite_to_postgresql(query)
                 self.cursor.execute(query + ';')
-            self.preencher_base_dados()
-        except OperationalError as e:
-            print(f"Ocorreu o erro '{e}'")
+            return True
+
+        except Exception as e:
+            print(f"Exception while creating the tables of the database {DBInterface.database_name}")
+            print(''.join(e.args))
+            return False
 
     @staticmethod
     def is_db_created(db_name: str) -> bool:
@@ -104,13 +132,13 @@ class DBInterface:
         elif not p.stdout:
             raise Exception(f"No output obtained from psql command to check if {db_name} database exists")
 
-        success_indicator = db_name  # If command result includes DB name, DB exists
+        success_indicator: str = db_name  # If command result includes DB name, DB exists
         output: str = f'{p.stdout.read()}'
         p.stdout.close()
         return success_indicator in output
 
     @staticmethod
-    def create_database(db_name: str):
+    def create_database(db_name: str) -> bool:
         """
         Given a string, creates a database with the provided name. Returns True on success, False otherwise
         Database creation will fail if it already exists, so checking beforehand is required
@@ -118,7 +146,7 @@ class DBInterface:
         return DBInterface._create_or_delete_database(db_name, create=True)
 
     @staticmethod
-    def delete_database(db_name: str):
+    def delete_database(db_name: str) -> bool:
         """
         Given a string, deletes the database with the provided name. Returns True on success, False otherwise
         Database deletion will fail if it does not exist, so checking beforehand is required
@@ -145,9 +173,9 @@ class DBInterface:
 
             # Creates or deletes the database
             if create:
-                db_query: str = sql.SQL("CREATE DATABASE {};").format(sql.Identifier(db_name))
+                db_query: sql.SQL = sql.SQL("CREATE DATABASE {};").format(sql.Identifier(db_name))
             else:  # Delete
-                db_query: str = sql.SQL("DROP DATABASE {};").format(sql.Identifier(db_name))
+                db_query: sql.SQL = sql.SQL("DROP DATABASE {};").format(sql.Identifier(db_name))
             cursor.execute(db_query)
             connection.close()
 
@@ -191,205 +219,249 @@ class DBInterface:
 
         return query
 
-    #  Retorna um local com todas as suas informações
-    def obter_local(self, nome):
-        #  Determinar o país
-        query = "SELECT COUNT(name) FROM LocationPortugal WHERE name = '" + nome + "';"
-        self.cursor.execute(query)
-        resultado = self.cursor.fetchall()[0][0]
-        if resultado == 1:  # Local de Portugal
-            pais = 'Portugal'
-        else:
-            query = "SELECT COUNT(name) FROM LocationSpain WHERE name = '" + nome + "';"
+    def get_location_object(self, name) -> Optional[location.Location]:
+        """
+        Given a location name, returns a country-specific location object with the respective information
+        """
+        try:
+            country: str = self.get_location_country(name)
+            if not country:
+                print(f"Location {name} is not in any country table - Failed to determine country")
+                return None
+
+            # Determine the surrounding locations and connections info
+            query: sql.SQL = sql.SQL("SELECT * FROM Connection WHERE location_a = {} OR location_b = {};").format(sql.Literal(name), sql.Literal(name))
             self.cursor.execute(query)
-            resultado = self.cursor.fetchall()[0][0]
-            if resultado == 1:  # Local de Espanha
-                pais = 'Espanha'
-            else:
-                query = "SELECT COUNT(name) FROM LocationGibraltar WHERE name = '" + nome + "';"
+            result: list[tuple] = self.cursor.fetchall()
+            surrounding_locations: dict[tuple[str, str], tuple[str, float, str]] = {}
+            orders: list[int] = []
+            ways: dict[tuple[str, str], str] = {}
+            for line in result:
+                if line[0].strip() == name:  # Location A
+                    orders.append(line[6])  # Order A
+                    surrounding_location: str = line[1].strip()
+                    cardinal_point: str = line[5].strip()
+                else:  # Location B
+                    orders.append(line[7])  # Order B
+                    surrounding_location: str = line[0].strip()
+                    cardinal_point: str = get_opposite_cardinal_point(line[5].strip())
+                distance: float = float(line[3])
+                means_transport: str = line[2].strip()
+                if line[4] is not None:
+                    ways[(surrounding_location, means_transport)] = line[4].strip()
+                surrounding_locations[(surrounding_location, means_transport)] = (cardinal_point, distance, means_transport)
+            surrounding_locations = DBInterface.order_dictionary(surrounding_locations, orders)
+
+            # Determine destinations per combination surrounding location/means of transport
+            query = sql.SQL("SELECT * FROM Destination WHERE (location_a = {} AND starting_point = 'true') OR (location_b = {} AND starting_point = 'false');").format(sql.Literal(name), sql.Literal(name))
+            self.cursor.execute(query)
+            result = self.cursor.fetchall()
+            all_destinations: dict[tuple[str, str], list[str]] = {}
+            for surrounding_location in surrounding_locations:
+                surrounding_location_name: str = surrounding_location[0]
+                means_transport: str = surrounding_location[1]
+                destinations: list[str] = []
+                for line in result:
+                    if (surrounding_location_name in [line[0], line[1]]) & (means_transport == line[2]):
+                        destinations.append(line[4].strip())
+                if len(destinations) > 0:
+                    all_destinations[(surrounding_location_name, means_transport)] = destinations
+
+            # Determine the remainder of the general location parameters
+            query = sql.SQL("SELECT * FROM Location WHERE name = {};").format(sql.Literal(name))
+            self.cursor.execute(query)
+            result = self.cursor.fetchall()
+            latitude: float = float(result[0][1])
+            longitude: float = float(result[0][2])
+            altitude: int = int(result[0][3])
+            protected_area: str = ''
+            if result[0][4] is not None:
+                protected_area = result[0][4].strip()
+            batch: int = int(result[0][5])
+
+            # Determine the country-specific parameters, then create the location object
+            if country == location_portugal.COUNTRY:
+                query = sql.SQL("SELECT LocationPortugal.name, parish, Concelho.concelho, intermunicipal_entity, district, region "
+                                "FROM LocationPortugal, Concelho "
+                                "WHERE LocationPortugal.concelho = Concelho.concelho AND LocationPortugal.name = {};").format(sql.Literal(name))
                 self.cursor.execute(query)
-                resultado = self.cursor.fetchall()[0][0]
-                if resultado == 1:  # Local de Gibraltar
-                    pais = 'Gibraltar'
-                else:
-                    return None  # Local inválido
+                result = self.cursor.fetchall()
+                parish: str = result[0][1].strip()
+                concelho: str = result[0][2].strip()
+                district: str = result[0][4].strip()
+                intermunicipal_entity: str = result[0][3].strip()
+                region: str = result[0][5].strip()
+                location_object: location_portugal.LocationPortugal = location_portugal.LocationPortugal(
+                    name, surrounding_locations, latitude, longitude, altitude, parish, concelho, district,
+                    intermunicipal_entity, region)
 
-        #  Determinar os locais circundantes
-        query = "SELECT * FROM Connection WHERE location_a = '" + nome + "' OR location_b = '" + nome + "';"
-        self.cursor.execute(query)
-        resultado = self.cursor.fetchall()
-        locais_circundantes = {}
-        ordem = []
-        sentidos_info_extra = {}
-        for linha in resultado:
-            if linha[0].strip() == nome:  # Local A
-                ordem.append(linha[6])  # Ordem A
-                local_circundante = linha[1].strip()
-                ponto_cardeal = linha[5].strip()
-            else:  # Local B
-                ordem.append(linha[7])  # Ordem B
-                local_circundante = linha[0].strip()
-                ponto_cardeal = get_opposite_cardinal_point(linha[5].strip())
-            distancia = float(linha[3])
-            meio_transporte = linha[2].strip()
-            if linha[4] is not None:
-                sentidos_info_extra[(local_circundante, meio_transporte)] = linha[4].strip()
-            locais_circundantes[(local_circundante, meio_transporte)] = [ponto_cardeal, distancia, meio_transporte]
-        locais_circundantes = DBInterface.ordenar_dicionario(locais_circundantes, ordem)
+            elif country == location_spain.COUNTRY:
+                query = sql.SQL("SELECT name, municipio, district, Province.province, autonomous_community "
+                                "FROM LocationSpain, Province "
+                                "WHERE LocationSpain.province = Province.province AND LocationSpain.name = {};").format(sql.Literal(name))
+                self.cursor.execute(query)
+                result = self.cursor.fetchall()
+                district: str = ''
+                if result[0][2] is not None:
+                    district = result[0][2].strip()
+                municipio: str = result[0][1].strip()
+                province: str = result[0][3].strip()
+                autonomous_community: str = result[0][4].strip()
 
-        #  Determinar os destinos por sentido
-        query = "SELECT * FROM Destination WHERE " \
-                "(location_a = '" + nome + "' AND starting_point = 'true') OR (location_b = '" + nome + "' AND starting_point = 'false');"
-        self.cursor.execute(query)
-        resultado = self.cursor.fetchall()
-        sentidos = {}
-        for local_circundante in locais_circundantes:
-            nome_local = local_circundante[0]
-            meio_transporte = local_circundante[1]
-            destinos = []
-            for linha in resultado:
-                if (nome_local in [linha[0], linha[1]]) & (meio_transporte == linha[2]):
-                    destinos.append(linha[4].strip())
-            if len(destinos) > 0:
-                sentidos[(nome_local, meio_transporte)] = destinos
+                # Get comarca(s) info
+                query = sql.SQL("SELECT * FROM Comarca WHERE municipio = {} AND province = {};").format(sql.Literal(municipio), sql.Literal(province))
+                self.cursor.execute(query)
+                result = self.cursor.fetchall()
+                comarcas: list[str] = []
+                for line in result:
+                    comarcas.append(line[1].strip())
 
-        #  Determinar os restantes parâmetros gerais
-        query = "SELECT * FROM Location WHERE name = '" + nome + "';"
-        self.cursor.execute(query)
-        resultado = self.cursor.fetchall()
-        latitude = float(resultado[0][1])
-        longitude = float(resultado[0][2])
-        altitude = int(resultado[0][3])
-        info_extra = ''
-        if resultado[0][4] is not None:
-            info_extra = resultado[0][4].strip()
-        lote = int(resultado[0][5])
+                location_object: location_spain.LocationSpain = location_spain.LocationSpain(
+                    name, surrounding_locations, latitude, longitude, altitude, municipio, comarcas, province, autonomous_community)
+                location_object.set_district(district)
 
-        #  Determinar os parâmetros específicos do país
-        if pais == 'Portugal':
-            query = "SELECT LocationPortugal.name, parish, Concelho.concelho, intermunicipal_entity, district, region " \
-                    "FROM LocationPortugal, Concelho " \
-                    "WHERE LocationPortugal.concelho = Concelho.concelho AND LocationPortugal.name = '" + nome + "';"
-            self.cursor.execute(query)
-            resultado = self.cursor.fetchall()
-            freguesia = resultado[0][1].strip()
-            concelho = resultado[0][2].strip()
-            distrito = resultado[0][4].strip()
-            entidade_intermunicipal = resultado[0][3].strip()
-            regiao = resultado[0][5].strip()
-        elif pais == 'Espanha':
-            query = "SELECT name, municipio, district, Province.province, autonomous_community " \
-                    "FROM LocationSpain, Province " \
-                    "WHERE LocationSpain.province = Province.province AND LocationSpain.name = '" + nome + "';"
-            self.cursor.execute(query)
-            resultado = self.cursor.fetchall()
-            distrito = ''
-            if resultado[0][2] is not None:
-                distrito = resultado[0][2].strip()
-            municipio = resultado[0][1].strip()
-            provincia = resultado[0][3].strip()
-            comunidade_autonoma = resultado[0][4].strip()
-            query = "SELECT * FROM Comarca WHERE municipio = '" + municipio + "' AND province = '" + provincia + "';"
-            self.cursor.execute(query)
-            resultado = self.cursor.fetchall()
-            comarcas = []
-            for linha in resultado:
-                comarcas.append(linha[1].strip())
-        elif pais == 'Gibraltar':
-            query = "SELECT name, major_residential_area FROM LocationGibraltar WHERE name = '" + nome + "';"
-            self.cursor.execute(query)
-            resultado = self.cursor.fetchall()
-            major_residential_areas = []
-            for linha in resultado:
-                major_residential_areas.append(linha[1].strip())
-        else:
+            elif country == location_gibraltar.COUNTRY:
+                query = sql.SQL("SELECT name, major_residential_area FROM LocationGibraltar WHERE name = {};").format(sql.Literal(name))
+                self.cursor.execute(query)
+                result = self.cursor.fetchall()
+                major_residential_areas: list[str] = []
+                for line in result:
+                    major_residential_areas.append(line[1].strip())
+                location_object: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
+                    name, surrounding_locations, latitude, longitude, altitude, major_residential_areas)
+
+            else:
+                return None
+
+            location_object.set_destinations(all_destinations)
+            location_object.set_ways(ways)
+            location_object.set_protected_area(protected_area)
+            location_object.set_batch(batch)
+
+            return location_object
+
+        except Exception as e:
+            print(f"Exception while getting info for location {name}")
+            print(''.join(e.args))
             return None
 
-        #  Criar o local
-        if pais == 'Portugal':
-            local = location_portugal.LocationPortugal(nome, locais_circundantes, latitude, longitude, altitude, freguesia,
-                                                       concelho, distrito, entidade_intermunicipal, regiao)
-        elif pais == 'Espanha':
-            local = location_spain.LocationSpain(nome, locais_circundantes, latitude, longitude, altitude, municipio,
-                                                 comarcas, provincia, comunidade_autonoma)
-            local.set_district(distrito)
-        elif pais == 'Gibraltar':
-            local = location_gibraltar.LocationGibraltar(nome, locais_circundantes, latitude, longitude, altitude,
-                                                         major_residential_areas)
-        else:
-            return None
-        local.set_destinations(sentidos)
-        local.set_ways(sentidos_info_extra)
-        local.set_protected_area(info_extra)
-        local.set_batch(lote)
+    def get_location_country(self, location_name: str) -> str:
+        """
+        Given a location name, returns the respective country
+        """
+        # Add new countries HERE
+        table_names: dict[str, str] = {
+            location_portugal.COUNTRY: 'LocationPortugal',
+            location_spain.COUNTRY: 'LocationSpain',
+            location_gibraltar.COUNTRY: 'LocationGibraltar',
+        }
 
-        return local
+        for country_name in table_names:
+            table_name: str = table_names[country_name]
+            query_template: str = "SELECT COUNT(name) FROM %s WHERE name = {};" % table_name  # Table name would be quoted if inserted using sql.Identifier, causing query to fail
+            country_query: psycopg2.sql.SQL = sql.SQL(query_template).format(sql.Literal(location_name))
 
-    #  Preenche a base de dados
-    def preencher_base_dados(self):
-        path_csv = paths_and_files.CSV_LOCATION_PATH
-        query = "COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            self.cursor.execute(country_query)
+            location_count: int = self.cursor.fetchall()[0][0]
+            is_in_country = location_count
+            if is_in_country == 1:  # Location will appear at most once in a country table
+                return country_name
 
-        path_csv = paths_and_files.CSV_CONCELHO_PATH
-        query = "COPY Concelho(concelho, intermunicipal_entity, district, region) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+        return ''  # Location is not part of any country table - It should
 
-        path_csv = paths_and_files.CSV_PROVINCE_PATH
-        query = "COPY Province(province, autonomous_community) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+    def populate_travel_db(self) -> bool:
+        """
+        Populates the DB. Returns True on success, False otherwise
+        """
+        delimiter: str = ','
+        encoding: str = 'utf8'
 
-        path_csv = paths_and_files.CSV_MUNICIPIO_PATH
-        query = "COPY Municipio(municipio, province) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+        try:
+            csv_path: str = paths_and_files.CSV_LOCATION_PATH
+            query = sql.SQL("COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM {} "
+                            "DELIMITER {} CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_LOCATION_PORTUGAL_PATH
-        query = "COPY LocationPortugal(name, parish, concelho) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_CONCELHO_PATH
+            query = sql.SQL("COPY Concelho(concelho, intermunicipal_entity, district, region) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_LOCATION_SPAIN_PATH
-        query = "COPY LocationSpain(name, municipio, province, district) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_PROVINCE_PATH
+            query = sql.SQL("COPY Province(province, autonomous_community) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_LOCATION_GIBRALTAR_PATH
-        query = "COPY LocationGibraltar(name, major_residential_area) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_MUNICIPIO_PATH
+            query = sql.SQL("COPY Municipio(municipio, province) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_COMARCA_PATH
-        query = "COPY Comarca(municipio, comarca, province) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_LOCATION_PORTUGAL_PATH
+            query = sql.SQL("COPY LocationPortugal(name, parish, concelho) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_CONNECTION_PATH
-        query = "COPY Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b)" \
-                " FROM '" + path_csv + "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_LOCATION_SPAIN_PATH
+            query = sql.SQL("COPY LocationSpain(name, municipio, province, district) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-        path_csv = paths_and_files.CSV_DESTINATION_PATH
-        query = "COPY Destination(location_a, location_b, means_transport, starting_point, destination) FROM '" + path_csv + \
-                "' DELIMITER ',' CSV HEADER ENCODING 'utf8';"
-        self.cursor.execute(query)
+            csv_path = paths_and_files.CSV_LOCATION_GIBRALTAR_PATH
+            query = sql.SQL("COPY LocationGibraltar(name, major_residential_area) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
 
-    #  Retorna o número de locais da base de dados
-    def obter_numero_locais(self):
+            csv_path = paths_and_files.CSV_COMARCA_PATH
+            query = sql.SQL("COPY Comarca(municipio, comarca, province) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
+
+            csv_path = paths_and_files.CSV_CONNECTION_PATH
+            query = sql.SQL("COPY Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) "
+                            "FROM {} DELIMITER {} CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
+
+            csv_path = paths_and_files.CSV_DESTINATION_PATH
+            query = sql.SQL("COPY Destination(location_a, location_b, means_transport, starting_point, destination) "
+                            "FROM {} DELIMITER {} CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
+
+            return True
+
+        except Exception as e:
+            print(f"Exception while populating the {DBInterface.database_name} database")
+            print(''.join(e.args))
+            return False
+
+    def get_total_location_number(self) -> int:
+        """
+        Returns the number of locations in the DB
+        """
         query = "SELECT COUNT(name) FROM Location;"
         self.cursor.execute(query)
         return self.cursor.fetchall()[0][0]
 
-    #  Ordena os elementos de um dicionário de acordo com uma ordem fornecida
+    # Orders elements of a dictionary according to a supplied order
     @staticmethod
-    def ordenar_dicionario(dicionario, ordem):
-        novo_dic = {}
-        for i in range(len(dicionario)):
-            for j in range(len(dicionario)):
-                if ordem[j] == len(novo_dic) + 1:
-                    chave = list(dicionario)[j]
-                    novo_dic[chave] = dicionario[chave]
-        return novo_dic
+    def order_dictionary(dictionary: dict, order: list[int]) -> dict:
+        """
+        Orders elements of the provided dictionary according to the supplied order, returns ordered dictionary
+        """
+        new_dict: dict = {}
+        for i in range(len(dictionary)):
+            for j in range(len(dictionary)):
+                if order[j] == len(new_dict) + 1:
+                    dict_key = list(dictionary)[j]
+                    new_dict[dict_key] = dictionary[dict_key]
+        return new_dict
+
+    def exit(self):
+        # Close the connection
+        try:
+            self.connection.close()
+            return True
+        except Exception as e:
+            print(f"Exception while closing the connection to the {DBInterface.database_name} database")
+            print(''.join(e.args))
+            return False
