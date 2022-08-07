@@ -225,9 +225,15 @@ class GeradorInformacao:
                     distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.DISTRITO_ES, '')  # Só disponível nas grandes cidades
 
                     if self.via_tipo == VIA_FERROVIA:
-                        f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
+                        if distrito_es:
+                            f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
+                        else:
+                            f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},\n')
                     else:
-                        f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
+                        if distrito_es:
+                            f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
+                        else:
+                            f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{municipio},{provincia},\n')
 
                     municipios.add(f'{municipio},{provincia}\n')
                     if comarca:
