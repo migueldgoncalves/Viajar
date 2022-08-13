@@ -46,6 +46,37 @@ A-2 - Saída 7-8,Madrid,Comunidade de Madrid,San Blas-Canillejas
 A-2 - Saída 9,Madrid,Comunidade de Madrid,San Blas-Canillejas
 A-2 - Saída 11-12,Madrid,Comunidade de Madrid,Barajas
 A-2 - Saída 15,Madrid,Comunidade de Madrid,Barajas
+A-2 - Saída 16A,San Fernando de Henares,Comunidade de Madrid,
+A-2 - Saída 16B,San Fernando de Henares,Comunidade de Madrid,
+A-2 - Saída 17,San Fernando de Henares,Comunidade de Madrid,
+A-2 - Saída 18,San Fernando de Henares,Comunidade de Madrid,
+A-2 - Saída 20,Torrejón de Ardoz,Comunidade de Madrid,
+A-2 - Saída 22,Torrejón de Ardoz,Comunidade de Madrid,
+A-2 - Saída 23,Torrejón de Ardoz,Comunidade de Madrid,
+A-2 - Saída 24,Alcalá de Henares,Comunidade de Madrid,Distrito III
+A-2 - Saída 26,Alcalá de Henares,Comunidade de Madrid,Distrito III
+A-2 - Saída 28,Alcalá de Henares,Comunidade de Madrid,Distrito III
+A-2 - Saída 30,Alcalá de Henares,Comunidade de Madrid,Distrito IV
+A-2 - Saída 32,Alcalá de Henares,Comunidade de Madrid,Distrito IV
+A-2 - Saída 33,Alcalá de Henares,Comunidade de Madrid,Distrito V
+A-2 - Saída 35,Alcalá de Henares,Comunidade de Madrid,Distrito V
+A-2 - Saída 38,Alcalá de Henares,Comunidade de Madrid,Distrito V
+A-2 - Saída 40,Azuqueca de Henares,Guadalajara,
+A-2 - Saída 42,Azuqueca de Henares,Guadalajara,
+A-2 - Saída 44,Azuqueca de Henares,Guadalajara,
+A-2 - Saída 48,Alovera,Guadalajara,
+A-2 - Saída 51,Guadalajara,Guadalajara,
+A-2 - Saída 52A,Guadalajara,Guadalajara,
+A-2 - Saída 52B,Guadalajara,Guadalajara,
+A-2 - Saída 53,Guadalajara,Guadalajara,
+A-2 - Saída 55,Guadalajara,Guadalajara,
+A-2 - Saída 56,Guadalajara,Guadalajara,
+A-2 - Saída 61,Guadalajara,Guadalajara,
+A-2 - Saída 64,Guadalajara,Guadalajara,
+A-2 - Saída 69,Torija,Guadalajara,
+A-2 - Saída 71,Torija,Guadalajara,
+A-2 - Saída 73,Torija,Guadalajara,
+A-2 - Saída 75,Trijueque,Guadalajara,
 A-4 - Saída 69,Ocaña,Toledo,
 A-4 - Saída 70,Dosbarrios,Toledo,
 A-4 - Saída 72,Dosbarrios,Toledo,
@@ -976,8 +1007,11 @@ Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da A-1 com a M-12,Alcobendas,Comunidade de Madrid,
 Cruzamento da A-1 com a M-40,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da A-1 com a M-50,San Sebastián de los Reyes,Comunidade de Madrid,
+Cruzamento da A-2 com a CM-10,Guadalajara,Guadalajara,
 Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas - Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
+Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,Distrito III
+Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,

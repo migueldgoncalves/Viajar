@@ -355,6 +355,40 @@ A-2 - Saída 7-8,A-2 - Saída 9,Car,1.5,A-2,E,2,1
 A-2 - Saída 9,Cruzamento da A-2 com a M-14,Car,1.7,A-2,E,2,1
 A-2 - Saída 11-12,A-2 - Saída 15,Car,3.2,A-2,E,2,1
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Car,0.7,A-2,W,1,2
+A-2 - Saída 15,A-2 - Saída 16A,Car,0.9,A-2,E,2,1
+A-2 - Saída 16A,A-2 - Saída 16B,Car,0.2,A-2,E,2,1
+A-2 - Saída 16B,A-2 - Saída 17,Car,0.9,A-2,E,2,1
+A-2 - Saída 17,A-2 - Saída 18,Car,1.2,A-2,E,2,1
+A-2 - Saída 18,A-2 - Saída 20,Car,1.9,A-2,E,2,1
+A-2 - Saída 20,A-2 - Saída 22,Car,1.9,A-2,E,2,1
+A-2 - Saída 22,A-2 - Saída 23,Car,1.7,A-2,E,2,1
+A-2 - Saída 23,A-2 - Saída 24,Car,1.2,A-2,E,2,1
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,0.9,A-2,E,2,1
+A-2 - Saída 26,A-2 - Saída 28,Car,1.3,A-2,NE,2,1
+A-2 - Saída 26,Cruzamento da A-2 com a M-100 e a M-203,Car,1.3,A-2,W,1,2
+A-2 - Saída 28,A-2 - Saída 30,Car,2.7,A-2,NE,2,1
+A-2 - Saída 30,A-2 - Saída 32,Car,1.4,A-2,E,2,1
+A-2 - Saída 32,A-2 - Saída 33,Car,1.6,A-2,E,2,1
+A-2 - Saída 33,A-2 - Saída 35,Car,2.1,A-2,NE,2,1
+A-2 - Saída 35,A-2 - Saída 38,Car,3.2,A-2,NE,2,1
+A-2 - Saída 38,A-2 - Saída 40,Car,1.9,A-2,NE,2,1
+A-2 - Saída 40,A-2 - Saída 42,Car,1.6,A-2,NE,2,1
+A-2 - Saída 42,A-2 - Saída 44,Car,2.3,A-2,NE,2,1
+A-2 - Saída 44,A-2 - Saída 48,Car,3.6,A-2,NE,2,1
+A-2 - Saída 48,A-2 - Saída 51,Car,3.7,A-2,NE,2,1
+A-2 - Saída 51,A-2 - Saída 52A,Car,0.8,A-2,NE,2,1
+A-2 - Saída 52A,A-2 - Saída 52B,Car,0.9,A-2,E,2,1
+A-2 - Saída 52B,A-2 - Saída 53,Car,0.8,A-2,E,2,1
+A-2 - Saída 53,A-2 - Saída 55,Car,2.0,A-2,E,2,1
+A-2 - Saída 55,A-2 - Saída 56,Car,0.9,A-2,E,2,1
+A-2 - Saída 56,Cruzamento da A-2 com a CM-10,Car,2.5,A-2,NE,2,1
+A-2 - Saída 61,Cruzamento da A-2 com a CM-10,Car,2.4,A-2,SW,1,2
+A-2 - Saída 61,Cruzamento da A-2 com a R-2,Car,0.8,A-2,NE,2,1
+A-2 - Saída 64,A-2 - Saída 69,Car,4.6,A-2,NE,2,1
+A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,3.1,A-2,SW,1,2
+A-2 - Saída 69,A-2 - Saída 71,Car,1.4,A-2,NE,2,1
+A-2 - Saída 71,A-2 - Saída 73,Car,2.7,A-2,NE,2,1
+A-2 - Saída 73,A-2 - Saída 75,Car,2.3,A-2,NE,2,1
 A-4 - Saída 69,A-4 - Saída 70,Car,2.3,A-4,S,1,2
 A-4 - Saída 69,Cruzamento da A-4 com a AP-36 e a R-4,Car,1.2,A-4,N,2,1
 A-4 - Saída 70,A-4 - Saída 72,Car,2.7,A-4,S,1,2

@@ -1323,6 +1323,154 @@ A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Car,True,M-14 - Aeroporto de Mad
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Car,True,M-40 - Todas as direcções
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Car,True,Madrid - Avenida de América
 A-2 - Saída 11-12,Cruzamento da A-2 com a M-14,Car,True,Madrid - Centro da cidade
+A-2 - Saída 15,A-2 - Saída 16A,Car,False,Madrid
+A-2 - Saída 15,A-2 - Saída 16A,Car,True,Zaragoza
+A-2 - Saída 16A,A-2 - Saída 16B,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 16A,A-2 - Saída 16B,Car,False,Madrid
+A-2 - Saída 16A,A-2 - Saída 16B,Car,True,Alcalá de Henares
+A-2 - Saída 16A,A-2 - Saída 16B,Car,True,Zaragoza
+A-2 - Saída 16B,A-2 - Saída 17,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 16B,A-2 - Saída 17,Car,False,Madrid
+A-2 - Saída 16B,A-2 - Saída 17,Car,True,Alcalá de Henares
+A-2 - Saída 16B,A-2 - Saída 17,Car,True,Zaragoza
+A-2 - Saída 17,A-2 - Saída 18,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 17,A-2 - Saída 18,Car,False,Madrid
+A-2 - Saída 17,A-2 - Saída 18,Car,True,Alcalá de Henares
+A-2 - Saída 17,A-2 - Saída 18,Car,True,Zaragoza
+A-2 - Saída 18,A-2 - Saída 20,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 18,A-2 - Saída 20,Car,False,Madrid
+A-2 - Saída 18,A-2 - Saída 20,Car,True,Alcalá de Henares
+A-2 - Saída 18,A-2 - Saída 20,Car,True,Barcelona
+A-2 - Saída 18,A-2 - Saída 20,Car,True,Zaragoza
+A-2 - Saída 20,A-2 - Saída 22,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 20,A-2 - Saída 22,Car,False,Madrid
+A-2 - Saída 20,A-2 - Saída 22,Car,True,Alcalá de Henares
+A-2 - Saída 20,A-2 - Saída 22,Car,True,Zaragoza
+A-2 - Saída 22,A-2 - Saída 23,Car,False,Madrid
+A-2 - Saída 22,A-2 - Saída 23,Car,True,Alcalá de Henares
+A-2 - Saída 22,A-2 - Saída 23,Car,True,Barcelona
+A-2 - Saída 22,A-2 - Saída 23,Car,True,Zaragoza
+A-2 - Saída 23,A-2 - Saída 24,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 23,A-2 - Saída 24,Car,False,M-40
+A-2 - Saída 23,A-2 - Saída 24,Car,False,Madrid
+A-2 - Saída 23,A-2 - Saída 24,Car,True,Alcalá de Henares
+A-2 - Saída 23,A-2 - Saída 24,Car,True,Barcelona
+A-2 - Saída 23,A-2 - Saída 24,Car,True,Zaragoza
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,False,Madrid
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,True,Barcelona
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,True,Guadalajara
+A-2 - Saída 24,Cruzamento da A-2 com a M-100 e a M-203,Car,True,Zaragoza
+A-2 - Saída 26,A-2 - Saída 28,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 26,A-2 - Saída 28,Car,False,M-40
+A-2 - Saída 26,A-2 - Saída 28,Car,False,Madrid
+A-2 - Saída 26,A-2 - Saída 28,Car,True,Barcelona
+A-2 - Saída 26,A-2 - Saída 28,Car,True,Guadalajara
+A-2 - Saída 26,A-2 - Saída 28,Car,True,Zaragoza
+A-2 - Saída 26,Cruzamento da A-2 com a M-100 e a M-203,Car,False,Zaragoza
+A-2 - Saída 26,Cruzamento da A-2 com a M-100 e a M-203,Car,True,Aeroporto de Madrid-Barajas
+A-2 - Saída 26,Cruzamento da A-2 com a M-100 e a M-203,Car,True,M-40
+A-2 - Saída 26,Cruzamento da A-2 com a M-100 e a M-203,Car,True,Madrid
+A-2 - Saída 28,A-2 - Saída 30,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 28,A-2 - Saída 30,Car,False,M-40
+A-2 - Saída 28,A-2 - Saída 30,Car,False,Madrid
+A-2 - Saída 28,A-2 - Saída 30,Car,True,Barcelona
+A-2 - Saída 28,A-2 - Saída 30,Car,True,Guadalajara
+A-2 - Saída 28,A-2 - Saída 30,Car,True,Zaragoza
+A-2 - Saída 30,A-2 - Saída 32,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 30,A-2 - Saída 32,Car,False,M-40
+A-2 - Saída 30,A-2 - Saída 32,Car,False,Madrid
+A-2 - Saída 30,A-2 - Saída 32,Car,True,Barcelona
+A-2 - Saída 30,A-2 - Saída 32,Car,True,Guadalajara
+A-2 - Saída 30,A-2 - Saída 32,Car,True,Zaragoza
+A-2 - Saída 32,A-2 - Saída 33,Car,False,Aeroporto de Madrid-Barajas
+A-2 - Saída 32,A-2 - Saída 33,Car,False,M-40
+A-2 - Saída 32,A-2 - Saída 33,Car,False,Madrid
+A-2 - Saída 32,A-2 - Saída 33,Car,True,Barcelona
+A-2 - Saída 32,A-2 - Saída 33,Car,True,Guadalajara
+A-2 - Saída 32,A-2 - Saída 33,Car,True,Zaragoza
+A-2 - Saída 33,A-2 - Saída 35,Car,False,Alcalá de Henares
+A-2 - Saída 33,A-2 - Saída 35,Car,False,Madrid
+A-2 - Saída 33,A-2 - Saída 35,Car,True,Barcelona
+A-2 - Saída 33,A-2 - Saída 35,Car,True,Zaragoza
+A-2 - Saída 35,A-2 - Saída 38,Car,False,Alcalá de Henares
+A-2 - Saída 35,A-2 - Saída 38,Car,False,Madrid
+A-2 - Saída 35,A-2 - Saída 38,Car,True,Barcelona
+A-2 - Saída 35,A-2 - Saída 38,Car,True,Guadalajara
+A-2 - Saída 35,A-2 - Saída 38,Car,True,Zaragoza
+A-2 - Saída 38,A-2 - Saída 40,Car,False,Alcalá de Henares
+A-2 - Saída 38,A-2 - Saída 40,Car,False,Madrid
+A-2 - Saída 38,A-2 - Saída 40,Car,True,Barcelona
+A-2 - Saída 38,A-2 - Saída 40,Car,True,Guadalajara
+A-2 - Saída 38,A-2 - Saída 40,Car,True,Zaragoza
+A-2 - Saída 40,A-2 - Saída 42,Car,False,Alcalá de Henares
+A-2 - Saída 40,A-2 - Saída 42,Car,False,Madrid
+A-2 - Saída 40,A-2 - Saída 42,Car,True,Barcelona
+A-2 - Saída 40,A-2 - Saída 42,Car,True,Guadalajara
+A-2 - Saída 40,A-2 - Saída 42,Car,True,Zaragoza
+A-2 - Saída 42,A-2 - Saída 44,Car,False,Alcalá de Henares
+A-2 - Saída 42,A-2 - Saída 44,Car,False,Madrid
+A-2 - Saída 42,A-2 - Saída 44,Car,True,Barcelona
+A-2 - Saída 42,A-2 - Saída 44,Car,True,Guadalajara
+A-2 - Saída 42,A-2 - Saída 44,Car,True,Zaragoza
+A-2 - Saída 44,A-2 - Saída 48,Car,False,Alcalá de Henares
+A-2 - Saída 44,A-2 - Saída 48,Car,False,Madrid
+A-2 - Saída 44,A-2 - Saída 48,Car,True,Barcelona
+A-2 - Saída 44,A-2 - Saída 48,Car,True,Guadalajara
+A-2 - Saída 44,A-2 - Saída 48,Car,True,Zaragoza
+A-2 - Saída 48,A-2 - Saída 51,Car,False,Alcalá de Henares
+A-2 - Saída 48,A-2 - Saída 51,Car,False,Madrid
+A-2 - Saída 48,A-2 - Saída 51,Car,True,Barcelona
+A-2 - Saída 48,A-2 - Saída 51,Car,True,Guadalajara
+A-2 - Saída 48,A-2 - Saída 51,Car,True,Zaragoza
+A-2 - Saída 51,A-2 - Saída 52A,Car,False,Alcalá de Henares
+A-2 - Saída 51,A-2 - Saída 52A,Car,False,Madrid
+A-2 - Saída 51,A-2 - Saída 52A,Car,True,Barcelona
+A-2 - Saída 51,A-2 - Saída 52A,Car,True,Guadalajara
+A-2 - Saída 51,A-2 - Saída 52A,Car,True,Zaragoza
+A-2 - Saída 52A,A-2 - Saída 52B,Car,False,Alcalá de Henares
+A-2 - Saída 52A,A-2 - Saída 52B,Car,False,Madrid
+A-2 - Saída 52A,A-2 - Saída 52B,Car,True,Zaragoza
+A-2 - Saída 52B,A-2 - Saída 53,Car,False,Madrid
+A-2 - Saída 52B,A-2 - Saída 53,Car,True,Zaragoza
+A-2 - Saída 53,A-2 - Saída 55,Car,False,Guadalajara - Avenida del Ejército
+A-2 - Saída 53,A-2 - Saída 55,Car,False,Madrid
+A-2 - Saída 53,A-2 - Saída 55,Car,True,Barcelona
+A-2 - Saída 53,A-2 - Saída 55,Car,True,Zaragoza
+A-2 - Saída 55,A-2 - Saída 56,Car,False,Madrid
+A-2 - Saída 55,A-2 - Saída 56,Car,True,Barcelona
+A-2 - Saída 55,A-2 - Saída 56,Car,True,Zaragoza
+A-2 - Saída 56,Cruzamento da A-2 com a CM-10,Car,False,Guadalajara - Centro
+A-2 - Saída 56,Cruzamento da A-2 com a CM-10,Car,False,Madrid
+A-2 - Saída 56,Cruzamento da A-2 com a CM-10,Car,True,Barcelona
+A-2 - Saída 56,Cruzamento da A-2 com a CM-10,Car,True,Zaragoza
+A-2 - Saída 61,Cruzamento da A-2 com a CM-10,Car,False,Barcelona
+A-2 - Saída 61,Cruzamento da A-2 com a CM-10,Car,False,Zaragoza
+A-2 - Saída 61,Cruzamento da A-2 com a CM-10,Car,True,Guadalajara
+A-2 - Saída 61,Cruzamento da A-2 com a CM-10,Car,True,Madrid
+A-2 - Saída 61,Cruzamento da A-2 com a R-2,Car,False,Guadalajara
+A-2 - Saída 61,Cruzamento da A-2 com a R-2,Car,False,Madrid
+A-2 - Saída 61,Cruzamento da A-2 com a R-2,Car,True,Barcelona
+A-2 - Saída 61,Cruzamento da A-2 com a R-2,Car,True,Zaragoza
+A-2 - Saída 64,A-2 - Saída 69,Car,False,Guadalajara
+A-2 - Saída 64,A-2 - Saída 69,Car,False,Madrid
+A-2 - Saída 64,A-2 - Saída 69,Car,True,Barcelona
+A-2 - Saída 64,A-2 - Saída 69,Car,True,Zaragoza
+A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,False,Barcelona
+A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,False,Zaragoza
+A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,True,Guadalajara
+A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,True,Madrid
+A-2 - Saída 69,A-2 - Saída 71,Car,False,Guadalajara
+A-2 - Saída 69,A-2 - Saída 71,Car,False,Madrid
+A-2 - Saída 69,A-2 - Saída 71,Car,True,Zaragoza
+A-2 - Saída 71,A-2 - Saída 73,Car,False,Guadalajara
+A-2 - Saída 71,A-2 - Saída 73,Car,False,Madrid
+A-2 - Saída 71,A-2 - Saída 73,Car,True,Barcelona
+A-2 - Saída 71,A-2 - Saída 73,Car,True,Zaragoza
+A-2 - Saída 73,A-2 - Saída 75,Car,False,Guadalajara
+A-2 - Saída 73,A-2 - Saída 75,Car,False,Madrid
+A-2 - Saída 73,A-2 - Saída 75,Car,True,Barcelona
+A-2 - Saída 73,A-2 - Saída 75,Car,True,Zaragoza
 A-4 - Saída 69,A-4 - Saída 70,Car,False,Madrid
 A-4 - Saída 69,A-4 - Saída 70,Car,False,Ocaña
 A-4 - Saída 69,A-4 - Saída 70,Car,True,Bailén

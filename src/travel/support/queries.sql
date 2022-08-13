@@ -76,6 +76,9 @@ order by count(*), Destination.location_a, Destination.location_b, Destination.s
 -- Show ways by total length of connections associated to each way
 select way, sum(distance), count(distance) from Connection group by way order by sum(distance), way;
 
+-- Shows average connection length for connections
+select way, round(sum(distance) / count(distance), 2) as "Distance per connection", sum(distance), count(distance) from Connection group by way order by sum(distance) / count(distance) desc, way;
+
 -- Show total length and number of connections associated to A-7 (Autovía del Mediterráneo) and AP-7 (Autopista del Mediterráneo)
 select sum(distance) as "Total distance of A-7 and AP-7", count(distance) as "Number of connections of A-7 and AP-7"
 from Connection
