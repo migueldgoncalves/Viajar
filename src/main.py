@@ -5,7 +5,7 @@ Main - Executar para aceder a todos os scripts disponíveis
 """
 
 # INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
-VIA = vias.ES_A2
+VIA = vias.ES_AP9
 
 OPCAO_SAIR = 0
 

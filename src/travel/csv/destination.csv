@@ -5518,6 +5518,29 @@ AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,True,Cádiz
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Algeciras
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Benalmádena
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,True,MA-20/MA-21 - Aeroporto de Málaga/Málaga
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,A-52 - Ourense
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,A-55 - O Porriño
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,Aeroporto de Vigo
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,AG-57 - Baiona
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,Portugal
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,False,Tui
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,True,Pontevedra
+AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,True,Vigo
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,False,Aeroporto de Vigo
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,False,Pontevedra
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,False,Redondela
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,True,A-52 - Ourense
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,True,A-55 - O Porriño/Portugal/Tui/Vigo
+AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,True,AG-57 - Baiona
+AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,False,A-52 - Ourense
+AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,False,A-55 - O Porriño/Portugal/Tui
+AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,True,AG-57 - Baiona
+AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,True,Pontevedra
+AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,True,Vigo
+AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,False,Pontevedra
+AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,False,Vigo
+AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,True,Portugal
+AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,True,Tui
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,False,A-31 - Albacete
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,True,Madrid
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,True,Ocaña
@@ -6635,6 +6658,15 @@ Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Car,True,Sevilha - Isla d
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,False,Puerto Real
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,False,Sevilha
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,True,CA-35/CA-36 - Cádiz
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,AG-57 - Baiona
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,O Porriño
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,Portugal
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,Tui
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,VG-20 - Terminal de Bouzas
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,True,Aeroporto de Vigo
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,True,Pontevedra
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,True,Puxeiros
+Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,True,Vigo
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Car,False,Badajoz
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Car,False,Navalcarnero
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Car,False,Toledo
