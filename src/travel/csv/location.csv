@@ -1593,6 +1593,7 @@ Estação de Adémia,40.251147,-8.450285,22,,2200
 Estação de Aeropuerto T1-T2-T3,40.468300,-3.571098,610,,1800
 Estação de Aeropuerto T4,40.491435,-3.593436,615,,1800
 Estação de Agualva - Cacém,38.766514,-9.298481,117,,1700
+Estação de Aguim,40.415066,-8.45685,37,,2500
 Estação de Albergaria dos Doze,39.793586,-8.589321,248,,2000
 Estação de Albufeira - Ferreiras,37.128592,-8.233035,81,,400
 Estação de Alcáçovas,38.406713,-8.095441,190,,800
@@ -1620,6 +1621,7 @@ Estação de Amial,40.192361,-8.543533,11,,2200
 Estação de Amoreiras - Odemira,37.690014,-8.414970,159,,700
 Estação de Arronches,39.096812,-7.333361,332,,2300
 Estação de Assumar,39.138885,-7.382232,338,,2300
+Estação de Aveiro,40.6434,-8.64066,17,,2600
 Estação de Badajoz,38.89076,-6.98164,189,,2300
 Estação de Baixa da Banheira,38.659360,-9.043618,6,,1700
 Estação de Baraçal,40.677382,-7.328011,460,,2400
@@ -1644,6 +1646,7 @@ Estação de Bom João,37.014076,-7.92142,6,,200
 Estação de Bombarral,39.26511,-9.153371,30,,2000
 Estação de Braço de Prata,38.746226,-9.103204,27,,1700
 Estação de Cacela,37.176448,-7.538596,39,,200
+Estação de Cacia,40.684839,-8.598227,12,,2600
 Estação de Cais do Sodré,38.705979,-9.145404,2,,1700
 Estação de Caldas da Rainha,39.406469,-9.140174,53,,2200
 Estação de Campolide,38.732551,-9.168170,48,,1700
@@ -1676,6 +1679,7 @@ Estação de Corroios,38.636598,-9.151573,21,,1700
 Estação de Covilhã,40.277529,-7.496093,530,,2500
 Estação de Crato,39.269428,-7.635293,203,,2300
 Estação de Cruz Quebrada,38.699788,-9.251994,7,,1700
+Estação de Curia,40.424547,-8.456101,36,,2500
 Estação de Curvaceiras,39.547897,-8.429771,53,,2300
 Estação de Dagorda - Peniche,39.344501,-9.172402,37,,2200
 Estação de Dois Portos,39.042555,-9.184591,79,,2000
@@ -1721,6 +1725,7 @@ Estação de Lapa do Lobo,40.475639,-7.919618,327,,2400
 Estação de Lardosa,39.988655,-7.44083,402,,2500
 Estação de Lares,40.125865,-8.777136,4,,2200
 Estação de Leiria,39.756599,-8.827863,32,,2200
+Estação de Lisboa - Santa Apolónia,38.714479,-9.122238,2,,1700
 Estação de Litém,39.837945,-8.593443,161,,2000
 Estação de Loulé,37.104634,-8.058654,50,,400
 Estação de Louriçal,40.016286,-8.815431,80,,2200
@@ -1743,6 +1748,7 @@ Estação de Mealhada,40.375417,-8.453851,50,,2300
 Estação de Messines - Alte,37.255522,-8.290915,144,,400
 Estação de Mira Sintra - Meleças,38.78955,-9.31264,151,,1700
 Estação de Miuzela,40.519324,-7.013278,719,,2400
+Estação de Mogofores,40.450463,-8.459392,26,,2500
 Estação de Moimenta-Alcafache,40.574596,-7.809492,421,,2400
 Estação de Moita,38.644839,-8.996217,6,,1700
 Estação de Monte Abraão,38.755468,-9.265341,121,,1700
@@ -1759,6 +1765,8 @@ Estação de Nelas,40.53019,-7.849913,423,,2400
 Estação de Nuevos Ministerios,40.446607,-3.692221,681,,1500
 Estação de Óbidos,39.364903,-9.159057,15,,2200
 Estação de Oeiras,38.688451,-9.318814,19,,1700
+Estação de Oiã,40.543549,-8.549914,40,,2600
+Estação de Oliveira do Bairro,40.510159,-8.498744,22,,2600
 Estação de Oliveirinha-Cabanas,40.450374,-7.963299,315,,2400
 Estação de Outeiro,39.191239,-9.177193,106,,2000
 Estação de Paço de Arcos,38.697115,-9.290141,22,,1700
@@ -1766,6 +1774,7 @@ Estação de Paialvo,39.579633,-8.4738,72,,1800
 Estação de Palmela,38.571172,-8.872722,50,,1500
 Estação de Pampilhosa,40.338076,-8.43135,71,,2300
 Estação de Papízios,40.420501,-8.049682,270,,2400
+Estação de Paraimo-Sangalhos,40.481204,-8.480145,43,,2500
 Estação de Parque das Cidades,37.080296,-7.984628,41,,200
 Estação de Pataias,39.65553,-8.984913,81,,2200
 Estação de Paúl,39.294266,-9.162674,22,,2000
@@ -1787,6 +1796,7 @@ Estação de Praça do Quebedo,38.524964,-8.886518,6,,1700
 Estação de Praia do Ribatejo,39.467243,-8.347584,35,,2000
 Estação de Praias do Sado-A,38.517980,-8.837926,2,,1700
 Estação de Queluz - Belas,38.758722,-9.25673,128,,1700
+Estação de Quintans,40.591038,-8.612689,57,,2600
 Estação de Ramalhal,39.139511,-9.216042,56,,2000
 Estação de Reboleira,38.750888,-9.222739,107,,1700
 Estação de Recoletos,40.423449,-3.691078,648,,1500
@@ -1803,7 +1813,6 @@ Estação de Sabugal,40.511567,-7.238884,811,,2500
 Estação de Sabugo,38.830541,-9.300026,170,,2000
 Estação de Sacavém,38.795171,-9.099653,12,,1700
 Estação de Salir do Porto,39.492436,-9.147214,8,,2200
-Estação de Santa Apolónia,38.714479,-9.122238,2,,1700
 Estação de Santa Cita,39.552733,-8.393547,46,,2300
 Estação de Santa Clara - Sabóia,37.495793,-8.481475,50,,600
 Estação de Santa Comba Dão,40.390505,-8.124416,171,,2400

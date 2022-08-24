@@ -7488,6 +7488,14 @@ Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Entreca
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Aguim,Estação de Curia,Train,False,Lisboa - Santa Apolónia
+Estação de Aguim,Estação de Curia,Train,False,Pampilhosa
+Estação de Aguim,Estação de Curia,Train,True,Aveiro
+Estação de Aguim,Estação de Curia,Train,True,Porto - Campanhã
+Estação de Aguim,Estação de Mealhada,Train,False,Aveiro
+Estação de Aguim,Estação de Mealhada,Train,False,Porto - Campanhã
+Estação de Aguim,Estação de Mealhada,Train,True,Lisboa - Santa Apolónia
+Estação de Aguim,Estação de Mealhada,Train,True,Pampilhosa
 Estação de Albergaria dos Doze,Estação de Caxarias,Train,False,Coimbra-B
 Estação de Albergaria dos Doze,Estação de Caxarias,Train,False,Pombal
 Estação de Albergaria dos Doze,Estação de Caxarias,Train,False,Porto - Campanhã
@@ -7748,6 +7756,29 @@ Estação de Assumar,Estação de Portalegre,Train,False,Elvas
 Estação de Assumar,Estação de Portalegre,Train,True,Abrantes
 Estação de Assumar,Estação de Portalegre,Train,True,Entroncamento
 Estação de Assumar,Estação de Portalegre,Train,True,Guarda
+Estação de Aveiro,Estação de Cacia,Train,False,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Cacia,Train,False,Pampilhosa
+Estação de Aveiro,Estação de Cacia,Train,True,Espinho
+Estação de Aveiro,Estação de Cacia,Train,True,Porto - Campanhã
+Estação de Aveiro,Estação de Cacia,Train,True,Porto - São Bento
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Braga
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Guimarães
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Porto - Campanhã
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Vila Nova de Gaia
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,True,Entroncamento
+Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,True,Lisboa - Oriente
+Estação de Aveiro,Estação de Mealhada,Train,False,Espinho
+Estação de Aveiro,Estação de Mealhada,Train,False,Porto - Campanhã
+Estação de Aveiro,Estação de Mealhada,Train,True,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Mealhada,Train,True,Pampilhosa
+Estação de Aveiro,Estação de Oliveira do Bairro,Train,False,Espinho
+Estação de Aveiro,Estação de Oliveira do Bairro,Train,False,Porto - Campanhã
+Estação de Aveiro,Estação de Oliveira do Bairro,Train,True,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Oliveira do Bairro,Train,True,Pampilhosa
+Estação de Aveiro,Estação de Quintans,Train,False,Espinho
+Estação de Aveiro,Estação de Quintans,Train,False,Porto - Campanhã
+Estação de Aveiro,Estação de Quintans,Train,True,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Quintans,Train,True,Pampilhosa
 Estação de Badajoz,Estação de Elvas,Train,False,Badajoz
 Estação de Badajoz,Estação de Elvas,Train,False,Espanha
 Estação de Badajoz,Estação de Elvas,Train,True,Entroncamento
@@ -7936,6 +7967,10 @@ Estação de Bombarral,Estação de Paúl,Train,False,Jerumelo
 Estação de Bombarral,Estação de Paúl,Train,False,Lisboa - Rossio
 Estação de Bombarral,Estação de Paúl,Train,True,Caldas da Rainha
 Estação de Bombarral,Estação de Paúl,Train,True,Figueira da Foz
+Estação de Braço de Prata,Estação de Lisboa - Santa Apolónia,Train,False,Lisboa - Oriente
+Estação de Braço de Prata,Estação de Lisboa - Santa Apolónia,Train,False,Porto - Campanhã
+Estação de Braço de Prata,Estação de Lisboa - Santa Apolónia,Train,False,Vila Franca de Xira
+Estação de Braço de Prata,Estação de Lisboa - Santa Apolónia,Train,True,Lisboa - Santa Apolónia
 Estação de Braço de Prata,Estação de Marvila,Train,False,Azambuja
 Estação de Braço de Prata,Estação de Marvila,Train,False,Lisboa - Oriente
 Estação de Braço de Prata,Estação de Marvila,Train,False,Porto - Campanhã
@@ -7946,10 +7981,6 @@ Estação de Braço de Prata,Estação de Marvila,Train,True,Lisboa - Rossio
 Estação de Braço de Prata,Estação de Marvila,Train,True,Lisboa - Sete Rios
 Estação de Braço de Prata,Estação de Marvila,Train,True,Pinhal Novo
 Estação de Braço de Prata,Estação de Marvila,Train,True,Sintra
-Estação de Braço de Prata,Estação de Santa Apolónia,Train,False,Lisboa - Oriente
-Estação de Braço de Prata,Estação de Santa Apolónia,Train,False,Porto - Campanhã
-Estação de Braço de Prata,Estação de Santa Apolónia,Train,False,Vila Franca de Xira
-Estação de Braço de Prata,Estação de Santa Apolónia,Train,True,Lisboa - Santa Apolónia
 Estação de Braço de Prata,Gare do Oriente,Train,False,Faro
 Estação de Braço de Prata,Gare do Oriente,Train,False,Lisboa - Alcântara-Terra
 Estação de Braço de Prata,Gare do Oriente,Train,False,Lisboa - Rossio
@@ -8318,6 +8349,10 @@ Estação de Crato,Estação de Portalegre,Train,False,Entroncamento
 Estação de Crato,Estação de Portalegre,Train,False,Guarda
 Estação de Crato,Estação de Portalegre,Train,True,Badajoz
 Estação de Crato,Estação de Portalegre,Train,True,Elvas
+Estação de Curia,Estação de Mogofores,Train,False,Lisboa - Santa Apolónia
+Estação de Curia,Estação de Mogofores,Train,False,Pampilhosa
+Estação de Curia,Estação de Mogofores,Train,True,Aveiro
+Estação de Curia,Estação de Mogofores,Train,True,Porto - Campanhã
 Estação de Curvaceiras,Estação de Santa Cita,Train,False,Entroncamento
 Estação de Curvaceiras,Estação de Santa Cita,Train,False,Lisboa - Santa Apolónia
 Estação de Curvaceiras,Estação de Santa Cita,Train,False,Pombal
@@ -8361,6 +8396,13 @@ Estação de Elvas,Estação de Santa Eulália-A,Train,False,Espanha
 Estação de Elvas,Estação de Santa Eulália-A,Train,True,Entroncamento
 Estação de Elvas,Estação de Santa Eulália-A,Train,True,Guarda
 Estação de Elvas,Estação de Santa Eulália-A,Train,True,Portalegre
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Agualva - Cacém
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Caldas da Rainha
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Faro
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Figueira da Foz
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Lisboa - Sete Rios
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,False,Sintra
+Estação de Entrecampos,Estação de Lisboa - Santa Apolónia,Train,True,Lisboa - Santa Apolónia
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,False,Agualva-Cacém
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,False,Faro
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,False,Lisboa - Alcântara-Terra
@@ -8372,13 +8414,6 @@ Estação de Entrecampos,Estação de Roma-Areeiro,Train,True,Lisboa - Braço de
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,True,Lisboa - Oriente
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,True,Lisboa - Santa Apolónia
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,True,Porto - Campanhã
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Agualva - Cacém
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Caldas da Rainha
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Faro
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Figueira da Foz
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Lisboa - Sete Rios
-Estação de Entrecampos,Estação de Santa Apolónia,Train,False,Sintra
-Estação de Entrecampos,Estação de Santa Apolónia,Train,True,Lisboa - Santa Apolónia
 Estação de Entrecampos,Estação de Sete Rios,Train,False,Lisboa - Braço de Prata
 Estação de Entrecampos,Estação de Sete Rios,Train,False,Lisboa - Oriente
 Estação de Entrecampos,Estação de Sete Rios,Train,False,Lisboa - Santa Apolónia
@@ -8654,6 +8689,17 @@ Estação de Leiria,Estação de Monte Real,Train,False,Lisboa - Rossio
 Estação de Leiria,Estação de Monte Real,Train,True,Bifurcação de Lares
 Estação de Leiria,Estação de Monte Real,Train,True,Coimbra-B
 Estação de Leiria,Estação de Monte Real,Train,True,Figueira da Foz
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,High-Speed Train,False,Lisboa - Santa Apolónia
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,High-Speed Train,True,Faro
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,High-Speed Train,True,Pinhal Novo
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,High-Speed Train,True,Porto - Campanhã
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,High-Speed Train,True,Santarém
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,False,Lisboa - Santa Apolónia
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,True,Entroncamento
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,True,Hendaye
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,True,Madrid-Chamartín
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,True,Porto - Campanhã
+Estação de Lisboa - Santa Apolónia,Gare do Oriente,Train,True,Santarém
 Estação de Litém,Estação de Vermoil,Train,False,Entroncamento
 Estação de Litém,Estação de Vermoil,Train,False,Lisboa - Santa Apolónia
 Estação de Litém,Estação de Vermoil,Train,True,Coimbra-B
@@ -8777,6 +8823,10 @@ Estação de Mato de Miranda,Estação de Vale de Figueira,Train,False,Entroncam
 Estação de Mato de Miranda,Estação de Vale de Figueira,Train,False,Porto - Campanhã
 Estação de Mato de Miranda,Estação de Vale de Figueira,Train,True,Lisboa - Santa Apolónia
 Estação de Mato de Miranda,Estação de Vale de Figueira,Train,True,Santarém
+Estação de Mealhada,Estação de Mogofores,Train,False,Lisboa - Santa Apolónia
+Estação de Mealhada,Estação de Mogofores,Train,False,Pampilhosa
+Estação de Mealhada,Estação de Mogofores,Train,True,Aveiro
+Estação de Mealhada,Estação de Mogofores,Train,True,Porto - Campanhã
 Estação de Mealhada,Estação de Pampilhosa,Train,False,Aveiro
 Estação de Mealhada,Estação de Pampilhosa,Train,False,Porto - Campanhã
 Estação de Mealhada,Estação de Pampilhosa,Train,True,Coimbra-B
@@ -8794,6 +8844,14 @@ Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,False,Lisboa - Ros
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,True,Caldas da Rainha
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,True,Figueira da Foz
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,True,Jerumelo
+Estação de Mogofores,Estação de Oliveira do Bairro,Train,False,Lisboa - Santa Apolónia
+Estação de Mogofores,Estação de Oliveira do Bairro,Train,False,Pampilhosa
+Estação de Mogofores,Estação de Oliveira do Bairro,Train,True,Aveiro
+Estação de Mogofores,Estação de Oliveira do Bairro,Train,True,Porto - Campanhã
+Estação de Mogofores,Estação de Paraimo-Sangalhos,Train,False,Lisboa - Santa Apolónia
+Estação de Mogofores,Estação de Paraimo-Sangalhos,Train,False,Pampilhosa
+Estação de Mogofores,Estação de Paraimo-Sangalhos,Train,True,Aveiro
+Estação de Mogofores,Estação de Paraimo-Sangalhos,Train,True,Porto - Campanhã
 Estação de Moimenta-Alcafache,Estação de Nelas,Train,False,Covilhã
 Estação de Moimenta-Alcafache,Estação de Nelas,Train,False,Guarda
 Estação de Moimenta-Alcafache,Estação de Nelas,Train,False,Vilar Formoso
@@ -8876,6 +8934,18 @@ Estação de Oeiras,Estação de Santo Amaro,Train,False,Cascais
 Estação de Oeiras,Estação de Santo Amaro,Train,False,São Pedro do Estoril
 Estação de Oeiras,Estação de Santo Amaro,Train,True,Algés
 Estação de Oeiras,Estação de Santo Amaro,Train,True,Lisboa - Cais do Sodré
+Estação de Oiã,Estação de Oliveira do Bairro,Train,False,Aveiro
+Estação de Oiã,Estação de Oliveira do Bairro,Train,False,Porto - Campanhã
+Estação de Oiã,Estação de Oliveira do Bairro,Train,True,Lisboa - Santa Apolónia
+Estação de Oiã,Estação de Oliveira do Bairro,Train,True,Pampilhosa
+Estação de Oiã,Estação de Quintans,Train,False,Lisboa - Santa Apolónia
+Estação de Oiã,Estação de Quintans,Train,False,Pampilhosa
+Estação de Oiã,Estação de Quintans,Train,True,Aveiro
+Estação de Oiã,Estação de Quintans,Train,True,Porto - Campanhã
+Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,False,Aveiro
+Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,False,Porto - Campanhã
+Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,True,Lisboa - Santa Apolónia
+Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,True,Pampilhosa
 Estação de Outeiro,Estação de Ramalhal,Train,False,Caldas da Rainha
 Estação de Outeiro,Estação de Ramalhal,Train,False,Figueira da Foz
 Estação de Outeiro,Estação de Ramalhal,Train,True,Agualva - Cacém
@@ -9061,17 +9131,6 @@ Estação de Salir do Porto,Estação de São Martinho do Porto,Train,False,Cald
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,False,Lisboa - Rossio
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,True,Figueira da Foz
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,True,Leiria
-Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,False,Lisboa - Santa Apolónia
-Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,True,Faro
-Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,True,Pinhal Novo
-Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,True,Porto - Campanhã
-Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,True,Santarém
-Estação de Santa Apolónia,Gare do Oriente,Train,False,Lisboa - Santa Apolónia
-Estação de Santa Apolónia,Gare do Oriente,Train,True,Entroncamento
-Estação de Santa Apolónia,Gare do Oriente,Train,True,Hendaye
-Estação de Santa Apolónia,Gare do Oriente,Train,True,Madrid-Chamartín
-Estação de Santa Apolónia,Gare do Oriente,Train,True,Porto - Campanhã
-Estação de Santa Apolónia,Gare do Oriente,Train,True,Santarém
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,False,Lisboa - Oriente
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,False,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,True,Faro
@@ -9103,6 +9162,7 @@ Estação de Santarém,Estação de Vila Franca de Xira,Train,False,Porto - Camp
 Estação de Santarém,Estação de Vila Franca de Xira,Train,True,Faro
 Estação de Santarém,Estação de Vila Franca de Xira,Train,True,Lisboa - Oriente
 Estação de Santarém,Estação de Vila Franca de Xira,Train,True,Lisboa - Santa Apolónia
+Estação de Santarém,Estação do Entroncamento,High-Speed Train,False,Faro
 Estação de Santarém,Estação do Entroncamento,High-Speed Train,False,Lisboa - Oriente
 Estação de Santarém,Estação do Entroncamento,High-Speed Train,False,Lisboa - Santa Apolónia
 Estação de Santarém,Estação do Entroncamento,High-Speed Train,True,Coimbra-B
