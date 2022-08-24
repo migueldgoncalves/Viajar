@@ -7341,10 +7341,16 @@ Estação da Guarda,Estação de Celorico da Beira,Train,True,Lisboa - Santa Apo
 Estação da Guarda,Estação de Gata,Train,False,Covilhã
 Estação da Guarda,Estação de Gata,Train,False,Pampilhosa
 Estação da Guarda,Estação de Gata,Train,True,Vilar Formoso
+Estação da Guarda,Estação de Sabugal,Train,False,Pampilhosa
+Estação da Guarda,Estação de Sabugal,Train,False,Porto - Campanhã
+Estação da Guarda,Estação de Sabugal,Train,False,Vilar Formoso
+Estação da Guarda,Estação de Sabugal,Train,True,Covilhã
+Estação da Guarda,Estação de Sabugal,Train,True,Entroncamento
+Estação da Guarda,Estação de Sabugal,Train,True,Lisboa - Santa Apolónia
 Estação da Guarda,Estação de Vila Franca das Naves,Train,False,Covilhã
 Estação da Guarda,Estação de Vila Franca das Naves,Train,False,Entroncamento
+Estação da Guarda,Estação de Vila Franca das Naves,Train,False,Lisboa - Santa Apolónia
 Estação da Guarda,Estação de Vila Franca das Naves,Train,False,Vilar Formoso
-Estação da Guarda,Estação de Vila Franca das Naves,Train,True,Lisboa - Santa Apolónia
 Estação da Guarda,Estação de Vila Franca das Naves,Train,True,Pampilhosa
 Estação da Guarda,Estação de Vila Franca das Naves,Train,True,Porto - Campanhã
 Estação da Guarda,Estação de Vilar Formoso,Train,False,Coimbra-B
@@ -7410,6 +7416,11 @@ Estação de Abrantes,Estação de Bemposta,Train,False,Guarda
 Estação de Abrantes,Estação de Bemposta,Train,True,Badajoz
 Estação de Abrantes,Estação de Bemposta,Train,True,Elvas
 Estação de Abrantes,Estação de Bemposta,Train,True,Portalegre
+Estação de Abrantes,Estação de Ródão,Train,False,Entroncamento
+Estação de Abrantes,Estação de Ródão,Train,False,Lisboa - Santa Apolónia
+Estação de Abrantes,Estação de Ródão,Train,False,Porto - Campanhã
+Estação de Abrantes,Estação de Ródão,Train,True,Covilhã
+Estação de Abrantes,Estação de Ródão,Train,True,Guarda
 Estação de Abrantes,Estação de Tramagal,Train,False,Badajoz
 Estação de Abrantes,Estação de Tramagal,Train,False,Covilhã
 Estação de Abrantes,Estação de Tramagal,Train,False,Guarda
@@ -7508,6 +7519,26 @@ Estação de Alcáçovas,Vila Nova da Baronia,Train,False,Casa Branca
 Estação de Alcáçovas,Vila Nova da Baronia,Train,False,Évora
 Estação de Alcáçovas,Vila Nova da Baronia,Train,False,Lisboa - Oriente
 Estação de Alcáçovas,Vila Nova da Baronia,Train,True,Beja
+Estação de Alcaide,Estação de Donas,Train,False,Abrantes
+Estação de Alcaide,Estação de Donas,Train,False,Badajoz
+Estação de Alcaide,Estação de Donas,Train,False,Entroncamento
+Estação de Alcaide,Estação de Donas,Train,True,Covilhã
+Estação de Alcaide,Estação de Donas,Train,True,Guarda
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,False,Covilhã
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,False,Guarda
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,True,Abrantes
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,True,Badajoz
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,True,Entroncamento
+Estação de Alcains,Estação de Castelo Branco,Train,False,Covilhã
+Estação de Alcains,Estação de Castelo Branco,Train,False,Guarda
+Estação de Alcains,Estação de Castelo Branco,Train,True,Abrantes
+Estação de Alcains,Estação de Castelo Branco,Train,True,Badajoz
+Estação de Alcains,Estação de Castelo Branco,Train,True,Entroncamento
+Estação de Alcains,Estação de Lardosa,Train,False,Abrantes
+Estação de Alcains,Estação de Lardosa,Train,False,Badajoz
+Estação de Alcains,Estação de Lardosa,Train,False,Entroncamento
+Estação de Alcains,Estação de Lardosa,Train,True,Covilhã
+Estação de Alcains,Estação de Lardosa,Train,True,Guarda
 Estação de Alcântara-Mar,Estação de Belém,Train,False,Lisboa - Cais do Sodré
 Estação de Alcântara-Mar,Estação de Belém,Train,True,Algés
 Estação de Alcântara-Mar,Estação de Belém,Train,True,Cascais
@@ -7529,6 +7560,16 @@ Estação de Alcântara-Terra,Estação de Campolide,Train,True,Sintra
 Estação de Alcantarilha,Poço Barreto,Train,False,Tunes
 Estação de Alcantarilha,Poço Barreto,Train,False,Vila Real de Santo António
 Estação de Alcantarilha,Poço Barreto,Train,True,Lagos
+Estação de Alcaria,Estação de Fundão,Train,False,Covilhã
+Estação de Alcaria,Estação de Fundão,Train,False,Guarda
+Estação de Alcaria,Estação de Fundão,Train,True,Abrantes
+Estação de Alcaria,Estação de Fundão,Train,True,Badajoz
+Estação de Alcaria,Estação de Fundão,Train,True,Entroncamento
+Estação de Alcaria,Estação de Tortosendo,Train,False,Abrantes
+Estação de Alcaria,Estação de Tortosendo,Train,False,Badajoz
+Estação de Alcaria,Estação de Tortosendo,Train,False,Entroncamento
+Estação de Alcaria,Estação de Tortosendo,Train,True,Covilhã
+Estação de Alcaria,Estação de Tortosendo,Train,True,Guarda
 Estação de Aldeia,Estação de Freineda,Train,False,Vilar Formoso
 Estação de Aldeia,Estação de Freineda,Train,True,Covilhã
 Estação de Aldeia,Estação de Freineda,Train,True,Guarda
@@ -7632,6 +7673,16 @@ Estação de Almourol,Estação de Tancos,Train,False,Guarda
 Estação de Almourol,Estação de Tancos,Train,True,Entroncamento
 Estação de Almourol,Estação de Tancos,Train,True,Lisboa - Santa Apolónia
 Estação de Almourol,Estação de Tancos,Train,True,Porto - Campanhã
+Estação de Alpedrinha,Estação de Castelo Novo,Train,False,Covilhã
+Estação de Alpedrinha,Estação de Castelo Novo,Train,False,Guarda
+Estação de Alpedrinha,Estação de Castelo Novo,Train,True,Abrantes
+Estação de Alpedrinha,Estação de Castelo Novo,Train,True,Badajoz
+Estação de Alpedrinha,Estação de Castelo Novo,Train,True,Entroncamento
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,False,Abrantes
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,False,Badajoz
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,False,Entroncamento
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,True,Covilhã
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,True,Guarda
 Estação de Alvega-Ortiga,Estação de Barragem de Belver,Train,False,Abrantes
 Estação de Alvega-Ortiga,Estação de Barragem de Belver,Train,False,Badajoz
 Estação de Alvega-Ortiga,Estação de Barragem de Belver,Train,False,Entroncamento
@@ -7717,6 +7768,16 @@ Estação de Baraçal,Estação de Vila Franca das Naves,Train,False,Porto - Cam
 Estação de Baraçal,Estação de Vila Franca das Naves,Train,True,Covilhã
 Estação de Baraçal,Estação de Vila Franca das Naves,Train,True,Guarda
 Estação de Baraçal,Estação de Vila Franca das Naves,Train,True,Vilar Formoso
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,False,Covilhã
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,False,Guarda
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,True,Abrantes
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,True,Badajoz
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,True,Entroncamento
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,False,Abrantes
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,False,Badajoz
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,False,Entroncamento
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,True,Covilhã
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,True,Guarda
 Estação de Barquinha,Estação de Tancos,Train,False,Entroncamento
 Estação de Barquinha,Estação de Tancos,Train,False,Lisboa - Santa Apolónia
 Estação de Barquinha,Estação de Tancos,Train,False,Porto - Campanhã
@@ -7730,6 +7791,11 @@ Estação de Barquinha,Estação do Entroncamento,Train,False,Covilhã
 Estação de Barquinha,Estação do Entroncamento,Train,False,Guarda
 Estação de Barquinha,Estação do Entroncamento,Train,True,Lisboa - Santa Apolónia
 Estação de Barquinha,Estação do Entroncamento,Train,True,Porto - Campanhã
+Estação de Barragem de Belver,Estação de Belver,Train,False,Abrantes
+Estação de Barragem de Belver,Estação de Belver,Train,False,Badajoz
+Estação de Barragem de Belver,Estação de Belver,Train,False,Entroncamento
+Estação de Barragem de Belver,Estação de Belver,Train,True,Covilhã
+Estação de Barragem de Belver,Estação de Belver,Train,True,Guarda
 Estação de Barreiro-A,Estação do Barreiro,Train,False,Pinhal Novo
 Estação de Barreiro-A,Estação do Barreiro,Train,False,Praias do Sado-A
 Estação de Barreiro-A,Estação do Barreiro,Train,True,Barreiro
@@ -7740,6 +7806,16 @@ Estação de Barreiro-A,Estação do Lavradio,Train,True,Praias do Sado-A
 "Estação de Belmonte, Huelva",Gibraleón,Train,False,Zafra
 "Estação de Belmonte, Huelva",Gibraleón,Train,True,Huelva
 "Estação de Belmonte, Huelva",Gibraleón,Train,True,Sevilha-Santa Justa
+Estação de Belmonte-Manteigas,Estação de Caria,Train,False,Guarda
+Estação de Belmonte-Manteigas,Estação de Caria,Train,False,Pampilhosa
+Estação de Belmonte-Manteigas,Estação de Caria,Train,False,Vilar Formoso
+Estação de Belmonte-Manteigas,Estação de Caria,Train,True,Covilhã
+Estação de Belmonte-Manteigas,Estação de Caria,Train,True,Entroncamento
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,False,Covilhã
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,False,Entroncamento
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,True,Guarda
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,True,Pampilhosa
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,True,Vilar Formoso
 Estação de Bemposta,Estação de Ponte de Sôr,Train,False,Abrantes
 Estação de Bemposta,Estação de Ponte de Sôr,Train,False,Entroncamento
 Estação de Bemposta,Estação de Ponte de Sôr,Train,False,Guarda
@@ -7758,6 +7834,16 @@ Estação de Bencanta,Estação de Espadaneira,Train,False,Porto - Campanhã
 Estação de Bencanta,Estação de Espadaneira,Train,True,Alfarelos
 Estação de Bencanta,Estação de Espadaneira,Train,True,Figueira da Foz
 Estação de Bencanta,Estação de Espadaneira,Train,True,Lisboa - Santa Apolónia
+Estação de Benespera,Estação de Maçainhas,Train,False,Guarda
+Estação de Benespera,Estação de Maçainhas,Train,False,Pampilhosa
+Estação de Benespera,Estação de Maçainhas,Train,False,Vilar Formoso
+Estação de Benespera,Estação de Maçainhas,Train,True,Covilhã
+Estação de Benespera,Estação de Maçainhas,Train,True,Entroncamento
+Estação de Benespera,Estação de Sabugal,Train,False,Covilhã
+Estação de Benespera,Estação de Sabugal,Train,False,Entroncamento
+Estação de Benespera,Estação de Sabugal,Train,True,Guarda
+Estação de Benespera,Estação de Sabugal,Train,True,Pampilhosa
+Estação de Benespera,Estação de Sabugal,Train,True,Vilar Formoso
 Estação de Benfica,Estação de Campolide,Train,False,Agualva - Cacém
 Estação de Benfica,Estação de Campolide,Train,False,Caldas da Rainha
 Estação de Benfica,Estação de Campolide,Train,False,Figueira da Foz
@@ -7789,6 +7875,16 @@ Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Braço de Prata
 Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Benfica,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Benquerenças,Estação de Castelo Branco,Train,False,Abrantes
+Estação de Benquerenças,Estação de Castelo Branco,Train,False,Badajoz
+Estação de Benquerenças,Estação de Castelo Branco,Train,False,Entroncamento
+Estação de Benquerenças,Estação de Castelo Branco,Train,True,Covilhã
+Estação de Benquerenças,Estação de Castelo Branco,Train,True,Guarda
+Estação de Benquerenças,Estação de Retaxo,Train,False,Covilhã
+Estação de Benquerenças,Estação de Retaxo,Train,False,Guarda
+Estação de Benquerenças,Estação de Retaxo,Train,True,Abrantes
+Estação de Benquerenças,Estação de Retaxo,Train,True,Badajoz
+Estação de Benquerenças,Estação de Retaxo,Train,True,Entroncamento
 Estação de Bifurcação de Lares,Estação de Lares,Train,False,Alfarelos
 Estação de Bifurcação de Lares,Estação de Lares,Train,False,Coimbra-B
 Estação de Bifurcação de Lares,Estação de Lares,Train,False,Leiria
@@ -7930,6 +8026,12 @@ Estação de Carcavelos,Estação de Oeiras,Train,False,Cascais
 Estação de Carcavelos,Estação de Oeiras,Train,False,São Pedro do Estoril
 Estação de Carcavelos,Estação de Oeiras,Train,True,Algés
 Estação de Carcavelos,Estação de Oeiras,Train,True,Lisboa - Cais do Sodré
+Estação de Caria,Estação de Covilhã,Train,False,Guarda
+Estação de Caria,Estação de Covilhã,Train,False,Pampilhosa
+Estação de Caria,Estação de Covilhã,Train,False,Vilar Formoso
+Estação de Caria,Estação de Covilhã,Train,True,Abrantes
+Estação de Caria,Estação de Covilhã,Train,True,Badajoz
+Estação de Caria,Estação de Covilhã,Train,True,Entroncamento
 Estação de Carrascal-Delongo,Estação de Curvaceiras,Train,False,Entroncamento
 Estação de Carrascal-Delongo,Estação de Curvaceiras,Train,False,Lisboa - Santa Apolónia
 Estação de Carrascal-Delongo,Estação de Curvaceiras,Train,False,Pombal
@@ -8007,6 +8109,19 @@ Estação de Castelejo,Estação de Santa Comba Dão,Train,False,Vilar Formoso
 Estação de Castelejo,Estação de Santa Comba Dão,Train,True,Lisboa - Santa Apolónia
 Estação de Castelejo,Estação de Santa Comba Dão,Train,True,Pampilhosa
 Estação de Castelejo,Estação de Santa Comba Dão,Train,True,Porto - Campanhã
+Estação de Castelo Branco,Estação de Fundão,Train,False,Abrantes
+Estação de Castelo Branco,Estação de Fundão,Train,False,Entroncamento
+Estação de Castelo Branco,Estação de Fundão,Train,True,Covilhã
+Estação de Castelo Branco,Estação de Fundão,Train,True,Guarda
+Estação de Castelo Branco,Estação de Ródão,Train,False,Covilhã
+Estação de Castelo Branco,Estação de Ródão,Train,False,Guarda
+Estação de Castelo Branco,Estação de Ródão,Train,True,Abrantes
+Estação de Castelo Branco,Estação de Ródão,Train,True,Entroncamento
+Estação de Castelo Novo,Estação de Soalheira,Train,False,Covilhã
+Estação de Castelo Novo,Estação de Soalheira,Train,False,Guarda
+Estação de Castelo Novo,Estação de Soalheira,Train,True,Abrantes
+Estação de Castelo Novo,Estação de Soalheira,Train,True,Badajoz
+Estação de Castelo Novo,Estação de Soalheira,Train,True,Entroncamento
 Estação de Castro Marim,Estação de Monte Gordo,Train,False,Faro
 Estação de Castro Marim,Estação de Monte Gordo,Train,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Train,True,Vila Real de Santo António
@@ -8186,6 +8301,18 @@ Estação de Corroios,Estação do Pragal,Train,False,Setúbal
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Campolide
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Oriente
 Estação de Corroios,Estação do Pragal,Train,True,Porto - Campanhã
+Estação de Covilhã,Estação de Fundão,Train,False,Covilhã
+Estação de Covilhã,Estação de Fundão,Train,False,Guarda
+Estação de Covilhã,Estação de Fundão,Train,False,Porto - Campanhã
+Estação de Covilhã,Estação de Fundão,Train,True,Abrantes
+Estação de Covilhã,Estação de Fundão,Train,True,Entroncamento
+Estação de Covilhã,Estação de Fundão,Train,True,Lisboa - Santa Apolónia
+Estação de Covilhã,Estação de Tortosendo,Train,False,Guarda
+Estação de Covilhã,Estação de Tortosendo,Train,False,Pampilhosa
+Estação de Covilhã,Estação de Tortosendo,Train,False,Vilar Formoso
+Estação de Covilhã,Estação de Tortosendo,Train,True,Abrantes
+Estação de Covilhã,Estação de Tortosendo,Train,True,Badajoz
+Estação de Covilhã,Estação de Tortosendo,Train,True,Entroncamento
 Estação de Crato,Estação de Portalegre,Train,False,Abrantes
 Estação de Crato,Estação de Portalegre,Train,False,Entroncamento
 Estação de Crato,Estação de Portalegre,Train,False,Guarda
@@ -8224,6 +8351,11 @@ Estação de Dois Portos,Estação de Torres Vedras,Train,False,Agualva - Cacém
 Estação de Dois Portos,Estação de Torres Vedras,Train,False,Lisboa - Rossio
 Estação de Dois Portos,Estação de Torres Vedras,Train,True,Caldas da Rainha
 Estação de Dois Portos,Estação de Torres Vedras,Train,True,Coimbra-B
+Estação de Donas,Estação de Fundão,Train,False,Abrantes
+Estação de Donas,Estação de Fundão,Train,False,Badajoz
+Estação de Donas,Estação de Fundão,Train,False,Entroncamento
+Estação de Donas,Estação de Fundão,Train,True,Covilhã
+Estação de Donas,Estação de Fundão,Train,True,Guarda
 Estação de Elvas,Estação de Santa Eulália-A,Train,False,Badajoz
 Estação de Elvas,Estação de Santa Eulália-A,Train,False,Espanha
 Estação de Elvas,Estação de Santa Eulália-A,Train,True,Entroncamento
@@ -8332,6 +8464,11 @@ Estação de Faro,Estação de Loulé,Train,True,Tunes
 Estação de Faro,Estação de Parque das Cidades,Train,False,Vila Real de Santo António
 Estação de Faro,Estação de Parque das Cidades,Train,True,Lagos
 Estação de Faro,Estação de Parque das Cidades,Train,True,Tunes
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,False,Covilhã
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,False,Guarda
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,True,Abrantes
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,True,Badajoz
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,True,Entroncamento
 Estação de Feliteira,Estação de Zibreira,Train,False,Caldas da Rainha
 Estação de Feliteira,Estação de Zibreira,Train,False,Figueira da Foz
 Estação de Feliteira,Estação de Zibreira,Train,True,Agualva - Cacém
@@ -8397,6 +8534,11 @@ Estação de Fornos de Algodres,Estação de Mangualde,Train,False,Guarda
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Lisboa - Santa Apolónia
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Pampilhosa
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Porto - Campanhã
+Estação de Fratel,Estação de Ródão,Train,False,Abrantes
+Estação de Fratel,Estação de Ródão,Train,False,Badajoz
+Estação de Fratel,Estação de Ródão,Train,False,Entroncamento
+Estação de Fratel,Estação de Ródão,Train,True,Covilhã
+Estação de Fratel,Estação de Ródão,Train,True,Guarda
 Estação de Freineda,Estação de Miuzela,Train,False,Vilar Formoso
 Estação de Freineda,Estação de Miuzela,Train,True,Covilhã
 Estação de Freineda,Estação de Miuzela,Train,True,Guarda
@@ -8497,6 +8639,11 @@ Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,False,Vilar For
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Lisboa - Santa Apolónia
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Pampilhosa
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Porto - Campanhã
+Estação de Lardosa,Estação de Soalheira,Train,False,Abrantes
+Estação de Lardosa,Estação de Soalheira,Train,False,Badajoz
+Estação de Lardosa,Estação de Soalheira,Train,False,Entroncamento
+Estação de Lardosa,Estação de Soalheira,Train,True,Covilhã
+Estação de Lardosa,Estação de Soalheira,Train,True,Guarda
 Estação de Leiria,Estação de Marinha Grande,Train,False,Bifurcação de Lares
 Estação de Leiria,Estação de Marinha Grande,Train,False,Coimbra-B
 Estação de Leiria,Estação de Marinha Grande,Train,False,Figueira da Foz
@@ -8883,6 +9030,11 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Train,False,
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Train,False,Santarém
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Train,True,Azambuja
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Train,True,Lisboa - Santa Apolónia
+Estação de Retaxo,Estação de Sarnadas,Train,False,Covilhã
+Estação de Retaxo,Estação de Sarnadas,Train,False,Guarda
+Estação de Retaxo,Estação de Sarnadas,Train,True,Abrantes
+Estação de Retaxo,Estação de Sarnadas,Train,True,Badajoz
+Estação de Retaxo,Estação de Sarnadas,Train,True,Entroncamento
 Estação de Reveles,Estação de Verride,Train,False,Bifurcação de Lares
 Estação de Reveles,Estação de Verride,Train,False,Figueira da Foz
 Estação de Reveles,Estação de Verride,Train,True,Alfarelos
@@ -8895,6 +9047,11 @@ Estação de Rochoso,Estação de Vila Fernando,Train,False,Vilar Formoso
 Estação de Rochoso,Estação de Vila Fernando,Train,True,Covilhã
 Estação de Rochoso,Estação de Vila Fernando,Train,True,Guarda
 Estação de Rochoso,Estação de Vila Fernando,Train,True,Pampilhosa
+Estação de Ródão,Estação de Tojeirinha,Train,False,Abrantes
+Estação de Ródão,Estação de Tojeirinha,Train,False,Badajoz
+Estação de Ródão,Estação de Tojeirinha,Train,False,Entroncamento
+Estação de Ródão,Estação de Tojeirinha,Train,True,Covilhã
+Estação de Ródão,Estação de Tojeirinha,Train,True,Guarda
 Estação de Runa,Estação de Torres Vedras,Train,False,Agualva - Cacém
 Estação de Runa,Estação de Torres Vedras,Train,False,Jerumelo
 Estação de Runa,Estação de Torres Vedras,Train,False,Lisboa - Rossio
@@ -8975,6 +9132,11 @@ Estação de São Martinho do Porto,Estação de Valado-Nazaré-Alcobaça,Train,
 Estação de São Martinho do Porto,Estação de Valado-Nazaré-Alcobaça,Train,False,Lisboa - Rossio
 Estação de São Martinho do Porto,Estação de Valado-Nazaré-Alcobaça,Train,True,Coimbra-B
 Estação de São Martinho do Porto,Estação de Valado-Nazaré-Alcobaça,Train,True,Leiria
+Estação de Sarnadas,Estação de Tojeirinha,Train,False,Covilhã
+Estação de Sarnadas,Estação de Tojeirinha,Train,False,Guarda
+Estação de Sarnadas,Estação de Tojeirinha,Train,True,Abrantes
+Estação de Sarnadas,Estação de Tojeirinha,Train,True,Badajoz
+Estação de Sarnadas,Estação de Tojeirinha,Train,True,Entroncamento
 Estação de Sete Rios,Estação do Pragal,Train,False,Lisboa - Oriente
 Estação de Sete Rios,Estação do Pragal,Train,False,Lisboa - Santa Apolónia
 Estação de Sete Rios,Estação do Pragal,Train,False,Porto - Campanhã

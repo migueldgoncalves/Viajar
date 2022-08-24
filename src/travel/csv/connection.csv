@@ -214,6 +214,7 @@ A23 - Saída 9,A23 - Saída 10,Car,4.7,A23,E,2,1
 A23 - Saída 10,Área de Serviço de Abrantes,Car,2.0,A23,E,2,1
 A23 - Saída 11,A23 - Saída 12,Car,8.3,A23,E,2,1
 A23 - Saída 11,Área de Serviço de Abrantes,Car,5.4,A23,W,1,2
+A23 - Saída 11,Estação de Mouriscas-A,Car,3.7,,SE,3,3
 A23 - Saída 12,A23 - Saída 13,Car,6.1,A23,E,2,1
 A23 - Saída 13,A23 - Saída 14,Car,8.3,A23,E,2,1
 A23 - Saída 14,A23 - Saída 15,Car,5.6,A23,E,2,1
@@ -231,8 +232,10 @@ A23 - Saída 24,A23 - Saída 25,Car,8.2,A23,N,2,1
 A23 - Saída 24,Área de Serviço de Castelo Branco,Car,3.5,A23,S,1,2
 A23 - Saída 25,A23 - Saída 26,Car,4.7,A23,N,2,1
 A23 - Saída 26,A23 - Saída 27,Car,5.6,A23,N,2,1
+A23 - Saída 26,Estação de Soalheira,Car,1.1,,E,3,3
 A23 - Saída 27,A23 - Saída 28,Car,7.9,A23,N,2,1
 A23 - Saída 28,A23 - Saída 29,Car,4.3,A23,N,2,1
+A23 - Saída 28,Estação de Donas,Car,1.3,,SE,3,3
 A23 - Saída 29,Área de Serviço do Fundão,Car,2.1,A23,N,2,1
 A23 - Saída 30,A23 - Saída 31,Car,5.9,A23,NE,2,1
 A23 - Saída 30,Área de Serviço do Fundão,Car,4.4,A23,S,1,2
@@ -2239,11 +2242,12 @@ Estação da Azambuja,Estação de Virtudes,Train,3.0,Linha do Norte - Regional,
 Estação da Casa Branca,Estação de Alcáçovas,Train,11.8,Linha do Alentejo - Intercidades,SE,1,2
 Estação da Casa Branca,Estação de Évora,Train,26.6,Linha de Évora - Intercidades,E,3,1
 Estação da Casa Branca,Vendas Novas,Train,33.6,Linha do Alentejo - Intercidades,W,2,1
-Estação da Guarda,Estação de Celorico da Beira,Train,38.1,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,NW,3,5
+Estação da Guarda,Estação de Celorico da Beira,Train,38.1,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,NW,4,5
 Estação da Guarda,Estação de Gata,Train,4.1,Linha da Beira Alta - Regional,SE,2,1
+Estação da Guarda,Estação de Sabugal,Train,5.0,Linha da Beira Baixa - Intercidades/Regional,S,3,2
 Estação da Guarda,Estação de Vila Franca das Naves,Train,24.3,Linha da Beira Alta - Intercidades/Regional,N,1,2
-Estação da Guarda,Estação de Vilar Formoso,Train,45.5,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,E,4,2
-Estação da Guarda,São Miguel da Guarda,Car,1.0,,NW,5,2
+Estação da Guarda,Estação de Vilar Formoso,Train,45.5,Linha da Beira Alta - Lusitânia Comboio Hotel/Sud Expresso,E,5,2
+Estação da Guarda,São Miguel da Guarda,Car,1.0,,NW,6,2
 Estação da Luz,Estação de Tavira,Train,5.4,Linha do Algarve - Regional,NE,2,3
 Estação da Luz,Livramento,Train,3.3,Linha do Algarve - Regional,SW,3,3
 Estação da Luz,Luz de Tavira,Car,0.6,,NW,1,2
@@ -2258,6 +2262,7 @@ Estação das Mercês,Estação de Algueirão - Mem Martins,Train,1.2,Linha de S
 Estação das Mercês,Estação de Rio de Mouro,Train,1.1,Linha de Sintra - CP Lisboa,SE,1,2
 Estação de Abrantes,Estação de Alferrarede,Train,5.5,Linha da Beira Baixa - Regional,N,2,1
 Estação de Abrantes,Estação de Bemposta,Train,11.4,Linha do Leste - Regional,SE,3,1
+Estação de Abrantes,Estação de Ródão,Train,63.4,Linha da Beira Baixa - Intercidades,E,5,3
 Estação de Abrantes,Estação de Tramagal,Train,6.0,Linha da Beira Baixa - Regional,W,1,2
 Estação de Abrantes,Estação do Entroncamento,Train,28.6,Linha da Beira Baixa - Intercidades,W,4,6
 Estação de Adémia,Estação de Coimbra-B,Train,3.1,Linha do Norte - Regional,S,1,2
@@ -2279,12 +2284,18 @@ Estação de Albufeira - Ferreiras,Ferreiras,Car,1.2,,SW,2,2
 Estação de Albufeira - Ferreiras,Tunes,High-Speed Train,5.2,Linha do Algarve,NW,7,9
 Estação de Albufeira - Ferreiras,Tunes,Train,5.2,Linha do Algarve - Intercidades/Regional,NW,4,6
 Estação de Alcáçovas,Vila Nova da Baronia,Train,14.5,Linha do Alentejo - Intercidades,SE,1,2
+Estação de Alcaide,Estação de Donas,Train,2.2,Linha da Beira Baixa - Regional,W,2,1
+Estação de Alcaide,Estação de Fatela - Penamacor,Train,3.9,Linha da Beira Baixa - Regional,E,1,2
+Estação de Alcains,Estação de Castelo Branco,Train,13.0,Linha da Beira Baixa - Regional,SW,1,2
+Estação de Alcains,Estação de Lardosa,Train,7.9,Linha da Beira Baixa - Regional,N,2,1
 Estação de Alcântara-Mar,Estação de Alcântara-Terra,Transfer,0.0,,N,3,2
 Estação de Alcântara-Mar,Estação de Belém,Train,2.2,Linha de Cascais - CP Lisboa,W,2,1
 Estação de Alcântara-Mar,Estação de Santos,Train,1.7,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Alcântara-Terra,Estação de Campolide,Train,3.0,Linha da Azambuja/Linha de Cintura - CP Lisboa,N,1,6
 Estação de Alcantarilha,Poço Barreto,Car,3.7,,W,3,1
 Estação de Alcantarilha,Poço Barreto,Train,3.6,Linha do Algarve - Regional,W,5,5
+Estação de Alcaria,Estação de Fundão,Train,7.8,Linha da Beira Baixa - Regional,S,1,2
+Estação de Alcaria,Estação de Tortosendo,Train,5.0,Linha da Beira Baixa - Regional,N,2,1
 Estação de Aldeia,Estação de Freineda,Train,2.6,Linha da Beira Alta - Regional,W,1,2
 Estação de Aldeia,Estação de Vilar Formoso,Train,5.1,Linha da Beira Alta - Regional,E,2,1
 Estação de Alfarelos,Estação de Coimbra-B,Train,18.9,Linha do Norte - Intercidades/InterRegional,E,6,4
@@ -2308,6 +2319,8 @@ Estação de Almancil,Estação de Loulé,Train,3.4,Linha do Algarve - Regional,
 Estação de Almancil,Estação de Parque das Cidades,Train,4.2,Linha do Algarve - Regional,SE,3,4
 Estação de Almourol,Estação de Praia do Ribatejo,Train,2.5,Linha da Beira Baixa - Regional,E,2,1
 Estação de Almourol,Estação de Tancos,Train,2.0,Linha da Beira Baixa - Regional,W,1,2
+Estação de Alpedrinha,Estação de Castelo Novo,Train,4.4,Linha da Beira Baixa - Regional,S,1,2
+Estação de Alpedrinha,Estação de Vale de Prazeres,Train,3.9,Linha da Beira Baixa - Regional,NE,2,1
 Estação de Alvega-Ortiga,Estação de Barragem de Belver,Train,4.4,Linha da Beira Baixa - Regional,E,2,1
 Estação de Alvega-Ortiga,Estação de Mouriscas-A,Train,3.7,Linha da Beira Baixa - Regional,W,1,2
 Estação de Alverca,Estação de Vila Franca de Xira,Train,8.4,Linha da Azambuja/Linha do Norte - Regional,NE,3,3
@@ -2328,17 +2341,26 @@ Estação de Badajoz,Estação de Elvas,Train,10.7,Linha do Leste - Regional,W,1
 Estação de Baixa da Banheira,Estação do Lavradio,Train,1.2,Linha do Alentejo/Linha do Sado - CP Lisboa,W,1,2
 Estação de Baraçal,Estação de Celorico da Beira,Train,5.2,Linha da Beira Alta - Regional,W,1,2
 Estação de Baraçal,Estação de Vila Franca das Naves,Train,8.6,Linha da Beira Alta - Regional,NE,2,1
+Estação de Barca da Amieira - Envendos,Estação de Belver,Train,13.5,Linha da Beira Baixa - Regional,W,1,2
+Estação de Barca da Amieira - Envendos,Estação de Fratel,Train,15.8,Linha da Beira Baixa - Regional,NE,2,1
 Estação de Barquinha,Estação de Tancos,Train,3.6,Linha da Beira Baixa - Regional,E,2,1
 Estação de Barquinha,Estação do Entroncamento,Train,3.8,Linha da Beira Baixa - Regional,W,1,3
+Estação de Barragem de Belver,Estação de Belver,Train,4.0,Linha da Beira Baixa - Regional,E,2,1
 Estação de Barreiro-A,Estação do Barreiro,Train,1.1,Linha do Alentejo/Linha do Sado - CP Lisboa,SW,1,1
 Estação de Barreiro-A,Estação do Lavradio,Train,1.3,Linha do Alentejo/Linha do Sado - CP Lisboa,E,2,1
 "Estação de Belmonte, Huelva",Gibraleón,Train,11.5,Linha Zafra-Huelva - Media Distancia,S,1,2
+Estação de Belmonte-Manteigas,Estação de Caria,Train,4.4,Linha da Beira Baixa - Intercidades/Regional,SW,1,2
+Estação de Belmonte-Manteigas,Estação de Maçainhas,Train,8.2,Linha da Beira Baixa - Intercidades/Regional,NE,2,1
 Estação de Bemposta,Estação de Ponte de Sôr,Train,16.9,Linha do Leste - Regional,SE,2,1
 Estação de Bencanta,Estação de Coimbra-B,Train,2.1,Linha do Norte - Regional/Urbanos de Coimbra,NE,2,1
 Estação de Bencanta,Estação de Espadaneira,Train,1.4,Linha do Norte - Regional/Urbanos de Coimbra,W,1,2
+Estação de Benespera,Estação de Maçainhas,Train,5.8,Linha da Beira Baixa - Intercidades/Regional,S,1,2
+Estação de Benespera,Estação de Sabugal,Train,9.5,Linha da Beira Baixa - Intercidades/Regional,N,2,1
 Estação de Benfica,Estação de Campolide,Train,3.2,Linha de Sintra - CP Lisboa,E,1,5
 Estação de Benfica,Estação de Santa Cruz - Damaia,Train,1.2,Linha de Sintra - CP Lisboa,W,2,1
 Estação de Benfica,Estação de Sete Rios,Train,3.1,Concordância de Sete Rios - CP Lisboa,E,3,3
+Estação de Benquerenças,Estação de Castelo Branco,Train,7.2,Linha da Beira Baixa - Regional,E,2,1
+Estação de Benquerenças,Estação de Retaxo,Train,3.4,Linha da Beira Baixa - Regional,SW,1,2
 Estação de Bifurcação de Lares,Estação de Lares,Train,1.3,Linha do Oeste - Regional/Urbanos de Coimbra,W,3,1
 Estação de Bifurcação de Lares,Estação de Louriçal,Train,15.3,Linha do Oeste - Regional,S,1,2
 Estação de Bifurcação de Lares,Estação de Reveles,Train,2.1,Ramal de Alfarelos - Urbanos de Coimbra,E,2,1
@@ -2368,6 +2390,7 @@ Estação de Campolide,Estação do Rossio,Train,3.1,Linha de Sintra/Túnel do R
 Estação de Canas-Felgueira,Estação de Lapa do Lobo,Train,2.0,Linha da Beira Alta - Regional,SW,1,2
 Estação de Canas-Felgueira,Estação de Nelas,Train,8.1,Linha da Beira Alta - Regional,NE,2,1
 Estação de Carcavelos,Estação de Oeiras,Train,1.6,Linha de Cascais - CP Lisboa,E,1,2
+Estação de Caria,Estação de Covilhã,Train,13.6,Linha da Beira Baixa - Intercidades/Regional,W,1,2
 Estação de Carrascal-Delongo,Estação de Curvaceiras,Train,3.3,Ramal de Tomar - Regional,E,2,1
 Estação de Carrascal-Delongo,Estação de Soudos - Vila Nova,Train,1.1,Ramal de Tomar - Regional,SW,1,2
 Estação de Carregal do Sal,Estação de Nelas,Train,19.1,Linha da Beira Alta - Intercidades,NE,4,3
@@ -2383,6 +2406,9 @@ Estação de Castanheira do Ribatejo,Estação de Vila Franca de Xira,Train,4.1,
 Estação de Castanheira do Ribatejo,Estação do Carregado,Train,2.2,Linha da Azambuja/Linha do Norte - CP Lisboa,NE,2,1
 Estação de Castelejo,Estação de Papízios,Train,3.8,Linha da Beira Alta - Regional,E,2,1
 Estação de Castelejo,Estação de Santa Comba Dão,Train,4.4,Linha da Beira Alta - Regional,W,1,2
+Estação de Castelo Branco,Estação de Fundão,Train,53.6,Linha da Beira Baixa - Intercidades,N,4,3
+Estação de Castelo Branco,Estação de Ródão,Train,30.1,Linha da Beira Baixa - Intercidades,SW,3,4
+Estação de Castelo Novo,Estação de Soalheira,Train,5.0,Linha da Beira Baixa - Regional,S,1,2
 Estação de Castro Marim,Estação de Monte Gordo,Train,3.4,Linha do Algarve - Regional,SE,3,5
 Estação de Castro Marim,Vista Real,Car,3.8,N125-6,NE,2,3
 Estação de Caxarias,Estação de Chão de Maçãs-Fátima,Train,9.5,Linha do Norte - Intercidades/InterRegional,SE,3,4
@@ -2417,6 +2443,8 @@ Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,125.6,LA
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Train,2.6,Linha do Sul - Fertagus,SE,1,2
 Estação de Corroios,Estação do Pragal,Train,5.1,Linha do Sul - Fertagus,NW,2,1
+Estação de Covilhã,Estação de Fundão,Train,17.7,Linha da Beira Baixa - Intercidades,S,3,4
+Estação de Covilhã,Estação de Tortosendo,Train,5.0,Linha da Beira Baixa - Regional,S,1,2
 Estação de Crato,Estação de Portalegre,Train,17.2,Linha do Leste - Regional,E,2,1
 Estação de Curvaceiras,Estação de Santa Cita,Train,3.3,Ramal de Tomar - Regional,E,2,1
 Estação de Dagorda - Peniche,Estação de Óbidos,Train,2.6,Linha do Oeste - Regional,NE,2,1
@@ -2425,6 +2453,7 @@ Estação de Dois Portos,Estação de Feliteira,Train,2.5,Linha do Oeste - Regio
 Estação de Dois Portos,Estação de Pêro Negro,Train,6.9,Linha do Oeste - InterRegional,S,3,4
 Estação de Dois Portos,Estação de Runa,Train,4.4,Linha do Oeste - Regional,NW,2,1
 Estação de Dois Portos,Estação de Torres Vedras,Train,9.2,Linha do Oeste - InterRegional,NW,4,3
+Estação de Donas,Estação de Fundão,Train,2.3,Linha da Beira Baixa - Regional,W,2,1
 Estação de Elvas,Estação de Santa Eulália-A,Train,18.2,Linha do Leste - Regional,NW,1,2
 Estação de Entrecampos,Estação de Roma-Areeiro,Train,1.1,Linha da Azambuja/Linha de Cintura - CP Lisboa/Fertagus,E,2,1
 Estação de Entrecampos,Estação de Santa Apolónia,Train,6.0,Concordância de Xabregas - InterRegional/Regional,SE,3,2
@@ -2451,6 +2480,7 @@ Estação de Faro,Estação de Loulé,High-Speed Train,15.8,Linha do Algarve,NW,
 Estação de Faro,Estação de Loulé,Train,15.8,Linha do Algarve - Intercidades,NW,4,5
 Estação de Faro,Estação de Parque das Cidades,Train,8.1,Linha do Algarve - Regional,NW,3,3
 Estação de Faro,Faro - São Pedro,Car,0.8,,E,1,3
+Estação de Fatela - Penamacor,Estação de Vale de Prazeres,Train,6.3,Linha da Beira Baixa - Regional,S,1,2
 Estação de Feliteira,Estação de Zibreira,Train,2.0,Linha do Oeste - Regional,S,1,2
 Estação de Feria de Madrid,Estação de Mar de Cristal,Subway,2.3,Linha 8 - Metro de Madrid,W,2,1
 Estação de Feria de Madrid,M-40 - Saída 5,Car,0.7,,W,3,3
@@ -2466,6 +2496,7 @@ Estação de Fontela,Estação de Lares,Train,3.6,Linha do Oeste - Regional/Urba
 Estação de Formoselha,Estação de Pereira,Train,2.1,Linha do Norte - Regional/Urbanos de Coimbra,E,2,1
 Estação de Fornos de Algodres,Estação de Gouveia,Train,7.9,Linha da Beira Alta - Regional,W,1,2
 Estação de Fornos de Algodres,Estação de Mangualde,Train,23.7,Linha da Beira Alta - Intercidades,W,3,4
+Estação de Fratel,Estação de Ródão,Train,6.7,Linha da Beira Baixa - Regional,NE,2,1
 Estação de Freineda,Estação de Miuzela,Train,15.1,Linha da Beira Alta - Regional,SW,1,2
 Estação de Fuente de la Mora,Estação de Madrid-Chamartín-Clara Campoamor,Train,2.8,Linhas C-1/C-10/CIVIS C-2 - Cercanías Madrid,SW,1,3
 Estação de Fuente de la Mora,Estação de Valdebebas,Train,4.0,Linhas C-1/C-10 - Cercanías Madrid,E,2,1
@@ -2498,6 +2529,7 @@ Estação de Lamarosa,Estação de Soudos - Vila Nova,Train,1.3,Ramal de Tomar -
 Estação de Lamarosa,Estação de Tomar,Train,15.0,Ramal de Tomar - InterRegional,NE,5,2
 Estação de Lamarosa,Estação do Entroncamento,Train,8.1,Linha do Norte - InterRegional/Regional,S,1,2
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,4.7,Linha da Beira Alta - Regional,SW,1,2
+Estação de Lardosa,Estação de Soalheira,Train,4.7,Linha da Beira Baixa - Regional,N,2,1
 Estação de Leiria,Estação de Marinha Grande,Train,10.0,Linha do Oeste - InterRegional/Regional,W,1,2
 Estação de Leiria,Estação de Monte Real,Train,11.9,Linha do Oeste - InterRegional/Regional,N,2,1
 Estação de Litém,Estação de Vermoil,Train,5.5,Linha do Norte - Regional,W,2,1
@@ -2585,9 +2617,11 @@ Estação de Reguengo-Vale da Pedra-Pontével,Estação de Santarém,Train,20.1,
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Setil,Train,2.1,Linha do Norte - Regional,NE,2,1
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Vila Franca de Xira,Train,24.1,Linha do Norte - InterRegional,SW,3,6
 Estação de Reguengo-Vale da Pedra-Pontével,Estação de Virtudes,Train,5.3,Linha do Norte - Regional,W,1,2
+Estação de Retaxo,Estação de Sarnadas,Train,3.5,Linha da Beira Baixa - Regional,W,1,2
 Estação de Reveles,Estação de Verride,Train,4.9,Ramal de Alfarelos - Urbanos de Coimbra,E,2,1
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,4.2,Linha do Norte - Regional,NE,2,1
 Estação de Rochoso,Estação de Vila Fernando,Train,5.0,Linha da Beira Alta - Regional,W,1,2
+Estação de Ródão,Estação de Tojeirinha,Train,8.5,Linha da Beira Baixa - Regional,N,2,1
 Estação de Runa,Estação de Torres Vedras,Train,4.9,Linha do Oeste - Regional,W,2,1
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,2.3,Linha do Oeste - Regional,NE,2,1
 Estação de Santa Apolónia,Gare do Oriente,High-Speed Train,6.5,Linha do Norte,N,4,12
@@ -2610,6 +2644,7 @@ Estação de São João das Craveiras,Vendas Novas,Train,11.9,Linha do Alentejo 
 Estação de São João do Estoril,Estação de São Pedro do Estoril,Train,1.5,Linha de Cascais - CP Lisboa,E,1,2
 Estação de São João do Estoril,Estação do Estoril,Train,1.2,Linha de Cascais - CP Lisboa,W,2,1
 Estação de São Martinho do Porto,Estação de Valado-Nazaré-Alcobaça,Train,13.6,Linha do Oeste - InterRegional,NE,4,3
+Estação de Sarnadas,Estação de Tojeirinha,Train,7.6,Linha da Beira Baixa - Regional,SW,1,2
 Estação de Sete Rios,Estação do Pragal,Train,8.3,Linha do Sul - Intercidades,S,4,4
 Estação de Silves,Parque Municipal do Sítio das Fontes,Car,6.1,,SW,3,2
 Estação de Silves,Poço Barreto,Train,5.1,Linha do Algarve - Regional,SE,4,6
