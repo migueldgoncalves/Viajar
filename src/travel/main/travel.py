@@ -14,6 +14,14 @@ SWITCH_TO_STANDARD_TRAIN_STRING = "Board a standard train"  # Use when both "low
 SWITCH_TO_HIGH_SPEED_TRAIN_STRING = "Board a high-speed train"
 SWITCH_TO_SUBWAY_STRING = "Board a subway train"
 SWITCH_TO_TRANSFER_STRING = "Transfer between means of transport"
+SWITCHED_TO_CAR_STRING = "You are back on the road"
+SWITCHED_TO_BOAT_STRING = "You are aboard a boat"
+SWITCHED_TO_PLANE_STRING = "You are aboard a plane"
+SWITCHED_TO_TRAIN_STRING = "You are aboard a train"  # Use when only "low-speed" train is available
+SWITCHED_TO_STANDARD_TRAIN_STRING = "You are aboard a standard train"  # Use when both "low-speed" and high-speed train are available
+SWITCHED_TO_HIGH_SPEED_TRAIN_STRING = "You are aboard a high-speed train"
+SWITCHED_TO_SUBWAY_STRING = "You are aboard a subway train"
+SWITCHED_TO_TRANSFER_STRING = "You are transferring between means of transport"
 
 # Permanent options in the journey menu
 OPTION_SHOW_LOCATION_INFO = "Show location information"
@@ -99,26 +107,26 @@ class Travel:
 
         print("")
         if self.current_journey.get_current_means_transport() == CAR:
-            print("You are back on the road")
+            print(SWITCHED_TO_CAR_STRING)
         elif self.current_journey.get_current_means_transport() == BOAT:
-            print("You are aboard a boat")
+            print(SWITCHED_TO_BOAT_STRING)
         elif self.current_journey.get_current_means_transport() == PLANE:
-            print("You are aboard a plane")
+            print(SWITCHED_TO_PLANE_STRING)
         elif self.current_journey.get_current_means_transport() == TRAIN:
             high_speed_train_present: bool = False
             for x in self.get_current_location_object().get_connections():
                 if x[1] == HIGH_SPEED_TRAIN:
                     high_speed_train_present = True
             if high_speed_train_present:
-                print("You are aboard a standard train")  # Allows distinguishing from the high-speed train
+                print(SWITCHED_TO_STANDARD_TRAIN_STRING)  # Allows distinguishing from the high-speed train
             else:
-                print("You are aboard a train")
+                print(SWITCHED_TO_TRAIN_STRING)
         elif self.current_journey.get_current_means_transport() == SUBWAY:
-            print("You are aboard a subway train")
+            print(SWITCHED_TO_SUBWAY_STRING)
         elif self.current_journey.get_current_means_transport() == HIGH_SPEED_TRAIN:
-            print("You are aboard a high-speed train")
+            print(SWITCHED_TO_HIGH_SPEED_TRAIN_STRING)
         elif self.current_journey.get_current_means_transport() == TRANSFER:
-            print("You are transferring between means of transport")
+            print(SWITCHED_TO_TRANSFER_STRING)
         print("You have new available destinations")
 
     #  #  #  #  #  #  #  #
@@ -131,6 +139,9 @@ class Travel:
 
     @staticmethod
     def seconds_to_datetime(seconds: int) -> datetime.time:
+        """
+        Expects a value between 0 and 86399 (23 hours, 59 minutes and 59 seconds)
+        """
         hours: int = seconds // 3600
         seconds = seconds - (hours * 3600)
         minutes: int = seconds // 60
@@ -138,6 +149,9 @@ class Travel:
         return datetime.time(int(hours), int(minutes), int(seconds))
 
     def increment_traveled_time(self, elapsed_seconds: int) -> None:
+        """
+        Expects a value between 0 and 86399 (23 hours, 59 minutes and 59 seconds)
+        """
         elapsed_time: datetime.time = self.seconds_to_datetime(elapsed_seconds)
         self.current_journey.increment_elapsed_time(elapsed_time.hour, elapsed_time.minute, elapsed_time.second)
 
