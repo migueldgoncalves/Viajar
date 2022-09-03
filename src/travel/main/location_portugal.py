@@ -82,11 +82,14 @@ class LocationPortugal(location.Location):
         return self.region
 
     def print_info_brief(self) -> None:
+        print(self.get_info_brief_to_print())
+
+    def get_info_brief_to_print(self) -> str:
         """
         Example: You are in Odeleite, Castro Marim, Faro District
         """
         name = self.get_name().split(",")[0]  # Ex: "Álamo, Alcoutim" and "Álamo, Mértola" -> Álamo
-        print(f'You are in {name}, {self.get_municipality()}, {self.get_district()} District')
+        return f'You are in {name}, {self.get_municipality()}, {self.get_district()} District'
 
     def print_info_complete(self) -> None:
         super().print_info_complete()

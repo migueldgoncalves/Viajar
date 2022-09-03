@@ -5,7 +5,7 @@ from travel.main.cardinal_points import NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH
 
 class CardinalPointsTest(unittest.TestCase):
 
-    def test_obter_ponto_cardeal_oposto(self):
+    def test_get_opposite_cardinal_point(self):
         self.assertEqual(SOUTH, get_opposite_cardinal_point(NORTH))
         self.assertEqual(SOUTHWEST, get_opposite_cardinal_point(NORTHEAST))
         self.assertEqual(WEST, get_opposite_cardinal_point(EAST))

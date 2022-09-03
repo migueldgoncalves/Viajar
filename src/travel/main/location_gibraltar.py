@@ -20,11 +20,14 @@ class LocationGibraltar(location.Location):
         return self.major_residential_areas
 
     def print_info_brief(self) -> None:
+        print(self.get_info_brief_to_print())
+
+    def get_info_brief_to_print(self) -> str:
         """
         Ex: Gibraltar-Spain border - Gibraltar side, Gibraltar
         """
         name = self.name.split(",")[0]  # Ex: "Álamo, Alcoutim" and "Álamo, Mértola" -> Álamo
-        print(f'You are in {name}, Gibraltar')
+        return f'You are in {name}, Gibraltar'
 
     def print_info_complete(self) -> None:
         super().print_info_complete()

@@ -3,13 +3,15 @@ import datetime
 PRICE_LITER_FUEL = 2.0  # Euros
 CONSUMPTION_LITERS_100_KM = 6  # liters / 100 km
 
+DECIMAL_PLACES = 2
+
 
 class Journey:
 
     def __init__(self):
         self.elapsed_time: datetime.time = datetime.time(0, 0, 0)
         self.elapsed_days: int = 0
-        self.traveled_distance: float = 0.0
+        self.traveled_distance: float = 0.0  # km
         self.current_location: str = ""
         self.current_means_transport: str = ""
 
@@ -68,7 +70,7 @@ class Journey:
         return self.elapsed_days
 
     def get_traveled_distance(self) -> float:
-        return self.traveled_distance
+        return round(self.traveled_distance, DECIMAL_PLACES)
 
     def get_current_location(self) -> str:
         return self.current_location
@@ -77,7 +79,7 @@ class Journey:
         return self.current_means_transport
 
     def get_fuel_consumption(self) -> float:
-        return CONSUMPTION_LITERS_100_KM * (self.get_traveled_distance() / 100)
+        return round(CONSUMPTION_LITERS_100_KM * (self.get_traveled_distance() / 100), DECIMAL_PLACES)
 
     def get_consumed_fuel_price(self) -> float:
-        return self.get_fuel_consumption() * PRICE_LITER_FUEL
+        return round(self.get_fuel_consumption() * PRICE_LITER_FUEL, DECIMAL_PLACES)

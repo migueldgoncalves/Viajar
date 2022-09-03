@@ -4,6 +4,9 @@ import travel.support.ways as vias
 Main - Executar para aceder a todos os scripts disponíveis
 """
 
+# INSERT HERE location where to start journey
+INITIAL_LOCATION = 'Guerreiros do Rio'
+
 # INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
 VIA = vias.PT_LINHA_DO_NORTE
 
@@ -52,7 +55,7 @@ while True:
 
     elif opcao == OPCAO_VIAJAR:
         from travel.main import travel
-        travel.Viajar().realizar_viagem()
+        travel.Travel(INITIAL_LOCATION).make_journey()
     elif opcao == OPCAO_CARRO:
         from car import car
         car.Carro().viajar(distancia_a_percorrer=0, destino="")

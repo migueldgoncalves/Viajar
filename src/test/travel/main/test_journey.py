@@ -81,3 +81,9 @@ class JourneyTest(unittest.TestCase):
         self.journey.increment_traveled_distance(10.0)
         self.journey.increment_traveled_distance(15.0)
         self.assertEqual(25.0, self.journey.get_traveled_distance())
+
+    def test_get_rounded_values_journey(self):
+        self.journey.set_traveled_distance(15.5555555555555555555555555)
+        self.assertEqual(15.56, self.journey.get_traveled_distance())
+        self.assertEqual(0.93, self.journey.get_fuel_consumption())
+        self.assertEqual(1.86, self.journey.get_consumed_fuel_price())

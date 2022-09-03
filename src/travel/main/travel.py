@@ -1,296 +1,298 @@
 import random
 import datetime
+from typing import Callable, Optional
 
-from travel.main import journey, db_interface
+from travel.main import journey, db_interface, location, menu
 from car import car
 
-#  Opções
-SAIR = 0  # Não alterar
-SAIR_STRING = "Sair da viagem"
-CARRO_STRING = "Voltar à estrada"
-BARCO_STRING = "Subir a bordo de um barco"
-AVIAO_STRING = "Embarcar num avião"
-COMBOIO_STRING = "Entrar a bordo de um comboio"
-COMBOIO_PADRAO_STRING = "Entrar a bordo de um comboio padrão"
-COMBOIO_ALTA_VELOCIDADE_STRING = "Entrar a bordo de um "  # Completar com o nome do comboio
-METRO_STRING = "Entrar numa composição de metro"
-TRANSBORDO_STRING = "Fazer transbordo"
-INFORMACOES_LOCAL = "Mostrar informações do local"
-ESTATISTICAS_VIAGEM = "Mostrar estatísticas da viagem"
-OPCAO_CARRO = "s"
-OPCAO_CARRO_STRING = "Tecla S"
-OPCAO_NAO_CARRO = "n"
-OPCAO_NAO_CARRO_STRING = "Tecla N"
+# Strings related to changing means of transport
+SWITCH_TO_CAR_STRING = "Return to the road"
+SWITCH_TO_BOAT_STRING = "Board a boat"
+SWITCH_TO_PLANE_STRING = "Board a plane"
+SWITCH_TO_TRAIN_STRING = "Board a train"  # Use when only "low-speed" train is available
+SWITCH_TO_STANDARD_TRAIN_STRING = "Board a standard train"  # Use when both "low-speed" and high-speed train are available
+SWITCH_TO_HIGH_SPEED_TRAIN_STRING = "Board a high-speed train"
+SWITCH_TO_SUBWAY_STRING = "Board a subway train"
+SWITCH_TO_TRANSFER_STRING = "Transfer between means of transport"
 
-#  Separadores do menu
-SEPARADOR_MODO = "->"
-SEPARADOR_SENTIDO = "»"
+# Permanent options in the journey menu
+OPTION_SHOW_LOCATION_INFO = "Show location information"
+OPTION_SHOW_JOURNEY_STATISTICS = "Show journey statistics"
 
-#  Velocidades (km/h)
-VELOCIDADE_MINIMA = 50
-VELOCIDADE_MAXIMA = 120
+# Example menu option: 1 -> Alcoutim (N, 1 km) » Guadiana River: Direction Mértola/Pomarão
+# Other string separators are defined elsewhere
+SEPARATOR_WAY_INFO = "»"
+SEPARATOR_DIRECTION = ":"
 
-#  Modos de viagem
-CARRO = 'Car'
-BARCO = 'Boat'
-AVIAO = 'Plane'
-COMBOIO = 'Train'
-COMBOIO_ALTA_VELOCIDADE = 'High-Speed Train'
-METRO = 'Subway'
-TRANSBORDO = 'Transfer'
+# Speed (km/h)
+MIN_SPEED = 50
+MAX_SPEED = 120
 
-#  Outros
-LOCAL_INICIAL = 'Guerreiros do Rio'
-CASAS_DECIMAIS = 2
+# Means of transport - Must match means of transport present in Connection table of DB
+CAR = 'Car'
+BOAT = 'Boat'
+PLANE = 'Plane'
+TRAIN = 'Train'  # "Low-speed" train
+HIGH_SPEED_TRAIN = 'High-Speed Train'
+SUBWAY = 'Subway'
+TRANSFER = 'Transfer'
+DEFAULT_MEANS_TRANSPORT = CAR
 
 
-class Viajar:
+class Travel:
+    """
+    Main class related to the journey. Creates and populates the DB, presents the user interface, and receives and
+        processes the user input
+    """
 
-    def __init__(self):
-        self.base_dados = db_interface.DBInterface()  # Contém todos os locais disponíveis
-        self.db_initialized: bool = self.base_dados.create_and_populate_travel_db()
+    def __init__(self, initial_location: str):
+        self.initial_location: str = initial_location
+
+        self.db_interface: db_interface.DBInterface = db_interface.DBInterface()  # Contains all available locations
+        self.db_initialized: bool = self.db_interface.create_and_populate_travel_db()
         if not self.db_initialized:  # Error while initializing the DB
-            # Error print is printed when trying to start journey - Not adding here prevents printing same message twice
+            # Error message is printed when trying to start journey - Not adding it here prevents printing same message twice
             return
 
-        #  Inicializar viagem
-        self.viagem_actual = journey.Journey()
-        self.carro_viagem = car.Carro()
-        self.viagem_actual.set_current_location(LOCAL_INICIAL)
-        self.viagem_actual.set_current_means_transport(CARRO)
-        print("Bem-vindo/a à viagem")
-        print("Tem", self.base_dados.get_total_location_number(), "locais disponíveis para visitar")
-        print("O seu local de origem será", LOCAL_INICIAL)
+        # Initialize journey
+        self.current_journey: journey.Journey = journey.Journey()
+        self.car: car.Carro = car.Carro()
+        self.current_journey.set_current_location(self.initial_location)
+        self.current_journey.set_current_means_transport(DEFAULT_MEANS_TRANSPORT)
+        print("Welcome to the journey")
+        print("You have", self.db_interface.get_total_location_number(), "available locations to visit")
+        print("Your starting location will be", self.initial_location)
         print("")
 
-        #  Utilizador escolhe se deseja simular viagem de carro entre locais
-        self.carro_pedido = self.usar_carro()
+        # User selects if they wish to simulate car journey between locations, or if moving between locations should be instant
+        self.is_car_requested: bool = self.request_car_simulation_usage()
 
-    #  #  #  #  #  #  #  #  #  #  #
-    #  Opções adicionais do menu  #
-    #  #  #  #  #  #  #  #  #  #  #
+    #  #  #  #  #  #
+    # Menu options #
+    #  #  #  #  #  #
 
-    def sair(self):
+    def exit_journey(self) -> None:
         print("")
-        print("Escolheu sair da viagem")
-        print("Até à próxima")
-        self.base_dados.exit()
-        exit()
+        print("You have chosen to exit the journey.")
+        print("See you soon.")
+        self.db_interface.exit()
+        exit(0)
 
-    def informacoes_local(self):
+    def print_location_info(self) -> None:
         print("")
-        self.get_local_actual().print_info_complete()
+        self.get_current_location_object().print_info_complete()
 
-    def estatisticas_viagem(self):
-        print("\nPercorreu", round(self.viagem_actual.get_traveled_distance(), CASAS_DECIMAIS), "km")
-        if self.viagem_actual.get_elapsed_days() == 0:  # Ex: Está ao volante há 00:43:25
-            print("Está ao volante há", self.viagem_actual.get_elapsed_time())
-        elif self.viagem_actual.get_elapsed_days() == 1:  # Ex: Está ao volante há 1 dia e 00:43:25
-            print("Está ao volante há 1 dia e", self.viagem_actual.get_elapsed_time())
-        else:  # Ex: Está ao volante há 3 dias e 00:43:25
-            print("Está ao volante há", self.viagem_actual.get_elapsed_days(), "dias e", self.viagem_actual.get_elapsed_time())
-        print("Consumiu", round(self.viagem_actual.get_fuel_consumption(), CASAS_DECIMAIS), "litros de combustível")
-        print("Gastou", round(self.viagem_actual.get_consumed_fuel_price(), CASAS_DECIMAIS), "euros em combustível")
+    def print_journey_statistics(self) -> None:
+        print("")
+        print(f"You have traveled {self.current_journey.get_traveled_distance()} km")
+        if self.current_journey.get_elapsed_days() == 0:  # Ex: You have been travelling for 00:43:25
+            print(f"You have been travelling for {self.current_journey.get_elapsed_time()}")
+        elif self.current_journey.get_elapsed_days() == 1:  # Ex: You have been travelling for 1 day and 00:43:25
+            print(f"You have been travelling for 1 day and {self.current_journey.get_elapsed_time()}")
+        else:  # Ex: You have been travelling for 3 days and 00:43:25
+            print(f"You have been travelling for {self.current_journey.get_elapsed_days()} days and {self.current_journey.get_elapsed_time()}")
+        print(f"You have consumed {self.current_journey.get_fuel_consumption()} liters of fuel")
+        print(f"You have spent {self.current_journey.get_consumed_fuel_price()} euros in fuel")
 
-    def mudar_modo(self, opcao, numero_locais_proximos, modos_disponiveis):
-        opcao -= numero_locais_proximos
-        self.viagem_actual.set_current_means_transport(modos_disponiveis[opcao - 1])
-        if self.viagem_actual.get_current_means_transport() == CARRO:
-            print("\nEstá de volta à estrada")
-        elif self.viagem_actual.get_current_means_transport() == BARCO:
-            print("\nEstá a bordo de um barco")
-        elif self.viagem_actual.get_current_means_transport() == AVIAO:
-            print("\nEstá a bordo de um avião")
-        elif self.viagem_actual.get_current_means_transport() == COMBOIO:
-            comboio_alta_velocidade_presente = False
-            for x in self.get_local_actual().get_connections():
-                if x[1] == 'Comboio de Alta Velocidade':
-                    comboio_alta_velocidade_presente = True
-            if comboio_alta_velocidade_presente:
-                print("\nEstá a bordo de um comboio padrão")
+    def change_means_transport(self, new_means_transport: str) -> None:
+        self.current_journey.set_current_means_transport(new_means_transport)
+
+        print("")
+        if self.current_journey.get_current_means_transport() == CAR:
+            print("You are back on the road")
+        elif self.current_journey.get_current_means_transport() == BOAT:
+            print("You are aboard a boat")
+        elif self.current_journey.get_current_means_transport() == PLANE:
+            print("You are aboard a plane")
+        elif self.current_journey.get_current_means_transport() == TRAIN:
+            high_speed_train_present: bool = False
+            for x in self.get_current_location_object().get_connections():
+                if x[1] == HIGH_SPEED_TRAIN:
+                    high_speed_train_present = True
+            if high_speed_train_present:
+                print("You are aboard a standard train")  # Allows distinguishing from the high-speed train
             else:
-                print("\nEstá a bordo de um comboio")
-        elif self.viagem_actual.get_current_means_transport() == METRO:
-            print("\nEstá a bordo de uma composição de metro")
-        elif self.viagem_actual.get_current_means_transport() == COMBOIO_ALTA_VELOCIDADE:
-            if self.get_local_actual().get_country() == 'Portugal':
-                print("\nEstá a bordo de um Alfa Pendular")
-            elif self.get_local_actual().get_country() == 'Espanha':
-                print("\nEstá a bordo de um AVE")
-        elif self.viagem_actual.get_current_means_transport() == TRANSBORDO:
-            print("\nEstá a fazer transbordo")
-        print("Tem novos destinos disponíveis")
-
-    #  #  #  #  #  #  #  #  #
-    #  Métodos auxiliares   #
-    #  #  #  #  #  #  #  #  #
-
-    #  Retorna True se a opção for aceitável, False em caso contrário
-    @staticmethod
-    def avalia_opcao(opcao, numero_opcoes):
-        try:
-            opcao = int(opcao)
-            if SAIR <= opcao <= numero_opcoes:  # A opção Sair existe sempre e não conta para o nº de opções
-                return True
-            else:
-                return False
-        except ValueError:  # Input não é um número
-            return False
-
-    def get_local_actual(self):
-        return self.base_dados.get_location_object(self.viagem_actual.get_current_location())
-
-    @staticmethod
-    def conversor_tempo(segundos):
-        horas = segundos // 3600
-        segundos = segundos - (horas * 3600)
-        minutos = segundos // 60
-        segundos = segundos - (minutos * 60)
-        return datetime.time(int(horas), int(minutos), int(segundos))
-
-    def incrementar_tempo(self, tempo):
-        tempo = self.conversor_tempo(tempo)
-        self.viagem_actual.increment_elapsed_time(tempo.hour, tempo.minute, tempo.second)
-
-    def actualizar_viagem(self, destino, meio_transporte, carro_pedido):
-        print("Escolheu ir para", destino)
-        locais_circundantes = self.get_local_actual().get_connections()
-        distancia = locais_circundantes[(destino, meio_transporte)][1]
-        if not carro_pedido:  # A simulação de carro não está a ser usada
-            self.incrementar_tempo(distancia / int(random.uniform(VELOCIDADE_MINIMA, VELOCIDADE_MAXIMA)) * 3600)
-        self.viagem_actual.increment_traveled_distance(distancia)
-        self.viagem_actual.set_current_location(destino)
-        return distancia
-
-    @staticmethod
-    def usar_carro():
-        print("Pode simular a viagem de carro entre 2 locais, pressionando a", OPCAO_CARRO_STRING)
-        print("Em alternativa, pode saltar directamente para o local seguinte, pressionando a", OPCAO_NAO_CARRO_STRING)
-        print("Depois, pressione ENTER")
-        while True:
-            opcao = input("Introduza a sua opção: ")
-            if opcao == OPCAO_CARRO:
-                print("")
-                print("Escolheu simular a viagem de carro")
-                return True
-            elif opcao == OPCAO_NAO_CARRO:
-                print("")
-                print("Escolheu viajar directamente para o destino")
-                return False
+                print("You are aboard a train")
+        elif self.current_journey.get_current_means_transport() == SUBWAY:
+            print("You are aboard a subway train")
+        elif self.current_journey.get_current_means_transport() == HIGH_SPEED_TRAIN:
+            print("You are aboard a high-speed train")
+        elif self.current_journey.get_current_means_transport() == TRANSFER:
+            print("You are transferring between means of transport")
+        print("You have new available destinations")
 
     #  #  #  #  #  #  #  #
-    #  Método principal  #
+    # Auxiliary methods #
     #  #  #  #  #  #  #  #
 
-    def realizar_viagem(self):
+    def get_current_location_object(self) -> location.Location:
+        location_name: str = self.current_journey.get_current_location()
+        return self.db_interface.get_location_object(location_name)
+
+    @staticmethod
+    def seconds_to_datetime(seconds: int) -> datetime.time:
+        hours: int = seconds // 3600
+        seconds = seconds - (hours * 3600)
+        minutes: int = seconds // 60
+        seconds = seconds - (minutes * 60)
+        return datetime.time(int(hours), int(minutes), int(seconds))
+
+    def increment_traveled_time(self, elapsed_seconds: int) -> None:
+        elapsed_time: datetime.time = self.seconds_to_datetime(elapsed_seconds)
+        self.current_journey.increment_elapsed_time(elapsed_time.hour, elapsed_time.minute, elapsed_time.second)
+
+    def update_journey(self, desired_surrounding_location: str) -> None:
+        """
+        Given desired surrounding location to travel to, updates the journey and runs the car simulation if requested
+        """
+        print(f"You have chosen to go to {desired_surrounding_location}")
+
+        leg_distance: float = self.get_current_location_object().get_distance(
+            desired_surrounding_location, self.current_journey.get_current_means_transport())
+
+        if not self.is_car_requested:  # If car simulation is not being used
+            average_speed: int = int(random.uniform(MIN_SPEED, MAX_SPEED))  # For now, average speed will be random
+            elapsed_seconds: int = int(leg_distance / average_speed * 3600)
+            self.increment_traveled_time(elapsed_seconds)
+
+        self.current_journey.increment_traveled_distance(leg_distance)
+        self.current_journey.set_current_location(desired_surrounding_location)
+
+        # Run car simulation if requested and if current means of transport is car
+        if self.is_car_requested and self.current_journey.get_current_means_transport() == CAR:
+            elapsed_time: int = self.car.viajar(leg_distance, desired_surrounding_location)  # Actual time spent in simulation
+            self.increment_traveled_time(elapsed_time)
+
+    @staticmethod
+    def request_car_simulation_usage():
+        menu_introduction: list[str] = [
+            "Do you wish to simulate a car journey when travelling between locations?",
+            "If not, travel between locations will be instant"
+        ]
+        user_requested_car: bool = menu.present_boolean_menu(menu_introduction)
+        return user_requested_car
+
+    #  #  #  #  #  #
+    # Main method #
+    #  #  #  #  #  #
+
+    def make_journey(self):
         if not self.db_initialized:  # Failed to initialize DB - Cancel journey
             print("Error while initializing DB - Cannot start journey")
             return
 
         while True:
-            locais_circundantes = self.get_local_actual().get_connections()
-            dados_locais = list(locais_circundantes.keys())
+            # [location_name, means_transport] -> [cardinal_point, distance, means_transport]
+            connections: dict[tuple[str, str], tuple[str, float, str]] = self.get_current_location_object().get_connections()
 
-            #  Imprimir início do menu
-            print("")
-            self.get_local_actual().print_info_brief()
-            print("Escolha uma das seguintes opções")
-            print("Escreva o número correspondente e pressione ENTER")
-            print(SAIR, SEPARADOR_MODO, SAIR_STRING)  # Opção de sair
+            option_labels: list[str] = []
+            option_to_action: dict[int, Callable] = {}  # Maps option numbers to the respective routines
+            option_to_action_argument: dict[int, Optional[str]] = {}  # Maps option numbers to the respective routine arguments
 
-            #  Opções de locais
-            iterador = 1
-            locais_circundantes_modo_actual = []
-            for x in dados_locais:
-                nome_local = x[0]
-                meio_transporte = x[1]
-                ponto_cardeal = locais_circundantes[x][0]
-                distancia = locais_circundantes[x][1]
-                if meio_transporte == self.viagem_actual.get_current_means_transport():
-                    locais_circundantes_modo_actual.append(nome_local)
-                    if meio_transporte == TRANSBORDO:
-                        texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local  # Exemplo: 1 - Aeroporto de Lisboa
-                    else:
-                        texto = str(iterador) + ' ' + SEPARADOR_MODO + ' ' + nome_local + ' ' + "(" + ponto_cardeal + ", " \
-                            + str(distancia) + ' ' + "km)"  # Exemplo: 1 - Laranjeiras (N, 1 km)
-                    #  Destinos possíveis por essa direcção
-                    sentido = self.get_local_actual().get_destinations_as_string(nome_local, meio_transporte)
-                    #  Info extra da direcção
-                    sentido_info_extra = self.get_local_actual().get_way(nome_local, meio_transporte)
-                    if sentido is not None:
-                        if sentido_info_extra is None:
-                            texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + "Sentido " + sentido
-                        else:
-                            texto = texto + ' ' + SEPARADOR_SENTIDO + ' ' + sentido_info_extra + ": Sentido " + sentido
-                    print(texto)
-                    iterador += 1
+            # Location options
 
-            #  Opções de mudança de modo
-            modos_disponiveis = []
-            for x in dados_locais:
-                if (locais_circundantes[x][2] != self.viagem_actual.get_current_means_transport()) & \
-                        (modos_disponiveis.__contains__(locais_circundantes[x][2]) is False):
-                    modos_disponiveis.append(locais_circundantes[x][2])
-            if len(modos_disponiveis) > 0:
-                for x in modos_disponiveis:
-                    if x == CARRO:
-                        print(iterador, SEPARADOR_MODO, CARRO_STRING)
-                    elif x == BARCO:
-                        print(iterador, SEPARADOR_MODO, BARCO_STRING)
-                    elif x == AVIAO:
-                        print(iterador, SEPARADOR_MODO, AVIAO_STRING)
-                    elif x == COMBOIO:
-                        comboio_alta_velocidade_presente = False
-                        for y in self.get_local_actual().get_connections():
-                            if y[1] == 'Comboio de Alta Velocidade':
-                                comboio_alta_velocidade_presente = True
-                        if comboio_alta_velocidade_presente:
-                            print(iterador, SEPARADOR_MODO, COMBOIO_PADRAO_STRING)
-                        else:
-                            print(iterador, SEPARADOR_MODO, COMBOIO_STRING)
-                    elif x == METRO:
-                        print(iterador, SEPARADOR_MODO, METRO_STRING)
-                    elif x == COMBOIO_ALTA_VELOCIDADE:
-                        if self.get_local_actual().get_country() == 'Portugal':
-                            print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "Alfa Pendular")
-                        elif self.get_local_actual().get_country() == 'Spain':
-                            print(iterador, SEPARADOR_MODO, COMBOIO_ALTA_VELOCIDADE_STRING + "AVE")
-                    elif x == TRANSBORDO:
-                        print(iterador, SEPARADOR_MODO, TRANSBORDO_STRING)
-                    iterador += 1
+            index: int = 1
+            surrounding_locations_current_transport: list[str] = []
+            for means_of_transport in connections:
 
-            #  Opção das informações do local
-            print(iterador, SEPARADOR_MODO, INFORMACOES_LOCAL)
-            iterador += 1
+                # Get parameters
+                surrounding_location_name: str = means_of_transport[0]
+                means_transport: str = means_of_transport[1]
+                cardinal_point: str = self.get_current_location_object().get_cardinal_point(
+                    surrounding_location_name, means_transport)
+                distance: float = self.get_current_location_object().get_distance(surrounding_location_name, means_transport)
 
-            #  Opção das estatísticas da viagem - Fim do menu
-            print(iterador, SEPARADOR_MODO, ESTATISTICAS_VIAGEM)
+                # For locations accessible with the current means of transport, get option labels and actions
+                if means_transport == self.current_journey.get_current_means_transport():
+                    surrounding_locations_current_transport.append(surrounding_location_name)
+                    if means_transport == TRANSFER:  # Ex: 1 - Guerreiros do Rio
+                        label: str = f'{surrounding_location_name}'
+                    else:  # Ex: 1 - Guerreiros do Rio (N, 1 km)
+                        label: str = f'{surrounding_location_name} ({cardinal_point}, {distance} km)'
 
-            #  Validar opção
-            opcao = 0
-            opcao_e_valida = False
-            while not opcao_e_valida:
-                opcao = input("Escreva a opção aqui: ")
-                opcao_e_valida = self.avalia_opcao(opcao, iterador)
+                    way = self.get_current_location_object().get_way(surrounding_location_name, means_transport)
+                    destinations = self.get_current_location_object().get_destinations_as_string(
+                        surrounding_location_name, means_transport)  # Major destinations available by going to that location
+                    if way and destinations:  # Way is only printed if there are associated destinations
+                        label = f'{label} {SEPARATOR_WAY_INFO} {way}{SEPARATOR_DIRECTION} Direction {destinations}'
 
-            #  Opção correcta - Agir em função da mesma
-            if int(opcao) == SAIR:  # 0
-                self.sair()
-            elif (len(locais_circundantes_modo_actual) < int(opcao) <= (len(locais_circundantes_modo_actual) +
-                                                                        len(modos_disponiveis))):
-                #  Opções de mudança de modo (ex: Carro para Barco), se estiverem disponíveis
-                self.mudar_modo(int(opcao), len(locais_circundantes_modo_actual), modos_disponiveis)
-            elif int(opcao) == iterador - 1:  # Penúltima opção
-                self.informacoes_local()
-            elif int(opcao) == iterador:  # Iterador tem o valor da última opção disponível
-                self.estatisticas_viagem()
-            else:  # Opções dos destinos
-                opcao = int(opcao) - 1  # Opção 1 corresponde ao elemento 0, e por aí em diante
-                destino = locais_circundantes_modo_actual[opcao]
-                distancia_a_percorrer = self.actualizar_viagem(
-                    destino, self.viagem_actual.get_current_means_transport(), self.carro_pedido)
+                    # Full label example
+                    # Alcoutim (N, 9.5 km) » Rio Guadiana: Direction Alcoutim / Mértola / Sanlúcar de Guadiana
 
-                #  Activar simulação se se pediu, e se a viagem é por estrada
-                if self.carro_pedido & (self.viagem_actual.get_current_means_transport() == CARRO):
-                    tempo_decorrido = self.carro_viagem.viajar(distancia_a_percorrer, destino)
-                    self.incrementar_tempo(tempo_decorrido)
+                    option_labels.append(label)
+                    option_to_action[index] = self.update_journey
+                    option_to_action_argument[index] = surrounding_location_name
+
+                    index += 1
+
+            # Options to change means of transport, if any
+
+            available_means_transport: list[str] = []  # Other means of transport apart from current one
+            for means_of_transport_and_location_name in connections:
+                means_transport: str = means_of_transport_and_location_name[1]
+                if means_transport != self.current_journey.get_current_means_transport() and \
+                        means_transport not in available_means_transport:
+                    available_means_transport.append(means_transport)
+
+            if len(available_means_transport) > 0:  # Means of transport can be changed
+                for means_of_transport in available_means_transport:
+                    label: str = ''
+                    if means_of_transport == CAR:
+                        label = SWITCH_TO_CAR_STRING
+                    elif means_of_transport == BOAT:
+                        label = SWITCH_TO_BOAT_STRING
+                    elif means_of_transport == PLANE:
+                        label = SWITCH_TO_PLANE_STRING
+                    elif means_of_transport == TRAIN:
+                        high_speed_train_present = False
+                        # Both "standard" and high-speed train are present
+                        for x in self.get_current_location_object().get_connections():
+                            if x[1] == HIGH_SPEED_TRAIN:
+                                high_speed_train_present = True
+                        label = SWITCH_TO_STANDARD_TRAIN_STRING if high_speed_train_present else SWITCH_TO_TRAIN_STRING
+                    elif means_of_transport == SUBWAY:
+                        label = SWITCH_TO_SUBWAY_STRING
+                    elif means_of_transport == HIGH_SPEED_TRAIN:
+                        label = SWITCH_TO_HIGH_SPEED_TRAIN_STRING
+                    elif means_of_transport == TRANSFER:
+                        label = SWITCH_TO_TRANSFER_STRING
+
+                    option_labels.append(label)
+                    option_to_action[index] = self.change_means_transport
+                    option_to_action_argument[index] = means_of_transport
+
+                    index += 1
+
+            # Option to print full location info
+
+            label = OPTION_SHOW_LOCATION_INFO
+            option_labels.append(label)
+            option_to_action[index] = self.print_location_info
+            option_to_action_argument[index] = None
+            index += 1
+
+            # Option to print journey statistics - Bottom menu option
+
+            label = OPTION_SHOW_JOURNEY_STATISTICS
+            option_labels.append(label)
+            option_to_action[index] = self.print_journey_statistics
+            option_to_action_argument[index] = None
+            index += 1
+
+            location_menu_introduction: list[str] = [
+                "",  # Empty line between each printing of the location menu
+                self.get_current_location_object().get_info_brief_to_print(),
+                "Select one of the following options"
+            ]
+
+            # Guaranteed to be valid int
+            user_option: int = menu.present_numeric_menu(option_labels=option_labels,
+                                                         menu_introduction=location_menu_introduction,
+                                                         exit_routine=self.exit_journey)
+
+            callback: Callable = option_to_action[user_option]
+            argument: Optional[str] = option_to_action_argument[user_option]
+            if argument:
+                callback(argument)
+            else:
+                callback()

@@ -143,7 +143,10 @@ class Location:
         return self.batch
 
     def print_info_brief(self) -> None:
-        print(f'You are in {self.get_name()}')
+        print(self.get_info_brief_to_print())
+
+    def get_info_brief_to_print(self) -> str:
+        return f'You are in {self.get_name()}'
 
     def print_info_complete(self) -> None:
         if self.altitude == 1:

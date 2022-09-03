@@ -4,7 +4,7 @@ import datetime
 from travel.main import travel
 
 
-class ViajarTest(unittest.TestCase):
+class TravelTest(unittest.TestCase):
 
     def test_avalia_opcao(self):
         self.assertEqual(False, travel.Viajar.avalia_opcao(-1, 3))

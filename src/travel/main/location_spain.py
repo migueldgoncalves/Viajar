@@ -86,15 +86,18 @@ class LocationSpain(location.Location):
         return self.autonomous_community
 
     def print_info_brief(self) -> None:
+        print(self.get_info_brief_to_print())
+
+    def get_info_brief_to_print(self) -> str:
         """
         Example for multi-province autonomous community: You are in Ayamonte, Huelva Province, Andalucía
         Example for single province autonomous community: You are in A-5 - Exit 3, Madrid, Madrid Community
         """
         name: str = self.get_name().split(",")[0]  # Ex: "Álamo, Alcoutim" and "Álamo, Mértola" -> Álamo
         if is_single_province_autonomous_community(self.get_autonomous_community(), self.get_province()):
-            print(f'You are in {name}, {self.get_municipality()}, {self.get_autonomous_community()}')
+            return f'You are in {name}, {self.get_municipality()}, {self.get_autonomous_community()}'
         else:
-            print(f'You are in {name}, {self.get_municipality()}, {self.get_province()} Province, {self.get_autonomous_community()}')
+            return f'You are in {name}, {self.get_municipality()}, {self.get_province()} Province, {self.get_autonomous_community()}'
 
     def print_info_complete(self) -> None:
         super().print_info_complete()

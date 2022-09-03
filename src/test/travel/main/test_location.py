@@ -87,6 +87,7 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(0, self.location.get_batch())
 
         self.assertEqual(None, self.location.print_info_brief())
+        self.assertTrue(self.location.get_name() in self.location.get_info_brief_to_print())
         self.assertEqual(None, self.location.print_info_complete())
 
     def test_setters_location(self):
@@ -205,6 +206,7 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(location_portugal.COUNTRY, self.location_portugal.get_country())
 
         self.assertEqual(None, self.location_portugal.print_info_brief())
+        self.assertTrue(self.location_portugal.get_name() in self.location_portugal.get_info_brief_to_print())
         self.assertEqual(None, self.location_portugal.print_info_complete())
 
     def test_location_spain(self):
@@ -241,6 +243,7 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(location_spain.COUNTRY, self.location_spain.get_country())
 
         self.assertEqual(None, self.location_spain.print_info_brief())
+        self.assertTrue(self.location_spain.get_name() in self.location_spain.get_info_brief_to_print())
         self.assertEqual(None, self.location_spain.print_info_complete())
 
     def test_location_gibraltar(self):
@@ -257,4 +260,5 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(location_gibraltar.COUNTRY, self.location_gibraltar.get_country())
 
         self.assertEqual(None, self.location_gibraltar.print_info_brief())
+        self.assertTrue(self.location_gibraltar.get_name() in self.location_gibraltar.get_info_brief_to_print())
         self.assertEqual(None, self.location_gibraltar.print_info_complete())
