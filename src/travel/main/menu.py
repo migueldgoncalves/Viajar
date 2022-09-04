@@ -226,7 +226,7 @@ def valid_numeric_option_processing(option: int, exit_routine: Optional[Callable
     if option == EXIT_OPTION:
         if exit_routine:
             exit_routine()  # It is assumed that no arguments are required
-            return
+            return EXIT_OPTION
         else:  # Default
             exit(0)
     else:  # Valid non-zero option

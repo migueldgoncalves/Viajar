@@ -53,8 +53,13 @@ class Travel:
         processes the user input
     """
 
-    def __init__(self, initial_location: str):
+    def __init__(self, initial_location: str, return_and_not_exit: bool = False):
+        """
+        If return_and_not_exit is True, exit routine will exit journey menu but not exit program. Can be set to True during
+            automatic tests to simulate a journey and analise the output and state after providing each option
+        """
         self.initial_location: str = initial_location
+        self.return_and_not_exit: bool = return_and_not_exit
 
         self.db_interface: db_interface.DBInterface = db_interface.DBInterface()  # Contains all available locations
         self.db_initialized: bool = self.db_interface.create_and_populate_travel_db()
@@ -80,6 +85,9 @@ class Travel:
     #  #  #  #  #  #
 
     def exit_journey(self) -> None:
+        if self.return_and_not_exit:
+            return  # Return instead of exit
+
         print("")
         print("You have chosen to exit the journey.")
         print("See you soon.")
@@ -303,6 +311,9 @@ class Travel:
             user_option: int = menu.present_numeric_menu(option_labels=option_labels,
                                                          menu_introduction=location_menu_introduction,
                                                          exit_routine=self.exit_journey)
+
+            if user_option == menu.EXIT_OPTION and self.return_and_not_exit:  # Menu does not return
+                break  # Exits menu loop without exiting program and preserves journey state for analysis
 
             callback: Callable = option_to_action[user_option]
             argument: Optional[str] = option_to_action_argument[user_option]

@@ -357,7 +357,7 @@ class MenuTest(unittest.TestCase):
 
         self.assertEqual(-2, menu.valid_numeric_option_processing(-2, exit_routine=None))
         self.assertEqual(-1, menu.valid_numeric_option_processing(-1, exit_routine=None))
-        self.assertEqual(None, menu.valid_numeric_option_processing(0, exit_routine=_exit_menu_routine))  # If exit routine was None, exit() would be called and test would fail
+        self.assertEqual(0, menu.valid_numeric_option_processing(0, exit_routine=_exit_menu_routine))  # If exit routine was None, exit() would be called and test would fail
         self.assertEqual(1, menu.valid_numeric_option_processing(1, exit_routine=None))
         self.assertEqual(2, menu.valid_numeric_option_processing(2, exit_routine=None))
 

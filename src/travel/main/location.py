@@ -153,6 +153,6 @@ class Location:
             print(f'Altitude: {self.get_altitude()} meter')
         else:
             print(f'Altitude: {self.get_altitude()} meters')
-            print(f'Coordinates: {self.get_latitude()}, {self.get_longitude()}')
+        print(f'Coordinates: {self.get_latitude()}, {self.get_longitude()}')
         if self.protected_area != '':
             print(self.protected_area)
