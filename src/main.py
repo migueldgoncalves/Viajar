@@ -1,87 +1,78 @@
-import travel.support.ways as vias
+from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
+from travel.main import menu, travel
+from car import car
+from combat import round
 
 """
-Main - Executar para aceder a todos os scripts disponíveis
+Main - Execute to access all available scripts
 """
+
+
+def exit_program():
+    print("You have chosen to exit")
+    print("See you soon")
+    exit(0)
+
 
 # INSERT HERE location where to start journey
 INITIAL_LOCATION = 'Guerreiros do Rio'
 
-# INSERIR AQUI estrada ou linha ferroviária para ser analisada pelo gerador
-VIA = vias.PT_LINHA_DO_NORTE
+# INSERT HERE road or railway to be analysed by the automatic generator of information
+WAY_TO_PROCESS = ways.PT_LINHA_DO_NORTE
 
-OPCAO_SAIR = 0
+OPTION_TRAVEL = 1
+OPTION_CAR = 2
+OPTION_COMBAT = 3
 
-OPCAO_VIAJAR = 1
-OPCAO_CARRO = 2
-OPCAO_COMBATE = 3
+OPTION_GENERATOR = 4
+OPTION_SORTER = 5
+OPTION_SQLITE = 6
+OPTION_REGION_BOUNDS_FINDER = 7
 
-OPCAO_GERADOR = 4
-OPCAO_ORDENADOR = 5
-OPCAO_SQLITE = 6
-OPCAO_DELIMITADOR = 7
+print("======================================")
+print("Welcome to the project Viajar (Travel)")
+print("======================================")
 
-print("===============================")
-print("Bem-vindo/a ao projecto Viajar")
-print("===============================")
+option_labels: list[str] = [
+    'Main - Travel',
+    'Main - Car',
+    'Main - Combat',
+    'Support - Automatic generator of information',
+    'Support - Sorter of .csv files',
+    'Support - Creator of SQLite database',
+    'Support - Region extreme points finder',
+]
+menu_introduction: list[str] = ["Which script do you want to execute?"]
 
-print("Que script deseja correr?")
-print("")
-while True:
-    print(f"{OPCAO_SAIR} - Sair")
+# Guaranteed to be valid non-exit option
+user_option = menu.present_numeric_menu(option_labels, menu_introduction, exit_routine=exit_program)
 
-    print("Scripts principais")
-    print(f'{OPCAO_VIAJAR} - Viajar')
-    print(f'{OPCAO_CARRO} - Carro')
-    print(f'{OPCAO_COMBATE} - Combate')
+# Process user options
 
-    print("Scripts auxiliares")
-    print(f'{OPCAO_GERADOR} - Gerador automático de informação')
-    print(f'{OPCAO_ORDENADOR} - Ordenador de ficheiros .csv')
-    print(f'{OPCAO_SQLITE} - Criador de bases de dados SQLite')
-    print(f'{OPCAO_DELIMITADOR} - Calculadora de pontos extremos de uma região')
+if user_option == OPTION_TRAVEL:
+    travel.Travel(INITIAL_LOCATION).make_journey()
 
-    try:
-        opcao = int(input("Insira o número pretendido e depois prima ENTER: "))
-    except:
-        opcao = ''
+elif user_option == OPTION_CAR:
+    '''
+    README FOR CAR PACKAGE
+    
+    To use the command Run of the IDE PyCharm to execute the car script:
+        In Run > Edit Configurations > Enable option "Emulate terminal in output console"
+        This is due to the usage of the msvcrt library in the car package to detect and read pressed keys
+    '''
+    car.Carro().viajar(distancia_a_percorrer=0, destino="")
 
-    if opcao == OPCAO_SAIR:
-        print("Escolheu sair")
-        print("Até à próxima")
-        exit(0)
+elif user_option == OPTION_COMBAT:
+    round.Ronda().ronda_loop()
 
-    # Colocar os imports junto do respectivo código permite correr o script com Linux e Windows
+elif user_option == OPTION_GENERATOR:
+    information_generator.GeradorInformacao(WAY_TO_PROCESS)
 
-    elif opcao == OPCAO_VIAJAR:
-        from travel.main import travel
-        travel.Travel(INITIAL_LOCATION).make_journey()
-    elif opcao == OPCAO_CARRO:
-        from car import car
-        car.Carro().viajar(distancia_a_percorrer=0, destino="")
-        '''
-        README CARRO
+elif user_option == OPTION_SORTER:
+    sorter.ordenar_ficheiros_csv()
 
-        É necessário correr este script num terminal normal do Windows ou equivalente
-        Isso deve-se ao uso da biblioteca msvcrt para detectar e ler teclas pressionadas
+elif user_option == OPTION_SQLITE:
+    sqlite_interface.SQLiteBDInterface()
 
-        O comando Run do IDE PyCharm apenas irá funcionar se
-        Em Run > Edit Configurations se seleccione a opção Emulate terminal in output console
-        Porém, com esse comando todos os caracteres não-ASCII irão aparecer desformatados
-        '''
-    elif opcao == OPCAO_COMBATE:
-        from combat import round
-        round.Ronda().ronda_loop()
-
-    elif opcao == OPCAO_GERADOR:
-        import travel.support.information_generator as gerador
-        gerador.GeradorInformacao(VIA)
-    elif opcao == OPCAO_ORDENADOR:
-        from travel.support import sorter
-        sorter.ordenar_ficheiros_csv()
-    elif opcao == OPCAO_SQLITE:
-        from travel.support import sqlite_interface
-        sqlite_interface.SQLiteBDInterface()
-    elif opcao == OPCAO_DELIMITADOR:
-        from travel.support import region_bounds_finder
-        region_bounds_finder.obter_pontos_extremos()
+elif user_option == OPTION_REGION_BOUNDS_FINDER:
+    region_bounds_finder.obter_pontos_extremos()
