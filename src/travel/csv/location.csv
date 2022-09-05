@@ -1142,6 +1142,10 @@ AP-7 - Saída 172,36.499568,-5.006086,61,,900
 AP-7 - Saída 200,36.505418,-4.716355,113,,900
 AP-7 - Saída 213,36.566292,-4.629587,44,,900
 AP-7 - Saída 226,36.637387,-4.509438,77,,1200
+AP-9 - Saída 129,42.440182,-8.649119,7,,2600
+AP-9 - Saída 137,42.371757,-8.636863,64,,2600
+AP-9 - Saída 147B,42.276976,-8.665535,65,,2600
+AP-9 - Saída 148,42.27414,-8.665551,77,,2600
 AP-9 - Saída 157,42.223,-8.645201,258,,2500
 AP-9 - Saída 168,42.14609,-8.63975,69,,2500
 AP-36 - Saída 3,39.938273,-3.436418,733,,1400
@@ -1192,6 +1196,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Polvoranca,40.337014,-3.802135,679,,1200
 Área de Serviço de Pombal,40.013412,-8.600130,60,,1600
 Área de Serviço de Río Castor,36.464264,-5.115708,85,,900
+Área de Serviço de San Simón,42.318137,-8.661025,32,,2600
 Área de Serviço de Santarém,39.392521,-8.639074,88,,1600
 Área de Serviço de Seixal,38.623056,-9.133344,21,,1000
 Área de Serviço de Seseña,40.128144,-3.677999,639,,1400
@@ -1470,10 +1475,13 @@ Cruzamento da A-5054 com a HU-3400,37.205013,-7.267016,3,,1800
 Cruzamento da A-5058 com a A-5059,37.233759,-7.066492,27,,1900
 Cruzamento da A-8005 com a SE-20,37.433983,-5.966298,11,,600
 Cruzamento da A-8009 com a SE-20,37.436078,-5.973137,13,,600
+Cruzamento da AG-41 com a AP-9,42.518207,-8.665082,154,,2600
+Cruzamento da AG-46 com a AP-9,42.29533,-8.65780,52,,2600
 Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
 Cruzamento da AP-9 com a AP-9V,42.25776,-8.675859,90,,2500
+Cruzamento da AP-9 com a PO-10 e a PO-11,42.41369,-8.65362,46,,2600
 Cruzamento da AP-9 com a VG-20,42.196987,-8.664878,333,,2500
 Cruzamento da AP-41 com a R-5,40.273252,-3.888339,639,,1100
 Cruzamento da CA-35 com a CA-36,36.521909,-6.224320,2,,1300
@@ -2260,6 +2268,7 @@ Pomarão,37.556289,-7.524924,24,Parque Natural do Vale do Guadiana,40
 Ponta da Piedade,37.079472,-8.668779,40,,500
 Ponta de Sagres,36.997361,-8.948779,38,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
 Ponte de Alamillo,37.413298,-5.990623,11,,200
+Ponte de Rande,42.2881,-8.6605,0,Enseada de San Simón,2600
 Ponte do Centenário,37.349008,-5.993076,1,,200
 Ponte Internacional do Baixo Guadiana,37.55509,-7.522702,17,,50
 Ponte Internacional do Guadiana,37.237619,-7.419194,0,,100

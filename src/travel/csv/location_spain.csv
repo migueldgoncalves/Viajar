@@ -930,6 +930,10 @@ AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
 AP-7 - Saída 200,Mijas,Málaga,
 AP-7 - Saída 213,Mijas,Málaga,
 AP-7 - Saída 226,Torremolinos,Málaga,
+AP-9 - Saída 129,Pontevedra,Pontevedra,Campañó
+AP-9 - Saída 137,Vilaboa,Pontevedra,Figueirido
+AP-9 - Saída 147B,Redondela,Pontevedra,Trasmañó
+AP-9 - Saída 148,Redondela,Pontevedra,Chapela
 AP-9 - Saída 157,Vigo,Pontevedra,Cabral
 AP-9 - Saída 168,O Porriño,Pontevedra,Torneiros
 AP-36 - Saída 3,Ocaña,Toledo,
@@ -949,6 +953,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Meco,Meco,Comunidade de Madrid,
 Área de Serviço de Polvoranca,Leganés,Comunidade de Madrid,
 Área de Serviço de Río Castor,Estepona,Málaga,
+Área de Serviço de San Simón,Vilaboa,Pontevedra,Cobres
 Área de Serviço de Seseña,Seseña,Toledo,
 Área de Serviço de Villacastín,Villacastín,Segóvia,
 Área de Serviço de Villalba,San Lorenzo de El Escorial,Comunidade de Madrid,
@@ -1098,10 +1103,13 @@ Cruzamento da A-5054 com a HU-3400,Isla Cristina,Huelva,
 Cruzamento da A-5058 com a A-5059,Cartaya,Huelva,
 Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
+Cruzamento da AG-41 com a AP-9,Barro,Pontevedra,Portela
+Cruzamento da AG-46 com a AP-9,Vilaboa,Pontevedra,Cobres
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-6 com a AP-51,Villacastín,Segóvia,
 Cruzamento da AP-6 com a AP-61,El Espinar,Segóvia,
 Cruzamento da AP-9 com a AP-9V,Vigo,Pontevedra,Teis
+Cruzamento da AP-9 com a PO-10 e a PO-11,Pontevedra,Pontevedra,Salcedo
 Cruzamento da AP-9 com a VG-20,Mos,Pontevedra,Tameiga
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
 Cruzamento da CA-35 com a CA-36,Puerto Real,Cádiz,
@@ -1366,6 +1374,7 @@ Polígono Industrial Polirrosa,Huelva,Huelva,
 "Polígono Industrial San Diego, Huelva",Huelva,Huelva,
 Polígono Industrial Tartessos,Huelva,Huelva,
 Ponte de Alamillo,Sevilha,Sevilha,Triana
+Ponte de Rande,Redondela,Pontevedra,Trasmañó
 Ponte do Centenário,Sevilha,Sevilha,Bellavista-La Palmera
 Ponte Internacional do Baixo Guadiana,El Granado,Huelva,
 Ponte Internacional do Guadiana,Ayamonte,Huelva,
