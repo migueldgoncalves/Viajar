@@ -946,6 +946,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
 Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
 Área de Serviço de Manilva,Manilva,Málaga,
+Área de Serviço de Meco,Meco,Comunidade de Madrid,
 Área de Serviço de Polvoranca,Leganés,Comunidade de Madrid,
 Área de Serviço de Río Castor,Estepona,Málaga,
 Área de Serviço de Seseña,Seseña,Toledo,
@@ -1110,6 +1111,7 @@ Cruzamento da HU-3400 com a N-431,Lepe,Huelva,
 Cruzamento da M-11 com a M-14,Madrid,Comunidade de Madrid,Barajas
 Cruzamento da M-11 com a M-40,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-12 com a M-40,Madrid,Comunidade de Madrid,Hortaleza
+Cruzamento da M-12 com a R-2,Alcobendas,Comunidade de Madrid,
 Cruzamento da M-14 com a M-21 e a M-40,Madrid,Comunidade de Madrid,San Blas - Canillejas
 Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
@@ -1123,16 +1125,19 @@ Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
 Cruzamento da M-50 com a R-4,Getafe,Comunidade de Madrid,
+Cruzamento da M-100 com a R-2,Alcalá de Henares,Comunidade de Madrid,Distrito III
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da N-431 com a N-445,Lepe,Huelva,
 Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
+Cruzamento Este da M-50 com a R-2,Paracuellos de Jarama,Comunidade de Madrid,
 Cruzamento Norte da A-7 com a A-30,Murcia,Região de Murcia,El Puntal
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Norte da A-55 com a AP-9,Vigo,Pontevedra,Cabral
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
+Cruzamento Oeste da M-50 com a R-2,San Sebastián de los Reyes,Comunidade de Madrid,
 Cruzamento Sul da A-7 com a A-30,Murcia,Região de Murcia,Guadalupe
 Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
 Cruzamento Sul da A-55 com a AP-9,Tui,Pontevedra,Rebordáns
@@ -1312,6 +1317,8 @@ M-50 - Saída 79,Majadahonda,Comunidade de Madrid,
 M-50 - Saída 80,Majadahonda,Comunidade de Madrid,
 M-50 - Saída 82,Las Rozas de Madrid,Comunidade de Madrid,Centro
 M-50 - Saída 83,Las Rozas de Madrid,Comunidade de Madrid,Centro
+M-50/R-2 - Saída 5,Paracuellos de Jarama,Comunidade de Madrid,
+M-50/R-2 - Saída 10,Paracuellos de Jarama,Comunidade de Madrid,
 M-607 - Saída 9A,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 MA-20 - Saída 1,Málaga,Málaga,Churriana
 Mairena del Aljarafe,Mairena del Aljarafe,Sevilha,
@@ -1374,6 +1381,11 @@ Puertollano,Puertollano,Ciudad Real,
 Punta del Moral,Ayamonte,Huelva,
 Punta del Sebo,Huelva,Huelva,
 Punta Umbría,Punta Umbría,Huelva,
+R-2 - Saída 6,Alcobendas,Comunidade de Madrid,
+R-2 - Saída 33,Meco,Comunidade de Madrid,
+R-2 - Saída 44,Cabanillas del Campo,Guadalajara,
+R-2 - Saída 54,Marchamalo,Guadalajara,
+R-2 - Saída 60,Guadalajara,Guadalajara,
 R-4 - Saída 1,Pinto,Comunidade de Madrid,
 R-4 - Saída 4,Pinto,Comunidade de Madrid,
 R-4 - Saída 12,Torrejón de Velasco,Comunidade de Madrid,

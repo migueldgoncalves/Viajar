@@ -5637,6 +5637,14 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,False,Porto
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,True,Coimbra
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,True,Lisboa
+Área de Serviço de Meco,R-2 - Saída 33,Car,False,Guadalajara
+Área de Serviço de Meco,R-2 - Saída 33,Car,False,Zaragoza
+Área de Serviço de Meco,R-2 - Saída 33,Car,True,Alcalá de Henares
+Área de Serviço de Meco,R-2 - Saída 33,Car,True,Madrid
+Área de Serviço de Meco,R-2 - Saída 44,Car,False,Alcalá de Henares
+Área de Serviço de Meco,R-2 - Saída 44,Car,False,Madrid
+Área de Serviço de Meco,R-2 - Saída 44,Car,True,Guadalajara
+Área de Serviço de Meco,R-2 - Saída 44,Car,True,Zaragoza
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,False,Cascais
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,False,Oeiras
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,True,A9 CREL
@@ -6151,6 +6159,9 @@ Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-3 - Valencia
 Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-4
 Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-5
 Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-42
+Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Barcelona
+Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Zaragoza
+Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,True,Madrid
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-4 - Córdoba
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-5
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-6
@@ -6788,6 +6799,20 @@ Cruzamento da M-12 com a M-40,M-40 - Saída 7,Car,True,A-5
 Cruzamento da M-12 com a M-40,M-40 - Saída 7,Car,True,A-6
 Cruzamento da M-12 com a M-40,M-40 - Saída 7,Car,True,Feria de Madrid
 Cruzamento da M-12 com a M-40,M-40 - Saída 7,Car,True,M-607
+Cruzamento da M-12 com a R-2,Cruzamento da M-40 com a R-2,Car,False,A-1 - Burgos
+Cruzamento da M-12 com a R-2,Cruzamento da M-40 com a R-2,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-12 com a R-2,Cruzamento da M-40 com a R-2,Car,False,Zaragoza
+Cruzamento da M-12 com a R-2,Cruzamento da M-40 com a R-2,Car,True,M-40
+Cruzamento da M-12 com a R-2,Cruzamento da M-40 com a R-2,Car,True,Madrid
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,Aeroporto de Madrid-Barajas - Terminal 4
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,M-11
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,M-12
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,M-13 - Aeroporto de Madrid-Barajas/Madrid - Barajas
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,M-40
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,False,Madrid
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,True,Guadalajara
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,True,M-50
+Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,True,Zaragoza
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,False,A-1
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,False,A-2 - Zaragoza
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,False,A-5
@@ -6986,6 +7011,13 @@ Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,False,M-50 - Madrid
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,True,Aranjuez
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,True,Córdoba
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,True,Ocaña
+Cruzamento da M-100 com a R-2,Cruzamento Este da M-50 com a R-2,Car,False,Guadalajara
+Cruzamento da M-100 com a R-2,Cruzamento Este da M-50 com a R-2,Car,False,Zaragoza
+Cruzamento da M-100 com a R-2,Cruzamento Este da M-50 com a R-2,Car,True,Madrid
+Cruzamento da M-100 com a R-2,R-2 - Saída 33,Car,False,Alcalá de Henares
+Cruzamento da M-100 com a R-2,R-2 - Saída 33,Car,False,Madrid
+Cruzamento da M-100 com a R-2,R-2 - Saída 33,Car,True,Guadalajara
+Cruzamento da M-100 com a R-2,R-2 - Saída 33,Car,True,Zaragoza
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Car,False,Granada
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Car,False,Málaga
 Cruzamento da MA-20 com a MA-23,MA-20 - Saída 1,Car,False,Sevilha
@@ -7220,9 +7252,27 @@ Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Lisboa - Pedral
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Almería
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Rincón de la Victoria
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,True,Málaga
+Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,False,Guadalajara
+Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,False,Zaragoza
+Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,A-1 - Burgos
+Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,Madrid - Norte
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,False,Jaén
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,A-92 - Málaga/Murcia
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,Granada
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,A-6
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,M-40
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,Madrid
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,True,A-2 - Zaragoza
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,True,A-3
+Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,True,M-45
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,False,Guadalajara
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,False,Zaragoza
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,True,A-6
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,True,M-40
+Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,True,Madrid
 Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Car,False,Motril
 Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Car,True,A-395 - Sierra Nevada
 Cruzamento Sul da A-44 com a GR-30,GR-30 - Saída 23,Car,True,Granada - Centro da cidade
@@ -10227,6 +10277,14 @@ M-50 - Saída 82,M-50 - Saída 83,Car,False,R-3
 M-50 - Saída 82,M-50 - Saída 83,Car,False,R-4
 M-50 - Saída 82,M-50 - Saída 83,Car,False,R-5
 M-50 - Saída 82,M-50 - Saída 83,Car,True,A-6 - A Coruña
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,False,A-1 - Burgos
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,False,Aeroporto de Madrid-Barajas
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,A-2 - Zaragoza
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,A-3
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,A-4
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,Guadalajara
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,M-45
+M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,True,Zaragoza
 Marchena,Osuna,Train,False,Dos Hermanas
 Marchena,Osuna,Train,False,Sevilha - Santa Justa
 Marchena,Osuna,Train,True,Bobadilla
@@ -10402,6 +10460,13 @@ Quatro Águas,Vila Real de Santo António,Boat,False,Faro
 Quatro Águas,Vila Real de Santo António,Boat,False,Portimão
 Quatro Águas,Vila Real de Santo António,Boat,True,Huelva
 Quatro Águas,Vila Real de Santo António,Boat,True,Sevilha
+R-2 - Saída 44,R-2 - Saída 54,Car,False,Alcalá de Henares
+R-2 - Saída 44,R-2 - Saída 54,Car,False,Madrid
+R-2 - Saída 44,R-2 - Saída 54,Car,True,A-2 - Barcelona/Zaragoza
+R-2 - Saída 44,R-2 - Saída 54,Car,True,Guadalajara - Norte
+R-2 - Saída 54,R-2 - Saída 60,Car,False,Alcalá de Henares
+R-2 - Saída 54,R-2 - Saída 60,Car,False,Madrid
+R-2 - Saída 54,R-2 - Saída 60,Car,True,A-2 - Barcelona/Zaragoza
 R-4 - Saída 1,R-4 - Saída 4,Car,False,M-50 - Madrid
 R-4 - Saída 1,R-4 - Saída 4,Car,True,Aranjuez
 R-4 - Saída 1,R-4 - Saída 4,Car,True,Córdoba
