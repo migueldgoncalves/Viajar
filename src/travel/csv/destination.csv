@@ -4085,6 +4085,69 @@ A-58 - Saída 21,A-58 - Saída 35,Car,True,Cáceres
 A-58 - Saída 35,A-58 - Saída 42,Car,False,A-5 - Madrid
 A-58 - Saída 35,A-58 - Saída 42,Car,False,Trujillo
 A-58 - Saída 35,A-58 - Saída 42,Car,True,Cáceres
+A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,False,Tordesillas
+A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,False,Valladolid
+A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,True,A-66 - Cáceres
+A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,True,Ciudad Rodrigo
+A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,True,Portugal
+A-62 - Saída 240,A-62 - Saída 243,Car,False,A-66 - Zamora
+A-62 - Saída 240,A-62 - Saída 243,Car,False,Tordesillas
+A-62 - Saída 240,A-62 - Saída 243,Car,False,Valladolid
+A-62 - Saída 240,A-62 - Saída 243,Car,True,A-66 - Cáceres
+A-62 - Saída 240,A-62 - Saída 243,Car,True,Ciudad Rodrigo
+A-62 - Saída 240,A-62 - Saída 243,Car,True,Portugal
+A-62 - Saída 240,Cruzamento Norte da A-62 com a A-66,Car,False,A-66 - Cáceres
+A-62 - Saída 240,Cruzamento Norte da A-62 com a A-66,Car,False,Portugal
+A-62 - Saída 240,Cruzamento Norte da A-62 com a A-66,Car,True,A-66 - Zamora
+A-62 - Saída 240,Cruzamento Norte da A-62 com a A-66,Car,True,Tordesillas
+A-62 - Saída 240,Cruzamento Norte da A-62 com a A-66,Car,True,Valladolid
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,False,A-66 - Zamora
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,False,Tordesillas
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,False,Valladolid
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,True,A-66 - Cáceres
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,True,Ciudad Rodrigo
+A-62 - Saída 243,Cruzamento Sul da A-62 com a A-66,Car,True,Portugal
+A-62 - Saída 244,A-62 - Saída 252,Car,False,Salamanca
+A-62 - Saída 244,A-62 - Saída 252,Car,True,Ciudad Rodrigo
+A-62 - Saída 244,A-62 - Saída 252,Car,True,Portugal
+A-62 - Saída 244,Cruzamento Sul da A-62 com a A-66,Car,False,Ciudad Rodrigo
+A-62 - Saída 244,Cruzamento Sul da A-62 com a A-66,Car,False,Portugal
+A-62 - Saída 244,Cruzamento Sul da A-62 com a A-66,Car,True,Salamanca
+A-62 - Saída 252,A-62 - Saída 258,Car,False,Salamanca
+A-62 - Saída 252,A-62 - Saída 258,Car,True,Ciudad Rodrigo
+A-62 - Saída 252,A-62 - Saída 258,Car,True,Portugal
+A-62 - Saída 258,A-62 - Saída 260,Car,False,Salamanca
+A-62 - Saída 258,A-62 - Saída 260,Car,True,Ciudad Rodrigo
+A-62 - Saída 258,A-62 - Saída 260,Car,True,Portugal
+A-62 - Saída 260,A-62 - Saída 269,Car,False,Salamanca
+A-62 - Saída 260,A-62 - Saída 269,Car,True,Ciudad Rodrigo
+A-62 - Saída 260,A-62 - Saída 269,Car,True,Portugal
+A-62 - Saída 269,A-62 - Saída 276,Car,False,Salamanca
+A-62 - Saída 269,A-62 - Saída 276,Car,True,Ciudad Rodrigo
+A-62 - Saída 269,A-62 - Saída 276,Car,True,Portugal
+A-62 - Saída 276,A-62 - Saída 282,Car,False,Salamanca
+A-62 - Saída 276,A-62 - Saída 282,Car,True,Portugal
+A-62 - Saída 282,A-62 - Saída 285,Car,False,Salamanca
+A-62 - Saída 282,A-62 - Saída 285,Car,True,Portugal
+A-62 - Saída 285,A-62 - Saída 293,Car,False,Salamanca
+A-62 - Saída 285,A-62 - Saída 293,Car,True,Portugal
+A-62 - Saída 293,A-62 - Saída 297,Car,False,Salamanca
+A-62 - Saída 293,A-62 - Saída 297,Car,True,Portugal
+A-62 - Saída 297,A-62 - Saída 309,Car,False,Salamanca
+A-62 - Saída 297,A-62 - Saída 309,Car,True,Portugal
+A-62 - Saída 309,A-62 - Saída 312,Car,False,Salamanca
+A-62 - Saída 309,A-62 - Saída 312,Car,True,Portugal
+A-62 - Saída 312,A-62 - Saída 315,Car,False,Salamanca
+A-62 - Saída 312,A-62 - Saída 315,Car,True,Portugal
+A-62 - Saída 315,A-62 - Saída 325,Car,False,Salamanca
+A-62 - Saída 315,A-62 - Saída 325,Car,True,Portugal
+A-62 - Saída 325,A-62 - Saída 327,Car,False,Salamanca
+A-62 - Saída 325,A-62 - Saída 327,Car,True,Portugal
+A-62 - Saída 327,A-62 - Saída 332,Car,False,Salamanca
+A-62 - Saída 327,A-62 - Saída 332,Car,True,Portugal
+A-62 - Saída 332,A-62 - Saída 339,Car,False,Ciudad Rodrigo
+A-62 - Saída 332,A-62 - Saída 339,Car,False,Salamanca
+A-62 - Saída 332,A-62 - Saída 339,Car,True,Portugal
 A-62 - Saída 339,A-62 - Saída 344,Car,False,Ciudad Rodrigo
 A-62 - Saída 339,A-62 - Saída 344,Car,False,Salamanca
 A-62 - Saída 339,A-62 - Saída 344,Car,True,Fuentes de Oñoro
