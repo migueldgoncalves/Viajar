@@ -4159,6 +4159,46 @@ A-62 - Saída 344,A-62 - Saída 352,Car,True,Portugal
 A-62 - Saída 352,A-62 - Saída 355,Car,False,Ciudad Rodrigo
 A-62 - Saída 352,A-62 - Saída 355,Car,False,Espanha
 A-62 - Saída 352,A-62 - Saída 355,Car,True,Portugal
+A-66 - Saída 398,A-66 - Saída 400,Car,False,Guijuelo
+A-66 - Saída 398,A-66 - Saída 400,Car,False,Salamanca
+A-66 - Saída 398,A-66 - Saída 400,Car,True,Béjar
+A-66 - Saída 398,A-66 - Saída 400,Car,True,Cáceres
+A-66 - Saída 398,A-66 - Saída 400,Car,True,Plasencia
+A-66 - Saída 400,A-66 - Saída 402,Car,False,Guijuelo
+A-66 - Saída 400,A-66 - Saída 402,Car,False,Salamanca
+A-66 - Saída 400,A-66 - Saída 402,Car,True,Béjar
+A-66 - Saída 400,A-66 - Saída 402,Car,True,Cáceres
+A-66 - Saída 400,A-66 - Saída 402,Car,True,Plasencia
+A-66 - Saída 402,A-66 - Saída 404,Car,False,Guijuelo
+A-66 - Saída 402,A-66 - Saída 404,Car,False,Salamanca
+A-66 - Saída 402,A-66 - Saída 404,Car,True,Béjar
+A-66 - Saída 402,A-66 - Saída 404,Car,True,Cáceres
+A-66 - Saída 402,A-66 - Saída 404,Car,True,Plasencia
+A-66 - Saída 404,A-66 - Saída 408,Car,False,Guijuelo
+A-66 - Saída 404,A-66 - Saída 408,Car,False,Salamanca
+A-66 - Saída 404,A-66 - Saída 408,Car,True,Béjar
+A-66 - Saída 404,A-66 - Saída 408,Car,True,Cáceres
+A-66 - Saída 404,A-66 - Saída 408,Car,True,Plasencia
+A-66 - Saída 408,A-66 - Saída 410,Car,False,Guijuelo
+A-66 - Saída 408,A-66 - Saída 410,Car,False,Salamanca
+A-66 - Saída 408,A-66 - Saída 410,Car,True,Béjar
+A-66 - Saída 408,A-66 - Saída 410,Car,True,Cáceres
+A-66 - Saída 408,A-66 - Saída 410,Car,True,Plasencia
+A-66 - Saída 410,A-66 - Saída 414,Car,False,Guijuelo
+A-66 - Saída 410,A-66 - Saída 414,Car,False,Salamanca
+A-66 - Saída 410,A-66 - Saída 414,Car,True,Béjar
+A-66 - Saída 410,A-66 - Saída 414,Car,True,Cáceres
+A-66 - Saída 410,A-66 - Saída 414,Car,True,Plasencia
+A-66 - Saída 414,A-66 - Saída 417,Car,False,Guijuelo
+A-66 - Saída 414,A-66 - Saída 417,Car,False,Salamanca
+A-66 - Saída 414,A-66 - Saída 417,Car,True,Baños de Montemayor
+A-66 - Saída 414,A-66 - Saída 417,Car,True,Cáceres
+A-66 - Saída 414,A-66 - Saída 417,Car,True,Plasencia
+A-66 - Saída 417,A-66 - Saída 424,Car,False,Béjar
+A-66 - Saída 417,A-66 - Saída 424,Car,False,Salamanca
+A-66 - Saída 417,A-66 - Saída 424,Car,True,Baños de Montemayor
+A-66 - Saída 417,A-66 - Saída 424,Car,True,Cáceres
+A-66 - Saída 417,A-66 - Saída 424,Car,True,Plasencia
 A-66 - Saída 424,A-66 - Saída 427,Car,False,Béjar
 A-66 - Saída 424,A-66 - Saída 427,Car,False,Salamanca
 A-66 - Saída 424,A-66 - Saída 427,Car,True,Baños de Montemayor
