@@ -3949,6 +3949,53 @@ A-49 - Saída 129,Cruzamento da A-499 com a N-431,Car,True,Ayamonte - Este
 A-49 - Saída 131,Ponte Internacional do Guadiana,Car,False,Ayamonte
 A-49 - Saída 131,Ponte Internacional do Guadiana,Car,False,Huelva
 A-49 - Saída 131,Ponte Internacional do Guadiana,Car,True,Portugal
+A-50 - Saída 4,A-50 - Saída 14,Car,False,Ávila
+A-50 - Saída 4,A-50 - Saída 14,Car,True,Salamanca
+A-50 - Saída 4,Cruzamento da A-50 com a AV-20,Car,False,Salamanca
+A-50 - Saída 4,Cruzamento da A-50 com a AV-20,Car,True,Ávila
+A-50 - Saída 14,A-50 - Saída 24,Car,False,Ávila
+A-50 - Saída 14,A-50 - Saída 24,Car,False,Madrid
+A-50 - Saída 14,A-50 - Saída 24,Car,True,Salamanca
+A-50 - Saída 24,A-50 - Saída 35,Car,False,Ávila
+A-50 - Saída 24,A-50 - Saída 35,Car,False,Madrid
+A-50 - Saída 24,A-50 - Saída 35,Car,True,Salamanca
+A-50 - Saída 35,A-50 - Saída 46,Car,False,Ávila
+A-50 - Saída 35,A-50 - Saída 46,Car,False,Madrid
+A-50 - Saída 35,A-50 - Saída 46,Car,True,Salamanca
+A-50 - Saída 46,A-50 - Saída 59,Car,False,Ávila
+A-50 - Saída 46,A-50 - Saída 59,Car,False,Madrid
+A-50 - Saída 46,A-50 - Saída 59,Car,True,Peñaranda de Bracamonte
+A-50 - Saída 46,A-50 - Saída 59,Car,True,Salamanca
+A-50 - Saída 59,A-50 - Saída 69,Car,False,Ávila
+A-50 - Saída 59,A-50 - Saída 69,Car,False,Madrid
+A-50 - Saída 59,A-50 - Saída 69,Car,True,Salamanca
+A-50 - Saída 69,A-50 - Saída 76,Car,False,Ávila
+A-50 - Saída 69,A-50 - Saída 76,Car,True,Salamanca
+A-50 - Saída 76,A-50 - Saída 83,Car,False,Ávila
+A-50 - Saída 76,A-50 - Saída 83,Car,False,Madrid
+A-50 - Saída 76,A-50 - Saída 83,Car,True,Salamanca
+A-50 - Saída 76,Encinas de Abajo,Car,False,Ávila
+A-50 - Saída 76,Encinas de Abajo,Car,True,Salamanca
+A-50 - Saída 83,A-50 - Saída 86,Car,False,Ávila
+A-50 - Saída 83,A-50 - Saída 86,Car,False,Madrid
+A-50 - Saída 83,A-50 - Saída 86,Car,True,Salamanca
+A-50 - Saída 86,A-50 - Saída 96,Car,False,Ávila
+A-50 - Saída 86,A-50 - Saída 96,Car,False,Madrid
+A-50 - Saída 86,A-50 - Saída 96,Car,True,Salamanca
+A-50 - Saída 96,Cruzamento da A-50 com a SA-20,Car,False,Aeroporto de Salamanca
+A-50 - Saída 96,Cruzamento da A-50 com a SA-20,Car,False,Ávila
+A-50 - Saída 96,Cruzamento da A-50 com a SA-20,Car,False,Madrid
+A-50 - Saída 96,Cruzamento da A-50 com a SA-20,Car,True,Salamanca
+A-50 - Zona Comercial,Cruzamento da A-50 com a SA-20,Car,False,Salamanca
+A-50 - Zona Comercial,Cruzamento da A-50 com a SA-20,Car,True,Aeroporto de Salamanca
+A-50 - Zona Comercial,Cruzamento da A-50 com a SA-20,Car,True,Alba de Tormes
+A-50 - Zona Comercial,Cruzamento da A-50 com a SA-20,Car,True,Ávila
+A-50 - Zona Comercial,Cruzamento da A-50 com a SA-20,Car,True,Madrid
+A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Aeroporto de Salamanca
+A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Alba de Tormes
+A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Ávila
+A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Madrid
+A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,True,Salamanca
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Aeroporto de Vigo
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Instituto Ferial de Vigo
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Madrid
@@ -4159,6 +4206,44 @@ A-62 - Saída 344,A-62 - Saída 352,Car,True,Portugal
 A-62 - Saída 352,A-62 - Saída 355,Car,False,Ciudad Rodrigo
 A-62 - Saída 352,A-62 - Saída 355,Car,False,Espanha
 A-62 - Saída 352,A-62 - Saída 355,Car,True,Portugal
+A-66 - Saída 332,Cruzamento Norte da A-62 com a A-66,Car,False,Zamora
+A-66 - Saída 332,Cruzamento Norte da A-62 com a A-66,Car,True,Salamanca
+A-66 - Saída 346,A-66 - Saída 348,Car,False,Salamanca
+A-66 - Saída 346,A-66 - Saída 348,Car,True,Cáceres
+A-66 - Saída 346,Cruzamento da A-66 com a SA-20,Car,False,Cáceres
+A-66 - Saída 346,Cruzamento da A-66 com a SA-20,Car,True,A-62 - Portugal/Valladolid
+A-66 - Saída 346,Cruzamento da A-66 com a SA-20,Car,True,Salamanca - Oeste
+A-66 - Saída 346,Cruzamento da A-66 com a SA-20,Car,True,Zamora
+A-66 - Saída 348,A-66 - Saída 352,Car,False,Salamanca
+A-66 - Saída 348,A-66 - Saída 352,Car,True,Cáceres
+A-66 - Saída 352,A-66 - Saída 360,Car,False,Salamanca
+A-66 - Saída 352,A-66 - Saída 360,Car,True,Cáceres
+A-66 - Saída 360,A-66 - Saída 363,Car,False,Salamanca
+A-66 - Saída 360,A-66 - Saída 363,Car,True,Cáceres
+A-66 - Saída 363,A-66 - Saída 371,Car,False,Salamanca
+A-66 - Saída 363,A-66 - Saída 371,Car,True,Cáceres
+A-66 - Saída 371,A-66 - Saída 375,Car,False,Salamanca
+A-66 - Saída 371,A-66 - Saída 375,Car,True,Cáceres
+A-66 - Saída 375,A-66 - Saída 380,Car,False,Salamanca
+A-66 - Saída 375,A-66 - Saída 380,Car,True,Cáceres
+A-66 - Saída 380,A-66 - Saída 387,Car,False,Salamanca
+A-66 - Saída 380,A-66 - Saída 387,Car,True,Béjar
+A-66 - Saída 380,A-66 - Saída 387,Car,True,Cáceres
+A-66 - Saída 380,A-66 - Saída 387,Car,True,Guijuelo
+A-66 - Saída 387,A-66 - Saída 393,Car,False,Salamanca
+A-66 - Saída 387,A-66 - Saída 393,Car,True,Béjar
+A-66 - Saída 387,A-66 - Saída 393,Car,True,Cáceres
+A-66 - Saída 387,A-66 - Saída 393,Car,True,Plasencia
+A-66 - Saída 393,A-66 - Saída 396,Car,False,Guijuelo
+A-66 - Saída 393,A-66 - Saída 396,Car,False,Salamanca
+A-66 - Saída 393,A-66 - Saída 396,Car,True,Béjar
+A-66 - Saída 393,A-66 - Saída 396,Car,True,Cáceres
+A-66 - Saída 393,A-66 - Saída 396,Car,True,Plasencia
+A-66 - Saída 396,A-66 - Saída 398,Car,False,Guijuelo
+A-66 - Saída 396,A-66 - Saída 398,Car,False,Salamanca
+A-66 - Saída 396,A-66 - Saída 398,Car,True,Béjar
+A-66 - Saída 396,A-66 - Saída 398,Car,True,Cáceres
+A-66 - Saída 396,A-66 - Saída 398,Car,True,Plasencia
 A-66 - Saída 398,A-66 - Saída 400,Car,False,Guijuelo
 A-66 - Saída 398,A-66 - Saída 400,Car,False,Salamanca
 A-66 - Saída 398,A-66 - Saída 400,Car,True,Béjar
@@ -5382,6 +5467,9 @@ Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Train,True,Terminal 4S
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,False,Aeroporto de Málaga - Costa del Sol
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,True,A-7/MA-20 - Algeciras/Málaga
+Aeroporto de Salamanca,Encinas de Abajo,Car,False,Salamanca
+Aeroporto de Salamanca,Encinas de Abajo,Car,True,Ávila
+Aeroporto de Salamanca,Encinas de Abajo,Car,True,Madrid
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,False,Alcoutim
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,False,Vila Real de Santo António
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,True,Mértola
@@ -5680,6 +5768,19 @@ AP-41 - Saída 2,Cruzamento da AP-41 com a R-5,Car,False,Toledo
 AP-41 - Saída 2,Cruzamento da AP-41 com a R-5,Car,True,R-5 - Badajoz/Madrid
 AP-41 - Saída 8,AP-41 - Saída 16,Car,False,Madrid
 AP-41 - Saída 8,AP-41 - Saída 16,Car,True,Toledo
+AP-51 - Saída 82,AP-51 - Saída 104,Car,False,AP-6 - A Coruña/Madrid
+AP-51 - Saída 82,AP-51 - Saída 104,Car,False,Segóvia
+AP-51 - Saída 82,AP-51 - Saída 104,Car,False,Villacastín
+AP-51 - Saída 82,AP-51 - Saída 104,Car,True,Ávila
+AP-51 - Saída 82,AP-51 - Saída 104,Car,True,Salamanca
+AP-51 - Saída 82,Cruzamento da AP-6 com a AP-51,Car,False,Ávila
+AP-51 - Saída 82,Cruzamento da AP-6 com a AP-51,Car,False,Salamanca
+AP-51 - Saída 82,Cruzamento da AP-6 com a AP-51,Car,False,Segóvia
+AP-51 - Saída 82,Cruzamento da AP-6 com a AP-51,Car,False,Villacastín
+AP-51 - Saída 82,Cruzamento da AP-6 com a AP-51,Car,True,AP-6 - A Coruña/Adanero/Collado Villalba/Madrid
+AP-51 - Saída 104,AV-20 - Saída 0,Car,False,Madrid
+AP-51 - Saída 104,AV-20 - Saída 0,Car,False,Segóvia
+AP-51 - Saída 104,AV-20 - Saída 0,Car,True,AV-20 - Ávila
 Aqualand Algarve,Porches,Car,False,Albufeira
 Aqualand Algarve,Porches,Car,False,Faro
 Aqualand Algarve,Porches,Car,True,Lagoa
@@ -5841,6 +5942,27 @@ Aroche,Rosal de la Frontera,Car,False,Aroche
 Aroche,Rosal de la Frontera,Car,False,Sevilha
 Aroche,Rosal de la Frontera,Car,True,Portugal
 Aroche,Rosal de la Frontera,Car,True,Rosal de la Frontera
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,False,Madrid
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,False,Segóvia
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,True,A-50 - Salamanca
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,True,Plasencia
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,True,Toledo
+AV-20 - Saída 0,AV-20 - Saída 3-4,Car,True,Valladolid
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,False,Madrid
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,False,Segóvia
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,False,Valladolid
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,True,Plasencia
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,True,Salamanca
+AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,True,Toledo
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,False,Ávila
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,False,Plasencia
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,False,Toledo
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Madrid
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Salamanca
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Segóvia
+AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Valladolid
+AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,False,Ávila
+AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,True,Plasencia
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,False,Sevilha - Avenida de Andalucía
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,False,Sevilha - Centro da cidade
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,True,SE-30 - Todas as direcções
@@ -6689,6 +6811,9 @@ Cruzamento da A-49 com a SE-30,Sevilha - Avenida Expo 92,Car,True,Sevilha - Tria
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Car,False,A-49 - Huelva/Sevilha
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Car,True,Almensilla
 Cruzamento da A-49 com a SE-40,SE-40 - Saída 35,Car,True,Palomares del Río
+Cruzamento da A-50 com a SA-20,SA-20 - Polígono Industrial El Montalvo Este,Car,False,A-50 - Aeroporto de Salamanca/Ávila/Madrid
+Cruzamento da A-50 com a SA-20,SA-20 - Polígono Industrial El Montalvo Este,Car,True,A-62 - Portugal/Valladolid
+Cruzamento da A-50 com a SA-20,SA-20 - Polígono Industrial El Montalvo Este,Car,True,A-66 - Cáceres/Zamora
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Car,False,A-66
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Car,False,Coria
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 46,Car,False,Plasencia
@@ -6699,6 +6824,14 @@ Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Car,False,Navalmoral de la Mata
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Car,False,Plasencia
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Car,True,Coria
 Cruzamento da A-66 com a EX-A1,EX-A1 - Saída 58,Car,True,Portugal
+Cruzamento da A-66 com a SA-20,Cruzamento Sul da A-62 com a A-66,Car,False,A-50 - Madrid
+Cruzamento da A-66 com a SA-20,Cruzamento Sul da A-62 com a A-66,Car,False,Cáceres
+Cruzamento da A-66 com a SA-20,Cruzamento Sul da A-62 com a A-66,Car,True,A-62 - Portugal/Valladolid
+Cruzamento da A-66 com a SA-20,Cruzamento Sul da A-62 com a A-66,Car,True,Zamora
+Cruzamento da A-66 com a SA-20,SA-20 - Polígono Industrial El Montalvo Oeste,Car,False,A-62 - Portugal/Valladolid
+Cruzamento da A-66 com a SA-20,SA-20 - Polígono Industrial El Montalvo Oeste,Car,False,A-66 - Zamora
+Cruzamento da A-66 com a SA-20,SA-20 - Polígono Industrial El Montalvo Oeste,Car,True,A-50 - Aeroporto de Salamanca/Ávila/Madrid
+Cruzamento da A-66 com a SA-20,SA-20 - Polígono Industrial El Montalvo Oeste,Car,True,A-66 - Cáceres
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Car,False,A-4 - Cádiz
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Car,False,A-49 - Huelva
 Cruzamento da A-66 com a SE-30,Cruzamento da SE-20 com a SE-30,Car,False,A-66 - Mérida
@@ -10690,6 +10823,9 @@ Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,A22 - Espanha/Lisboa
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,Faro
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,True,São Brás de Alportel
+SA-20 - Polígono Industrial El Montalvo Este,SA-20 - Polígono Industrial El Montalvo Oeste,Car,False,A-50 - Aeroporto de Salamanca/Ávila/Madrid
+SA-20 - Polígono Industrial El Montalvo Este,SA-20 - Polígono Industrial El Montalvo Oeste,Car,True,A-62 - Portugal/Valladolid
+SA-20 - Polígono Industrial El Montalvo Este,SA-20 - Polígono Industrial El Montalvo Oeste,Car,True,A-66 - Cáceres/Zamora
 Sagres,Vila Nova de Milfontes,Boat,False,Lagos
 Sagres,Vila Nova de Milfontes,Boat,False,Portimão
 Sagres,Vila Nova de Milfontes,Boat,True,Setúbal
