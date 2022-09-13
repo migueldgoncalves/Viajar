@@ -242,8 +242,8 @@ A-4 - Saída 533,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 536,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 553,Dos Hermanas,Sevilha,
 A-4 - Saída 558,Dos Hermanas,Sevilha,
-A-4 - Saída 628,Jerez de la Frontera,Cádiz,Rural
-A-4 - Saída 631,Jerez de la Frontera,Cádiz,Rural
+A-4 - Saída 628,Jerez de la Frontera,Cádiz,
+A-4 - Saída 631,Jerez de la Frontera,Cádiz,
 A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
 A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
 A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
@@ -260,13 +260,13 @@ A-5 - Saída 12A,Alcorcón,Comunidade de Madrid,Norte
 A-5 - Saída 12B,Alcorcón,Comunidade de Madrid,Norte
 A-5 - Saída 13,Alcorcón,Comunidade de Madrid,Norte
 A-5 - Saída 14,Alcorcón,Comunidade de Madrid,Norte
-A-5 - Saída 18,Móstoles,Comunidade de Madrid,Norte-Universidad
-A-5 - Saída 19,Móstoles,Comunidade de Madrid,Oeste
-A-5 - Saída 21,Móstoles,Comunidade de Madrid,Oeste
-A-5 - Saída 22,Móstoles,Comunidade de Madrid,Oeste
-A-5 - Saída 23,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
-A-5 - Saída 24,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
-A-5 - Saída 25,Móstoles,Comunidade de Madrid,Coimbra-Guadarrama
+A-5 - Saída 18,Móstoles,Comunidade de Madrid,
+A-5 - Saída 19,Móstoles,Comunidade de Madrid,
+A-5 - Saída 21,Móstoles,Comunidade de Madrid,
+A-5 - Saída 22,Móstoles,Comunidade de Madrid,
+A-5 - Saída 23,Móstoles,Comunidade de Madrid,
+A-5 - Saída 24,Móstoles,Comunidade de Madrid,
+A-5 - Saída 25,Móstoles,Comunidade de Madrid,
 A-5 - Saída 27,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 28,Navalcarnero,Comunidade de Madrid,
 A-5 - Saída 28B,Navalcarnero,Comunidade de Madrid,
@@ -377,12 +377,12 @@ A-6 - Saída 10A,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 A-6 - Saída 10B,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 A-6 - Saída 12,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 A-6 - Saída 13,Madrid,Comunidade de Madrid,Moncloa-Aravaca
-A-6 - Saída 15,Las Rozas de Madrid,Comunidade de Madrid,Centro
-A-6 - Saída 17,Las Rozas de Madrid,Comunidade de Madrid,Centro
-A-6 - Saída 18,Las Rozas de Madrid,Comunidade de Madrid,Centro
-A-6 - Saída 19,Las Rozas de Madrid,Comunidade de Madrid,Centro
-A-6 - Saída 24,Las Rozas de Madrid,Comunidade de Madrid,Norte
-A-6 - Saída 26,Las Rozas de Madrid,Comunidade de Madrid,Norte
+A-6 - Saída 15,Las Rozas de Madrid,Comunidade de Madrid,
+A-6 - Saída 17,Las Rozas de Madrid,Comunidade de Madrid,
+A-6 - Saída 18,Las Rozas de Madrid,Comunidade de Madrid,
+A-6 - Saída 19,Las Rozas de Madrid,Comunidade de Madrid,
+A-6 - Saída 24,Las Rozas de Madrid,Comunidade de Madrid,
+A-6 - Saída 26,Las Rozas de Madrid,Comunidade de Madrid,
 A-6 - Saída 27,Torrelodones,Comunidade de Madrid,
 A-6 - Saída 29,Torrelodones,Comunidade de Madrid,
 A-6 - Saída 33,Galapagar,Comunidade de Madrid,
@@ -432,11 +432,11 @@ A-7 - Saída 160,Estepona,Málaga,
 A-7 - Saída 163,Estepona,Málaga,
 A-7 - Saída 165,Estepona,Málaga,
 A-7 - Saída 168,Estepona,Málaga,
-A-7 - Saída 170,Marbella,Málaga,San Pedro de Alcántara
-A-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
-A-7 - Saída 174,Marbella,Málaga,Nueva Andalucía
-A-7 - Saída 175,Marbella,Málaga,Nueva Andalucía
-A-7 - Saída 176,Marbella,Málaga,Marbella Oeste
+A-7 - Saída 170,Marbella,Málaga,
+A-7 - Saída 172,Marbella,Málaga,
+A-7 - Saída 174,Marbella,Málaga,
+A-7 - Saída 175,Marbella,Málaga,
+A-7 - Saída 176,Marbella,Málaga,
 A-7 - Saída 226,Málaga,Málaga,Churriana
 A-7 - Saída 230,Alhaurín de la Torre,Málaga,
 A-7 - Saída 235-237,Málaga,Málaga,Puerto de la Torre
@@ -544,9 +544,9 @@ A-7 - Saída 661,Puerto Lumbreras,Região de Murcia,
 A-7/A-30 - Saída 135,Murcia,Região de Murcia,El Puntal
 A-7/A-30 - Saída 136,Murcia,Região de Murcia,El Puntal
 A-7/AP-7 - Saída 155,Estepona,Málaga,
-A-7/AP-7 - Saída 182,Marbella,Málaga,Marbella Oeste
-A-7/AP-7 - Saída 184,Marbella,Málaga,Marbella Oeste
-A-7/AP-7 - Saída 185,Marbella,Málaga,Marbella Este
+A-7/AP-7 - Saída 182,Marbella,Málaga,
+A-7/AP-7 - Saída 184,Marbella,Málaga,
+A-7/AP-7 - Saída 185,Marbella,Málaga,
 A-7/AP-7 - Saída 217,Fuengirola,Málaga,
 A-7/AP-7 - Saída 222,Benalmádena,Málaga,
 A-32 - Saída 1,Bailén,Jaén,
@@ -911,10 +911,10 @@ A-376 - Saída 11/13,Alcalá de Guadaíra,Sevilha,
 A-376 - Saída 16,Alcalá de Guadaíra,Sevilha,
 A-376 - Saída 21,Utrera,Sevilha,
 A-376 - Universidade Pablo de Olavide,Dos Hermanas,Sevilha,
-A-381 - Saída 1,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 4,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 10,Jerez de la Frontera,Cádiz,Rural
-A-381 - Saída 17,Jerez de la Frontera,Cádiz,Rural
+A-381 - Saída 1,Jerez de la Frontera,Cádiz,
+A-381 - Saída 4,Jerez de la Frontera,Cádiz,
+A-381 - Saída 10,Jerez de la Frontera,Cádiz,
+A-381 - Saída 17,Jerez de la Frontera,Cádiz,
 A-381 - Saída 24,Medina Sidonia,Cádiz,
 A-381 - Saída 31,Medina Sidonia,Cádiz,
 A-381 - Saída 36,Alcalá de los Gazules,Cádiz,
@@ -951,7 +951,7 @@ A-8058 - Saída 0,San Juan de Aznalfarache,Sevilha,
 Aeroporto de Almería,Almería,Almería,
 Aeroporto de Badajoz,Badajoz,Badajoz,
 Aeroporto de Córdoba,Córdoba,Córdoba,
-Aeroporto de Jerez,Jerez de la Frontera,Cádiz,Rural
+Aeroporto de Jerez,Jerez de la Frontera,Cádiz,
 Aeroporto de Madrid-Barajas - Terminal 1,Madrid,Comunidade de Madrid,Barajas
 Aeroporto de Madrid-Barajas - Terminal 2,Madrid,Comunidade de Madrid,Barajas
 Aeroporto de Madrid-Barajas - Terminal 3,Madrid,Comunidade de Madrid,Barajas
@@ -978,7 +978,7 @@ AP-6 - Saída 60,El Espinar,Segóvia,
 AP-6 - Saída 102,Sanchidrián,Ávila,
 AP-6 - Saída 108,Adanero,Ávila,
 AP-7 - Saída 142,Manilva,Málaga,
-AP-7 - Saída 172,Marbella,Málaga,San Pedro de Alcántara
+AP-7 - Saída 172,Marbella,Málaga,
 AP-7 - Saída 200,Mijas,Málaga,
 AP-7 - Saída 213,Mijas,Málaga,
 AP-7 - Saída 226,Torremolinos,Málaga,
@@ -997,10 +997,10 @@ AP-51 - Saída 104,Ávila,Ávila,
 Aquopolis Cartaya,Cartaya,Huelva,
 Arahal,Arahal,Sevilha,
 "Arco de la Victoria, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
-Área de Serviço de Altos de Marbella,Marbella,Málaga,Las Chapas
+Área de Serviço de Altos de Marbella,Marbella,Málaga,
 Área de Serviço de Arroyo de la Miel,Torremolinos,Málaga,
 Área de Serviço de Cortijo de Robledo,Antequera,Málaga,
-Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,Rural
+Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
 Área de Serviço de Los Palacios,Los Palacios y Villafranca,Sevilha,
 Área de Serviço de Manilva,Manilva,Málaga,
@@ -1063,8 +1063,8 @@ Costa Esuri,Ayamonte,Huelva,
 Cruzamento I da A-7 com a AP-7,San Roque,Cádiz,
 Cruzamento II da A-7 com a AP-7,Estepona,Málaga,
 Cruzamento III da A-7 com a AP-7,Estepona,Málaga,
-Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,Marbella Oeste
-Cruzamento V da A-7 com a AP-7,Marbella,Málaga,Marbella Este
+Cruzamento IV da A-7 com a AP-7,Marbella,Málaga,
+Cruzamento V da A-7 com a AP-7,Marbella,Málaga,
 Cruzamento VI da A-7 com a AP-7,Mijas,Málaga,
 Cruzamento VII da A-7 com a AP-7,Torremolinos,Málaga,
 Cruzamento VIII da A-7 com a AP-7,Antas,Almería,
@@ -1073,7 +1073,7 @@ Cruzamento da A-1 com a M-12,Alcobendas,Comunidade de Madrid,
 Cruzamento da A-1 com a M-40,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da A-1 com a M-50,San Sebastián de los Reyes,Comunidade de Madrid,
 Cruzamento da A-2 com a CM-10,Guadalajara,Guadalajara,
-Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas - Canillejas
+Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas-Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
 Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,Distrito III
 Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
@@ -1106,7 +1106,7 @@ Cruzamento da A-5 com a M-40,Madrid,Comunidade de Madrid,Latina
 Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
 Cruzamento da A-6 com a M-30,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-40,Madrid,Comunidade de Madrid,Moncloa-Aravaca
-Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,Norte
+Cruzamento da A-6 com a M-50,Las Rozas de Madrid,Comunidade de Madrid,
 Cruzamento da A-7 com a A-44,Vélez de Benaudalla,Granada,
 Cruzamento da A-7 com a A-91,Puerto Lumbreras,Região de Murcia,
 Cruzamento da A-7 com a A-92,Viator,Almería,
@@ -1154,7 +1154,7 @@ Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
-Cruzamento da A-381 com a AP-4,Jerez de la Frontera,Cádiz,Rural
+Cruzamento da A-381 com a AP-4,Jerez de la Frontera,Cádiz,
 Cruzamento da A-382 com a AP-4,Jerez de la Frontera,Cádiz,
 Cruzamento da A-383 com a A-7,San Roque,Cádiz,
 Cruzamento da A-395 com a GR-30,Granada,Granada,Zaidín
@@ -1180,12 +1180,12 @@ Cruzamento da M-11 com a M-14,Madrid,Comunidade de Madrid,Barajas
 Cruzamento da M-11 com a M-40,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-12 com a M-40,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-12 com a R-2,Alcobendas,Comunidade de Madrid,
-Cruzamento da M-14 com a M-21 e a M-40,Madrid,Comunidade de Madrid,San Blas - Canillejas
+Cruzamento da M-14 com a M-21 e a M-40,Madrid,Comunidade de Madrid,San Blas-Canillejas
 Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-31 com a M-40,Madrid,Comunidade de Madrid,Puente de Vallecas
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
-Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
+Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,
 Cruzamento da M-40 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-40 com a R-2,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-40 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
@@ -1358,7 +1358,7 @@ M-30 - Saída 31,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-40 - Saída 5,Madrid,Comunidade de Madrid,Hortaleza
 M-40 - Saída 6,Madrid,Comunidade de Madrid,Barajas
 M-40 - Saída 7,Madrid,Comunidade de Madrid,Hortaleza
-M-40 - Saída 10,Madrid,Comunidade de Madrid,San Blas - Canillejas
+M-40 - Saída 10,Madrid,Comunidade de Madrid,San Blas-Canillejas
 M-40 - Saída 12,Madrid,Comunidade de Madrid,Vicálvaro
 M-40 - Saída 14,Madrid,Comunidade de Madrid,Moratalaz
 M-40 - Saída 16,Madrid,Comunidade de Madrid,Puente de Vallecas
@@ -1370,10 +1370,10 @@ M-40 - Saída 24,Madrid,Comunidade de Madrid,Villaverde
 M-40 - Saída 28A,Madrid,Comunidade de Madrid,Carabanchel
 M-40 - Saída 30,Madrid,Comunidade de Madrid,Latina
 M-40 - Saída 31,Madrid,Comunidade de Madrid,Latina
-M-40 - Saída 38,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
-M-40 - Saída 40,Pozuelo de Alarcón,Comunidade de Madrid,Distrito II
-M-40 - Saída 41,Pozuelo de Alarcón,Comunidade de Madrid,Distrito I
-M-40 - Saída 45,Pozuelo de Alarcón,Comunidade de Madrid,Distrito I
+M-40 - Saída 38,Pozuelo de Alarcón,Comunidade de Madrid,
+M-40 - Saída 40,Pozuelo de Alarcón,Comunidade de Madrid,
+M-40 - Saída 41,Pozuelo de Alarcón,Comunidade de Madrid,
+M-40 - Saída 45,Pozuelo de Alarcón,Comunidade de Madrid,
 M-40 - Saída 51,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 M-40 - Saída 54,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-50 - Saída 53,Leganés,Comunidade de Madrid,
@@ -1390,8 +1390,8 @@ M-50 - Saída 69,Boadilla del Monte,Comunidade de Madrid,
 M-50 - Saída 72,Boadilla del Monte,Comunidade de Madrid,
 M-50 - Saída 79,Majadahonda,Comunidade de Madrid,
 M-50 - Saída 80,Majadahonda,Comunidade de Madrid,
-M-50 - Saída 82,Las Rozas de Madrid,Comunidade de Madrid,Centro
-M-50 - Saída 83,Las Rozas de Madrid,Comunidade de Madrid,Centro
+M-50 - Saída 82,Las Rozas de Madrid,Comunidade de Madrid,
+M-50 - Saída 83,Las Rozas de Madrid,Comunidade de Madrid,
 M-50/R-2 - Saída 5,Paracuellos de Jarama,Comunidade de Madrid,
 M-50/R-2 - Saída 10,Paracuellos de Jarama,Comunidade de Madrid,
 M-607 - Saída 9A,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
@@ -1473,7 +1473,7 @@ R-4 - Saída 29,Seseña,Toledo,
 R-4 - Saída 32,Aranjuez,Comunidade de Madrid,
 R-4 - Saída 38,Ontígola,Toledo,
 R-5 - Saída 9,Leganés,Comunidade de Madrid,
-R-5 - Saída 11,Móstoles,Comunidade de Madrid,Sur-Este
+R-5 - Saída 11,Móstoles,Comunidade de Madrid,
 R-5 - Saída 20,Moraleja de Enmedio,Comunidade de Madrid,
 R-5 - Saída 28,Navalcarnero,Comunidade de Madrid,
 Refinaria de Gibraltar-San Roque,San Roque,Cádiz,

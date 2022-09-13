@@ -103,3 +103,6 @@ select * from Location where Location.batch > 0 and Location.batch <= 20;
 
 -- Shows number of locations inside provided geographic bounds
 select count(name) from Location where latitude >= 39.0 and latitude <= 41.0 and longitude >= -5.0 and longitude <= -4.0;
+
+-- Shows all Spanish districts and respective municipalities with locations in the map
+select distinct municipio, district from LocationSpain where district is not null order by municipio, district;
