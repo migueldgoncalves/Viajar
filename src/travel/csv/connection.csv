@@ -582,6 +582,17 @@ A-4 - Saída 558,AP-4A - Saída 13,Car,1.1,,N,3,2
 A-4 - Saída 628,A-4 - Saída 631,Car,2.8,A-4,SW,2,1
 A-4 - Saída 628,Aeroporto de Jerez,Car,1.1,N-346,SE,3,1
 A-4 - Saída 628,El Cuervo de Sevilla,Car,13.2,N-4,NE,1,2
+A-4 - Saída 631,A-4 - Saída 632,Car,1.2,A-4,SW,2,1
+A-4 - Saída 632,A-4 - Saída 633,Car,1.1,A-4,SW,2,1
+A-4 - Saída 633,A-4 - Saída 635,Car,1.4,A-4,W,2,1
+A-4 - Saída 635,A-4 - Saída 637,Car,2.4,A-4,W,2,1
+A-4 - Saída 637,A-4 - Saída 639,Car,1.9,A-4,SW,2,1
+A-4 - Saída 639,Cruzamento da A-4 com a A-480,Car,2.0,A-4,S,2,1
+A-4 - Saída 646,Cruzamento da A-4 com a A-4a,Car,0.6,A-4,NE,1,2
+A-4 - Saída 646,Cruzamento da A-4 com a A-491,Car,3.1,A-4,S,2,1
+A-4 - Saída 660,A-4 - Saída 664,Car,3.2,A-4,SE,2,1
+A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,2.4,A-4,N,1,4
+A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,5.0,A-4,SW,2,1
 A-5 - Aluche,A-5 - Avenida de los Poblados,Car,0.4,A-5,SE,1,2
 A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Car,0.5,A-5,NW,2,1
 A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Car,0.9,A-5,SE,1,2
@@ -2054,8 +2065,11 @@ Cruzamento da A-3 com a M-30,M-30 - Saída 10,Car,1.4,M-30,SW,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,5.7,M-30 - Bypass Sul,SW,3,3
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,1.6,M-40,N,2,1
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,0.8,M-40,SW,1,2
+Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,3.3,A-4,N,1,2
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Car,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a A-44,Cruzamento da A-32 com a A-44,Car,3.0,A-44,SE,3,1
+Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,5.7,A-4,S,2,1
+Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,3.1,A-4,NW,3,2
 Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Car,17.2,AP-4,NE,1,2
 Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,2.9,AP-4,W,2,1
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,6.4,R-4,NW,3,2

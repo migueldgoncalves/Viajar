@@ -244,6 +244,14 @@ A-4 - Saída 553,Dos Hermanas,Sevilha,
 A-4 - Saída 558,Dos Hermanas,Sevilha,
 A-4 - Saída 628,Jerez de la Frontera,Cádiz,
 A-4 - Saída 631,Jerez de la Frontera,Cádiz,
+A-4 - Saída 632,Jerez de la Frontera,Cádiz,
+A-4 - Saída 633,Jerez de la Frontera,Cádiz,
+A-4 - Saída 635,Jerez de la Frontera,Cádiz,
+A-4 - Saída 637,Jerez de la Frontera,Cádiz,
+A-4 - Saída 639,Jerez de la Frontera,Cádiz,
+A-4 - Saída 646,El Puerto de Santa María,Cádiz,
+A-4 - Saída 660,Puerto Real,Cádiz,
+A-4 - Saída 664,Puerto Real,Cádiz,
 A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
 A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
 A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
@@ -1079,12 +1087,17 @@ Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,
 Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
+Cruzamento da A-4 com a A-4a,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
 Cruzamento da A-4 com a A-43,Manzanares,Ciudad Real,
 Cruzamento da A-4 com a A-44,Bailén,Jaén,
 Cruzamento da A-4 com a A-45,Córdoba,Córdoba,
+Cruzamento da A-4 com a A-48 e a CA-33,Puerto Real,Cádiz,
+Cruzamento da A-4 com a A-480,Jerez de la Frontera,Cádiz,
+Cruzamento da A-4 com a A-491,El Puerto de Santa María,Cádiz,
 Cruzamento da A-4 com a AP-4,Puerto Real,Cádiz,
 Cruzamento da A-4 com a AP-36 e a R-4,Ocaña,Toledo,
+Cruzamento da A-4 com a CA-37,Puerto Real,Cádiz,
 Cruzamento da A-4 com a CM-42,Madridejos,Toledo,
 Cruzamento da A-4 com a CO-31,Córdoba,Córdoba,
 Cruzamento da A-4 com a M-30,Madrid,Comunidade de Madrid,Arganzuela
