@@ -575,10 +575,12 @@ A-4 - Saída 533,Aeroporto de Sevilha,Car,1.0,,E,3,1
 A-4 - Saída 533,Cruzamento da A-4 com a SE-20,Car,1.6,A-4,SW,1,2
 A-4 - Saída 536,Cruzamento da A-4 com a SE-20,Car,1.6,A-4,NE,2,1
 A-4 - Saída 536,Cruzamento da A-4 Norte com a SE-30,Car,0.6,A-4,SW,1,3
-A-4 - Saída 553,A-4 - Saída 558,Car,5.3,A-4,SE,2,1
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Car,3.0,A-4,N,1,2
-A-4 - Saída 558,AP-4 - Início,Car,1.5,A-4,SE,2,1
-A-4 - Saída 558,AP-4A - Saída 13,Car,1.1,,N,3,2
+A-4 - Saída 553,Cruzamento Norte da A-4 com a AP-4,Car,5.3,A-4,SE,2,1
+A-4 - Saída 560,A-4 - Saída 562,Car,2.3,A-4,S,2,1
+A-4 - Saída 560,Cruzamento Norte da A-4 com a AP-4,Car,2.0,A-4,N,1,3
+A-4 - Saída 562,A-4 - Saída 565,Car,3.2,A-4,S,2,1
+A-4 - Saída 565,Los Palacios y Villafranca,Car,2.6,N-4,S,2,1
 A-4 - Saída 628,A-4 - Saída 631,Car,2.8,A-4,SW,2,1
 A-4 - Saída 628,Aeroporto de Jerez,Car,1.1,N-346,SE,3,1
 A-4 - Saída 628,El Cuervo de Sevilla,Car,13.2,N-4,NE,1,2
@@ -591,7 +593,7 @@ A-4 - Saída 639,Cruzamento da A-4 com a A-480,Car,2.0,A-4,S,2,1
 A-4 - Saída 646,Cruzamento da A-4 com a A-4a,Car,0.6,A-4,NE,1,2
 A-4 - Saída 646,Cruzamento da A-4 com a A-491,Car,3.1,A-4,S,2,1
 A-4 - Saída 660,A-4 - Saída 664,Car,3.2,A-4,SE,2,1
-A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,2.4,A-4,N,1,4
+A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,2.4,A-4,N,1,4
 A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,5.0,A-4,SW,2,1
 A-5 - Aluche,A-5 - Avenida de los Poblados,Car,0.4,A-5,SE,1,2
 A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Car,0.5,A-5,NW,2,1
@@ -1388,6 +1390,7 @@ A-376 - Centro Comercial,Cruzamento da A-376 com a SE-30,Car,0.4,A-376,NW,1,3
 A-376 - Condequinto,A-376 - Montequinto,Car,0.6,A-376,SE,2,1
 A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Car,0.8,A-376,NW,1,2
 A-376 - Fim da auto-estrada,A-376 - Saída 21,Car,2.2,A-376,NW,1,2
+A-376 - Fim da auto-estrada,Cruzamento da A-362 com a A-375 e a A-376,Car,2.1,A-376,S,2,1
 A-376 - Montequinto,A-376 - Saída 4A,Car,0.4,A-376,SE,2,1
 A-376 - Saída 4A,A-376 - Saída 4B,Car,1.2,A-376,SE,2,1
 A-376 - Saída 4B,Cruzamento da A-376 com a SE-40,Car,2.9,A-376,SE,2,3
@@ -1642,10 +1645,10 @@ Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Train,7.3,Antiga Li
 Antiga Estação de Isla Cristina - Pozo del Camino,Isla Cristina,Car,3.0,,S,4,1
 Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Train,5.3,Antiga Linha Gibraleón-Ayamonte,E,2,1
 Antiga Estação de Isla Cristina - Pozo del Camino,Pozo del Camino,Car,0.9,,NE,3,1
-AP-4 - Início,AP-4A - Saída 13,Car,2.4,AP-4A,NW,3,1
-AP-4 - Início,Área de Serviço de Los Palacios,Car,4.8,AP-4,S,2,1
 AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Car,18.7,AP-4,S,2,1
 AP-4 - Saída 23-24,Área de Serviço de Los Palacios,Car,3.6,AP-4,N,1,2
+AP-4 - Saída 23-24,Cruzamento da A-362 com a A-375 e a A-376,Car,9.8,,E,4,2
+AP-4 - Saída 23-24,Los Palacios y Villafranca,Car,1.4,,W,3,2
 AP-4 - Saída 44-45,AP-4 - Saída 53,Car,8.3,AP-4,S,2,1
 AP-4 - Saída 44-45,Área de Serviço de El Fantasma,Car,2.9,AP-4,NE,1,2
 AP-4 - Saída 53,Área de Serviço de El Cuadrejón,Car,16.2,AP-4,SW,2,1
@@ -1711,6 +1714,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Car,9.2,AP-4,SW,2,1
 Área de Serviço de Gaia,Cruzamento da A1 com a A29,Car,1.1,A1,SE,2,1
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,8.4,A2,SE,2,1
+Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,4.8,AP-4,N,1,2
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,4.5,AP-7,SW,1,2
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,7.0,A1,S,1,2
 Área de Serviço de Meco,R-2 - Saída 33,Car,2.5,R-2,SW,2,1
@@ -2069,10 +2073,8 @@ Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,3.3,A-4,N,1,2
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Car,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a A-44,Cruzamento da A-32 com a A-44,Car,3.0,A-44,SE,3,1
 Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,5.7,A-4,S,2,1
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,3.1,A-4,NW,3,2
-Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Car,17.2,AP-4,NE,1,2
-Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,2.9,AP-4,W,2,1
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,6.4,R-4,NW,3,2
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,3.1,A-4,SE,2,3
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,1.5,M-30,NE,2,1
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Car,0.9,M-30,NW,1,2
 Cruzamento da A-4 com a M-40,M-40 - Saída 20,Car,1.1,M-40,E,2,1
@@ -2135,6 +2137,7 @@ Cruzamento da A-376 com a SE-30,SE-30 - Saída 5,Car,1.2,SE-30,NE,2,1
 Cruzamento da A-376 com a SE-30,SE-30 - Saída 8,Car,2.6,SE-30,SW,1,2
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Car,4.9,SE-40,SW,1,2
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Car,5.9,AP-4,N,1,2
+Cruzamento da A-381 com a AP-4,Cruzamento Sul da A-4 com a AP-4,Car,17.2,AP-4,SW,2,1
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Car,1.3,GR-30,NW,1,2
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 18,Car,2.3,GR-30,SW,2,1
 Cruzamento da A-499 com a N-431,Cruzamento da N-431 com a N-446,Car,3.1,N-431,E,4,3
@@ -2147,7 +2150,10 @@ Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Car,0.7,SE-20,
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Car,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Car,1.5,SE-20,SW,1,2
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,0.9,AP-9 - Ponte de Rande,S,1,2
+Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,1.5,AP-4,NW,1,2
+Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,2.4,AP-4A,NW,3,1
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,2.9,CA-35,SW,2,1
+Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,2.9,AP-4,E,1,2
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,1.8,AP-9,N,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Car,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Car,2.8,R-5,SW,1,2
@@ -2299,6 +2305,7 @@ Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Odivelas Oeste,Car,2.3,IC17 CRIL,
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,1.3,IC17 CRIL,S,1,2
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,5.0,A-7,NW,1,2
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,0.9,M-50/R-2,NW,2,1
+Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,1.1,N-4,N,4,3
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,1.1,GR-30,S,2,1
 Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,2.6,M-50/R-2,E,1,2
 Cruzamento Oeste da M-50 com a R-2,R-2 - Saída 6,Car,2.9,R-2,SW,2,1
@@ -2863,6 +2870,7 @@ Gelves,SE-40 - Reinício,Car,4.0,,S,2,2
 Gibraleón,San Bartolomé de la Torre,Car,15.3,,NW,4,3
 Giões,São Bartolomeu de Via Glória,Car,7.0,,NW,3,2
 Giões,Serro da Vinha de Baixo,Car,9.1,,E,2,2
+Glorieta de los Cipreses,Polígono Industrial Aceitunero,Car,1.0,N-4 - Dos Hermanas,NW,2,1
 GR-30 - Saída 1,GR-30 - Saída 2,Car,1.6,GR-30,S,2,1
 GR-30 - Saída 4,GR-30 - Saída 5,Car,1.0,GR-30,SE,2,1
 GR-30 - Saída 5,GR-30 - Saída 6,Car,1.3,GR-30,SE,2,1

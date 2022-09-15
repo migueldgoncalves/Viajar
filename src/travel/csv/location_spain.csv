@@ -241,7 +241,9 @@ A-4 - Saída 532,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 533,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 536,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 A-4 - Saída 553,Dos Hermanas,Sevilha,
-A-4 - Saída 558,Dos Hermanas,Sevilha,
+A-4 - Saída 560,Dos Hermanas,Sevilha,
+A-4 - Saída 562,Alcalá de Guadaíra,Sevilha,
+A-4 - Saída 565,Los Palacios y Villafranca,Sevilha,
 A-4 - Saída 628,Jerez de la Frontera,Cádiz,
 A-4 - Saída 631,Jerez de la Frontera,Cádiz,
 A-4 - Saída 632,Jerez de la Frontera,Cádiz,
@@ -974,11 +976,9 @@ Almonte,Almonte,Huelva,
 Antiga Estação de Aljaraque,Gibraleón,Huelva,
 Antiga Estação de Huelva-Término,Huelva,Huelva,
 Antiga Estação de Isla Cristina - Pozo del Camino,Ayamonte,Huelva,
-AP-4 - Início,Dos Hermanas,Sevilha,
 AP-4 - Saída 23-24,Los Palacios y Villafranca,Sevilha,
 AP-4 - Saída 44-45,Las Cabezas de San Juan,Sevilha,
 AP-4 - Saída 53,Lebrija,Sevilha,
-AP-4A - Saída 13,Dos Hermanas,Sevilha,
 AP-6 - Saída 42,Alpedrete,Comunidade de Madrid,
 AP-6 - Saída 47,Guadarrama,Comunidade de Madrid,
 AP-6 - Saída 51,Guadarrama,Comunidade de Madrid,
@@ -1095,7 +1095,6 @@ Cruzamento da A-4 com a A-45,Córdoba,Córdoba,
 Cruzamento da A-4 com a A-48 e a CA-33,Puerto Real,Cádiz,
 Cruzamento da A-4 com a A-480,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-491,El Puerto de Santa María,Cádiz,
-Cruzamento da A-4 com a AP-4,Puerto Real,Cádiz,
 Cruzamento da A-4 com a AP-36 e a R-4,Ocaña,Toledo,
 Cruzamento da A-4 com a CA-37,Puerto Real,Cádiz,
 Cruzamento da A-4 com a CM-42,Madridejos,Toledo,
@@ -1164,6 +1163,7 @@ Cruzamento da A-92 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-316 com a A-44,Jaén,Jaén,
 Cruzamento da A-318 com a A-45,Lucena,Córdoba,
 Cruzamento da A-357 com a A-7,Málaga,Málaga,Campanillas
+Cruzamento da A-362 com a A-375 e a A-376,Utrera,Sevilha,
 Cruzamento da A-376 com a SE-30,Sevilha,Sevilha,Sur
 Cruzamento da A-376 com a SE-40,Alcalá de Guadaíra,Sevilha,
 Cruzamento da A-381 com a A-7,Los Barrios,Cádiz,
@@ -1178,6 +1178,7 @@ Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da AG-41 com a AP-9,Barro,Pontevedra,Portela
 Cruzamento da AG-46 com a AP-9,Vilaboa,Pontevedra,Cobres
+Cruzamento da AP-4 com a AP-4A,Dos Hermanas,Sevilha,
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-6 com a AP-51,Villacastín,Segóvia,
 Cruzamento da AP-6 com a AP-61,El Espinar,Segóvia,
@@ -1215,12 +1216,14 @@ Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
 Cruzamento da SE-20 com a SE-30,Sevilha,Sevilha,Triana
 Cruzamento Este da A-7 com a MA-24,Rincón de la Victoria,Málaga,
 Cruzamento Este da M-50 com a R-2,Paracuellos de Jarama,Comunidade de Madrid,
+Cruzamento Norte da A-4 com a AP-4,Dos Hermanas,Sevilha,
 Cruzamento Norte da A-7 com a A-30,Murcia,Região de Murcia,El Puntal
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Norte da A-55 com a AP-9,Vigo,Pontevedra,Cabral
 Cruzamento Norte da A-62 com a A-66,Villares de la Reina,Salamanca,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
 Cruzamento Oeste da M-50 com a R-2,San Sebastián de los Reyes,Comunidade de Madrid,
+Cruzamento Sul da A-4 com a AP-4,Puerto Real,Cádiz,
 Cruzamento Sul da A-7 com a A-30,Murcia,Região de Murcia,Guadalupe
 Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
 Cruzamento Sul da A-55 com a AP-9,Tui,Pontevedra,Rebordáns
@@ -1290,6 +1293,7 @@ Flecha del Rompido,Lepe,Huelva,
 Fronteira Espanha-Gibraltar - Lado espanhol,La Línea de la Concepción,Cádiz,
 Gelves,Gelves,Sevilha,
 Gibraleón,Gibraleón,Huelva,
+Glorieta de los Cipreses,Dos Hermanas,Sevilha,
 Glorieta Llaves de la Ciudad,Santa Marta de Tormes,Salamanca,
 GR-30 - Saída 1,Albolote,Granada,
 GR-30 - Saída 2,Albolote,Granada,
@@ -1337,6 +1341,7 @@ La Puebla de Cazalla,La Puebla de Cazalla,Sevilha,
 La Redondela,Isla Cristina,Huelva,
 Laguna del Portil,Punta Umbría,Huelva,
 Lepe,Lepe,Huelva,
+Los Palacios y Villafranca,Los Palacios y Villafranca,Sevilha,
 M-11 - Saída 1,Madrid,Comunidade de Madrid,Hortaleza
 M-14 - T1-T2-T3 Norte,Madrid,Comunidade de Madrid,Barajas
 M-14 - T1-T2-T3 Sul,Madrid,Comunidade de Madrid,Barajas
@@ -1448,6 +1453,7 @@ Plaza de Quintero Báez,Huelva,Huelva,
 Plaza del Huerto Paco,Huelva,Huelva,
 "Plaza del Lino, Huelva",Huelva,Huelva,
 "Plaza Doce de Octubre, Huelva",Huelva,Huelva,
+Polígono Industrial Aceitunero,Dos Hermanas,Sevilha,
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Polígono Industrial Fortiz,Huelva,Huelva,
 Polígono Industrial Francisco Montenegro,Huelva,Huelva,

@@ -2134,14 +2134,26 @@ A-4 - Saída 536,Cruzamento da A-4 Norte com a SE-30,Car,False,Carmona
 A-4 - Saída 536,Cruzamento da A-4 Norte com a SE-30,Car,False,Córdoba
 A-4 - Saída 536,Cruzamento da A-4 Norte com a SE-30,Car,True,Cádiz
 A-4 - Saída 536,Cruzamento da A-4 Norte com a SE-30,Car,True,Sevilha
-A-4 - Saída 553,A-4 - Saída 558,Car,False,Sevilha
-A-4 - Saída 553,A-4 - Saída 558,Car,True,Cádiz
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Car,False,Cádiz
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Car,False,Dos Hermanas
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Car,True,Aeroporto de Sevilha
 A-4 - Saída 553,Cruzamento da A-4 Sul com a SE-40,Car,True,Sevilha
-A-4 - Saída 558,AP-4 - Início,Car,False,Sevilha
-A-4 - Saída 558,AP-4 - Início,Car,True,Cádiz
+A-4 - Saída 553,Cruzamento Norte da A-4 com a AP-4,Car,False,Sevilha
+A-4 - Saída 553,Cruzamento Norte da A-4 com a AP-4,Car,True,Cádiz
+A-4 - Saída 560,A-4 - Saída 562,Car,False,Dos Hermanas
+A-4 - Saída 560,A-4 - Saída 562,Car,False,Sevilha
+A-4 - Saída 560,A-4 - Saída 562,Car,True,Los Palacios y Villafranca
+A-4 - Saída 560,Cruzamento Norte da A-4 com a AP-4,Car,False,Los Palacios y Villafranca
+A-4 - Saída 560,Cruzamento Norte da A-4 com a AP-4,Car,True,Dos Hermanas
+A-4 - Saída 560,Cruzamento Norte da A-4 com a AP-4,Car,True,Sevilha
+A-4 - Saída 562,A-4 - Saída 565,Car,False,Dos Hermanas
+A-4 - Saída 562,A-4 - Saída 565,Car,False,Sevilha
+A-4 - Saída 562,A-4 - Saída 565,Car,True,Cádiz
+A-4 - Saída 562,A-4 - Saída 565,Car,True,Los Palacios y Villafranca
+A-4 - Saída 565,Los Palacios y Villafranca,Car,False,Dos Hermanas
+A-4 - Saída 565,Los Palacios y Villafranca,Car,False,Sevilha
+A-4 - Saída 565,Los Palacios y Villafranca,Car,True,Cádiz
+A-4 - Saída 565,Los Palacios y Villafranca,Car,True,Los Palacios y Villafranca - Norte
 A-4 - Saída 628,A-4 - Saída 631,Car,False,Aeroporto de Jerez
 A-4 - Saída 628,A-4 - Saída 631,Car,False,El Cuervo de Sevilla
 A-4 - Saída 628,A-4 - Saída 631,Car,False,Sevilha
@@ -2195,10 +2207,10 @@ A-4 - Saída 660,A-4 - Saída 664,Car,False,Sevilha
 A-4 - Saída 660,A-4 - Saída 664,Car,True,A-48 - Algeciras
 A-4 - Saída 660,A-4 - Saída 664,Car,True,Cádiz
 A-4 - Saída 660,A-4 - Saída 664,Car,True,San Fernando
-A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,False,A-48 - Algeciras
-A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,False,San Fernando
-A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,True,Jerez de la Frontera
-A-4 - Saída 660,Cruzamento da A-4 com a AP-4,Car,True,Sevilha
+A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,False,A-48 - Algeciras
+A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,False,San Fernando
+A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,True,Jerez de la Frontera
+A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,True,Sevilha
 A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,False,AP-4 - Sevilha
 A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,False,Puerto Real
 A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,False,Sevilha
@@ -5354,6 +5366,9 @@ A-376 - Condequinto,A-376 - Universidade Pablo de Olavide,Car,True,Sevilha
 A-376 - Fim da auto-estrada,A-376 - Saída 21,Car,False,Ronda
 A-376 - Fim da auto-estrada,A-376 - Saída 21,Car,False,Utrera
 A-376 - Fim da auto-estrada,A-376 - Saída 21,Car,True,Sevilha
+A-376 - Fim da auto-estrada,Cruzamento da A-362 com a A-375 e a A-376,Car,False,Sevilha
+A-376 - Fim da auto-estrada,Cruzamento da A-362 com a A-375 e a A-376,Car,True,El Coronil
+A-376 - Fim da auto-estrada,Cruzamento da A-362 com a A-375 e a A-376,Car,True,Ronda
 A-376 - Montequinto,A-376 - Saída 4A,Car,False,Sevilha
 A-376 - Montequinto,A-376 - Saída 4A,Car,True,Utrera
 A-376 - Saída 4A,A-376 - Saída 4B,Car,False,Sevilha
@@ -5667,11 +5682,6 @@ Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Train,False,Aya
 Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Train,True,Gibraleón
 Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Train,True,Huelva
 Antiga Estação de Isla Cristina - Pozo del Camino,La Redondela,Train,True,Zafra
-AP-4 - Início,AP-4A - Saída 13,Car,False,Cádiz
-AP-4 - Início,AP-4A - Saída 13,Car,False,Jerez de la Frontera
-AP-4 - Início,AP-4A - Saída 13,Car,True,Dos Hermanas
-AP-4 - Início,Área de Serviço de Los Palacios,Car,False,Sevilha
-AP-4 - Início,Área de Serviço de Los Palacios,Car,True,Cádiz
 AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Car,False,Los Palacios y Villafranca
 AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Car,False,Sevilha
 AP-4 - Saída 23-24,Área de Serviço de El Fantasma,Car,True,Cádiz
@@ -5910,6 +5920,8 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,True,A26 - Beja
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,True,Algarve
+Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,False,Cádiz
+Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,True,Sevilha
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,False,Estepona
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,False,Málaga
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,True,Algeciras
@@ -6541,24 +6553,17 @@ Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,False,Jerez de l
 Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,False,Sevilha
 Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,True,Cádiz
 Cruzamento da A-4 com a A-491,Cruzamento da A-4 com a CA-37,Car,True,Puerto Real
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,False,A-48 - Algeciras
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,False,AP-4 - Sevilha
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,False,San Fernando
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,True,El Puerto de Santa María
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,True,Jerez de la Frontera
-Cruzamento da A-4 com a AP-4,Cruzamento da A-4 com a CA-37,Car,True,Sevilha
-Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Car,False,Cádiz
-Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Car,True,Jerez de la Frontera
-Cruzamento da A-4 com a AP-4,Cruzamento da A-381 com a AP-4,Car,True,Sevilha
-Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,False,A-48 - Algeciras
-Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,False,Jerez de la Frontera
-Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,False,Sevilha
-Cruzamento da A-4 com a AP-4,Cruzamento da AP-4 com a CA-32,Car,True,Cádiz
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,False,AP-36 - Albacete
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,False,Córdoba
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,False,Puerto Lápice
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,True,Aranjuez
 Cruzamento da A-4 com a AP-36 e a R-4,Cruzamento da A-40 com a R-4,Car,True,Madrid
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,False,El Puerto de Santa María
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,False,Jerez de la Frontera
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,False,Sevilha
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,A-48 - Algeciras
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,AP-4 - Sevilha
+Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,San Fernando
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-5
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-6
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-42 - Toledo
@@ -6971,6 +6976,9 @@ Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Car,True,A-4 - Cádiz/Sevilha
 Cruzamento da A-376 com a SE-40,SE-40 - Saída 19,Car,True,Dos Hermanas
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Car,False,Cádiz
 Cruzamento da A-381 com a AP-4,Cruzamento da A-382 com a AP-4,Car,True,Sevilha
+Cruzamento da A-381 com a AP-4,Cruzamento Sul da A-4 com a AP-4,Car,False,Jerez de la Frontera
+Cruzamento da A-381 com a AP-4,Cruzamento Sul da A-4 com a AP-4,Car,False,Sevilha
+Cruzamento da A-381 com a AP-4,Cruzamento Sul da A-4 com a AP-4,Car,True,Cádiz
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Car,False,Alhambra
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Car,False,Motril
 Cruzamento da A-395 com a GR-30,GR-30 - Saída 15,Car,False,Sierra Nevada
@@ -7003,9 +7011,18 @@ Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,False,Santiago de Compostela
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Portugal
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Tui
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Vigo
+Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,False,Cádiz
+Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,True,Sevilha
+Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,False,Cádiz
+Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,False,Jerez de la Frontera
+Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,True,Dos Hermanas
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,False,Puerto Real
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,False,Sevilha
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,True,CA-35/CA-36 - Cádiz
+Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,False,Cádiz
+Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,A-48 - Algeciras
+Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Jerez de la Frontera
+Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Sevilha
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,AG-57 - Baiona
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,O Porriño
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,Portugal
@@ -7594,6 +7611,10 @@ Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,False,Zaragoza
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,A-1 - Burgos
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,Aeroporto de Madrid-Barajas
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,Madrid - Norte
+Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,False,Cádiz
+Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,False,Jerez de la Frontera
+Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,False,Los Palacios y Villafranca
+Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,True,Dos Hermanas - Sul
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,False,Jaén
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,A-92 - Málaga/Murcia
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,Granada
@@ -9798,6 +9819,10 @@ Fuseta,Quatro Águas,Boat,False,Faro
 Fuseta,Quatro Águas,Boat,False,Portimão
 Fuseta,Quatro Águas,Boat,True,Huelva
 Fuseta,Quatro Águas,Boat,True,Vila Real de Santo António
+Glorieta de los Cipreses,Polígono Industrial Aceitunero,Car,False,Cádiz
+Glorieta de los Cipreses,Polígono Industrial Aceitunero,Car,True,Dos Hermanas - Avenida 4 de Diciembre
+Glorieta de los Cipreses,Polígono Industrial Aceitunero,Car,True,Dos Hermanas
+Glorieta de los Cipreses,Polígono Industrial Aceitunero,Car,True,Sevilha
 GR-30 - Saída 1,GR-30 - Saída 2,Car,False,Jaén
 GR-30 - Saída 1,GR-30 - Saída 2,Car,False,Madrid
 GR-30 - Saída 1,GR-30 - Saída 2,Car,True,A-92 - Málaga/Murcia

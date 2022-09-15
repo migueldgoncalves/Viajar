@@ -415,7 +415,9 @@ A-4 - Saída 532,37.42622,-5.900927,25,,400
 A-4 - Saída 533,37.421688,-5.910486,23,,400
 A-4 - Saída 536,37.409374,-5.943179,18,,400
 A-4 - Saída 553,37.270712,-5.973847,20,,300
-A-4 - Saída 558,37.251677,-5.922562,43,,400
+A-4 - Saída 560,37.23284,-5.92620,38,,2700
+A-4 - Saída 562,37.21438,-5.92057,22,,2700
+A-4 - Saída 565,37.18258,-5.92527,16,,2700
 A-4 - Saída 628,36.755154,-6.074909,38,,800
 A-4 - Saída 631,36.732508,-6.090168,37,,800
 A-4 - Saída 632,36.72337,-6.09939,31,,2600
@@ -1186,11 +1188,9 @@ Ameixal,37.364243,-7.963277,418,,400
 Antiga Estação de Aljaraque,37.322834,-7.057116,47,,1500
 Antiga Estação de Huelva-Término,37.253058,-6.950975,3,,2100
 Antiga Estação de Isla Cristina - Pozo del Camino,37.221285,-7.322543,4,,200
-AP-4 - Início,37.242204,-5.910401,53,,600
 AP-4 - Saída 23-24,37.163431,-5.908798,9,,800
 AP-4 - Saída 44-45,36.979134,-5.951837,17,,800
 AP-4 - Saída 53,36.907668,-5.969706,29,,800
-AP-4A - Saída 13,37.261139,-5.920742,48,,600
 AP-6 - Saída 42,40.642726,-4.031608,880,,2500
 AP-6 - Saída 47,40.657523,-4.094114,957,,2500
 AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
@@ -1467,7 +1467,6 @@ Cruzamento da A-4 com a A-45,37.826958,-4.794385,140,,800
 Cruzamento da A-4 com a A-48 e a CA-33,36.46781,-6.16836,4,,2700
 Cruzamento da A-4 com a A-480,36.68324,-6.17233,16,,2700
 Cruzamento da A-4 com a A-491,36.61301,-6.18738,5,,2700
-Cruzamento da A-4 com a AP-4,36.540948,-6.168066,6,,900
 Cruzamento da A-4 com a AP-36 e a R-4,39.921148,-3.479330,729,,1300
 Cruzamento da A-4 com a CA-37,36.56175,-6.18664,4,,2700
 Cruzamento da A-4 com a CM-42,39.447025,-3.526245,686,,1300
@@ -1536,6 +1535,7 @@ Cruzamento da A-92 com a SE-40,37.362057,-5.873598,38,,600
 Cruzamento da A-316 com a A-44,37.817640,-3.765726,376,,1400
 Cruzamento da A-318 com a A-45,37.406934,-4.530687,424,,1200
 Cruzamento da A-357 com a A-7,36.712259,-4.509674,22,,1000
+Cruzamento da A-362 com a A-375 e a A-376,37.18030,-5.80208,30,,2700
 Cruzamento da A-376 com a SE-30,37.359407,-5.955099,10,,300
 Cruzamento da A-376 com a SE-40,37.317631,-5.897760,68,,600
 Cruzamento da A-381 com a A-7,36.171301,-5.456101,3,,900
@@ -1550,6 +1550,7 @@ Cruzamento da A-8005 com a SE-20,37.433983,-5.966298,11,,600
 Cruzamento da A-8009 com a SE-20,37.436078,-5.973137,13,,600
 Cruzamento da AG-41 com a AP-9,42.518207,-8.665082,154,,2600
 Cruzamento da AG-46 com a AP-9,42.29533,-8.65780,52,,2600
+Cruzamento da AP-4 com a AP-4A,37.242204,-5.910401,53,,600
 Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
@@ -1633,12 +1634,14 @@ Cruzamento do IC4 com a N125,37.073374,-7.97838,33,,300
 Cruzamento do IC16 com a IC17 CRIL,38.76861,-9.20883,54,,2300
 Cruzamento Este da A-7 com a MA-24,36.723538,-4.301936,88,,1200
 Cruzamento Este da M-50 com a R-2,40.510046,-3.494481,652,,2600
+Cruzamento Norte da A-4 com a AP-4,37.251677,-5.922562,43,,400
 Cruzamento Norte da A-7 com a A-30,38.03055,-1.15462,92,,2400
 Cruzamento Norte da A-44 com a GR-30,37.271002,-3.658168,672,,1400
 Cruzamento Norte da A-55 com a AP-9,42.21112,-8.66209,270,,2300
 Cruzamento Norte da A-62 com a A-66,40.99619,-5.67464,811,,2600
 Cruzamento Oeste da A-7 com a MA-24,36.732357,-4.353453,106,,1200
 Cruzamento Oeste da M-50 com a R-2,40.54173,-3.57015,599,,2600
+Cruzamento Sul da A-4 com a AP-4,36.540948,-6.168066,6,,900
 Cruzamento Sul da A-7 com a A-30,38.00695,-1.16717,73,,2400
 Cruzamento Sul da A-44 com a GR-30,37.058625,-3.655178,828,,1500
 Cruzamento Sul da A-55 com a AP-9,42.06719,-8.63911,19,,2300
@@ -2026,6 +2029,7 @@ Gare do Oriente,38.767983,-9.099004,6,,1700
 Gelves,37.340953,-6.02616,6,,400
 Gibraleón,37.375423,-6.968658,27,,200
 Giões,37.471661,-7.695203,205,,30
+Glorieta de los Cipreses,37.261139,-5.920742,48,,600
 Glorieta Llaves de la Ciudad,40.95119,-5.65180,777,,2600
 GR-30 - Saída 1,37.262213,-3.65917,690,,1400
 GR-30 - Saída 2,37.248385,-3.655862,687,,1500
@@ -2150,6 +2154,7 @@ Lepe,37.255024,-7.20303,21,,200
 Lisboa Camping & Bungalows,38.72415,-9.20488,91,Parque Florestal de Monsanto,2300
 Livramento,37.074243,-7.732431,10,,200
 Lombardos,37.587178,-7.642559,123,Parque Natural do Vale do Guadiana,600
+Los Palacios y Villafranca,37.1617,-5.9238,13,,2700
 Loulé,37.138646,-8.020993,176,,400
 Luz de Tavira,37.092083,-7.704389,33,,200
 "Luz, Lagos",37.086444,-8.730622,28,,500
@@ -2339,6 +2344,7 @@ Plaza del Huerto Paco,37.26677,-6.94304,33,,2100
 "Plaza del Lino, Huelva",37.25966,-6.95356,3,,2100
 "Plaza Doce de Octubre, Huelva",37.255825,-6.957236,3,,2100
 Poço Barreto,37.164008,-8.388715,43,,400
+Polígono Industrial Aceitunero,37.2686,-5.9287,46,,2700
 Polígono Industrial de Ayamonte,37.232794,-7.391258,7,,300
 Polígono Industrial Fortiz,37.292135,-6.897049,7,,2100
 Polígono Industrial Francisco Montenegro,37.2290,-6.9467,5,,2100
