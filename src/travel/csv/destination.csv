@@ -1471,6 +1471,36 @@ A-2 - Saída 73,A-2 - Saída 75,Car,False,Guadalajara
 A-2 - Saída 73,A-2 - Saída 75,Car,False,Madrid
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Barcelona
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Zaragoza
+A-4 - Saída 39,A-4 - Saída 44,Car,False,Madrid
+A-4 - Saída 39,A-4 - Saída 44,Car,True,Córdoba
+A-4 - Saída 44,A-4 - Saída 47,Car,False,Madrid
+A-4 - Saída 44,A-4 - Saída 47,Car,True,Córdoba
+A-4 - Saída 44,A-4 - Saída 47,Car,True,Ocaña
+A-4 - Saída 47,A-4 - Saída 52,Car,False,Madrid
+A-4 - Saída 47,A-4 - Saída 52,Car,True,Córdoba
+A-4 - Saída 47,A-4 - Saída 52,Car,True,Ocaña
+A-4 - Saída 52,A-4 - Saída 53-54,Car,False,Aranjuez
+A-4 - Saída 52,A-4 - Saída 53-54,Car,False,Madrid
+A-4 - Saída 52,A-4 - Saída 53-54,Car,True,Córdoba
+A-4 - Saída 52,A-4 - Saída 53-54,Car,True,Ocaña
+A-4 - Saída 53-54,A-4 - Saída 55,Car,False,Aranjuez
+A-4 - Saída 53-54,A-4 - Saída 55,Car,False,Madrid
+A-4 - Saída 53-54,A-4 - Saída 55,Car,True,Ocaña
+A-4 - Saída 55,A-4 - Saída 56,Car,False,Aranjuez
+A-4 - Saída 55,A-4 - Saída 56,Car,False,Madrid
+A-4 - Saída 55,A-4 - Saída 56,Car,True,Ocaña
+A-4 - Saída 56,A-4 - Saída 58,Car,False,Aranjuez
+A-4 - Saída 56,A-4 - Saída 58,Car,False,Madrid
+A-4 - Saída 56,A-4 - Saída 58,Car,True,Ocaña
+A-4 - Saída 58,A-4 - Saída 61,Car,False,Aranjuez
+A-4 - Saída 58,A-4 - Saída 61,Car,False,Madrid
+A-4 - Saída 58,A-4 - Saída 61,Car,True,Córdoba
+A-4 - Saída 58,A-4 - Saída 61,Car,True,Ocaña
+A-4 - Saída 61,Cruzamento da A-4 com a A-40,Car,False,Aranjuez
+A-4 - Saída 61,Cruzamento da A-4 com a A-40,Car,False,Madrid
+A-4 - Saída 61,Cruzamento da A-4 com a A-40,Car,True,Bailén
+A-4 - Saída 61,Cruzamento da A-4 com a A-40,Car,True,Córdoba
+A-4 - Saída 61,Cruzamento da A-4 com a A-40,Car,True,Puerto Lápice
 A-4 - Saída 69,A-4 - Saída 70,Car,False,Madrid
 A-4 - Saída 69,A-4 - Saída 70,Car,False,Ocaña
 A-4 - Saída 69,A-4 - Saída 70,Car,True,Bailén
@@ -3666,6 +3696,16 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,False,Toledo
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,False,Torrijos
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,True,Ávila
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,True,Maqueda
+A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,False,R-4 - Madrid
+A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,True,Cuenca
+A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,True,Tarancón
+A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,False,Cuenca
+A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,False,Ocaña
+A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,False,Tarancón
+A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,True,R-4 - Madrid
+A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Cuenca
+A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Tarancón
+A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,True,R-4 - Madrid
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,False,Madrid - Glorieta de Santa María de la Cabeza
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,R-5 - Badajoz/Toledo
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,Toledo
