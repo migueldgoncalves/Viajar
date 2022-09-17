@@ -2956,6 +2956,26 @@ A-6 - Saída 156,A-6 - Saída 157,Car,False,Madrid
 A-6 - Saída 156,A-6 - Saída 157,Car,True,A Coruña
 A-6 - Saída 156,A-6 - Saída 157,Car,True,A-62 - Valladolid
 A-6 - Saída 156,A-6 - Saída 157,Car,True,Tordesillas
+A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
+A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
+A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
+A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Málaga
+A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,False,Estepona
+A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,False,Málaga
+A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,True,Algeciras
+A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,True,Cádiz
+A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,False,Algeciras
+A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,False,Cádiz
+A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,True,Estepona
+A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,True,Málaga
+A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Estepona
+A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Málaga
+A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Algeciras
+A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Cádiz
+A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,False,Algeciras
+A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,False,Cádiz
+A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,True,Estepona
+A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,True,Málaga
 A-7 - Saída 103,A-7 - Saída 104,Car,False,Cádiz
 A-7 - Saída 103,A-7 - Saída 104,Car,False,Tarifa
 A-7 - Saída 103,A-7 - Saída 104,Car,True,Málaga
@@ -3633,6 +3653,21 @@ A-7 - Saída 655,Cruzamento da A-7 com a A-91,Car,False,Almería
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Car,False,Vera
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Car,True,Lorca
 A-7 - Saída 655,Cruzamento da A-7 com a A-91,Car,True,Murcia
+A-7 - Torreguadiaro Norte,A-7 - Torreguadiaro Sul,Car,False,Estepona
+A-7 - Torreguadiaro Norte,A-7 - Torreguadiaro Sul,Car,False,Málaga
+A-7 - Torreguadiaro Norte,A-7 - Torreguadiaro Sul,Car,True,Algeciras
+A-7 - Torreguadiaro Norte,A-7 - Torreguadiaro Sul,Car,True,AP-7 - Estepona/Málaga
+A-7 - Torreguadiaro Norte,A-7 - Torreguadiaro Sul,Car,True,Cádiz
+A-7 - Torreguadiaro Norte,A-7 - Urbanización San Diego,Car,False,Algeciras
+A-7 - Torreguadiaro Norte,A-7 - Urbanización San Diego,Car,False,Cádiz
+A-7 - Torreguadiaro Norte,A-7 - Urbanización San Diego,Car,True,Estepona
+A-7 - Torreguadiaro Norte,A-7 - Urbanización San Diego,Car,True,Málaga
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,False,Estepona
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,False,Málaga
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,False,Torreguadiaro
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,Algeciras
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,AP-7 - Estepona/Málaga
+A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,Cádiz
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Albacete
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Alicante
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Molina de Segura
