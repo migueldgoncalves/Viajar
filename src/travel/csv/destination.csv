@@ -6388,6 +6388,9 @@ Cruzamento da A1 com a A20,Cruzamento da A20 com a A32,Car,True,Porto
 Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Car,False,A1 - Lisboa/Porto
 Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Car,False,Viseu
 Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Car,True,Aveiro
+Cruzamento da A1 com a A25,Estação de Urgueiras,Car,False,Angeja
+Cruzamento da A1 com a A25,Estação de Urgueiras,Car,False,Sobreiro
+Cruzamento da A1 com a A25,Estação de Urgueiras,Car,True,Albergaria-a-Velha
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Car,False,Grândola
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Car,False,Lisboa
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Car,True,Algarve
@@ -7971,6 +7974,30 @@ Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Entreca
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Águeda,Estação de Mourisca do Vouga,Train,False,Aveiro
+Estação de Águeda,Estação de Mourisca do Vouga,Train,False,Lisboa - Santa Apolónia
+Estação de Águeda,Estação de Mourisca do Vouga,Train,True,Espinho
+Estação de Águeda,Estação de Mourisca do Vouga,Train,True,Macinhata do Vouga
+Estação de Águeda,Estação de Mourisca do Vouga,Train,True,Porto - Campanhã
+Estação de Águeda,Estação de Mourisca do Vouga,Train,True,Sernada do Vouga
+Estação de Águeda,Estação de Oronhe,Train,False,Espinho
+Estação de Águeda,Estação de Oronhe,Train,False,Macinhata do Vouga
+Estação de Águeda,Estação de Oronhe,Train,False,Porto - Campanhã
+Estação de Águeda,Estação de Oronhe,Train,False,Sernada do Vouga
+Estação de Águeda,Estação de Oronhe,Train,True,Aveiro
+Estação de Águeda,Estação de Oronhe,Train,True,Lisboa - Santa Apolónia
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,False,Espinho
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,False,Macinhata do Vouga
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,False,Porto - Campanhã
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,False,Sernada do Vouga
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,True,Aveiro
+Estação de Aguieira,Estação de Mourisca do Vouga,Train,True,Lisboa - Santa Apolónia
+Estação de Aguieira,Estação de Valongo do Vouga,Train,False,Aveiro
+Estação de Aguieira,Estação de Valongo do Vouga,Train,False,Lisboa - Santa Apolónia
+Estação de Aguieira,Estação de Valongo do Vouga,Train,True,Espinho
+Estação de Aguieira,Estação de Valongo do Vouga,Train,True,Macinhata do Vouga
+Estação de Aguieira,Estação de Valongo do Vouga,Train,True,Porto - Campanhã
+Estação de Aguieira,Estação de Valongo do Vouga,Train,True,Sernada do Vouga
 Estação de Aguim,Estação de Curia,Train,False,Lisboa - Santa Apolónia
 Estação de Aguim,Estação de Curia,Train,False,Pampilhosa
 Estação de Aguim,Estação de Curia,Train,True,Aveiro
@@ -7989,6 +8016,33 @@ Estação de Albergaria dos Doze,Estação de Litém,Train,False,Lisboa - Santa 
 Estação de Albergaria dos Doze,Estação de Litém,Train,True,Coimbra-B
 Estação de Albergaria dos Doze,Estação de Litém,Train,True,Pombal
 Estação de Albergaria dos Doze,Estação de Litém,Train,True,Porto - Campanhã
+Estação de Albergaria-a-Nova,Estação de Branca,Car,False,Aveiro
+Estação de Albergaria-a-Nova,Estação de Branca,Car,False,Lisboa - Santa Apolónia
+Estação de Albergaria-a-Nova,Estação de Branca,Car,False,Macinhata do Vouga
+Estação de Albergaria-a-Nova,Estação de Branca,Car,False,Sernada do Vouga
+Estação de Albergaria-a-Nova,Estação de Branca,Car,True,Espinho
+Estação de Albergaria-a-Nova,Estação de Branca,Car,True,Oliveira de Azeméis
+Estação de Albergaria-a-Nova,Estação de Branca,Car,True,Porto - Campanhã
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,False,Espinho
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,False,Oliveira de Azeméis
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,False,Porto - Campanhã
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,True,Aveiro
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,True,Lisboa - Santa Apolónia
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,True,Macinhata do Vouga
+Estação de Albergaria-a-Nova,Estação de Urgueiras,Car,True,Sernada do Vouga
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,False,Espinho
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,False,Oliveira de Azeméis
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,False,Porto - Campanhã
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,True,Aveiro
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,True,Lisboa - Santa Apolónia
+Estação de Albergaria-a-Velha,Estação de Sernada do Vouga,Car,True,Macinhata do Vouga
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,False,Aveiro
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,False,Lisboa - Santa Apolónia
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,False,Macinhata do Vouga
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,False,Sernada do Vouga
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,True,Espinho
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,True,Oliveira de Azeméis
+Estação de Albergaria-a-Velha,Estação de Urgueiras,Car,True,Porto - Campanhã
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Train,False,Lagos
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Train,False,Tunes
 Estação de Albufeira - Ferreiras,Estação de Boliqueime,Train,True,Faro
@@ -8224,6 +8278,16 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Car,False,Colos
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Car,False,Estação de Amoreiras - Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Car,False,Odemira
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Car,True,São Martinho das Amoreiras
+Estação de Arrifana,Estação de Escapães,Train,False,Aveiro
+Estação de Arrifana,Estação de Escapães,Train,False,Lisboa - Santa Apolónia
+Estação de Arrifana,Estação de Escapães,Train,False,Oliveira de Azeméis
+Estação de Arrifana,Estação de Escapães,Train,True,Espinho
+Estação de Arrifana,Estação de Escapães,Train,True,Porto - Campanhã
+Estação de Arrifana,Estação de São João da Madeira,Train,False,Espinho
+Estação de Arrifana,Estação de São João da Madeira,Train,False,Porto - Campanhã
+Estação de Arrifana,Estação de São João da Madeira,Train,True,Aveiro
+Estação de Arrifana,Estação de São João da Madeira,Train,True,Lisboa - Santa Apolónia
+Estação de Arrifana,Estação de São João da Madeira,Train,True,Oliveira de Azeméis
 Estação de Arronches,Estação de Assumar,Train,False,Badajoz
 Estação de Arronches,Estação de Assumar,Train,False,Elvas
 Estação de Arronches,Estação de Assumar,Train,True,Entroncamento
@@ -8250,6 +8314,12 @@ Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Porto - Campan
 Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,False,Vila Nova de Gaia
 Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,True,Entroncamento
 Estação de Aveiro,Estação de Coimbra-B,High-Speed Train,True,Lisboa - Oriente
+Estação de Aveiro,Estação de Esgueira,Train,False,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Esgueira,Train,False,Pampilhosa
+Estação de Aveiro,Estação de Esgueira,Train,True,Espinho
+Estação de Aveiro,Estação de Esgueira,Train,True,Macinhata do Vouga
+Estação de Aveiro,Estação de Esgueira,Train,True,Porto - Campanhã
+Estação de Aveiro,Estação de Esgueira,Train,True,Sernada do Vouga
 Estação de Aveiro,Estação de Mealhada,Train,False,Espinho
 Estação de Aveiro,Estação de Mealhada,Train,False,Porto - Campanhã
 Estação de Aveiro,Estação de Mealhada,Train,True,Lisboa - Santa Apolónia
@@ -8262,6 +8332,18 @@ Estação de Aveiro,Estação de Quintans,Train,False,Espinho
 Estação de Aveiro,Estação de Quintans,Train,False,Porto - Campanhã
 Estação de Aveiro,Estação de Quintans,Train,True,Lisboa - Santa Apolónia
 Estação de Aveiro,Estação de Quintans,Train,True,Pampilhosa
+Estação de Azurva,Estação de Eixo,Train,False,Aveiro
+Estação de Azurva,Estação de Eixo,Train,False,Lisboa - Santa Apolónia
+Estação de Azurva,Estação de Eixo,Train,True,Espinho
+Estação de Azurva,Estação de Eixo,Train,True,Macinhata do Vouga
+Estação de Azurva,Estação de Eixo,Train,True,Porto - Campanhã
+Estação de Azurva,Estação de Eixo,Train,True,Sernada do Vouga
+Estação de Azurva,Estação de Esgueira,Train,False,Espinho
+Estação de Azurva,Estação de Esgueira,Train,False,Macinhata do Vouga
+Estação de Azurva,Estação de Esgueira,Train,False,Porto - Campanhã
+Estação de Azurva,Estação de Esgueira,Train,False,Sernada do Vouga
+Estação de Azurva,Estação de Esgueira,Train,True,Aveiro
+Estação de Azurva,Estação de Esgueira,Train,True,Lisboa - Santa Apolónia
 Estação de Badajoz,Estação de Elvas,Train,False,Badajoz
 Estação de Badajoz,Estação de Elvas,Train,False,Espanha
 Estação de Badajoz,Estação de Elvas,Train,True,Entroncamento
@@ -8474,6 +8556,25 @@ Estação de Braço de Prata,Gare do Oriente,Train,False,Sintra
 Estação de Braço de Prata,Gare do Oriente,Train,True,Azambuja
 Estação de Braço de Prata,Gare do Oriente,Train,True,Porto - Campanhã
 Estação de Braço de Prata,Gare do Oriente,Train,True,Vila Franca de Xira
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Aveiro
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Lisboa - Santa Apolónia
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Macinhata do Vouga
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Sernada do Vouga
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,True,Espinho
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,True,Oliveira de Azeméis
+Estação de Branca,Estação de Pinheiro da Bemposta,Car,True,Porto - Campanhã
+Estação de Cabanões,Estação de Casal do Álvaro,Train,False,Aveiro
+Estação de Cabanões,Estação de Casal do Álvaro,Train,False,Lisboa - Santa Apolónia
+Estação de Cabanões,Estação de Casal do Álvaro,Train,True,Espinho
+Estação de Cabanões,Estação de Casal do Álvaro,Train,True,Macinhata do Vouga
+Estação de Cabanões,Estação de Casal do Álvaro,Train,True,Porto - Campanhã
+Estação de Cabanões,Estação de Casal do Álvaro,Train,True,Sernada do Vouga
+Estação de Cabanões,Estação de Travassô,Train,False,Espinho
+Estação de Cabanões,Estação de Travassô,Train,False,Macinhata do Vouga
+Estação de Cabanões,Estação de Travassô,Train,False,Porto - Campanhã
+Estação de Cabanões,Estação de Travassô,Train,False,Sernada do Vouga
+Estação de Cabanões,Estação de Travassô,Train,True,Aveiro
+Estação de Cabanões,Estação de Travassô,Train,True,Lisboa - Santa Apolónia
 Estação de Cacela,Estação de Castro Marim,Train,False,Faro
 Estação de Cacela,Estação de Castro Marim,Train,False,Lagos
 Estação de Cacela,Estação de Castro Marim,Train,True,Vila Real de Santo António
@@ -8578,6 +8679,17 @@ Estação de Carregal do Sal,Estação de Santa Comba Dão,Train,False,Guarda
 Estação de Carregal do Sal,Estação de Santa Comba Dão,Train,True,Lisboa - Santa Apolónia
 Estação de Carregal do Sal,Estação de Santa Comba Dão,Train,True,Pampilhosa
 Estação de Carregal do Sal,Estação de Santa Comba Dão,Train,True,Porto - Campanhã
+Estação de Carvalhal da Portela,Estação de Macinhata do Vouga,Train,False,Aveiro
+Estação de Carvalhal da Portela,Estação de Macinhata do Vouga,Train,False,Lisboa - Santa Apolónia
+Estação de Carvalhal da Portela,Estação de Macinhata do Vouga,Train,True,Espinho
+Estação de Carvalhal da Portela,Estação de Macinhata do Vouga,Train,True,Porto - Campanhã
+Estação de Carvalhal da Portela,Estação de Macinhata do Vouga,Train,True,Sernada do Vouga
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Espinho
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Macinhata do Vouga
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Porto - Campanhã
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Sernada do Vouga
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,True,Aveiro
+Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,True,Lisboa - Santa Apolónia
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,False,Tomar
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,True,Entroncamento
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,True,Lisboa - Santa Apolónia
@@ -8598,6 +8710,12 @@ Estação de Casais,Estação de Taveiro,Train,False,Porto - Campanhã
 Estação de Casais,Estação de Taveiro,Train,True,Alfarelos
 Estação de Casais,Estação de Taveiro,Train,True,Figueira da Foz
 Estação de Casais,Estação de Taveiro,Train,True,Lisboa - Santa Apolónia
+Estação de Casal do Álvaro,Estação de Oronhe,Train,False,Aveiro
+Estação de Casal do Álvaro,Estação de Oronhe,Train,False,Lisboa - Santa Apolónia
+Estação de Casal do Álvaro,Estação de Oronhe,Train,True,Espinho
+Estação de Casal do Álvaro,Estação de Oronhe,Train,True,Macinhata do Vouga
+Estação de Casal do Álvaro,Estação de Oronhe,Train,True,Porto - Campanhã
+Estação de Casal do Álvaro,Estação de Oronhe,Train,True,Sernada do Vouga
 Estação de Cascais,Estação de Monte Estoril,Train,False,Cascais
 Estação de Cascais,Estação de Monte Estoril,Train,True,Lisboa - Cais do Sodré
 Estação de Cascais,Estação de Monte Estoril,Train,True,São Pedro do Estoril
@@ -8641,6 +8759,16 @@ Estação de Castro Marim,Estação de Monte Gordo,Train,False,Lagos
 Estação de Castro Marim,Estação de Monte Gordo,Train,True,Vila Real de Santo António
 Estação de Castro Marim,Vista Real,Car,False,Altura
 Estação de Castro Marim,Vista Real,Car,True,Castro Marim
+Estação de Cavaco,Estação de Sanfins,Train,False,Espinho
+Estação de Cavaco,Estação de Sanfins,Train,False,Porto - Campanhã
+Estação de Cavaco,Estação de Sanfins,Train,True,Aveiro
+Estação de Cavaco,Estação de Sanfins,Train,True,Lisboa - Santa Apolónia
+Estação de Cavaco,Estação de Sanfins,Train,True,Oliveira de Azeméis
+Estação de Cavaco,Estação de São João de Ver,Train,False,Aveiro
+Estação de Cavaco,Estação de São João de Ver,Train,False,Lisboa - Santa Apolónia
+Estação de Cavaco,Estação de São João de Ver,Train,False,Oliveira de Azeméis
+Estação de Cavaco,Estação de São João de Ver,Train,True,Espinho
+Estação de Cavaco,Estação de São João de Ver,Train,True,Porto - Campanhã
 Estação de Caxarias,Estação de Chão de Maçãs-Fátima,Train,False,Coimbra-B
 Estação de Caxarias,Estação de Chão de Maçãs-Fátima,Train,False,Pombal
 Estação de Caxarias,Estação de Chão de Maçãs-Fátima,Train,False,Porto - Campanhã
@@ -8815,6 +8943,16 @@ Estação de Corroios,Estação do Pragal,Train,False,Setúbal
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Campolide
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Oriente
 Estação de Corroios,Estação do Pragal,Train,True,Porto - Campanhã
+Estação de Couto de Cucujães,Estação de Faria,Train,False,Aveiro
+Estação de Couto de Cucujães,Estação de Faria,Train,False,Lisboa - Santa Apolónia
+Estação de Couto de Cucujães,Estação de Faria,Train,False,Oliveira de Azeméis
+Estação de Couto de Cucujães,Estação de Faria,Train,True,Espinho
+Estação de Couto de Cucujães,Estação de Faria,Train,True,Porto - Campanhã
+Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,False,Espinho
+Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,False,Porto - Campanhã
+Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Aveiro
+Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Lisboa - Santa Apolónia
+Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Oliveira de Azeméis
 Estação de Covilhã,Estação de Fundão,Train,False,Covilhã
 Estação de Covilhã,Estação de Fundão,Train,False,Guarda
 Estação de Covilhã,Estação de Fundão,Train,False,Porto - Campanhã
@@ -8874,6 +9012,24 @@ Estação de Donas,Estação de Fundão,Train,False,Badajoz
 Estação de Donas,Estação de Fundão,Train,False,Entroncamento
 Estação de Donas,Estação de Fundão,Train,True,Covilhã
 Estação de Donas,Estação de Fundão,Train,True,Guarda
+Estação de Eirol,Estação de São João de Loure,Train,False,Espinho
+Estação de Eirol,Estação de São João de Loure,Train,False,Macinhata do Vouga
+Estação de Eirol,Estação de São João de Loure,Train,False,Porto - Campanhã
+Estação de Eirol,Estação de São João de Loure,Train,False,Sernada do Vouga
+Estação de Eirol,Estação de São João de Loure,Train,True,Aveiro
+Estação de Eirol,Estação de São João de Loure,Train,True,Lisboa - Santa Apolónia
+Estação de Eirol,Estação de Taipa-Requeixo,Train,False,Aveiro
+Estação de Eirol,Estação de Taipa-Requeixo,Train,False,Lisboa - Santa Apolónia
+Estação de Eirol,Estação de Taipa-Requeixo,Train,True,Espinho
+Estação de Eirol,Estação de Taipa-Requeixo,Train,True,Macinhata do Vouga
+Estação de Eirol,Estação de Taipa-Requeixo,Train,True,Porto - Campanhã
+Estação de Eirol,Estação de Taipa-Requeixo,Train,True,Sernada do Vouga
+Estação de Eixo,Estação de São João de Loure,Train,False,Aveiro
+Estação de Eixo,Estação de São João de Loure,Train,False,Lisboa - Santa Apolónia
+Estação de Eixo,Estação de São João de Loure,Train,True,Espinho
+Estação de Eixo,Estação de São João de Loure,Train,True,Macinhata do Vouga
+Estação de Eixo,Estação de São João de Loure,Train,True,Porto - Campanhã
+Estação de Eixo,Estação de São João de Loure,Train,True,Sernada do Vouga
 Estação de Elvas,Estação de Santa Eulália-A,Train,False,Badajoz
 Estação de Elvas,Estação de Santa Eulália-A,Train,False,Espanha
 Estação de Elvas,Estação de Santa Eulália-A,Train,True,Entroncamento
@@ -8949,6 +9105,11 @@ Estação de Ermidas - Sado,Mimosa,Car,False,Grândola
 Estação de Ermidas - Sado,Mimosa,Car,False,Lisboa
 Estação de Ermidas - Sado,Mimosa,Car,True,Faro
 Estação de Ermidas - Sado,Mimosa,Car,True,Ourique
+Estação de Escapães,Estação de Vila da Feira,Train,False,Aveiro
+Estação de Escapães,Estação de Vila da Feira,Train,False,Lisboa - Santa Apolónia
+Estação de Escapães,Estação de Vila da Feira,Train,False,Oliveira de Azeméis
+Estação de Escapães,Estação de Vila da Feira,Train,True,Espinho
+Estação de Escapães,Estação de Vila da Feira,Train,True,Porto - Campanhã
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,False,Azambuja
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,False,Porto - Campanhã
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,True,Lisboa - Alcântara-Terra
@@ -8959,6 +9120,11 @@ Estação de Espadaneira,Estação de Taveiro,Train,False,Porto - Campanhã
 Estação de Espadaneira,Estação de Taveiro,Train,True,Alfarelos
 Estação de Espadaneira,Estação de Taveiro,Train,True,Figueira da Foz
 Estação de Espadaneira,Estação de Taveiro,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,False,Porto - Campanhã
+Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,False,Vila Nova de Gaia
+Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Aveiro
+Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Oliveira de Azeméis
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,False,Tunes
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,False,Vila Real de Santo António
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,True,Lagos
@@ -8973,6 +9139,11 @@ Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,F
 Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,False,Lisboa - Rossio
 Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,True,Figueira da Foz
 Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,True,Leiria
+Estação de Faria,Estação de São João da Madeira,Train,False,Aveiro
+Estação de Faria,Estação de São João da Madeira,Train,False,Lisboa - Santa Apolónia
+Estação de Faria,Estação de São João da Madeira,Train,False,Oliveira de Azeméis
+Estação de Faria,Estação de São João da Madeira,Train,True,Espinho
+Estação de Faria,Estação de São João da Madeira,Train,True,Porto - Campanhã
 Estação de Faro,Estação de Loulé,High-Speed Train,False,Faro
 Estação de Faro,Estação de Loulé,High-Speed Train,True,Lisboa - Oriente
 Estação de Faro,Estação de Loulé,High-Speed Train,True,Tunes
@@ -9017,6 +9188,20 @@ Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Bifurcação de L
 Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Coimbra-B
 Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Leiria
 Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Lisboa - Rossio
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,False,Espinho
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,False,Oliveira de Azeméis
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,False,Porto - Campanhã
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,True,Aveiro
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,True,Lisboa - Santa Apolónia
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,True,Macinhata do Vouga
+Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,True,Sernada do Vouga
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,False,Aveiro
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,False,Lisboa - Santa Apolónia
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,False,Macinhata do Vouga
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,False,Sernada do Vouga
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,True,Espinho
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,True,Oliveira de Azeméis
+Estação de Figueiredo,Estação de Travanca-Macinhata,Car,True,Porto - Campanhã
 Estação de Fogueteiro,Estação de Foros de Amora,Train,False,Barreiro
 Estação de Fogueteiro,Estação de Foros de Amora,Train,False,Faro
 Estação de Fogueteiro,Estação de Foros de Amora,Train,False,Pinhal Novo
@@ -9157,6 +9342,16 @@ Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,False,Vilar For
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Lisboa - Santa Apolónia
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Pampilhosa
 Estação de Lapa do Lobo,Estação de Oliveirinha-Cabanas,Train,True,Porto - Campanhã
+Estação de Lapa,Estação de Monte de Paramos,Train,False,Aveiro
+Estação de Lapa,Estação de Monte de Paramos,Train,False,Lisboa - Santa Apolónia
+Estação de Lapa,Estação de Monte de Paramos,Train,False,Oliveira de Azeméis
+Estação de Lapa,Estação de Monte de Paramos,Train,True,Espinho
+Estação de Lapa,Estação de Monte de Paramos,Train,True,Porto - Campanhã
+Estação de Lapa,Estação de Sampaio-Oleiros,Train,False,Espinho
+Estação de Lapa,Estação de Sampaio-Oleiros,Train,False,Porto - Campanhã
+Estação de Lapa,Estação de Sampaio-Oleiros,Train,True,Aveiro
+Estação de Lapa,Estação de Sampaio-Oleiros,Train,True,Lisboa - Santa Apolónia
+Estação de Lapa,Estação de Sampaio-Oleiros,Train,True,Oliveira de Azeméis
 Estação de Lardosa,Estação de Soalheira,Train,False,Abrantes
 Estação de Lardosa,Estação de Soalheira,Train,False,Badajoz
 Estação de Lardosa,Estação de Soalheira,Train,False,Entroncamento
@@ -9204,6 +9399,11 @@ Estação de Luso - Buçaco,Estação de Vacariça,Train,False,Vilar Formoso
 Estação de Luso - Buçaco,Estação de Vacariça,Train,True,Lisboa - Santa Apolónia
 Estação de Luso - Buçaco,Estação de Vacariça,Train,True,Pampilhosa
 Estação de Luso - Buçaco,Estação de Vacariça,Train,True,Porto - Campanhã
+Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,False,Aveiro
+Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,False,Lisboa - Santa Apolónia
+Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Espinho
+Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Oliveira de Azeméis
+Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Porto - Campanhã
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Alcalá de Henares
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Collado Villalba
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Guadalajara
@@ -9361,6 +9561,11 @@ Estação de Monte de Lobos,Estação de Soito,Train,False,Vilar Formoso
 Estação de Monte de Lobos,Estação de Soito,Train,True,Lisboa - Santa Apolónia
 Estação de Monte de Lobos,Estação de Soito,Train,True,Pampilhosa
 Estação de Monte de Lobos,Estação de Soito,Train,True,Porto - Campanhã
+Estação de Monte de Paramos,Estação de Silvalde-Vouga,Train,False,Aveiro
+Estação de Monte de Paramos,Estação de Silvalde-Vouga,Train,False,Lisboa - Santa Apolónia
+Estação de Monte de Paramos,Estação de Silvalde-Vouga,Train,False,Oliveira de Azeméis
+Estação de Monte de Paramos,Estação de Silvalde-Vouga,Train,True,Espinho
+Estação de Monte de Paramos,Estação de Silvalde-Vouga,Train,True,Porto - Campanhã
 Estação de Monte Estoril,Estação do Estoril,Train,False,Cascais
 Estação de Monte Estoril,Estação do Estoril,Train,True,Lisboa - Cais do Sodré
 Estação de Monte Estoril,Estação do Estoril,Train,True,São Pedro do Estoril
@@ -9425,6 +9630,18 @@ Estação de Oiã,Estação de Quintans,Train,False,Lisboa - Santa Apolónia
 Estação de Oiã,Estação de Quintans,Train,False,Pampilhosa
 Estação de Oiã,Estação de Quintans,Train,True,Aveiro
 Estação de Oiã,Estação de Quintans,Train,True,Porto - Campanhã
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,False,Aveiro
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,False,Lisboa - Santa Apolónia
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,False,Macinhata do Vouga
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,False,Sernada do Vouga
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,True,Espinho
+Estação de Oliveira de Azeméis,Estação de Santiago de Riba-Ul,Train,True,Porto - Campanhã
+Estação de Oliveira de Azeméis,Estação de Ul,Car,False,Espinho
+Estação de Oliveira de Azeméis,Estação de Ul,Car,False,Porto - Campanhã
+Estação de Oliveira de Azeméis,Estação de Ul,Car,True,Aveiro
+Estação de Oliveira de Azeméis,Estação de Ul,Car,True,Lisboa - Santa Apolónia
+Estação de Oliveira de Azeméis,Estação de Ul,Car,True,Macinhata do Vouga
+Estação de Oliveira de Azeméis,Estação de Ul,Car,True,Sernada do Vouga
 Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,False,Aveiro
 Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,False,Porto - Campanhã
 Estação de Oliveira do Bairro,Estação de Paraimo-Sangalhos,Train,True,Lisboa - Santa Apolónia
@@ -9438,6 +9655,16 @@ Estação de Paço de Arcos,Estação de Santo Amaro,Train,False,Algés
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,False,Lisboa - Cais do Sodré
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,True,Cascais
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,True,Oeiras
+Estação de Paços de Brandão,Estação de Rio Meão,Train,False,Espinho
+Estação de Paços de Brandão,Estação de Rio Meão,Train,False,Porto - Campanhã
+Estação de Paços de Brandão,Estação de Rio Meão,Train,True,Aveiro
+Estação de Paços de Brandão,Estação de Rio Meão,Train,True,Lisboa - Santa Apolónia
+Estação de Paços de Brandão,Estação de Rio Meão,Train,True,Oliveira de Azeméis
+Estação de Paços de Brandão,Estação de Sampaio-Oleiros,Train,False,Aveiro
+Estação de Paços de Brandão,Estação de Sampaio-Oleiros,Train,False,Lisboa - Santa Apolónia
+Estação de Paços de Brandão,Estação de Sampaio-Oleiros,Train,False,Oliveira de Azeméis
+Estação de Paços de Brandão,Estação de Sampaio-Oleiros,Train,True,Espinho
+Estação de Paços de Brandão,Estação de Sampaio-Oleiros,Train,True,Porto - Campanhã
 Estação de Palmela,Estação de Setúbal,Train,False,Barreiro
 Estação de Palmela,Estação de Setúbal,Train,False,Pinhal Novo
 Estação de Palmela,Estação de Setúbal,Train,True,Praias do Sado-A
@@ -9596,6 +9823,11 @@ Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,False
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,False,Santarém
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,True,Pombal
 Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,True,Porto - Campanhã
+Estação de Rio Meão,Estação de São João de Ver,Train,False,Espinho
+Estação de Rio Meão,Estação de São João de Ver,Train,False,Porto - Campanhã
+Estação de Rio Meão,Estação de São João de Ver,Train,True,Aveiro
+Estação de Rio Meão,Estação de São João de Ver,Train,True,Lisboa - Santa Apolónia
+Estação de Rio Meão,Estação de São João de Ver,Train,True,Oliveira de Azeméis
 Estação de Rochoso,Estação de Vila Fernando,Train,False,Vilar Formoso
 Estação de Rochoso,Estação de Vila Fernando,Train,True,Covilhã
 Estação de Rochoso,Estação de Vila Fernando,Train,True,Guarda
@@ -9614,6 +9846,11 @@ Estação de Salir do Porto,Estação de São Martinho do Porto,Train,False,Cald
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,False,Lisboa - Rossio
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,True,Figueira da Foz
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,True,Leiria
+Estação de Sanfins,Estação de Vila da Feira,Train,False,Espinho
+Estação de Sanfins,Estação de Vila da Feira,Train,False,Porto - Campanhã
+Estação de Sanfins,Estação de Vila da Feira,Train,True,Aveiro
+Estação de Sanfins,Estação de Vila da Feira,Train,True,Lisboa - Santa Apolónia
+Estação de Sanfins,Estação de Vila da Feira,Train,True,Oliveira de Azeméis
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,False,Lisboa - Oriente
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,False,Pinhal Novo
 Estação de Santa Clara - Sabóia,Tunes,High-Speed Train,True,Faro
@@ -9712,11 +9949,24 @@ Estação de Souselas,Estação de Vilela-Fornos,Train,False,Pampilhosa
 Estação de Souselas,Estação de Vilela-Fornos,Train,False,Porto - Campanhã
 Estação de Souselas,Estação de Vilela-Fornos,Train,True,Coimbra-B
 Estação de Souselas,Estação de Vilela-Fornos,Train,True,Lisboa - Santa Apolónia
+Estação de Taipa-Requeixo,Estação de Travassô,Train,False,Aveiro
+Estação de Taipa-Requeixo,Estação de Travassô,Train,False,Lisboa - Santa Apolónia
+Estação de Taipa-Requeixo,Estação de Travassô,Train,True,Espinho
+Estação de Taipa-Requeixo,Estação de Travassô,Train,True,Macinhata do Vouga
+Estação de Taipa-Requeixo,Estação de Travassô,Train,True,Porto - Campanhã
+Estação de Taipa-Requeixo,Estação de Travassô,Train,True,Sernada do Vouga
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,False,Coimbra-B
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,False,Porto - Campanhã
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,True,Alfarelos
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,True,Figueira da Foz
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,True,Lisboa - Santa Apolónia
+Estação de Travanca-Macinhata,Estação de Ul,Car,False,Aveiro
+Estação de Travanca-Macinhata,Estação de Ul,Car,False,Lisboa - Santa Apolónia
+Estação de Travanca-Macinhata,Estação de Ul,Car,False,Macinhata do Vouga
+Estação de Travanca-Macinhata,Estação de Ul,Car,False,Sernada do Vouga
+Estação de Travanca-Macinhata,Estação de Ul,Car,True,Espinho
+Estação de Travanca-Macinhata,Estação de Ul,Car,True,Oliveira de Azeméis
+Estação de Travanca-Macinhata,Estação de Ul,Car,True,Porto - Campanhã
 Estação de Venda do Alcaide,Pinhal Novo,Train,False,Praias do Sado-A
 Estação de Venda do Alcaide,Pinhal Novo,Train,False,Setúbal
 Estação de Venda do Alcaide,Pinhal Novo,Train,True,Barreiro
