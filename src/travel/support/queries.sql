@@ -45,6 +45,9 @@ where LocationSpain.municipio = Municipio.municipio and Municipio.province = Pro
 group by autonomous_community
 order by count(autonomous_community), autonomous_community;
 
+-- Shows all Spanish districts and respective municipalities with locations in the map
+select distinct municipio, district from LocationSpain where district is not null order by municipio, district;
+
 -- Show number of locations by protected area
 select protected_area, count(protected_area) from Location group by protected_area order by count(protected_area), protected_area;
 
@@ -84,6 +87,11 @@ select sum(distance) as "Total distance of A-7 and AP-7", count(distance) as "Nu
 from Connection
 where (way like '%A-7%' or way like '%AP-7%');
 
+-- Show total length and number of connections associated to the Portuguese North Line
+select sum(distance) as "Total distance of the North Line connections", count(distance) as "Number of connections of the North Line"
+from Connection
+where way like 'Linha do Norte - %';
+
 -- Show ways by total number of destinations associated to connections of each way
 -- Destination names may appear repeatedly (ex: Lisbon and Oporto are destinations associated to virtually all connections of A1)
 select way, count(destination)
@@ -103,6 +111,3 @@ select * from Location where Location.batch > 0 and Location.batch <= 20;
 
 -- Shows number of locations inside provided geographic bounds
 select count(name) from Location where latitude >= 39.0 and latitude <= 41.0 and longitude >= -5.0 and longitude <= -4.0;
-
--- Shows all Spanish districts and respective municipalities with locations in the map
-select distinct municipio, district from LocationSpain where district is not null order by municipio, district;

@@ -7974,6 +7974,18 @@ Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Entreca
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Aguda,Estação de Granja,Train,False,Porto - Campanhã
+Estação de Aguda,Estação de Granja,Train,False,Porto - São Bento
+Estação de Aguda,Estação de Granja,Train,False,Vila Nova de Gaia
+Estação de Aguda,Estação de Granja,Train,True,Aveiro
+Estação de Aguda,Estação de Granja,Train,True,Espinho
+Estação de Aguda,Estação de Granja,Train,True,Lisboa - Santa Apolónia
+Estação de Aguda,Estação de Miramar,Train,False,Aveiro
+Estação de Aguda,Estação de Miramar,Train,False,Espinho
+Estação de Aguda,Estação de Miramar,Train,False,Lisboa - Santa Apolónia
+Estação de Aguda,Estação de Miramar,Train,True,Porto - Campanhã
+Estação de Aguda,Estação de Miramar,Train,True,Porto - São Bento
+Estação de Aguda,Estação de Miramar,Train,True,Vila Nova de Gaia
 Estação de Águeda,Estação de Mourisca do Vouga,Train,False,Aveiro
 Estação de Águeda,Estação de Mourisca do Vouga,Train,False,Lisboa - Santa Apolónia
 Estação de Águeda,Estação de Mourisca do Vouga,Train,True,Espinho
@@ -8303,6 +8315,20 @@ Estação de Assumar,Estação de Portalegre,Train,False,Elvas
 Estação de Assumar,Estação de Portalegre,Train,True,Abrantes
 Estação de Assumar,Estação de Portalegre,Train,True,Entroncamento
 Estação de Assumar,Estação de Portalegre,Train,True,Guarda
+Estação de Avanca,Estação de Estarreja,Train,False,Espinho
+Estação de Avanca,Estação de Estarreja,Train,False,Porto - Campanhã
+Estação de Avanca,Estação de Estarreja,Train,False,Porto - São Bento
+Estação de Avanca,Estação de Estarreja,Train,True,Aveiro
+Estação de Avanca,Estação de Estarreja,Train,True,Lisboa - Santa Apolónia
+Estação de Avanca,Estação de Ovar,Train,False,Aveiro
+Estação de Avanca,Estação de Ovar,Train,False,Lisboa - Santa Apolónia
+Estação de Avanca,Estação de Ovar,Train,True,Espinho
+Estação de Avanca,Estação de Ovar,Train,True,Porto - Campanhã
+Estação de Avanca,Estação de Válega,Train,False,Aveiro
+Estação de Avanca,Estação de Válega,Train,False,Lisboa - Santa Apolónia
+Estação de Avanca,Estação de Válega,Train,True,Espinho
+Estação de Avanca,Estação de Válega,Train,True,Porto - Campanhã
+Estação de Avanca,Estação de Válega,Train,True,Porto - São Bento
 Estação de Aveiro,Estação de Cacia,Train,False,Lisboa - Santa Apolónia
 Estação de Aveiro,Estação de Cacia,Train,False,Pampilhosa
 Estação de Aveiro,Estação de Cacia,Train,True,Espinho
@@ -8320,6 +8346,16 @@ Estação de Aveiro,Estação de Esgueira,Train,True,Espinho
 Estação de Aveiro,Estação de Esgueira,Train,True,Macinhata do Vouga
 Estação de Aveiro,Estação de Esgueira,Train,True,Porto - Campanhã
 Estação de Aveiro,Estação de Esgueira,Train,True,Sernada do Vouga
+Estação de Aveiro,Estação de Espinho,High-Speed Train,False,Coimbra-B
+Estação de Aveiro,Estação de Espinho,High-Speed Train,False,Lisboa - Oriente
+Estação de Aveiro,Estação de Espinho,High-Speed Train,True,Braga
+Estação de Aveiro,Estação de Espinho,High-Speed Train,True,Guimarães
+Estação de Aveiro,Estação de Espinho,High-Speed Train,True,Porto - Campanhã
+Estação de Aveiro,Estação de Espinho,High-Speed Train,True,Vila Nova de Gaia
+Estação de Aveiro,Estação de Estarreja,Train,False,Lisboa - Santa Apolónia
+Estação de Aveiro,Estação de Estarreja,Train,False,Pampilhosa
+Estação de Aveiro,Estação de Estarreja,Train,True,Espinho
+Estação de Aveiro,Estação de Estarreja,Train,True,Porto - Campanhã
 Estação de Aveiro,Estação de Mealhada,Train,False,Espinho
 Estação de Aveiro,Estação de Mealhada,Train,False,Porto - Campanhã
 Estação de Aveiro,Estação de Mealhada,Train,True,Lisboa - Santa Apolónia
@@ -8578,6 +8614,15 @@ Estação de Cabanões,Estação de Travassô,Train,True,Lisboa - Santa Apolóni
 Estação de Cacela,Estação de Castro Marim,Train,False,Faro
 Estação de Cacela,Estação de Castro Marim,Train,False,Lagos
 Estação de Cacela,Estação de Castro Marim,Train,True,Vila Real de Santo António
+Estação de Cacia,Estação de Canelas,Train,False,Aveiro
+Estação de Cacia,Estação de Canelas,Train,False,Lisboa - Santa Apolónia
+Estação de Cacia,Estação de Canelas,Train,True,Espinho
+Estação de Cacia,Estação de Canelas,Train,True,Porto - Campanhã
+Estação de Cacia,Estação de Canelas,Train,True,Porto - São Bento
+Estação de Cacia,Estação de Estarreja,Train,False,Aveiro
+Estação de Cacia,Estação de Estarreja,Train,False,Lisboa - Santa Apolónia
+Estação de Cacia,Estação de Estarreja,Train,True,Espinho
+Estação de Cacia,Estação de Estarreja,Train,True,Porto - Campanhã
 Estação de Cais do Sodré,Estação de Santos,Train,False,Lisboa - Cais do Sodré
 Estação de Cais do Sodré,Estação de Santos,Train,True,Cascais
 Estação de Cais do Sodré,Estação de Santos,Train,True,Lisboa - Alcântara-Mar
@@ -8637,6 +8682,11 @@ Estação de Canas-Felgueira,Estação de Nelas,Train,False,Porto - Campanhã
 Estação de Canas-Felgueira,Estação de Nelas,Train,True,Covilhã
 Estação de Canas-Felgueira,Estação de Nelas,Train,True,Guarda
 Estação de Canas-Felgueira,Estação de Nelas,Train,True,Vilar Formoso
+Estação de Canelas,Estação de Salreu,Train,False,Aveiro
+Estação de Canelas,Estação de Salreu,Train,False,Lisboa - Santa Apolónia
+Estação de Canelas,Estação de Salreu,Train,True,Espinho
+Estação de Canelas,Estação de Salreu,Train,True,Porto - Campanhã
+Estação de Canelas,Estação de Salreu,Train,True,Porto - São Bento
 Estação de Carcavelos,Estação de Oeiras,Train,False,Cascais
 Estação de Carcavelos,Estação de Oeiras,Train,False,São Pedro do Estoril
 Estação de Carcavelos,Estação de Oeiras,Train,True,Algés
@@ -8690,6 +8740,16 @@ Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Port
 Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,False,Sernada do Vouga
 Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,True,Aveiro
 Estação de Carvalhal da Portela,Estação de Valongo do Vouga,Train,True,Lisboa - Santa Apolónia
+Estação de Carvalheira-Maceda,Estação de Cortegaça,Train,False,Aveiro
+Estação de Carvalheira-Maceda,Estação de Cortegaça,Train,False,Lisboa - Santa Apolónia
+Estação de Carvalheira-Maceda,Estação de Cortegaça,Train,True,Espinho
+Estação de Carvalheira-Maceda,Estação de Cortegaça,Train,True,Porto - Campanhã
+Estação de Carvalheira-Maceda,Estação de Cortegaça,Train,True,Porto - São Bento
+Estação de Carvalheira-Maceda,Estação de Ovar,Train,False,Espinho
+Estação de Carvalheira-Maceda,Estação de Ovar,Train,False,Porto - Campanhã
+Estação de Carvalheira-Maceda,Estação de Ovar,Train,False,Porto - São Bento
+Estação de Carvalheira-Maceda,Estação de Ovar,Train,True,Aveiro
+Estação de Carvalheira-Maceda,Estação de Ovar,Train,True,Lisboa - Santa Apolónia
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,False,Tomar
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,True,Entroncamento
 Estação de Carvalhos de Figueiredo,Estação de Santa Cita,Train,True,Lisboa - Santa Apolónia
@@ -8897,6 +8957,26 @@ Estação de Coimbra-B,Estação de Santa Comba Dão,Train,False,Lisboa - Santa 
 Estação de Coimbra-B,Estação de Santa Comba Dão,Train,True,Guarda
 Estação de Coimbra-B,Estação de Santa Comba Dão,Train,True,Hendaye
 Estação de Coimbra-B,Estação de Santa Comba Dão,Train,True,Madrid-Chamartín
+Estação de Coimbrões,Estação de Madalena,Train,False,Porto - Campanhã
+Estação de Coimbrões,Estação de Madalena,Train,False,Porto - São Bento
+Estação de Coimbrões,Estação de Madalena,Train,False,Vila Nova de Gaia
+Estação de Coimbrões,Estação de Madalena,Train,True,Aveiro
+Estação de Coimbrões,Estação de Madalena,Train,True,Espinho
+Estação de Coimbrões,Estação de Madalena,Train,True,Lisboa - Santa Apolónia
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,False,Aveiro
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,False,Espinho
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,False,Lisboa - Santa Apolónia
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Braga
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Ermesinde
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Guimarães
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Lousado
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Marco de Canaveses
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Nine
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Porto - Campanhã
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Porto - São Bento
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Régua
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Valença
+Estação de Coimbrões,Estação de Vila Nova de Gaia - Devessas,Train,True,Viana do Castelo
 Estação de Coina,Estação de Fogueteiro,Train,False,Barreiro
 Estação de Coina,Estação de Fogueteiro,Train,False,Faro
 Estação de Coina,Estação de Fogueteiro,Train,False,Pinhal Novo
@@ -8917,6 +8997,21 @@ Estação de Colombia,Estação de Nuevos Ministerios,Subway,True,Nuevos Ministe
 Estação de Colombia,Estação de Pinar del Rey,Subway,False,Nuevos Ministerios
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Aeropuerto T4
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Mar de Cristal
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Braga
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Ermesinde
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Guimarães
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Lousado
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Marco de Canaveses
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Nine
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Pocinho
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Régua
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Valença
+Estação de Contumil,Estação de Porto - Campanhã,Train,False,Viana do Castelo
+Estação de Contumil,Estação de Porto - Campanhã,Train,True,Aveiro
+Estação de Contumil,Estação de Porto - Campanhã,Train,True,Espinho
+Estação de Contumil,Estação de Porto - Campanhã,Train,True,Lisboa - Santa Apolónia
+Estação de Contumil,Estação de Porto - Campanhã,Train,True,Porto - São Bento
+Estação de Contumil,Estação de Porto - Campanhã,Train,True,Vila Nova de Gaia
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Antequera-Santa Ana
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Granada
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Madrid-Puerta de Atocha
@@ -8943,6 +9038,11 @@ Estação de Corroios,Estação do Pragal,Train,False,Setúbal
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Campolide
 Estação de Corroios,Estação do Pragal,Train,True,Lisboa - Oriente
 Estação de Corroios,Estação do Pragal,Train,True,Porto - Campanhã
+Estação de Cortegaça,Estação de Esmoriz,Train,False,Aveiro
+Estação de Cortegaça,Estação de Esmoriz,Train,False,Lisboa - Santa Apolónia
+Estação de Cortegaça,Estação de Esmoriz,Train,True,Espinho
+Estação de Cortegaça,Estação de Esmoriz,Train,True,Porto - Campanhã
+Estação de Cortegaça,Estação de Esmoriz,Train,True,Porto - São Bento
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Aveiro
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Lisboa - Santa Apolónia
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Oliveira de Azeméis
@@ -9110,6 +9210,19 @@ Estação de Escapães,Estação de Vila da Feira,Train,False,Lisboa - Santa Apo
 Estação de Escapães,Estação de Vila da Feira,Train,False,Oliveira de Azeméis
 Estação de Escapães,Estação de Vila da Feira,Train,True,Espinho
 Estação de Escapães,Estação de Vila da Feira,Train,True,Porto - Campanhã
+Estação de Esmoriz,Estação de Espinho,Train,False,Aveiro
+Estação de Esmoriz,Estação de Espinho,Train,False,Lisboa - Santa Apolónia
+Estação de Esmoriz,Estação de Espinho,Train,True,Porto - Campanhã
+Estação de Esmoriz,Estação de Espinho,Train,True,Vila Nova de Gaia
+Estação de Esmoriz,Estação de Ovar,Train,False,Espinho
+Estação de Esmoriz,Estação de Ovar,Train,False,Porto - Campanhã
+Estação de Esmoriz,Estação de Ovar,Train,True,Aveiro
+Estação de Esmoriz,Estação de Ovar,Train,True,Lisboa - Santa Apolónia
+Estação de Esmoriz,Estação de Paramos,Train,False,Aveiro
+Estação de Esmoriz,Estação de Paramos,Train,False,Lisboa - Santa Apolónia
+Estação de Esmoriz,Estação de Paramos,Train,True,Espinho
+Estação de Esmoriz,Estação de Paramos,Train,True,Porto - Campanhã
+Estação de Esmoriz,Estação de Paramos,Train,True,Porto - São Bento
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,False,Azambuja
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,False,Porto - Campanhã
 Estação de Espadanal da Azambuja,Estação de Vila Nova da Rainha,Train,True,Lisboa - Alcântara-Terra
@@ -9120,11 +9233,57 @@ Estação de Espadaneira,Estação de Taveiro,Train,False,Porto - Campanhã
 Estação de Espadaneira,Estação de Taveiro,Train,True,Alfarelos
 Estação de Espadaneira,Estação de Taveiro,Train,True,Figueira da Foz
 Estação de Espadaneira,Estação de Taveiro,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Granja,Train,False,Aveiro
+Estação de Espinho,Estação de Granja,Train,False,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Granja,Train,True,Porto - Campanhã
+Estação de Espinho,Estação de Granja,Train,True,Porto - São Bento
+Estação de Espinho,Estação de Granja,Train,True,Vila Nova de Gaia
+Estação de Espinho,Estação de Ovar,Train,False,Porto - Campanhã
+Estação de Espinho,Estação de Ovar,Train,False,Vila Nova de Gaia
+Estação de Espinho,Estação de Ovar,Train,True,Aveiro
+Estação de Espinho,Estação de Ovar,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Paramos,Train,False,Porto - Campanhã
+Estação de Espinho,Estação de Paramos,Train,False,Vila Nova de Gaia
+Estação de Espinho,Estação de Paramos,Train,True,Aveiro
+Estação de Espinho,Estação de Paramos,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Silvalde,Train,False,Porto - Campanhã
+Estação de Espinho,Estação de Silvalde,Train,False,Porto - São Bento
+Estação de Espinho,Estação de Silvalde,Train,False,Vila Nova de Gaia
+Estação de Espinho,Estação de Silvalde,Train,True,Aveiro
+Estação de Espinho,Estação de Silvalde,Train,True,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,False,Aveiro
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,False,Lisboa - Oriente
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,True,Braga
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,True,Guimarães
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,True,Porto - Campanhã
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,False,Aveiro
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,False,Lisboa - Santa Apolónia
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Braga
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Ermesinde
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Guimarães
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Marco de Canaveses
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Nine
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Pocinho
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Porto - Campanhã
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Porto - São Bento
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Régua
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Trofa
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Valença
+Estação de Espinho,Estação de Vila Nova de Gaia - Devessas,Train,True,Viana do Castelo
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,False,Porto - Campanhã
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,False,Vila Nova de Gaia
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Aveiro
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Lisboa - Santa Apolónia
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Oliveira de Azeméis
+Estação de Estarreja,Estação de Ovar,Train,False,Aveiro
+Estação de Estarreja,Estação de Ovar,Train,False,Lisboa - Santa Apolónia
+Estação de Estarreja,Estação de Ovar,Train,True,Espinho
+Estação de Estarreja,Estação de Ovar,Train,True,Porto - Campanhã
+Estação de Estarreja,Estação de Salreu,Train,False,Espinho
+Estação de Estarreja,Estação de Salreu,Train,False,Porto - Campanhã
+Estação de Estarreja,Estação de Salreu,Train,False,Porto - São Bento
+Estação de Estarreja,Estação de Salreu,Train,True,Aveiro
+Estação de Estarreja,Estação de Salreu,Train,True,Lisboa - Santa Apolónia
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,False,Tunes
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,False,Vila Real de Santo António
 Estação de Estômbar - Lagoa,Estação de Ferragudo,Train,True,Lagos
@@ -9237,6 +9396,18 @@ Estação de Fornos de Algodres,Estação de Mangualde,Train,False,Guarda
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Lisboa - Santa Apolónia
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Pampilhosa
 Estação de Fornos de Algodres,Estação de Mangualde,Train,True,Porto - Campanhã
+Estação de Francelos,Estação de Miramar,Train,False,Porto - Campanhã
+Estação de Francelos,Estação de Miramar,Train,False,Porto - São Bento
+Estação de Francelos,Estação de Miramar,Train,False,Vila Nova de Gaia
+Estação de Francelos,Estação de Miramar,Train,True,Aveiro
+Estação de Francelos,Estação de Miramar,Train,True,Espinho
+Estação de Francelos,Estação de Miramar,Train,True,Lisboa - Santa Apolónia
+Estação de Francelos,Estação de Valadares,Train,False,Aveiro
+Estação de Francelos,Estação de Valadares,Train,False,Espinho
+Estação de Francelos,Estação de Valadares,Train,False,Lisboa - Santa Apolónia
+Estação de Francelos,Estação de Valadares,Train,True,Porto - Campanhã
+Estação de Francelos,Estação de Valadares,Train,True,Porto - São Bento
+Estação de Francelos,Estação de Valadares,Train,True,Vila Nova de Gaia
 Estação de Fratel,Estação de Ródão,Train,False,Abrantes
 Estação de Fratel,Estação de Ródão,Train,False,Badajoz
 Estação de Fratel,Estação de Ródão,Train,False,Entroncamento
@@ -9281,6 +9452,34 @@ Estação de Gata,Estação de Vila Fernando,Train,False,Covilhã
 Estação de Gata,Estação de Vila Fernando,Train,False,Guarda
 Estação de Gata,Estação de Vila Fernando,Train,False,Pampilhosa
 Estação de Gata,Estação de Vila Fernando,Train,True,Vilar Formoso
+Estação de General Torres,Estação de Porto - Campanhã,Train,False,Aveiro
+Estação de General Torres,Estação de Porto - Campanhã,Train,False,Espinho
+Estação de General Torres,Estação de Porto - Campanhã,Train,False,Lisboa - Santa Apolónia
+Estação de General Torres,Estação de Porto - Campanhã,Train,False,Vila Nova de Gaia
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Braga
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Ermesinde
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Guimarães
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Lousado
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Marco de Canaveses
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Nine
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Porto - São Bento
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Régua
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Valença
+Estação de General Torres,Estação de Porto - Campanhã,Train,True,Viana do Castelo
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Braga
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Ermesinde
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Guimarães
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Lousado
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Marco de Canaveses
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Nine
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Porto - Campanhã
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Porto - São Bento
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Régua
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Valença
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,False,Viana do Castelo
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Aveiro
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
+Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
 Estação de Gouveia,Estação de Mangualde,Train,False,Covilhã
 Estação de Gouveia,Estação de Mangualde,Train,False,Guarda
 Estação de Gouveia,Estação de Mangualde,Train,False,Vilar Formoso
@@ -9404,6 +9603,12 @@ Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,False,Lisboa
 Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Espinho
 Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Oliveira de Azeméis
 Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,True,Porto - Campanhã
+Estação de Madalena,Estação de Valadares,Train,False,Porto - Campanhã
+Estação de Madalena,Estação de Valadares,Train,False,Porto - São Bento
+Estação de Madalena,Estação de Valadares,Train,False,Vila Nova de Gaia
+Estação de Madalena,Estação de Valadares,Train,True,Aveiro
+Estação de Madalena,Estação de Valadares,Train,True,Espinho
+Estação de Madalena,Estação de Valadares,Train,True,Lisboa - Santa Apolónia
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Alcalá de Henares
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Collado Villalba
 Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Guadalajara
@@ -9651,6 +9856,11 @@ Estação de Outeiro,Estação de Ramalhal,Train,False,Figueira da Foz
 Estação de Outeiro,Estação de Ramalhal,Train,True,Agualva - Cacém
 Estação de Outeiro,Estação de Ramalhal,Train,True,Jerumelo
 Estação de Outeiro,Estação de Ramalhal,Train,True,Lisboa - Rossio
+Estação de Ovar,Estação de Válega,Train,False,Espinho
+Estação de Ovar,Estação de Válega,Train,False,Porto - Campanhã
+Estação de Ovar,Estação de Válega,Train,False,Porto - São Bento
+Estação de Ovar,Estação de Válega,Train,True,Aveiro
+Estação de Ovar,Estação de Válega,Train,True,Lisboa - Santa Apolónia
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,False,Algés
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,False,Lisboa - Cais do Sodré
 Estação de Paço de Arcos,Estação de Santo Amaro,Train,True,Cascais
@@ -9682,6 +9892,11 @@ Estação de Pampilhosa,Estação de Vacariça,Train,False,Porto - Campanhã
 Estação de Pampilhosa,Estação de Vacariça,Train,True,Covilhã
 Estação de Pampilhosa,Estação de Vacariça,Train,True,Guarda
 Estação de Pampilhosa,Estação de Vacariça,Train,True,Vilar Formoso
+Estação de Paramos,Estação de Silvalde,Train,False,Aveiro
+Estação de Paramos,Estação de Silvalde,Train,False,Lisboa - Santa Apolónia
+Estação de Paramos,Estação de Silvalde,Train,True,Espinho
+Estação de Paramos,Estação de Silvalde,Train,True,Porto - Campanhã
+Estação de Paramos,Estação de Silvalde,Train,True,Porto - São Bento
 Estação de Pataias,Estação de Valado-Nazaré-Alcobaça,Train,False,Figueira da Foz
 Estação de Pataias,Estação de Valado-Nazaré-Alcobaça,Train,False,Leiria
 Estação de Pataias,Estação de Valado-Nazaré-Alcobaça,Train,True,Caldas da Rainha
@@ -9771,6 +9986,38 @@ Estação de Portela de Sintra,Estação de Sintra,Train,True,Sintra
 Estação de Portimão,Mexilhoeira Grande,Train,False,Tunes
 Estação de Portimão,Mexilhoeira Grande,Train,False,Vila Real de Santo António
 Estação de Portimão,Mexilhoeira Grande,Train,True,Lagos
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Aveiro
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Braga
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Ermesinde
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Espinho
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Guimarães
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Lisboa - Santa Apolónia
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Lousado
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Marco de Canaveses
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Nine
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Pocinho
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Régua
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Valença
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Viana do Castelo
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,False,Vila Nova de Gaia
+Estação de Porto - Campanhã,Estação de Porto - São Bento,Train,True,Porto - São Bento
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,False,Braga
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,False,Guimarães
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,True,Aveiro
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,True,Lisboa - Oriente
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Braga
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Ermesinde
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Guimarães
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Marco de Canaveses
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Nine
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Pocinho
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Porto - São Bento
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Régua
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Trofa
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Valença
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Viana do Castelo
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
+Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,False,Barreiro
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,False,Setúbal
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,True,Praias do Sado-A
