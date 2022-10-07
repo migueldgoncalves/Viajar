@@ -1,6 +1,6 @@
 from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
 from travel.main import menu, travel
-from car import car
+from car import car_simulator
 from combat import round
 
 """
@@ -60,7 +60,7 @@ elif user_option == OPTION_CAR:
         In Run > Edit Configurations > Enable option "Emulate terminal in output console"
         This is due to the usage of the msvcrt library in the car package to detect and read pressed keys
     '''
-    car.Carro().viajar(distancia_a_percorrer=0, destino="")
+    car_simulator.CarSimulator().travel(distance_to_travel=0, destination="")
 
 elif user_option == OPTION_COMBAT:
     round.Ronda().ronda_loop()

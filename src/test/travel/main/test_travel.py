@@ -28,7 +28,7 @@ class TravelTest(unittest.TestCase):
     def test_constructor(self):
         self.assertEqual(self.initial_location, self.travel.initial_location)
         self.assertTrue(self.travel.db_initialized)
-        self.assertEqual(0.0, self.travel.car.velocidade)
+        self.assertEqual(0.0, self.travel.car_simulation.speed)
         self.assertEqual(self.initial_location, self.travel.current_journey.get_current_location())
         self.assertEqual(travel.DEFAULT_MEANS_TRANSPORT, self.travel.current_journey.get_current_means_transport())
         self.assertEqual(0.0, self.travel.current_journey.get_traveled_distance())

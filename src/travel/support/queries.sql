@@ -111,3 +111,6 @@ select * from Location where Location.batch > 0 and Location.batch <= 20;
 
 -- Shows number of locations inside provided geographic bounds
 select count(name) from Location where latitude >= 39.0 and latitude <= 41.0 and longitude >= -5.0 and longitude <= -4.0;
+
+-- Show locations ordered by length of respective names
+select name, length(name) from Location order by length(name), name;

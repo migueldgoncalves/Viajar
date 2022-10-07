@@ -3,7 +3,7 @@ import datetime
 from typing import Callable, Optional
 
 from travel.main import journey, db_interface, location, menu
-from car import car
+from car import car_simulator
 
 # Strings related to changing means of transport
 SWITCH_TO_CAR_STRING = "Return to the road"
@@ -69,7 +69,7 @@ class Travel:
 
         # Initialize journey
         self.current_journey: journey.Journey = journey.Journey()
-        self.car: car.Carro = car.Carro()
+        self.car_simulation: car_simulator.CarSimulator = car_simulator.CarSimulator()
         self.current_journey.set_current_location(self.initial_location)
         self.current_journey.set_current_means_transport(DEFAULT_MEANS_TRANSPORT)
         print("Welcome to the journey")
@@ -182,7 +182,7 @@ class Travel:
 
         # Run car simulation if requested and if current means of transport is car
         if self.is_car_requested and self.current_journey.get_current_means_transport() == CAR:
-            elapsed_time: int = self.car.viajar(leg_distance, desired_surrounding_location)  # Actual time spent in simulation
+            elapsed_time: int = self.car_simulation.travel(leg_distance, desired_surrounding_location)  # Actual time spent in simulation
             self.increment_traveled_time(elapsed_time)
 
     @staticmethod

@@ -520,7 +520,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "7", "12", "1", "0"]
+                              "7", "13", "1", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
@@ -598,14 +598,15 @@ class IntegrationTest(unittest.TestCase):
                         '\n8 -> Aeroporto de Gibraltar (SE, 444.4 km)'
                         '\n9 -> Aeroporto de Córdoba (SE, 389.1 km)'
                         '\n10 -> Aeroporto de Jerez (SE, 352.7 km)'
-                        '\n11 -> Return to the road'
-                        '\n12 -> Transfer between means of transport'
-                        '\n13 -> Show location information'
-                        '\n14 -> Show journey statistics'
+                        '\n11 -> Aeroporto de Salamanca (NE, 393.3 km)'
+                        '\n12 -> Return to the road'
+                        '\n13 -> Transfer between means of transport'
+                        '\n14 -> Show location information'
+                        '\n15 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
         with unittest.mock.patch('builtins.input',
-                                 side_effect=["12", "0"]):  # Final 0 exits menu loop and allows to get the journey state
+                                 side_effect=["13", "0"]):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()  # Switches to transfer between means of transport
 
         self.assertTrue('You are transferring between means of transport' in stdout_redirect.getvalue())
@@ -715,12 +716,13 @@ class IntegrationTest(unittest.TestCase):
                         '\n4 -> Aeroporto de Córdoba (SE, 208.1 km)'
                         '\n5 -> Aeroporto de Madrid-Barajas - Terminal 3 (NE, 329.1 km)'
                         '\n6 -> Aeroporto de Lisboa - Terminal 1 (W, 201.1 km)'
-                        '\n7 -> Return to the road'
-                        '\n8 -> Show location information'
-                        '\n9 -> Show journey statistics'
+                        '\n7 -> Aeroporto de Salamanca (N, 254.9 km)'
+                        '\n8 -> Return to the road'
+                        '\n9 -> Show location information'
+                        '\n10 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["8", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["9", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nAltitude: 180 meters'
@@ -732,7 +734,7 @@ class IntegrationTest(unittest.TestCase):
                         '\nCountry: Spain'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["9", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["10", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 236.2 km'
@@ -748,7 +750,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "2", "12", "2", "2", "2", "2", "2", "2", "0"]
+                              "2", "13", "2", "2", "2", "2", "2", "2", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
@@ -881,7 +883,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "7", "12", "1", "3", "1", "2", "2", "4", "2", "2", "2", "3", "2", "2", "2", "2", "2", "2",
+                              "7", "13", "1", "3", "1", "2", "2", "4", "2", "2", "2", "3", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "3", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "3", "3", "3", "3", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "0"]
