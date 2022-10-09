@@ -182,7 +182,7 @@ class Travel:
 
         # Run car simulation if requested and if current means of transport is car
         if self.is_car_requested and self.current_journey.get_current_means_transport() == CAR:
-            elapsed_time: int = self.car_simulation.travel(leg_distance, desired_surrounding_location)  # Actual time spent in simulation
+            elapsed_time: int = int(self.car_simulation.travel(leg_distance, desired_surrounding_location))  # Actual time spent in simulation
             self.increment_traveled_time(elapsed_time)
 
     @staticmethod

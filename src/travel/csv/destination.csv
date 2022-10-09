@@ -7974,6 +7974,37 @@ Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Entreca
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Aveiro
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Espinho
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Lisboa - Santa Apolónia
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Porto - Campanhã
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Porto - São Bento
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,False,Vila Nova de Gaia
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Braga
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Guimarães
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Lousado
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Marco de Canaveses
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Nine
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Pocinho
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Régua
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Valença
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Viana do Castelo
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Braga
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Ermesinde
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Guimarães
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Lousado
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Marco de Canaveses
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Nine
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Pocinho
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Régua
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Valença
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Viana do Castelo
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Aveiro
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Espinho
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Lisboa - Santa Apolónia
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Porto - Campanhã
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Porto - São Bento
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Vila Nova de Gaia
 Estação de Aguda,Estação de Granja,Train,False,Porto - Campanhã
 Estação de Aguda,Estação de Granja,Train,False,Porto - São Bento
 Estação de Aguda,Estação de Granja,Train,False,Vila Nova de Gaia
@@ -8934,7 +8965,7 @@ Estação de Coimbra,Estação de Coimbra-B,Train,False,Coimbra
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Alfarelos
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Figueira da Foz
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Guarda
-Estação de Coimbra,Estação de Coimbra-B,Train,True,Lisboa
+Estação de Coimbra,Estação de Coimbra-B,Train,True,Lisboa - Santa Apolónia
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Pampilhosa
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Porto - Campanhã
 Estação de Coimbra-B,Estação de Pampilhosa,Train,False,Alfarelos
@@ -8997,6 +9028,21 @@ Estação de Colombia,Estação de Nuevos Ministerios,Subway,True,Nuevos Ministe
 Estação de Colombia,Estação de Pinar del Rey,Subway,False,Nuevos Ministerios
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Aeropuerto T4
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Mar de Cristal
+Estação de Contumil,Estação de Ermesinde,Train,False,Aveiro
+Estação de Contumil,Estação de Ermesinde,Train,False,Espinho
+Estação de Contumil,Estação de Ermesinde,Train,False,Lisboa - Santa Apolónia
+Estação de Contumil,Estação de Ermesinde,Train,False,Porto - Campanhã
+Estação de Contumil,Estação de Ermesinde,Train,False,Porto - São Bento
+Estação de Contumil,Estação de Ermesinde,Train,False,Vila Nova de Gaia
+Estação de Contumil,Estação de Ermesinde,Train,True,Braga
+Estação de Contumil,Estação de Ermesinde,Train,True,Guimarães
+Estação de Contumil,Estação de Ermesinde,Train,True,Lousado
+Estação de Contumil,Estação de Ermesinde,Train,True,Marco de Canaveses
+Estação de Contumil,Estação de Ermesinde,Train,True,Nine
+Estação de Contumil,Estação de Ermesinde,Train,True,Pocinho
+Estação de Contumil,Estação de Ermesinde,Train,True,Régua
+Estação de Contumil,Estação de Ermesinde,Train,True,Valença
+Estação de Contumil,Estação de Ermesinde,Train,True,Viana do Castelo
 Estação de Contumil,Estação de Porto - Campanhã,Train,False,Braga
 Estação de Contumil,Estação de Porto - Campanhã,Train,False,Ermesinde
 Estação de Contumil,Estação de Porto - Campanhã,Train,False,Guimarães
@@ -9012,6 +9058,22 @@ Estação de Contumil,Estação de Porto - Campanhã,Train,True,Espinho
 Estação de Contumil,Estação de Porto - Campanhã,Train,True,Lisboa - Santa Apolónia
 Estação de Contumil,Estação de Porto - Campanhã,Train,True,Porto - São Bento
 Estação de Contumil,Estação de Porto - Campanhã,Train,True,Vila Nova de Gaia
+Estação de Contumil,Estação de Rio Tinto,Train,False,Aveiro
+Estação de Contumil,Estação de Rio Tinto,Train,False,Espinho
+Estação de Contumil,Estação de Rio Tinto,Train,False,Lisboa - Santa Apolónia
+Estação de Contumil,Estação de Rio Tinto,Train,False,Porto - Campanhã
+Estação de Contumil,Estação de Rio Tinto,Train,False,Porto - São Bento
+Estação de Contumil,Estação de Rio Tinto,Train,False,Vila Nova de Gaia
+Estação de Contumil,Estação de Rio Tinto,Train,True,Braga
+Estação de Contumil,Estação de Rio Tinto,Train,True,Ermesinde
+Estação de Contumil,Estação de Rio Tinto,Train,True,Guimarães
+Estação de Contumil,Estação de Rio Tinto,Train,True,Lousado
+Estação de Contumil,Estação de Rio Tinto,Train,True,Marco de Canaveses
+Estação de Contumil,Estação de Rio Tinto,Train,True,Nine
+Estação de Contumil,Estação de Rio Tinto,Train,True,Pocinho
+Estação de Contumil,Estação de Rio Tinto,Train,True,Régua
+Estação de Contumil,Estação de Rio Tinto,Train,True,Valença
+Estação de Contumil,Estação de Rio Tinto,Train,True,Viana do Castelo
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Antequera-Santa Ana
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Granada
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Madrid-Puerta de Atocha
@@ -9181,6 +9243,21 @@ Estação de Entrecampos,Pinhal Novo,High-Speed Train,False,Lisboa - Santa Apol�
 Estação de Entrecampos,Pinhal Novo,High-Speed Train,False,Porto - Campanhã
 Estação de Entrecampos,Pinhal Novo,High-Speed Train,True,Faro
 Estação de Entrecampos,Pinhal Novo,High-Speed Train,True,Tunes
+Estação de Ermesinde,Estação de Travagem,Train,False,Aveiro
+Estação de Ermesinde,Estação de Travagem,Train,False,Espinho
+Estação de Ermesinde,Estação de Travagem,Train,False,Lisboa - Santa Apolónia
+Estação de Ermesinde,Estação de Travagem,Train,False,Marco de Canaveses
+Estação de Ermesinde,Estação de Travagem,Train,False,Pocinho
+Estação de Ermesinde,Estação de Travagem,Train,False,Porto - Campanhã
+Estação de Ermesinde,Estação de Travagem,Train,False,Porto - São Bento
+Estação de Ermesinde,Estação de Travagem,Train,False,Régua
+Estação de Ermesinde,Estação de Travagem,Train,False,Vila Nova de Gaia
+Estação de Ermesinde,Estação de Travagem,Train,True,Braga
+Estação de Ermesinde,Estação de Travagem,Train,True,Guimarães
+Estação de Ermesinde,Estação de Travagem,Train,True,Lousado
+Estação de Ermesinde,Estação de Travagem,Train,True,Nine
+Estação de Ermesinde,Estação de Travagem,Train,True,Valença
+Estação de Ermesinde,Estação de Travagem,Train,True,Viana do Castelo
 Estação de Ermidas - Sado,Estação de Funcheira,High-Speed Train,False,Lisboa - Oriente
 Estação de Ermidas - Sado,Estação de Funcheira,High-Speed Train,False,Pinhal Novo
 Estação de Ermidas - Sado,Estação de Funcheira,High-Speed Train,True,Faro

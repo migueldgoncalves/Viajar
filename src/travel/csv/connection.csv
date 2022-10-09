@@ -2425,6 +2425,8 @@ Estação de Agualva - Cacém,Estação de Massamá - Barcarena,Train,2.2,Linha 
 Estação de Agualva - Cacém,Estação de Mira Sintra - Meleças,Train,3.0,Linha de Sintra - CP Lisboa/InterRegional/Regional,NW,3,1
 Estação de Agualva - Cacém,Estação de Rio de Mouro,Train,3.4,Linha de Sintra - CP Lisboa,NW,2,1
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,14.2,Linha de Sintra - InterRegional/Regional,SE,4,5
+Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,1.8,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,N,2,1
+Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,2.0,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,S,1,2
 Estação de Aguda,Estação de Granja,Train,1.3,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
 Estação de Aguda,Estação de Miramar,Train,2.0,Linha de Aveiro/Linha do Norte - CP Porto/Regional,N,2,1
 Estação de Águeda,Estação de Mourisca do Vouga,Train,4.2,Linha do Vouga/Ramal de Aveiro - Regional,N,2,1
@@ -2631,7 +2633,9 @@ Estação de Coina,Estação de Fogueteiro,Train,5.2,Linha do Sul - Fertagus,W,2
 Estação de Coina,Estação de Penalva,Train,8.7,Linha do Sul - Fertagus,E,1,2
 Estação de Colombia,Estação de Nuevos Ministerios,Subway,1.8,Linha 8 - Metro de Madrid,SW,2,1
 Estação de Colombia,Estação de Pinar del Rey,Subway,2.9,Linha 8 - Metro de Madrid,NE,1,2
+Estação de Contumil,Estação de Ermesinde,Train,6.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - InterRegional/Regional,NE,3,3
 Estação de Contumil,Estação de Porto - Campanhã,Train,2.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto/InterRegional/Regional,S,1,2
+Estação de Contumil,Estação de Rio Tinto,Train,2.4,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,NE,2,1
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,125.6,LAV Madrid-Sevilha,SW,1,3
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Train,2.6,Linha do Sul - Fertagus,SE,1,2
@@ -2661,6 +2665,7 @@ Estação de Entrecampos,Estação de Sete Rios,Train,1.9,Linha da Azambuja/Linh
 Estação de Entrecampos,Gare do Oriente,High-Speed Train,4.6,Linha de Cintura,NE,6,10
 Estação de Entrecampos,Gare do Oriente,Train,4.6,Linha de Cintura - Intercidades,NE,4,5
 Estação de Entrecampos,Pinhal Novo,High-Speed Train,39.7,Linha do Sul,SE,5,8
+Estação de Ermesinde,Estação de Travagem,Train,1.3,Linha de Braga/Linha de Guimarães/Linha do Minho - CP Porto,N,2,1
 Estação de Ermidas - Sado,Estação de Funcheira,High-Speed Train,35.1,Linha do Sul,S,3,4
 Estação de Ermidas - Sado,Estação de Funcheira,Train,35.1,Linha do Sul - Intercidades,S,1,2
 Estação de Ermidas - Sado,Ferreira do Alentejo,Car,29.0,N121,NE,6,4
