@@ -18,7 +18,7 @@ def exit_program():
 INITIAL_LOCATION = 'Guerreiros do Rio'
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
-WAY_TO_PROCESS = ways.PT_LINHA_DO_MINHO
+WAY_TO_PROCESS = ways.PT_LINHA_DO_DOURO
 
 OPTION_TRAVEL = 1
 OPTION_CAR = 2

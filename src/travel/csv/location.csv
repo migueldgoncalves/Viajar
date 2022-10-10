@@ -1723,6 +1723,7 @@ Estação de Alcântara-Terra,38.707941,-9.173125,7,,1700
 Estação de Alcantarilha,37.169876,-8.348605,34,,400
 Estação de Alcaria,40.200712,-7.517125,411,,2500
 Estação de Aldeia,40.600432,-6.885789,778,,2400
+Estação de Alegria,41.176478,-7.377785,107,,2800
 Estação de Alfarelos,40.164988,-8.634252,7,,2000
 Estação de Alferrarede,39.473632,-8.187209,46,,2000
 Estação de Algés,38.69836,-9.22934,3,,1700
@@ -1738,6 +1739,7 @@ Estação de Alvito,38.232976,-8.000178,145,,800
 Estação de Amadora,38.75967,-9.235728,131,,1700
 Estação de Amial,40.192361,-8.543533,11,,2200
 Estação de Amoreiras - Odemira,37.690014,-8.414970,159,,700
+Estação de Aregos,41.106412,-8.007449,52,,2800
 Estação de Arrifana,40.909257,-8.50103,221,,2700
 Estação de Arronches,39.096812,-7.333361,332,,2300
 Estação de Assumar,39.138885,-7.382232,338,,2300
@@ -1749,6 +1751,7 @@ Estação de Baixa da Banheira,38.659360,-9.043618,6,,1700
 Estação de Baraçal,40.677382,-7.328011,460,,2400
 Estação de Barajas,40.475804,-3.582324,621,,1800
 Estação de Barca da Amieira - Envendos,39.526021,-7.835056,73,,2500
+Estação de Barqueiros,41.140525,-7.887482,74,,2800
 Estação de Barquinha,39.461853,-8.436014,45,,1700
 Estação de Barragem de Belver,39.481979,-8.00125,49,,2000
 Estação de Barreiro-A,38.659931,-9.071422,7,,1700
@@ -1768,11 +1771,15 @@ Estação de Bom João,37.014076,-7.92142,6,,200
 Estação de Bombarral,39.26511,-9.153371,30,,2000
 Estação de Braço de Prata,38.746226,-9.103204,27,,1700
 Estação de Branca,40.76501,-8.48314,160,,2700
+Estação de Bustelo,41.23528,-8.27424,187,,2800
 Estação de Cabanões,40.587266,-8.498054,21,,2700
+Estação de Cabeda,41.220559,-8.535696,106,,2800
 Estação de Cacela,37.176448,-7.538596,39,,200
 Estação de Cacia,40.684839,-8.598227,12,,2600
+Estação de Caíde,41.25306,-8.22740,248,,2800
 Estação de Cais do Sodré,38.705979,-9.145404,2,,1700
 Estação de Caldas da Rainha,39.406469,-9.140174,53,,2200
+Estação de Caldas de Moledo,41.152888,-7.826698,77,,2800
 Estação de Campolide,38.732551,-9.168170,48,,1700
 Estação de Canas-Felgueira,40.491103,-7.906466,339,,2400
 Estação de Canelas,40.716365,-8.564005,6,,2700
@@ -1796,6 +1803,7 @@ Estação de Caxarias,39.714451,-8.545447,141,,2000
 Estação de Caxias,38.698747,-9.274404,6,,1700
 Estação de Celorico da Beira,40.665217,-7.382544,407,,2400
 Estação de Cerdeira,40.511515,-7.0477,731,,2400
+Estação de Cête,41.17189,-8.35484,126,,2800
 Estação de Chança,39.275764,-7.807974,165,,2300
 Estação de Chão de Maçãs-Fátima,39.653933,-8.49371,147,,1800
 Estação de Ciudad Real,38.985029,-3.912797,634,,1500
@@ -1809,6 +1817,7 @@ Estação de Córdoba,37.888479,-4.789593,122,,1500
 Estação de Corroios,38.636598,-9.151573,21,,1700
 Estação de Cortegaça,40.94065,-8.630247,12,,2700
 Estação de Couto de Cucujães,40.868141,-8.494099,133,,2700
+Estação de Covelinhas,41.152254,-7.688222,81,,2800
 Estação de Covilhã,40.277529,-7.496093,530,,2500
 Estação de Crato,39.269428,-7.635293,203,,2300
 Estação de Cruz Quebrada,38.699788,-9.251994,7,,1700
@@ -1822,6 +1831,7 @@ Estação de Eixo,40.631121,-8.568466,14,,2700
 Estação de Elvas,38.895508,-7.142297,227,,2300
 Estação de Entrecampos,38.744610,-9.148470,74,,1700
 Estação de Ermesinde,41.217117,-8.55423,100,,2800
+Estação de Ermida,41.124284,-7.950935,54,,2800
 Estação de Ermidas - Sado,38.002478,-8.414080,78,,700
 Estação de Escapães,40.919652,-8.51646,181,,2700
 Estação de Esgueira,40.641514,-8.617962,32,,2700
@@ -1840,7 +1850,9 @@ Estação de Fatela - Penamacor,40.149271,-7.410406,545,,2500
 Estação de Feliteira,39.022668,-9.179354,100,,2000
 Estação de Feria de Madrid,40.463849,-3.616293,670,,1800
 Estação de Fernando Pó,38.636516,-8.691447,57,,1700
+Estação de Ferradosa,41.144524,-7.331496,118,,2800
 Estação de Ferragudo,37.138716,-8.519069,3,,400
+Estação de Ferrão,41.161859,-7.611073,86,,2800
 Estação de Figueira da Foz,40.148398,-8.847365,3,,2200
 Estação de Figueiredo,40.79860,-8.48904,176,,2700
 Estação de Fogueteiro,38.609856,-9.101396,23,,1700
@@ -1852,6 +1864,7 @@ Estação de Foros de Amora,38.620704,-9.128845,26,,1700
 Estação de Francelos,41.081573,-8.64748,29,,2700
 Estação de Fratel,39.614019,-7.715766,88,,2500
 Estação de Freineda,40.593274,-6.904466,738,,2400
+Estação de Freixo de Numão - Mós do Douro,41.134668,-7.211077,129,,2800
 Estação de Fuente de la Mora,40.484875,-3.662566,709,,1500
 Estação de Funcheira,37.727240,-8.337805,101,,700
 Estação de Fundão,40.141027,-7.496258,485,,2500
@@ -1860,12 +1873,15 @@ Estação de Fuseta-A,37.053515,-7.74973,14,,200
 Estação de Fuseta-Moncarapacho,37.06012,-7.75126,5,,200
 Estação de Gata,40.52177,-7.214474,793,,2400
 Estação de General Torres,41.133096,-8.609386,63,,2800
+Estação de Godim,41.166319,-7.798841,70,,2800
 Estação de Gouveia,40.573411,-7.602113,368,,2400
 Estação de Granja,41.03853,-8.647133,12,,2700
 Estação de Guadix,37.316780,-3.127145,934,,1800
 Estação de Guia,39.948162,-8.801751,90,,2200
 Estação de Huelva,37.25242,-6.94442,5,,2100
+Estação de Irivo,41.181231,-8.342171,127,,2800
 Estação de Jerumelo,38.949851,-9.233031,244,,2000
+Estação de Juncal,41.140682,-8.119443,177,,2800
 Estação de Lagos,37.108514,-8.671666,3,,500
 Estação de Lamarosa,39.528796,-8.469124,66,,1700
 Estação de Lapa,40.983705,-8.60522,84,,2700
@@ -1875,6 +1891,7 @@ Estação de Lares,40.125865,-8.777136,4,,2200
 Estação de Leiria,39.756599,-8.827863,32,,2200
 Estação de Lisboa - Santa Apolónia,38.714479,-9.122238,2,,1700
 Estação de Litém,39.837945,-8.593443,161,,2000
+Estação de Livração,41.21646,-8.15516,122,,2800
 Estação de Loulé,37.104634,-8.058654,50,,400
 Estação de Louriçal,40.016286,-8.815431,80,,2200
 Estação de Luso - Buçaco,40.39025,-8.385003,164,,2400
@@ -1888,6 +1905,7 @@ Estação de Mafra,38.897459,-9.291372,147,,2000
 Estação de Malveira,38.928619,-9.258009,226,,2000
 Estação de Mangualde,40.586648,-7.760254,449,,2400
 Estação de Mar de Cristal,40.469471,-3.638367,678,,1900
+Estação de Marco de Canaveses,41.180986,-8.136861,114,,2800
 Estação de Marinha Grande,39.736802,-8.926175,106,,2200
 Estação de Martingança,39.687178,-8.945886,156,,2200
 Estação de Marujal,40.14035,-8.676265,7,,2200
@@ -1895,9 +1913,11 @@ Estação de Marvila,38.739083,-9.108672,35,,1700
 Estação de Massamá - Barcarena,38.751624,-9.283877,129,,1700
 Estação de Mato de Miranda,39.368442,-8.554366,18,,1700
 Estação de Mealhada,40.375417,-8.453851,50,,2300
+Estação de Meinedo,41.24899,-8.25779,214,,2800
 Estação de Messines - Alte,37.255522,-8.290915,144,,400
 Estação de Mira Sintra - Meleças,38.78955,-9.31264,151,,1700
 Estação de Miramar,41.067164,-8.64986,15,,2700
+Estação de Mirão,41.117543,-7.972579,56,,2800
 Estação de Miuzela,40.519324,-7.013278,719,,2400
 Estação de Mogofores,40.450463,-8.459392,26,,2500
 Estação de Moimenta-Alcafache,40.574596,-7.809492,421,,2400
@@ -1912,6 +1932,7 @@ Estação de Monte Redondo,39.900298,-8.834382,47,,2200
 Estação de Montemor,40.16014,-8.654091,7,,2200
 Estação de Mortágua,40.390903,-8.241281,94,,2400
 Estação de Moscavide,38.777675,-9.099501,13,,1700
+Estação de Mosteirô,41.094574,-8.069539,76,,2800
 Estação de Mourisca do Vouga,40.605265,-8.460044,72,,2700
 Estação de Mouriscas-A,39.46785,-8.085069,42,,2000
 Estação de Nelas,40.53019,-7.849913,423,,2400
@@ -1919,6 +1940,8 @@ Estação de Nuevos Ministerios,40.446607,-3.692221,681,,1500
 Estação de Óbidos,39.364903,-9.159057,15,,2200
 Estação de Oeiras,38.688451,-9.318814,19,,1700
 Estação de Oiã,40.543549,-8.549914,40,,2600
+Estação de Oleiros,41.192925,-8.337694,125,,2800
+Estação de Oliveira,41.257356,-8.198965,209,,2800
 Estação de Oliveira de Azeméis,40.840175,-8.4818,178,,2700
 Estação de Oliveira do Bairro,40.510159,-8.498744,22,,2600
 Estação de Oliveirinha-Cabanas,40.450374,-7.963299,315,,2400
@@ -1928,30 +1951,37 @@ Estação de Ovar,40.863974,-8.616641,17,,2700
 Estação de Paço de Arcos,38.697115,-9.290141,22,,1700
 Estação de Paços de Brandão,40.972023,-8.583961,115,,2700
 Estação de Paialvo,39.579633,-8.4738,72,,1800
+Estação de Pala,41.10354,-8.090586,110,,2800
 Estação de Palmela,38.571172,-8.872722,50,,1500
 Estação de Pampilhosa,40.338076,-8.43135,71,,2300
 Estação de Papízios,40.420501,-8.049682,270,,2400
+Estação de Parada,41.16009,-8.37291,123,,2800
 Estação de Paraimo-Sangalhos,40.481204,-8.480145,43,,2500
 Estação de Paramos,40.975697,-8.636904,11,,2700
+Estação de Paredes,41.204296,-8.323579,140,,2800
 Estação de Parque das Cidades,37.080296,-7.984628,41,,200
 Estação de Pataias,39.65553,-8.984913,81,,2200
 Estação de Paúl,39.294266,-9.162674,22,,2000
 Estação de Pedra Furada,38.870107,-9.295509,167,,2000
 Estação de Pegões,38.662344,-8.619292,91,,1700
 Estação de Pelariga,39.967844,-8.633293,46,,2000
+Estação de Penafiel,41.21763,-8.29485,156,,2800
 Estação de Penalva,38.590356,-8.995411,38,,1500
 Estação de Penteado,38.638417,-8.957291,28,,1500
 Estação de Pereira,40.186355,-8.585084,13,,2200
 Estação de Pêro Negro,38.988539,-9.197441,149,,2000
 Estação de Pinar del Rey,40.468048,-3.648071,702,,1900
+Estação de Pinhão,41.19038,-7.545148,86,,2800
 Estação de Pinheiro da Bemposta,40.78363,-8.48695,152,,2700
 Estação de Poceirão,38.634504,-8.744198,39,,1700
+Estação de Pocinho,41.130288,-7.123439,141,Parque Arqueológico do Vale do Côa,2800
 Estação de Pombal,39.916492,-8.630157,64,,2000
 Estação de Ponte de Sôr,39.265477,-8.013012,119,,2300
 Estação de Portalegre,39.198901,-7.461138,298,,2300
 Estação de Portela de Sintra,38.802247,-9.376375,196,,1700
 Estação de Portimão,37.144542,-8.537462,2,,500
 Estação de Porto - Campanhã,41.148665,-8.584825,68,,2800
+Estação de Porto de Rei,41.121864,-7.910628,63,,2800
 Estação de Porto - São Bento,41.1455,-8.6093,68,,2800
 Estação de Praça do Quebedo,38.524964,-8.886518,6,,1700
 Estação de Praia do Ribatejo,39.467243,-8.347584,35,,2000
@@ -1960,7 +1990,11 @@ Estação de Queluz - Belas,38.758722,-9.25673,128,,1700
 Estação de Quintans,40.591038,-8.612689,57,,2600
 Estação de Ramalhal,39.139511,-9.216042,56,,2000
 Estação de Reboleira,38.750888,-9.222739,107,,1700
+Estação de Recarei-Sobreira,41.15351,-8.39855,114,,2800
+Estação de Recesinhos,41.231561,-8.175255,155,,2800
 Estação de Recoletos,40.423449,-3.691078,648,,1500
+Estação de Rede,41.160719,-7.866044,71,,2800
+Estação de Régua,41.158556,-7.783634,75,,2800
 Estação de Reguengo-Vale da Pedra-Pontével,39.099514,-8.793532,7,,1700
 Estação de Retaxo,39.769644,-7.591241,399,,2500
 Estação de Reveles,40.130682,-8.745395,5,,2200
@@ -1997,6 +2031,7 @@ Estação de São João de Loure,40.622225,-8.548015,10,,2700
 Estação de São João de Ver,40.955488,-8.551125,171,,2700
 Estação de São João do Estoril,38.701174,-9.385756,23,,1700
 Estação de São Mamede,39.322034,-9.179424,22,,2200
+Estação de São Martinho do Campo,41.16973,-8.46774,107,,2800
 Estação de São Martinho do Porto,39.508182,-9.133202,5,,2200
 Estação de São Pedro do Estoril,38.69543,-9.371962,20,,1700
 Estação de Sapataria,38.968911,-9.199288,183,,2000
@@ -2017,19 +2052,23 @@ Estação de Soito,40.414762,-8.301427,180,,2400
 Estação de Soudos - Vila Nova,39.542884,-8.471611,81,,1700
 Estação de Soure,40.055016,-8.639487,22,,2000
 Estação de Souselas,40.286239,-8.425649,31,,2300
+Estação de Suzão,41.1969,-8.5015,147,,2800
 Estação de Taipa-Requeixo,40.60115,-8.52432,11,,2700
 Estação de Tancos,39.461249,-8.395321,28,,2000
 Estação de Taveiro,40.206001,-8.499735,14,,2200
 Estação de Tavira,37.121088,-7.655511,28,,200
+Estação de Terronhas,41.16378,-8.43830,148,,2800
 Estação de Tojeirinha,39.716763,-7.681757,256,,2500
 Estação de Tomar,39.598561,-8.412693,53,,2300
 Estação de Torre das Vargens,39.309699,-7.90849,143,,2300
 Estação de Torres Vedras,39.092731,-9.25429,33,,2000
 Estação de Tortosendo,40.238872,-7.512392,457,,2500
 Estação de Tramagal,39.46037,-8.247915,47,,2000
+Estação de Trancoso,41.16126,-8.41898,121,,2800
 Estação de Travagem,41.229059,-8.551748,94,,2800
 Estação de Travanca-Macinhata,40.81525,-8.48160,127,,2700
 Estação de Travassô,40.594185,-8.514505,22,,2700
+Estação de Tua,41.206994,-7.418878,93,,2800
 Estação de Ul,40.82319,-8.49105,138,,2700
 Estação de Urgueiras,40.70302,-8.48105,144,,2700
 Estação de Vacariça,40.356748,-8.412072,98,,2400
@@ -2040,14 +2079,18 @@ Estação de Vale de Figueira,39.313765,-8.629973,49,,1700
 Estação de Vale de Prazeres,40.114743,-7.424237,550,,2500
 Estação de Vale de Santarém,39.18838,-8.723838,11,,1700
 Estação de Válega,40.834185,-8.601492,16,,2700
+Estação de Valongo,41.18823,-8.48731,129,,2800
 Estação de Valongo do Vouga,40.624199,-8.449958,19,,2700
+Estação de Vargelas,41.143109,-7.31607,114,,2800
 Estação de Venda do Alcaide,38.606145,-8.888518,46,,1500
 Estação de Vermoil,39.850875,-8.652284,113,,2000
 Estação de Verride,40.13957,-8.703126,6,,2200
+Estação de Vesúvio,41.141269,-7.261903,125,,2800
 Estação de Vila da Feira,40.924109,-8.535388,163,,2700
 Estação de Vila Fernando,40.497794,-7.147983,764,,2400
 Estação de Vila Franca das Naves,40.724781,-7.25817,545,,2400
 Estação de Vila Franca de Xira,38.955829,-8.985976,4,,1700
+Estação de Vila Meã,41.24615,-8.18487,185,,2800
 Estação de Vila Nova da Rainha,39.036397,-8.927994,6,,1700
 Estação de Vila Nova de Anços,40.107659,-8.637847,8,,2000
 Estação de Vila Nova de Gaia - Devessas,41.129759,-8.62028,71,,2700

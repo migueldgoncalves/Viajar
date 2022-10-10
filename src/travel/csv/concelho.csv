@@ -9,6 +9,7 @@ Alcobaça,Oeste,Leiria,Estremadura
 Alcochete,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Alcoutim,Algarve,Faro,Algarve
 Alenquer,Oeste,Lisboa,Estremadura
+Alijó,Douro,Vila Real,Trás-os-Montes e Alto Douro
 Aljezur,Algarve,Faro,Algarve
 Aljustrel,Baixo Alentejo,Beja,Baixo Alentejo
 Almada,Área Metropolitana de Lisboa,Setúbal,Estremadura
@@ -17,11 +18,13 @@ Almodôvar,Baixo Alentejo,Beja,Baixo Alentejo
 Alter do Chão,Alto Alentejo,Portalegre,Alto Alentejo
 Alvito,Baixo Alentejo,Beja,Baixo Alentejo
 Amadora,Área Metropolitana de Lisboa,Lisboa,Estremadura
+Amarante,Tâmega e Sousa,Porto,Douro Litoral
 Anadia,Região de Aveiro,Aveiro,Beira Litoral
 Arraiolos,Alentejo Central,Évora,Alto Alentejo
 Arronches,Alto Alentejo,Portalegre,Alto Alentejo
 Aveiro,Região de Aveiro,Aveiro,Beira Litoral
 Azambuja,Lezíria do Tejo,Lisboa,Ribatejo
+Baião,Tâmega e Sousa,Porto,Douro Litoral
 Barcelos,Cávado,Braga,Minho
 Barrancos,Baixo Alentejo,Beja,Baixo Alentejo
 Barreiro,Área Metropolitana de Lisboa,Setúbal,Estremadura
@@ -33,6 +36,7 @@ Borba,Alentejo Central,Évora,Alto Alentejo
 Braga,Cávado,Braga,Minho
 Caldas da Rainha,Oeste,Leiria,Estremadura
 Cantanhede,Região de Coimbra,Coimbra,Beira Litoral
+Carrazeda de Ansiães,Douro,Bragança,Trás-os-Montes e Alto Douro
 Carregal do Sal,Viseu Dão-Lafões,Viseu,Beira Alta
 Cartaxo,Lezíria do Tejo,Santarém,Ribatejo
 Cascais,Área Metropolitana de Lisboa,Lisboa,Estremadura
@@ -69,13 +73,16 @@ Leiria,Região de Leiria,Leiria,Beira Litoral
 Lisboa,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Loulé,Algarve,Faro,Algarve
 Loures,Área Metropolitana de Lisboa,Lisboa,Estremadura
+Lousada,Tâmega e Sousa,Porto,Douro Litoral
 Mação,Médio Tejo,Santarém,Beira Baixa
 Mafra,Área Metropolitana de Lisboa,Lisboa,Estremadura
 Maia,Área Metropolitana do Porto,Porto,Douro Litoral
 Mangualde,Viseu Dão-Lafões,Viseu,Beira Alta
+Marco de Canaveses,Tâmega e Sousa,Porto,Douro Litoral
 Marinha Grande,Região de Leiria,Leiria,Estremadura
 Mealhada,Região de Coimbra,Aveiro,Beira Litoral
 Mértola,Baixo Alentejo,Beja,Baixo Alentejo
+Mesão Frio,Douro,Vila Real,Trás-os-Montes e Alto Douro
 Moita,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Monchique,Algarve,Faro,Algarve
 Monforte,Alto Alentejo,Portalegre,Alto Alentejo
@@ -98,6 +105,9 @@ Ourém,Médio Tejo,Santarém,Beira Litoral
 Ourique,Baixo Alentejo,Beja,Baixo Alentejo
 Ovar,Região de Aveiro,Aveiro,Beira Litoral
 Palmela,Área Metropolitana de Lisboa,Setúbal,Estremadura
+Paredes,Área Metropolitana do Porto,Porto,Douro Litoral
+Penafiel,Tâmega e Sousa,Porto,Douro Litoral
+Peso da Régua,Douro,Vila Real,Trás-os-Montes e Alto Douro
 Pinhel,Beiras e Serra da Estrela,Guarda,Beira Alta
 Pombal,Região de Leiria,Leiria,Beira Litoral
 Ponte de Lima,Alto Minho,Viana do Castelo,Minho
@@ -106,6 +116,7 @@ Portalegre,Alto Alentejo,Portalegre,Alto Alentejo
 Portel,Alentejo Central,Évora,Alto Alentejo
 Portimão,Algarve,Faro,Algarve
 Porto,Área Metropolitana do Porto,Porto,Douro Litoral
+Sabrosa,Douro,Vila Real,Trás-os-Montes e Alto Douro
 Sabugal,Beiras e Serra da Estrela,Guarda,Beira Alta
 Salvaterra de Magos,Lezíria do Tejo,Santarém,Ribatejo
 Santa Comba Dão,Viseu Dão-Lafões,Viseu,Beira Alta
@@ -114,6 +125,7 @@ Santarém,Lezíria do Tejo,Santarém,Ribatejo
 Santiago do Cacém,Alentejo Litoral,Setúbal,Baixo Alentejo
 São Brás de Alportel,Algarve,Faro,Algarve
 São João da Madeira,Área Metropolitana do Porto,Aveiro,Beira Litoral
+São João da Pesqueira,Douro,Viseu,Trás-os-Montes e Alto Douro
 Seixal,Área Metropolitana de Lisboa,Setúbal,Estremadura
 Serpa,Baixo Alentejo,Beja,Baixo Alentejo
 Setúbal,Área Metropolitana de Lisboa,Setúbal,Estremadura
@@ -138,6 +150,7 @@ Vila Franca de Xira,Área Metropolitana de Lisboa,Lisboa,Ribatejo
 Vila Nova da Barquinha,Médio Tejo,Santarém,Ribatejo
 Vila Nova de Cerveira,Alto Minho,Viana do Castelo,Minho
 Vila Nova de Famalicão,Ave,Braga,Minho
+Vila Nova de Foz Côa,Douro,Guarda,Trás-os-Montes e Alto Douro
 Vila Nova de Gaia,Área Metropolitana do Porto,Porto,Douro Litoral
 Vila Real de Santo António,Algarve,Faro,Algarve
 Vila Velha de Ródão,Beira Baixa,Castelo Branco,Beira Baixa
