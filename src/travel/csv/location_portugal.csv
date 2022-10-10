@@ -487,6 +487,7 @@ Estação de Barqueiros,Barqueiros,Mesão Frio
 Estação de Barquinha,Vila Nova da Barquinha,Vila Nova da Barquinha
 Estação de Barragem de Belver,Ortiga,Mação
 Estação de Barreiro-A,Barreiro,Barreiro
+Estação de Barrimau,Calendário,Vila Nova de Famalicão
 Estação de Belém,Santa Maria de Belém,Lisboa
 Estação de Belmonte-Manteigas,Belmonte,Belmonte
 Estação de Belver,Belver,Gavião
@@ -518,6 +519,7 @@ Estação de Carcavelos,Carcavelos,Cascais
 Estação de Caria,Caria,Belmonte
 Estação de Carrascal-Delongo,Paialvo,Tomar
 Estação de Carregal do Sal,Currelos,Carregal do Sal
+Estação de Carreira,Carreira,Barcelos
 Estação de Carvalhal da Portela,Valongo do Vouga,Águeda
 Estação de Carvalheira-Maceda,Maceda,Ovar
 Estação de Carvalhos de Figueiredo,Madalena,Tomar
@@ -563,6 +565,7 @@ Estação de Ermida,Santa Marinha do Zêzere,Baião
 Estação de Ermidas - Sado,Ermidas - Sado,Santiago do Cacém
 Estação de Escapães,Escapães,Santa Maria da Feira
 Estação de Esgueira,Esgueira,Aveiro
+Estação de Esmeriz,Esmeriz,Vila Nova de Famalicão
 Estação de Esmoriz,Esmoriz,Ovar
 Estação de Espadanal da Azambuja,Vila Nova da Rainha,Azambuja
 Estação de Espadaneira,São Martinho do Bispo,Coimbra
@@ -571,6 +574,7 @@ Estação de Espinho-Vouga,Espinho,Espinho
 Estação de Estarreja,Beduído,Estarreja
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
 Estação de Évora,Horta das Figueiras,Évora
+Estação de Famalicão,Calendário,Vila Nova de Famalicão
 Estação de Famalicão da Nazaré,Famalicão,Nazaré
 Estação de Faria,Vila de Cucujães,Oliveira de Azeméis
 Estação de Faro,São Pedro,Faro
@@ -612,12 +616,15 @@ Estação de Lapa do Lobo,Lapa do Lobo,Nelas
 Estação de Lapa,São Paio de Oleiros,Santa Maria da Feira
 Estação de Lardosa,Lardosa,Castelo Branco
 Estação de Lares,Vila Verde,Figueira da Foz
+Estação de Leandro,São Pedro Fins,Maia
 Estação de Leiria,Marrazes,Leiria
 Estação de Lisboa - Santa Apolónia,Santa Engrácia,Lisboa
 Estação de Litém,São Simão de Litém,Pombal
 Estação de Livração,Constance,Marco de Canaveses
 Estação de Loulé,São Sebastião,Loulé
 Estação de Louriçal,Carriço,Pombal
+Estação de Louro,Louro,Vila Nova de Famalicão
+Estação de Lousado,Lousado,Vila Nova de Famalicão
 Estação de Luso - Buçaco,Luso,Mealhada
 Estação de Maçainhas,Maçainhas,Belmonte
 Estação de Macinhata do Vouga,Macinhata do Vouga,Águeda
@@ -653,9 +660,11 @@ Estação de Montemor,Alfarelos,Soure
 Estação de Mortágua,Mortágua,Mortágua
 Estação de Moscavide,Moscavide,Loures
 Estação de Mosteirô,Ribadouro,Baião
+Estação de Mouquim,Mouquim,Vila Nova de Famalicão
 Estação de Mourisca do Vouga,Trofa,Águeda
 Estação de Mouriscas-A,Mouriscas,Abrantes
 Estação de Nelas,Nelas,Nelas
+Estação de Nine,Nine,Vila Nova de Famalicão
 Estação de Óbidos,Santa Maria,Óbidos
 Estação de Oeiras,Oeiras e São Julião da Barra,Oeiras
 Estação de Oiã,Oiã,Oliveira do Bairro
@@ -696,6 +705,7 @@ Estação de Pocinho,Vila Nova de Foz Côa,Vila Nova de Foz Côa
 Estação de Pombal,Pombal,Pombal
 Estação de Ponte de Sôr,Ponte de Sôr,Ponte de Sôr
 Estação de Portalegre,Urra,Portalegre
+Estação de Portela,Covelas,Trofa
 Estação de Portela de Sintra,Santa Maria e São Miguel,Sintra
 Estação de Portimão,Portimão,Portimão
 Estação de Porto - Campanhã,Campanhã,Porto
@@ -742,6 +752,7 @@ Estação de Santarém,Santa Iria da Ribeira de Santarém,Santarém
 Estação de Santiago de Riba-Ul,Santiago de Riba-Ul,Oliveira de Azeméis
 Estação de Santo Amaro,Oeiras e São Julião da Barra,Oeiras
 Estação de Santos,Santos-o-Velho,Lisboa
+Estação de São Frutuoso,Folgosa,Maia
 Estação de São João da Madeira,São João da Madeira,São João da Madeira
 Estação de São João das Craveiras,Pegões,Montijo
 Estação de São João de Loure,Eixo,Aveiro
@@ -751,6 +762,7 @@ Estação de São Mamede,Roliça,Bombarral
 Estação de São Martinho do Campo,Campo,Valongo
 Estação de São Martinho do Porto,São Martinho do Porto,Alcobaça
 Estação de São Pedro do Estoril,Estoril,Cascais
+Estação de São Romão,São Romão,Trofa
 Estação de Sapataria,Sapataria,Sobral de Monte Agraço
 Estação de Sarnadas,Sarnadas de Ródão,Vila Velha de Ródão
 Estação de Seiça-Ourém,Seiça,Ourém
@@ -784,6 +796,7 @@ Estação de Trancoso,Recarei,Paredes
 Estação de Travagem,Ermesinde,Valongo
 Estação de Travanca-Macinhata,Travanca,Oliveira de Azeméis
 Estação de Travassô,Travassô,Águeda
+Estação de Trofa,São Martinho,Trofa
 Estação de Tua,Castanheiro,Carrazeda de Ansiães
 Estação de Ul,Ul,Oliveira de Azeméis
 Estação de Urgueiras,Albergaria-a-Velha,Albergaria-a-Velha
