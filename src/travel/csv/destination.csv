@@ -8858,6 +8858,13 @@ Estação de Canelas,Estação de Salreu,Train,False,Lisboa - Santa Apolónia
 Estação de Canelas,Estação de Salreu,Train,True,Espinho
 Estação de Canelas,Estação de Salreu,Train,True,Porto - Campanhã
 Estação de Canelas,Estação de Salreu,Train,True,Porto - São Bento
+Estação de Caniços,Estação de Santo Tirso,Train,False,Guimarães
+Estação de Caniços,Estação de Santo Tirso,Train,True,Lousado
+Estação de Caniços,Estação de Santo Tirso,Train,True,Porto - Campanhã
+Estação de Caniços,Estação de Vila das Aves,Train,False,Lousado
+Estação de Caniços,Estação de Vila das Aves,Train,False,Porto - Campanhã
+Estação de Caniços,Estação de Vila das Aves,Train,False,Santo Tirso
+Estação de Caniços,Estação de Vila das Aves,Train,True,Guimarães
 Estação de Carcavelos,Estação de Oeiras,Train,False,Cascais
 Estação de Carcavelos,Estação de Oeiras,Train,False,São Pedro do Estoril
 Estação de Carcavelos,Estação de Oeiras,Train,True,Algés
@@ -9307,6 +9314,14 @@ Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,False,Por
 Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Aveiro
 Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Lisboa - Santa Apolónia
 Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,True,Oliveira de Azeméis
+Estação de Covas,Estação de Guimarães,Train,False,Lousado
+Estação de Covas,Estação de Guimarães,Train,False,Porto - Campanhã
+Estação de Covas,Estação de Guimarães,Train,False,Santo Tirso
+Estação de Covas,Estação de Guimarães,Train,True,Guimarães
+Estação de Covas,Estação de Nespereira,Train,False,Guimarães
+Estação de Covas,Estação de Nespereira,Train,True,Lousado
+Estação de Covas,Estação de Nespereira,Train,True,Porto - Campanhã
+Estação de Covas,Estação de Nespereira,Train,True,Santo Tirso
 Estação de Covelinhas,Estação de Ferrão,Train,False,Porto - Campanhã
 Estação de Covelinhas,Estação de Ferrão,Train,False,Régua
 Estação de Covelinhas,Estação de Ferrão,Train,True,Pocinho
@@ -9330,6 +9345,14 @@ Estação de Crato,Estação de Portalegre,Train,False,Entroncamento
 Estação de Crato,Estação de Portalegre,Train,False,Guarda
 Estação de Crato,Estação de Portalegre,Train,True,Badajoz
 Estação de Crato,Estação de Portalegre,Train,True,Elvas
+Estação de Cuca,Estação de Lordelo,Train,False,Guimarães
+Estação de Cuca,Estação de Lordelo,Train,True,Lousado
+Estação de Cuca,Estação de Lordelo,Train,True,Porto - Campanhã
+Estação de Cuca,Estação de Lordelo,Train,True,Santo Tirso
+Estação de Cuca,Estação de Pereirinhas,Train,False,Lousado
+Estação de Cuca,Estação de Pereirinhas,Train,False,Porto - Campanhã
+Estação de Cuca,Estação de Pereirinhas,Train,False,Santo Tirso
+Estação de Cuca,Estação de Pereirinhas,Train,True,Guimarães
 Estação de Curia,Estação de Mogofores,Train,False,Lisboa - Santa Apolónia
 Estação de Curia,Estação de Mogofores,Train,False,Pampilhosa
 Estação de Curia,Estação de Mogofores,Train,True,Aveiro
@@ -9919,6 +9942,14 @@ Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,Fals
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Aveiro
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
+Estação de Giesteira,Estação de Lordelo,Train,False,Lousado
+Estação de Giesteira,Estação de Lordelo,Train,False,Porto - Campanhã
+Estação de Giesteira,Estação de Lordelo,Train,False,Santo Tirso
+Estação de Giesteira,Estação de Lordelo,Train,True,Guimarães
+Estação de Giesteira,Estação de Vila das Aves,Train,False,Guimarães
+Estação de Giesteira,Estação de Vila das Aves,Train,True,Lousado
+Estação de Giesteira,Estação de Vila das Aves,Train,True,Porto - Campanhã
+Estação de Giesteira,Estação de Vila das Aves,Train,True,Santo Tirso
 Estação de Godim,Estação de Régua,Train,False,Marco de Canaveses
 Estação de Godim,Estação de Régua,Train,False,Porto - Campanhã
 Estação de Godim,Estação de Régua,Train,True,Pocinho
@@ -9938,6 +9969,13 @@ Estação de Guia,Estação de Monte Redondo,Train,False,Coimbra-B
 Estação de Guia,Estação de Monte Redondo,Train,False,Figueira da Foz
 Estação de Guia,Estação de Monte Redondo,Train,True,Leiria
 Estação de Guia,Estação de Monte Redondo,Train,True,Lisboa - Rossio
+Estação de Guimarães,Estação de Santo Tirso,High-Speed Train,False,Guimarães
+Estação de Guimarães,Estação de Santo Tirso,High-Speed Train,True,Lisboa - Oriente
+Estação de Guimarães,Estação de Santo Tirso,High-Speed Train,True,Porto - Campanhã
+Estação de Guimarães,Estação de Vizela,Train,False,Guimarães
+Estação de Guimarães,Estação de Vizela,Train,True,Porto - Campanhã
+Estação de Guimarães,Estação de Vizela,Train,True,Santo Tirso
+Estação de Guimarães,Estação de Vizela,Train,True,Trofa
 Estação de Huelva,Gibraleón,Train,False,Huelva
 Estação de Huelva,Gibraleón,Train,False,Sevilha-Santa Justa
 Estação de Huelva,Gibraleón,Train,True,Jabugo-Galaroza
@@ -10133,6 +10171,23 @@ Estação de Louro,Estação de Nine,Train,False,Vila Nova de Gaia
 Estação de Louro,Estação de Nine,Train,True,Braga
 Estação de Louro,Estação de Nine,Train,True,Valença
 Estação de Louro,Estação de Nine,Train,True,Viana do Castelo
+Estação de Lousado,Estação de Santo Tirso,Train,False,Aveiro
+Estação de Lousado,Estação de Santo Tirso,Train,False,Braga
+Estação de Lousado,Estação de Santo Tirso,Train,False,Ermesinde
+Estação de Lousado,Estação de Santo Tirso,Train,False,Espinho
+Estação de Lousado,Estação de Santo Tirso,Train,False,Famalicão
+Estação de Lousado,Estação de Santo Tirso,Train,False,Lisboa - Santa Apolónia
+Estação de Lousado,Estação de Santo Tirso,Train,False,Marco de Canaveses
+Estação de Lousado,Estação de Santo Tirso,Train,False,Nine
+Estação de Lousado,Estação de Santo Tirso,Train,False,Pocinho
+Estação de Lousado,Estação de Santo Tirso,Train,False,Porto - Campanhã
+Estação de Lousado,Estação de Santo Tirso,Train,False,Porto - São Bento
+Estação de Lousado,Estação de Santo Tirso,Train,False,Régua
+Estação de Lousado,Estação de Santo Tirso,Train,False,Trofa
+Estação de Lousado,Estação de Santo Tirso,Train,False,Valença
+Estação de Lousado,Estação de Santo Tirso,Train,False,Viana do Castelo
+Estação de Lousado,Estação de Santo Tirso,Train,False,Vila Nova de Gaia
+Estação de Lousado,Estação de Santo Tirso,Train,True,Guimarães
 Estação de Lousado,Estação de Trofa,Train,False,Braga
 Estação de Lousado,Estação de Trofa,Train,False,Famalicão
 Estação de Lousado,Estação de Trofa,Train,False,Guimarães
@@ -10385,6 +10440,10 @@ Estação de Mosteirô,Estação de Pala,Train,False,Pocinho
 Estação de Mosteirô,Estação de Pala,Train,False,Régua
 Estação de Mosteirô,Estação de Pala,Train,True,Marco de Canaveses
 Estação de Mosteirô,Estação de Pala,Train,True,Porto - Campanhã
+Estação de Nespereira,Estação de Vizela,Train,False,Guimarães
+Estação de Nespereira,Estação de Vizela,Train,True,Lousado
+Estação de Nespereira,Estação de Vizela,Train,True,Porto - Campanhã
+Estação de Nespereira,Estação de Vizela,Train,True,Santo Tirso
 Estação de Nine,Estação de Porto - Campanhã,Train,False,Valença
 Estação de Nine,Estação de Porto - Campanhã,Train,False,Viana do Castelo
 Estação de Nine,Estação de Porto - Campanhã,Train,False,Vigo-Guixar
@@ -10553,6 +10612,10 @@ Estação de Pereira,Estação de Taveiro,Train,False,Figueira da Foz
 Estação de Pereira,Estação de Taveiro,Train,False,Lisboa - Santa Apolónia
 Estação de Pereira,Estação de Taveiro,Train,True,Coimbra-B
 Estação de Pereira,Estação de Taveiro,Train,True,Porto - Campanhã
+Estação de Pereirinhas,Estação de Vizela,Train,False,Lousado
+Estação de Pereirinhas,Estação de Vizela,Train,False,Porto - Campanhã
+Estação de Pereirinhas,Estação de Vizela,Train,False,Santo Tirso
+Estação de Pereirinhas,Estação de Vizela,Train,True,Guimarães
 Estação de Pêro Negro,Estação de Sapataria,Train,False,Caldas da Rainha
 Estação de Pêro Negro,Estação de Sapataria,Train,False,Figueira da Foz
 Estação de Pêro Negro,Estação de Sapataria,Train,True,Agualva - Cacém
@@ -10828,6 +10891,28 @@ Estação de Santarém,Gare do Oriente,High-Speed Train,False,Porto - Campanhã
 Estação de Santarém,Gare do Oriente,High-Speed Train,True,Faro
 Estação de Santarém,Gare do Oriente,High-Speed Train,True,Lisboa - Santa Apolónia
 Estação de Santarém,Gare do Oriente,High-Speed Train,True,Pinhal Novo
+Estação de Santo Tirso,Estação de Trofa,High-Speed Train,False,Guimarães
+Estação de Santo Tirso,Estação de Trofa,High-Speed Train,True,Lisboa - Oriente
+Estação de Santo Tirso,Estação de Trofa,High-Speed Train,True,Porto - Campanhã
+Estação de Santo Tirso,Estação de Trofa,Train,False,Guimarães
+Estação de Santo Tirso,Estação de Trofa,Train,True,Aveiro
+Estação de Santo Tirso,Estação de Trofa,Train,True,Braga
+Estação de Santo Tirso,Estação de Trofa,Train,True,Ermesinde
+Estação de Santo Tirso,Estação de Trofa,Train,True,Espinho
+Estação de Santo Tirso,Estação de Trofa,Train,True,Famalicão
+Estação de Santo Tirso,Estação de Trofa,Train,True,Lisboa - Santa Apolónia
+Estação de Santo Tirso,Estação de Trofa,Train,True,Marco de Canaveses
+Estação de Santo Tirso,Estação de Trofa,Train,True,Nine
+Estação de Santo Tirso,Estação de Trofa,Train,True,Pocinho
+Estação de Santo Tirso,Estação de Trofa,Train,True,Porto - Campanhã
+Estação de Santo Tirso,Estação de Trofa,Train,True,Porto - São Bento
+Estação de Santo Tirso,Estação de Trofa,Train,True,Régua
+Estação de Santo Tirso,Estação de Trofa,Train,True,Valença
+Estação de Santo Tirso,Estação de Trofa,Train,True,Viana do Castelo
+Estação de Santo Tirso,Estação de Trofa,Train,True,Vila Nova de Gaia
+Estação de Santo Tirso,Estação de Vizela,Train,False,Porto - Campanhã
+Estação de Santo Tirso,Estação de Vizela,Train,False,Trofa
+Estação de Santo Tirso,Estação de Vizela,Train,True,Guimarães
 Estação de São Frutuoso,Estação de São Romão,Train,False,Aveiro
 Estação de São Frutuoso,Estação de São Romão,Train,False,Ermesinde
 Estação de São Frutuoso,Estação de São Romão,Train,False,Espinho
