@@ -2503,6 +2503,8 @@ Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Car,4.7,N123-1,S,3,
 Estação de Aregos,Estação de Ermida,Train,5.8,Linha do Douro - InterRegional,E,3,3
 Estação de Aregos,Estação de Mirão,Train,3.4,Linha do Douro - Regional,E,2,1
 Estação de Aregos,Estação de Mosteirô,Train,6.1,Linha do Douro - InterRegional/Regional,W,1,2
+Estação de Arentim,Estação de Couto de Cambeses,Train,5.4,Linha de Braga/Ramal de Braga - CP Porto,W,1,2
+Estação de Arentim,Estação de Ruilhe,Train,1.4,Linha de Braga/Ramal de Braga - CP Porto,NE,2,1
 Estação de Arrifana,Estação de Escapães,Train,2.1,Linha do Vouga - Regional,NW,2,1
 Estação de Arrifana,Estação de São João da Madeira,Train,1.4,Linha do Vouga - Regional,SE,1,2
 Estação de Arronches,Estação de Assumar,Train,6.4,Linha do Leste - Regional,NW,1,2
@@ -2519,6 +2521,8 @@ Estação de Aveiro,Estação de Estarreja,Train,14.8,Linha do Norte - Intercida
 Estação de Aveiro,Estação de Mealhada,Train,36.6,Linha do Norte - Intercidades,SE,6,4
 Estação de Aveiro,Estação de Oliveira do Bairro,Train,20.4,Linha do Norte - InterRegional,SE,4,4
 Estação de Aveiro,Estação de Quintans,Train,6.6,Linha do Norte - Regional,SE,1,2
+Estação de Aveleda,Estação de Mazagão,Train,4.0,Linha de Braga/Ramal de Braga - CP Porto,NE,2,1
+Estação de Aveleda,Estação de Tadim,Train,1.9,Linha de Braga/Ramal de Braga - CP Porto,SW,1,2
 Estação de Azurva,Estação de Eixo,Train,2.3,Linha do Vouga/Ramal de Aveiro - Regional,E,2,1
 Estação de Azurva,Estação de Esgueira,Train,2.3,Linha do Vouga/Ramal de Aveiro - Regional,W,1,2
 Estação de Badajoz,Estação de Elvas,Train,10.7,Linha do Leste - Regional,W,1,2
@@ -2566,6 +2570,9 @@ Estação de Bombarral,Estação de Paúl,Train,3.5,Linha do Oeste - Regional,N,
 Estação de Braço de Prata,Estação de Lisboa - Santa Apolónia,Train,4.0,Linha do Norte - CP Lisboa,SW,3,1
 Estação de Braço de Prata,Estação de Marvila,Train,0.8,Linha da Azambuja/Linha de Cintura - CP Lisboa,SW,1,2
 Estação de Braço de Prata,Gare do Oriente,Train,2.5,Linha da Azambuja/Linha do Norte - CP Lisboa,N,2,3
+Estação de Braga,Estação de Ferreiros,Train,2.1,Linha de Braga/Ramal de Braga - CP Porto,S,1,2
+Estação de Braga,Estação de Nine,High-Speed Train,15.0,Ramal de Braga,SW,3,8
+Estação de Braga,Estação de Nine,Train,15.0,Ramal de Braga - Intercidades,SW,2,5
 Estação de Branca,Estação de Pinheiro da Bemposta,Car,2.8,Linha do Vouga - Transbordo Rodoviário,N,2,1
 Estação de Bustelo,Estação de Meinedo,Train,2.2,Linha do Douro/Linha do Marco de Canaveses - CP Porto,NE,2,1
 Estação de Bustelo,Estação de Penafiel,Train,2.9,Linha do Douro/Linha do Marco de Canaveses - CP Porto,SW,1,2
@@ -2668,6 +2675,7 @@ Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,High-Spe
 Estação de Corroios,Estação de Foros de Amora,Train,2.6,Linha do Sul - Fertagus,SE,1,2
 Estação de Corroios,Estação do Pragal,Train,5.1,Linha do Sul - Fertagus,NW,2,1
 Estação de Cortegaça,Estação de Esmoriz,Train,2.5,Linha de Aveiro/Linha do Norte - CP Porto,N,2,1
+Estação de Couto de Cambeses,Estação de Nine,Train,3.3,Linha de Braga/Ramal de Braga - CP Porto,SW,1,3
 Estação de Couto de Cucujães,Estação de Faria,Train,1.3,Linha do Vouga - Regional,N,2,1
 Estação de Couto de Cucujães,Estação de Santiago de Riba-Ul,Train,2.1,Linha do Vouga - Regional,S,1,2
 Estação de Covas,Estação de Guimarães,Train,2.5,Linha de Guimarães - CP Porto,N,2,1
@@ -2736,8 +2744,8 @@ Estação de Estômbar - Lagoa,Slide & Splash,Car,1.2,,SE,1,2
 Estação de Famalicão da Nazaré,Estação de São Martinho do Porto,Train,5.0,Linha do Oeste - Regional,W,1,2
 Estação de Famalicão da Nazaré,Estação de Valado-Nazaré-Alcobaça,Train,8.6,Linha do Oeste - Regional,NE,2,1
 Estação de Famalicão,Estação de Mouquim,Train,2.8,Linha de Braga/Linha do Minho - CP Porto,N,2,1
-Estação de Famalicão,Estação de Nine,High-Speed Train,6.8,Linha do Minho,N,6,5
-Estação de Famalicão,Estação de Nine,Train,6.8,Linha de Braga/Linha do Minho - Intercidades/InterRegional/Regional,N,4,3
+Estação de Famalicão,Estação de Nine,High-Speed Train,6.8,Linha do Minho,N,6,7
+Estação de Famalicão,Estação de Nine,Train,6.8,Linha de Braga/Linha do Minho - Intercidades/InterRegional/Regional,N,4,4
 Estação de Famalicão,Estação de Porto - Campanhã,High-Speed Train,31.6,Linha do Minho,S,5,8
 Estação de Famalicão,Estação de Trofa,Train,9.2,Linha de Braga/Linha do Minho - Intercidades/InterRegional/Regional,S,3,4
 Estação de Faria,Estação de São João da Madeira,Train,2.5,Linha do Vouga - Regional,N,2,1
@@ -2756,6 +2764,7 @@ Estação de Ferradosa,Estação de Vargelas,Train,1.4,Linha do Douro - InterReg
 Estação de Ferragudo,Estação de Portimão,Train,2.0,Linha do Algarve - Regional,NW,3,4
 Estação de Ferragudo,Parchal,Car,0.3,,SW,1,3
 Estação de Ferrão,Estação de Pinhão,Train,7.6,Linha do Douro - InterRegional/Regional,E,2,1
+Estação de Ferreiros,Estação de Mazagão,Train,1.5,Linha de Braga/Ramal de Braga - CP Porto,W,1,2
 Estação de Figueira da Foz,Estação de Fontela-A,Train,1.9,Linha do Oeste - Regional/Urbanos de Coimbra,E,1,2
 Estação de Figueiredo,Estação de Pinheiro da Bemposta,Car,2.3,Linha do Vouga - Transbordo Rodoviário,S,1,2
 Estação de Figueiredo,Estação de Travanca-Macinhata,Car,3.3,Linha do Vouga - Transbordo Rodoviário,N,2,1
@@ -2885,7 +2894,7 @@ Estação de Moscavide,Estação de Sacavém,Train,2.0,Linha da Azambuja/Linha d
 Estação de Moscavide,Gare do Oriente,Train,1.2,Linha da Azambuja/Linha do Norte - CP Lisboa,S,1,4
 Estação de Mosteirô,Estação de Pala,Train,2.4,Linha do Douro - Regional,W,1,2
 Estação de Nespereira,Estação de Vizela,Train,2.8,Linha de Guimarães - CP Porto,S,1,2
-Estação de Nine,Estação de Porto - Campanhã,Train,38.4,Linha do Minho - Celta,S,4,6
+Estação de Nine,Estação de Porto - Campanhã,Train,38.4,Linha do Minho - Celta,S,6,6
 Estação de Nuevos Ministerios,Estação de Recoletos,Train,2.7,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,2
 Estação de Oeiras,Estação de Santo Amaro,Train,0.6,Linha de Cascais - CP Lisboa,E,1,2
 Estação de Oiã,Estação de Oliveira do Bairro,Train,5.8,Linha do Norte - Regional,SE,1,2
@@ -2955,6 +2964,7 @@ Estação de Riachos-Torres Novas-Golegã,Estação do Entroncamento,Train,4.2,L
 Estação de Rio Meão,Estação de São João de Ver,Train,3.1,Linha do Vouga - Regional,E,1,2
 Estação de Rochoso,Estação de Vila Fernando,Train,5.0,Linha da Beira Alta - Regional,W,1,2
 Estação de Ródão,Estação de Tojeirinha,Train,8.5,Linha da Beira Baixa - Regional,N,2,1
+Estação de Ruilhe,Estação de Tadim,Train,1.7,Linha de Braga/Ramal de Braga - CP Porto,NE,2,1
 Estação de Runa,Estação de Torres Vedras,Train,4.9,Linha do Oeste - Regional,W,2,1
 Estação de Salir do Porto,Estação de São Martinho do Porto,Train,2.3,Linha do Oeste - Regional,NE,2,1
 Estação de Sanfins,Estação de Vila da Feira,Train,0.8,Linha do Vouga - Regional,SW,1,2

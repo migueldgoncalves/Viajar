@@ -8345,6 +8345,12 @@ Estação de Aregos,Estação de Mosteirô,Train,False,Pocinho
 Estação de Aregos,Estação de Mosteirô,Train,False,Régua
 Estação de Aregos,Estação de Mosteirô,Train,True,Marco de Canaveses
 Estação de Aregos,Estação de Mosteirô,Train,True,Porto - Campanhã
+Estação de Arentim,Estação de Couto de Cambeses,Train,False,Braga
+Estação de Arentim,Estação de Couto de Cambeses,Train,True,Nine
+Estação de Arentim,Estação de Couto de Cambeses,Train,True,Porto - Campanhã
+Estação de Arentim,Estação de Ruilhe,Train,False,Nine
+Estação de Arentim,Estação de Ruilhe,Train,False,Porto - Campanhã
+Estação de Arentim,Estação de Ruilhe,Train,True,Braga
 Estação de Arrifana,Estação de Escapães,Train,False,Aveiro
 Estação de Arrifana,Estação de Escapães,Train,False,Lisboa - Santa Apolónia
 Estação de Arrifana,Estação de Escapães,Train,False,Oliveira de Azeméis
@@ -8423,6 +8429,12 @@ Estação de Aveiro,Estação de Quintans,Train,False,Espinho
 Estação de Aveiro,Estação de Quintans,Train,False,Porto - Campanhã
 Estação de Aveiro,Estação de Quintans,Train,True,Lisboa - Santa Apolónia
 Estação de Aveiro,Estação de Quintans,Train,True,Pampilhosa
+Estação de Aveleda,Estação de Mazagão,Train,False,Nine
+Estação de Aveleda,Estação de Mazagão,Train,False,Porto - Campanhã
+Estação de Aveleda,Estação de Mazagão,Train,True,Braga
+Estação de Aveleda,Estação de Tadim,Train,False,Braga
+Estação de Aveleda,Estação de Tadim,Train,True,Nine
+Estação de Aveleda,Estação de Tadim,Train,True,Porto - Campanhã
 Estação de Azurva,Estação de Eixo,Train,False,Aveiro
 Estação de Azurva,Estação de Eixo,Train,False,Lisboa - Santa Apolónia
 Estação de Azurva,Estação de Eixo,Train,True,Espinho
@@ -8692,6 +8704,29 @@ Estação de Braço de Prata,Gare do Oriente,Train,False,Sintra
 Estação de Braço de Prata,Gare do Oriente,Train,True,Azambuja
 Estação de Braço de Prata,Gare do Oriente,Train,True,Porto - Campanhã
 Estação de Braço de Prata,Gare do Oriente,Train,True,Vila Franca de Xira
+Estação de Braga,Estação de Ferreiros,Train,False,Braga
+Estação de Braga,Estação de Ferreiros,Train,True,Nine
+Estação de Braga,Estação de Ferreiros,Train,True,Porto - Campanhã
+Estação de Braga,Estação de Nine,High-Speed Train,False,Braga
+Estação de Braga,Estação de Nine,High-Speed Train,True,Lisboa - Oriente
+Estação de Braga,Estação de Nine,High-Speed Train,True,Porto - Campanhã
+Estação de Braga,Estação de Nine,Train,False,Braga
+Estação de Braga,Estação de Nine,Train,True,Aveiro
+Estação de Braga,Estação de Nine,Train,True,Ermesinde
+Estação de Braga,Estação de Nine,Train,True,Espinho
+Estação de Braga,Estação de Nine,Train,True,Famalicão
+Estação de Braga,Estação de Nine,Train,True,Guimarães
+Estação de Braga,Estação de Nine,Train,True,Lisboa - Santa Apolónia
+Estação de Braga,Estação de Nine,Train,True,Lousado
+Estação de Braga,Estação de Nine,Train,True,Marco de Canaveses
+Estação de Braga,Estação de Nine,Train,True,Pocinho
+Estação de Braga,Estação de Nine,Train,True,Porto - Campanhã
+Estação de Braga,Estação de Nine,Train,True,Porto - São Bento
+Estação de Braga,Estação de Nine,Train,True,Régua
+Estação de Braga,Estação de Nine,Train,True,Trofa
+Estação de Braga,Estação de Nine,Train,True,Valença
+Estação de Braga,Estação de Nine,Train,True,Viana do Castelo
+Estação de Braga,Estação de Nine,Train,True,Vila Nova de Gaia
 Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Aveiro
 Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Lisboa - Santa Apolónia
 Estação de Branca,Estação de Pinheiro da Bemposta,Car,False,Macinhata do Vouga
@@ -9304,6 +9339,23 @@ Estação de Cortegaça,Estação de Esmoriz,Train,False,Lisboa - Santa Apolóni
 Estação de Cortegaça,Estação de Esmoriz,Train,True,Espinho
 Estação de Cortegaça,Estação de Esmoriz,Train,True,Porto - Campanhã
 Estação de Cortegaça,Estação de Esmoriz,Train,True,Porto - São Bento
+Estação de Couto de Cambeses,Estação de Nine,Train,False,Braga
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Aveiro
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Ermesinde
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Espinho
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Famalicão
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Guimarães
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Lisboa - Santa Apolónia
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Lousado
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Marco de Canaveses
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Pocinho
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Porto - Campanhã
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Porto - São Bento
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Régua
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Trofa
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Valença
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Viana do Castelo
+Estação de Couto de Cambeses,Estação de Nine,Train,True,Vila Nova de Gaia
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Aveiro
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Lisboa - Santa Apolónia
 Estação de Couto de Cucujães,Estação de Faria,Train,False,Oliveira de Azeméis
@@ -9791,6 +9843,9 @@ Estação de Ferragudo,Estação de Portimão,Train,True,Lagos
 Estação de Ferrão,Estação de Pinhão,Train,False,Porto - Campanhã
 Estação de Ferrão,Estação de Pinhão,Train,False,Régua
 Estação de Ferrão,Estação de Pinhão,Train,True,Pocinho
+Estação de Ferreiros,Estação de Mazagão,Train,False,Braga
+Estação de Ferreiros,Estação de Mazagão,Train,True,Nine
+Estação de Ferreiros,Estação de Mazagão,Train,True,Porto - Campanhã
 Estação de Figueira da Foz,Estação de Fontela-A,Train,False,Figueira da Foz
 Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Alfarelos
 Estação de Figueira da Foz,Estação de Fontela-A,Train,True,Bifurcação de Lares
@@ -10832,6 +10887,9 @@ Estação de Ródão,Estação de Tojeirinha,Train,False,Badajoz
 Estação de Ródão,Estação de Tojeirinha,Train,False,Entroncamento
 Estação de Ródão,Estação de Tojeirinha,Train,True,Covilhã
 Estação de Ródão,Estação de Tojeirinha,Train,True,Guarda
+Estação de Ruilhe,Estação de Tadim,Train,False,Nine
+Estação de Ruilhe,Estação de Tadim,Train,False,Porto - Campanhã
+Estação de Ruilhe,Estação de Tadim,Train,True,Braga
 Estação de Runa,Estação de Torres Vedras,Train,False,Agualva - Cacém
 Estação de Runa,Estação de Torres Vedras,Train,False,Jerumelo
 Estação de Runa,Estação de Torres Vedras,Train,False,Lisboa - Rossio
