@@ -439,6 +439,7 @@ Estação da Póvoa,Póvoa de Santa Iria,Vila Franca de Xira
 Estação das Mercês,Algueirão-Mem Martins,Sintra
 Estação de Abrantes,São Miguel do Rio Torto,Abrantes
 Estação de Adémia,Trouxemil,Coimbra
+Estação de Afife,Afife,Viana do Castelo
 Estação de Agualva - Cacém,Agualva,Sintra
 Estação de Águas Santas/Palmilheira,Águas Santas,Maia
 Estação de Aguda,Arcozelo,Vila Nova de Gaia
@@ -467,14 +468,18 @@ Estação de Alhos Vedros,Alhos Vedros,Moita
 Estação de Almancil,Almancil,Loulé
 Estação de Almourol,Praia do Ribatejo,Vila Nova da Barquinha
 Estação de Alpedrinha,Alpedrinha,Fundão
+Estação de Alvarães,Alvarães,Viana do Castelo
 Estação de Alvega-Ortiga,Ortiga,Mação
 Estação de Alverca,Alverca do Ribatejo,Vila Franca de Xira
 Estação de Alvito,Alvito,Alvito
 Estação de Amadora,Mina de Água,Amadora
 Estação de Amial,Ameal,Coimbra
 Estação de Amoreiras - Odemira,São Martinho das Amoreiras,Odemira
+Estação de Âncora-Praia,Vila Praia de Âncora,Caminha
 Estação de Aregos,Santa Cruz do Douro,Baião
+Estação de Areia - Darque,Darque,Viana do Castelo
 Estação de Arentim,Arentim,Braga
+Estação de Areosa,Areosa,Viana do Castelo
 Estação de Arrifana,Arrifana,Santa Maria da Feira
 Estação de Arronches,Assunção,Arronches
 Estação de Assumar,Assumar,Monforte
@@ -485,11 +490,13 @@ Estação de Azurva,Eixo,Aveiro
 Estação de Baixa da Banheira,Baixa da Banheira,Moita
 Estação de Baraçal,Baraçal,Celorico da Beira
 Estação de Barca da Amieira - Envendos,Envendos,Mação
+Estação de Barcelos,Arcozelo,Barcelos
 Estação de Barqueiros,Barqueiros,Mesão Frio
 Estação de Barquinha,Vila Nova da Barquinha,Vila Nova da Barquinha
 Estação de Barragem de Belver,Ortiga,Mação
 Estação de Barreiro-A,Barreiro,Barreiro
 Estação de Barrimau,Calendário,Vila Nova de Famalicão
+Estação de Barroselas,Barroselas,Viana do Castelo
 Estação de Belém,Santa Maria de Belém,Lisboa
 Estação de Belmonte-Manteigas,Belmonte,Belmonte
 Estação de Belver,Belver,Gavião
@@ -515,15 +522,19 @@ Estação de Caíde,Caíde de Rei,Lousada
 Estação de Cais do Sodré,São Paulo,Lisboa
 Estação de Caldas da Rainha,Santo Onofre,Caldas da Rainha
 Estação de Caldas de Moledo,Fontelas,Peso da Régua
+Estação de Caminha,Caminha (Matriz),Caminha
 Estação de Campolide,Campolide,Lisboa
 Estação de Canas-Felgueira,Canas de Senhorim,Nelas
 Estação de Canelas,Canelas,Estarreja
 Estação de Caniços,Bairro,Vila Nova de Famalicão
+Estação de Carapeços,Carapeços,Barcelos
 Estação de Carcavelos,Carcavelos,Cascais
 Estação de Caria,Caria,Belmonte
 Estação de Carrascal-Delongo,Paialvo,Tomar
+Estação de Carreço,Carreço,Viana do Castelo
 Estação de Carregal do Sal,Currelos,Carregal do Sal
 Estação de Carreira,Carreira,Barcelos
+Estação de Carvalha,Campos,Vila Nova de Cerveira
 Estação de Carvalhal da Portela,Valongo do Vouga,Águeda
 Estação de Carvalheira-Maceda,Maceda,Ovar
 Estação de Carvalhos de Figueiredo,Madalena,Tomar
@@ -561,8 +572,10 @@ Estação de Cuca,Moreira de Cónegos,Guimarães
 Estação de Curia,Tamengos,Anadia
 Estação de Curvaceiras,Madalena,Tomar
 Estação de Dagorda - Peniche,Santa Maria,Óbidos
+Estação de Darque,Darque,Viana do Castelo
 Estação de Dois Portos,Dois Portos,Torres Vedras
 Estação de Donas,Donas,Fundão
+Estação de Durrães,Durrães,Barcelos
 Estação de Eirol,Eirol,Aveiro
 Estação de Eixo,Eixo,Aveiro
 Estação de Elvas,Caia e São Pedro,Elvas
@@ -578,6 +591,7 @@ Estação de Espadanal da Azambuja,Vila Nova da Rainha,Azambuja
 Estação de Espadaneira,São Martinho do Bispo,Coimbra
 Estação de Espinho,Espinho,Espinho
 Estação de Espinho-Vouga,Espinho,Espinho
+Estação de Esqueiro,Lanhelas,Caminha
 Estação de Estarreja,Beduído,Estarreja
 Estação de Estômbar - Lagoa,Estômbar,Lagoa
 Estação de Évora,Horta das Figueiras,Évora
@@ -613,6 +627,7 @@ Estação de Gata,Casal de Cinza,Guarda
 Estação de General Torres,Santa Marinha,Vila Nova de Gaia
 Estação de Giesteira,Lordelo,Guimarães
 Estação de Godim,Godim,Peso da Régua
+Estação de Gondarém,Gondarém,Vila Nova de Cerveira
 Estação de Gouveia,Abrunhosa-a-Velha,Mangualde
 Estação de Granja,São Félix da Marinha,Vila Nova de Gaia
 Estação de Guia,Guia,Pombal
@@ -654,6 +669,7 @@ Estação de Mazagão,Aveleda,Braga
 Estação de Mealhada,Mealhada,Mealhada
 Estação de Meinedo,Meinedo,Lousada
 Estação de Messines - Alte,São Bartolomeu de Messines,Silves
+Estação de Midões,Midões,Barcelos
 Estação de Mira Sintra - Meleças,Belas,Sintra
 Estação de Miramar,Arcozelo,Vila Nova de Gaia
 Estação de Mirão,São Tomé de Covelas,Baião
@@ -661,6 +677,7 @@ Estação de Miuzela,Miuzela,Almeida
 Estação de Mogofores,Mogofores,Anadia
 Estação de Moimenta-Alcafache,Espinho,Mangualde
 Estação de Moita,Moita,Moita
+Estação de Moledo do Minho,Moledo,Caminha
 Estação de Monte Abraão,Queluz,Sintra
 Estação de Monte de Lobos,Vale de Remígio,Mortágua
 Estação de Monte de Paramos,Paramos,Espinho
@@ -777,15 +794,20 @@ Estação de São João do Estoril,Estoril,Cascais
 Estação de São Mamede,Roliça,Bombarral
 Estação de São Martinho do Campo,Campo,Valongo
 Estação de São Martinho do Porto,São Martinho do Porto,Alcobaça
+Estação de São Pedro da Torre,São Pedro da Torre,Valença
 Estação de São Pedro do Estoril,Estoril,Cascais
 Estação de São Romão,São Romão,Trofa
 Estação de Sapataria,Sapataria,Sobral de Monte Agraço
 Estação de Sarnadas,Sarnadas de Ródão,Vila Velha de Ródão
 Estação de Seiça-Ourém,Seiça,Ourém
+Estação de Seixas,Seixas,Caminha
+Estação de Senhora da Agonia,Vilarelho,Caminha
+Estação de Senhora das Neves,Vila de Punhe,Viana do Castelo
 Estação de Sernada do Vouga,Macinhata do Vouga,Águeda
 Estação de Sete Rios,São Domingos de Benfica,Lisboa
 Estação de Setil,Vale da Pedra,Cartaxo
 Estação de Setúbal,São Sebastião,Setúbal
+Estação de Silva,Silva,Barcelos
 Estação de Silvalde,Silvalde,Espinho
 Estação de Silvalde-Vouga,Silvalde,Espinho
 Estação de Silves,Silves,Silves
@@ -799,6 +821,7 @@ Estação de Souselas,Souselas,Coimbra
 Estação de Suzão,Valongo,Valongo
 Estação de Tadim,Tadim,Braga
 Estação de Taipa-Requeixo,Requeixo,Aveiro
+Estação de Tamel,Aborim,Barcelos
 Estação de Tancos,Praia do Ribatejo,Vila Nova da Barquinha
 Estação de Taveiro,Taveiro,Coimbra
 Estação de Tavira,Santiago,Tavira
@@ -824,6 +847,7 @@ Estação de Vale de Figueira,Vale de Figueira,Santarém
 Estação de Vale de Prazeres,Vale de Prazeres,Fundão
 Estação de Vale de Santarém,Vale de Santarém,Santarém
 Estação de Válega,Válega,Ovar
+Estação de Valença,Valença,Valença
 Estação de Valongo do Vouga,Valongo do Vouga,Águeda
 Estação de Valongo,Valongo,Valongo
 Estação de Vargelas,Vale da Figueira,São João da Pesqueira
@@ -831,6 +855,7 @@ Estação de Venda do Alcaide,Palmela,Palmela
 Estação de Vermoil,Santiago de Litém,Pombal
 Estação de Verride,Verride,Montemor-o-Velho
 Estação de Vesúvio,Numão,Vila Nova de Foz Côa
+Estação de Viana do Castelo,Santa Maria Maior,Viana do Castelo
 Estação de Vila da Feira,Feira,Santa Maria da Feira
 Estação de Vila das Aves,Aves,Santo Tirso
 Estação de Vila Fernando,Vila Fernando,Guarda
@@ -839,6 +864,7 @@ Estação de Vila Franca de Xira,Vila Franca de Xira,Vila Franca de Xira
 Estação de Vila Meã,Ataíde,Amarante
 Estação de Vila Nova da Rainha,Vila Nova da Rainha,Azambuja
 Estação de Vila Nova de Anços,Vila Nova de Anços,Soure
+Estação de Vila Nova de Cerveira,Vila Nova de Cerveira,Vila Nova de Cerveira
 Estação de Vila Nova de Gaia - Devessas,Santa Marinha,Vila Nova de Gaia
 Estação de Vila Pouca do Campo,Ameal,Coimbra
 Estação de Vilar Formoso,Vilar Formoso,Almeida
