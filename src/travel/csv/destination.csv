@@ -2956,6 +2956,69 @@ A-6 - Saída 156,A-6 - Saída 157,Car,False,Madrid
 A-6 - Saída 156,A-6 - Saída 157,Car,True,A Coruña
 A-6 - Saída 156,A-6 - Saída 157,Car,True,A-62 - Valladolid
 A-6 - Saída 156,A-6 - Saída 157,Car,True,Tordesillas
+A-6 - Saída 157,A-6 - Saída 160,Car,False,Arévalo
+A-6 - Saída 157,A-6 - Saída 160,Car,False,Madrid
+A-6 - Saída 157,A-6 - Saída 160,Car,True,A Coruña
+A-6 - Saída 157,A-6 - Saída 160,Car,True,A-62 - Valladolid
+A-6 - Saída 157,A-6 - Saída 160,Car,True,Tordesillas
+A-6 - Saída 160,A-6 - Saída 161,Car,False,Arévalo
+A-6 - Saída 160,A-6 - Saída 161,Car,False,Madrid
+A-6 - Saída 160,A-6 - Saída 161,Car,True,A Coruña
+A-6 - Saída 160,A-6 - Saída 161,Car,True,Tordesillas
+A-6 - Saída 160,A-6 - Saída 161,Car,True,Valladolid
+A-6 - Saída 161,A-6 - Saída 165,Car,False,Madrid
+A-6 - Saída 161,A-6 - Saída 165,Car,False,Medina del Campo
+A-6 - Saída 161,A-6 - Saída 165,Car,True,A Coruña
+A-6 - Saída 161,A-6 - Saída 165,Car,True,A-62 - Valladolid
+A-6 - Saída 161,A-6 - Saída 165,Car,True,Tordesillas
+A-6 - Saída 165,A-6 - Saída 170,Car,False,Madrid
+A-6 - Saída 165,A-6 - Saída 170,Car,False,Medina del Campo
+A-6 - Saída 165,A-6 - Saída 170,Car,True,A Coruña
+A-6 - Saída 165,A-6 - Saída 170,Car,True,Tordesillas
+A-6 - Saída 165,A-6 - Saída 170,Car,True,Valladolid
+A-6 - Saída 170,A-6 - Saída 172,Car,False,Madrid
+A-6 - Saída 170,A-6 - Saída 172,Car,False,Medina del Campo
+A-6 - Saída 170,A-6 - Saída 172,Car,True,A Coruña
+A-6 - Saída 170,A-6 - Saída 172,Car,True,Valladolid
+A-6 - Saída 172,A-6 - Saída 175,Car,False,Madrid
+A-6 - Saída 172,A-6 - Saída 175,Car,False,Medina del Campo
+A-6 - Saída 172,A-6 - Saída 175,Car,True,A Coruña
+A-6 - Saída 172,A-6 - Saída 175,Car,True,Tordesillas
+A-6 - Saída 172,A-6 - Saída 175,Car,True,Valladolid
+A-6 - Saída 175,A-6 - Saída 179,Car,False,Madrid
+A-6 - Saída 175,A-6 - Saída 179,Car,False,Medina del Campo
+A-6 - Saída 175,A-6 - Saída 179,Car,True,A Coruña
+A-6 - Saída 175,A-6 - Saída 179,Car,True,Tordesillas
+A-6 - Saída 175,A-6 - Saída 179,Car,True,Valladolid
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,False,Madrid
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,False,Medina del Campo
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,True,A Coruña
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,True,Salamanca
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,True,Valladolid
+A-6 - Saída 179,Cruzamento Este da A-6 com a A-62,Car,True,Zamora
+A-6 - Saída 186,A-6 - Saída 189,Car,False,Madrid
+A-6 - Saída 186,A-6 - Saída 189,Car,False,Tordesillas
+A-6 - Saída 186,A-6 - Saída 189,Car,False,Valladolid
+A-6 - Saída 186,A-6 - Saída 189,Car,True,A Coruña
+A-6 - Saída 186,A-6 - Saída 189,Car,True,Benavente
+A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,False,A Coruña
+A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,False,Benavente
+A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,True,Madrid
+A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,True,Tordesillas
+A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,True,Valladolid
+A-6 - Saída 189,A-6 - Saída 195,Car,False,Madrid
+A-6 - Saída 189,A-6 - Saída 195,Car,False,Valladolid
+A-6 - Saída 189,A-6 - Saída 195,Car,True,A Coruña
+A-6 - Saída 189,A-6 - Saída 195,Car,True,Benavente
+A-6 - Saída 195,A-6 - Saída 196,Car,False,Madrid
+A-6 - Saída 195,A-6 - Saída 196,Car,False,Valladolid
+A-6 - Saída 195,A-6 - Saída 196,Car,True,A Coruña
+A-6 - Saída 195,A-6 - Saída 196,Car,True,Benavente
+A-6 - Saída 196,A-6 - Saída 201,Car,False,Madrid
+A-6 - Saída 196,A-6 - Saída 201,Car,False,Tordesillas
+A-6 - Saída 196,A-6 - Saída 201,Car,False,Valladolid
+A-6 - Saída 196,A-6 - Saída 201,Car,True,A Coruña
+A-6 - Saída 196,A-6 - Saída 201,Car,True,Benavente
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
@@ -2964,6 +3027,30 @@ A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,False,Estepona
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,False,Málaga
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,True,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,True,Cádiz
+A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,False,Algeciras
+A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,False,Cádiz
+A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,True,Estepona
+A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,True,Málaga
+A-7 - Camping La Bella Vista,A-7 - Saída 141,Car,False,Estepona
+A-7 - Camping La Bella Vista,A-7 - Saída 141,Car,False,Málaga
+A-7 - Camping La Bella Vista,A-7 - Saída 141,Car,True,Algeciras
+A-7 - Camping La Bella Vista,A-7 - Saída 141,Car,True,Cádiz
+A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,False,Algeciras
+A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,False,Cádiz
+A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,True,Estepona
+A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,True,Málaga
+A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,False,Algeciras
+A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,False,Cádiz
+A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,True,Estepona
+A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,True,Málaga
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Saída 141,Car,False,Algeciras
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Saída 141,Car,False,Cádiz
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Saída 141,Car,True,Estepona
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Saída 141,Car,True,Málaga
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Urbanización Jardin Tropical,Car,False,Estepona
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Urbanización Jardin Tropical,Car,False,Málaga
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Urbanización Jardin Tropical,Car,True,Algeciras
+A-7 - La Duquesa/Jardines del Mar/Residencial Chullera,A-7 - Urbanización Jardin Tropical,Car,True,Cádiz
 A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,False,Algeciras
 A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,False,Cádiz
 A-7 - La Paloma/Playa Paraiso,A-7 - Martagina,Car,True,Estepona
@@ -2972,6 +3059,18 @@ A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Estep
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Málaga
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Algeciras
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Cádiz
+A-7 - Martagina,A-7 - Playa de la Chullera,Car,False,Algeciras
+A-7 - Martagina,A-7 - Playa de la Chullera,Car,False,Cádiz
+A-7 - Martagina,A-7 - Playa de la Chullera,Car,True,Estepona
+A-7 - Martagina,A-7 - Playa de la Chullera,Car,True,Málaga
+A-7 - Playa de la Chullera,A-7 - Urbanización Jardin Tropical,Car,False,Algeciras
+A-7 - Playa de la Chullera,A-7 - Urbanización Jardin Tropical,Car,False,Cádiz
+A-7 - Playa de la Chullera,A-7 - Urbanización Jardin Tropical,Car,True,Estepona
+A-7 - Playa de la Chullera,A-7 - Urbanización Jardin Tropical,Car,True,Málaga
+A-7 - Puerto de la Duquesa,A-7 - Urbanización Pueblo Mexicano,Car,False,Algeciras
+A-7 - Puerto de la Duquesa,A-7 - Urbanización Pueblo Mexicano,Car,False,Cádiz
+A-7 - Puerto de la Duquesa,A-7 - Urbanización Pueblo Mexicano,Car,True,Estepona
+A-7 - Puerto de la Duquesa,A-7 - Urbanización Pueblo Mexicano,Car,True,Málaga
 A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,False,Algeciras
 A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,False,Cádiz
 A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,True,Estepona
@@ -7681,6 +7780,11 @@ Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,False,IC16
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Alfornelos
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Algés
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Lisboa - Pedralvas
+Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,A-62 - Burgos/Valladolid
+Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,Madrid
+Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A Coruña
+Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A-11 - Zamora
+Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A-62 - Salamanca
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Almería
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Rincón de la Victoria
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,True,Málaga
