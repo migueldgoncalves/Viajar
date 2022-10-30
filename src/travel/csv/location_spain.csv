@@ -1127,6 +1127,7 @@ Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,
 Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
+Cruzamento da A-3 com a M-50,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da A-4 com a A-4a,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
 Cruzamento da A-4 com a A-43,Manzanares,Ciudad Real,
@@ -1238,14 +1239,17 @@ Cruzamento da M-14 com a M-21 e a M-40,Madrid,Comunidade de Madrid,San Blas-Cani
 Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-31 com a M-40,Madrid,Comunidade de Madrid,Puente de Vallecas
+Cruzamento da M-31 com a M-50,Madrid,Comunidade de Madrid,Villa de Vallecas
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,
 Cruzamento da M-40 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-40 com a R-2,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-40 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
+Cruzamento da M-45 com a M-50,San Fernando de Henares,Comunidade de Madrid,
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
+Cruzamento da M-50 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da M-50 com a R-4,Getafe,Comunidade de Madrid,
 Cruzamento da M-100 com a R-2,Alcalá de Henares,Comunidade de Madrid,Distrito III
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
@@ -1436,6 +1440,8 @@ M-40 - Saída 41,Pozuelo de Alarcón,Comunidade de Madrid,
 M-40 - Saída 45,Pozuelo de Alarcón,Comunidade de Madrid,
 M-40 - Saída 51,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 M-40 - Saída 54,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-45/M-50 - Saída 32,San Fernando de Henares,Comunidade de Madrid,
+M-50 - Saída 41,Getafe,Comunidade de Madrid,
 M-50 - Saída 53,Leganés,Comunidade de Madrid,
 M-50 - Saída 55,Leganés,Comunidade de Madrid,
 M-50 - Saída 56,Leganés,Comunidade de Madrid,

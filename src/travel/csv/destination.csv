@@ -6712,6 +6712,28 @@ Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,True,A-6
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,True,A-42
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,True,R-4 - Córdoba
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,True,R-5
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,A-1
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,A-2
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,A-3 - Valência
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,R-2
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,False,R-3 - Valência
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,A-4 - Córdoba
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,A-5
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,A-6
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,A-42
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,R-4 - Córdoba
+Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,True,R-5
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,False,A-3 - Valência
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,False,A-4
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,False,A-42
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,False,R-4
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,False,R-5
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-1
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-2
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-2
+Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-3 - Valência
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,False,Cádiz
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,False,El Puerto de Santa María
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,True,Aeroporto de Jerez
@@ -6793,6 +6815,18 @@ Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Car,True,A-6
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Car,True,A-42
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Car,True,R-4 - Córdoba
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Car,True,R-5
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,A-4 - Córdoba
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,A-5
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,A-6
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,A-42
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,R-4 - Córdoba
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,False,R-5
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,A-1
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,A-2
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,A-3 - Valência
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,R-2
+Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,True,R-3 - Valência
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Car,False,A-4 - Córdoba
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Car,False,Aeroporto de Sevilha
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Car,True,A-49 - Huelva
@@ -7426,6 +7460,18 @@ Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Car,True,A-5
 Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Car,True,A-6
 Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Car,True,A-42
 Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Car,True,R-5
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,A-1
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,A-2
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,A-3 - Valência
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,R-2
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,False,R-3 - Valência
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,A-4 - Córdoba
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,A-5
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,A-6
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,A-42
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,R-4 - Córdoba
+Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,True,R-5
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Car,False,A-1
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Car,False,A-5 - Badajoz
 Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Car,False,A-6
@@ -7525,6 +7571,26 @@ Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,True,A-6
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,True,Feria de Madrid
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,True,M-607
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,True,R-2
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,False,A-1
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,False,A-2 - Zaragoza
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,False,M-45
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,False,R-2 - Zaragoza
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-3 - Valência
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-4
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-42
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-3 - Valência
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-4
+Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-5
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,False,A-3 - Valência
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,False,A-4
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,False,A-5
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,False,A-42
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,False,R-3 - Valência
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,A-1
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,A-2 - Zaragoza
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,R-2
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,False,A-6 - A Coruña
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,True,A-3
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,True,A-4
