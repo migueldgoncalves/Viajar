@@ -263,6 +263,9 @@ A-4 - Saída 639,Jerez de la Frontera,Cádiz,
 A-4 - Saída 646,El Puerto de Santa María,Cádiz,
 A-4 - Saída 660,Puerto Real,Cádiz,
 A-4 - Saída 664,Puerto Real,Cádiz,
+A-4a - Saída 640,Jerez de la Frontera,Cádiz,
+A-4a - Saída 644,Jerez de la Frontera,Cádiz,
+A-4a - Sherry Golf Jerez,Jerez de la Frontera,Cádiz,
 A-5 - Aluche,Madrid,Comunidade de Madrid,Latina
 A-5 - Avenida de los Poblados,Madrid,Comunidade de Madrid,Latina
 A-5 - Calle de Allande,Madrid,Comunidade de Madrid,Latina
@@ -1127,6 +1130,7 @@ Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,
 Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
+Cruzamento da A-3 com a M-45,Madrid,Comunidade de Madrid,Villa de Vallecas
 Cruzamento da A-3 com a M-50,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da A-4 com a A-4a,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
@@ -1142,6 +1146,7 @@ Cruzamento da A-4 com a CM-42,Madridejos,Toledo,
 Cruzamento da A-4 com a CO-31,Córdoba,Córdoba,
 Cruzamento da A-4 com a M-30,Madrid,Comunidade de Madrid,Arganzuela
 Cruzamento da A-4 com a M-40,Madrid,Comunidade de Madrid,Puente de Vallecas
+Cruzamento da A-4 com a M-45,Madrid,Comunidade de Madrid,Villaverde
 Cruzamento da A-4 com a M-50,Getafe,Comunidade de Madrid,
 Cruzamento da A-4 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-4 Norte com a SE-30,Sevilha,Sevilha,Este-Alcosa-Torreblanca
@@ -1178,6 +1183,7 @@ Cruzamento da A-40 com a A-5,Maqueda,Toledo,
 Cruzamento da A-40 com a R-4,Ocaña,Toledo,
 Cruzamento da A-42 com a M-30,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da A-42 com a M-40,Madrid,Comunidade de Madrid,Villaverde
+Cruzamento da A-42 com a M-45,Getafe,Comunidade de Madrid,
 Cruzamento da A-42 com a M-50,Getafe,Comunidade de Madrid,
 Cruzamento da A-44 com a A-92,Albolote,Granada,
 Cruzamento da A-45 com a A-7,Málaga,Málaga,Ciudad Jardín
@@ -1239,6 +1245,7 @@ Cruzamento da M-14 com a M-21 e a M-40,Madrid,Comunidade de Madrid,San Blas-Cani
 Cruzamento da M-23 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da M-30 com a M-607,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da M-31 com a M-40,Madrid,Comunidade de Madrid,Puente de Vallecas
+Cruzamento da M-31 com a M-45,Madrid,Comunidade de Madrid,Villa de Vallecas
 Cruzamento da M-31 com a M-50,Madrid,Comunidade de Madrid,Villa de Vallecas
 Cruzamento da M-40 com a M-45,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-40 com a M-501,Pozuelo de Alarcón,Comunidade de Madrid,
@@ -1247,6 +1254,7 @@ Cruzamento da M-40 com a R-2,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da M-40 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da M-40 com a R-5,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da M-45 com a M-50,San Fernando de Henares,Comunidade de Madrid,
+Cruzamento da M-45 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da M-45 com a R-5,Leganés,Comunidade de Madrid,
 Cruzamento da M-50 com a M-503,Majadahonda,Comunidade de Madrid,
 Cruzamento da M-50 com a R-3,Madrid,Comunidade de Madrid,Vicálvaro
@@ -1340,6 +1348,7 @@ Fronteira Espanha-Gibraltar - Lado espanhol,La Línea de la Concepción,Cádiz,
 Gelves,Gelves,Sevilha,
 Gibraleón,Gibraleón,Huelva,
 Glorieta de los Cipreses,Dos Hermanas,Sevilha,
+"Glorieta Don Antonio Páez Lobato, Jerez de la Frontera",Jerez de la Frontera,Cádiz,
 Glorieta Llaves de la Ciudad,Santa Marta de Tormes,Salamanca,
 GR-30 - Saída 1,Albolote,Granada,
 GR-30 - Saída 2,Albolote,Granada,
@@ -1440,6 +1449,13 @@ M-40 - Saída 41,Pozuelo de Alarcón,Comunidade de Madrid,
 M-40 - Saída 45,Pozuelo de Alarcón,Comunidade de Madrid,
 M-40 - Saída 51,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 M-40 - Saída 54,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
+M-45 - Avenida Ensanche de Vallecas,Madrid,Comunidade de Madrid,Villa de Vallecas
+M-45 - Saída 7,Getafe,Comunidade de Madrid,
+M-45 - Saída 11,Madrid,Comunidade de Madrid,Villaverde
+M-45 - Saída 17,Madrid,Comunidade de Madrid,Villa de Vallecas
+M-45 - Saída 20,Madrid,Comunidade de Madrid,Vicálvaro
+M-45 - Saída 25,Madrid,Comunidade de Madrid,Vicálvaro
+M-45 - Saída 27,Madrid,Comunidade de Madrid,Vicálvaro
 M-45/M-50 - Saída 32,San Fernando de Henares,Comunidade de Madrid,
 M-50 - Saída 41,Getafe,Comunidade de Madrid,
 M-50 - Saída 53,Leganés,Comunidade de Madrid,

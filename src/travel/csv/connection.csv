@@ -612,6 +612,10 @@ A-4 - Saída 646,Cruzamento da A-4 com a A-491,Car,3.1,A-4,S,2,1
 A-4 - Saída 660,A-4 - Saída 664,Car,3.2,A-4,SE,2,1
 A-4 - Saída 660,Cruzamento Sul da A-4 com a AP-4,Car,2.4,A-4,N,1,4
 A-4 - Saída 664,Cruzamento da A-4 com a A-48 e a CA-33,Car,5.0,A-4,SW,2,1
+A-4a - Saída 640,A-4a - Sherry Golf Jerez,Car,1.3,A-4a,S,1,2
+A-4a - Saída 640,"Glorieta Don Antonio Páez Lobato, Jerez de la Frontera",Car,1.0,A-4a,N,2,1
+A-4a - Saída 644,A-4a - Sherry Golf Jerez,Car,1.6,A-4a,NE,2,1
+A-4a - Saída 644,Cruzamento da A-4 com a A-4a,Car,0.7,A-4a,SW,1,3
 A-5 - Aluche,A-5 - Avenida de los Poblados,Car,0.4,A-5,SE,1,2
 A-5 - Aluche,A-5 - Carretera de Boadilla del Monte,Car,0.5,A-5,NW,2,1
 A-5 - Avenida de los Poblados,A-5 - Calle de Allande,Car,0.9,A-5,SE,1,2
@@ -1770,7 +1774,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Meco,R-2 - Saída 33,Car,2.5,R-2,SW,2,1
 Área de Serviço de Meco,R-2 - Saída 44,Car,7.9,R-2,NE,1,2
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,2.0,A5,E,1,2
-Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Car,4.4,R-5,NE,2,1
+Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Car,4.4,R-5,NE,2,3
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,1.5,R-5,SW,1,2
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,3.7,AP-7,SW,1,3
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,2.8,AP-9,S,1,2
@@ -2121,6 +2125,8 @@ Cruzamento da A-3 com a M-30,M-30 - Saída 10,Car,1.4,M-30,SW,1,2
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,5.7,M-30 - Bypass Sul,SW,3,3
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,1.6,M-40,N,2,1
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,0.8,M-40,SW,1,2
+Cruzamento da A-3 com a M-45,M-45 - Avenida Ensanche de Vallecas,Car,1.1,M-45,SW,1,2
+Cruzamento da A-3 com a M-45,M-45 - Saída 20,Car,1.3,M-45,NE,2,1
 Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,6.2,M-50,W,1,2
 Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,4.9,M-50,NE,2,1
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,3.3,A-4,N,1,2
@@ -2133,6 +2139,8 @@ Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,1.5,M-30,NE,2,1
 Cruzamento da A-4 com a M-30,M-30 - Saída 13,Car,0.9,M-30,NW,1,2
 Cruzamento da A-4 com a M-40,M-40 - Saída 20,Car,1.1,M-40,E,2,1
 Cruzamento da A-4 com a M-40,M-40 - Saída 22,Car,0.6,M-40,W,1,2
+Cruzamento da A-4 com a M-45,M-45 - Saída 7,Car,2.2,M-45,W,1,2
+Cruzamento da A-4 com a M-45,M-45 - Saída 11,Car,2.0,M-45,E,2,1
 Cruzamento da A-4 com a M-50,Cruzamento da M-50 com a R-4,Car,2.5,M-50,W,1,2
 Cruzamento da A-4 com a M-50,M-50 - Saída 41,Car,4.7,M-50,NE,2,1
 Cruzamento da A-4 com a SE-20,SE-20 - Miraflores,Car,2.4,SE-20,NW,3,2
@@ -2166,6 +2174,8 @@ Cruzamento da A-42 com a M-30,M-30 - Saída 15,Car,1.0,M-30,NW,1,2
 Cruzamento da A-42 com a M-30,"Paseo de Santa María de la Cabeza, Madrid",Car,0.8,A-42,NE,3,1
 Cruzamento da A-42 com a M-40,Cruzamento da M-40 com a R-5,Car,2.1,M-40,SW,1,2
 Cruzamento da A-42 com a M-40,M-40 - Saída 24,Car,0.6,M-40,E,2,1
+Cruzamento da A-42 com a M-45,Cruzamento da M-45 com a R-5,Car,4.1,M-45,NW,1,2
+Cruzamento da A-42 com a M-45,M-45 - Saída 7,Car,0.8,M-45,E,2,1
 Cruzamento da A-42 com a M-50,Cruzamento da M-50 com a R-4,Car,2.6,M-50,E,2,1
 Cruzamento da A-42 com a M-50,M-50 - Saída 53,Car,2.2,M-50,NW,1,2
 Cruzamento da A-44 com a A-92,Cruzamento da A-92 com a GR-30,Car,1.4,A-92,NE,2,1
@@ -2246,20 +2256,27 @@ Cruzamento da M-23 com a M-30,M-30 - Saída 8,Car,0.8,M-30,SW,1,2
 Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Car,0.5,M-30 - Avenida de la Ilustración,W,2,1
 Cruzamento da M-30 com a M-607,M-30 - Saída 31,Car,0.9,M-30,SE,1,2
 Cruzamento da M-30 com a M-607,M-607 - Saída 9A,Car,0.6,M-607,NW,3,1
+Cruzamento da M-31 com a M-40,Cruzamento da M-31 com a M-45,Car,2.8,M-31,SE,3,3
 Cruzamento da M-31 com a M-40,M-40 - Saída 16,Car,2.4,M-40,NE,2,1
 Cruzamento da M-31 com a M-40,M-40 - Saída 19A,Car,0.8,M-40,SW,1,2
+Cruzamento da M-31 com a M-45,Cruzamento da M-31 com a M-50,Car,2.2,M-31,S,4,3
+Cruzamento da M-31 com a M-45,M-45 - Saída 11,Car,3.4,M-45,SW,1,2
+Cruzamento da M-31 com a M-45,M-45 - Saída 17,Car,2.5,M-45,E,2,1
 Cruzamento da M-31 com a M-50,M-50 - Saída 41,Car,3.8,M-50,SW,1,2
-Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Car,1.0,M-45,SE,3,3
+Cruzamento da M-40 com a M-45,Cruzamento da M-45 com a R-5,Car,1.0,M-45,SE,3,1
 Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Car,0.8,M-40,E,2,1
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Car,1.3,M-40,W,1,2
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Car,2.0,M-40,NE,1,2
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,3.7,M-40,SW,2,1
 Cruzamento da M-40 com a R-3,M-40 - Saída 12,Car,1.1,M-40,NE,2,1
 Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,0.9,M-40,SW,1,2
-Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,1.3,R-5,SW,3,2
+Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,1.3,R-5,SW,3,4
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,0.9,M-40,SW,1,2
 Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,3.0,M-50,SW,1,2
+Cruzamento da M-45 com a M-50,M-45 - Saída 27,Car,2.1,M-45,W,3,2
 Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,2.3,M-45/M-50,N,2,1
+Cruzamento da M-45 com a R-3,M-45 - Saída 20,Car,2.6,M-45,SW,1,2
+Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,1.7,M-45,NE,2,1
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,4.1,M-50,S,2,1
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,2.8,M-50,NW,1,2
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,2.1,R-4,SW,3,1
@@ -3363,6 +3380,8 @@ M-40 - Saída 38,M-40 - Saída 40,Car,1.6,M-40,NW,1,2
 M-40 - Saída 40,M-40 - Saída 41,Car,2.2,M-40,N,1,2
 M-40 - Saída 41,M-40 - Saída 45,Car,2.7,M-40,NE,1,2
 M-40 - Saída 51,M-40 - Saída 54,Car,3.7,M-40,NE,1,2
+M-45 - Avenida Ensanche de Vallecas,M-45 - Saída 17,Car,1.1,M-45,SW,1,2
+M-45 - Saída 25,M-45 - Saída 27,Car,2.3,M-45,E,2,1
 M-50 - Saída 53,M-50 - Saída 55,Car,2.1,M-50,NW,1,2
 M-50 - Saída 55,M-50 - Saída 56,Car,1.3,M-50,NW,1,2
 M-50 - Saída 56,M-50 - Saída 58,Car,1.7,M-50,NW,1,2
