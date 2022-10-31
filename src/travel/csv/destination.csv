@@ -6637,6 +6637,10 @@ Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Car,True,Feria de Madr
 Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Car,True,R-2 - Zaragoza
 Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Car,True,R-3
 Cruzamento da A-1 com a M-40,Cruzamento da M-40 com a R-2,Car,True,R-4
+Cruzamento da A-1 com a M-50,Cruzamento Oeste da M-50 com a R-2,Car,False,A-1 - Burgos/Madrid
+Cruzamento da A-1 com a M-50,Cruzamento Oeste da M-50 com a R-2,Car,True,A-2 - Aeroporto de Madrid-Barajas/Madrid/Zaragoza
+Cruzamento da A-1 com a M-50,Cruzamento Oeste da M-50 com a R-2,Car,True,M-45
+Cruzamento da A-1 com a M-50,Cruzamento Oeste da M-50 com a R-2,Car,True,R-2 - Aeroporto de Madrid-Barajas
 Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Car,False,A-2 - Madrid/Zaragoza
 Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Car,False,M-40
 Cruzamento da A-2 com a M-14,Cruzamento da M-11 com a M-14,Car,True,Aeroporto de Madrid-Barajas
@@ -7455,6 +7459,23 @@ Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,True,A-5
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,True,A-42
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,True,R-3 - Valência
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,True,R-4
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,False,A-3 - Valência
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,False,A-4
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,False,A-5
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,False,A-42
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,True,A-1
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,True,A-2 - Madrid/Zaragoza
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,True,Feria de Madrid
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,True,R-2 - Zaragoza
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,False,M-21
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,False,M-40 - Todas as direcções
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,A-3 - Valência
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,A-4
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,A-42
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-3 - Valência
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-4
+Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-5
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-3 - Valencia
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-4
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-5
@@ -7964,6 +7985,12 @@ Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A-
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Almería
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,False,Rincón de la Victoria
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,True,Málaga
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,False,A-1 - Burgos/Madrid
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,False,R-2 - Zaragoza
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,True,A-2 - Madrid-Sul
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,True,A-3
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento Este da M-50 com a R-2,M-50 - Saída 13,Car,True,M-45
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,False,Guadalajara
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,False,Zaragoza
 Cruzamento Este da M-50 com a R-2,M-50/R-2 - Saída 10,Car,True,A-1 - Burgos
@@ -12471,6 +12498,22 @@ M-45 - Saída 25,M-45 - Saída 27,Car,False,A-5
 M-45 - Saída 25,M-45 - Saída 27,Car,False,A-42
 M-45 - Saída 25,M-45 - Saída 27,Car,True,A-2 - Zaragoza
 M-45 - Saída 25,M-45 - Saída 27,Car,True,Aeroporto de Madrid-Barajas
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,False,A-2 - Zaragoza
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,False,A-3
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,False,A-4
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,False,M-45
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,True,A-1 - Burgos
+M-45/M-50 - Saída 17,M-50 - Saída 13,Car,True,R-2 - Zaragoza
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,False,A-1
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,False,A-2 - Zaragoza
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,False,Aeroporto de Madrid-Barajas
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,False,Feria de Madrid
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,False,R-2 - Zaragoza
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,True,A-3 - Valência
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,True,A-4
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,True,A-42
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,True,R-3 - Valência
+M-45/M-50 - Saída 21,M-45/M-50 - Saída 32,Car,True,R-4
 M-50 - Saída 53,M-50 - Saída 55,Car,False,A-1
 M-50 - Saída 53,M-50 - Saída 55,Car,False,A-2
 M-50 - Saída 53,M-50 - Saída 55,Car,False,A-3
