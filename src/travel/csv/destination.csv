@@ -1471,6 +1471,104 @@ A-2 - Saída 73,A-2 - Saída 75,Car,False,Guadalajara
 A-2 - Saída 73,A-2 - Saída 75,Car,False,Madrid
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Barcelona
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Zaragoza
+A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
+A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
+A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
+A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Ocaña
+A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,False,Aranjuez
+A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,False,Córdoba
+A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,False,Ocaña
+A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,True,Madrid
+A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,False,Aranjuez
+A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,False,Córdoba
+A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,False,Ocaña
+A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,True,M-30 - Todas as direcções
+A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,True,M-40 - Todas as direcções
+A-4 - Polígono Industrial Los Molinos,A-4 - Saída 13,Car,False,Madrid
+A-4 - Polígono Industrial Los Molinos,A-4 - Saída 13,Car,True,Aranjuez
+A-4 - Polígono Industrial Los Molinos,A-4 - Saída 13,Car,True,Córdoba
+A-4 - Polígono Industrial Los Molinos,A-4 - Saída 13,Car,True,Ocaña
+A-4 - Polígono Industrial Los Olivos,Cruzamento da A-4 com a M-45,Car,False,Aranjuez
+A-4 - Polígono Industrial Los Olivos,Cruzamento da A-4 com a M-45,Car,False,Córdoba
+A-4 - Polígono Industrial Los Olivos,Cruzamento da A-4 com a M-45,Car,False,Ocaña
+A-4 - Polígono Industrial Los Olivos,Cruzamento da A-4 com a M-45,Car,True,M-30 - Todas as direcções
+A-4 - Polígono Industrial Los Olivos,Cruzamento da A-4 com a M-45,Car,True,M-40 - Todas as direcções
+A-4 - Saída 9,Cruzamento da A-4 com a M-40,Car,False,Aranjuez
+A-4 - Saída 9,Cruzamento da A-4 com a M-40,Car,False,Córdoba
+A-4 - Saída 9,Cruzamento da A-4 com a M-40,Car,True,Madrid
+A-4 - Saída 9,Cruzamento da A-4 com a M-45,Car,False,M-30 - Todas as direcções
+A-4 - Saída 9,Cruzamento da A-4 com a M-45,Car,False,M-40 - Todas as direcções
+A-4 - Saída 9,Cruzamento da A-4 com a M-45,Car,True,Aranjuez
+A-4 - Saída 9,Cruzamento da A-4 com a M-45,Car,True,Córdoba
+A-4 - Saída 9,Cruzamento da A-4 com a M-45,Car,True,Ocaña
+A-4 - Saída 13,A-4 - Saída 16,Car,False,Madrid
+A-4 - Saída 13,A-4 - Saída 16,Car,True,Aranjuez
+A-4 - Saída 13,A-4 - Saída 16,Car,True,Córdoba
+A-4 - Saída 13,A-4 - Saída 16,Car,True,Ocaña
+A-4 - Saída 16,A-4 - Saída 17A,Car,False,Getafe
+A-4 - Saída 16,A-4 - Saída 17A,Car,False,Madrid
+A-4 - Saída 16,A-4 - Saída 17A,Car,True,Córdoba
+A-4 - Saída 17A,Cruzamento da A-4 com a M-50,Car,False,Getafe
+A-4 - Saída 17A,Cruzamento da A-4 com a M-50,Car,False,Madrid
+A-4 - Saída 17A,Cruzamento da A-4 com a M-50,Car,True,Córdoba
+A-4 - Saída 17A,Cruzamento da A-4 com a M-50,Car,True,Ocaña
+A-4 - Saída 18,A-4 - Sul do Polígono Industrial Las Arenas,Car,False,Madrid
+A-4 - Saída 18,A-4 - Sul do Polígono Industrial Las Arenas,Car,True,Aranjuez
+A-4 - Saída 18,A-4 - Sul do Polígono Industrial Las Arenas,Car,True,Córdoba
+A-4 - Saída 18,A-4 - Sul do Polígono Industrial Las Arenas,Car,True,Ocaña
+A-4 - Saída 18,Cruzamento da A-4 com a M-50,Car,False,Córdoba
+A-4 - Saída 18,Cruzamento da A-4 com a M-50,Car,False,Ocaña
+A-4 - Saída 18,Cruzamento da A-4 com a M-50,Car,True,Madrid
+A-4 - Saída 20,A-4 - Saída 22,Car,False,Madrid
+A-4 - Saída 20,A-4 - Saída 22,Car,True,Aranjuez
+A-4 - Saída 20,A-4 - Saída 22,Car,True,Córdoba
+A-4 - Saída 20,A-4 - Saída 22,Car,True,Ocaña
+A-4 - Saída 22,A-4 - Saída 23,Car,False,Madrid
+A-4 - Saída 22,A-4 - Saída 23,Car,True,Aranjuez
+A-4 - Saída 22,A-4 - Saída 23,Car,True,Córdoba
+A-4 - Saída 22,A-4 - Saída 23,Car,True,Ocaña
+A-4 - Saída 23,A-4 - Saída 24,Car,False,Madrid
+A-4 - Saída 23,A-4 - Saída 24,Car,True,Aranjuez
+A-4 - Saída 23,A-4 - Saída 24,Car,True,Córdoba
+A-4 - Saída 23,A-4 - Saída 24,Car,True,Ocaña
+A-4 - Saída 24,A-4 - Saída 26A,Car,False,Madrid
+A-4 - Saída 24,A-4 - Saída 26A,Car,True,Aranjuez
+A-4 - Saída 24,A-4 - Saída 26A,Car,True,Córdoba
+A-4 - Saída 24,A-4 - Saída 26A,Car,True,Ocaña
+A-4 - Saída 26,A-4 - Saída 26B,Car,False,Aranjuez
+A-4 - Saída 26,A-4 - Saída 26B,Car,False,Córdoba
+A-4 - Saída 26,A-4 - Saída 26B,Car,False,Ocaña
+A-4 - Saída 26,A-4 - Saída 26B,Car,True,Madrid
+A-4 - Saída 26,A-4 - Saída 27-28,Car,False,Madrid
+A-4 - Saída 26,A-4 - Saída 27-28,Car,True,Aranjuez
+A-4 - Saída 26,A-4 - Saída 27-28,Car,True,Córdoba
+A-4 - Saída 26,A-4 - Saída 27-28,Car,True,Ocaña
+A-4 - Saída 26A,A-4 - Saída 26B,Car,False,Madrid
+A-4 - Saída 26A,A-4 - Saída 26B,Car,True,Aranjuez
+A-4 - Saída 26A,A-4 - Saída 26B,Car,True,Córdoba
+A-4 - Saída 26A,A-4 - Saída 26B,Car,True,Ocaña
+A-4 - Saída 27-28,A-4 - Saída 29,Car,False,Madrid
+A-4 - Saída 27-28,A-4 - Saída 29,Car,True,Aranjuez
+A-4 - Saída 27-28,A-4 - Saída 29,Car,True,Córdoba
+A-4 - Saída 27-28,A-4 - Saída 29,Car,True,Ocaña
+A-4 - Saída 29,A-4 - Saída 32,Car,False,Madrid
+A-4 - Saída 29,A-4 - Saída 32,Car,True,Aranjuez
+A-4 - Saída 29,A-4 - Saída 32,Car,True,Córdoba
+A-4 - Saída 29,A-4 - Saída 32,Car,True,Ocaña
+A-4 - Saída 32,A-4 - Saída 34,Car,False,Madrid
+A-4 - Saída 32,A-4 - Saída 34,Car,True,Aranjuez
+A-4 - Saída 32,A-4 - Saída 34,Car,True,Córdoba
+A-4 - Saída 32,A-4 - Saída 34,Car,True,Ocaña
+A-4 - Saída 34,A-4 - Saída 36,Car,False,Madrid
+A-4 - Saída 34,A-4 - Saída 36,Car,True,Aranjuez
+A-4 - Saída 34,A-4 - Saída 36,Car,True,Córdoba
+A-4 - Saída 34,A-4 - Saída 36,Car,True,Ocaña
+A-4 - Saída 36,A-4 - Saída 37,Car,False,Madrid
+A-4 - Saída 36,A-4 - Saída 37,Car,True,Córdoba
+A-4 - Saída 36,A-4 - Saída 37,Car,True,Ocaña
+A-4 - Saída 37,A-4 - Saída 39,Car,False,Madrid
+A-4 - Saída 37,A-4 - Saída 39,Car,True,Córdoba
+A-4 - Saída 37,A-4 - Saída 39,Car,True,Ocaña
 A-4 - Saída 39,A-4 - Saída 44,Car,False,Madrid
 A-4 - Saída 39,A-4 - Saída 44,Car,True,Córdoba
 A-4 - Saída 44,A-4 - Saída 47,Car,False,Madrid
@@ -3573,14 +3671,14 @@ A-7 - Saída 516,A-7 - Saída 520,Car,True,Vera
 A-7 - Saída 520,A-7 - Saída 525,Car,False,Almería
 A-7 - Saída 520,A-7 - Saída 525,Car,True,Murcia
 A-7 - Saída 520,A-7 - Saída 525,Car,True,Vera
-A-7 - Saída 525,A-7 - Saída 529,Car,False,Almería
-A-7 - Saída 525,A-7 - Saída 529,Car,False,Los Gallardos
-A-7 - Saída 525,A-7 - Saída 529,Car,True,Murcia
-A-7 - Saída 525,A-7 - Saída 529,Car,True,Vera
-A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Car,False,Almería
-A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Car,False,Los Gallardos
-A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Car,True,Huércal-Overa
-A-7 - Saída 529,Cruzamento VIII da A-7 com a AP-7,Car,True,Murcia
+A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,False,Almería
+A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,False,Los Gallardos
+A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,True,Murcia
+A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,True,Vera
+"A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,False,Almería
+"A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,False,Los Gallardos
+"A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,True,Huércal-Overa
+"A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,True,Murcia
 A-7 - Saída 537,A-7 - Saída 543,Car,False,Almería
 A-7 - Saída 537,A-7 - Saída 543,Car,True,Huércal-Overa
 A-7 - Saída 537,A-7 - Saída 543,Car,True,Murcia
@@ -6801,6 +6899,10 @@ Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,False,Sevilha
 Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,A-48 - Algeciras
 Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,AP-4 - Sevilha
 Cruzamento da A-4 com a CA-37,Cruzamento Sul da A-4 com a AP-4,Car,True,San Fernando
+Cruzamento da A-4 com a M-30,Cruzamento da A-4 com a M-40,Car,False,M-30 - Todas as direcções
+Cruzamento da A-4 com a M-30,Cruzamento da A-4 com a M-40,Car,False,Madrid - Centro da cidade
+Cruzamento da A-4 com a M-30,Cruzamento da A-4 com a M-40,Car,True,Córdoba
+Cruzamento da A-4 com a M-30,Cruzamento da A-4 com a M-40,Car,True,M-40
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-5
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-6
 Cruzamento da A-4 com a M-30,M-30 - Saída 11,Car,False,A-42 - Toledo
