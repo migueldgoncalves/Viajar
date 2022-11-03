@@ -459,9 +459,9 @@ A-4 - Saída 646,36.64157,-6.18421,52,,2700
 A-4 - Saída 660,36.5209,-6.1611,16,,2700
 A-4 - Saída 664,36.49621,-6.14384,4,,2700
 A-4 - Sul do Polígono Industrial Las Arenas,40.26218,-3.69040,596,,2900
-A-4a - Saída 640,36.67592,-6.14931,30,,0
-A-4a - Saída 644,36.65630,-6.16884,15,,0
-A-4a - Sherry Golf Jerez,36.66632,-6.15627,20,,0
+A-4a - Saída 640,36.67592,-6.14931,30,,2900
+A-4a - Saída 644,36.65630,-6.16884,15,,2900
+A-4a - Sherry Golf Jerez,36.66632,-6.15627,20,,2900
 A-5 - Aluche,40.396343,-3.768372,663,,1400
 A-5 - Avenida de los Poblados,40.393830,-3.771641,668,,1400
 A-5 - Calle de Allande,40.388303,-3.778862,671,,1400
@@ -1200,6 +1200,7 @@ A-8058 - Saída 0,37.365542,-6.032121,23,,300
 Achada do Gamo,37.654760,-7.507547,125,,500
 Adega da Herdade da Comporta,38.379530,-8.790003,1,,1500
 Aeródromo de Portimão,37.147621,-8.580169,2,,500
+Aeródromo de Tires,38.7248,-9.3541,96,,2900
 Aeroporto de Almería,36.847553,-2.372585,18,,1900
 Aeroporto de Badajoz,38.894054,-6.818687,180,,1000
 Aeroporto de Beja,38.063206,-7.939608,188,,100
@@ -1232,6 +1233,7 @@ Alcaria,37.334335,-7.467049,109,,50
 Alcaria dos Javazes,37.517812,-7.639286,218,,600
 Alcarias Grandes,37.281621,-7.526595,102,,300
 Alcoutim,37.469974,-7.472777,23,,10
+Aldeia de Juso,38.7288,-9.4488,81,,2900
 Alferce,37.333179,-8.489565,330,,500
 Algar de Benagil,37.087171,-8.423721,0,,500
 Algarve Shopping,37.127444, -8.280092,89,,400
@@ -1364,6 +1366,7 @@ Avenida del Nuevo Colombino x Calle Jabugo,37.25764,-6.92897,8,,2100
 Ayamonte,37.215788,-7.405922,20,,50
 Ayuntamiento de Huelva,37.25661,-6.94951,8,,2100
 Azinhal,37.284774,-7.464246,92,,100
+Azóia,38.7762,-9.4813,218,Parque Natural de Sintra-Cascais,2900
 Badoca Safari Park,38.041223,-8.744636,61,,1500
 Balurco de Baixo,37.424817,-7.508199,213,,10
 Balurco de Cima,37.429009,-7.524442,209,,20
@@ -1390,6 +1393,7 @@ Bens,37.604861,-7.532858,120,,600
 Bensafrim,37.155291,-8.735569,30,,500
 Besteiros,37.520107,-7.671043,215,,600
 Bicada,37.585491,-7.698087,163,,600
+Birre,38.71485,-9.44554,59,,2900
 Boavista,37.570953,-7.624094,159,Parque Natural do Vale do Guadiana,40
 Boliqueime,37.132464,-8.159134,77,,400
 Bollullos Par del Condado,37.338304,-6.538021,120,,300
@@ -1402,6 +1406,7 @@ CA-34 - Acesso à Refinaria,36.191389,-5.385167,5,,1200
 CA-34 - Puente Mayorga,36.182248,-5.380882,5,,1200
 Cabanas de Tavira,37.13531,-7.600363,3,Ria Formosa,200
 Cabeço da Junqueira,37.249328,-7.482872,55,,300
+Cabo da Roca,38.780833,-9.500556,0,Parque Natural de Sintra-Cascais,2900
 Cabo de Santa Maria,36.959245,-7.891501,0,Ria Formosa - Ilha da Barreta,200
 Cabo de São Vicente,37.023133,-8.996423,60,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
 Cacela Velha,37.157275,-7.546349,26,Ria Formosa,200
@@ -2279,7 +2284,7 @@ Gelves,37.340953,-6.02616,6,,400
 Gibraleón,37.375423,-6.968658,27,,200
 Giões,37.471661,-7.695203,205,,30
 Glorieta de los Cipreses,37.261139,-5.920742,48,,600
-"Glorieta Don Antonio Páez Lobato, Jerez de la Frontera",36.68384,-6.15346,31,,0
+"Glorieta Don Antonio Páez Lobato, Jerez de la Frontera",36.68384,-6.15346,31,,2900
 Glorieta Llaves de la Ciudad,40.95119,-5.65180,777,,2600
 GR-30 - Saída 1,37.262213,-3.65917,690,,1400
 GR-30 - Saída 2,37.248385,-3.655862,687,,1500
@@ -2494,6 +2499,7 @@ M-50/R-2 - Saída 10,40.516305,-3.501752,689,,2600
 M-607 - Saída 9A,40.490098,-3.698229,722,,1600
 MA-20 - Saída 1,36.653179,-4.478648,8,,1200
 Mairena del Aljarafe,37.350470,-6.049277,78,,600
+Malveira da Serra,38.7528,-9.4482,141,Parque Natural de Sintra-Cascais,2900
 Manta Rota,37.167488,-7.520107,6,,100
 Mar Shopping Algarve,37.098628,-7.998482,83,,400
 Marchena,37.328643,-5.415876,134,,700
@@ -2768,6 +2774,8 @@ Santuário de Nossa Senhora da Piedade,37.140261,-8.036374,175,,400
 São Bartolomeu de Messines,37.256126,-8.287157,131,,400
 São Bartolomeu de Via Glória,37.525215,-7.714577,178,,600
 São Brás de Alportel,37.152685,-7.888386,248,,100
+São Domingos de Rana - Norte,38.71254,-9.33900,99,,2900
+São Domingos de Rana - Sul,38.70195,-9.34081,72,,2900
 São Luís,37.717242,-8.662879,152,Parque Natural do Sudoeste Alentejano e Costa Vicentina,600
 São Marcos da Serra,37.361682,-8.377477,125,,400
 São Martinho,37.49085,-7.516152,152,,400
@@ -2831,6 +2839,7 @@ Tavira - Norte,37.129233,-7.647129,16,,100
 Tavira - Sul,37.123689,-7.651181,16,,200
 Tenência,37.367805,-7.493125,103,,20
 Terminal Rodoviário de Huelva,37.257768,-6.957471,3,,2100
+Tires,38.7138,-9.3494,78,,2900
 Tôr,37.195727,-8.035204,167,,500
 Torneiro,37.43145,-7.496974,186,,300
 Torrão,38.293899,-8.223782,107,,800

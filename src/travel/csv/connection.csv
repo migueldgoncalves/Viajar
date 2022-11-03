@@ -81,6 +81,8 @@ A3 - Saída 14,A3 - Saída 15,Car,4.6,A3,N,2,1
 A3 - Saída 15,A-55 - Saída 30,Car,0.7,A3,NW,2,1
 A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,4
 A5 - Fim,A5 - Saída 12,Car,0.5,A5,E,1,2
+A5 - Fim,Aldeia de Juso,Car,0.8,,N,3,1
+A5 - Fim,Birre,Car,1.0,,S,2,1
 A5 - Saída 1,A5 - Saída 2,Car,1.6,A5,W,4,1
 A5 - Saída 1,"Avenida Engenheiro Duarte Pacheco, Lisboa",Car,1.1,A5,E,3,1
 A5 - Saída 1,Eixo Norte-Sul - Alcântara,Car,1.6,Eixo Norte-Sul,S,2,1
@@ -95,9 +97,13 @@ A5 - Saída 5,Cruzamento da A5 com a A9 CREL,Car,2.8,A5,SW,2,1
 A5 - Saída 7,A5 - Saída 8,Car,3.8,A5,SW,2,1
 A5 - Saída 7,Área de Serviço de Oeiras,Car,1.0,A5,E,1,2
 A5 - Saída 8,A5 - Saída 9,Car,4.7,A5,NW,2,1
+A5 - Saída 8,São Domingos de Rana - Norte,Car,0.6,,N,4,1
+A5 - Saída 8,São Domingos de Rana - Sul,Car,0.7,,S,3,1
 A5 - Saída 9,Cruzamento da A16 com a A5,Car,3.0,A5,NW,2,1
 A5 - Saída 11,A5 - Saída 12,Car,1.5,A5,SW,2,1
 A5 - Saída 11,Cruzamento da A16 com a A5,Car,0.8,A5,E,1,2
+A5 - Saída 12,Aldeia de Juso,Car,1.1,,NW,3,2
+A5 - Saída 12,Malveira da Serra,Car,3.7,N9-1,N,4,2
 A6 - Saída 2,A6 - Saída 3,Car,18.7,A6,E,2,1
 A6 - Saída 2,Área de Serviço de Vendas Novas,Car,13.2,A6,SW,1,2
 A6 - Saída 3,A6 - Saída 4,Car,5.5,A6,E,2,1
@@ -1540,12 +1546,18 @@ Achada do Gamo,Mina de São Domingos,Train,1.8,Antiga Linha São Domingos - Poma
 Achada do Gamo,Montes Altos,Car,1.3,,E,1,3
 Achada do Gamo,Santana de Cambas,Train,4.5,Antiga Linha São Domingos - Pomarão,S,2,6
 Adega da Herdade da Comporta,Comporta,Car,0.9,,E,1,4
-Aeródromo de Portimão,Aeroporto de Beja,Plane,116.4,,NE,5,5
-Aeródromo de Portimão,Aeroporto de Faro,Plane,56.4,,SE,4,5
-Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Plane,187.7,,NW,6,8
+Aeródromo de Portimão,Aeródromo de Tires,Plane,187.6,,NW,4,2
+Aeródromo de Portimão,Aeroporto de Beja,Plane,116.4,,NE,6,5
+Aeródromo de Portimão,Aeroporto de Faro,Plane,56.4,,SE,5,5
+Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Plane,187.7,,NW,7,9
 Aeródromo de Portimão,Alvor,Car,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Car,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Car,4.6,,SE,2,8
+Aeródromo de Tires,Aeroporto de Beja,Plane,143.5,,SE,4,10
+Aeródromo de Tires,Aeroporto de Faro,Plane,225.4,,SE,6,11
+Aeródromo de Tires,Aeroporto de Jerez,Plane,364.1,,SE,5,10
+Aeródromo de Tires,Aeroporto de Lisboa - Terminal 1,Plane,20.1,,NE,3,16
+Aeródromo de Tires,Tires,Car,1.6,,S,1,2
 Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Plane,415.5,,N,2,5
 Aeroporto de Almería,Aeroporto de Málaga - Costa del Sol,Plane,190.3,,E,5,10
 Aeroporto de Almería,Aeroporto de Sevilha,Plane,319.5,,NW,4,13
@@ -1554,7 +1566,7 @@ Aeroporto de Almería,AL-12 - Saída 7,Car,1.0,,NW,1,2
 Aeroporto de Badajoz,Aeroporto de Beja,Plane,132.4,,SW,3,8
 Aeroporto de Badajoz,Aeroporto de Córdoba,Plane,208.1,,SE,6,5
 Aeroporto de Badajoz,Aeroporto de Faro,Plane,231.5,,SW,4,7
-Aeroporto de Badajoz,Aeroporto de Lisboa - Terminal 1,Plane,201.1,,W,8,5
+Aeroporto de Badajoz,Aeroporto de Lisboa - Terminal 1,Plane,201.1,,W,8,6
 Aeroporto de Badajoz,Aeroporto de Madrid-Barajas - Terminal 3,Plane,329.1,,NE,7,3
 Aeroporto de Badajoz,Aeroporto de Salamanca,Plane,254.9,,N,9,6
 Aeroporto de Badajoz,Aeroporto de Sevilha,Plane,182.8,,SE,5,7
@@ -1563,13 +1575,13 @@ Aeroporto de Badajoz,Villafranco del Guadiana,Car,5.9,,SW,1,2
 Aeroporto de Beja,Aeroporto de Córdoba,Plane,272.4,,E,6,2
 Aeroporto de Beja,Aeroporto de Faro,Plane,115.7,,S,3,3
 Aeroporto de Beja,Aeroporto de Jerez,Plane,222.3,,SE,7,5
-Aeroporto de Beja,Aeroporto de Lisboa - Terminal 1,Plane,130.9,,NW,9,6
+Aeroporto de Beja,Aeroporto de Lisboa - Terminal 1,Plane,130.9,,NW,9,7
 Aeroporto de Beja,Aeroporto de Sevilha,Plane,193.4,,SE,4,3
 Aeroporto de Beja,Beja,Car,9.6,,SE,1,3
 Aeroporto de Beja,Cuba,Car,14.5,,NE,2,5
 Aeroporto de Córdoba,Aeroporto de Gibraltar,Plane,193.1,,S,6,4
 Aeroporto de Córdoba,Aeroporto de Jerez,Plane,162.6,,SW,4,3
-Aeroporto de Córdoba,Aeroporto de Lisboa - Terminal 1,Plane,389.1,,NW,10,12
+Aeroporto de Córdoba,Aeroporto de Lisboa - Terminal 1,Plane,389.1,,NW,10,13
 Aeroporto de Córdoba,Aeroporto de Madrid-Barajas - Terminal 3,Plane,313.3,,NE,9,4
 Aeroporto de Córdoba,Aeroporto de Málaga - Costa del Sol,Plane,132.8,,S,7,6
 Aeroporto de Córdoba,Aeroporto de Salamanca,Plane,349.8,,N,11,4
@@ -1577,28 +1589,28 @@ Aeroporto de Córdoba,Aeroporto de Sevilha,Plane,104.0,,SW,3,5
 Aeroporto de Córdoba,Aeroporto Federico García Lorca Granada-Jaén,Plane,119.3,,SE,8,2
 Aeroporto de Córdoba,CO-32 - Fim,Car,4.1,N-437,NE,1,2
 Aeroporto de Faro,Aeroporto de Jerez,Plane,173.2,,SE,6,4
-Aeroporto de Faro,Aeroporto de Lisboa - Terminal 1,Plane,221.3,,NW,10,7
+Aeroporto de Faro,Aeroporto de Lisboa - Terminal 1,Plane,221.3,,NW,10,8
 Aeroporto de Faro,Aeroporto de Madrid-Barajas - Terminal 3,Plane,542.0,,NE,9,5
 Aeroporto de Faro,Aeroporto de Málaga - Costa del Sol,Plane,312.1,,E,8,2
 Aeroporto de Faro,Aeroporto de Sevilha,Plane,188.9,,NE,4,4
 Aeroporto de Faro,Montenegro,Car,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Car,4.8,,SW,2,1
 Aeroporto de Gibraltar,Aeroporto de Jerez,Plane,91.7,,NW,2,6
-Aeroporto de Gibraltar,Aeroporto de Lisboa - Terminal 1,Plane,444.4,,NW,7,11
+Aeroporto de Gibraltar,Aeroporto de Lisboa - Terminal 1,Plane,444.4,,NW,7,12
 Aeroporto de Gibraltar,Aeroporto de Madrid-Barajas - Terminal 3,Plane,505.7,,N,6,6
 Aeroporto de Gibraltar,Aeroporto de Málaga - Costa del Sol,Plane,96.4,,NE,5,4
 Aeroporto de Gibraltar,Aeroporto de Sevilha,Plane,148.7,,NW,3,8
 Aeroporto de Gibraltar,Fronteira Espanha-Gibraltar - Lado de Gibraltar,Car,0.1,,NW,1,2
-Aeroporto de Jerez,Aeroporto de Lisboa - Terminal 1,Plane,352.7,,NW,9,13
+Aeroporto de Jerez,Aeroporto de Lisboa - Terminal 1,Plane,352.7,,NW,9,14
 Aeroporto de Jerez,Aeroporto de Málaga - Costa del Sol,Plane,139.9,,E,7,3
 Aeroporto de Jerez,Aeroporto de Sevilha,Plane,76.1,,N,2,6
 Aeroporto de Jerez,Aeroporto Federico García Lorca Granada-Jaén,Plane,209.1,,NE,8,4
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Lisboa - Terminal 2,Car,1.1,,W,3,1
-Aeroporto de Lisboa - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 3,Plane,512.4,,NE,4,7
-Aeroporto de Lisboa - Terminal 1,Aeroporto de Málaga - Costa del Sol,Plane,470.9,,SE,10,9
-Aeroporto de Lisboa - Terminal 1,Aeroporto de Salamanca,Plane,393.3,,NE,14,7
-Aeroporto de Lisboa - Terminal 1,Aeroporto de Sevilha,Plane,322.2,,SE,9,12
-Aeroporto de Lisboa - Terminal 1,"Estação Aeroporto, Metro de Lisboa",Transfer,0.0,,S,15,1
+Aeroporto de Lisboa - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 3,Plane,512.4,,NE,5,7
+Aeroporto de Lisboa - Terminal 1,Aeroporto de Málaga - Costa del Sol,Plane,470.9,,SE,11,9
+Aeroporto de Lisboa - Terminal 1,Aeroporto de Salamanca,Plane,393.3,,NE,15,7
+Aeroporto de Lisboa - Terminal 1,Aeroporto de Sevilha,Plane,322.2,,SE,10,12
+Aeroporto de Lisboa - Terminal 1,"Estação Aeroporto, Metro de Lisboa",Transfer,0.0,,S,4,1
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 2,Car,0.4,,E,2,3
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 3,Car,0.9,,SW,1,3
 Aeroporto de Madrid-Barajas - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 2,Transfer,0.0,,N,1,3
@@ -1658,6 +1670,7 @@ Alcoutim,Laranjeiras,Boat,9.5,Rio Guadiana,S,6,3
 Alcoutim,Marmeleiro,Car,2.8,N122-1,SW,1,1
 Alcoutim,Montinho das Laranjeiras,Car,8.8,,S,2,1
 Alcoutim,Sanlúcar de Guadiana,Boat,0.3,Rio Guadiana,NE,5,4
+Aldeia de Juso,Malveira da Serra,Car,4.0,,N,3,1
 Alferce,Castro de Alferce,Car,2.6,,S,2,1
 Alferce,Monchique,Car,8.6,,SW,3,1
 Alferce,São Marcos da Serra,Car,17.6,,NE,1,2
@@ -1902,6 +1915,8 @@ Ayuntamiento de Huelva,"Plaza de Isabel la Católica, Huelva",Car,0.3,,SE,6,1
 Ayuntamiento de Huelva,"Plaza de las Monjas, Huelva",Car,0.3,,W,4,6
 Ayuntamiento de Huelva,Plaza de Quintero Báez,Car,0.2,,N,1,6
 Azinhal,Cruzamento da N122 com a M512,Car,0.8,N122,SW,2,1
+Azóia,Cabo da Roca,Car,2.2,,NW,2,1
+Azóia,Malveira da Serra,Car,5.9,,SE,1,3
 Badoca Safari Park,IP8 - Cruzamento com a N261,Car,0.9,,NE,1,2
 Balurco de Baixo,"Casa Branca, Alcoutim",Car,0.3,,NW,3,3
 Balurco de Baixo,Cerro,Car,0.5,,NW,5,4
@@ -3679,6 +3694,7 @@ Santana da Serra,São Marcos da Serra,Car,21.3,IC1,SW,1,3
 Santana da Serra,São Martinho das Amoreiras,Car,23.7,,NW,4,3
 Santana de Cambas,Sapos,Car,3.4,,N,3,1
 São Bartolomeu de Messines,Silves,Car,17.1,N124,SW,3,3
+São Domingos de Rana - Norte,Tires,Car,1.2,,O,2,1
 São Luís,Vila Nova de Milfontes,Car,14.3,,W,2,3
 São Teotónio,Zambujeira do Mar,Car,8.3,,NW,3,1
 SE-20 - Estádio de La Cartuja,SE-20 - Parque de Alamillo,Car,1.1,SE-20,NE,2,1

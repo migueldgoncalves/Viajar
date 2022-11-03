@@ -404,6 +404,11 @@ A5 - Saída 11,Cruzamento da A16 com a A5,Car,False,Alvide
 A5 - Saída 11,Cruzamento da A16 com a A5,Car,False,Cascais
 A5 - Saída 11,Cruzamento da A16 com a A5,Car,True,Carcavelos
 A5 - Saída 11,Cruzamento da A16 com a A5,Car,True,Lisboa
+A5 - Saída 12,Malveira da Serra,Car,False,A5 - Lisboa
+A5 - Saída 12,Malveira da Serra,Car,False,Cascais
+A5 - Saída 12,Malveira da Serra,Car,True,Cabo da Roca
+A5 - Saída 12,Malveira da Serra,Car,True,Malveira da Serra
+A5 - Saída 12,Malveira da Serra,Car,True,Praia do Guincho
 A6 - Saída 2,A6 - Saída 3,Car,False,Algarve
 A6 - Saída 2,A6 - Saída 3,Car,False,Lisboa
 A6 - Saída 2,A6 - Saída 3,Car,False,Vendas Novas
