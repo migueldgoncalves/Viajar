@@ -963,14 +963,25 @@ A-7 - Saída 479,A-7 - Saída 481,Car,2.5,A-7,NE,2,1
 A-7 - Saída 481,A-7 - Saída 487,Car,5.1,A-7,E,2,1
 A-7 - Saída 487,A-7 - Saída 494,Car,7.0,A-7,NE,2,1
 A-7 - Saída 494,A-7 - Saída 504,Car,9.9,A-7,N,2,1
-A-7 - Saída 504,A-7 - Saída 510,Car,6.4,A-7,NE,2,1
-A-7 - Saída 510,A-7 - Saída 513,Car,3.1,A-7,NE,2,1
+A-7 - Saída 504,"A-7 - Saída 510, Almería",Car,6.4,A-7,NE,2,1
+A-7 - Saída 507,Cruzamento X da A-7 com a AP-7,Car,1.1,A-7,S,1,3
+A-7 - Saída 507,Cruzamento da A-7 com a A-31,Car,0.8,A-7,NW,2,1
+"A-7 - Saída 510, Alicante",Cruzamento X da A-7 com a AP-7,Car,1.8,A-7,N,2,1
+"A-7 - Saída 510, Alicante",Cruzamento da A-7 com a A-70 e a EL-20,Car,3.2,A-7,S,1,2
+"A-7 - Saída 510, Almería",A-7 - Saída 513,Car,3.1,A-7,NE,2,1
 A-7 - Saída 513,A-7 - Saída 514,Car,0.9,A-7,NE,2,1
 A-7 - Saída 514,A-7 - Saída 516,Car,2.4,A-7,NE,2,1
 A-7 - Saída 516,A-7 - Saída 520,Car,3.8,A-7,NE,2,1
+A-7 - Saída 518,A-7 - Saída 523,Car,5.2,A-7,SW,1,2
+A-7 - Saída 518,Cruzamento da A-7 com a A-70 e a EL-20,Car,5.1,A-7,E,2,1
 A-7 - Saída 520,A-7 - Saída 525,Car,5.1,A-7,NE,2,1
+A-7 - Saída 523,A-7 - Saída 526,Car,3.6,A-7,SW,1,2
 A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,3.2,A-7,NE,2,1
+A-7 - Saída 526,Cruzamento IX da A-7 com a AP-7,Car,1.4,A-7,SW,1,2
+"A-7 - Saída 529, Alicante",A-7 - Saída 535,Car,6.0,A-7,SW,1,2
+"A-7 - Saída 529, Alicante",Cruzamento IX da A-7 com a AP-7,Car,1.7,A-7,E,2,1
 "A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,4.9,A-7,N,2,1
+A-7 - Saída 535,A-7 - Saída 538,Car,3.2,A-7,SW,1,2
 A-7 - Saída 537,A-7 - Saída 543,Car,5.8,A-7,NW,2,1
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Car,3.8,A-7,SE,1,2
 A-7 - Saída 538,A-7 - Saída 541,Car,2.6,A-7,W,1,2
@@ -1329,6 +1340,9 @@ A-66 - Saída 795,A-66 - Saída 798,Car,3.3,A-66,SE,1,2
 A-66 - Saída 798,A-66 - Saída 805,Car,6.9,A-66,SE,1,2
 A-66 - Saída 805,A-66 - Saída 808,Car,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,2.2,A-66,S,1,3
+A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,8.4,A-70,W,1,3
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,4.8,A-70,NE,2,1
+A-70 - Saída 22,N-338 - Saída 3,Car,1.3,N-338,SE,3,1
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Car,0.7,A-92,E,2,1
 A-92 - Andalucía Residencial,Cruzamento da A-92 com a SE-30,Car,1.0,A-92,W,1,4
 A-92 - Saída 5,A-92 - Torreblanca,Car,2.1,A-92,NW,1,2
@@ -1558,6 +1572,15 @@ Aeródromo de Tires,Aeroporto de Faro,Plane,225.4,,SE,6,11
 Aeródromo de Tires,Aeroporto de Jerez,Plane,364.1,,SE,5,10
 Aeródromo de Tires,Aeroporto de Lisboa - Terminal 1,Plane,20.1,,NE,3,16
 Aeródromo de Tires,Tires,Car,1.6,,S,1,2
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Badajoz,Plane,549.8,,W,3,10
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Córdoba,Plane,379.5,,W,4,12
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Faro,Plane,668.6,,W,8,12
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Gibraltar,Plane,486.4,,SW,6,8
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Lisboa - Terminal 1,Plane,749.6,,W,9,17
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Madrid-Barajas - Terminal 2,Plane,354.9,,NW,2,6
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Málaga - Costa del Sol,Plane,390.1,,SW,5,11
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Sevilha,Plane,479.1,,W,7,15
+Aeroporto de Alicante-Elche Miguel Hernández,N-338 - Saída 2,Car,0.5,,N,1,2
 Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Plane,415.5,,N,2,5
 Aeroporto de Almería,Aeroporto de Málaga - Costa del Sol,Plane,190.3,,E,5,10
 Aeroporto de Almería,Aeroporto de Sevilha,Plane,319.5,,NW,4,13
@@ -2132,6 +2155,7 @@ Cruz de João Mendes,Cruzamento da N120 com a N121,Car,8.7,N120,SW,2,3
 Cruz de João Mendes,Grândola,Car,13.0,N120,NE,1,7
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Car,10.3,IP8,SW,3,6
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,8.1,IP8,N,5,1
+Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,0.8,AP-7,N,2,1
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,2.5,IC17 CRIL,NW,1,2
 Cruzamento da A1 com a A12 e a IC17 CRIL,Segunda Circular - Saída 1,Car,1.1,Segunda Circular,SW,3,2
 Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Car,2.4,A1,N,3,2
@@ -3509,6 +3533,7 @@ Murteira de Cima,Portela Alta de Cima,Car,2.0,,NW,1,4
 Murteira de Cima,Sentinela,Car,1.9,,S,3,4
 N125 - Acesso à Saída 2 da A22,Odiáxere,Car,1.3,N125,NE,1,3
 N125 - Acesso à Saída 3 da A22,Odiáxere,Car,2.5,N125,SW,3,1
+N-338 - Saída 2,N-338 - Saída 3,Car,1.4,N-338,NW,1,2
 Nuevo Portil,Punta del Moral,Boat,29.6,Costa Atlântica de Espanha Continental,W,4,4
 Nuevo Portil,Punta Umbría,Boat,15.3,Costa Atlântica de Espanha Continental,SE,5,4
 Odeceixe,Praia de Odeceixe,Car,3.5,,NW,2,1

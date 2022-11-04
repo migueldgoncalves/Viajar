@@ -3656,12 +3656,26 @@ A-7 - Saída 487,A-7 - Saída 494,Car,True,Vera
 A-7 - Saída 494,A-7 - Saída 504,Car,False,Almería
 A-7 - Saída 494,A-7 - Saída 504,Car,True,Murcia
 A-7 - Saída 494,A-7 - Saída 504,Car,True,Vera
-A-7 - Saída 504,A-7 - Saída 510,Car,False,Almería
-A-7 - Saída 504,A-7 - Saída 510,Car,True,Murcia
-A-7 - Saída 504,A-7 - Saída 510,Car,True,Vera
-A-7 - Saída 510,A-7 - Saída 513,Car,False,Almería
-A-7 - Saída 510,A-7 - Saída 513,Car,False,Níjar
-A-7 - Saída 510,A-7 - Saída 513,Car,True,Murcia
+A-7 - Saída 504,"A-7 - Saída 510, Almería",Car,False,Almería
+A-7 - Saída 504,"A-7 - Saída 510, Almería",Car,True,Murcia
+A-7 - Saída 504,"A-7 - Saída 510, Almería",Car,True,Vera
+A-7 - Saída 507,Cruzamento X da A-7 com a AP-7,Car,False,A-31 - Albacete/Madrid/Valência
+A-7 - Saída 507,Cruzamento X da A-7 com a AP-7,Car,True,Elx/Elche
+A-7 - Saída 507,Cruzamento X da A-7 com a AP-7,Car,True,Murcia
+A-7 - Saída 507,Cruzamento da A-7 com a A-31,Car,False,Elx/Elche
+A-7 - Saída 507,Cruzamento da A-7 com a A-31,Car,False,Murcia
+A-7 - Saída 507,Cruzamento da A-7 com a A-31,Car,True,A-31 - Albacete/Madrid/Monforte del Cid
+"A-7 - Saída 510, Alicante",Cruzamento X da A-7 com a AP-7,Car,False,Elx/Elche
+"A-7 - Saída 510, Alicante",Cruzamento X da A-7 com a AP-7,Car,False,Murcia
+"A-7 - Saída 510, Alicante",Cruzamento X da A-7 com a AP-7,Car,True,A-31 - Albacete
+"A-7 - Saída 510, Alicante",Cruzamento X da A-7 com a AP-7,Car,True,AP-7 - València
+"A-7 - Saída 510, Alicante",Cruzamento da A-7 com a A-70 e a EL-20,Car,False,A-31 - Albacete
+"A-7 - Saída 510, Alicante",Cruzamento da A-7 com a A-70 e a EL-20,Car,False,AP-7 - València
+"A-7 - Saída 510, Alicante",Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Elx/Elche
+"A-7 - Saída 510, Alicante",Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Murcia
+"A-7 - Saída 510, Almería",A-7 - Saída 513,Car,False,Almería
+"A-7 - Saída 510, Almería",A-7 - Saída 513,Car,False,Níjar
+"A-7 - Saída 510, Almería",A-7 - Saída 513,Car,True,Murcia
 A-7 - Saída 513,A-7 - Saída 514,Car,False,Almería
 A-7 - Saída 513,A-7 - Saída 514,Car,False,Níjar
 A-7 - Saída 513,A-7 - Saída 514,Car,True,Murcia
@@ -3673,17 +3687,39 @@ A-7 - Saída 516,A-7 - Saída 520,Car,False,Níjar
 A-7 - Saída 516,A-7 - Saída 520,Car,True,Los Gallardos
 A-7 - Saída 516,A-7 - Saída 520,Car,True,Murcia
 A-7 - Saída 516,A-7 - Saída 520,Car,True,Vera
+A-7 - Saída 518,A-7 - Saída 523,Car,False,Alacant/Alicante
+A-7 - Saída 518,A-7 - Saída 523,Car,False,Valência
+A-7 - Saída 518,A-7 - Saída 523,Car,True,Murcia
+A-7 - Saída 518,Cruzamento da A-7 com a A-70 e a EL-20,Car,False,Murcia
+A-7 - Saída 518,Cruzamento da A-7 com a A-70 e a EL-20,Car,False,Torrevieja
+A-7 - Saída 518,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Alacant/Alicante
+A-7 - Saída 518,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Valência
 A-7 - Saída 520,A-7 - Saída 525,Car,False,Almería
 A-7 - Saída 520,A-7 - Saída 525,Car,True,Murcia
 A-7 - Saída 520,A-7 - Saída 525,Car,True,Vera
+A-7 - Saída 523,A-7 - Saída 526,Car,False,Alacant/Alicante
+A-7 - Saída 523,A-7 - Saída 526,Car,False,Valência
+A-7 - Saída 523,A-7 - Saída 526,Car,True,Murcia
 A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,False,Almería
 A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,False,Los Gallardos
 A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,True,Murcia
 A-7 - Saída 525,"A-7 - Saída 529, Almería",Car,True,Vera
+A-7 - Saída 526,Cruzamento IX da A-7 com a AP-7,Car,False,Alacant/Alicante
+A-7 - Saída 526,Cruzamento IX da A-7 com a AP-7,Car,False,Elx/Elche
+A-7 - Saída 526,Cruzamento IX da A-7 com a AP-7,Car,True,Murcia
+"A-7 - Saída 529, Alicante",A-7 - Saída 535,Car,False,Alacant/Alicante
+"A-7 - Saída 529, Alicante",A-7 - Saída 535,Car,False,Crevillent
+"A-7 - Saída 529, Alicante",A-7 - Saída 535,Car,True,Murcia
+"A-7 - Saída 529, Alicante",Cruzamento IX da A-7 com a AP-7,Car,False,Murcia
+"A-7 - Saída 529, Alicante",Cruzamento IX da A-7 com a AP-7,Car,True,Alacant/Alicante
+"A-7 - Saída 529, Alicante",Cruzamento IX da A-7 com a AP-7,Car,True,Elx/Elche
 "A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,False,Almería
 "A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,False,Los Gallardos
 "A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,True,Huércal-Overa
 "A-7 - Saída 529, Almería",Cruzamento VIII da A-7 com a AP-7,Car,True,Murcia
+A-7 - Saída 535,A-7 - Saída 538,Car,False,Alacant/Alicante
+A-7 - Saída 535,A-7 - Saída 538,Car,False,Crevillent
+A-7 - Saída 535,A-7 - Saída 538,Car,True,Murcia
 A-7 - Saída 537,A-7 - Saída 543,Car,False,Almería
 A-7 - Saída 537,A-7 - Saída 543,Car,True,Huércal-Overa
 A-7 - Saída 537,A-7 - Saída 543,Car,True,Murcia
@@ -3691,10 +3727,11 @@ A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Car,False,Huércal-Overa
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Car,False,Murcia
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Car,True,Almería
 A-7 - Saída 537,Cruzamento VIII da A-7 com a AP-7,Car,True,Vera
-A-7 - Saída 538,A-7 - Saída 541,Car,False,Alicante
+A-7 - Saída 538,A-7 - Saída 541,Car,False,Alacant/Alicante
 A-7 - Saída 538,A-7 - Saída 541,Car,False,Crevillent
 A-7 - Saída 538,A-7 - Saída 541,Car,True,Murcia
-A-7 - Saída 541,A-7 - Saída 545,Car,False,Alicante
+A-7 - Saída 541,A-7 - Saída 545,Car,False,Alacant/Alicante
+A-7 - Saída 541,A-7 - Saída 545,Car,False,Crevillent
 A-7 - Saída 541,A-7 - Saída 545,Car,True,Murcia
 A-7 - Saída 543,A-7 - Saída 547,Car,False,Almería
 A-7 - Saída 543,A-7 - Saída 547,Car,False,Vera
@@ -4858,6 +4895,19 @@ A-66 - Saída 805,A-66 - Saída 808,Car,True,Sevilha
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,False,Mérida
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,False,Venta del Alto
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,True,Sevilha
+A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,False,Alacant/Alicante
+A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,A-31 - Madrid
+A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Elx/Elche
+A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Murcia
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,False,Aeroporto de Alicante-Elche
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,False,Elx/Elche
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,False,Murcia
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,True,Alacant/Alicante
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,True,Benidorm
+A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,True,València
+A-70 - Saída 22,N-338 - Saída 3,Car,False,A-31 - Madrid
+A-70 - Saída 22,N-338 - Saída 3,Car,False,A-70 - Benidorm/Murcia/València
+A-70 - Saída 22,N-338 - Saída 3,Car,True,Aeroporto de Alicante-Elche
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Car,False,SE-30 - Todas as direcções
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Car,True,Alcalá de Guadaíra
 A-92 - Andalucía Residencial,A-92 - Sevilha Este,Car,True,Granada
@@ -6583,6 +6633,9 @@ Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,False,Santiago do Cacém
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,False,Sines
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,True,A2 - Algarve/Lisboa
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,True,Grândola
+Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,False,A-7 - Cartagena/Murcia
+Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,True,Benidorm
+Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,True,Valência
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A1 - Norte
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A12 - Ponte Vasco da Gama/Sul
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,True,A8 - Oeste
@@ -12805,6 +12858,11 @@ N125 - Acesso à Saída 3 da A22,Odiáxere,Car,False,A22
 N125 - Acesso à Saída 3 da A22,Odiáxere,Car,False,Portimão
 N125 - Acesso à Saída 3 da A22,Odiáxere,Car,True,Lagos
 N125 - Acesso à Saída 3 da A22,Odiáxere,Car,True,Odiáxere
+N-338 - Saída 2,N-338 - Saída 3,Car,False,Aeroporto de Alicante-Elche
+N-338 - Saída 2,N-338 - Saída 3,Car,False,El Altet
+N-338 - Saída 2,N-338 - Saída 3,Car,False,Santa Pola
+N-338 - Saída 2,N-338 - Saída 3,Car,True,A-31 - Madrid
+N-338 - Saída 2,N-338 - Saída 3,Car,True,A-70 - Murcia/València
 Nuevo Portil,Punta del Moral,Boat,False,Huelva
 Nuevo Portil,Punta del Moral,Boat,False,Sevilha
 Nuevo Portil,Punta del Moral,Boat,True,Faro
