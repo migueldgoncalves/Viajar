@@ -36,6 +36,10 @@ It was also decided that a station is considered served by a service, within the
 
 ###### Practical example
 
+![Standard trains in Coimbra-B Station](https://github.com/migueldgoncalves/Viajar/blob/master/docs/railways/railways_coimbra_b_standard_train.png "Standard trains in Coimbra-B Station")
+
+![High-speed trains in Coimbra-B Station](https://github.com/migueldgoncalves/Viajar/blob/master/docs/railways/railways_coimbra_b_high_speed_train.png "High-speed trains in Coimbra-B Station")
+
 For a practical example, let's look at the Coimbra-B Station, serving the city of Coimbra in Portugal. See service sorting by number of stops at section "Portugal" below.
 
 Coimbra-B Station is in the North Line ("Linha do Norte" in Portuguese), meaning that its main direction is south-north. It is also served by most of the train services available in Portugal.
