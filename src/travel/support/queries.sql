@@ -108,6 +108,7 @@ order by means_transport, way;
 
 -- Show subset of locations based on batch number
 select * from Location where Location.batch > 0 and Location.batch <= 20;
+select * from Location where Location.batch = 2900 order by Location.name;
 
 -- Shows number of locations inside provided geographic bounds
 select count(name) from Location where latitude >= 39.0 and latitude <= 41.0 and longitude >= -5.0 and longitude <= -4.0;

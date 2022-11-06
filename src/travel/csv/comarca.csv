@@ -68,6 +68,7 @@ Belvís de Monroy,Campo Arañuelo,Cáceres
 Benacazón,Aljarafe,Sevilha
 Benalmádena,Costa del Sol Occidental,Málaga
 Benamejí,Subbética,Córdoba
+Benavente,Benavente y Los Valles,Zamora
 Bercero,Tierra del Vino,Valladolid
 Boadilla del Monte,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Bollullos de la Mitación,Aljarafe,Sevilha
@@ -107,7 +108,9 @@ Casas del Monte,Valle del Ambroz,Cáceres
 Casatejada,Campo Arañuelo,Cáceres
 Castilleja de la Cuesta,Aljarafe,Sevilha
 Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
+Castrogonzalo,Benavente y Los Valles,Zamora
 Cazalegas,Sierra de San Vicente,Toledo
+Cerecinos de Campos,Tierra de Campos,Zamora
 Cerezo de Abajo,Comunidad de Villa y Tierra de Sepúlveda,Segóvia
 Chauchina,Vega de Granada,Granada
 Chucena,El Condado,Huelva
@@ -220,6 +223,7 @@ La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
 La Roda de Andalucía,Sierra Sur de Sevilha,Sevilha
 La Serna del Monte,Sierra Norte de Madrid,Comunidade de Madrid
 La Serrada,Comarca de Ávila,Ávila
+La Torre del Valle,Benavente y Los Valles,Zamora
 Láchar,Vega de Granada,Granada
 Lagartera,La Campana de Oropesa,Toledo
 Las Cabezas de San Juan,Bajo Guadalquivir,Sevilha
@@ -331,6 +335,7 @@ Piñuécar-Gandullas,Sierra Norte de Madrid,Comunidade de Madrid
 Polopos,Costa Granadina,Granada
 Pontevedra,Comarca de Pontevedra,Pontevedra
 Pozuelo de Alarcón,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
+Pozuelo del Páramo,Páramo Leonés,León
 Puebla de Guzmán,El Andévalo,Huelva
 Puebla de Sancho Pérez,Zafra-Río Bodión,Badajoz
 Puerto de Béjar,Sierra de Béjar,Salamanca
@@ -348,6 +353,7 @@ Rincón de la Victoria,La Axarquía,Málaga
 Rioja,Comarca Metropolitana de Almería,Almería
 Robliza de Cojos,Campo de Salamanca,Salamanca
 Romangordo,Campo Arañuelo,Cáceres
+Roperuelos del Páramo,Páramo Leonés,León
 Roquetas de Mar,Poniente Almeriense,Almería
 Rosal de la Frontera,Sierra de Huelva,Huelva
 Rueda,Tierra del Vino,Valladolid
@@ -356,8 +362,11 @@ Salar,Comarca de Loja,Granada
 Salobreña,Costa Granadina,Granada
 Salteras,Aljarafe,Sevilha
 Salteras,Comarca Metropolitana de Sevilha,Sevilha
+San Adrián del Valle,Páramo Leonés,León
 San Agustín del Guadalix,Cuenca del Medio Jarama,Comunidade de Madrid
 San Bartolomé de la Torre,El Andévalo,Huelva
+San Cristóbal de Entreviñas,Benavente y Los Valles,Zamora
+San Esteban del Molar,Tierra de Campos,Zamora
 San Fernando de Henares,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 San Isidro,Baix Segura / Vega Baja del Segura,Alacant / Alicante
 San Juan de Aznalfarache,Aljarafe,Sevilha
@@ -401,6 +410,7 @@ Tabernas,Los Filabres-Tabernas,Almería
 Talavera de la Reina,Talavera de la Reina,Toledo
 Talavera la Real,Vegas Bajas,Badajoz
 Tembleque,Mancha Alta de Toledo,Toledo
+Tiedra,Montes Torozos,Valladolid
 Tordesillas,Tierra del Vino,Valladolid
 Torija,La Alcarria,Guadalajara
 Toril,Campo Arañuelo,Cáceres
@@ -437,20 +447,24 @@ Vilaboa,Comarca de Pontevedra,Pontevedra
 Villa de Otura,Vega de Granada,Granada
 Villa del Río,Alto Guadalquivir,Córdoba
 Villablanca,Costa Occidental de Huelva,Huelva
+Villabrázaro,Benavente y Los Valles,Zamora
 Villacastín,Comunidad de Ciudad y Tierra de Segovia,Segóvia
 Villafranca de Córdoba,Alto Guadalquivir,Córdoba
 Villafranca de los Barros,Tierra de Barros-Río Matachel,Badajoz
+Villalpando,Tierra de Campos,Zamora
 Villamayor,La Armuña,Salamanca
 Villamena,Valle de Lecrín,Granada
 Villamesías,Comarca de Trujillo,Cáceres
 Villanueva de Córdoba,Los Pedroches,Córdoba
 Villanueva de la Reina,Campiña de Jaén,Jaén
 Villanueva de la Serena,La Serena-Vegas Altas,Badajoz
+Villanueva de los Caballeros,Tierra de Campos,Valladolid
 Villanueva de los Castillejos,El Andévalo,Huelva
 Villanueva del Rosario,Comarca Nororiental de Málaga,Málaga
 Villanueva del Trabuco,Comarca Nororiental de Málaga,Málaga
 Villar de Gallimazo,Tierra de Peñaranda,Salamanca
 Villar de Plasencia,Trasierra-Tierras de Granadilla,Cáceres
+Villardefrades,Tierra de Campos,Valladolid
 Villares de la Reina,La Armuña,Salamanca
 Villarrasa,El Condado,Huelva
 Villarta de San Juan,La Mancha,Ciudad Real

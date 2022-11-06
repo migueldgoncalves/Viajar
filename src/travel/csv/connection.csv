@@ -850,6 +850,33 @@ A-6 - Saída 186,Cruzamento Oeste da A-6 com a A-62,Car,2.6,A-6,SE,1,2
 A-6 - Saída 189,A-6 - Saída 195,Car,6.4,A-6,NW,2,1
 A-6 - Saída 195,A-6 - Saída 196,Car,0.9,A-6,NW,2,1
 A-6 - Saída 196,A-6 - Saída 201,Car,5.1,A-6,NW,2,1
+A-6 - Saída 201,A-6 - Saída 203,Car,1.8,A-6,W,2,1
+A-6 - Saída 203,A-6 - Saída 209,Car,5.8,A-6,N,2,1
+A-6 - Saída 209,A-6 - Saída 211,Car,1.8,A-6,NW,2,1
+A-6 - Saída 211,A-6 - Saída 212,Car,1.6,A-6,NW,2,1
+A-6 - Saída 212,A-6 - Saída 215,Car,2.5,A-6,NW,2,1
+A-6 - Saída 215,A-6 - Saída 216,Car,0.9,A-6,N,2,1
+A-6 - Saída 216,A-6 - Saída 217,Car,1.2,A-6,W,2,1
+A-6 - Saída 217,A-6 - Saída 221,Car,5.2,A-6,NW,2,1
+A-6 - Saída 221,A-6 - Saída 226,Car,4.9,A-6,NW,2,1
+A-6 - Saída 226,A-6 - Saída 231,Car,4.2,A-6,NW,2,1
+A-6 - Saída 231,A-6 - Saída 234,Car,3.1,A-6,NW,2,1
+A-6 - Saída 234,A-6 - Saída 236,Car,1.5,A-6,W,2,1
+A-6 - Saída 236,A-6 - Saída 239,Car,2.0,A-6,NW,2,1
+A-6 - Saída 239,A-6 - Saída 243,Car,5.0,A-6,NW,2,1
+A-6 - Saída 243,A-6 - Saída 245,Car,1.6,A-6,W,2,1
+A-6 - Saída 245,A-6 - Saída 251,Car,6.3,A-6,NW,2,1
+A-6 - Saída 251,Cruzamento Sul da A-6 com a A-66,Car,4.0,A-6,NW,2,1
+A-6 - Saída 257,A-6 - Saída 259,Car,2.3,A-6,W,2,1
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,2.1,A-6,SE,1,2
+A-6 - Saída 259,A-6 - Saída 261-262,Car,2.2,A-6,NW,2,1
+A-6 - Saída 261-262,A-6 - Saída 264,Car,1.9,A-6,NW,2,1
+A-6 - Saída 264,A-6 - Saída 266,Car,2.2,A-6,N,2,1
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,2.6,A-6,N,2,1
+A-6 - Saída 272,A-6 - Saída 277,Car,4.5,A-6,NW,2,1
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,4.5,A-6,SE,1,2
+A-6 - Saída 277,A-6 - Saída 280,Car,2.7,A-6,NW,2,1
+A-6 - Saída 280,A-6 - Saída 292,Car,12.0,A-6,NW,2,1
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,0.2,A-7,SE,2,1
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,0.4,A-7,W,1,2
 A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,0.4,A-7,N,2,1

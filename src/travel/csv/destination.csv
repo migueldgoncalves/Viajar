@@ -3137,6 +3137,142 @@ A-6 - Saída 196,A-6 - Saída 201,Car,False,Tordesillas
 A-6 - Saída 196,A-6 - Saída 201,Car,False,Valladolid
 A-6 - Saída 196,A-6 - Saída 201,Car,True,A Coruña
 A-6 - Saída 196,A-6 - Saída 201,Car,True,Benavente
+A-6 - Saída 201,A-6 - Saída 203,Car,False,Madrid
+A-6 - Saída 201,A-6 - Saída 203,Car,False,Tordesillas
+A-6 - Saída 201,A-6 - Saída 203,Car,False,Valladolid
+A-6 - Saída 201,A-6 - Saída 203,Car,True,A Coruña
+A-6 - Saída 201,A-6 - Saída 203,Car,True,Benavente
+A-6 - Saída 203,A-6 - Saída 209,Car,False,Madrid
+A-6 - Saída 203,A-6 - Saída 209,Car,False,Tordesillas
+A-6 - Saída 203,A-6 - Saída 209,Car,False,Valladolid
+A-6 - Saída 203,A-6 - Saída 209,Car,True,A Coruña
+A-6 - Saída 203,A-6 - Saída 209,Car,True,Benavente
+A-6 - Saída 209,A-6 - Saída 211,Car,False,Madrid
+A-6 - Saída 209,A-6 - Saída 211,Car,False,Tordesillas
+A-6 - Saída 209,A-6 - Saída 211,Car,False,Valladolid
+A-6 - Saída 209,A-6 - Saída 211,Car,True,A Coruña
+A-6 - Saída 209,A-6 - Saída 211,Car,True,Benavente
+A-6 - Saída 211,A-6 - Saída 212,Car,False,Madrid
+A-6 - Saída 211,A-6 - Saída 212,Car,False,Tordesillas
+A-6 - Saída 211,A-6 - Saída 212,Car,False,Valladolid
+A-6 - Saída 211,A-6 - Saída 212,Car,True,A Coruña
+A-6 - Saída 211,A-6 - Saída 212,Car,True,Benavente
+A-6 - Saída 212,A-6 - Saída 215,Car,False,A-62 - Valladolid
+A-6 - Saída 212,A-6 - Saída 215,Car,False,Madrid
+A-6 - Saída 212,A-6 - Saída 215,Car,True,A Coruña
+A-6 - Saída 212,A-6 - Saída 215,Car,True,Benavente
+A-6 - Saída 215,A-6 - Saída 216,Car,False,Madrid
+A-6 - Saída 215,A-6 - Saída 216,Car,False,Tordesillas
+A-6 - Saída 215,A-6 - Saída 216,Car,False,Valladolid
+A-6 - Saída 215,A-6 - Saída 216,Car,True,A Coruña
+A-6 - Saída 215,A-6 - Saída 216,Car,True,Benavente
+A-6 - Saída 216,A-6 - Saída 217,Car,False,Madrid
+A-6 - Saída 216,A-6 - Saída 217,Car,False,Tordesillas
+A-6 - Saída 216,A-6 - Saída 217,Car,False,Valladolid
+A-6 - Saída 216,A-6 - Saída 217,Car,True,A Coruña
+A-6 - Saída 216,A-6 - Saída 217,Car,True,Benavente
+A-6 - Saída 217,A-6 - Saída 221,Car,False,Madrid
+A-6 - Saída 217,A-6 - Saída 221,Car,False,Tordesillas
+A-6 - Saída 217,A-6 - Saída 221,Car,False,Valladolid
+A-6 - Saída 217,A-6 - Saída 221,Car,True,A Coruña
+A-6 - Saída 217,A-6 - Saída 221,Car,True,Benavente
+A-6 - Saída 221,A-6 - Saída 226,Car,False,Madrid
+A-6 - Saída 221,A-6 - Saída 226,Car,False,Tordesillas
+A-6 - Saída 221,A-6 - Saída 226,Car,False,Valladolid
+A-6 - Saída 221,A-6 - Saída 226,Car,True,A Coruña
+A-6 - Saída 221,A-6 - Saída 226,Car,True,Benavente
+A-6 - Saída 226,A-6 - Saída 231,Car,False,Madrid
+A-6 - Saída 226,A-6 - Saída 231,Car,False,Tordesillas
+A-6 - Saída 226,A-6 - Saída 231,Car,False,Valladolid
+A-6 - Saída 226,A-6 - Saída 231,Car,True,A Coruña
+A-6 - Saída 226,A-6 - Saída 231,Car,True,Benavente
+A-6 - Saída 231,A-6 - Saída 234,Car,False,Madrid
+A-6 - Saída 231,A-6 - Saída 234,Car,False,Tordesillas
+A-6 - Saída 231,A-6 - Saída 234,Car,False,Valladolid
+A-6 - Saída 231,A-6 - Saída 234,Car,True,A Coruña
+A-6 - Saída 231,A-6 - Saída 234,Car,True,Benavente
+A-6 - Saída 234,A-6 - Saída 236,Car,False,Madrid
+A-6 - Saída 234,A-6 - Saída 236,Car,False,Tordesillas
+A-6 - Saída 234,A-6 - Saída 236,Car,False,Valladolid
+A-6 - Saída 234,A-6 - Saída 236,Car,True,A Coruña
+A-6 - Saída 234,A-6 - Saída 236,Car,True,Benavente
+A-6 - Saída 236,A-6 - Saída 239,Car,False,Madrid
+A-6 - Saída 236,A-6 - Saída 239,Car,False,Tordesillas
+A-6 - Saída 236,A-6 - Saída 239,Car,False,Valladolid
+A-6 - Saída 236,A-6 - Saída 239,Car,True,A Coruña
+A-6 - Saída 236,A-6 - Saída 239,Car,True,Benavente
+A-6 - Saída 239,A-6 - Saída 243,Car,False,Madrid
+A-6 - Saída 239,A-6 - Saída 243,Car,True,A Coruña
+A-6 - Saída 239,A-6 - Saída 243,Car,True,Benavente
+A-6 - Saída 243,A-6 - Saída 245,Car,False,Madrid
+A-6 - Saída 243,A-6 - Saída 245,Car,False,Tordesillas
+A-6 - Saída 243,A-6 - Saída 245,Car,False,Valladolid
+A-6 - Saída 243,A-6 - Saída 245,Car,True,A Coruña
+A-6 - Saída 243,A-6 - Saída 245,Car,True,Benavente
+A-6 - Saída 245,A-6 - Saída 251,Car,False,Madrid
+A-6 - Saída 245,A-6 - Saída 251,Car,False,Tordesillas
+A-6 - Saída 245,A-6 - Saída 251,Car,False,Valladolid
+A-6 - Saída 245,A-6 - Saída 251,Car,True,A Coruña
+A-6 - Saída 245,A-6 - Saída 251,Car,True,Benavente
+A-6 - Saída 251,Cruzamento Sul da A-6 com a A-66,Car,False,Madrid
+A-6 - Saída 251,Cruzamento Sul da A-6 com a A-66,Car,False,Tordesillas
+A-6 - Saída 251,Cruzamento Sul da A-6 com a A-66,Car,True,A Coruña
+A-6 - Saída 251,Cruzamento Sul da A-6 com a A-66,Car,True,Benavente
+A-6 - Saída 257,A-6 - Saída 259,Car,False,A-66 - Zamora
+A-6 - Saída 257,A-6 - Saída 259,Car,False,Madrid
+A-6 - Saída 257,A-6 - Saída 259,Car,False,Palencia
+A-6 - Saída 257,A-6 - Saída 259,Car,True,A Coruña
+A-6 - Saída 257,A-6 - Saída 259,Car,True,A-66 - León
+A-6 - Saída 257,A-6 - Saída 259,Car,True,Benavente
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,False,A Coruña
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,False,Benavente
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,True,A-66 - Zamora
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,True,Madrid
+A-6 - Saída 257,Cruzamento Sul da A-6 com a A-66,Car,True,Tordesillas
+A-6 - Saída 259,A-6 - Saída 261-262,Car,False,A-66 - Zamora
+A-6 - Saída 259,A-6 - Saída 261-262,Car,False,Madrid
+A-6 - Saída 259,A-6 - Saída 261-262,Car,False,Palencia
+A-6 - Saída 259,A-6 - Saída 261-262,Car,True,A Coruña
+A-6 - Saída 259,A-6 - Saída 261-262,Car,True,A-52 - Ourense
+A-6 - Saída 259,A-6 - Saída 261-262,Car,True,A-66 - León
+A-6 - Saída 261-262,A-6 - Saída 264,Car,False,A-66 - Zamora
+A-6 - Saída 261-262,A-6 - Saída 264,Car,False,León
+A-6 - Saída 261-262,A-6 - Saída 264,Car,False,Madrid
+A-6 - Saída 261-262,A-6 - Saída 264,Car,False,Palencia
+A-6 - Saída 261-262,A-6 - Saída 264,Car,True,A Coruña
+A-6 - Saída 261-262,A-6 - Saída 264,Car,True,A-52 - Ourense
+A-6 - Saída 261-262,A-6 - Saída 264,Car,True,A-66 - León
+A-6 - Saída 264,A-6 - Saída 266,Car,False,A-66 - Zamora
+A-6 - Saída 264,A-6 - Saída 266,Car,False,Benavente
+A-6 - Saída 264,A-6 - Saída 266,Car,False,Madrid
+A-6 - Saída 264,A-6 - Saída 266,Car,True,A Coruña
+A-6 - Saída 264,A-6 - Saída 266,Car,True,A-52 - Ourense
+A-6 - Saída 264,A-6 - Saída 266,Car,True,A-66 - León
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,False,A-66 - Zamora
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,False,Benavente
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,False,Madrid
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,True,A Coruña
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,True,A-52 - Ourense
+A-6 - Saída 266,Cruzamento da A-6 com a A-52 e a A-66,Car,True,A-66 - León
+A-6 - Saída 272,A-6 - Saída 277,Car,False,Benavente
+A-6 - Saída 272,A-6 - Saída 277,Car,False,Madrid
+A-6 - Saída 272,A-6 - Saída 277,Car,True,A Coruña
+A-6 - Saída 272,A-6 - Saída 277,Car,True,La Bañeza
+A-6 - Saída 272,A-6 - Saída 277,Car,True,Lugo
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,False,A Coruña
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,False,La Bañeza
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,False,Lugo
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,True,Benavente
+A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,True,Madrid
+A-6 - Saída 277,A-6 - Saída 280,Car,False,Benavente
+A-6 - Saída 277,A-6 - Saída 280,Car,False,Madrid
+A-6 - Saída 277,A-6 - Saída 280,Car,True,A Coruña
+A-6 - Saída 277,A-6 - Saída 280,Car,True,La Bañeza
+A-6 - Saída 277,A-6 - Saída 280,Car,True,Lugo
+A-6 - Saída 280,A-6 - Saída 292,Car,False,Benavente
+A-6 - Saída 280,A-6 - Saída 292,Car,False,Madrid
+A-6 - Saída 280,A-6 - Saída 292,Car,True,A Coruña
+A-6 - Saída 280,A-6 - Saída 292,Car,True,Astorga
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
