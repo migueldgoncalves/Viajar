@@ -750,6 +750,16 @@ A-50 - Saída 83,Encinas de Abajo,Salamanca,
 A-50 - Saída 86,Machacón,Salamanca,
 A-50 - Saída 96,Pelabravo,Salamanca,
 A-50 - Zona Comercial,Santa Marta de Tormes,Salamanca,
+A-52 - Saída 252,Ribadavia,Ourense,Ventosela
+A-52 - Saída 262,Melón,Ourense,Quins
+A-52 - Saída 269,A Cañiza,Pontevedra,Oroso
+A-52 - Saída 271-272,A Cañiza,Pontevedra,A Cañiza
+A-52 - Saída 282,As Neves,Pontevedra,Batalláns
+A-52 - Saída 287,Salvaterra de Miño,Pontevedra,Vilacova
+A-52 - Saída 294,Ponteareas,Pontevedra,Moreira
+A-52 - Saída 303,O Porriño,Pontevedra,Cans
+A-52 - Saída 305,O Porriño,Pontevedra,O Porriño
+A-52 - Saída 306,Mos,Pontevedra,Sanguiñeda
 A-55 - Rúa Loureiro,Vigo,Pontevedra,Vigo
 A-55 - Saída 2A,Vigo,Pontevedra,Sárdoma
 A-55 - Saída 2B,Vigo,Pontevedra,Sárdoma
@@ -1070,6 +1080,7 @@ Aeroporto de Málaga - Costa del Sol,Málaga,Málaga,Churriana
 Aeroporto de Salamanca,Machacón,Salamanca,
 Aeroporto de Sevilha,Sevilha,Sevilha,Este-Alcosa-Torreblanca
 Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
+AG-51 - Saída 2,Salvaterra de Miño,Pontevedra,Soutolobre
 AL-12 - Saída 7,Almería,Almería,
 Almonte,Almonte,Huelva,
 Antiga Estação de Aljaraque,Gibraleón,Huelva,
@@ -1260,6 +1271,7 @@ Cruzamento da A-49 com a SE-40,Espartinas,Sevilha,
 Cruzamento da A-50 com a AV-20,Ávila,Ávila,
 Cruzamento da A-50 com a SA-20,Carbajosa de la Sagrada,Salamanca,
 Cruzamento da A-52 com a A-55,Mos,Pontevedra,Sanguiñeda
+Cruzamento da A-52 com a AG-51,Salvaterra de Miño,Pontevedra,Lira
 Cruzamento da A-66 com a EX-A1,Plasencia,Cáceres,
 Cruzamento da A-66 com a SA-20,Aldeatejada,Salamanca,
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,

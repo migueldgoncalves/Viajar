@@ -4524,6 +4524,56 @@ A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Alba de Tormes
 A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Ávila
 A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,False,Madrid
 A-50 - Zona Comercial,Glorieta Llaves de la Ciudad,Car,True,Salamanca
+A-52 - Saída 252,A-52 - Saída 262,Car,False,Madrid
+A-52 - Saída 252,A-52 - Saída 262,Car,False,Ourense
+A-52 - Saída 252,A-52 - Saída 262,Car,True,O Porriño
+A-52 - Saída 252,A-52 - Saída 262,Car,True,Vigo
+A-52 - Saída 262,A-52 - Saída 269,Car,False,Madrid
+A-52 - Saída 262,A-52 - Saída 269,Car,False,Ourense
+A-52 - Saída 262,A-52 - Saída 269,Car,True,O Porriño
+A-52 - Saída 262,A-52 - Saída 269,Car,True,Vigo
+A-52 - Saída 269,A-52 - Saída 271-272,Car,False,Madrid
+A-52 - Saída 269,A-52 - Saída 271-272,Car,False,Ourense
+A-52 - Saída 269,A-52 - Saída 271-272,Car,True,Pontevedra
+A-52 - Saída 269,A-52 - Saída 271-272,Car,True,Tui
+A-52 - Saída 269,A-52 - Saída 271-272,Car,True,Vigo
+A-52 - Saída 271-272,A-52 - Saída 282,Car,False,Madrid
+A-52 - Saída 271-272,A-52 - Saída 282,Car,False,Ourense
+A-52 - Saída 271-272,A-52 - Saída 282,Car,True,Pontevedra
+A-52 - Saída 271-272,A-52 - Saída 282,Car,True,Tui
+A-52 - Saída 271-272,A-52 - Saída 282,Car,True,Vigo
+A-52 - Saída 282,A-52 - Saída 287,Car,False,Madrid
+A-52 - Saída 282,A-52 - Saída 287,Car,False,Ourense
+A-52 - Saída 282,A-52 - Saída 287,Car,True,Ponteareas
+A-52 - Saída 282,A-52 - Saída 287,Car,True,Vigo
+A-52 - Saída 287,Cruzamento da A-52 com a AG-51,Car,False,Madrid
+A-52 - Saída 287,Cruzamento da A-52 com a AG-51,Car,False,Ourense
+A-52 - Saída 287,Cruzamento da A-52 com a AG-51,Car,True,Pontevedra
+A-52 - Saída 287,Cruzamento da A-52 com a AG-51,Car,True,Tui
+A-52 - Saída 287,Cruzamento da A-52 com a AG-51,Car,True,Vigo
+A-52 - Saída 294,A-52 - Saída 303,Car,False,Madrid
+A-52 - Saída 294,A-52 - Saída 303,Car,False,Ourense
+A-52 - Saída 294,A-52 - Saída 303,Car,True,Pontevedra
+A-52 - Saída 294,A-52 - Saída 303,Car,True,Tui
+A-52 - Saída 294,A-52 - Saída 303,Car,True,Vigo
+A-52 - Saída 294,Cruzamento da A-52 com a AG-51,Car,False,O Porriño
+A-52 - Saída 294,Cruzamento da A-52 com a AG-51,Car,False,Vigo
+A-52 - Saída 294,Cruzamento da A-52 com a AG-51,Car,True,Madrid
+A-52 - Saída 294,Cruzamento da A-52 com a AG-51,Car,True,Ourense
+A-52 - Saída 303,A-52 - Saída 305,Car,False,Madrid
+A-52 - Saída 303,A-52 - Saída 305,Car,False,Ourense
+A-52 - Saída 303,A-52 - Saída 305,Car,True,Pontevedra
+A-52 - Saída 303,A-52 - Saída 305,Car,True,Tui
+A-52 - Saída 303,A-52 - Saída 305,Car,True,Vigo
+A-52 - Saída 305,A-52 - Saída 306,Car,False,Madrid
+A-52 - Saída 305,A-52 - Saída 306,Car,False,Ourense
+A-52 - Saída 305,A-52 - Saída 306,Car,True,Tui
+A-52 - Saída 305,A-52 - Saída 306,Car,True,Vigo
+A-52 - Saída 306,Cruzamento da A-52 com a A-55,Car,False,Madrid
+A-52 - Saída 306,Cruzamento da A-52 com a A-55,Car,False,Ourense
+A-52 - Saída 306,Cruzamento da A-52 com a A-55,Car,True,A-55 - Portugal/Tui/Vigo
+A-52 - Saída 306,Cruzamento da A-52 com a A-55,Car,True,AG-57 - Baiona
+A-52 - Saída 306,Cruzamento da A-52 com a A-55,Car,True,AP-9 - Pontevedra/Vigo
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Aeroporto de Vigo
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Instituto Ferial de Vigo
 A-55 - Rúa Loureiro,A-55 - Via de Servicio Norte,Car,False,Madrid
@@ -6014,6 +6064,9 @@ Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,True,A-
 Aeroporto de Salamanca,Encinas de Abajo,Car,False,Salamanca
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Ávila
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Madrid
+AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,False,Plataforma Logística Industrial de Salvaterra - As Neves
+AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,False,Salvaterra de Miño
+AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,True,A-52 - O Porriño/Vigo
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,False,Alcoutim
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,False,Vila Real de Santo António
 "Álamo, Mértola",Cruzamento da N122 com a N267,Car,True,Mértola
