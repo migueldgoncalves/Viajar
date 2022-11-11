@@ -877,6 +877,23 @@ A-6 - Saída 272,A-6 - Saída 277,Car,4.5,A-6,NW,2,1
 A-6 - Saída 272,Cruzamento da A-6 com a A-52 e a A-66,Car,4.5,A-6,SE,1,2
 A-6 - Saída 277,A-6 - Saída 280,Car,2.7,A-6,NW,2,1
 A-6 - Saída 280,A-6 - Saída 292,Car,12.0,A-6,NW,2,1
+A-6 - Saída 292,A-6 - Saída 298,Car,6.6,A-6,NW,2,1
+A-6 - Saída 298,A-6 - Saída 303,Car,4.3,A-6,W,2,1
+A-6 - Saída 303,A-6 - Saída 306,Car,3.3,A-6,N,2,1
+A-6 - Saída 306,A-6 - Saída 314,Car,7.9,A-6,NW,2,1
+A-6 - Saída 314,A-6 - Saída 318,Car,4.4,A-6,NW,2,1
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,5.2,A-6,NW,2,1
+A-6 - Saída 326,A-6 - Saída 329,Car,3.6,A-6,N,2,1
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,2.5,A-6,E,1,2
+A-6 - Saída 329,A-6 - Saída 330,Car,1.2,A-6,W,2,1
+A-6 - Saída 330,A-6 - Saída 333-334,Car,2.8,A-6,W,2,1
+A-6 - Saída 333-334,A-6 - Saída 339,Car,6.0,A-6,N,2,1
+A-6 - Saída 339,A-6 - Saída 347-349,Car,8.5,A-6,NW,2,1
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,3.1,A-6,NW,2,1
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,9.9,A-6,W,2,1
+A-6 - Saída 360-361,A-6 - Saída 364,Car,3.8,A-6,W,2,1
+A-6 - Saída 364,A-6 - Saída 366,Car,1.2,A-6,NW,2,1
+A-6 - Saída 366,A-6 - Saída 371-372,Car,5.9,A-6,W,2,1
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,0.2,A-7,SE,2,1
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,0.4,A-7,W,1,2
 A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,0.4,A-7,N,2,1

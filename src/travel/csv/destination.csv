@@ -3273,6 +3273,92 @@ A-6 - Saída 280,A-6 - Saída 292,Car,False,Benavente
 A-6 - Saída 280,A-6 - Saída 292,Car,False,Madrid
 A-6 - Saída 280,A-6 - Saída 292,Car,True,A Coruña
 A-6 - Saída 280,A-6 - Saída 292,Car,True,Astorga
+A-6 - Saída 292,A-6 - Saída 298,Car,False,Benavente
+A-6 - Saída 292,A-6 - Saída 298,Car,False,Madrid
+A-6 - Saída 292,A-6 - Saída 298,Car,True,A Coruña
+A-6 - Saída 292,A-6 - Saída 298,Car,True,Astorga
+A-6 - Saída 298,A-6 - Saída 303,Car,False,Benavente
+A-6 - Saída 298,A-6 - Saída 303,Car,False,Madrid
+A-6 - Saída 298,A-6 - Saída 303,Car,True,A Coruña
+A-6 - Saída 298,A-6 - Saída 303,Car,True,La Bañeza
+A-6 - Saída 298,A-6 - Saída 303,Car,True,Lugo
+A-6 - Saída 303,A-6 - Saída 306,Car,False,La Bañeza
+A-6 - Saída 303,A-6 - Saída 306,Car,False,Madrid
+A-6 - Saída 303,A-6 - Saída 306,Car,True,A Coruña
+A-6 - Saída 303,A-6 - Saída 306,Car,True,Astorga
+A-6 - Saída 303,A-6 - Saída 306,Car,True,Lugo
+A-6 - Saída 306,A-6 - Saída 314,Car,False,La Bañeza
+A-6 - Saída 306,A-6 - Saída 314,Car,False,Madrid
+A-6 - Saída 306,A-6 - Saída 314,Car,True,A Coruña
+A-6 - Saída 306,A-6 - Saída 314,Car,True,Astorga
+A-6 - Saída 306,A-6 - Saída 314,Car,True,Lugo
+A-6 - Saída 314,A-6 - Saída 318,Car,False,Benavente
+A-6 - Saída 314,A-6 - Saída 318,Car,False,Madrid
+A-6 - Saída 314,A-6 - Saída 318,Car,True,A Coruña
+A-6 - Saída 314,A-6 - Saída 318,Car,True,Astorga
+A-6 - Saída 314,A-6 - Saída 318,Car,True,Lugo
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,False,La Bañeza
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,False,Madrid
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,True,A Coruña
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,True,Astorga
+A-6 - Saída 318,Cruzamento da A-6 com a AP-71,Car,True,Lugo
+A-6 - Saída 326,A-6 - Saída 329,Car,False,Benavente
+A-6 - Saída 326,A-6 - Saída 329,Car,False,Madrid
+A-6 - Saída 326,A-6 - Saída 329,Car,True,A Coruña
+A-6 - Saída 326,A-6 - Saída 329,Car,True,Lugo
+A-6 - Saída 326,A-6 - Saída 329,Car,True,Ponferrada
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,False,A Coruña
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,False,Lugo
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,False,Ponferrada
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,True,AP-71 - León
+A-6 - Saída 326,Cruzamento da A-6 com a AP-71,Car,True,Madrid
+A-6 - Saída 329,A-6 - Saída 330,Car,False,Astorga
+A-6 - Saída 329,A-6 - Saída 330,Car,False,León
+A-6 - Saída 329,A-6 - Saída 330,Car,False,Madrid
+A-6 - Saída 329,A-6 - Saída 330,Car,True,A Coruña
+A-6 - Saída 329,A-6 - Saída 330,Car,True,Lugo
+A-6 - Saída 329,A-6 - Saída 330,Car,True,Ponferrada
+A-6 - Saída 330,A-6 - Saída 333-334,Car,False,Astorga
+A-6 - Saída 330,A-6 - Saída 333-334,Car,False,León
+A-6 - Saída 330,A-6 - Saída 333-334,Car,False,Madrid
+A-6 - Saída 330,A-6 - Saída 333-334,Car,True,A Coruña
+A-6 - Saída 330,A-6 - Saída 333-334,Car,True,Ponferrada
+A-6 - Saída 333-334,A-6 - Saída 339,Car,False,Astorga
+A-6 - Saída 333-334,A-6 - Saída 339,Car,False,León
+A-6 - Saída 333-334,A-6 - Saída 339,Car,False,Madrid
+A-6 - Saída 333-334,A-6 - Saída 339,Car,True,A Coruña
+A-6 - Saída 333-334,A-6 - Saída 339,Car,True,Lugo
+A-6 - Saída 333-334,A-6 - Saída 339,Car,True,Ponferrada
+A-6 - Saída 339,A-6 - Saída 347-349,Car,False,Astorga
+A-6 - Saída 339,A-6 - Saída 347-349,Car,False,León
+A-6 - Saída 339,A-6 - Saída 347-349,Car,False,Madrid
+A-6 - Saída 339,A-6 - Saída 347-349,Car,True,A Coruña
+A-6 - Saída 339,A-6 - Saída 347-349,Car,True,Lugo
+A-6 - Saída 339,A-6 - Saída 347-349,Car,True,Ponferrada
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,False,Astorga
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,False,León
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,False,Madrid
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,True,A Coruña
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,True,Lugo
+A-6 - Saída 347-349,A-6 - Saída 350-351,Car,True,Ponferrada
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,False,Astorga
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,False,León
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,False,Madrid
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,True,A Coruña
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,True,Lugo
+A-6 - Saída 350-351,A-6 - Saída 360-361,Car,True,Ponferrada
+A-6 - Saída 360-361,A-6 - Saída 364,Car,False,Astorga
+A-6 - Saída 360-361,A-6 - Saída 364,Car,False,Madrid
+A-6 - Saída 360-361,A-6 - Saída 364,Car,True,A Coruña
+A-6 - Saída 360-361,A-6 - Saída 364,Car,True,Ponferrada
+A-6 - Saída 364,A-6 - Saída 366,Car,False,Astorga
+A-6 - Saída 364,A-6 - Saída 366,Car,True,A Coruña
+A-6 - Saída 364,A-6 - Saída 366,Car,True,Ponferrada
+A-6 - Saída 366,A-6 - Saída 371-372,Car,False,AP-71 - León
+A-6 - Saída 366,A-6 - Saída 371-372,Car,False,Astorga
+A-6 - Saída 366,A-6 - Saída 371-372,Car,False,Madrid
+A-6 - Saída 366,A-6 - Saída 371-372,Car,True,A Coruña
+A-6 - Saída 366,A-6 - Saída 371-372,Car,True,Ponferrada
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
