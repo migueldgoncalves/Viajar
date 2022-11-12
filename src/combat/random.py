@@ -1,20 +1,23 @@
 import random
 
 
-class Aleatorio:
+class Random:
+    """
+    This class provides random numbers inside specific ranges, such as simulating throwing two dice
+    """
 
     @staticmethod
-    def um_dado():
-        return random.Random().randint(1, 6)
+    def throw_dice(dice_number: int) -> int:
+        if dice_number <= 0:
+            return 0
+        return random.Random().randint(1, dice_number * 6)
 
     @staticmethod
-    def dois_dados():
-        return random.Random().randint(1, 12)
+    def get_random_percentage() -> float:
+        return random.Random().randint(0, 100) * 0.01
 
     @staticmethod
-    def percentagem_aleatoria():
-        return random.Random().randint(0, 100)
-
-    @staticmethod
-    def numero_aleatorio(numero):
-        return random.Random().randint(1, numero)
+    def get_random_int(max_int: int) -> int:
+        if max_int <= 0:
+            return 0
+        return random.Random().randint(1, max_int)

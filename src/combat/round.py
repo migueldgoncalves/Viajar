@@ -64,7 +64,7 @@ class Ronda:
 
     @staticmethod
     def ataque(atacante, defensor, parte_corpo):
-        pontos_ataque_base = atacante.get_forca() * atacante.get_arma() * random.Aleatorio.dois_dados()
+        pontos_ataque_base = atacante.get_forca() * atacante.get_arma() * random.Random.throw_dice(2)
         ataque_perdido_dor = atacante.get_dor() * IMPACTO_DOR
         pontos_ataque_total = pontos_ataque_base - ataque_perdido_dor
 
@@ -77,7 +77,7 @@ class Ronda:
         print("TOTAL:", pontos_ataque_total)
         print("")
 
-        pontos_defesa_base = defensor.get_velocidade() * defensor.get_arma() * random.Aleatorio.dois_dados()
+        pontos_defesa_base = defensor.get_velocidade() * defensor.get_arma() * random.Random.throw_dice(2)
         if defensor.get_escudo():
             pontos_defesa_escudo = DEFESA_ESCUDO
         else:
@@ -180,7 +180,7 @@ class Ronda:
             if self.inimigo.get_saude_geral() <= 0:
                 print("Matou o seu inimigo")
                 exit()
-            self.ataque(self.inimigo, self.jogador, random.Aleatorio.numero_aleatorio(7))
+            self.ataque(self.inimigo, self.jogador, random.Random.get_random_int(7))
             if self.jogador.get_saude_geral() <= 0:
                 print("Morreu")
                 exit()

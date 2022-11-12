@@ -12,7 +12,7 @@ SAUDE_POR_DOR = 5  # Pontos de saúde que é preciso perder para se ganhar um po
 SAUDE_POR_FORCA = 4  # Pontos de saúde no braço dominante que é necessário perder para se perder 1 ponto de força
 SAUDE_POR_VELOCIDADE = 4  # Pontos de saúde nas pernas que é necessário perder para se perder 1 ponto de velocidade
 
-PROBABILIDADE_HEMORRAGIA = 2  # Num ataque, a probabilidade de hemorragia em % é este parâmetro vezes a saúde perdida
+PROBABILIDADE_HEMORRAGIA = 0.02  # Num ataque, a probabilidade de hemorragia é este parâmetro vezes a saúde perdida
 EXTENSAO_HEMORRAGIA = 0.05  # Em caso de ataque, os pontos de hemorragia ganhos são este parâmetro vezes a saúde perdida
 
 CABECA = "Cabeça"
@@ -179,7 +179,7 @@ class Combatente:
 
     def aumentar_hemorragia(self, saude_perdida):
         probabilidade_hemorragia = PROBABILIDADE_HEMORRAGIA * saude_perdida
-        if probabilidade_hemorragia <= random.Aleatorio.percentagem_aleatoria():
+        if probabilidade_hemorragia <= random.Random.get_random_percentage():
             aumento_hemorragia = round(saude_perdida * EXTENSAO_HEMORRAGIA)
             self.hemorragia += aumento_hemorragia
             if aumento_hemorragia == 1:
@@ -270,7 +270,7 @@ class Combatente:
 
     @staticmethod
     def gerador_parametros():
-        dados = random.Aleatorio.dois_dados() + random.Aleatorio.dois_dados()
+        dados = random.Random.throw_dice(4)
         if (dados % 2) == 0:
             return SAUDE_INICIAL + dados
         else:
