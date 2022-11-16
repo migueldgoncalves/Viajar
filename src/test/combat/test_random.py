@@ -56,3 +56,10 @@ class RandomTest(unittest.TestCase):
     def test_get_random_int_invalid_argument(self):
         self.assertEqual(0, Random.get_random_int(-1))
         self.assertEqual(0, Random.get_random_int(0))
+
+    def test_generate_parameter_centered_at_100(self):
+        for i in range(1000):
+            if Random.generate_parameter_centered_at_100() < (100 - 24):
+                self.fail("Value is too low")
+            if Random.generate_parameter_centered_at_100() > (100 + 24):
+                self.fail("Value is too high")

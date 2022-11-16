@@ -126,12 +126,12 @@ class Fighter:
             self.body_parts[body_part_name] = body_part
 
         if strength == 0:  # Not provided - Should be calculated randomly
-            self.initial_strength: int = self.generate_parameter_centered_at_100()
+            self.initial_strength: int = random.Random.generate_parameter_centered_at_100()
         else:
             self.initial_strength: int = strength
 
         if speed == 0:  # Not provided - Should be calculated randomly
-            self.initial_speed: int = self.generate_parameter_centered_at_100()
+            self.initial_speed: int = random.Random.generate_parameter_centered_at_100()
         else:
             self.initial_speed: int = speed
 
@@ -356,14 +356,3 @@ class Fighter:
 
         lost_health: int = round((enemy_attack_points - own_defense_points) * HEALTH_LOSS_PER_ATTACK_POWER)
         self.decrease_body_part_health(lost_health, body_part_id)
-
-    @staticmethod
-    def generate_parameter_centered_at_100() -> int:
-        """
-        Generates a random int for a parameter that should be around 100 - Strength and speed
-        """
-        dice: int = random.Random.throw_dice(4)
-        if (dice % 2) == 0:  # Even
-            return 100 + dice
-        else:  # Odd
-            return 100 - dice

@@ -21,3 +21,14 @@ class Random:
         if max_int <= 0:
             return 0
         return random.Random().randint(1, max_int)
+
+    @staticmethod
+    def generate_parameter_centered_at_100() -> int:
+        """
+        Generates a random int for a parameter that should be around 100 - Strength and speed
+        """
+        dice: int = Random.throw_dice(4)
+        if (dice % 2) == 0:  # Even
+            return 100 + dice
+        else:  # Odd
+            return 100 - dice

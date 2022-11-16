@@ -386,12 +386,5 @@ class TestFighter(unittest.TestCase):
             self.assertTrue(self.character.get_bleeding() > 0)
             self.assertEqual(15, self.character.get_pain())
 
-    def test_generate_parameter_centered_at_100(self):
-        for i in range(1000):
-            if fighter.Fighter.generate_parameter_centered_at_100() < (100 - 24):
-                self.fail("Value is too low")
-            if fighter.Fighter.generate_parameter_centered_at_100() > (100 + 24):
-                self.fail("Value is too high")
-
     def tearDown(self):
         self.character = None
