@@ -10,7 +10,7 @@ class Random:
     def throw_dice(dice_number: int) -> int:
         if dice_number <= 0:
             return 0
-        return random.Random().randint(1, dice_number * 6)
+        return random.Random().randint(dice_number, dice_number * 6)
 
     @staticmethod
     def get_random_percentage() -> float:

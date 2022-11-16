@@ -8,7 +8,7 @@ class RandomTest(unittest.TestCase):
     def test_throw_dice_successful(self):
         number_tries: int = 10000
         for dice_number in range(1, 100 + 1, 10):
-            minimum: int = 1
+            minimum: int = dice_number
             maximum: int = dice_number * 6
             values: list[int] = [i for i in range(minimum, maximum + 1)]
             for i in range(number_tries):
