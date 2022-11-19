@@ -304,12 +304,12 @@ class TestFighter(unittest.TestCase):
 
     def test_decrease_general_health(self):
         with self.assertRaises(AssertionError):
-            self.character.decrease_general_health(-1)
-        self.character.decrease_general_health(0)
+            self.character.decrease_general_health(-1, False)
+        self.character.decrease_general_health(0, True)
         self.assertEqual(100, self.character.get_general_health())
-        self.character.decrease_general_health(1)
+        self.character.decrease_general_health(1, False)
         self.assertEqual(99, self.character.get_general_health())
-        self.character.decrease_general_health(100)
+        self.character.decrease_general_health(100, True)
         self.assertEqual(0, self.character.get_general_health())
 
     def test_decrease_general_health_from_bleeding(self):

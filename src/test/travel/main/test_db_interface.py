@@ -136,7 +136,7 @@ class TestDBInterface(unittest.TestCase):
         # No destinations, multiple connections, multiple means of transport, no protected area, no comarca, no district
         location = self.db_interface.get_location_object('Aeroporto de Badajoz')
         self.assertEqual('Aeroporto de Badajoz', location.get_name())
-        self.assertEqual(9, len(list(location.get_connections())))
+        self.assertEqual(10, len(list(location.get_connections())))
         self.assertEqual((SOUTHWEST, 132.4, PLANE), location.get_connections()[('Aeroporto de Beja', PLANE)])
         self.assertEqual((SOUTHWEST, 5.9, CAR), location.get_connections()[('Villafranco del Guadiana', CAR)])
         self.assertEqual(0, len(list(location.get_destinations())))

@@ -1,7 +1,7 @@
 from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
 from travel.main import menu, travel
 from car import car_simulator
-from combat import round
+from combat import combat
 
 """
 Main - Execute to access all available scripts
@@ -63,7 +63,7 @@ elif user_option == OPTION_CAR:
     car_simulator.CarSimulator().travel(distance_to_travel=0, destination="")
 
 elif user_option == OPTION_COMBAT:
-    round.Ronda().ronda_loop()
+    combat.Combat().combat_loop()
 
 elif user_option == OPTION_GENERATOR:
     information_generator.GeradorInformacao(WAY_TO_PROCESS)

@@ -186,9 +186,9 @@ class Fighter:
         if attack_points < 0:  # Attack points should be >= 0
             attack_points = 0
 
-        print(f"Base attack points: {base_points}")
-        print(f"Attack points lost due to pain: {points_lost_from_pain}")
-        print(f"TOTAL: {attack_points}")
+        print(f"Base attack points: {base_points}; "
+              f"Attack points lost due to pain: {points_lost_from_pain}")
+        print(f"Total for {self.get_name()}: {attack_points}")
         print("")
 
         return attack_points
@@ -208,11 +208,14 @@ class Fighter:
         if defense_points < 0:  # Defense points should be >= 0
             defense_points = 0
 
-        print(f"Base defense points: {base_points}")
-        print(f"Defense points lost due to pain: {points_lost_from_pain}")
         if self.get_shield_usage():
-            print(f"Defense points gained from the shield: {SHIELD_DEFENSE}")
-        print(f"TOTAL: {defense_points}")
+            print(f"Base defense points: {base_points}; "
+                  f"Defense points lost due to pain: {points_lost_from_pain}; "
+                  f"Defense points gained from the shield: {SHIELD_DEFENSE}")
+        else:
+            print(f"Base defense points: {base_points}; "
+                  f"Defense points lost due to pain: {points_lost_from_pain}")
+        print(f"Total for {self.get_name()}: {defense_points}")
         print("")
 
         return defense_points
@@ -279,13 +282,14 @@ class Fighter:
 
         pain_increase: int = round(lost_health * PAIN_GAIN_PER_HEALTH_LOSS)
         if pain_increase == 0:  # Nothing to do
+            print(f'{self.get_name()} pain remained the same')
             return
 
         self.set_pain(self.get_pain() + pain_increase)
         if pain_increase == 1:
-            print("Pain increased 1 point")
+            print(f"{self.get_name()} pain increased 1 point")
         else:
-            print(f"Pain increased {pain_increase} points")
+            print(f"{self.get_name()} pain increased {pain_increase} points")
 
     def increase_bleeding(self, lost_health: int) -> None:
         """
@@ -298,31 +302,48 @@ class Fighter:
         if bleeding_chance > random.Random.get_random_percentage():  # Attack caused bleeding
             bleeding_increase: int = round(lost_health * BLEEDING_GAIN_PER_HEALTH_LOSS)
             if not bleeding_increase:  # Nothing to do
+                print(f'{self.get_name()} bleeding remained the same')
                 return
 
             self.set_bleeding(self.get_bleeding() + bleeding_increase)
             if bleeding_increase == 1:
-                print("Bleeding increased 1 point")
+                print(f"{self.get_name()} bleeding increased 1 point")
             else:
-                print(f"Bleeding increased {bleeding_increase} points")
+                print(f"{self.get_name()} bleeding increased {bleeding_increase} points")
 
-    def decrease_general_health(self, lost_health: float) -> None:
+    def decrease_general_health(self, lost_health: float, from_bleeding: bool) -> None:
+        """
+        Decreases the general health. Health for individual body parts is kept intact
+        :param lost_health: How many health points are to be lost
+        :param from_bleeding: If True, health loss is from bleeding. If False, it is from other cause, for example from the attack itself
+        :return: None
+        """
         assert lost_health >= 0
 
         lost_health = round(lost_health)
         if not lost_health or not self.general_health:  # Nothing to do
+            if from_bleeding:
+                print(f'{self.get_name()} lost no general health from bleeding')
+            else:
+                print(f'{self.get_name()} lost no general health')
             return
         elif lost_health > self.general_health:  # Prevents health from decreasing under 0
             lost_health = self.general_health
 
         self.set_general_health(self.get_general_health() - lost_health)
         if lost_health == 1:
-            print("General health lost 1 point")
+            if from_bleeding:
+                print(f"{self.get_name()} general health lost 1 point from bleeding")
+            else:
+                print(f"{self.get_name()} general health lost 1 point")
         else:
-            print(f"General health lost {lost_health} points")
+            if from_bleeding:
+                print(f"{self.get_name()} general health lost {lost_health} points from bleeding")
+            else:
+                print(f"{self.get_name()} general health lost {lost_health} points")
 
     def decrease_general_health_from_bleeding(self):
-        self.decrease_general_health(round(self.bleeding * HEALTH_LOSS_PER_BLEEDING))
+        self.decrease_general_health(round(self.bleeding * HEALTH_LOSS_PER_BLEEDING), from_bleeding=True)
 
     def decrease_body_part_health(self, lost_health: int, identifier: Union[str, int]) -> None:
         """
@@ -333,18 +354,19 @@ class Fighter:
 
         body_part: BodyPart = self._get_body_part(identifier)
         if not lost_health or not self.get_body_part_health(identifier):  # Nothing to do
+            print(f'{self.get_name()} {body_part.name.lower()} lost no health')
             return
         elif lost_health > body_part.health:  # Prevents health from decreasing under 0
             lost_health = body_part.health
 
         body_part.health -= lost_health
-        self.decrease_general_health(lost_health * body_part.impact_in_general_health)
+        self.decrease_general_health(lost_health * body_part.impact_in_general_health, from_bleeding=False)
         self.increase_pain(lost_health)
         self.increase_bleeding(lost_health)
         if lost_health == 1:
-            print(f"{body_part.name} lost 1 health point")
+            print(f"{self.get_name()} {body_part.name.lower()} lost 1 health point")
         else:
-            print(f"{body_part.name} lost {lost_health} health points")
+            print(f"{self.get_name()} {body_part.name.lower()} lost {lost_health} health points")
 
     def decrease_body_part_health_from_attack(self, enemy_attack_points: int, own_defense_points: int, body_part_id: Union[str, int]) -> None:
         assert enemy_attack_points >= 0
