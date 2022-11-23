@@ -9,7 +9,7 @@ import travel.support.sorter as ordenador
 import travel.support.haversine as haversine
 import travel.support.distance_calculator as calculadora_distancias
 import travel.support.osm_interface as osm_interface
-from travel.support.coordinate import Coordenada
+from travel.support.coordinate import Coordinate
 from travel.main import paths_and_files
 
 
@@ -170,7 +170,7 @@ class GeradorInformacao:
         print(f'A iniciar processamento da {self.via_identificador}...')
         print("################\n")
 
-        saidas_estacoes_coordenadas: dict[str, Coordenada] = self.get_saidas_estacoes()
+        saidas_estacoes_coordenadas: dict[str, Coordinate] = self.get_saidas_estacoes()
         saidas_estacoes_ordenadas: list[str] = list(saidas_estacoes_coordenadas.keys())
         saidas_estacoes_ordenadas.sort()
 
@@ -212,12 +212,12 @@ class GeradorInformacao:
             comarcas: set[str] = set()
 
             divisoes_pretendidas: list[int] = [osm_interface.PROVINCIA, osm_interface.COMARCA, osm_interface.MUNICIPIO, osm_interface.DISTRITO_ES]
-            divisoes_saidas_estacoes: dict[Coordenada, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
+            divisoes_saidas_estacoes: dict[Coordinate, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
             with open(self.local_espanha_path.path, 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
-                    ponto: Coordenada = saidas_estacoes_coordenadas[saida_ou_estacao]
+                    ponto: Coordinate = saidas_estacoes_coordenadas[saida_ou_estacao]
 
                     municipio: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.MUNICIPIO, "")
                     provincia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PROVINCIA, "")
@@ -267,12 +267,12 @@ class GeradorInformacao:
 
             divisoes_pretendidas: list[Union[str, int]] = [
                 osm_interface.DISTRITO_PT, osm_interface.CONCELHO, osm_interface.FREGUESIA, osm_interface.FREGUESIA_HISTORICA]
-            divisoes_saidas_estacoes:  dict[Coordenada, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
+            divisoes_saidas_estacoes:  dict[Coordinate, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
             with open(self.local_portugal_path.path, 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
-                    ponto: Coordenada = saidas_estacoes_coordenadas[saida_ou_estacao]
+                    ponto: Coordinate = saidas_estacoes_coordenadas[saida_ou_estacao]
 
                     freguesia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.FREGUESIA_HISTORICA, "")  # Antiga freguesia, se existir
                     if not freguesia:
@@ -325,7 +325,7 @@ class GeradorInformacao:
             conteudo = list(reversed(conteudo))
 
         # Gerar mapa para depois com ele se calcularem as distâncias
-        todas_coordenadas: list[Coordenada] = []
+        todas_coordenadas: list[Coordinate] = []
         for idx, local in enumerate(conteudo):
             if idx <= len(conteudo) - 2:  # Índice não é o do último elemento
                 linha_a: str = conteudo[idx]
@@ -340,10 +340,10 @@ class GeradorInformacao:
 
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
                 latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
-                if not Coordenada(latitude_a, longitude_a) in todas_coordenadas:
-                    todas_coordenadas.append(Coordenada(latitude_a, longitude_a))
-                if not Coordenada(latitude_b, longitude_b) in todas_coordenadas:
-                    todas_coordenadas.append(Coordenada(latitude_b, longitude_b))
+                if not Coordinate(latitude_a, longitude_a) in todas_coordenadas:
+                    todas_coordenadas.append(Coordinate(latitude_a, longitude_a))
+                if not Coordinate(latitude_b, longitude_b) in todas_coordenadas:
+                    todas_coordenadas.append(Coordinate(latitude_b, longitude_b))
 
         # Mostrar via a cobrir num gráfico
         latitudes = [coordenadas.latitude for coordenadas in todas_coordenadas]
@@ -407,7 +407,7 @@ class GeradorInformacao:
                 ordem_b = 1
 
                 distancia: float = calc_dist.calcular_distancia_com_ajustes(
-                    Coordenada(latitude_a, longitude_a), Coordenada(latitude_b, longitude_b))
+                    Coordinate(latitude_a, longitude_a), Coordinate(latitude_b, longitude_b))
                 if distancia == calculadora_distancias.DISTANCIA_INFINITA:
                     print("Não foi possível calcular distância - Continuando...")
                     distancia = 0.0
@@ -444,14 +444,14 @@ class GeradorInformacao:
             print(str(e))
             return 0
 
-    def get_divisoes_administrativas(self, locais: list[Coordenada], divisoes_pretendidas: list[Union[str, int]]
-                                     ) -> dict[Coordenada, dict[Union[str, int], Optional[str]]]:
+    def get_divisoes_administrativas(self, locais: list[Coordinate], divisoes_pretendidas: list[Union[str, int]]
+                                     ) -> dict[Coordinate, dict[Union[str, int], Optional[str]]]:
         """
         Dado uma lista de coordenadas, retorna dicionário com, para cada local, os nomes das divisões administrativas pretendidas
         """
         print("A obter divisões administrativas...")
 
-        divisoes_admins_por_pontos: dict[Coordenada, dict[Union[str, int], Optional[str]]] = {}
+        divisoes_admins_por_pontos: dict[Coordinate, dict[Union[str, int], Optional[str]]] = {}
         for coordenadas in locais:
             divisoes_admins_de_ponto: dict[Union[str, int], Optional[str]] = {}
 
@@ -473,17 +473,17 @@ class GeradorInformacao:
         print("Divisões administrativas obtidas\n")
         return divisoes_admins_por_pontos
 
-    def get_saidas_estacoes(self) -> dict[str, Coordenada]:
+    def get_saidas_estacoes(self) -> dict[str, Coordinate]:
         if self.via_tipo == VIA_FERROVIA:
             print("A obter nós correspondentes a estações...")
         else:
             print("A obter nós correspondentes a saídas...")
 
         if self.via_tipo == VIA_FERROVIA:
-            saidas_estacoes_temp: dict[str, list[Coordenada]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
+            saidas_estacoes_temp: dict[str, list[Coordinate]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
                 self.via_nome, self.pais)
         else:
-            saidas_estacoes_temp: dict[str, list[Coordenada]] = osm_interface.OsmInterface.obter_saidas_de_estrada(
+            saidas_estacoes_temp: dict[str, list[Coordinate]] = osm_interface.OsmInterface.obter_saidas_de_estrada(
                 self.via_nome, self.pais)
 
         if len(saidas_estacoes_temp) == 0:
@@ -497,7 +497,7 @@ class GeradorInformacao:
                 print(f'Pode também ser uma auto-estrada sem números de saída no OpenStreetMap')
             exit(0)
 
-        saidas_ou_estacoes: dict[str, Coordenada] = {}  # Contém apenas o "centro" de cada estação ou saída
+        saidas_ou_estacoes: dict[str, Coordinate] = {}  # Contém apenas o "centro" de cada estação ou saída
         for saida_ou_estacao in saidas_estacoes_temp:
             latitude = 0.0
             longitude = 0.0
@@ -506,7 +506,7 @@ class GeradorInformacao:
                 longitude += ponto.get_longitude()
             latitude = round(latitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDENADAS_CASAS_DECIMAIS)
             longitude = round(longitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDENADAS_CASAS_DECIMAIS)
-            saidas_ou_estacoes[saida_ou_estacao] = Coordenada(latitude, longitude)
+            saidas_ou_estacoes[saida_ou_estacao] = Coordinate(latitude, longitude)
 
         if self.via_tipo == VIA_FERROVIA:
             print("Coordenadas de estações obtidas\n")

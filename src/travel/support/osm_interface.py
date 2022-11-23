@@ -3,7 +3,7 @@ import requests
 from xml.dom import minidom
 
 import travel.support.ways as vias
-from travel.support.coordinate import Coordenada
+from travel.support.coordinate import Coordinate
 
 # Servidores
 IP_DOCKER = '127.0.0.1'
@@ -67,14 +67,14 @@ class PontosExtremos:
     Classe para guardar pontos extremos de uma região
     """
     def __init__(self, nome: str, nivel_administrativo: int, pais: str,
-                 norte: Coordenada, sul: Coordenada, este: Coordenada, oeste: Coordenada):
+                 norte: Coordinate, sul: Coordinate, este: Coordinate, oeste: Coordinate):
         self.nome: str = nome
         self.nivel_administrativo: int = nivel_administrativo
         self.pais: str = pais
-        self.norte: Coordenada = norte
-        self.sul: Coordenada = sul
-        self.este: Coordenada = este
-        self.oeste: Coordenada = oeste
+        self.norte: Coordinate = norte
+        self.sul: Coordinate = sul
+        self.este: Coordinate = este
+        self.oeste: Coordinate = oeste
 
     def __str__(self):
         return f'Nome: {self.nome}\n' \
@@ -130,7 +130,7 @@ class OsmInterface:
         return True
 
     @staticmethod
-    def obter_divisoes_administrativas_de_ponto(coordenadas: Coordenada, pais: str = None) -> dict[Union[str, int], str]:
+    def obter_divisoes_administrativas_de_ponto(coordenadas: Coordinate, pais: str = None) -> dict[Union[str, int], str]:
         """
         A maior parte das divisões administrativas encontradas terão um número como identificador (entre 1 e 11), mas
             também poderão ter uma string como identificador (ex: historic_parish - Antiga freguesia portuguesa)
@@ -169,7 +169,7 @@ class OsmInterface:
         return dict(sorted(resposta.items(), key=lambda item: str(item[0])))  # Ordena resposta pela chave
 
     @staticmethod
-    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordenada]]:
+    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordinate]]:
         """
         Dado o nome de uma estrada e o respectivo país, retorna as saídas e respectivas coordenadas
         Destina-se sobretudo a auto-estradas e vias rápidas
@@ -190,7 +190,7 @@ class OsmInterface:
         resposta = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'node':
-                coordenadas: Coordenada = Coordenada(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                coordenadas: Coordinate = Coordinate(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
                 saida_id: Optional[str] = None
                 for n in no.childNodes:
                     if n.nodeName == 'tag':
@@ -209,7 +209,7 @@ class OsmInterface:
         return dict(sorted(resposta.items(), key=lambda item: item[0]))  # Ordena resposta pelo identificador da saída
 
     @staticmethod
-    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordenada]]:
+    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordinate]]:
         """
         Dado o nome de uma linha ferroviária e o respectivo país, retorna as estações e respectivas coordenadas
         """
@@ -229,7 +229,7 @@ class OsmInterface:
         resposta = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'node':
-                coordenadas: Coordenada = Coordenada(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                coordenadas: Coordinate = Coordinate(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
                 estacao: Optional[str] = None
                 for n in no.childNodes:
                     if n.nodeName == 'tag':
@@ -248,7 +248,7 @@ class OsmInterface:
         return resposta
 
     @staticmethod
-    def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordenada], via_tipo: str, detalhe: int,
+    def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinate], via_tipo: str, detalhe: int,
                                                pais: str) -> tuple[dict[int, Node], dict[int, Via], list[float]]:
         """
         Retorna objectos Node e Via para uso no cálculo de distâncias dentro de uma determinada área rectangular
@@ -371,7 +371,7 @@ class OsmInterface:
         return lista_nos, lista_vias
 
     @staticmethod
-    def detectar_pais_por_coordenadas(coordenadas: Coordenada) -> Optional[str]:
+    def detectar_pais_por_coordenadas(coordenadas: Coordinate) -> Optional[str]:
         """
         Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
         :return: Nome do país se for possível determinar, None caso contrário
@@ -411,10 +411,10 @@ class OsmInterface:
             print("Nenhum resultado obtido")
             return None
 
-        max_norte: Coordenada = Coordenada(-90.0, 0.0)
-        max_sul: Coordenada = Coordenada(90.0, 0.0)
-        max_oeste: Coordenada = Coordenada(0.0, 180.0)
-        max_este: Coordenada = Coordenada(0.0, -180.0)
+        max_norte: Coordinate = Coordinate(-90.0, 0.0)
+        max_sul: Coordinate = Coordinate(90.0, 0.0)
+        max_oeste: Coordinate = Coordinate(0.0, 180.0)
+        max_este: Coordinate = Coordinate(0.0, -180.0)
         for no in raw_result.childNodes:
             if no.nodeName == 'relation' and no.hasAttribute('id'):  # Região pretendida
                 for n2 in no.childNodes:
