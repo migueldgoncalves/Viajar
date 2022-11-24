@@ -2,88 +2,101 @@ from typing import Optional, Union
 import requests
 from xml.dom import minidom
 
-import travel.support.ways as vias
+from travel.support import ways
 from travel.support.coordinate import Coordinate
 
-# Servidores
-IP_DOCKER = '127.0.0.1'
-ESPANHA_GIBRALTAR_PORTO = 12345
-PORTUGAL_PORTO = 12346
-ANDORRA_PORTO = 12347
+# Servers
+DOCKER_IP = '127.0.0.1'  # Localhost
+PORT_GIBRALTAR_SPAIN = 12345  # Same Docker instance contains maps of Spain and Gibraltar
+PORT_PORTUGAL = 12346
+PORT_ANDORRA = 12347
 
 ##############################
-# Constantes do OpenStreetMap
+# OpenStreetMap constants
 ##############################
 
-# Níveis administrativos do OpenStreetMap
+# OpenStreetMap administrative levels
 
-# Geral
-PAIS = 2
+# General
+COUNTRY = 2  # Applies to countries. Gibraltar and its waters are covered by a level-2 relation as well
 
 # Andorra
-PAROQUIA = 7
+ANDORRAN_PARISH = 7  # In Catalan, "parròquia"
 
-# Espanha
-COMUNIDADE_AUTONOMA = 4
-PROVINCIA = 6
+# Spain
+AUTONOMOUS_COMMUNITY = 4
+PROVINCE = 6
 COMARCA = 7
-MUNICIPIO = 8
-DISTRITO_ES = 9
+SPANISH_MUNICIPALITY = 8  # In Spanish, "municipio"
+SPANISH_DISTRICT = 9  # In Spanish, "distrito"
 
 # Gibraltar
-GIBRALTAR_NIVEL_ADMIN = 4
+GIBRALTAR_ADMIN_LEVEL = 4  # Covers the territory of Gibraltar. The sum of Gibraltar territory and waters is covered by a level-2 relation
 
 # Portugal
-REGIAO_AUTONOMA = 4
-DISTRITO_PT = 6
-CONCELHO = 7
-FREGUESIA = 8
-FREGUESIA_HISTORICA = 'historic_parish'
+AUTONOMOUS_REGION = 4  # Azores and Madeira
+PORTUGUESE_DISTRICT = 6  # In Portuguese, "distrito", same as in Spanish
+PORTUGUESE_MUNICIPALITY = 7  # In Portuguese, "concelho"
+PORTUGUESE_PARISH = 8  # In Portuguese, "freguesia"
+PORTUGUESE_HISTORIC_PARISH = 'historic_parish'  # Former Portuguese parishes (pre-2013), in the past were associated with level 9
 
 ##############################
 
-VIA_FERROVIA = vias.VIA_FERROVIA
-VIA_ESTRADA = vias.VIA_ESTRADA
+RAILWAY = ways.VIA_FERROVIA
+ROAD = ways.VIA_ESTRADA
 
-NIVEL_DETALHE_INTERCIDADES = 1
-NIVEL_DETALHE_URBANO = 2
+# Detail levels allow to balance between the accuracy of the results and the time spent calculating them
+DETAIL_LEVEL_INTERCITY = 1
+DETAIL_LEVEL_URBAN = 2
 
-MARGEM_RECTANGULO_DISTANCIAS = 0.1  # 1 grau = muito aproximadamente 100 km na Península Ibérica
+DISTANCE_RECTANGLE_MARGIN = 0.1  # Degrees. 1 degree = Very approximately 100 km in the Iberian Peninsula
 
-# Estradas e caminhos com tags não incluídas nesta lista não costumam ser usadas no âmbito deste projecto
-# Referência: https://wiki.openstreetmap.org/wiki/Key:highway
-TAGS_ESTRADAS_PRETENDIDAS = {
-    NIVEL_DETALHE_INTERCIDADES: [
-        'motorway', 'trunk', 'primary', 'secondary', 'motorway_link', 'trunk_link', 'primary_link', 'secondary_link',
-        'motorway_junction'],
-    NIVEL_DETALHE_URBANO: [
-        'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential', 'motorway_link',
-        'trunk_link', 'primary_link', 'secondary_link', 'tertiary_link', 'living_street', 'service', 'motorway_junction'],
+# Some or all of the most relevant road and path types are expected to be present below
+# Reference: https://wiki.openstreetmap.org/wiki/Key:highway
+TAGS_DETAIL_LEVEL_INTERCITY = [
+    'motorway', 'trunk', 'primary', 'secondary', 'motorway_link', 'trunk_link', 'primary_link', 'secondary_link',
+    'motorway_junction',
+]
+TAGS_DETAIL_LEVEL_URBAN = TAGS_DETAIL_LEVEL_INTERCITY + [
+    'tertiary', 'unclassified', 'residential', 'tertiary_link', 'living_street', 'service',
+]
+TAGS_DESIRED_ROADS = {
+    DETAIL_LEVEL_INTERCITY: TAGS_DETAIL_LEVEL_INTERCITY,
+    DETAIL_LEVEL_URBAN: TAGS_DETAIL_LEVEL_URBAN,
 }
 
 
-class PontosExtremos:
+class ExtremePoints:
     """
-    Classe para guardar pontos extremos de uma região
+    Data access object to store the extreme points of a region
     """
-    def __init__(self, nome: str, nivel_administrativo: int, pais: str,
-                 norte: Coordinate, sul: Coordinate, este: Coordinate, oeste: Coordinate):
-        self.nome: str = nome
-        self.nivel_administrativo: int = nivel_administrativo
-        self.pais: str = pais
-        self.norte: Coordinate = norte
-        self.sul: Coordinate = sul
-        self.este: Coordinate = este
-        self.oeste: Coordinate = oeste
+    def __init__(self, name: str, admin_level: int, country: str,
+                 north: Coordinate, south: Coordinate, east: Coordinate, west: Coordinate):
+        assert name
+        assert admin_level >= COUNTRY
+        assert country in [ways.PORTUGAL, ways.ANDORRA, ways.ESPANHA, ways.GIBRALTAR]
+        assert north
+        assert south
+        assert east
+        assert west
+        assert len({north, south, east, west}) == 4  # No coordinates should be repeated
+
+        self.name: str = name
+        self.admin_level: int = admin_level
+        self.country: str = country
+        self.north: Coordinate = north
+        self.south: Coordinate = south
+        self.east: Coordinate = east
+        self.west: Coordinate = west
 
     def __str__(self):
-        return f'Nome: {self.nome}\n' \
-               f'Nível administrativo: {self.nivel_administrativo}\n' \
-               f'País: {self.pais}\n' \
-               f'Norte: {self.norte}\n' \
-               f'Sul: {self.sul}\n' \
-               f'Este: {self.este}\n' \
-               f'Oeste: {self.oeste}'
+        return f'Name: {self.name}\n' \
+               f'Administrative level: {self.admin_level}\n' \
+               f'Country: {self.country}\n' \
+               f'North: {self.north}\n' \
+               f'South: {self.south}\n' \
+               f'East: {self.east}\n' \
+               f'West: {self.west}'
 
 
 class Node:
@@ -114,7 +127,7 @@ class OsmInterface:
         Retorna True se se conseguiu estabelecer ligação com todos os servidores, False caso contrário
         """
         try:
-            for pais in [vias.PORTUGAL, vias.ESPANHA, vias.ANDORRA]:
+            for pais in [ways.PORTUGAL, ways.ESPANHA, ways.ANDORRA]:
                 url_servidor: str = OsmInterface._obter_url_servidor(pais)
                 query = "out;"
 
@@ -258,7 +271,7 @@ class OsmInterface:
         :param pais: País da área a cobrir. Determina o servidor ao qual se farão pedidos
         :return Lista de objectos Node, lista de objecto Via, e extremos da área a cobrir
         """
-        tags: list[str] = TAGS_ESTRADAS_PRETENDIDAS[detalhe]
+        tags: list[str] = TAGS_DESIRED_ROADS[detalhe]
 
         min_latitude: float = 90.0
         max_latitude: float = -90.0
@@ -279,14 +292,14 @@ class OsmInterface:
                 max_longitude = longitude
 
         # Acrescenta a margem ao rectângulo, em graus decimais
-        min_latitude -= MARGEM_RECTANGULO_DISTANCIAS
-        max_latitude += MARGEM_RECTANGULO_DISTANCIAS
-        min_longitude -= MARGEM_RECTANGULO_DISTANCIAS
-        max_longitude += MARGEM_RECTANGULO_DISTANCIAS
+        min_latitude -= DISTANCE_RECTANGLE_MARGIN
+        max_latitude += DISTANCE_RECTANGLE_MARGIN
+        min_longitude -= DISTANCE_RECTANGLE_MARGIN
+        max_longitude += DISTANCE_RECTANGLE_MARGIN
 
         area_extremos: list[float] = [min_latitude, max_latitude, min_longitude, max_longitude]
 
-        if via_tipo == VIA_ESTRADA:  # Todas as estradas marcadas com as tags pretendidas na área pretendida
+        if via_tipo == ROAD:  # Todas as estradas marcadas com as tags pretendidas na área pretendida
             query = f'[bbox:{min_latitude},{min_longitude},{max_latitude},{max_longitude}];' \
                     '('
             for tag in tags:
@@ -297,7 +310,7 @@ class OsmInterface:
                 query += f'way[highway={tag}];'
             query += ');' \
                      'out geom;'
-        elif via_tipo == VIA_FERROVIA:  # Todas as linhas ferroviárias na área pretendida
+        elif via_tipo == RAILWAY:  # Todas as linhas ferroviárias na área pretendida
             query = 'rel[railway]->.r1;' \
                     '(way(r.r1);' \
                     'way[railway];);' \
@@ -376,32 +389,32 @@ class OsmInterface:
         Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
         :return: Nome do país se for possível determinar, None caso contrário
         """
-        for pais_servidor in [vias.PORTUGAL, vias.ESPANHA, vias.ANDORRA]:
+        for pais_servidor in [ways.PORTUGAL, ways.ESPANHA, ways.ANDORRA]:
             divisoes: dict[Union[str, int], str] = OsmInterface.obter_divisoes_administrativas_de_ponto(coordenadas, pais_servidor)
 
-            if divisoes.get(PAIS):  # Espera-se que cubra Portugal, Andorra e Gibraltar
-                pais = divisoes[PAIS]
+            if divisoes.get(COUNTRY):  # Espera-se que cubra Portugal, Andorra e Gibraltar
+                pais = divisoes[COUNTRY]
                 if pais == 'Portugal':
-                    return vias.PORTUGAL
+                    return ways.PORTUGAL
                 elif pais == 'Andorra':
-                    return vias.ANDORRA
+                    return ways.ANDORRA
                 elif pais == 'Gibraltar':
-                    return vias.GIBRALTAR
+                    return ways.GIBRALTAR
                 elif pais == 'Spain':
-                    return vias.ESPANHA
+                    return ways.ESPANHA
                 else:  # País não coberto
                     return None
 
-            elif divisoes.get(COMUNIDADE_AUTONOMA):  # Espera-se que cubra Espanha
-                comunidade_autonoma = divisoes[COMUNIDADE_AUTONOMA]
+            elif divisoes.get(AUTONOMOUS_COMMUNITY):  # Espera-se que cubra Espanha
+                comunidade_autonoma = divisoes[AUTONOMOUS_COMMUNITY]
 
                 if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
-                    return vias.ESPANHA
+                    return ways.ESPANHA
         else:
             return None
 
     @staticmethod
-    def obter_pontos_extremos_regiao(nome: str, nivel_administrativo: int, pais: str) -> Optional[PontosExtremos]:
+    def obter_pontos_extremos_regiao(nome: str, nivel_administrativo: int, pais: str) -> Optional[ExtremePoints]:
         # Freguesias históricas portuguesas não têm nível associado
         query = f'rel[name="{nome}"][admin_level="{nivel_administrativo}"];' \
                 'out geom;'
@@ -452,7 +465,7 @@ class OsmInterface:
                                     max_oeste.set_latitude(lat)
                                     max_oeste.set_longitude(lon)
 
-        pontos_extremos = PontosExtremos(nome, nivel_administrativo, pais, max_norte, max_sul, max_este, max_oeste)
+        pontos_extremos = ExtremePoints(nome, nivel_administrativo, pais, max_norte, max_sul, max_este, max_oeste)
         return pontos_extremos
 
     @staticmethod
@@ -481,16 +494,16 @@ class OsmInterface:
 
     @staticmethod
     def _obter_url_servidor(pais: str) -> Optional[str]:
-        if pais == vias.ESPANHA:  # Os mapas de Espanha e de Gibraltar estão no mesmo servidor
-            porto = ESPANHA_GIBRALTAR_PORTO
-        elif pais == vias.PORTUGAL:
-            porto = PORTUGAL_PORTO
-        elif pais == vias.ANDORRA:
-            porto = ANDORRA_PORTO
-        elif pais == vias.GIBRALTAR:
-            porto = ESPANHA_GIBRALTAR_PORTO
+        if pais == ways.ESPANHA:  # Os mapas de Espanha e de Gibraltar estão no mesmo servidor
+            porto = PORT_GIBRALTAR_SPAIN
+        elif pais == ways.PORTUGAL:
+            porto = PORT_PORTUGAL
+        elif pais == ways.ANDORRA:
+            porto = PORT_ANDORRA
+        elif pais == ways.GIBRALTAR:
+            porto = PORT_GIBRALTAR_SPAIN
         else:  # País não coberto
             return None
 
-        url_servidor = f'http://{IP_DOCKER}:{porto}/api/interpreter'  # Usar https se o servidor não for local
+        url_servidor = f'http://{DOCKER_IP}:{porto}/api/interpreter'  # Usar https se o servidor não for local
         return url_servidor

@@ -70,10 +70,10 @@ def obter_pontos_extremos():
         # Escolher região
 
         if pais == ways.GIBRALTAR:  # Não tem subdivisões, calcular extremos do território de Gibraltar
-            imprimir_pontos_extremos_e_sair("Gibraltar", osm_interface.GIBRALTAR_NIVEL_ADMIN, pais)
+            imprimir_pontos_extremos_e_sair("Gibraltar", osm_interface.GIBRALTAR_ADMIN_LEVEL, pais)
 
         elif pais == ways.ANDORRA:
-            print(f'{SAIR} - Sair, {osm_interface.PAIS} - País inteiro, {osm_interface.PAROQUIA} - Paróquia')
+            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País inteiro, {osm_interface.ANDORRAN_PARISH} - Paróquia')
             while True:
                 try:
                     opcao = int(input("Indique o tipo de região pretendido: "))
@@ -83,12 +83,12 @@ def obter_pontos_extremos():
                 if opcao == SAIR:
                     sair_por_opcao()
 
-                elif opcao == osm_interface.PAIS:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.PAIS
+                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
+                    nivel_regiao = osm_interface.COUNTRY
                     imprimir_pontos_extremos_e_sair("Andorra", nivel_regiao, pais)
 
-                elif opcao == osm_interface.PAROQUIA:
-                    nivel_regiao = osm_interface.PAROQUIA
+                elif opcao == osm_interface.ANDORRAN_PARISH:
+                    nivel_regiao = osm_interface.ANDORRAN_PARISH
 
                     nome_regiao = input("Indique o nome da paróquia: ").strip()
                     if not nome_regiao:
@@ -96,9 +96,9 @@ def obter_pontos_extremos():
                     imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
 
         elif pais == ways.ESPANHA:
-            print(f'{SAIR} - Sair, {osm_interface.PAIS} - País, {osm_interface.COMUNIDADE_AUTONOMA} - Comunidade Autónoma, '
-                  f'{osm_interface.PROVINCIA} - Província, {osm_interface.COMARCA} - Comarca, {osm_interface.MUNICIPIO} - Município, '
-                  f'{osm_interface.DISTRITO_ES} - Distrito')
+            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País, {osm_interface.AUTONOMOUS_COMMUNITY} - Comunidade Autónoma, '
+                  f'{osm_interface.PROVINCE} - Província, {osm_interface.COMARCA} - Comarca, {osm_interface.SPANISH_MUNICIPALITY} - Município, '
+                  f'{osm_interface.SPANISH_DISTRICT} - Distrito')
 
             while True:
                 try:
@@ -109,12 +109,12 @@ def obter_pontos_extremos():
                 if opcao == SAIR:
                     sair_por_opcao()
 
-                elif opcao == osm_interface.PAIS:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.PAIS
+                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
+                    nivel_regiao = osm_interface.COUNTRY
                     imprimir_pontos_extremos_e_sair("España", nivel_regiao, pais)
 
-                elif opcao in [osm_interface.COMUNIDADE_AUTONOMA, osm_interface.PROVINCIA, osm_interface.COMARCA,
-                               osm_interface.MUNICIPIO, osm_interface.DISTRITO_ES]:
+                elif opcao in [osm_interface.AUTONOMOUS_COMMUNITY, osm_interface.PROVINCE, osm_interface.COMARCA,
+                               osm_interface.SPANISH_MUNICIPALITY, osm_interface.SPANISH_DISTRICT]:
                     nivel_regiao = opcao
 
                     nome_regiao = input("Indique o nome da região: ").strip()
@@ -123,8 +123,8 @@ def obter_pontos_extremos():
                     imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
 
         elif pais == ways.PORTUGAL:
-            print(f'{SAIR} - Sair, {osm_interface.PAIS} - País, {osm_interface.DISTRITO_PT} - Distrito, '
-                  f'{osm_interface.CONCELHO} - Concelho, {osm_interface.FREGUESIA} - Freguesia')
+            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País, {osm_interface.PORTUGUESE_DISTRICT} - Distrito, '
+                  f'{osm_interface.PORTUGUESE_MUNICIPALITY} - Concelho, {osm_interface.PORTUGUESE_PARISH} - Freguesia')
 
             while True:
                 try:
@@ -135,11 +135,11 @@ def obter_pontos_extremos():
                 if opcao == SAIR:
                     sair_por_opcao()
 
-                elif opcao == osm_interface.PAIS:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.PAIS
+                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
+                    nivel_regiao = osm_interface.COUNTRY
                     imprimir_pontos_extremos_e_sair("Portugal", nivel_regiao, pais)
 
-                elif opcao in [osm_interface.DISTRITO_PT, osm_interface.CONCELHO, osm_interface.FREGUESIA]:
+                elif opcao in [osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH]:
                     nivel_regiao = opcao
 
                     nome_regiao = input("Indique o nome da região: ").strip()

@@ -66,8 +66,8 @@ class CalculadoraDistancias:
                 haversine.obter_distancia_haversine((min_latitude, min_longitude), (min_latitude, max_longitude)), 1)
             print(f"A área de interesse tem {distancia_norte_sul} km norte-sul e {distancia_este_oeste} km este-oeste")
 
-            if detalhe_area == osm_interface.NIVEL_DETALHE_INTERCIDADES and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_INTERCIDADES ** 2 or \
-                    detalhe_area == osm_interface.NIVEL_DETALHE_URBANO and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_URBANA ** 2:
+            if detalhe_area == osm_interface.DETAIL_LEVEL_INTERCITY and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_INTERCIDADES ** 2 or \
+                    detalhe_area == osm_interface.DETAIL_LEVEL_URBAN and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_URBANA ** 2:
                 print("Aviso: A área a cobrir é muito grande - Esta operação poderá ser muito demorada")
 
             # Assim que se receber os nós circundantes, haverá toda a informação para se correr o algoritmo de Dijkstra

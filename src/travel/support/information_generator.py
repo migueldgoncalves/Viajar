@@ -211,7 +211,7 @@ class GeradorInformacao:
             municipios: set[str] = set()
             comarcas: set[str] = set()
 
-            divisoes_pretendidas: list[int] = [osm_interface.PROVINCIA, osm_interface.COMARCA, osm_interface.MUNICIPIO, osm_interface.DISTRITO_ES]
+            divisoes_pretendidas: list[int] = [osm_interface.PROVINCE, osm_interface.COMARCA, osm_interface.SPANISH_MUNICIPALITY, osm_interface.SPANISH_DISTRICT]
             divisoes_saidas_estacoes: dict[Coordinate, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
@@ -219,10 +219,10 @@ class GeradorInformacao:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordinate = saidas_estacoes_coordenadas[saida_ou_estacao]
 
-                    municipio: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.MUNICIPIO, "")
-                    provincia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PROVINCIA, "")
+                    municipio: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.SPANISH_MUNICIPALITY, "")
+                    provincia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PROVINCE, "")
                     comarca: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.COMARCA, '')  # Nem sempre está disponível
-                    distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.DISTRITO_ES, '')  # Só disponível nas grandes cidades
+                    distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.SPANISH_DISTRICT, '')  # Só disponível nas grandes cidades
 
                     if self.via_tipo == VIA_FERROVIA:
                         if distrito_es:
@@ -266,7 +266,7 @@ class GeradorInformacao:
             concelhos: set[str] = set()
 
             divisoes_pretendidas: list[Union[str, int]] = [
-                osm_interface.DISTRITO_PT, osm_interface.CONCELHO, osm_interface.FREGUESIA, osm_interface.FREGUESIA_HISTORICA]
+                osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH, osm_interface.PORTUGUESE_HISTORIC_PARISH]
             divisoes_saidas_estacoes:  dict[Coordinate, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
@@ -274,11 +274,11 @@ class GeradorInformacao:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordinate = saidas_estacoes_coordenadas[saida_ou_estacao]
 
-                    freguesia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.FREGUESIA_HISTORICA, "")  # Antiga freguesia, se existir
+                    freguesia: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_HISTORIC_PARISH, "")  # Antiga freguesia, se existir
                     if not freguesia:
-                        freguesia = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.FREGUESIA, "")
-                    concelho: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.CONCELHO, "")
-                    distrito: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.DISTRITO_PT, "")
+                        freguesia = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_PARISH, "")
+                    concelho: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_MUNICIPALITY, "")
+                    distrito: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_DISTRICT, "")
 
                     if self.via_tipo == VIA_FERROVIA:
                         f.write(f'Estação de {saida_ou_estacao},{freguesia},{concelho}\n')
