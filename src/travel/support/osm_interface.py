@@ -12,9 +12,6 @@ PORT_PORTUGAL = 12346
 PORT_ANDORRA = 12347
 
 ##############################
-# OpenStreetMap constants
-##############################
-
 # OpenStreetMap administrative levels
 
 # General
@@ -39,11 +36,7 @@ PORTUGUESE_DISTRICT = 6  # In Portuguese, "distrito", same as in Spanish
 PORTUGUESE_MUNICIPALITY = 7  # In Portuguese, "concelho"
 PORTUGUESE_PARISH = 8  # In Portuguese, "freguesia"
 PORTUGUESE_HISTORIC_PARISH = 'historic_parish'  # Former Portuguese parishes (pre-2013), in the past were associated with level 9
-
 ##############################
-
-RAILWAY = ways.VIA_FERROVIA
-ROAD = ways.VIA_ESTRADA
 
 # Detail levels allow to balance between the accuracy of the results and the time spent calculating them
 DETAIL_LEVEL_INTERCITY = 1
@@ -74,7 +67,7 @@ class ExtremePoints:
                  north: Coordinate, south: Coordinate, east: Coordinate, west: Coordinate):
         assert name
         assert admin_level >= COUNTRY
-        assert country in [ways.PORTUGAL, ways.ANDORRA, ways.ESPANHA, ways.GIBRALTAR]
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
         assert north
         assert south
         assert east
@@ -127,7 +120,7 @@ class OsmInterface:
         Retorna True se se conseguiu estabelecer ligação com todos os servidores, False caso contrário
         """
         try:
-            for pais in [ways.PORTUGAL, ways.ESPANHA, ways.ANDORRA]:
+            for pais in ways.ALL_SUPPORTED_COUNTRIES:
                 url_servidor: str = OsmInterface._obter_url_servidor(pais)
                 query = "out;"
 
@@ -299,7 +292,7 @@ class OsmInterface:
 
         area_extremos: list[float] = [min_latitude, max_latitude, min_longitude, max_longitude]
 
-        if via_tipo == ROAD:  # Todas as estradas marcadas com as tags pretendidas na área pretendida
+        if via_tipo == ways.ROAD:  # Todas as estradas marcadas com as tags pretendidas na área pretendida
             query = f'[bbox:{min_latitude},{min_longitude},{max_latitude},{max_longitude}];' \
                     '('
             for tag in tags:
@@ -310,7 +303,7 @@ class OsmInterface:
                 query += f'way[highway={tag}];'
             query += ');' \
                      'out geom;'
-        elif via_tipo == RAILWAY:  # Todas as linhas ferroviárias na área pretendida
+        elif via_tipo == ways.RAILWAY:  # Todas as linhas ferroviárias na área pretendida
             query = 'rel[railway]->.r1;' \
                     '(way(r.r1);' \
                     'way[railway];);' \
@@ -389,7 +382,7 @@ class OsmInterface:
         Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
         :return: Nome do país se for possível determinar, None caso contrário
         """
-        for pais_servidor in [ways.PORTUGAL, ways.ESPANHA, ways.ANDORRA]:
+        for pais_servidor in ways.ALL_SUPPORTED_COUNTRIES:
             divisoes: dict[Union[str, int], str] = OsmInterface.obter_divisoes_administrativas_de_ponto(coordenadas, pais_servidor)
 
             if divisoes.get(COUNTRY):  # Espera-se que cubra Portugal, Andorra e Gibraltar
@@ -401,7 +394,7 @@ class OsmInterface:
                 elif pais == 'Gibraltar':
                     return ways.GIBRALTAR
                 elif pais == 'Spain':
-                    return ways.ESPANHA
+                    return ways.SPAIN
                 else:  # País não coberto
                     return None
 
@@ -409,7 +402,7 @@ class OsmInterface:
                 comunidade_autonoma = divisoes[AUTONOMOUS_COMMUNITY]
 
                 if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
-                    return ways.ESPANHA
+                    return ways.SPAIN
         else:
             return None
 
@@ -494,7 +487,7 @@ class OsmInterface:
 
     @staticmethod
     def _obter_url_servidor(pais: str) -> Optional[str]:
-        if pais == ways.ESPANHA:  # Os mapas de Espanha e de Gibraltar estão no mesmo servidor
+        if pais == ways.SPAIN:  # Os mapas de Espanha e de Gibraltar estão no mesmo servidor
             porto = PORT_GIBRALTAR_SPAIN
         elif pais == ways.PORTUGAL:
             porto = PORT_PORTUGAL

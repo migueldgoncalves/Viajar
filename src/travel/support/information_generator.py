@@ -4,7 +4,8 @@ from typing import Union, Optional
 import requests
 import matplotlib.pyplot as plt
 
-import travel.support.ways as vias
+from travel.support import ways
+from travel.support.ways import Way
 import travel.support.sorter as ordenador
 import travel.support.haversine as haversine
 import travel.support.distance_calculator as calculadora_distancias
@@ -41,9 +42,6 @@ OPCAO_BAIXO_CIMA = 2
 OPCAO_AREA_INTERCIDADES = 1
 OPCAO_AREA_URBANA = 2
 
-VIA_FERROVIA = vias.VIA_FERROVIA
-VIA_ESTRADA = vias.VIA_ESTRADA
-
 """
 Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferroviárias, e suas ligações
 """
@@ -51,43 +49,31 @@ Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferrov
 
 class GeradorInformacao:
 
-    def __init__(self, via_para_analisar: tuple, obter_altitudes=True) -> None:
-        if len(via_para_analisar) == 3 and via_para_analisar[2] == VIA_FERROVIA:
-            self.via_tipo = VIA_FERROVIA
-            self.via_nome: str = via_para_analisar[0]  # Ex: Linha do Norte
-            self.via_identificador: str = self.via_nome  # Como a via vai passar a ser identificada
-            self.pais: str = via_para_analisar[1]  # Ex: PT
-        else:
-            self.via_tipo = VIA_ESTRADA
-            self.estrada_numero: str = via_para_analisar[0]  # Ex: A-5
-            self.via_nome: str = via_para_analisar[1]  # Ex: Autovía del Suroeste
-            self.via_identificador: str = self.estrada_numero
-            self.pais: str = via_para_analisar[2]  # Ex: ES
-
-        # Replaces forbidden chars for paths present in identifiers of ways - Found in some OSM names for Spanish railways
-        # Ex: "Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez" -> "Tren C-3 - Chamartín - Sol - Atocha - Aranjuez"
-        # Ex: "Línea 8: Nuevos Ministerios-Aeropuerto T4" -> "Línea 8 - Nuevos Ministerios-Aeropuerto T4"
-        self.via_identificador = self.via_identificador.replace(': ', ' - ').replace('->', '-')
+    def __init__(self, way_to_analise: Way, obter_altitudes=True) -> None:
+        self.way_type: str = way_to_analise.way_type  # Road or railway
+        self.way_display_name: str = way_to_analise.display_name  # Name to be displayed in the filenames, ex: "North Line"
+        self.way_osm_name: str = way_to_analise.osm_name  # OSM name, ex: "Linha do Norte"
+        self.country: str = way_to_analise.country
 
         self.obter_altitudes: bool = obter_altitudes
 
         self.api_key = None
 
-        self.local_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local.csv')
-        self.local_espanha_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_espanha.csv')
-        self.local_portugal_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_portugal.csv')
-        self.local_gibraltar_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_local_gibraltar.csv')
-        self.municipio_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_municipio.csv')
-        self.comarca_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_comarca.csv')
-        self.concelho_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_concelho.csv')
-        self.ligacao_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_ligacao.csv')
-        self.destino_path: Path = Path(PASTA_TEMP, f'{self.via_identificador}_destino.csv')
+        self.local_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local.csv')
+        self.local_espanha_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_espanha.csv')
+        self.local_portugal_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_portugal.csv')
+        self.local_gibraltar_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_gibraltar.csv')
+        self.municipio_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_municipio.csv')
+        self.comarca_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_comarca.csv')
+        self.concelho_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_concelho.csv')
+        self.ligacao_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_ligacao.csv')
+        self.destino_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_destino.csv')
 
         print("Bem-vindo/a ao gerador automático de informação.")
         print("Escreva a opção desejada e pressione ENTER.")
         print(f"{OPCAO_SAIR} - Sair do programa")
-        print(f"{OPCAO_LOCAIS_DIV_ADMIN} - Gerar locais e divisões administrativas da {self.via_identificador}")
-        print(f"{OPCAO_LIGACOES_DESTINOS} - Gerar ligações e destinos da {self.via_identificador}")
+        print(f"{OPCAO_LOCAIS_DIV_ADMIN} - Gerar locais e divisões administrativas da {self.way_display_name}")
+        print(f"{OPCAO_LIGACOES_DESTINOS} - Gerar ligações e destinos da {self.way_display_name}")
         while True:
             opcao = input("Escreva a opção desejada e pressione ENTER: ")
             if opcao == str(OPCAO_SAIR):
@@ -95,11 +81,11 @@ class GeradorInformacao:
                 print("Boa viagem!")
                 exit(0)
             elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
-                print(f"Escolheu gerar os locais e divisões administrativas da {self.via_identificador}.")
+                print(f"Escolheu gerar os locais e divisões administrativas da {self.way_display_name}.")
                 self.opcao_obter_locais_divisoes_admins()
                 break
             elif opcao == str(OPCAO_LIGACOES_DESTINOS):
-                print(f"Escolheu gerar as ligações e destinos da {self.via_identificador}.")
+                print(f"Escolheu gerar as ligações e destinos da {self.way_display_name}.")
                 self.opcao_obter_ligacoes_destinos()
                 break
         exit(0)
@@ -108,20 +94,20 @@ class GeradorInformacao:
         """
         A partir de um ficheiro de locais de uma via, cria os ficheiros de ligações e de destinos correspondentes
         """
-        if self.pais not in [vias.ANDORRA, vias.ESPANHA, vias.GIBRALTAR, vias.PORTUGAL]:
-            print(f'País inválido - Processamento da {self.via_identificador} cancelado')
+        if self.country not in ways.ALL_SUPPORTED_COUNTRIES:
+            print(f'País inválido - Processamento da {self.way_display_name} cancelado')
             exit(1)
 
         if not os.path.exists(self.local_path.path):
-            print(f'O ficheiro de locais da {self.via_identificador} não existe.')
+            print(f'O ficheiro de locais da {self.way_display_name} não existe.')
             print(f'Execute este programa novamente e seleccione a opção {OPCAO_LOCAIS_DIV_ADMIN}.')
             exit(0)
-        aviso: str = f'A {self.via_identificador} parece já ter um ficheiro de ligações.'
+        aviso: str = f'A {self.way_display_name} parece já ter um ficheiro de ligações.'
         self._detector_ficheiro_repetido(self.ligacao_path.path, aviso)
-        aviso: str = f'A {self.via_identificador} parece já ter um ficheiro de destinos.'
+        aviso: str = f'A {self.way_display_name} parece já ter um ficheiro de destinos.'
         self._detector_ficheiro_repetido(self.destino_path.path, aviso)
 
-        print(f'Como deseja que a {self.via_identificador} seja ordenada?')
+        print(f'Como deseja que a {self.way_display_name} seja ordenada?')
         print("Escreva a opção desejada e pressione ENTER")
         print(f"{OPCAO_SAIR} - Sair do programa")
         print(f"{OPCAO_CIMA_BAIXO} - De cima para baixo")
@@ -133,16 +119,16 @@ class GeradorInformacao:
                 print("Boa viagem!")
                 exit(0)
             elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
-                print(f"A {self.via_identificador} será ordenada de cima para baixo")
+                print(f"A {self.way_display_name} será ordenada de cima para baixo")
                 invertido: bool = False
                 break
             elif opcao == str(OPCAO_LIGACOES_DESTINOS):
-                print(f"A {self.via_identificador} será ordenada de baixo para cima")
+                print(f"A {self.way_display_name} será ordenada de baixo para cima")
                 invertido: bool = True
                 break
 
         self.create_ficheiros_ligacoes_destinos(invertido=invertido)
-        print(f'{self.via_identificador} processada')
+        print(f'{self.way_display_name} processada')
         print("Boa viagem!")
 
     def opcao_obter_locais_divisoes_admins(self) -> None:
@@ -150,11 +136,11 @@ class GeradorInformacao:
         Recolhe informação sobre as saídas de uma auto-estrada / estações de uma linha ferroviária usando o OSM e cria
         os respectivos ficheiros de locais e de divisões administrativas
         """
-        aviso: str = f'A {self.via_identificador} parece já ter sido processada antes.'
+        aviso: str = f'A {self.way_display_name} parece já ter sido processada antes.'
         self._detector_ficheiro_repetido(self.local_path.path, aviso)
 
-        if self.pais not in [vias.ANDORRA, vias.ESPANHA, vias.GIBRALTAR, vias.PORTUGAL]:
-            print(f'País inválido - Processamento da {self.via_identificador} cancelado')
+        if self.country not in ways.ALL_SUPPORTED_COUNTRIES:
+            print(f'País inválido - Processamento da {self.way_display_name} cancelado')
             exit(1)
 
         # Chave da API da Google - Usada para obter altitudes
@@ -162,24 +148,24 @@ class GeradorInformacao:
             self.api_key: str = f.readlines()[0]
 
         self.create_ficheiros_locais_divisoes_admins()
-        print(f'{self.via_identificador} processada')
+        print(f'{self.way_display_name} processada')
         print("Boa viagem!")
 
     def create_ficheiros_locais_divisoes_admins(self) -> None:
         print("################")
-        print(f'A iniciar processamento da {self.via_identificador}...')
+        print(f'A iniciar processamento da {self.way_display_name}...')
         print("################\n")
 
         saidas_estacoes_coordenadas: dict[str, Coordinate] = self.get_saidas_estacoes()
         saidas_estacoes_ordenadas: list[str] = list(saidas_estacoes_coordenadas.keys())
         saidas_estacoes_ordenadas.sort()
 
-        if self.via_tipo == VIA_FERROVIA:
+        if self.way_type == ways.RAILWAY:
             print(f'{len(saidas_estacoes_ordenadas)} estações encontradas')
         else:
             print(f'{len(saidas_estacoes_ordenadas)} saídas encontradas')
         if len(saidas_estacoes_ordenadas) == 0:
-            print(f'Processamento da {self.via_identificador} cancelado')
+            print(f'Processamento da {self.way_display_name} cancelado')
             exit(1)
 
         if not os.path.exists(PASTA_TEMP.path):
@@ -193,21 +179,21 @@ class GeradorInformacao:
                 info_extra: str = ''
                 lote: int = 0
                 if self.obter_altitudes:
-                    if self.via_tipo == VIA_FERROVIA:
+                    if self.way_type == ways.RAILWAY:
                         print(f'A obter a altitude da estação {saida_ou_estacao}...')
                     else:
                         print(f'A obter a altitude da saída {saida_ou_estacao}...')
                     altitude: int = self.get_altitude(latitude, longitude)
-                if self.via_tipo == VIA_FERROVIA:
+                if self.way_type == ways.RAILWAY:
                     f.write(f'Estação de {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
                 else:
-                    f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
+                    f.write(f'{self.way_display_name} - Saída {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
         ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.local_path.path, cabecalho=False)
         print(f'Ficheiro de locais criado')
 
         saidas_estacoes_terminadas: int = 0
 
-        if self.pais == vias.ESPANHA:
+        if self.country == ways.SPAIN:
             municipios: set[str] = set()
             comarcas: set[str] = set()
 
@@ -224,23 +210,23 @@ class GeradorInformacao:
                     comarca: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.COMARCA, '')  # Nem sempre está disponível
                     distrito_es: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.SPANISH_DISTRICT, '')  # Só disponível nas grandes cidades
 
-                    if self.via_tipo == VIA_FERROVIA:
+                    if self.way_type == ways.RAILWAY:
                         if distrito_es:
                             f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
                         else:
                             f.write(f'Estação de {saida_ou_estacao},{municipio},{provincia},\n')
                     else:
                         if distrito_es:
-                            f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
+                            f.write(f'{self.way_display_name} - Saída {saida_ou_estacao},{municipio},{provincia},{distrito_es}\n')
                         else:
-                            f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{municipio},{provincia},\n')
+                            f.write(f'{self.way_display_name} - Saída {saida_ou_estacao},{municipio},{provincia},\n')
 
                     municipios.add(f'{municipio},{provincia}\n')
                     if comarca:
                         comarcas.add(f'{municipio},{comarca},{provincia}\n')
 
                     saidas_estacoes_terminadas += 1
-                    if self.via_tipo == VIA_FERROVIA:
+                    if self.way_type == ways.RAILWAY:
                         print(f'Estação {saida_ou_estacao} terminada - '
                               f'{saidas_estacoes_terminadas}/{len(saidas_estacoes_ordenadas)} estações processadas')
                     else:
@@ -262,7 +248,7 @@ class GeradorInformacao:
             ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.comarca_path.path, cabecalho=False)
             print("Ficheiro de comarcas terminado")
 
-        elif self.pais == vias.PORTUGAL:
+        elif self.country == ways.PORTUGAL:
             concelhos: set[str] = set()
 
             divisoes_pretendidas: list[Union[str, int]] = [
@@ -280,15 +266,15 @@ class GeradorInformacao:
                     concelho: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_MUNICIPALITY, "")
                     distrito: str = divisoes_saidas_estacoes.get(ponto, {}).get(osm_interface.PORTUGUESE_DISTRICT, "")
 
-                    if self.via_tipo == VIA_FERROVIA:
+                    if self.way_type == ways.RAILWAY:
                         f.write(f'Estação de {saida_ou_estacao},{freguesia},{concelho}\n')
                     else:
-                        f.write(f'{self.via_identificador} - Saída {saida_ou_estacao},{freguesia},{concelho}\n')
+                        f.write(f'{self.way_display_name} - Saída {saida_ou_estacao},{freguesia},{concelho}\n')
 
                     concelhos.add(f'{concelho},,{distrito},\n')  # Inserir manualmente entidade intermunicipal e região histórica
 
                     saidas_estacoes_terminadas += 1
-                    if self.via_tipo == VIA_FERROVIA:
+                    if self.way_type == ways.RAILWAY:
                         print(f'Estação {saida_ou_estacao} terminada - '
                               f'{saidas_estacoes_terminadas}/{len(saidas_estacoes_ordenadas)} estações processadas')
                     else:
@@ -312,11 +298,11 @@ class GeradorInformacao:
             conteudo: list[str] = f.readlines()
 
         if len(conteudo) == 0:
-            print(f'O ficheiro de locais da {self.via_identificador} está vazio.')
+            print(f'O ficheiro de locais da {self.way_display_name} está vazio.')
             print("A sair.")
             exit(0)
         elif len(conteudo) == 1:
-            print(f'O ficheiro de locais da {self.via_identificador} só tem 1 local.')
+            print(f'O ficheiro de locais da {self.way_display_name} só tem 1 local.')
             print("Não é possível criar ligações nem destinos.")
             print("A sair.")
             exit(0)
@@ -367,7 +353,7 @@ class GeradorInformacao:
         plt.show()
 
         calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
-        calc_dist.gerar_mapa_processado(todas_coordenadas, self.via_tipo, self.pais, via_nome=self.via_nome)
+        calc_dist.gerar_mapa_processado(todas_coordenadas, self.way_type, self.country, via_nome=self.way_osm_name)
 
         origem = ordenador.separar_por_virgulas(lista=conteudo[0].split(','))[0]
         destino = ordenador.separar_por_virgulas(lista=conteudo[-1].split(','))[0]
@@ -394,12 +380,12 @@ class GeradorInformacao:
                     print("Linha vazia encontrada - Processamento será apenas parcial")
                     break
 
-                if self.via_tipo == VIA_FERROVIA:
+                if self.way_type == ways.RAILWAY:
                     meio_transporte: str = 'Train'
                 else:
                     meio_transporte: str = 'Car'
 
-                info_extra: str = self.via_identificador
+                info_extra: str = self.way_display_name
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
                 latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
                 ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
@@ -474,26 +460,26 @@ class GeradorInformacao:
         return divisoes_admins_por_pontos
 
     def get_saidas_estacoes(self) -> dict[str, Coordinate]:
-        if self.via_tipo == VIA_FERROVIA:
+        if self.way_type == ways.RAILWAY:
             print("A obter nós correspondentes a estações...")
         else:
             print("A obter nós correspondentes a saídas...")
 
-        if self.via_tipo == VIA_FERROVIA:
+        if self.way_type == ways.RAILWAY:
             saidas_estacoes_temp: dict[str, list[Coordinate]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
-                self.via_nome, self.pais)
+                self.way_osm_name, self.country)
         else:
             saidas_estacoes_temp: dict[str, list[Coordinate]] = osm_interface.OsmInterface.obter_saidas_de_estrada(
-                self.via_nome, self.pais)
+                self.way_osm_name, self.country)
 
         if len(saidas_estacoes_temp) == 0:
-            if self.via_tipo == VIA_FERROVIA:
-                print(f"Não foi encontrado nenhum nó associado às estações da {self.via_identificador}. "
-                      f"A ferrovia está em {self.pais}?")
+            if self.way_type == ways.RAILWAY:
+                print(f"Não foi encontrado nenhum nó associado às estações da {self.way_display_name}. "
+                      f"A ferrovia está em {self.country}?")
                 print(f"Pode também ser uma ferrovia sem estações associadas no OpenStreetMap")
             else:
-                print(f'Não foi encontrado nenhum nó associado às saídas da {self.via_identificador}. '
-                      f'A auto-estrada está em {self.pais}?')
+                print(f'Não foi encontrado nenhum nó associado às saídas da {self.way_display_name}. '
+                      f'A auto-estrada está em {self.country}?')
                 print(f'Pode também ser uma auto-estrada sem números de saída no OpenStreetMap')
             exit(0)
 
@@ -508,7 +494,7 @@ class GeradorInformacao:
             longitude = round(longitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDENADAS_CASAS_DECIMAIS)
             saidas_ou_estacoes[saida_ou_estacao] = Coordinate(latitude, longitude)
 
-        if self.via_tipo == VIA_FERROVIA:
+        if self.way_type == ways.RAILWAY:
             print("Coordenadas de estações obtidas\n")
         else:
             print("Coordenadas de saídas obtidas\n")
@@ -532,5 +518,5 @@ class GeradorInformacao:
                     print()
                     break
                 elif 'n' in opcao.lower():
-                    print(f'Processamento da {self.via_identificador} cancelado.')
+                    print(f'Processamento da {self.way_display_name} cancelado.')
                     exit(0)

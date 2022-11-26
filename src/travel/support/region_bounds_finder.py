@@ -55,7 +55,7 @@ def obter_pontos_extremos():
                 print("Escolheu Portugal")
                 break
             elif opcao == ESPANHA:
-                pais = ways.ESPANHA
+                pais = ways.SPAIN
                 print("Escolheu Espanha")
                 break
             elif opcao == ANDORRA:
@@ -95,7 +95,7 @@ def obter_pontos_extremos():
                         continue
                     imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
 
-        elif pais == ways.ESPANHA:
+        elif pais == ways.SPAIN:
             print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País, {osm_interface.AUTONOMOUS_COMMUNITY} - Comunidade Autónoma, '
                   f'{osm_interface.PROVINCE} - Província, {osm_interface.COMARCA} - Comarca, {osm_interface.SPANISH_MUNICIPALITY} - Município, '
                   f'{osm_interface.SPANISH_DISTRICT} - Distrito')

@@ -1,144 +1,166 @@
 """
-Nomes de vias para serem processados pelo gerador de informação
+Road and railway names to be processed by the automatic information generator
 """
 
-# Tipo de via
 
-VIA_ESTRADA = 'Estrada'
-VIA_FERROVIA = 'Ferrovia'
+class Way:
+    """
+    Data access object representing a way, either a road or a railway. Does not represent an OSM way
+    """
+    def __init__(self, display_name: str, osm_name: str, country: str, way_type: str):
+        """
+        Initializer
+        :param display_name: Custom and translatable name. Will be inserted in the names of the files storing the way info
+        :param osm_name: Name of the way in OSM. Must be in the local language (Portuguese, Spanish, Catalan, etc)
+        :param country: Country of the way. It is assumed a way always belongs to a single country
+        :param way_type: Road or railway
+        """
+        assert display_name
+        assert osm_name
+        assert country in ALL_SUPPORTED_COUNTRIES
+        assert way_type in [ROAD, RAILWAY]
 
-# País
+        self.display_name = display_name
+        self.osm_name = osm_name
+        self.country = country
+        self.way_type = way_type
+
+
+# Way types
+
+ROAD = 'Road'
+RAILWAY = 'Railway'
+
+# Countries
 
 ANDORRA = "AD"
-ESPANHA = "ES"
 GIBRALTAR = "GI"
 PORTUGAL = "PT"
+SPAIN = "ES"
+ALL_SUPPORTED_COUNTRIES = [ANDORRA, GIBRALTAR, PORTUGAL, SPAIN]
 
-# Auto-estradas e vias rápidas
-#   (<Nome curto>, <Nome comprido segundo o OSM>, <País>)
+# Freeways and highways
 
-ES_A1 = ("A-1", "Autovía del Norte", ESPANHA)
-ES_A2 = ("A-2", "Autovía del Nordeste", ESPANHA)
-ES_A3 = ("A-3", "Autovía del Este", ESPANHA)
-ES_A4 = ("A-4", "Autovía del Sur", ESPANHA)
-ES_A5 = ("A-5", "Autovía del Suroeste", ESPANHA)
-ES_A6 = ("A-6", "Autovía del Noroeste", ESPANHA)
-ES_A7 = ("A-7", "Autovía del Mediterráneo", ESPANHA)
-ES_A8 = ("A-8", "Autovía del Cantábrico", ESPANHA)
-ES_A10 = ("A-10", "Autovía de la Barranca", ESPANHA)
-ES_A42 = ("A-42", "Autovía de Toledo", ESPANHA)
-ES_A44 = ("A-44", "Autovía de Sierra Nevada-Costa Tropical", ESPANHA)
-ES_A45 = ("A-45", "Autovía de Málaga", ESPANHA)
-ES_A49 = ("A-49", "Autopista del Quinto Centenario", ESPANHA)
-ES_A50 = ("A-50", "Autovía Ávila-Salamanca", ESPANHA)
-ES_A52 = ("A-52", "Autovía de las Rías Baixas", ESPANHA)
-ES_A55 = ("A-55", "Autovía do Atlántico", ESPANHA)
-ES_A58 = ("A-58", "Autovía Trujillo-Cáceres", ESPANHA)
-ES_A62 = ("A-62", "Autovía de Castilla", ESPANHA)
-ES_A66 = ("A-66", "Autovía Ruta de la Plata", ESPANHA)
-ES_A92 = ("A-92", "Autovía de Andalucía", ESPANHA)
-ES_A92M = ("A-92M", "Autovía A-92 Málaga", ESPANHA)
-ES_A92N = ("A-92N", "Autovía A-92 Norte", ESPANHA)
-ES_A483 = ("A-483", "Bollullos-Matalascañas", ESPANHA)
-ES_A497 = ("A-497", "Autovía de Huelva a Punta Umbría", ESPANHA)
-ES_AP1 = ("AP-1", "Autopista del Norte", ESPANHA)
-ES_AP2 = ("AP-2", "Autopista Zaragoza-Mediterráneo", ESPANHA)
-ES_AP4 = ("AP-4", "Autopista del Sur", ESPANHA)
-ES_AP6 = ("AP-6", "Autopista del Noroeste", ESPANHA)
-ES_AP7 = ("AP-7", "Autopista del Mediterráneo", ESPANHA)
-ES_AP8 = ("AP-8", "Autopista del Cantábrico", ESPANHA)
-ES_AP9 = ("AP-9", "Autoestrada do Atlántico", ESPANHA)
-ES_AP51 = ("AP-51", "Conexión Ávila", ESPANHA)
-ES_AV20 = ("AV-20", "Circunvalación de Ávila", ESPANHA)
-ES_EXA1 = ("EX-A1", "Autovía del Norte de Extremadura", ESPANHA)
-ES_EXA2 = ("EX-A2", "Autovía de las Vegas Altas", ESPANHA)
-ES_GR30 = ("GR-30", "Circunvalación de Granada", ESPANHA)
-ES_H30 = ("H-30", "Ronda Exterior Norte", ESPANHA)
-ES_M30 = ("M-30", "Autovía de Circunvalación M-30", ESPANHA)
-ES_M40 = ("M-40", "Autopista de Circunvalación M-40", ESPANHA)
-ES_M45 = ("M-45", "Autopista de Circunvalación M-45", ESPANHA)
-ES_M50 = ("M-50", "Autopista de Circunvalación M-50", ESPANHA)
-ES_R2 = ("R-2", "Radial R-2", ESPANHA)
-ES_R3 = ("R-3", "Radial R-3", ESPANHA)
-ES_R4 = ("R-4", "Radial R-4", ESPANHA)
-ES_R5 = ("R-5", "Radial R-5", ESPANHA)
+ES_A1 = Way("A-1", "Autovía del Norte", SPAIN, ROAD)
+ES_A2 = Way("A-2", "Autovía del Nordeste", SPAIN, ROAD)
+ES_A3 = Way("A-3", "Autovía del Este", SPAIN, ROAD)
+ES_A4 = Way("A-4", "Autovía del Sur", SPAIN, ROAD)
+ES_A5 = Way("A-5", "Autovía del Suroeste", SPAIN, ROAD)
+ES_A6 = Way("A-6", "Autovía del Noroeste", SPAIN, ROAD)
+ES_A7 = Way("A-7", "Autovía del Mediterráneo", SPAIN, ROAD)
+ES_A8 = Way("A-8", "Autovía del Cantábrico", SPAIN, ROAD)
+ES_A10 = Way("A-10", "Autovía de la Barranca", SPAIN, ROAD)
+ES_A42 = Way("A-42", "Autovía de Toledo", SPAIN, ROAD)
+ES_A44 = Way("A-44", "Autovía de Sierra Nevada-Costa Tropical", SPAIN, ROAD)
+ES_A45 = Way("A-45", "Autovía de Málaga", SPAIN, ROAD)
+ES_A49 = Way("A-49", "Autopista del Quinto Centenario", SPAIN, ROAD)
+ES_A50 = Way("A-50", "Autovía Ávila-Salamanca", SPAIN, ROAD)
+ES_A52 = Way("A-52", "Autovía de las Rías Baixas", SPAIN, ROAD)
+ES_A55 = Way("A-55", "Autovía do Atlántico", SPAIN, ROAD)
+ES_A58 = Way("A-58", "Autovía Trujillo-Cáceres", SPAIN, ROAD)
+ES_A62 = Way("A-62", "Autovía de Castilla", SPAIN, ROAD)
+ES_A66 = Way("A-66", "Autovía Ruta de la Plata", SPAIN, ROAD)
+ES_A92 = Way("A-92", "Autovía de Andalucía", SPAIN, ROAD)
+ES_A92M = Way("A-92M", "Autovía A-92 Málaga", SPAIN, ROAD)
+ES_A92N = Way("A-92N", "Autovía A-92 Norte", SPAIN, ROAD)
+ES_A483 = Way("A-483", "Bollullos-Matalascañas", SPAIN, ROAD)
+ES_A497 = Way("A-497", "Autovía de Huelva a Punta Umbría", SPAIN, ROAD)
+ES_AP1 = Way("AP-1", "Autopista del Norte", SPAIN, ROAD)
+ES_AP2 = Way("AP-2", "Autopista Zaragoza-Mediterráneo", SPAIN, ROAD)
+ES_AP4 = Way("AP-4", "Autopista del Sur", SPAIN, ROAD)
+ES_AP6 = Way("AP-6", "Autopista del Noroeste", SPAIN, ROAD)
+ES_AP7 = Way("AP-7", "Autopista del Mediterráneo", SPAIN, ROAD)
+ES_AP8 = Way("AP-8", "Autopista del Cantábrico", SPAIN, ROAD)
+ES_AP9 = Way("AP-9", "Autoestrada do Atlántico", SPAIN, ROAD)
+ES_AP51 = Way("AP-51", "Conexión Ávila", SPAIN, ROAD)
+ES_AV20 = Way("AV-20", "Circunvalación de Ávila", SPAIN, ROAD)
+ES_EXA1 = Way("EX-A1", "Autovía del Norte de Extremadura", SPAIN, ROAD)
+ES_EXA2 = Way("EX-A2", "Autovía de las Vegas Altas", SPAIN, ROAD)
+ES_GR30 = Way("GR-30", "Circunvalación de Granada", SPAIN, ROAD)
+ES_H30 = Way("H-30", "Ronda Exterior Norte", SPAIN, ROAD)
+ES_M30 = Way("M-30", "Autovía de Circunvalación M-30", SPAIN, ROAD)
+ES_M40 = Way("M-40", "Autopista de Circunvalación M-40", SPAIN, ROAD)
+ES_M45 = Way("M-45", "Autopista de Circunvalación M-45", SPAIN, ROAD)
+ES_M50 = Way("M-50", "Autopista de Circunvalación M-50", SPAIN, ROAD)
+ES_R2 = Way("R-2", "Radial R-2", SPAIN, ROAD)
+ES_R3 = Way("R-3", "Radial R-3", SPAIN, ROAD)
+ES_R4 = Way("R-4", "Radial R-4", SPAIN, ROAD)
+ES_R5 = Way("R-5", "Radial R-5", SPAIN, ROAD)
 
-PT_A1 = ("A1", "Autoestrada do Norte", PORTUGAL)
-PT_A2 = ("A2", "Autoestrada do Sul", PORTUGAL)
-PT_A3 = ("A3", "Autoestrada de Entre-Douro-e-Minho", PORTUGAL)
-PT_A4 = ("A4", "Autoestrada Transmontana", PORTUGAL)
-PT_A5 = ("A5", "Autoestrada da Costa do Estoril", PORTUGAL)
-PT_A6 = ("A6", "Autoestrada do Alentejo Central", PORTUGAL)
-PT_A7 = ("A7", "Autoestrada do Douro", PORTUGAL)
-PT_A8 = ("A8", "Autoestrada do Oeste", PORTUGAL)
-PT_A8_1 = ("A8-1", "Circular Oriental de Leiria", PORTUGAL)
-PT_A9 = ("A9 CREL", "Circular Regional Exterior de Lisboa (CREL)", PORTUGAL)
-PT_A10 = ("A10", "Autoestrada do Ribatejo", PORTUGAL)
-PT_A11 = ("A11", "Autoestrada do Baixo Minho", PORTUGAL)
-PT_A12 = ("A12", "Autoestrada do Sul do Tejo", PORTUGAL)
-PT_A13 = ("A13", "Autoestrada do Pinhal Interior", PORTUGAL)
-PT_A13_1 = ("A13-1", "Radial de Coimbra", PORTUGAL)
-PT_A14 = ("A14", "Autoestrada do Baixo Mondego", PORTUGAL)
-PT_A15 = ("A15", "Autoestrada do Atlântico", PORTUGAL)
-PT_A16 = ("A16", "Circular Exterior da Área Metropolitana de Lisboa", PORTUGAL)
-PT_A17 = ("A17", "Autoestrada do Litoral Centro", PORTUGAL)
-# A A18 está em projecto
-PT_A19 = ("A19", "Variante da Batalha", PORTUGAL)
-PT_A20 = ("A20", "Circular Regional Interior do Porto", PORTUGAL)
-PT_A21 = ("A21", "Autoestrada de Mafra", PORTUGAL)
-PT_A22 = ("A22", "Via do Infante", PORTUGAL)
-PT_A23 = ("A23", "Autoestrada da Beira Interior", PORTUGAL)
-PT_A24 = ("A24", "Autoestrada do Interior Norte", PORTUGAL)
-PT_A25 = ("A25", "Autoestrada das Beiras Litoral e Alta", PORTUGAL)
-PT_A26 = ("A26", "Autoestrada do Baixo Alentejo", PORTUGAL)
-PT_A26_1 = ("A26-1", "Variante de Sines", PORTUGAL)
-PT_A27 = ("A27", "Autoestrada do Vale do Lima", PORTUGAL)
-PT_A28 = ("A28", "Autoestrada do Litoral Norte", PORTUGAL)
-PT_A29 = ("A29", "Autoestrada da Costa de Prata", PORTUGAL)
-# A A30 corresponde a um troço do IC2 em Lisboa
-# A A31 corresponde a um troço do IC2 em Coimbra
-PT_A32 = ("A32", "Autoestrada de Entre Douro-e-Vouga", PORTUGAL)
-PT_A33 = ("A33", "Circular Regional Interior da Península de Setúbal (CRIPS)", PORTUGAL)
-# A A34 corresponde a um troço do IC8 em Pombal
-# A A35 corresponde ao IC12
-# A A36 corresponde à IC17 CRIL
-# A A37 corresponde ao IC19
-# A A38 corresponde ao IC20
-# A A39 corresponde ao IC21
-# A A40 corresponde ao IC22
-PT_A41 = ("A41 CREP", "Circular Regional Exterior do Porto", PORTUGAL)
-PT_A42 = ("A42", "Autoestrada do Douro Litoral", PORTUGAL)
-PT_A43 = ("A43", "Radial de Gondomar", PORTUGAL)
-PT_A44 = ("A44", "Autoestrada de Vila Nova de Gaia", PORTUGAL)
-PT_CSB = ("Circular Sul de Braga", "Circular Sul de Braga", PORTUGAL)
-PT_IC17 = ("IC17 CRIL", "Circular Regional Interior de Lisboa (CRIL)", PORTUGAL)
-PT_IC22 = ("IC22", "Radial de Odivelas", PORTUGAL)
-PT_IC27 = ("IC27", "IC 27", PORTUGAL)
-PT_VRI = ("VRI", "Via Regional Interior", PORTUGAL)
+PT_A1 = Way("A1", "Autoestrada do Norte", PORTUGAL, ROAD)
+PT_A2 = Way("A2", "Autoestrada do Sul", PORTUGAL, ROAD)
+PT_A3 = Way("A3", "Autoestrada de Entre-Douro-e-Minho", PORTUGAL, ROAD)
+PT_A4 = Way("A4", "Autoestrada Transmontana", PORTUGAL, ROAD)
+PT_A5 = Way("A5", "Autoestrada da Costa do Estoril", PORTUGAL, ROAD)
+PT_A6 = Way("A6", "Autoestrada do Alentejo Central", PORTUGAL, ROAD)
+PT_A7 = Way("A7", "Autoestrada do Douro", PORTUGAL, ROAD)
+PT_A8 = Way("A8", "Autoestrada do Oeste", PORTUGAL, ROAD)
+PT_A8_1 = Way("A8-1", "Circular Oriental de Leiria", PORTUGAL, ROAD)
+PT_A9 = Way("A9 CREL", "Circular Regional Exterior de Lisboa (CREL)", PORTUGAL, ROAD)
+PT_A10 = Way("A10", "Autoestrada do Ribatejo", PORTUGAL, ROAD)
+PT_A11 = Way("A11", "Autoestrada do Baixo Minho", PORTUGAL, ROAD)
+PT_A12 = Way("A12", "Autoestrada do Sul do Tejo", PORTUGAL, ROAD)
+PT_A13 = Way("A13", "Autoestrada do Pinhal Interior", PORTUGAL, ROAD)
+PT_A13_1 = Way("A13-1", "Radial de Coimbra", PORTUGAL, ROAD)
+PT_A14 = Way("A14", "Autoestrada do Baixo Mondego", PORTUGAL, ROAD)
+PT_A15 = Way("A15", "Autoestrada do Atlântico", PORTUGAL, ROAD)
+PT_A16 = Way("A16", "Circular Exterior da Área Metropolitana de Lisboa", PORTUGAL, ROAD)
+PT_A17 = Way("A17", "Autoestrada do Litoral Centro", PORTUGAL, ROAD)
+# A18 is in project
+PT_A19 = Way("A19", "Variante da Batalha", PORTUGAL, ROAD)
+PT_A20 = Way("A20", "Circular Regional Interior do Porto", PORTUGAL, ROAD)
+PT_A21 = Way("A21", "Autoestrada de Mafra", PORTUGAL, ROAD)
+PT_A22 = Way("A22", "Via do Infante", PORTUGAL, ROAD)
+PT_A23 = Way("A23", "Autoestrada da Beira Interior", PORTUGAL, ROAD)
+PT_A24 = Way("A24", "Autoestrada do Interior Norte", PORTUGAL, ROAD)
+PT_A25 = Way("A25", "Autoestrada das Beiras Litoral e Alta", PORTUGAL, ROAD)
+PT_A26 = Way("A26", "Autoestrada do Baixo Alentejo", PORTUGAL, ROAD)
+PT_A26_1 = Way("A26-1", "Variante de Sines", PORTUGAL, ROAD)
+PT_A27 = Way("A27", "Autoestrada do Vale do Lima", PORTUGAL, ROAD)
+PT_A28 = Way("A28", "Autoestrada do Litoral Norte", PORTUGAL, ROAD)
+PT_A29 = Way("A29", "Autoestrada da Costa de Prata", PORTUGAL, ROAD)
+# A30 corresponds to a stretch of the IC2 highway in Lisbon
+# A31 corresponds to a stretch of the IC2 highway in Coimbra
+PT_A32 = Way("A32", "Autoestrada de Entre Douro-e-Vouga", PORTUGAL, ROAD)
+PT_A33 = Way("A33", "Circular Regional Interior da Península de Setúbal (CRIPS)", PORTUGAL, ROAD)
+# A34 corresponds to a stretch of the IC8 highway in Pombal
+# A35 corresponds to the IC12 highway
+# A36 corresponds to the IC17 highway
+# A37 corresponds to the IC19 highway
+# A38 corresponds to the IC20 highway
+# A39 corresponds to the IC21 highway
+# A40 corresponds to the IC22 highway
+PT_A41 = Way("A41 CREP", "Circular Regional Exterior do Porto", PORTUGAL, ROAD)
+PT_A42 = Way("A42", "Autoestrada do Douro Litoral", PORTUGAL, ROAD)
+PT_A43 = Way("A43", "Radial de Gondomar", PORTUGAL, ROAD)
+PT_A44 = Way("A44", "Autoestrada de Vila Nova de Gaia", PORTUGAL, ROAD)
+PT_CSB = Way("Braga South Circular", "Circular Sul de Braga", PORTUGAL, ROAD)
+PT_IC17 = Way("IC17 CRIL", "Circular Regional Interior de Lisboa (CRIL)", PORTUGAL, ROAD)
+PT_IC22 = Way("IC22", "Radial de Odivelas", PORTUGAL, ROAD)
+PT_IC27 = Way("IC27", "IC 27", PORTUGAL, ROAD)
+PT_VRI = Way("VRI", "Via Regional Interior", PORTUGAL, ROAD)
 
-# Linhas ferroviárias
-#   (<Nome segundo o OSM>, <País>, VIA_FERROVIA)
-#   É essencial acrescentar VIA_FERROVIA no fim
+# Railways
 
-ES_CERCANIAS_MADRID_C3 = ("Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", ESPANHA, VIA_FERROVIA)
-ES_CIUDAD_REAL_BADAJOZ = ("Ciudad Real-Badajoz", ESPANHA, VIA_FERROVIA)
-ES_METRO_MADRID_LINHA_8 = ("Línea 8: Nuevos Ministerios-Aeropuerto T4", ESPANHA, VIA_FERROVIA)
+ES_CIUDAD_REAL_BADAJOZ = Way("Ciudad Real-Badajoz Line", "Ciudad Real-Badajoz", SPAIN, RAILWAY)
+ES_MADRID_CERCANIAS_C3 = Way("Madrid Suburban Trains - C-3 Line", "Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", SPAIN, RAILWAY)
+ES_MADRID_METRO_LINE_8 = Way("Madrid Metro - Line 8", "Línea 8: Nuevos Ministerios-Aeropuerto T4", SPAIN, RAILWAY)
 
-PT_METRO_LISBOA_LINHA_VERMELHA = ("Linha Vermelha: São Sebastião → Aeroporto", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DA_BEIRA_ALTA = ("Linha da Beira Alta", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DA_BEIRA_BAIXA = ("Linha da Beira Baixa", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DE_BRAGA = ("Linha de Braga", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DE_CASCAIS = ("Linha de Cascais", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DE_CINTURA = ("Linha de Cintura", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DE_GUIMARAES = ("Linha de Guimarães", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_DOURO = ("Linha do Douro", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_LESTE = ("Linha do Leste", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_MINHO = ("Linha do Minho", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_OESTE = ("Linha do Oeste", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_NORTE = ("Linha do Norte", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DE_SINTRA = ("Linha de Sintra", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_SUL = ("Linha do Sul", PORTUGAL, VIA_FERROVIA)
-PT_LINHA_DO_VOUGA = ("Linha do Vouga", PORTUGAL, VIA_FERROVIA)
-PT_RAMAL_DE_ALFARELOS = ("Ramal de Alfarelos", PORTUGAL, VIA_FERROVIA)
-PT_RAMAL_DE_BRAGA = ("Ramal de Braga", PORTUGAL, VIA_FERROVIA)
-PT_RAMAL_DE_TOMAR = ("Ramal de Tomar", PORTUGAL, VIA_FERROVIA)
+PT_ALFARELOS_BRANCH_LINE = Way("Alfarelos Branch Line", "Ramal de Alfarelos", PORTUGAL, RAILWAY)
+PT_BEIRA_ALTA_LINE = Way("Beira Alta Line", "Linha da Beira Alta", PORTUGAL, RAILWAY)
+PT_BEIRA_BAIXA_LINE = Way("Beira Baixa Line", "Linha da Beira Baixa", PORTUGAL, RAILWAY)
+PT_BRAGA_BRANCH_LINE = Way("Braga Branch Line", "Ramal de Braga", PORTUGAL, RAILWAY)
+PT_BRAGA_LINE = Way("Braga Line", "Linha de Braga", PORTUGAL, RAILWAY)
+PT_CASCAIS_LINE = Way("Cascais Line", "Linha de Cascais", PORTUGAL, RAILWAY)
+PT_CINTURA_LINE = Way("Cintura Line", "Linha de Cintura", PORTUGAL, RAILWAY)
+PT_DOURO_LINE = Way("Douro Line", "Linha do Douro", PORTUGAL, RAILWAY)
+PT_EAST_LINE = Way("East Line", "Linha do Leste", PORTUGAL, RAILWAY)
+PT_GUIMARAES_LINE = Way("Guimarães Line", "Linha de Guimarães", PORTUGAL, RAILWAY)
+PT_LISBON_METRO_RED_LINE = Way("Lisbon Metro - Red Line", "Linha Vermelha: São Sebastião → Aeroporto", PORTUGAL, RAILWAY)
+PT_MINHO_LINE = Way("Minho Line", "Linha do Minho", PORTUGAL, RAILWAY)
+PT_NORTH_LINE = Way("North Line", "Linha do Norte", PORTUGAL, RAILWAY)
+PT_SINTRA_LINE = Way("Sintra Line", "Linha de Sintra", PORTUGAL, RAILWAY)
+PT_SOUTH_LINE = Way("South Line", "Linha do Sul", PORTUGAL, RAILWAY)
+PT_TOMAR_BRANCH_LINE = Way("Tomar Branch Line", "Ramal de Tomar", PORTUGAL, RAILWAY)
+PT_VOUGA_LINE = Way("Vouga Line", "Linha do Vouga", PORTUGAL, RAILWAY)
+PT_WEST_LINE = Way("West Line", "Linha do Oeste", PORTUGAL, RAILWAY)
