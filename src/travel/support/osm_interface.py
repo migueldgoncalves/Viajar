@@ -127,22 +127,27 @@ class OsmWay:
 class OsmInterface:
 
     @staticmethod
-    def testar_ligacao() -> bool:
+    def test_connections() -> bool:
         """
-        Retorna True se se conseguiu estabelecer ligação com todos os servidores, False caso contrário
+        Returns True if connection could be established with all OSM servers, False otherwise
         """
         try:
-            for pais in ways.ALL_SUPPORTED_COUNTRIES:
-                url_servidor: str = OsmInterface._obter_url_servidor(pais)
-                query = "out;"
+            for country in ways.ALL_SUPPORTED_COUNTRIES:
+                server_url: str = OsmInterface._get_server_url(country)
+                query: str = "out;"  # Simplest query - Just to check if server replies
 
-                raw_response: str = requests.get(url_servidor + "?" + query).content.decode()
-                xml_elem: minidom.Element = OsmInterface._parse_response(raw_response)
+                raw_response: str = requests.get(f'{server_url}?{query}').content.decode()  # Will raise ConnectionError if server is down
+                xml_elem: minidom.Element = OsmInterface._parse_raw_response(raw_response)
                 if xml_elem.tagName == 'osm':
-                    continue  # Sucesso
+                    continue  # Success - Check next server URL
                 else:
-                    return False
-        except:
+                    return False  # Server down
+        except requests.exceptions.ConnectionError:
+            print(f'At least one OSM server is down')
+            return False
+        except Exception as e:
+            print("An exception occurred while checking if OSM servers are running")
+            print(e.args)
             return False
 
         return True
@@ -159,7 +164,7 @@ class OsmInterface:
         if not pais:
             return {}
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             return {}
 
@@ -201,7 +206,7 @@ class OsmInterface:
                 f'node.n1[highway="motorway_junction"];' \
                 f'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             return {}
 
@@ -220,7 +225,7 @@ class OsmInterface:
                     resposta[saida_id].append(coordenadas)
 
         if not resposta:
-            if OsmInterface.testar_ligacao():
+            if OsmInterface.test_connections():
                 print("A estrada fornecida não tem saídas com identificadores")
             return {}
 
@@ -240,7 +245,7 @@ class OsmInterface:
                 f'node.n1[name];' \
                 f'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             return {}
 
@@ -259,7 +264,7 @@ class OsmInterface:
                     resposta[estacao].append(coordenadas)
 
         if not resposta:
-            if OsmInterface.testar_ligacao():
+            if OsmInterface.test_connections():
                 print("Não se encontraram estações ou apeadeiros para a linha ou ramal fornecido")
             return {}
 
@@ -323,7 +328,7 @@ class OsmInterface:
         else:
             return {}, {}, []
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             return {}, {}, []
 
@@ -344,7 +349,7 @@ class OsmInterface:
                     lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
 
         if not lista_nos or not lista_vias:
-            if OsmInterface.testar_ligacao():
+            if OsmInterface.test_connections():
                 print("Não se encontraram relações nem vias OSM para a estrada/ferrovia fornecida")
             return {}, {}, []
 
@@ -361,7 +366,7 @@ class OsmInterface:
                 f'way[name="{nome_via}"];);' \
                 'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             return {}, {}
 
@@ -382,7 +387,7 @@ class OsmInterface:
                     lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
 
         if not lista_nos or not lista_vias:
-            if OsmInterface.testar_ligacao():
+            if OsmInterface.test_connections():
                 print("Não se encontraram relações nem vias OSM para a estrada/ferrovia fornecida")
             return {}, {}
 
@@ -424,7 +429,7 @@ class OsmInterface:
         query = f'rel[name="{nome}"][admin_level="{nivel_administrativo}"];' \
                 'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
         if not raw_result:
             print("Nenhum resultado obtido")
             return None
@@ -474,41 +479,53 @@ class OsmInterface:
         return pontos_extremos
 
     @staticmethod
-    def _query(query: str, pais: str, debug: bool = False) -> Optional[minidom.Element]:
+    def _query_server(query: str, country: str) -> Optional[minidom.Element]:
+        """
+        Base method to send a query to an OSM server and return the parsed response
+        :param query: Query string to send to the server
+        :param country: Desired country - It is expected that the query applies to a single country
+        :return: A Python representation of the response XML on success, None otherwise
+        """
+        assert query
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
         try:
-            url_servidor: str = OsmInterface._obter_url_servidor(pais)
-            raw_response = requests.get(url_servidor + "?data=" + query).content.decode()
-            if debug:
-                print(raw_response)
-            return OsmInterface._parse_response(raw_response)
+            server_url: str = OsmInterface._get_server_url(country)
+            raw_response: str = requests.get(f'{server_url}?data={query}').content.decode()  # An XML encoded as a string
+            return OsmInterface._parse_raw_response(raw_response)  # From string to a representation of the response XML
 
         except requests.exceptions.ConnectionError:
-            print("A ligação não pôde ser estabelecida - O servidor local está ligado?")
+            print(f"Connection with OSM server for country {country} failed to be established - Is server running?")
             return None
         except Exception as e:
-            print("Erro ao enviar uma query Overpass QL para o servidor local")
+            print(f'Error while sending Overpass QL query {query} to OSM server for country {country}')
             print(e)
             return None
 
     @staticmethod
-    def _parse_response(raw_response: str) -> Optional[minidom.Element]:
+    def _parse_raw_response(raw_response: str) -> Optional[minidom.Element]:
+        """
+        Given the raw string response from the OSM servers (always formatted as an XML), returns the essential part of the response
+            as a Python XML object
+        """
         if raw_response:
-            return minidom.parseString(raw_response).childNodes[0]  # Elemento base - Sempre delimitado por <osm> </osm>
+            return minidom.parseString(raw_response).childNodes[0]  # Base element - Always delimited by <osm> </osm>
         else:
             return None
 
     @staticmethod
-    def _obter_url_servidor(pais: str) -> Optional[str]:
-        if pais == ways.SPAIN:  # Os mapas de Espanha e de Gibraltar estão no mesmo servidor
-            porto = PORT_GIBRALTAR_SPAIN
-        elif pais == ways.PORTUGAL:
-            porto = PORT_PORTUGAL
-        elif pais == ways.ANDORRA:
-            porto = PORT_ANDORRA
-        elif pais == ways.GIBRALTAR:
-            porto = PORT_GIBRALTAR_SPAIN
-        else:  # País não coberto
+    def _get_server_url(country: str) -> Optional[str]:
+        """
+        Given a target country, returns the full OSM server URL, or None if country is unsupported
+        """
+        if country == ways.ANDORRA:
+            port: int = PORT_ANDORRA
+        elif country in [ways.GIBRALTAR, ways.SPAIN]:  # Spain and Gibraltar maps are in the same server
+            port: int = PORT_GIBRALTAR_SPAIN
+        elif country == ways.PORTUGAL:
+            port: int = PORT_PORTUGAL
+        else:  # Unsupported country
             return None
 
-        url_servidor = f'http://{DOCKER_IP}:{porto}/api/interpreter'  # Usar https se o servidor não for local
-        return url_servidor
+        server_url = f'http://{DOCKER_IP}:{port}/api/interpreter'  # Please change to https if server is remote
+        return server_url

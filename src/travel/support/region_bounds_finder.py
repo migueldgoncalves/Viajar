@@ -26,7 +26,7 @@ def obter_pontos_extremos():
     Rotina principal
     """
     try:
-        sucesso = OsmInterface().testar_ligacao()
+        sucesso = OsmInterface().test_connections()
         if not sucesso:  # Pelo menos um servidor desligado
             print("Os servidores estão desligados")
             print("Ligue-os e volte a executar este script")
