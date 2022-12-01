@@ -5,6 +5,11 @@ from xml.dom import minidom
 from travel.support import ways
 from travel.support.coordinate import Coordinate
 
+"""
+Interface to OpenStreetMap API
+Machines running instances of OSM can be Dockers running locally
+"""
+
 # Servers
 DOCKER_IP = '127.0.0.1'  # Localhost
 PORT_GIBRALTAR_SPAIN = 12345  # Same Docker instance contains maps of Spain and Gibraltar
@@ -92,24 +97,31 @@ class ExtremePoints:
                f'West: {self.west}'
 
 
-class Node:
+class OsmNode:
     """
-    Classe para guardar dados de um nó
+    Data access object to store the data of an OSM node
     """
     def __init__(self, node_id: int, latitude: float, longitude: float):
+        assert node_id >= 0  # Node ID == 0 - Default node ID, used in distance calculation
+        assert -90 <= latitude <= 90
+        assert -180 <= longitude <= 180
+
         self.node_id: int = node_id
         self.latitude: float = float(latitude)
         self.longitude: float = float(longitude)
-        self.nos_circundantes: set[int] = set()
+        self.surrounding_node_ids: set[int] = set()  # Contains IDs of nodes that are next to this node in ways and relations
 
 
-class Via:
+class OsmWay:
     """
-    Classe para guardar dados de uma via
+    Data access object to store the data of an OSM way
     """
-    def __init__(self, via_id, lista_nos: list[Node]):
-        self.via_id: int = via_id
-        self.lista_nos: list[Node] = lista_nos
+    def __init__(self, way_id: int, node_list: list[OsmNode]):
+        assert way_id > 0
+        assert node_list
+
+        self.way_id: int = way_id
+        self.node_list: list[OsmNode] = node_list
 
 
 class OsmInterface:
@@ -255,7 +267,7 @@ class OsmInterface:
 
     @staticmethod
     def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinate], via_tipo: str, detalhe: int,
-                                               pais: str) -> tuple[dict[int, Node], dict[int, Via], list[float]]:
+                                               pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
         """
         Retorna objectos Node e Via para uso no cálculo de distâncias dentro de uma determinada área rectangular
         :param lista_coordenadas: Lista de coordenadas que delimitam a área pretendida
@@ -315,21 +327,21 @@ class OsmInterface:
         if not raw_result:
             return {}, {}, []
 
-        lista_nos: dict[int, Node] = {}
-        lista_vias: dict[int, Via] = {}
+        lista_nos: dict[int, OsmNode] = {}
+        lista_vias: dict[int, OsmWay] = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'way' and no.hasAttribute('id'):
                 via_id: int = no.getAttribute('id')
-                lista_nos_via: list[Node] = []
+                lista_nos_via: list[OsmNode] = []
                 for n2 in no.childNodes:
                     if n2.nodeName == 'nd' and n2.hasAttribute('ref') and n2.hasAttribute('lat') and n2.hasAttribute('lon'):
                         no_id: int = n2.getAttribute('ref')
                         lat: float = n2.getAttribute('lat')
                         lon: float = n2.getAttribute('lon')
-                        lista_nos_via.append(Node(no_id, lat, lon))
-                        lista_nos[no_id] = Node(no_id, lat, lon)
+                        lista_nos_via.append(OsmNode(no_id, lat, lon))
+                        lista_nos[no_id] = OsmNode(no_id, lat, lon)
                 if lista_nos_via:
-                    lista_vias[via_id] = Via(via_id, lista_nos_via)
+                    lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
 
         if not lista_nos or not lista_vias:
             if OsmInterface.testar_ligacao():
@@ -339,7 +351,7 @@ class OsmInterface:
         return lista_nos, lista_vias, area_extremos
 
     @staticmethod
-    def processar_via_para_calculo_distancias(nome_via: str, pais: str) -> tuple[dict[int, Node], dict[int, Via]]:
+    def processar_via_para_calculo_distancias(nome_via: str, pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay]]:
         """
         Dado o nome de uma estrada ou ferrovia, retorna objectos Node e Via para uso no cálculo de distâncias nessa
             estrada ou ferrovia
@@ -353,21 +365,21 @@ class OsmInterface:
         if not raw_result:
             return {}, {}
 
-        lista_nos: dict[int, Node] = {}
-        lista_vias: dict[int, Via] = {}
+        lista_nos: dict[int, OsmNode] = {}
+        lista_vias: dict[int, OsmWay] = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'way' and no.hasAttribute('id'):
                 via_id: int = no.getAttribute('id')
-                lista_nos_via: list[Node] = []
+                lista_nos_via: list[OsmNode] = []
                 for n2 in no.childNodes:
                     if n2.nodeName == 'nd' and n2.hasAttribute('ref') and n2.hasAttribute('lat') and n2.hasAttribute('lon'):
                         no_id: int = n2.getAttribute('ref')
                         lat: float = n2.getAttribute('lat')
                         lon: float = n2.getAttribute('lon')
-                        lista_nos_via.append(Node(no_id, lat, lon))
-                        lista_nos[no_id] = Node(no_id, lat, lon)
+                        lista_nos_via.append(OsmNode(no_id, lat, lon))
+                        lista_nos[no_id] = OsmNode(no_id, lat, lon)
                 if lista_nos_via:
-                    lista_vias[via_id] = Via(via_id, lista_nos_via)
+                    lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
 
         if not lista_nos or not lista_vias:
             if OsmInterface.testar_ligacao():

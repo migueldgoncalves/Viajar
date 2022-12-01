@@ -27,7 +27,7 @@ class CalculadoraDistancias:
         Depois correr o algoritmo de Dijkstra para quantos pares (origem, destino) se queira
     """
     def __init__(self) -> None:
-        self.mapa_processado: dict[int, osm_interface.Node] = {}
+        self.mapa_processado: dict[int, osm_interface.OsmNode] = {}
 
     def gerar_mapa_processado(self, lista_coordenadas: list[Coordinate], via_tipo: str, pais: str,
                               detalhe_area: int = None, via_nome: str = None) -> None:
@@ -71,15 +71,15 @@ class CalculadoraDistancias:
                 print("Aviso: A área a cobrir é muito grande - Esta operação poderá ser muito demorada")
 
             # Assim que se receber os nós circundantes, haverá toda a informação para se correr o algoritmo de Dijkstra
-            self.mapa_processado: dict[int, osm_interface.Node] = lista_nos
+            self.mapa_processado: dict[int, osm_interface.OsmNode] = lista_nos
 
         else:  # Pretende-se cobrir uma estrada/ferrovia individual
 
             # Assim que se receber os nós circundantes, haverá toda a informação para se correr o algoritmo de Dijkstra
             retorno = osm_interface.OsmInterface.processar_via_para_calculo_distancias(via_nome, pais)
-            self.mapa_processado: dict[int, osm_interface.Node] = retorno[0]
+            self.mapa_processado: dict[int, osm_interface.OsmNode] = retorno[0]
 
-            vias_a_considerar: dict[int, osm_interface.Via] = retorno[1]
+            vias_a_considerar: dict[int, osm_interface.OsmWay] = retorno[1]
             min_latitude: float = -90.0  # As coordenadas neste caso não serão consideradas
             max_latitude: float = 90.0
             min_longitude: float = -180.0
@@ -88,36 +88,36 @@ class CalculadoraDistancias:
         # Adicionar nós circundantes
         print("A adicionar informação de nós circundantes...")
         for via_id in vias_a_considerar:
-            via: osm_interface.Via = vias_a_considerar[via_id]
-            if len(via.lista_nos) <= 1:
+            via: osm_interface.OsmWay = vias_a_considerar[via_id]
+            if len(via.node_list) <= 1:
                 continue
-            for index, no in enumerate(via.lista_nos):  # Todos os nós da via, estejam ou não no rectângulo desejado
+            for index, no in enumerate(via.node_list):  # Todos os nós da via, estejam ou não no rectângulo desejado
                 if index == 0:
-                    no_seguinte: osm_interface.Node = via.lista_nos[1]
+                    no_seguinte: osm_interface.OsmNode = via.node_list[1]
                     if (min_latitude <= no_seguinte.latitude <= max_latitude) and \
                             (min_longitude <= no_seguinte.longitude <= max_longitude):  # Nó circundante está dentro do rectângulo
                         if self.mapa_processado.get(no.node_id, None):
-                            self.mapa_processado[no.node_id].nos_circundantes.add(no_seguinte.node_id)
-                elif index == len(via.lista_nos) - 1:  # Último nó da via
-                    no_anterior: osm_interface.Node = via.lista_nos[index - 1]
+                            self.mapa_processado[no.node_id].surrounding_node_ids.add(no_seguinte.node_id)
+                elif index == len(via.node_list) - 1:  # Último nó da via
+                    no_anterior: osm_interface.OsmNode = via.node_list[index - 1]
                     if (min_latitude <= no_anterior.latitude <= max_latitude) and \
                             (min_longitude <= no_anterior.longitude <= max_longitude):  # Nó circundante está dentro do rectângulo
                         if self.mapa_processado.get(no.node_id, None):
-                            self.mapa_processado[no.node_id].nos_circundantes.add(no_anterior.node_id)
+                            self.mapa_processado[no.node_id].surrounding_node_ids.add(no_anterior.node_id)
                 else:  # Nó a meio da via
-                    no_seguinte: osm_interface.Node = via.lista_nos[index + 1]
+                    no_seguinte: osm_interface.OsmNode = via.node_list[index + 1]
                     if (min_latitude <= no_seguinte.latitude <= max_latitude) and \
                             (min_longitude <= no_seguinte.longitude <= max_longitude):  # Nó circundante está dentro do rectângulo
                         if self.mapa_processado.get(no.node_id, None):
-                            self.mapa_processado[no.node_id].nos_circundantes.add(no_seguinte.node_id)
-                    no_anterior: osm_interface.Node = via.lista_nos[index - 1]
+                            self.mapa_processado[no.node_id].surrounding_node_ids.add(no_seguinte.node_id)
+                    no_anterior: osm_interface.OsmNode = via.node_list[index - 1]
                     if (min_latitude <= no_anterior.latitude <= max_latitude) and \
                             (min_longitude <= no_anterior.longitude <= max_longitude):  # Nó circundante está dentro do rectângulo
                         if self.mapa_processado.get(no.node_id, None):
-                            self.mapa_processado[no.node_id].nos_circundantes.add(no_anterior.node_id)
+                            self.mapa_processado[no.node_id].surrounding_node_ids.add(no_anterior.node_id)
 
         self.mapa_processado = {no_id: self.mapa_processado[no_id] for no_id in self.mapa_processado if
-                                len(self.mapa_processado[no_id].nos_circundantes) > 0}  # Manter apenas nós que tenham nós circundantes
+                                len(self.mapa_processado[no_id].surrounding_node_ids) > 0}  # Manter apenas nós que tenham nós circundantes
 
         print("Representação da área obtida")
         return
@@ -183,7 +183,7 @@ class CalculadoraDistancias:
 
         while destino_no_id in nos_nao_visitados:
             distancia_para_no: float = distancias[no_actual]
-            nos_circundantes: set[int] = self.mapa_processado[no_actual].nos_circundantes
+            nos_circundantes: set[int] = self.mapa_processado[no_actual].surrounding_node_ids
 
             for no_circundante in nos_circundantes:
                 if no_circundante not in nos_nao_visitados:
@@ -219,10 +219,10 @@ class CalculadoraDistancias:
         O cálculo é aproximado - Usa-se o Teorema de Pitágoras em vez das distâncias de Haversine para mais rapidez
             Um grau de longitude em distância na Península Ibérica não corresponde exactamente a um grau de latitude
         """
-        no_mais_proximo: osm_interface.Node = osm_interface.Node(0, 0.0, 0.0)
+        no_mais_proximo: osm_interface.OsmNode = osm_interface.OsmNode(0, 0.0, 0.0)
         distancia_pitagoras: float = DISTANCIA_INFINITA
         for no_id in self.mapa_processado:
-            no: osm_interface.Node = self.mapa_processado[no_id]
+            no: osm_interface.OsmNode = self.mapa_processado[no_id]
 
             diferenca_latitude = abs(no.latitude - coordenadas.latitude)
             diferenca_longitude = abs(no.longitude - coordenadas.longitude)
