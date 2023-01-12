@@ -3,10 +3,194 @@ from xml.dom import minidom
 
 from travel.support.osm_interface import OsmInterface
 from travel.support import ways
+from travel.support.coordinates import Coordinates
 from test.travel.support import test_fail_if_servers_down
 
 
 class TestOsmInterface(unittest.TestCase):
+
+    def test_get_administrative_divisions_by_coordinates_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # No coordinates
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_administrative_divisions_by_coordinates(None, ways.PORTUGAL)  # Providing null country is accepted
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -5.0), 'Invalid country')
+
+        # Coordinates outside covered countries
+        self.assertEqual({}, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(0.0, 0.0), None))  # Gulf of Guinea
+        self.assertEqual({}, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(0.0, 0.0), ways.PORTUGAL))  # Gulf of Guinea
+
+        # Coordinates not matching provided country
+        self.assertEqual({}, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -5.0), ways.PORTUGAL))  # Coordinates belong to Spanish Extremadura
+
+    def test_get_administrative_divisions_by_coordinates_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Portugal, far from Spanish border
+        expected_response = {
+            2: 'Portugal',
+            6: 'Lisboa',
+            7: 'Vila Franca de Xira',
+            8: 'Castanheira do Ribatejo e Cachoeiras',
+            'historic_parish': 'Cachoeiras',
+            'região': 'Área Metropolitana de Lisboa',
+            'sub-região': 'Grande Lisboa',
+            'timezone': 'Europe/Lisbon Timezone'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -9.0), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -9.0), ways.PORTUGAL))
+
+        # Portugal, close from Spanish border
+        expected_response = {
+            2: 'Portugal',
+            6: 'Portalegre',
+            7: 'Campo Maior',
+            8: 'Nossa Senhora da Expectação',
+            'protected_area': 'Caia',
+            'região': 'Alentejo',
+            'sub-região': 'Alto Alentejo',
+            'timezone': 'Europe/Lisbon Timezone'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -7.0), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -7.0), ways.PORTUGAL))
+
+        # Portuguese Madeira Islands
+        expected_response = {
+            2: 'Portugal',
+            4: 'Madeira',
+            7: 'Porto Santo',
+            8: 'Porto Santo',
+            'ilha': 'Porto Santo',
+            'lugar': 'Matas',
+            'timezone': 'Atlantic/Madeira Timezone'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(33.058620, -16.339865), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(33.058620, -16.339865), ways.PORTUGAL))
+
+        # Portuguese Azores Islands
+        expected_response = {
+            2: 'Portugal',
+            4: 'Açores',
+            7: 'Velas',
+            8: 'Norte Grande (Neves)',
+            'ilha': 'São Jorge',
+            'timezone': 'Atlantic/Azores Timezone'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(38.673701, -28.055517), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(38.673701, -28.055517), ways.PORTUGAL))
+
+        # Spain, close from Portuguese border
+        expected_response = {
+            4: 'Extremadura',
+            6: 'Badajoz',
+            8: 'Mérida'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -6.5), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -6.5), ways.SPAIN))
+
+        # Spain, far from all borders, with comarca and district info known
+        expected_response = {
+            4: 'Provincia Eclesiástica de Madrid',
+            6: 'Archidiócesis de Madrid',
+            7: 'Área metropolitana de Madrid y Corredor del Henares',
+            8: 'Madrid',
+            9: 'Moncloa-Aravaca',
+            10: 'Ciudad Universitaria'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(40.45, -3.75), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(40.45, -3.75), ways.SPAIN))
+
+        # Spain, close from Gibraltar border
+        expected_response = {
+            4: 'Andalucía',
+            6: 'Cádiz',
+            7: 'Campo de Gibraltar',
+            8: 'La Línea de la Concepción'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.168023, -5.350738), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.168023, -5.350738), ways.SPAIN))
+
+        # Spain, close from Andorran border
+        expected_response = {
+            4: 'Catalunya',
+            6: 'Lleida',
+            7: 'Alt Urgell',
+            8: "la Seu d'Urgell",
+            'political': 'Català com a llengua pròpia a Catalunya',
+            'political_fraction': 'Alt Pirineu i Aran (Lleida)'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.358877, 1.456251), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.358877, 1.456251), ways.SPAIN))
+
+        # Spain, close from French border
+        expected_response = {
+            4: 'Euskadi',
+            6: 'Gipuzkoa',
+            7: 'Bidasoa Beherea / Bajo Bidasoa',
+            8: 'Hondarribia/Fontarrabie'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(43.369574, -1.796590), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(43.369574, -1.796590), ways.SPAIN))
+
+        # Ceuta, Spain, close from Moroccan border
+        expected_response = {
+            4: 'Ceuta',
+            8: 'Ceuta'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.888740, -5.320993), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.888740, -5.320993), ways.SPAIN))
+
+        # Melilla, Spain, close from Moroccan border
+        expected_response = {
+            4: 'Melilla',
+            8: 'Melilla'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.287817, -2.947612), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.287817, -2.947612), ways.SPAIN))
+
+        # Spanish Balearic Islands
+        expected_response = {
+            4: 'Illes Balears',
+            6: 'Illes Balears',
+            7: 'Menorca',
+            8: 'Maó'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.888771, 4.260855), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.888771, 4.260855), ways.SPAIN))
+
+        # Spanish Canary Islands - Included in a separate server
+        expected_response = {
+            2: 'España',
+            4: 'Canarias',
+            6: 'Las Palmas',
+            8: 'Las Palmas de Gran Canaria',
+            'political': 'Gran Canaria',
+            'region': 'Canary Islands',
+            'timezone': 'Atlantic/Canary Timezone'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(28.117338, -15.437617), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(28.117338, -15.437617), ways.CANARY_ISLANDS))
+
+        # Gibraltar
+        expected_response = {
+            2: 'Gibraltar',
+            4: 'Gibraltar',
+            'administrative': 'British Overseas Territories'
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.135510, -5.347506), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.135510, -5.347506), ways.GIBRALTAR))
+
+        # Andorra
+        expected_response = {
+            2: 'Andorra',
+            7: 'Escaldes-Engordany',
+        }
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.509215, 1.538949), None))
+        self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.509215, 1.538949), ways.ANDORRA))
 
     def test_query_server_invalid_parameters(self):
         # All invalid parameters
@@ -143,3 +327,4 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual('http://127.0.0.1:12345/api/interpreter', OsmInterface()._get_server_url(ways.GIBRALTAR))
         self.assertEqual('http://127.0.0.1:12346/api/interpreter', OsmInterface()._get_server_url(ways.PORTUGAL))
         self.assertEqual('http://127.0.0.1:12345/api/interpreter', OsmInterface()._get_server_url(ways.SPAIN))
+        self.assertEqual('http://127.0.0.1:12348/api/interpreter', OsmInterface()._get_server_url(ways.CANARY_ISLANDS))

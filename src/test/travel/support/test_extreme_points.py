@@ -3,16 +3,16 @@ import unittest
 from travel.support import ways
 from travel.support import osm_interface
 from travel.support.osm_interface import ExtremePoints
-from travel.support.coordinate import Coordinate
+from travel.support.coordinates import Coordinates
 
 
 class TestExtremePoints(unittest.TestCase):
     
     def setUp(self):
-        self.north = Coordinate(1, 0)
-        self.south = Coordinate(-1, 0)
-        self.east = Coordinate(0, 1)
-        self.west = Coordinate(0, -1)
+        self.north = Coordinates(1, 0)
+        self.south = Coordinates(-1, 0)
+        self.east = Coordinates(0, 1)
+        self.west = Coordinates(0, -1)
 
         self.extreme_points = ExtremePoints('Portugal', osm_interface.COUNTRY, ways.PORTUGAL, self.north, self.south, self.east, self.west)
 

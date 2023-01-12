@@ -1,26 +1,26 @@
 import unittest
 
-from travel.support.coordinate import Coordinate
+from travel.support.coordinates import Coordinates
 
 
-class TestCoordinate(unittest.TestCase):
+class TestCoordinates(unittest.TestCase):
 
     def setUp(self):
-        self.coordinates_a = Coordinate(-90, -180)
-        self.coordinates_b = Coordinate(90, 180)
-        self.coordinates_c = Coordinate(0, 0)
+        self.coordinates_a = Coordinates(-90, -180)
+        self.coordinates_b = Coordinates(90, 180)
+        self.coordinates_c = Coordinates(0, 0)
 
     def test_initializer_invalid_arguments(self):
         with self.assertRaises(AssertionError):
-            Coordinate(-91, 181)
+            Coordinates(-91, 181)
         with self.assertRaises(AssertionError):
-            Coordinate(-91, 0)
+            Coordinates(-91, 0)
         with self.assertRaises(AssertionError):
-            Coordinate(91, 0)
+            Coordinates(91, 0)
         with self.assertRaises(AssertionError):
-            Coordinate(0, -181)
+            Coordinates(0, -181)
         with self.assertRaises(AssertionError):
-            Coordinate(0, 181)
+            Coordinates(0, 181)
 
     def test_initializer_successful(self):
         self.assertEqual(-90, self.coordinates_a.latitude)
@@ -93,9 +93,9 @@ class TestCoordinate(unittest.TestCase):
         self.assertEqual(self.coordinates_b, self.coordinates_b)
         self.assertEqual(self.coordinates_c, self.coordinates_c)
 
-        self.assertEqual(self.coordinates_a, Coordinate(-90, -180))
-        self.assertEqual(self.coordinates_b, Coordinate(90, 180))
-        self.assertEqual(self.coordinates_c, Coordinate(0, 0))
+        self.assertEqual(self.coordinates_a, Coordinates(-90, -180))
+        self.assertEqual(self.coordinates_b, Coordinates(90, 180))
+        self.assertEqual(self.coordinates_c, Coordinates(0, 0))
 
     def test_hash(self):
         self.assertEqual(-7303486224951061299, hash(self.coordinates_a))

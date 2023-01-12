@@ -1,6 +1,6 @@
 import travel.support.haversine as haversine
 import travel.support.osm_interface as osm_interface
-from travel.support.coordinate import Coordinate
+from travel.support.coordinates import Coordinates
 
 """
 Este módulo destina-se a calcular distâncias por estrada ou ferrovia entre dois pontos
@@ -29,7 +29,7 @@ class CalculadoraDistancias:
     def __init__(self) -> None:
         self.mapa_processado: dict[int, osm_interface.OsmNode] = {}
 
-    def gerar_mapa_processado(self, lista_coordenadas: list[Coordinate], via_tipo: str, pais: str,
+    def gerar_mapa_processado(self, lista_coordenadas: list[Coordinates], via_tipo: str, pais: str,
                               detalhe_area: int = None, via_nome: str = None) -> None:
         """
         Cria um mapa que contém todas as coordenadas fornecidas, adequado para se correr nele o algoritmo de Dijkstra
@@ -122,13 +122,13 @@ class CalculadoraDistancias:
         print("Representação da área obtida")
         return
 
-    def calcular_distancia_com_ajustes(self, origem: Coordinate, destino: Coordinate, menos_verificacoes=True) -> float:
+    def calcular_distancia_com_ajustes(self, origem: Coordinates, destino: Coordinates, menos_verificacoes=True) -> float:
         """
         Repete o cálculo das distâncias ajustando ligeiramente as coordenadas de origem e destino. Permite superar o
             haver duas vias OSM paralelas numa mesma auto-estrada, por exemplo
         Destina-se sobretudo ao cálculo de distâncias dentro de uma mesma estrada/ferrovia
         """
-        def _calcular_distancia_com_ajustes(origem: Coordinate, destino: Coordinate,
+        def _calcular_distancia_com_ajustes(origem: Coordinates, destino: Coordinates,
                                             ajuste_1: float, ajuste_2: float, ajuste_3: float, ajuste_4: float,
                                             verboso=False):
             latitude_origem = origem.latitude + ajuste_1
@@ -136,8 +136,8 @@ class CalculadoraDistancias:
             latitude_destino = destino.latitude + ajuste_3
             longitude_destino = destino.longitude + ajuste_4
 
-            origem = Coordinate(latitude_origem, longitude_origem)
-            destino = Coordinate(latitude_destino, longitude_destino)
+            origem = Coordinates(latitude_origem, longitude_origem)
+            destino = Coordinates(latitude_destino, longitude_destino)
 
             distancia: float = self.calcular_distancia(origem, destino, verboso=verboso)
             return distancia
@@ -159,7 +159,7 @@ class CalculadoraDistancias:
 
         return DISTANCIA_INFINITA
 
-    def calcular_distancia(self, origem: Coordinate, destino: Coordinate, verboso: bool = True) -> float:
+    def calcular_distancia(self, origem: Coordinates, destino: Coordinates, verboso: bool = True) -> float:
         """
         Tendo-se um mapa processado, retorna a distância por estrada ou ferrovia entre dois pontos
         Os pontos fornecidos são convertidos nos pontos em estrada ou ferrovia mais próximos
@@ -213,7 +213,7 @@ class CalculadoraDistancias:
 
         return distancia_para_destino
 
-    def _coordenadas_para_no(self, coordenadas: Coordinate):
+    def _coordenadas_para_no(self, coordenadas: Coordinates):
         """
         Dadas coordenadas e considerando o mapa já processado, retorna o nó mais próximo das coordenadas indicadas
         O cálculo é aproximado - Usa-se o Teorema de Pitágoras em vez das distâncias de Haversine para mais rapidez

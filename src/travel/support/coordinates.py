@@ -1,4 +1,4 @@
-class Coordinate:
+class Coordinates:
     """
     Data access object representing a set of coordinates
     """

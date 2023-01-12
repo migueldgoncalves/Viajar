@@ -3,7 +3,7 @@ import requests
 from xml.dom import minidom
 
 from travel.support import ways
-from travel.support.coordinate import Coordinate
+from travel.support.coordinates import Coordinates
 
 """
 Interface to OpenStreetMap API
@@ -12,9 +12,10 @@ Machines running instances of OSM can be Dockers running locally
 
 # Servers
 DOCKER_IP = '127.0.0.1'  # Localhost
-PORT_GIBRALTAR_SPAIN = 12345  # Same Docker instance contains maps of Spain and Gibraltar
+PORT_GIBRALTAR_SPAIN = 12345  # Same Docker instance contains maps of Spain and Gibraltar - Does not include Canary Islands
 PORT_PORTUGAL = 12346
 PORT_ANDORRA = 12347
+PORT_CANARY_ISLANDS = 12348
 
 ##############################
 # OpenStreetMap administrative levels
@@ -25,13 +26,6 @@ COUNTRY = 2  # Applies to countries. Gibraltar and its waters are covered by a l
 # Andorra
 ANDORRAN_PARISH = 7  # In Catalan, "parròquia"
 
-# Spain
-AUTONOMOUS_COMMUNITY = 4
-PROVINCE = 6
-COMARCA = 7
-SPANISH_MUNICIPALITY = 8  # In Spanish, "municipio"
-SPANISH_DISTRICT = 9  # In Spanish, "distrito"
-
 # Gibraltar
 GIBRALTAR_ADMIN_LEVEL = 4  # Covers the territory of Gibraltar. The sum of Gibraltar territory and waters is covered by a level-2 relation
 
@@ -41,6 +35,13 @@ PORTUGUESE_DISTRICT = 6  # In Portuguese, "distrito", same as in Spanish
 PORTUGUESE_MUNICIPALITY = 7  # In Portuguese, "concelho"
 PORTUGUESE_PARISH = 8  # In Portuguese, "freguesia"
 PORTUGUESE_HISTORIC_PARISH = 'historic_parish'  # Former Portuguese parishes (pre-2013), in the past were associated with level 9
+
+# Spain
+AUTONOMOUS_COMMUNITY = 4
+PROVINCE = 6
+COMARCA = 7
+SPANISH_MUNICIPALITY = 8  # In Spanish, "municipio"
+SPANISH_DISTRICT = 9  # In Spanish, "distrito"
 ##############################
 
 # Detail levels allow to balance between the accuracy of the results and the time spent calculating them
@@ -69,7 +70,7 @@ class ExtremePoints:
     Data access object to store the extreme points of a region
     """
     def __init__(self, name: str, admin_level: int, country: str,
-                 north: Coordinate, south: Coordinate, east: Coordinate, west: Coordinate):
+                 north: Coordinates, south: Coordinates, east: Coordinates, west: Coordinates):
         assert name
         assert admin_level >= COUNTRY
         assert country in ways.ALL_SUPPORTED_COUNTRIES
@@ -82,10 +83,10 @@ class ExtremePoints:
         self.name: str = name
         self.admin_level: int = admin_level
         self.country: str = country
-        self.north: Coordinate = north
-        self.south: Coordinate = south
-        self.east: Coordinate = east
-        self.west: Coordinate = west
+        self.north: Coordinates = north
+        self.south: Coordinates = south
+        self.east: Coordinates = east
+        self.west: Coordinates = west
 
     def __str__(self):
         return f'Name: {self.name}\n' \
@@ -153,46 +154,56 @@ class OsmInterface:
         return True
 
     @staticmethod
-    def obter_divisoes_administrativas_de_ponto(coordenadas: Coordinate, pais: str = None) -> dict[Union[str, int], str]:
+    def get_administrative_divisions_by_coordinates(coordinates: Coordinates, country: str = None) -> dict[Union[str, int], str]:
         """
-        A maior parte das divisões administrativas encontradas terão um número como identificador (entre 1 e 11), mas
-            também poderão ter uma string como identificador (ex: historic_parish - Antiga freguesia portuguesa)
+        Given a set of coordinates and optionally the respective country, returns a dictionary mapping administrative divisions numbers or keys
+            to the respective values, when available
+        While most administrative divisions to be found will be associated to a number between 1 (higher level) to 11 (lower level),
+            some may instead be associated to a string key, such as the Portuguese historic parish
+        :param coordinates: Coordinates of the desired point
+        :param country: Should be provided when called by routine determining country by coordinates. For calls from other routines,
+            parameter is determined automatically and does not need to be provided. This occurs because for locations close to borders,
+            they can be present as well in the maps of the neighbor country or countries, although with less info.
         """
-        query = f'is_in({coordenadas.latitude},{coordenadas.longitude}); out geom;'
-        if not pais:
-            pais: str = OsmInterface.detectar_pais_por_coordenadas(coordenadas)
-        if not pais:
+        assert coordinates
+
+        query: str = f'is_in({coordinates.latitude},{coordinates.longitude}); out geom;'
+        if not country:
+            country: str = OsmInterface.detectar_pais_por_coordenadas(coordinates)
+        if not country:
             return {}
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
             return {}
 
-        resposta = {}
-        for no in raw_result.childNodes:
-            if no.nodeName == 'area':  # Divisão administrativa encontrada
-                chave: Optional[Union[str, int]] = None
-                nome: Optional[str] = None
-                for n in no.childNodes:
-                    if n.nodeName == 'tag':
-                        if n.hasAttribute('k') and n.getAttribute('k') == 'admin_level':  # Nível da divisão encontrado
-                            chave = n.getAttribute('v')
-                        elif n.hasAttribute('k') and n.getAttribute('k') in [  # Nível não encontrado, mas sim nome (ex: antigas freguesias)
-                                'political_division', 'border_type', 'boundary'] and not chave:
-                            chave = n.getAttribute('v')
-                        elif n.hasAttribute('k') and n.getAttribute('k') == 'name':  # Nome da divisão administrativa
-                            nome = n.getAttribute('v')
-                if chave and nome:
+        response: dict[Union[str, int], str] = {}
+        for node in raw_result.childNodes:
+            if node.nodeName == 'area':  # Administrative division found
+                key: Optional[Union[str, int]] = None
+                name: Optional[str] = None
+                for sub_node in node.childNodes:
+                    if sub_node.nodeName == 'tag':
+                        # Gets the key
+                        if sub_node.hasAttribute('k') and sub_node.getAttribute('k') == 'admin_level':  # Division level found - Expected to be between 1 and 11
+                            key = sub_node.getAttribute('v')
+                        elif sub_node.hasAttribute('k') and sub_node.getAttribute('k') in [  # Level was not found, but string key was (ex: Portuguese historic parishes)
+                                'political_division', 'border_type', 'boundary'] and not key:
+                            key = sub_node.getAttribute('v')
+                        # Gets the value
+                        elif sub_node.hasAttribute('k') and sub_node.getAttribute('k') == 'name':  # Name of the administrative division
+                            name = sub_node.getAttribute('v')
+                if key and name:
                     try:
-                        chave = int(chave)
-                    except:  # Não é inteiro — Ex: 'historic_parish'
+                        key = int(key)
+                    except:  # Not an int. Ex: 'historic_parish'
                         pass
-                    resposta[chave] = nome
+                    response[key] = name
 
-        return dict(sorted(resposta.items(), key=lambda item: str(item[0])))  # Ordena resposta pela chave
+        return dict(sorted(response.items(), key=lambda item: str(item[0])))  # Sorts answer by key
 
     @staticmethod
-    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordinate]]:
+    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordinates]]:
         """
         Dado o nome de uma estrada e o respectivo país, retorna as saídas e respectivas coordenadas
         Destina-se sobretudo a auto-estradas e vias rápidas
@@ -213,7 +224,7 @@ class OsmInterface:
         resposta = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'node':
-                coordenadas: Coordinate = Coordinate(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                coordenadas: Coordinates = Coordinates(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
                 saida_id: Optional[str] = None
                 for n in no.childNodes:
                     if n.nodeName == 'tag':
@@ -232,7 +243,7 @@ class OsmInterface:
         return dict(sorted(resposta.items(), key=lambda item: item[0]))  # Ordena resposta pelo identificador da saída
 
     @staticmethod
-    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordinate]]:
+    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordinates]]:
         """
         Dado o nome de uma linha ferroviária e o respectivo país, retorna as estações e respectivas coordenadas
         """
@@ -252,7 +263,7 @@ class OsmInterface:
         resposta = {}
         for no in raw_result.childNodes:
             if no.nodeName == 'node':
-                coordenadas: Coordinate = Coordinate(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
+                coordenadas: Coordinates = Coordinates(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
                 estacao: Optional[str] = None
                 for n in no.childNodes:
                     if n.nodeName == 'tag':
@@ -271,7 +282,7 @@ class OsmInterface:
         return resposta
 
     @staticmethod
-    def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinate], via_tipo: str, detalhe: int,
+    def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinates], via_tipo: str, detalhe: int,
                                                pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
         """
         Retorna objectos Node e Via para uso no cálculo de distâncias dentro de uma determinada área rectangular
@@ -394,13 +405,13 @@ class OsmInterface:
         return lista_nos, lista_vias
 
     @staticmethod
-    def detectar_pais_por_coordenadas(coordenadas: Coordinate) -> Optional[str]:
+    def detectar_pais_por_coordenadas(coordenadas: Coordinates) -> Optional[str]:
         """
         Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
         :return: Nome do país se for possível determinar, None caso contrário
         """
         for pais_servidor in ways.ALL_SUPPORTED_COUNTRIES:
-            divisoes: dict[Union[str, int], str] = OsmInterface.obter_divisoes_administrativas_de_ponto(coordenadas, pais_servidor)
+            divisoes: dict[Union[str, int], str] = OsmInterface.get_administrative_divisions_by_coordinates(coordenadas, pais_servidor)
 
             if divisoes.get(COUNTRY):  # Espera-se que cubra Portugal, Andorra e Gibraltar
                 pais = divisoes[COUNTRY]
@@ -410,8 +421,11 @@ class OsmInterface:
                     return ways.ANDORRA
                 elif pais == 'Gibraltar':
                     return ways.GIBRALTAR
-                elif pais == 'Spain':
-                    return ways.SPAIN
+                elif pais in ['Spain', 'España']:
+                    if divisoes.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
+                        return ways.CANARY_ISLANDS
+                    else:
+                        return ways.SPAIN
                 else:  # País não coberto
                     return None
 
@@ -419,7 +433,10 @@ class OsmInterface:
                 comunidade_autonoma = divisoes[AUTONOMOUS_COMMUNITY]
 
                 if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
-                    return ways.SPAIN
+                    if divisoes.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
+                        return ways.CANARY_ISLANDS
+                    else:
+                        return ways.SPAIN
         else:
             return None
 
@@ -434,10 +451,10 @@ class OsmInterface:
             print("Nenhum resultado obtido")
             return None
 
-        max_norte: Coordinate = Coordinate(-90.0, 0.0)
-        max_sul: Coordinate = Coordinate(90.0, 0.0)
-        max_oeste: Coordinate = Coordinate(0.0, 180.0)
-        max_este: Coordinate = Coordinate(0.0, -180.0)
+        max_norte: Coordinates = Coordinates(-90.0, 0.0)
+        max_sul: Coordinates = Coordinates(90.0, 0.0)
+        max_oeste: Coordinates = Coordinates(0.0, 180.0)
+        max_este: Coordinates = Coordinates(0.0, -180.0)
         for no in raw_result.childNodes:
             if no.nodeName == 'relation' and no.hasAttribute('id'):  # Região pretendida
                 for n2 in no.childNodes:
@@ -520,7 +537,9 @@ class OsmInterface:
         """
         if country == ways.ANDORRA:
             port: int = PORT_ANDORRA
-        elif country in [ways.GIBRALTAR, ways.SPAIN]:  # Spain and Gibraltar maps are in the same server
+        elif country == ways.CANARY_ISLANDS:
+            port: int = PORT_CANARY_ISLANDS  # Part of Spain, in different server
+        elif country in [ways.GIBRALTAR, ways.SPAIN]:  # Spain and Gibraltar maps are in the same server - Please note that it does not include Canary Islands
             port: int = PORT_GIBRALTAR_SPAIN
         elif country == ways.PORTUGAL:
             port: int = PORT_PORTUGAL

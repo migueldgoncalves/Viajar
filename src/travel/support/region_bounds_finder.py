@@ -5,8 +5,9 @@ from travel.support.osm_interface import OsmInterface
 SAIR = 0
 PORTUGAL = 1
 ESPANHA = 2
-ANDORRA = 3
-GIBRALTAR = 4
+ILHAS_CANARIAS = 3
+ANDORRA = 4
+GIBRALTAR = 5
 
 
 def sair_por_opcao() -> None:
@@ -39,7 +40,7 @@ def obter_pontos_extremos():
 
         # Escolher país
 
-        print(f'{SAIR} - Sair, {PORTUGAL} - Portugal, {ESPANHA} - Espanha, {ANDORRA} - Andorra, {GIBRALTAR} - Gibraltar')
+        print(f'{SAIR} - Sair, {PORTUGAL} - Portugal, {ESPANHA} - Espanha Peninsular + Baleares + Ceuta + Melilla, {ILHAS_CANARIAS} - Ilhas Canárias, {ANDORRA} - Andorra, {GIBRALTAR} - Gibraltar')
         while True:
             try:
                 opcao: int = int(input("Indique o país ao qual pertence a região pretendida: "))
@@ -56,7 +57,11 @@ def obter_pontos_extremos():
                 break
             elif opcao == ESPANHA:
                 pais = ways.SPAIN
-                print("Escolheu Espanha")
+                print("Escolheu a Espanha Peninsular, Baleares, Ceuta, Melilla")
+                break
+            elif opcao == ILHAS_CANARIAS:
+                pais = ways.CANARY_ISLANDS
+                print("Escolheu as Ilhas Canárias")
                 break
             elif opcao == ANDORRA:
                 pais = ways.ANDORRA
@@ -95,8 +100,8 @@ def obter_pontos_extremos():
                         continue
                     imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
 
-        elif pais == ways.SPAIN:
-            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País, {osm_interface.AUTONOMOUS_COMMUNITY} - Comunidade Autónoma, '
+        elif pais in [ways.SPAIN, ways.CANARY_ISLANDS]:
+            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País/Região, {osm_interface.AUTONOMOUS_COMMUNITY} - Comunidade Autónoma, '
                   f'{osm_interface.PROVINCE} - Província, {osm_interface.COMARCA} - Comarca, {osm_interface.SPANISH_MUNICIPALITY} - Município, '
                   f'{osm_interface.SPANISH_DISTRICT} - Distrito')
 
