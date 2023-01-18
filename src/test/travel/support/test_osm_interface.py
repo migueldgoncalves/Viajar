@@ -192,6 +192,125 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.509215, 1.538949), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.509215, 1.538949), ways.ANDORRA))
 
+    def test_get_road_exits_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # No parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits(None, None)
+
+        # Invalid parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits('Invalid road', 'Invalid country')
+
+        # No road name
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits(None, ways.PORTUGAL)
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits('', ways.PORTUGAL)
+
+        # Invalid road name
+        self.assertEqual({}, OsmInterface().get_road_exits('Invalid road', ways.PORTUGAL))
+
+        # No country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits(ways.PT_A5.osm_name, None)
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits(ways.PT_A5.osm_name, '')
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_road_exits(ways.PT_A5.osm_name, 'Invalid country')
+
+    def test_get_road_exits_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Large Portuguese freeway
+        expected_response_keys = [
+            '1', '10', '10A', '11', '12', '13', '14', '15', '16', '17', '18', '18A', '18B', '19', '19A', '1A', '2', '22',
+            '23', '2A', '3', '3A', '4', '5', '5A', '6', '6 A', '6A', '7', '8', '9'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_A1.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(38.7936469, -9.1126855), Coordinates(38.7844696, -9.1208711)], response['1'])
+        self.assertEqual([Coordinates(41.0061416, -8.5822318), Coordinates(41.0793433, -8.5817397),
+                          Coordinates(41.0725807, -8.5810286), Coordinates(41.0667503, -8.5815289)], response['19'])
+        self.assertEqual([Coordinates(39.7417361, -8.7432394), Coordinates(39.7395957, -8.7364531)], response['9'])
+
+        # Small Portuguese freeway
+        expected_response_keys = [
+            '1', '10', '11', '12', '2', '3', '4', '5', '6', '7', '8', '9'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_A5.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(38.7248631, -9.1848642)], response['1'])
+        self.assertEqual([Coordinates(38.7189712, -9.2115565), Coordinates(38.7207966, -9.2058737),
+                          Coordinates(38.7212092, -9.2044865)], response['3'])
+        self.assertEqual([Coordinates(38.7174199, -9.3854995), Coordinates(38.7177498, -9.3910173)], response['9'])
+
+        # Portuguese road without exit numbers
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_IC27.osm_name, ways.PORTUGAL)
+        self.assertEqual({}, response)
+
+        # Large Spanish freeway
+        expected_response_keys = [
+            '1', '103', '104', '105', '110A', '110B', '110b', '112', '1123', '1129', '1131', '1138', '113b', '1143',
+            '1146', '1148', '115', '1151', '1152', '1153', '1154', '1155', '1156', '1158', '116', '1160', '1160A',
+            '1160B', '1161', '1162', '1163', '1164', '1168', '117', '118', '119', '124', '127', '133', '135', '136',
+            '138', '153', '155', '157', '160', '170', '172', '175', '176', '181A', '181B', '182', '183', '184', '185',
+            '186', '187', '188', '192', '196', '197', '198', '201', '205', '206', '208', '209', '210', '212', '213',
+            '214', '217', '222', '223', '225', '226', '230', '232', '233', '234', '235', '236', '237', '238', '240',
+            '241', '242', '243', '244', '245', '246', '246-A', '246-B', '251', '254', '256', '258', '265', '272', '274',
+            '276', '277', '278', '279', '282', '283', '285', '287A', '287B', '289', '292', '293', '295', '297', '305',
+            '307', '311', '313', '314', '315', '321', '322', '324', '325', '326', '328', '329', '331', '335', '336',
+            '339', '341', '342', '344', '346', '351', '354', '355', '356', '357', '358', '359', '361', '363', '366',
+            '367', '369', '371', '373', '375', '376', '379', '381', '383', '384', '385', '386', '389', '391', '394',
+            '395', '396', '398', '400', '402', '403', '404', '406', '409', '410', '411', '413', '414', '415', '416',
+            '418', '419', '420', '422', '423', '424', '425', '429', '430', '431', '432', '435', '436', '438', '441',
+            '442', '443', '446', '448', '449', '452', '453', '456', '459', '460', '464', '467', '468', '469', '471',
+            '475', '479', '481', '482', '487', '489', '491', '494', '50', '504', '50A', '51', '510', '513', '514',
+            '516', '518', '520', '523', '525', '526', '528', '529', '534', '534a', '534b', '535', '537', '538', '541',
+            '543', '545', '547', '549', '553', '555', '559', '559A', '559B', '563', '565', '567 AB', '570', '571',
+            '575', '578 A', '578 AB', '578 B', '578 BA', '581', '584', '585', '586', '588', '589', '591', '594', '596',
+            '598', '6', '601', '609', '611', '616', '618', '622', '623', '628', '630', '633', '636', '640', '642',
+            '644', '645', '646', '649', '651', '655', '7'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_A7.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(39.8955497, -0.1970601), Coordinates(39.8971608, -0.1970829)], response['1'])
+        self.assertEqual([Coordinates(36.7741554, -3.5724422), Coordinates(36.7733459, -3.5811174)], response['322'])
+        self.assertEqual([Coordinates(36.7023358, -4.4576572)], response['7'])
+
+        # Small Spanish freeway
+        expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '16', '17', '19', '2', '20', '20A',
+                                  '20B', '23', '23A', '23B', '24', '25', '26', '27', '28', '2A', '2B', '2C', '3',
+                                  '3-4-5', '30', '31', '31B', '3BA', '4', '5', '5A', '5AB', '6', '6A', '6B', '7-6',
+                                  '7-8-9', '7A', '7B', '7BA', '8', '8A', '9A', '9B'
+                                  ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_M30.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(40.4813264, -3.673715)], response['0A'])
+        self.assertEqual([Coordinates(40.4638637, -3.6665504)], response['2C'])
+        self.assertEqual([Coordinates(40.4028638, -3.6664435)], response['9B'])
+
+        # Spanish road without exit numbers
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_A483.osm_name, ways.PORTUGAL)
+        self.assertEqual({}, response)
+
+        # No road in Andorra or Gibraltar is expected to have exit numbers
+
     def test_query_server_invalid_parameters(self):
         # All invalid parameters
         with self.assertRaises(AssertionError):

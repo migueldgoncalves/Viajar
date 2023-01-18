@@ -203,44 +203,48 @@ class OsmInterface:
         return dict(sorted(response.items(), key=lambda item: str(item[0])))  # Sorts answer by key
 
     @staticmethod
-    def obter_saidas_de_estrada(nome_estrada: str, pais: str) -> dict[str, list[Coordinates]]:
+    def get_road_exits(road_name: str, country: str) -> dict[str, list[Coordinates]]:
         """
-        Dado o nome de uma estrada e o respectivo país, retorna as saídas e respectivas coordenadas
-        Destina-se sobretudo a auto-estradas e vias rápidas
+        Given the name of a road and the respective country, returns the road exits and respective coordinates
+        This routine is expected to be called mainly for freeways (EN-UK: motorways) and highways
         """
-        # A query obtém tanto relações como vias com o nome da estrada
-        query = f'rel[name="{nome_estrada}"];' \
+        assert road_name
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
+        # This query returns OSM relations as well as OSM ways matching the name of the road
+        desired_node_type = 'motorway_junction'
+        query = f'rel[name="{road_name}"];' \
                 f'way(r)->.w1;' \
-                f'way[name="{nome_estrada}"]->.w2;' \
+                f'way[name="{road_name}"]->.w2;' \
                 f'(node(w.w1);' \
                 f'node(w.w2);)->.n1;' \
-                f'node.n1[highway="motorway_junction"];' \
+                f'node.n1[highway={desired_node_type}];' \
                 f'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
             return {}
 
-        resposta = {}
-        for no in raw_result.childNodes:
-            if no.nodeName == 'node':
-                coordenadas: Coordinates = Coordinates(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
-                saida_id: Optional[str] = None
-                for n in no.childNodes:
+        response: dict[str, list[Coordinates]] = {}
+        for node in raw_result.childNodes:
+            if node.nodeName == 'node':
+                coordinates: Coordinates = Coordinates(float(node.getAttribute('lat')), float(node.getAttribute('lon')))
+                exit_id: Optional[str] = None
+                for n in node.childNodes:
                     if n.nodeName == 'tag':
-                        if n.hasAttribute('k') and n.getAttribute('k') == 'ref':  # Saída tem identificador
-                            saida_id = n.getAttribute('v')
-                if saida_id:
-                    if saida_id not in resposta:
-                        resposta[saida_id] = []
-                    resposta[saida_id].append(coordenadas)
+                        if n.hasAttribute('k') and n.getAttribute('k') == 'ref':  # Exit has an ID
+                            exit_id = n.getAttribute('v')
+                if exit_id:
+                    if exit_id not in response:
+                        response[exit_id] = []
+                    response[exit_id].append(coordinates)
 
-        if not resposta:
+        if not response:
             if OsmInterface.test_connections():
-                print("A estrada fornecida não tem saídas com identificadores")
+                print("The provided road does not have exits with IDs - Is it a freeway/motorway or a highway?")
             return {}
 
-        return dict(sorted(resposta.items(), key=lambda item: item[0]))  # Ordena resposta pelo identificador da saída
+        return dict(sorted(response.items(), key=lambda item: item[0]))  # Sorts response by the exit ID
 
     @staticmethod
     def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordinates]]:

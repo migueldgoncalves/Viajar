@@ -469,7 +469,7 @@ class GeradorInformacao:
             saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
                 self.way_osm_name, self.country)
         else:
-            saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.obter_saidas_de_estrada(
+            saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.get_road_exits(
                 self.way_osm_name, self.country)
 
         if len(saidas_estacoes_temp) == 0:
