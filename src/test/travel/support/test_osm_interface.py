@@ -311,6 +311,107 @@ class TestOsmInterface(unittest.TestCase):
 
         # No road in Andorra or Gibraltar is expected to have exit numbers
 
+    def test_get_railway_stations_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # No parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations(None, None)
+
+        # Invalid parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations('Invalid railway', 'Invalid country')
+
+        # No railway name
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations(None, ways.PORTUGAL)
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations('', ways.PORTUGAL)
+
+        # Invalid railway name
+        self.assertEqual({}, OsmInterface().get_railway_stations('Invalid railway', ways.PORTUGAL))
+
+        # No country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations(ways.PT_NORTH_LINE.osm_name, None)
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations(ways.PT_NORTH_LINE.osm_name, '')
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_railway_stations(ways.PT_NORTH_LINE.osm_name, 'Invalid country')
+
+    def test_get_railway_exits_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Large Portuguese railway
+        expected_response_keys = [
+            'Braço de Prata', 'Ovar', 'Avanca', 'Vale de Santarém', 'Mato de Miranda', 'Passagem de Nível da Adémia',
+            'Litém', 'Riachos', 'Entroncamento', 'Lamarosa', 'Setil', 'Santarém', 'Reguengo-Vale da Pedra-Pontével',
+            'Vale de Figueira', 'Virtudes', 'Santana-Cartaxo', 'Moscavide', 'Sacavém', 'Bobadela', 'Alverca',
+            'Carvalheira-Maceda', 'Espadanal da Azambuja', 'Miramar', 'Espinho', 'Silvalde', 'Bencanta', 'Espadaneira',
+            'Esmoriz', 'Paramos', 'Coimbrões', 'Vila Nova de Gaia', 'Madalena', 'Valadares', 'Aguda', 'Francelos',
+            'Cortegaça', 'Granja', 'Válega', 'Estarreja', 'Cacia', 'Canelas', 'Salreu', 'Aveiro', 'Oiã',
+            'Oliveira do Bairro', 'Paraimo-Sangalhos', 'Quintãs', 'Aguim', 'Curia', 'Mealhada', 'Mogofores',
+            'Pampilhosa', 'Souselas', 'Adémia', 'Coimbra-B', 'Vilela-Fornos', 'Alfarelos - Granja do Ulmeiro', 'Amial',
+            'Casais', 'Taveiro', 'Formoselha', 'Pereira', 'Vila Pouca do Campo', 'Pelariga', 'Pombal', 'Simões',
+            'Soure', 'Vila Nova de Anços', 'Albergaria dos Doze', 'Caxarias', 'Vermoil', 'Chão de Maçãs-Fátima',
+            'Fungalvaz', 'Paialvo', 'Seiça-Ourém', 'Bifurcação Norte-Setil', 'Azambuja', 'Vila Nova da Rainha',
+            'Carregado', 'Castanheira do Ribatejo', 'Vila Franca de Xira', 'Alhandra', 'Quinta das Torres',
+            'General Torres', 'Gare do Oriente', 'Póvoa', 'Santa Iria', 'Porto - Campanhã', 'Lisboa Santa Apolónia'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.PT_NORTH_LINE.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(38.7478486, -9.1024336), Coordinates(38.7461963, -9.1030306)], response['Braço de Prata'])
+        self.assertEqual([Coordinates(40.5910309, -8.612713), Coordinates(40.5910442, -8.6126654)], response['Quintãs'])
+        self.assertEqual([Coordinates(38.7137802, -9.1229108), Coordinates(38.7138279, -9.1230008)], response['Lisboa Santa Apolónia'])
+
+        # Small Portuguese railway
+        expected_response_keys = [
+            'Algueirão/Mem Martins', 'Amadora', 'Campolide', 'Santa Cruz - Damaia', 'Queluz/Belas', 'Monte Abraão',
+            'Massamá-Barcarena', 'Agualva - Cacém', 'Rio de Mouro', 'Portela de Sintra', 'Mercês', 'Sintra', 'Rossio',
+            'Benfica', 'Reboleira'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.PT_SINTRA_LINE.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(38.7978927, -9.3399843), Coordinates(38.7975035, -9.3422101)], response['Algueirão/Mem Martins'])
+        self.assertEqual([Coordinates(38.7845691, -9.3221058), Coordinates(38.7839253, -9.3197594)], response['Rio de Mouro'])
+        self.assertEqual([Coordinates(38.7506398, -9.2215502), Coordinates(38.750677, -9.2215338),
+                          Coordinates(38.7511027, -9.2239415), Coordinates(38.7511335, -9.2239302)], response['Reboleira'])
+
+        # Large Spanish railway
+        expected_response_keys = [
+            'Garrovilla-Las Vegas', 'Cabeza Del Buey', 'Almadenejos-Almaden', 'Guadalmez-Los Pedroches', 'Villagonzalo'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.ES_CIUDAD_REAL_BADAJOZ.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(38.9154013, -6.4772448)], response['Garrovilla-Las Vegas'])
+        self.assertEqual([Coordinates(38.7404341, -4.7303171)], response['Almadenejos-Almaden'])
+        self.assertEqual([Coordinates(38.8641393, -6.2075556)], response['Villagonzalo'])
+
+        # Small Spanish railway
+        expected_response_keys = [
+            'Colombia', 'Aeropuerto T4', 'Barajas', 'Feria de Madrid', 'Aeropuerto T1-T2-T3', 'Mar de Cristal',
+            'Pinar del Rey', 'Nuevos Ministerios'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.ES_MADRID_METRO_LINE_8.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(40.4571282, -3.67706)], response['Colombia'])
+        self.assertEqual([Coordinates(40.4678852, -3.5718088)], response['Aeropuerto T1-T2-T3'])
+        self.assertEqual([Coordinates(40.4454819, -3.6915827)], response['Nuevos Ministerios'])
+
     def test_query_server_invalid_parameters(self):
         # All invalid parameters
         with self.assertRaises(AssertionError):

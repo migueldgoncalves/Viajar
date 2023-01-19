@@ -466,7 +466,7 @@ class GeradorInformacao:
             print("A obter nós correspondentes a saídas...")
 
         if self.way_type == ways.RAILWAY:
-            saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.obter_estacoes_de_linha_ferroviaria(
+            saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.get_railway_stations(
                 self.way_osm_name, self.country)
         else:
             saidas_estacoes_temp: dict[str, list[Coordinates]] = osm_interface.OsmInterface.get_road_exits(

@@ -247,43 +247,46 @@ class OsmInterface:
         return dict(sorted(response.items(), key=lambda item: item[0]))  # Sorts response by the exit ID
 
     @staticmethod
-    def obter_estacoes_de_linha_ferroviaria(nome_linha_ferroviaria: str, pais: str) -> dict[str, list[Coordinates]]:
+    def get_railway_stations(railway_name: str, country: str) -> dict[str, list[Coordinates]]:
         """
-        Dado o nome de uma linha ferroviária e o respectivo país, retorna as estações e respectivas coordenadas
+        Given the name of a railway and the respective country, returns the railway stations and the respective coordinates
         """
-        # A query obtém tanto relações como vias com o nome da linha ferroviária
-        query = f'rel[name="{nome_linha_ferroviaria}"];' \
+        assert railway_name
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
+        # This query gets both the OSM relations and the OSM ways matching the name of the railway
+        query = f'rel[name="{railway_name}"];' \
                 f'way(r)->.w1;' \
-                f'way[name="{nome_linha_ferroviaria}"]->.w2;' \
+                f'way[name="{railway_name}"]->.w2;' \
                 f'(node(w.w1);' \
                 f'node(w.w2);)->.n1;' \
                 f'node.n1[name];' \
                 f'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
             return {}
 
-        resposta = {}
-        for no in raw_result.childNodes:
-            if no.nodeName == 'node':
-                coordenadas: Coordinates = Coordinates(float(no.getAttribute('lat')), float(no.getAttribute('lon')))
-                estacao: Optional[str] = None
-                for n in no.childNodes:
+        response: dict[str, list[Coordinates]] = {}
+        for node in raw_result.childNodes:
+            if node.nodeName == 'node':
+                coordinates: Coordinates = Coordinates(float(node.getAttribute('lat')), float(node.getAttribute('lon')))
+                station_name: Optional[str] = None
+                for n in node.childNodes:
                     if n.nodeName == 'tag':
-                        if n.hasAttribute('k') and n.getAttribute('k') == 'name':  # Nó tem nome - Provável estação ou apeadeiro
-                            estacao = n.getAttribute('v')
-                if estacao:
-                    if estacao not in resposta:
-                        resposta[estacao] = []
-                    resposta[estacao].append(coordenadas)
+                        if n.hasAttribute('k') and n.getAttribute('k') == 'name':  # Node has a name - Likely it is a station
+                            station_name = n.getAttribute('v')
+                if station_name:
+                    if station_name not in response:
+                        response[station_name] = []
+                    response[station_name].append(coordinates)
 
-        if not resposta:
+        if not response:
             if OsmInterface.test_connections():
-                print("Não se encontraram estações ou apeadeiros para a linha ou ramal fornecido")
+                print("No stations were found for the provided line name")
             return {}
 
-        return resposta
+        return response
 
     @staticmethod
     def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinates], via_tipo: str, detalhe: int,
