@@ -491,6 +491,62 @@ class TestOsmInterface(unittest.TestCase):
 
         self.assertEqual(extreme_points, [38.8, 39.2, -9.2, -8.8])
 
+    def test_process_way_for_distance_calculation_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # All invalid parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_way_for_distance_calculation(None, None)
+
+        # No way name
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_way_for_distance_calculation(None, ways.PORTUGAL)
+
+        # Invalid way name
+        self.assertEqual(({}, {}), OsmInterface().process_way_for_distance_calculation('Invalid way name', ways.PORTUGAL))
+
+        # No country
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_way_for_distance_calculation('Autoestrada do Norte', None)
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_way_for_distance_calculation('Autoestrada do Norte', 'Invalid country')
+
+    def test_process_way_for_distance_calculation_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # This routine can be tested through calls to higher-level routines, with fewer lines of code
+        # As such, this test will contain a single test case
+
+        way_name = 'Autoestrada do Norte'  # EN - North freeway/motorway - Portuguese A1
+        country = ways.PORTUGAL
+
+        result = OsmInterface().process_way_for_distance_calculation(way_name, country)
+        node_list = result[0]
+        way_list = result[1]
+
+        self.assertEqual(2, len(result))
+        self.assertEqual(5504, len(node_list))  # Number of nodes
+        self.assertEqual(770, len(way_list))  # Number of ways
+
+        for node in node_list:
+            assert node
+        for way in way_list:
+            assert way
+
+        node_id = 25398450
+        self.assertEqual(39.2031381, node_list.get(node_id).latitude)
+        self.assertEqual(-8.7930774, node_list.get(node_id).longitude)
+        self.assertEqual(node_id, node_list.get(node_id).node_id)
+        self.assertEqual(set(), node_list.get(node_id).surrounding_node_ids)
+
+        way_id = 4246625
+        way_node_ids = [25398450, 4080875384, 25398453, 25398456, 25398458, 25398443, 680066405]
+        for i in range(7):
+            self.assertEqual(way_node_ids[i], way_list.get(way_id).node_list[i].node_id)
+        self.assertEqual(way_id, way_list.get(way_id).way_id)
+
     def test_query_server_invalid_parameters(self):
         # All invalid parameters
         with self.assertRaises(AssertionError):

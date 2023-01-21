@@ -379,42 +379,45 @@ class OsmInterface:
         return node_list, way_list, area_extreme_coordinates
 
     @staticmethod
-    def processar_via_para_calculo_distancias(nome_via: str, pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay]]:
+    def process_way_for_distance_calculation(way_name: str, country: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay]]:
         """
-        Dado o nome de uma estrada ou ferrovia, retorna objectos Node e Via para uso no cálculo de distâncias nessa
-            estrada ou ferrovia
+        Given the OSM name of a road or a railway, returns Node and Way objects to be used to calculate distances inside
+            that road or railway
         """
-        query = f'rel[name="{nome_via}"]->.r1;' \
+        assert way_name
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
+        query = f'rel[name="{way_name}"]->.r1;' \
                 f'(way(r.r1);' \
-                f'way[name="{nome_via}"];);' \
+                f'way[name="{way_name}"];);' \
                 'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
             return {}, {}
 
-        lista_nos: dict[int, OsmNode] = {}
-        lista_vias: dict[int, OsmWay] = {}
-        for no in raw_result.childNodes:
-            if no.nodeName == 'way' and no.hasAttribute('id'):
-                via_id: int = no.getAttribute('id')
-                lista_nos_via: list[OsmNode] = []
-                for n2 in no.childNodes:
+        node_list: dict[int, OsmNode] = {}
+        way_list: dict[int, OsmWay] = {}
+        for node in raw_result.childNodes:
+            if node.nodeName == 'way' and node.hasAttribute('id'):
+                way_id: int = int(node.getAttribute('id'))
+                way_node_list: list[OsmNode] = []
+                for n2 in node.childNodes:
                     if n2.nodeName == 'nd' and n2.hasAttribute('ref') and n2.hasAttribute('lat') and n2.hasAttribute('lon'):
-                        no_id: int = n2.getAttribute('ref')
-                        lat: float = n2.getAttribute('lat')
-                        lon: float = n2.getAttribute('lon')
-                        lista_nos_via.append(OsmNode(no_id, lat, lon))
-                        lista_nos[no_id] = OsmNode(no_id, lat, lon)
-                if lista_nos_via:
-                    lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
+                        node_id: int = int(n2.getAttribute('ref'))
+                        lat: float = float(n2.getAttribute('lat'))
+                        lon: float = float(n2.getAttribute('lon'))
+                        way_node_list.append(OsmNode(node_id, lat, lon))
+                        node_list[node_id] = OsmNode(node_id, lat, lon)
+                if way_node_list:
+                    way_list[way_id] = OsmWay(way_id, way_node_list)
 
-        if not lista_nos or not lista_vias:
+        if not node_list or not way_list:
             if OsmInterface.test_connections():
-                print("Não se encontraram relações nem vias OSM para a estrada/ferrovia fornecida")
+                print("No OSM relations or OSM ways were found for the provided road or railway")
             return {}, {}
 
-        return lista_nos, lista_vias
+        return node_list, way_list
 
     @staticmethod
     def detectar_pais_por_coordenadas(coordenadas: Coordinates) -> Optional[str]:

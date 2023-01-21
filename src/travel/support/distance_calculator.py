@@ -76,7 +76,7 @@ class CalculadoraDistancias:
         else:  # Pretende-se cobrir uma estrada/ferrovia individual
 
             # Assim que se receber os nós circundantes, haverá toda a informação para se correr o algoritmo de Dijkstra
-            retorno = osm_interface.OsmInterface.processar_via_para_calculo_distancias(via_nome, pais)
+            retorno = osm_interface.OsmInterface.process_way_for_distance_calculation(via_nome, pais)
             self.mapa_processado: dict[int, osm_interface.OsmNode] = retorno[0]
 
             vias_a_considerar: dict[int, osm_interface.OsmWay] = retorno[1]
