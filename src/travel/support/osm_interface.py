@@ -289,27 +289,32 @@ class OsmInterface:
         return response
 
     @staticmethod
-    def processar_area_para_calculo_distancias(lista_coordenadas: list[Coordinates], via_tipo: str, detalhe: int,
-                                               pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
+    def process_area_for_distance_calculation(coordinate_list: list[Coordinates], way_type: str, detail: int,
+                                              country: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
         """
-        Retorna objectos Node e Via para uso no cálculo de distâncias dentro de uma determinada área rectangular
-        :param lista_coordenadas: Lista de coordenadas que delimitam a área pretendida
-        :param via_tipo: Se se devem considerar apenas estradas ou apenas linhas ferroviárias
-        :param detalhe: Apenas considerado se se considerarem estradas. Quanto mais detalhe, mais tipos de estradas se processam
-        :param pais: País da área a cobrir. Determina o servidor ao qual se farão pedidos
-        :return Lista de objectos Node, lista de objecto Via, e extremos da área a cobrir
+        Returns Node and Way objects to be used in the calculation of distances inside a certain rectangular area
+        :param coordinate_list: List of coordinates that delimit the desired area
+        :param way_type: What type of way should be considered: road or railways?
+        :param detail: Only taken into account if way type is roads. The more detail, the more road types will be processed
+        :param country: Country where the area to cover belongs. Determines the server to where requests will be sent
+        :return List of Node objects, list of Way objects, and min and max latitude and longitude of the area to cover
         """
-        tags: list[str] = TAGS_DESIRED_ROADS[detalhe]
+        assert coordinate_list
+        assert way_type in [ways.ROAD, ways.RAILWAY]
+        assert detail in [DETAIL_LEVEL_URBAN, DETAIL_LEVEL_INTERCITY]
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
+        tags: list[str] = TAGS_DESIRED_ROADS[detail]
 
         min_latitude: float = 90.0
         max_latitude: float = -90.0
         min_longitude: float = 180.0
         max_longitude: float = -180.0
 
-        # Calcula os extremos do rectângulo
-        for coordenadas in lista_coordenadas:
-            latitude: float = coordenadas.latitude
-            longitude: float = coordenadas.longitude
+        # Calculates the extreme points of the rectangular area
+        for coordinates in coordinate_list:
+            latitude: float = coordinates.latitude
+            longitude: float = coordinates.longitude
             if latitude < min_latitude:
                 min_latitude = latitude
             if latitude > max_latitude:
@@ -319,15 +324,15 @@ class OsmInterface:
             if longitude > max_longitude:
                 max_longitude = longitude
 
-        # Acrescenta a margem ao rectângulo, em graus decimais
+        # Adds a margin to the rectangular area, in decimal degrees
         min_latitude -= DISTANCE_RECTANGLE_MARGIN
         max_latitude += DISTANCE_RECTANGLE_MARGIN
         min_longitude -= DISTANCE_RECTANGLE_MARGIN
         max_longitude += DISTANCE_RECTANGLE_MARGIN
 
-        area_extremos: list[float] = [min_latitude, max_latitude, min_longitude, max_longitude]
+        area_extreme_coordinates: list[float] = [min_latitude, max_latitude, min_longitude, max_longitude]
 
-        if via_tipo == ways.ROAD:  # Todas as estradas marcadas com as tags pretendidas na área pretendida
+        if way_type == ways.ROAD:  # All roads tagged with the desired tags in the intended area
             query = f'[bbox:{min_latitude},{min_longitude},{max_latitude},{max_longitude}];' \
                     '('
             for tag in tags:
@@ -338,7 +343,7 @@ class OsmInterface:
                 query += f'way[highway={tag}];'
             query += ');' \
                      'out geom;'
-        elif via_tipo == ways.RAILWAY:  # Todas as linhas ferroviárias na área pretendida
+        elif way_type == ways.RAILWAY:  # All railways in the intended area
             query = 'rel[railway]->.r1;' \
                     '(way(r.r1);' \
                     'way[railway];);' \
@@ -346,32 +351,32 @@ class OsmInterface:
         else:
             return {}, {}, []
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
             return {}, {}, []
 
-        lista_nos: dict[int, OsmNode] = {}
-        lista_vias: dict[int, OsmWay] = {}
-        for no in raw_result.childNodes:
-            if no.nodeName == 'way' and no.hasAttribute('id'):
-                via_id: int = no.getAttribute('id')
-                lista_nos_via: list[OsmNode] = []
-                for n2 in no.childNodes:
+        node_list: dict[int, OsmNode] = {}
+        way_list: dict[int, OsmWay] = {}
+        for node in raw_result.childNodes:
+            if node.nodeName == 'way' and node.hasAttribute('id'):
+                way_id: int = int(node.getAttribute('id'))
+                way_nodes_list: list[OsmNode] = []
+                for n2 in node.childNodes:
                     if n2.nodeName == 'nd' and n2.hasAttribute('ref') and n2.hasAttribute('lat') and n2.hasAttribute('lon'):
-                        no_id: int = n2.getAttribute('ref')
-                        lat: float = n2.getAttribute('lat')
-                        lon: float = n2.getAttribute('lon')
-                        lista_nos_via.append(OsmNode(no_id, lat, lon))
-                        lista_nos[no_id] = OsmNode(no_id, lat, lon)
-                if lista_nos_via:
-                    lista_vias[via_id] = OsmWay(via_id, lista_nos_via)
+                        node_id: int = int(n2.getAttribute('ref'))
+                        lat: float = float(n2.getAttribute('lat'))
+                        lon: float = float(n2.getAttribute('lon'))
+                        way_nodes_list.append(OsmNode(node_id, lat, lon))
+                        node_list[node_id] = OsmNode(node_id, lat, lon)
+                if way_nodes_list:
+                    way_list[way_id] = OsmWay(way_id, way_nodes_list)
 
-        if not lista_nos or not lista_vias:
+        if not node_list or not way_list:
             if OsmInterface.test_connections():
-                print("Não se encontraram relações nem vias OSM para a estrada/ferrovia fornecida")
+                print("No OSM relations or OSM ways were found for the provided road or railway")
             return {}, {}, []
 
-        return lista_nos, lista_vias, area_extremos
+        return node_list, way_list, area_extreme_coordinates
 
     @staticmethod
     def processar_via_para_calculo_distancias(nome_via: str, pais: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay]]:

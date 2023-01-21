@@ -52,7 +52,7 @@ class CalculadoraDistancias:
         print("A obter representação da área...")
 
         if detalhe_area:  # Pretende-se cobrir uma área
-            lista_nos, vias_a_considerar, area_extremos = osm_interface.OsmInterface.processar_area_para_calculo_distancias(
+            lista_nos, vias_a_considerar, area_extremos = osm_interface.OsmInterface.process_area_for_distance_calculation(
                 lista_coordenadas, via_tipo, detalhe_area, pais)
 
             min_latitude: float = area_extremos[0]

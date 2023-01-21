@@ -2,6 +2,7 @@ import unittest
 from xml.dom import minidom
 
 from travel.support.osm_interface import OsmInterface
+from travel.support.osm_interface import DETAIL_LEVEL_URBAN, DETAIL_LEVEL_INTERCITY
 from travel.support import ways
 from travel.support.coordinates import Coordinates
 from test.travel.support import test_fail_if_servers_down
@@ -411,6 +412,84 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(40.4571282, -3.67706)], response['Colombia'])
         self.assertEqual([Coordinates(40.4678852, -3.5718088)], response['Aeropuerto T1-T2-T3'])
         self.assertEqual([Coordinates(40.4454819, -3.6915827)], response['Nuevos Ministerios'])
+
+        # Neither Andorra nor Gibraltar have railways
+
+    def test_process_area_for_distance_calculation_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        valid_coordinate_list = [Coordinates(1, 1), Coordinates(-1, -1)]
+
+        # All invalid parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation([], None, 0, None)
+
+        # Empty coordinate list
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation([], ways.ROAD, DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+
+        # No way type
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, None, DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+
+        # Invalid way type
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, 'Invalid way type', DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+
+        # No detail level
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, ways.ROAD, 0, ways.PORTUGAL)
+
+        # Invalid detail level
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, ways.ROAD, -1, ways.PORTUGAL)
+
+        # No country
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, ways.ROAD, -1, None)
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, ways.ROAD, -1, 'Invalid country')
+
+    def test_process_area_for_distance_calculation_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # This routine can be tested through calls to higher-level routines, with fewer lines of code
+        # As such, this test will contain a single test case
+
+        coordinate_list = [Coordinates(39.1, -8.9), Coordinates(38.9, -9.1)]  # An area north of Lisbon
+        way_type = ways.ROAD
+        detail = DETAIL_LEVEL_INTERCITY
+        country = ways.PORTUGAL
+
+        result = OsmInterface().process_area_for_distance_calculation(coordinate_list, way_type, detail, country)
+        node_list = result[0]
+        way_list = result[1]
+        extreme_points = result[2]
+
+        self.assertEqual(3, len(result))
+        self.assertEqual(29190, len(node_list))  # Number of nodes
+        self.assertEqual(3464, len(way_list))  # Number of ways
+
+        for node in node_list:
+            assert node
+        for way in way_list:
+            assert way
+
+        node_id = 320080135
+        self.assertEqual(39.121356, node_list.get(node_id).latitude)
+        self.assertEqual(-8.9103214, node_list.get(node_id).longitude)
+        self.assertEqual(node_id, node_list.get(node_id).node_id)
+        self.assertEqual(set(), node_list.get(node_id).surrounding_node_ids)
+
+        way_id = 4015552
+        way_node_ids = [320080135, 320080136, 320080137]
+        for i in range(3):
+            self.assertEqual(way_node_ids[i], way_list.get(way_id).node_list[i].node_id)
+        self.assertEqual(way_id, way_list.get(way_id).way_id)
+
+        self.assertEqual(extreme_points, [38.8, 39.2, -9.2, -8.8])
 
     def test_query_server_invalid_parameters(self):
         # All invalid parameters
