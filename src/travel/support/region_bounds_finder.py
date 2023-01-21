@@ -17,7 +17,7 @@ def sair_por_opcao() -> None:
 
 
 def imprimir_pontos_extremos_e_sair(nome: str, nivel_admin: int, pais_desejado: str) -> None:
-    output = OsmInterface().obter_pontos_extremos_regiao(nome=nome, nivel_administrativo=nivel_admin, pais=pais_desejado)
+    output = OsmInterface().get_region_extreme_points(name=nome, admin_level=nivel_admin, country=pais_desejado)
     print(output)
     exit(0)
 

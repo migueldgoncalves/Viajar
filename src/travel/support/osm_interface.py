@@ -169,7 +169,7 @@ class OsmInterface:
 
         query: str = f'is_in({coordinates.latitude},{coordinates.longitude}); out geom;'
         if not country:
-            country: str = OsmInterface.detectar_pais_por_coordenadas(coordinates)
+            country: str = OsmInterface.detect_country_by_coordinates(coordinates)
         if not country:
             return {}
 
@@ -420,35 +420,37 @@ class OsmInterface:
         return node_list, way_list
 
     @staticmethod
-    def detectar_pais_por_coordenadas(coordenadas: Coordinates) -> Optional[str]:
+    def detect_country_by_coordinates(coordinates: Coordinates) -> Optional[str]:
         """
-        Detecta automaticamente o país com base nos retornos a pedidos aos servidores existentes
-        :return: Nome do país se for possível determinar, None caso contrário
+        Automatically detects the country, based on the returns for requests sent to the existing servers
+        :return: Country name if it could be determined, None otherwise
         """
-        for pais_servidor in ways.ALL_SUPPORTED_COUNTRIES:
-            divisoes: dict[Union[str, int], str] = OsmInterface.get_administrative_divisions_by_coordinates(coordenadas, pais_servidor)
+        assert coordinates
 
-            if divisoes.get(COUNTRY):  # Espera-se que cubra Portugal, Andorra e Gibraltar
-                pais = divisoes[COUNTRY]
-                if pais == 'Portugal':
+        for server_country in ways.ALL_SUPPORTED_COUNTRIES:  # Canary Islands appear as a separate country, due to having a dedicated server, although they are part of Spain
+            admin_divisions: dict[Union[str, int], str] = OsmInterface.get_administrative_divisions_by_coordinates(coordinates, server_country)
+
+            if admin_divisions.get(COUNTRY):  # Expected to cover Portugal, Andorra, and Gibraltar
+                country: str = admin_divisions[COUNTRY]
+                if country == 'Portugal':
                     return ways.PORTUGAL
-                elif pais == 'Andorra':
+                elif country == 'Andorra':
                     return ways.ANDORRA
-                elif pais == 'Gibraltar':
+                elif country == 'Gibraltar':
                     return ways.GIBRALTAR
-                elif pais in ['Spain', 'España']:
-                    if divisoes.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
+                elif country in ['Spain', 'España']:
+                    if admin_divisions.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
                         return ways.CANARY_ISLANDS
                     else:
                         return ways.SPAIN
-                else:  # País não coberto
+                else:  # Unsupported country
                     return None
 
-            elif divisoes.get(AUTONOMOUS_COMMUNITY):  # Espera-se que cubra Espanha
-                comunidade_autonoma = divisoes[AUTONOMOUS_COMMUNITY]
+            elif admin_divisions.get(AUTONOMOUS_COMMUNITY):  # Expected to cover Spain
+                autonomous_community: str = admin_divisions[AUTONOMOUS_COMMUNITY]
 
-                if comunidade_autonoma not in ['Azores', 'Madeira', 'Gibraltar']:  # Nível é usado em Portugal e Gibraltar também
-                    if divisoes.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
+                if autonomous_community not in ['Azores', 'Madeira', 'Gibraltar']:  # Admin level is also used in Portugal and Gibraltar
+                    if admin_divisions.get(AUTONOMOUS_COMMUNITY) == 'Canarias':
                         return ways.CANARY_ISLANDS
                     else:
                         return ways.SPAIN
@@ -456,59 +458,63 @@ class OsmInterface:
             return None
 
     @staticmethod
-    def obter_pontos_extremos_regiao(nome: str, nivel_administrativo: int, pais: str) -> Optional[ExtremePoints]:
-        # Freguesias históricas portuguesas não têm nível associado
-        query = f'rel[name="{nome}"][admin_level="{nivel_administrativo}"];' \
+    def get_region_extreme_points(name: str, admin_level: int, country: str) -> Optional[ExtremePoints]:
+        assert name
+        assert 1 <= admin_level <= 11  # OSM admin levels are between 1 and 11
+        assert country in ways.ALL_SUPPORTED_COUNTRIES
+
+        # Historic Portuguese parishes do not have an associated admin level in OSM (used to be level 9 until mid-2021)
+        query = f'rel[name="{name}"][admin_level="{admin_level}"];' \
                 'out geom;'
 
-        raw_result: minidom.Element = OsmInterface._query_server(query, pais)
+        raw_result: minidom.Element = OsmInterface._query_server(query, country)
         if not raw_result:
-            print("Nenhum resultado obtido")
+            print("No results were obtained")
             return None
 
-        max_norte: Coordinates = Coordinates(-90.0, 0.0)
-        max_sul: Coordinates = Coordinates(90.0, 0.0)
-        max_oeste: Coordinates = Coordinates(0.0, 180.0)
-        max_este: Coordinates = Coordinates(0.0, -180.0)
-        for no in raw_result.childNodes:
-            if no.nodeName == 'relation' and no.hasAttribute('id'):  # Região pretendida
-                for n2 in no.childNodes:
+        max_north: Coordinates = Coordinates(-90.0, 0.0)
+        max_south: Coordinates = Coordinates(90.0, 0.0)
+        max_west: Coordinates = Coordinates(0.0, 180.0)
+        max_east: Coordinates = Coordinates(0.0, -180.0)
+        for node in raw_result.childNodes:
+            if node.nodeName == 'relation' and node.hasAttribute('id'):  # Desired region
+                for n2 in node.childNodes:
                     if n2.nodeName == 'member' and n2.hasAttribute('type') and n2.getAttribute('type') == 'node' and \
-                            n2.hasAttribute('lat') and n2.hasAttribute('lon'):  # Nó que delimita a região
+                            n2.hasAttribute('lat') and n2.hasAttribute('lon'):  # Node that delimits the region
                         lat = float(n2.getAttribute('lat'))
                         lon = float(n2.getAttribute('lon'))
-                        if lat > max_norte.latitude:
-                            max_norte.set_latitude(lat)
-                            max_norte.set_longitude(lon)
-                        if lat < max_sul.latitude:
-                            max_sul.set_latitude(lat)
-                            max_sul.set_longitude(lon)
-                        if lon > max_este.longitude:
-                            max_este.set_latitude(lat)
-                            max_este.set_longitude(lon)
-                        if lon < max_oeste.longitude:
-                            max_oeste.set_latitude(lat)
-                            max_oeste.set_longitude(lon)
-                    elif n2.nodeName == 'member' and n2.hasAttribute('type') and n2.getAttribute('type') == 'way':  # Via que delimita a região
+                        if lat > max_north.latitude:
+                            max_north.set_latitude(lat)
+                            max_north.set_longitude(lon)
+                        if lat < max_south.latitude:
+                            max_south.set_latitude(lat)
+                            max_south.set_longitude(lon)
+                        if lon > max_east.longitude:
+                            max_east.set_latitude(lat)
+                            max_east.set_longitude(lon)
+                        if lon < max_west.longitude:
+                            max_west.set_latitude(lat)
+                            max_west.set_longitude(lon)
+                    elif n2.nodeName == 'member' and n2.hasAttribute('type') and n2.getAttribute('type') == 'way':  # Way that delimits a region
                         for n3 in n2.childNodes:
                             if n3.nodeName == 'nd' and n3.hasAttribute('lat') and n3.hasAttribute('lon'):
                                 lat = float(n3.getAttribute('lat'))
                                 lon = float(n3.getAttribute('lon'))
-                                if lat > max_norte.latitude:
-                                    max_norte.set_latitude(lat)
-                                    max_norte.set_longitude(lon)
-                                if lat < max_sul.latitude:
-                                    max_sul.set_latitude(lat)
-                                    max_sul.set_longitude(lon)
-                                if lon > max_este.longitude:
-                                    max_este.set_latitude(lat)
-                                    max_este.set_longitude(lon)
-                                if lon < max_oeste.longitude:
-                                    max_oeste.set_latitude(lat)
-                                    max_oeste.set_longitude(lon)
+                                if lat > max_north.latitude:
+                                    max_north.set_latitude(lat)
+                                    max_north.set_longitude(lon)
+                                if lat < max_south.latitude:
+                                    max_south.set_latitude(lat)
+                                    max_south.set_longitude(lon)
+                                if lon > max_east.longitude:
+                                    max_east.set_latitude(lat)
+                                    max_east.set_longitude(lon)
+                                if lon < max_west.longitude:
+                                    max_west.set_latitude(lat)
+                                    max_west.set_longitude(lon)
 
-        pontos_extremos = ExtremePoints(nome, nivel_administrativo, pais, max_norte, max_sul, max_este, max_oeste)
-        return pontos_extremos
+        extreme_points = ExtremePoints(name, admin_level, country, max_north, max_south, max_east, max_west)
+        return extreme_points
 
     @staticmethod
     def _query_server(query: str, country: str) -> Optional[minidom.Element]:

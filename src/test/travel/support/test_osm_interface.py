@@ -2,7 +2,7 @@ import unittest
 from xml.dom import minidom
 
 from travel.support.osm_interface import OsmInterface
-from travel.support.osm_interface import DETAIL_LEVEL_URBAN, DETAIL_LEVEL_INTERCITY
+from travel.support import osm_interface
 from travel.support import ways
 from travel.support.coordinates import Coordinates
 from test.travel.support import test_fail_if_servers_down
@@ -426,15 +426,15 @@ class TestOsmInterface(unittest.TestCase):
 
         # Empty coordinate list
         with self.assertRaises(AssertionError):
-            OsmInterface().process_area_for_distance_calculation([], ways.ROAD, DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+            OsmInterface().process_area_for_distance_calculation([], ways.ROAD, osm_interface.DETAIL_LEVEL_URBAN, ways.PORTUGAL)
 
         # No way type
         with self.assertRaises(AssertionError):
-            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, None, DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, None, osm_interface.DETAIL_LEVEL_URBAN, ways.PORTUGAL)
 
         # Invalid way type
         with self.assertRaises(AssertionError):
-            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, 'Invalid way type', DETAIL_LEVEL_URBAN, ways.PORTUGAL)
+            OsmInterface().process_area_for_distance_calculation(valid_coordinate_list, 'Invalid way type', osm_interface.DETAIL_LEVEL_URBAN, ways.PORTUGAL)
 
         # No detail level
         with self.assertRaises(AssertionError):
@@ -460,7 +460,7 @@ class TestOsmInterface(unittest.TestCase):
 
         coordinate_list = [Coordinates(39.1, -8.9), Coordinates(38.9, -9.1)]  # An area north of Lisbon
         way_type = ways.ROAD
-        detail = DETAIL_LEVEL_INTERCITY
+        detail = osm_interface.DETAIL_LEVEL_INTERCITY
         country = ways.PORTUGAL
 
         result = OsmInterface().process_area_for_distance_calculation(coordinate_list, way_type, detail, country)
@@ -546,6 +546,233 @@ class TestOsmInterface(unittest.TestCase):
         for i in range(7):
             self.assertEqual(way_node_ids[i], way_list.get(way_id).node_list[i].node_id)
         self.assertEqual(way_id, way_list.get(way_id).way_id)
+
+    def test_detect_country_by_coordinates(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Invalid parameters
+
+        with self.assertRaises(AssertionError):
+            OsmInterface().detect_country_by_coordinates(None)
+        self.assertEqual(None, OsmInterface().detect_country_by_coordinates(Coordinates(0, 0)))  # Far from the Iberian Peninsula
+
+        # Successful
+
+        # Portugal
+        self.assertEqual(ways.PORTUGAL, OsmInterface().detect_country_by_coordinates(Coordinates(39.0, -9.0)))  # North of Lisbon, far from the border with Spain
+        self.assertEqual(ways.PORTUGAL, OsmInterface().detect_country_by_coordinates(Coordinates(39.0, -7.0)))  # Near Badajoz, close to the border with Spain
+        self.assertEqual(ways.PORTUGAL, OsmInterface().detect_country_by_coordinates(Coordinates(37.743729, -25.673987)))  # Ponta Delgada, Azores
+        self.assertEqual(ways.PORTUGAL, OsmInterface().detect_country_by_coordinates(Coordinates(33.062676, -16.347095)))  # Porto Santo Island, Madeira
+        # Spain
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(41.0, -4.0)))  # North of Madrid, far from all national borders
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(39.0, -6.9)))  # Near Badajoz, close to the border with Portugal
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(36.155877, -5.345686)))  # La Línea de la Concepción, close to the border with Gibraltar
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(42.354588, 1.456754)))  # La Seu d'Urgell, close to the border with Andorra
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(43.341914, -1.780583)))  # Irún, close to the border with France
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(35.874293, -5.344738)))  # Ceuta, near Morocco
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(35.274848, -2.936755)))  # Melilla, near Morocco
+        self.assertEqual(ways.SPAIN, OsmInterface().detect_country_by_coordinates(Coordinates(38.910557, 1.416606)))  # Ibiza, Balearic Islands
+        self.assertEqual(ways.CANARY_ISLANDS, OsmInterface().detect_country_by_coordinates(Coordinates(28.459231, -16.257192)))  # Santa Cruz de Tenerife, Canary Islands
+        # Andorra
+        self.assertEqual(ways.ANDORRA, OsmInterface().detect_country_by_coordinates(Coordinates(42.507051, 1.523456)))  # Andorra-a-Vella
+        # Gibraltar
+        self.assertEqual(ways.GIBRALTAR, OsmInterface().detect_country_by_coordinates(Coordinates(36.140909, -5.353565)))  # Main Street, Gibraltar
+
+    def test_get_region_extreme_points_invalid_parameters(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # All invalid parameters
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points(None, 0, None)
+
+        # No region name
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points(None, osm_interface.PORTUGUESE_DISTRICT, ways.PORTUGAL)
+
+        # Invalid region name
+        result = OsmInterface().get_region_extreme_points('Invalid region', osm_interface.PORTUGUESE_DISTRICT, ways.PORTUGAL)
+        self.assertEqual(-90.0, result.north.latitude)
+        self.assertEqual(90.0, result.south.latitude)
+        self.assertEqual(-180.0, result.east.longitude)
+        self.assertEqual(180.0, result.west.longitude)
+
+        # Invalid administrative level
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points('Lisboa', 0, ways.PORTUGAL)
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points('Lisboa', 12, ways.PORTUGAL)
+
+        # No country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points('Lisboa', osm_interface.PORTUGUESE_DISTRICT, None)
+
+        # Invalid country
+        with self.assertRaises(AssertionError):
+            OsmInterface().get_region_extreme_points('Lisboa', osm_interface.PORTUGUESE_DISTRICT, 'Invalid country')
+
+        # Region name not present in the country
+        result = OsmInterface().get_region_extreme_points('Lisboa', osm_interface.PORTUGUESE_DISTRICT, ways.SPAIN)
+        self.assertEqual(-90.0, result.north.latitude)
+        self.assertEqual(90.0, result.south.latitude)
+        self.assertEqual(-180.0, result.east.longitude)
+        self.assertEqual(180.0, result.west.longitude)
+
+    def test_get_region_extreme_points_successful(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Portugal
+        result = OsmInterface().get_region_extreme_points('Portugal', osm_interface.COUNTRY, ways.PORTUGAL)
+        self.assertEqual(42.1543112, result.north.latitude)
+        self.assertEqual(-8.1987535, result.north.longitude)
+        self.assertEqual(32.1995956, result.south.latitude)
+        self.assertEqual(-16.4611945, result.south.longitude)
+        self.assertEqual(41.5748318, result.east.latitude)
+        self.assertEqual(-6.1891593, result.east.longitude)
+        self.assertEqual(39.4456383, result.west.latitude)
+        self.assertEqual(-31.5575303, result.west.longitude)
+
+        # Portuguese district
+        result = OsmInterface().get_region_extreme_points('Lisboa', osm_interface.PORTUGUESE_DISTRICT, ways.PORTUGAL)
+        self.assertEqual(39.3177287, result.north.latitude)
+        self.assertEqual(-9.2556097, result.north.longitude)
+        self.assertEqual(38.6731469, result.south.latitude)
+        self.assertEqual(-9.3238243, result.south.longitude)
+        self.assertEqual(39.0583871, result.east.latitude)
+        self.assertEqual(-8.781861, result.east.longitude)
+        self.assertEqual(38.7807094, result.west.latitude)
+        self.assertEqual(-9.5005266, result.west.longitude)
+
+        # Portuguese autonomous region (either Azores or Madeira)
+        result = OsmInterface().get_region_extreme_points('Açores', osm_interface.AUTONOMOUS_REGION, ways.PORTUGAL)
+        self.assertEqual(39.7272503, result.north.latitude)
+        self.assertEqual(-31.1129195, result.north.longitude)
+        self.assertEqual(36.9276305, result.south.latitude)
+        self.assertEqual(-25.0176849, result.south.longitude)
+        self.assertEqual(36.9402432, result.east.latitude)
+        self.assertEqual(-25.0131792, result.east.longitude)
+        self.assertEqual(39.4954319, result.west.latitude)
+        self.assertEqual(-31.2756316, result.west.longitude)
+
+        # Portuguese municipality
+        result = OsmInterface().get_region_extreme_points('Arruda dos Vinhos', osm_interface.PORTUGUESE_MUNICIPALITY, ways.PORTUGAL)
+        self.assertEqual(39.0287911, result.north.latitude)
+        self.assertEqual(-9.0933811, result.north.longitude)
+        self.assertEqual(38.9214369, result.south.latitude)
+        self.assertEqual(-9.1021505, result.south.longitude)
+        self.assertEqual(38.97739, result.east.latitude)
+        self.assertEqual(-9.0218938, result.east.longitude)
+        self.assertEqual(38.9759003, result.west.latitude)
+        self.assertEqual(-9.1785273, result.west.longitude)
+
+        # Portuguese parish
+        result = OsmInterface().get_region_extreme_points('Alcoutim e Pereiro', osm_interface.PORTUGUESE_PARISH, ways.PORTUGAL)
+        self.assertEqual(37.5291307, result.north.latitude)
+        self.assertEqual(-7.5741379, result.north.longitude)
+        self.assertEqual(37.3689732, result.south.latitude)
+        self.assertEqual(-7.4676604, result.south.longitude)
+        self.assertEqual(37.3702988, result.east.latitude)
+        self.assertEqual(-7.4370819, result.east.longitude)
+        self.assertEqual(37.4337991, result.west.latitude)
+        self.assertEqual(-7.6486614, result.west.longitude)
+
+        # Spain
+        result = OsmInterface().get_region_extreme_points('España', osm_interface.COUNTRY, ways.SPAIN)
+        self.assertEqual(43.9933088, result.north.latitude)
+        self.assertEqual(-7.6971085, result.north.longitude)
+        self.assertEqual(35.1709764, result.south.latitude)
+        self.assertEqual(-4.2979318, result.south.longitude)
+        self.assertEqual(39.8782416, result.east.latitude)
+        self.assertEqual(4.5918885, result.east.longitude)
+        self.assertEqual(43.0458933, result.west.latitude)
+        self.assertEqual(-9.5754539, result.west.longitude)
+
+        # Spanish autonomous community
+        result = OsmInterface().get_region_extreme_points('Andalucía', osm_interface.AUTONOMOUS_COMMUNITY, ways.SPAIN)
+        self.assertEqual(38.7290874, result.north.latitude)
+        self.assertEqual(-5.0469484, result.north.longitude)
+        self.assertEqual(35.9376398, result.south.latitude)
+        self.assertEqual(-3.0352337, result.south.longitude)
+        self.assertEqual(37.3755316, result.east.latitude)
+        self.assertEqual(-1.6298, result.east.longitude)
+        self.assertEqual(37.5551686, result.west.latitude)
+        self.assertEqual(-7.5226863, result.west.longitude)
+
+        # Spanish province
+        result = OsmInterface().get_region_extreme_points('Cáceres', osm_interface.PROVINCE, ways.SPAIN)
+        self.assertEqual(40.4866514, result.north.latitude)
+        self.assertEqual(-6.2312683, result.north.longitude)
+        self.assertEqual(39.0315802, result.south.latitude)
+        self.assertEqual(-6.1420985, result.south.longitude)
+        self.assertEqual(39.3949928, result.east.latitude)
+        self.assertEqual(-4.9525129, result.east.longitude)
+        self.assertEqual(39.6636796, result.west.latitude)
+        self.assertEqual(-7.5416802, result.west.longitude)
+
+        # Spanish comarca
+        result = OsmInterface().get_region_extreme_points('Sierra Norte', osm_interface.COMARCA, ways.SPAIN)
+        self.assertEqual(41.1657381, result.north.latitude)
+        self.assertEqual(-3.5443579, result.north.longitude)
+        self.assertEqual(40.7345499, result.south.latitude)
+        self.assertEqual(-3.5475735, result.south.longitude)
+        self.assertEqual(41.0002545, result.east.latitude)
+        self.assertEqual(-3.3946285, result.east.longitude)
+        self.assertEqual(40.7994907, result.west.latitude)
+        self.assertEqual(-3.9797707, result.west.longitude)
+
+        # Spanish municipality
+        result = OsmInterface().get_region_extreme_points('Madrid', osm_interface.SPANISH_MUNICIPALITY, ways.SPAIN)
+        self.assertEqual(40.6437293, result.north.latitude)
+        self.assertEqual(-3.6542196, result.north.longitude)
+        self.assertEqual(40.3119774, result.south.latitude)
+        self.assertEqual(-3.5986952, result.south.longitude)
+        self.assertEqual(40.40265, result.east.latitude)
+        self.assertEqual(-3.5179163, result.east.longitude)
+        self.assertEqual(40.5708516, result.west.latitude)
+        self.assertEqual(-3.8889539, result.west.longitude)
+
+        # Spanish district
+        result = OsmInterface().get_region_extreme_points('Barajas', osm_interface.SPANISH_DISTRICT, ways.SPAIN)
+        self.assertEqual(40.5132684, result.north.latitude)
+        self.assertEqual(-3.5715401, result.north.longitude)
+        self.assertEqual(40.4464812, result.south.latitude)
+        self.assertEqual(-3.5354915, result.south.longitude)
+        self.assertEqual(40.4677375, result.east.latitude)
+        self.assertEqual(-3.5250873, result.east.longitude)
+        self.assertEqual(40.4684978, result.west.latitude)
+        self.assertEqual(-3.6279521, result.west.longitude)
+
+        # Andorra
+        result = OsmInterface().get_region_extreme_points('Andorra', osm_interface.COUNTRY, ways.ANDORRA)
+        self.assertEqual(42.6559357, result.north.latitude)
+        self.assertEqual(1.5492987, result.north.longitude)
+        self.assertEqual(42.4288238, result.south.latitude)
+        self.assertEqual(1.5157512, result.south.longitude)
+        self.assertEqual(42.5741828, result.east.latitude)
+        self.assertEqual(1.786664, result.east.longitude)
+        self.assertEqual(42.5353776, result.west.latitude)
+        self.assertEqual(1.4135781, result.west.longitude)
+
+        # Andorran parish
+        result = OsmInterface().get_region_extreme_points('Escaldes-Engordany', osm_interface.ANDORRAN_PARISH, ways.ANDORRA)
+        self.assertEqual(42.5237965, result.north.latitude)
+        self.assertEqual(1.5460477, result.north.longitude)
+        self.assertEqual(42.449886, result.south.latitude)
+        self.assertEqual(1.5788543, result.south.longitude)
+        self.assertEqual(42.4815295, result.east.latitude)
+        self.assertEqual(1.6632892, result.east.longitude)
+        self.assertEqual(42.5228659, result.west.latitude)
+        self.assertEqual(1.5215088, result.west.longitude)
+
+        # Gibraltar
+        result = OsmInterface().get_region_extreme_points('Gibraltar', osm_interface.COUNTRY, ways.GIBRALTAR)
+        self.assertEqual(36.1550376, result.north.latitude)
+        self.assertEqual(-5.3453466, result.north.longitude)
+        self.assertEqual(36.058755, result.south.latitude)
+        self.assertEqual(-5.347109, result.south.longitude)
+        self.assertEqual(36.1420809, result.east.latitude)
+        self.assertEqual(-5.2766611, result.east.longitude)
+        self.assertEqual(36.1483668, result.west.latitude)
+        self.assertEqual(-5.4006553, result.west.longitude)
 
     def test_query_server_invalid_parameters(self):
         # All invalid parameters

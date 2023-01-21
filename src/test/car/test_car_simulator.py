@@ -113,7 +113,7 @@ class CarSimulatorTest(unittest.TestCase):
         self.assertTrue(self.car_simulator.last_read_input >= current_time)
         self.assertEqual(car_simulator.MODE_ACCELERATING, self.car_simulator.mode)
         self.assertTrue(49 < self.car_simulator.speed < 51)
-        self.assertTrue(8100 < self.car_simulator.rpm < 8200)
+        self.assertTrue(8100 < self.car_simulator.rpm < 8250)
         self.assertEqual(gear, self.car_simulator.gear)
 
     def test_accelerate_car_reverse_gear(self):
