@@ -3359,6 +3359,76 @@ A-6 - Saída 366,A-6 - Saída 371-372,Car,False,Astorga
 A-6 - Saída 366,A-6 - Saída 371-372,Car,False,Madrid
 A-6 - Saída 366,A-6 - Saída 371-372,Car,True,A Coruña
 A-6 - Saída 366,A-6 - Saída 371-372,Car,True,Ponferrada
+A-6 - Saída 371-372,A-6 - Saída 376,Car,False,Astorga
+A-6 - Saída 371-372,A-6 - Saída 376,Car,False,Madrid
+A-6 - Saída 371-372,A-6 - Saída 376,Car,True,A Coruña
+A-6 - Saída 371-372,A-6 - Saída 376,Car,True,Ponferrada
+A-6 - Saída 376,A-6 - Saída 378,Car,False,Astorga
+A-6 - Saída 376,A-6 - Saída 378,Car,False,Madrid
+A-6 - Saída 376,A-6 - Saída 378,Car,True,A Coruña
+A-6 - Saída 376,A-6 - Saída 378,Car,True,Ponferrada
+A-6 - Saída 378,A-6 - Saída 382,Car,False,Astorga
+A-6 - Saída 378,A-6 - Saída 382,Car,False,León
+A-6 - Saída 378,A-6 - Saída 382,Car,False,Madrid
+A-6 - Saída 378,A-6 - Saída 382,Car,True,A Coruña
+A-6 - Saída 378,A-6 - Saída 382,Car,True,Lugo
+A-6 - Saída 382,A-6 - Saída 387,Car,False,Astorga
+A-6 - Saída 382,A-6 - Saída 387,Car,False,León
+A-6 - Saída 382,A-6 - Saída 387,Car,False,Madrid
+A-6 - Saída 382,A-6 - Saída 387,Car,True,A Coruña
+A-6 - Saída 382,A-6 - Saída 387,Car,True,Lugo
+A-6 - Saída 387,A-6 - Saída 394,Car,False,Madrid
+A-6 - Saída 387,A-6 - Saída 394,Car,False,Ponferrada
+A-6 - Saída 387,A-6 - Saída 394,Car,True,A Coruña
+A-6 - Saída 387,A-6 - Saída 394,Car,True,Lugo
+A-6 - Saída 387,A-6 - Saída 394,Car,True,Ourense
+A-6 - Saída 394,A-6 - Saída 399,Car,False,Madrid
+A-6 - Saída 394,A-6 - Saída 399,Car,False,Ponferrada
+A-6 - Saída 394,A-6 - Saída 399,Car,True,A Coruña
+A-6 - Saída 394,A-6 - Saída 399,Car,True,Lugo
+A-6 - Saída 399,A-6 - Saída 400,Car,False,Madrid
+A-6 - Saída 399,A-6 - Saída 400,Car,False,Ponferrada
+A-6 - Saída 399,A-6 - Saída 400,Car,True,A Coruña
+A-6 - Saída 399,A-6 - Saída 400,Car,True,Lugo
+A-6 - Saída 400,A-6 - Saída 405,Car,False,Benavente
+A-6 - Saída 400,A-6 - Saída 405,Car,False,Madrid
+A-6 - Saída 400,A-6 - Saída 405,Car,False,Ponferrada
+A-6 - Saída 400,A-6 - Saída 405,Car,True,A Coruña
+A-6 - Saída 400,A-6 - Saída 405,Car,True,Lugo
+A-6 - Saída 405,A-6 - Saída 407,Car,False,Benavente
+A-6 - Saída 405,A-6 - Saída 407,Car,False,Madrid
+A-6 - Saída 405,A-6 - Saída 407,Car,False,Ponferrada
+A-6 - Saída 405,A-6 - Saída 407,Car,True,A Coruña
+A-6 - Saída 405,A-6 - Saída 407,Car,True,Lugo
+A-6 - Saída 407,A-6 - Saída 415,Car,False,Benavente
+A-6 - Saída 407,A-6 - Saída 415,Car,False,Madrid
+A-6 - Saída 407,A-6 - Saída 415,Car,False,Ponferrada
+A-6 - Saída 407,A-6 - Saída 415,Car,True,A Coruña
+A-6 - Saída 407,A-6 - Saída 415,Car,True,Lugo
+A-6 - Saída 415,A-6 - Saída 419,Car,False,Madrid
+A-6 - Saída 415,A-6 - Saída 419,Car,False,Ponferrada
+A-6 - Saída 415,A-6 - Saída 419,Car,True,A Coruña
+A-6 - Saída 415,A-6 - Saída 419,Car,True,Lugo
+A-6 - Saída 419,A-6 - Saída 420,Car,False,Benavente
+A-6 - Saída 419,A-6 - Saída 420,Car,False,Madrid
+A-6 - Saída 419,A-6 - Saída 420,Car,False,Ponferrada
+A-6 - Saída 419,A-6 - Saída 420,Car,True,A Coruña
+A-6 - Saída 419,A-6 - Saída 420,Car,True,Lugo
+A-6 - Saída 420,A-6 - Saída 431,Car,False,Benavente
+A-6 - Saída 420,A-6 - Saída 431,Car,False,Madrid
+A-6 - Saída 420,A-6 - Saída 431,Car,False,Ponferrada
+A-6 - Saída 420,A-6 - Saída 431,Car,True,A Coruña
+A-6 - Saída 420,A-6 - Saída 431,Car,True,Lugo
+A-6 - Saída 431,A-6 - Saída 432,Car,False,Benavente
+A-6 - Saída 431,A-6 - Saída 432,Car,False,Madrid
+A-6 - Saída 431,A-6 - Saída 432,Car,False,Ponferrada
+A-6 - Saída 431,A-6 - Saída 432,Car,True,A Coruña
+A-6 - Saída 431,A-6 - Saída 432,Car,True,Lugo
+A-6 - Saída 432,A-6 - Saída 438,Car,False,Benavente
+A-6 - Saída 432,A-6 - Saída 438,Car,False,Madrid
+A-6 - Saída 432,A-6 - Saída 438,Car,False,Ponferrada
+A-6 - Saída 432,A-6 - Saída 438,Car,True,A Coruña
+A-6 - Saída 432,A-6 - Saída 438,Car,True,Lugo
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
