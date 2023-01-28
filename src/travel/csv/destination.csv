@@ -3429,6 +3429,97 @@ A-6 - Saída 432,A-6 - Saída 438,Car,False,Madrid
 A-6 - Saída 432,A-6 - Saída 438,Car,False,Ponferrada
 A-6 - Saída 432,A-6 - Saída 438,Car,True,A Coruña
 A-6 - Saída 432,A-6 - Saída 438,Car,True,Lugo
+A-6 - Saída 438,A-6 - Saída 444,Car,False,Benavente
+A-6 - Saída 438,A-6 - Saída 444,Car,False,Madrid
+A-6 - Saída 438,A-6 - Saída 444,Car,False,Ponferrada
+A-6 - Saída 438,A-6 - Saída 444,Car,True,A Coruña
+A-6 - Saída 438,A-6 - Saída 444,Car,True,Lugo
+A-6 - Saída 444,A-6 - Saída 451,Car,False,Benavente
+A-6 - Saída 444,A-6 - Saída 451,Car,False,Madrid
+A-6 - Saída 444,A-6 - Saída 451,Car,False,Ponferrada
+A-6 - Saída 444,A-6 - Saída 451,Car,True,A Coruña
+A-6 - Saída 444,A-6 - Saída 451,Car,True,Lugo
+A-6 - Saída 451,A-6 - Saída 456,Car,False,Benavente
+A-6 - Saída 451,A-6 - Saída 456,Car,False,Madrid
+A-6 - Saída 451,A-6 - Saída 456,Car,False,Ponferrada
+A-6 - Saída 451,A-6 - Saída 456,Car,True,A Coruña
+A-6 - Saída 451,A-6 - Saída 456,Car,True,Lugo
+A-6 - Saída 456,A-6 - Saída 461,Car,False,Madrid
+A-6 - Saída 456,A-6 - Saída 461,Car,False,Ponferrada
+A-6 - Saída 456,A-6 - Saída 461,Car,True,A Coruña
+A-6 - Saída 456,A-6 - Saída 461,Car,True,Lugo
+A-6 - Saída 461,A-6 - Saída 469,Car,False,Madrid
+A-6 - Saída 461,A-6 - Saída 469,Car,False,Ponferrada
+A-6 - Saída 461,A-6 - Saída 469,Car,True,A Coruña
+A-6 - Saída 461,A-6 - Saída 469,Car,True,Lugo
+A-6 - Saída 469,A-6 - Saída 479,Car,False,Madrid
+A-6 - Saída 469,A-6 - Saída 479,Car,False,Ponferrada
+A-6 - Saída 469,A-6 - Saída 479,Car,True,A Coruña
+A-6 - Saída 469,A-6 - Saída 479,Car,True,Lugo
+A-6 - Saída 479,A-6 - Saída 485,Car,False,Madrid
+A-6 - Saída 479,A-6 - Saída 485,Car,False,Ponferrada
+A-6 - Saída 479,A-6 - Saída 485,Car,True,A Coruña
+A-6 - Saída 479,A-6 - Saída 485,Car,True,Lugo
+A-6 - Saída 485,Cruzamento da A-6 com a A-54 e a LU-11,Car,False,Madrid
+A-6 - Saída 485,Cruzamento da A-6 com a A-54 e a LU-11,Car,False,Ponferrada
+A-6 - Saída 485,Cruzamento da A-6 com a A-54 e a LU-11,Car,True,A Coruña
+A-6 - Saída 485,Cruzamento da A-6 com a A-54 e a LU-11,Car,True,Lugo
+A-6 - Saída 493,A-6 - Saída 497,Car,False,A-54 - Ourense/Santiago de Compostela
+A-6 - Saída 493,A-6 - Saída 497,Car,False,Madrid
+A-6 - Saída 493,A-6 - Saída 497,Car,True,A Coruña
+A-6 - Saída 493,A-6 - Saída 497,Car,True,A-8 - Oviedo
+A-6 - Saída 493,Cruzamento da A-6 com a A-54 e a LU-11,Car,False,A Coruña
+A-6 - Saída 493,Cruzamento da A-6 com a A-54 e a LU-11,Car,False,A-8 - Oviedo
+A-6 - Saída 493,Cruzamento da A-6 com a A-54 e a LU-11,Car,True,A-54 - Ourense/Santiago de Compostela
+A-6 - Saída 493,Cruzamento da A-6 com a A-54 e a LU-11,Car,True,Madrid
+A-6 - Saída 497,A-6 - Saída 500,Car,False,A-54 - Ourense/Santiago de Compostela
+A-6 - Saída 497,A-6 - Saída 500,Car,False,Madrid
+A-6 - Saída 497,A-6 - Saída 500,Car,True,A Coruña
+A-6 - Saída 497,A-6 - Saída 500,Car,True,A-8 - Oviedo
+A-6 - Saída 500,A-6 - Saída 507,Car,False,Lugo
+A-6 - Saída 500,A-6 - Saída 507,Car,False,Madrid
+A-6 - Saída 500,A-6 - Saída 507,Car,True,A Coruña
+A-6 - Saída 500,A-6 - Saída 507,Car,True,A-8 - Oviedo
+A-6 - Saída 507,A-6 - Saída 510,Car,False,Lugo
+A-6 - Saída 507,A-6 - Saída 510,Car,False,Madrid
+A-6 - Saída 507,A-6 - Saída 510,Car,True,A Coruña
+A-6 - Saída 507,A-6 - Saída 510,Car,True,Rábade
+A-6 - Saída 510,A-6 - Saída 517,Car,False,Lugo
+A-6 - Saída 510,A-6 - Saída 517,Car,False,Madrid
+A-6 - Saída 510,A-6 - Saída 517,Car,False,Rábade
+A-6 - Saída 510,A-6 - Saída 517,Car,True,A Coruña
+A-6 - Saída 510,A-6 - Saída 517,Car,True,Santiago de Compostela
+A-6 - Saída 517,Cruzamento da A-6 com a A-8,Car,False,Lugo
+A-6 - Saída 517,Cruzamento da A-6 com a A-8,Car,False,Madrid
+A-6 - Saída 517,Cruzamento da A-6 com a A-8,Car,True,A Coruña
+A-6 - Saída 517,Cruzamento da A-6 com a A-8,Car,True,Baamonde
+A-6 - Saída 522B,A-6 - Saída 529,Car,False,Lugo
+A-6 - Saída 522B,A-6 - Saída 529,Car,False,Madrid
+A-6 - Saída 522B,A-6 - Saída 529,Car,True,A Coruña
+A-6 - Saída 522B,A-6 - Saída 529,Car,True,Santiago de Compostela
+A-6 - Saída 522B,Cruzamento da A-6 com a A-8,Car,False,A Coruña
+A-6 - Saída 522B,Cruzamento da A-6 com a A-8,Car,False,Ferrol
+A-6 - Saída 522B,Cruzamento da A-6 com a A-8,Car,False,Santiago de Compostela
+A-6 - Saída 522B,Cruzamento da A-6 com a A-8,Car,True,Lugo
+A-6 - Saída 522B,Cruzamento da A-6 com a A-8,Car,True,Madrid
+A-6 - Saída 529,A-6 - Saída 535,Car,False,Lugo
+A-6 - Saída 529,A-6 - Saída 535,Car,False,Madrid
+A-6 - Saída 529,A-6 - Saída 535,Car,False,Oviedo
+A-6 - Saída 529,A-6 - Saída 535,Car,True,A Coruña
+A-6 - Saída 535,A-6 - Saída 540,Car,False,Lugo
+A-6 - Saída 535,A-6 - Saída 540,Car,False,Madrid
+A-6 - Saída 535,A-6 - Saída 540,Car,False,Oviedo
+A-6 - Saída 535,A-6 - Saída 540,Car,True,A Coruña
+A-6 - Saída 535,A-6 - Saída 540,Car,True,Santiago de Compostela
+A-6 - Saída 540,A-6 - Saída 549,Car,False,Lugo
+A-6 - Saída 540,A-6 - Saída 549,Car,False,Madrid
+A-6 - Saída 540,A-6 - Saída 549,Car,True,A Coruña
+A-6 - Saída 540,A-6 - Saída 549,Car,True,Betanzos
+A-6 - Saída 549,A-6 - Saída 560,Car,False,Lugo
+A-6 - Saída 549,A-6 - Saída 560,Car,False,Madrid
+A-6 - Saída 549,A-6 - Saída 560,Car,True,A Coruña
+A-6 - Saída 549,A-6 - Saída 560,Car,True,Betanzos
+A-6 - Saída 549,A-6 - Saída 560,Car,True,Ferrol
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona

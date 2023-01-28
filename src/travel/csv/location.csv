@@ -691,6 +691,25 @@ A-6 - Saída 420,42.660544,-6.92634,628,,3000
 A-6 - Saída 431,42.7222,-7.0158,1047,ZEC Ancares - Courel,3000
 A-6 - Saída 432,42.727008,-7.03426,1043,,3000
 A-6 - Saída 438,42.765065,-7.083577,776,,3000
+A-6 - Saída 444,42.812896,-7.10527,592,,3000
+A-6 - Saída 451,42.861784,-7.141639,552,,3000
+A-6 - Saída 456,42.878477,-7.176326,707,,3000
+A-6 - Saída 461,42.9198,-7.2131,540,,3000
+A-6 - Saída 469,42.906442,-7.289884,661,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 479,42.939624,-7.396498,457,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 485,42.965239,-7.456125,423,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 493,43.013692,-7.518166,476,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 497,43.042977,-7.525224,468,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 500,43.058029,-7.559956,466,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 507,43.105829,-7.602837,408,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 510,43.129206,-7.624263,395,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 517,43.159078,-7.685445,407,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 522B,43.1801,-7.7544,419,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 529,43.184076,-7.82426,443,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 535,43.190531,-7.895504,476,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 540,43.193501,-7.953426,483,Reserva da Biosfera Terras do Miño,3000
+A-6 - Saída 549,43.213991,-8.049492,519,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3000
+A-6 - Saída 560,43.242971,-8.157954,228,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3000
 A-7 - Calle Montes de Málaga,36.31211,-5.25221,18,,2700
 A-7 - Camping La Bella Vista,36.34611,-5.23690,7,,2900
 A-7 - Castillo de la Duquesa,36.34883,-5.23562,14,,2900
@@ -1639,7 +1658,9 @@ Cruzamento da A-5 com a EX-A2,39.130461,-5.949464,277,,1100
 Cruzamento da A-5 com a M-30,40.417121,-3.722376,573,,1400
 Cruzamento da A-5 com a M-40,40.371343,-3.800962,693,,1400
 Cruzamento da A-5 com a R-5,40.265977,-4.039013,654,,1100
+Cruzamento da A-6 com a A-8,43.1781,-7.7427,418,Reserva da Biosfera Terras do Miño,3000
 Cruzamento da A-6 com a A-52 e a A-66,42.0578,-5.6806,768,,3000
+Cruzamento da A-6 com a A-54 e a LU-11,42.9688,-7.4944,464,Reserva da Biosfera Terras do Miño,3000
 Cruzamento da A-6 com a AP-71,42.4363,-6.0501,858,,3000
 Cruzamento da A-6 com a M-30,40.453571,-3.743519,593,,1600
 Cruzamento da A-6 com a M-40,40.464976,-3.795563,664,,1800
