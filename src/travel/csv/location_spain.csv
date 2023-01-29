@@ -536,6 +536,11 @@ A-6 - Saída 535,Guitiriz,Lugo,Lagostelle
 A-6 - Saída 540,Guitiriz,Lugo,Santa Mariña de Lagostelle
 A-6 - Saída 549,Aranga,A Coruña,Muniferral
 A-6 - Saída 560,Coirós,A Coruña,Santa Mariña de Lesa
+A-6 - Saída 565,Oza-Cesuras,A Coruña,Mondoi
+A-6 - Saída 567,Betanzos,A Coruña,Requián
+A-6 - Saída 573,Carral,A Coruña,San Vicente de Vigo
+A-6 - Saída 583,Cambre,A Coruña,Anceis
+A-6 - Saída 589,Arteixo,A Coruña,Morás
 A-7 - Calle Montes de Málaga,Manilva,Málaga,
 A-7 - Camping La Bella Vista,Manilva,Málaga,
 A-7 - Castillo de la Duquesa,Manilva,Málaga,
@@ -1150,6 +1155,14 @@ AP-7 - Saída 172,Marbella,Málaga,
 AP-7 - Saída 200,Mijas,Málaga,
 AP-7 - Saída 213,Mijas,Málaga,
 AP-7 - Saída 226,Torremolinos,Málaga,
+AP-9 - Saída 41,Ordes,A Coruña,Barbeiros
+AP-9 - Saída 55,Oroso,A Coruña,Oroso
+AP-9 - Saída 60,Santiago de Compostela,A Coruña,Marantes
+AP-9 - Saída 67,Santiago de Compostela,A Coruña,San Lázaro
+AP-9 - Saída 70,Santiago de Compostela,A Coruña,Santiago de Compostela
+AP-9 - Saída 93,Padrón,A Coruña,Herbón
+AP-9 - Saída 104,Caldas de Reis,Pontevedra,Bemil
+AP-9 - Saída 110,Caldas de Reis,Pontevedra,Saiar
 AP-9 - Saída 129,Pontevedra,Pontevedra,Campañó
 AP-9 - Saída 137,Vilaboa,Pontevedra,Figueirido
 AP-9 - Saída 147B,Redondela,Pontevedra,Trasmañó
@@ -1166,7 +1179,9 @@ Aquopolis Cartaya,Cartaya,Huelva,
 Arahal,Arahal,Sevilha,
 "Arco de la Victoria, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Área de Serviço de Altos de Marbella,Marbella,Málaga,
+Área de Serviço de Ameixeira,Ordes,A Coruña,Buscás
 Área de Serviço de Arroyo de la Miel,Torremolinos,Málaga,
+Área de Serviço de Compostela,Teo,A Coruña,Luou
 Área de Serviço de Cortijo de Robledo,Antequera,Málaga,
 Área de Serviço de El Cuadrejón,Jerez de la Frontera,Cádiz,
 Área de Serviço de El Fantasma,Las Cabezas de San Juan,Sevilha,
@@ -1175,6 +1190,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Meco,Meco,Comunidade de Madrid,
 Área de Serviço de Polvoranca,Leganés,Comunidade de Madrid,
 Área de Serviço de Río Castor,Estepona,Málaga,
+Área de Serviço de Salnés,Portas,Pontevedra,Portas
 Área de Serviço de San Simón,Vilaboa,Pontevedra,Cobres
 Área de Serviço de Seseña,Seseña,Toledo,
 Área de Serviço de Villacastín,Villacastín,Segóvia,
@@ -1222,6 +1238,7 @@ Centro Comercial Aqualon,Huelva,Huelva,
 Centro Comercial Costa Luz,Huelva,Huelva,
 Centro Comercial Holea,Huelva,Huelva,
 Centro Penitenciario de Huelva,Huelva,Huelva,
+Cidade da Cultura,Santiago de Compostela,A Coruña,Santiago de Compostela
 CM-41 - Saída 2,Casarrubios del Monte,Toledo,
 CO-32 - Fim,Córdoba,Córdoba,
 CO-32 - Saída 3,Córdoba,Córdoba,
@@ -1284,6 +1301,9 @@ Cruzamento da A-5 com a R-5,Navalcarnero,Comunidade de Madrid,
 Cruzamento da A-6 com a A-8,Begonte,Lugo,San Martiño de Pacios
 Cruzamento da A-6 com a A-52 e a A-66,Villabrázaro,Zamora,
 Cruzamento da A-6 com a A-54 e a LU-11,Lugo,Lugo,San Mamede dos Ánxos
+Cruzamento da A-6 com a AC-14,Culleredo,A Coruña,Sésamo
+Cruzamento da A-6 com a AG-55,Arteixo,A Coruña,Morás
+Cruzamento da A-6 com a AP-9M,Betanzos,A Coruña,Piadela
 Cruzamento da A-6 com a AP-71,San Justo de la Vega,León,
 Cruzamento da A-6 com a M-30,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cruzamento da A-6 com a M-40,Madrid,Comunidade de Madrid,Moncloa-Aravaca
@@ -1325,6 +1345,7 @@ Cruzamento da A-50 com a AV-20,Ávila,Ávila,
 Cruzamento da A-50 com a SA-20,Carbajosa de la Sagrada,Salamanca,
 Cruzamento da A-52 com a A-55,Mos,Pontevedra,Sanguiñeda
 Cruzamento da A-52 com a AG-51,Salvaterra de Miño,Pontevedra,Lira
+Cruzamento da A-54 com a AP-9,Santiago de Compostela,A Coruña,San Lázaro
 Cruzamento da A-66 com a EX-A1,Plasencia,Cáceres,
 Cruzamento da A-66 com a SA-20,Aldeatejada,Salamanca,
 Cruzamento da A-66 com a SE-30,Camas,Sevilha,
@@ -1353,11 +1374,15 @@ Cruzamento da A-8005 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da A-8009 com a SE-20,Sevilha,Sevilha,Norte
 Cruzamento da AG-41 com a AP-9,Barro,Pontevedra,Portela
 Cruzamento da AG-46 com a AP-9,Vilaboa,Pontevedra,Cobres
+Cruzamento da AG-56 com a AP-9,Santiago de Compostela,A Coruña,Conxo
 Cruzamento da AP-4 com a AP-4A,Dos Hermanas,Sevilha,
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-6 com a AP-51,Villacastín,Segóvia,
 Cruzamento da AP-6 com a AP-61,El Espinar,Segóvia,
 Cruzamento da AP-9 com a AP-9V,Vigo,Pontevedra,Teis
+Cruzamento da AP-9 com a AP-9F,Abegondo,A Coruña,Orto
+Cruzamento da AP-9 com a AP-9M,Betanzos,A Coruña,Piadela
+Cruzamento da AP-9 com a AP-53,Santiago de Compostela,A Coruña,O Eixo
 Cruzamento da AP-9 com a PO-10 e a PO-11,Pontevedra,Pontevedra,Salcedo
 Cruzamento da AP-9 com a VG-20,Mos,Pontevedra,Tameiga
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,

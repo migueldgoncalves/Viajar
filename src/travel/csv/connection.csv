@@ -930,6 +930,14 @@ A-6 - Saída 529,A-6 - Saída 535,Car,5.9,A-6,W,2,1
 A-6 - Saída 535,A-6 - Saída 540,Car,4.8,A-6,W,2,1
 A-6 - Saída 540,A-6 - Saída 549,Car,9.1,A-6,W,2,1
 A-6 - Saída 549,A-6 - Saída 560,Car,10.8,A-6,W,2,1
+A-6 - Saída 560,A-6 - Saída 565,Car,5.6,A-6,W,2,1
+A-6 - Saída 565,A-6 - Saída 567,Car,1.8,A-6,W,2,1
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,1.9,A-6,W,2,1
+A-6 - Saída 573,A-6 - Saída 583,Car,9.2,A-6,W,2,1
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,4.7,A-6,E,1,2
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,3.2,A-6,W,2,1
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,3.2,A-6,E,1,2
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,3.8,A-6,NW,2,1
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,0.2,A-7,SE,2,1
 A-7 - Calle Montes de Málaga,A-7 - Urbanización San Diego,Car,0.4,A-7,W,1,2
 A-7 - Camping La Bella Vista,A-7 - Castillo de la Duquesa,Car,0.4,A-7,N,2,1
@@ -1880,6 +1888,18 @@ AP-7 - Saída 200,Área de Serviço de Altos de Marbella,Car,10.7,AP-7,W,1,2
 AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Car,0.7,AP-7,NE,2,1
 AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,1.0,AP-7,SW,1,3
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,2.5,AP-7,NE,2,1
+AP-9 - Saída 41,AP-9 - Saída 55,Car,13.5,AP-9,SW,1,2
+AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,2.1,AP-9,N,2,1
+AP-9 - Saída 55,AP-9 - Saída 60,Car,5.2,AP-9,SW,1,2
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,5.4,AP-9,SW,1,2
+AP-9 - Saída 67,AP-9 - Saída 70,Car,2.7,AP-9,SW,1,2
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,1.4,AP-9,N,2,1
+AP-9 - Saída 70,Cidade da Cultura,Car,0.5,,W,3,1
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,2.1,AP-9,SW,1,2
+AP-9 - Saída 93,AP-9 - Saída 104,Car,11.2,AP-9,S,1,2
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,13.0,AP-9,NE,2,1
+AP-9 - Saída 104,AP-9 - Saída 110,Car,5.0,AP-9,S,1,2
+AP-9 - Saída 110,Área de Serviço de Salnés,Car,4.2,AP-9,S,1,2
 AP-9 - Saída 129,Cruzamento da AG-41 com a AP-9,Car,9.7,AP-9,N,2,1
 AP-9 - Saída 129,Cruzamento da AP-9 com a PO-10 e a PO-11,Car,3.3,AP-9,S,1,2
 AP-9 - Saída 137,Área de Serviço de San Simón,Car,6.6,AP-9,S,1,2
@@ -1915,10 +1935,12 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Alcochete,Cruzamento da A12 com a A33,Car,4.1,A12,E,2,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Car,28.0,A2,NW,1,2
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Car,3.5,AP-7,W,1,2
+Área de Serviço de Ameixeira,Cruzamento da AP-9 com a AP-9M,Car,23.3,AP-9,N,2,1
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Car,7.7,A1,S,1,2
 Área de Serviço de Arroyo de la Miel,Cruzamento VII da A-7 com a AP-7,Car,1.6,A-7/AP-7,NE,2,1
 Área de Serviço de Aveiras,Cruzamento da A1 com a A10,Car,13.8,A1,SW,1,2
 Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Car,11.1,A3,SE,1,2
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,6.0,AP-9,N,2,1
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Car,2.5,A3,S,1,2
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-7 com a AP-46,Car,21.0,AP-46,SW,1,3
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Car,4.0,AP-46,N,2,3
@@ -1934,6 +1956,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Car,4.4,R-5,NE,2,3
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,1.5,R-5,SW,1,2
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,3.7,AP-7,SW,1,3
+Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,5.2,AP-9,S,1,2
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,2.8,AP-9,S,1,2
 Área de Serviço de Santarém,Cruzamento da A1 com a A15,Car,17.3,A1,SW,1,2
 Área de Serviço de Santarém,Cruzamento da A1 com a A23,Car,9.6,A1,N,2,1
@@ -2321,6 +2344,7 @@ Cruzamento da A-5 com a M-30,M-30 - Saída 17,Car,0.9,M-30,S,2,1
 Cruzamento da A-5 com a M-40,Cruzamento da M-40 com a M-501,Car,4.2,M-40,NW,1,2
 Cruzamento da A-5 com a M-40,M-40 - Saída 31,Car,1.3,M-40,SE,2,1
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Car,2.6,R-5,E,3,1
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,2.6,AP-9M,NW,3,3
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Car,1.1,M-30,S,2,1
 Cruzamento da A-6 com a M-30,M-30 - Saída 23B,Car,1.5,M-30,N,1,2
 Cruzamento da A-6 com a M-40,M-40 - Saída 45,Car,1.5,M-40,W,2,1
@@ -2377,10 +2401,12 @@ Cruzamento da A-8005 com a SE-20,Cruzamento da A-8009 com a SE-20,Car,0.7,SE-20,
 Cruzamento da A-8005 com a SE-20,SE-20 - Pino Montano,Car,1.5,SE-20,SE,2,1
 Cruzamento da A-8009 com a SE-20,SE-20 - San Jerónimo,Car,1.5,SE-20,SW,1,2
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,0.9,AP-9 - Ponte de Rande,S,1,2
+Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,3.0,AP-9,E,2,1
 Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,1.5,AP-4,NW,1,2
 Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,2.4,AP-4A,NW,3,1
 Cruzamento da AP-4 com a CA-32,Cruzamento da CA-35 com a CA-36,Car,2.9,CA-35,SW,2,1
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,2.9,AP-4,E,1,2
+Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,2.0,AP-9,SE,1,2
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,1.8,AP-9,N,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 11,Car,5.6,R-5,NE,2,1
 Cruzamento da AP-41 com a R-5,R-5 - Saída 20,Car,2.8,R-5,SW,1,2

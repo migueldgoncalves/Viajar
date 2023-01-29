@@ -1,5 +1,6 @@
 Municipio,Comarca,Province
 A Cañiza,A Paradanta,Pontevedra
+Abegondo,Comarca de A Coruña,A Coruña
 Abla,Los Filabres-Tabernas,Almería
 Abrucena,Los Filabres-Tabernas,Almería
 Adanero,La Moraña,Ávila
@@ -54,6 +55,7 @@ Arévalo,La Moraña,Ávila
 Aroche,Sierra de Huelva,Huelva
 Arroyo de San Serván,Centro,Badajoz
 Arroyomolinos,Comarca Sur,Comunidade de Madrid
+Arteixo,Comarca de A Coruña,A Coruña
 As Neves,O Condado,Pontevedra
 As Nogais,Os Ancares,Lugo
 Astorga,Tierra de Astorga,León
@@ -79,6 +81,7 @@ Benalmádena,Costa del Sol Occidental,Málaga
 Benamejí,Subbética,Córdoba
 Benavente,Benavente y Los Valles,Zamora
 Bercero,Tierra del Vino,Valladolid
+Betanzos,Comarca de Betanzos,A Coruña
 Boadilla del Monte,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Bollullos de la Mitación,Aljarafe,Sevilha
 Bollullos Par del Condado,El Condado,Huelva
@@ -89,12 +92,14 @@ Brazuelo,Tierra de Astorga,León
 Buenavista,Tierra de Alba,Salamanca
 Buitrago del Lozoya,Sierra Norte de Madrid,Comunidade de Madrid
 Cabanillas del Campo,Campiña de Guadalajara,Guadalajara
+Caldas de Reis,Comarca de Caldas,Pontevedra
 Calera y Chozas,La Campana de Oropesa,Toledo
 Calzada de Don Diego,Campo de Salamanca,Salamanca
 Calzadilla de los Barros,Zafra-Río Bodión,Badajoz
 Camas,Aljarafe,Sevilha
 Camas,Comarca Metropolitana de Sevilha,Sevilha
 Cambil,Sierra Mágina,Jaén
+Cambre,Comarca de A Coruña,A Coruña
 Campillo de Arenas,Sierra Mágina,Jaén
 Camponaraya,El Bierzo,León
 Campotéjar,Los Montes,Granada
@@ -106,6 +111,7 @@ Carmona,Campiña de Carmona,Sevilha
 Carmona,Los Alcores,Sevilha
 Carpio de Azaba,Comarca de Ciudad Rodrigo,Salamanca
 Carracedelo,El Bierzo,León
+Carral,Comarca de A Coruña,A Coruña
 Carranque,La Sagra,Toledo
 Carrascal de Barregas,Campo de Salamanca,Salamanca
 Carrión de los Céspedes,Aljarafe,Sevilha
@@ -141,6 +147,7 @@ Coria del Río,Comarca Metropolitana de Sevilha,Sevilha
 Cox,Baix Segura / Vega Baja del Segura,Alacant / Alicante
 Crespos,La Moraña,Ávila
 Crevillent,Baix Vinalopó / Bajo Vinalopó,Alacant / Alicante
+Culleredo,Comarca de A Coruña,A Coruña
 Dehesas Viejas,Los Montes,Granada
 Deifontes,Los Montes,Granada
 Deleitosa,Villuercas-Ibores-Jara,Cáceres
@@ -327,11 +334,15 @@ Oliva de la Frontera,Sierra Suroeste,Badajoz
 Oliva de Plasencia,Trasierra-Tierras de Granadilla,Cáceres
 Ontígola,Mesa de Ocaña,Toledo
 Orbita,La Moraña,Ávila
+Ordes,Comarca de Ordes,A Coruña
 Orihuela,Baix Segura / Vega Baja del Segura,Alacant / Alicante
 Oropesa,La Campana de Oropesa,Toledo
+Oroso,Comarca de Ordes,A Coruña
 Osuna,Sierra Sur de Sevilha,Sevilha
 Otero,Torrijos,Toledo
 Outeiro de Rei,Comarca de Lugo,Lugo
+Oza-Cesuras,Comarca de Betanzos,A Coruña
+Padrón,O Sar,A Coruña
 Padul,Valle de Lecrín,Granada
 Palacios de Goda,La Moraña,Ávila
 Palomares del Río,Aljarafe,Sevilha
@@ -359,6 +370,7 @@ Polopos,Costa Granadina,Granada
 Ponferrada,El Bierzo,León
 Ponteareas,O Condado,Pontevedra
 Pontevedra,Comarca de Pontevedra,Pontevedra
+Portas,Comarca de Caldas,Pontevedra
 Pozuelo de Alarcón,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Pozuelo del Páramo,Páramo Leonés,León
 Puebla de Guzmán,El Andévalo,Huelva
@@ -423,6 +435,7 @@ Santa Fe,Vega de Granada,Granada
 Santa Marta de Tormes,Campo de Salamanca,Salamanca
 Santa Olalla del Cala,Sierra de Huelva,Huelva
 Santa Olalla,Torrijos,Toledo
+Santiago de Compostela,Comarca de Santiago,A Coruña
 Santiago del Campo,Tajo-Salor,Cáceres
 Santiponce,Aljarafe,Sevilha
 Santiponce,Comarca Metropolitana de Sevilha,Sevilha
@@ -440,6 +453,7 @@ Tabernas,Los Filabres-Tabernas,Almería
 Talavera de la Reina,Talavera de la Reina,Toledo
 Talavera la Real,Vegas Bajas,Badajoz
 Tembleque,Mancha Alta de Toledo,Toledo
+Teo,Comarca de Santiago,A Coruña
 Tiedra,Montes Torozos,Valladolid
 Tordesillas,Tierra del Vino,Valladolid
 Torija,La Alcarria,Guadalajara

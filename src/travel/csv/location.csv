@@ -710,6 +710,11 @@ A-6 - Saída 535,43.190531,-7.895504,476,Reserva da Biosfera Terras do Miño,300
 A-6 - Saída 540,43.193501,-7.953426,483,Reserva da Biosfera Terras do Miño,3000
 A-6 - Saída 549,43.213991,-8.049492,519,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3000
 A-6 - Saída 560,43.242971,-8.157954,228,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3000
+A-6 - Saída 565,43.260323,-8.207477,131,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+A-6 - Saída 567,43.263859,-8.227464,124,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+A-6 - Saída 573,43.25041,-8.29206,59,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+A-6 - Saída 583,43.2742,-8.3699,79,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+A-6 - Saída 589,43.286913,-8.438979,112,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
 A-7 - Calle Montes de Málaga,36.31211,-5.25221,18,,2700
 A-7 - Camping La Bella Vista,36.34611,-5.23690,7,,2900
 A-7 - Castillo de la Duquesa,36.34883,-5.23562,14,,2900
@@ -1364,6 +1369,14 @@ AP-7 - Saída 172,36.499568,-5.006086,61,,900
 AP-7 - Saída 200,36.505418,-4.716355,113,,900
 AP-7 - Saída 213,36.566292,-4.629587,44,,900
 AP-7 - Saída 226,36.637387,-4.509438,77,,1200
+AP-9 - Saída 41,43.080774,-8.356732,361,,3100
+AP-9 - Saída 55,42.978836,-8.439179,257,,3100
+AP-9 - Saída 60,42.936546,-8.465131,300,,3100
+AP-9 - Saída 67,42.888247,-8.505666,276,,3100
+AP-9 - Saída 70,42.869772,-8.52012,300,,3100
+AP-9 - Saída 93,42.734047,-8.638659,36,,3100
+AP-9 - Saída 104,42.64132,-8.65435,140,,3100
+AP-9 - Saída 110,42.599243,-8.672807,53,,3100
 AP-9 - Saída 129,42.440182,-8.649119,7,,2600
 AP-9 - Saída 137,42.371757,-8.636863,64,,2600
 AP-9 - Saída 147B,42.276976,-8.665535,65,,2600
@@ -1389,6 +1402,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Aljustrel,37.923720,-8.242707,99,,700
 Área de Serviço de Almodôvar,37.536129,-8.183866,263,,600
 Área de Serviço de Altos de Marbella,36.518514,-4.830436,59,,900
+Área de Serviço de Ameixeira,43.098564,-8.350173,369,,3100
 Área de Serviço de Antuã-Estarreja,40.755260,-8.535935,65,,1600
 Área de Serviço de Arroyo de la Miel,36.612777,-4.527835,148,,900
 Área de Serviço de Aveiras,39.123257,-8.907457,76,,1600
@@ -1396,6 +1410,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Barcelos,41.6049,-8.5503,192,,2300
 Área de Serviço de Castelo Branco,39.8881,-7.4875,349,,2400
 Área de Serviço de Celorico da Beira,40.6301,-7.3571,495,,2200
+Área de Serviço de Compostela,42.810391,-8.585163,224,,3100
 Área de Serviço de Coronado/Trofa,41.26367,-8.56393,102,,2300
 Área de Serviço de Cortijo de Robledo,36.917477,-4.439805,557,,1100
 Área de Serviço de El Cuadrejón,36.781382,-6.043598,47,,800
@@ -1420,6 +1435,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Polvoranca,40.337014,-3.802135,679,,1200
 Área de Serviço de Pombal,40.013412,-8.600130,60,,1600
 Área de Serviço de Río Castor,36.464264,-5.115708,85,,900
+Área de Serviço de Salnés,42.561207,-8.672457,70,,3100
 Área de Serviço de San Simón,42.318137,-8.661025,32,,2600
 Área de Serviço de Santarém,39.392521,-8.639074,88,,1600
 Área de Serviço de Seixal,38.623056,-9.133344,21,,1000
@@ -1545,6 +1561,7 @@ Cercal do Alentejo,37.800576,-8.672848,160,,600
 Cerro,37.426515,-7.513789,220,,300
 Cerro do Enho,37.256426,-7.522096,151,,300
 Choça Queimada,37.32165,-7.520856,120,,100
+Cidade da Cultura,42.870261,-8.525784,280,,3100
 CM-41 - Saída 2,40.169295,-4.109204,630,,1100
 CO-32 - Fim,37.867263,-4.812437,102,,800
 CO-32 - Saída 3,37.841956,-4.801985,120,,800
@@ -1661,6 +1678,9 @@ Cruzamento da A-5 com a R-5,40.265977,-4.039013,654,,1100
 Cruzamento da A-6 com a A-8,43.1781,-7.7427,418,Reserva da Biosfera Terras do Miño,3000
 Cruzamento da A-6 com a A-52 e a A-66,42.0578,-5.6806,768,,3000
 Cruzamento da A-6 com a A-54 e a LU-11,42.9688,-7.4944,464,Reserva da Biosfera Terras do Miño,3000
+Cruzamento da A-6 com a AC-14,43.2741,-8.4041,65,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+Cruzamento da A-6 com a AG-55,43.3066,-8.4746,38,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+Cruzamento da A-6 com a AP-9M,43.2656,-8.2418,96,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
 Cruzamento da A-6 com a AP-71,42.4363,-6.0501,858,,3000
 Cruzamento da A-6 com a M-30,40.453571,-3.743519,593,,1600
 Cruzamento da A-6 com a M-40,40.464976,-3.795563,664,,1800
@@ -1702,6 +1722,7 @@ Cruzamento da A-50 com a AV-20,40.6674,-4.7175,1085,,2600
 Cruzamento da A-50 com a SA-20,40.9439,-5.6402,790,,2600
 Cruzamento da A-52 com a A-55,42.17110,-8.62275,32,,2300
 Cruzamento da A-52 com a AG-51,42.14304,-8.46394,106,,3000
+Cruzamento da A-54 com a AP-9,42.90071,-8.49987,307,,3100
 Cruzamento da A-66 com a EX-A1,39.981171,-6.153484,385,,1800
 Cruzamento da A-66 com a SA-20,40.9403,-5.6823,791,,2600
 Cruzamento da A-66 com a SE-30,37.412414,-6.033472,12,,200
@@ -1730,11 +1751,15 @@ Cruzamento da A-8005 com a SE-20,37.433983,-5.966298,11,,600
 Cruzamento da A-8009 com a SE-20,37.436078,-5.973137,13,,600
 Cruzamento da AG-41 com a AP-9,42.518207,-8.665082,154,,2600
 Cruzamento da AG-46 com a AP-9,42.29533,-8.65780,52,,2600
+Cruzamento da AG-56 com a AP-9,42.855855,-8.565158,222,,3100
 Cruzamento da AP-4 com a AP-4A,37.242204,-5.910401,53,,600
 Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
 Cruzamento da AP-9 com a AP-9V,42.25776,-8.675859,90,,2500
+Cruzamento da AP-9 com a AP-9F,43.28841,-8.28337,74,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+Cruzamento da AP-9 com a AP-9M,43.27713,-8.26362,47,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
+Cruzamento da AP-9 com a AP-53,42.8558,-8.5317,214,,3100
 Cruzamento da AP-9 com a PO-10 e a PO-11,42.41369,-8.65362,46,,2600
 Cruzamento da AP-9 com a VG-20,42.196987,-8.664878,333,,2500
 Cruzamento da AP-41 com a R-5,40.273252,-3.888339,639,,1100

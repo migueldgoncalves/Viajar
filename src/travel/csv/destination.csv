@@ -3520,6 +3520,46 @@ A-6 - Saída 549,A-6 - Saída 560,Car,False,Madrid
 A-6 - Saída 549,A-6 - Saída 560,Car,True,A Coruña
 A-6 - Saída 549,A-6 - Saída 560,Car,True,Betanzos
 A-6 - Saída 549,A-6 - Saída 560,Car,True,Ferrol
+A-6 - Saída 560,A-6 - Saída 565,Car,False,Lugo
+A-6 - Saída 560,A-6 - Saída 565,Car,False,Madrid
+A-6 - Saída 560,A-6 - Saída 565,Car,False,Oviedo
+A-6 - Saída 560,A-6 - Saída 565,Car,True,A Coruña
+A-6 - Saída 565,A-6 - Saída 567,Car,False,A-8 - Oviedo
+A-6 - Saída 565,A-6 - Saída 567,Car,False,Lugo
+A-6 - Saída 565,A-6 - Saída 567,Car,False,Madrid
+A-6 - Saída 565,A-6 - Saída 567,Car,True,A Coruña
+A-6 - Saída 565,A-6 - Saída 567,Car,True,Betanzos - Sul
+A-6 - Saída 565,A-6 - Saída 567,Car,True,Ferrol
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,False,Ferrol
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,False,Lugo
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,False,Madrid
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,True,A Coruña
+A-6 - Saída 567,Cruzamento da A-6 com a AP-9M,Car,True,AP-9 - A Coruña/Ferrol/Santiago de Compostela
+A-6 - Saída 573,A-6 - Saída 583,Car,False,AP-9 - Santiago de Compostela
+A-6 - Saída 573,A-6 - Saída 583,Car,False,Lugo
+A-6 - Saída 573,A-6 - Saída 583,Car,False,Madrid
+A-6 - Saída 573,A-6 - Saída 583,Car,True,AC-14 - A Coruña/Aeroporto de A Coruña
+A-6 - Saída 573,A-6 - Saída 583,Car,True,Arteixo
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,False,AC-14 - A Coruña/Aeroporto de A Coruña
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,False,Arteixo
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,True,AP-9 - Santiago de Compostela
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,True,Lugo
+A-6 - Saída 573,Cruzamento da A-6 com a AP-9M,Car,True,Madrid
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,False,AP-9 - Santiago de Compostela
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,False,Lugo
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,False,Madrid
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,True,AC-14 - A Coruña/Aeroporto de A Coruña
+A-6 - Saída 583,Cruzamento da A-6 com a AC-14,Car,True,Arteixo
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,False,AG-55 - Carballo
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,False,Arteixo
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,True,AC-14 - A Coruña/Aeroporto de A Coruña
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,True,Lugo
+A-6 - Saída 589,Cruzamento da A-6 com a AC-14,Car,True,Madrid
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,False,AP-9
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,False,Lugo
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,False,Madrid
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,True,AG-55 - Carballo
+A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,True,Arteixo
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
@@ -6548,6 +6588,61 @@ AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,True,Cádiz
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Algeciras
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Benalmádena
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,True,MA-20/MA-21 - Aeroporto de Málaga/Málaga
+AP-9 - Saída 41,AP-9 - Saída 55,Car,False,A Coruña
+AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ferrol
+AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ordes
+AP-9 - Saída 41,AP-9 - Saída 55,Car,True,Aeroporto de Santiago-Rosalía de Castro
+AP-9 - Saída 41,AP-9 - Saída 55,Car,True,Pontevedra
+AP-9 - Saída 41,AP-9 - Saída 55,Car,True,Santiago de Compostela
+AP-9 - Saída 41,AP-9 - Saída 55,Car,True,Sigüeiro
+AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,False,Santiago de Compostela
+AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,True,A Coruña
+AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,True,A-6 - Lugo/Madrid
+AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,True,Ferrol
+AP-9 - Saída 55,AP-9 - Saída 60,Car,False,A Coruña
+AP-9 - Saída 55,AP-9 - Saída 60,Car,False,Ferrol
+AP-9 - Saída 55,AP-9 - Saída 60,Car,False,Sigüeiro
+AP-9 - Saída 55,AP-9 - Saída 60,Car,True,Pontevedra
+AP-9 - Saída 55,AP-9 - Saída 60,Car,True,Santiago de Compostela
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,False,A Coruña
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,False,Ferrol
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,False,Sigüeiro
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,True,Pontevedra
+AP-9 - Saída 60,Cruzamento da A-54 com a AP-9,Car,True,Santiago de Compostela
+AP-9 - Saída 67,AP-9 - Saída 70,Car,False,A Coruña
+AP-9 - Saída 67,AP-9 - Saída 70,Car,False,A-54 - Aeroporto de Santiago-Rosalía de Castro/Lugo
+AP-9 - Saída 67,AP-9 - Saída 70,Car,True,AP-53 - Ourense
+AP-9 - Saída 67,AP-9 - Saída 70,Car,True,Pontevedra
+AP-9 - Saída 67,AP-9 - Saída 70,Car,True,Santiago de Compostela
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,False,Pontevedra
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,False,Santiago de Compostela
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,True,A Coruña
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,True,Ferrol
+AP-9 - Saída 67,Cruzamento da A-54 com a AP-9,Car,True,Sigüeiro
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,False,A Coruña
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,False,Aeroporto de Santiago-Rosalía de Castro
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,False,Santiago de Compostela
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,True,Pontevedra
+AP-9 - Saída 70,Cruzamento da AP-9 com a AP-53,Car,True,Santiago de Compostela - Este
+AP-9 - Saída 93,AP-9 - Saída 104,Car,False,A Coruña
+AP-9 - Saída 93,AP-9 - Saída 104,Car,False,Padrón
+AP-9 - Saída 93,AP-9 - Saída 104,Car,False,Santiago de Compostela
+AP-9 - Saída 93,AP-9 - Saída 104,Car,True,Caldas de Reis
+AP-9 - Saída 93,AP-9 - Saída 104,Car,True,Pontevedra
+AP-9 - Saída 93,AP-9 - Saída 104,Car,True,Vigo
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,False,Pontevedra
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,False,Tui
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,False,Vigo
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,True,A Coruña
+AP-9 - Saída 93,Área de Serviço de Compostela,Car,True,Santiago de Compostela
+AP-9 - Saída 104,AP-9 - Saída 110,Car,False,A Coruña
+AP-9 - Saída 104,AP-9 - Saída 110,Car,False,Catoira
+AP-9 - Saída 104,AP-9 - Saída 110,Car,False,Santiago de Compostela
+AP-9 - Saída 104,AP-9 - Saída 110,Car,True,Pontevedra
+AP-9 - Saída 110,Área de Serviço de Salnés,Car,False,Santiago de Compostela
+AP-9 - Saída 110,Área de Serviço de Salnés,Car,True,Pontevedra
+AP-9 - Saída 110,Área de Serviço de Salnés,Car,True,Sanxenxo
+AP-9 - Saída 110,Área de Serviço de Salnés,Car,True,Vigo
 AP-9 - Saída 129,Cruzamento da AG-41 com a AP-9,Car,False,Pontevedra
 AP-9 - Saída 129,Cruzamento da AG-41 com a AP-9,Car,True,AG-41 - Sanxenxo
 AP-9 - Saída 129,Cruzamento da AG-41 com a AP-9,Car,True,Santiago de Compostela
@@ -6653,6 +6748,10 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Car,False,Málaga
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Car,True,Algeciras
 Área de Serviço de Altos de Marbella,Cruzamento V da A-7 com a AP-7,Car,True,Marbella
+Área de Serviço de Ameixeira,Cruzamento da AP-9 com a AP-9M,Car,False,Santiago de Compostela
+Área de Serviço de Ameixeira,Cruzamento da AP-9 com a AP-9M,Car,True,A Coruña
+Área de Serviço de Ameixeira,Cruzamento da AP-9 com a AP-9M,Car,True,A-6 - Lugo/Madrid
+Área de Serviço de Ameixeira,Cruzamento da AP-9 com a AP-9M,Car,True,Ferrol
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Car,False,Estarreja
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Car,False,Porto
 Área de Serviço de Antuã-Estarreja,Cruzamento da A1 com a A25,Car,True,Albergaria-a-Velha
@@ -6671,6 +6770,11 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Car,False,Valença
 Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Car,True,Braga
 Área de Serviço de Barcelos,Cruzamento da A3 com a A11,Car,True,Porto
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,False,Pontevedra
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,False,Tui
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,False,Vigo
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,True,A Coruña
+Área de Serviço de Compostela,Cruzamento da AG-56 com a AP-9,Car,True,Santiago de Compostela
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Car,False,Santo Tirso
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Car,False,Valença
 Área de Serviço de Coronado/Trofa,Cruzamento da A3 com a A41 CREP,Car,True,Maia
@@ -6736,6 +6840,10 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,True,Algeciras
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,True,Estepona
+Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,False,Santiago de Compostela
+Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,True,Pontevedra
+Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,True,Sanxenxo
+Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,True,Vigo
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,False,Pontevedra
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,False,Santiago de Compostela
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,True,Vigo
@@ -7579,6 +7687,12 @@ Cruzamento da A-5 com a R-5,R-5 - Saída 28,Car,False,Maqueda
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Car,False,Talavera de la Reina
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Car,True,Madrid
 Cruzamento da A-5 com a R-5,R-5 - Saída 28,Car,True,Móstoles
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,False,Arteixo
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,False,Lugo
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,False,Madrid
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,True,A Coruña
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,True,Ferrol
+Cruzamento da A-6 com a AP-9M,Cruzamento da AP-9 com a AP-9M,Car,True,Santiago de Compostela
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Car,False,A-1
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Car,False,A-2
 Cruzamento da A-6 com a M-30,M-30 - Palacio de la Moncloa,Car,False,A-6 - A Coruña
@@ -7885,6 +7999,10 @@ Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,False,Santiago de Compostela
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Portugal
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Tui
 Cruzamento da AG-46 com a AP-9,Ponte de Rande,Car,True,Vigo
+Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,AG-56 - Noia
+Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,Santiago de Compostela
+Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,Vigo
+Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,True,A Coruña
 Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,False,Cádiz
 Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,True,Sevilha
 Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,False,Cádiz
@@ -7897,6 +8015,10 @@ Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,False,Cádiz
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,A-48 - Algeciras
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Jerez de la Frontera
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Sevilha
+Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,False,A Coruña
+Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,False,Ferrol
+Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,True,A-6 - Arteixo/Lugo/Madrid
+Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,True,Santiago de Compostela
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,AG-57 - Baiona
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,O Porriño
 Cruzamento da AP-9 com a VG-20,Cruzamento Norte da A-55 com a AP-9,Car,False,Portugal
