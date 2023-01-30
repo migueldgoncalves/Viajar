@@ -79,7 +79,7 @@ A3 - Saída 13,A3 - Saída 14,Car,8.1,A3,N,2,1
 A3 - Saída 13,Cruzamento da A3 com a A27,Car,20.5,A3,SE,1,2
 A3 - Saída 14,A3 - Saída 15,Car,4.6,A3,N,2,1
 A3 - Saída 15,A-55 - Saída 30,Car,0.7,A3,NW,2,1
-A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,4
+A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,5
 A5 - Fim,A5 - Saída 12,Car,0.5,A5,E,1,2
 A5 - Fim,Aldeia de Juso,Car,0.8,,N,3,1
 A5 - Fim,Birre,Car,1.0,,S,2,1
@@ -1134,6 +1134,7 @@ A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Car,1.3,A-7/AP-7,E,2,1
 A-7/AP-7 - Saída 217,A-7/AP-7 - Saída 222,Car,5.6,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 217,Cruzamento VI da A-7 com a AP-7,Car,3.3,A-7/AP-7,SW,1,2
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,1.5,A-7/AP-7,NE,2,1
+A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,4.8,A-8,S,1,3
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,1.9,A-32,E,1,3
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,4.6,A-40,NW,1,3
 A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,1.6,A-40,E,2,3
@@ -1911,6 +1912,11 @@ AP-9 - Saída 157,Cruzamento da AP-9 com a AP-9V,Car,6.2,AP-9,NW,2,1
 AP-9 - Saída 157,Cruzamento Norte da A-55 com a AP-9,Car,1.9,AP-9,SW,1,2
 AP-9 - Saída 168,Cruzamento da AP-9 com a VG-20,Car,6.6,AP-9,N,2,1
 AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,9.4,AP-9,S,1,3
+AP-9V - Saída 2,AP-9V - Saída 4,Car,1.5,AP-9V,SW,2,1
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,1.8,AP-9V,NE,1,3
+AP-9V - Saída 4,AP-9V - Saída 5,Car,0.9,AP-9V,SW,2,1
+AP-9V - Saída 4,Estação de Vigo-Guixar,Car,0.6,,W,3,1
+AP-9V - Saída 5,"Avenida da Gran Vía x Rúa de Urzáiz, Vigo",Car,0.7,,SW,2,1
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,4.3,AP-36,SW,1,4
 AP-41 - Saída 2,AP-41 - Saída 8,Car,5.8,AP-41,S,2,1
 AP-41 - Saída 2,Cruzamento da AP-41 com a R-5,Car,1.8,AP-41,N,1,3
@@ -1977,6 +1983,10 @@ AV-20 - Saída 0,AV-20 - Saída 3-4,Car,3.2,AV-20,W,2,1
 AV-20 - Saída 3-4,Cruzamento da A-50 com a AV-20,Car,3.0,AV-20,W,2,1
 AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,2.3,AV-20,N,1,2
 AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,4.2,N-110,W,2,1
+"Avenida da Gran Vía x Rúa de Urzáiz, Vigo","Avenida da Gran Vía x Rúa de Venezuela, Vigo",Car,0.3,,S,4,1
+"Avenida da Gran Vía x Rúa de Urzáiz, Vigo","Centro Comercial Vialia, Vigo",Car,0.4,,E,3,1
+"Avenida da Gran Vía x Rúa de Urzáiz, Vigo",Estação de Vigo-Urzáiz,Car,0.4,,E,2,1
+"Avenida da Gran Vía x Rúa de Venezuela, Vigo","Praza de España, Vigo",Car,0.3,,S,2,2
 Avenida de Andalucía x Avenida Pío XII,"Avenida de Andalucía, Huelva",Car,1.1,,NE,1,3
 Avenida de Andalucía x Avenida Pío XII,"Calle Galaroza, Huelva",Car,1.1,,E,6,6
 Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Car,0.6,,W,3,3
@@ -2217,6 +2227,7 @@ Centro Comercial Costa Luz,Plaza de Fray Genaro Prieto,Car,0.4,,E,1,4
 Centro Comercial Holea,H-30 - Centro Comercial,Car,0.4,,NE,2,4
 Centro Comercial Holea,H-30 - Saída 11A,Car,0.5,,SE,3,3
 Centro Comercial Holea,Universidade de Huelva - Campus de El Carmen,Car,0.4,,SW,1,4
+"Centro Comercial Vialia, Vigo",Estação de Vigo-Urzáiz,Transfer,0.0,,S,2,2
 Cercado,Deserto,Car,0.3,,E,2,1
 Cercal do Alentejo,Colos,Car,21.5,,SE,3,1
 Cercal do Alentejo,Cruzamento da N120 com a N120-1,Car,7.2,N120,NW,5,1
@@ -3282,6 +3293,7 @@ Estação de Tavira,Tavira - Sul,Car,0.6,,NE,1,3
 Estação de Terronhas,Estação de Trancoso,Train,1.6,Linha do Douro/Linha do Marco de Canaveses - CP Porto,E,2,1
 Estação de Travanca-Macinhata,Estação de Ul,Car,2.0,Linha do Vouga - Transbordo Rodoviário,NW,2,1
 Estação de Valença,Estação de Viana do Castelo,Train,47.9,Linha do Minho - Celta,SW,3,7
+Estação de Valença,Estação de Vigo-Guixar,Train,43.0,Linha Monforte de Lemos-Vigo/Ramal Internacional de Valença - Celta,N,4,2
 Estação de Valença,Estação de Vila Nova de Cerveira,Train,14.1,Linha do Minho - Intercidades/InterRegional,SW,2,4
 Estação de Vargelas,Estação de Vesúvio,Train,5.3,Linha do Douro - InterRegional/Regional,E,2,1
 Estação de Venda do Alcaide,Pinhal Novo,Train,3.8,Linha do Sado/Linha do Sul - CP Lisboa/Fertagus,NW,1,4

@@ -4400,6 +4400,9 @@ A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,False,Cádiz
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Aeroporto de Málaga-Costa del Sol
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Málaga
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Torremolinos
+A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Ferrol
+A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Oviedo
+A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,True,A-6 - A Coruña/Lugo
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Albacete
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Linares
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Úbeda
@@ -6693,6 +6696,22 @@ AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,False,Pontevedra
 AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,False,Vigo
 AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,True,Portugal
 AP-9 - Saída 168,Cruzamento Sul da A-55 com a AP-9,Car,True,Tui
+AP-9V - Saída 2,AP-9V - Saída 4,Car,False,AG-57 - Baiona
+AP-9V - Saída 2,AP-9V - Saída 4,Car,False,Pontevedra
+AP-9V - Saída 2,AP-9V - Saída 4,Car,False,Santiago de Compostela
+AP-9V - Saída 2,AP-9V - Saída 4,Car,True,Porto de Vigo
+AP-9V - Saída 2,AP-9V - Saída 4,Car,True,Vigo - Centro da cidade
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,False,Vigo
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,A Coruña
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,AG-57 - Baiona
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,Madrid
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,Ourense
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,Pontevedra
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,Portugal
+AP-9V - Saída 2,Cruzamento da AP-9 com a AP-9V,Car,True,Santiago de Compostela
+AP-9V - Saída 4,AP-9V - Saída 5,Car,False,A-55 - O Porriño
+AP-9V - Saída 4,AP-9V - Saída 5,Car,False,Pontevedra
+AP-9V - Saída 4,AP-9V - Saída 5,Car,True,Vigo - Centro da cidade
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,False,A-31 - Albacete
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,True,Madrid
 AP-36 - Saída 3,Cruzamento da A-4 com a AP-36 e a R-4,Car,True,Ocaña
@@ -12329,6 +12348,9 @@ Estação de Valença,Estação de Viana do Castelo,Train,False,Valença
 Estação de Valença,Estação de Viana do Castelo,Train,False,Vigo-Guixar
 Estação de Valença,Estação de Viana do Castelo,Train,True,Nine
 Estação de Valença,Estação de Viana do Castelo,Train,True,Porto - Campanhã
+Estação de Valença,Estação de Vigo-Guixar,Train,False,Nine
+Estação de Valença,Estação de Vigo-Guixar,Train,False,Porto - Campanhã
+Estação de Valença,Estação de Vigo-Guixar,Train,True,Vigo-Guixar
 Estação de Valença,Estação de Vila Nova de Cerveira,Train,False,Guillarei
 Estação de Valença,Estação de Vila Nova de Cerveira,Train,False,Madrid-Chamartín
 Estação de Valença,Estação de Vila Nova de Cerveira,Train,False,Ourense

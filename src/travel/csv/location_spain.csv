@@ -709,6 +709,7 @@ A-7/AP-7 - Saída 184,Marbella,Málaga,
 A-7/AP-7 - Saída 185,Marbella,Málaga,
 A-7/AP-7 - Saída 217,Fuengirola,Málaga,
 A-7/AP-7 - Saída 222,Benalmádena,Málaga,
+A-8 - Saída 588,Guitiriz,Lugo,Pígara
 A-32 - Saída 1,Bailén,Jaén,
 A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
 A-40 - Saída 182,Ocaña,Toledo,
@@ -1169,6 +1170,9 @@ AP-9 - Saída 147B,Redondela,Pontevedra,Trasmañó
 AP-9 - Saída 148,Redondela,Pontevedra,Chapela
 AP-9 - Saída 157,Vigo,Pontevedra,Cabral
 AP-9 - Saída 168,O Porriño,Pontevedra,Torneiros
+AP-9V - Saída 2,Vigo,Pontevedra,Teis
+AP-9V - Saída 4,Vigo,Pontevedra,Lavadores
+AP-9V - Saída 5,Vigo,Pontevedra,Vigo
 AP-36 - Saída 3,Ocaña,Toledo,
 AP-41 - Saída 2,Moraleja de Enmedio,Comunidade de Madrid,
 AP-41 - Saída 8,Serranillos del Valle,Comunidade de Madrid,
@@ -1199,6 +1203,8 @@ Aroche,Aroche,Huelva,
 AV-20 - Saída 0,Ávila,Ávila,
 AV-20 - Saída 3-4,Ávila,Ávila,
 AV-20 - Saída 8-9,Ávila,Ávila,
+"Avenida da Gran Vía x Rúa de Urzáiz, Vigo",Vigo,Pontevedra,Vigo
+"Avenida da Gran Vía x Rúa de Venezuela, Vigo",Vigo,Pontevedra,Vigo
 "Avenida de América, Madrid",Madrid,Comunidade de Madrid,Chamartín
 Avenida de Andalucía x Avenida Pío XII,Huelva,Huelva,
 "Avenida de Andalucía, Huelva",Huelva,Huelva,
@@ -1237,6 +1243,7 @@ Cemitério de Nuestra Señora de la Soledad,Huelva,Huelva,
 Centro Comercial Aqualon,Huelva,Huelva,
 Centro Comercial Costa Luz,Huelva,Huelva,
 Centro Comercial Holea,Huelva,Huelva,
+"Centro Comercial Vialia, Vigo",Vigo,Pontevedra,Vigo
 Centro Penitenciario de Huelva,Huelva,Huelva,
 Cidade da Cultura,Santiago de Compostela,A Coruña,Santiago de Compostela
 CM-41 - Saída 2,Casarrubios del Monte,Toledo,
@@ -1472,6 +1479,8 @@ Estação de Pinar del Rey,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Recoletos,Madrid,Comunidade de Madrid,Centro
 Estação de Sevilha-Santa Justa,Sevilha,Sevilha,San Pablo-Santa Justa
 Estação de Valdebebas,Madrid,Comunidade de Madrid,Barajas
+Estação de Vigo-Guixar,Vigo,Pontevedra,Vigo
+Estação de Vigo-Urzáiz,Vigo,Pontevedra,Vigo
 Estação de Villanueva de Córdoba-Los Pedroches,Villanueva de Córdoba,Córdoba,
 Estádio Nuevo Colombino,Huelva,Huelva,
 Estepa,Estepa,Sevilha,
