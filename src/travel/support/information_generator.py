@@ -388,7 +388,8 @@ class GeradorInformacao:
                 info_extra: str = self.way_display_name
                 latitude_a, longitude_a = float(elementos_a[1]), float(elementos_a[2])
                 latitude_b, longitude_b = float(elementos_b[1]), float(elementos_b[2])
-                ponto_cardeal: str = haversine.obter_ponto_cardeal(origem=(latitude_a, longitude_a), destino=(latitude_b, longitude_b))
+                ponto_cardeal: str = haversine.get_cardinal_point(
+                    source=Coordinates(latitude_a, longitude_a), destination=Coordinates(latitude_b, longitude_b))
                 ordem_a = 2
                 ordem_b = 1
 

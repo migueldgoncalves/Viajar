@@ -60,11 +60,12 @@ class CalculadoraDistancias:
             min_longitude: float = area_extremos[2]
             max_longitude: float = area_extremos[3]
 
-            distancia_norte_sul = round(
-                haversine.obter_distancia_haversine((min_latitude, min_longitude), (max_latitude, min_longitude)), 1)
-            distancia_este_oeste = round(
-                haversine.obter_distancia_haversine((min_latitude, min_longitude), (min_latitude, max_longitude)), 1)
-            print(f"A área de interesse tem {distancia_norte_sul} km norte-sul e {distancia_este_oeste} km este-oeste")
+            digits = 1
+            north_south_distance = round(
+                haversine.get_haversine_distance(Coordinates(min_latitude, min_longitude), Coordinates(max_latitude, min_longitude)), digits)
+            east_west_distance = round(
+                haversine.get_haversine_distance(Coordinates(min_latitude, min_longitude), Coordinates(min_latitude, max_longitude)), digits)
+            print(f"The area of interest has {north_south_distance} km from north to south and {east_west_distance} km from east to west")
 
             if detalhe_area == osm_interface.DETAIL_LEVEL_INTERCITY and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_INTERCIDADES ** 2 or \
                     detalhe_area == osm_interface.DETAIL_LEVEL_URBAN and distancia_norte_sul * distancia_este_oeste > AVISO_TAMANHO_AREA_URBANA ** 2:
@@ -188,11 +189,11 @@ class CalculadoraDistancias:
             for no_circundante in nos_circundantes:
                 if no_circundante not in nos_nao_visitados:
                     continue  # Nó já visitado - Distância mais curta já é conhecida
-                coordenadas_no_actual: tuple[float, float] = (
-                    self.mapa_processado[no_actual].latitude, self.mapa_processado[no_actual].longitude)
-                coordenadas_no_circundante: tuple[float, float] = (
-                    self.mapa_processado[no_circundante].latitude, self.mapa_processado[no_circundante].longitude)
-                distancia_entre_nos: float = haversine.obter_distancia_haversine(coordenadas_no_actual, coordenadas_no_circundante)
+                coordenadas_no_actual: Coordinates = Coordinates(
+                    self.processed_map[no_actual].latitude, self.processed_map[no_actual].longitude)
+                coordenadas_no_circundante: Coordinates = Coordinates(
+                    self.processed_map[no_circundante].latitude, self.processed_map[no_circundante].longitude)
+                distancia_entre_nos: float = haversine.get_haversine_distance(coordenadas_no_actual, coordenadas_no_circundante)
 
                 if distancia_entre_nos + distancia_para_no < distancias[no_circundante]:  # Distância obtida é menor - Actualizar
                     distancias[no_circundante] = distancia_entre_nos + distancia_para_no

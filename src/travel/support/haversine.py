@@ -1,26 +1,34 @@
 from math import sin, cos, sqrt, asin, pi
 
 from travel.main.cardinal_points import NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH, SOUTHWEST, WEST, NORTHWEST
+from travel.support.coordinates import Coordinates
 
-RAIO_TERRA = 6371  # km
+EARTH_RADIUS = 6371  # km
+
+MAX_ERROR_RATE = 0.5  # Percentage
 
 
-def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
+def get_cardinal_point(source: Coordinates, destination: Coordinates) -> str:
     """
-    Dada uma origem e um destino, retorna o ponto cardeal do destino em relação à origem
-    Ex: Se origem = (39.0, 0.0) e destino = (40.0, 0.0), retorno será "N"
-    :param origem: Coordenadas decimais
-    :param destino: Idem
-    :return: Abreviatura do ponto cardeal, ou "" se origem e destino forem iguais
+    Given source and destination coordinates, returns the cardinal point of the direction from the source to the destination
+    Ex: If source == (39.0, 0.0) and destination == (40.0, 0.0), return value will be "N"
+    :param source: Coordinates of the starting point
+    :param destination: Coordinates of the destination point
+    :return: Cardinal point as a string abbreviation, or an empty string if the source and the destination are the same
     """
-    if origem == destino:  # Mesmo ponto
-        return ""
+    default_reply: str = ''
 
-    distancia_norte_sul: float = obter_distancia_haversine((origem[0], 0), (destino[0], 0))  # Será sempre >= 0
-    distancia_este_oeste: float = obter_distancia_haversine((0, origem[1]), (0, destino[1]))  # Será sempre >= 0
+    assert source
+    assert destination
+    assert source != destination
 
-    diff_lat: float = float(destino[0]) - float(origem[0])
-    diff_lon: float = float(destino[1]) - float(origem[1])
+    north_south_distance: float = get_haversine_distance(
+        Coordinates(source.latitude, 0.0), Coordinates(destination.latitude, 0.0))  # Will always be >= 0
+    east_west_distance: float = get_haversine_distance(
+        Coordinates(0.0, source.longitude), Coordinates(0.0, destination.longitude))  # Will always be >= 0
+
+    diff_lat: float = float(destination.latitude) - float(source.latitude)
+    diff_lon: float = float(destination.longitude) - float(source.longitude)
 
     if diff_lat == 0:
         if diff_lon > 0:
@@ -43,52 +51,59 @@ def obter_ponto_cardeal(origem: (float, float), destino: (float, float)) -> str:
             return NORTHWEST
     else:
         if diff_lat > 0 and diff_lon > 0:  # N, NE, E
-            if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
+            if abs(north_south_distance) > 2 * abs(east_west_distance):
                 return NORTH
-            elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
+            elif abs(north_south_distance) < 0.5 * abs(east_west_distance):
                 return EAST
             else:
                 return NORTHEAST
         elif diff_lat < 0 and diff_lon > 0:  # E, SE, S
-            if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
+            if abs(north_south_distance) > 2 * abs(east_west_distance):
                 return SOUTH
-            elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
+            elif abs(north_south_distance) < 0.5 * abs(east_west_distance):
                 return EAST
             else:
                 return SOUTHEAST
-        elif diff_lat < 0 and diff_lon < 0:  # S, SO, O
-            if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
+        elif diff_lat < 0 and diff_lon < 0:  # S, SW, W
+            if abs(north_south_distance) > 2 * abs(east_west_distance):
                 return SOUTH
-            elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
+            elif abs(north_south_distance) < 0.5 * abs(east_west_distance):
                 return WEST
             else:
                 return SOUTHWEST
-        elif diff_lat > 0 and diff_lon < 0:  # O, NO, N
-            if abs(distancia_norte_sul) > 2 * abs(distancia_este_oeste):
+        elif diff_lat > 0 and diff_lon < 0:  # W, NW, N
+            if abs(north_south_distance) > 2 * abs(east_west_distance):
                 return NORTH
-            elif abs(distancia_norte_sul) < 0.5 * abs(distancia_este_oeste):
+            elif abs(north_south_distance) < 0.5 * abs(east_west_distance):
                 return WEST
             else:
                 return NORTHWEST
 
-    return ""
+    return default_reply
 
 
-def obter_distancia_haversine(origem: (float, float), destino: (float, float)) -> float:
+def get_haversine_distance(source: Coordinates, destination: Coordinates) -> float:
     """
-    Retorna distância em linha recta em km entre origem e destino. Erro até 0.5%
+    Returns the distance of a straight line between source and destination points, in km. Error can be up to 0.5%.
     """
-    def _para_radianos(decimal: float) -> float:
+    def _to_radians(decimal: float) -> float:
+        """
+        Converts degrees to radians
+        """
         return decimal * pi / 180
 
-    latitude_origem, longitude_destino = origem
-    latitude_destino, longitude_destino = destino
-    diff_lat: float = float(destino[0]) - float(origem[0])
-    diff_lon: float = float(destino[1]) - float(origem[1])
+    assert source
+    assert destination
 
-    parametro_1: float = sin(_para_radianos(diff_lat / 2)) ** 2
-    parametro_2: float = cos(_para_radianos(float(latitude_origem))) * cos(_para_radianos(float(latitude_destino))) * (
-            sin(_para_radianos(diff_lon / 2)) ** 2)
-    distancia: float = 2 * RAIO_TERRA * asin(sqrt(parametro_1 + parametro_2))
+    if source == destination:  # Same point
+        return 0.0
 
-    return distancia
+    diff_lat: float = float(destination.latitude) - float(source.latitude)
+    diff_lon: float = float(destination.longitude) - float(source.longitude)
+
+    param_1: float = sin(_to_radians(diff_lat / 2)) ** 2
+    param_2: float = cos(_to_radians(float(source.latitude))) * cos(_to_radians(float(destination.latitude))) * (
+            sin(_to_radians(diff_lon / 2)) ** 2)
+    distance: float = 2 * EARTH_RADIUS * asin(sqrt(param_1 + param_2))
+
+    return distance
