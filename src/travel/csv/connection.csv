@@ -700,8 +700,11 @@ A-5 - Saída 47,A-5 - Saída 49,Car,1.5,A-5,SW,1,2
 A-5 - Saída 47,Cruzamento da A-5 com a CM-41,Car,1.1,A-5,NE,2,1
 A-5 - Saída 49,A-5 - Saída 52,Car,3.1,A-5,SW,1,2
 A-5 - Saída 52,A-5 - Saída 58,Car,5.8,A-5,SW,1,2
+A-5 - Saída 52,La Torre de Esteban Hambrán,Car,4.0,,W,3,2
 A-5 - Saída 58,A-5 - Saída 61,Car,3.5,A-5,SW,1,2
+A-5 - Saída 58,Santa Cruz del Retamar,Car,2.2,N-5a,SW,3,2
 A-5 - Saída 61,A-5 - Saída 66,Car,4.5,A-5,W,1,2
+A-5 - Saída 61,Santa Cruz del Retamar,Car,2.1,N-5a,E,3,1
 A-5 - Saída 66,A-5 - Saída 69,Car,2.8,A-5,SW,1,2
 A-5 - Saída 69,A-5 - Saída 72,Car,4.0,A-5,SW,1,2
 A-5 - Saída 72,A-5 - Saída 74,Car,1.4,A-5,SW,1,2
@@ -2239,7 +2242,9 @@ Cerro do Enho,Tanoeiro,Car,1.6,,NW,2,1
 Cerro do Enho,Vale de Andreu,Car,2.3,,NE,1,3
 Cerro,Montinho,Car,0.2,,S,3,2
 Choça Queimada,Quebradas,Car,2.2,,S,1,3
+CM-41 - Saída 2,CM-41 - Saída 6,Car,4.0,CM-41,E,2,1
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,2.4,CM-41,NW,1,3
+CM-41 - Saída 6,CM-41 - Saída 13,Car,6.4,CM-41,SE,2,1
 CO-32 - Fim,CO-32 - Saída 3,Car,3.0,CO-32,SE,1,1
 CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Car,1.9,CO-32,SE,2,3
 Coito,Santa Marta,Car,2.9,,NE,1,3
@@ -2933,7 +2938,7 @@ Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Train,4.3,Linha do 
 Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Train,15.2,Linha do Norte - InterRegional,S,3,4
 Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Train,3.0,Linha do Norte - Regional,NW,2,1
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,23.3,Linha do Norte - Intercidades,S,5,5
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,170.7,LAV Madrid-Sevilha,N,2,4
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,170.7,LAV Madrid-Sevilha,N,2,5
 Estação de Ciudad Real,Puertollano,High-Speed Train,39.1,LAV Madrid-Sevilha,SW,1,2
 Estação de Coimbra,Estação de Coimbra-B,Train,1.7,Ramal da Lousã - Regional/Urbanos de Coimbra,NW,1,3
 Estação de Coimbra-B,Estação de Pampilhosa,Train,14.0,Linha do Norte - Intercidades/InterRegional,N,5,4
@@ -3126,14 +3131,16 @@ Estação de Luso - Buçaco,Estação de Soito,Train,8.2,Linha da Beira Alta - R
 Estação de Luso - Buçaco,Estação de Vacariça,Train,5.2,Linha da Beira Alta - Regional,SW,1,2
 Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,2.7,Linha do Vouga/Ramal de Aveiro - Regional,N,2,1
 Estação de Madalena,Estação de Valadares,Train,1.5,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
-Estação de Madrid-Atocha,Estação de Madrid-Puerta de Atocha,Transfer,0.0,,N,3,3
-Estação de Madrid-Atocha,Estação de Recoletos,Train,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,4,1
-Estação de Madrid-Atocha,"Paseo de Santa María de la Cabeza, Madrid",Car,1.6,,SW,1,3
-Estação de Madrid-Atocha,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,2
+Estação de Madrid-Atocha Cercanías,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,3,3
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,5,1
+Estação de Madrid-Atocha Cercanías,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,4,2
+Estação de Madrid-Atocha Cercanías,"Paseo de Santa María de la Cabeza, Madrid",Car,1.6,,SW,1,3
+Estação de Madrid-Atocha Cercanías,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,3
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,3
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Car,1.1,,E,1,3
-Estação de Madrid-Puerta de Atocha,"Paseo de Santa María de la Cabeza, Madrid",Car,1.2,,SW,1,2
-Estação de Madrid-Puerta de Atocha,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,3
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,S,4,3
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Paseo de Santa María de la Cabeza, Madrid",Car,1.2,,SW,1,2
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,4
 Estação de Mafra,Estação de Malveira,Train,5.1,Linha do Oeste - Regional,NE,2,1
 Estação de Mafra,Estação de Pedra Furada,Train,3.3,Linha do Oeste - Regional,S,1,2
 Estação de Malveira,Estação de Pêro Negro,Train,9.8,Linha do Oeste - InterRegional,NE,4,3
@@ -3533,6 +3540,7 @@ La Antilla,Pinares de Lepe,Car,2.6,,N,3,2
 La Línea de la Concepción - Centro da cidade,"Paseo del Mediterráneo, La Línea de la Concepción",Car,1.5,,E,5,2
 La Redondela,Lepe,Train,8.3,Antiga Linha Gibraleón-Ayamonte,NE,2,1
 La Redondela,Pozo del Camino,Car,4.3,,W,4,3
+La Torre de Esteban Hambrán,Santa Cruz del Retamar,Car,6.6,,S,1,3
 Lagoa de Santo André,Vila Nova de Santo André,Car,7.5,,S,1,3
 Lagoa,Porches,Car,5.2,N125,SE,2,6
 Lagoa,Slide & Splash,Car,2.3,,NW,5,1
@@ -3651,6 +3659,7 @@ Montenegro,Universidade do Algarve - Campus de Gambelas,Car,2.1,,NW,2,1
 Montenegro,Variante de Faro - Nó com o IC4,Car,1.3,N125-10,NE,3,1
 Montes Altos,Santana de Cambas,Car,4.8,,SW,1,4
 Montinho de Odeleite,Vale do Pereiro,Car,2.2,,N,2,3
+Monumento homenaje a las víctimas del 11-M,"Plaza del Emperador Carlos V, Madrid",Car,0.3,,NW,1,2
 Moreanes,Santana de Cambas,Car,4.4,,SE,3,2
 Moreanes,Sapos,Car,4.2,,E,4,2
 Moura,Pias,Car,15.3,,S,1,3

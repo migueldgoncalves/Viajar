@@ -2539,10 +2539,14 @@ A-5 - Saída 52,A-5 - Saída 58,Car,True,Badajoz
 A-5 - Saída 58,A-5 - Saída 61,Car,False,Madrid
 A-5 - Saída 58,A-5 - Saída 61,Car,False,Navalcarnero
 A-5 - Saída 58,A-5 - Saída 61,Car,True,Badajoz
+A-5 - Saída 58,Santa Cruz del Retamar,Car,False,A-5 - Madrid
+A-5 - Saída 58,Santa Cruz del Retamar,Car,True,Santa Cruz del Retamar
 A-5 - Saída 61,A-5 - Saída 66,Car,False,Madrid
 A-5 - Saída 61,A-5 - Saída 66,Car,False,Navalcarnero
 A-5 - Saída 61,A-5 - Saída 66,Car,True,Badajoz
 A-5 - Saída 61,A-5 - Saída 66,Car,True,Maqueda
+A-5 - Saída 61,Santa Cruz del Retamar,Car,False,A-5 - Talavera de la Reina
+A-5 - Saída 61,Santa Cruz del Retamar,Car,True,Santa Cruz del Retamar
 A-5 - Saída 66,A-5 - Saída 69,Car,False,Madrid
 A-5 - Saída 66,A-5 - Saída 69,Car,False,Navalcarnero
 A-5 - Saída 66,A-5 - Saída 69,Car,True,Badajoz
@@ -7137,6 +7141,13 @@ Cercal do Alentejo,Cruzamento da N120 com a N120-1,Car,True,Santiago do Cacém
 Cercal do Alentejo,Cruzamento da N120 com a N120-1,Car,True,Sines
 Cercal do Alentejo,São Luís,Car,False,Cercal do Alentejo
 Cercal do Alentejo,São Luís,Car,True,Odemira
+CM-41 - Saída 2,CM-41 - Saída 6,Car,False,A-5 - Badajoz/Madrid
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,A-4
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,A-42
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,Casarrubios del Monte
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,CM-43
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,Polígono Industrial Monte Boyal
+CM-41 - Saída 2,CM-41 - Saída 6,Car,True,R-4
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,False,A-4
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,False,A-42 - Toledo
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,False,Añover de Tajo
@@ -7144,6 +7155,11 @@ CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,False,CM-43
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,False,R-4
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,True,A-5 - Badajoz/Madrid
 CM-41 - Saída 2,Cruzamento da A-5 com a CM-41,Car,True,Valmojado
+CM-41 - Saída 6,CM-41 - Saída 13,Car,False,A-5 - Badajoz/Madrid
+CM-41 - Saída 6,CM-41 - Saída 13,Car,False,Casarrubios del Monte
+CM-41 - Saída 6,CM-41 - Saída 13,Car,True,A-4
+CM-41 - Saída 6,CM-41 - Saída 13,Car,True,A-42
+CM-41 - Saída 6,CM-41 - Saída 13,Car,True,R-4
 CO-32 - Fim,CO-32 - Saída 3,Car,False,Aeroporto de Córdoba
 CO-32 - Fim,CO-32 - Saída 3,Car,False,Córdoba - Oeste
 CO-32 - Fim,CO-32 - Saída 3,Car,True,A-4 - Madrid/Sevilha
@@ -10371,13 +10387,13 @@ Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,False,Pom
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,False,Porto - Campanhã
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,True,Lisboa - Santa Apolónia
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,True,Santarém
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,False,Antequera-Santa Ana
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,False,Córdoba
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,False,Granada
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,False,Málaga-María Zambrano
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,False,Sevilha-Santa Justa
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,True,Barcelona-Sants
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha,High-Speed Train,True,Valencia-Joaquín Sorolla
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Antequera-Santa Ana
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Córdoba
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Granada
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Málaga-María Zambrano
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Sevilha-Santa Justa
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,True,Barcelona-Sants
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,True,Valencia-Joaquín Sorolla
 Estação de Ciudad Real,Puertollano,High-Speed Train,False,Barcelona-Sants
 Estação de Ciudad Real,Puertollano,High-Speed Train,False,Madrid-Puerta de Atocha
 Estação de Ciudad Real,Puertollano,High-Speed Train,False,Valencia-Joaquín Sorolla
@@ -11506,16 +11522,16 @@ Estação de Madalena,Estação de Valadares,Train,False,Vila Nova de Gaia
 Estação de Madalena,Estação de Valadares,Train,True,Aveiro
 Estação de Madalena,Estação de Valadares,Train,True,Espinho
 Estação de Madalena,Estação de Valadares,Train,True,Lisboa - Santa Apolónia
-Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Alcalá de Henares
-Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Collado Villalba
-Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Guadalajara
-Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Madrid-Atocha
-Estação de Madrid-Atocha,Estação de Recoletos,Train,False,Madrid-Príncipe Pío
-Estação de Madrid-Atocha,Estação de Recoletos,Train,True,Aeroporto de Madrid-Barajas
-Estação de Madrid-Atocha,Estação de Recoletos,Train,True,Cercedilla
-Estação de Madrid-Atocha,Estação de Recoletos,Train,True,Collado Villalba
-Estação de Madrid-Atocha,Estação de Recoletos,Train,True,Madrid-Chamartín
-Estação de Madrid-Atocha,Estação de Recoletos,Train,True,Madrid-Príncipe Pío
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,False,Alcalá de Henares
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,False,Collado Villalba
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,False,Guadalajara
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,False,Madrid-Atocha
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,False,Madrid-Príncipe Pío
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,True,Aeroporto de Madrid-Barajas
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,True,Cercedilla
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,True,Collado Villalba
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,True,Madrid-Chamartín
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,True,Madrid-Príncipe Pío
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,False,Aeroporto de Madrid-Barajas
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,False,Cercedilla
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,False,Collado Villalba

@@ -1570,6 +1570,8 @@ Cerro do Enho,37.256426,-7.522096,151,,300
 Choça Queimada,37.32165,-7.520856,120,,100
 Cidade da Cultura,42.870261,-8.525784,280,,3100
 CM-41 - Saída 2,40.169295,-4.109204,630,,1100
+CM-41 - Saída 6,40.16402,-4.06468,627,,3100
+CM-41 - Saída 13,40.12313,-4.01798,543,,3100
 CO-32 - Fim,37.867263,-4.812437,102,,800
 CO-32 - Saída 3,37.841956,-4.801985,120,,800
 Coito,37.475472,-7.590636,222,,400
@@ -2133,9 +2135,9 @@ Estação de Luso - Buçaco,40.39025,-8.385003,164,,2400
 Estação de Maçainhas,40.388728,-7.28731,566,,2500
 Estação de Macinhata do Vouga,40.653443,-8.458342,23,,2700
 Estação de Madalena,41.111495,-8.637766,69,,2700
-Estação de Madrid-Atocha,40.406173,-3.689191,626,,1500
+Estação de Madrid-Atocha Cercanías,40.406173,-3.689191,626,,1500
 Estação de Madrid-Chamartín-Clara Campoamor,40.472109,-3.682496,735,,1500
-Estação de Madrid-Puerta de Atocha,40.404744,-3.688834,612,,1400
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,40.404744,-3.688834,612,,1400
 Estação de Mafra,38.897459,-9.291372,147,,2000
 Estação de Malveira,38.928619,-9.258009,226,,2000
 Estação de Mangualde,40.586648,-7.760254,449,,2400
@@ -2541,6 +2543,7 @@ La Carlota,37.670755,-4.935385,214,,700
 La Línea de la Concepción - Centro da cidade,36.168163,-5.348955,7,,1200
 La Puebla de Cazalla,37.222950,-5.313653,173,,700
 La Redondela,37.221652,-7.270415,9,,1500
+La Torre de Esteban Hambrán,40.167949,-4.214938,568,,3100
 Lagoa,37.135183,-8.452517,53,,500
 Lagoa de Santo André,38.102910,-8.790820,2,Reserva Natural das Lagoas de Santo André e da Sancha,1500
 Lagos,37.101359,-8.672518,10,,500
@@ -2683,6 +2686,7 @@ Montes Castelhanos,37.257686,-7.472255,26,,300
 Montinho,37.425271,-7.514797,215,,300
 Montinho das Laranjeiras,37.405647,-7.463037,22,,10
 Montinho de Odeleite,37.343914,-7.530219,148,,300
+Monumento homenaje a las víctimas del 11-M,40.40688,-3.68891,628,,3100
 Moreanes,37.646636,-7.559927,148,Parque Natural do Vale do Guadiana,200
 Moura,38.141131,-7.450092,182,,800
 Murteira de Baixo,37.303901,-7.491383,123,,300
@@ -2905,6 +2909,7 @@ Santa Bárbara de Casa,37.796547,-7.188991,310,,700
 Santa Bárbara de Nexe,37.103587,-7.964152,145,,300
 Santa Catarina da Fonte do Bispo,37.153797,-7.788195,139,,200
 Santa Clara de Louredo,37.971006,-7.872097,206,,700
+Santa Cruz del Retamar,40.118461,-4.241425,597,,3100
 Santa Luzia,37.101131,-7.661133,6,Ria Formosa,200
 Santa Marta,37.492988,-7.570396,176,,30
 Santa Susana,38.446672,-8.391277,45,,1500
