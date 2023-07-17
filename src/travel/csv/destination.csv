@@ -590,6 +590,16 @@ A16 - Saída 6,Cruzamento da A16 com o IC19,Car,False,A5 - Cascais
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,A9 - Norte
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,IC19 - Lisboa
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,Sintra
+A16 - Saída 8,A16 - Saída 9,Car,False,A5 - Cascais
+A16 - Saída 8,A16 - Saída 9,Car,False,Sintra
+A16 - Saída 8,A16 - Saída 9,Car,True,A9 - Norte
+A16 - Saída 8,A16 - Saída 9,Car,True,IC16 - Lisboa
+A16 - Saída 8,A16 - Saída 9,Car,True,Mafra
+A16 - Saída 8,Área de Serviço de Sintra,Car,False,A9 - Norte
+A16 - Saída 8,Área de Serviço de Sintra,Car,False,Sintra - Centro da cidade
+A16 - Saída 8,Área de Serviço de Sintra,Car,True,A5 - Cascais
+A16 - Saída 8,Área de Serviço de Sintra,Car,True,IC19 - Lisboa
+A16 - Saída 8,Área de Serviço de Sintra,Car,True,Sintra
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Crestuma
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Ponte do Freixo
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Porto

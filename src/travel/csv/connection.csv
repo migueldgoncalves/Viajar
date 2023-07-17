@@ -143,6 +143,9 @@ A16 - Saída 2,Cruzamento da A16 com a A5,Car,0.7,A16,S,1,3
 A16 - Saída 3,A16 - Saída 4-5,Car,1.0,A16,NE,2,1
 A16 - Saída 4-5,A16 - Saída 6,Car,1.4,A16,NE,2,1
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,4.1,A16,NE,2,1
+A16 - Saída 8,A16 - Saída 9,Car,1.1,A16,NE,2,1
+A16 - Saída 8,Área de Serviço de Sintra,Car,1.4,A16,S,1,2
+A16 - Saída 8,Palácio da Justiça de Sintra,Car,1.6,,W,3,1
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,1.4,A20,SW,1,2
 A20 - Saída 3,Cruzamento da A20 com a A44,Car,4.2,A20,N,2,1
 A22 - Início,A22 - Saída 1,Car,3.1,A22,SE,1,1
@@ -3227,6 +3230,7 @@ Estação de Pombal,Estação de Vermoil,Train,8.3,Linha do Norte - Regional,S,1
 Estação de Pombal,Estação do Entroncamento,High-Speed Train,63.3,Linha do Norte,S,6,10
 Estação de Ponte de Sôr,Estação de Torre das Vargens,Train,10.9,Linha do Leste - Regional,E,2,1
 Estação de Portela de Sintra,Estação de Sintra,Train,0.9,Linha de Sintra - CP Lisboa,W,2,1
+Estação de Portela de Sintra,Palácio da Justiça de Sintra,Car,1.2,,NE,3,2
 Estação de Portela,Estação de São Romão,Train,2.8,Linha de Braga/Linha de Guimarães/Linha do Minho - CP Porto,S,1,2
 Estação de Portela,Estação de Trofa,Train,4.1,Linha de Braga/Linha de Guimarães/Linha do Minho - CP Porto,N,2,1
 Estação de Portimão,Mexilhoeira Grande,Train,8.9,Linha do Algarve - Regional,NW,5,3
