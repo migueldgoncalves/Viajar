@@ -146,6 +146,14 @@ A16 - Saída 6,Cruzamento da A16 com o IC19,Car,4.1,A16,NE,2,1
 A16 - Saída 8,A16 - Saída 9,Car,1.1,A16,NE,2,1
 A16 - Saída 8,Área de Serviço de Sintra,Car,1.4,A16,S,1,2
 A16 - Saída 8,Palácio da Justiça de Sintra,Car,1.6,,W,3,1
+A16 - Saída 9,A16 - Saída 10,Car,1.7,A16,NE,2,1
+A16 - Saída 10,A16 - Saída 11,Car,3.1,A16,SE,2,1
+A16 - Saída 11,A16 - Saída 12,Car,1.9,A16,S,2,1
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,1.0,A16,SE,2,1
+A16 - Saída 13,A16 - Saída 14,Car,1.0,A16,SE,2,1
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,1.0,A16,NW,1,2
+A16 - Saída 14,A16 - Saída 15,Car,1.0,A16,SE,2,1
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,0.6,A16,E,2,3
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,1.4,A20,SW,1,2
 A20 - Saída 3,Cruzamento da A20 com a A44,Car,4.2,A20,N,2,1
 A22 - Início,A22 - Saída 1,Car,3.1,A22,SE,1,1

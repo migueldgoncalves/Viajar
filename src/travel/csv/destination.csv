@@ -600,6 +600,40 @@ A16 - Saída 8,Área de Serviço de Sintra,Car,False,Sintra - Centro da cidade
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,A5 - Cascais
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,IC19 - Lisboa
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,Sintra
+A16 - Saída 9,A16 - Saída 10,Car,False,A5 - Cascais
+A16 - Saída 9,A16 - Saída 10,Car,False,Sintra
+A16 - Saída 9,A16 - Saída 10,Car,True,A9 - Norte
+A16 - Saída 9,A16 - Saída 10,Car,True,IC16 - Lisboa
+A16 - Saída 10,A16 - Saída 11,Car,False,A5 - Cascais
+A16 - Saída 10,A16 - Saída 11,Car,False,Sintra
+A16 - Saída 10,A16 - Saída 11,Car,True,A9 - Norte
+A16 - Saída 10,A16 - Saída 11,Car,True,IC16 - Lisboa
+A16 - Saída 11,A16 - Saída 12,Car,False,A5 - Cascais
+A16 - Saída 11,A16 - Saída 12,Car,False,Sintra
+A16 - Saída 11,A16 - Saída 12,Car,True,A9 - Norte
+A16 - Saída 11,A16 - Saída 12,Car,True,IC16 - Lisboa
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,False,A5 - Cascais
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,False,Sintra
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,True,A9 - Norte
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,True,IC16 - Lisboa
+A16 - Saída 13,A16 - Saída 14,Car,False,A5 - Cascais
+A16 - Saída 13,A16 - Saída 14,Car,False,Agualva-Cacém - Centro da cidade
+A16 - Saída 13,A16 - Saída 14,Car,False,Sintra
+A16 - Saída 13,A16 - Saída 14,Car,True,A9 - Norte
+A16 - Saída 13,A16 - Saída 14,Car,True,IC16 - Lisboa
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,False,A9 - Norte
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,False,IC16 - Lisboa
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,True,A5 - Cascais
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,True,Sintra
+A16 - Saída 14,A16 - Saída 15,Car,False,A5 - Cascais
+A16 - Saída 14,A16 - Saída 15,Car,False,Sintra
+A16 - Saída 14,A16 - Saída 15,Car,True,A9 - Norte
+A16 - Saída 14,A16 - Saída 15,Car,True,IC16 - Lisboa
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Agualva - Cacém
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Cascais
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Sintra
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,True,A9 - Norte
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,True,IC16 - Lisboa
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Crestuma
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Ponte do Freixo
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Porto
