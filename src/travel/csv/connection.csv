@@ -2651,6 +2651,12 @@ Espírito Santo,Sedas,Car,4.7,N122,SE,1,1
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 2,Car,0.6,,E,2,4
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 3,Car,1.1,,SW,3,4
 Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa,NE,1,2
+Estação da Arte,Estação de Antón Martín,Subway,0.8,Linha 1 - Metro de Madrid,NW,2,1
+Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,0.3,Linha 1 - Metro de Madrid,SE,1,2
+Estação da Arte,Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,7
+Estação da Arte,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,6
+Estação da Arte,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,6
+Estação da Arte,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,N,6,6
 Estação da Azambuja,Estação de Espadanal da Azambuja,Train,3.8,Linha da Azambuja/Linha do Norte - CP Lisboa,W,1,2
 Estação da Azambuja,Estação de Vila Franca de Xira,Train,16.8,Linha da Azambuja/Linha do Norte - Regional,SW,3,4
 Estação da Azambuja,Estação de Virtudes,Train,3.0,Linha do Norte - Regional,E,2,1
@@ -2788,6 +2794,11 @@ Estação de Arrifana,Estação de São João da Madeira,Train,1.4,Linha do Voug
 Estação de Arronches,Estação de Assumar,Train,6.4,Linha do Leste - Regional,NW,1,2
 Estação de Arronches,Estação de Santa Eulália-A,Train,13.5,Linha do Leste - Regional,SE,2,1
 Estação de Assumar,Estação de Portalegre,Train,10.3,Linha do Leste - Regional,NW,1,2
+"Estação de Atocha, Metro de Madrid",Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,6
+"Estação de Atocha, Metro de Madrid",Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,5
+"Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,0.8,Linha 1 - Metro de Madrid,SE,1,1
+"Estação de Atocha, Metro de Madrid",Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,5
+"Estação de Atocha, Metro de Madrid","Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,N,6,5
 Estação de Avanca,Estação de Estarreja,Train,6.5,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
 Estação de Avanca,Estação de Ovar,Train,6.9,Linha de Aveiro/Linha do Norte - Regional,NW,3,3
 Estação de Avanca,Estação de Válega,Train,3.2,Linha de Aveiro/Linha do Norte - CP Porto,NW,2,1
@@ -2949,7 +2960,7 @@ Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Train,4.3,Linha do 
 Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Train,15.2,Linha do Norte - InterRegional,S,3,4
 Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Train,3.0,Linha do Norte - Regional,NW,2,1
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,23.3,Linha do Norte - Intercidades,S,5,5
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,170.7,LAV Madrid-Sevilha,N,2,5
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,170.7,LAV Madrid-Sevilha,N,2,7
 Estação de Ciudad Real,Puertollano,High-Speed Train,39.1,LAV Madrid-Sevilha,SW,1,2
 Estação de Coimbra,Estação de Coimbra-B,Train,1.7,Ramal da Lousã - Regional/Urbanos de Coimbra,NW,1,3
 Estação de Coimbra-B,Estação de Pampilhosa,Train,14.0,Linha do Norte - Intercidades/InterRegional,N,5,4
@@ -3142,14 +3153,15 @@ Estação de Luso - Buçaco,Estação de Soito,Train,8.2,Linha da Beira Alta - R
 Estação de Luso - Buçaco,Estação de Vacariça,Train,5.2,Linha da Beira Alta - Regional,SW,1,2
 Estação de Macinhata do Vouga,Estação de Sernada do Vouga,Train,2.7,Linha do Vouga/Ramal de Aveiro - Regional,N,2,1
 Estação de Madalena,Estação de Valadares,Train,1.5,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
-Estação de Madrid-Atocha Cercanías,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,3,3
-Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,5,1
-Estação de Madrid-Atocha Cercanías,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,4,2
+Estação de Madrid-Atocha Cercanías,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,3
+Estação de Madrid-Atocha Cercanías,Estação de Menéndez Pelayo,Car,0.8,,SE,2,3
+Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,8,1
+Estação de Madrid-Atocha Cercanías,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,3
 Estação de Madrid-Atocha Cercanías,"Paseo de Santa María de la Cabeza, Madrid",Car,1.6,,SW,1,3
-Estação de Madrid-Atocha Cercanías,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,3
+Estação de Madrid-Atocha Cercanías,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,3,3
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,3
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Car,1.1,,E,1,3
-Estação de Madrid-Puerta de Atocha-Almudena Grandes,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,S,4,3
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,S,4,4
 Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Paseo de Santa María de la Cabeza, Madrid",Car,1.2,,SW,1,2
 Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,4
 Estação de Mafra,Estação de Malveira,Train,5.1,Linha do Oeste - Regional,NE,2,1
@@ -3172,6 +3184,7 @@ Estação de Mato de Miranda,Estação de Riachos-Torres Novas-Golegã,Train,8.4
 Estação de Mato de Miranda,Estação de Vale de Figueira,Train,9.8,Linha do Norte - Regional,SW,1,2
 Estação de Mealhada,Estação de Mogofores,Train,8.6,Linha do Norte - InterRegional,N,3,3
 Estação de Mealhada,Estação de Pampilhosa,Train,4.7,Linha do Norte - Intercidades/InterRegional/Regional,SE,1,2
+Estação de Menéndez Pelayo,Monumento homenaje a las víctimas del 11-M,Car,0.8,,NW,2,2
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Train,32.0,Linha do Sul - Intercidades,NW,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Car,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Train,12.1,Linha do Sul - Intercidades,SE,2,8

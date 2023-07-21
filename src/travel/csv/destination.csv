@@ -8895,6 +8895,14 @@ Estação Cabo Ruivo,Gare do Oriente,Subway,False,Alameda
 Estação Cabo Ruivo,Gare do Oriente,Subway,False,São Sebastião
 Estação Cabo Ruivo,Gare do Oriente,Subway,True,Aeroporto
 Estação Cabo Ruivo,Gare do Oriente,Subway,True,Oriente
+Estação da Arte,Estação de Antón Martín,Subway,False,Atocha
+Estação da Arte,Estação de Antón Martín,Subway,False,Valdecarros
+Estação da Arte,Estação de Antón Martín,Subway,True,Pinar de Chamartín
+Estação da Arte,Estação de Antón Martín,Subway,True,Sol
+Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,False,Pinar de Chamartín
+Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,False,Sol
+Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,True,Pacífico
+Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,True,Valdecarros
 Estação da Azambuja,Estação de Espadanal da Azambuja,Train,False,Porto - Campanhã
 Estação da Azambuja,Estação de Espadanal da Azambuja,Train,False,Santarém
 Estação da Azambuja,Estação de Espadanal da Azambuja,Train,True,Lisboa - Alcântara-Terra
@@ -9541,6 +9549,10 @@ Estação de Assumar,Estação de Portalegre,Train,False,Elvas
 Estação de Assumar,Estação de Portalegre,Train,True,Abrantes
 Estação de Assumar,Estação de Portalegre,Train,True,Entroncamento
 Estação de Assumar,Estação de Portalegre,Train,True,Guarda
+"Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,False,Pinar de Chamartín
+"Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,False,Sol
+"Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,True,Pacífico
+"Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,True,Valdecarros
 Estação de Avanca,Estação de Estarreja,Train,False,Espinho
 Estação de Avanca,Estação de Estarreja,Train,False,Porto - Campanhã
 Estação de Avanca,Estação de Estarreja,Train,False,Porto - São Bento
