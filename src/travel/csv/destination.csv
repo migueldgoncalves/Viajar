@@ -3686,6 +3686,14 @@ A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,False,Algeciras
 A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,False,Cádiz
 A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,True,Estepona
 A-7 - Castillo de la Duquesa,A-7 - La Duquesa Golf,Car,True,Málaga
+A-7 - Doña Julia Golf Club,A-7 - Marina de Casares,Car,False,Estepona
+A-7 - Doña Julia Golf Club,A-7 - Marina de Casares,Car,False,Málaga
+A-7 - Doña Julia Golf Club,A-7 - Marina de Casares,Car,True,Algeciras
+A-7 - Doña Julia Golf Club,A-7 - Marina de Casares,Car,True,Cádiz
+A-7 - Doña Julia Golf Club,A-7 - Urbanización Bahía de Casares,Car,False,Algeciras
+A-7 - Doña Julia Golf Club,A-7 - Urbanización Bahía de Casares,Car,False,Cádiz
+A-7 - Doña Julia Golf Club,A-7 - Urbanización Bahía de Casares,Car,True,Estepona
+A-7 - Doña Julia Golf Club,A-7 - Urbanización Bahía de Casares,Car,True,Málaga
 A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,False,Algeciras
 A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,False,Cádiz
 A-7 - La Duquesa Golf,A-7 - Puerto de la Duquesa,Car,True,Estepona
@@ -3706,6 +3714,10 @@ A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Estep
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,False,Málaga
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Algeciras
 A-7 - La Paloma/Playa Paraiso,A-7 - Urbanización Punta Chullera,Car,True,Cádiz
+A-7 - Marina de Casares,A-7 - San Luis de Sabinillas Norte,Car,False,Estepona
+A-7 - Marina de Casares,A-7 - San Luis de Sabinillas Norte,Car,False,Málaga
+A-7 - Marina de Casares,A-7 - San Luis de Sabinillas Norte,Car,True,Algeciras
+A-7 - Marina de Casares,A-7 - San Luis de Sabinillas Norte,Car,True,Cádiz
 A-7 - Martagina,A-7 - Playa de la Chullera,Car,False,Algeciras
 A-7 - Martagina,A-7 - Playa de la Chullera,Car,False,Cádiz
 A-7 - Martagina,A-7 - Playa de la Chullera,Car,True,Estepona
@@ -3847,6 +3859,14 @@ A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Car,False,Cádiz
 A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Car,False,Guadiaro
 A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Car,True,Estepona
 A-7 - Saída 132,Cruzamento I da A-7 com a AP-7,Car,True,Málaga
+A-7 - Saída 145,A-7 - San Luis de Sabinillas Norte,Car,False,Algeciras
+A-7 - Saída 145,A-7 - San Luis de Sabinillas Norte,Car,False,Cádiz
+A-7 - Saída 145,A-7 - San Luis de Sabinillas Norte,Car,True,Estepona
+A-7 - Saída 145,A-7 - San Luis de Sabinillas Norte,Car,True,Málaga
+A-7 - Saída 145,A-7 - Urbanización Pueblo Mexicano,Car,False,Estepona
+A-7 - Saída 145,A-7 - Urbanización Pueblo Mexicano,Car,False,Málaga
+A-7 - Saída 145,A-7 - Urbanización Pueblo Mexicano,Car,True,Algeciras
+A-7 - Saída 145,A-7 - Urbanización Pueblo Mexicano,Car,True,Cádiz
 A-7 - Saída 158,A-7 - Saída 160,Car,False,Cádiz
 A-7 - Saída 158,A-7 - Saída 160,Car,False,Estepona
 A-7 - Saída 158,A-7 - Saída 160,Car,True,Málaga
