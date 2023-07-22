@@ -414,6 +414,21 @@ A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,3.1,A-2,SW,1,2
 A-2 - Saída 69,A-2 - Saída 71,Car,1.4,A-2,NE,2,1
 A-2 - Saída 71,A-2 - Saída 73,Car,2.7,A-2,NE,2,1
 A-2 - Saída 73,A-2 - Saída 75,Car,2.3,A-2,NE,2,1
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,1.4,A-3,W,1,4
+A-3 - Saída 5,Cruzamento da A-3 com a M-40,Car,2.2,A-3,SE,2,3
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,2.3,A-3,NW,1,4
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,1.4,A-3,SE,2,3
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,1.6,A-3,NW,1,4
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,1.5,A-3,SE,2,3
+A-3 - Saída 17,A-3 - Saída 19,Car,1.8,A-3,SE,2,1
+A-3 - Saída 17,Cruzamento da A-3 com a M-50,Car,3.7,A-3,NW,1,4
+A-3 - Saída 19,A-3 - Saída 21,Car,1.3,A-3,SE,2,1
+A-3 - Saída 21,A-3 - Saída 22,Car,1.7,A-3,SE,2,1
+A-3 - Saída 22,A-3 - Saída 25,Car,3.1,A-3,SE,2,1
+A-3 - Saída 25,A-3 - Saída 28,Car,2.9,A-3,SE,2,1
+A-3 - Saída 28,A-3 - Saída 33,Car,4.7,A-3,E,2,1
+A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,0.9,A-3,E,2,1
+A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,1.7,A-3,NW,1,2
 A-4 - Hiper Usera,A-4 - Saída 20,Car,1.2,A-4,S,1,2
 A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,0.7,A-4,N,2,1
 A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,0.2,A-4,N,2,1
@@ -2060,6 +2075,8 @@ Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Avenida del Nuevo Colo
 Avenida del Alcalde Federico Molina Orta x Calle Galaroza,"Calle Galaroza, Huelva",Car,0.5,,NW,1,7
 Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Plaza de Fray Genaro Prieto,Car,0.8,,SW,4,6
 Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Reitoria da Universidade de Huelva,Car,1.3,,W,5,5
+"Avenida del Mediterráneo, Madrid","Plaza de Mariano de Cavia, Madrid",Car,0.4,,W,1,2
+"Avenida del Mediterráneo, Madrid","Plaza del Conde de Casal, Madrid",Car,0.4,,E,2,1
 Avenida del Nuevo Colombino x Calle Jabugo,"Calle Cervantes, Huelva",Car,1.0,,SE,7,1
 Avenida del Nuevo Colombino x Calle Jabugo,Plaza de Fray Genaro Prieto,Car,1.1,,W,6,7
 Avenida del Nuevo Colombino x Calle Jabugo,Polígono Industrial La Esperanza,Car,1.0,,NE,4,4
@@ -2333,7 +2350,8 @@ Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,0.8,M-30,S,1,2
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,0.7,R-2,W,3,1
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,0.7,M-30,NE,2,1
 Cruzamento da A-3 com a M-30,M-30 - Saída 10,Car,1.4,M-30,SW,1,2
-Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,5.7,M-30 - Bypass Sul,SW,3,3
+Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,5.7,M-30 - Bypass Sul,SW,5,3
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,0.4,A-3,W,3,2
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,1.6,M-40,N,2,1
 Cruzamento da A-3 com a M-40,M-40 - Saída 16,Car,0.8,M-40,SW,1,2
 Cruzamento da A-3 com a M-45,M-45 - Avenida Ensanche de Vallecas,Car,1.1,M-45,SW,1,2
@@ -2655,7 +2673,7 @@ Estação da Arte,Estação de Antón Martín,Subway,0.8,Linha 1 - Metro de Madr
 Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,0.3,Linha 1 - Metro de Madrid,SE,1,2
 Estação da Arte,Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,7
 Estação da Arte,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,6
-Estação da Arte,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,6
+Estação da Arte,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,7
 Estação da Arte,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,N,6,6
 Estação da Azambuja,Estação de Espadanal da Azambuja,Train,3.8,Linha da Azambuja/Linha do Norte - CP Lisboa,W,1,2
 Estação da Azambuja,Estação de Vila Franca de Xira,Train,16.8,Linha da Azambuja/Linha do Norte - Regional,SW,3,4
@@ -2797,7 +2815,8 @@ Estação de Assumar,Estação de Portalegre,Train,10.3,Linha do Leste - Regiona
 "Estação de Atocha, Metro de Madrid",Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,6
 "Estação de Atocha, Metro de Madrid",Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,5
 "Estação de Atocha, Metro de Madrid",Estação de Menéndez Pelayo,Subway,0.8,Linha 1 - Metro de Madrid,SE,1,1
-"Estação de Atocha, Metro de Madrid",Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,5
+"Estação de Atocha, Metro de Madrid",Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,6
+"Estação de Atocha, Metro de Madrid","Paseo de la Reina Cristina, Madrid",Car,0.6,,E,7,2
 "Estação de Atocha, Metro de Madrid","Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,N,6,5
 Estação de Avanca,Estação de Estarreja,Train,6.5,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
 Estação de Avanca,Estação de Ovar,Train,6.9,Linha de Aveiro/Linha do Norte - Regional,NW,3,3
@@ -3156,12 +3175,12 @@ Estação de Madalena,Estação de Valadares,Train,1.5,Linha de Aveiro/Linha do 
 Estação de Madrid-Atocha Cercanías,Estação de Madrid-Puerta de Atocha-Almudena Grandes,Transfer,0.0,,N,4,3
 Estação de Madrid-Atocha Cercanías,Estação de Menéndez Pelayo,Car,0.8,,SE,2,3
 Estação de Madrid-Atocha Cercanías,Estação de Recoletos,Train,2.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,N,8,1
-Estação de Madrid-Atocha Cercanías,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,3
+Estação de Madrid-Atocha Cercanías,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,N,5,4
 Estação de Madrid-Atocha Cercanías,"Paseo de Santa María de la Cabeza, Madrid",Car,1.6,,SW,1,3
 Estação de Madrid-Atocha Cercanías,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,3,3
 Estação de Madrid-Chamartín-Clara Campoamor,Estação de Nuevos Ministerios,Train,3.1,Linhas C-1/C-2/C-7/C-8/C-10 - Cercanías Madrid,S,2,3
 Estação de Madrid-Chamartín-Clara Campoamor,M-30 - Saída 2,Car,1.1,,E,1,3
-Estação de Madrid-Puerta de Atocha-Almudena Grandes,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,S,4,4
+Estação de Madrid-Puerta de Atocha-Almudena Grandes,Monumento homenaje a las víctimas del 11-M,Transfer,0.0,,S,4,5
 Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Paseo de Santa María de la Cabeza, Madrid",Car,1.2,,SW,1,2
 Estação de Madrid-Puerta de Atocha-Almudena Grandes,"Plaza del Emperador Carlos V, Madrid",Transfer,0.0,,S,2,4
 Estação de Mafra,Estação de Malveira,Train,5.1,Linha do Oeste - Regional,NE,2,1
@@ -3684,6 +3703,7 @@ Montenegro,Universidade do Algarve - Campus de Gambelas,Car,2.1,,NW,2,1
 Montenegro,Variante de Faro - Nó com o IC4,Car,1.3,N125-10,NE,3,1
 Montes Altos,Santana de Cambas,Car,4.8,,SW,1,4
 Montinho de Odeleite,Vale do Pereiro,Car,2.2,,N,2,3
+Monumento homenaje a las víctimas del 11-M,"Paseo de la Reina Cristina, Madrid",Car,0.6,,E,3,1
 Monumento homenaje a las víctimas del 11-M,"Plaza del Emperador Carlos V, Madrid",Car,0.3,,NW,1,2
 Moreanes,Santana de Cambas,Car,4.4,,SE,3,2
 Moreanes,Sapos,Car,4.2,,E,4,2
@@ -3725,6 +3745,7 @@ Parchal,Porto de Pesca de Portimão,Car,1.0,,W,4,1
 "Parque Alonso Sánchez, Huelva",Plaza de Quintero Báez,Car,0.3,,W,3,8
 Parque Mineiro Cova dos Mouros,Vaqueiros,Car,4.3,,SW,1,5
 "Parque Moret, Huelva",Plaza del Huerto Paco,Car,0.8,,S,3,1
+"Paseo de la Reina Cristina, Madrid","Plaza de Mariano de Cavia, Madrid",Car,0.4,,E,3,1
 "Paseo de Santa María de la Cabeza, Madrid","Plaza del Emperador Carlos V, Madrid",Car,1.1,,NE,4,1
 Paymogo,Puebla de Guzmán,Car,18.0,,SE,2,3
 Paymogo,Santa Bárbara de Casa,Car,15.5,,NE,3,1

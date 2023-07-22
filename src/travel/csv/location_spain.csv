@@ -77,6 +77,17 @@ A-2 - Saída 69,Torija,Guadalajara,
 A-2 - Saída 71,Torija,Guadalajara,
 A-2 - Saída 73,Torija,Guadalajara,
 A-2 - Saída 75,Trijueque,Guadalajara,
+A-3 - Saída 5,Madrid,Comunidade de Madrid,Puente de Vallecas
+A-3 - Saída 9,Madrid,Comunidade de Madrid,Villa de Vallecas
+A-3 - Saída 12,Madrid,Comunidade de Madrid,Vicálvaro
+A-3 - Saída 17,Rivas-Vaciamadrid,Comunidade de Madrid,
+A-3 - Saída 19,Rivas-Vaciamadrid,Comunidade de Madrid,
+A-3 - Saída 21,Rivas-Vaciamadrid,Comunidade de Madrid,
+A-3 - Saída 22,Arganda del Rey,Comunidade de Madrid,
+A-3 - Saída 25,Arganda del Rey,Comunidade de Madrid,
+A-3 - Saída 28,Arganda del Rey,Comunidade de Madrid,
+A-3 - Saída 33,Arganda del Rey,Comunidade de Madrid,
+A-3 - Saída 35,Perales de Tajuña,Comunidade de Madrid,
 A-4 - Hiper Usera,Pinto,Comunidade de Madrid,
 A-4 - Polígono Industrial Los Molinos,Getafe,Comunidade de Madrid,
 A-4 - Polígono Industrial Los Olivos,Getafe,Comunidade de Madrid,
@@ -1221,6 +1232,7 @@ Avenida de la Villa de Madrid x Avenida del Sur,Huelva,Huelva,
 Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,Huelva,Huelva,
 "Avenida de Santa Marta, Huelva",Huelva,Huelva,
 Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Huelva,Huelva,
+"Avenida del Mediterráneo, Madrid",Madrid,Comunidade de Madrid,Retiro
 Avenida del Nuevo Colombino x Calle Jabugo,Huelva,Huelva,
 Ayamonte,Ayamonte,Huelva,
 Ayuntamiento de Huelva,Huelva,Huelva,
@@ -1277,6 +1289,7 @@ Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da A-3 com a M-45,Madrid,Comunidade de Madrid,Villa de Vallecas
 Cruzamento da A-3 com a M-50,Madrid,Comunidade de Madrid,Vicálvaro
+Cruzamento da A-3 com a R-3,Arganda del Rey,Comunidade de Madrid,
 Cruzamento da A-4 com a A-4a,Jerez de la Frontera,Cádiz,
 Cruzamento da A-4 com a A-40,Ocaña,Toledo,
 Cruzamento da A-4 com a A-43,Manzanares,Ciudad Real,
@@ -1669,6 +1682,7 @@ Osuna,Osuna,Sevilha,
 Paradas,Paradas,Sevilha,
 "Parque Alonso Sánchez, Huelva",Huelva,Huelva,
 "Parque Moret, Huelva",Huelva,Huelva,
+"Paseo de la Reina Cristina, Madrid",Madrid,Comunidade de Madrid,Retiro
 "Paseo de Santa María de la Cabeza, Madrid",Madrid,Comunidade de Madrid,Arganzuela
 "Paseo del Mediterráneo, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
 "Paseo Marítimo, Huelva",Huelva,Huelva,
@@ -1688,8 +1702,10 @@ Plaza de Ivonne Cazenave,Huelva,Huelva,
 "Plaza de la Dinastía de los Litri, Huelva",Huelva,Huelva,
 "Plaza de la Vera Cruz, Huelva",Huelva,Huelva,
 "Plaza de las Monjas, Huelva",Huelva,Huelva,
+"Plaza de Mariano de Cavia, Madrid",Madrid,Comunidade de Madrid,Retiro
 Plaza de Quintero Báez,Huelva,Huelva,
 "Plaza del Cardenal Cisneros, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
+"Plaza del Conde de Casal, Madrid",Madrid,Comunidade de Madrid,Retiro
 "Plaza del Emperador Carlos V, Madrid",Madrid,Comunidade de Madrid,Arganzuela
 Plaza del Huerto Paco,Huelva,Huelva,
 "Plaza del Lino, Huelva",Huelva,Huelva,

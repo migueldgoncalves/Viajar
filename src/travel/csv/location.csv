@@ -259,6 +259,17 @@ A-2 - Saída 69,40.719604,-3.061427,840,,2500
 A-2 - Saída 71,40.729003,-3.047835,867,,2500
 A-2 - Saída 73,40.748001,-3.029822,966,,2500
 A-2 - Saída 75,40.762006,-3.010349,982,,2500
+A-3 - Saída 5,40.40214,-3.65105,668,,3100
+A-3 - Saída 9,40.38549,-3.60562,664,,3100
+A-3 - Saída 12,40.36720,-3.58106,621,,3100
+A-3 - Saída 17,40.33727,-3.53647,546,,3100
+A-3 - Saída 19,40.32683,-3.52110,547,,3100
+A-3 - Saída 21,40.31801,-3.51258,534,,3100
+A-3 - Saída 22,40.31121,-3.49364,537,,3100
+A-3 - Saída 25,40.29548,-3.46611,584,,3100
+A-3 - Saída 28,40.27338,-3.44955,625,,3100
+A-3 - Saída 33,40.26765,-3.39818,751,,3100
+A-3 - Saída 35,40.25713,-3.37199,745,,3100
 A-4 - Hiper Usera,40.25564,-3.69017,598,,2900
 A-4 - Polígono Industrial Los Molinos,40.31251,-3.69191,616,,2900
 A-4 - Polígono Industrial Los Olivos,40.31472,-3.69199,614,,2900
@@ -1487,6 +1498,7 @@ Avenida de la Villa de Madrid x Avenida del Sur,37.25199,-6.95329,3,,2100
 Avenida de las Flores x Calle Doctor Juan Nicolás Márquez Domínguez,37.278681,-6.930025,33,,2100
 "Avenida de Santa Marta, Huelva",37.272806,-6.936263,40,,2100
 Avenida del Alcalde Federico Molina Orta x Calle Galaroza,37.26028,-6.93137,14,,2100
+"Avenida del Mediterráneo, Madrid",40.40713,-3.67456,634,,3100
 Avenida del Nuevo Colombino x Calle Jabugo,37.25764,-6.92897,8,,2100
 "Avenida Engenheiro Duarte Pacheco, Lisboa",38.723738,-9.163532,93,,1400
 Ayamonte,37.215788,-7.405922,20,,50
@@ -1663,6 +1675,7 @@ Cruzamento da A-3 com a M-30,40.406361,-3.665215,612,,1400
 Cruzamento da A-3 com a M-40,40.392569,-3.629780,661,,2000
 Cruzamento da A-3 com a M-45,40.37367,-3.59741,646,,2900
 Cruzamento da A-3 com a M-50,40.36008,-3.56525,604,,2900
+Cruzamento da A-3 com a R-3,40.26462,-3.38825,747,,3100
 Cruzamento da A-4 com a A-4a,36.6539,-6.1726,14,,2700
 Cruzamento da A-4 com a A-40,39.941944,-3.492594,733,,1300
 Cruzamento da A-4 com a A-43,39.030347,-3.374038,656,,1300
@@ -2736,6 +2749,7 @@ Parque Mineiro Cova dos Mouros,37.403339,-7.717642,194,,400
 "Parque Moret, Huelva",37.27365,-6.94031,72,,2100
 Parque Municipal do Sítio das Fontes,37.161972,-8.485661,6,,500
 Parque Temático da Serra do Caldeirão,37.242737,-7.933784,482,,200
+"Paseo de la Reina Cristina, Madrid",40.40687,-3.68266,649,,3100
 "Paseo de Santa María de la Cabeza, Madrid",40.401031,-3.699183,591,,1400
 "Paseo del Mediterráneo, La Línea de la Concepción",36.167240,-5.337731,3,,1200
 "Paseo Marítimo, Huelva",37.277159,-6.952852,2,,1900
@@ -2766,8 +2780,10 @@ Plaza de Ivonne Cazenave,37.26198,-6.94906,25,,2100
 "Plaza de la Dinastía de los Litri, Huelva",37.26007,-6.94745,22,,2100
 "Plaza de la Vera Cruz, Huelva",37.25833,-6.95198,9,,2100
 "Plaza de las Monjas, Huelva",37.25716,-6.95138,8,,2100
+"Plaza de Mariano de Cavia, Madrid",40.40750,-3.67881,647,,3100
 Plaza de Quintero Báez,37.25858,-6.95021,14,,2100
 "Plaza del Cardenal Cisneros, Madrid",40.439835,-3.726525,635,,2000
+"Plaza del Conde de Casal, Madrid",40.40662,-3.67021,622,,3100
 "Plaza del Emperador Carlos V, Madrid",40.408702,-3.692018,623,,1800
 Plaza del Huerto Paco,37.26677,-6.94304,33,,2100
 "Plaza del Lino, Huelva",37.25966,-6.95356,3,,2100

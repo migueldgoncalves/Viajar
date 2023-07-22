@@ -1520,6 +1520,64 @@ A-2 - Saída 73,A-2 - Saída 75,Car,False,Guadalajara
 A-2 - Saída 73,A-2 - Saída 75,Car,False,Madrid
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Barcelona
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Zaragoza
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,False,Arganda del Rey
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,False,Valência
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,True,Estação de Atocha
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,True,Madrid - Centro da cidade
+A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,True,Madrid - Plaza del Conde de Casal
+A-3 - Saída 5,Cruzamento da A-3 com a M-40,Car,False,M-30
+A-3 - Saída 5,Cruzamento da A-3 com a M-40,Car,False,Madrid
+A-3 - Saída 5,Cruzamento da A-3 com a M-40,Car,True,Valência
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,False,Arganda del Rey
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,False,Valência
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,True,M-30
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,True,M-40
+A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,True,Madrid
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,False,M-30
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,False,M-40
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,False,Madrid
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,True,Arganda del Rey
+A-3 - Saída 9,Cruzamento da A-3 com a M-45,Car,True,Valência
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,False,Arganda del Rey
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,False,Valência
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,True,M-30
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,True,M-40
+A-3 - Saída 12,Cruzamento da A-3 com a M-45,Car,True,Madrid
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,False,M-30
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,False,M-40
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,False,M-45
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,False,Madrid
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,True,Arganda del Rey
+A-3 - Saída 12,Cruzamento da A-3 com a M-50,Car,True,Valência
+A-3 - Saída 17,A-3 - Saída 19,Car,False,Madrid
+A-3 - Saída 17,A-3 - Saída 19,Car,True,Arganda del Rey
+A-3 - Saída 17,A-3 - Saída 19,Car,True,Valência
+A-3 - Saída 17,Cruzamento da A-3 com a M-50,Car,False,Arganda del Rey
+A-3 - Saída 17,Cruzamento da A-3 com a M-50,Car,False,Valência
+A-3 - Saída 17,Cruzamento da A-3 com a M-50,Car,True,Madrid
+A-3 - Saída 19,A-3 - Saída 21,Car,False,Madrid
+A-3 - Saída 19,A-3 - Saída 21,Car,True,Arganda del Rey
+A-3 - Saída 19,A-3 - Saída 21,Car,True,Valência
+A-3 - Saída 21,A-3 - Saída 22,Car,False,Madrid
+A-3 - Saída 21,A-3 - Saída 22,Car,True,Arganda del Rey
+A-3 - Saída 21,A-3 - Saída 22,Car,True,Valência
+A-3 - Saída 22,A-3 - Saída 25,Car,False,Madrid
+A-3 - Saída 22,A-3 - Saída 25,Car,True,Tarancón
+A-3 - Saída 22,A-3 - Saída 25,Car,True,Valência
+A-3 - Saída 25,A-3 - Saída 28,Car,False,Madrid
+A-3 - Saída 25,A-3 - Saída 28,Car,True,Tarancón
+A-3 - Saída 25,A-3 - Saída 28,Car,True,Valência
+A-3 - Saída 28,A-3 - Saída 33,Car,False,Madrid
+A-3 - Saída 28,A-3 - Saída 33,Car,True,Tarancón
+A-3 - Saída 28,A-3 - Saída 33,Car,True,Valência
+A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,False,Arganda del Rey
+A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,False,Madrid
+A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,True,Tarancón
+A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,True,Valência
+A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,False,Tarancón
+A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,False,Valência
+A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,True,Arganda del Rey
+A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,True,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
@@ -7485,6 +7543,11 @@ Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,False,Aeroporto de Madrid-Bara
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,True,A-5 - Badajoz
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,True,A-6 - A Coruña
 Cruzamento da A-3 com a M-30,M-30 - Saída 15,Car,True,Madrid - Glorieta de Pirámides
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,False,M-30 - A-1/A-2/A-4/A-5/A-42/Aeroporto de Madrid-Barajas
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,False,Valência
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,True,Estação de Atocha
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,True,Madrid - Centro da cidade
+Cruzamento da A-3 com a M-30,"Plaza del Conde de Casal, Madrid",Car,True,Madrid - Plaza del Conde de Casal
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,False,A-3 - Valência
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,False,A-4
 Cruzamento da A-3 com a M-40,M-40 - Saída 14,Car,False,A-42
