@@ -428,7 +428,13 @@ A-3 - Saída 22,A-3 - Saída 25,Car,3.1,A-3,SE,2,1
 A-3 - Saída 25,A-3 - Saída 28,Car,2.9,A-3,SE,2,1
 A-3 - Saída 28,A-3 - Saída 33,Car,4.7,A-3,E,2,1
 A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,0.9,A-3,E,2,1
+A-3 - Saída 35,A-3 - Saída 38,Car,2.6,A-3,SE,2,1
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,1.7,A-3,NW,1,2
+A-3 - Saída 38,A-3 - Saída 41,Car,3.5,A-3,SE,2,1
+A-3 - Saída 41,A-3 - Saída 48,Car,7.4,A-3,SE,2,1
+A-3 - Saída 48,A-3 - Saída 50,Car,1.0,A-3,SE,2,1
+A-3 - Saída 50,A-3 - Saída 51,Car,1.3,A-3,E,2,1
+A-3 - Saída 51,A-3 - Saída 59,Car,8.5,A-3,SE,2,1
 A-4 - Hiper Usera,A-4 - Saída 20,Car,1.2,A-4,S,1,2
 A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,0.7,A-4,N,2,1
 A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,0.2,A-4,N,2,1

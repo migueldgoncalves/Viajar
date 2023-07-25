@@ -1574,10 +1574,28 @@ A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,False,Arganda del Rey
 A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,False,Madrid
 A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,True,Tarancón
 A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,True,Valência
+A-3 - Saída 35,A-3 - Saída 38,Car,False,Madrid
+A-3 - Saída 35,A-3 - Saída 38,Car,True,Tarancón
+A-3 - Saída 35,A-3 - Saída 38,Car,True,Valência
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,False,Tarancón
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,False,Valência
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,True,Arganda del Rey
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,True,Madrid
+A-3 - Saída 38,A-3 - Saída 41,Car,False,Madrid
+A-3 - Saída 38,A-3 - Saída 41,Car,True,Tarancón
+A-3 - Saída 38,A-3 - Saída 41,Car,True,Valência
+A-3 - Saída 41,A-3 - Saída 48,Car,False,Madrid
+A-3 - Saída 41,A-3 - Saída 48,Car,True,Valência
+A-3 - Saída 48,A-3 - Saída 50,Car,False,Madrid
+A-3 - Saída 48,A-3 - Saída 50,Car,True,Valência
+A-3 - Saída 50,A-3 - Saída 51,Car,False,Arganda del Rey
+A-3 - Saída 50,A-3 - Saída 51,Car,False,Madrid
+A-3 - Saída 50,A-3 - Saída 51,Car,True,Tarancón
+A-3 - Saída 50,A-3 - Saída 51,Car,True,Valência
+A-3 - Saída 51,A-3 - Saída 59,Car,False,Arganda del Rey
+A-3 - Saída 51,A-3 - Saída 59,Car,False,Madrid
+A-3 - Saída 51,A-3 - Saída 59,Car,True,Tarancón
+A-3 - Saída 51,A-3 - Saída 59,Car,True,Valência
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
