@@ -276,6 +276,15 @@ A-3 - Saída 48,40.17166,-3.29218,772,,3100
 A-3 - Saída 50,40.16594,-3.28259,770,,3100
 A-3 - Saída 51,40.16305,-3.26802,761,,3100
 A-3 - Saída 59,40.13546,-3.17896,654,,3100
+A-3 - Saída 62,40.12180,-3.15545,554,,3100
+A-3 - Saída 63,40.11866,-3.15034,547,,3100
+A-3 - Saída 68,40.08412,-3.11121,645,,3100
+A-3 - Saída 71,40.06475,-3.08096,707,,3100
+A-3 - Saída 74,40.04613,-3.06275,763,,3100
+A-3 - Saída 76,40.03263,-3.04191,729,,3100
+A-3 - Saída 79,40.01538,-3.03162,808,,3100
+A-3 - Saída 80,40.00497,-3.02730,819,,3100
+A-3 - Saída 90,39.96109,-2.92811,827,,3100
 A-4 - Hiper Usera,40.25564,-3.69017,598,,2900
 A-4 - Polígono Industrial Los Molinos,40.31251,-3.69191,616,,2900
 A-4 - Polígono Industrial Los Olivos,40.31472,-3.69199,614,,2900
@@ -1885,6 +1894,7 @@ Cruzamento do IC1 com o IP8,38.205283,-8.563367,85,,800
 Cruzamento do IC4 com a M520,37.051365,-7.953663,10,,300
 Cruzamento do IC4 com a N125,37.073374,-7.97838,33,,300
 Cruzamento do IC16 com a IC17 CRIL,38.76861,-9.20883,54,,2300
+Cruzamento Este da A-3 com a A-40,39.99373,-2.98018,783,,3100
 Cruzamento Este da A-6 com a A-62,41.50498,-4.98497,688,,2900
 Cruzamento Este da A-7 com a MA-24,36.723538,-4.301936,88,,1200
 Cruzamento Este da M-50 com a R-2,40.510046,-3.494481,652,,2600
@@ -1893,6 +1903,7 @@ Cruzamento Norte da A-7 com a A-30,38.03055,-1.15462,92,,2400
 Cruzamento Norte da A-44 com a GR-30,37.271002,-3.658168,672,,1400
 Cruzamento Norte da A-55 com a AP-9,42.21112,-8.66209,270,,2300
 Cruzamento Norte da A-62 com a A-66,40.99619,-5.67464,811,,2600
+Cruzamento Oeste da A-3 com a A-40,39.99650,-3.01502,810,,3100
 Cruzamento Oeste da A-6 com a A-62,41.5118,-5.0178,685,,2900
 Cruzamento Oeste da A-7 com a MA-24,36.732357,-4.353453,106,,1200
 Cruzamento Oeste da M-50 com a R-2,40.54173,-3.57015,599,,2600

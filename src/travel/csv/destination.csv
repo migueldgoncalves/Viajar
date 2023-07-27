@@ -1596,6 +1596,45 @@ A-3 - Saída 51,A-3 - Saída 59,Car,False,Arganda del Rey
 A-3 - Saída 51,A-3 - Saída 59,Car,False,Madrid
 A-3 - Saída 51,A-3 - Saída 59,Car,True,Tarancón
 A-3 - Saída 51,A-3 - Saída 59,Car,True,Valência
+A-3 - Saída 59,A-3 - Saída 62,Car,False,Arganda del Rey
+A-3 - Saída 59,A-3 - Saída 62,Car,False,Madrid
+A-3 - Saída 59,A-3 - Saída 62,Car,True,Valência
+A-3 - Saída 62,A-3 - Saída 63,Car,False,Arganda del Rey
+A-3 - Saída 62,A-3 - Saída 63,Car,False,Madrid
+A-3 - Saída 62,A-3 - Saída 63,Car,True,Tarancón
+A-3 - Saída 62,A-3 - Saída 63,Car,True,Valência
+A-3 - Saída 63,A-3 - Saída 68,Car,False,Arganda del Rey
+A-3 - Saída 63,A-3 - Saída 68,Car,False,Madrid
+A-3 - Saída 63,A-3 - Saída 68,Car,True,Tarancón
+A-3 - Saída 63,A-3 - Saída 68,Car,True,Valência
+A-3 - Saída 68,A-3 - Saída 71,Car,False,Arganda del Rey
+A-3 - Saída 68,A-3 - Saída 71,Car,False,Madrid
+A-3 - Saída 68,A-3 - Saída 71,Car,True,Tarancón
+A-3 - Saída 68,A-3 - Saída 71,Car,True,Valência
+A-3 - Saída 71,A-3 - Saída 74,Car,False,Arganda del Rey
+A-3 - Saída 71,A-3 - Saída 74,Car,False,Madrid
+A-3 - Saída 71,A-3 - Saída 74,Car,True,Tarancón
+A-3 - Saída 71,A-3 - Saída 74,Car,True,Valência
+A-3 - Saída 74,A-3 - Saída 76,Car,False,Arganda del Rey
+A-3 - Saída 74,A-3 - Saída 76,Car,False,Madrid
+A-3 - Saída 74,A-3 - Saída 76,Car,True,Tarancón
+A-3 - Saída 74,A-3 - Saída 76,Car,True,Valência
+A-3 - Saída 76,A-3 - Saída 79,Car,False,Arganda del Rey
+A-3 - Saída 76,A-3 - Saída 79,Car,False,Madrid
+A-3 - Saída 76,A-3 - Saída 79,Car,True,Tarancón
+A-3 - Saída 76,A-3 - Saída 79,Car,True,Valência
+A-3 - Saída 79,A-3 - Saída 80,Car,False,Madrid
+A-3 - Saída 79,A-3 - Saída 80,Car,True,A-40 - Cuenca
+A-3 - Saída 79,A-3 - Saída 80,Car,True,Albacete
+A-3 - Saída 79,A-3 - Saída 80,Car,True,Valência
+A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,False,Arganda del Rey
+A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,False,Madrid
+A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,A-40 - Cuenca
+A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,Albacete
+A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,Valência
+A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,False,Valência
+A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,True,Madrid
+A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,True,Tarancón
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
@@ -8875,6 +8914,10 @@ Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,False,IC16
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Alfornelos
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Algés
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Lisboa - Pedralvas
+Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,False,A-40 - Cuenca
+Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,False,Valência
+Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,True,Arganda del Rey
+Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,True,Madrid
 Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,A-62 - Burgos/Valladolid
 Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,Madrid
 Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A Coruña
