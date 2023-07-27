@@ -2694,7 +2694,13 @@ Espírito Santo,Sedas,Car,4.7,N122,SE,1,1
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,1.3,Linha Vermelha - Metro de Lisboa,NE,4,1
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 2,Car,0.6,,E,2,4
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 3,Car,1.1,,SW,3,4
+Estação Alameda,Estação Olaias,Subway,0.9,Linha Vermelha - Metro de Lisboa,E,1,2
+Estação Alameda,Estação Saldanha,Subway,1.0,Linha Vermelha - Metro de Lisboa,W,2,1
+Estação Bela Vista,Estação Chelas,Subway,0.9,Linha Vermelha - Metro de Lisboa,NE,1,2
+Estação Bela Vista,Estação Olaias,Subway,1.1,Linha Vermelha - Metro de Lisboa,SW,2,1
+Estação Cabo Ruivo,Estação Olivais,Subway,0.7,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa,NE,1,2
+Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
 Estação da Arte,Estação de Antón Martín,Subway,0.8,Linha 1 - Metro de Madrid,NW,2,1
 Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,0.3,Linha 1 - Metro de Madrid,SE,1,2
 Estação da Arte,Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,7
@@ -3382,6 +3388,7 @@ Estação do Entroncamento,Gare do Oriente,Train,99.8,Linha do Norte - Lusitâni
 Estação do Pragal,Pinhal Novo,Train,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Subway,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
 Estação Moscavide,Gare do Oriente,Subway,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
+Estação Saldanha,Estação São Sebastião,Subway,0.8,Linha Vermelha - Metro de Lisboa,W,2,1
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2
 Estádio Nuevo Colombino,H-30 - Saída 15,Car,1.3,,E,2,3
 Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Car,0.6,,N,1,2

@@ -9035,10 +9035,32 @@ Espírito Santo,Sedas,Car,True,Alcoutim
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,False,Aeroporto
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,Oriente
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,São Sebastião
+Estação Alameda,Estação Olaias,Subway,False,Saldanha
+Estação Alameda,Estação Olaias,Subway,False,São Sebastião
+Estação Alameda,Estação Olaias,Subway,True,Aeroporto
+Estação Alameda,Estação Olaias,Subway,True,Oriente
+Estação Alameda,Estação Saldanha,Subway,False,Aeroporto
+Estação Alameda,Estação Saldanha,Subway,False,Oriente
+Estação Alameda,Estação Saldanha,Subway,True,São Sebastião
+Estação Bela Vista,Estação Chelas,Subway,False,Alameda
+Estação Bela Vista,Estação Chelas,Subway,False,São Sebastião
+Estação Bela Vista,Estação Chelas,Subway,True,Aeroporto
+Estação Bela Vista,Estação Chelas,Subway,True,Oriente
+Estação Bela Vista,Estação Olaias,Subway,False,Aeroporto
+Estação Bela Vista,Estação Olaias,Subway,False,Oriente
+Estação Bela Vista,Estação Olaias,Subway,True,Alameda
+Estação Bela Vista,Estação Olaias,Subway,True,São Sebastião
+Estação Cabo Ruivo,Estação Olivais,Subway,False,Aeroporto
+Estação Cabo Ruivo,Estação Olivais,Subway,False,Oriente
+Estação Cabo Ruivo,Estação Olivais,Subway,True,Alameda
+Estação Cabo Ruivo,Estação Olivais,Subway,True,São Sebastião
 Estação Cabo Ruivo,Gare do Oriente,Subway,False,Alameda
 Estação Cabo Ruivo,Gare do Oriente,Subway,False,São Sebastião
 Estação Cabo Ruivo,Gare do Oriente,Subway,True,Aeroporto
-Estação Cabo Ruivo,Gare do Oriente,Subway,True,Oriente
+Estação Chelas,Estação Olivais,Subway,False,Alameda
+Estação Chelas,Estação Olivais,Subway,False,São Sebastião
+Estação Chelas,Estação Olivais,Subway,True,Aeroporto
+Estação Chelas,Estação Olivais,Subway,True,Oriente
 Estação da Arte,Estação de Antón Martín,Subway,False,Atocha
 Estação da Arte,Estação de Antón Martín,Subway,False,Valdecarros
 Estação da Arte,Estação de Antón Martín,Subway,True,Pinar de Chamartín
@@ -12619,8 +12641,11 @@ Estação Encarnação,Estação Moscavide,Subway,False,Aeroporto
 Estação Encarnação,Estação Moscavide,Subway,True,Oriente
 Estação Encarnação,Estação Moscavide,Subway,True,São Sebastião
 Estação Moscavide,Gare do Oriente,Subway,False,Aeroporto
-Estação Moscavide,Gare do Oriente,Subway,True,Oriente
+Estação Moscavide,Gare do Oriente,Subway,True,Alameda
 Estação Moscavide,Gare do Oriente,Subway,True,São Sebastião
+Estação Saldanha,Estação São Sebastião,Subway,False,Aeroporto
+Estação Saldanha,Estação São Sebastião,Subway,False,Alameda
+Estação Saldanha,Estação São Sebastião,Subway,True,São Sebastião
 Estoi,Pechão,Car,False,Estoi
 Estoi,Pechão,Car,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Car,False,Estoi
