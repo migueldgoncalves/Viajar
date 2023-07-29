@@ -4586,6 +4586,25 @@ A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Torremolin
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Ferrol
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Oviedo
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,True,A-6 - A Coruña/Lugo
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,False,Albacete
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,False,Madrid
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,False,Novelda
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,True,Alicante
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,True,Porto de Alicante
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,False,Ferry para a Argélia
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,False,Porto de Alicante - Mercadorias
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,True,A-70 - Murcia/València
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,True,Alicante
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,True,Madrid
+A-31 - Saída 237,A-31 - Saída 239,Car,False,A-70 - Murcia/València
+A-31 - Saída 237,A-31 - Saída 239,Car,False,Madrid
+A-31 - Saída 237,A-31 - Saída 239,Car,True,Alacant/Alicante - Centro da cidade
+A-31 - Saída 237,A-31 - Saída 239,Car,True,Ferry para a Argélia
+A-31 - Saída 237,A-31 - Saída 239,Car,True,Porto de Alicante
+A-31 - Saída 237,Cruzamento da A-31 com a A-70,Car,False,Alicante
+A-31 - Saída 237,Cruzamento da A-31 com a A-70,Car,False,Porto de Alicante
+A-31 - Saída 237,Cruzamento da A-31 com a A-70,Car,True,A-70 - Murcia/València
+A-31 - Saída 237,Cruzamento da A-31 com a A-70,Car,True,Madrid
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Albacete
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Linares
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,False,Úbeda
@@ -5554,6 +5573,11 @@ A-66 - Saída 805,A-66 - Saída 808,Car,True,Sevilha
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,False,Mérida
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,False,Venta del Alto
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,True,Sevilha
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,False,Benidorm
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,False,València
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,True,Aeroporto de Alicante-Elche
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,True,Elx/Elche
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,True,Murcia
 A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,False,Alacant/Alicante
 A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,A-31 - Madrid
 A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,True,Elx/Elche
@@ -6935,6 +6959,16 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço da Guarda,Cruzamento da A23 com a A25,Car,False,Covilhã
 Área de Serviço da Guarda,Cruzamento da A23 com a A25,Car,False,Guarda - Sul
 Área de Serviço da Guarda,Cruzamento da A23 com a A25,Car,True,A25 - Aveiro/Vilar Formoso
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,False,A-7 - Cartagena
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,False,A-31 - Albacete/Madrid
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,False,Murcia
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,True,Benidorm
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,True,València
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,False,Benidorm
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,False,València
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,True,A-7 - Cartagena
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,True,A-31 - Albacete/Madrid
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,True,Murcia
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Car,False,Alcácer do Sal
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Car,False,Algarve
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Car,True,A6 - Évora

@@ -1188,6 +1188,11 @@ A-7/AP-7 - Saída 217,A-7/AP-7 - Saída 222,Car,5.6,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 217,Cruzamento VI da A-7 com a AP-7,Car,3.3,A-7/AP-7,SW,1,2
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,1.5,A-7/AP-7,NE,2,1
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,4.8,A-8,S,1,3
+A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,0.5,A-31,SE,1,4
+A-31 - Porto de Alicante,A-31 - Saída 239,Car,0.8,A-31,NW,1,1
+A-31 - Saída 237,A-31 - Saída 239,Car,1.7,A-31,E,1,2
+A-31 - Saída 237,Cruzamento da A-31 com a A-70,Car,1.6,A-31,NW,2,3
+A-31 - Saída 239,N-332 - Avinguda d'Elx x Carrer Mèxic,Car,0.3,,SE,3,1
 A-32 - Saída 1,Cruzamento da A-32 com a A-44,Car,1.9,A-32,E,1,3
 A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,4.6,A-40,NW,1,3
 A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,1.6,A-40,E,2,3
@@ -1493,6 +1498,7 @@ A-66 - Saída 795,A-66 - Saída 798,Car,3.3,A-66,SE,1,2
 A-66 - Saída 798,A-66 - Saída 805,Car,6.9,A-66,SE,1,2
 A-66 - Saída 805,A-66 - Saída 808,Car,3.2,A-66,SE,1,2
 A-66 - Saída 808,Cruzamento da A-66 com a SE-30,Car,2.2,A-66,S,1,3
+A-70 - Cruzamento com a N-330,Cruzamento da A-31 com a A-70,Car,0.5,A-70,S,1,2
 A-70 - Saída 22,Cruzamento da A-7 com a A-70 e a EL-20,Car,8.4,A-70,W,1,3
 A-70 - Saída 22,Cruzamento da A-31 com a A-70,Car,4.8,A-70,NE,2,1
 A-70 - Saída 22,N-338 - Saída 3,Car,1.3,N-338,SE,3,1
@@ -1991,6 +1997,8 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 "Arco de la Victoria, Madrid","Plaza del Cardenal Cisneros, Madrid",Car,0.7,A-6,NW,1,1
 Área de Repouso de Castro Marim,Ponte Internacional do Guadiana,Car,1.7,A22,E,2,1
 Área de Serviço da Guarda,Cruzamento da A23 com a A25,Car,2.7,A23,N,2,3
+Área de Serviço de Agost,Cruzamento XI da A-7 com a AP-7,Car,5.4,AP-7 - Autopista de Circunvalación de Alicante,NE,2,1
+Área de Serviço de Agost,Cruzamento da A-31 com a AP-7,Car,8.5,AP-7 - Autopista de Circunvalación de Alicante,SW,1,2
 Área de Serviço de Alcácer do Sal,Cruzamento da A2 com a A6 e a A13,Car,11.3,A2,NW,1,2
 Área de Serviço de Alcochete,Cruzamento da A12 com a A33,Car,4.1,A12,E,2,1
 Área de Serviço de Aljustrel,Cruzamento da A2 com a A26,Car,28.0,A2,NW,1,2
@@ -2339,7 +2347,7 @@ Cruz de João Mendes,Cruzamento da N120 com a N121,Car,8.7,N120,SW,2,3
 Cruz de João Mendes,Grândola,Car,13.0,N120,NE,1,7
 Cruz de João Mendes,IP8 - Cruzamento com a N261,Car,10.3,IP8,SW,3,6
 Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,8.1,IP8,N,5,1
-Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,0.8,AP-7,N,2,1
+Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,0.8,AP-7 - Autopista de Circunvalación de Alicante,N,2,1
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,2.5,IC17 CRIL,NW,1,2
 Cruzamento da A1 com a A12 e a IC17 CRIL,Segunda Circular - Saída 1,Car,1.1,Segunda Circular,SW,3,2
 Cruzamento da A1 com a A20,Cruzamento da A1 com a A29,Car,2.4,A1,N,3,2
