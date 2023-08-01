@@ -444,7 +444,14 @@ A-3 - Saída 74,A-3 - Saída 76,Car,2.4,A-3,SE,2,1
 A-3 - Saída 76,A-3 - Saída 79,Car,2.0,A-3,S,2,1
 A-3 - Saída 79,A-3 - Saída 80,Car,1.3,A-3,S,2,1
 A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,1.4,A-3,SE,2,1
+A-3 - Saída 90,A-3 - Saída 93,Car,2.4,A-3,SE,2,1
 A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,6.0,A-3,NW,1,2
+A-3 - Saída 93,A-3 - Saída 95,Car,2.0,A-3,SE,2,1
+A-3 - Saída 95,A-3 - Saída 101,Car,6.0,A-3,SE,2,1
+A-3 - Saída 101,A-3 - Saída 104,Car,2.6,A-3,SE,2,1
+A-3 - Saída 104,A-3 - Saída 108,Car,4.2,A-3,E,2,1
+A-3 - Saída 104,Parque Arqueológico de Segóbriga,Car,3.4,,SW,3,1
+A-3 - Saída 108,A-3 - Saída 111,Car,2.7,A-3,SE,2,1
 A-4 - Hiper Usera,A-4 - Saída 20,Car,1.2,A-4,S,1,2
 A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,0.7,A-4,N,2,1
 A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,0.2,A-4,N,2,1

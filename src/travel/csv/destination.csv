@@ -1632,9 +1632,38 @@ A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,False,Madrid
 A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,A-40 - Cuenca
 A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,Albacete
 A-3 - Saída 80,Cruzamento Oeste da A-3 com a A-40,Car,True,Valência
+A-3 - Saída 90,A-3 - Saída 93,Car,False,Madrid
+A-3 - Saída 90,A-3 - Saída 93,Car,False,Tarancón
+A-3 - Saída 90,A-3 - Saída 93,Car,True,Albacete
+A-3 - Saída 90,A-3 - Saída 93,Car,True,La Almarcha
+A-3 - Saída 90,A-3 - Saída 93,Car,True,Valência
 A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,False,Valência
 A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,True,Madrid
 A-3 - Saída 90,Cruzamento Este da A-3 com a A-40,Car,True,Tarancón
+A-3 - Saída 93,A-3 - Saída 95,Car,False,Madrid
+A-3 - Saída 93,A-3 - Saída 95,Car,True,Albacete
+A-3 - Saída 93,A-3 - Saída 95,Car,True,La Almarcha
+A-3 - Saída 93,A-3 - Saída 95,Car,True,Valência
+A-3 - Saída 95,A-3 - Saída 101,Car,False,Madrid
+A-3 - Saída 95,A-3 - Saída 101,Car,False,Tarancón
+A-3 - Saída 95,A-3 - Saída 101,Car,True,Albacete
+A-3 - Saída 95,A-3 - Saída 101,Car,True,La Almarcha
+A-3 - Saída 95,A-3 - Saída 101,Car,True,Valência
+A-3 - Saída 101,A-3 - Saída 104,Car,False,Madrid
+A-3 - Saída 101,A-3 - Saída 104,Car,False,Tarancón
+A-3 - Saída 101,A-3 - Saída 104,Car,True,La Almarcha
+A-3 - Saída 101,A-3 - Saída 104,Car,True,Madrid
+A-3 - Saída 101,A-3 - Saída 104,Car,True,Valência
+A-3 - Saída 104,A-3 - Saída 108,Car,False,Madrid
+A-3 - Saída 104,A-3 - Saída 108,Car,False,Tarancón
+A-3 - Saída 104,A-3 - Saída 108,Car,True,Albacete
+A-3 - Saída 104,A-3 - Saída 108,Car,True,La Almarcha
+A-3 - Saída 104,A-3 - Saída 108,Car,True,Valência
+A-3 - Saída 108,A-3 - Saída 111,Car,False,Madrid
+A-3 - Saída 108,A-3 - Saída 111,Car,False,Tarancón
+A-3 - Saída 108,A-3 - Saída 111,Car,True,Albacete
+A-3 - Saída 108,A-3 - Saída 111,Car,True,La Almarcha
+A-3 - Saída 108,A-3 - Saída 111,Car,True,Valência
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
