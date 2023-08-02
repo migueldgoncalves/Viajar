@@ -1664,6 +1664,90 @@ A-3 - Saída 108,A-3 - Saída 111,Car,False,Tarancón
 A-3 - Saída 108,A-3 - Saída 111,Car,True,Albacete
 A-3 - Saída 108,A-3 - Saída 111,Car,True,La Almarcha
 A-3 - Saída 108,A-3 - Saída 111,Car,True,Valência
+A-3 - Saída 111,A-3 - Saída 114,Car,False,Madrid
+A-3 - Saída 111,A-3 - Saída 114,Car,True,Albacete
+A-3 - Saída 111,A-3 - Saída 114,Car,True,La Almarcha
+A-3 - Saída 111,A-3 - Saída 114,Car,True,Valência
+A-3 - Saída 114,A-3 - Saída 117,Car,False,Madrid
+A-3 - Saída 114,A-3 - Saída 117,Car,False,Tarancón
+A-3 - Saída 114,A-3 - Saída 117,Car,True,Valência
+A-3 - Saída 117,A-3 - Saída 121,Car,False,Madrid
+A-3 - Saída 117,A-3 - Saída 121,Car,False,Tarancón
+A-3 - Saída 117,A-3 - Saída 121,Car,True,Valência
+A-3 - Saída 121,A-3 - Saída 124,Car,False,Madrid
+A-3 - Saída 121,A-3 - Saída 124,Car,False,Tarancón
+A-3 - Saída 121,A-3 - Saída 124,Car,True,Valência
+A-3 - Saída 124,A-3 - Saída 130,Car,False,Madrid
+A-3 - Saída 124,A-3 - Saída 130,Car,True,Albacete
+A-3 - Saída 124,A-3 - Saída 130,Car,True,La Almarcha
+A-3 - Saída 124,A-3 - Saída 130,Car,True,Valência
+A-3 - Saída 130,A-3 - Saída 132,Car,False,Madrid
+A-3 - Saída 130,A-3 - Saída 132,Car,True,Albacete
+A-3 - Saída 130,A-3 - Saída 132,Car,True,La Almarcha
+A-3 - Saída 130,A-3 - Saída 132,Car,True,Valência
+A-3 - Saída 132,A-3 - Saída 133,Car,False,Madrid
+A-3 - Saída 132,A-3 - Saída 133,Car,False,Tarancón
+A-3 - Saída 132,A-3 - Saída 133,Car,True,Valência
+A-3 - Saída 133,A-3 - Saída 141,Car,False,Madrid
+A-3 - Saída 133,A-3 - Saída 141,Car,False,Tarancón
+A-3 - Saída 133,A-3 - Saída 141,Car,True,Valência
+A-3 - Saída 141,A-3 - Saída 147,Car,False,Madrid
+A-3 - Saída 141,A-3 - Saída 147,Car,False,Tarancón
+A-3 - Saída 141,A-3 - Saída 147,Car,True,Albacete
+A-3 - Saída 141,A-3 - Saída 147,Car,True,La Almarcha
+A-3 - Saída 141,A-3 - Saída 147,Car,True,Valência
+A-3 - Saída 147,A-3 - Saída 148,Car,False,Madrid
+A-3 - Saída 147,A-3 - Saída 148,Car,False,Tarancón
+A-3 - Saída 147,A-3 - Saída 148,Car,True,La Almarcha
+A-3 - Saída 147,A-3 - Saída 148,Car,True,Valência
+A-3 - Saída 148,A-3 - Saída 154,Car,False,Madrid
+A-3 - Saída 148,A-3 - Saída 154,Car,False,Tarancón
+A-3 - Saída 148,A-3 - Saída 154,Car,True,La Almarcha
+A-3 - Saída 148,A-3 - Saída 154,Car,True,Valência
+A-3 - Saída 154,A-3 - Saída 155,Car,False,Madrid
+A-3 - Saída 154,A-3 - Saída 155,Car,False,Tarancón
+A-3 - Saída 154,A-3 - Saída 155,Car,True,Albacete
+A-3 - Saída 154,A-3 - Saída 155,Car,True,Honrubia
+A-3 - Saída 154,A-3 - Saída 155,Car,True,Valência
+A-3 - Saída 155,A-3 - Saída 156,Car,False,La Almarcha
+A-3 - Saída 155,A-3 - Saída 156,Car,False,Madrid
+A-3 - Saída 155,A-3 - Saída 156,Car,False,Tarancón
+A-3 - Saída 155,A-3 - Saída 156,Car,True,Albacete
+A-3 - Saída 155,A-3 - Saída 156,Car,True,Honrubia
+A-3 - Saída 155,A-3 - Saída 156,Car,True,Valência
+A-3 - Saída 156,A-3 - Saída 159,Car,False,La Almarcha
+A-3 - Saída 156,A-3 - Saída 159,Car,False,Madrid
+A-3 - Saída 156,A-3 - Saída 159,Car,True,Albacete
+A-3 - Saída 156,A-3 - Saída 159,Car,True,Honrubia
+A-3 - Saída 156,A-3 - Saída 159,Car,True,Valência
+A-3 - Saída 159,A-3 - Saída 163,Car,False,Madrid
+A-3 - Saída 159,A-3 - Saída 163,Car,False,Tarancón
+A-3 - Saída 159,A-3 - Saída 163,Car,True,Albacete
+A-3 - Saída 159,A-3 - Saída 163,Car,True,Honrubia
+A-3 - Saída 159,A-3 - Saída 163,Car,True,Valência
+A-3 - Saída 163,A-3 - Saída 165,Car,False,Madrid
+A-3 - Saída 163,A-3 - Saída 165,Car,False,Tarancón
+A-3 - Saída 163,A-3 - Saída 165,Car,True,Albacete
+A-3 - Saída 163,A-3 - Saída 165,Car,True,Honrubia
+A-3 - Saída 163,A-3 - Saída 165,Car,True,Valência
+A-3 - Saída 165,A-3 - Saída 168,Car,False,La Almarcha
+A-3 - Saída 165,A-3 - Saída 168,Car,False,Madrid
+A-3 - Saída 165,A-3 - Saída 168,Car,True,A-31 - Albacete
+A-3 - Saída 165,A-3 - Saída 168,Car,True,Valência
+A-3 - Saída 168,A-3 - Saída 175,Car,False,Honrubia
+A-3 - Saída 168,A-3 - Saída 175,Car,False,Madrid
+A-3 - Saída 168,A-3 - Saída 175,Car,True,A-31 - Albacete
+A-3 - Saída 168,A-3 - Saída 175,Car,True,Valência
+A-3 - Saída 175,Cruzamento da A-3 com a A-31,Car,False,Honrubia
+A-3 - Saída 175,Cruzamento da A-3 com a A-31,Car,False,Madrid
+A-3 - Saída 175,Cruzamento da A-3 com a A-31,Car,True,Albacete
+A-3 - Saída 175,Cruzamento da A-3 com a A-31,Car,True,Valência
+A-3 - Saída 186,A-3 - Saída 207,Car,False,Madrid
+A-3 - Saída 186,A-3 - Saída 207,Car,True,Motilla del Palancar
+A-3 - Saída 186,A-3 - Saída 207,Car,True,Valência
+A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,False,Valência
+A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,True,A-31 - Albacete
+A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,True,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
@@ -4675,6 +4759,14 @@ A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Centro da cidad
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Plaza Elíptica
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Getafe
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Toledo
+A-43 - Saída 162,A-43 - Saída 172,Car,False,AP-36 - Albacete/Madrid
+A-43 - Saída 162,A-43 - Saída 172,Car,False,Ciudad Real
+A-43 - Saída 162,A-43 - Saída 172,Car,True,Madrid
+A-43 - Saída 162,A-43 - Saída 172,Car,True,Valência
+A-43 - Saída 172,Cruzamento da A-31 com a A-43,Car,False,AP-36 - Ocaña
+A-43 - Saída 172,Cruzamento da A-31 com a A-43,Car,False,Ciudad Real
+A-43 - Saída 172,Cruzamento da A-31 com a A-43,Car,True,Madrid
+A-43 - Saída 172,Cruzamento da A-31 com a A-43,Car,True,Valência
 A-44 - Saída 12,A-44 - Saída 17,Car,False,Bailén
 A-44 - Saída 12,A-44 - Saída 17,Car,False,Madrid
 A-44 - Saída 12,A-44 - Saída 17,Car,True,Granada
@@ -7653,6 +7745,13 @@ Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-42
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Barcelona
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Zaragoza
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,True,Madrid
+Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,False,Madrid
+Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,True,Motilla del Palancar
+Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,True,Valência
+Cruzamento da A-3 com a A-43,Cruzamento da A-31 com a A-43,Car,False,A-3 - Valência
+Cruzamento da A-3 com a A-43,Cruzamento da A-31 com a A-43,Car,True,A-31 - Albacete
+Cruzamento da A-3 com a A-43,Cruzamento da A-31 com a A-43,Car,True,AP-36 - Ocaña
+Cruzamento da A-3 com a A-43,Cruzamento da A-31 com a A-43,Car,True,Ciudad Real
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-4 - Córdoba
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-5
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,False,A-6

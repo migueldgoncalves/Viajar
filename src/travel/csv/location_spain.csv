@@ -109,6 +109,26 @@ A-3 - Saída 101,Saelices,Cuenca,
 A-3 - Saída 104,Saelices,Cuenca,
 A-3 - Saída 108,Huete,Cuenca,
 A-3 - Saída 111,Huete,Cuenca,
+A-3 - Saída 114,Montalbo,Cuenca,
+A-3 - Saída 117,Montalbo,Cuenca,
+A-3 - Saída 121,Zafra de Záncara,Cuenca,
+A-3 - Saída 124,Villares del Saz,Cuenca,
+A-3 - Saída 130,Villares del Saz,Cuenca,
+A-3 - Saída 132,Villares del Saz,Cuenca,
+A-3 - Saída 133,Villares del Saz,Cuenca,
+A-3 - Saída 141,Cervera del Llano,Cuenca,
+A-3 - Saída 147,La Hinojosa,Cuenca,
+A-3 - Saída 148,La Hinojosa,Cuenca,
+A-3 - Saída 154,La Almarcha,Cuenca,
+A-3 - Saída 155,La Almarcha,Cuenca,
+A-3 - Saída 156,Castillo de Garcimuñoz,Cuenca,
+A-3 - Saída 159,Castillo de Garcimuñoz,Cuenca,
+A-3 - Saída 163,Castillo de Garcimuñoz,Cuenca,
+A-3 - Saída 165,Honrubia,Cuenca,
+A-3 - Saída 168,Honrubia,Cuenca,
+A-3 - Saída 175,Atalaya del Cañavate,Cuenca,
+A-3 - Saída 186,Tébar,Cuenca,
+A-3 - Saída 207,Pozorrubielos de la Mancha,Cuenca,
 A-4 - Hiper Usera,Pinto,Comunidade de Madrid,
 A-4 - Polígono Industrial Los Molinos,Getafe,Comunidade de Madrid,
 A-4 - Polígono Industrial Los Olivos,Getafe,Comunidade de Madrid,
@@ -759,6 +779,8 @@ A-42 - Calle de Antonio López,Madrid,Comunidade de Madrid,Usera
 A-42 - Paseo de Santa María de la Cabeza,Madrid,Comunidade de Madrid,Carabanchel
 A-42 - Saída 4,Madrid,Comunidade de Madrid,Carabanchel
 A-42 - Saída 5,Madrid,Comunidade de Madrid,Carabanchel
+A-43 - Saída 162,Vara de Rey,Cuenca,
+A-43 - Saída 172,Atalaya del Cañavate,Cuenca,
 A-44 - Saída 12,Jabalquinto,Jaén,
 A-44 - Saída 17,Jabalquinto,Jaén,
 A-44 - Saída 18,Mengíbar,Jaén,
@@ -1318,6 +1340,8 @@ Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas-Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
 Cruzamento da A-2 com a M-100 e a M-203,Alcalá de Henares,Comunidade de Madrid,Distrito III
 Cruzamento da A-2 com a R-2,Guadalajara,Guadalajara,
+Cruzamento da A-3 com a A-31,Atalaya del Cañavate,Cuenca,
+Cruzamento da A-3 com a A-43,Atalaya del Cañavate,Cuenca,
 Cruzamento da A-3 com a M-30,Madrid,Comunidade de Madrid,Moratalaz
 Cruzamento da A-3 com a M-40,Madrid,Comunidade de Madrid,Vicálvaro
 Cruzamento da A-3 com a M-45,Madrid,Comunidade de Madrid,Villa de Vallecas
@@ -1378,6 +1402,7 @@ Cruzamento da A-7 com a MU-30 e a RM-15,Alcantarilla,Região de Murcia,
 Cruzamento da A-7 com a RM-2,Alhama de Murcia,Região de Murcia,
 Cruzamento da A-7 com a RM-3,Totana,Região de Murcia,
 Cruzamento da A-7 com a RM-11,Lorca,Região de Murcia,
+Cruzamento da A-31 com a A-43,Atalaya del Cañavate,Cuenca,
 Cruzamento da A-31 com a A-70,Alacant / Alicante,Alacant / Alicante,
 Cruzamento da A-31 com a AP-7,Monforte del Cid,Alacant / Alicante,
 Cruzamento da A-32 com a A-44,Bailén,Jaén,
