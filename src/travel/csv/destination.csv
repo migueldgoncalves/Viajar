@@ -4759,6 +4759,31 @@ A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Centro da cidad
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Plaza Elíptica
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Getafe
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Toledo
+A-43 - Saída 129,A-43 - Saída 132,Car,False,Ciudad Real
+A-43 - Saída 129,A-43 - Saída 132,Car,False,CM-42 - Toledo
+A-43 - Saída 129,A-43 - Saída 132,Car,False,Villarrobledo - Centro da cidade
+A-43 - Saída 129,A-43 - Saída 132,Car,True,Albacete
+A-43 - Saída 129,A-43 - Saída 132,Car,True,Valência
+A-43 - Saída 132,A-43 - Saída 144,Car,False,Ciudad Real
+A-43 - Saída 132,A-43 - Saída 144,Car,False,Villarrobledo
+A-43 - Saída 132,A-43 - Saída 144,Car,True,Albacete
+A-43 - Saída 132,A-43 - Saída 144,Car,True,Valência
+A-43 - Saída 144,Cruzamento da A-43 com a AP-36,Car,False,Ciudad Real
+A-43 - Saída 144,Cruzamento da A-43 com a AP-36,Car,False,Villarrobledo
+A-43 - Saída 144,Cruzamento da A-43 com a AP-36,Car,True,Albacete
+A-43 - Saída 144,Cruzamento da A-43 com a AP-36,Car,True,Valência
+A-43 - Saída 149,A-43 - Saída 155,Car,False,AP-36 - Albacete/Madrid
+A-43 - Saída 149,A-43 - Saída 155,Car,False,Ciudad Real
+A-43 - Saída 149,A-43 - Saída 155,Car,True,Madrid
+A-43 - Saída 149,A-43 - Saída 155,Car,True,Valência
+A-43 - Saída 149,Cruzamento da A-43 com a AP-36,Car,False,Madrid
+A-43 - Saída 149,Cruzamento da A-43 com a AP-36,Car,False,Valência
+A-43 - Saída 149,Cruzamento da A-43 com a AP-36,Car,True,AP-36 - Albacete/Madrid
+A-43 - Saída 149,Cruzamento da A-43 com a AP-36,Car,True,Ciudad Real
+A-43 - Saída 155,A-43 - Saída 162,Car,False,AP-36 - Albacete/Madrid
+A-43 - Saída 155,A-43 - Saída 162,Car,False,Ciudad Real
+A-43 - Saída 155,A-43 - Saída 162,Car,True,Madrid
+A-43 - Saída 155,A-43 - Saída 162,Car,True,Valência
 A-43 - Saída 162,A-43 - Saída 172,Car,False,AP-36 - Albacete/Madrid
 A-43 - Saída 162,A-43 - Saída 172,Car,False,Ciudad Real
 A-43 - Saída 162,A-43 - Saída 172,Car,True,Madrid
