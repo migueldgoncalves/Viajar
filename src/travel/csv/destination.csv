@@ -4759,6 +4759,42 @@ A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Centro da cidad
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Plaza Elíptica
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Getafe
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Toledo
+A-43 - Saída 81,A-43 - Saída 87,Car,False,Ciudad Real
+A-43 - Saída 81,A-43 - Saída 87,Car,False,Manzanares
+A-43 - Saída 81,A-43 - Saída 87,Car,True,Tomelloso
+A-43 - Saída 81,A-43 - Saída 87,Car,True,Valência
+A-43 - Saída 87,A-43 - Saída 91,Car,False,Ciudad Real
+A-43 - Saída 87,A-43 - Saída 91,Car,False,Tomelloso
+A-43 - Saída 87,A-43 - Saída 91,Car,True,Valência
+A-43 - Saída 87,A-43 - Saída 91,Car,True,Villarrobledo
+A-43 - Saída 91,Cruzamento da A-43 com a CM-42,Car,False,Ciudad Real
+A-43 - Saída 91,Cruzamento da A-43 com a CM-42,Car,False,Tomelloso
+A-43 - Saída 91,Cruzamento da A-43 com a CM-42,Car,True,CM-42 - Alcázar de San Juan/Toledo
+A-43 - Saída 91,Cruzamento da A-43 com a CM-42,Car,True,Valência
+A-43 - Saída 91,Cruzamento da A-43 com a CM-42,Car,True,Villarrobledo
+A-43 - Saída 100,A-43 - Saída 117,Car,False,Ciudad Real
+A-43 - Saída 100,A-43 - Saída 117,Car,False,CM-42 - Toledo
+A-43 - Saída 100,A-43 - Saída 117,Car,False,Tomelloso
+A-43 - Saída 100,A-43 - Saída 117,Car,True,Albacete
+A-43 - Saída 100,A-43 - Saída 117,Car,True,Valência
+A-43 - Saída 100,A-43 - Saída 117,Car,True,Villarrobledo
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,False,Albacete
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,False,Valência
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,False,Villarrobledo
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,True,Ciudad Real
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,True,CM-42 - Toledo
+A-43 - Saída 100,Cruzamento da A-43 com a CM-42,Car,True,Tomelloso
+A-43 - Saída 117,A-43 - Saída 125,Car,False,Ciudad Real
+A-43 - Saída 117,A-43 - Saída 125,Car,False,CM-42 - Toledo
+A-43 - Saída 117,A-43 - Saída 125,Car,False,Tomelloso
+A-43 - Saída 117,A-43 - Saída 125,Car,True,Albacete
+A-43 - Saída 117,A-43 - Saída 125,Car,True,Valência
+A-43 - Saída 117,A-43 - Saída 125,Car,True,Villarrobledo
+A-43 - Saída 125,A-43 - Saída 129,Car,False,Ciudad Real
+A-43 - Saída 125,A-43 - Saída 129,Car,False,CM-42 - Toledo
+A-43 - Saída 125,A-43 - Saída 129,Car,True,Albacete
+A-43 - Saída 125,A-43 - Saída 129,Car,True,Valência
+A-43 - Saída 125,A-43 - Saída 129,Car,True,Villarrobledo - Centro da cidade
 A-43 - Saída 129,A-43 - Saída 132,Car,False,Ciudad Real
 A-43 - Saída 129,A-43 - Saída 132,Car,False,CM-42 - Toledo
 A-43 - Saída 129,A-43 - Saída 132,Car,False,Villarrobledo - Centro da cidade
