@@ -4736,6 +4736,13 @@ A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,True,R-4 - Madrid
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Cuenca
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Tarancón
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,True,R-4 - Madrid
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Badajoz
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Córdoba
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Puertollano
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Albacete
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Ciudad Real
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Daimiel
+A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Madrid
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,False,Madrid - Glorieta de Santa María de la Cabeza
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,R-5 - Badajoz/Toledo
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,Toledo
@@ -4759,6 +4766,78 @@ A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Centro da cidad
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,False,Madrid - Plaza Elíptica
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Getafe
 A-42 - Saída 5,Cruzamento da A-42 com a M-40,Car,True,Toledo
+A-43 - Saída 4,A-43 - Saída 9,Car,False,Badajoz
+A-43 - Saída 4,A-43 - Saída 9,Car,False,Ciudad Real
+A-43 - Saída 4,A-43 - Saída 9,Car,False,Córdoba
+A-43 - Saída 4,A-43 - Saída 9,Car,True,Daimiel
+A-43 - Saída 4,A-43 - Saída 9,Car,True,Manzanares
+A-43 - Saída 4,Cruzamento da A-41 com a A-43,Car,False,Albacete
+A-43 - Saída 4,Cruzamento da A-41 com a A-43,Car,False,Daimiel
+A-43 - Saída 4,Cruzamento da A-41 com a A-43,Car,False,Madrid
+A-43 - Saída 4,Cruzamento da A-41 com a A-43,Car,True,Ciudad Real
+A-43 - Saída 9,A-43 - Saída 15,Car,False,Badajoz
+A-43 - Saída 9,A-43 - Saída 15,Car,False,Ciudad Real
+A-43 - Saída 9,A-43 - Saída 15,Car,False,Córdoba
+A-43 - Saída 9,A-43 - Saída 15,Car,True,Albacete
+A-43 - Saída 9,A-43 - Saída 15,Car,True,Daimiel
+A-43 - Saída 9,A-43 - Saída 15,Car,True,Madrid
+A-43 - Saída 15,A-43 - Saída 26,Car,False,Badajoz
+A-43 - Saída 15,A-43 - Saída 26,Car,False,Ciudad Real
+A-43 - Saída 15,A-43 - Saída 26,Car,False,Córdoba
+A-43 - Saída 15,A-43 - Saída 26,Car,True,Albacete
+A-43 - Saída 15,A-43 - Saída 26,Car,True,Daimiel
+A-43 - Saída 15,A-43 - Saída 26,Car,True,Madrid
+A-43 - Saída 26,A-43 - Saída 30,Car,False,Badajoz
+A-43 - Saída 26,A-43 - Saída 30,Car,False,Ciudad Real
+A-43 - Saída 26,A-43 - Saída 30,Car,False,Córdoba
+A-43 - Saída 26,A-43 - Saída 30,Car,True,Albacete
+A-43 - Saída 26,A-43 - Saída 30,Car,True,Madrid
+A-43 - Saída 26,A-43 - Saída 30,Car,True,Manzanares
+A-43 - Saída 30,A-43 - Saída 33,Car,False,Badajoz
+A-43 - Saída 30,A-43 - Saída 33,Car,False,Ciudad Real
+A-43 - Saída 30,A-43 - Saída 33,Car,False,Córdoba
+A-43 - Saída 30,A-43 - Saída 33,Car,True,Albacete
+A-43 - Saída 30,A-43 - Saída 33,Car,True,Madrid
+A-43 - Saída 30,A-43 - Saída 33,Car,True,Manzanares
+A-43 - Saída 33,A-43 - Saída 48,Car,False,Ciudad Real
+A-43 - Saída 33,A-43 - Saída 48,Car,False,Daimiel
+A-43 - Saída 33,A-43 - Saída 48,Car,True,Albacete
+A-43 - Saída 33,A-43 - Saída 48,Car,True,Manzanares
+A-43 - Saída 48,Cruzamento da A-4 com a A-43,Car,False,Ciudad Real
+A-43 - Saída 48,Cruzamento da A-4 com a A-43,Car,False,Daimiel
+A-43 - Saída 48,Cruzamento da A-4 com a A-43,Car,True,Albacete
+A-43 - Saída 48,Cruzamento da A-4 com a A-43,Car,True,Manzanares
+A-43 - Saída 54,A-43 - Saída 63-65,Car,False,Ciudad Real
+A-43 - Saída 54,A-43 - Saída 63-65,Car,False,Manzanares
+A-43 - Saída 54,A-43 - Saída 63-65,Car,True,Albacete
+A-43 - Saída 54,A-43 - Saída 63-65,Car,True,Tomelloso
+A-43 - Saída 54,A-43 - Saída 63-65,Car,True,Valência
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,False,Albacete
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,False,Tomelloso
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,False,Valência
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,True,A-4 - Córdoba/Madrid
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,True,Ciudad Real
+A-43 - Saída 54,Cruzamento da A-4 com a A-43,Car,True,Daimiel
+A-43 - Saída 63-65,A-43 - Saída 67,Car,False,Ciudad Real
+A-43 - Saída 63-65,A-43 - Saída 67,Car,False,Manzanares
+A-43 - Saída 63-65,A-43 - Saída 67,Car,True,Tomelloso
+A-43 - Saída 63-65,A-43 - Saída 67,Car,True,Valência
+A-43 - Saída 67,A-43 - Saída 71,Car,False,Ciudad Real
+A-43 - Saída 67,A-43 - Saída 71,Car,False,Manzanares
+A-43 - Saída 67,A-43 - Saída 71,Car,True,Tomelloso
+A-43 - Saída 67,A-43 - Saída 71,Car,True,Valência
+A-43 - Saída 71,A-43 - Saída 75,Car,False,Ciudad Real
+A-43 - Saída 71,A-43 - Saída 75,Car,False,Manzanares
+A-43 - Saída 71,A-43 - Saída 75,Car,True,Tomelloso
+A-43 - Saída 71,A-43 - Saída 75,Car,True,Valência
+A-43 - Saída 75,A-43 - Saída 77,Car,False,Ciudad Real
+A-43 - Saída 75,A-43 - Saída 77,Car,False,Manzanares
+A-43 - Saída 75,A-43 - Saída 77,Car,True,Tomelloso
+A-43 - Saída 75,A-43 - Saída 77,Car,True,Valência
+A-43 - Saída 77,A-43 - Saída 81,Car,False,Ciudad Real
+A-43 - Saída 77,A-43 - Saída 81,Car,False,Manzanares
+A-43 - Saída 77,A-43 - Saída 81,Car,True,Tomelloso
+A-43 - Saída 77,A-43 - Saída 81,Car,True,Valência
 A-43 - Saída 81,A-43 - Saída 87,Car,False,Ciudad Real
 A-43 - Saída 81,A-43 - Saída 87,Car,False,Manzanares
 A-43 - Saída 81,A-43 - Saída 87,Car,True,Tomelloso
@@ -8208,6 +8287,11 @@ Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,True,Almería
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Córdoba
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Ocaña
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,True,Madrid
+Cruzamento da A-41 com a A-43,Cruzamento da N-420 com a N-430,Car,False,A-43 - Daimiel
+Cruzamento da A-41 com a A-43,Cruzamento da N-420 com a N-430,Car,False,Badajoz
+Cruzamento da A-41 com a A-43,Cruzamento da N-420 com a N-430,Car,False,Puertollano
+Cruzamento da A-41 com a A-43,Cruzamento da N-420 com a N-430,Car,True,Ciudad Real - Norte
+Cruzamento da A-41 com a A-43,Cruzamento da N-420 com a N-430,Car,True,Toledo
 Cruzamento da A-42 com a M-30,M-30 - Saída 13,Car,False,A-5
 Cruzamento da A-42 com a M-30,M-30 - Saída 13,Car,False,A-6
 Cruzamento da A-42 com a M-30,M-30 - Saída 13,Car,False,A-42 - Toledo

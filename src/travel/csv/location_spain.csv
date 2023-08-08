@@ -775,10 +775,24 @@ A-32 - Saída 1,Bailén,Jaén,
 A-40 - Saída 94,Santo Domingo-Caudilla,Toledo,
 A-40 - Saída 182,Ocaña,Toledo,
 A-40 - Saída 186,Ocaña,Toledo,
+A-41 - Saída 163,Ciudad Real,Ciudad Real,
 A-42 - Calle de Antonio López,Madrid,Comunidade de Madrid,Usera
 A-42 - Paseo de Santa María de la Cabeza,Madrid,Comunidade de Madrid,Carabanchel
 A-42 - Saída 4,Madrid,Comunidade de Madrid,Carabanchel
 A-42 - Saída 5,Madrid,Comunidade de Madrid,Carabanchel
+A-43 - Saída 4,Miguelturra,Ciudad Real,
+A-43 - Saída 9,Carrión de Calatrava,Ciudad Real,
+A-43 - Saída 15,Torralba de Calatrava,Ciudad Real,
+A-43 - Saída 26,Daimiel,Ciudad Real,
+A-43 - Saída 30,Daimiel,Ciudad Real,
+A-43 - Saída 33,Daimiel,Ciudad Real,
+A-43 - Saída 48,Manzanares,Ciudad Real,
+A-43 - Saída 54,Manzanares,Ciudad Real,
+A-43 - Saída 63-65,Manzanares,Ciudad Real,
+A-43 - Saída 67,Argamasilla de Alba,Ciudad Real,
+A-43 - Saída 71,Manzanares,Ciudad Real,
+A-43 - Saída 75,Argamasilla de Alba,Ciudad Real,
+A-43 - Saída 77,Argamasilla de Alba,Ciudad Real,
 A-43 - Saída 81,Argamasilla de Alba,Ciudad Real,
 A-43 - Saída 87,Argamasilla de Alba,Ciudad Real,
 A-43 - Saída 91,Tomelloso,Ciudad Real,
@@ -1419,6 +1433,7 @@ Cruzamento da A-31 com a AP-7,Monforte del Cid,Alacant / Alicante,
 Cruzamento da A-32 com a A-44,Bailén,Jaén,
 Cruzamento da A-40 com a A-5,Maqueda,Toledo,
 Cruzamento da A-40 com a R-4,Ocaña,Toledo,
+Cruzamento da A-41 com a A-43,Ciudad Real,Ciudad Real,
 Cruzamento da A-42 com a M-30,Madrid,Comunidade de Madrid,Carabanchel
 Cruzamento da A-42 com a M-40,Madrid,Comunidade de Madrid,Villaverde
 Cruzamento da A-42 com a M-45,Getafe,Comunidade de Madrid,
@@ -1509,6 +1524,7 @@ Cruzamento da M-50 com a R-4,Getafe,Comunidade de Madrid,
 Cruzamento da M-100 com a R-2,Alcalá de Henares,Comunidade de Madrid,Distrito III
 Cruzamento da MA-20 com a MA-23,Málaga,Málaga,Churriana
 Cruzamento da N-110 com a N-502,La Serrada,Ávila,
+Cruzamento da N-420 com a N-430,Ciudad Real,Ciudad Real,
 Cruzamento da N-431 com a N-444,Lepe,Huelva,
 Cruzamento da N-431 com a N-445,Lepe,Huelva,
 Cruzamento da N-431 com a N-446,Isla Cristina,Huelva,
