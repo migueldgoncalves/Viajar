@@ -961,6 +961,13 @@ A23 - Saída 35,Área de Serviço da Guarda,Car,False,Castelo Branco
 A23 - Saída 35,Área de Serviço da Guarda,Car,False,Covilhã
 A23 - Saída 35,Área de Serviço da Guarda,Car,False,Guarda - Sul
 A23 - Saída 35,Área de Serviço da Guarda,Car,True,A25 - Aveiro/Vilar Formoso
+A24 - Saída 2,IP5 - Saída 14,Car,False,A25 - Guarda
+A24 - Saída 2,IP5 - Saída 14,Car,False,Viseu - Centro da cidade
+A24 - Saída 2,IP5 - Saída 14,Car,True,A25 - Aveiro
+A24 - Saída 2,IP5 - Saída 15,Car,False,A25 - Aveiro
+A24 - Saída 2,IP5 - Saída 15,Car,True,Outras direcções
+A24 - Saída 2,IP5 - Saída 15,Car,True,Vilar Formoso
+A24 - Saída 2,IP5 - Saída 15,Car,True,Viseu
 A25 - Início,A25 - Saída 1,Car,False,Praias
 A25 - Início,A25 - Saída 1,Car,True,Aveiro
 A25 - Saída 1,A25 - Saída 1A,Car,False,Praias
@@ -1052,6 +1059,8 @@ A25 - Saída 14,A25 - Saída 15,Car,False,Aveiro
 A25 - Saída 14,A25 - Saída 15,Car,True,A24 - Vila Real
 A25 - Saída 14,A25 - Saída 15,Car,True,Guarda
 A25 - Saída 14,A25 - Saída 15,Car,True,Viseu
+A25 - Saída 14,IP5 - Joana Martins,Car,False,A25 - Aveiro
+A25 - Saída 14,IP5 - Joana Martins,Car,True,Serra da Penoita
 A25 - Saída 15,A25 - Saída 16,Car,False,A1 - Porto
 A25 - Saída 15,A25 - Saída 16,Car,False,Aveiro
 A25 - Saída 15,A25 - Saída 16,Car,True,A24 - Vila Real
@@ -1067,6 +1076,10 @@ A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Car,False,Aveiro
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Car,True,A24 - Vila Real
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Car,True,Guarda
 A25 - Saída 16A,Cruzamento da A24 com a A25 e o IP3,Car,True,Viseu
+A25 - Saída 16A,IP5 - Saída 13,Car,False,A25 - Aveiro/Viseu
+A25 - Saída 16A,IP5 - Saída 13,Car,True,Tondela
+A25 - Saída 16A,IP5 - Saída 14,Car,False,A25 - Aveiro
+A25 - Saída 16A,IP5 - Saída 14,Car,True,Viseu - Norte
 A25 - Saída 18,A25 - Saída 19,Car,False,Aveiro
 A25 - Saída 18,A25 - Saída 19,Car,False,IP3 - Coimbra
 A25 - Saída 18,A25 - Saída 19,Car,False,Viseu - Centro da cidade
@@ -1081,6 +1094,9 @@ A25 - Saída 19,A25 - Saída 20,Car,False,Aveiro
 A25 - Saída 19,A25 - Saída 20,Car,False,Viseu
 A25 - Saída 19,A25 - Saída 20,Car,True,Espanha
 A25 - Saída 19,A25 - Saída 20,Car,True,Guarda
+A25 - Saída 19,IP5 - Saída 17,Car,False,A25 - Guarda
+A25 - Saída 19,IP5 - Saída 17,Car,True,Sátão
+A25 - Saída 19,IP5 - Saída 17,Car,True,Viseu - Norte
 A25 - Saída 20,A25 - Saída 21,Car,False,Aveiro
 A25 - Saída 20,A25 - Saída 21,Car,False,Viseu
 A25 - Saída 20,A25 - Saída 21,Car,True,Espanha
@@ -7573,6 +7589,10 @@ Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,False,Alcácer do 
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Lagos
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Setúbal
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Tróia
+"Campo de Madalena, Viseu",IP5 - Saída 16,Car,False,Castro Daire
+"Campo de Madalena, Viseu",IP5 - Saída 16,Car,False,Lamego
+"Campo de Madalena, Viseu",IP5 - Saída 16,Car,True,A25 - Aveiro/Guarda
+"Campo de Madalena, Viseu",IP5 - Saída 16,Car,True,Viseu
 Canal Caveira,Cruzamento da A2 com a A26,Car,False,Grândola
 Canal Caveira,Cruzamento da A2 com a A26,Car,False,Sines
 Canal Caveira,Cruzamento da A2 com a A26,Car,True,Faro
@@ -13444,6 +13464,13 @@ IP2 - Saída 49,IP2 - Saída 50,Car,False,Beja
 IP2 - Saída 49,IP2 - Saída 50,Car,False,Castro Verde
 IP2 - Saída 49,IP2 - Saída 50,Car,False,Mértola
 IP2 - Saída 49,IP2 - Saída 50,Car,True,A2
+IP5 - Joana Martins,IP5 - Saída 13,Car,False,Serra da Penoita
+IP5 - Joana Martins,IP5 - Saída 13,Car,True,A25 - Viseu
+IP5 - Saída 15,IP5 - Saída 16,Car,False,A25 - Aveiro
+IP5 - Saída 15,IP5 - Saída 16,Car,True,A25 - Guarda
+IP5 - Saída 16,IP5 - Saída 17,Car,False,A25 - Aveiro
+IP5 - Saída 16,IP5 - Saída 17,Car,False,Viseu - Centro da cidade
+IP5 - Saída 16,IP5 - Saída 17,Car,True,A25 - Guarda
 IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Car,False,A2 - Algarve/Lisboa
 IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Car,False,Grândola
 IP8 - Cruzamento com a N261-1,IP8 - Cruzamento com a N261-2,Car,True,Santiago do Cacém

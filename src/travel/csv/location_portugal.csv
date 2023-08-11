@@ -139,6 +139,7 @@ A23 - Saída 32,Caria,Belmonte
 A23 - Saída 33,Maçainhas,Belmonte
 A23 - Saída 34,Benespera,Guarda
 A23 - Saída 35,Guarda,Guarda
+A24 - Saída 2,São Cipriano,Viseu
 A25 - Início,Gafanha da Nazaré,Ílhavo
 A25 - Saída 1,Gafanha da Encarnação,Ílhavo
 A25 - Saída 1A,Gafanha da Nazaré,Ílhavo
@@ -185,6 +186,7 @@ Achada do Gamo,Santana de Cambas,Mértola
 Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
 Aeródromo de Tires,São Domingos de Rana,Cascais
+Aeródromo de Viseu,Abraveses,Viseu
 Aeroporto de Beja,São Brissos,Beja
 Aeroporto de Faro,Montenegro,Faro
 Aeroporto de Lisboa - Terminal 1,Santa Maria dos Olivais,Lisboa
@@ -310,6 +312,7 @@ Cais da Mesquita,Espírito Santo,Mértola
 Cais da Praia do Barril,Santa Luzia,Tavira
 Cais Palafítico da Carrasqueira,Comporta,Alcácer do Sal
 Caldas de Monchique,Monchique,Monchique
+"Campo de Madalena, Viseu",Campo,Viseu
 Canal Caveira,Grândola,Grândola
 Carrapateira,Bordeira,Aljezur
 Carvalhal,Carvalhal,Grândola
@@ -990,6 +993,12 @@ IP2 - Saída 47,Albernoa,Beja
 IP2 - Saída 48,Castro Verde,Castro Verde
 IP2 - Saída 49,Castro Verde,Castro Verde
 IP2 - Saída 50,Castro Verde,Castro Verde
+IP5 - Joana Martins,Ventosa,Vouzela
+IP5 - Saída 13,Boaldeia,Viseu
+IP5 - Saída 14,São Cipriano,Viseu
+IP5 - Saída 15,Abraveses,Viseu
+IP5 - Saída 16,Campo,Viseu
+IP5 - Saída 17,Rio de Loba,Viseu
 IP8 - Cruzamento com a N261,Santo André,Santiago do Cacém
 IP8 - Cruzamento com a N261-1,Grândola,Grândola
 IP8 - Cruzamento com a N261-2,Melides,Grândola
