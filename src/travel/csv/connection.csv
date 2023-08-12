@@ -31,6 +31,7 @@ A1 - Saída 18B,Cruzamento da A1 com a A20,Car,3.3,A1,N,2,1
 A1 - Saída 18B,Cruzamento da A1 com a A41 CREP,Car,4.2,A1,S,1,2
 A1 - Saída 20,Área de Serviço de Gaia,Car,1.2,A1,SE,2,1
 A1 - Saída 20,Cruzamento da A1 com a A44,Car,1.7,A1,W,1,2
+A1 - Saída 20,Estação Santo Ovídio,Car,0.7,N1,N,3,1
 A1 - Saída 23,IC23 - Campo Alegre,Car,1.0,A1/IC23 VCI/Ponte da Arrábida,N,1,2
 A1 - São João da Talha,Cruzamento da A1 com a A12 e a IC17 CRIL,Car,3.7,A1,S,1,4
 A2 - Saída 1,Área de Serviço de Seixal,Car,6.1,A2,SE,2,1
@@ -2782,11 +2783,17 @@ Espírito Santo,Sedas,Car,4.7,N122,SE,1,1
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 3,Car,1.1,,SW,3,4
 Estação Alameda,Estação Olaias,Subway,0.9,Linha Vermelha - Metro de Lisboa,E,1,2
 Estação Alameda,Estação Saldanha,Subway,1.0,Linha Vermelha - Metro de Lisboa,W,2,1
+Estação Aliados,Estação de Porto - São Bento,Subway,0.3,Linha D - Metro do Porto,S,1,3
+Estação Aliados,Estação Trindade,Subway,0.5,Linha D - Metro do Porto,N,2,1
 Estação Bela Vista,Estação Chelas,Subway,0.9,Linha Vermelha - Metro de Lisboa,NE,1,2
 Estação Bela Vista,Estação Olaias,Subway,1.1,Linha Vermelha - Metro de Lisboa,SW,2,1
 Estação Cabo Ruivo,Estação Olivais,Subway,0.7,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa,NE,1,2
+Estação Câmara de Gaia,Estação de General Torres,Subway,0.5,Linha D - Metro do Porto,N,2,3
+Estação Câmara de Gaia,Estação João de Deus,Subway,0.4,Linha D - Metro do Porto,S,1,2
 Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
+Estação D. João II,Estação João de Deus,Subway,0.7,Linha D - Metro do Porto,N,2,1
+Estação D. João II,Estação Santo Ovídio,Subway,0.5,Linha D - Metro do Porto,S,1,2
 Estação da Arte,Estação de Antón Martín,Subway,0.8,Linha 1 - Metro de Madrid,NW,2,1
 Estação da Arte,"Estação de Atocha, Metro de Madrid",Subway,0.3,Linha 1 - Metro de Madrid,SE,1,2
 Estação da Arte,Estação de Madrid-Atocha Cercanías,Transfer,0.0,,N,3,7
@@ -3240,6 +3247,7 @@ Estação de Fuseta-Moncarapacho,Livramento,Train,2.9,Linha do Algarve - Regiona
 Estação de Gata,Estação de Vila Fernando,Train,6.5,Linha da Beira Alta - Regional,E,2,1
 Estação de General Torres,Estação de Porto - Campanhã,Train,2.8,Linha de Aveiro/Linha do Norte - CP Porto/Regional,NE,2,1
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,1.0,Linha de Aveiro/Linha do Norte - CP Porto/Regional,W,1,2
+Estação de General Torres,Estação Jardim do Morro,Subway,0.5,Linha D - Metro do Porto,N,4,1
 Estação de Giesteira,Estação de Lordelo,Train,2.6,Linha de Guimarães - CP Porto,E,2,1
 Estação de Giesteira,Estação de Vila das Aves,Train,1.7,Linha de Guimarães - CP Porto,W,1,2
 Estação de Godim,Estação de Régua,Train,1.6,Linha do Douro - Regional,SE,2,1
@@ -3399,6 +3407,7 @@ Estação de Porto - Campanhã,Estação de Trofa,High-Speed Train,22.3,Linha do
 Estação de Porto - Campanhã,Estação de Trofa,Train,22.3,Linha do Minho - Intercidades,N,5,5
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,3.8,Linha do Norte,SW,7,6
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,3.8,Linha do Norte - Intercidades/InterRegional,SW,4,4
+Estação de Porto - São Bento,Estação Jardim do Morro,Subway,0.9,Linha D - Metro do Porto,S,2,2
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,4.9,Linha do Sado/Linha do Sul - CP Lisboa,E,2,1
 Estação de Praça do Quebedo,Estação de Setúbal,Train,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
 Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,6.3,Linha da Beira Baixa - Regional,E,2,1

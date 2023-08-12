@@ -131,6 +131,10 @@ A1 - Saída 20,Cruzamento da A1 com a A44,Car,False,Lisboa
 A1 - Saída 20,Cruzamento da A1 com a A44,Car,False,Vila Nova de Gaia - Santo Ovídio
 A1 - Saída 20,Cruzamento da A1 com a A44,Car,True,Porto
 A1 - Saída 20,Cruzamento da A1 com a A44,Car,True,Vila Nova de Gaia - Coimbrões
+A1 - Saída 20,Estação Santo Ovídio,Car,False,A1 - Lisboa/Porto
+A1 - Saída 20,Estação Santo Ovídio,Car,False,Espinho
+A1 - Saída 20,Estação Santo Ovídio,Car,True,Vila Nova de Gaia - Centro da cidade
+A1 - Saída 20,Estação Santo Ovídio,Car,True,Vila Nova de Gaia - Santo Ovídio
 A1 - Saída 23,IC23 - Campo Alegre,Car,False,A1 - Lisboa
 A1 - Saída 23,IC23 - Campo Alegre,Car,False,Ponte da Arrábida
 A1 - Saída 23,IC23 - Campo Alegre,Car,False,Vila Nova de Gaia
@@ -9369,6 +9373,13 @@ Estação Alameda,Estação Olaias,Subway,True,Oriente
 Estação Alameda,Estação Saldanha,Subway,False,Aeroporto
 Estação Alameda,Estação Saldanha,Subway,False,Oriente
 Estação Alameda,Estação Saldanha,Subway,True,São Sebastião
+Estação Aliados,Estação de Porto - São Bento,Subway,False,Hospital de São João
+Estação Aliados,Estação de Porto - São Bento,Subway,False,Trindade
+Estação Aliados,Estação de Porto - São Bento,Subway,True,General Torres
+Estação Aliados,Estação de Porto - São Bento,Subway,True,Santo Ovídio
+Estação Aliados,Estação Trindade,Subway,False,Santo Ovídio
+Estação Aliados,Estação Trindade,Subway,False,São Bento
+Estação Aliados,Estação Trindade,Subway,True,Hospital de São João
 Estação Bela Vista,Estação Chelas,Subway,False,Alameda
 Estação Bela Vista,Estação Chelas,Subway,False,São Sebastião
 Estação Bela Vista,Estação Chelas,Subway,True,Aeroporto
@@ -9384,10 +9395,22 @@ Estação Cabo Ruivo,Estação Olivais,Subway,True,São Sebastião
 Estação Cabo Ruivo,Gare do Oriente,Subway,False,Alameda
 Estação Cabo Ruivo,Gare do Oriente,Subway,False,São Sebastião
 Estação Cabo Ruivo,Gare do Oriente,Subway,True,Aeroporto
+Estação Câmara de Gaia,Estação de General Torres,Subway,False,Santo Ovídio
+Estação Câmara de Gaia,Estação de General Torres,Subway,True,Hospital de São João
+Estação Câmara de Gaia,Estação de General Torres,Subway,True,São Bento
+Estação Câmara de Gaia,Estação João de Deus,Subway,False,General Torres
+Estação Câmara de Gaia,Estação João de Deus,Subway,False,Hospital de São João
+Estação Câmara de Gaia,Estação João de Deus,Subway,True,Santo Ovídio
 Estação Chelas,Estação Olivais,Subway,False,Alameda
 Estação Chelas,Estação Olivais,Subway,False,São Sebastião
 Estação Chelas,Estação Olivais,Subway,True,Aeroporto
 Estação Chelas,Estação Olivais,Subway,True,Oriente
+Estação D. João II,Estação João de Deus,Subway,False,Santo Ovídio
+Estação D. João II,Estação João de Deus,Subway,True,General Torres
+Estação D. João II,Estação João de Deus,Subway,True,Hospital de São João
+Estação D. João II,Estação Santo Ovídio,Subway,False,General Torres
+Estação D. João II,Estação Santo Ovídio,Subway,False,Hospital de São João
+Estação D. João II,Estação Santo Ovídio,Subway,True,Santo Ovídio
 Estação da Arte,Estação de Antón Martín,Subway,False,Atocha
 Estação da Arte,Estação de Antón Martín,Subway,False,Valdecarros
 Estação da Arte,Estação de Antón Martín,Subway,True,Pinar de Chamartín
@@ -11780,6 +11803,9 @@ Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,Fals
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Aveiro
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
 Estação de General Torres,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
+Estação de General Torres,Estação Jardim do Morro,Subway,False,Santo Ovídio
+Estação de General Torres,Estação Jardim do Morro,Subway,True,Hospital de São João
+Estação de General Torres,Estação Jardim do Morro,Subway,True,São Bento
 Estação de Giesteira,Estação de Lordelo,Train,False,Lousado
 Estação de Giesteira,Estação de Lordelo,Train,False,Porto - Campanhã
 Estação de Giesteira,Estação de Lordelo,Train,False,Santo Tirso
@@ -12612,6 +12638,10 @@ Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,F
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Viana do Castelo
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
+Estação de Porto - São Bento,Estação Jardim do Morro,Subway,False,Hospital de São João
+Estação de Porto - São Bento,Estação Jardim do Morro,Subway,False,Trindade
+Estação de Porto - São Bento,Estação Jardim do Morro,Subway,True,General Torres
+Estação de Porto - São Bento,Estação Jardim do Morro,Subway,True,Santo Ovídio
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,False,Barreiro
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,False,Setúbal
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,True,Praias do Sado-A
