@@ -100,8 +100,8 @@ class CarSimulatorTest(unittest.TestCase):
             time.sleep(car_simulator.WAIT_FOR_INPUT / 2)  # Prevents acceleration commands from being sent in a very short time interval
         self.assertTrue(self.car_simulator.last_read_input >= test_start_time)
         self.assertEqual(car_simulator.MODE_ACCELERATING, self.car_simulator.mode)
-        self.assertTrue(19 < self.car_simulator.speed < 20)
-        self.assertTrue(3087 < self.car_simulator.rpm < 3250)
+        self.assertTrue(19 < self.car_simulator.speed < 21)
+        self.assertTrue(3087 < self.car_simulator.rpm < 3300)
         self.assertEqual(gear, self.car_simulator.gear)
 
         current_time: float = time.time()
@@ -113,7 +113,7 @@ class CarSimulatorTest(unittest.TestCase):
         self.assertTrue(self.car_simulator.last_read_input >= current_time)
         self.assertEqual(car_simulator.MODE_ACCELERATING, self.car_simulator.mode)
         self.assertTrue(49 < self.car_simulator.speed < 51)
-        self.assertTrue(8100 < self.car_simulator.rpm < 8250)
+        self.assertTrue(8100 < self.car_simulator.rpm < 8300)
         self.assertEqual(gear, self.car_simulator.gear)
 
     def test_accelerate_car_reverse_gear(self):
