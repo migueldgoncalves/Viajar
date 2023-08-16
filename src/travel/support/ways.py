@@ -18,7 +18,7 @@ class Way:
         assert display_name
         assert osm_name
         assert country in ALL_SUPPORTED_COUNTRIES
-        assert way_type in [ROAD, RAILWAY]
+        assert way_type in ALL_WAY_TYPES
 
         self.display_name = display_name
         self.osm_name = osm_name
@@ -30,6 +30,7 @@ class Way:
 
 ROAD = 'Road'
 RAILWAY = 'Railway'
+ALL_WAY_TYPES = [ROAD, RAILWAY]
 
 # Countries
 

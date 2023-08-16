@@ -47,6 +47,7 @@ SPANISH_DISTRICT = 9  # In Spanish, "distrito"
 # Detail levels allow to balance between the accuracy of the results and the time spent calculating them
 DETAIL_LEVEL_INTERCITY = 1
 DETAIL_LEVEL_URBAN = 2
+ALL_DETAIL_LEVELS = [DETAIL_LEVEL_INTERCITY, DETAIL_LEVEL_URBAN]
 
 DISTANCE_RECTANGLE_MARGIN = 0.1  # Degrees. 1 degree = Very approximately 100 km in the Iberian Peninsula
 
@@ -300,8 +301,8 @@ class OsmInterface:
         :return List of Node objects, list of Way objects, and min and max latitude and longitude of the area to cover
         """
         assert coordinate_list
-        assert way_type in [ways.ROAD, ways.RAILWAY]
-        assert detail in [DETAIL_LEVEL_URBAN, DETAIL_LEVEL_INTERCITY]
+        assert way_type in ways.ALL_WAY_TYPES
+        assert detail in ALL_DETAIL_LEVELS
         assert country in ways.ALL_SUPPORTED_COUNTRIES
 
         tags: list[str] = TAGS_DESIRED_ROADS[detail]

@@ -352,8 +352,8 @@ class GeradorInformacao:
             plt.ylim(min(latitudes) - margem, max(latitudes) + margem)
         plt.show()
 
-        calc_dist: calculadora_distancias.CalculadoraDistancias = calculadora_distancias.CalculadoraDistancias()
-        calc_dist.gerar_mapa_processado(todas_coordenadas, self.way_type, self.country, via_nome=self.way_osm_name)
+        calc_dist: calculadora_distancias.DistanceCalculator = calculadora_distancias.DistanceCalculator()
+        calc_dist.generate_processed_map(todas_coordenadas, self.way_type, self.country, way_name=self.way_osm_name)
 
         origem = ordenador.separar_por_virgulas(lista=conteudo[0].split(','))[0]
         destino = ordenador.separar_por_virgulas(lista=conteudo[-1].split(','))[0]
@@ -393,9 +393,9 @@ class GeradorInformacao:
                 ordem_a = 2
                 ordem_b = 1
 
-                distancia: float = calc_dist.calcular_distancia_com_ajustes(
+                distancia: float = calc_dist.calculate_distance_with_adjusts(
                     Coordinates(latitude_a, longitude_a), Coordinates(latitude_b, longitude_b))
-                if distancia == calculadora_distancias.DISTANCIA_INFINITA:
+                if distancia == calculadora_distancias.INFINITE_DISTANCE:
                     print("Não foi possível calcular distância - Continuando...")
                     distancia = 0.0
 
