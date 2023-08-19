@@ -1,7 +1,6 @@
 from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
 from travel.main import menu, travel
 from car import car_simulator
-from combat import combat
 
 """
 Main - Execute to access all available scripts
@@ -22,12 +21,11 @@ WAY_TO_PROCESS = ways.PT_LISBON_METRO_RED_LINE
 
 OPTION_TRAVEL = 1
 OPTION_CAR = 2
-OPTION_COMBAT = 3
 
-OPTION_GENERATOR = 4
-OPTION_SORTER = 5
-OPTION_SQLITE = 6
-OPTION_REGION_BOUNDS_FINDER = 7
+OPTION_GENERATOR = 3
+OPTION_SORTER = 4
+OPTION_SQLITE = 5
+OPTION_REGION_BOUNDS_FINDER = 6
 
 print("======================================")
 print("Welcome to the project Viajar (Travel)")
@@ -36,7 +34,6 @@ print("======================================")
 option_labels: list[str] = [
     'Main - Travel',
     'Main - Car',
-    'Main - Combat',
     'Support - Automatic generator of information',
     'Support - Sorter of .csv files',
     'Support - Creator of SQLite database',
@@ -61,9 +58,6 @@ elif user_option == OPTION_CAR:
         This is due to the usage of the msvcrt library in the car package to detect and read pressed keys
     '''
     car_simulator.CarSimulator().travel(distance_to_travel=0, destination="")
-
-elif user_option == OPTION_COMBAT:
-    combat.Combat().combat_loop()
 
 elif user_option == OPTION_GENERATOR:
     information_generator.GeradorInformacao(WAY_TO_PROCESS)
