@@ -4352,11 +4352,11 @@ A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,False,Málaga
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,False,Porto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,True,Aeroporto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,True,Murcia
-A-7 - Saída 456,A-7 - Saída 460,Car,False,A-92 - Granada
-A-7 - Saída 456,A-7 - Saída 460,Car,False,Málaga
-A-7 - Saída 456,A-7 - Saída 460,Car,False,Ronda de Almería
-A-7 - Saída 456,A-7 - Saída 460,Car,True,Murcia
-A-7 - Saída 456,A-7 - Saída 460,Car,True,Vera
+A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,A-92 - Granada
+A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,Málaga
+A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,Ronda de Almería
+A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,True,Murcia
+A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,True,Vera
 A-7 - Saída 456,AL-12 - Saída 7,Car,False,A-7 - Murcia/Ronda de Almería
 A-7 - Saída 456,AL-12 - Saída 7,Car,True,Aeroporto de Almería
 A-7 - Saída 456,AL-12 - Saída 7,Car,True,AL-12 - Almería
@@ -4365,18 +4365,33 @@ A-7 - Saída 456,Cruzamento da A-7 com a A-92,Car,False,Aeroporto de Almería
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Car,False,Murcia
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Car,False,Vera
 A-7 - Saída 456,Cruzamento da A-7 com a A-92,Car,True,Almería
-A-7 - Saída 460,A-7 - Saída 467,Car,False,A-92 - Granada
-A-7 - Saída 460,A-7 - Saída 467,Car,False,Aeroporto de Almería
-A-7 - Saída 460,A-7 - Saída 467,Car,False,Almería
-A-7 - Saída 460,A-7 - Saída 467,Car,False,Málaga
-A-7 - Saída 460,A-7 - Saída 467,Car,True,Murcia
-A-7 - Saída 460,A-7 - Saída 467,Car,True,Vera
-A-7 - Saída 467,A-7 - Saída 471,Car,False,Almería
-A-7 - Saída 467,A-7 - Saída 471,Car,True,Murcia
-A-7 - Saída 467,A-7 - Saída 471,Car,True,Níjar
-A-7 - Saída 471,A-7 - Saída 475,Car,False,Almería
-A-7 - Saída 471,A-7 - Saída 475,Car,True,Murcia
-A-7 - Saída 471,A-7 - Saída 475,Car,True,Níjar
+"A-7 - Saída 460, Alicante",A-7 - Saída 464,Car,False,Alcoi/Alcoy
+"A-7 - Saída 460, Alicante",A-7 - Saída 464,Car,False,València
+"A-7 - Saída 460, Alicante",A-7 - Saída 464,Car,True,Alacant/Alicante
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,False,A-92 - Granada
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,False,Aeroporto de Almería
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,False,Almería
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,False,Málaga
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,True,Murcia
+"A-7 - Saída 460, Almería",A-7 - Saída 467,Car,True,Vera
+A-7 - Saída 464,Cruzamento da A-7 com a CV-80,Car,False,Alcoi/Alcoy
+A-7 - Saída 464,Cruzamento da A-7 com a CV-80,Car,False,Ibi
+A-7 - Saída 464,Cruzamento da A-7 com a CV-80,Car,False,València
+A-7 - Saída 464,Cruzamento da A-7 com a CV-80,Car,True,Alacant/Alicante
+A-7 - Saída 467,"A-7 - Saída 471, Almería",Car,False,Almería
+A-7 - Saída 467,"A-7 - Saída 471, Almería",Car,True,Murcia
+A-7 - Saída 467,"A-7 - Saída 471, Almería",Car,True,Níjar
+"A-7 - Saída 471, Alicante",A-7 - Saída 480,Car,False,Alcoi/Alcoy
+"A-7 - Saída 471, Alicante",A-7 - Saída 480,Car,False,Ibi
+"A-7 - Saída 471, Alicante",A-7 - Saída 480,Car,True,Alacant/Alicante
+"A-7 - Saída 471, Alicante",A-7 - Saída 480,Car,True,AP-7 - Benidorm
+"A-7 - Saída 471, Alicante",Cruzamento da A-7 com a CV-80,Car,False,Alacant/Alicante
+"A-7 - Saída 471, Alicante",Cruzamento da A-7 com a CV-80,Car,True,Alcoi/Alcoy
+"A-7 - Saída 471, Alicante",Cruzamento da A-7 com a CV-80,Car,True,Ibi
+"A-7 - Saída 471, Alicante",Cruzamento da A-7 com a CV-80,Car,True,València
+"A-7 - Saída 471, Almería",A-7 - Saída 475,Car,False,Almería
+"A-7 - Saída 471, Almería",A-7 - Saída 475,Car,True,Murcia
+"A-7 - Saída 471, Almería",A-7 - Saída 475,Car,True,Níjar
 A-7 - Saída 475,A-7 - Saída 479,Car,False,Aeroporto de Almería
 A-7 - Saída 475,A-7 - Saída 479,Car,False,Almería
 A-7 - Saída 475,A-7 - Saída 479,Car,True,Murcia
@@ -4384,14 +4399,24 @@ A-7 - Saída 475,A-7 - Saída 479,Car,True,Níjar
 A-7 - Saída 479,A-7 - Saída 481,Car,False,Almería
 A-7 - Saída 479,A-7 - Saída 481,Car,True,Murcia
 A-7 - Saída 479,A-7 - Saída 481,Car,True,Vera
+A-7 - Saída 480,A-7 - Saída 482,Car,False,Alcoi/Alcoy
+A-7 - Saída 480,A-7 - Saída 482,Car,False,Castalla
+A-7 - Saída 480,A-7 - Saída 482,Car,False,València
+A-7 - Saída 480,A-7 - Saída 482,Car,True,Alacant/Alicante
 A-7 - Saída 481,A-7 - Saída 487,Car,False,Almería
 A-7 - Saída 481,A-7 - Saída 487,Car,False,Níjar
 A-7 - Saída 481,A-7 - Saída 487,Car,True,Murcia
 A-7 - Saída 481,A-7 - Saída 487,Car,True,Vera
+A-7 - Saída 482,A-7 - Saída 489,Car,False,Alcoi/Alcoy
+A-7 - Saída 482,A-7 - Saída 489,Car,True,Alacant/Alicante
+A-7 - Saída 482,A-7 - Saída 489,Car,True,AP-7 - Benidorm
 A-7 - Saída 487,A-7 - Saída 494,Car,False,Almería
 A-7 - Saída 487,A-7 - Saída 494,Car,False,Níjar
 A-7 - Saída 487,A-7 - Saída 494,Car,True,Murcia
 A-7 - Saída 487,A-7 - Saída 494,Car,True,Vera
+A-7 - Saída 489,Cruzamento XI da A-7 com a AP-7,Car,False,Alcoi
+A-7 - Saída 489,Cruzamento XI da A-7 com a AP-7,Car,False,València
+A-7 - Saída 489,Cruzamento XI da A-7 com a AP-7,Car,True,Alacant/Alicante
 A-7 - Saída 494,A-7 - Saída 504,Car,False,Almería
 A-7 - Saída 494,A-7 - Saída 504,Car,True,Murcia
 A-7 - Saída 494,A-7 - Saída 504,Car,True,Vera
