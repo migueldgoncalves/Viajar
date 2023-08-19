@@ -226,7 +226,7 @@ class TestOsmInterface(unittest.TestCase):
     def test_get_road_exits_successful(self):
         test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
 
-        # Large Portuguese freeway
+        # Large Continental Portuguese freeway
         expected_response_keys = [
             '1', '10', '10A', '11', '12', '13', '14', '15', '16', '17', '18', '18A', '18B', '19', '19A', '1A', '2', '22',
             '23', '2A', '3', '3A', '4', '5', '5A', '6', '6 A', '6A', '7', '8', '9'
@@ -241,7 +241,7 @@ class TestOsmInterface(unittest.TestCase):
                           Coordinates(41.0725807, -8.5810286), Coordinates(41.0667503, -8.5815289)], response['19'])
         self.assertEqual([Coordinates(39.7417361, -8.7432394), Coordinates(39.7395957, -8.7364531)], response['9'])
 
-        # Small Portuguese freeway
+        # Small Continental Portuguese freeway
         expected_response_keys = [
             '1', '10', '11', '12', '2', '3', '4', '5', '6', '7', '8', '9'
         ]
@@ -255,11 +255,37 @@ class TestOsmInterface(unittest.TestCase):
                           Coordinates(38.7212092, -9.2044865)], response['3'])
         self.assertEqual([Coordinates(38.7174199, -9.3854995), Coordinates(38.7177498, -9.3910173)], response['9'])
 
+        # Freeway in the Portuguese Azores islands
+        expected_response_keys = ['1', '3', '4', '5', '6']
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_EN11A.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(37.7466258, -25.6986159)], response['1'])
+        self.assertEqual([Coordinates(37.7567476, -25.672029), Coordinates(37.7560316, -25.6743341)], response['4'])
+        self.assertEqual([Coordinates(37.7506841, -25.6507245), Coordinates(37.745365, -25.7005975)], response['6'])
+
+        # Freeway in the Portuguese Madeira islands
+        expected_response_keys = [
+            '1', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '2', '20', '21', '22', '23', '24', '25',
+            '26', '27', '28', '3', '4', '5', '6', '7', '8', '9'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_VR1.osm_name, ways.PORTUGAL)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(32.6842945, -17.0520903)], response['1'])
+        self.assertEqual([Coordinates(32.684517, -16.7947839), Coordinates(32.6843973, -16.7947382)], response['20'])
+        self.assertEqual([Coordinates(32.6579781, -16.9352209), Coordinates(32.6535025, -16.93996),
+                          Coordinates(32.6571532, -16.936037)], response['9'])
+
         # Portuguese road without exit numbers
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_IC27.osm_name, ways.PORTUGAL)
         self.assertEqual({}, response)
 
-        # Large Spanish freeway
+        # Large Peninsular Spanish freeway
         expected_response_keys = [
             '1', '103', '104', '105', '110A', '110B', '110b', '112', '1123', '1129', '1131', '1138', '113b', '1143',
             '1146', '1148', '115', '1151', '1152', '1153', '1154', '1155', '1156', '1158', '116', '1160', '1160A',
@@ -291,7 +317,7 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(36.7741554, -3.5724422), Coordinates(36.7733459, -3.5811174)], response['322'])
         self.assertEqual([Coordinates(36.7023358, -4.4576572)], response['7'])
 
-        # Small Spanish freeway
+        # Small Peninsular Spanish freeway
         expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '16', '17', '19', '2', '20', '20A',
                                   '20B', '23', '23A', '23B', '24', '25', '26', '27', '28', '2A', '2B', '2C', '3',
                                   '3-4-5', '30', '31', '31B', '3BA', '4', '5', '5A', '5AB', '6', '6A', '6B', '7-6',
@@ -306,8 +332,35 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(40.4638637, -3.6665504)], response['2C'])
         self.assertEqual([Coordinates(40.4028638, -3.6664435)], response['9B'])
 
+        # Freeway in the Spanish Balearic Islands
+        expected_response_keys = ['12', '15', '17', '1B', '2', '25', '2B', '3', '4', '6', '7', '8']
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_MA13.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(39.6382651, 2.7754658), Coordinates(39.6425678, 2.7844929)], response['12'])
+        self.assertEqual([Coordinates(39.7032618, 2.8964112)], response['25'])
+        self.assertEqual([Coordinates(39.6309504, 2.7422192), Coordinates(39.6298251, 2.736799)], response['8'])
+
+        # Freeway in the Spanish Canary Islands
+        expected_response_keys = [
+            '0', '1', '10', '11', '12', '13', '15', '16', '17', '18', '2', '23', '25', '26', '28', '3', '31', '37', '4',
+            '43', '45', '46', '48', '5', '50', '53', '56', '6', '62', '67', '68', '6A', '6B', '7', '7A', '7B', '7C', '8'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_GC1.osm_name, ways.CANARY_ISLANDS)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(28.0722836, -15.4164624)], response['0'])
+        self.assertEqual([Coordinates(27.7726755, -15.5548229), Coordinates(27.7687561, -15.5579072)], response['43'])
+        self.assertEqual([Coordinates(28.0005451, -15.391823)], response['8'])
+
         # Spanish road without exit numbers
-        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_A483.osm_name, ways.PORTUGAL)
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_A483.osm_name, ways.SPAIN)
+        self.assertEqual({}, response)
+        response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_GC21.osm_name, ways.CANARY_ISLANDS)
         self.assertEqual({}, response)
 
         # No road in Andorra or Gibraltar is expected to have exit numbers
@@ -386,7 +439,9 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(38.7506398, -9.2215502), Coordinates(38.750677, -9.2215338),
                           Coordinates(38.7511027, -9.2239415), Coordinates(38.7511335, -9.2239302)], response['Reboleira'])
 
-        # Large Spanish railway
+        # Neither Madeira nor Azores Islands have railways
+
+        # Large Peninsular Spanish railway
         expected_response_keys = [
             'Garrovilla-Las Vegas', 'Cabeza Del Buey', 'Almadenejos-Almaden', 'Guadalmez-Los Pedroches', 'Villagonzalo'
         ]
@@ -399,7 +454,7 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(38.7404341, -4.7303171)], response['Almadenejos-Almaden'])
         self.assertEqual([Coordinates(38.8641393, -6.2075556)], response['Villagonzalo'])
 
-        # Small Spanish railway
+        # Small Peninsular Spanish railway
         expected_response_keys = [
             'Colombia', 'Aeropuerto T4', 'Barajas', 'Feria de Madrid', 'Aeropuerto T1-T2-T3', 'Mar de Cristal',
             'Pinar del Rey', 'Nuevos Ministerios'
@@ -412,6 +467,38 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(40.4571282, -3.67706)], response['Colombia'])
         self.assertEqual([Coordinates(40.4678852, -3.5718088)], response['Aeropuerto T1-T2-T3'])
         self.assertEqual([Coordinates(40.4454819, -3.6915827)], response['Nuevos Ministerios'])
+
+        # Railway in the Spanish Balearic Islands
+        expected_response_keys = [
+            'Sineu', "es Pont d'Inca", 'Enllaç', 'Petra', 'Manacor Estació', 'Santa Maria del Camí', 'Consell/Alaró',
+            'Lloseta', 'Inca', 'Es Caülls', "Es Pont d'Inca Nou", 'Polígon de Marratxí', 'Son Costa - Son Fortesa',
+            'Son Cladera - Es Vivero', 'Son Fuster', 'Marratxí', 'Jacint Verdaguer', 'Binissalem', 'Verge de Lluc',
+            'Intermodal'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.ES_SFM_T3.osm_name, ways.SPAIN)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(39.6436653, 3.0145261)], response['Sineu'])
+        self.assertEqual([Coordinates(39.6044446, 2.7015167)], response["Es Pont d'Inca Nou"])
+        self.assertEqual([Coordinates(39.5765349, 2.654482)], response['Intermodal'])
+
+        # Railway in the Spanish Canary Islands
+        expected_response_keys = [
+            'Trinidad', 'Padre Anchieta', 'Cruz de Piedra', 'Museo de la Ciencia', 'Gracia', 'Teatro Guimerá', 'Fundación',
+            'Intercambiador', 'Weyler', 'La Paz', 'Campus Guajara', 'Las Mantecas', 'Hospital Universitario', 'El Cardonal',
+            'Taco', 'Hospital La Candelaria', 'Príncipes de España', 'Chimisay', 'Conservatorio', 'Cruz del Señor',
+            'Puente Zurita'
+        ]
+        response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.ES_TENERIFE_TRAMWAY_T1.osm_name, ways.CANARY_ISLANDS)
+
+        self.assertEqual(expected_response_keys, list(response.keys()))
+        for key in expected_response_keys:
+            self.assertTrue((len(response[key]) > 0))
+        self.assertEqual([Coordinates(28.4858143, -16.3163949)], response['Trinidad'])
+        self.assertEqual([Coordinates(28.4635534, -16.2969276)], response["Las Mantecas"])
+        self.assertEqual([Coordinates(28.4678111, -16.2647475)], response['Puente Zurita'])
 
         # Neither Andorra nor Gibraltar have railways
 
@@ -696,6 +783,17 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(-1.6298, result.east.longitude)
         self.assertEqual(37.5551686, result.west.latitude)
         self.assertEqual(-7.5226863, result.west.longitude)
+
+        # Canary Islands
+        result = OsmInterface().get_region_extreme_points('Canarias', osm_interface.AUTONOMOUS_COMMUNITY, ways.CANARY_ISLANDS)
+        self.assertEqual(29.4160647, result.north.latitude)
+        self.assertEqual(-13.5057679, result.north.longitude)
+        self.assertEqual(27.6377389, result.south.latitude)
+        self.assertEqual(-17.9867651, result.south.longitude)
+        self.assertEqual(29.27778, result.east.latitude)
+        self.assertEqual(-13.3320145, result.east.longitude)
+        self.assertEqual(27.7188457, result.west.latitude)
+        self.assertEqual(-18.1611809, result.west.longitude)
 
         # Spanish province
         result = OsmInterface().get_region_extreme_points('Cáceres', osm_interface.PROVINCE, ways.SPAIN)
