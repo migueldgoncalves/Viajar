@@ -60,7 +60,7 @@ class DistanceCalculator:
 
         if area_detail:  # The objective is to cover an area
             node_list, ways_to_consider, area_extreme_points = osm_interface.OsmInterface.process_area_for_distance_calculation(
-                coordinate_list, way_type, area_detail, country)
+                coordinate_list, way_type, area_detail, country, include_margin=False)
 
             min_latitude: float = area_extreme_points[0]
             max_latitude: float = area_extreme_points[1]
@@ -139,6 +139,7 @@ class DistanceCalculator:
 
     def calculate_distance_with_adjusts(self, source: Coordinates, destination: Coordinates, less_checks=True) -> float:
         """
+        Higher-level routine - Invokes calculate_distance()
         Returns the shortest distance obtained after performing a series of distance calculations using similar coordinates.
         Repeats the distance calculation by slightly adjusting the source and destination calculations each time.
             Allows to overcome having two parallel OSM ways in the same freeway/motorway, for example, where the distance
@@ -194,6 +195,7 @@ class DistanceCalculator:
 
     def calculate_distance(self, source: Coordinates, destination: Coordinates, verbose: bool = True) -> float:
         """
+        Lower-level routine - Is invoked by calculate_distance_with_adjusts()
         Returns the shortest distance by road or rail between two points, using the Dijkstra's algorithm
         Provided points are converted into the closest points belonging to a road or a railway
         Requires having processed a map or a way beforehand

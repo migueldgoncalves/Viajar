@@ -291,13 +291,14 @@ class OsmInterface:
 
     @staticmethod
     def process_area_for_distance_calculation(coordinate_list: list[Coordinates], way_type: str, detail: int,
-                                              country: str) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
+                                              country: str, include_margin: bool = True) -> tuple[dict[int, OsmNode], dict[int, OsmWay], list[float]]:
         """
         Returns Node and Way objects to be used in the calculation of distances inside a certain rectangular area
         :param coordinate_list: List of coordinates that delimit the desired area
         :param way_type: What type of way should be considered: road or railways?
         :param detail: Only taken into account if way type is roads. The more detail, the more road types will be processed
         :param country: Country where the area to cover belongs. Determines the server to where requests will be sent
+        :param include_margin: If True, a margin is added to the provided coordinates. If False, the coordinates will delimit the area to process
         :return List of Node objects, list of Way objects, and min and max latitude and longitude of the area to cover
         """
         assert coordinate_list
@@ -326,10 +327,11 @@ class OsmInterface:
                 max_longitude = longitude
 
         # Adds a margin to the rectangular area, in decimal degrees
-        min_latitude -= DISTANCE_RECTANGLE_MARGIN
-        max_latitude += DISTANCE_RECTANGLE_MARGIN
-        min_longitude -= DISTANCE_RECTANGLE_MARGIN
-        max_longitude += DISTANCE_RECTANGLE_MARGIN
+        if include_margin:
+            min_latitude -= DISTANCE_RECTANGLE_MARGIN
+            max_latitude += DISTANCE_RECTANGLE_MARGIN
+            min_longitude -= DISTANCE_RECTANGLE_MARGIN
+            max_longitude += DISTANCE_RECTANGLE_MARGIN
 
         area_extreme_coordinates: list[float] = [min_latitude, max_latitude, min_longitude, max_longitude]
 
