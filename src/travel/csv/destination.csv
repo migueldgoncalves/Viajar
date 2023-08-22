@@ -4323,6 +4323,12 @@ A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,False,Málaga
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,False,Motril
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,True,Almería
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,True,Murcia
+A-7 - Saída 425,A-7 - Saída 429,Car,False,València/Valencia
+A-7 - Saída 425,A-7 - Saída 429,Car,True,Alacant/Alicante
+A-7 - Saída 425,A-7 - Saída 429,Car,True,Alcoi/Alcoy
+A-7 - Saída 429,A-7 - Saída 432,Car,False,València/Valencia
+A-7 - Saída 429,A-7 - Saída 432,Car,True,Alacant/Alicante
+A-7 - Saída 429,A-7 - Saída 432,Car,True,Alcoi/Alcoy
 A-7 - Saída 431,A-7 - Saída 438,Car,False,El Ejido
 A-7 - Saída 431,A-7 - Saída 438,Car,False,Málaga
 A-7 - Saída 431,A-7 - Saída 438,Car,False,Motril
@@ -4333,16 +4339,32 @@ A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Car,False,Murcia
 A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Car,True,El Ejido
 A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Car,True,Málaga
 A-7 - Saída 431,Cruzamento da A-7 com a A-1051,Car,True,Motril
-A-7 - Saída 438,A-7 - Saída 443,Car,False,El Ejido
-A-7 - Saída 438,A-7 - Saída 443,Car,False,Málaga
-A-7 - Saída 438,A-7 - Saída 443,Car,False,Porto de Almería
-A-7 - Saída 438,A-7 - Saída 443,Car,True,A-92 - Granada
-A-7 - Saída 438,A-7 - Saída 443,Car,True,Murcia
-A-7 - Saída 443,A-7 - Saída 446,Car,False,El Ejido
-A-7 - Saída 443,A-7 - Saída 446,Car,False,Málaga
-A-7 - Saída 443,A-7 - Saída 446,Car,False,Porto de Almería
-A-7 - Saída 443,A-7 - Saída 446,Car,True,A-92 - Granada
-A-7 - Saída 443,A-7 - Saída 446,Car,True,Murcia
+A-7 - Saída 432,A-7 - Saída 435,Car,False,València/Valencia
+A-7 - Saída 432,A-7 - Saída 435,Car,True,Alacant/Alicante
+A-7 - Saída 432,A-7 - Saída 435,Car,True,Alcoi/Alcoy
+A-7 - Saída 435,A-7 - Saída 436,Car,False,Valência
+A-7 - Saída 435,A-7 - Saída 436,Car,True,Alacant/Alicante
+A-7 - Saída 436,A-7 - Saída 441,Car,False,Valência
+A-7 - Saída 436,A-7 - Saída 441,Car,True,Alacant/Alicante
+A-7 - Saída 438,"A-7 - Saída 443, Almería",Car,False,El Ejido
+A-7 - Saída 438,"A-7 - Saída 443, Almería",Car,False,Málaga
+A-7 - Saída 438,"A-7 - Saída 443, Almería",Car,False,Porto de Almería
+A-7 - Saída 438,"A-7 - Saída 443, Almería",Car,True,A-92 - Granada
+A-7 - Saída 438,"A-7 - Saída 443, Almería",Car,True,Murcia
+A-7 - Saída 441,A-7 - Saída 442,Car,False,Valência
+A-7 - Saída 441,A-7 - Saída 442,Car,True,Alacant/Alicante
+A-7 - Saída 442,"A-7 - Saída 443, Alicante",Car,False,Valência
+A-7 - Saída 442,"A-7 - Saída 443, Alicante",Car,True,Alacant/Alicante
+A-7 - Saída 442,"A-7 - Saída 443, Alicante",Car,True,Alcoi/Alcoy
+"A-7 - Saída 443, Alicante",A-7 - Saída 449,Car,False,Cocentaina
+"A-7 - Saída 443, Alicante",A-7 - Saída 449,Car,False,Játiva/Xàtiva
+"A-7 - Saída 443, Alicante",A-7 - Saída 449,Car,False,València
+"A-7 - Saída 443, Alicante",A-7 - Saída 449,Car,True,Alacant/Alicante
+"A-7 - Saída 443, Almería",A-7 - Saída 446,Car,False,El Ejido
+"A-7 - Saída 443, Almería",A-7 - Saída 446,Car,False,Málaga
+"A-7 - Saída 443, Almería",A-7 - Saída 446,Car,False,Porto de Almería
+"A-7 - Saída 443, Almería",A-7 - Saída 446,Car,True,A-92 - Granada
+"A-7 - Saída 443, Almería",A-7 - Saída 446,Car,True,Murcia
 A-7 - Saída 446,A-7 - Saída 448,Car,False,El Ejido
 A-7 - Saída 446,A-7 - Saída 448,Car,False,Málaga
 A-7 - Saída 446,A-7 - Saída 448,Car,True,A-92 - Granada
@@ -4352,6 +4374,14 @@ A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,False,Málaga
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,False,Porto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,True,Aeroporto de Almería
 A-7 - Saída 448,Cruzamento da A-7 com a A-92,Car,True,Murcia
+A-7 - Saída 449,A-7 - Saída 453,Car,False,Alcoi/Alcoy
+A-7 - Saída 449,A-7 - Saída 453,Car,False,València
+A-7 - Saída 449,A-7 - Saída 453,Car,True,Alacant/Alicante
+A-7 - Saída 449,A-7 - Saída 453,Car,True,Ibi
+A-7 - Saída 453,"A-7 - Saída 460, Alicante",Car,False,Alcoi/Alcoy
+A-7 - Saída 453,"A-7 - Saída 460, Alicante",Car,False,Valência
+A-7 - Saída 453,"A-7 - Saída 460, Alicante",Car,True,Alacant/Alicante
+A-7 - Saída 453,"A-7 - Saída 460, Alicante",Car,True,Ibi
 A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,A-92 - Granada
 A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,Málaga
 A-7 - Saída 456,"A-7 - Saída 460, Almería",Car,False,Ronda de Almería
