@@ -74,6 +74,15 @@ A12 - Saída 4,Sacavém,Loures
 A13 - Saída 2,Santo Isidro de Pegões,Montijo
 A13 - Saída 3,Samora Correia,Benavente
 A13 - Saída 5,Foros de Salvaterra,Salvaterra de Magos
+A14 - Início,São Julião,Figueira da Foz
+A14 - Saída 1,São Julião,Figueira da Foz
+A14 - Saída 2,Vila Verde,Figueira da Foz
+A14 - Saída 3,Vila Verde,Figueira da Foz
+A14 - Saída 4,Santana,Figueira da Foz
+A14 - Saída 5,Montemor-o-Velho,Montemor-o-Velho
+A14 - Saída 6,Tentúgal,Montemor-o-Velho
+A14 - Saída 7,Ançã,Cantanhede
+A14 - Saída 9,Vil de Matos,Coimbra
 A16 - Saída 2,Alcabideche,Cascais
 A16 - Saída 3,Alcabideche,Cascais
 A16 - Saída 4-5,Alcabideche,Cascais
@@ -373,6 +382,7 @@ Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente
 Cruzamento da A12 com a A33,Montijo,Montijo
 Cruzamento da A13 com a A23,Atalaia,Vila Nova da Barquinha
+Cruzamento da A14 com a A17,Maiorca,Figueira da Foz
 Cruzamento da A16 com a A5,Alcabideche,Cascais
 Cruzamento da A16 com a A9 CREL,Belas,Sintra
 Cruzamento da A16 com o IC19,São Pedro de Penaferrim,Sintra
@@ -432,6 +442,7 @@ Cruzamento do IC1 com o IP8,Grândola,Grândola
 Cruzamento do IC4 com a M520,São Pedro,Faro
 Cruzamento do IC4 com a N125,Almancil,Loulé
 Cruzamento do IC16 com a IC17 CRIL,Encosta do Sol,Amadora
+Cruzamento do IP3 com o IC2,Trouxemil,Coimbra
 Cuba,Cuba,Cuba
 Culatra,Sé,Faro
 Deserto,Alcoutim,Alcoutim
@@ -1000,6 +1011,8 @@ IP2 - Saída 47,Albernoa,Beja
 IP2 - Saída 48,Castro Verde,Castro Verde
 IP2 - Saída 49,Castro Verde,Castro Verde
 IP2 - Saída 50,Castro Verde,Castro Verde
+IP3 - Saída 9,Botão,Coimbra
+IP3 - Saída 9A,Figueira de Lorvão,Penacova
 IP5 - Joana Martins,Ventosa,Vouzela
 IP5 - Saída 13,Boaldeia,Viseu
 IP5 - Saída 14,São Cipriano,Viseu

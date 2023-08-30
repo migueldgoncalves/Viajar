@@ -139,6 +139,18 @@ A13 - Saída 2,Cruzamento da A2 com a A6 e a A13,Car,10.8,A13,S,1,4
 A13 - Saída 3,Área de Serviço de Montijo,Car,13.7,A13,SE,1,2
 A13 - Saída 3,Cruzamento da A10 com a A13,Car,10.9,A13,NW,2,1
 A13 - Saída 5,Cruzamento da A10 com a A13,Car,12.4,A13,SW,1,2
+A14 - Início,A14 - Saída 1,Car,0.5,A14,E,1,1
+A14 - Início,Estação de Figueira da Foz,Car,0.7,,S,2,3
+A14 - Saída 1,A14 - Saída 2,Car,0.9,A14,E,2,1
+A14 - Saída 2,A14 - Saída 3,Car,3.2,A14,E,2,1
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,3.7,A14,E,2,1
+A14 - Saída 4,A14 - Saída 5,Car,4.7,A14,NE,2,1
+A14 - Saída 4,Cruzamento da A14 com a A17,Car,5.1,A14,SW,1,2
+A14 - Saída 5,A14 - Saída 6,Car,8.0,A14,NE,2,1
+A14 - Saída 6,A14 - Saída 7,Car,9.6,A14,NE,2,1
+A14 - Saída 7,Cruzamento da A1 com a A14,Car,4.4,A14,SE,2,3
+A14 - Saída 9,Cruzamento da A1 com a A14,Car,1.1,A14,W,1,4
+A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,2.2,IP3,E,2,1
 A16 - Saída 2,A16 - Saída 3,Car,1.2,A16,NE,2,1
 A16 - Saída 2,Cruzamento da A16 com a A5,Car,0.7,A16,S,1,3
 A16 - Saída 3,A16 - Saída 4-5,Car,1.0,A16,NE,2,1
@@ -2742,6 +2754,7 @@ Cruzamento do IC4 com a N125,Estação de Parque das Cidades,Car,1.2,,NW,3,1
 Cruzamento do IC4 com a N125,Estádio Algarve,Car,2.4,,N,4,1
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Odivelas Oeste,Car,2.3,IC17 CRIL,NE,2,1
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,1.3,IC17 CRIL,S,1,2
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,4.2,IP3,NE,2,1
 Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,3.1,A-3,W,1,2
 Cruzamento Este da A-6 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,3.1,A-6,W,2,1
 Cruzamento Este da A-7 com a MA-24,Cruzamento Oeste da A-7 com a MA-24,Car,5.0,A-7,NW,1,2
@@ -3481,6 +3494,7 @@ Estação de Silves,Silves,Car,2.5,N124-1,N,2,1
 Estação de Simões,Estação de Soure,Train,5.3,Linha do Norte - Regional,N,2,1
 Estação de Soure,Estação de Vila Nova de Anços,Train,6.1,Linha do Norte - Regional,N,2,1
 Estação de Souselas,Estação de Vilela-Fornos,Train,2.9,Linha do Norte - Regional,SW,1,2
+Estação de Souselas,IP3 - Saída 9,Car,1.7,,N,3,3
 Estação de Suzão,Estação de Valongo,Train,1.6,Linha do Douro/Linha do Marco de Canaveses - CP Porto/Regional,SE,2,1
 Estação de Taipa-Requeixo,Estação de Travassô,Train,1.3,Linha do Vouga/Ramal de Aveiro - Regional,SE,2,1
 Estação de Taveiro,Estação de Vila Pouca do Campo,Train,2.6,Linha do Norte - Urbanos de Coimbra,SW,1,2
@@ -3710,6 +3724,7 @@ IP2 - Saída 45,Trindade,Car,1.1,,S,3,1
 IP2 - Saída 46,IP2 - Saída 47,Car,3.3,IP2,S,2,1
 IP2 - Saída 48,IP2 - Saída 49,Car,2.2,IP2,SW,2,1
 IP2 - Saída 49,IP2 - Saída 50,Car,3.9,IP2,SW,2,1
+IP3 - Saída 9,IP3 - Saída 9A,Car,6.6,IP3,E,2,1
 IP5 - Joana Martins,IP5 - Saída 13,Car,7.6,IP5,SE,2,1
 IP5 - Saída 15,IP5 - Saída 16,Car,1.6,IP5,E,2,1
 IP5 - Saída 16,IP5 - Saída 17,Car,3.0,IP5,SE,2,1

@@ -574,6 +574,52 @@ A13 - Saída 5,Cruzamento da A10 com a A13,Car,True,A1 - Carregado
 A13 - Saída 5,Cruzamento da A10 com a A13,Car,True,A2
 A13 - Saída 5,Cruzamento da A10 com a A13,Car,True,A6
 A13 - Saída 5,Cruzamento da A10 com a A13,Car,True,A10 - Benavente
+A14 - Início,A14 - Saída 1,Car,False,Figueira da Foz - Centro da cidade
+A14 - Início,A14 - Saída 1,Car,True,Coimbra
+A14 - Início,A14 - Saída 1,Car,True,IC1 - Lisboa/Porto
+A14 - Início,A14 - Saída 1,Car,True,Viseu
+A14 - Saída 1,A14 - Saída 2,Car,False,Aveiro
+A14 - Saída 1,A14 - Saída 2,Car,False,Figueira da Foz - Centro da cidade
+A14 - Saída 1,A14 - Saída 2,Car,False,Leiria
+A14 - Saída 1,A14 - Saída 2,Car,True,Coimbra
+A14 - Saída 1,A14 - Saída 2,Car,True,Viseu
+A14 - Saída 2,A14 - Saída 3,Car,False,Aveiro
+A14 - Saída 2,A14 - Saída 3,Car,False,Figueira da Foz - Centro da cidade
+A14 - Saída 2,A14 - Saída 3,Car,False,Leiria
+A14 - Saída 2,A14 - Saída 3,Car,True,Coimbra
+A14 - Saída 2,A14 - Saída 3,Car,True,Montemor-o-Velho
+A14 - Saída 2,A14 - Saída 3,Car,True,Viseu
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,False,Alhadas
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,False,Figueira da Foz
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,False,Vila Verde
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,True,A17 - Aveiro/Leiria
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,True,Coimbra
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,True,Montemor-o-Velho
+A14 - Saída 3,Cruzamento da A14 com a A17,Car,True,Viseu
+A14 - Saída 4,A14 - Saída 5,Car,False,Figueira da Foz
+A14 - Saída 4,A14 - Saída 5,Car,True,Coimbra
+A14 - Saída 4,A14 - Saída 5,Car,True,IP3 - Viseu
+A14 - Saída 4,Cruzamento da A14 com a A17,Car,False,Coimbra
+A14 - Saída 4,Cruzamento da A14 com a A17,Car,False,Montemor-o-Velho
+A14 - Saída 4,Cruzamento da A14 com a A17,Car,False,Viseu
+A14 - Saída 4,Cruzamento da A14 com a A17,Car,True,Figueira da Foz
+A14 - Saída 5,A14 - Saída 6,Car,False,Figueira da Foz
+A14 - Saída 5,A14 - Saída 6,Car,True,Coimbra
+A14 - Saída 5,A14 - Saída 6,Car,True,IP3 - Viseu
+A14 - Saída 6,A14 - Saída 7,Car,False,Figueira da Foz
+A14 - Saída 6,A14 - Saída 7,Car,True,Coimbra
+A14 - Saída 6,A14 - Saída 7,Car,True,IP3 - Viseu
+A14 - Saída 7,Cruzamento da A1 com a A14,Car,False,Cantanhede
+A14 - Saída 7,Cruzamento da A1 com a A14,Car,False,Figueira da Foz
+A14 - Saída 7,Cruzamento da A1 com a A14,Car,True,Coimbra
+A14 - Saída 7,Cruzamento da A1 com a A14,Car,True,Viseu
+A14 - Saída 9,Cruzamento da A1 com a A14,Car,False,IP3 - Coimbra Norte/Viseu
+A14 - Saída 9,Cruzamento da A1 com a A14,Car,True,A1 - Lisboa/Porto
+A14 - Saída 9,Cruzamento da A1 com a A14,Car,True,Figueira da Foz
+A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,False,A1 - Lisboa/Porto
+A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,False,A14 - Figueira da Foz
+A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,True,IC2 - Coimbra Norte
+A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,True,Viseu
 A16 - Saída 2,A16 - Saída 3,Car,False,A5 - Cascais/Lisboa
 A16 - Saída 2,A16 - Saída 3,Car,True,A9 - Norte
 A16 - Saída 2,A16 - Saída 3,Car,True,IC19 - Lisboa
@@ -9300,6 +9346,12 @@ Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,False,IC16
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Alfornelos
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Algés
 Cruzamento do IC16 com a IC17 CRIL,IC17 CRIL - Saída 8,Car,True,Lisboa - Pedralvas
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,False,Coimbra
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,False,Figueira da Foz
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,True,Guarda
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,True,Penacova
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,True,Souselas
+Cruzamento do IP3 com o IC2,IP3 - Saída 9,Car,True,Viseu
 Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,False,A-40 - Cuenca
 Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,False,Valência
 Cruzamento Este da A-3 com a A-40,Cruzamento Oeste da A-3 com a A-40,Car,True,Arganda del Rey
@@ -13549,6 +13601,11 @@ IP2 - Saída 49,IP2 - Saída 50,Car,False,Beja
 IP2 - Saída 49,IP2 - Saída 50,Car,False,Castro Verde
 IP2 - Saída 49,IP2 - Saída 50,Car,False,Mértola
 IP2 - Saída 49,IP2 - Saída 50,Car,True,A2
+IP3 - Saída 9,IP3 - Saída 9A,Car,False,Coimbra
+IP3 - Saída 9,IP3 - Saída 9A,Car,False,Figueira da Foz
+IP3 - Saída 9,IP3 - Saída 9A,Car,True,Luso
+IP3 - Saída 9,IP3 - Saída 9A,Car,True,Penacova
+IP3 - Saída 9,IP3 - Saída 9A,Car,True,Viseu
 IP5 - Joana Martins,IP5 - Saída 13,Car,False,Serra da Penoita
 IP5 - Joana Martins,IP5 - Saída 13,Car,True,A25 - Viseu
 IP5 - Saída 15,IP5 - Saída 16,Car,False,A25 - Aveiro

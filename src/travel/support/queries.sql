@@ -115,3 +115,18 @@ select count(name) from Location where latitude >= 39.0 and latitude <= 41.0 and
 
 -- Show locations ordered by length of respective names
 select name, length(name) from Location order by length(name), name;
+
+-- Show the number of connections of the Portuguese North Line assuming the longest route (Regional train, and Suburban train when available)
+-- Connections must either belong to one of the 3 Portuguese Suburban train services, or to the Regional train services, without overlapping
+-- For this, the suburban Azambuja Line and Aveiro Line must be excluded
+-- Connections featuring the InterRegional train but not the Regional train should also be excluded
+-- Part of the Coimbra Suburban trains do not run on a line with a dedicated name, so Regional train connections there must be excluded by hand
+select count(location_a), sum(distance)
+from Connection
+where (way like '%Linha do Norte%') and
+      ((way like '%CP Lisboa%') or (way like '%Urbanos de Coimbra%') or (way like '%CP Porto%') or
+       (((way like '% Regional%') or (way like '%/Regional%'))
+            and (way not like '%CP Lisboa%') and (way not like '%Urbanos de Coimbra%') and (way not like '%CP Porto%')
+            and (way not like '%Linha da Azambuja%') and (way not like '%Linha de Aveiro%'))) and
+    ((location_a != 'Estação de Espadaneira') and (location_b != 'Estação de Taveiro')) and
+    ((location_a != 'Estação de Pereira') and (location_b != 'Estação de Taveiro'));
