@@ -1389,7 +1389,9 @@ A-49 - Saída 87,Gibraleón,Car,3.4,N-431,N,4,5
 A-49 - Saída 94,A-49 - Saída 99,Car,4.6,A-49,SW,1,2
 A-49 - Saída 94,Gibraleón,Car,8.3,N-431,NE,3,6
 A-49 - Saída 99,A-49 - Saída 105,Car,7.7,A-49,W,1,2
+A-49 - Saída 99,Aljaraque,Car,10.5,,SE,5,5
 A-49 - Saída 99,Antiga Estação de Aljaraque,Car,2.2,,E,4,3
+A-49 - Saída 99,Bellavista,Car,10.2,,SE,6,3
 A-49 - Saída 99,Cartaya,Car,9.3,N-431,SW,3,5
 A-49 - Saída 105,A-49 - Saída 113,Car,7.0,A-49,SW,1,2
 A-49 - Saída 105,Cartaya,Car,6.0,,S,3,3
@@ -1791,10 +1793,15 @@ A-497 - Fim,Punta Umbría,Car,2.0,,E,2,1
 A-497 - Início,A-497 - Saída 3,Car,2.9,A-497,W,1,1
 A-497 - Início,Centro Comercial Aqualon,Car,0.7,,S,4,1
 A-497 - Início,"Paseo Marítimo, Huelva",Car,1.2,,N,2,2
+A-497 - Início,Ponte Sifão Santa Eulalia,Car,1.5,,W,5,2
 A-497 - Início,Praça de Touros de La Merced,Car,0.5,,E,3,1
 A-497 - Saída 3,A-497 - Saída 5,Car,2.1,A-497,SW,2,1
+A-497 - Saída 3,Corrales,Car,0.7,,N,5,1
+A-497 - Saída 3,Ponte Sifão Santa Eulalia,Car,2.2,,E,4,1
 A-497 - Saída 3,Salinas del Odiel,Car,2.3,,SE,3,1
 A-497 - Saída 5,A-497 - Saída 7,Car,1.9,A-497,SW,2,1
+A-497 - Saída 5,Aljaraque,Car,2.0,,W,4,2
+A-497 - Saída 5,Parque Empresarial La Raya,Car,1.5,,SW,3,1
 A-497 - Saída 7,A-497 - Saída 9,Car,2.6,A-497,S,2,1
 A-497 - Saída 7,Urbanización Las Moreras,Car,1.3,,SW,3,1
 A-497 - Saída 9,A-497 - Saída 10,Car,0.9,A-497,S,2,1
@@ -1970,6 +1977,10 @@ Algoz,Estação de Alcantarilha,Train,4.2,Linha do Algarve - Regional,W,7,4
 Algoz,Guia,Car,4.6,,S,3,2
 Algoz,Tunes,Car,4.5,,E,2,4
 Algoz,Tunes,Train,4.4,Linha do Algarve - Regional,E,6,7
+Aljaraque,Bellavista,Car,4.2,,NE,6,2
+Aljaraque,El Rincón,Car,4.4,,SW,3,2
+Aljaraque,Parque Empresarial La Raya,Car,2.1,,SE,1,2
+Aljaraque,Urbanización Las Moreras,Car,3.6,,S,4,3
 Aljezur,Cruzamento da N120 com a N268,Car,7.3,N120,S,2,2
 Aljezur,Marmelete,Car,14.9,,E,1,3
 Aljezur,Praia da Amoreira,Car,8.7,,NW,6,1
@@ -2279,6 +2290,8 @@ Beja,São Matias,Car,12.1,IP2,N,1,2
 Beja,Serpa,Car,27.9,IP8,SE,4,2
 Beja,Villa Romana de Pisões,Car,8.9,,SW,5,1
 Beliche,Montes Castelhanos,Car,4.6,,SE,2,2
+Bellavista,Corrales,Car,1.6,,E,1,2
+Bellavista,Urbanización Dehesa Golf,Car,1.0,,N,4,2
 Benafim,Rocha da Pena,Car,4.1,N124,NE,2,1
 Bens,Salgueiros,Car,2.6,,S,1,3
 Bens,Santana de Cambas,Car,3.1,,N,2,1
@@ -2388,6 +2401,7 @@ Catedral de Huelva,Praça de Touros de La Merced,Car,0.3,,N,1,3
 Catedral de Huelva,Universidade de Huelva - Campus de La Merced,Car,0.1,,E,2,2
 Cemitério de Nuestra Señora de la Soledad,H-30 - Saída 8,Car,0.9,,S,1,4
 Centro Comercial Aqualon,"Plaza del Lino, Huelva",Car,0.8,,E,5,3
+Centro Comercial Aqualon,Ponte Sifão Santa Eulalia,Car,1.0,,NW,6,3
 Centro Comercial Aqualon,Porto Interior de Huelva,Car,0.9,,S,3,1
 Centro Comercial Aqualon,Terminal Rodoviário de Huelva,Car,0.6,,S,4,1
 Centro Comercial Costa Luz,Museu de Huelva,Car,0.3,,SW,3,4
@@ -2430,6 +2444,8 @@ Comporta,Urbanização Soltróia,Car,11.9,,NW,6,1
 "Convento de Santa María de Gracia, Huelva","Plaza de las Monjas, Huelva",Car,0.1,,W,1,5
 "Convento de Santa María de Gracia, Huelva",Plaza de Quintero Báez,Car,0.1,,N,2,5
 Coria del Río,SE-40 - Reinício,Car,2.9,,NE,1,3
+Corrales,Puntal de la Cruz,Car,2.3,,SE,3,1
+Corrales,Urbanización La Monacilla,Car,2.3,,N,4,1
 Corte da Seda,Marmeleiro,Car,2.2,N122-1,NE,1,2
 Corte da Seda,Parque Empresarial de Alcoutim,Car,1.5,N122-1,SW,2,1
 Corte das Donas,Cruzamento da N122 com a M507-2,Car,4.7,,NW,1,2
@@ -4105,6 +4121,7 @@ Tróia,Urbanização Soltróia,Car,5.2,,SE,1,3
 Universidade do Algarve - Campus da Penha,Variante de Faro - Nó com a M518,Car,2.4,,NE,3,5
 Universidade do Algarve - Campus de Gambelas,Variante de Faro - Nó com o IC4,Car,2.1,,SE,2,5
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Car,4.0,N-5,E,2,1
+Urbanización Dehesa Golf,Urbanización La Monacilla,Car,3.1,,NE,1,2
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Car,1.9,Variante de Faro,NW,1,2
 Variante de Faro - Nó com a N2,Variante de Faro - Nó com o IC4,Car,2.0,Variante de Faro,E,1,2
 Vidigueira,Villa Romana de São Cucufate,Car,5.1,,NW,4,1
