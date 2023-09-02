@@ -1048,7 +1048,8 @@ A-7 - Martagina,A-7 - Playa de la Chullera,Car,0.5,A-7,N,2,1
 A-7 - Playa de la Chullera,A-7 - Urbanización Jardin Tropical,Car,0.1,A-7,N,2,1
 A-7 - Puerto de la Duquesa,A-7 - Urbanización Pueblo Mexicano,Car,0.3,A-7,NE,2,1
 A-7 - Punta Chullera,A-7 - Urbanización Punta Chullera,Car,0.1,A-7,E,2,1
-A-7 - Saída 103,A-7 - Saída 104,Car,1.6,A-7,NW,1,1
+A-7 - Saída 103,A-7 - Saída 104,Car,1.6,A-7,NW,2,1
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,0.4,N-340,S,1,1
 A-7 - Saída 104,A-7 - Saída 105,Car,0.8,A-7,NW,2,1
 A-7 - Saída 105,A-7 - Saída 106,Car,0.6,A-7,NE,2,1
 A-7 - Saída 106,A-7 - Saída 107A,Car,0.7,A-7,N,2,1
@@ -2802,10 +2803,14 @@ Eixo Norte-Sul - Campolide,Eixo Norte-Sul - Radial de Benfica,Car,1.3,Eixo Norte
 Eixo Norte-Sul - Campolide,Estação de Campolide,Car,1.0,,NE,3,1
 Eixo Norte-Sul - Fim,IC17 CRIL - Acesso Norte à Saída 1 da A8,Car,0.8,IC17 CRIL,W,1,2
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Car,1.2,Radial de Benfica,NW,1,2
+El Bujeo,El Cuartón,Car,1.4,N-340,SW,2,1
+El Bujeo,El Pelayo,Car,2.6,N-340,NE,1,2
+El Cuartón,Mirador del Estrecho,Car,2.0,N-340,SW,2,1
 El Granado,Puebla de Guzmán,Car,21.5,,NE,4,1
 El Granado,Puerto de la Laja,Car,7.5,,W,2,1
 El Granado,Sanlúcar de Guadiana,Car,7.8,,SW,1,1
 El Granado,Villanueva de los Castillejos,Car,14.4,,E,3,1
+El Pelayo,N-340 - Polígono Industrial Cortijo Real,Car,4.6,N-340,NE,1,2
 El Portil,Laguna del Portil,Car,0.4,,E,3,1
 El Portil,Nuevo Portil,Car,1.3,,W,1,2
 El Rincón,Urbanización Las Moreras,Car,1.9,,SE,1,2
@@ -3754,6 +3759,8 @@ IP8 - Início,Praia de São Torpes,Car,3.2,N120-1,SE,1,3
 Isla Cristina,Playa Central,Car,2.0,,SE,2,1
 Isla Cristina,Punta del Moral,Boat,1.6,Marismas de Isla Cristina,SW,3,5
 Isla de Bacuta Sur,Puente del Burro,Car,2.0,,S,2,1
+Isla de Las Palomas,Punta de Tarifa,Car,0.3,,S,2,1
+Isla de Las Palomas,Tarifa,Car,1.5,,N,1,3
 Isla Saltés,Playa del Espigón Juan Carlos I,Car,5.8,,SE,2,1
 Isla Saltés,Puente del Burro,Car,4.6,,NW,1,2
 Islantilla,La Antilla,Car,1.8,,E,2,1
@@ -3867,6 +3874,7 @@ Mina de São Domingos,Moreanes,Car,6.8,,SW,1,2
 Mina de São Domingos,Sapos,Car,5.7,,SW,3,3
 Mina de São Domingos,Vale do Poço,Car,11.4,,N,2,1
 Mirador del Conquero,Plaza del Huerto Paco,Car,0.7,,E,3,4
+Mirador del Estrecho,Observatorio de Aves Cazalla,Car,3.9,N-340,SW,2,1
 Moinhos de Vento de Baixo,Moinhos de Vento de Cima,Car,0.8,,SW,2,1
 Moinhos de Vento de Cima,São Bartolomeu de Via Glória,Car,3.2,,SW,3,1
 Molhe da Compañía de Río Tinto,Porto Interior de Huelva,Car,0.4,,N,1,2
@@ -3897,6 +3905,11 @@ Murteira de Cima,Sentinela,Car,1.9,,S,3,4
 N125 - Acesso à Saída 2 da A22,Odiáxere,Car,1.3,N125,NE,1,3
 N125 - Acesso à Saída 3 da A22,Odiáxere,Car,2.5,N125,SW,3,1
 N-338 - Saída 2,N-338 - Saída 3,Car,1.4,N-338,NW,1,2
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,0.6,N-340,SW,2,1
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,1.5,N-340,NW,2,1
+N-340 - Tarifa Este,Observatorio de Aves Cazalla,Car,2.2,N-340,NE,1,2
+N-340 - Tarifa Este,Tarifa,Car,1.1,,SW,3,1
+N-340 - Tarifa Oeste,Tarifa,Car,1.6,,S,2,2
 Nuevo Portil,Punta del Moral,Boat,29.6,Costa Atlântica de Espanha Continental,W,4,4
 Nuevo Portil,Punta Umbría,Boat,15.3,Costa Atlântica de Espanha Continental,SE,5,4
 Odeceixe,Praia de Odeceixe,Car,3.5,,NW,2,1

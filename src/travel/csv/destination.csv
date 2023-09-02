@@ -3975,6 +3975,11 @@ A-7 - Saída 103,A-7 - Saída 104,Car,False,Tarifa
 A-7 - Saída 103,A-7 - Saída 104,Car,True,Málaga
 A-7 - Saída 103,A-7 - Saída 104,Car,True,San Roque
 A-7 - Saída 103,A-7 - Saída 104,Car,True,Sevilha
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,False,Algeciras
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,False,Málaga
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,False,Porto de Algeciras
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,True,Cádiz
+A-7 - Saída 103,N-340 - Barriada Los Pastores,Car,True,Tarifa
 A-7 - Saída 104,A-7 - Saída 105,Car,False,Cádiz
 A-7 - Saída 104,A-7 - Saída 105,Car,False,Tarifa
 A-7 - Saída 104,A-7 - Saída 105,Car,True,Málaga
@@ -9440,6 +9445,22 @@ Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Car,Fals
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Car,True,IC17 CRIL - Algés
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Car,True,IC19 - Sintra
 Eixo Norte-Sul - Radial de Benfica,Radial de Benfica - Acesso a Benfica,Car,True,Lisboa - Benfica
+El Bujeo,El Cuartón,Car,False,Algeciras
+El Bujeo,El Cuartón,Car,False,Málaga
+El Bujeo,El Cuartón,Car,True,Cádiz
+El Bujeo,El Cuartón,Car,True,Tarifa
+El Bujeo,El Pelayo,Car,False,Cádiz
+El Bujeo,El Pelayo,Car,False,Tarifa
+El Bujeo,El Pelayo,Car,True,Algeciras
+El Bujeo,El Pelayo,Car,True,Málaga
+El Cuartón,Mirador del Estrecho,Car,False,Algeciras
+El Cuartón,Mirador del Estrecho,Car,False,Málaga
+El Cuartón,Mirador del Estrecho,Car,True,Cádiz
+El Cuartón,Mirador del Estrecho,Car,True,Tarifa
+El Pelayo,N-340 - Polígono Industrial Cortijo Real,Car,False,Cádiz
+El Pelayo,N-340 - Polígono Industrial Cortijo Real,Car,False,Tarifa
+El Pelayo,N-340 - Polígono Industrial Cortijo Real,Car,True,Algeciras
+El Pelayo,N-340 - Polígono Industrial Cortijo Real,Car,True,Málaga
 El Rompido,El Terrón,Boat,False,Flecha del Rompido
 El Rompido,El Terrón,Boat,False,Huelva
 El Rompido,El Terrón,Boat,False,Portugal
@@ -14144,6 +14165,10 @@ Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Car,False,Mexilhoeira Grande
 Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Car,False,Portimão
 Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Car,True,Lagos
 Mexilhoeira Grande,N125 - Acesso à Saída 3 da A22,Car,True,Odiáxere
+Mirador del Estrecho,Observatorio de Aves Cazalla,Car,False,Algeciras
+Mirador del Estrecho,Observatorio de Aves Cazalla,Car,False,Málaga
+Mirador del Estrecho,Observatorio de Aves Cazalla,Car,True,Cádiz
+Mirador del Estrecho,Observatorio de Aves Cazalla,Car,True,Tarifa
 Montenegro,Variante de Faro - Nó com o IC4,Car,False,Aeroporto de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Car,False,Praia de Faro
 Montenegro,Variante de Faro - Nó com o IC4,Car,True,A22 - Portimão
@@ -14160,6 +14185,20 @@ N-338 - Saída 2,N-338 - Saída 3,Car,False,El Altet
 N-338 - Saída 2,N-338 - Saída 3,Car,False,Santa Pola
 N-338 - Saída 2,N-338 - Saída 3,Car,True,A-31 - Madrid
 N-338 - Saída 2,N-338 - Saída 3,Car,True,A-70 - Murcia/València
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,False,Algeciras
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,False,Málaga
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,False,Porto de Algeciras
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,True,Cádiz
+N-340 - Barriada Los Pastores,N-340 - Polígono Industrial Cortijo Real,Car,True,Tarifa
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,False,Algeciras
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,False,Málaga
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,False,Porto de Tarifa
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,True,Cádiz
+N-340 - Tarifa Este,N-340 - Tarifa Oeste,Car,True,Vejer de la Frontera
+N-340 - Tarifa Este,Observatorio de Aves Cazalla,Car,False,Cádiz
+N-340 - Tarifa Este,Observatorio de Aves Cazalla,Car,False,Tarifa
+N-340 - Tarifa Este,Observatorio de Aves Cazalla,Car,True,Algeciras
+N-340 - Tarifa Este,Observatorio de Aves Cazalla,Car,True,Málaga
 Nuevo Portil,Punta del Moral,Boat,False,Huelva
 Nuevo Portil,Punta del Moral,Boat,False,Sevilha
 Nuevo Portil,Punta del Moral,Boat,True,Faro
