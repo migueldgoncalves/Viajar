@@ -3902,6 +3902,26 @@ A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,False,Lugo
 A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,False,Madrid
 A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,True,AG-55 - Carballo
 A-6 - Saída 589,Cruzamento da A-6 com a AG-55,Car,True,Arteixo
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Buenas Noches,Car,False,Algeciras
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Buenas Noches,Car,False,Cádiz
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Buenas Noches,Car,True,Estepona
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Buenas Noches,Car,True,Málaga
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Camarate Golf,Car,False,Estepona
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Camarate Golf,Car,False,Málaga
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Camarate Golf,Car,True,Algeciras
+A-7 - Área de Serviço Repsol Estepona,A-7 - Urbanización Camarate Golf,Car,True,Cádiz
+A-7 - Bahía Dorada 6/Galera Park Este,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,False,Estepona
+A-7 - Bahía Dorada 6/Galera Park Este,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,False,Málaga
+A-7 - Bahía Dorada 6/Galera Park Este,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,True,Algeciras
+A-7 - Bahía Dorada 6/Galera Park Este,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,True,Cádiz
+A-7 - Calle de la Siesta,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,False,Algeciras
+A-7 - Calle de la Siesta,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,False,Cádiz
+A-7 - Calle de la Siesta,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,True,Estepona
+A-7 - Calle de la Siesta,A-7 - Galera Park Oeste/Jardines de Nueva Galera,Car,True,Málaga
+A-7 - Calle de la Siesta,A-7 - Urbanización Buenas Noches,Car,False,Estepona
+A-7 - Calle de la Siesta,A-7 - Urbanización Buenas Noches,Car,False,Málaga
+A-7 - Calle de la Siesta,A-7 - Urbanización Buenas Noches,Car,True,Algeciras
+A-7 - Calle de la Siesta,A-7 - Urbanización Buenas Noches,Car,True,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Algeciras
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,False,Cádiz
 A-7 - Calle Montes de Málaga,A-7 - Punta Chullera,Car,True,Estepona
@@ -4767,6 +4787,14 @@ A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,False,Torreguadiaro
 A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,Algeciras
 A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,AP-7 - Estepona/Málaga
 A-7 - Torreguadiaro Sul,Cruzamento I da A-7 com a AP-7,Car,True,Cádiz
+A-7 - Urbanización Bahía de Casares,A-7 - Urbanización Casares del Mar,Car,False,Algeciras
+A-7 - Urbanización Bahía de Casares,A-7 - Urbanización Casares del Mar,Car,False,Cádiz
+A-7 - Urbanización Bahía de Casares,A-7 - Urbanización Casares del Mar,Car,True,Estepona
+A-7 - Urbanización Bahía de Casares,A-7 - Urbanización Casares del Mar,Car,True,Málaga
+A-7 - Urbanización Camarate Golf,A-7 - Urbanización Casares del Mar,Car,False,Estepona
+A-7 - Urbanización Camarate Golf,A-7 - Urbanización Casares del Mar,Car,False,Málaga
+A-7 - Urbanización Camarate Golf,A-7 - Urbanización Casares del Mar,Car,True,Algeciras
+A-7 - Urbanización Camarate Golf,A-7 - Urbanización Casares del Mar,Car,True,Cádiz
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Albacete
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Alicante
 A-7/A-30 - Saída 135,A-7/A-30 - Saída 136,Car,False,Molina de Segura
