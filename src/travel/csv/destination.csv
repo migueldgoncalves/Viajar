@@ -4345,15 +4345,38 @@ A-7 - Saída 389,A-7 - Saída 391,Car,True,El Ejido
 A-7 - Saída 391,A-7 - Saída 398,Car,False,Málaga
 A-7 - Saída 391,A-7 - Saída 398,Car,True,Almería
 A-7 - Saída 391,A-7 - Saída 398,Car,True,El Ejido
-A-7 - Saída 398,A-7 - Saída 400,Car,False,Adra
-A-7 - Saída 398,A-7 - Saída 400,Car,False,Málaga
-A-7 - Saída 398,A-7 - Saída 400,Car,False,Motril
-A-7 - Saída 398,A-7 - Saída 400,Car,True,Almería
-A-7 - Saída 400,A-7 - Saída 403,Car,False,Adra
-A-7 - Saída 400,A-7 - Saída 403,Car,False,Málaga
-A-7 - Saída 400,A-7 - Saída 403,Car,False,Motril
-A-7 - Saída 400,A-7 - Saída 403,Car,True,Almería
-A-7 - Saída 400,A-7 - Saída 403,Car,True,El Ejido
+A-7 - Saída 395,A-7 - Saída 396,Car,False,València/Valencia
+A-7 - Saída 395,A-7 - Saída 396,Car,True,Alacant/Alicante
+A-7 - Saída 395,A-7 - Saída 396,Car,True,Albacete
+A-7 - Saída 395,A-7 - Saída 396,Car,True,Almansa
+A-7 - Saída 396,Cruzamento da A-7 com a A-35,Car,False,Játiva/Xàtiva
+A-7 - Saída 396,Cruzamento da A-7 com a A-35,Car,False,València/Valencia
+A-7 - Saída 396,Cruzamento da A-7 com a A-35,Car,True,Alacant/Alicante
+A-7 - Saída 396,Cruzamento da A-7 com a A-35,Car,True,Albacete
+A-7 - Saída 398,"A-7 - Saída 400, Almería",Car,False,Adra
+A-7 - Saída 398,"A-7 - Saída 400, Almería",Car,False,Málaga
+A-7 - Saída 398,"A-7 - Saída 400, Almería",Car,False,Motril
+A-7 - Saída 398,"A-7 - Saída 400, Almería",Car,True,Almería
+"A-7 - Saída 400, Almería",A-7 - Saída 403,Car,False,Adra
+"A-7 - Saída 400, Almería",A-7 - Saída 403,Car,False,Málaga
+"A-7 - Saída 400, Almería",A-7 - Saída 403,Car,False,Motril
+"A-7 - Saída 400, Almería",A-7 - Saída 403,Car,True,Almería
+"A-7 - Saída 400, Almería",A-7 - Saída 403,Car,True,El Ejido
+"A-7 - Saída 400, Valência",A-7 - Saída 402,Car,False,A-35 - Albacete
+"A-7 - Saída 400, Valência",A-7 - Saída 402,Car,False,València/Valencia
+"A-7 - Saída 400, Valência",A-7 - Saída 402,Car,True,Alacant/Alicante
+"A-7 - Saída 400, Valência",A-7 - Saída 402,Car,True,Alcoi/Alcoy
+"A-7 - Saída 400, Valência",A-7 - Saída 402,Car,True,Ontinyent/Onteniente
+"A-7 - Saída 400, Valência",Cruzamento da A-7 com a A-35,Car,False,Alacant/Alicante
+"A-7 - Saída 400, Valência",Cruzamento da A-7 com a A-35,Car,False,Alcoi/Alcoy
+"A-7 - Saída 400, Valência",Cruzamento da A-7 com a A-35,Car,False,Ontinyent/Onteniente
+"A-7 - Saída 400, Valência",Cruzamento da A-7 com a A-35,Car,True,A-35 - Albacete
+"A-7 - Saída 400, Valência",Cruzamento da A-7 com a A-35,Car,True,València/Valencia
+A-7 - Saída 402,A-7 - Saída 405,Car,False,Játiva/Xàtiva
+A-7 - Saída 402,A-7 - Saída 405,Car,False,València/Valencia
+A-7 - Saída 402,A-7 - Saída 405,Car,True,Alacant/Alicante
+A-7 - Saída 402,A-7 - Saída 405,Car,True,Alcoi/Alcoy
+A-7 - Saída 402,A-7 - Saída 405,Car,True,Ontinyent/Onteniente
 A-7 - Saída 403,A-7 - Saída 404,Car,False,Adra
 A-7 - Saída 403,A-7 - Saída 404,Car,False,Málaga
 A-7 - Saída 403,A-7 - Saída 404,Car,False,Motril
@@ -4364,6 +4387,10 @@ A-7 - Saída 404,A-7 - Saída 406,Car,False,Málaga
 A-7 - Saída 404,A-7 - Saída 406,Car,False,Motril
 A-7 - Saída 404,A-7 - Saída 406,Car,True,Almería
 A-7 - Saída 404,A-7 - Saída 406,Car,True,El Ejido
+A-7 - Saída 405,A-7 - Saída 410,Car,False,Játiva/Xàtiva
+A-7 - Saída 405,A-7 - Saída 410,Car,False,València/Valencia
+A-7 - Saída 405,A-7 - Saída 410,Car,True,Alcoi/Alcoy
+A-7 - Saída 405,A-7 - Saída 410,Car,True,Ontinyent/Onteniente
 A-7 - Saída 406,A-7 - Saída 409,Car,False,Adra
 A-7 - Saída 406,A-7 - Saída 409,Car,False,Málaga
 A-7 - Saída 406,A-7 - Saída 409,Car,False,Motril
@@ -4374,21 +4401,56 @@ A-7 - Saída 409,A-7 - Saída 411,Car,False,Málaga
 A-7 - Saída 409,A-7 - Saída 411,Car,False,Motril
 A-7 - Saída 409,A-7 - Saída 411,Car,True,Almería
 A-7 - Saída 409,A-7 - Saída 411,Car,True,Murcia
-A-7 - Saída 411,A-7 - Saída 414,Car,False,El Ejido
-A-7 - Saída 411,A-7 - Saída 414,Car,False,Málaga
-A-7 - Saída 411,A-7 - Saída 414,Car,False,Motril
-A-7 - Saída 411,A-7 - Saída 414,Car,True,Almería
-A-7 - Saída 411,A-7 - Saída 414,Car,True,Murcia
-A-7 - Saída 414,A-7 - Saída 420,Car,False,El Ejido
-A-7 - Saída 414,A-7 - Saída 420,Car,False,Málaga
-A-7 - Saída 414,A-7 - Saída 420,Car,False,Motril
-A-7 - Saída 414,A-7 - Saída 420,Car,True,Almería
-A-7 - Saída 414,A-7 - Saída 420,Car,True,Murcia
-A-7 - Saída 420,A-7 - Saída 424,Car,False,El Ejido
-A-7 - Saída 420,A-7 - Saída 424,Car,False,Málaga
-A-7 - Saída 420,A-7 - Saída 424,Car,False,Motril
-A-7 - Saída 420,A-7 - Saída 424,Car,True,Almería
-A-7 - Saída 420,A-7 - Saída 424,Car,True,Murcia
+A-7 - Saída 410,A-7 - Saída 413,Car,False,Játiva/Xàtiva
+A-7 - Saída 410,A-7 - Saída 413,Car,False,València/Valencia
+A-7 - Saída 410,A-7 - Saída 413,Car,True,Alacant/Alicante
+A-7 - Saída 410,A-7 - Saída 413,Car,True,Alcoi/Alcoy
+A-7 - Saída 410,A-7 - Saída 413,Car,True,Ontinyent/Onteniente
+A-7 - Saída 411,"A-7 - Saída 414, Almería",Car,False,El Ejido
+A-7 - Saída 411,"A-7 - Saída 414, Almería",Car,False,Málaga
+A-7 - Saída 411,"A-7 - Saída 414, Almería",Car,False,Motril
+A-7 - Saída 411,"A-7 - Saída 414, Almería",Car,True,Almería
+A-7 - Saída 411,"A-7 - Saída 414, Almería",Car,True,Murcia
+A-7 - Saída 413,"A-7 - Saída 414, Valência",Car,False,Játiva/Xàtiva
+A-7 - Saída 413,"A-7 - Saída 414, Valência",Car,False,València/Valencia
+A-7 - Saída 413,"A-7 - Saída 414, Valência",Car,True,Alacant/Alicante
+"A-7 - Saída 414, Almería","A-7 - Saída 420, Almería",Car,False,El Ejido
+"A-7 - Saída 414, Almería","A-7 - Saída 420, Almería",Car,False,Málaga
+"A-7 - Saída 414, Almería","A-7 - Saída 420, Almería",Car,False,Motril
+"A-7 - Saída 414, Almería","A-7 - Saída 420, Almería",Car,True,Almería
+"A-7 - Saída 414, Almería","A-7 - Saída 420, Almería",Car,True,Murcia
+"A-7 - Saída 414, Valência",A-7 - Saída 415,Car,False,Játiva/Xàtiva
+"A-7 - Saída 414, Valência",A-7 - Saída 415,Car,False,València/Valencia
+"A-7 - Saída 414, Valência",A-7 - Saída 415,Car,True,Alacant/Alicante
+A-7 - Saída 415,A-7 - Saída 417,Car,False,Játiva/Xàtiva
+A-7 - Saída 415,A-7 - Saída 417,Car,False,València/Valencia
+A-7 - Saída 415,A-7 - Saída 417,Car,True,Alacant/Alicante
+A-7 - Saída 415,A-7 - Saída 417,Car,True,Alcoi/Alcoy
+A-7 - Saída 417,A-7 - Saída 418,Car,False,Játiva/Xàtiva
+A-7 - Saída 417,A-7 - Saída 418,Car,False,València/Valencia
+A-7 - Saída 417,A-7 - Saída 418,Car,True,Alacant/Alicante
+A-7 - Saída 417,A-7 - Saída 418,Car,True,Alcoi/Alcoy
+A-7 - Saída 418,"A-7 - Saída 420, Valência",Car,False,Játiva/Xàtiva
+A-7 - Saída 418,"A-7 - Saída 420, Valência",Car,False,València/Valencia
+A-7 - Saída 418,"A-7 - Saída 420, Valência",Car,True,Alacant/Alicante
+A-7 - Saída 418,"A-7 - Saída 420, Valência",Car,True,Alcoi/Alcoy
+"A-7 - Saída 420, Almería",A-7 - Saída 424,Car,False,El Ejido
+"A-7 - Saída 420, Almería",A-7 - Saída 424,Car,False,Málaga
+"A-7 - Saída 420, Almería",A-7 - Saída 424,Car,False,Motril
+"A-7 - Saída 420, Almería",A-7 - Saída 424,Car,True,Almería
+"A-7 - Saída 420, Almería",A-7 - Saída 424,Car,True,Murcia
+"A-7 - Saída 420, Valência",A-7 - Saída 421,Car,False,Ontinyent/Onteniente
+"A-7 - Saída 420, Valência",A-7 - Saída 421,Car,False,València/Valencia
+"A-7 - Saída 420, Valência",A-7 - Saída 421,Car,True,Alacant/Alicante
+A-7 - Saída 421,A-7 - Saída 423,Car,False,Játiva/Xàtiva
+A-7 - Saída 421,A-7 - Saída 423,Car,False,Ontinyent/Onteniente
+A-7 - Saída 421,A-7 - Saída 423,Car,False,València/Valencia
+A-7 - Saída 421,A-7 - Saída 423,Car,True,Alacant/Alicante
+A-7 - Saída 423,A-7 - Saída 425,Car,False,Játiva/Xàtiva
+A-7 - Saída 423,A-7 - Saída 425,Car,False,Ontinyent/Onteniente
+A-7 - Saída 423,A-7 - Saída 425,Car,False,València/Valencia
+A-7 - Saída 423,A-7 - Saída 425,Car,True,Alacant/Alicante
+A-7 - Saída 423,A-7 - Saída 425,Car,True,Alcoi/Alcoy
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,False,El Ejido
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,False,Málaga
 A-7 - Saída 424,Cruzamento da A-7 com a A-1051,Car,False,Motril
