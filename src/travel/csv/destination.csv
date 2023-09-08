@@ -4334,17 +4334,43 @@ A-7 - Saída 375,A-7 - Saída 384,Car,False,Málaga
 A-7 - Saída 375,A-7 - Saída 384,Car,False,Motril
 A-7 - Saída 375,A-7 - Saída 384,Car,True,Adra
 A-7 - Saída 375,A-7 - Saída 384,Car,True,Almería
-A-7 - Saída 384,A-7 - Saída 389,Car,False,Málaga
-A-7 - Saída 384,A-7 - Saída 389,Car,False,Motril
-A-7 - Saída 384,A-7 - Saída 389,Car,True,Almería
-A-7 - Saída 384,A-7 - Saída 389,Car,True,El Ejido
-A-7 - Saída 389,A-7 - Saída 391,Car,False,Málaga
-A-7 - Saída 389,A-7 - Saída 391,Car,False,Motril
-A-7 - Saída 389,A-7 - Saída 391,Car,True,Almería
-A-7 - Saída 389,A-7 - Saída 391,Car,True,El Ejido
-A-7 - Saída 391,A-7 - Saída 398,Car,False,Málaga
-A-7 - Saída 391,A-7 - Saída 398,Car,True,Almería
-A-7 - Saída 391,A-7 - Saída 398,Car,True,El Ejido
+A-7 - Saída 379,A-7 - Saída 381,Car,False,L'Alcúdia
+A-7 - Saída 379,A-7 - Saída 381,Car,False,València/Valencia
+A-7 - Saída 379,A-7 - Saída 381,Car,True,Albacete
+A-7 - Saída 381,A-7 - Saída 383,Car,False,L'Alcúdia
+A-7 - Saída 381,A-7 - Saída 383,Car,False,València/Valencia
+A-7 - Saída 381,A-7 - Saída 383,Car,True,Alacant/Alicante
+A-7 - Saída 381,A-7 - Saída 383,Car,True,Albacete
+A-7 - Saída 381,A-7 - Saída 383,Car,True,Játiva/Xàtiva
+A-7 - Saída 383,A-7 - Saída 385,Car,False,València/Valencia
+A-7 - Saída 383,A-7 - Saída 385,Car,True,Alacant/Alicante
+A-7 - Saída 383,A-7 - Saída 385,Car,True,Játiva/Xàtiva
+A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,False,Málaga
+A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,False,Motril
+A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,True,Almería
+A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,True,El Ejido
+A-7 - Saída 385,A-7 - Saída 386,Car,False,València/Valencia
+A-7 - Saída 385,A-7 - Saída 386,Car,True,Albacete
+A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,False,Alberic
+A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,False,València/Valencia
+A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,True,Albacete
+"A-7 - Saída 389, Almería","A-7 - Saída 391, Almería",Car,False,Málaga
+"A-7 - Saída 389, Almería","A-7 - Saída 391, Almería",Car,False,Motril
+"A-7 - Saída 389, Almería","A-7 - Saída 391, Almería",Car,True,Almería
+"A-7 - Saída 389, Almería","A-7 - Saída 391, Almería",Car,True,El Ejido
+"A-7 - Saída 389, Valência","A-7 - Saída 391, Valência",Car,False,L'Alcúdia
+"A-7 - Saída 389, Valência","A-7 - Saída 391, Valência",Car,False,València/Valencia
+"A-7 - Saída 389, Valência","A-7 - Saída 391, Valência",Car,True,Alacant/Alicante
+"A-7 - Saída 389, Valência","A-7 - Saída 391, Valência",Car,True,Albacete
+"A-7 - Saída 389, Valência","A-7 - Saída 391, Valência",Car,True,Játiva/Xàtiva
+"A-7 - Saída 391, Almería",A-7 - Saída 398,Car,False,Málaga
+"A-7 - Saída 391, Almería",A-7 - Saída 398,Car,True,Almería
+"A-7 - Saída 391, Almería",A-7 - Saída 398,Car,True,El Ejido
+"A-7 - Saída 391, Valência",A-7 - Saída 395,Car,False,L'Alcúdia
+"A-7 - Saída 391, Valência",A-7 - Saída 395,Car,False,València/Valencia
+"A-7 - Saída 391, Valência",A-7 - Saída 395,Car,True,Alacant/Alicante
+"A-7 - Saída 391, Valência",A-7 - Saída 395,Car,True,Albacete
+"A-7 - Saída 391, Valência",A-7 - Saída 395,Car,True,Játiva/Xàtiva
 A-7 - Saída 395,A-7 - Saída 396,Car,False,València/Valencia
 A-7 - Saída 395,A-7 - Saída 396,Car,True,Alacant/Alicante
 A-7 - Saída 395,A-7 - Saída 396,Car,True,Albacete
@@ -7047,6 +7073,14 @@ AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,True,A-52 - O Porriño/Vigo
 "Álamo, Mértola",Espírito Santo,Car,False,Mértola
 "Álamo, Mértola",Espírito Santo,Car,True,Alcoutim
 "Álamo, Mértola",Espírito Santo,Car,True,Espírito Santo
+Alberic,Castelló,Subway,False,Bétera
+Alberic,Castelló,Subway,False,L'Alcúdia
+Alberic,Castelló,Subway,False,Valência
+Alberic,Castelló,Subway,True,Castelló
+Alberic,Estação de Massalavés,Subway,False,Castelló
+Alberic,Estação de Massalavés,Subway,True,Bétera
+Alberic,Estação de Massalavés,Subway,True,L'Alcúdia
+Alberic,Estação de Massalavés,Subway,True,Valência
 Alcácer do Sal,Cais Palafítico da Carrasqueira,Boat,False,Alcácer do Sal
 Alcácer do Sal,Cais Palafítico da Carrasqueira,Boat,True,Lagos
 Alcácer do Sal,Cais Palafítico da Carrasqueira,Boat,True,Setúbal
