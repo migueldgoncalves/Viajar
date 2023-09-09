@@ -667,8 +667,15 @@ A-7 - Saída 322,Salobreña,Granada,
 A-7 - Saída 342,Motril,Granada,
 A-7 - Saída 354,Lújar,Granada,
 A-7 - Saída 359,Polopos,Granada,
+A-7 - Saída 367,Carlet,València / Valencia,
+A-7 - Saída 369,Carlet,València / Valencia,
+A-7 - Saída 371,L'Alcúdia,València / Valencia,
 A-7 - Saída 373,Albuñol,Granada,
-A-7 - Saída 375,Albuñol,Granada,
+"A-7 - Saída 375, Granada",Albuñol,Granada,
+"A-7 - Saída 375, Valência",Guadassuar,València / Valencia,
+A-7 - Saída 376,L'Alcúdia,València / Valencia,
+A-7 - Saída 376A,L'Alcúdia,València / Valencia,
+A-7 - Saída 376B,Massalavés,València / Valencia,
 A-7 - Saída 379,Massalavés,València / Valencia,
 A-7 - Saída 381,Alberic,València / Valencia,
 A-7 - Saída 383,Alberic,València / Valencia,
@@ -1470,6 +1477,7 @@ Cruzamento da A-7 com a A-92,Viator,Almería,
 Cruzamento da A-7 com a A-1051,Roquetas de Mar,Almería,
 Cruzamento da A-7 com a AP-46,Málaga,Málaga,Puerto de la Torre
 Cruzamento da A-7 com a CA-34,San Roque,Cádiz,
+Cruzamento da A-7 com a CV-50,L'Alcúdia,València / Valencia,
 Cruzamento da A-7 com a CV-80,Castalla,Alacant / Alicante,
 Cruzamento da A-7 com a GR-14,Motril,Granada,
 Cruzamento da A-7 com a GR-16,Motril,Granada,
@@ -1631,12 +1639,14 @@ Estação de Feria de Madrid,Madrid,Comunidade de Madrid,Barajas
 Estação de Fuente de la Mora,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Guadix,Guadix,Granada,
 Estação de Huelva,Huelva,Huelva,
+Estação de L'Alcúdia,L'Alcúdia,València / Valencia,
 Estação de Madrid-Atocha Cercanías,Madrid,Comunidade de Madrid,Arganzuela
 Estação de Madrid-Chamartín-Clara Campoamor,Madrid,Comunidade de Madrid,Chamartín
 Estação de Madrid-Puerta de Atocha-Almudena Grandes,Madrid,Comunidade de Madrid,Arganzuela
 Estação de Mar de Cristal,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Massalavés,Massalavés,València / Valencia,
 Estação de Menéndez Pelayo,Madrid,Comunidade de Madrid,Retiro
+Estação de Montortal,L'Alcúdia,València / Valencia,
 Estação de Nuevos Ministerios,Madrid,Comunidade de Madrid,Chamberí
 Estação de Pinar del Rey,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Recoletos,Madrid,Comunidade de Madrid,Centro
@@ -1717,6 +1727,7 @@ Isla de Bacuta Sur,Huelva,Huelva,
 Isla de Las Palomas,Tarifa,Cádiz,
 Isla Saltés,Huelva,Huelva,
 Islantilla,Lepe,Huelva,
+L'Alcúdia,L'Alcúdia,València / Valencia,
 La Antilla,Lepe,Huelva,
 La Carlota,La Carlota,Córdoba,
 La Línea de la Concepción - Centro da cidade,La Línea de la Concepción,Cádiz,
@@ -1819,6 +1830,7 @@ Mirador del Conquero,Huelva,Huelva,
 Mirador del Estrecho,Tarifa,Cádiz,
 Moinho de Maré El Pintado,Ayamonte,Huelva,
 Molhe da Compañía de Río Tinto,Huelva,Huelva,
+Montortal,L'Alcúdia,València / Valencia,
 Monumento homenaje a las víctimas del 11-M,Madrid,Comunidade de Madrid,Arganzuela
 Museu de Huelva,Huelva,Huelva,
 N-332 - Avinguda d'Elx x Carrer Mèxic,Alacant / Alicante,Alacant / Alicante,
@@ -1870,6 +1882,7 @@ Polígono Industrial Aceitunero,Dos Hermanas,Sevilha,
 Polígono Industrial de Ayamonte,Ayamonte,Huelva,
 Polígono Industrial Fortiz,Huelva,Huelva,
 Polígono Industrial Francisco Montenegro,Huelva,Huelva,
+Polígono Industrial La Creu,L'Alcúdia,València / Valencia,
 Polígono Industrial La Esperanza,Huelva,Huelva,
 Polígono Industrial La Paz,Huelva,Huelva,
 Polígono Industrial Polirrosa,Huelva,Huelva,

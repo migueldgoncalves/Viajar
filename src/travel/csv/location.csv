@@ -859,8 +859,15 @@ A-7 - Saída 322,36.773751,-3.57678,94,,1500
 A-7 - Saída 342,36.719364,-3.433188,160,,1500
 A-7 - Saída 354,36.746138,-3.355915,138,,1900
 A-7 - Saída 359,36.750265,-3.313705,114,,1900
+A-7 - Saída 367,39.24223,-0.48035,38,,3300
+A-7 - Saída 369,39.22753,-0.48858,37,,3300
+A-7 - Saída 371,39.21079,-0.49794,44,,3300
 A-7 - Saída 373,36.753473,-3.169672,44,,1900
-A-7 - Saída 375,36.752796,-3.151263,114,,1900
+"A-7 - Saída 375, Granada",36.752796,-3.151263,114,,1900
+"A-7 - Saída 375, Valência",39.18352,-0.51079,28,,3300
+A-7 - Saída 376,39.17274,-0.51676,31,,3300
+A-7 - Saída 376A,39.17134,-0.51741,31,,3300
+A-7 - Saída 376B,39.16689,-0.51901,32,,3300
 A-7 - Saída 379,39.15432,-0.52848,34,,3300
 A-7 - Saída 381,39.13296,-0.52469,26,,3300
 A-7 - Saída 383,39.11936,-0.53154,24,,3300
@@ -1869,6 +1876,7 @@ Cruzamento da A-7 com a A-92,36.888392,-2.416410,111,,1900
 Cruzamento da A-7 com a A-1051,36.820445,-2.598143,103,,1900
 Cruzamento da A-7 com a AP-46,36.756716,-4.483843,192,,1100
 Cruzamento da A-7 com a CA-34,36.206684,-5.385194,54,,900
+Cruzamento da A-7 com a CV-50,39.19358,-0.49527,32,,3300
 Cruzamento da A-7 com a CV-80,38.59352,-0.63523,621,,3200
 Cruzamento da A-7 com a GR-14,36.772168,-3.549387,70,,1500
 Cruzamento da A-7 com a GR-16,36.739194,-3.485793,99,,1500
@@ -2303,6 +2311,7 @@ Estação de Huelva,37.25242,-6.94442,5,,2100
 Estação de Irivo,41.181231,-8.342171,127,,2800
 Estação de Jerumelo,38.949851,-9.233031,244,,2000
 Estação de Juncal,41.140682,-8.119443,177,,2800
+Estação de L'Alcúdia,39.19325,-0.51027,37,,3300
 Estação de Lagos,37.108514,-8.671666,3,,500
 Estação de Lamarosa,39.528796,-8.469124,66,,1700
 Estação de Lapa,40.983705,-8.60522,84,,2700
@@ -2360,6 +2369,7 @@ Estação de Monte Gordo,37.190063,-7.448293,3,,200
 Estação de Monte Real,39.855986,-8.84769,9,,2200
 Estação de Monte Redondo,39.900298,-8.834382,47,,2200
 Estação de Montemor,40.16014,-8.654091,7,,2200
+Estação de Montortal,39.17406,-0.51564,26,,3300
 Estação de Mortágua,40.390903,-8.241281,94,,2400
 Estação de Moscavide,38.777675,-9.099501,13,,1700
 Estação de Mosteirô,41.094574,-8.069539,76,,2800
@@ -2745,6 +2755,7 @@ Isla de Las Palomas,36.0031,-5.6096,12,Parque Natural del Estrecho,3300
 Isla Saltés,37.1827,-6.9402,0,Marismas del Odiel,2100
 Islantilla,37.206800,-7.233227,7,,1800
 Junqueira,37.254084,-7.470771,17,,100
+L'Alcúdia,39.1945,-0.5045,38,,3300
 La Antilla,37.207655,-7.213389,5,,1800
 La Carlota,37.670755,-4.935385,214,,700
 La Línea de la Concepción - Centro da cidade,36.168163,-5.348955,7,,1200
@@ -2896,6 +2907,7 @@ Montes Castelhanos,37.257686,-7.472255,26,,300
 Montinho,37.425271,-7.514797,215,,300
 Montinho das Laranjeiras,37.405647,-7.463037,22,,10
 Montinho de Odeleite,37.343914,-7.530219,148,,300
+Montortal,39.17265,-0.51760,33,,3300
 Monumento homenaje a las víctimas del 11-M,40.40688,-3.68891,628,,3100
 Moreanes,37.646636,-7.559927,148,Parque Natural do Vale do Guadiana,200
 Moura,38.141131,-7.450092,182,,800
@@ -2985,6 +2997,7 @@ Polígono Industrial Aceitunero,37.2686,-5.9287,46,,2700
 Polígono Industrial de Ayamonte,37.232794,-7.391258,7,,300
 Polígono Industrial Fortiz,37.292135,-6.897049,7,,2100
 Polígono Industrial Francisco Montenegro,37.2290,-6.9467,5,,2100
+Polígono Industrial La Creu,39.2039,-0.5035,43,,3300
 Polígono Industrial La Esperanza,37.26227,-6.92047,5,,2100
 Polígono Industrial La Paz,37.26260,-6.91819,5,,2100
 Polígono Industrial Polirrosa,37.26475,-6.92104,6,,2100

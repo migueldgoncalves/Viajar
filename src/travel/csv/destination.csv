@@ -4326,14 +4326,40 @@ A-7 - Saída 354,A-7 - Saída 359,Car,True,Almería
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Málaga
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Motril
 A-7 - Saída 359,A-7 - Saída 373,Car,True,Almería
-A-7 - Saída 373,A-7 - Saída 375,Car,False,Málaga
-A-7 - Saída 373,A-7 - Saída 375,Car,False,Motril
-A-7 - Saída 373,A-7 - Saída 375,Car,True,Adra
-A-7 - Saída 373,A-7 - Saída 375,Car,True,Almería
-A-7 - Saída 375,A-7 - Saída 384,Car,False,Málaga
-A-7 - Saída 375,A-7 - Saída 384,Car,False,Motril
-A-7 - Saída 375,A-7 - Saída 384,Car,True,Adra
-A-7 - Saída 375,A-7 - Saída 384,Car,True,Almería
+A-7 - Saída 367,A-7 - Saída 369,Car,False,València/Valencia
+A-7 - Saída 367,A-7 - Saída 369,Car,True,Albacete
+A-7 - Saída 369,A-7 - Saída 371,Car,False,València/Valencia
+A-7 - Saída 369,A-7 - Saída 371,Car,True,Albacete
+A-7 - Saída 371,Cruzamento da A-7 com a CV-50,Car,False,València/Valencia
+A-7 - Saída 371,Cruzamento da A-7 com a CV-50,Car,True,Alacant/Alicante
+A-7 - Saída 371,Cruzamento da A-7 com a CV-50,Car,True,Albacete
+A-7 - Saída 371,Cruzamento da A-7 com a CV-50,Car,True,Játiva/Xàtiva
+A-7 - Saída 373,"A-7 - Saída 375, Granada",Car,False,Málaga
+A-7 - Saída 373,"A-7 - Saída 375, Granada",Car,False,Motril
+A-7 - Saída 373,"A-7 - Saída 375, Granada",Car,True,Adra
+A-7 - Saída 373,"A-7 - Saída 375, Granada",Car,True,Almería
+"A-7 - Saída 375, Granada",A-7 - Saída 384,Car,False,Málaga
+"A-7 - Saída 375, Granada",A-7 - Saída 384,Car,False,Motril
+"A-7 - Saída 375, Granada",A-7 - Saída 384,Car,True,Adra
+"A-7 - Saída 375, Granada",A-7 - Saída 384,Car,True,Almería
+"A-7 - Saída 375, Valência",A-7 - Saída 376,Car,False,València/Valencia
+"A-7 - Saída 375, Valência",A-7 - Saída 376,Car,True,Albacete
+"A-7 - Saída 375, Valência",Cruzamento da A-7 com a CV-50,Car,False,Alacant/Alicante
+"A-7 - Saída 375, Valência",Cruzamento da A-7 com a CV-50,Car,False,Albacete
+"A-7 - Saída 375, Valência",Cruzamento da A-7 com a CV-50,Car,False,Játiva/Xàtiva
+"A-7 - Saída 375, Valência",Cruzamento da A-7 com a CV-50,Car,True,València/Valencia
+A-7 - Saída 376,A-7 - Saída 376A,Car,False,L'Alcúdia
+A-7 - Saída 376,A-7 - Saída 376A,Car,False,València/Valencia
+A-7 - Saída 376,A-7 - Saída 376A,Car,True,Alacant/Alicante
+A-7 - Saída 376,A-7 - Saída 376A,Car,True,Albacete
+A-7 - Saída 376A,A-7 - Saída 376B,Car,False,L'Alcúdia
+A-7 - Saída 376A,A-7 - Saída 376B,Car,False,València/Valencia
+A-7 - Saída 376A,A-7 - Saída 376B,Car,True,Albacete
+A-7 - Saída 376B,A-7 - Saída 379,Car,False,L'Alcúdia
+A-7 - Saída 376B,A-7 - Saída 379,Car,False,València/Valencia
+A-7 - Saída 376B,A-7 - Saída 379,Car,True,Albacete
+A-7 - Saída 376B,Massalavés,Car,False,A-7 - València/Valencia
+A-7 - Saída 376B,Massalavés,Car,True,Massalavés
 A-7 - Saída 379,A-7 - Saída 381,Car,False,L'Alcúdia
 A-7 - Saída 379,A-7 - Saída 381,Car,False,València/Valencia
 A-7 - Saída 379,A-7 - Saída 381,Car,True,Albacete
@@ -4342,6 +4368,10 @@ A-7 - Saída 381,A-7 - Saída 383,Car,False,València/Valencia
 A-7 - Saída 381,A-7 - Saída 383,Car,True,Alacant/Alicante
 A-7 - Saída 381,A-7 - Saída 383,Car,True,Albacete
 A-7 - Saída 381,A-7 - Saída 383,Car,True,Játiva/Xàtiva
+A-7 - Saída 381,Alberic,Car,False,Massalavés
+A-7 - Saída 381,Alberic,Car,True,Alberic
+A-7 - Saída 381,Massalavés,Car,False,A-7 - Albacete/València
+A-7 - Saída 381,Massalavés,Car,True,Massalavés
 A-7 - Saída 383,A-7 - Saída 385,Car,False,València/Valencia
 A-7 - Saída 383,A-7 - Saída 385,Car,True,Alacant/Alicante
 A-7 - Saída 383,A-7 - Saída 385,Car,True,Játiva/Xàtiva
@@ -4351,6 +4381,8 @@ A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,True,Almería
 A-7 - Saída 384,"A-7 - Saída 389, Almería",Car,True,El Ejido
 A-7 - Saída 385,A-7 - Saída 386,Car,False,València/Valencia
 A-7 - Saída 385,A-7 - Saída 386,Car,True,Albacete
+A-7 - Saída 385,Alberic,Car,False,A-7 - Albacete
+A-7 - Saída 385,Alberic,Car,True,Alberic
 A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,False,Alberic
 A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,False,València/Valencia
 A-7 - Saída 386,"A-7 - Saída 389, Valência",Car,True,Albacete
@@ -12127,6 +12159,10 @@ Estação de Juncal,Estação de Pala,Train,False,Marco de Canaveses
 Estação de Juncal,Estação de Pala,Train,False,Porto - Campanhã
 Estação de Juncal,Estação de Pala,Train,True,Pocinho
 Estação de Juncal,Estação de Pala,Train,True,Régua
+Estação de L'Alcúdia,Estação de Montortal,Subway,False,Bétera
+Estação de L'Alcúdia,Estação de Montortal,Subway,False,Picassent
+Estação de L'Alcúdia,Estação de Montortal,Subway,False,Valência
+Estação de L'Alcúdia,Estação de Montortal,Subway,True,Castelló
 Estação de Lagos,Meia Praia,Train,False,Lagos
 Estação de Lagos,Meia Praia,Train,True,Tunes
 Estação de Lagos,Meia Praia,Train,True,Vila Real de Santo António
@@ -12442,6 +12478,10 @@ Estação de Marvila,Estação de Roma-Areeiro,Train,True,Lisboa - Rossio
 Estação de Marvila,Estação de Roma-Areeiro,Train,True,Lisboa - Sete Rios
 Estação de Marvila,Estação de Roma-Areeiro,Train,True,Pinhal Novo
 Estação de Marvila,Estação de Roma-Areeiro,Train,True,Sintra
+Estação de Massalavés,Estação de Montortal,Subway,False,Castelló
+Estação de Massalavés,Estação de Montortal,Subway,True,Bétera
+Estação de Massalavés,Estação de Montortal,Subway,True,L'Alcúdia
+Estação de Massalavés,Estação de Montortal,Subway,True,Valência
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Train,False,Agualva - Cacém
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Train,False,Mira Sintra - Meleças
 Estação de Massamá - Barcarena,Estação de Monte Abraão,Train,False,Sintra
