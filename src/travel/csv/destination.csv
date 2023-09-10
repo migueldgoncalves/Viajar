@@ -4326,6 +4326,10 @@ A-7 - Saída 354,A-7 - Saída 359,Car,True,Almería
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Málaga
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Motril
 A-7 - Saída 359,A-7 - Saída 373,Car,True,Almería
+A-7 - Saída 366,A-7 - Saída 367,Car,False,València/Valencia
+A-7 - Saída 366,A-7 - Saída 367,Car,True,Alacant/Alicante
+A-7 - Saída 366,A-7 - Saída 367,Car,True,Albacete
+A-7 - Saída 366,A-7 - Saída 367,Car,True,L'Alcúdia
 A-7 - Saída 367,A-7 - Saída 369,Car,False,València/Valencia
 A-7 - Saída 367,A-7 - Saída 369,Car,True,Albacete
 A-7 - Saída 369,A-7 - Saída 371,Car,False,València/Valencia
@@ -7867,6 +7871,16 @@ Canal Caveira,Grândola,Car,False,Faro
 Canal Caveira,Grândola,Car,False,Ourique
 Canal Caveira,Grândola,Car,True,Grândola
 Canal Caveira,Grândola,Car,True,Lisboa
+Carlet,Estação de Ausiàs March,Subway,False,Castelló
+Carlet,Estação de Ausiàs March,Subway,False,L'Alcúdia
+Carlet,Estação de Ausiàs March,Subway,True,Bétera
+Carlet,Estação de Ausiàs March,Subway,True,Picassent
+Carlet,Estação de Ausiàs March,Subway,True,Valência
+Carlet,Estação de Benimodo,Subway,False,Bétera
+Carlet,Estação de Benimodo,Subway,False,Picassent
+Carlet,Estação de Benimodo,Subway,False,Valência
+Carlet,Estação de Benimodo,Subway,True,Castelló
+Carlet,Estação de Benimodo,Subway,True,L'Alcúdia
 Cartaya,Cruzamento da N-431 com a N-444,Car,False,Cartaya
 Cartaya,Cruzamento da N-431 com a N-444,Car,True,Lepe
 Cartaya,Cruzamento da N-431 com a N-444,Car,True,Portugal
@@ -10649,6 +10663,10 @@ Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Braço de Prata
 Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Oriente
 Estação de Benfica,Estação de Sete Rios,Train,True,Lisboa - Santa Apolónia
 Estação de Benfica,Estação de Sete Rios,Train,True,Porto - Campanhã
+Estação de Benimodo,Estação de L'Alcúdia,Subway,False,Bétera
+Estação de Benimodo,Estação de L'Alcúdia,Subway,False,Picassent
+Estação de Benimodo,Estação de L'Alcúdia,Subway,False,Valência
+Estação de Benimodo,Estação de L'Alcúdia,Subway,True,Castelló
 Estação de Benquerenças,Estação de Castelo Branco,Train,False,Abrantes
 Estação de Benquerenças,Estação de Castelo Branco,Train,False,Badajoz
 Estação de Benquerenças,Estação de Castelo Branco,Train,False,Entroncamento
