@@ -4323,9 +4323,32 @@ A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,True,Motril
 A-7 - Saída 354,A-7 - Saída 359,Car,False,Málaga
 A-7 - Saída 354,A-7 - Saída 359,Car,True,Adra
 A-7 - Saída 354,A-7 - Saída 359,Car,True,Almería
+A-7 - Saída 356,A-7 - Saída 357,Car,False,València/Valencia
+A-7 - Saída 356,A-7 - Saída 357,Car,True,Alacant/Alicante
+A-7 - Saída 356,A-7 - Saída 357,Car,True,Albacete
+A-7 - Saída 356,A-7 - Saída 357,Car,True,L'Alcúdia
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,False,Alacant/Alicante
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,False,Albacete
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,False,L'Alcúdia
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,A-3 - Madrid
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Barcelona
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Feria Valencia
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,V-31 - València-Centro da cidade/València-Avinguda d'Ausiàs March
+A-7 - Saída 357,A-7 - Saída 358,Car,False,València/Valencia
+A-7 - Saída 357,A-7 - Saída 358,Car,True,Alacant/Alicante
+A-7 - Saída 358,A-7 - Saída 361,Car,False,València/Valencia
+A-7 - Saída 358,A-7 - Saída 361,Car,True,Alacant/Alicante
+A-7 - Saída 358,A-7 - Saída 361,Car,True,Albacete
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Málaga
 A-7 - Saída 359,A-7 - Saída 373,Car,False,Motril
 A-7 - Saída 359,A-7 - Saída 373,Car,True,Almería
+A-7 - Saída 361,A-7 - Saída 363,Car,False,València/Valencia
+A-7 - Saída 361,A-7 - Saída 363,Car,True,Alacant/Alicante
+A-7 - Saída 363,A-7 - Saída 366,Car,False,València/Valencia
+A-7 - Saída 363,A-7 - Saída 366,Car,True,Alacant/Alicante
+A-7 - Saída 363,A-7 - Saída 366,Car,True,Albacete
+A-7 - Saída 363,A-7 - Saída 366,Car,True,L'Alcúdia
 A-7 - Saída 366,A-7 - Saída 367,Car,False,València/Valencia
 A-7 - Saída 366,A-7 - Saída 367,Car,True,Alacant/Alicante
 A-7 - Saída 366,A-7 - Saída 367,Car,True,Albacete
@@ -10170,6 +10193,16 @@ Estação de Algés,Estação de Cruz Quebrada,Train,False,Lisboa - Alcântara-M
 Estação de Algés,Estação de Cruz Quebrada,Train,False,Lisboa - Cais do Sodré
 Estação de Algés,Estação de Cruz Quebrada,Train,True,Cascais
 Estação de Algés,Estação de Cruz Quebrada,Train,True,Oeiras
+Estação de Alginet,Estação de Ausiàs March,Subway,False,Bétera
+Estação de Alginet,Estação de Ausiàs March,Subway,False,Picassent
+Estação de Alginet,Estação de Ausiàs March,Subway,False,Valência
+Estação de Alginet,Estação de Ausiàs March,Subway,True,Castelló
+Estação de Alginet,Estação de Ausiàs March,Subway,True,L'Alcúdia
+Estação de Alginet,Estação de Font Almaguer,Subway,False,Castelló
+Estação de Alginet,Estação de Font Almaguer,Subway,False,L'Alcúdia
+Estação de Alginet,Estação de Font Almaguer,Subway,True,Bétera
+Estação de Alginet,Estação de Font Almaguer,Subway,True,Picassent
+Estação de Alginet,Estação de Font Almaguer,Subway,True,Valência
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Train,False,Agualva - Cacém
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Train,False,Lisboa - Rossio
 Estação de Algueirão - Mem Martins,Estação de Portela de Sintra,Train,False,Mira Sintra - Meleças
@@ -11811,6 +11844,11 @@ Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,False,Vila Nova de 
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Aveiro
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Lisboa - Santa Apolónia
 Estação de Espinho-Vouga,Estação de Silvalde-Vouga,Train,True,Oliveira de Azeméis
+Estação de Espioca,Estação de Font Almaguer,Subway,False,Bétera
+Estação de Espioca,Estação de Font Almaguer,Subway,False,Picassent
+Estação de Espioca,Estação de Font Almaguer,Subway,False,Valência
+Estação de Espioca,Estação de Font Almaguer,Subway,True,Castelló
+Estação de Espioca,Estação de Font Almaguer,Subway,True,L'Alcúdia
 Estação de Esqueiro,Estação de Gondarém,Train,False,Nine
 Estação de Esqueiro,Estação de Gondarém,Train,False,Porto - Campanhã
 Estação de Esqueiro,Estação de Gondarém,Train,False,Viana do Castelo

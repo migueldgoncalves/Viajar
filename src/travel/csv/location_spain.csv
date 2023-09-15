@@ -666,7 +666,12 @@ A-7 - Saída 314,Almuñécar,Granada,
 A-7 - Saída 322,Salobreña,Granada,
 A-7 - Saída 342,Motril,Granada,
 A-7 - Saída 354,Lújar,Granada,
+A-7 - Saída 356,Silla,València / Valencia,
+A-7 - Saída 357,Picassent,València / Valencia,
+A-7 - Saída 358,Picassent,València / Valencia,
 A-7 - Saída 359,Polopos,Granada,
+A-7 - Saída 361,Benifaió,València / Valencia,
+A-7 - Saída 363,Benifaió,València / Valencia,
 A-7 - Saída 366,Alginet,València / Valencia,
 A-7 - Saída 367,Carlet,València / Valencia,
 A-7 - Saída 369,Carlet,València / Valencia,
@@ -1280,6 +1285,7 @@ Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
 AG-51 - Saída 2,Salvaterra de Miño,Pontevedra,Soutolobre
 AL-12 - Saída 7,Almería,Almería,
 Alberic,Alberic,València / Valencia,
+Alginet,Alginet,València / Valencia,
 Aljaraque,Aljaraque,Huelva,
 Almonte,Almonte,Huelva,
 Antiga Estação de Aljaraque,Gibraleón,Huelva,
@@ -1416,6 +1422,7 @@ Cruzamento VIII da A-7 com a AP-7,Antas,Almería,
 Cruzamento IX da A-7 com a AP-7,Crevillent,Alacant / Alicante,
 Cruzamento X da A-7 com a AP-7,Monforte del Cid,Alacant / Alicante,
 Cruzamento XI da A-7 com a AP-7,Alacant / Alicante,Alacant / Alicante,
+Cruzamento XII da A-7 com a AP-7,Silla,València / Valencia,
 Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da A-1 com a M-12,Alcobendas,Comunidade de Madrid,
 Cruzamento da A-1 com a M-40,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
@@ -1631,6 +1638,7 @@ Encinasola,Encinasola,Huelva,
 Estação da Arte,Madrid,Comunidade de Madrid,Retiro
 Estação de Aeropuerto T1-T2-T3,Madrid,Comunidade de Madrid,Barajas
 Estação de Aeropuerto T4,Madrid,Comunidade de Madrid,Barajas
+Estação de Alginet,Alginet,València / Valencia,
 Estação de Antón Martín,Madrid,Comunidade de Madrid,Centro
 "Estação de Atocha, Metro de Madrid",Madrid,Comunidade de Madrid,Retiro
 Estação de Ausiàs March,Carlet,València / Valencia,
@@ -1641,7 +1649,9 @@ Estação de Benimodo,Carlet,València / Valencia,
 Estação de Ciudad Real,Ciudad Real,Ciudad Real,
 Estação de Colombia,Madrid,Comunidade de Madrid,Chamartín
 Estação de Córdoba,Córdoba,Córdoba,Noroeste
+Estação de Espioca,Picassent,València / Valencia,
 Estação de Feria de Madrid,Madrid,Comunidade de Madrid,Barajas
+Estação de Font Almaguer,Benifaió,València / Valencia,
 Estação de Fuente de la Mora,Madrid,Comunidade de Madrid,Hortaleza
 Estação de Guadix,Guadix,Granada,
 Estação de Huelva,Huelva,Huelva,
@@ -1850,6 +1860,7 @@ N-442 - Acesso Norte ao Porto Exterior de Huelva,Palos de la Frontera,Huelva,
 Nuevo Portil,Cartaya,Huelva,
 Observatorio de Aves Cazalla,Tarifa,Cádiz,
 Oliva de la Frontera,Oliva de la Frontera,Badajoz,
+Omet,Picassent,València / Valencia,
 Osuna,Osuna,Sevilha,
 Paradas,Paradas,Sevilha,
 "Parque Alonso Sánchez, Huelva",Huelva,Huelva,
@@ -1893,6 +1904,7 @@ Polígono Industrial Francisco Montenegro,Huelva,Huelva,
 Polígono Industrial La Creu,L'Alcúdia,València / Valencia,
 Polígono Industrial La Esperanza,Huelva,Huelva,
 Polígono Industrial La Paz,Huelva,Huelva,
+"Polígono Industrial Nord, Valência",Alginet,València / Valencia,
 Polígono Industrial Polirrosa,Huelva,Huelva,
 "Polígono Industrial San Diego, Huelva",Huelva,Huelva,
 Polígono Industrial Sant Bernat,Carlet,València / Valencia,
