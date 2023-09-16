@@ -4320,6 +4320,20 @@ A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,False,Adra
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,False,Almería
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,True,Málaga
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,True,Motril
+A-7 - Saída 344,Área de Serviço de Torrent - Picassent,Car,False,A-3 - Madrid
+A-7 - Saída 344,Área de Serviço de Torrent - Picassent,Car,False,Aeroporto de Valência
+A-7 - Saída 344,Área de Serviço de Torrent - Picassent,Car,False,Barcelona
+A-7 - Saída 344,Área de Serviço de Torrent - Picassent,Car,True,Alacant/Alicante
+A-7 - Saída 351,Área de Serviço de Torrent - Picassent,Car,False,Alacant/Alicante
+A-7 - Saída 351,Área de Serviço de Torrent - Picassent,Car,True,A-3 - Madrid
+A-7 - Saída 351,Área de Serviço de Torrent - Picassent,Car,True,Aeroporto de Valência
+A-7 - Saída 351,Área de Serviço de Torrent - Picassent,Car,True,Barcelona
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,False,A-3 - Madrid
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,False,Aeroporto de Valência
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,False,Barcelona
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,False,Feria Valencia
+A-7 - Saída 351,Cruzamento XII da A-7 com a AP-7,Car,True,Alacant/Alicante
 A-7 - Saída 354,A-7 - Saída 359,Car,False,Málaga
 A-7 - Saída 354,A-7 - Saída 359,Car,True,Adra
 A-7 - Saída 354,A-7 - Saída 359,Car,True,Almería
@@ -4334,7 +4348,7 @@ A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,A-3 - Madrid
 A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Barcelona
 A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Castelló de la Plana/Castellón de la Plana
 A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,Feria Valencia
-A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,V-31 - València-Centro da cidade/València-Avinguda d'Ausiàs March
+A-7 - Saída 356,Cruzamento XII da A-7 com a AP-7,Car,True,V-31 - València-Avinguda d'Ausiàs March/València-Centro da cidade
 A-7 - Saída 357,A-7 - Saída 358,Car,False,València/Valencia
 A-7 - Saída 357,A-7 - Saída 358,Car,True,Alacant/Alicante
 A-7 - Saída 358,A-7 - Saída 361,Car,False,València/Valencia
@@ -7368,6 +7382,13 @@ AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,True,Cádiz
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Algeciras
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Benalmádena
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,True,MA-20/MA-21 - Aeroporto de Málaga/Málaga
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,False,A-38 - Gandia/Gandía
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,False,Alacant/Alicante
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,A-3 - Madrid
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Aeroporto de Valência
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Barcelona
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Porto de Valência
+AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,V-31 - València/Valencia
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,A Coruña
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ferrol
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ordes
@@ -8012,6 +8033,9 @@ Cruz de João Mendes,IP8 - Cruzamento com a N261-2,Car,True,Grândola
 Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,False,A-7 - Cartagena/Murcia
 Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,True,Benidorm
 Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,True,Valência
+Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,False,Alacant/Alicante
+Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,False,Albacete
+Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,True,València/Valencia
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A1 - Norte
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A12 - Ponte Vasco da Gama/Sul
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,True,A8 - Oeste
@@ -9580,6 +9604,14 @@ Cruzamento Norte da A-4 com a AP-4,Glorieta de los Cipreses,Car,True,Dos Hermana
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,False,Jaén
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,A-92 - Málaga/Murcia
 Cruzamento Norte da A-44 com a GR-30,GR-30 - Saída 1,Car,True,Granada
+Cruzamento Norte da V-30 com a V-31,Cruzamento Sul da V-30 com a V-31,Car,False,València/Valencia - Avinguda d'Ausiàs March
+Cruzamento Norte da V-30 com a V-31,Cruzamento Sul da V-30 com a V-31,Car,True,Alacant/Alicante
+Cruzamento Norte da V-30 com a V-31,Cruzamento Sul da V-30 com a V-31,Car,True,Albacete
+Cruzamento Norte da V-30 com a V-31,Cruzamento Sul da V-30 com a V-31,Car,True,V-30 - Porto de Valência
+Cruzamento Norte da V-30 com a V-31,V-31 - Font de Sant Lluís,Car,False,El Forn d'Alcedo
+Cruzamento Norte da V-30 com a V-31,V-31 - Font de Sant Lluís,Car,False,V-30 - Todas as direcções
+Cruzamento Norte da V-30 com a V-31,V-31 - Font de Sant Lluís,Car,False,V-31 - Alacant/Alicante
+Cruzamento Norte da V-30 com a V-31,V-31 - Font de Sant Lluís,Car,True,València/Valencia - Avinguda d'Ausiàs March
 Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,A-6
 Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,Aeroporto de Madrid-Barajas
 Cruzamento Oeste da M-50 com a R-2,M-50/R-2 - Saída 5,Car,False,M-40
@@ -9602,6 +9634,10 @@ Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Car,True,Aeroporto de Mála
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Car,True,Almería
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Car,True,Málaga
 Cruzamento Sul da MA-20 com a MA-21,MA-20 - Saída 1,Car,True,Porto de Málaga
+Cruzamento Sul da V-30 com a V-31,V-31 - Saída 11,Car,False,V-30 - A-3-Madrid/A-7-Barcelona/Aeroporto de Valência/Porto de Valência
+Cruzamento Sul da V-30 com a V-31,V-31 - Saída 11,Car,False,València/Valencia
+Cruzamento Sul da V-30 com a V-31,V-31 - Saída 11,Car,True,Alacant/Alicante
+Cruzamento Sul da V-30 com a V-31,V-31 - Saída 11,Car,True,Albacete
 Cuba,Estação de Alvito,Train,False,Beja
 Cuba,Estação de Alvito,Train,True,Casa Branca
 Cuba,Estação de Alvito,Train,True,Évora
@@ -14641,6 +14677,8 @@ Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha -
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Ronda Urbana Norte de Sevilha - Poligono Store,Car,True,Sevilha - Centro da cidade
 Rosal de la Frontera,Vila Verde de Ficalho,Car,False,Espanha
 Rosal de la Frontera,Vila Verde de Ficalho,Car,True,Portugal
+Rotonda dels Hams / Rotonda de los Anzuelos,V-31 - Font de Sant Lluís,Car,False,València/Valencia - Avinguda d'Ausiàs March
+Rotonda dels Hams / Rotonda de los Anzuelos,V-31 - Font de Sant Lluís,Car,True,V-30 - Todas as direcções
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,A22 - Espanha/Lisboa
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,Estoi
 Ruínas Romanas de Milreu,São Brás de Alportel,Car,False,Faro
@@ -14802,6 +14840,27 @@ Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Car,False,Badajoz
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Car,True,Aeroporto de Badajoz
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Car,True,Talavera la Real
 Urbanização Mirador de Cerro Gordo,Villafranco del Guadiana,Car,True,Villafranco del Guadiana
+V-31 - Saída 3,V-31 - Saída 5,Car,False,Alacant/Alicante
+V-31 - Saída 3,V-31 - Saída 5,Car,False,Albacete
+V-31 - Saída 3,V-31 - Saída 5,Car,True,València/Valencia
+V-31 - Saída 5,V-31 - Saída 6,Car,False,Alacant/Alicante
+V-31 - Saída 5,V-31 - Saída 6,Car,False,Albacete
+V-31 - Saída 5,V-31 - Saída 6,Car,True,València/Valencia
+V-31 - Saída 6,V-31 - Saída 7,Car,False,Alacant/Alicante
+V-31 - Saída 6,V-31 - Saída 7,Car,False,Albacete
+V-31 - Saída 6,V-31 - Saída 7,Car,True,València/Valencia
+V-31 - Saída 7,V-31 - Saída 8,Car,False,Alacant/Alicante
+V-31 - Saída 7,V-31 - Saída 8,Car,False,Albacete
+V-31 - Saída 7,V-31 - Saída 8,Car,True,València/Valencia
+V-31 - Saída 8,V-31 - Saída 9,Car,False,Alacant/Alicante
+V-31 - Saída 8,V-31 - Saída 9,Car,False,Albacete
+V-31 - Saída 8,V-31 - Saída 9,Car,True,València/Valencia
+V-31 - Saída 9,V-31 - Saída 10,Car,False,Alacant/Alicante
+V-31 - Saída 9,V-31 - Saída 10,Car,False,Albacete
+V-31 - Saída 9,V-31 - Saída 10,Car,True,València/Valencia
+V-31 - Saída 10,V-31 - Saída 11,Car,False,Alacant/Alicante
+V-31 - Saída 10,V-31 - Saída 11,Car,False,Albacete
+V-31 - Saída 10,V-31 - Saída 11,Car,True,València/Valencia
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Car,False,Olhão
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Car,False,Vila Real de Santo António
 Variante de Faro - Nó com a M518,Variante de Faro - Nó com a N2,Car,True,Aeroporto de Faro

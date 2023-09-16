@@ -665,6 +665,8 @@ A-7 - Saída 305,Almuñécar,Granada,
 A-7 - Saída 314,Almuñécar,Granada,
 A-7 - Saída 322,Salobreña,Granada,
 A-7 - Saída 342,Motril,Granada,
+A-7 - Saída 344,Torrent,València / Valencia,
+A-7 - Saída 351,Picassent,València / Valencia,
 A-7 - Saída 354,Lújar,Granada,
 A-7 - Saída 356,Silla,València / Valencia,
 A-7 - Saída 357,Picassent,València / Valencia,
@@ -1285,6 +1287,7 @@ Aeroporto Federico García Lorca Granada-Jaén,Chauchina,Granada,
 AG-51 - Saída 2,Salvaterra de Miño,Pontevedra,Soutolobre
 AL-12 - Saída 7,Almería,Almería,
 Alberic,Alberic,València / Valencia,
+Alfafar Parc,Alfafar,València / Valencia,
 Alginet,Alginet,València / Valencia,
 Aljaraque,Aljaraque,Huelva,
 Almonte,Almonte,Huelva,
@@ -1305,6 +1308,7 @@ AP-7 - Saída 172,Marbella,Málaga,
 AP-7 - Saída 200,Mijas,Málaga,
 AP-7 - Saída 213,Mijas,Málaga,
 AP-7 - Saída 226,Torremolinos,Málaga,
+AP-7 - Saída 532,Sollana,València / Valencia,
 AP-9 - Saída 41,Ordes,A Coruña,Barbeiros
 AP-9 - Saída 55,Oroso,A Coruña,Oroso
 AP-9 - Saída 60,Santiago de Compostela,A Coruña,Marantes
@@ -1347,6 +1351,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Salnés,Portas,Pontevedra,Portas
 Área de Serviço de San Simón,Vilaboa,Pontevedra,Cobres
 Área de Serviço de Seseña,Seseña,Toledo,
+Área de Serviço de Torrent - Picassent,Torrent,València / Valencia,
 Área de Serviço de Villacastín,Villacastín,Segóvia,
 Área de Serviço de Villalba,San Lorenzo de El Escorial,Comunidade de Madrid,
 Aroche,Aroche,Huelva,
@@ -1608,6 +1613,7 @@ Cruzamento Norte da A-7 com a A-30,Murcia,Região de Murcia,El Puntal
 Cruzamento Norte da A-44 com a GR-30,Albolote,Granada,
 Cruzamento Norte da A-55 com a AP-9,Vigo,Pontevedra,Cabral
 Cruzamento Norte da A-62 com a A-66,Villares de la Reina,Salamanca,
+Cruzamento Norte da V-30 com a V-31,València / Valencia,València / Valencia,Quatre Carreres
 Cruzamento Oeste da A-3 com a A-40,Tarancón,Cuenca,
 Cruzamento Oeste da A-6 com a A-62,Tordesillas,Valladolid,
 Cruzamento Oeste da A-7 com a MA-24,Málaga,Málaga,Este
@@ -1619,6 +1625,7 @@ Cruzamento Sul da A-44 com a GR-30,Villa de Otura,Granada,
 Cruzamento Sul da A-55 com a AP-9,Tui,Pontevedra,Rebordáns
 Cruzamento Sul da A-62 com a A-66,Salamanca,Salamanca,
 Cruzamento Sul da MA-20 com a MA-21,Torremolinos,Málaga,
+Cruzamento Sul da V-30 com a V-31,València / Valencia,València / Valencia,Pobles del Sud / Poblados del Sur
 "Cuesta de San Vicente, Madrid",Madrid,Comunidade de Madrid,Moncloa-Aravaca
 Cueva de Nerja,Nerja,Málaga,
 Don Benito,Don Benito,Badajoz,
@@ -1752,6 +1759,7 @@ La Redondela,Isla Cristina,Huelva,
 La Torre de Esteban Hambrán,La Torre de Esteban Hambrán,Toledo,
 Laguna del Portil,Punta Umbría,Huelva,
 Lepe,Lepe,Huelva,
+Llocnou de la Corona / Lugar Nuevo de la Corona,Llocnou de la Corona / Lugar Nuevo de la Corona,València / Valencia,
 Los Palacios y Villafranca,Los Palacios y Villafranca,Sevilha,
 M-11 - Saída 1,Madrid,Comunidade de Madrid,Hortaleza
 M-14 - T1-T2-T3 Norte,Madrid,Comunidade de Madrid,Barajas
@@ -1955,6 +1963,7 @@ Ronda Urbana Norte de Sevilha - Pino Montano,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Poligono Calonge,Sevilha,Sevilha,Norte
 Ronda Urbana Norte de Sevilha - Poligono Store,Sevilha,Sevilha,Norte
 Rosal de la Frontera,Rosal de la Frontera,Huelva,
+Rotonda dels Hams / Rotonda de los Anzuelos,València / Valencia,València / Valencia,Quatre Carreres
 SA-20 - Polígono Industrial El Montalvo Este,Carbajosa de la Sagrada,Salamanca,
 SA-20 - Polígono Industrial El Montalvo Oeste,Salamanca,Salamanca,
 Salinas del Odiel,Huelva,Huelva,
@@ -1999,6 +2008,15 @@ Urbanización Dehesa Golf,Aljaraque,Huelva,
 Urbanización La Monacilla,Aljaraque,Huelva,
 Urbanización Las Moreras,Gibraleón,Huelva,
 Urbasur,Isla Cristina,Huelva,
+V-31 - Font de Sant Lluís,València / Valencia,València / Valencia,Quatre Carreres
+V-31 - Saída 3,Silla,València / Valencia,
+V-31 - Saída 5,Silla,València / Valencia,
+V-31 - Saída 6,Beniparrell,València / Valencia,
+V-31 - Saída 7,Albal,València / Valencia,
+V-31 - Saída 8,Catarroja,València / Valencia,
+V-31 - Saída 9,Alfafar,València / Valencia,
+V-31 - Saída 10,Alfafar,València / Valencia,
+V-31 - Saída 11,Sedaví,València / Valencia,
 Valencia del Mombuey,Valencia del Mombuey,Badajoz,
 Villablanca,Villablanca,Huelva,
 Villafranco del Guadiana,Badajoz,Badajoz,

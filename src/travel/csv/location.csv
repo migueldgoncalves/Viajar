@@ -857,6 +857,8 @@ A-7 - Saída 305,36.752072,-3.751308,129,,1500
 A-7 - Saída 314,36.757942,-3.660788,167,,1500
 A-7 - Saída 322,36.773751,-3.57678,94,,1500
 A-7 - Saída 342,36.719364,-3.433188,160,,1500
+A-7 - Saída 344,39.41690,-0.50914,77,,3400
+A-7 - Saída 351,39.37084,-0.45435,36,,3400
 A-7 - Saída 354,36.746138,-3.355915,138,,1900
 A-7 - Saída 356,39.33420,-0.43215,28,,3400
 A-7 - Saída 357,39.32521,-0.43589,26,,3300
@@ -1501,6 +1503,7 @@ Alcaria dos Javazes,37.517812,-7.639286,218,,600
 Alcarias Grandes,37.281621,-7.526595,102,,300
 Alcoutim,37.469974,-7.472777,23,,10
 Aldeia de Juso,38.7288,-9.4488,81,,2900
+Alfafar Parc,39.41436,-0.38449,3,,3400
 Alferce,37.333179,-8.489565,330,,500
 Algar de Benagil,37.087171,-8.423721,0,,500
 Algarve Shopping,37.127444, -8.280092,89,,400
@@ -1538,6 +1541,7 @@ AP-7 - Saída 172,36.499568,-5.006086,61,,900
 AP-7 - Saída 200,36.505418,-4.716355,113,,900
 AP-7 - Saída 213,36.566292,-4.629587,44,,900
 AP-7 - Saída 226,36.637387,-4.509438,77,,1200
+AP-7 - Saída 532,39.30903,-0.40389,9,,3400
 AP-9 - Saída 41,43.080774,-8.356732,361,,3100
 AP-9 - Saída 55,42.978836,-8.439179,257,,3100
 AP-9 - Saída 60,42.936546,-8.465131,300,,3100
@@ -1616,6 +1620,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Seseña,40.128144,-3.677999,639,,1400
 Área de Serviço de Silves,37.151517,-8.427001,63,,400
 Área de Serviço de Sintra,38.792561,-9.358412,203,,1400
+Área de Serviço de Torrent - Picassent,39.40090,-0.49261,93,,3400
 Área de Serviço de Vendas Novas,38.621733,-8.578584,78,,800
 Área de Serviço de Vila Velha de Ródão,39.573167,-7.782672,205,,2000
 Área de Serviço de Villacastín,40.771393,-4.397954,1152,,2500
@@ -2054,6 +2059,7 @@ Cruzamento Norte da A-7 com a A-30,38.03055,-1.15462,92,,2400
 Cruzamento Norte da A-44 com a GR-30,37.271002,-3.658168,672,,1400
 Cruzamento Norte da A-55 com a AP-9,42.21112,-8.66209,270,,2300
 Cruzamento Norte da A-62 com a A-66,40.99619,-5.67464,811,,2600
+Cruzamento Norte da V-30 com a V-31,39.43656,-0.37016,10,,3400
 Cruzamento Oeste da A-3 com a A-40,39.99650,-3.01502,810,,3100
 Cruzamento Oeste da A-6 com a A-62,41.5118,-5.0178,685,,2900
 Cruzamento Oeste da A-7 com a MA-24,36.732357,-4.353453,106,,1200
@@ -2065,6 +2071,7 @@ Cruzamento Sul da A-44 com a GR-30,37.058625,-3.655178,828,,1500
 Cruzamento Sul da A-55 com a AP-9,42.06719,-8.63911,19,,2300
 Cruzamento Sul da A-62 com a A-66,40.956685,-5.708123,795,,2600
 Cruzamento Sul da MA-20 com a MA-21,36.648404,-4.488732,24,,1200
+Cruzamento Sul da V-30 com a V-31,39.43459,-0.37041,3,,3400
 Cuba,38.165358,-7.891609,175,,800
 "Cuesta de San Vicente, Madrid",40.420373,-3.715705,609,,1400
 Cueva de Nerja,36.762029,-3.845080,158,,1500
@@ -2786,6 +2793,7 @@ Laranjeiras,37.403058,-7.457947,10,,10
 Lepe,37.255024,-7.20303,21,,200
 Lisboa Camping & Bungalows,38.72415,-9.20488,91,Parque Florestal de Monsanto,2300
 Livramento,37.074243,-7.732431,10,,200
+Llocnou de la Corona / Lugar Nuevo de la Corona,39.42061,-0.38200,7,,3400
 Lombardos,37.587178,-7.642559,123,Parque Natural do Vale do Guadiana,600
 Los Palacios y Villafranca,37.1617,-5.9238,13,,2700
 Loulé,37.138646,-8.020993,176,,400
@@ -3146,6 +3154,7 @@ Ronda Urbana Norte de Sevilha - Pino Montano,37.417398,-5.965617,11,,300
 Ronda Urbana Norte de Sevilha - Poligono Calonge,37.413666,-5.950079,18,,300
 Ronda Urbana Norte de Sevilha - Poligono Store,37.41612,-5.956364,18,,300
 Rosal de la Frontera,37.967832,-7.220338,220,,700
+Rotonda dels Hams / Rotonda de los Anzuelos,39.44613,-0.36889,0,,3400
 Rotunda da Árvore,37.391148,-7.445127,25,,10
 "Rotunda dos Golfinhos, Setúbal",38.53596,-8.87468,40,,2300
 Ruínas Romanas de Milreu,37.094824,-7.904695,74,,300
@@ -3266,6 +3275,15 @@ Urbanización Dehesa Golf,37.2849,-7.0079,8,,3300
 Urbanización La Monacilla,37.2911,-6.9942,14,,3300
 Urbanización Las Moreras,37.2446,-7.0320,28,,2600
 Urbasur,37.206556,-7.247987,7,,1800
+V-31 - Font de Sant Lluís,39.44501,-0.36898,10,,3400
+V-31 - Saída 3,39.36710,-0.42624,18,,3400
+V-31 - Saída 5,39.37543,-0.41488,6,,3400
+V-31 - Saída 6,39.37984,-0.40051,6,,3400
+V-31 - Saída 7,39.38733,-0.39577,4,,3400
+V-31 - Saída 8,39.40015,-0.38724,10,,3400
+V-31 - Saída 9,39.41148,-0.37968,6,,3400
+V-31 - Saída 10,39.41730,-0.37678,5,,3400
+V-31 - Saída 11,39.42312,-0.37394,10,,3400
 Vale de Andreu,37.266109,-7.504033,87,,300
 Vale do Lobo,37.054282,-8.061386,33,,400
 Vale do Pereiro,37.359369,-7.531822,188,,300
