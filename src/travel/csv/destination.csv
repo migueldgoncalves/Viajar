@@ -1814,6 +1814,43 @@ A-3 - Saída 186,A-3 - Saída 207,Car,True,Valência
 A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,False,Valência
 A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,True,A-31 - Albacete
 A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,True,Madrid
+A-3 - Saída 207,A-3 - Saída 212,Car,False,Madrid
+A-3 - Saída 207,A-3 - Saída 212,Car,True,Utiel
+A-3 - Saída 207,A-3 - Saída 212,Car,True,Valência
+A-3 - Saída 212,A-3 - Saída 225,Car,False,Madrid
+A-3 - Saída 212,A-3 - Saída 225,Car,False,Motilla del Palancar
+A-3 - Saída 212,A-3 - Saída 225,Car,True,Utiel
+A-3 - Saída 212,A-3 - Saída 225,Car,True,Valência
+A-3 - Saída 225,A-3 - Saída 231,Car,False,Madrid
+A-3 - Saída 225,A-3 - Saída 231,Car,False,Motilla del Palancar
+A-3 - Saída 225,A-3 - Saída 231,Car,True,Utiel
+A-3 - Saída 225,A-3 - Saída 231,Car,True,Valência
+A-3 - Saída 231,A-3 - Saída 237,Car,False,Madrid
+A-3 - Saída 231,A-3 - Saída 237,Car,False,Motilla del Palancar
+A-3 - Saída 231,A-3 - Saída 237,Car,True,Utiel
+A-3 - Saída 231,A-3 - Saída 237,Car,True,Valência
+A-3 - Saída 237,A-3 - Saída 242,Car,False,Madrid
+A-3 - Saída 237,A-3 - Saída 242,Car,True,Utiel
+A-3 - Saída 237,A-3 - Saída 242,Car,True,Valência
+A-3 - Saída 242,A-3 - Viaducto del Embalse,Car,False,Madrid
+A-3 - Saída 242,A-3 - Viaducto del Embalse,Car,False,Motilla del Palancar
+A-3 - Saída 242,A-3 - Viaducto del Embalse,Car,True,Valência
+A-3 - Saída 255,A-3 - Saída 261,Car,False,Madrid
+A-3 - Saída 255,A-3 - Saída 261,Car,False,Motilla del Palancar
+A-3 - Saída 255,A-3 - Saída 261,Car,True,Utiel
+A-3 - Saída 255,A-3 - Saída 261,Car,True,Valência
+A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,False,Valência
+A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,True,Madrid
+A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,True,Motilla del Palancar
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,False,Valência
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,True,Madrid
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,True,Motilla del Palancar
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Istmo,Car,False,Madrid
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Istmo,Car,False,Motilla del Palancar
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Istmo,Car,True,Valência
+A-3 - Viaducto de La Vid,A-3 - Viaducto del Istmo,Car,False,Valência
+A-3 - Viaducto de La Vid,A-3 - Viaducto del Istmo,Car,True,Madrid
+A-3 - Viaducto de La Vid,A-3 - Viaducto del Istmo,Car,True,Motilla del Palancar
 A-4 - Hiper Usera,A-4 - Saída 20,Car,False,Madrid
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Aranjuez
 A-4 - Hiper Usera,A-4 - Saída 20,Car,True,Córdoba
@@ -4312,6 +4349,20 @@ A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,False,Málaga
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,True,A-44 - Granada
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,True,Almería
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,True,Motril
+A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,False,Barcelona
+A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,True,A-3 - Madrid
+A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,True,Alacant/Alicante
+A-7 - Saída 341,A-7 - Saída 344,Car,False,A-3 - Madrid
+A-7 - Saída 341,A-7 - Saída 344,Car,False,Aeroporto de Valência
+A-7 - Saída 341,A-7 - Saída 344,Car,False,Barcelona
+A-7 - Saída 341,A-7 - Saída 344,Car,True,Alacant/Alicante
+A-7 - Saída 341,A-7 - Saída 344,Car,True,Albacete
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,False,Alacant/Alicante
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,False,Albacete
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,True,A-3 - Madrid
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,True,Aeroporto de Valência
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,True,Barcelona
 A-7 - Saída 342,A-7 - Saída 354,Car,False,Málaga
 A-7 - Saída 342,A-7 - Saída 354,Car,False,Motril
 A-7 - Saída 342,A-7 - Saída 354,Car,True,Adra
@@ -8232,6 +8283,10 @@ Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,True,A-42
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Barcelona
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,False,Zaragoza
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,True,Madrid
+Cruzamento da A-3 com a A-7,Cruzamento da A-7 com a CV-36,Car,False,Barcelona
+Cruzamento da A-3 com a A-7,Cruzamento da A-7 com a CV-36,Car,False,Castelló de la Plana/Castellón de la Plana
+Cruzamento da A-3 com a A-7,Cruzamento da A-7 com a CV-36,Car,True,Alacant/Alicante
+Cruzamento da A-3 com a A-7,Cruzamento da A-7 com a CV-36,Car,True,Albacete
 Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,False,Madrid
 Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,True,Motilla del Palancar
 Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,True,Valência

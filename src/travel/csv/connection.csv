@@ -493,6 +493,17 @@ A-3 - Saída 168,A-3 - Saída 175,Car,7.8,A-3,S,2,1
 A-3 - Saída 175,Cruzamento da A-3 com a A-31,Car,2.1,A-3,SE,2,1
 A-3 - Saída 186,A-3 - Saída 207,Car,20.2,A-3,E,2,1
 A-3 - Saída 186,Cruzamento da A-3 com a A-43,Car,6.4,A-3,NW,1,2
+A-3 - Saída 207,A-3 - Saída 212,Car,5.3,A-3,NE,2,1
+A-3 - Saída 212,A-3 - Saída 225,Car,13.1,A-3,E,2,1
+A-3 - Saída 225,A-3 - Saída 231,Car,7.0,A-3,E,2,1
+A-3 - Saída 231,A-3 - Saída 237,Car,5.7,A-3,E,2,1
+A-3 - Saída 237,A-3 - Saída 242,Car,4.4,A-3,NE,2,1
+A-3 - Saída 242,A-3 - Viaducto del Embalse,Car,5.3,A-3,NE,2,1
+A-3 - Saída 255,A-3 - Saída 261,Car,6.5,A-3,E,2,1
+A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,5.8,A-3,NW,1,2
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,0.5,A-3,SW,1,2
+A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Istmo,Car,0.7,A-3,E,2,1
+A-3 - Viaducto de La Vid,A-3 - Viaducto del Istmo,Car,0.8,A-3,NW,1,2
 A-4 - Hiper Usera,A-4 - Saída 20,Car,1.2,A-4,S,1,2
 A-4 - Hiper Usera,A-4 - Sul do Polígono Industrial Las Arenas,Car,0.7,A-4,N,2,1
 A-4 - Polígono Industrial Los Molinos,A-4 - Polígono Industrial Los Olivos,Car,0.2,A-4,N,2,1
@@ -1121,6 +1132,9 @@ A-7 - Saída 295,Cueva de Nerja,Car,2.2,,E,3,1
 A-7 - Saída 305,A-7 - Saída 314,Car,9.1,A-7,E,2,1
 A-7 - Saída 314,A-7 - Saída 322,Car,8.1,A-7,NE,2,1
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,2.5,A-7,NE,2,1
+A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,5.3,A-7 - By-pass de Valencia,SW,1,2
+A-7 - Saída 341,A-7 - Saída 344,Car,3.2,A-7 - By-pass de Valencia,SE,1,2
+A-7 - Saída 341,Cruzamento da A-7 com a CV-36,Car,0.6,A-7 - By-pass de Valencia,NW,2,1
 A-7 - Saída 342,A-7 - Saída 354,Car,10.5,A-7,E,2,1
 A-7 - Saída 342,Cruzamento da A-7 com a GR-16,Car,5.9,A-7,NW,1,2
 A-7 - Saída 344,Área de Serviço de Torrent - Picassent,Car,2.4,A-7 - By-pass de Valencia,SE,1,2
@@ -2585,6 +2599,7 @@ Cruzamento da A-2 com a M-14,Cruzamento da M-14 com a M-21 e a M-40,Car,1.1,M-14
 Cruzamento da A-2 com a M-30,M-30 - Saída 4,Car,0.8,M-30,N,2,1
 Cruzamento da A-2 com a M-30,M-30 - Saída 5B-6A,Car,0.8,M-30,S,1,2
 Cruzamento da A-2 com a R-2,R-2 - Saída 60,Car,0.7,R-2,W,3,1
+Cruzamento da A-3 com a A-7,Cruzamento da A-7 com a CV-36,Car,3.9,A-7 - By-pass de Valencia,S,1,2
 Cruzamento da A-3 com a A-31,Cruzamento da A-3 com a A-43,Car,2.4,A-3,SE,2,1
 Cruzamento da A-3 com a A-43,Cruzamento da A-31 com a A-43,Car,1.6,A-43,W,3,1
 Cruzamento da A-3 com a M-30,M-30 - Saída 8,Car,0.7,M-30,NE,2,1
