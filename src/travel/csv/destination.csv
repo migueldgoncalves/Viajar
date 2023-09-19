@@ -1842,6 +1842,107 @@ A-3 - Saída 255,A-3 - Saída 261,Car,True,Valência
 A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,False,Valência
 A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,True,Madrid
 A-3 - Saída 255,A-3 - Viaducto de La Vid,Car,True,Motilla del Palancar
+A-3 - Saída 261,A-3 - Saída 266,Car,False,Madrid
+A-3 - Saída 261,A-3 - Saída 266,Car,False,Motilla del Palancar
+A-3 - Saída 261,A-3 - Saída 266,Car,True,Utiel
+A-3 - Saída 261,A-3 - Saída 266,Car,True,València/Valencia
+A-3 - Saída 266,A-3 - Saída 270,Car,False,Madrid
+A-3 - Saída 266,A-3 - Saída 270,Car,False,Motilla del Palancar
+A-3 - Saída 266,A-3 - Saída 270,Car,True,Utiel
+A-3 - Saída 266,A-3 - Saída 270,Car,True,València/Valencia
+A-3 - Saída 270,A-3 - Saída 275,Car,False,Madrid
+A-3 - Saída 270,A-3 - Saída 275,Car,False,Motilla del Palancar
+A-3 - Saída 270,A-3 - Saída 275,Car,True,Utiel
+A-3 - Saída 270,A-3 - Saída 275,Car,True,València/Valencia
+A-3 - Saída 275,A-3 - Saída 278,Car,False,Madrid
+A-3 - Saída 275,A-3 - Saída 278,Car,False,Motilla del Palancar
+A-3 - Saída 275,A-3 - Saída 278,Car,True,Requena
+A-3 - Saída 275,A-3 - Saída 278,Car,True,València/Valencia
+A-3 - Saída 278,A-3 - Saída 281,Car,False,Madrid
+A-3 - Saída 278,A-3 - Saída 281,Car,False,Utiel
+A-3 - Saída 278,A-3 - Saída 281,Car,True,Requena
+A-3 - Saída 278,A-3 - Saída 281,Car,True,València/Valencia
+A-3 - Saída 281,A-3 - Saída 283,Car,False,Madrid
+A-3 - Saída 281,A-3 - Saída 283,Car,False,Utiel
+A-3 - Saída 281,A-3 - Saída 283,Car,True,Requena
+A-3 - Saída 281,A-3 - Saída 283,Car,True,València/Valencia
+A-3 - Saída 283,A-3 - Saída 285,Car,False,Madrid
+A-3 - Saída 283,A-3 - Saída 285,Car,False,Utiel
+A-3 - Saída 283,A-3 - Saída 285,Car,True,Requena
+A-3 - Saída 283,A-3 - Saída 285,Car,True,València/Valencia
+A-3 - Saída 285,A-3 - Saída 289,Car,False,Madrid
+A-3 - Saída 285,A-3 - Saída 289,Car,False,Utiel
+A-3 - Saída 285,A-3 - Saída 289,Car,True,Chiva
+A-3 - Saída 285,A-3 - Saída 289,Car,True,València/Valencia
+A-3 - Saída 289,A-3 - Saída 291,Car,False,Madrid
+A-3 - Saída 289,A-3 - Saída 291,Car,False,Utiel
+A-3 - Saída 289,A-3 - Saída 291,Car,True,Chiva
+A-3 - Saída 289,A-3 - Saída 291,Car,True,València/Valencia
+A-3 - Saída 291,A-3 - Saída 297,Car,False,Madrid
+A-3 - Saída 291,A-3 - Saída 297,Car,True,Chiva
+A-3 - Saída 291,A-3 - Saída 297,Car,True,València/Valencia
+A-3 - Saída 297,A-3 - Saída 302,Car,False,Madrid
+A-3 - Saída 297,A-3 - Saída 302,Car,True,Chiva
+A-3 - Saída 297,A-3 - Saída 302,Car,True,València/Valencia
+A-3 - Saída 302,A-3 - Saída 304,Car,False,Madrid
+A-3 - Saída 302,A-3 - Saída 304,Car,False,Requena
+A-3 - Saída 302,A-3 - Saída 304,Car,True,Chiva
+A-3 - Saída 302,A-3 - Saída 304,Car,True,València/Valencia
+A-3 - Saída 304,A-3 - Saída 306,Car,False,Madrid
+A-3 - Saída 304,A-3 - Saída 306,Car,False,Requena
+A-3 - Saída 304,A-3 - Saída 306,Car,True,Chiva
+A-3 - Saída 304,A-3 - Saída 306,Car,True,València/Valencia
+A-3 - Saída 306,A-3 - Saída 311,Car,False,Madrid
+A-3 - Saída 306,A-3 - Saída 311,Car,True,Chiva
+A-3 - Saída 306,A-3 - Saída 311,Car,True,València/Valencia
+A-3 - Saída 311,A-3 - Viaducto de Buñol,Car,False,Madrid
+A-3 - Saída 311,A-3 - Viaducto de Buñol,Car,False,Requena
+A-3 - Saída 311,A-3 - Viaducto de Buñol,Car,True,Chiva
+A-3 - Saída 311,A-3 - Viaducto de Buñol,Car,True,València/Valencia
+A-3 - Saída 319,A-3 - Saída 322,Car,False,Madrid
+A-3 - Saída 319,A-3 - Saída 322,Car,True,València/Valencia
+A-3 - Saída 319,A-3 - Viaducto de Buñol,Car,False,Chiva
+A-3 - Saída 319,A-3 - Viaducto de Buñol,Car,False,València/Valencia
+A-3 - Saída 319,A-3 - Viaducto de Buñol,Car,True,Madrid
+A-3 - Saída 319,A-3 - Viaducto de Buñol,Car,True,Requena
+A-3 - Saída 322,A-3 - Saída 323,Car,False,Madrid
+A-3 - Saída 322,A-3 - Saída 323,Car,False,Requena
+A-3 - Saída 322,A-3 - Saída 323,Car,True,Chiva
+A-3 - Saída 322,A-3 - Saída 323,Car,True,València/Valencia
+A-3 - Saída 323,A-3 - Saída 326,Car,False,Madrid
+A-3 - Saída 323,A-3 - Saída 326,Car,False,Requena
+A-3 - Saída 323,A-3 - Saída 326,Car,True,Aeroporto de Valência
+A-3 - Saída 323,A-3 - Saída 326,Car,True,València/Valencia
+A-3 - Saída 326,A-3 - Saída 327,Car,False,Chiva
+A-3 - Saída 326,A-3 - Saída 327,Car,False,Madrid
+A-3 - Saída 326,A-3 - Saída 327,Car,True,València/Valencia
+A-3 - Saída 327,A-3 - Saída 332,Car,False,Chiva
+A-3 - Saída 327,A-3 - Saída 332,Car,False,Madrid
+A-3 - Saída 327,A-3 - Saída 332,Car,True,Aeroporto de Valência
+A-3 - Saída 327,A-3 - Saída 332,Car,True,València/Valencia
+A-3 - Saída 332,A-3 - Saída 334,Car,False,Chiva
+A-3 - Saída 332,A-3 - Saída 334,Car,False,Madrid
+A-3 - Saída 332,A-3 - Saída 334,Car,True,A-7 - Alicante/Barcelona
+A-3 - Saída 332,A-3 - Saída 334,Car,True,Aeroporto de Valência
+A-3 - Saída 332,A-3 - Saída 334,Car,True,València/Valencia
+A-3 - Saída 334,A-3 - Saída 337,Car,False,Chiva
+A-3 - Saída 334,A-3 - Saída 337,Car,False,Madrid
+A-3 - Saída 334,A-3 - Saída 337,Car,True,A-7 - Alicante/Barcelona
+A-3 - Saída 334,A-3 - Saída 337,Car,True,Aeroporto de Valência
+A-3 - Saída 334,A-3 - Saída 337,Car,True,València/Valencia
+A-3 - Saída 337,A-3 - Saída 338,Car,False,Chiva
+A-3 - Saída 337,A-3 - Saída 338,Car,False,Madrid
+A-3 - Saída 337,A-3 - Saída 338,Car,True,A-7 - Alicante/Barcelona
+A-3 - Saída 337,A-3 - Saída 338,Car,True,Aeroporto de Valência
+A-3 - Saída 337,A-3 - Saída 338,Car,True,València/Valencia
+A-3 - Saída 338,Cruzamento da A-3 com a A-7,Car,False,Chiva
+A-3 - Saída 338,Cruzamento da A-3 com a A-7,Car,False,Madrid
+A-3 - Saída 338,Cruzamento da A-3 com a A-7,Car,True,Aeroporto de Valência
+A-3 - Saída 338,Cruzamento da A-3 com a A-7,Car,True,València/Valencia
+A-3 - Saída 341,Cruzamento da A-3 com a A-7,Car,False,Aeroporto de Valência
+A-3 - Saída 341,Cruzamento da A-3 com a A-7,Car,False,València/Valencia
+A-3 - Saída 341,Cruzamento da A-3 com a A-7,Car,True,A-7 - Alicante/Barcelona
+A-3 - Saída 341,Cruzamento da A-3 com a A-7,Car,True,Madrid
 A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,False,Valência
 A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,True,Madrid
 A-3 - Túnel del Rabo de la Sartén,A-3 - Viaducto del Embalse,Car,True,Motilla del Palancar
