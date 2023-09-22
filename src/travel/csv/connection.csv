@@ -449,6 +449,7 @@ A-3 - Saída 25,A-3 - Saída 28,Car,2.9,A-3,SE,2,1
 A-3 - Saída 28,A-3 - Saída 33,Car,4.7,A-3,E,2,1
 A-3 - Saída 33,Cruzamento da A-3 com a R-3,Car,0.9,A-3,E,2,1
 A-3 - Saída 35,A-3 - Saída 38,Car,2.6,A-3,SE,2,1
+A-3 - Saída 35,Centro de Controlo Hispasat de Arganda del Rey,Car,2.2,,NW,3,1
 A-3 - Saída 35,Cruzamento da A-3 com a R-3,Car,1.7,A-3,NW,1,2
 A-3 - Saída 38,A-3 - Saída 41,Car,3.5,A-3,SE,2,1
 A-3 - Saída 41,A-3 - Saída 48,Car,7.4,A-3,SE,2,1
@@ -2259,6 +2260,8 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Seseña,R-4 - Saída 12,Car,7.7,R-4,NW,1,2
 Área de Serviço de Seseña,R-4 - Saída 22,Car,2.5,R-4,SE,2,1
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,1.2,A16,S,1,2
+Área de Serviço de Támbora,R-3 - Saída 12,Car,6.2,R-3,NW,1,2
+Área de Serviço de Támbora,R-3 - Saída 21,Car,2.1,R-3,S,2,1
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,6.2,A6,SW,1,3
 Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-51,Car,1.9,AP-6,W,2,1
 Área de Serviço de Villacastín,Cruzamento da AP-6 com a AP-61,Car,18.2,AP-6,E,1,2
@@ -2466,6 +2469,7 @@ Caldas de Monchique,Cruzamento da N266 com a N267 Oeste,Car,3.4,,NW,1,3
 "Calle Cartagena, La Línea de la Concepción",La Línea de la Concepción - Centro da cidade,Car,1.0,,S,2,2
 "Calle Cartagena, La Línea de la Concepción","Paseo del Mediterráneo, La Línea de la Concepción",Car,2.2,,SE,4,3
 "Calle Cervantes, Huelva",Polígono Industrial La Esperanza,Car,1.0,,NE,2,5
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,0.3,M-23,SE,1,1
 "Calle Galaroza, Huelva",Plaza de Fray Genaro Prieto,Car,1.2,,SW,4,5
 "Calle Galaroza, Huelva",Reitoria da Universidade de Huelva,Car,1.0,,SW,5,4
 Calle Gravina x Calle Plus Ultra,Gran Teatro de Huelva,Car,0.3,,SE,5,3
@@ -2552,6 +2556,7 @@ CO-32 - Saída 3,Cruzamento da A-4 com a A-45,Car,1.9,CO-32,SE,2,3
 Coito,Santa Marta,Car,2.9,,NE,1,3
 Coito,Serro da Vinha de Baixo,Car,1.7,,SW,2,1
 Colos,Cruzamento da N123-1 com a N263,Car,3.3,N123-1,SE,2,3
+Complexo de Torrespaña,M-23 - Complexo de Torrespaña,Car,0.2,,SW,1,3
 Comporta,Praia da Comporta,Car,2.1,,W,5,1
 Comporta,Urbanização Soltróia,Boat,12.2,Rio Sado,NW,7,6
 Comporta,Urbanização Soltróia,Car,11.9,,NW,6,1
@@ -2638,6 +2643,7 @@ Cruzamento da A-3 com a M-45,M-45 - Avenida Ensanche de Vallecas,Car,1.1,M-45,SW
 Cruzamento da A-3 com a M-45,M-45 - Saída 20,Car,1.3,M-45,NE,2,1
 Cruzamento da A-3 com a M-50,Cruzamento da M-31 com a M-50,Car,6.2,M-50,W,1,2
 Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,4.9,M-50,NE,2,1
+Cruzamento da A-3 com a R-3,R-3 - Saída 21,Car,8.5,R-3,NW,3,2
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,3.3,A-4,N,1,2
 Cruzamento da A-4 com a A-40,Cruzamento da A-4 com a AP-36 e a R-4,Car,2.6,A-4,SE,1,2
 Cruzamento da A-4 com a A-44,Cruzamento da A-32 com a A-44,Car,3.0,A-44,SE,3,1
@@ -2768,6 +2774,8 @@ Cruzamento da M-12 com a R-2,R-2 - Saída 6,Car,2.2,R-2,N,1,2
 Cruzamento da M-14 com a M-21 e a M-40,M-40 - Saída 10,Car,1.3,M-40,S,1,2
 Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 17,Car,1.9,M-45/M-50,N,2,1
 Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,1.8,M-45/M-50,SE,1,2
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,0.5,M-23,W,3,2
+Cruzamento da M-23 com a M-30,M-23 - Saída 2,Car,1.1,M-23,SE,4,1
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,0.8,M-30,N,2,1
 Cruzamento da M-23 com a M-30,M-30 - Saída 8,Car,0.8,M-30,SW,1,2
 Cruzamento da M-30 com a M-607,M-30 - Glorieta de José Moñino,Car,0.5,M-30 - Avenida de la Ilustración,W,2,1
@@ -2785,17 +2793,22 @@ Cruzamento da M-40 com a M-45,M-40 - Saída 28A,Car,0.8,M-40,E,2,1
 Cruzamento da M-40 com a M-45,M-40 - Saída 30,Car,1.3,M-40,W,1,2
 Cruzamento da M-40 com a M-501,M-40 - Saída 38,Car,2.0,M-40,NE,1,2
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,3.7,M-40,SW,2,1
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,0.7,M-23/R-3,W,3,2
 Cruzamento da M-40 com a R-3,M-40 - Saída 12,Car,1.1,M-40,NE,2,1
 Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,0.9,M-40,SW,1,2
+Cruzamento da M-40 com a R-3,R-3 - Saída 1,Car,1.4,R-3,E,4,1
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,1.3,R-5,SW,3,4
 Cruzamento da M-40 com a R-5,M-40 - Saída 28A,Car,0.9,M-40,SW,1,2
 Cruzamento da M-45 com a M-50,Cruzamento da M-50 com a R-3,Car,3.0,M-50,SW,1,2
 Cruzamento da M-45 com a M-50,M-45 - Saída 27,Car,2.1,M-45,W,3,2
 Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,2.3,M-45/M-50,N,2,1
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,3.9,R-3,E,4,3
 Cruzamento da M-45 com a R-3,M-45 - Saída 20,Car,2.6,M-45,SW,1,2
 Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,1.7,M-45,NE,2,1
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,2.8,R-3,NW,3,2
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,4.1,M-50,S,2,1
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,2.8,M-50,NW,1,2
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,4.1,R-3,SE,4,1
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,2.1,R-4,SW,3,1
 Cruzamento da M-100 com a R-2,Cruzamento Este da M-50 com a R-2,Car,7.5,R-2,W,2,1
 Cruzamento da M-100 com a R-2,R-2 - Saída 33,Car,8.6,R-2,E,1,2
@@ -3931,6 +3944,9 @@ Luz de Tavira,Santo Estêvão,Car,4.2,,N,5,4
 "Luz, Lagos",N125 - Acesso à Saída 1 da A22,Car,4.2,,NE,2,5
 Luzianes,São Martinho das Amoreiras,Car,12.4,N123,NE,3,1
 M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Car,1.3,M-14,S,1,2
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,0.1,M-23,E,2,1
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,0.1,M-23,E,2,1
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,1.7,M-23,E,2,1
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Car,1.0,M-30,NW,1,2
 M-30 - Glorieta de José Moñino,M-30 - Glorieta de las Reales Academias,Car,0.6,M-30 - Avenida de la Ilustración,SW,2,1
 M-30 - Glorieta de las Reales Academias,M-30 - Plaza Juan Pablo Forner,Car,0.4,M-30 - Avenida de la Ilustración,W,2,1

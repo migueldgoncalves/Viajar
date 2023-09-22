@@ -1389,6 +1389,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Salnés,Portas,Pontevedra,Portas
 Área de Serviço de San Simón,Vilaboa,Pontevedra,Cobres
 Área de Serviço de Seseña,Seseña,Toledo,
+Área de Serviço de Támbora,Loeches,Comunidade de Madrid,
 Área de Serviço de Torrent - Picassent,Torrent,València / Valencia,
 Área de Serviço de Villacastín,Villacastín,Segóvia,
 Área de Serviço de Villalba,San Lorenzo de El Escorial,Comunidade de Madrid,
@@ -1428,6 +1429,7 @@ CA-34 - Acesso à Refinaria,San Roque,Cádiz,
 CA-34 - Puente Mayorga,San Roque,Cádiz,
 "Calle Cartagena, La Línea de la Concepción",La Línea de la Concepción,Cádiz,
 "Calle Cervantes, Huelva",Huelva,Huelva,
+Calle de O'Donnell x Calle del Doctor Esquerdo,Madrid,Comunidade de Madrid,Retiro
 "Calle Galaroza, Huelva",Huelva,Huelva,
 Calle Gravina x Calle Plus Ultra,Huelva,Huelva,
 "Campamento, San Roque",San Roque,Cádiz,
@@ -1443,6 +1445,7 @@ Centro Comercial Aqualon,Huelva,Huelva,
 Centro Comercial Costa Luz,Huelva,Huelva,
 Centro Comercial Holea,Huelva,Huelva,
 "Centro Comercial Vialia, Vigo",Vigo,Pontevedra,Vigo
+Centro de Controlo Hispasat de Arganda del Rey,Arganda del Rey,Comunidade de Madrid,
 Centro Penitenciario de Huelva,Huelva,Huelva,
 Cidade da Cultura,Santiago de Compostela,A Coruña,Santiago de Compostela
 CM-41 - Saída 2,Casarrubios del Monte,Toledo,
@@ -1450,6 +1453,7 @@ CM-41 - Saída 6,Casarrubios del Monte,Toledo,
 CM-41 - Saída 13,El Viso de San Juan,Toledo,
 CO-32 - Fim,Córdoba,Córdoba,
 CO-32 - Saída 3,Córdoba,Córdoba,
+Complexo de Torrespaña,Madrid,Comunidade de Madrid,Salamanca
 "Convento de Santa María de Gracia, Huelva",Huelva,Huelva,
 Coria del Río,Coria del Río,Sevilha,
 Corrales,Aljaraque,Huelva,
@@ -1804,6 +1808,11 @@ Los Palacios y Villafranca,Los Palacios y Villafranca,Sevilha,
 M-11 - Saída 1,Madrid,Comunidade de Madrid,Hortaleza
 M-14 - T1-T2-T3 Norte,Madrid,Comunidade de Madrid,Barajas
 M-14 - T1-T2-T3 Sul,Madrid,Comunidade de Madrid,Barajas
+M-23 - Calle de Saliente,Madrid,Comunidade de Madrid,Salamanca
+M-23 - Calle del Alcalde Sainz de Baranda,Madrid,Comunidade de Madrid,Salamanca
+M-23 - Complexo de Torrespaña,Madrid,Comunidade de Madrid,Salamanca
+M-23 - Saída 2,Madrid,Comunidade de Madrid,Moratalaz
+M-23/R-3 - Saída 3,Madrid,Comunidade de Madrid,Moratalaz
 M-30 - Calle de San Pol de Mar,Madrid,Comunidade de Madrid,Moncloa-Aravaca
 M-30 - Glorieta de José Moñino,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 M-30 - Glorieta de las Reales Academias,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
@@ -1982,6 +1991,9 @@ R-2 - Saída 33,Meco,Comunidade de Madrid,
 R-2 - Saída 44,Cabanillas del Campo,Guadalajara,
 R-2 - Saída 54,Marchamalo,Guadalajara,
 R-2 - Saída 60,Guadalajara,Guadalajara,
+R-3 - Saída 1,Madrid,Comunidade de Madrid,San Blas-Canillejas
+R-3 - Saída 12,Mejorada del Campo,Comunidade de Madrid,
+R-3 - Saída 21,Arganda del Rey,Comunidade de Madrid,
 R-4 - Saída 1,Pinto,Comunidade de Madrid,
 R-4 - Saída 4,Pinto,Comunidade de Madrid,
 R-4 - Saída 12,Torrejón de Velasco,Comunidade de Madrid,

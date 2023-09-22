@@ -1658,6 +1658,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Seseña,40.128144,-3.677999,639,,1400
 Área de Serviço de Silves,37.151517,-8.427001,63,,400
 Área de Serviço de Sintra,38.792561,-9.358412,203,,1400
+Área de Serviço de Támbora,40.34613,-3.44992,578,,3400
 Área de Serviço de Torrent - Picassent,39.40090,-0.49261,93,,3400
 Área de Serviço de Vendas Novas,38.621733,-8.578584,78,,800
 Área de Serviço de Vila Velha de Ródão,39.573167,-7.782672,205,,2000
@@ -1751,6 +1752,7 @@ Cais Palafítico da Carrasqueira,38.412722,-8.757114,1,Reserva Natural do Estuá
 Caldas de Monchique,37.284505,-8.554239,210,,500
 "Calle Cartagena, La Línea de la Concepción",36.176928,-5.348877,9,,1200
 "Calle Cervantes, Huelva",37.25635,-6.92495,4,,2100
+Calle de O'Donnell x Calle del Doctor Esquerdo,40.42117,-3.66899,673,,3400
 "Calle Galaroza, Huelva",37.26359,-6.93419,23,,2100
 Calle Gravina x Calle Plus Ultra,37.25736,-6.95455,3,,2100
 "Campamento, San Roque",36.175365,-5.374118,10,,1200
@@ -1782,6 +1784,7 @@ Centro Comercial Aqualon,37.261455,-6.960993,3,,2100
 Centro Comercial Costa Luz,37.25561,-6.94241,8,,2100
 Centro Comercial Holea,37.271920,-6.920021,15,,2100
 "Centro Comercial Vialia, Vigo",42.23500,-8.71153,50,,3100
+Centro de Controlo Hispasat de Arganda del Rey,40.27223,-3.37849,764,,3400
 Centro Penitenciario de Huelva,37.318956,-6.882963,18,,300
 Cercado,37.428955,-7.518699,196,,300
 Cercal do Alentejo,37.800576,-8.672848,160,,600
@@ -1796,6 +1799,7 @@ CO-32 - Fim,37.867263,-4.812437,102,,800
 CO-32 - Saída 3,37.841956,-4.801985,120,,800
 Coito,37.475472,-7.590636,222,,400
 Colos,37.734081,-8.459506,151,,800
+Complexo de Torrespaña,40.42056,-3.66252,659,,3400
 Comporta,38.379786,-8.784954,9,Reserva Natural do Estuário do Sado,1500
 "Conceição, Faro",37.061574,-7.9177,33,,300
 "Conceição, Tavira",37.147989,-7.604968,29,,100
@@ -2843,6 +2847,11 @@ Luzianes,37.586656,-8.491707,109,,700
 M-11 - Saída 1,40.483587,-3.663497,702,,1600
 M-14 - T1-T2-T3 Norte,40.473276,-3.574267,605,,2000
 M-14 - T1-T2-T3 Sul,40.462608,-3.575547,606,,2000
+M-23 - Calle de Saliente,40.42046,-3.66598,668,,3400
+M-23 - Calle del Alcalde Sainz de Baranda,40.42022,-3.66498,666,,3400
+M-23 - Complexo de Torrespaña,40.42001,-3.66411,659,,3400
+M-23 - Saída 2,40.41518,-3.64705,662,,3400
+M-23/R-3 - Saída 3,40.41438,-3.62759,709,,3400
 M-30 - Calle de San Pol de Mar,40.423108,-3.727992,581,,1400
 M-30 - Glorieta de José Moñino,40.483893,-3.699504,690,,1600
 M-30 - Glorieta de las Reales Academias,40.481928,-3.705131,684,,1600
@@ -3161,6 +3170,9 @@ R-2 - Saída 33,40.5375,-3.3148,624,,2600
 R-2 - Saída 44,40.617469,-3.249399,680,,2600
 R-2 - Saída 54,40.67451,-3.18207,657,,2600
 R-2 - Saída 60,40.66157,-3.11930,731,,2600
+R-3 - Saída 1,40.41199,-3.60369,678,,3400
+R-3 - Saída 12,40.38314,-3.49024,546,,3400
+R-3 - Saída 21,40.32806,-3.44608,581,,3400
 R-4 - Saída 1,40.258799,-3.731782,618,,1400
 R-4 - Saída 4,40.237318,-3.737709,622,,1400
 R-4 - Saída 12,40.181903,-3.709883,655,,1400

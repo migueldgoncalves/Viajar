@@ -7847,6 +7847,12 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,True,A5 - Cascais
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,True,IC19 - Lisboa
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,True,Sintra
+Área de Serviço de Támbora,R-3 - Saída 12,Car,False,Arganda del Rey
+Área de Serviço de Támbora,R-3 - Saída 12,Car,False,Valência
+Área de Serviço de Támbora,R-3 - Saída 12,Car,True,Madrid
+Área de Serviço de Támbora,R-3 - Saída 21,Car,False,Madrid
+Área de Serviço de Támbora,R-3 - Saída 21,Car,True,Arganda del Rey
+Área de Serviço de Támbora,R-3 - Saída 21,Car,True,Valência
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,False,Espanha
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,False,Évora
 Área de Serviço de Vendas Novas,Cruzamento da A2 com a A6 e a A13,Car,False,Vendas Novas
@@ -8055,6 +8061,12 @@ Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,False,Alcácer do 
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Lagos
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Setúbal
 Cais Palafítico da Carrasqueira,Urbanização Soltróia,Boat,True,Tróia
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,False,Madrid - Calle de O'Donnell
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,False,Madrid - Calle del Doctor Esquerdo
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,True,M-30
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,True,M-40
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,True,Madrid - Vicálvaro
+Calle de O'Donnell x Calle del Doctor Esquerdo,M-23 - Calle de Saliente,Car,True,R-3 - Valência
 "Campo de Madalena, Viseu",IP5 - Saída 16,Car,False,Castro Daire
 "Campo de Madalena, Viseu",IP5 - Saída 16,Car,False,Lamego
 "Campo de Madalena, Viseu",IP5 - Saída 16,Car,True,A25 - Aveiro/Guarda
@@ -8496,6 +8508,9 @@ Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,A-2
 Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,Aeroporto de Madrid-Barajas
 Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-2
 Cruzamento da A-3 com a M-50,Cruzamento da M-50 com a R-3,Car,True,R-3 - Valência
+Cruzamento da A-3 com a R-3,R-3 - Saída 21,Car,False,Tarancón
+Cruzamento da A-3 com a R-3,R-3 - Saída 21,Car,False,Valência
+Cruzamento da A-3 com a R-3,R-3 - Saída 21,Car,True,Madrid
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,False,Cádiz
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,False,El Puerto de Santa María
 Cruzamento da A-4 com a A-4a,Cruzamento da A-4 com a A-480,Car,True,Aeroporto de Jerez
@@ -9223,6 +9238,17 @@ Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,A-42
 Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-3 - Valência
 Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-4
 Cruzamento da M-21 com a M-45/M-50,M-45/M-50 - Saída 21,Car,True,R-5
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,False,Aeroporto de Madrid-Barajas
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,False,M-30 - Todas as direcções
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,False,M-40
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,False,Madrid - Vicálvaro
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,False,R-3 - Valência
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,True,Madrid - Calle de O'Donnell
+Cruzamento da M-23 com a M-30,M-23 - Complexo de Torrespaña,Car,True,Madrid - Centro da cidade
+Cruzamento da M-23 com a M-30,M-23 - Saída 2,Car,False,Madrid - Calle de O'Donnell
+Cruzamento da M-23 com a M-30,M-23 - Saída 2,Car,False,Madrid - Centro da cidade
+Cruzamento da M-23 com a M-30,M-23 - Saída 2,Car,True,Madrid - Vicálvaro
+Cruzamento da M-23 com a M-30,M-23 - Saída 2,Car,True,R-3 - Valência
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-3 - Valencia
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-4
 Cruzamento da M-23 com a M-30,M-30 - Saída 6B,Car,False,A-5
@@ -9378,6 +9404,12 @@ Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,True,A-5
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,True,A-6 - A Coruña
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,True,A-42
 Cruzamento da M-40 com a M-607,M-40 - Saída 54,Car,True,R-5
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,False,Arganda del Rey
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,False,M-40
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,False,Madrid - Vicálvaro
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,False,Valência
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,True,M-30
+Cruzamento da M-40 com a R-3,M-23/R-3 - Saída 3,Car,True,Madrid - Calle de O'Donnell
 Cruzamento da M-40 com a R-3,M-40 - Saída 12,Car,False,A-3 - Valência
 Cruzamento da M-40 com a R-3,M-40 - Saída 12,Car,False,A-4
 Cruzamento da M-40 com a R-3,M-40 - Saída 12,Car,False,A-42
@@ -9404,6 +9436,10 @@ Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,True,A-4
 Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,True,A-42
 Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,True,R-4
 Cruzamento da M-40 com a R-3,M-40 - Saída 14,Car,True,R-5
+Cruzamento da M-40 com a R-3,R-3 - Saída 1,Car,False,M-23 - M-30/Madrid-Calle de O'Donnell
+Cruzamento da M-40 com a R-3,R-3 - Saída 1,Car,False,M-40
+Cruzamento da M-40 com a R-3,R-3 - Saída 1,Car,True,Arganda del Rey
+Cruzamento da M-40 com a R-3,R-3 - Saída 1,Car,True,Valência
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,False,A-2
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,False,A-3
 Cruzamento da M-40 com a R-5,Cruzamento da M-45 com a R-5,Car,False,A-4 - Córdoba
@@ -9454,6 +9490,12 @@ Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,A-1
 Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,A-2 - Zaragoza
 Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,Aeroporto de Madrid-Barajas
 Cruzamento da M-45 com a M-50,M-45/M-50 - Saída 32,Car,True,R-2
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,False,M-30
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,False,M-40
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,False,M-45
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,False,Madrid
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,True,Arganda del Rey
+Cruzamento da M-45 com a R-3,Cruzamento da M-50 com a R-3,Car,True,Valência
 Cruzamento da M-45 com a R-3,M-45 - Saída 20,Car,False,A-1
 Cruzamento da M-45 com a R-3,M-45 - Saída 20,Car,False,A-2 - Zaragoza
 Cruzamento da M-45 com a R-3,M-45 - Saída 20,Car,False,Aeroporto de Madrid-Barajas
@@ -9469,6 +9511,13 @@ Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,False,A-5
 Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,False,A-42
 Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,True,A-2 - Zaragoza
 Cruzamento da M-45 com a R-3,M-45 - Saída 25,Car,True,Aeroporto de Madrid-Barajas
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,False,Arganda del Rey
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,False,M-45
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,False,M-50
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,False,Valência
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,True,M-30
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,True,M-40
+Cruzamento da M-45 com a R-3,R-3 - Saída 1,Car,True,Madrid - Centro da cidade
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,False,A-6 - A Coruña
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,True,A-3
 Cruzamento da M-50 com a M-503,M-50 - Saída 72,Car,True,A-4
@@ -9482,6 +9531,13 @@ Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,False,A-5 - Badajoz
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,False,A-42
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,False,R-5
 Cruzamento da M-50 com a M-503,M-50 - Saída 79,Car,True,A-6 - A Coruña
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,False,M-30
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,False,M-40
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,False,M-45
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,False,M-50
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,False,Madrid
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,True,Arganda del Rey
+Cruzamento da M-50 com a R-3,R-3 - Saída 12,Car,True,Valência
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,False,M-50 - Madrid
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,True,Aranjuez
 Cruzamento da M-50 com a R-4,R-4 - Saída 1,Car,True,Córdoba
@@ -14084,6 +14140,26 @@ M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Car,True,A-2
 M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Car,True,M-40
 M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Car,True,Madrid - Centro da cidade
 M-14 - T1-T2-T3 Norte,M-14 - T1-T2-T3 Sul,Car,True,Todas as direcções
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,False,Madrid - Calle de O'Donnell
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,False,Madrid - Calle del Doctor Esquerdo
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,True,M-30
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,True,M-40
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,True,Madrid - Vicálvaro
+M-23 - Calle de Saliente,M-23 - Calle del Alcalde Sainz de Baranda,Car,True,R-3 - Valência
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,False,Madrid - Calle de O'Donnell
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,False,Madrid - Centro da cidade
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,True,Aeroporto de Madrid-Barajas
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,True,M-30 - Todas as direcções
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,True,M-40
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,True,Madrid - Vicálvaro
+M-23 - Calle del Alcalde Sainz de Baranda,M-23 - Complexo de Torrespaña,Car,True,R-3 - Valência
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,False,M-30
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,False,Madrid - Calle de O'Donnell
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,True,Aeroporto de Madrid-Barajas
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,True,Feria de Madrid
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,True,M-40
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,True,Madrid - Vicálvaro
+M-23 - Saída 2,M-23/R-3 - Saída 3,Car,True,R-3 - Valência
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Car,False,A-3
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Car,False,A-4
 M-30 - Calle de San Pol de Mar,M-30 - Saída 19,Car,False,A-5 - Badajoz
