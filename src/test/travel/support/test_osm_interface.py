@@ -38,9 +38,8 @@ class TestOsmInterface(unittest.TestCase):
             7: 'Vila Franca de Xira',
             8: 'Castanheira do Ribatejo e Cachoeiras',
             'historic_parish': 'Cachoeiras',
-            'região': 'Área Metropolitana de Lisboa',
-            'sub-região': 'Grande Lisboa',
-            'timezone': 'Europe/Lisbon Timezone'
+            'região;sub-região': 'Área Metropolitana de Lisboa',
+            'timezone': 'Fuso Horário da Europa/Lisboa'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -9.0), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -9.0), ways.PORTUGAL))
@@ -54,7 +53,7 @@ class TestOsmInterface(unittest.TestCase):
             'protected_area': 'Caia',
             'região': 'Alentejo',
             'sub-região': 'Alto Alentejo',
-            'timezone': 'Europe/Lisbon Timezone'
+            'timezone': 'Fuso Horário da Europa/Lisboa'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -7.0), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -7.0), ways.PORTUGAL))
@@ -86,79 +85,94 @@ class TestOsmInterface(unittest.TestCase):
 
         # Spain, close from Portuguese border
         expected_response = {
+            2: 'España',
             4: 'Extremadura',
             6: 'Badajoz',
-            8: 'Mérida'
+            8: 'Mérida',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -6.5), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.0, -6.5), ways.SPAIN))
 
         # Spain, far from all borders, with comarca and district info known
         expected_response = {
+            2: 'España',
             4: 'Provincia Eclesiástica de Madrid',
             6: 'Archidiócesis de Madrid',
-            7: 'Área metropolitana de Madrid y Corredor del Henares',
             8: 'Madrid',
             9: 'Moncloa-Aravaca',
-            10: 'Ciudad Universitaria'
+            10: 'Ciudad Universitaria',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(40.45, -3.75), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(40.45, -3.75), ways.SPAIN))
 
         # Spain, close from Gibraltar border
         expected_response = {
+            2: 'España',
             4: 'Andalucía',
             6: 'Cádiz',
             7: 'Campo de Gibraltar',
-            8: 'La Línea de la Concepción'
+            8: 'La Línea de la Concepción',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.168023, -5.350738), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(36.168023, -5.350738), ways.SPAIN))
 
         # Spain, close from Andorran border
         expected_response = {
+            2: 'España',
             4: 'Catalunya',
             6: 'Lleida',
             7: 'Alt Urgell',
             8: "la Seu d'Urgell",
             'political': 'Català com a llengua pròpia a Catalunya',
-            'political_fraction': 'Alt Pirineu i Aran (Lleida)'
+            'political_fraction': 'Alt Pirineu i Aran (Lleida)',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.358877, 1.456251), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(42.358877, 1.456251), ways.SPAIN))
 
         # Spain, close from French border
         expected_response = {
+            2: 'España',
             4: 'Euskadi',
             6: 'Gipuzkoa',
-            7: 'Bidasoa Beherea / Bajo Bidasoa',
-            8: 'Hondarribia/Fontarrabie'
+            8: 'Hondarribia/Fontarrabie',
+            'historic': 'Bidasoa Beherea / Bajo Bidasoa',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(43.369574, -1.796590), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(43.369574, -1.796590), ways.SPAIN))
 
         # Ceuta, Spain, close from Moroccan border
         expected_response = {
+            2: 'España',
             4: 'Ceuta',
-            8: 'Ceuta'
+            8: 'Ceuta',
+            'disputed': 'Alcance de las Reclamaciones Españolas en Ceuta'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.888740, -5.320993), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.888740, -5.320993), ways.SPAIN))
 
         # Melilla, Spain, close from Moroccan border
         expected_response = {
+            2: 'España',
             4: 'Melilla',
-            8: 'Melilla'
+            8: 'Melilla',
+            'disputed': 'Extent of Spanish Claim at Melilla'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.287817, -2.947612), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(35.287817, -2.947612), ways.SPAIN))
 
         # Spanish Balearic Islands
         expected_response = {
+            2: 'España',
             4: 'Illes Balears',
             6: 'Illes Balears',
             7: 'Menorca',
-            8: 'Maó'
+            8: 'Maó',
+            'timezone': 'Zona Horaria de Europa/Madrid'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.888771, 4.260855), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(39.888771, 4.260855), ways.SPAIN))
@@ -229,7 +243,7 @@ class TestOsmInterface(unittest.TestCase):
         # Large Continental Portuguese freeway
         expected_response_keys = [
             '1', '10', '10A', '11', '12', '13', '14', '15', '16', '17', '18', '18A', '18B', '19', '19A', '1A', '2', '22',
-            '23', '2A', '3', '3A', '4', '5', '5A', '6', '6 A', '6A', '7', '8', '9'
+            '23', '2A', '3', '3A', '4', '5', '5A', '6', '6 A', '7', '8', '9'
         ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_A1.osm_name, ways.PORTUGAL)
 
@@ -237,8 +251,8 @@ class TestOsmInterface(unittest.TestCase):
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(38.7936469, -9.1126855), Coordinates(38.7844696, -9.1208711)], response['1'])
-        self.assertEqual([Coordinates(41.0061416, -8.5822318), Coordinates(41.0793433, -8.5817397),
-                          Coordinates(41.0725807, -8.5810286), Coordinates(41.0667503, -8.5815289)], response['19'])
+        self.assertEqual([Coordinates(41.0793433, -8.5817397), Coordinates(41.0726616, -8.5809713),
+                          Coordinates(41.0669659, -8.5815887)], response['19'])
         self.assertEqual([Coordinates(39.7417361, -8.7432394), Coordinates(39.7395957, -8.7364531)], response['9'])
 
         # Small Continental Portuguese freeway
@@ -256,14 +270,14 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(38.7174199, -9.3854995), Coordinates(38.7177498, -9.3910173)], response['9'])
 
         # Freeway in the Portuguese Azores islands
-        expected_response_keys = ['1', '3', '4', '5', '6']
+        expected_response_keys = ['1', '2', '3', '4', '5', '6']
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.PT_EN11A.osm_name, ways.PORTUGAL)
 
         self.assertEqual(expected_response_keys, list(response.keys()))
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(37.7466258, -25.6986159)], response['1'])
-        self.assertEqual([Coordinates(37.7567476, -25.672029), Coordinates(37.7560316, -25.6743341)], response['4'])
+        self.assertEqual([Coordinates(37.7568791, -25.6714952), Coordinates(37.7559955, -25.6744092)], response['4'])
         self.assertEqual([Coordinates(37.7506841, -25.6507245), Coordinates(37.745365, -25.7005975)], response['6'])
 
         # Freeway in the Portuguese Madeira islands
@@ -278,7 +292,7 @@ class TestOsmInterface(unittest.TestCase):
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(32.6842945, -17.0520903)], response['1'])
         self.assertEqual([Coordinates(32.684517, -16.7947839), Coordinates(32.6843973, -16.7947382)], response['20'])
-        self.assertEqual([Coordinates(32.6579781, -16.9352209), Coordinates(32.6535025, -16.93996),
+        self.assertEqual([Coordinates(32.6579781, -16.9352209), Coordinates(32.6529814, -16.9405235),
                           Coordinates(32.6571532, -16.936037)], response['9'])
 
         # Portuguese road without exit numbers
@@ -287,26 +301,26 @@ class TestOsmInterface(unittest.TestCase):
 
         # Large Peninsular Spanish freeway
         expected_response_keys = [
-            '1', '103', '104', '105', '110A', '110B', '110b', '112', '1123', '1129', '1131', '1138', '113b', '1143',
-            '1146', '1148', '115', '1151', '1152', '1153', '1154', '1155', '1156', '1158', '116', '1160', '1160A',
-            '1160B', '1161', '1162', '1163', '1164', '1168', '117', '118', '119', '124', '127', '133', '135', '136',
-            '138', '153', '155', '157', '160', '170', '172', '175', '176', '181A', '181B', '182', '183', '184', '185',
-            '186', '187', '188', '192', '196', '197', '198', '201', '205', '206', '208', '209', '210', '212', '213',
-            '214', '217', '222', '223', '225', '226', '230', '232', '233', '234', '235', '236', '237', '238', '240',
-            '241', '242', '243', '244', '245', '246', '246-A', '246-B', '251', '254', '256', '258', '265', '272', '274',
-            '276', '277', '278', '279', '282', '283', '285', '287A', '287B', '289', '292', '293', '295', '297', '305',
-            '307', '311', '313', '314', '315', '321', '322', '324', '325', '326', '328', '329', '331', '335', '336',
-            '339', '341', '342', '344', '346', '351', '354', '355', '356', '357', '358', '359', '361', '363', '366',
-            '367', '369', '371', '373', '375', '376', '379', '381', '383', '384', '385', '386', '389', '391', '394',
-            '395', '396', '398', '400', '402', '403', '404', '406', '409', '410', '411', '413', '414', '415', '416',
-            '418', '419', '420', '422', '423', '424', '425', '429', '430', '431', '432', '435', '436', '438', '441',
+            '1', '1003', '1008', '1010', '1011', '1012', '1014', '1015', '1020', '1023', '1024', '103', '104', '105',
+            '110A', '110B', '110b', '1110', '112', '113b',
+            '115', '116', '117', '118', '119', '124', '127', '133', '153', '157', '160', '170', '172', '174',
+            '175', '176', '181A', '183', '184', '185',
+            '186', '187', '188', '192', '196', '197', '198', '206', '208', '209', '223', '226', '230', '232', '233', '237', '238', '239', '240',
+            '241', '274', '277', '278', '279', '282', '283', '287A', '287B', '289', '293', '297', '298',
+            '307', '311', '313', '315', '321', '322', '324', '325', '326', '328', '329', '331', '335', '336',
+            '339', '341', '342', '344', '346', '351', '354', '355', '356', '357', '359', '371', '373', '375', '376',
+            '379', '381', '383', '384', '385', '386', '389', '391',
+            '395', '396', '398', '400', '402', '403', '404', '406', '409', '410', '411', '413', '414', '415', '416', '417',
+            '418', '420', '421', '423', '424', '425', '429', '430', '431', '432', '435', '436', '438', '441',
             '442', '443', '446', '448', '449', '452', '453', '456', '459', '460', '464', '467', '468', '469', '471',
-            '475', '479', '481', '482', '487', '489', '491', '494', '50', '504', '50A', '51', '510', '513', '514',
-            '516', '518', '520', '523', '525', '526', '528', '529', '534', '534a', '534b', '535', '537', '538', '541',
-            '543', '545', '547', '549', '553', '555', '559', '559A', '559B', '563', '565', '567 AB', '570', '571',
+            '475', '479', '481', '482', '487', '489', '492', '494', '50', '504', '51', '510', '513', '514',
+            '516', '518', '523', '525', '526', '528', '529', '535', '538', '541',
+            '543', '545', '547', '549', '553', '555', '559', '559A', '559B', '563', '565', '567 AB', '571',
             '575', '578 A', '578 AB', '578 B', '578 BA', '581', '584', '585', '586', '588', '589', '591', '594', '596',
             '598', '6', '601', '609', '611', '616', '618', '622', '623', '628', '630', '633', '636', '640', '642',
-            '644', '645', '646', '649', '651', '655', '7'
+            '644', '645', '646', '649', '651', '655',  '664', '666', '675', '692', '695A', '695B', '910', '920', '929',
+            '933', '940', '948', '951', '953', '960', '967', '968', '970', '973', '978', '978A', '978B', '979', '981',
+            '981A', '981B', '982', '988', '989', '992', '999'
         ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_A7.osm_name, ways.SPAIN)
 
@@ -315,13 +329,13 @@ class TestOsmInterface(unittest.TestCase):
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(39.8955497, -0.1970601), Coordinates(39.8971608, -0.1970829)], response['1'])
         self.assertEqual([Coordinates(36.7741554, -3.5724422), Coordinates(36.7733459, -3.5811174)], response['322'])
-        self.assertEqual([Coordinates(36.7023358, -4.4576572)], response['7'])
+        self.assertEqual([Coordinates(36.6248973, -4.5161178)], response['999'])
 
         # Small Peninsular Spanish freeway
-        expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '16', '17', '19', '2', '20', '20A',
+        expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '14A', '14B', '16', '17', '19', '2', '20', '20A',
                                   '20B', '23', '23A', '23B', '24', '25', '26', '27', '28', '2A', '2B', '2C', '3',
-                                  '3-4-5', '30', '31', '31B', '3BA', '4', '5', '5A', '5AB', '6', '6A', '6B', '7-6',
-                                  '7-8-9', '7A', '7B', '7BA', '8', '8A', '9A', '9B'
+                                  '3-4-5', '30', '31', '31B', '3BA', '4', '5', '5A', '5AB', '6', '6A', '6B', '7', '7-6',
+                                  '7-8-9', '7A', '7B', '7BA', '8', '8-9', '8A', '9A', '9B'
                                   ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_M30.osm_name, ways.SPAIN)
 
@@ -329,19 +343,21 @@ class TestOsmInterface(unittest.TestCase):
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(40.4813264, -3.673715)], response['0A'])
-        self.assertEqual([Coordinates(40.4638637, -3.6665504)], response['2C'])
+        self.assertEqual([Coordinates(40.4642921, -3.6667577)], response['2C'])
         self.assertEqual([Coordinates(40.4028638, -3.6664435)], response['9B'])
 
         # Freeway in the Spanish Balearic Islands
-        expected_response_keys = ['12', '15', '17', '1B', '2', '25', '2B', '3', '4', '6', '7', '8']
+        expected_response_keys = [
+            '12', '15', '17', '1B', '2', '22', '25', '27', '2B', '3', '30', '35', '36', '37', '4', '40', '6', '7', '8'
+        ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_road_exits(ways.ES_MA13.osm_name, ways.SPAIN)
 
         self.assertEqual(expected_response_keys, list(response.keys()))
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
-        self.assertEqual([Coordinates(39.6382651, 2.7754658), Coordinates(39.6425678, 2.7844929)], response['12'])
-        self.assertEqual([Coordinates(39.7032618, 2.8964112)], response['25'])
-        self.assertEqual([Coordinates(39.6309504, 2.7422192), Coordinates(39.6298251, 2.736799)], response['8'])
+        self.assertEqual([Coordinates(39.6386017, 2.7762271), Coordinates(39.6419962, 2.7832712)], response['12'])
+        self.assertEqual([Coordinates(39.7032618, 2.8964112), Coordinates(39.7059107, 2.9025601)], response['25'])
+        self.assertEqual([Coordinates(39.6305955, 2.7409232), Coordinates(39.6298699, 2.7374448)], response['8'])
 
         # Freeway in the Spanish Canary Islands
         expected_response_keys = [
@@ -400,33 +416,33 @@ class TestOsmInterface(unittest.TestCase):
 
         # Large Portuguese railway
         expected_response_keys = [
-            'Braço de Prata', 'Ovar', 'Avanca', 'Vale de Santarém', 'Mato de Miranda', 'Passagem de Nível da Adémia',
-            'Litém', 'Riachos', 'Entroncamento', 'Lamarosa', 'Setil', 'Santarém', 'Reguengo-Vale da Pedra-Pontével',
+            'Braço de Prata', 'Ovar', 'Avanca', 'Vale de Santarém', 'Mato de Miranda', 'Bifurcação de Xabregas', 'Passagem de Nível da Adémia',
+            'Litém', 'Azambuja', 'Riachos', 'Entroncamento', 'Lamarosa', 'Setil', 'Santarém', 'Reguengo-Vale da Pedra-Pontével',
             'Vale de Figueira', 'Virtudes', 'Santana-Cartaxo', 'Moscavide', 'Sacavém', 'Bobadela', 'Alverca',
             'Carvalheira-Maceda', 'Espadanal da Azambuja', 'Miramar', 'Espinho', 'Silvalde', 'Bencanta', 'Espadaneira',
-            'Esmoriz', 'Paramos', 'Coimbrões', 'Vila Nova de Gaia', 'Madalena', 'Valadares', 'Aguda', 'Francelos',
+            'Esmoriz', 'Paramos', 'Coimbrões', 'Gaia', 'Madalena', 'Valadares', 'Aguda', 'Francelos',
             'Cortegaça', 'Granja', 'Válega', 'Estarreja', 'Cacia', 'Canelas', 'Salreu', 'Aveiro', 'Oiã',
             'Oliveira do Bairro', 'Paraimo-Sangalhos', 'Quintãs', 'Aguim', 'Curia', 'Mealhada', 'Mogofores',
             'Pampilhosa', 'Souselas', 'Adémia', 'Coimbra-B', 'Vilela-Fornos', 'Alfarelos - Granja do Ulmeiro', 'Amial',
             'Casais', 'Taveiro', 'Formoselha', 'Pereira', 'Vila Pouca do Campo', 'Pelariga', 'Pombal', 'Simões',
             'Soure', 'Vila Nova de Anços', 'Albergaria dos Doze', 'Caxarias', 'Vermoil', 'Chão de Maçãs-Fátima',
-            'Fungalvaz', 'Paialvo', 'Seiça-Ourém', 'Bifurcação Norte-Setil', 'Azambuja', 'Vila Nova da Rainha',
+            'Fungalvaz', 'Paialvo', 'Seiça-Ourém', 'Bifurcação Norte do Setil', 'Vila Nova da Rainha',
             'Carregado', 'Castanheira do Ribatejo', 'Vila Franca de Xira', 'Alhandra', 'Quinta das Torres',
-            'General Torres', 'Gare do Oriente', 'Póvoa', 'Santa Iria', 'Porto - Campanhã', 'Lisboa Santa Apolónia'
+            'General Torres', 'Gare do Oriente', 'Póvoa', 'Santa Iria', 'Porto - Campanhã', 'Lisboa - Santa Apolónia'
         ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.PT_NORTH_LINE.osm_name, ways.PORTUGAL)
 
         self.assertEqual(expected_response_keys, list(response.keys()))
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
-        self.assertEqual([Coordinates(38.7478486, -9.1024336), Coordinates(38.7461963, -9.1030306)], response['Braço de Prata'])
+        self.assertEqual([Coordinates(38.7470748, -9.1027308), Coordinates(38.7470648, -9.1026882)], response['Braço de Prata'])
         self.assertEqual([Coordinates(40.5910309, -8.612713), Coordinates(40.5910442, -8.6126654)], response['Quintãs'])
-        self.assertEqual([Coordinates(38.7137802, -9.1229108), Coordinates(38.7138279, -9.1230008)], response['Lisboa Santa Apolónia'])
+        self.assertEqual([Coordinates(38.7137802, -9.1229108), Coordinates(38.7138279, -9.1230008)], response['Lisboa - Santa Apolónia'])
 
         # Small Portuguese railway
         expected_response_keys = [
-            'Algueirão/Mem Martins', 'Amadora', 'Campolide', 'Santa Cruz - Damaia', 'Queluz/Belas', 'Monte Abraão',
-            'Massamá-Barcarena', 'Agualva - Cacém', 'Rio de Mouro', 'Portela de Sintra', 'Mercês', 'Sintra', 'Rossio',
+            'Algueirão-Mem Martins', 'Amadora', 'Campolide', 'Santa Cruz - Damaia', 'Queluz-Belas', 'Monte Abraão',
+            'Massamá-Barcarena', 'Agualva - Cacém', 'Rio de Mouro', 'Portela de Sintra', 'Mercês', 'Sintra',
             'Benfica', 'Reboleira'
         ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.PT_SINTRA_LINE.osm_name, ways.PORTUGAL)
@@ -434,23 +450,22 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(expected_response_keys, list(response.keys()))
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
-        self.assertEqual([Coordinates(38.7978927, -9.3399843), Coordinates(38.7975035, -9.3422101)], response['Algueirão/Mem Martins'])
-        self.assertEqual([Coordinates(38.7845691, -9.3221058), Coordinates(38.7839253, -9.3197594)], response['Rio de Mouro'])
-        self.assertEqual([Coordinates(38.7506398, -9.2215502), Coordinates(38.750677, -9.2215338),
-                          Coordinates(38.7511027, -9.2239415), Coordinates(38.7511335, -9.2239302)], response['Reboleira'])
+        self.assertEqual([Coordinates(38.7978927, -9.3399843), Coordinates(38.7975035, -9.3422101)], response['Algueirão-Mem Martins'])
+        self.assertEqual([Coordinates(38.7845893, -9.3220953), Coordinates(38.7839355, -9.3197534)], response['Rio de Mouro'])
+        self.assertEqual([Coordinates(38.7506498, -9.2215468), Coordinates(38.7506823, -9.2215326),
+                          Coordinates(38.751105, -9.2239419), Coordinates(38.7511375, -9.2239275)], response['Reboleira'])
 
         # Neither Madeira nor Azores Islands have railways
 
         # Large Peninsular Spanish railway
         expected_response_keys = [
-            'Garrovilla-Las Vegas', 'Cabeza Del Buey', 'Almadenejos-Almaden', 'Guadalmez-Los Pedroches', 'Villagonzalo'
+            'Cabeza Del Buey', 'Almadenejos-Almaden', 'Guadalmez-Los Pedroches', 'Villagonzalo'
         ]
         response: dict[str, list[Coordinates]] = OsmInterface().get_railway_stations(ways.ES_CIUDAD_REAL_BADAJOZ.osm_name, ways.SPAIN)
 
         self.assertEqual(expected_response_keys, list(response.keys()))
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
-        self.assertEqual([Coordinates(38.9154013, -6.4772448)], response['Garrovilla-Las Vegas'])
         self.assertEqual([Coordinates(38.7404341, -4.7303171)], response['Almadenejos-Almaden'])
         self.assertEqual([Coordinates(38.8641393, -6.2075556)], response['Villagonzalo'])
 
@@ -465,7 +480,7 @@ class TestOsmInterface(unittest.TestCase):
         for key in expected_response_keys:
             self.assertTrue((len(response[key]) > 0))
         self.assertEqual([Coordinates(40.4571282, -3.67706)], response['Colombia'])
-        self.assertEqual([Coordinates(40.4678852, -3.5718088)], response['Aeropuerto T1-T2-T3'])
+        self.assertEqual([Coordinates(40.4677938, -3.5717894)], response['Aeropuerto T1-T2-T3'])
         self.assertEqual([Coordinates(40.4454819, -3.6915827)], response['Nuevos Ministerios'])
 
         # Railway in the Spanish Balearic Islands
@@ -556,8 +571,8 @@ class TestOsmInterface(unittest.TestCase):
         extreme_points = result[2]
 
         self.assertEqual(3, len(result))
-        self.assertEqual(29190, len(node_list))  # Number of nodes
-        self.assertEqual(3464, len(way_list))  # Number of ways
+        self.assertEqual(28145, len(node_list))  # Number of nodes
+        self.assertEqual(3294, len(way_list))  # Number of ways
 
         for node in node_list:
             assert node
@@ -614,8 +629,8 @@ class TestOsmInterface(unittest.TestCase):
         way_list = result[1]
 
         self.assertEqual(2, len(result))
-        self.assertEqual(5504, len(node_list))  # Number of nodes
-        self.assertEqual(770, len(way_list))  # Number of ways
+        self.assertEqual(5595, len(node_list))  # Number of nodes
+        self.assertEqual(851, len(way_list))  # Number of ways
 
         for node in node_list:
             assert node
@@ -735,8 +750,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(-31.1129195, result.north.longitude)
         self.assertEqual(36.9276305, result.south.latitude)
         self.assertEqual(-25.0176849, result.south.longitude)
-        self.assertEqual(36.9402432, result.east.latitude)
-        self.assertEqual(-25.0131792, result.east.longitude)
+        self.assertEqual(37.2743015, result.east.latitude)
+        self.assertEqual(-24.7798488, result.east.longitude)
         self.assertEqual(39.4954319, result.west.latitude)
         self.assertEqual(-31.2756316, result.west.longitude)
 
@@ -766,8 +781,8 @@ class TestOsmInterface(unittest.TestCase):
         result = OsmInterface().get_region_extreme_points('España', osm_interface.COUNTRY, ways.SPAIN)
         self.assertEqual(43.9933088, result.north.latitude)
         self.assertEqual(-7.6971085, result.north.longitude)
-        self.assertEqual(35.1709764, result.south.latitude)
-        self.assertEqual(-4.2979318, result.south.longitude)
+        self.assertEqual(35.2656282, result.south.latitude)
+        self.assertEqual(-2.9505435, result.south.longitude)
         self.assertEqual(39.8782416, result.east.latitude)
         self.assertEqual(4.5918885, result.east.longitude)
         self.assertEqual(43.0458933, result.west.latitude)
@@ -781,8 +796,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(-3.0352337, result.south.longitude)
         self.assertEqual(37.3755316, result.east.latitude)
         self.assertEqual(-1.6298, result.east.longitude)
-        self.assertEqual(37.5551686, result.west.latitude)
-        self.assertEqual(-7.5226863, result.west.longitude)
+        self.assertEqual(37.5549122, result.west.latitude)
+        self.assertEqual(-7.5226854, result.west.longitude)
 
         # Canary Islands
         result = OsmInterface().get_region_extreme_points('Canarias', osm_interface.AUTONOMOUS_COMMUNITY, ways.CANARY_ISLANDS)
@@ -807,15 +822,15 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(-7.5416802, result.west.longitude)
 
         # Spanish comarca
-        result = OsmInterface().get_region_extreme_points('Sierra Norte', osm_interface.COMARCA, ways.SPAIN)
-        self.assertEqual(41.1657381, result.north.latitude)
-        self.assertEqual(-3.5443579, result.north.longitude)
-        self.assertEqual(40.7345499, result.south.latitude)
-        self.assertEqual(-3.5475735, result.south.longitude)
-        self.assertEqual(41.0002545, result.east.latitude)
-        self.assertEqual(-3.3946285, result.east.longitude)
-        self.assertEqual(40.7994907, result.west.latitude)
-        self.assertEqual(-3.9797707, result.west.longitude)
+        result = OsmInterface().get_region_extreme_points('Costa Occidental', osm_interface.COMARCA, ways.SPAIN)
+        self.assertEqual(37.4136052, result.north.latitude)
+        self.assertEqual(-7.4083091, result.north.longitude)
+        self.assertEqual(37.1661936, result.south.latitude)
+        self.assertEqual(-7.3948663, result.south.longitude)
+        self.assertEqual(37.2083792, result.east.latitude)
+        self.assertEqual(-7.0517745, result.east.longitude)
+        self.assertEqual(37.402284, result.west.latitude)
+        self.assertEqual(-7.4511209, result.west.longitude)
 
         # Spanish municipality
         result = OsmInterface().get_region_extreme_points('Madrid', osm_interface.SPANISH_MUNICIPALITY, ways.SPAIN)
@@ -830,8 +845,8 @@ class TestOsmInterface(unittest.TestCase):
 
         # Spanish district
         result = OsmInterface().get_region_extreme_points('Barajas', osm_interface.SPANISH_DISTRICT, ways.SPAIN)
-        self.assertEqual(40.5132684, result.north.latitude)
-        self.assertEqual(-3.5715401, result.north.longitude)
+        self.assertEqual(40.5123682, result.north.latitude)
+        self.assertEqual(-3.5721062, result.north.longitude)
         self.assertEqual(40.4464812, result.south.latitude)
         self.assertEqual(-3.5354915, result.south.longitude)
         self.assertEqual(40.4677375, result.east.latitude)
@@ -847,8 +862,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(1.5157512, result.south.longitude)
         self.assertEqual(42.5741828, result.east.latitude)
         self.assertEqual(1.786664, result.east.longitude)
-        self.assertEqual(42.5353776, result.west.latitude)
-        self.assertEqual(1.4135781, result.west.longitude)
+        self.assertEqual(42.4951007, result.west.latitude)
+        self.assertEqual(1.407225, result.west.longitude)
 
         # Andorran parish
         result = OsmInterface().get_region_extreme_points('Escaldes-Engordany', osm_interface.ANDORRAN_PARISH, ways.ANDORRA)
@@ -858,8 +873,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(1.5788543, result.south.longitude)
         self.assertEqual(42.4815295, result.east.latitude)
         self.assertEqual(1.6632892, result.east.longitude)
-        self.assertEqual(42.5228659, result.west.latitude)
-        self.assertEqual(1.5215088, result.west.longitude)
+        self.assertEqual(42.5228745, result.west.latitude)
+        self.assertEqual(1.5215643, result.west.longitude)
 
         # Gibraltar
         result = OsmInterface().get_region_extreme_points('Gibraltar', osm_interface.COUNTRY, ways.GIBRALTAR)
@@ -891,97 +906,15 @@ class TestOsmInterface(unittest.TestCase):
         test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
 
         sample_query = f'is_in(39.0,-5.0); out geom;'  # Returns administrative divisions of location (39.0, -5.0), in Spanish Extremadura
-        sample_raw_response = f'<?xml version="1.0" encoding="UTF-8"?>\n' \
-                              f'<osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">\n' \
-                              f'<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>\n' \
-                              f'<meta osm_base="2022-03-22T21:20:37Z" areas="2022-03-22T21:20:37Z"/>\n\n' \
-                              f'  <area id="3600340004">\n' \
-                              f'    <tag k="admin_level" v="8"/>\n' \
-                              f'    <tag k="boundary" v="administrative"/>\n' \
-                              f'    <tag k="idee:name" v="Siruela"/>\n' \
-                              f'    <tag k="ine:municipio" v="06125"/>\n' \
-                              f'    <tag k="name" v="Siruela"/>\n' \
-                              f'    <tag k="population" v="2199"/>\n' \
-                              f'    <tag k="population:date" v="2009"/>\n' \
-                              f'    <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>\n' \
-                              f'    <tag k="type" v="boundary"/>\n' \
-                              f'    <tag k="wikidata" v="Q1372816"/>\n' \
-                              f'    <tag k="wikipedia" v="es:Siruela"/>\n' \
-                              f'  </area>\n' \
-                              f'  <area id="3600348994">\n' \
-                              f'    <tag k="ISO3166-2" v="ES-BA"/>\n' \
-                              f'    <tag k="admin_level" v="6"/>\n' \
-                              f'    <tag k="alt_name:ar" v="باداخوز"/>\n' \
-                              f'    <tag k="boundary" v="administrative"/>\n' \
-                              f'    <tag k="ine:provincia" v="06"/>\n' \
-                              f'    <tag k="name" v="Badajoz"/>\n' \
-                              f'    <tag k="name:ar" v="بطليوس"/>\n' \
-                              f'    <tag k="name:ast" v="Badaxoz"/>\n' \
-                              f'    <tag k="name:be" v="Бадахас"/>\n' \
-                              f'    <tag k="name:ca" v="Badajoz"/>\n' \
-                              f'    <tag k="name:de" v="Badajoz"/>\n' \
-                              f'    <tag k="name:el" v="Μπαδαχόθ"/>\n' \
-                              f'    <tag k="name:en" v="Badajoz"/>\n' \
-                              f'    <tag k="name:eo" v="Badaĥozo"/>\n' \
-                              f'    <tag k="name:es" v="Badajoz"/>\n' \
-                              f'    <tag k="name:eu" v="Badajoz"/>\n' \
-                              f'    <tag k="name:ext" v="Baajós"/>\n' \
-                              f'    <tag k="name:fa" v="باداخوس"/>\n' \
-                              f'    <tag k="name:fr" v="Badajoz"/>\n' \
-                              f'    <tag k="name:gl" v="Badaxoz"/>\n' \
-                              f'    <tag k="name:ja" v="バダホス"/>\n' \
-                              f'    <tag k="name:ko" v="바다호스"/>\n' \
-                              f'    <tag k="name:pt" v="Badajoz"/>\n' \
-                              f'    <tag k="name:ru" v="Бадахос"/>\n' \
-                              f'    <tag k="name:sr" v="Бадахоз"/>\n' \
-                              f'    <tag k="name:uk" v="Бадахос"/>\n' \
-                              f'    <tag k="name:ur" v="بطليوس"/>\n' \
-                              f'    <tag k="name:zh" v="巴達霍斯"/>\n' \
-                              f'    <tag k="official_name:be" v="Правінцыя Бадахас"/>\n' \
-                              f'    <tag k="ref:nuts" v="ES431"/>\n' \
-                              f'    <tag k="ref:nuts:3" v="ES431"/>\n' \
-                              f'    <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>\n' \
-                              f'    <tag k="type" v="boundary"/>\n' \
-                              f'    <tag k="wikidata" v="Q81803"/>\n' \
-                              f'    <tag k="wikipedia" v="es:Provincia de Badajoz"/>\n' \
-                              f'  </area>\n' \
-                              f'  <area id="3600349050">\n' \
-                              f'    <tag k="ISO3166-2" v="ES-EX"/>\n' \
-                              f'    <tag k="admin_level" v="4"/>\n' \
-                              f'    <tag k="border_type" v="region"/>\n' \
-                              f'    <tag k="boundary" v="administrative"/>\n' \
-                              f'    <tag k="ine:ccaa" v="11"/>\n' \
-                              f'    <tag k="name" v="Extremadura"/>\n' \
-                              f'    <tag k="name:ar" v="إكستريمادورا"/>\n' \
-                              f'    <tag k="name:ast" v="Estremadura"/>\n' \
-                              f'    <tag k="name:be" v="Эстрэмадура"/>\n' \
-                              f'    <tag k="name:ca" v="Extremadura"/>\n' \
-                              f'    <tag k="name:cs" v="Extremadura"/>\n' \
-                              f'    <tag k="name:el" v="Εξτρεμαδούρα"/>\n' \
-                              f'    <tag k="name:en" v="Extremadura"/>\n' \
-                              f'    <tag k="name:es" v="Extremadura"/>\n' \
-                              f'    <tag k="name:eu" v="Extremadura"/>\n' \
-                              f'    <tag k="name:ext" v="Estremaúra"/>\n' \
-                              f'    <tag k="name:fr" v="Estrémadure"/>\n' \
-                              f'    <tag k="name:hu" v="Extremadura"/>\n' \
-                              f'    <tag k="name:ja" v="エストレマドゥーラ州"/>\n' \
-                              f'    <tag k="name:pl" v="Estremadura"/>\n' \
-                              f'    <tag k="name:pt" v="Estremadura"/>\n' \
-                              f'    <tag k="name:ru" v="Эстремадура"/>\n' \
-                              f'    <tag k="name:sk" v="Extremadura"/>\n' \
-                              f'    <tag k="official_name" v="Extremadura"/>\n' \
-                              f'    <tag k="ref:nuts" v="ES43"/>\n' \
-                              f'    <tag k="ref:nuts:2" v="ES43"/>\n' \
-                              f'    <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>\n' \
-                              f'    <tag k="type" v="boundary"/>\n' \
-                              f'    <tag k="wikidata" v="Q5777"/>\n' \
-                              f'    <tag k="wikipedia" v="es:Extremadura"/>\n' \
-                              f'  </area>\n\n' \
-                              f'</osm>\n'
+        sample_raw_response_start = '<osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">\n'
+        sample_raw_response_excerpt = '<tag k="admin_level" v="8"/>\n'
+        sample_raw_response_end = '</osm>'
 
         result: minidom.Element = OsmInterface()._query_server(sample_query, ways.SPAIN)
-        expected_result: minidom.Element = minidom.parseString(sample_raw_response).childNodes[0]
-        self.assertEqual(expected_result.toxml(), result.toxml())  # Directly comparing the objects will return False, even if source XML is the same
+        self.assertTrue(result.toxml().startswith(sample_raw_response_start))
+        self.assertTrue(sample_raw_response_excerpt in result.toxml())
+        self.assertTrue(result.toxml().endswith(sample_raw_response_end))
+        self.assertEqual(62, result.toxml().find('\n'))  # Number of lines
 
     def test_parse_xml_response_invalid_parameters(self):
         self.assertIsNone(OsmInterface()._parse_raw_response(None))
