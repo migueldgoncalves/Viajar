@@ -170,6 +170,11 @@ class DistanceCalculator:
             distance_to_return: float = self.calculate_distance(source_coordinates, destination_coordinates, verbose=verbose)
             return distance_to_return
 
+        assert self.processed_map
+        assert source
+        assert destination
+        assert source != destination
+
         shortest_distance: float = INFINITE_DISTANCE
 
         if less_checks:  # 9 calculations - Latitude and longitude of points receive the same adjustments
@@ -188,10 +193,10 @@ class DistanceCalculator:
                             if distance < shortest_distance:
                                 shortest_distance = distance
 
-        if distance == INFINITE_DISTANCE:
+        if shortest_distance == INFINITE_DISTANCE:
             print(f"Failed to calculate distance between coordinates {str(source)} and {str(destination)}")
 
-        return distance
+        return shortest_distance
 
     def calculate_distance(self, source: Coordinates, destination: Coordinates, verbose: bool = True) -> float:
         """
@@ -200,10 +205,10 @@ class DistanceCalculator:
         Provided points are converted into the closest points belonging to a road or a railway
         Requires having processed a map or a way beforehand
         """
-        if not self.processed_map:
-            if verbose:
-                print("No map has been processed - Unable to calculate distance")
-            return 0.0
+        assert self.processed_map
+        assert source
+        assert destination
+        assert source != destination
 
         source_node_id: int = self._coordinates_to_nearest_node(source).node_id
         destination_node_id: int = self._coordinates_to_nearest_node(destination).node_id
@@ -255,6 +260,8 @@ class DistanceCalculator:
         Calculations are approximate - Pythagorean theorem is used instead of Haversine distances for faster execution speeds.
             A degree of longitude in the Iberian Peninsula is approximate, but not the same, as a degree of latitude
         """
+        assert coordinates
+
         closest_node: osm_interface.OsmNode = osm_interface.OsmNode(0, 0.0, 0.0)  # Safe default - Gulf of Guinea is very far from Iberian Peninsula
         pythagorean_distance: float = INFINITE_DISTANCE
         for node_id in self.processed_map:

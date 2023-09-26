@@ -41,7 +41,9 @@ PORTUGAL = "PT"
 SPAIN = "ES"
 ALL_SUPPORTED_COUNTRIES = [ANDORRA, CANARY_ISLANDS, GIBRALTAR, PORTUGAL, SPAIN]
 
-# Freeways and highways
+# Roads (mainly freeways and highways)
+
+AD_DOS_VALIRES_TUNNEL = Way("Dos Valires Tunnel", "Túnel de les dos Valires", ANDORRA, ROAD)
 
 ES_A1 = Way("A-1", "Autovía del Norte", SPAIN, ROAD)
 ES_A2 = Way("A-2", "Autovía del Nordeste", SPAIN, ROAD)
@@ -86,11 +88,13 @@ ES_M30 = Way("M-30", "Autovía de Circunvalación M-30", SPAIN, ROAD)
 ES_M40 = Way("M-40", "Autopista de Circunvalación M-40", SPAIN, ROAD)
 ES_M45 = Way("M-45", "Autopista de Circunvalación M-45", SPAIN, ROAD)
 ES_M50 = Way("M-50", "Autopista de Circunvalación M-50", SPAIN, ROAD)
-ES_MA13 = Way("Ma-13", "Autopista Palma - Inca", SPAIN, ROAD)
+ES_MA13 = Way("Ma-13", "Autopista Palma - La Puebla", SPAIN, ROAD)
 ES_R2 = Way("R-2", "Radial R-2", SPAIN, ROAD)
 ES_R3 = Way("R-3", "Radial R-3", SPAIN, ROAD)
 ES_R4 = Way("R-4", "Radial R-4", SPAIN, ROAD)
 ES_R5 = Way("R-5", "Radial R-5", SPAIN, ROAD)
+
+GI_EUROPA_ROAD = Way("Europa Road", "Europa Road", GIBRALTAR, ROAD)
 
 PT_A1 = Way("A1", "Autoestrada do Norte", PORTUGAL, ROAD)
 PT_A2 = Way("A2", "Autoestrada do Sul", PORTUGAL, ROAD)
@@ -149,6 +153,7 @@ PT_VRI = Way("VRI", "Via Regional Interior", PORTUGAL, ROAD)
 
 # Railways
 
+ES_ALCAZAR_DE_SAN_JUAN_BADAJOZ = Way("Alcázar de San Juan-Badajoz Line", "Alcazar de San Juan - Badajoz", SPAIN, RAILWAY)
 ES_CIUDAD_REAL_BADAJOZ = Way("Ciudad Real-Badajoz Line", "Ciudad Real-Badajoz", SPAIN, RAILWAY)
 ES_MADRID_CERCANIAS_C3 = Way("Madrid Suburban Trains - C-3 Line", "Tren C-3: Chamartín -> Sol -> Atocha -> Aranjuez", SPAIN, RAILWAY)
 ES_MADRID_METRO_LINE_8 = Way("Madrid Metro - Line 8", "Línea 8: Nuevos Ministerios-Aeropuerto T4", SPAIN, RAILWAY)
