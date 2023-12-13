@@ -320,6 +320,38 @@ class TestDistanceCalculator(unittest.TestCase):
 
         # There are no railways in Andorra
 
+    def test_calculate_distance_with_adjusts_successful_ceuta(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Urban route - Entire territory
+        bottom_left_map_corner = Coordinates(35.8570, -5.3869)
+        upper_right_map_corner = Coordinates(35.9242,-5.2669)
+        source = Coordinates(35.88385, -5.33438)
+        destination = Coordinates(35.89308, -5.29278)
+        self.dist_calc.generate_processed_map([bottom_left_map_corner, upper_right_map_corner], ways.ROAD, ways.SPAIN, osm_interface.DETAIL_LEVEL_URBAN, None)
+        self.assertEqual(4.7, self.dist_calc.calculate_distance_with_adjusts(source, destination, less_checks=True))  # In Google Maps, 4.9 km
+        # Testing with less_checks=False takes too long - Skipping
+
+        # Ceuta is small enough to be entirely covered with an urban level of detail - No need to test an intercity level of detail
+        # Small territory - No need to test routes along individual roads
+        # There are no railways in Ceuta
+
+    def test_calculate_distance_with_adjusts_successful_melilla(self):
+        test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
+
+        # Urban route - Entire territory
+        bottom_left_map_corner = Coordinates(35.2588, -2.9785)
+        upper_right_map_corner = Coordinates(35.3309, -2.9164)
+        source = Coordinates(35.26686, -2.94724)
+        destination = Coordinates(35.31546, -2.94543)
+        self.dist_calc.generate_processed_map([bottom_left_map_corner, upper_right_map_corner], ways.ROAD, ways.SPAIN, osm_interface.DETAIL_LEVEL_URBAN, None)
+        self.assertEqual(7.0, self.dist_calc.calculate_distance_with_adjusts(source, destination, less_checks=True))  # In Google Maps, 8.1 km
+        # Testing with less_checks=False takes too long - Skipping
+
+        # Melilla is small enough to be entirely covered with an urban level of detail - No need to test an intercity level of detail
+        # Small territory - No need to test routes along individual roads
+        # There are no railways in Melilla
+
     def test_calculate_distance_with_adjusts_successful_balearic_islands(self):
         test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
 
