@@ -6,155 +6,138 @@ import matplotlib.pyplot as plt
 
 from travel.support import ways
 from travel.support.ways import Way
-import travel.support.sorter as ordenador
+import travel.support.sorter as sorter
 import travel.support.haversine as haversine
-import travel.support.distance_calculator as calculadora_distancias
+import travel.support.distance_calculator as distance_calculator
 import travel.support.osm_interface as osm_interface
 from travel.support.coordinates import Coordinates
 from travel.main import paths_and_files
+from travel.main import menu
 
-
-class Path:
-
-    def __init__(self, *args):
-        path_list: list = []
-        for arg in args:
-            if type(arg) == Path:
-                arg = arg.path
-            path_list.append(arg)
-        self.path: str = os.path.join(*path_list)
-
-    def get_path(self) -> str:
-        return self.path
-
-
-COORDENADAS_CASAS_DECIMAIS: int = 6
+COORDINATES_DECIMAL_PLACES: int = 6
 ENCODING: str = 'utf-8'
 
-CHAVE_API_PATH: Path = Path(paths_and_files.GOOGLE_API_KEY_FILEPATH)
-PASTA_TEMP: Path = Path(paths_and_files.TMP_FOLDER_PATH)
-
-OPCAO_SAIR = 0
-OPCAO_LOCAIS_DIV_ADMIN = 1
-OPCAO_LIGACOES_DESTINOS = 2
-OPCAO_CIMA_BAIXO = 1
-OPCAO_BAIXO_CIMA = 2
-OPCAO_AREA_INTERCIDADES = 1
-OPCAO_AREA_URBANA = 2
-
-"""
-Gera ficheiros .csv com informação de saídas de auto-estradas e linhas ferroviárias, e suas ligações
-"""
+OPTION_LOCATION_INFO = 1
+OPTION_CONNECTIONS_AND_DESTINATIONS = 2
+OPTION_TOP_DOWN = 1
+OPTION_BOTTOM_UP = 2
 
 
-class GeradorInformacao:
+class InformationGenerator:
+    """
+    This class generates .csv files with info covering a freeway/motorway or a railway
+        How to use:
+            First, generate the location info for the desired way, by calling this class
+            Then, manually sort the exits/stations, if needed. This step might be skipped for roads, but is virtually always necessary for railways
+            Finally, generate the connection and destination info for the desired way, by calling again this class
+    """
 
-    def __init__(self, way_to_analise: Way, obter_altitudes=True) -> None:
+    def __init__(self, way_to_analise: Way, get_altitude_info=False) -> None:
+        """
+        Important: Altitude info is fetched from Google Cloud. While the first thousands of requests are free, this is a paid API
+            For safety, get_altitude_info defaults to False
+        """
         self.way_type: str = way_to_analise.way_type  # Road or railway
         self.way_display_name: str = way_to_analise.display_name  # Name to be displayed in the filenames, ex: "North Line"
-        self.way_osm_name: str = way_to_analise.osm_name  # OSM name, ex: "Linha do Norte"
+        self.way_osm_name: str = way_to_analise.osm_name  # OSM name, ex: "Linha do Norte" (Portuguese for "North Line")
         self.country: str = way_to_analise.country
 
-        self.obter_altitudes: bool = obter_altitudes
+        self.get_altitude_info: bool = get_altitude_info
 
-        self.api_key = None
+        self.google_api_key: Optional[str] = self._get_google_api_key()  # Will be None if key is missing
 
-        self.local_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local.csv')
-        self.local_espanha_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_espanha.csv')
-        self.local_portugal_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_portugal.csv')
-        self.local_gibraltar_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_local_gibraltar.csv')
-        self.municipio_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_municipio.csv')
-        self.comarca_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_comarca.csv')
-        self.concelho_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_concelho.csv')
-        self.ligacao_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_ligacao.csv')
-        self.destino_path: Path = Path(PASTA_TEMP, f'{self.way_display_name}_destino.csv')
-
-        print("Bem-vindo/a ao gerador automático de informação.")
-        print("Escreva a opção desejada e pressione ENTER.")
-        print(f"{OPCAO_SAIR} - Sair do programa")
-        print(f"{OPCAO_LOCAIS_DIV_ADMIN} - Gerar locais e divisões administrativas da {self.way_display_name}")
-        print(f"{OPCAO_LIGACOES_DESTINOS} - Gerar ligações e destinos da {self.way_display_name}")
-        while True:
-            opcao = input("Escreva a opção desejada e pressione ENTER: ")
-            if opcao == str(OPCAO_SAIR):
-                print("Escolheu sair.")
-                print("Boa viagem!")
-                exit(0)
-            elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
-                print(f"Escolheu gerar os locais e divisões administrativas da {self.way_display_name}.")
-                self.opcao_obter_locais_divisoes_admins()
-                break
-            elif opcao == str(OPCAO_LIGACOES_DESTINOS):
-                print(f"Escolheu gerar as ligações e destinos da {self.way_display_name}.")
-                self.opcao_obter_ligacoes_destinos()
-                break
-        exit(0)
-
-    def opcao_obter_ligacoes_destinos(self) -> None:
+    def present_main_menu(self) -> None:
         """
-        A partir de um ficheiro de locais de uma via, cria os ficheiros de ligações e de destinos correspondentes
+        Main entry point - Presents the main menu of the information generator
+        """
+        print("Welcome to the automatic information generator of the Viajar project")
+
+        option_labels: list[str] = [
+            f'Generate location info for {self.way_display_name}',
+            f'Generate connection and destination info for {self.way_display_name}'
+        ]
+        menu_introduction: list[str] = ['Which option do you want to select?']
+
+        # Guaranteed to be valid non-exit option
+        user_option = menu.present_numeric_menu(option_labels, menu_introduction)
+
+        # Processes user option
+        if user_option == OPTION_LOCATION_INFO:
+            print(f"You have chosen to generate location info for {self.way_display_name}")
+            self.process_option_get_location_info()
+        elif user_option == OPTION_CONNECTIONS_AND_DESTINATIONS:
+            print(f"You have chosen to generate connection and destination info for {self.way_display_name}")
+            self.process_option_get_connections_and_destinations()
+
+    def process_option_get_connections_and_destinations(self) -> None:
+        """
+        Assuming that there is already a file for the locations of the desired way, this routine creates the files
+            containing the respective connections and destination info
         """
         if self.country not in ways.ALL_SUPPORTED_COUNTRIES:
-            print(f'País inválido - Processamento da {self.way_display_name} cancelado')
+            print(f'Invalid country - Cancelling processing of {self.way_display_name}')
             exit(1)
 
-        if not os.path.exists(self.local_path.path):
-            print(f'O ficheiro de locais da {self.way_display_name} não existe.')
-            print(f'Execute este programa novamente e seleccione a opção {OPCAO_LOCAIS_DIV_ADMIN}.')
+        if not os.path.exists(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)):
+            print(f'Location info file for {self.way_display_name} does not exist.')
+            print(f'Please run this program again, then select option {OPTION_LOCATION_INFO} to generate the location info for {self.way_display_name}.')
             exit(0)
-        aviso: str = f'A {self.way_display_name} parece já ter um ficheiro de ligações.'
-        self._detector_ficheiro_repetido(self.ligacao_path.path, aviso)
-        aviso: str = f'A {self.way_display_name} parece já ter um ficheiro de destinos.'
-        self._detector_ficheiro_repetido(self.destino_path.path, aviso)
 
-        print(f'Como deseja que a {self.way_display_name} seja ordenada?')
-        print("Escreva a opção desejada e pressione ENTER")
-        print(f"{OPCAO_SAIR} - Sair do programa")
-        print(f"{OPCAO_CIMA_BAIXO} - De cima para baixo")
-        print(f"{OPCAO_BAIXO_CIMA} - De baixo para cima")
-        while True:
-            opcao = input("Escreva a opção desejada e pressione ENTER: ")
-            if opcao == str(OPCAO_SAIR):
-                print("Escolheu sair.")
-                print("Boa viagem!")
-                exit(0)
-            elif opcao == str(OPCAO_LOCAIS_DIV_ADMIN):
-                print(f"A {self.way_display_name} será ordenada de cima para baixo")
-                invertido: bool = False
-                break
-            elif opcao == str(OPCAO_LIGACOES_DESTINOS):
-                print(f"A {self.way_display_name} será ordenada de baixo para cima")
-                invertido: bool = True
-                break
+        warning: str = f'A connection info file already exists for {self.way_display_name}'
+        self._repeated_file_detector(self._get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), warning)
+        # It can be assumed that either there is a connections file and a destinations file, or none of them, as they are generated at the same time
+        #   Therefore, the user can be presented with a single confirmation dialog
 
-        self.create_ficheiros_ligacoes_destinos(invertido=invertido)
-        print(f'{self.way_display_name} processada')
-        print("Boa viagem!")
+        menu_introduction: list[str] = [f'How do you wish to list {self.way_display_name} connections and destinations?']
+        option_labels = [
+            'Top-Down',
+            'Bottom-Up'
+        ]
 
-    def opcao_obter_locais_divisoes_admins(self) -> None:
+        # Guaranteed to be valid non-exit option
+        option: int = menu.present_numeric_menu(option_labels, menu_introduction)
+
+        inverted: bool = False
+        if option == OPTION_TOP_DOWN:
+            print(f'{self.way_display_name} connections and destinations will be listed from start to end')
+            # inverted is already False
+        elif option == OPTION_BOTTOM_UP:
+            print(f'{self.way_display_name} connections and destinations will be listed from end to start')
+            inverted = True
+
+        self.create_connections_and_destinations_files(inverted=inverted)
+
+        print(f'{self.way_display_name} has been processed')
+        print("Have a safe trip!")
+
+    def process_option_get_location_info(self) -> None:
         """
-        Recolhe informação sobre as saídas de uma auto-estrada / estações de uma linha ferroviária usando o OSM e cria
-        os respectivos ficheiros de locais e de divisões administrativas
+        Collects information regarding either the exits of a freeway / motorway or the stations of a railway using OSM
+            and Google, then stores this info in dedicated files
         """
-        aviso: str = f'A {self.way_display_name} parece já ter sido processada antes.'
-        self._detector_ficheiro_repetido(self.local_path.path, aviso)
+        warning: str = f'{self.way_display_name} seems to have been processed before'
+        self._repeated_file_detector(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), warning)
 
         if self.country not in ways.ALL_SUPPORTED_COUNTRIES:
-            print(f'País inválido - Processamento da {self.way_display_name} cancelado')
+            print(f'Invalid country - Cancelling processing of {self.way_display_name}')
             exit(1)
 
-        # Chave da API da Google - Usada para obter altitudes
-        with open(CHAVE_API_PATH.path, 'r', encoding=ENCODING) as f:
-            self.api_key: str = f.readlines()[0]
+        self.create_locations_files()
 
-        self.create_ficheiros_locais_divisoes_admins()
-        print(f'{self.way_display_name} processada')
-        print("Boa viagem!")
+        print(f'{self.way_display_name} has been processed')
+        print("Have a safe trip!")
 
-    def create_ficheiros_locais_divisoes_admins(self) -> None:
+    def create_locations_files(self) -> None:
+        """
+        Assuming that a way name was previously provided, this routine processes it and generates the following files:
+        Always - location.csv
+        If the way is in Spain - location_spain.csv, municipio.csv, and comarca.csv
+        If the way is in Portugal - location_portugal.csv, and concelho.csv
+        There is no support for Gibraltar nor for Andorra
+        """
         print("################")
-        print(f'A iniciar processamento da {self.way_display_name}...')
-        print("################\n")
+        print(f"Starting processing of {self.way_display_name}...")
+        print("################\n")  # The \n adds an extra line as a visual separator
 
         saidas_estacoes_coordenadas: dict[str, Coordinates] = self.get_saidas_estacoes()
         saidas_estacoes_ordenadas: list[str] = list(saidas_estacoes_coordenadas.keys())
@@ -168,17 +151,17 @@ class GeradorInformacao:
             print(f'Processamento da {self.way_display_name} cancelado')
             exit(1)
 
-        if not os.path.exists(PASTA_TEMP.path):
-            os.makedirs(PASTA_TEMP.path)
+        if not os.path.exists(paths_and_files.TMP_FOLDER_PATH):
+            os.makedirs(paths_and_files.TMP_FOLDER_PATH)
 
-        with open(os.path.join(self.local_path.path), 'w', encoding=ENCODING) as f:
+        with open(os.path.join(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)), 'w', encoding=ENCODING) as f:
             for saida_ou_estacao in saidas_estacoes_ordenadas:  # Ex: 2 para uma auto-estrada, "Cascais" para uma ferrovia
                 latitude: float = saidas_estacoes_coordenadas[saida_ou_estacao].get_latitude()
                 longitude: float = saidas_estacoes_coordenadas[saida_ou_estacao].get_longitude()
                 altitude: int = 0
                 info_extra: str = ''
                 lote: int = 0
-                if self.obter_altitudes:
+                if self.get_altitude_info:
                     if self.way_type == ways.RAILWAY:
                         print(f'A obter a altitude da estação {saida_ou_estacao}...')
                     else:
@@ -188,7 +171,7 @@ class GeradorInformacao:
                     f.write(f'Estação de {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
                 else:
                     f.write(f'{self.way_display_name} - Saída {saida_ou_estacao},{latitude},{longitude},{altitude},{info_extra},{lote}\n')
-        ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.local_path.path, cabecalho=False)
+        sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), cabecalho=False)
         print(f'Ficheiro de locais criado')
 
         saidas_estacoes_terminadas: int = 0
@@ -201,7 +184,7 @@ class GeradorInformacao:
             divisoes_saidas_estacoes: dict[Coordinates, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
-            with open(self.local_espanha_path.path, 'w', encoding=ENCODING) as f:
+            with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordinates = saidas_estacoes_coordenadas[saida_ou_estacao]
 
@@ -233,19 +216,19 @@ class GeradorInformacao:
                         print(f'Saída {saida_ou_estacao} terminada - '
                               f'{saidas_estacoes_terminadas}/{len(saidas_estacoes_ordenadas)} saídas processadas')
 
-            with open(self.municipio_path.path, 'w', encoding=ENCODING) as f:
+            with open(self._get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), 'w', encoding=ENCODING) as f:
                 for municipio in municipios:
                     f.write(municipio)
 
-            with open(self.comarca_path.path, 'w', encoding=ENCODING) as f:
+            with open(self._get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), 'w', encoding=ENCODING) as f:
                 for comarca in comarcas:
                     f.write(comarca)
 
-            ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.local_espanha_path.path, cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), cabecalho=False)
             print("Ficheiro de locais de Espanha terminado")
-            ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.municipio_path.path, cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), cabecalho=False)
             print("Ficheiro de municípios terminado")
-            ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.comarca_path.path, cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), cabecalho=False)
             print("Ficheiro de comarcas terminado")
 
         elif self.country == ways.PORTUGAL:
@@ -256,7 +239,7 @@ class GeradorInformacao:
             divisoes_saidas_estacoes:  dict[Coordinates, dict[Union[str, int], Optional[str]]] = self.get_divisoes_administrativas(
                 list(saidas_estacoes_coordenadas.values()), divisoes_pretendidas)  # {(37.1, -7.5): {6: 'Alcoutim', 7: 'Alcoutim', 8: 'Faro'}}
 
-            with open(self.local_portugal_path.path, 'w', encoding=ENCODING) as f:
+            with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), 'w', encoding=ENCODING) as f:
                 for saida_ou_estacao in saidas_estacoes_ordenadas:
                     ponto: Coordinates = saidas_estacoes_coordenadas[saida_ou_estacao]
 
@@ -281,20 +264,20 @@ class GeradorInformacao:
                         print(f'Saída {saida_ou_estacao} terminada - '
                               f'{saidas_estacoes_terminadas}/{len(saidas_estacoes_ordenadas)} saídas processadas')
 
-            with open(self.concelho_path.path, 'w', encoding=ENCODING) as f:
+            with open(self._get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), 'w', encoding=ENCODING) as f:
                 for concelho in concelhos:
                     f.write(concelho)
 
-            ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.local_portugal_path.path, cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), cabecalho=False)
             print("Ficheiro de locais de Portugal terminado")
-            ordenador.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.concelho_path.path, cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), cabecalho=False)
             print("Ficheiro de concelhos terminado")
 
         else:
             pass
 
-    def create_ficheiros_ligacoes_destinos(self, invertido: bool) -> None:
-        with open(self.local_path.path, 'r', encoding=ENCODING) as f:
+    def create_connections_and_destinations_files(self, inverted: bool) -> None:
+        with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), 'r', encoding=ENCODING) as f:
             conteudo: list[str] = f.readlines()
 
         if len(conteudo) == 0:
@@ -307,7 +290,7 @@ class GeradorInformacao:
             print("A sair.")
             exit(0)
 
-        if invertido:
+        if inverted:
             conteudo = list(reversed(conteudo))
 
         # Gerar mapa para depois com ele se calcularem as distâncias
@@ -318,8 +301,8 @@ class GeradorInformacao:
                 linha_b: str = conteudo[idx + 1]
                 elementos_a: list[str] = linha_a.split(",")
                 elementos_b: list[str] = linha_b.split(",")
-                elementos_a: list[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elementos_b: list[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+                elementos_a: list[str] = sorter.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: list[str] = sorter.separar_por_virgulas(lista=elementos_b)
 
                 if conteudo[idx + 1].strip() == '':  # Linha vazia - Parar processamento aqui
                     break
@@ -352,11 +335,11 @@ class GeradorInformacao:
             plt.ylim(min(latitudes) - margem, max(latitudes) + margem)
         plt.show()
 
-        calc_dist: calculadora_distancias.DistanceCalculator = calculadora_distancias.DistanceCalculator()
+        calc_dist: distance_calculator.DistanceCalculator = distance_calculator.DistanceCalculator()
         calc_dist.generate_processed_map(todas_coordenadas, self.way_type, self.country, way_name=self.way_osm_name)
 
-        origem = ordenador.separar_por_virgulas(lista=conteudo[0].split(','))[0]
-        destino = ordenador.separar_por_virgulas(lista=conteudo[-1].split(','))[0]
+        origem = sorter.separar_por_virgulas(lista=conteudo[0].split(','))[0]
+        destino = sorter.separar_por_virgulas(lista=conteudo[-1].split(','))[0]
         print("\nIntroduza os destinos já conhecidos separados por vírgulas, depois pressione ENTER.")
         print("Ou pressione ENTER sem destinos para gerar um ficheiro sem destinos pré-preenchidos.")
         destinos_para_inicio: list[str] = input(f"Introduza os destinos desde {destino} em direcção a {origem}: ").split(",")
@@ -370,8 +353,8 @@ class GeradorInformacao:
                 linha_b: str = conteudo[idx + 1]
                 elementos_a: list[str] = linha_a.split(",")
                 elementos_b: list[str] = linha_b.split(",")
-                elementos_a: list[str] = ordenador.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elementos_b: list[str] = ordenador.separar_por_virgulas(lista=elementos_b)
+                elementos_a: list[str] = sorter.separar_por_virgulas(lista=elementos_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elementos_b: list[str] = sorter.separar_por_virgulas(lista=elementos_b)
 
                 local_a: str = elementos_a[0]
                 local_b: str = elementos_b[0].strip()
@@ -395,7 +378,7 @@ class GeradorInformacao:
 
                 distancia: float = calc_dist.calculate_distance_with_adjusts(
                     Coordinates(latitude_a, longitude_a), Coordinates(latitude_b, longitude_b))
-                if distancia == calculadora_distancias.INFINITE_DISTANCE:
+                if distancia == distance_calculator.INFINITE_DISTANCE:
                     print("Não foi possível calcular distância - Continuando...")
                     distancia = 0.0
 
@@ -418,14 +401,17 @@ class GeradorInformacao:
 
                 print(f'{idx + 1}/{len(conteudo) - 1} ligações processadas')  # Conta todas as linhas mesmo com linhas vazias pelo meio
 
-        with open(self.ligacao_path.path, 'w', encoding=ENCODING) as f:
+        with open(self._get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), 'w', encoding=ENCODING) as f:
             f.writelines(ligacoes)
-        with open(self.destino_path.path, 'w', encoding=ENCODING) as f:
+        with open(self._get_filepath(paths_and_files.TMP_CSV_DESTINATION_PATH), 'w', encoding=ENCODING) as f:
             f.writelines(destinos)
 
     def get_altitude(self, latitude: float, longitude: float) -> int:
+        if not self.google_api_key:  # File containing the key is missing?
+            return 0  # Return default
+
         try:
-            url: str = f'https://maps.googleapis.com/maps/api/elevation/json?locations={latitude},{longitude}&key={self.api_key}'
+            url: str = f'https://maps.googleapis.com/maps/api/elevation/json?locations={latitude},{longitude}&key={self.google_api_key}'
             return int(requests.get(url=url).json()['results'][0]['elevation'])
         except Exception as e:
             print(str(e))
@@ -491,8 +477,8 @@ class GeradorInformacao:
             for ponto in saidas_estacoes_temp[saida_ou_estacao]:
                 latitude += ponto.get_latitude()
                 longitude += ponto.get_longitude()
-            latitude = round(latitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDENADAS_CASAS_DECIMAIS)
-            longitude = round(longitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDENADAS_CASAS_DECIMAIS)
+            latitude = round(latitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDINATES_DECIMAL_PLACES)
+            longitude = round(longitude / len(saidas_estacoes_temp[saida_ou_estacao]), COORDINATES_DECIMAL_PLACES)
             saidas_ou_estacoes[saida_ou_estacao] = Coordinates(latitude, longitude)
 
         if self.way_type == ways.RAILWAY:
@@ -502,22 +488,42 @@ class GeradorInformacao:
 
         return saidas_ou_estacoes
 
-    def _detector_ficheiro_repetido(self, path: str, aviso: str) -> None:
+    def _repeated_file_detector(self, path: str, warning_message: str) -> None:
         """
-        Detecta se o ficheiro fornecido existe. Se existe, apresenta o aviso ao utilizador e dá opção de escolha.
-        Se a opção for de cancelar, sai do programa, caso contrário continua
-        :param path: Path do ficheiro
-        :param aviso: String de aviso que indique qual o ficheiro já existente
-        :return:
+        Given a filepath, detects if the file exists. If so, prints the provided warning message, and allows the user
+            to cancel operation or to continue anyway.
         """
         if os.path.exists(path):
-            print(aviso)
-            print(f'Se continuar, irá reescrever o ficheiro criado. Deseja prosseguir?')
-            while True:
-                opcao = repr(input(f'Escreva S para prosseguir ou N para cancelar a operação, depois pressione ENTER:'))
-                if 's' in opcao.lower():
-                    print()
-                    break
-                elif 'n' in opcao.lower():
-                    print(f'Processamento da {self.way_display_name} cancelado.')
-                    exit(0)
+            menu_introduction: list[str] = [warning_message, 'If you proceed, you will overwrite the existing file. Do you wish to proceed?']
+            proceed: bool = menu.present_boolean_menu(menu_introduction)
+
+            if not proceed:
+                print(f'Processing of {self.way_display_name} has been cancelled. Exiting')
+                exit(0)
+
+            # In case user has agreed to proceed nevertheless, do nothing and just return
+
+    def _get_google_api_key(self) -> Optional[str]:
+        """
+        Returns Google API key into memory - It is used to get altitude info
+        Google API key is expected to be in a dedicated .txt file
+        IMPORTANT: Do not add this .txt file to any VCS repository
+        """
+        try:
+            if not os.path.exists(paths_and_files.GOOGLE_API_KEY_FILEPATH):
+                print(f"Google API key not found - Expected path is: {paths_and_files.GOOGLE_API_KEY_FILEPATH}")
+                return None
+
+            with open(paths_and_files.GOOGLE_API_KEY_FILEPATH, 'r', encoding=ENCODING) as f:
+                api_key = f.readlines()[0]
+                return api_key
+        except:
+            print("Error while getting Google API key")
+            return None
+
+    def _get_filepath(self, filepath_with_placeholder: str) -> str:
+        """
+        Given a filepath with a placeholder, returns the final filepath, with the way name replacing the placeholder
+        Ex: 'D:\foo\placeholder_location.csv' -> 'D:\foo\freeway_name_location.csv'
+        """
+        return filepath_with_placeholder.replace(paths_and_files.TMP_CSV_WAY_NAME_PLACEHOLDER, self.way_display_name)

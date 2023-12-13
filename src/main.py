@@ -7,12 +7,6 @@ Main - Execute to access all available scripts
 """
 
 
-def exit_program():
-    print("You have chosen to exit")
-    print("See you soon")
-    exit(0)
-
-
 # INSERT HERE location where to start journey
 INITIAL_LOCATION = 'Guerreiros do Rio'
 
@@ -42,7 +36,7 @@ option_labels: list[str] = [
 menu_introduction: list[str] = ["Which script do you want to execute?"]
 
 # Guaranteed to be valid non-exit option
-user_option = menu.present_numeric_menu(option_labels, menu_introduction, exit_routine=exit_program)
+user_option = menu.present_numeric_menu(option_labels, menu_introduction)
 
 # Process user options
 
@@ -60,7 +54,7 @@ elif user_option == OPTION_CAR:
     car_simulator.CarSimulator().travel(distance_to_travel=0, destination="")
 
 elif user_option == OPTION_GENERATOR:
-    information_generator.GeradorInformacao(WAY_TO_PROCESS)
+    information_generator.InformationGenerator(WAY_TO_PROCESS, get_altitude_info=True).present_main_menu()
 
 elif user_option == OPTION_SORTER:
     sorter.ordenar_ficheiros_csv()

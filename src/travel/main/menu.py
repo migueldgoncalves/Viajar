@@ -115,6 +115,12 @@ def _present_menu(menu_options_type: str, option_labels: list[str] = None, menu_
         elif menu_options_type == MENU_OPTIONS_BOOLEAN:
             return valid_boolean_option_processing(raw_input)  # Boolean menus do not provide exit options
 
+
+def default_exit_routine():
+    print("You have chosen to exit")
+    print("See you soon")
+    exit(0)
+
 #  #  #  #  #  #  #  #
 # Auxiliary methods #
 #  #  #  #  #  #  #  #
@@ -228,7 +234,7 @@ def valid_numeric_option_processing(option: int, exit_routine: Optional[Callable
             exit_routine()  # It is assumed that no arguments are required
             return EXIT_OPTION
         else:  # Default
-            exit(0)
+            default_exit_routine()
     else:  # Valid non-zero option
         return option
 
