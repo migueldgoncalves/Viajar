@@ -5203,6 +5203,11 @@ A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,True,R-4 - Madrid
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Cuenca
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,False,Tarancón
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,True,R-4 - Madrid
+A-41 - Saída 163,A-41 - Saída 164,Car,False,A-4 - Madrid
+A-41 - Saída 163,A-41 - Saída 164,Car,False,A-43 - Daimiel/Manzanares
+A-41 - Saída 163,A-41 - Saída 164,Car,True,Badajoz
+A-41 - Saída 163,A-41 - Saída 164,Car,True,Córdoba
+A-41 - Saída 163,A-41 - Saída 164,Car,True,Puertollano
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Badajoz
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Córdoba
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,False,Puertollano
@@ -5210,6 +5215,45 @@ A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Albacete
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Ciudad Real
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Daimiel
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,True,Madrid
+A-41 - Saída 164,A-41 - Saída 167,Car,False,A-4 - Madrid
+A-41 - Saída 164,A-41 - Saída 167,Car,False,A-43 - Daimiel/Manzanares
+A-41 - Saída 164,A-41 - Saída 167,Car,True,Badajoz
+A-41 - Saída 164,A-41 - Saída 167,Car,True,Córdoba
+A-41 - Saída 164,A-41 - Saída 167,Car,True,Poblete
+A-41 - Saída 164,A-41 - Saída 167,Car,True,Puertollano
+A-41 - Saída 167,A-41 - Saída 172,Car,False,Ciudad Real
+A-41 - Saída 167,A-41 - Saída 172,Car,False,Daimiel
+A-41 - Saída 167,A-41 - Saída 172,Car,True,Cañada de Calatrava
+A-41 - Saída 167,A-41 - Saída 172,Car,True,Córdoba
+A-41 - Saída 167,A-41 - Saída 172,Car,True,Puertollano
+A-41 - Saída 167,Poblete,Car,False,Ciudad Real
+A-41 - Saída 167,Poblete,Car,True,Poblete
+A-41 - Saída 172,A-41 - Saída 178,Car,False,Ciudad Real
+A-41 - Saída 172,A-41 - Saída 178,Car,True,Córdoba
+A-41 - Saída 172,A-41 - Saída 178,Car,True,Puertollano
+A-41 - Saída 172,Poblete,Car,False,A-41 - Córdoba/Puertollano
+A-41 - Saída 172,Poblete,Car,True,Poblete - Sul
+A-41 - Saída 178,A-41 - Saída 180,Car,False,Ciudad Real
+A-41 - Saída 178,A-41 - Saída 180,Car,False,Poblete
+A-41 - Saída 178,A-41 - Saída 180,Car,True,Puertollano
+A-41 - Saída 180,A-41 - Saída 189,Car,False,Cañada de Calatrava
+A-41 - Saída 180,A-41 - Saída 189,Car,False,Ciudad Real
+A-41 - Saída 180,A-41 - Saída 189,Car,True,Argamasilla de Calatrava
+A-41 - Saída 180,A-41 - Saída 189,Car,True,Córdoba
+A-41 - Saída 180,A-41 - Saída 189,Car,True,Puertollano
+A-41 - Saída 189,A-41 - Saída 194,Car,False,Cañada de Calatrava
+A-41 - Saída 189,A-41 - Saída 194,Car,False,Ciudad Real
+A-41 - Saída 189,A-41 - Saída 194,Car,True,Argamasilla de Calatrava
+A-41 - Saída 189,A-41 - Saída 194,Car,True,Córdoba
+A-41 - Saída 189,A-41 - Saída 194,Car,True,Puertollano
+A-41 - Saída 194,A-41 - Saída 196,Car,False,Argamasilla de Calatrava
+A-41 - Saída 194,A-41 - Saída 196,Car,False,Ciudad Real
+A-41 - Saída 194,A-41 - Saída 196,Car,True,Córdoba
+A-41 - Saída 194,A-41 - Saída 196,Car,True,Puertollano
+A-41 - Saída 196,PT-10 - Saída 1,Car,False,Argamasilla de Calatrava
+A-41 - Saída 196,PT-10 - Saída 1,Car,False,Ciudad Real
+A-41 - Saída 196,PT-10 - Saída 1,Car,True,Córdoba
+A-41 - Saída 196,PT-10 - Saída 1,Car,True,Puertollano
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,False,Madrid - Glorieta de Santa María de la Cabeza
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,R-5 - Badajoz/Toledo
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,True,Toledo
@@ -9718,6 +9762,9 @@ Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,False,Loulé
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,A22
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,Aeroporto de Faro
 Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,Faro
+Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,False,Daimiel
+Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,True,Ciudad Real
+Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,True,Toledo
 Cruzamento da N-431 com a N-444,Lepe,Car,False,Cartaya
 Cruzamento da N-431 com a N-444,Lepe,Car,True,Lepe
 Cruzamento da N-431 com a N-444,Lepe,Car,True,Praia de Islantilla
@@ -11549,14 +11596,14 @@ Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,H
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,False,Sevilha-Santa Justa
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,True,Barcelona-Sants
 Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,True,Valencia-Joaquín Sorolla
-Estação de Ciudad Real,Puertollano,High-Speed Train,False,Barcelona-Sants
-Estação de Ciudad Real,Puertollano,High-Speed Train,False,Madrid-Puerta de Atocha
-Estação de Ciudad Real,Puertollano,High-Speed Train,False,Valencia-Joaquín Sorolla
-Estação de Ciudad Real,Puertollano,High-Speed Train,True,Antequera-Santa Ana
-Estação de Ciudad Real,Puertollano,High-Speed Train,True,Córdoba
-Estação de Ciudad Real,Puertollano,High-Speed Train,True,Granada
-Estação de Ciudad Real,Puertollano,High-Speed Train,True,Málaga-María Zambrano
-Estação de Ciudad Real,Puertollano,High-Speed Train,True,Sevilha-Santa Justa
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,False,Barcelona-Sants
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,False,Madrid-Puerta de Atocha
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,False,Valencia-Joaquín Sorolla
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,True,Antequera-Santa Ana
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,True,Córdoba
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,True,Granada
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,True,Málaga-María Zambrano
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,True,Sevilha-Santa Justa
 Estação de Coimbra,Estação de Coimbra-B,Train,False,Coimbra
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Alfarelos
 Estação de Coimbra,Estação de Coimbra-B,Train,True,Figueira da Foz
@@ -13251,6 +13298,14 @@ Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,True,Abrantes
 Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,True,Badajoz
 Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,True,Covilhã
 Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,True,Guarda
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,False,Barcelona-Sants
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,False,Madrid-Puerta de Atocha
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,False,Valencia-Joaquín Sorolla
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,True,Antequera-Santa Ana
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,True,Córdoba
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,True,Granada
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,True,Málaga-María Zambrano
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,True,Sevilha-Santa Justa
 Estação de Ramalhal,Estação de Torres Vedras,Train,False,Caldas da Rainha
 Estação de Ramalhal,Estação de Torres Vedras,Train,False,Figueira da Foz
 Estação de Ramalhal,Estação de Torres Vedras,Train,True,Agualva - Cacém
@@ -13572,14 +13627,6 @@ Estação de Vila Nova da Rainha,Estação do Carregado,Train,False,Porto - Camp
 Estação de Vila Nova da Rainha,Estação do Carregado,Train,True,Lisboa - Alcântara-Terra
 Estação de Vila Nova da Rainha,Estação do Carregado,Train,True,Lisboa - Santa Apolónia
 Estação de Vila Nova da Rainha,Estação do Carregado,Train,True,Vila Franca de Xira
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,False,Antequera-Santa Ana
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,False,Córdoba
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,False,Granada
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,False,Málaga-María Zambrano
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,False,Sevilha-Santa Justa
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,True,Barcelona-Sants
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,True,Madrid-Puerta de Atocha
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,True,Valencia-Joaquín Sorolla
 Estação do Entroncamento,Gare do Oriente,Train,False,Coimbra-B
 Estação do Entroncamento,Gare do Oriente,Train,False,Hendaye
 Estação do Entroncamento,Gare do Oriente,Train,False,Madrid-Chamartín
@@ -14797,6 +14844,8 @@ Praia da Ilha de Tavira,Praia do Barril,Boat,True,Fuseta
 Praia da Ilha de Tavira,Quatro Águas,Boat,False,Faro
 Praia da Ilha de Tavira,Quatro Águas,Boat,False,Vila Nova de Cacela
 Praia da Ilha de Tavira,Quatro Águas,Boat,True,Tavira
+PT-10 - Fim,PT-10 - Saída 1,Car,False,Puertollano - Centro
+PT-10 - Fim,PT-10 - Saída 1,Car,True,A-41 - Ciudad Real
 Puerto de la Laja,Sanlúcar de Guadiana,Boat,False,Mértola
 Puerto de la Laja,Sanlúcar de Guadiana,Boat,False,Pomarão
 Puerto de la Laja,Sanlúcar de Guadiana,Boat,True,Alcoutim

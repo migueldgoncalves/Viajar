@@ -1369,7 +1369,21 @@ A-40 - Saída 94,Cruzamento da A-40 com a A-5,Car,4.6,A-40,NW,1,3
 A-40 - Saída 182,Cruzamento da A-4 com a A-40,Car,1.6,A-40,E,2,3
 A-40 - Saída 182,Cruzamento da A-40 com a R-4,Car,2.9,A-40,W,1,3
 A-40 - Saída 186,Cruzamento da A-4 com a A-40,Car,1.8,A-40,SW,1,4
+A-41 - Saída 163,A-41 - Saída 164,Car,1.7,A-41,SW,2,1
 A-41 - Saída 163,Cruzamento da A-41 com a A-43,Car,1.0,A-41,N,1,2
+A-41 - Saída 164,A-41 - Saída 167,Car,3.1,A-41,W,2,1
+A-41 - Saída 167,A-41 - Saída 172,Car,5.1,A-41,SW,2,1
+A-41 - Saída 167,Poblete,Car,3.3,N-420,SW,3,1
+A-41 - Saída 172,A-41 - Saída 178,Car,5.7,A-41,S,2,1
+A-41 - Saída 172,Poblete,Car,1.7,N-420,N,3,2
+A-41 - Saída 178,A-41 - Saída 180,Car,2.9,A-41,SW,2,1
+A-41 - Saída 178,Aeroporto Internacional de Ciudad Real,Car,3.6,,SE,4,1
+A-41 - Saída 178,Centro de Visitantes do Aeroporto de Ciudad Real,Car,2.1,,E,3,1
+A-41 - Saída 180,A-41 - Saída 189,Car,8.4,A-41,S,2,1
+A-41 - Saída 180,Cañada de Calatrava,Car,0.9,,E,3,1
+A-41 - Saída 189,A-41 - Saída 194,Car,5.7,A-41,S,2,1
+A-41 - Saída 194,A-41 - Saída 196,Car,2.3,A-41,SW,2,1
+A-41 - Saída 196,PT-10 - Saída 1,Car,0.9,PT-10,S,2,1
 A-42 - Calle de Antonio López,A-42 - Paseo de Santa María de la Cabeza,Car,0.6,A-42,SW,2,1
 A-42 - Calle de Antonio López,Cruzamento da A-42 com a M-30,Car,0.3,A-42,NE,1,4
 A-42 - Paseo de Santa María de la Cabeza,A-42 - Saída 4,Car,0.6,A-42,SW,2,1
@@ -1932,6 +1946,7 @@ Aeródromo de Portimão,Aeródromo de Tires,Plane,187.6,,NW,4,2
 Aeródromo de Portimão,Aeroporto de Beja,Plane,116.4,,NE,6,5
 Aeródromo de Portimão,Aeroporto de Faro,Plane,56.4,,SE,5,5
 Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Plane,187.7,,NW,7,9
+Aeródromo de Portimão,Aeroporto Internacional de Ciudad Real,Plane,447.2,,NE,8,12
 Aeródromo de Portimão,Alvor,Car,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Car,1.9,,NE,3,1
 Aeródromo de Portimão,Portimão - Avenida São Lourenço da Barrosa,Car,4.6,,SE,2,8
@@ -1947,6 +1962,7 @@ Aeródromo de Viseu,Aeroporto de Córdoba,Plane,413.6,,SE,6,13
 Aeródromo de Viseu,Aeroporto de Lisboa - Terminal 1,Plane,240.8,,SW,3,18
 Aeródromo de Viseu,Aeroporto de Madrid-Barajas - Terminal 4,Plane,364.9,,E,7,4
 Aeródromo de Viseu,Aeroporto de Salamanca,Plane,202.8,,E,8,8
+Aeródromo de Viseu,Aeroporto Internacional de Ciudad Real,Plane,394.5,,SE,9,15
 Aeródromo de Viseu,"Campo de Madalena, Viseu",Car,2.7,,SW,1,2
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Badajoz,Plane,549.8,,W,3,10
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Córdoba,Plane,379.5,,W,4,12
@@ -1956,11 +1972,13 @@ Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Lisboa - Terminal 1,P
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Madrid-Barajas - Terminal 2,Plane,354.9,,NW,2,6
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Málaga - Costa del Sol,Plane,390.1,,SW,5,11
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Sevilha,Plane,479.1,,W,7,15
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto Internacional de Ciudad Real,Plane,304.0,,W,10,5
 Aeroporto de Alicante-Elche Miguel Hernández,N-338 - Saída 2,Car,0.5,,N,1,2
 Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Plane,415.5,,N,2,5
 Aeroporto de Almería,Aeroporto de Málaga - Costa del Sol,Plane,190.3,,E,5,10
 Aeroporto de Almería,Aeroporto de Sevilha,Plane,319.5,,NW,4,13
 Aeroporto de Almería,Aeroporto Federico García Lorca Granada-Jaén,Plane,130.9,,NW,3,7
+Aeroporto de Almería,Aeroporto Internacional de Ciudad Real,Plane,264.0,,NW,6,6
 Aeroporto de Almería,AL-12 - Saída 7,Car,1.0,,NW,1,2
 Aeroporto de Badajoz,Aeroporto de Beja,Plane,132.4,,SW,3,8
 Aeroporto de Badajoz,Aeroporto de Córdoba,Plane,208.1,,SE,6,5
@@ -1969,6 +1987,7 @@ Aeroporto de Badajoz,Aeroporto de Lisboa - Terminal 1,Plane,201.1,,W,8,6
 Aeroporto de Badajoz,Aeroporto de Madrid-Barajas - Terminal 3,Plane,329.1,,NE,7,3
 Aeroporto de Badajoz,Aeroporto de Salamanca,Plane,254.9,,N,9,6
 Aeroporto de Badajoz,Aeroporto de Sevilha,Plane,182.8,,SE,5,7
+Aeroporto de Badajoz,Aeroporto Internacional de Ciudad Real,Plane,247.4,,E,12,14
 Aeroporto de Badajoz,Talavera la Real,Car,6.4,,SE,2,1
 Aeroporto de Badajoz,Villafranco del Guadiana,Car,5.9,,SW,1,2
 Aeroporto de Beja,Aeroporto de Córdoba,Plane,272.4,,E,6,2
@@ -1976,6 +1995,7 @@ Aeroporto de Beja,Aeroporto de Faro,Plane,115.7,,S,3,3
 Aeroporto de Beja,Aeroporto de Jerez,Plane,222.3,,SE,7,5
 Aeroporto de Beja,Aeroporto de Lisboa - Terminal 1,Plane,130.9,,NW,9,7
 Aeroporto de Beja,Aeroporto de Sevilha,Plane,193.4,,SE,4,3
+Aeroporto de Beja,Aeroporto Internacional de Ciudad Real,Plane,356.3,,E,12,13
 Aeroporto de Beja,Beja,Car,9.6,,SE,1,3
 Aeroporto de Beja,Cuba,Car,14.5,,NE,2,5
 Aeroporto de Córdoba,Aeroporto de Gibraltar,Plane,193.1,,S,6,4
@@ -1986,12 +2006,14 @@ Aeroporto de Córdoba,Aeroporto de Málaga - Costa del Sol,Plane,132.8,,S,7,6
 Aeroporto de Córdoba,Aeroporto de Salamanca,Plane,349.8,,N,11,4
 Aeroporto de Córdoba,Aeroporto de Sevilha,Plane,104.0,,SW,3,5
 Aeroporto de Córdoba,Aeroporto Federico García Lorca Granada-Jaén,Plane,119.3,,SE,8,2
+Aeroporto de Córdoba,Aeroporto Internacional de Ciudad Real,Plane,136.3,,NE,14,9
 Aeroporto de Córdoba,CO-32 - Fim,Car,4.1,N-437,NE,1,2
 Aeroporto de Faro,Aeroporto de Jerez,Plane,173.2,,SE,6,4
 Aeroporto de Faro,Aeroporto de Lisboa - Terminal 1,Plane,221.3,,NW,10,8
 Aeroporto de Faro,Aeroporto de Madrid-Barajas - Terminal 3,Plane,542.0,,NE,9,5
 Aeroporto de Faro,Aeroporto de Málaga - Costa del Sol,Plane,312.1,,E,8,2
 Aeroporto de Faro,Aeroporto de Sevilha,Plane,188.9,,NE,4,4
+Aeroporto de Faro,Aeroporto Internacional de Ciudad Real,Plane,406.7,,NE,13,11
 Aeroporto de Faro,Montenegro,Car,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Car,4.8,,SW,2,1
 Aeroporto de Gibraltar,Aeroporto de Jerez,Plane,91.7,,NW,2,6
@@ -2020,16 +2042,23 @@ Aeroporto de Madrid-Barajas - Terminal 2,M-14 - T1-T2-T3 Sul,Car,0.9,,SW,4,4
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Málaga - Costa del Sol,Plane,429.8,,S,8,8
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto de Sevilha,Plane,395.2,,SW,9,11
 Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto Federico García Lorca Granada-Jaén,Plane,367.0,,S,10,6
+Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto Internacional de Ciudad Real,Plane,182.6,,S,11,4
 Aeroporto de Madrid-Barajas - Terminal 3,Estação de Aeropuerto T1-T2-T3,Transfer,0.0,,S,1,3
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Train,2.2,Aeroporto de Madrid-Barajas,E,2,1
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Salamanca,Plane,169.6,,W,3,3
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Aeropuerto T4,Transfer,0.0,,N,1,2
 Aeroporto de Málaga - Costa del Sol,Aeroporto de Sevilha,Plane,148.8,,NW,5,9
 Aeroporto de Málaga - Costa del Sol,Aeroporto Federico García Lorca Granada-Jaén,Plane,85.3,,NE,7,5
+Aeroporto de Málaga - Costa del Sol,Aeroporto Internacional de Ciudad Real,Plane,245.5,,N,12,8
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,2.8,MA-23,SE,1,2
 Aeroporto de Salamanca,Aeroporto de Sevilha,Plane,393.8,,S,5,14
+Aeroporto de Salamanca,Aeroporto Internacional de Ciudad Real,Plane,266.9,,SE,9,16
 Aeroporto de Salamanca,Encinas de Abajo,Car,3.7,N-501,E,1,3
 Aeroporto de Sevilha,Aeroporto Federico García Lorca Granada-Jaén,Plane,189.3,,E,10,3
+Aeroporto de Sevilha,Aeroporto Internacional de Ciudad Real,Plane,232.2,,NE,16,10
+Aeroporto Federico García Lorca Granada-Jaén,Aeroporto Internacional de Ciudad Real,Plane,185.8,,N,8,7
+Aeroporto Internacional de Ciudad Real,Cañada de Calatrava,Car,5.6,,SW,3,2
+Aeroporto Internacional de Ciudad Real,Centro de Visitantes do Aeroporto de Ciudad Real,Car,2.7,,N,2,2
 Afonso Vicente,Cortes Pereiras,Car,2.9,,E,2,1
 Afonso Vicente,Cruzamento da N122 com a M507,Car,3.5,,SW,3,2
 Afonso Vicente,Menires do Lavajo,Car,1.3,,NE,1,2
@@ -2399,7 +2428,11 @@ Barranco do Velho,Parque Temático da Serra do Caldeirão,Car,0.9,N124,NE,2,1
 Barranco do Velho,São Brás de Alportel,Car,14.1,N2,S,1,2
 Barrancos,Encinasola,Car,11.5,,E,2,1
 Barrancos,Santo Aleixo da Restauração,Car,21.5,,SW,3,2
+"Barriada Centro Sur, Puertollano","Barriada Fraternidad, Puertollano",Car,2.8,,N,1,2
+"Barriada Centro Sur, Puertollano",Estação de Puertollano,Car,1.2,,N,2,1
 Barriada de Canela,Playa de Isla Canela,Car,4.3,,SE,2,1
+"Barriada Fraternidad, Puertollano",Estação de Puertollano,Car,1.7,,S,3,2
+"Barriada Fraternidad, Puertollano",PT-10 - Fim,Car,0.7,,N,1,2
 Barrio Reina Victoria,Plaza de Fray Genaro Prieto,Car,0.5,,N,1,2
 Beja,Cuba,Train,16.8,Linha do Alentejo - Intercidades/Regional,N,8,1
 Beja,Ervidel,Car,22.4,N18,SW,6,3
@@ -2892,6 +2925,8 @@ Cruzamento da N266 com a N267 Oeste,Marmelete,Car,14.2,,NW,2,1
 Cruzamento da N266 com a N267 Oeste,Monchique,Car,2.7,,NE,1,4
 Cruzamento da N269 com a N269-2,Ferreiras,Car,4.0,,SE,1,4
 Cruzamento da N269 com a N269-2,Tunes,Car,2.3,,NE,2,3
+Cruzamento da N-420 com a N-430,"Parque Comercial Puerta del AVE, Ciudad Real",Car,1.2,,SW,2,1
+Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,0.8,N-430,W,3,1
 Cruzamento da N-431 com a N-444,Lepe,Car,3.1,N-431,SW,2,4
 Cruzamento da N-431 com a N-445,La Antilla,Car,6.5,,SE,4,2
 Cruzamento da N-431 com a N-445,Lepe,Car,2.9,N-431,E,3,3
@@ -3299,8 +3334,9 @@ Estação de Chão de Maçãs-Fátima,Estação de Fungalvaz,Train,4.3,Linha do 
 Estação de Chão de Maçãs-Fátima,Estação de Lamarosa,Train,15.2,Linha do Norte - InterRegional,S,3,4
 Estação de Chão de Maçãs-Fátima,Estação de Seiça-Ourém,Train,3.0,Linha do Norte - Regional,NW,2,1
 Estação de Chão de Maçãs-Fátima,Estação do Entroncamento,Train,23.3,Linha do Norte - Intercidades,S,5,5
-Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,170.7,LAV Madrid-Sevilha,N,2,7
-Estação de Ciudad Real,Puertollano,High-Speed Train,39.1,LAV Madrid-Sevilha,SW,1,2
+Estação de Ciudad Real,Estação de Madrid-Puerta de Atocha-Almudena Grandes,High-Speed Train,170.7,LAV Madrid-Sevilha,N,3,7
+Estação de Ciudad Real,Estação de Puertollano,High-Speed Train,39.1,LAV Madrid-Sevilha,SW,2,4
+Estação de Ciudad Real,"Parque Comercial Puerta del AVE, Ciudad Real",Car,0.6,,NE,1,3
 Estação de Coimbra,Estação de Coimbra-B,Train,1.7,Ramal da Lousã - Regional/Urbanos de Coimbra,NW,1,3
 Estação de Coimbra-B,Estação de Pampilhosa,Train,14.0,Linha do Norte - Intercidades/InterRegional,N,5,4
 Estação de Coimbra-B,Estação de Pombal,High-Speed Train,47.7,Linha do Norte,SW,8,7
@@ -3613,6 +3649,7 @@ Estação de Porto - São Bento,Estação Jardim do Morro,Subway,0.9,Linha D - M
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,4.9,Linha do Sado/Linha do Sul - CP Lisboa,E,2,1
 Estação de Praça do Quebedo,Estação de Setúbal,Train,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
 Estação de Praia do Ribatejo,Estação de Santa Margarida,Train,6.3,Linha da Beira Baixa - Regional,E,2,1
+Estação de Puertollano,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,75.4,LAV Madrid-Sevilha,SW,3,2
 Estação de Ramalhal,Estação de Torres Vedras,Train,7.1,Linha do Oeste - InterRegional/Regional,SW,1,2
 Estação de Reboleira,Estação de Santa Cruz - Damaia,Train,0.9,Linha de Sintra - CP Lisboa,E,1,2
 Estação de Recarei-Sobreira,Estação de Trancoso,Train,2.0,Linha do Douro/Linha do Marco de Canaveses - CP Porto,W,1,2
@@ -3681,7 +3718,6 @@ Estação de Venda do Alcaide,Pinhal Novo,Train,3.8,Linha do Sado/Linha do Sul -
 Estação de Vila Franca de Xira,Gare do Oriente,Train,23.7,Linha do Norte - Intercidades/InterRegional,SW,5,8
 Estação de Vila Nova da Rainha,Estação do Carregado,Train,4.1,Linha da Azambuja/Linha do Norte - CP Lisboa,SW,1,2
 Estação de Vilar Formoso,Vilar Formoso,Car,0.7,,NW,3,2
-Estação de Villanueva de Córdoba-Los Pedroches,Puertollano,High-Speed Train,75.4,LAV Madrid-Sevilha,NE,2,1
 Estação do Entroncamento,Gare do Oriente,Train,99.8,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SW,7,9
 Estação do Pragal,Pinhal Novo,Train,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Subway,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
@@ -4092,6 +4128,7 @@ Parchal,Porto de Pesca de Portimão,Car,1.0,,W,4,1
 "Parque Alonso Sánchez, Huelva","Plaza de Cristóbal Quintero, Huelva",Car,0.2,,E,2,1
 "Parque Alonso Sánchez, Huelva","Plaza de la Dinastía de los Litri, Huelva",Car,0.3,,N,1,5
 "Parque Alonso Sánchez, Huelva",Plaza de Quintero Báez,Car,0.3,,W,3,8
+"Parque Comercial Puerta del AVE, Ciudad Real",Polígono Industrial de la Carretera de Carrión,Car,0.4,,N,2,2
 Parque Mineiro Cova dos Mouros,Vaqueiros,Car,4.3,,SW,1,5
 "Parque Moret, Huelva",Plaza del Huerto Paco,Car,0.8,,S,3,1
 "Paseo de la Reina Cristina, Madrid","Plaza de Mariano de Cavia, Madrid",Car,0.4,,E,3,1
@@ -4193,6 +4230,7 @@ Praia de Monte Clérigo,Ribat da Arrifana,Car,5.2,,SW,1,3
 Praia do Carvalho,Praia do Vale de Centeanes,Car,2.3,,NW,2,1
 Praia do Castelejo,Vila do Bispo,Car,4.0,,SE,1,3
 Praia do Martinhal,Sagres,Car,2.3,,SW,1,2
+PT-10 - Fim,PT-10 - Saída 1,Car,1.6,PT-10,NE,1,2
 Puebla de Guzmán,Villanueva de los Castillejos,Car,15.0,,S,2,4
 Puerto de la Laja,Sanlúcar de Guadiana,Boat,7.0,Rio Guadiana,S,4,3
 Punta del Moral,Vila Real de Santo António,Boat,11.8,Costa Atlântica de Espanha Continental,W,3,6

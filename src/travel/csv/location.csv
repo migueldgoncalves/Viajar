@@ -1065,6 +1065,14 @@ A-40 - Saída 94,40.027738,-4.342093,517,,1100
 A-40 - Saída 182,39.94583,-3.51016,731,,2700
 A-40 - Saída 186,39.94975,-3.47504,734,,2700
 A-41 - Saída 163,38.97392,-3.91164,629,,3200
+A-41 - Saída 164,38.96337,-3.92282,629,,3400
+A-41 - Saída 167,38.95596,-3.95677,644,,3400
+A-41 - Saída 172,38.92219,-3.98932,635,,3400
+A-41 - Saída 178,38.87495,-4.00900,621,,3400
+A-41 - Saída 180,38.85544,-4.02915,658,,3400
+A-41 - Saída 189,38.78865,-4.07095,685,,3400
+A-41 - Saída 194,38.74153,-4.07453,671,,3400
+A-41 - Saída 196,38.72931,-4.09451,665,,3400
 A-42 - Calle de Antonio López,40.392612,-3.706911,580,,1800
 A-42 - Paseo de Santa María de la Cabeza,40.389630,-3.712666,589,,1800
 A-42 - Saída 4,40.385242,-3.717538,602,,1800
@@ -1524,6 +1532,7 @@ Aeroporto de Málaga - Costa del Sol,36.676401,-4.491684,9,,1200
 Aeroporto de Salamanca,40.94031,-5.50220,790,,2600
 Aeroporto de Sevilha,37.423697,-5.899924,31,,200
 Aeroporto Federico García Lorca Granada-Jaén,37.185033,-3.777586,568,,1200
+Aeroporto Internacional de Ciudad Real,38.8671,-3.9929,618,,3400
 Afonso Vicente,37.493201,-7.541276,168,,400
 AG-51 - Saída 2,42.12143,-8.46745,60,,3000
 Águas de Moura,38.583505,-8.689135,14,,800
@@ -1717,7 +1726,9 @@ Barragem do Pego do Altar,38.417944,-8.392519,54,,1500
 Barranco das Pereiras,37.375979,-7.440443,9,,30
 Barranco do Velho,37.237686,-7.936897,471,,200
 Barrancos,38.131245,-6.976935,340,,800
+"Barriada Centro Sur, Puertollano",38.6866,-4.1105,696,,3400
 Barriada de Canela,37.199587,-7.403262,3,,200
+"Barriada Fraternidad, Puertollano",38.7035,-4.1073,675,,3400
 Barrio Reina Victoria,37.25529,-6.93857,19,,2100
 Beja,38.015317,-7.862804,270,,100
 Beliche,37.275026,-7.505045,40,,300
@@ -1757,6 +1768,7 @@ Calle de O'Donnell x Calle del Doctor Esquerdo,40.42117,-3.66899,673,,3400
 Calle Gravina x Calle Plus Ultra,37.25736,-6.95455,3,,2100
 "Campamento, San Roque",36.175365,-5.374118,10,,1200
 "Campo de Madalena, Viseu",40.70880,-7.91313,589,,3200
+Cañada de Calatrava,38.85403,-4.02093,649,,3400
 Canal Caveira,38.134474,-8.488352,47,,800
 Canal de Calatilla,37.25084,-6.96839,0,Marismas del Odiel,2100
 Carlet,39.2259,-0.5208,57,,3300
@@ -1785,6 +1797,7 @@ Centro Comercial Costa Luz,37.25561,-6.94241,8,,2100
 Centro Comercial Holea,37.271920,-6.920021,15,,2100
 "Centro Comercial Vialia, Vigo",42.23500,-8.71153,50,,3100
 Centro de Controlo Hispasat de Arganda del Rey,40.27223,-3.37849,764,,3400
+Centro de Visitantes do Aeroporto de Ciudad Real,38.8757,-3.9928,637,,3400
 Centro Penitenciario de Huelva,37.318956,-6.882963,18,,300
 Cercado,37.428955,-7.518699,196,,300
 Cercal do Alentejo,37.800576,-8.672848,160,,600
@@ -2498,6 +2511,7 @@ Estação de Porto - São Bento,41.1455,-8.6093,68,,2800
 Estação de Praça do Quebedo,38.524964,-8.886518,6,,1700
 Estação de Praia do Ribatejo,39.467243,-8.347584,35,,2000
 Estação de Praias do Sado-A,38.517980,-8.837926,2,,1700
+Estação de Puertollano,38.688087,-4.107529,694,,1500
 Estação de Queluz - Belas,38.758722,-9.25673,128,,1700
 Estação de Quintans,40.591038,-8.612689,57,,2600
 Estação de Ramalhal,39.139511,-9.216042,56,,2000
@@ -3021,6 +3035,7 @@ Paradas,37.289675,-5.495479,126,,700
 Parchal,37.136550,-8.516689,8,,500
 "Parque Alonso Sánchez, Huelva",37.25821,-6.94713,38,,2100
 Parque Arqueológico de Segóbriga,39.8884,-2.8119,813,,3200
+"Parque Comercial Puerta del AVE, Ciudad Real",38.98544,-3.90733,627,,3400
 Parque Empresarial de Alcoutim,37.437696,-7.509327,174,,10
 Parque Empresarial La Raya,37.2572,-7.0172,9,,3300
 Parque Mineiro Cova dos Mouros,37.403339,-7.717642,194,,400
@@ -3066,10 +3081,12 @@ Plaza de Quintero Báez,37.25858,-6.95021,14,,2100
 Plaza del Huerto Paco,37.26677,-6.94304,33,,2100
 "Plaza del Lino, Huelva",37.25966,-6.95356,3,,2100
 "Plaza Doce de Octubre, Huelva",37.255825,-6.957236,3,,2100
+Poblete,38.93581,-3.98122,626,,3400
 Poço Barreto,37.164008,-8.388715,43,,400
 Polígono Industrial Aceitunero,37.2686,-5.9287,46,,2700
 Polígono Industrial Ciutat de Carlet,39.2317,-0.4911,41,,3300
 Polígono Industrial de Ayamonte,37.232794,-7.391258,7,,300
+Polígono Industrial de la Carretera de Carrión,38.98931,-3.90839,628,,3400
 Polígono Industrial Fortiz,37.292135,-6.897049,7,,2100
 Polígono Industrial Francisco Montenegro,37.2290,-6.9467,5,,2100
 "Polígono Industrial La Carrera, Valência",39.22986,-0.50762,49,,3300
@@ -3148,11 +3165,12 @@ Praia dos Salgados,37.088645, -8.329042,5,,400
 Praia Nova,37.096126,-8.388199,5,,400
 Praia Verde,37.173851,-7.479848,4,,100
 "Praza de España, Vigo",42.22933,-8.71946,92,,2300
+PT-10 - Fim,38.70945,-4.10643,670,,3400
+PT-10 - Saída 1,38.72182,-4.09830,666,,3400
 Puebla de Guzmán,37.613073,-7.246990,197,,600
 Puente del Burro,37.2162,-6.9653,0,Marismas del Odiel,2100
 "Puente Mayorga, San Roque",36.181353,-5.384371,2,,1200
 Puerto de la Laja,37.52435,-7.493351,22,,40
-Puertollano,38.688087,-4.107529,694,,1500
 Punta de Tarifa,36.000083,-5.610361,4,Parque Natural del Estrecho,3300
 Punta del Moral,37.189202,-7.34245,4,,200
 Punta del Sebo,37.21231,-6.94036,4,,2100
