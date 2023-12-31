@@ -3018,6 +3018,8 @@ Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa
 Estação Câmara de Gaia,Estação de General Torres,Subway,0.5,Linha D - Metro do Porto,N,2,3
 Estação Câmara de Gaia,Estação João de Deus,Subway,0.4,Linha D - Metro do Porto,S,1,2
 Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
+Estação Combatentes,Estação Marquês,Subway,0.5,Linha D - Metro do Porto,SW,1,2
+Estação Combatentes,Estação Salgueiros,Subway,0.3,Linha D - Metro do Porto,N,2,1
 Estação D. João II,Estação João de Deus,Subway,0.7,Linha D - Metro do Porto,N,2,1
 Estação D. João II,Estação Santo Ovídio,Subway,0.5,Linha D - Metro do Porto,S,1,2
 Estação da Arte,Estação de Antón Martín,Subway,0.8,Linha 1 - Metro de Madrid,NW,2,1
@@ -3721,8 +3723,15 @@ Estação de Vilar Formoso,Vilar Formoso,Car,0.7,,NW,3,2
 Estação do Entroncamento,Gare do Oriente,Train,99.8,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SW,7,9
 Estação do Pragal,Pinhal Novo,Train,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Subway,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
+Estação Faria Guimarães,Estação Marquês,Subway,0.7,Linha D - Metro do Porto,NE,2,1
+Estação Faria Guimarães,Estação Trindade,Subway,0.4,Linha D - Metro do Porto,S,1,2
+Estação Hospital de São João,Estação IPO,Subway,0.3,Linha D - Metro do Porto,SW,1,2
+Estação IPO,Estação Pólo Universitário,Subway,0.7,Linha D - Metro do Porto,S,1,2
 Estação Moscavide,Gare do Oriente,Subway,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
+Estação Pólo Universitário,Estação Salgueiros,Subway,0.6,Linha D - Metro do Porto,SE,1,2
+Estação Pólo Universitário,IC23 - Paranhos,Car,0.6,,S,3,3
 Estação Saldanha,Estação São Sebastião,Subway,0.8,Linha Vermelha - Metro de Lisboa,W,2,1
+Estação Salgueiros,IC23 - Paranhos,Car,0.9,,NW,3,4
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2
 Estádio Nuevo Colombino,H-30 - Saída 15,Car,1.3,,E,2,3
 Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Car,0.6,,N,1,2

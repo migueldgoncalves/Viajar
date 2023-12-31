@@ -173,6 +173,7 @@ PT_GUIMARAES_LINE = Way("Guimarães Line", "Linha de Guimarães", PORTUGAL, RAIL
 PT_LISBON_METRO_RED_LINE = Way("Lisbon Metro - Red Line", "Linha Vermelha: São Sebastião → Aeroporto", PORTUGAL, RAILWAY)
 PT_MINHO_LINE = Way("Minho Line", "Linha do Minho", PORTUGAL, RAILWAY)
 PT_NORTH_LINE = Way("North Line", "Linha do Norte", PORTUGAL, RAILWAY)
+PT_PORTO_METRO_LINE_D = Way("Porto Metro - Line D", "Linha D: Hospital de São João ⇒ Santo Ovídio", PORTUGAL, RAILWAY)
 PT_SINTRA_LINE = Way("Sintra Line", "Linha de Sintra", PORTUGAL, RAILWAY)
 PT_SOUTH_LINE = Way("South Line", "Linha do Sul", PORTUGAL, RAILWAY)
 PT_TOMAR_BRANCH_LINE = Way("Tomar Branch Line", "Ramal de Tomar", PORTUGAL, RAILWAY)

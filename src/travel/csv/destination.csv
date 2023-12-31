@@ -10021,6 +10021,12 @@ Estação Chelas,Estação Olivais,Subway,False,Alameda
 Estação Chelas,Estação Olivais,Subway,False,São Sebastião
 Estação Chelas,Estação Olivais,Subway,True,Aeroporto
 Estação Chelas,Estação Olivais,Subway,True,Oriente
+Estação Combatentes,Estação Marquês,Subway,False,Hospital de São João
+Estação Combatentes,Estação Marquês,Subway,True,Santo Ovídio
+Estação Combatentes,Estação Marquês,Subway,True,Trindade
+Estação Combatentes,Estação Salgueiros,Subway,False,Santo Ovídio
+Estação Combatentes,Estação Salgueiros,Subway,False,Trindade
+Estação Combatentes,Estação Salgueiros,Subway,True,Hospital de São João
 Estação D. João II,Estação João de Deus,Subway,False,Santo Ovídio
 Estação D. João II,Estação João de Deus,Subway,True,General Torres
 Estação D. João II,Estação João de Deus,Subway,True,Hospital de São João
@@ -13640,9 +13646,24 @@ Estação do Pragal,Pinhal Novo,Train,True,Tunes
 Estação Encarnação,Estação Moscavide,Subway,False,Aeroporto
 Estação Encarnação,Estação Moscavide,Subway,True,Oriente
 Estação Encarnação,Estação Moscavide,Subway,True,São Sebastião
+Estação Faria Guimarães,Estação Marquês,Subway,False,Santo Ovídio
+Estação Faria Guimarães,Estação Marquês,Subway,False,Trindade
+Estação Faria Guimarães,Estação Marquês,Subway,True,Hospital de São João
+Estação Faria Guimarães,Estação Trindade,Subway,False,Hospital de São João
+Estação Faria Guimarães,Estação Trindade,Subway,True,Santo Ovídio
+Estação Faria Guimarães,Estação Trindade,Subway,True,São Bento
+Estação Hospital de São João,Estação IPO,Subway,False,Hospital de São João
+Estação Hospital de São João,Estação IPO,Subway,True,Santo Ovídio
+Estação Hospital de São João,Estação IPO,Subway,True,Trindade
+Estação IPO,Estação Pólo Universitário,Subway,False,Hospital de São João
+Estação IPO,Estação Pólo Universitário,Subway,True,Santo Ovídio
+Estação IPO,Estação Pólo Universitário,Subway,True,Trindade
 Estação Moscavide,Gare do Oriente,Subway,False,Aeroporto
 Estação Moscavide,Gare do Oriente,Subway,True,Alameda
 Estação Moscavide,Gare do Oriente,Subway,True,São Sebastião
+Estação Pólo Universitário,Estação Salgueiros,Subway,False,Hospital de São João
+Estação Pólo Universitário,Estação Salgueiros,Subway,True,Santo Ovídio
+Estação Pólo Universitário,Estação Salgueiros,Subway,True,Trindade
 Estação Saldanha,Estação São Sebastião,Subway,False,Aeroporto
 Estação Saldanha,Estação São Sebastião,Subway,False,Alameda
 Estação Saldanha,Estação São Sebastião,Subway,True,São Sebastião
