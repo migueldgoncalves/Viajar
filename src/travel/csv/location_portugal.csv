@@ -458,9 +458,16 @@ Espírito Santo,Espírito Santo,Mértola
 "Estação Aeroporto, Metro de Lisboa",Santa Maria dos Olivais,Lisboa
 Estação Alameda,São Jorge de Arroios,Lisboa
 Estação Aliados,Santo Ildefonso,Porto
+Estação Baguim,Baguim do Monte,Gondomar
 Estação Bela Vista,Marvila,Lisboa
+Estação Bolhão,Santo Ildefonso,Porto
 Estação Cabo Ruivo,Santa Maria de Olivais,Lisboa
 Estação Câmara de Gaia,Mafamude,Vila Nova de Gaia
+Estação Campainha,Rio Tinto,Gondomar
+Estação Campo 24 de Agosto,Bonfim,Porto
+Estação Carolina Michaelis,Cedofeita,Porto
+Estação Carreira,Rio Tinto,Gondomar
+Estação Casa da Música,Cedofeita,Porto
 Estação Chelas,Marvila,Lisboa
 Estação Combatentes,Paranhos,Porto
 Estação D. João II,Mafamude,Vila Nova de Gaia
@@ -593,7 +600,6 @@ Estação de Coimbra,São Bartolomeu,Coimbra
 Estação de Coimbra-B,Eiras,Coimbra
 Estação de Coimbrões,Canidelo,Vila Nova de Gaia
 Estação de Coina,Aldeia de Paio Pires,Seixal
-Estação de Contumil,Campanhã,Porto
 Estação de Corroios,Corroios,Seixal
 Estação de Cortegaça,Cortegaça,Ovar
 Estação de Couto de Cambeses,Cambeses,Barcelos
@@ -704,6 +710,8 @@ Estação de Mazagão,Aveleda,Braga
 Estação de Mealhada,Mealhada,Mealhada
 Estação de Meinedo,Meinedo,Lousada
 Estação de Messines - Alte,São Bartolomeu de Messines,Silves
+Estação de Metro de Contumil,Campanhã,Porto
+Estação de Metro de Rio Tinto,Rio Tinto,Gondomar
 Estação de Midões,Midões,Barcelos
 Estação de Mira Sintra - Meleças,Belas,Sintra
 Estação de Miramar,Arcozelo,Vila Nova de Gaia
@@ -794,7 +802,6 @@ Estação de Reveles,Abrunheira,Montemor-o-Velho
 Estação de Riachos-Torres Novas-Golegã,Riachos,Torres Novas
 Estação de Rio de Mouro,Rio de Mouro,Sintra
 Estação de Rio Meão,Rio Meão,Santa Maria da Feira
-Estação de Rio Tinto,Rio Tinto,Gondomar
 Estação de Rochoso,Rochoso,Guarda
 Estação de Ródão,Vila Velha de Ródão,Vila Velha de Ródão
 Estação de Roma-Areeiro,Alvalade,Lisboa
@@ -915,21 +922,36 @@ Estação do Lavradio,Lavradio,Barreiro
 Estação do Pragal,Pragal,Almada
 Estação do Rossio,Santa Justa,Lisboa
 Estação Encarnação,Santa Maria dos Olivais,Lisboa
+Estação Estádio do Dragão,Campanhã,Porto
+Estação Fânzeres,Fânzeres,Gondomar
 Estação Faria Guimarães,Santo Ildefonso,Porto
+Estação Ferroviária de Contumil,Campanhã,Porto
+Estação Ferroviária de Rio Tinto,Rio Tinto,Gondomar
+Estação Francos,Ramalde,Porto
+Estação Heroísmo,Bonfim,Porto
 Estação Hospital de São João,Paranhos,Porto
 Estação IPO,Paranhos,Porto
 Estação Jardim do Morro,Santa Marinha,Vila Nova de Gaia
 Estação João de Deus,Mafamude,Vila Nova de Gaia
+Estação Lapa,Cedofeita,Porto
+Estação Levada,Rio Tinto,Gondomar
 Estação Marquês,Santo Ildefonso,Porto
 Estação Moscavide,Parque das Nações,Lisboa
+Estação Nasoni,Campanhã,Porto
+Estação Nau Vitória,Campanhã,Porto
 Estação Olaias,Areeiro,Lisboa
 Estação Olivais,Olivais,Lisboa
 Estação Pólo Universitário,Paranhos,Porto
+Estação Ramalde,Ramalde,Porto
 Estação Saldanha,Nossa Senhora de Fátima,Lisboa
 Estação Salgueiros,Paranhos,Porto
 Estação Santo Ovídio,Mafamude,Vila Nova de Gaia
 Estação São Sebastião,São Sebastião da Pedreira,Lisboa
+Estação Senhora da Hora,Senhora da Hora,Matosinhos
+Estação Sete Bicas,Senhora da Hora,Matosinhos
 Estação Trindade,Santo Ildefonso,Porto
+Estação Venda Nova,Rio Tinto,Gondomar
+Estação Via Rápida / Viso,Ramalde,Porto
 Estádio Algarve,Almancil,Loulé
 Estoi,Estoi,Faro
 Estômbar,Estômbar,Lagoa

@@ -9996,6 +9996,20 @@ Estação Aliados,Estação de Porto - São Bento,Subway,True,Santo Ovídio
 Estação Aliados,Estação Trindade,Subway,False,Santo Ovídio
 Estação Aliados,Estação Trindade,Subway,False,São Bento
 Estação Aliados,Estação Trindade,Subway,True,Hospital de São João
+Estação Baguim,Estação Campainha,Subway,False,Fânzeres
+Estação Baguim,Estação Campainha,Subway,True,Aeroporto
+Estação Baguim,Estação Campainha,Subway,True,Estádio do Dragão
+Estação Baguim,Estação Campainha,Subway,True,ISMAI
+Estação Baguim,Estação Campainha,Subway,True,Póvoa de Varzim
+Estação Baguim,Estação Campainha,Subway,True,Senhor de Matosinhos
+Estação Baguim,Estação Campainha,Subway,True,Senhora da Hora
+Estação Baguim,Estação Carreira,Subway,False,Aeroporto
+Estação Baguim,Estação Carreira,Subway,False,Estádio do Dragão
+Estação Baguim,Estação Carreira,Subway,False,ISMAI
+Estação Baguim,Estação Carreira,Subway,False,Póvoa de Varzim
+Estação Baguim,Estação Carreira,Subway,False,Senhor de Matosinhos
+Estação Baguim,Estação Carreira,Subway,False,Senhora da Hora
+Estação Baguim,Estação Carreira,Subway,True,Fânzeres
 Estação Bela Vista,Estação Chelas,Subway,False,Alameda
 Estação Bela Vista,Estação Chelas,Subway,False,São Sebastião
 Estação Bela Vista,Estação Chelas,Subway,True,Aeroporto
@@ -10004,6 +10018,21 @@ Estação Bela Vista,Estação Olaias,Subway,False,Aeroporto
 Estação Bela Vista,Estação Olaias,Subway,False,Oriente
 Estação Bela Vista,Estação Olaias,Subway,True,Alameda
 Estação Bela Vista,Estação Olaias,Subway,True,São Sebastião
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,Aeroporto
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,ISMAI
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,Póvoa de Varzim
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,Senhor de Matosinhos
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,Senhora da Hora
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,False,Trindade
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,True,Campanhã
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,True,Fânzeres
+Estação Bolhão,Estação Trindade,Subway,False,Campanhã
+Estação Bolhão,Estação Trindade,Subway,False,Fânzeres
+Estação Bolhão,Estação Trindade,Subway,True,Aeroporto
+Estação Bolhão,Estação Trindade,Subway,True,ISMAI
+Estação Bolhão,Estação Trindade,Subway,True,Póvoa de Varzim
+Estação Bolhão,Estação Trindade,Subway,True,Senhor de Matosinhos
+Estação Bolhão,Estação Trindade,Subway,True,Senhora da Hora
 Estação Cabo Ruivo,Estação Olivais,Subway,False,Aeroporto
 Estação Cabo Ruivo,Estação Olivais,Subway,False,Oriente
 Estação Cabo Ruivo,Estação Olivais,Subway,True,Alameda
@@ -10017,6 +10046,49 @@ Estação Câmara de Gaia,Estação de General Torres,Subway,True,São Bento
 Estação Câmara de Gaia,Estação João de Deus,Subway,False,General Torres
 Estação Câmara de Gaia,Estação João de Deus,Subway,False,Hospital de São João
 Estação Câmara de Gaia,Estação João de Deus,Subway,True,Santo Ovídio
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,False,Fânzeres
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Aeroporto
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Estádio do Dragão
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,ISMAI
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Póvoa de Varzim
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Senhor de Matosinhos
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Senhora da Hora
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Aeroporto
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,ISMAI
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Póvoa de Varzim
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Senhor de Matosinhos
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Senhora da Hora
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Trindade
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,True,Campanhã
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,True,Fânzeres
+Estação Carolina Michaelis,Estação Casa da Música,Subway,False,Fânzeres
+Estação Carolina Michaelis,Estação Casa da Música,Subway,False,Trindade
+Estação Carolina Michaelis,Estação Casa da Música,Subway,True,Aeroporto
+Estação Carolina Michaelis,Estação Casa da Música,Subway,True,ISMAI
+Estação Carolina Michaelis,Estação Casa da Música,Subway,True,Póvoa de Varzim
+Estação Carolina Michaelis,Estação Casa da Música,Subway,True,Senhor de Matosinhos
+Estação Carolina Michaelis,Estação Casa da Música,Subway,True,Senhora da Hora
+Estação Carolina Michaelis,Estação Lapa,Subway,False,Aeroporto
+Estação Carolina Michaelis,Estação Lapa,Subway,False,ISMAI
+Estação Carolina Michaelis,Estação Lapa,Subway,False,Póvoa de Varzim
+Estação Carolina Michaelis,Estação Lapa,Subway,False,Senhor de Matosinhos
+Estação Carolina Michaelis,Estação Lapa,Subway,False,Senhora da Hora
+Estação Carolina Michaelis,Estação Lapa,Subway,True,Fânzeres
+Estação Carolina Michaelis,Estação Lapa,Subway,True,Trindade
+Estação Carreira,Estação Venda Nova,Subway,False,Aeroporto
+Estação Carreira,Estação Venda Nova,Subway,False,Estádio do Dragão
+Estação Carreira,Estação Venda Nova,Subway,False,ISMAI
+Estação Carreira,Estação Venda Nova,Subway,False,Póvoa de Varzim
+Estação Carreira,Estação Venda Nova,Subway,False,Senhor de Matosinhos
+Estação Carreira,Estação Venda Nova,Subway,False,Senhora da Hora
+Estação Carreira,Estação Venda Nova,Subway,True,Fânzeres
+Estação Casa da Música,Estação Francos,Subway,False,Fânzeres
+Estação Casa da Música,Estação Francos,Subway,False,Trindade
+Estação Casa da Música,Estação Francos,Subway,True,Aeroporto
+Estação Casa da Música,Estação Francos,Subway,True,ISMAI
+Estação Casa da Música,Estação Francos,Subway,True,Póvoa de Varzim
+Estação Casa da Música,Estação Francos,Subway,True,Senhor de Matosinhos
+Estação Casa da Música,Estação Francos,Subway,True,Senhora da Hora
 Estação Chelas,Estação Olivais,Subway,False,Alameda
 Estação Chelas,Estação Olivais,Subway,False,São Sebastião
 Estação Chelas,Estação Olivais,Subway,True,Aeroporto
@@ -10256,25 +10328,25 @@ Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Santo T
 Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Trofa
 Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Valença
 Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,True,Viana do Castelo
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Braga
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Ermesinde
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Famalicão
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Guimarães
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Lousado
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Marco de Canaveses
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Nine
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Pocinho
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Régua
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Santo Tirso
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Trofa
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Valença
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,False,Viana do Castelo
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Aveiro
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Espinho
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Lisboa - Santa Apolónia
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Porto - Campanhã
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Porto - São Bento
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,True,Vila Nova de Gaia
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Braga
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Ermesinde
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Famalicão
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Guimarães
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Lousado
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Marco de Canaveses
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Nine
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Pocinho
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Régua
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Santo Tirso
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Trofa
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Valença
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,False,Viana do Castelo
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Aveiro
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Espinho
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Lisboa - Santa Apolónia
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Porto - Campanhã
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Porto - São Bento
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,True,Vila Nova de Gaia
 Estação de Aguda,Estação de Granja,Train,False,Porto - Campanhã
 Estação de Aguda,Estação de Granja,Train,False,Porto - São Bento
 Estação de Aguda,Estação de Granja,Train,False,Vila Nova de Gaia
@@ -11680,61 +11752,6 @@ Estação de Colombia,Estação de Nuevos Ministerios,Subway,True,Nuevos Ministe
 Estação de Colombia,Estação de Pinar del Rey,Subway,False,Nuevos Ministerios
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Aeropuerto T4
 Estação de Colombia,Estação de Pinar del Rey,Subway,True,Mar de Cristal
-Estação de Contumil,Estação de Ermesinde,Train,False,Aveiro
-Estação de Contumil,Estação de Ermesinde,Train,False,Espinho
-Estação de Contumil,Estação de Ermesinde,Train,False,Lisboa - Santa Apolónia
-Estação de Contumil,Estação de Ermesinde,Train,False,Porto - Campanhã
-Estação de Contumil,Estação de Ermesinde,Train,False,Porto - São Bento
-Estação de Contumil,Estação de Ermesinde,Train,False,Vila Nova de Gaia
-Estação de Contumil,Estação de Ermesinde,Train,True,Braga
-Estação de Contumil,Estação de Ermesinde,Train,True,Famalicão
-Estação de Contumil,Estação de Ermesinde,Train,True,Guimarães
-Estação de Contumil,Estação de Ermesinde,Train,True,Lousado
-Estação de Contumil,Estação de Ermesinde,Train,True,Marco de Canaveses
-Estação de Contumil,Estação de Ermesinde,Train,True,Nine
-Estação de Contumil,Estação de Ermesinde,Train,True,Pocinho
-Estação de Contumil,Estação de Ermesinde,Train,True,Régua
-Estação de Contumil,Estação de Ermesinde,Train,True,Santo Tirso
-Estação de Contumil,Estação de Ermesinde,Train,True,Trofa
-Estação de Contumil,Estação de Ermesinde,Train,True,Valença
-Estação de Contumil,Estação de Ermesinde,Train,True,Viana do Castelo
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Braga
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Ermesinde
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Famalicão
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Guimarães
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Lousado
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Marco de Canaveses
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Nine
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Pocinho
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Régua
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Santo Tirso
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Trofa
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Valença
-Estação de Contumil,Estação de Porto - Campanhã,Train,False,Viana do Castelo
-Estação de Contumil,Estação de Porto - Campanhã,Train,True,Aveiro
-Estação de Contumil,Estação de Porto - Campanhã,Train,True,Espinho
-Estação de Contumil,Estação de Porto - Campanhã,Train,True,Lisboa - Santa Apolónia
-Estação de Contumil,Estação de Porto - Campanhã,Train,True,Porto - São Bento
-Estação de Contumil,Estação de Porto - Campanhã,Train,True,Vila Nova de Gaia
-Estação de Contumil,Estação de Rio Tinto,Train,False,Aveiro
-Estação de Contumil,Estação de Rio Tinto,Train,False,Espinho
-Estação de Contumil,Estação de Rio Tinto,Train,False,Lisboa - Santa Apolónia
-Estação de Contumil,Estação de Rio Tinto,Train,False,Porto - Campanhã
-Estação de Contumil,Estação de Rio Tinto,Train,False,Porto - São Bento
-Estação de Contumil,Estação de Rio Tinto,Train,False,Vila Nova de Gaia
-Estação de Contumil,Estação de Rio Tinto,Train,True,Braga
-Estação de Contumil,Estação de Rio Tinto,Train,True,Ermesinde
-Estação de Contumil,Estação de Rio Tinto,Train,True,Famalicão
-Estação de Contumil,Estação de Rio Tinto,Train,True,Guimarães
-Estação de Contumil,Estação de Rio Tinto,Train,True,Lousado
-Estação de Contumil,Estação de Rio Tinto,Train,True,Marco de Canaveses
-Estação de Contumil,Estação de Rio Tinto,Train,True,Nine
-Estação de Contumil,Estação de Rio Tinto,Train,True,Pocinho
-Estação de Contumil,Estação de Rio Tinto,Train,True,Régua
-Estação de Contumil,Estação de Rio Tinto,Train,True,Santo Tirso
-Estação de Contumil,Estação de Rio Tinto,Train,True,Trofa
-Estação de Contumil,Estação de Rio Tinto,Train,True,Valença
-Estação de Contumil,Estação de Rio Tinto,Train,True,Viana do Castelo
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Antequera-Santa Ana
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Granada
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,False,Madrid-Puerta de Atocha
@@ -12019,6 +12036,24 @@ Estação de Ermesinde,Estação de Trofa,Train,True,Nine
 Estação de Ermesinde,Estação de Trofa,Train,True,Santo Tirso
 Estação de Ermesinde,Estação de Trofa,Train,True,Valença
 Estação de Ermesinde,Estação de Trofa,Train,True,Viana do Castelo
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Braga
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Famalicão
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Guimarães
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Lousado
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Marco de Canaveses
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Nine
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Pocinho
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Régua
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Santo Tirso
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Trofa
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Valença
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,False,Viana do Castelo
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Aveiro
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Espinho
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Lisboa - Santa Apolónia
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Porto - Campanhã
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Porto - São Bento
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,True,Vila Nova de Gaia
 Estação de Ermida,Estação de Mirão,Train,False,Pocinho
 Estação de Ermida,Estação de Mirão,Train,False,Régua
 Estação de Ermida,Estação de Mirão,Train,True,Marco de Canaveses
@@ -12868,6 +12903,27 @@ Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Train,True,Pinha
 Estação de Messines - Alte,Tunes,Train,False,Lisboa - Oriente
 Estação de Messines - Alte,Tunes,Train,False,Pinhal Novo
 Estação de Messines - Alte,Tunes,Train,True,Faro
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,False,Fânzeres
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,Aeroporto
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,Campanhã
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,ISMAI
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,Póvoa de Varzim
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,Senhor de Matosinhos
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,True,Senhora da Hora
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,Aeroporto
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,Estádio do Dragão
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,ISMAI
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,Póvoa de Varzim
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,Senhor de Matosinhos
+Estação de Metro de Contumil,Estação Nasoni,Subway,False,Senhora da Hora
+Estação de Metro de Contumil,Estação Nasoni,Subway,True,Fânzeres
+Estação de Metro de Rio Tinto,Estação Levada,Subway,False,Fânzeres
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,Aeroporto
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,Estádio do Dragão
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,ISMAI
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,Póvoa de Varzim
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,Senhor de Matosinhos
+Estação de Metro de Rio Tinto,Estação Levada,Subway,True,Senhora da Hora
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,False,Agualva - Cacém
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,False,Lisboa - Rossio
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,True,Caldas da Rainha
@@ -13287,6 +13343,39 @@ Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,F
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,False,Viana do Castelo
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Espinho
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,True,Lisboa - Santa Apolónia
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,Aeroporto
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,ISMAI
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,Póvoa de Varzim
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,Senhor de Matosinhos
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,Senhora da Hora
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,False,Trindade
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,True,Fânzeres
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,False,Aveiro
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,False,Espinho
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,False,Lisboa - Santa Apolónia
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,False,Porto - São Bento
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,False,Vila Nova de Gaia
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Braga
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Ermesinde
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Famalicão
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Guimarães
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Lousado
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Marco de Canaveses
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Nine
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Pocinho
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Régua
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Santo Tirso
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Trofa
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Valença
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,True,Viana do Castelo
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,False,Estádio do Dragão
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,False,Fânzeres
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,Aeroporto
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,ISMAI
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,Póvoa de Varzim
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,Senhor de Matosinhos
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,Senhora da Hora
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,True,Trindade
 Estação de Porto - São Bento,Estação Jardim do Morro,Subway,False,Hospital de São João
 Estação de Porto - São Bento,Estação Jardim do Morro,Subway,False,Trindade
 Estação de Porto - São Bento,Estação Jardim do Morro,Subway,True,General Torres
@@ -13646,27 +13735,102 @@ Estação do Pragal,Pinhal Novo,Train,True,Tunes
 Estação Encarnação,Estação Moscavide,Subway,False,Aeroporto
 Estação Encarnação,Estação Moscavide,Subway,True,Oriente
 Estação Encarnação,Estação Moscavide,Subway,True,São Sebastião
+Estação Fânzeres,Estação Venda Nova,Subway,False,Fânzeres
+Estação Fânzeres,Estação Venda Nova,Subway,True,Aeroporto
+Estação Fânzeres,Estação Venda Nova,Subway,True,Estádio do Dragão
+Estação Fânzeres,Estação Venda Nova,Subway,True,ISMAI
+Estação Fânzeres,Estação Venda Nova,Subway,True,Póvoa de Varzim
+Estação Fânzeres,Estação Venda Nova,Subway,True,Senhor de Matosinhos
+Estação Fânzeres,Estação Venda Nova,Subway,True,Senhora da Hora
 Estação Faria Guimarães,Estação Marquês,Subway,False,Santo Ovídio
 Estação Faria Guimarães,Estação Marquês,Subway,False,Trindade
 Estação Faria Guimarães,Estação Marquês,Subway,True,Hospital de São João
 Estação Faria Guimarães,Estação Trindade,Subway,False,Hospital de São João
 Estação Faria Guimarães,Estação Trindade,Subway,True,Santo Ovídio
 Estação Faria Guimarães,Estação Trindade,Subway,True,São Bento
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Aveiro
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Espinho
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Lisboa - Santa Apolónia
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Porto - Campanhã
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Porto - São Bento
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,False,Vila Nova de Gaia
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Braga
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Ermesinde
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Famalicão
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Guimarães
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Lousado
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Marco de Canaveses
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Nine
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Pocinho
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Régua
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Santo Tirso
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Trofa
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Valença
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Viana do Castelo
+Estação Francos,Estação Ramalde,Subway,False,Fânzeres
+Estação Francos,Estação Ramalde,Subway,False,Trindade
+Estação Francos,Estação Ramalde,Subway,True,Aeroporto
+Estação Francos,Estação Ramalde,Subway,True,ISMAI
+Estação Francos,Estação Ramalde,Subway,True,Póvoa de Varzim
+Estação Francos,Estação Ramalde,Subway,True,Senhor de Matosinhos
+Estação Francos,Estação Ramalde,Subway,True,Senhora da Hora
 Estação Hospital de São João,Estação IPO,Subway,False,Hospital de São João
 Estação Hospital de São João,Estação IPO,Subway,True,Santo Ovídio
 Estação Hospital de São João,Estação IPO,Subway,True,Trindade
 Estação IPO,Estação Pólo Universitário,Subway,False,Hospital de São João
 Estação IPO,Estação Pólo Universitário,Subway,True,Santo Ovídio
 Estação IPO,Estação Pólo Universitário,Subway,True,Trindade
+Estação Lapa,Estação Trindade,Subway,False,Aeroporto
+Estação Lapa,Estação Trindade,Subway,False,ISMAI
+Estação Lapa,Estação Trindade,Subway,False,Póvoa de Varzim
+Estação Lapa,Estação Trindade,Subway,False,Senhor de Matosinhos
+Estação Lapa,Estação Trindade,Subway,False,Senhora da Hora
+Estação Lapa,Estação Trindade,Subway,True,Campanhã
+Estação Lapa,Estação Trindade,Subway,True,Fânzeres
+Estação Levada,Estação Nau Vitória,Subway,False,Fânzeres
+Estação Levada,Estação Nau Vitória,Subway,True,Aeroporto
+Estação Levada,Estação Nau Vitória,Subway,True,Estádio do Dragão
+Estação Levada,Estação Nau Vitória,Subway,True,ISMAI
+Estação Levada,Estação Nau Vitória,Subway,True,Póvoa de Varzim
+Estação Levada,Estação Nau Vitória,Subway,True,Senhor de Matosinhos
+Estação Levada,Estação Nau Vitória,Subway,True,Senhora da Hora
 Estação Moscavide,Gare do Oriente,Subway,False,Aeroporto
 Estação Moscavide,Gare do Oriente,Subway,True,Alameda
 Estação Moscavide,Gare do Oriente,Subway,True,São Sebastião
+Estação Nasoni,Estação Nau Vitória,Subway,False,Aeroporto
+Estação Nasoni,Estação Nau Vitória,Subway,False,Estádio do Dragão
+Estação Nasoni,Estação Nau Vitória,Subway,False,ISMAI
+Estação Nasoni,Estação Nau Vitória,Subway,False,Póvoa de Varzim
+Estação Nasoni,Estação Nau Vitória,Subway,False,Senhor de Matosinhos
+Estação Nasoni,Estação Nau Vitória,Subway,False,Senhora da Hora
+Estação Nasoni,Estação Nau Vitória,Subway,True,Fânzeres
 Estação Pólo Universitário,Estação Salgueiros,Subway,False,Hospital de São João
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Santo Ovídio
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Trindade
+Estação Ramalde,Estação Via Rápida / Viso,Subway,False,Fânzeres
+Estação Ramalde,Estação Via Rápida / Viso,Subway,False,Trindade
+Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Aeroporto
+Estação Ramalde,Estação Via Rápida / Viso,Subway,True,ISMAI
+Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Póvoa de Varzim
+Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Senhor de Matosinhos
+Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Senhora da Hora
 Estação Saldanha,Estação São Sebastião,Subway,False,Aeroporto
 Estação Saldanha,Estação São Sebastião,Subway,False,Alameda
 Estação Saldanha,Estação São Sebastião,Subway,True,São Sebastião
+Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Aeroporto
+Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Fonte do Cuco
+Estação Senhora da Hora,Estação Sete Bicas,Subway,False,ISMAI
+Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Póvoa de Varzim
+Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Senhor de Matosinhos
+Estação Senhora da Hora,Estação Sete Bicas,Subway,True,Fânzeres
+Estação Senhora da Hora,Estação Sete Bicas,Subway,True,Trindade
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Aeroporto
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,ISMAI
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Póvoa de Varzim
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Senhor de Matosinhos
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Senhora da Hora
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,True,Fânzeres
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,True,Trindade
 Estoi,Pechão,Car,False,Estoi
 Estoi,Pechão,Car,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Car,False,Estoi

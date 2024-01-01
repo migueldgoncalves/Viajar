@@ -3010,13 +3010,24 @@ Espírito Santo,Sedas,Car,4.7,N122,SE,1,1
 Estação Alameda,Estação Olaias,Subway,0.9,Linha Vermelha - Metro de Lisboa,E,1,2
 Estação Alameda,Estação Saldanha,Subway,1.0,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Aliados,Estação de Porto - São Bento,Subway,0.3,Linha D - Metro do Porto,S,1,3
-Estação Aliados,Estação Trindade,Subway,0.5,Linha D - Metro do Porto,N,2,1
+Estação Aliados,Estação Trindade,Subway,0.5,Linha D - Metro do Porto,N,2,3
+Estação Baguim,Estação Campainha,Subway,0.7,Linha F - Metro do Porto,W,2,1
+Estação Baguim,Estação Carreira,Subway,0.7,Linha F - Metro do Porto,S,1,2
 Estação Bela Vista,Estação Chelas,Subway,0.9,Linha Vermelha - Metro de Lisboa,NE,1,2
 Estação Bela Vista,Estação Olaias,Subway,1.1,Linha Vermelha - Metro de Lisboa,SW,2,1
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,0.6,Linhas A/B/C/F - Metro do Porto,E,1,2
+Estação Bolhão,Estação Trindade,Subway,0.4,Linhas A/B/C/F - Metro do Porto,NW,2,1
 Estação Cabo Ruivo,Estação Olivais,Subway,0.7,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa,NE,1,2
 Estação Câmara de Gaia,Estação de General Torres,Subway,0.5,Linha D - Metro do Porto,N,2,3
 Estação Câmara de Gaia,Estação João de Deus,Subway,0.4,Linha D - Metro do Porto,S,1,2
+Estação Campainha,Estação de Metro de Rio Tinto,Subway,0.8,Linha F - Metro do Porto,SW,2,1
+Estação Campainha,Estação Ferroviária de Rio Tinto,Car,0.9,,W,3,3
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,0.5,Linhas A/B/C/F - Metro do Porto,E,1,2
+Estação Carolina Michaelis,Estação Casa da Música,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,W,2,1
+Estação Carolina Michaelis,Estação Lapa,Subway,0.4,Linhas A/B/C/E/F - Metro do Porto,E,1,2
+Estação Carreira,Estação Venda Nova,Subway,0.5,Linha F - Metro do Porto,S,1,2
+Estação Casa da Música,Estação Francos,Subway,0.8,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
 Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
 Estação Combatentes,Estação Marquês,Subway,0.5,Linha D - Metro do Porto,SW,1,2
 Estação Combatentes,Estação Salgueiros,Subway,0.3,Linha D - Metro do Porto,N,2,1
@@ -3071,7 +3082,7 @@ Estação de Agualva - Cacém,Estação de Mira Sintra - Meleças,Train,3.0,Linh
 Estação de Agualva - Cacém,Estação de Rio de Mouro,Train,3.4,Linha de Sintra - CP Lisboa,NW,2,1
 Estação de Agualva - Cacém,Estação de Sete Rios,Train,14.2,Linha de Sintra - InterRegional/Regional,SE,4,5
 Estação de Águas Santas/Palmilheira,Estação de Ermesinde,Train,1.8,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,N,2,1
-Estação de Águas Santas/Palmilheira,Estação de Rio Tinto,Train,2.0,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,S,1,2
+Estação de Águas Santas/Palmilheira,Estação Ferroviária de Rio Tinto,Train,2.0,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,S,1,2
 Estação de Aguda,Estação de Granja,Train,1.3,Linha de Aveiro/Linha do Norte - CP Porto/Regional,S,1,2
 Estação de Aguda,Estação de Miramar,Train,2.0,Linha de Aveiro/Linha do Norte - CP Porto/Regional,N,2,1
 Estação de Águeda,Estação de Mourisca do Vouga,Train,4.2,Linha do Vouga/Ramal de Aveiro - Regional,N,2,1
@@ -3350,9 +3361,6 @@ Estação de Coina,Estação de Fogueteiro,Train,5.2,Linha do Sul - Fertagus,W,2
 Estação de Coina,Estação de Penalva,Train,8.7,Linha do Sul - Fertagus,E,1,2
 Estação de Colombia,Estação de Nuevos Ministerios,Subway,1.8,Linha 8 - Metro de Madrid,SW,2,1
 Estação de Colombia,Estação de Pinar del Rey,Subway,2.9,Linha 8 - Metro de Madrid,NE,1,2
-Estação de Contumil,Estação de Ermesinde,Train,6.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - InterRegional/Regional,NE,3,4
-Estação de Contumil,Estação de Porto - Campanhã,Train,2.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto/InterRegional/Regional,S,1,2
-Estação de Contumil,Estação de Rio Tinto,Train,2.4,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,NE,2,1
 Estação de Córdoba,Estação de Sevilha-Santa Justa,High-Speed Train,125.6,LAV Madrid-Sevilha,SW,1,3
 Estação de Córdoba,Estação de Villanueva de Córdoba-Los Pedroches,High-Speed Train,60.0,LAV Madrid-Sevilha,NE,2,1
 Estação de Corroios,Estação de Foros de Amora,Train,2.6,Linha do Sul - Fertagus,SE,1,2
@@ -3394,6 +3402,7 @@ Estação de Ermesinde,Estação de Paredes,Train,26.5,Linha do Douro - InterReg
 Estação de Ermesinde,Estação de Suzão,Train,5.9,Linha do Douro/Linha do Marco de Canaveses - Regional,E,6,3
 Estação de Ermesinde,Estação de Travagem,Train,1.3,Linha de Braga/Linha de Guimarães/Linha do Minho - CP Porto,N,2,1
 Estação de Ermesinde,Estação de Trofa,Train,13.9,Linha de Braga/Linha de Guimarães/Linha do Minho - InterRegional/Regional,N,5,3
+Estação de Ermesinde,Estação Ferroviária de Contumil,Train,6.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - InterRegional/Regional,SW,4,3
 Estação de Ermida,Estação de Mirão,Train,2.4,Linha do Douro - Regional,W,1,2
 Estação de Ermida,Estação de Porto de Rei,Train,3.6,Linha do Douro - Regional,E,2,1
 Estação de Ermida,Estação de Rede,Train,10.6,Linha do Douro - InterRegional,E,4,3
@@ -3572,6 +3581,11 @@ Estação de Menéndez Pelayo,Monumento homenaje a las víctimas del 11-M,Car,0.
 Estação de Messines - Alte,Estação de Santa Clara - Sabóia,Train,32.0,Linha do Sul - Intercidades,NW,3,6
 Estação de Messines - Alte,São Bartolomeu de Messines,Car,0.9,,NE,1,2
 Estação de Messines - Alte,Tunes,Train,12.1,Linha do Sul - Intercidades,SE,2,8
+Estação de Metro de Contumil,Estação Estádio do Dragão,Subway,0.4,Linha F - Metro do Porto,SW,2,1
+Estação de Metro de Contumil,Estação Ferroviária de Contumil,Car,0.3,,NE,3,5
+Estação de Metro de Contumil,Estação Nasoni,Subway,0.5,Linha F - Metro do Porto,N,1,2
+Estação de Metro de Rio Tinto,Estação Ferroviária de Rio Tinto,Car,1.1,,N,3,4
+Estação de Metro de Rio Tinto,Estação Levada,Subway,0.3,Linha F - Metro do Porto,SW,2,1
 Estação de Mira Sintra - Meleças,Estação de Sabugo,Train,5.1,Linha do Oeste - InterRegional/Regional,N,2,1
 Estação de Mogofores,Estação de Oliveira do Bairro,Train,7.6,Linha do Norte - InterRegional,NW,4,3
 Estação de Mogofores,Estação de Paraimo-Sangalhos,Train,3.9,Linha do Norte - Regional,NW,2,1
@@ -3647,6 +3661,9 @@ Estação de Porto - Campanhã,Estação de Trofa,High-Speed Train,22.3,Linha do
 Estação de Porto - Campanhã,Estação de Trofa,Train,22.3,Linha do Minho - Intercidades,N,5,5
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,3.8,Linha do Norte,SW,7,6
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,3.8,Linha do Norte - Intercidades/InterRegional,SW,4,4
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,1.4,Linhas A/B/F - Metro do Porto,N,11,2
+Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,2.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto/InterRegional/Regional,N,2,1
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,0.6,Linhas A/B/C/F - Metro do Porto,W,12,1
 Estação de Porto - São Bento,Estação Jardim do Morro,Subway,0.9,Linha D - Metro do Porto,S,2,2
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,4.9,Linha do Sado/Linha do Sul - CP Lisboa,E,2,1
 Estação de Praça do Quebedo,Estação de Setúbal,Train,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
@@ -3723,15 +3740,25 @@ Estação de Vilar Formoso,Vilar Formoso,Car,0.7,,NW,3,2
 Estação do Entroncamento,Gare do Oriente,Train,99.8,Linha do Norte - Lusitânia Comboio Hotel/Sud Expresso,SW,7,9
 Estação do Pragal,Pinhal Novo,Train,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Subway,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
+Estação Fânzeres,Estação Venda Nova,Subway,0.4,Linha F - Metro do Porto,N,1,1
 Estação Faria Guimarães,Estação Marquês,Subway,0.7,Linha D - Metro do Porto,NE,2,1
-Estação Faria Guimarães,Estação Trindade,Subway,0.4,Linha D - Metro do Porto,S,1,2
+Estação Faria Guimarães,Estação Trindade,Subway,0.4,Linha D - Metro do Porto,S,1,4
+Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,2.4,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,NE,2,1
+Estação Ferroviária de Contumil,Estação Nasoni,Car,0.9,,N,4,3
+Estação Francos,Estação Ramalde,Subway,1.0,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
 Estação Hospital de São João,Estação IPO,Subway,0.3,Linha D - Metro do Porto,SW,1,2
 Estação IPO,Estação Pólo Universitário,Subway,0.7,Linha D - Metro do Porto,S,1,2
+Estação Lapa,Estação Trindade,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
+Estação Levada,Estação Nau Vitória,Subway,0.9,Linha F - Metro do Porto,W,2,1
 Estação Moscavide,Gare do Oriente,Subway,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
+Estação Nasoni,Estação Nau Vitória,Subway,0.4,Linha F - Metro do Porto,NE,1,2
 Estação Pólo Universitário,Estação Salgueiros,Subway,0.6,Linha D - Metro do Porto,SE,1,2
 Estação Pólo Universitário,IC23 - Paranhos,Car,0.6,,S,3,3
+Estação Ramalde,Estação Via Rápida / Viso,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
 Estação Saldanha,Estação São Sebastião,Subway,0.8,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Salgueiros,IC23 - Paranhos,Car,0.9,,NW,3,4
+Estação Senhora da Hora,Estação Sete Bicas,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,S,1,2
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2
 Estádio Nuevo Colombino,H-30 - Saída 15,Car,1.3,,E,2,3
 Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Car,0.6,,N,1,2
