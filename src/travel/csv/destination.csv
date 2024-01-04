@@ -9979,6 +9979,18 @@ Espiche,N125 - Acesso à Saída 1 da A22,Car,True,Portimão
 Espírito Santo,Sedas,Car,False,Beja
 Espírito Santo,Sedas,Car,False,Mértola
 Espírito Santo,Sedas,Car,True,Alcoutim
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,False,Aeroporto
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,False,Fânzeres
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,False,ISMAI
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,False,Senhor de Matosinhos
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,False,Verdes
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,True,Póvoa de Varzim
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,False,Póvoa de Varzim
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Aeroporto
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Fânzeres
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,ISMAI
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Senhor de Matosinhos
+Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Verdes
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,False,Aeroporto
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,Oriente
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,São Sebastião
@@ -9996,6 +10008,36 @@ Estação Aliados,Estação de Porto - São Bento,Subway,True,Santo Ovídio
 Estação Aliados,Estação Trindade,Subway,False,Santo Ovídio
 Estação Aliados,Estação Trindade,Subway,False,São Bento
 Estação Aliados,Estação Trindade,Subway,True,Hospital de São João
+Estação Alto de Pega,Estação Portas Fronhas,Subway,False,Aeroporto
+Estação Alto de Pega,Estação Portas Fronhas,Subway,False,Fânzeres
+Estação Alto de Pega,Estação Portas Fronhas,Subway,False,ISMAI
+Estação Alto de Pega,Estação Portas Fronhas,Subway,False,Senhor de Matosinhos
+Estação Alto de Pega,Estação Portas Fronhas,Subway,False,Verdes
+Estação Alto de Pega,Estação Portas Fronhas,Subway,True,Póvoa de Varzim
+Estação Alto de Pega,Estação Vila do Conde,Subway,False,Póvoa de Varzim
+Estação Alto de Pega,Estação Vila do Conde,Subway,True,Aeroporto
+Estação Alto de Pega,Estação Vila do Conde,Subway,True,Fânzeres
+Estação Alto de Pega,Estação Vila do Conde,Subway,True,ISMAI
+Estação Alto de Pega,Estação Vila do Conde,Subway,True,Senhor de Matosinhos
+Estação Alto de Pega,Estação Vila do Conde,Subway,True,Verdes
+Estação Árvore,Estação Azurara,Subway,False,Aeroporto
+Estação Árvore,Estação Azurara,Subway,False,Fânzeres
+Estação Árvore,Estação Azurara,Subway,False,ISMAI
+Estação Árvore,Estação Azurara,Subway,False,Senhor de Matosinhos
+Estação Árvore,Estação Azurara,Subway,False,Verdes
+Estação Árvore,Estação Azurara,Subway,True,Póvoa de Varzim
+Estação Árvore,Estação Varziela,Subway,False,Póvoa de Varzim
+Estação Árvore,Estação Varziela,Subway,True,Aeroporto
+Estação Árvore,Estação Varziela,Subway,True,Fânzeres
+Estação Árvore,Estação Varziela,Subway,True,ISMAI
+Estação Árvore,Estação Varziela,Subway,True,Senhor de Matosinhos
+Estação Árvore,Estação Varziela,Subway,True,Verdes
+Estação Azurara,Estação Santa Clara,Subway,False,Aeroporto
+Estação Azurara,Estação Santa Clara,Subway,False,Fânzeres
+Estação Azurara,Estação Santa Clara,Subway,False,ISMAI
+Estação Azurara,Estação Santa Clara,Subway,False,Senhor de Matosinhos
+Estação Azurara,Estação Santa Clara,Subway,False,Verdes
+Estação Azurara,Estação Santa Clara,Subway,True,Póvoa de Varzim
 Estação Baguim,Estação Campainha,Subway,False,Fânzeres
 Estação Baguim,Estação Campainha,Subway,True,Aeroporto
 Estação Baguim,Estação Campainha,Subway,True,Estádio do Dragão
@@ -10099,6 +10141,33 @@ Estação Combatentes,Estação Marquês,Subway,True,Trindade
 Estação Combatentes,Estação Salgueiros,Subway,False,Santo Ovídio
 Estação Combatentes,Estação Salgueiros,Subway,False,Trindade
 Estação Combatentes,Estação Salgueiros,Subway,True,Hospital de São João
+Estação Crestins,Estação Esposade,Subway,False,Aeroporto
+Estação Crestins,Estação Esposade,Subway,False,Póvoa de Varzim
+Estação Crestins,Estação Esposade,Subway,False,Verdes
+Estação Crestins,Estação Esposade,Subway,True,Fânzeres
+Estação Crestins,Estação Esposade,Subway,True,Fonte do Cuco
+Estação Crestins,Estação Esposade,Subway,True,ISMAI
+Estação Crestins,Estação Esposade,Subway,True,Senhor de Matosinhos
+Estação Crestins,Estação Verdes,Subway,False,Fânzeres
+Estação Crestins,Estação Verdes,Subway,False,Fonte do Cuco
+Estação Crestins,Estação Verdes,Subway,False,ISMAI
+Estação Crestins,Estação Verdes,Subway,False,Senhor de Matosinhos
+Estação Crestins,Estação Verdes,Subway,True,Aeroporto
+Estação Crestins,Estação Verdes,Subway,True,Póvoa de Varzim
+Estação Custóias,Estação Esposade,Subway,False,Fânzeres
+Estação Custóias,Estação Esposade,Subway,False,Fonte do Cuco
+Estação Custóias,Estação Esposade,Subway,False,ISMAI
+Estação Custóias,Estação Esposade,Subway,False,Senhor de Matosinhos
+Estação Custóias,Estação Esposade,Subway,True,Aeroporto
+Estação Custóias,Estação Esposade,Subway,True,Póvoa de Varzim
+Estação Custóias,Estação Esposade,Subway,True,Verdes
+Estação Custóias,Estação Fonte do Cuco,Subway,False,Aeroporto
+Estação Custóias,Estação Fonte do Cuco,Subway,False,Póvoa de Varzim
+Estação Custóias,Estação Fonte do Cuco,Subway,False,Verdes
+Estação Custóias,Estação Fonte do Cuco,Subway,True,Fânzeres
+Estação Custóias,Estação Fonte do Cuco,Subway,True,ISMAI
+Estação Custóias,Estação Fonte do Cuco,Subway,True,Senhor de Matosinhos
+Estação Custóias,Estação Fonte do Cuco,Subway,True,Senhora da Hora
 Estação D. João II,Estação João de Deus,Subway,False,Santo Ovídio
 Estação D. João II,Estação João de Deus,Subway,True,General Torres
 Estação D. João II,Estação João de Deus,Subway,True,Hospital de São João
@@ -13735,6 +13804,18 @@ Estação do Pragal,Pinhal Novo,Train,True,Tunes
 Estação Encarnação,Estação Moscavide,Subway,False,Aeroporto
 Estação Encarnação,Estação Moscavide,Subway,True,Oriente
 Estação Encarnação,Estação Moscavide,Subway,True,São Sebastião
+Estação Espaço Natureza,Estação Mindelo,Subway,False,Póvoa de Varzim
+Estação Espaço Natureza,Estação Mindelo,Subway,True,Aeroporto
+Estação Espaço Natureza,Estação Mindelo,Subway,True,Fânzeres
+Estação Espaço Natureza,Estação Mindelo,Subway,True,ISMAI
+Estação Espaço Natureza,Estação Mindelo,Subway,True,Senhor de Matosinhos
+Estação Espaço Natureza,Estação Mindelo,Subway,True,Verdes
+Estação Espaço Natureza,Estação Varziela,Subway,False,Aeroporto
+Estação Espaço Natureza,Estação Varziela,Subway,False,Fânzeres
+Estação Espaço Natureza,Estação Varziela,Subway,False,ISMAI
+Estação Espaço Natureza,Estação Varziela,Subway,False,Senhor de Matosinhos
+Estação Espaço Natureza,Estação Varziela,Subway,False,Verdes
+Estação Espaço Natureza,Estação Varziela,Subway,True,Póvoa de Varzim
 Estação Fânzeres,Estação Venda Nova,Subway,False,Fânzeres
 Estação Fânzeres,Estação Venda Nova,Subway,True,Aeroporto
 Estação Fânzeres,Estação Venda Nova,Subway,True,Estádio do Dragão
@@ -13767,6 +13848,13 @@ Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,Tru
 Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Trofa
 Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Valença
 Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,True,Viana do Castelo
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,False,Aeroporto
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,False,ISMAI
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,False,Póvoa de Varzim
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,False,Verdes
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Fânzeres
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Senhor de Matosinhos
+Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Trindade
 Estação Francos,Estação Ramalde,Subway,False,Fânzeres
 Estação Francos,Estação Ramalde,Subway,False,Trindade
 Estação Francos,Estação Ramalde,Subway,True,Aeroporto
@@ -13794,6 +13882,30 @@ Estação Levada,Estação Nau Vitória,Subway,True,ISMAI
 Estação Levada,Estação Nau Vitória,Subway,True,Póvoa de Varzim
 Estação Levada,Estação Nau Vitória,Subway,True,Senhor de Matosinhos
 Estação Levada,Estação Nau Vitória,Subway,True,Senhora da Hora
+Estação Lidador,Estação Pedras Rubras,Subway,False,Póvoa de Varzim
+Estação Lidador,Estação Pedras Rubras,Subway,True,Aeroporto
+Estação Lidador,Estação Pedras Rubras,Subway,True,Fânzeres
+Estação Lidador,Estação Pedras Rubras,Subway,True,ISMAI
+Estação Lidador,Estação Pedras Rubras,Subway,True,Senhor de Matosinhos
+Estação Lidador,Estação Pedras Rubras,Subway,True,Verdes
+Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Aeroporto
+Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Fânzeres
+Estação Lidador,Estação Vilar do Pinheiro,Subway,False,ISMAI
+Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Senhor de Matosinhos
+Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Verdes
+Estação Lidador,Estação Vilar do Pinheiro,Subway,True,Póvoa de Varzim
+Estação Modivas Centro,Estação Modivas Sul,Subway,False,Póvoa de Varzim
+Estação Modivas Centro,Estação Modivas Sul,Subway,True,Aeroporto
+Estação Modivas Centro,Estação Modivas Sul,Subway,True,Fânzeres
+Estação Modivas Centro,Estação Modivas Sul,Subway,True,ISMAI
+Estação Modivas Centro,Estação Modivas Sul,Subway,True,Senhor de Matosinhos
+Estação Modivas Centro,Estação Modivas Sul,Subway,True,Verdes
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,False,Póvoa de Varzim
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,True,Aeroporto
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,True,Fânzeres
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,True,ISMAI
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,True,Senhor de Matosinhos
+Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,True,Verdes
 Estação Moscavide,Gare do Oriente,Subway,False,Aeroporto
 Estação Moscavide,Gare do Oriente,Subway,True,Alameda
 Estação Moscavide,Gare do Oriente,Subway,True,São Sebastião
@@ -13804,9 +13916,27 @@ Estação Nasoni,Estação Nau Vitória,Subway,False,Póvoa de Varzim
 Estação Nasoni,Estação Nau Vitória,Subway,False,Senhor de Matosinhos
 Estação Nasoni,Estação Nau Vitória,Subway,False,Senhora da Hora
 Estação Nasoni,Estação Nau Vitória,Subway,True,Fânzeres
+Estação Pedras Rubras,Estação Verdes,Subway,False,Póvoa de Varzim
+Estação Pedras Rubras,Estação Verdes,Subway,True,Aeroporto
+Estação Pedras Rubras,Estação Verdes,Subway,True,Fânzeres
+Estação Pedras Rubras,Estação Verdes,Subway,True,Fonte do Cuco
+Estação Pedras Rubras,Estação Verdes,Subway,True,ISMAI
+Estação Pedras Rubras,Estação Verdes,Subway,True,Senhor de Matosinhos
 Estação Pólo Universitário,Estação Salgueiros,Subway,False,Hospital de São João
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Santo Ovídio
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Trindade
+Estação Portas Fronhas,Estação São Brás,Subway,False,Aeroporto
+Estação Portas Fronhas,Estação São Brás,Subway,False,Fânzeres
+Estação Portas Fronhas,Estação São Brás,Subway,False,ISMAI
+Estação Portas Fronhas,Estação São Brás,Subway,False,Senhor de Matosinhos
+Estação Portas Fronhas,Estação São Brás,Subway,False,Verdes
+Estação Portas Fronhas,Estação São Brás,Subway,True,Póvoa de Varzim
+Estação Póvoa de Varzim,Estação São Brás,Subway,False,Póvoa de Varzim
+Estação Póvoa de Varzim,Estação São Brás,Subway,True,Aeroporto
+Estação Póvoa de Varzim,Estação São Brás,Subway,True,Fânzeres
+Estação Póvoa de Varzim,Estação São Brás,Subway,True,ISMAI
+Estação Póvoa de Varzim,Estação São Brás,Subway,True,Senhor de Matosinhos
+Estação Póvoa de Varzim,Estação São Brás,Subway,True,Verdes
 Estação Ramalde,Estação Via Rápida / Viso,Subway,False,Fânzeres
 Estação Ramalde,Estação Via Rápida / Viso,Subway,False,Trindade
 Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Aeroporto
@@ -13817,6 +13947,12 @@ Estação Ramalde,Estação Via Rápida / Viso,Subway,True,Senhora da Hora
 Estação Saldanha,Estação São Sebastião,Subway,False,Aeroporto
 Estação Saldanha,Estação São Sebastião,Subway,False,Alameda
 Estação Saldanha,Estação São Sebastião,Subway,True,São Sebastião
+Estação Santa Clara,Estação Vila do Conde,Subway,False,Aeroporto
+Estação Santa Clara,Estação Vila do Conde,Subway,False,Fânzeres
+Estação Santa Clara,Estação Vila do Conde,Subway,False,ISMAI
+Estação Santa Clara,Estação Vila do Conde,Subway,False,Senhor de Matosinhos
+Estação Santa Clara,Estação Vila do Conde,Subway,False,Verdes
+Estação Santa Clara,Estação Vila do Conde,Subway,True,Póvoa de Varzim
 Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Aeroporto
 Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Fonte do Cuco
 Estação Senhora da Hora,Estação Sete Bicas,Subway,False,ISMAI
