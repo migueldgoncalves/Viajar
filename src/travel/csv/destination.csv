@@ -329,6 +329,20 @@ A3 - Saída 14,A3 - Saída 15,Car,True,Valença
 A3 - Saída 15,A-55 - Saída 30,Car,False,Porto
 A3 - Saída 15,A-55 - Saída 30,Car,False,Valença
 A3 - Saída 15,A-55 - Saída 30,Car,True,Espanha
+A4 - Matosinhos,Cruzamento da A4 com a A28,Car,False,Matosinhos
+A4 - Matosinhos,Cruzamento da A4 com a A28,Car,True,A4 - Vila Real
+A4 - Matosinhos,Cruzamento da A4 com a A28,Car,True,A28 - Lisboa/Porto/Viana do Castelo
+A4 - Matosinhos,Cruzamento da A4 com a A28,Car,True,VRI - Aeroporto do Porto
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,False,A4 - Vila Real
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,False,A28 - Lisboa/Porto/Viana do Castelo
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,False,VRI - Aeroporto do Porto
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,True,Matosinhos - Avenida da República
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,True,Matosinhos - Câmara Municipal
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,True,Matosinhos - Centro da cidade
+A4 - Saída 2,Cruzamento da A4 com a A28,Car,False,Aeroporto do Porto
+A4 - Saída 2,Cruzamento da A4 com a A28,Car,False,Vila Real
+A4 - Saída 2,Cruzamento da A4 com a A28,Car,True,A28 - Porto/Viana do Castelo
+A4 - Saída 2,Cruzamento da A4 com a A28,Car,True,Matosinhos
 A5 - Fim,A5 - Saída 12,Car,False,Aldeia de Juso
 A5 - Fim,A5 - Saída 12,Car,False,Birre
 A5 - Fim,A5 - Saída 12,Car,True,Lisboa
@@ -1271,6 +1285,24 @@ A26-1 - Saída 3,Vila Nova de Santo André,Car,False,Odemira
 A26-1 - Saída 3,Vila Nova de Santo André,Car,False,Sines
 A26-1 - Saída 3,Vila Nova de Santo André,Car,True,Melides
 A26-1 - Saída 3,Vila Nova de Santo André,Car,True,Tróia
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,False,A1 - Lisboa
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,False,Porto
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,True,A4 - Vila Real
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,True,Aeroporto do Porto
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,True,Matosinhos - Centro da cidade
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,True,Viana do Castelo
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,False,Aeroporto do Porto
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,False,Matosinhos
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,False,Porto de Leixões
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,False,Viana do Castelo
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,A1 - Sul
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,Outras direcções
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,Porto - Centro da cidade
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,False,Viana do Castelo
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,False,Vila do Conde
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,A4 - Vila Real
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,Matosinhos - Centro da cidade
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,Porto
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Alcobendas
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Burgos
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,True,M-11
@@ -7878,6 +7910,12 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Santarém,Cruzamento da A1 com a A23,Car,False,Santarém
 Área de Serviço de Santarém,Cruzamento da A1 com a A23,Car,True,Porto
 Área de Serviço de Santarém,Cruzamento da A1 com a A23,Car,True,Torres Novas
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,False,A1 - Lisboa
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,False,Porto
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,True,A4 - Vila Real
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,True,Aeroporto do Porto
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,True,Matosinhos - Centro da cidade
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,True,Viana do Castelo
 Área de Serviço de Seseña,R-4 - Saída 12,Car,False,Aranjuez
 Área de Serviço de Seseña,R-4 - Saída 12,Car,False,Córdoba
 Área de Serviço de Seseña,R-4 - Saída 12,Car,False,Ocaña
@@ -7941,6 +7979,12 @@ AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Segóvia
 AV-20 - Saída 8-9,Cruzamento da A-50 com a AV-20,Car,True,Valladolid
 AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,False,Ávila
 AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,True,Plasencia
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,False,Matosinhos - Avenida da República
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,False,Matosinhos - Câmara Municipal
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,False,Matosinhos - Centro da cidade
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,True,A4 - Vila Real
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,True,A28 - Lisboa/Porto/Viana do Castelo
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,True,VRI - Aeroporto do Porto
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,False,Sevilha - Avenida de Andalucía
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,False,Sevilha - Centro da cidade
 "Avenida de Andalucía, Sevilha",Cruzamento da A-92 com a SE-30,Car,True,SE-30 - Todas as direcções
@@ -8323,6 +8367,17 @@ Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Car,False,Ponte da Arrá
 Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Car,True,A3 - Braga
 Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Car,True,A4 - Vila Real
 Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Car,True,Ponte do Freixo
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,A1 - Lisboa
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,A3 - Braga
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,A4 - Vila Real
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,Aeroporto do Porto
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,IC23 VCI - Vila Nova de Gaia
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,Matosinhos
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,Porto de Leixões
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,False,Viana do Castelo
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,True,Estádio do Bessa
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,True,Porto - Bessa
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,True,Porto - Boavista
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Car,False,Ponte do Freixo
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Car,False,Porto
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Car,False,Vila Nova de Gaia

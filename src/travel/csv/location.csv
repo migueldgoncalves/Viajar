@@ -41,6 +41,8 @@ A3 - Saída 11,41.769254,-8.559178,51,,2300
 A3 - Saída 13,41.926259,-8.652879,201,,2300
 A3 - Saída 14,41.987462,-8.646508,18,,2300
 A3 - Saída 15,42.027632,-8.650939,44,,2300
+A4 - Matosinhos,41.18347,-8.67635,25,,3500
+A4 - Saída 2,41.19304,-8.66608,65,,3500
 A5 - Fim,38.722438,-9.447006,64,,1000
 A5 - Saída 1,38.723243,-9.175877,39,Parque Florestal de Monsanto,1000
 A5 - Saída 2,38.724587,-9.193881,170,Parque Florestal de Monsanto,1000
@@ -191,6 +193,8 @@ A26 - Saída 4,37.999522,-8.746413,86,,1500
 A26-1 - Saída 1,37.989799,-8.834355,32,,1500
 A26-1 - Saída 2,38.038742,-8.800765,33,,1500
 A26-1 - Saída 3,38.054308,-8.790184,27,,1500
+A28 - Saída 3,41.17801,-8.65550,75,,3500
+A28 - Saída 5,41.19215,-8.67965,18,,3500
 A-1 - Saída 11,40.501469,-3.660409,689,,1600
 A-1 - Saída 14,40.52039,-3.652152,704,,2300
 A-1 - Saída 15,40.526409,-3.648497,691,,2300
@@ -1664,6 +1668,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de San Simón,42.318137,-8.661025,32,,2600
 Área de Serviço de Santarém,39.392521,-8.639074,88,,1600
 Área de Serviço de Seixal,38.623056,-9.133344,21,,1000
+Área de Serviço de Senhora da Hora,41.18380,-8.66263,69,,3500
 Área de Serviço de Seseña,40.128144,-3.677999,639,,1400
 Área de Serviço de Silves,37.151517,-8.427001,63,,400
 Área de Serviço de Sintra,38.792561,-9.358412,203,,1400
@@ -1686,6 +1691,7 @@ AV-20 - Saída 3-4,40.6771,-4.6856,1132,,2600
 AV-20 - Saída 8-9,40.6484,-4.7268,1078,,2600
 "Avenida da Gran Vía x Rúa de Urzáiz, Vigo",42.23452,-8.71657,61,,3100
 "Avenida da Gran Vía x Rúa de Venezuela, Vigo",42.23194,-8.71797,95,,3100
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",41.18058,-8.68217,18,,3500
 "Avenida de América, Madrid",40.439060,-3.673304,699,,1600
 Avenida de Andalucía x Avenida Pío XII,37.26223,-6.94281,28,,2100
 "Avenida de Andalucía, Huelva",37.26872,-6.93386,30,,2100
@@ -1863,6 +1869,7 @@ Cruzamento da A3 com a A7,41.381731,-8.500477,58,,2300
 Cruzamento da A3 com a A11,41.531224,-8.484971,115,,2300
 Cruzamento da A3 com a A27,41.77922,-8.56306,25,,2300
 Cruzamento da A3 com a A41 CREP,41.24100,-8.56423,115,,2300
+Cruzamento da A4 com a A28,41.18837,-8.66887,66,,3500
 Cruzamento da A5 com a A9 CREL,38.714489,-9.2642,64,,1000
 Cruzamento da A9 CREL com o IC19,38.747774,-9.273421,141,,1100
 Cruzamento da A10 com a A13,38.904728,-8.780689,29,,1500
@@ -2169,6 +2176,7 @@ Estação Bela Vista,38.747541,-9.117678,55,,3100
 Estação Bolhão,41.14976,-8.605835,90,,3500
 Estação Cabo Ruivo,38.763189,-9.103961,24,,1700
 Estação Câmara de Gaia,41.12966,-8.60617,103,,3200
+Estação Câmara de Matosinhos,41.18064,-8.68124,18,,3500
 Estação Campainha,41.183338,-8.553831,77,,3500
 Estação Campo 24 de Agosto,41.148742,-8.598711,96,,3500
 Estação Carolina Michaelis,41.158546,-8.621901,97,,3500
@@ -3066,6 +3074,7 @@ N-340 - Tarifa Oeste,36.02915,-5.61142,4,,3300
 N-442 - Acesso Norte ao Porto Exterior de Huelva,37.20472,-6.93668,7,,2100
 Neves,37.618562,-7.676569,103,Parque Natural do Vale do Guadiana,600
 Norte do Sapal de Castro Marim e Vila Real de Santo António,37.24116,-7.426341,1,Sapal de Castro Marim e Vila Real de Santo António,100
+NorteShopping,41.18045,-8.65546,72,,3500
 Nuevo Portil,37.215610,-7.061446,8,,1900
 Observatorio de Aves Cazalla,36.03306,-5.57662,170,,3300
 Odeceixe,37.433106,-8.770232,48,Parque Natural do Sudoeste Alentejano e Costa Vicentina,500
@@ -3277,6 +3286,7 @@ Ronda Urbana Norte de Sevilha - Poligono Store,37.41612,-5.956364,18,,300
 Rosal de la Frontera,37.967832,-7.220338,220,,700
 Rotonda dels Hams / Rotonda de los Anzuelos,39.44613,-0.36889,0,,3400
 Rotunda da Árvore,37.391148,-7.445127,25,,10
+Rotunda do Bessa,41.16503,-8.63953,76,,3500
 "Rotunda dos Golfinhos, Setúbal",38.53596,-8.87468,40,,2300
 Ruínas Romanas de Milreu,37.094824,-7.904695,74,,300
 Ruínas Romanas de Miróbriga,38.010156,-8.683699,243,,1500

@@ -81,6 +81,9 @@ A3 - Saída 13,Cruzamento da A3 com a A27,Car,20.5,A3,SE,1,2
 A3 - Saída 14,A3 - Saída 15,Car,4.6,A3,N,2,1
 A3 - Saída 15,A-55 - Saída 30,Car,0.7,A3,NW,2,1
 A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,5
+A4 - Matosinhos,Cruzamento da A4 com a A28,Car,0.9,A4 - Avenida da Liberdade,NE,2,1
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,0.6,A4 - Avenida da Liberdade,SW,1,2
+A4 - Saída 2,Cruzamento da A4 com a A28,Car,0.6,A4,S,1,2
 A5 - Fim,A5 - Saída 12,Car,0.5,A5,E,1,2
 A5 - Fim,Aldeia de Juso,Car,0.8,,N,3,1
 A5 - Fim,Birre,Car,1.0,,S,2,1
@@ -347,6 +350,12 @@ A26-1 - Saída 1,A26-1 - Saída 2,Car,6.2,A26-1,NE,2,1
 A26-1 - Saída 1,Cruzamento da A26 com a A26-1,Car,2.3,A26-1,S,1,2
 A26-1 - Saída 2,A26-1 - Saída 3,Car,2.0,A26-1,NE,2,1
 A26-1 - Saída 3,Vila Nova de Santo André,Car,1.0,A26-1,N,2,1
+A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,0.9,A28 - Avenida da Associação Empresarial de Portugal,NW,2,1
+A28 - Saída 3,Cruzamento da A20 com a A28,Car,1.6,A28 - Avenida da Associação Empresarial de Portugal,SE,1,4
+A28 - Saída 3,Estação Sete Bicas,Car,0.9,,NE,5,3
+A28 - Saída 3,Estação Via Rápida / Viso,Car,1.6,,E,3,3
+A28 - Saída 3,NorteShopping,Car,0.9,,N,4,1
+A28 - Saída 5,Cruzamento da A4 com a A28,Car,1.0,A28,SE,1,4
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,2.3,A-1,SW,1,3
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Car,0.9,A-1,N,2,3
 A-1 - Saída 14,A-1 - Saída 15,Car,0.8,A-1,NE,2,1
@@ -2286,6 +2295,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de San Simón,Cruzamento da AG-46 com a AP-9,Car,2.8,AP-9,S,1,2
 Área de Serviço de Santarém,Cruzamento da A1 com a A15,Car,17.3,A1,SW,1,2
 Área de Serviço de Santarém,Cruzamento da A1 com a A23,Car,9.6,A1,N,2,1
+Área de Serviço de Senhora da Hora,Cruzamento da A4 com a A28,Car,0.8,A28 - Avenida da Associação Empresarial de Portugal,NW,2,3
 Área de Serviço de Seseña,R-4 - Saída 12,Car,7.7,R-4,NW,1,2
 Área de Serviço de Seseña,R-4 - Saída 22,Car,2.5,R-4,SE,2,1
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,1.2,A16,S,1,2
@@ -2312,6 +2322,7 @@ AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,4.2,N-110,W,2,1
 "Avenida da Gran Vía x Rúa de Urzáiz, Vigo","Centro Comercial Vialia, Vigo",Car,0.4,,E,3,1
 "Avenida da Gran Vía x Rúa de Urzáiz, Vigo",Estação de Vigo-Urzáiz,Car,0.4,,E,2,1
 "Avenida da Gran Vía x Rúa de Venezuela, Vigo","Praza de España, Vigo",Car,0.3,,S,2,2
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,0.1,A4 - Avenida da Liberdade,E,1,1
 Avenida de Andalucía x Avenida Pío XII,"Avenida de Andalucía, Huelva",Car,1.1,,NE,1,3
 Avenida de Andalucía x Avenida Pío XII,"Calle Galaroza, Huelva",Car,1.1,,E,6,6
 Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Car,0.6,,W,3,3
@@ -2644,8 +2655,10 @@ Cruzamento da A9 CREL com o IC19,IC19 - Saída 5,Car,0.8,IC19,E,4,1
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Car,0.8,IC19,W,3,2
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,1.2,IC19,SE,4,1
 Cruzamento da A16 com o IC19,Ranholas,Car,0.6,N9,W,3,1
+Cruzamento da A20 com a A28,Estação Ramalde,Car,0.7,,N,5,3
 Cruzamento da A20 com a A28,IC23 - Avenida da Boavista Poente,Car,0.6,A28/IC23 VCI,SW,2,1
 Cruzamento da A20 com a A28,IC23 - Cruzamento com a N14,Car,1.9,A20/IC23 VCI,E,1,2
+Cruzamento da A20 com a A28,Rotunda do Bessa,Car,0.3,A28 - Avenida da Associação Empresarial de Portugal,SE,3,1
 Cruzamento da A20 com a A29,Cruzamento da A20 com a A32,Car,0.7,A20,S,1,2
 Cruzamento da A20 com a A43,Cruzamento da A20 com a A44,Car,1.5,A20/IC23 VCI/Ponte do Freixo,S,1,2
 Cruzamento da A20 com a A43,Estação de Porto - Campanhã,Car,2.0,,W,3,10
@@ -3760,6 +3773,7 @@ Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,2.4
 Estação Ferroviária de Contumil,Estação Nasoni,Car,0.9,,N,4,3
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,0.6,Linhas B/C/E - Metro do Porto,S,1,2
 Estação Francos,Estação Ramalde,Subway,1.0,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
+Estação Francos,Rotunda do Bessa,Car,0.8,,W,3,2
 Estação Hospital de São João,Estação IPO,Subway,0.3,Linha D - Metro do Porto,SW,1,2
 Estação IPO,Estação Pólo Universitário,Subway,0.7,Linha D - Metro do Porto,S,1,2
 Estação Lapa,Estação Trindade,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
@@ -3781,6 +3795,7 @@ Estação Salgueiros,IC23 - Paranhos,Car,0.9,,NW,3,4
 Estação Santa Clara,Estação Vila do Conde,Subway,0.7,Linha B - Metro do Porto,NW,2,1
 Estação Senhora da Hora,Estação Sete Bicas,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,S,1,2
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
+Estação Sete Bicas,NorteShopping,Car,0.6,,SW,4,2
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2
 Estádio Nuevo Colombino,H-30 - Saída 15,Car,1.3,,E,2,3
 Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Car,0.6,,N,1,2

@@ -41,6 +41,8 @@ A3 - Saída 11,Ribeira,Ponte de Lima
 A3 - Saída 13,Sapardos,Vila Nova de Cerveira
 A3 - Saída 14,São Pedro da Torre,Valença
 A3 - Saída 15,Valença,Valença
+A4 - Matosinhos,Matosinhos,Matosinhos
+A4 - Saída 2,Matosinhos,Matosinhos
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -191,6 +193,8 @@ A26 - Saída 4,Santiago do Cacém,Santiago do Cacém
 A26-1 - Saída 1,Sines,Sines
 A26-1 - Saída 2,Santo André,Santiago do Cacém
 A26-1 - Saída 3,Santo André,Santiago do Cacém
+A28 - Saída 3,Ramalde,Porto
+A28 - Saída 5,Matosinhos,Matosinhos
 Achada do Gamo,Santana de Cambas,Mértola
 Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
@@ -265,6 +269,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Pombal,Redinha,Pombal
 Área de Serviço de Santarém,Casével,Santarém
 Área de Serviço de Seixal,Amora,Seixal
+Área de Serviço de Senhora da Hora,Senhora da Hora,Matosinhos
 Área de Serviço de Silves,Silves,Silves
 Área de Serviço de Sintra,São Pedro de Penaferrim,Sintra
 Área de Serviço de Vendas Novas,Landeira,Vendas Novas
@@ -275,6 +280,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço do Fundão,Alcaria,Fundão
 Armação de Pêra,Armação de Pêra,Silves
 Autódromo Internacional do Algarve,Mexilhoeira Grande,Portimão
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Matosinhos,Matosinhos
 "Avenida Engenheiro Duarte Pacheco, Lisboa",Campolide,Lisboa
 Azinhal,Azinhal,Castro Marim
 Azóia,Colares,Sintra
@@ -377,6 +383,7 @@ Cruzamento da A3 com a A7,Cabeçudos,Vila Nova de Famalicão
 Cruzamento da A3 com a A11,Sequeira,Braga
 Cruzamento da A3 com a A27,Refóios do Lima,Ponte de Lima
 Cruzamento da A3 com a A41 CREP,São Pedro Fins,Maia
+Cruzamento da A4 com a A28,Matosinhos,Matosinhos
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente
@@ -467,6 +474,7 @@ Estação Bela Vista,Marvila,Lisboa
 Estação Bolhão,Santo Ildefonso,Porto
 Estação Cabo Ruivo,Santa Maria de Olivais,Lisboa
 Estação Câmara de Gaia,Mafamude,Vila Nova de Gaia
+Estação Câmara de Matosinhos,Matosinhos,Matosinhos
 Estação Campainha,Rio Tinto,Gondomar
 Estação Campo 24 de Agosto,Bonfim,Porto
 Estação Carolina Michaelis,Cedofeita,Porto
@@ -1134,6 +1142,7 @@ N125 - Acesso à Saída 2 da A22,Odiáxere,Lagos
 N125 - Acesso à Saída 3 da A22,Mexilhoeira Grande,Portimão
 Neves,Mértola,Mértola
 Norte do Sapal de Castro Marim e Vila Real de Santo António,Castro Marim,Castro Marim
+NorteShopping,Senhora da Hora,Matosinhos
 Odeceixe,Odeceixe,Aljezur
 Odeleite,Odeleite,Castro Marim
 Odemira,Santa Maria,Odemira
@@ -1238,6 +1247,7 @@ Roncão de Baixo,Espírito Santo,Mértola
 Roncão de Cima,Espírito Santo,Mértola
 Roncão do Meio,Espírito Santo,Mértola
 Rotunda da Árvore,Alcoutim,Alcoutim
+Rotunda do Bessa,Ramalde,Porto
 "Rotunda dos Golfinhos, Setúbal",São Sebastião,Setúbal
 Ruínas Romanas de Milreu,Estoi,Faro
 Ruínas Romanas de Miróbriga,Santiago do Cacém,Santiago do Cacém
