@@ -819,11 +819,11 @@ A22 - Saída 13,Cruzamento do IC4 com a N125,Car,False,A22 - Espanha/Portimão
 A22 - Saída 13,Cruzamento do IC4 com a N125,Car,False,Loulé
 A22 - Saída 13,Cruzamento do IC4 com a N125,Car,True,Aeroporto de Faro
 A22 - Saída 13,Cruzamento do IC4 com a N125,Car,True,Faro
-A22 - Saída 13,Mar Shopping Algarve,Car,False,A22 - Espanha/Portimão
-A22 - Saída 13,Mar Shopping Algarve,Car,False,Aeroporto de Faro
-A22 - Saída 13,Mar Shopping Algarve,Car,False,Estádio Algarve
-A22 - Saída 13,Mar Shopping Algarve,Car,False,Faro
-A22 - Saída 13,Mar Shopping Algarve,Car,True,Loulé
+A22 - Saída 13,MAR Shopping Algarve,Car,False,A22 - Espanha/Portimão
+A22 - Saída 13,MAR Shopping Algarve,Car,False,Aeroporto de Faro
+A22 - Saída 13,MAR Shopping Algarve,Car,False,Estádio Algarve
+A22 - Saída 13,MAR Shopping Algarve,Car,False,Faro
+A22 - Saída 13,MAR Shopping Algarve,Car,True,Loulé
 A22 - Saída 14,A22 - Saída 15,Car,False,Faro
 A22 - Saída 14,A22 - Saída 15,Car,False,Lisboa
 A22 - Saída 14,A22 - Saída 15,Car,True,Espanha
@@ -1298,11 +1298,55 @@ A28 - Saída 3,Cruzamento da A20 com a A28,Car,False,Viana do Castelo
 A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,A1 - Sul
 A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,Outras direcções
 A28 - Saída 3,Cruzamento da A20 com a A28,Car,True,Porto - Centro da cidade
+A28 - Saída 5,A28 - Saída 6,Car,False,A4 - Vila Real
+A28 - Saída 5,A28 - Saída 6,Car,False,Matosinhos - Centro da cidade
+A28 - Saída 5,A28 - Saída 6,Car,False,Porto
+A28 - Saída 5,A28 - Saída 6,Car,True,Viana do Castelo
+A28 - Saída 5,A28 - Saída 6,Car,True,Vila do Conde
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,False,Viana do Castelo
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,False,Vila do Conde
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,A4 - Vila Real
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,Matosinhos - Centro da cidade
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,Porto
+A28 - Saída 6,A28 - Saída 7,Car,False,A4 - Vila Real
+A28 - Saída 6,A28 - Saída 7,Car,False,Matosinhos - Centro da cidade
+A28 - Saída 6,A28 - Saída 7,Car,False,Porto
+A28 - Saída 6,A28 - Saída 7,Car,True,A41 - Maia
+A28 - Saída 6,A28 - Saída 7,Car,True,Aeroporto do Porto
+A28 - Saída 6,A28 - Saída 7,Car,True,Exponor - Feira Internacional do Porto
+A28 - Saída 6,A28 - Saída 7,Car,True,Viana do Castelo
+A28 - Saída 7,A28 - Saída 8,Car,False,A4 - Vila Real
+A28 - Saída 7,A28 - Saída 8,Car,False,Matosinhos - Centro da cidade
+A28 - Saída 7,A28 - Saída 8,Car,False,Porto
+A28 - Saída 7,A28 - Saída 8,Car,True,A41 - Maia
+A28 - Saída 7,A28 - Saída 8,Car,True,Aeroporto do Porto
+A28 - Saída 7,A28 - Saída 8,Car,True,Viana do Castelo
+A28 - Saída 8,A28 - Saída 9,Car,False,A4 - Vila Real
+A28 - Saída 8,A28 - Saída 9,Car,False,Matosinhos - Centro da cidade
+A28 - Saída 8,A28 - Saída 9,Car,False,Porto
+A28 - Saída 8,A28 - Saída 9,Car,True,A41 - Maia
+A28 - Saída 8,A28 - Saída 9,Car,True,Aeroporto do Porto
+A28 - Saída 8,A28 - Saída 9,Car,True,Viana do Castelo
+A28 - Saída 9,A28 - Saída 10,Car,False,A4 - Vila Real
+A28 - Saída 9,A28 - Saída 10,Car,False,Matosinhos - Centro da cidade
+A28 - Saída 9,A28 - Saída 10,Car,False,Porto
+A28 - Saída 9,A28 - Saída 10,Car,True,A41 - Maia
+A28 - Saída 9,A28 - Saída 10,Car,True,Aeroporto do Porto
+A28 - Saída 9,A28 - Saída 10,Car,True,Viana do Castelo
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,A1 - Ponte da Arrábida
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,A4 - Vila Real
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,Matosinhos
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,Porto
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,A41 - Maia
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,Aeroporto do Porto
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,Viana do Castelo
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,A7 - Guimarães
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,Viana do Castelo
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,Vila do Conde
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,A41 - Maia
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Aeroporto do Porto
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Porto
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Porto de Leixões
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Alcobendas
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Burgos
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,True,M-11
@@ -9813,10 +9857,10 @@ Cruzamento da N125-4 com a M521,Loulé,Car,False,Almancil
 Cruzamento da N125-4 com a M521,Loulé,Car,False,Estádio Algarve
 Cruzamento da N125-4 com a M521,Loulé,Car,False,Faro
 Cruzamento da N125-4 com a M521,Loulé,Car,True,Loulé
-Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,False,Loulé
-Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,A22
-Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,Aeroporto de Faro
-Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,True,Faro
+Cruzamento da N125-4 com a M521,MAR Shopping Algarve,Car,False,Loulé
+Cruzamento da N125-4 com a M521,MAR Shopping Algarve,Car,True,A22
+Cruzamento da N125-4 com a M521,MAR Shopping Algarve,Car,True,Aeroporto de Faro
+Cruzamento da N125-4 com a M521,MAR Shopping Algarve,Car,True,Faro
 Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,False,Daimiel
 Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,True,Ciudad Real
 Cruzamento da N-420 com a N-430,Polígono Industrial de la Carretera de Carrión,Car,True,Toledo

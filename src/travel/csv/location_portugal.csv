@@ -195,6 +195,12 @@ A26-1 - Saída 2,Santo André,Santiago do Cacém
 A26-1 - Saída 3,Santo André,Santiago do Cacém
 A28 - Saída 3,Ramalde,Porto
 A28 - Saída 5,Matosinhos,Matosinhos
+A28 - Saída 6,Leça da Palmeira,Matosinhos
+A28 - Saída 7,Leça da Palmeira,Matosinhos
+A28 - Saída 8,Perafita,Matosinhos
+A28 - Saída 9,Perafita,Matosinhos
+A28 - Saída 10,Perafita,Matosinhos
+A28 - Saída 12,Lavra,Matosinhos
 Achada do Gamo,Santana de Cambas,Mértola
 Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
@@ -403,6 +409,7 @@ Cruzamento da A23 com a A25,Arrifana,Guarda
 Cruzamento da A24 com a A25 e o IP3,São Cipriano,Viseu
 Cruzamento da A25 com a A29,Angeja,Albergaria-a-Velha
 Cruzamento da A26 com a A26-1,Sines,Sines
+Cruzamento da A28 com a A41,Perafita,Matosinhos
 Cruzamento da IC17 CRIL com o IC19,Benfica,Lisboa
 Cruzamento da IC17 CRIL com o IC22,Olival Basto,Odivelas
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
@@ -986,6 +993,7 @@ Estádio Algarve,Almancil,Loulé
 Estoi,Estoi,Faro
 Estômbar,Estômbar,Lagoa
 "Estrela, Moura",Póvoa de São Miguel,Moura
+Exponor - Feira Internacional do Porto,Leça da Palmeira,Matosinhos
 Faro - Avenida Calouste Gulbenkian,São Pedro,Faro
 Faro - São Pedro,São Pedro,Faro
 Faro - Sé,Sé,Faro
@@ -1096,7 +1104,8 @@ Luz de Tavira,Luz de Tavira,Tavira
 Luzianes,Luzianes-Gare,Odemira
 Malveira da Serra,Alcabideche,Cascais
 Manta Rota,Vila Nova de Cacela,Vila Real de Santo António
-Mar Shopping Algarve,Almancil,Loulé
+MAR Shopping Algarve,Almancil,Loulé
+MAR Shopping Matosinhos,Leça da Palmeira,Matosinhos
 Marina de Albufeira,Albufeira,Albufeira
 Marina de Lagos,São Sebastião,Lagos
 Marina de Portimão,Portimão,Portimão

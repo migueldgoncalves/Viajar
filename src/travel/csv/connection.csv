@@ -215,7 +215,7 @@ A22 - Saída 12,Loulé,Car,3.4,,NE,3,5
 A22 - Saída 13,A22 - Saída 14,Car,7.0,A22,E,2,1
 A22 - Saída 13,Cruzamento do IC4 com a N125,Car,3.0,IC4,SE,3,2
 A22 - Saída 13,Estádio Algarve,Car,2.9,,SE,5,3
-A22 - Saída 13,Mar Shopping Algarve,Car,1.9,N125-4,NW,4,1
+A22 - Saída 13,MAR Shopping Algarve,Car,1.9,N125-4,NW,4,1
 A22 - Saída 14,A22 - Saída 15,Car,11.6,A22,E,2,1
 A22 - Saída 14,"Conceição, Faro",Car,4.4,N2,S,4,1
 A22 - Saída 14,Ruínas Romanas de Milreu,Car,2.0,N2,E,3,2
@@ -355,7 +355,18 @@ A28 - Saída 3,Cruzamento da A20 com a A28,Car,1.6,A28 - Avenida da Associação
 A28 - Saída 3,Estação Sete Bicas,Car,0.9,,NE,5,3
 A28 - Saída 3,Estação Via Rápida / Viso,Car,1.6,,E,3,3
 A28 - Saída 3,NorteShopping,Car,0.9,,N,4,1
+A28 - Saída 5,A28 - Saída 6,Car,0.8,A28,NW,2,1
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,1.0,A28,SE,1,4
+A28 - Saída 6,A28 - Saída 7,Car,0.7,A28,NW,2,1
+A28 - Saída 6,Exponor - Feira Internacional do Porto,Car,1.2,,NW,3,1
+A28 - Saída 7,A28 - Saída 8,Car,1.6,A28,N,2,1
+A28 - Saída 7,Exponor - Feira Internacional do Porto,Car,0.9,,S,3,2
+A28 - Saída 7,MAR Shopping Matosinhos,Car,0.9,,N,4,1
+A28 - Saída 8,A28 - Saída 9,Car,0.3,A28,N,2,1
+A28 - Saída 8,MAR Shopping Matosinhos,Car,1.5,,S,3,2
+A28 - Saída 9,A28 - Saída 10,Car,1.0,A28,N,2,1
+A28 - Saída 10,Cruzamento da A28 com a A41,Car,0.5,A28,N,2,1
+A28 - Saída 12,Cruzamento da A28 com a A41,Car,3.2,A28,S,1,2
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,2.3,A-1,SW,1,3
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Car,0.9,A-1,N,2,3
 A-1 - Saída 14,A-1 - Saída 15,Car,0.8,A-1,NE,2,1
@@ -2929,7 +2940,7 @@ Cruzamento da N125 com a N396,Estação de Loulé,Car,2.3,,NW,3,1
 Cruzamento da N125 com a N398,Olhão,Car,3.2,N125,SW,2,1
 Cruzamento da N125-4 com a M521,Estação de Almancil,Car,3.4,,S,1,1
 Cruzamento da N125-4 com a M521,Loulé,Car,2.0,N125-4,N,3,1
-Cruzamento da N125-4 com a M521,Mar Shopping Algarve,Car,4.0,N125-4,SE,2,2
+Cruzamento da N125-4 com a M521,MAR Shopping Algarve,Car,4.0,N125-4,SE,2,2
 Cruzamento da N265 com a N392,Paymogo,Car,20.9,,SE,4,1
 Cruzamento da N265 com a N392,Serpa,Car,17.7,,NW,2,1
 Cruzamento da N265 com a N392,Vale do Poço,Car,7.5,,S,1,3
@@ -3655,7 +3666,7 @@ Estação de Pampilhosa,Estação de Vacariça,Train,3.6,Linha da Beira Alta - R
 Estação de Parada,Estação de Recarei-Sobreira,Train,2.7,Linha do Douro/Linha do Marco de Canaveses - CP Porto,W,1,2
 Estação de Paramos,Estação de Silvalde,Train,1.6,Linha de Aveiro/Linha do Norte - CP Porto,N,2,1
 Estação de Paredes,Estação de Penafiel,Train,3.0,Linha do Douro/Linha do Marco de Canaveses - CP Porto/InterRegional/Regional,E,2,1
-Estação de Parque das Cidades,Mar Shopping Algarve,Car,2.5,,NW,2,4
+Estação de Parque das Cidades,MAR Shopping Algarve,Car,2.5,,NW,2,4
 Estação de Pataias,Estação de Valado-Nazaré-Alcobaça,Train,8.7,Linha do Oeste - Regional,S,1,2
 Estação de Paúl,Estação de São Mamede,Train,3.6,Linha do Oeste - Regional,NW,2,1
 Estação de Pedra Furada,Estação de Sabugo,Train,4.6,Linha do Oeste - Regional,S,1,2
@@ -4113,7 +4124,7 @@ M-50 - Saída 80,M-50 - Saída 82,Car,2.2,M-50,N,1,2
 M-50 - Saída 82,M-50 - Saída 83,Car,0.9,M-50,N,1,2
 M-50/R-2 - Saída 5,M-50/R-2 - Saída 10,Car,4.5,M-50/R-2,SE,1,2
 Manta Rota,Vila Nova de Cacela,Car,2.3,,NW,1,2
-Mar Shopping Algarve,Santa Bárbara de Nexe,Car,4.4,,NE,3,3
+MAR Shopping Algarve,Santa Bárbara de Nexe,Car,4.4,,NE,3,3
 Marchena,Osuna,Train,31.0,Linha Utrera-Fuente de Piedra - Media Distancia,SE,7,7
 Marchena,Paradas,Car,8.4,,SW,3,2
 Marina de Albufeira,Marina de Portimão,Boat,28.6,Costa de Portugal Continental,NW,4,4
