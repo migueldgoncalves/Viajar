@@ -5239,6 +5239,11 @@ A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,False,Cádiz
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Aeroporto de Málaga-Costa del Sol
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Málaga
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,True,Torremolinos
+A-8 - Saída 583,A-8 - Saída 588,Car,False,Oviedo
+A-8 - Saída 583,A-8 - Saída 588,Car,False,Ribadeo
+A-8 - Saída 583,A-8 - Saída 588,Car,True,A Coruña
+A-8 - Saída 583,A-8 - Saída 588,Car,True,Baamonde
+A-8 - Saída 583,A-8 - Saída 588,Car,True,Lugo
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Ferrol
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,False,Oviedo
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,True,A-6 - A Coruña/Lugo
@@ -7661,6 +7666,17 @@ AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Aeroporto de Valênc
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Barcelona
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,Porto de Valência
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,V-31 - València/Valencia
+AP-9 - Saída 7,AP-9 - Saída 12,Car,False,A Coruña
+AP-9 - Saída 7,AP-9 - Saída 12,Car,True,A-6 - Lugo
+AP-9 - Saída 7,AP-9 - Saída 12,Car,True,Ferrol
+AP-9 - Saída 7,AP-9 - Saída 12,Car,True,Santiago de Compostela
+AP-9 - Saída 7,Área de Serviço de O Burgo,Car,False,A-6 - Lugo
+AP-9 - Saída 7,Área de Serviço de O Burgo,Car,False,Ferrol
+AP-9 - Saída 7,Área de Serviço de O Burgo,Car,False,Santiago de Compostela
+AP-9 - Saída 7,Área de Serviço de O Burgo,Car,True,A Coruña
+AP-9 - Saída 12,Cruzamento da AP-9 com a AP-9F,Car,False,A Coruña
+AP-9 - Saída 12,Cruzamento da AP-9 com a AP-9F,Car,True,Ferrol
+AP-9 - Saída 12,Cruzamento da AP-9 com a AP-9F,Car,True,Santiago de Compostela
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,A Coruña
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ferrol
 AP-9 - Saída 41,AP-9 - Saída 55,Car,False,Ordes
@@ -7920,6 +7936,10 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Meco,R-2 - Saída 44,Car,False,Madrid
 Área de Serviço de Meco,R-2 - Saída 44,Car,True,Guadalajara
 Área de Serviço de Meco,R-2 - Saída 44,Car,True,Zaragoza
+Área de Serviço de O Burgo,Cruzamento da AC-11 com a AP-9,Car,False,A-6 - Lugo
+Área de Serviço de O Burgo,Cruzamento da AC-11 com a AP-9,Car,False,Ferrol
+Área de Serviço de O Burgo,Cruzamento da AC-11 com a AP-9,Car,False,Santiago de Compostela
+Área de Serviço de O Burgo,Cruzamento da AC-11 com a AP-9,Car,True,A Coruña
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,False,Cascais
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,False,Oeiras
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,True,A9 CREL

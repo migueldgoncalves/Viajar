@@ -1378,6 +1378,7 @@ A-7/AP-7 - Saída 185,Cruzamento V da A-7 com a AP-7,Car,1.3,A-7/AP-7,E,2,1
 A-7/AP-7 - Saída 217,A-7/AP-7 - Saída 222,Car,5.6,A-7/AP-7,NE,2,1
 A-7/AP-7 - Saída 217,Cruzamento VI da A-7 com a AP-7,Car,3.3,A-7/AP-7,SW,1,2
 A-7/AP-7 - Saída 222,Área de Serviço de Arroyo de la Miel,Car,1.5,A-7/AP-7,NE,2,1
+A-8 - Saída 583,A-8 - Saída 588,Car,5.0,A-8,S,1,2
 A-8 - Saída 588,Cruzamento da A-6 com a A-8,Car,4.8,A-8,S,1,3
 A-31 - Mercalicante,Cruzamento da A-31 com a A-70,Car,0.5,A-31,SE,1,4
 A-31 - Porto de Alicante,A-31 - Saída 239,Car,0.8,A-31,NW,1,1
@@ -2227,6 +2228,9 @@ AP-7 - Saída 213,Cruzamento VI da A-7 com a AP-7,Car,0.7,AP-7,NE,2,1
 AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,1.0,AP-7,SW,1,3
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,2.5,AP-7,NE,2,1
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,5.0,AP-7,NW,1,3
+AP-9 - Saída 7,AP-9 - Saída 12,Car,4.1,AP-9,SE,1,2
+AP-9 - Saída 7,Área de Serviço de O Burgo,Car,1.1,AP-9,W,2,1
+AP-9 - Saída 12,Cruzamento da AP-9 com a AP-9F,Car,2.2,AP-9,SE,1,2
 AP-9 - Saída 41,AP-9 - Saída 55,Car,13.5,AP-9,SW,1,2
 AP-9 - Saída 41,Área de Serviço de Ameixeira,Car,2.1,AP-9,N,2,1
 AP-9 - Saída 55,AP-9 - Saída 60,Car,5.2,AP-9,SW,1,2
@@ -2298,6 +2302,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,7.0,A1,S,1,2
 Área de Serviço de Meco,R-2 - Saída 33,Car,2.5,R-2,SW,2,1
 Área de Serviço de Meco,R-2 - Saída 44,Car,7.9,R-2,NE,1,2
+Área de Serviço de O Burgo,Cruzamento da AC-11 com a AP-9,Car,3.9,AP-9,NW,2,1
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,2.0,A5,E,1,2
 Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Car,4.4,R-5,NE,2,3
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,1.5,R-5,SW,1,2

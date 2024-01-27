@@ -1065,6 +1065,7 @@ A-7/AP-7 - Saída 184,36.519054,-4.890873,68,,900
 A-7/AP-7 - Saída 185,36.520772,-4.880525,75,,900
 A-7/AP-7 - Saída 217,36.587012,-4.595799,216,,900
 A-7/AP-7 - Saída 222,36.607189,-4.543143,211,,900
+A-8 - Saída 583,43.26180,-7.71756,487,Reserva da Biosfera Terras do Miño,3500
 A-8 - Saída 588,43.22024,-7.73718,451,Reserva da Biosfera Terras do Miño,3100
 A-31 - Mercalicante,38.34288,-0.54824,52,,3200
 A-31 - Porto de Alicante,38.33349,-0.50058,2,,3200
@@ -1599,6 +1600,8 @@ AP-7 - Saída 200,36.505418,-4.716355,113,,900
 AP-7 - Saída 213,36.566292,-4.629587,44,,900
 AP-7 - Saída 226,36.637387,-4.509438,77,,1200
 AP-7 - Saída 532,39.30903,-0.40389,9,,3400
+AP-9 - Saída 7,43.31144,-8.35258,13,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
+AP-9 - Saída 12,43.29649,-8.30793,67,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
 AP-9 - Saída 41,43.080774,-8.356732,361,,3100
 AP-9 - Saída 55,42.978836,-8.439179,257,,3100
 AP-9 - Saída 60,42.936546,-8.465131,300,,3100
@@ -1664,6 +1667,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Mira-Sintra,38.786782,-9.297185,207,,3100
 Área de Serviço de Montemor-o-Novo,38.617671,-8.079619,297,,1000
 Área de Serviço de Montijo,38.726397,-8.670269,79,,1500
+Área de Serviço de O Burgo,43.31312,-8.36536,31,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
 Área de Serviço de Oeiras,38.714190,-9.285304,82,,1000
 Área de Serviço de Olhão,37.125327,-7.770864,114,,200
 Área de Serviço de Palmela,38.585227,-8.930490,64,,1000
@@ -2025,6 +2029,7 @@ Cruzamento da A-5054 com a HU-3400,37.205013,-7.267016,3,,1800
 Cruzamento da A-5058 com a A-5059,37.233759,-7.066492,27,,1900
 Cruzamento da A-8005 com a SE-20,37.433983,-5.966298,11,,600
 Cruzamento da A-8009 com a SE-20,37.436078,-5.973137,13,,600
+Cruzamento da AC-11 com a AP-9,43.33115,-8.39865,58,,3500
 Cruzamento da AG-41 com a AP-9,42.518207,-8.665082,154,,2600
 Cruzamento da AG-46 com a AP-9,42.29533,-8.65780,52,,2600
 Cruzamento da AG-56 com a AP-9,42.855855,-8.565158,222,,3100
