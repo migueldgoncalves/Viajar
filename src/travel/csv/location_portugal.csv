@@ -43,6 +43,8 @@ A3 - Saída 14,São Pedro da Torre,Valença
 A3 - Saída 15,Valença,Valença
 A4 - Matosinhos,Matosinhos,Matosinhos
 A4 - Saída 2,Matosinhos,Matosinhos
+A4 - Saída 4,Leça do Balio,Matosinhos
+A4 - Saída 5,São Mamede de Infesta,Matosinhos
 A5 - Fim,Cascais,Cascais
 A5 - Saída 1,Campolide,Lisboa
 A5 - Saída 2,Alcântara,Lisboa
@@ -265,6 +267,7 @@ Aquashow,Quarteira,Loulé
 Área de Serviço de Leiria,Arrabal,Leiria
 Área de Serviço de Loulé,Boliqueime,Loulé
 Área de Serviço de Mangualde,Mangualde,Mangualde
+Área de Serviço de Matosinhos,Custóias,Matosinhos
 Área de Serviço de Mealhada-Cantanhede,Murtede,Cantanhede
 Área de Serviço de Mira-Sintra,Mira-Sintra,Sintra
 Área de Serviço de Montemor-o-Novo,Nossa Senhora da Vila,Montemor-o-Novo
@@ -390,6 +393,7 @@ Cruzamento da A3 com a A11,Sequeira,Braga
 Cruzamento da A3 com a A27,Refóios do Lima,Ponte de Lima
 Cruzamento da A3 com a A41 CREP,São Pedro Fins,Maia
 Cruzamento da A4 com a A28,Matosinhos,Matosinhos
+Cruzamento da A4 com a VRI,Custóias,Matosinhos
 Cruzamento da A5 com a A9 CREL,Queijas,Oeiras
 Cruzamento da A9 CREL com o IC19,Barcarena,Oeiras
 Cruzamento da A10 com a A13,Benavente,Benavente

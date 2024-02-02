@@ -343,6 +343,27 @@ A4 - Saída 2,Cruzamento da A4 com a A28,Car,False,Aeroporto do Porto
 A4 - Saída 2,Cruzamento da A4 com a A28,Car,False,Vila Real
 A4 - Saída 2,Cruzamento da A4 com a A28,Car,True,A28 - Porto/Viana do Castelo
 A4 - Saída 2,Cruzamento da A4 com a A28,Car,True,Matosinhos
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,False,A28 - Porto/Viana do Castelo
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,False,Matosinhos
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,True,Aeroporto do Porto
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,True,Porto de Leixões
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,True,Vila Real
+A4 - Saída 4,A4 - Saída 5,Car,False,A28 - Viana do Castelo
+A4 - Saída 4,A4 - Saída 5,Car,False,Aeroporto do Porto
+A4 - Saída 4,A4 - Saída 5,Car,False,Matosinhos
+A4 - Saída 4,A4 - Saída 5,Car,True,A3 - Braga
+A4 - Saída 4,A4 - Saída 5,Car,True,Vila Real
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,False,A3 - Braga
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,False,Maia
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,False,Vila Real
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,True,A28 - Viana do Castelo
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,True,Aeroporto do Porto
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,True,Matosinhos
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,False,A28 - Viana do Castelo
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,False,Aeroporto do Porto
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,False,Matosinhos
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,True,A3 - Braga/Porto
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,True,Vila Real
 A5 - Fim,A5 - Saída 12,Car,False,Aldeia de Juso
 A5 - Fim,A5 - Saída 12,Car,False,Birre
 A5 - Fim,A5 - Saída 12,Car,True,Lisboa
@@ -7924,6 +7945,12 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,True,Algeciras
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,True,Cádiz
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,True,Guadiaro
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,False,A3 - Braga
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,False,Maia
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,False,Vila Real
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,True,A28 - Viana do Castelo
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,True,Aeroporto do Porto
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,True,Matosinhos
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,False,Mealhada
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,False,Porto
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,True,Coimbra

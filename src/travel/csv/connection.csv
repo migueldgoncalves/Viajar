@@ -84,6 +84,10 @@ A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,5
 A4 - Matosinhos,Cruzamento da A4 com a A28,Car,0.9,A4 - Avenida da Liberdade,NE,2,1
 A4 - Matosinhos,Estação Câmara de Matosinhos,Car,0.6,A4 - Avenida da Liberdade,SW,1,2
 A4 - Saída 2,Cruzamento da A4 com a A28,Car,0.6,A4,S,1,2
+A4 - Saída 2,Cruzamento da A4 com a VRI,Car,1.5,A4,NE,2,1
+A4 - Saída 4,A4 - Saída 5,Car,1.3,A4,SE,2,1
+A4 - Saída 4,Área de Serviço de Matosinhos,Car,1.7,A4,W,1,2
+A4 - Saída 5,Cruzamento da A3 com a A4,Car,1.6,A4,E,2,3
 A5 - Fim,A5 - Saída 12,Car,0.5,A5,E,1,2
 A5 - Fim,Aldeia de Juso,Car,0.8,,N,3,1
 A5 - Fim,Birre,Car,1.0,,S,2,1
@@ -2299,6 +2303,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,8.4,A2,SE,2,1
 Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,4.8,AP-4,N,1,2
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,4.5,AP-7,SW,1,2
+Área de Serviço de Matosinhos,Cruzamento da A4 com a VRI,Car,1.1,A4,SW,1,2
 Área de Serviço de Mealhada-Cantanhede,Cruzamento da A1 com a A14,Car,7.0,A1,S,1,2
 Área de Serviço de Meco,R-2 - Saída 33,Car,2.5,R-2,SW,2,1
 Área de Serviço de Meco,R-2 - Saída 44,Car,7.9,R-2,NE,1,2
