@@ -7435,6 +7435,9 @@ Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,True,A-
 Aeroporto de Salamanca,Encinas de Abajo,Car,False,Salamanca
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Ávila
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Madrid
+Aeroporto do Porto,Estação Botica,Subway,False,Aeroporto
+Aeroporto do Porto,Estação Botica,Subway,True,Trindade
+Aeroporto do Porto,Estação Botica,Subway,True,Verdes
 AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,False,Plataforma Logística Industrial de Salvaterra - As Neves
 AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,False,Salvaterra de Miño
 AG-51 - Saída 2,Cruzamento da A-52 com a AG-51,Car,True,A-52 - O Porriño/Vigo
@@ -10166,6 +10169,12 @@ Estação Alto de Pega,Estação Vila do Conde,Subway,True,Fânzeres
 Estação Alto de Pega,Estação Vila do Conde,Subway,True,ISMAI
 Estação Alto de Pega,Estação Vila do Conde,Subway,True,Senhor de Matosinhos
 Estação Alto de Pega,Estação Vila do Conde,Subway,True,Verdes
+Estação Araújo,Estação Custió,Subway,False,Campanhã
+Estação Araújo,Estação Custió,Subway,False,Fonte do Cuco
+Estação Araújo,Estação Custió,Subway,True,ISMAI
+Estação Araújo,Estação Pias,Subway,False,ISMAI
+Estação Araújo,Estação Pias,Subway,True,Campanhã
+Estação Araújo,Estação Pias,Subway,True,Fonte do Cuco
 Estação Árvore,Estação Azurara,Subway,False,Aeroporto
 Estação Árvore,Estação Azurara,Subway,False,Fânzeres
 Estação Árvore,Estação Azurara,Subway,False,ISMAI
@@ -10221,6 +10230,15 @@ Estação Bolhão,Estação Trindade,Subway,True,ISMAI
 Estação Bolhão,Estação Trindade,Subway,True,Póvoa de Varzim
 Estação Bolhão,Estação Trindade,Subway,True,Senhor de Matosinhos
 Estação Bolhão,Estação Trindade,Subway,True,Senhora da Hora
+Estação Botica,Estação Verdes,Subway,False,Aeroporto
+Estação Botica,Estação Verdes,Subway,True,Fonte do Cuco
+Estação Botica,Estação Verdes,Subway,True,Trindade
+Estação Brito Capelo,Estação Matosinhos Sul,Subway,False,Senhor de Matosinhos
+Estação Brito Capelo,Estação Matosinhos Sul,Subway,True,Estádio do Dragão
+Estação Brito Capelo,Estação Matosinhos Sul,Subway,True,Senhora da Hora
+Estação Brito Capelo,Estação Mercado,Subway,False,Estádio do Dragão
+Estação Brito Capelo,Estação Mercado,Subway,False,Senhora da Hora
+Estação Brito Capelo,Estação Mercado,Subway,True,Senhor de Matosinhos
 Estação Cabo Ruivo,Estação Olivais,Subway,False,Aeroporto
 Estação Cabo Ruivo,Estação Olivais,Subway,False,Oriente
 Estação Cabo Ruivo,Estação Olivais,Subway,True,Alameda
@@ -10234,6 +10252,12 @@ Estação Câmara de Gaia,Estação de General Torres,Subway,True,São Bento
 Estação Câmara de Gaia,Estação João de Deus,Subway,False,General Torres
 Estação Câmara de Gaia,Estação João de Deus,Subway,False,Hospital de São João
 Estação Câmara de Gaia,Estação João de Deus,Subway,True,Santo Ovídio
+Estação Câmara de Matosinhos,Estação Matosinhos Sul,Subway,False,Estádio do Dragão
+Estação Câmara de Matosinhos,Estação Matosinhos Sul,Subway,False,Senhora da Hora
+Estação Câmara de Matosinhos,Estação Matosinhos Sul,Subway,True,Senhor de Matosinhos
+Estação Câmara de Matosinhos,Estação Parque de Real,Subway,False,Senhor de Matosinhos
+Estação Câmara de Matosinhos,Estação Parque de Real,Subway,True,Estádio do Dragão
+Estação Câmara de Matosinhos,Estação Parque de Real,Subway,True,Senhora da Hora
 Estação Campainha,Estação de Metro de Rio Tinto,Subway,False,Fânzeres
 Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Aeroporto
 Estação Campainha,Estação de Metro de Rio Tinto,Subway,True,Estádio do Dragão
@@ -10249,6 +10273,12 @@ Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Senhora da Hora
 Estação Campo 24 de Agosto,Estação Heroísmo,Subway,False,Trindade
 Estação Campo 24 de Agosto,Estação Heroísmo,Subway,True,Campanhã
 Estação Campo 24 de Agosto,Estação Heroísmo,Subway,True,Fânzeres
+Estação Cândido dos Reis,Estação Fonte do Cuco,Subway,False,ISMAI
+Estação Cândido dos Reis,Estação Fonte do Cuco,Subway,True,Campanhã
+Estação Cândido dos Reis,Estação Fonte do Cuco,Subway,True,Senhora da Hora
+Estação Cândido dos Reis,Estação Pias,Subway,False,Campanhã
+Estação Cândido dos Reis,Estação Pias,Subway,False,Fonte do Cuco
+Estação Cândido dos Reis,Estação Pias,Subway,True,ISMAI
 Estação Carolina Michaelis,Estação Casa da Música,Subway,False,Fânzeres
 Estação Carolina Michaelis,Estação Casa da Música,Subway,False,Trindade
 Estação Carolina Michaelis,Estação Casa da Música,Subway,True,Aeroporto
@@ -10277,6 +10307,12 @@ Estação Casa da Música,Estação Francos,Subway,True,ISMAI
 Estação Casa da Música,Estação Francos,Subway,True,Póvoa de Varzim
 Estação Casa da Música,Estação Francos,Subway,True,Senhor de Matosinhos
 Estação Casa da Música,Estação Francos,Subway,True,Senhora da Hora
+Estação Castêlo da Maia,Estação ISMAI,Subway,False,Campanhã
+Estação Castêlo da Maia,Estação ISMAI,Subway,False,Fonte do Cuco
+Estação Castêlo da Maia,Estação ISMAI,Subway,True,ISMAI
+Estação Castêlo da Maia,Estação Mandim,Subway,False,ISMAI
+Estação Castêlo da Maia,Estação Mandim,Subway,True,Campanhã
+Estação Castêlo da Maia,Estação Mandim,Subway,True,Fonte do Cuco
 Estação Chelas,Estação Olivais,Subway,False,Alameda
 Estação Chelas,Estação Olivais,Subway,False,São Sebastião
 Estação Chelas,Estação Olivais,Subway,True,Aeroporto
@@ -10300,6 +10336,9 @@ Estação Crestins,Estação Verdes,Subway,False,ISMAI
 Estação Crestins,Estação Verdes,Subway,False,Senhor de Matosinhos
 Estação Crestins,Estação Verdes,Subway,True,Aeroporto
 Estação Crestins,Estação Verdes,Subway,True,Póvoa de Varzim
+Estação Custió,Estação Parque Maia,Subway,False,Campanhã
+Estação Custió,Estação Parque Maia,Subway,False,Fonte do Cuco
+Estação Custió,Estação Parque Maia,Subway,True,ISMAI
 Estação Custóias,Estação Esposade,Subway,False,Fânzeres
 Estação Custóias,Estação Esposade,Subway,False,Fonte do Cuco
 Estação Custóias,Estação Esposade,Subway,False,ISMAI
@@ -13962,6 +14001,12 @@ Estação Espaço Natureza,Estação Varziela,Subway,False,ISMAI
 Estação Espaço Natureza,Estação Varziela,Subway,False,Senhor de Matosinhos
 Estação Espaço Natureza,Estação Varziela,Subway,False,Verdes
 Estação Espaço Natureza,Estação Varziela,Subway,True,Póvoa de Varzim
+Estação Estádio do Mar,Estação Pedro Hispano,Subway,False,Estádio do Dragão
+Estação Estádio do Mar,Estação Pedro Hispano,Subway,False,Senhora da Hora
+Estação Estádio do Mar,Estação Pedro Hispano,Subway,True,Senhor de Matosinhos
+Estação Estádio do Mar,Estação Vasco da Gama,Subway,False,Senhor de Matosinhos
+Estação Estádio do Mar,Estação Vasco da Gama,Subway,True,Estádio do Dragão
+Estação Estádio do Mar,Estação Vasco da Gama,Subway,True,Senhora da Hora
 Estação Fânzeres,Estação Venda Nova,Subway,False,Fânzeres
 Estação Fânzeres,Estação Venda Nova,Subway,True,Aeroporto
 Estação Fânzeres,Estação Venda Nova,Subway,True,Estádio do Dragão
@@ -14001,6 +14046,12 @@ Estação Fonte do Cuco,Estação Senhora da Hora,Subway,False,Verdes
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Fânzeres
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Senhor de Matosinhos
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,True,Trindade
+Estação Fórum Maia,Estação Parque Maia,Subway,False,ISMAI
+Estação Fórum Maia,Estação Parque Maia,Subway,True,Campanhã
+Estação Fórum Maia,Estação Parque Maia,Subway,True,Fonte do Cuco
+Estação Fórum Maia,Estação Zona Industrial,Subway,False,Campanhã
+Estação Fórum Maia,Estação Zona Industrial,Subway,False,Fonte do Cuco
+Estação Fórum Maia,Estação Zona Industrial,Subway,True,ISMAI
 Estação Francos,Estação Ramalde,Subway,False,Fânzeres
 Estação Francos,Estação Ramalde,Subway,False,Trindade
 Estação Francos,Estação Ramalde,Subway,True,Aeroporto
@@ -14040,6 +14091,12 @@ Estação Lidador,Estação Vilar do Pinheiro,Subway,False,ISMAI
 Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Senhor de Matosinhos
 Estação Lidador,Estação Vilar do Pinheiro,Subway,False,Verdes
 Estação Lidador,Estação Vilar do Pinheiro,Subway,True,Póvoa de Varzim
+Estação Mandim,Estação Zona Industrial,Subway,False,ISMAI
+Estação Mandim,Estação Zona Industrial,Subway,True,Campanhã
+Estação Mandim,Estação Zona Industrial,Subway,True,Fonte do Cuco
+Estação Mercado,Estação Senhor de Matosinhos,Subway,False,Estádio do Dragão
+Estação Mercado,Estação Senhor de Matosinhos,Subway,False,Senhora da Hora
+Estação Mercado,Estação Senhor de Matosinhos,Subway,True,Senhor de Matosinhos
 Estação Modivas Centro,Estação Modivas Sul,Subway,False,Póvoa de Varzim
 Estação Modivas Centro,Estação Modivas Sul,Subway,True,Aeroporto
 Estação Modivas Centro,Estação Modivas Sul,Subway,True,Fânzeres
@@ -14062,6 +14119,9 @@ Estação Nasoni,Estação Nau Vitória,Subway,False,Póvoa de Varzim
 Estação Nasoni,Estação Nau Vitória,Subway,False,Senhor de Matosinhos
 Estação Nasoni,Estação Nau Vitória,Subway,False,Senhora da Hora
 Estação Nasoni,Estação Nau Vitória,Subway,True,Fânzeres
+Estação Parque de Real,Estação Pedro Hispano,Subway,False,Senhor de Matosinhos
+Estação Parque de Real,Estação Pedro Hispano,Subway,True,Estádio do Dragão
+Estação Parque de Real,Estação Pedro Hispano,Subway,True,Senhora da Hora
 Estação Pedras Rubras,Estação Verdes,Subway,False,Póvoa de Varzim
 Estação Pedras Rubras,Estação Verdes,Subway,True,Aeroporto
 Estação Pedras Rubras,Estação Verdes,Subway,True,Fânzeres
@@ -14106,6 +14166,9 @@ Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Póvoa de Varzim
 Estação Senhora da Hora,Estação Sete Bicas,Subway,False,Senhor de Matosinhos
 Estação Senhora da Hora,Estação Sete Bicas,Subway,True,Fânzeres
 Estação Senhora da Hora,Estação Sete Bicas,Subway,True,Trindade
+Estação Senhora da Hora,Estação Vasco da Gama,Subway,False,Estádio do Dragão
+Estação Senhora da Hora,Estação Vasco da Gama,Subway,False,Trindade
+Estação Senhora da Hora,Estação Vasco da Gama,Subway,True,Senhor de Matosinhos
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Aeroporto
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,ISMAI
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Póvoa de Varzim

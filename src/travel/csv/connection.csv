@@ -82,7 +82,8 @@ A3 - Saída 14,A3 - Saída 15,Car,4.6,A3,N,2,1
 A3 - Saída 15,A-55 - Saída 30,Car,0.7,A3,NW,2,1
 A3 - Saída 15,Estação de Valença,Car,1.4,,E,3,5
 A4 - Matosinhos,Cruzamento da A4 com a A28,Car,0.9,A4 - Avenida da Liberdade,NE,2,1
-A4 - Matosinhos,Estação Câmara de Matosinhos,Car,0.6,A4 - Avenida da Liberdade,SW,1,2
+A4 - Matosinhos,Estação Câmara de Matosinhos,Car,0.6,A4 - Avenida da Liberdade,SW,1,4
+A4 - Matosinhos,Estação Parque de Real,Car,0.8,,SE,3,3
 A4 - Saída 2,Cruzamento da A4 com a A28,Car,0.6,A4,S,1,2
 A4 - Saída 2,Cruzamento da A4 com a VRI,Car,1.5,A4,NE,2,1
 A4 - Saída 4,A4 - Saída 5,Car,1.3,A4,SE,2,1
@@ -356,11 +357,13 @@ A26-1 - Saída 2,A26-1 - Saída 3,Car,2.0,A26-1,NE,2,1
 A26-1 - Saída 3,Vila Nova de Santo André,Car,1.0,A26-1,N,2,1
 A28 - Saída 3,Área de Serviço de Senhora da Hora,Car,0.9,A28 - Avenida da Associação Empresarial de Portugal,NW,2,1
 A28 - Saída 3,Cruzamento da A20 com a A28,Car,1.6,A28 - Avenida da Associação Empresarial de Portugal,SE,1,4
+A28 - Saída 3,Estação Pedro Hispano,Car,1.2,,NW,6,3
 A28 - Saída 3,Estação Sete Bicas,Car,0.9,,NE,5,3
 A28 - Saída 3,Estação Via Rápida / Viso,Car,1.6,,E,3,3
 A28 - Saída 3,NorteShopping,Car,0.9,,N,4,1
 A28 - Saída 5,A28 - Saída 6,Car,0.8,A28,NW,2,1
 A28 - Saída 5,Cruzamento da A4 com a A28,Car,1.0,A28,SE,1,4
+A28 - Saída 5,Estação Senhor de Matosinhos,Car,0.8,,SW,3,2
 A28 - Saída 6,A28 - Saída 7,Car,0.7,A28,NW,2,1
 A28 - Saída 6,Exponor - Feira Internacional do Porto,Car,1.2,,NW,3,1
 A28 - Saída 7,A28 - Saída 8,Car,1.6,A28,N,2,1
@@ -2081,6 +2084,7 @@ Aeroporto de Salamanca,Aeroporto Internacional de Ciudad Real,Plane,266.9,,SE,9,
 Aeroporto de Salamanca,Encinas de Abajo,Car,3.7,N-501,E,1,3
 Aeroporto de Sevilha,Aeroporto Federico García Lorca Granada-Jaén,Plane,189.3,,E,10,3
 Aeroporto de Sevilha,Aeroporto Internacional de Ciudad Real,Plane,232.2,,NE,16,10
+Aeroporto do Porto,Estação Botica,Subway,0.5,Linha E - Metro do Porto,E,1,2
 Aeroporto Federico García Lorca Granada-Jaén,Aeroporto Internacional de Ciudad Real,Plane,185.8,,N,8,7
 Aeroporto Internacional de Ciudad Real,Cañada de Calatrava,Car,5.6,,SW,3,2
 Aeroporto Internacional de Ciudad Real,Centro de Visitantes do Aeroporto de Ciudad Real,Car,2.7,,N,2,2
@@ -2343,7 +2347,7 @@ AV-20 - Saída 8-9,Cruzamento da N-110 com a N-502,Car,4.2,N-110,W,2,1
 "Avenida da Gran Vía x Rúa de Urzáiz, Vigo","Centro Comercial Vialia, Vigo",Car,0.4,,E,3,1
 "Avenida da Gran Vía x Rúa de Urzáiz, Vigo",Estação de Vigo-Urzáiz,Car,0.4,,E,2,1
 "Avenida da Gran Vía x Rúa de Venezuela, Vigo","Praza de España, Vigo",Car,0.3,,S,2,2
-"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,0.1,A4 - Avenida da Liberdade,E,1,1
+"Avenida da República x Avenida Dom Afonso Henriques, Matosinhos",Estação Câmara de Matosinhos,Car,0.1,A4 - Avenida da Liberdade,E,1,3
 Avenida de Andalucía x Avenida Pío XII,"Avenida de Andalucía, Huelva",Car,1.1,,NE,1,3
 Avenida de Andalucía x Avenida Pío XII,"Calle Galaroza, Huelva",Car,1.1,,E,6,6
 Avenida de Andalucía x Avenida Pío XII,Plaza de Ivonne Cazenave,Car,0.6,,W,3,3
@@ -2670,6 +2674,9 @@ Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Car,2.4,A25,W,3,2
 Cruzamento da A1 com a A25,Estação de Urgueiras,Car,4.3,N16,NE,5,3
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Car,16.0,IC1,S,4,7
 Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,5.4,A3,NE,2,1
+Cruzamento da A4 com a VRI,Estação Cândido dos Reis,Car,0.9,,SE,4,3
+Cruzamento da A4 com a VRI,Estação Custóias,Car,0.8,,SW,3,3
+Cruzamento da A4 com a VRI,Estação Pias,Car,1.0,,NE,5,3
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Car,3.9,A9 CREL,N,3,1
 Cruzamento da A9 CREL com o IC19,Cruzamento da A16 com a A9 CREL,Car,2.4,A9 CREL,N,2,1
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 5,Car,0.8,IC19,E,4,1
@@ -3049,6 +3056,8 @@ Estação Aliados,Estação de Porto - São Bento,Subway,0.3,Linha D - Metro do 
 Estação Aliados,Estação Trindade,Subway,0.5,Linha D - Metro do Porto,N,2,3
 Estação Alto de Pega,Estação Portas Fronhas,Subway,0.7,Linha B - Metro do Porto,NW,2,1
 Estação Alto de Pega,Estação Vila do Conde,Subway,0.7,Linha B - Metro do Porto,SE,1,2
+Estação Araújo,Estação Custió,Subway,0.6,Linha C - Metro do Porto,N,2,1
+Estação Araújo,Estação Pias,Subway,1.2,Linha C - Metro do Porto,SW,1,2
 Estação Árvore,Estação Azurara,Subway,0.6,Linha B - Metro do Porto,N,2,1
 Estação Árvore,Estação Varziela,Subway,0.8,Linha B - Metro do Porto,SE,1,2
 Estação Azurara,Estação Santa Clara,Subway,1.2,Linha B - Metro do Porto,NW,2,1
@@ -3058,22 +3067,32 @@ Estação Bela Vista,Estação Chelas,Subway,0.9,Linha Vermelha - Metro de Lisbo
 Estação Bela Vista,Estação Olaias,Subway,1.1,Linha Vermelha - Metro de Lisboa,SW,2,1
 Estação Bolhão,Estação Campo 24 de Agosto,Subway,0.6,Linhas A/B/C/F - Metro do Porto,E,1,2
 Estação Bolhão,Estação Trindade,Subway,0.4,Linhas A/B/C/F - Metro do Porto,NW,2,1
+Estação Botica,Estação Verdes,Subway,0.6,Linha E - Metro do Porto,E,1,3
+Estação Brito Capelo,Estação Matosinhos Sul,Subway,0.5,Linha A - Metro do Porto,SE,1,2
+Estação Brito Capelo,Estação Mercado,Subway,0.4,Linha A - Metro do Porto,NW,2,1
 Estação Cabo Ruivo,Estação Olivais,Subway,0.7,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Cabo Ruivo,Gare do Oriente,Subway,0.7,Linha Vermelha - Metro de Lisboa,NE,1,2
 Estação Câmara de Gaia,Estação de General Torres,Subway,0.5,Linha D - Metro do Porto,N,2,3
 Estação Câmara de Gaia,Estação João de Deus,Subway,0.4,Linha D - Metro do Porto,S,1,2
+Estação Câmara de Matosinhos,Estação Matosinhos Sul,Subway,0.5,Linha A - Metro do Porto,W,2,1
+Estação Câmara de Matosinhos,Estação Parque de Real,Subway,0.6,Linha A - Metro do Porto,E,1,2
 Estação Campainha,Estação de Metro de Rio Tinto,Subway,0.8,Linha F - Metro do Porto,SW,2,1
 Estação Campainha,Estação Ferroviária de Rio Tinto,Car,0.9,,W,3,3
 Estação Campo 24 de Agosto,Estação Heroísmo,Subway,0.5,Linhas A/B/C/F - Metro do Porto,E,1,2
+Estação Cândido dos Reis,Estação Fonte do Cuco,Subway,0.8,Linha C - Metro do Porto,SW,1,3
+Estação Cândido dos Reis,Estação Pias,Subway,0.8,Linha C - Metro do Porto,N,2,1
 Estação Carolina Michaelis,Estação Casa da Música,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,W,2,1
 Estação Carolina Michaelis,Estação Lapa,Subway,0.4,Linhas A/B/C/E/F - Metro do Porto,E,1,2
 Estação Carreira,Estação Venda Nova,Subway,0.5,Linha F - Metro do Porto,S,1,2
 Estação Casa da Música,Estação Francos,Subway,0.8,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
+Estação Castêlo da Maia,Estação ISMAI,Subway,0.6,Linha C - Metro do Porto,N,2,1
+Estação Castêlo da Maia,Estação Mandim,Subway,1.4,Linha C - Metro do Porto,SW,1,2
 Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
 Estação Combatentes,Estação Marquês,Subway,0.5,Linha D - Metro do Porto,SW,1,2
 Estação Combatentes,Estação Salgueiros,Subway,0.3,Linha D - Metro do Porto,N,2,1
 Estação Crestins,Estação Esposade,Subway,1.9,Linhas B/E - Metro do Porto,S,1,2
 Estação Crestins,Estação Verdes,Subway,0.5,Linhas B/E - Metro do Porto,N,2,1
+Estação Custió,Estação Parque Maia,Subway,1.3,Linha C - Metro do Porto,NE,2,1
 Estação Custóias,Estação Esposade,Subway,1.6,Linhas B/E - Metro do Porto,N,2,1
 Estação Custóias,Estação Fonte do Cuco,Subway,0.6,Linhas B/E - Metro do Porto,S,1,2
 Estação D. João II,Estação João de Deus,Subway,0.7,Linha D - Metro do Porto,N,2,1
@@ -3787,12 +3806,16 @@ Estação do Pragal,Pinhal Novo,Train,29.5,Linha do Sul - Intercidades,SE,3,6
 Estação Encarnação,Estação Moscavide,Subway,1.1,Linha Vermelha - Metro de Lisboa,E,2,1
 Estação Espaço Natureza,Estação Mindelo,Subway,0.8,Linha B - Metro do Porto,SE,1,2
 Estação Espaço Natureza,Estação Varziela,Subway,1.5,Linha B - Metro do Porto,N,2,1
+Estação Estádio do Mar,Estação Pedro Hispano,Subway,0.7,Linha A - Metro do Porto,SW,2,1
+Estação Estádio do Mar,Estação Vasco da Gama,Subway,0.5,Linha A - Metro do Porto,N,1,2
 Estação Fânzeres,Estação Venda Nova,Subway,0.4,Linha F - Metro do Porto,N,1,1
 Estação Faria Guimarães,Estação Marquês,Subway,0.7,Linha D - Metro do Porto,NE,2,1
 Estação Faria Guimarães,Estação Trindade,Subway,0.4,Linha D - Metro do Porto,S,1,4
 Estação Ferroviária de Contumil,Estação Ferroviária de Rio Tinto,Train,2.4,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto,NE,2,1
 Estação Ferroviária de Contumil,Estação Nasoni,Car,0.9,,N,4,3
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,0.6,Linhas B/C/E - Metro do Porto,S,1,2
+Estação Fórum Maia,Estação Parque Maia,Subway,0.8,Linha C - Metro do Porto,SW,1,2
+Estação Fórum Maia,Estação Zona Industrial,Subway,1.1,Linha C - Metro do Porto,N,2,1
 Estação Francos,Estação Ramalde,Subway,1.0,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
 Estação Francos,Rotunda do Bessa,Car,0.8,,W,3,2
 Estação Hospital de São João,Estação IPO,Subway,0.3,Linha D - Metro do Porto,SW,1,2
@@ -3801,10 +3824,13 @@ Estação Lapa,Estação Trindade,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,S
 Estação Levada,Estação Nau Vitória,Subway,0.9,Linha F - Metro do Porto,W,2,1
 Estação Lidador,Estação Pedras Rubras,Subway,1.1,Linha B - Metro do Porto,SE,1,2
 Estação Lidador,Estação Vilar do Pinheiro,Subway,2.0,Linha B - Metro do Porto,NW,2,1
+Estação Mandim,Estação Zona Industrial,Subway,1.1,Linha C - Metro do Porto,S,1,2
+Estação Mercado,Estação Senhor de Matosinhos,Subway,0.6,Linha A - Metro do Porto,E,2,1
 Estação Modivas Centro,Estação Modivas Sul,Subway,1.1,Linha B - Metro do Porto,SE,1,2
 Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,2.0,Linha B - Metro do Porto,SE,1,2
 Estação Moscavide,Gare do Oriente,Subway,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
 Estação Nasoni,Estação Nau Vitória,Subway,0.4,Linha F - Metro do Porto,NE,1,2
+Estação Parque de Real,Estação Pedro Hispano,Subway,0.6,Linha A - Metro do Porto,E,1,2
 Estação Pedras Rubras,Estação Verdes,Subway,0.9,Linha B - Metro do Porto,S,1,2
 Estação Pólo Universitário,Estação Salgueiros,Subway,0.6,Linha D - Metro do Porto,SE,1,2
 Estação Pólo Universitário,IC23 - Paranhos,Car,0.6,,S,3,3
@@ -3815,6 +3841,7 @@ Estação Saldanha,Estação São Sebastião,Subway,0.8,Linha Vermelha - Metro d
 Estação Salgueiros,IC23 - Paranhos,Car,0.9,,NW,3,4
 Estação Santa Clara,Estação Vila do Conde,Subway,0.7,Linha B - Metro do Porto,NW,2,1
 Estação Senhora da Hora,Estação Sete Bicas,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,S,1,2
+Estação Senhora da Hora,Estação Vasco da Gama,Subway,0.7,Linha A - Metro do Porto,W,3,1
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
 Estação Sete Bicas,NorteShopping,Car,0.6,,SW,4,2
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2

@@ -212,6 +212,7 @@ Aeroporto de Beja,São Brissos,Beja
 Aeroporto de Faro,Montenegro,Faro
 Aeroporto de Lisboa - Terminal 1,Santa Maria dos Olivais,Lisboa
 Aeroporto de Lisboa - Terminal 2,Santa Maria dos Olivais,Lisboa
+Aeroporto do Porto,Moreira,Maia
 Afonso Vicente,Alcoutim,Alcoutim
 Águas de Moura,Marateca,Palmela
 "Álamo, Alcoutim",Alcoutim,Alcoutim
@@ -478,22 +479,28 @@ Estação VC Fashion Outlet / Modivas,Modivas,Vila do Conde
 Estação Alameda,São Jorge de Arroios,Lisboa
 Estação Aliados,Santo Ildefonso,Porto
 Estação Alto de Pega,Vila do Conde,Vila do Conde
+Estação Araújo,Leça do Balio,Matosinhos
 Estação Árvore,Árvore,Vila do Conde
 Estação Azurara,Azurara,Vila do Conde
 Estação Baguim,Baguim do Monte,Gondomar
 Estação Bela Vista,Marvila,Lisboa
 Estação Bolhão,Santo Ildefonso,Porto
+Estação Botica,Moreira,Maia
+Estação Brito Capelo,Matosinhos,Matosinhos
 Estação Cabo Ruivo,Santa Maria de Olivais,Lisboa
 Estação Câmara de Gaia,Mafamude,Vila Nova de Gaia
 Estação Câmara de Matosinhos,Matosinhos,Matosinhos
 Estação Campainha,Rio Tinto,Gondomar
 Estação Campo 24 de Agosto,Bonfim,Porto
+Estação Cândido dos Reis,Custóias,Matosinhos
 Estação Carolina Michaelis,Cedofeita,Porto
 Estação Carreira,Rio Tinto,Gondomar
 Estação Casa da Música,Cedofeita,Porto
+Estação Castêlo da Maia,Gemunde,Maia
 Estação Chelas,Marvila,Lisboa
 Estação Combatentes,Paranhos,Porto
 Estação Crestins,Moreira,Maia
+Estação Custió,Leça do Balio,Matosinhos
 Estação Custóias,Custóias,Matosinhos
 Estação D. João II,Mafamude,Vila Nova de Gaia
 Estação da Azambuja,Azambuja,Azambuja
@@ -950,21 +957,27 @@ Estação Encarnação,Santa Maria dos Olivais,Lisboa
 Estação Espaço Natureza,Mindelo,Vila do Conde
 Estação Esposade,Custóias,Matosinhos
 Estação Estádio do Dragão,Campanhã,Porto
+Estação Estádio do Mar,Senhora da Hora,Matosinhos
 Estação Fânzeres,Fânzeres,Gondomar
 Estação Faria Guimarães,Santo Ildefonso,Porto
 Estação Ferroviária de Contumil,Campanhã,Porto
 Estação Ferroviária de Rio Tinto,Rio Tinto,Gondomar
 Estação Fonte do Cuco,Custóias,Matosinhos
+Estação Fórum Maia,Maia,Maia
 Estação Francos,Ramalde,Porto
 Estação Heroísmo,Bonfim,Porto
 Estação Hospital de São João,Paranhos,Porto
 Estação IPO,Paranhos,Porto
+Estação ISMAI,São Pedro de Avioso,Maia
 Estação Jardim do Morro,Santa Marinha,Vila Nova de Gaia
 Estação João de Deus,Mafamude,Vila Nova de Gaia
 Estação Lapa,Cedofeita,Porto
 Estação Levada,Rio Tinto,Gondomar
 Estação Lidador,Vila Nova da Telha,Maia
+Estação Mandim,Barca,Maia
 Estação Marquês,Santo Ildefonso,Porto
+Estação Matosinhos Sul,Matosinhos,Matosinhos
+Estação Mercado,Matosinhos,Matosinhos
 Estação Mindelo,Mindelo,Vila do Conde
 Estação Modivas Centro,Modivas,Vila do Conde
 Estação Modivas Sul,Modivas,Vila do Conde
@@ -973,7 +986,11 @@ Estação Nasoni,Campanhã,Porto
 Estação Nau Vitória,Campanhã,Porto
 Estação Olaias,Areeiro,Lisboa
 Estação Olivais,Olivais,Lisboa
+Estação Parque de Real,Matosinhos,Matosinhos
+Estação Parque Maia,Maia,Maia
 Estação Pedras Rubras,Moreira,Maia
+Estação Pedro Hispano,Senhora da Hora,Matosinhos
+Estação Pias,Custóias,Matosinhos
 Estação Pólo Universitário,Paranhos,Porto
 Estação Portas Fronhas,Vila do Conde,Vila do Conde
 Estação Póvoa de Varzim,Póvoa de Varzim,Póvoa de Varzim
@@ -984,15 +1001,18 @@ Estação Santa Clara,Vila do Conde,Vila do Conde
 Estação Santo Ovídio,Mafamude,Vila Nova de Gaia
 Estação São Brás,Vila do Conde,Vila do Conde
 Estação São Sebastião,São Sebastião da Pedreira,Lisboa
+Estação Senhor de Matosinhos,Matosinhos,Matosinhos
 Estação Senhora da Hora,Senhora da Hora,Matosinhos
 Estação Sete Bicas,Senhora da Hora,Matosinhos
 Estação Trindade,Santo Ildefonso,Porto
 Estação Varziela,Árvore,Vila do Conde
+Estação Vasco da Gama,Senhora da Hora,Matosinhos
 Estação Venda Nova,Rio Tinto,Gondomar
 Estação Verdes,Moreira,Maia
 Estação Via Rápida / Viso,Ramalde,Porto
 Estação Vila do Conde,Vila do Conde,Vila do Conde
 Estação Vilar do Pinheiro,Vilar do Pinheiro,Vila do Conde
+Estação Zona Industrial,Maia,Maia
 Estádio Algarve,Almancil,Loulé
 Estoi,Estoi,Faro
 Estômbar,Estômbar,Lagoa

@@ -11,7 +11,7 @@ Main - Execute to access all available scripts
 INITIAL_LOCATION = 'Guerreiros do Rio'
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
-WAY_TO_PROCESS = ways.PT_PORTO_METRO_LINE_B
+WAY_TO_PROCESS = ways.PT_PORTO_METRO_LINE_E
 
 OPTION_TRAVEL = 1
 OPTION_CAR = 2
