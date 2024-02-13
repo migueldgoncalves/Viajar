@@ -10140,6 +10140,9 @@ Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Fânz
 Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,ISMAI
 Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Senhor de Matosinhos
 Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,True,Verdes
+Estação VC Fashion Outlet / Modivas,Estação Pedras Rubras,Subway,False,Póvoa de Varzim
+Estação VC Fashion Outlet / Modivas,Estação Pedras Rubras,Subway,True,Estádio do Dragão
+Estação VC Fashion Outlet / Modivas,Estação Pedras Rubras,Subway,True,Senhora da Hora
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,False,Aeroporto
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,Oriente
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,True,São Sebastião
@@ -14097,6 +14100,9 @@ Estação Mandim,Estação Zona Industrial,Subway,True,Fonte do Cuco
 Estação Mercado,Estação Senhor de Matosinhos,Subway,False,Estádio do Dragão
 Estação Mercado,Estação Senhor de Matosinhos,Subway,False,Senhora da Hora
 Estação Mercado,Estação Senhor de Matosinhos,Subway,True,Senhor de Matosinhos
+Estação Mindelo,Estação Varziela,Subway,False,Estádio do Dragão
+Estação Mindelo,Estação Varziela,Subway,False,Senhora da Hora
+Estação Mindelo,Estação Varziela,Subway,True,Póvoa de Varzim
 Estação Modivas Centro,Estação Modivas Sul,Subway,False,Póvoa de Varzim
 Estação Modivas Centro,Estação Modivas Sul,Subway,True,Aeroporto
 Estação Modivas Centro,Estação Modivas Sul,Subway,True,Fânzeres
@@ -14122,6 +14128,9 @@ Estação Nasoni,Estação Nau Vitória,Subway,True,Fânzeres
 Estação Parque de Real,Estação Pedro Hispano,Subway,False,Senhor de Matosinhos
 Estação Parque de Real,Estação Pedro Hispano,Subway,True,Estádio do Dragão
 Estação Parque de Real,Estação Pedro Hispano,Subway,True,Senhora da Hora
+Estação Pedras Rubras,Estação Senhora da Hora,Subway,False,Póvoa de Varzim
+Estação Pedras Rubras,Estação Senhora da Hora,Subway,True,Estádio do Dragão
+Estação Pedras Rubras,Estação Senhora da Hora,Subway,True,Trindade
 Estação Pedras Rubras,Estação Verdes,Subway,False,Póvoa de Varzim
 Estação Pedras Rubras,Estação Verdes,Subway,True,Aeroporto
 Estação Pedras Rubras,Estação Verdes,Subway,True,Fânzeres
@@ -14131,12 +14140,18 @@ Estação Pedras Rubras,Estação Verdes,Subway,True,Senhor de Matosinhos
 Estação Pólo Universitário,Estação Salgueiros,Subway,False,Hospital de São João
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Santo Ovídio
 Estação Pólo Universitário,Estação Salgueiros,Subway,True,Trindade
+Estação Portas Fronhas,Estação Póvoa de Varzim,Subway,False,Estádio do Dragão
+Estação Portas Fronhas,Estação Póvoa de Varzim,Subway,False,Senhora da Hora
+Estação Portas Fronhas,Estação Póvoa de Varzim,Subway,True,Póvoa de Varzim
 Estação Portas Fronhas,Estação São Brás,Subway,False,Aeroporto
 Estação Portas Fronhas,Estação São Brás,Subway,False,Fânzeres
 Estação Portas Fronhas,Estação São Brás,Subway,False,ISMAI
 Estação Portas Fronhas,Estação São Brás,Subway,False,Senhor de Matosinhos
 Estação Portas Fronhas,Estação São Brás,Subway,False,Verdes
 Estação Portas Fronhas,Estação São Brás,Subway,True,Póvoa de Varzim
+Estação Portas Fronhas,Estação Vila do Conde,Subway,False,Póvoa de Varzim
+Estação Portas Fronhas,Estação Vila do Conde,Subway,True,Estádio do Dragão
+Estação Portas Fronhas,Estação Vila do Conde,Subway,True,Senhora da Hora
 Estação Póvoa de Varzim,Estação São Brás,Subway,False,Póvoa de Varzim
 Estação Póvoa de Varzim,Estação São Brás,Subway,True,Aeroporto
 Estação Póvoa de Varzim,Estação São Brás,Subway,True,Fânzeres
@@ -14176,6 +14191,9 @@ Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Senhor de Matosin
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,False,Senhora da Hora
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,True,Fânzeres
 Estação Sete Bicas,Estação Via Rápida / Viso,Subway,True,Trindade
+Estação Varziela,Estação Vila do Conde,Subway,False,Estádio do Dragão
+Estação Varziela,Estação Vila do Conde,Subway,False,Senhora da Hora
+Estação Varziela,Estação Vila do Conde,Subway,True,Póvoa de Varzim
 Estoi,Pechão,Car,False,Estoi
 Estoi,Pechão,Car,True,Olhão
 Estoi,Ruínas Romanas de Milreu,Car,False,Estoi

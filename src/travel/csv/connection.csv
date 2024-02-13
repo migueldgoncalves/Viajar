@@ -3045,8 +3045,9 @@ Espiche,N125 - Acesso à Saída 1 da A22,Car,4.1,N125,NE,1,4
 Espírito Santo,Moinhos de Vento de Cima,Car,4.5,,W,6,2
 Espírito Santo,Roncão de Cima,Car,5.8,,NE,3,1
 Espírito Santo,Sedas,Car,4.7,N122,SE,1,1
-Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,1.8,Linha B - Metro do Porto,NW,2,1
+Estação VC Fashion Outlet / Modivas,Estação Mindelo,Subway,1.8,Linhas B/Bx - Metro do Porto,NW,2,1
 Estação VC Fashion Outlet / Modivas,Estação Modivas Centro,Subway,0.9,Linha B - Metro do Porto,SE,1,2
+Estação VC Fashion Outlet / Modivas,Estação Pedras Rubras,Subway,7.1,Linha Bx - Metro do Porto,SE,3,4
 "Estação Aeroporto, Metro de Lisboa",Estação Encarnação,Subway,1.3,Linha Vermelha - Metro de Lisboa,NE,4,1
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 2,Car,0.6,,E,2,4
 "Estação Aeroporto, Metro de Lisboa",Segunda Circular - Saída 3,Car,1.1,,SW,3,4
@@ -3065,8 +3066,8 @@ Estação Baguim,Estação Campainha,Subway,0.7,Linha F - Metro do Porto,W,2,1
 Estação Baguim,Estação Carreira,Subway,0.7,Linha F - Metro do Porto,S,1,2
 Estação Bela Vista,Estação Chelas,Subway,0.9,Linha Vermelha - Metro de Lisboa,NE,1,2
 Estação Bela Vista,Estação Olaias,Subway,1.1,Linha Vermelha - Metro de Lisboa,SW,2,1
-Estação Bolhão,Estação Campo 24 de Agosto,Subway,0.6,Linhas A/B/C/F - Metro do Porto,E,1,2
-Estação Bolhão,Estação Trindade,Subway,0.4,Linhas A/B/C/F - Metro do Porto,NW,2,1
+Estação Bolhão,Estação Campo 24 de Agosto,Subway,0.6,Linhas A/B/Bx/C/F - Metro do Porto,E,1,2
+Estação Bolhão,Estação Trindade,Subway,0.4,Linhas A/B/Bx/C/F - Metro do Porto,NW,2,1
 Estação Botica,Estação Verdes,Subway,0.6,Linha E - Metro do Porto,E,1,3
 Estação Brito Capelo,Estação Matosinhos Sul,Subway,0.5,Linha A - Metro do Porto,SE,1,2
 Estação Brito Capelo,Estação Mercado,Subway,0.4,Linha A - Metro do Porto,NW,2,1
@@ -3078,13 +3079,13 @@ Estação Câmara de Matosinhos,Estação Matosinhos Sul,Subway,0.5,Linha A - Me
 Estação Câmara de Matosinhos,Estação Parque de Real,Subway,0.6,Linha A - Metro do Porto,E,1,2
 Estação Campainha,Estação de Metro de Rio Tinto,Subway,0.8,Linha F - Metro do Porto,SW,2,1
 Estação Campainha,Estação Ferroviária de Rio Tinto,Car,0.9,,W,3,3
-Estação Campo 24 de Agosto,Estação Heroísmo,Subway,0.5,Linhas A/B/C/F - Metro do Porto,E,1,2
+Estação Campo 24 de Agosto,Estação Heroísmo,Subway,0.5,Linhas A/B/Bx/C/F - Metro do Porto,E,1,2
 Estação Cândido dos Reis,Estação Fonte do Cuco,Subway,0.8,Linha C - Metro do Porto,SW,1,3
 Estação Cândido dos Reis,Estação Pias,Subway,0.8,Linha C - Metro do Porto,N,2,1
-Estação Carolina Michaelis,Estação Casa da Música,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,W,2,1
-Estação Carolina Michaelis,Estação Lapa,Subway,0.4,Linhas A/B/C/E/F - Metro do Porto,E,1,2
+Estação Carolina Michaelis,Estação Casa da Música,Subway,0.6,Linhas A/B/Bx/C/E/F - Metro do Porto,W,2,1
+Estação Carolina Michaelis,Estação Lapa,Subway,0.4,Linhas A/B/Bx/C/E/F - Metro do Porto,E,1,2
 Estação Carreira,Estação Venda Nova,Subway,0.5,Linha F - Metro do Porto,S,1,2
-Estação Casa da Música,Estação Francos,Subway,0.8,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
+Estação Casa da Música,Estação Francos,Subway,0.8,Linhas A/B/Bx/C/E/F - Metro do Porto,NW,2,1
 Estação Castêlo da Maia,Estação ISMAI,Subway,0.6,Linha C - Metro do Porto,N,2,1
 Estação Castêlo da Maia,Estação Mandim,Subway,1.4,Linha C - Metro do Porto,SW,1,2
 Estação Chelas,Estação Olivais,Subway,0.8,Linha Vermelha - Metro de Lisboa,N,1,2
@@ -3725,9 +3726,9 @@ Estação de Porto - Campanhã,Estação de Trofa,High-Speed Train,22.3,Linha do
 Estação de Porto - Campanhã,Estação de Trofa,Train,22.3,Linha do Minho - Intercidades,N,5,5
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,High-Speed Train,3.8,Linha do Norte,SW,7,6
 Estação de Porto - Campanhã,Estação de Vila Nova de Gaia - Devessas,Train,3.8,Linha do Norte - Intercidades/InterRegional,SW,4,4
-Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,1.4,Linhas A/B/F - Metro do Porto,N,11,2
+Estação de Porto - Campanhã,Estação Estádio do Dragão,Subway,1.4,Linhas A/B/Bx/F - Metro do Porto,N,11,2
 Estação de Porto - Campanhã,Estação Ferroviária de Contumil,Train,2.2,Linha de Braga/Linha de Guimarães/Linha do Marco de Canaveses/Linha do Minho - CP Porto/InterRegional/Regional,N,2,1
-Estação de Porto - Campanhã,Estação Heroísmo,Subway,0.6,Linhas A/B/C/F - Metro do Porto,W,12,1
+Estação de Porto - Campanhã,Estação Heroísmo,Subway,0.6,Linhas A/B/Bx/C/F - Metro do Porto,W,12,1
 Estação de Porto - São Bento,Estação Jardim do Morro,Subway,0.9,Linha D - Metro do Porto,S,2,2
 Estação de Praça do Quebedo,Estação de Praias do Sado-A,Train,4.9,Linha do Sado/Linha do Sul - CP Lisboa,E,2,1
 Estação de Praça do Quebedo,Estação de Setúbal,Train,0.6,Linha do Sado/Linha do Sul - CP Lisboa,N,1,2
@@ -3816,34 +3817,39 @@ Estação Ferroviária de Contumil,Estação Nasoni,Car,0.9,,N,4,3
 Estação Fonte do Cuco,Estação Senhora da Hora,Subway,0.6,Linhas B/C/E - Metro do Porto,S,1,2
 Estação Fórum Maia,Estação Parque Maia,Subway,0.8,Linha C - Metro do Porto,SW,1,2
 Estação Fórum Maia,Estação Zona Industrial,Subway,1.1,Linha C - Metro do Porto,N,2,1
-Estação Francos,Estação Ramalde,Subway,1.0,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
+Estação Francos,Estação Ramalde,Subway,1.0,Linhas A/B/Bx/C/E/F - Metro do Porto,NW,2,1
 Estação Francos,Rotunda do Bessa,Car,0.8,,W,3,2
 Estação Hospital de São João,Estação IPO,Subway,0.3,Linha D - Metro do Porto,SW,1,2
 Estação IPO,Estação Pólo Universitário,Subway,0.7,Linha D - Metro do Porto,S,1,2
-Estação Lapa,Estação Trindade,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
+Estação Lapa,Estação Trindade,Subway,0.7,Linhas A/B/Bx/C/E/F - Metro do Porto,SE,1,2
 Estação Levada,Estação Nau Vitória,Subway,0.9,Linha F - Metro do Porto,W,2,1
 Estação Lidador,Estação Pedras Rubras,Subway,1.1,Linha B - Metro do Porto,SE,1,2
 Estação Lidador,Estação Vilar do Pinheiro,Subway,2.0,Linha B - Metro do Porto,NW,2,1
 Estação Mandim,Estação Zona Industrial,Subway,1.1,Linha C - Metro do Porto,S,1,2
 Estação Mercado,Estação Senhor de Matosinhos,Subway,0.6,Linha A - Metro do Porto,E,2,1
+Estação Mindelo,Estação Varziela,Subway,2.3,Linha Bx - Metro do Porto,N,3,3
 Estação Modivas Centro,Estação Modivas Sul,Subway,1.1,Linha B - Metro do Porto,SE,1,2
 Estação Modivas Sul,Estação Vilar do Pinheiro,Subway,2.0,Linha B - Metro do Porto,SE,1,2
 Estação Moscavide,Gare do Oriente,Subway,0.8,Linha Vermelha - Metro de Lisboa,SE,2,1
 Estação Nasoni,Estação Nau Vitória,Subway,0.4,Linha F - Metro do Porto,NE,1,2
 Estação Parque de Real,Estação Pedro Hispano,Subway,0.6,Linha A - Metro do Porto,E,1,2
+Estação Pedras Rubras,Estação Senhora da Hora,Subway,6.1,Linha Bx - Metro do Porto,S,3,4
 Estação Pedras Rubras,Estação Verdes,Subway,0.9,Linha B - Metro do Porto,S,1,2
 Estação Pólo Universitário,Estação Salgueiros,Subway,0.6,Linha D - Metro do Porto,SE,1,2
 Estação Pólo Universitário,IC23 - Paranhos,Car,0.6,,S,3,3
+Estação Portas Fronhas,Estação Póvoa de Varzim,Subway,1.2,Linha Bx - Metro do Porto,NW,4,2
 Estação Portas Fronhas,Estação São Brás,Subway,0.6,Linha B - Metro do Porto,NW,2,1
+Estação Portas Fronhas,Estação Vila do Conde,Subway,1.4,Linha Bx - Metro do Porto,SE,3,4
 Estação Póvoa de Varzim,Estação São Brás,Subway,0.6,Linha B - Metro do Porto,SE,1,2
-Estação Ramalde,Estação Via Rápida / Viso,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,NW,2,1
+Estação Ramalde,Estação Via Rápida / Viso,Subway,0.6,Linhas A/B/Bx/C/E/F - Metro do Porto,NW,2,1
 Estação Saldanha,Estação São Sebastião,Subway,0.8,Linha Vermelha - Metro de Lisboa,W,2,1
 Estação Salgueiros,IC23 - Paranhos,Car,0.9,,NW,3,4
 Estação Santa Clara,Estação Vila do Conde,Subway,0.7,Linha B - Metro do Porto,NW,2,1
-Estação Senhora da Hora,Estação Sete Bicas,Subway,0.6,Linhas A/B/C/E/F - Metro do Porto,S,1,2
+Estação Senhora da Hora,Estação Sete Bicas,Subway,0.6,Linhas A/B/Bx/C/E/F - Metro do Porto,S,1,2
 Estação Senhora da Hora,Estação Vasco da Gama,Subway,0.7,Linha A - Metro do Porto,W,3,1
-Estação Sete Bicas,Estação Via Rápida / Viso,Subway,0.7,Linhas A/B/C/E/F - Metro do Porto,SE,1,2
+Estação Sete Bicas,Estação Via Rápida / Viso,Subway,0.7,Linhas A/B/Bx/C/E/F - Metro do Porto,SE,1,2
 Estação Sete Bicas,NorteShopping,Car,0.6,,SW,4,2
+Estação Varziela,Estação Vila do Conde,Subway,3.3,Linha Bx - Metro do Porto,NW,4,3
 Estádio Algarve,Santa Bárbara de Nexe,Car,2.6,,NE,2,2
 Estádio Nuevo Colombino,H-30 - Saída 15,Car,1.3,,E,2,3
 Estádio Nuevo Colombino,Molhe da Compañía de Río Tinto,Car,0.6,,N,1,2
