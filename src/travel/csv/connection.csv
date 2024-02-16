@@ -372,8 +372,10 @@ A28 - Saída 7,MAR Shopping Matosinhos,Car,0.9,,N,4,1
 A28 - Saída 8,A28 - Saída 9,Car,0.3,A28,N,2,1
 A28 - Saída 8,MAR Shopping Matosinhos,Car,1.5,,S,3,2
 A28 - Saída 9,A28 - Saída 10,Car,1.0,A28,N,2,1
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,0.5,A28,N,2,1
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,3.2,A28,S,1,2
+A28 - Saída 9,Aeroporto do Porto,Car,3.1,N107,NE,3,2
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,0.5,A28,N,2,1
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,3.2,A28,S,1,2
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,0.9,A41 CREP,SW,1,2
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,2.3,A-1,SW,1,3
 A-1 - Saída 11,Cruzamento da A-1 com a M-40,Car,0.9,A-1,N,2,3
 A-1 - Saída 14,A-1 - Saída 15,Car,0.8,A-1,NE,2,1
@@ -1974,6 +1976,7 @@ Aeródromo de Portimão,Aeródromo de Tires,Plane,187.6,,NW,4,2
 Aeródromo de Portimão,Aeroporto de Beja,Plane,116.4,,NE,6,5
 Aeródromo de Portimão,Aeroporto de Faro,Plane,56.4,,SE,5,5
 Aeródromo de Portimão,Aeroporto de Lisboa - Terminal 1,Plane,187.7,,NW,7,9
+Aeródromo de Portimão,Aeroporto do Porto,Plane,455.0,,N,9,17
 Aeródromo de Portimão,Aeroporto Internacional de Ciudad Real,Plane,447.2,,NE,8,12
 Aeródromo de Portimão,Alvor,Car,2.4,,S,1,3
 Aeródromo de Portimão,Cruzamento da N125 com a M531-1,Car,1.9,,NE,3,1
@@ -1983,6 +1986,7 @@ Aeródromo de Tires,Aeroporto de Beja,Plane,143.5,,SE,5,10
 Aeródromo de Tires,Aeroporto de Faro,Plane,225.4,,SE,7,11
 Aeródromo de Tires,Aeroporto de Jerez,Plane,364.1,,SE,6,10
 Aeródromo de Tires,Aeroporto de Lisboa - Terminal 1,Plane,20.1,,NE,4,16
+Aeródromo de Tires,Aeroporto do Porto,Plane,286.0,,N,8,19
 Aeródromo de Tires,Tires,Car,1.6,,S,1,2
 Aeródromo de Viseu,Aeroporto de Badajoz,Plane,223.4,,SE,5,11
 Aeródromo de Viseu,Aeroporto de Beja,Plane,293.9,,S,4,11
@@ -1990,6 +1994,7 @@ Aeródromo de Viseu,Aeroporto de Córdoba,Plane,413.6,,SE,6,13
 Aeródromo de Viseu,Aeroporto de Lisboa - Terminal 1,Plane,240.8,,SW,3,18
 Aeródromo de Viseu,Aeroporto de Madrid-Barajas - Terminal 4,Plane,364.9,,E,7,4
 Aeródromo de Viseu,Aeroporto de Salamanca,Plane,202.8,,E,8,8
+Aeródromo de Viseu,Aeroporto do Porto,Plane,88.3,,NW,10,9
 Aeródromo de Viseu,Aeroporto Internacional de Ciudad Real,Plane,394.5,,SE,9,15
 Aeródromo de Viseu,"Campo de Madalena, Viseu",Car,2.7,,SW,1,2
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Badajoz,Plane,549.8,,W,3,10
@@ -2000,6 +2005,7 @@ Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Lisboa - Terminal 1,P
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Madrid-Barajas - Terminal 2,Plane,354.9,,NW,2,6
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Málaga - Costa del Sol,Plane,390.1,,SW,5,11
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto de Sevilha,Plane,479.1,,W,7,15
+Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto do Porto,Plane,769.5,,NW,11,7
 Aeroporto de Alicante-Elche Miguel Hernández,Aeroporto Internacional de Ciudad Real,Plane,304.0,,W,10,5
 Aeroporto de Alicante-Elche Miguel Hernández,N-338 - Saída 2,Car,0.5,,N,1,2
 Aeroporto de Almería,Aeroporto de Madrid-Barajas - Terminal 2,Plane,415.5,,N,2,5
@@ -2015,6 +2021,7 @@ Aeroporto de Badajoz,Aeroporto de Lisboa - Terminal 1,Plane,201.1,,W,8,6
 Aeroporto de Badajoz,Aeroporto de Madrid-Barajas - Terminal 3,Plane,329.1,,NE,7,3
 Aeroporto de Badajoz,Aeroporto de Salamanca,Plane,254.9,,N,9,6
 Aeroporto de Badajoz,Aeroporto de Sevilha,Plane,182.8,,SE,5,7
+Aeroporto de Badajoz,Aeroporto do Porto,Plane,305.8,,NW,13,11
 Aeroporto de Badajoz,Aeroporto Internacional de Ciudad Real,Plane,247.4,,E,12,14
 Aeroporto de Badajoz,Talavera la Real,Car,6.4,,SE,2,1
 Aeroporto de Badajoz,Villafranco del Guadiana,Car,5.9,,SW,1,2
@@ -2023,6 +2030,7 @@ Aeroporto de Beja,Aeroporto de Faro,Plane,115.7,,S,3,3
 Aeroporto de Beja,Aeroporto de Jerez,Plane,222.3,,SE,7,5
 Aeroporto de Beja,Aeroporto de Lisboa - Terminal 1,Plane,130.9,,NW,9,7
 Aeroporto de Beja,Aeroporto de Sevilha,Plane,193.4,,SE,4,3
+Aeroporto de Beja,Aeroporto do Porto,Plane,357.7,,N,13,15
 Aeroporto de Beja,Aeroporto Internacional de Ciudad Real,Plane,356.3,,E,12,13
 Aeroporto de Beja,Beja,Car,9.6,,SE,1,3
 Aeroporto de Beja,Cuba,Car,14.5,,NE,2,5
@@ -2036,11 +2044,13 @@ Aeroporto de Córdoba,Aeroporto de Sevilha,Plane,104.0,,SW,3,5
 Aeroporto de Córdoba,Aeroporto Federico García Lorca Granada-Jaén,Plane,119.3,,SE,8,2
 Aeroporto de Córdoba,Aeroporto Internacional de Ciudad Real,Plane,136.3,,NE,14,9
 Aeroporto de Córdoba,CO-32 - Fim,Car,4.1,N-437,NE,1,2
+Aeroporto de Faro,Aeroporto de Gibraltar,Plane,253.5,,SE,15,10
 Aeroporto de Faro,Aeroporto de Jerez,Plane,173.2,,SE,6,4
 Aeroporto de Faro,Aeroporto de Lisboa - Terminal 1,Plane,221.3,,NW,10,8
 Aeroporto de Faro,Aeroporto de Madrid-Barajas - Terminal 3,Plane,542.0,,NE,9,5
 Aeroporto de Faro,Aeroporto de Málaga - Costa del Sol,Plane,312.1,,E,8,2
 Aeroporto de Faro,Aeroporto de Sevilha,Plane,188.9,,NE,4,4
+Aeroporto de Faro,Aeroporto do Porto,Plane,473.8,,N,14,16
 Aeroporto de Faro,Aeroporto Internacional de Ciudad Real,Plane,406.7,,NE,13,11
 Aeroporto de Faro,Montenegro,Car,2.6,N125-10,N,1,1
 Aeroporto de Faro,Praia de Faro,Car,4.8,,SW,2,1
@@ -2049,16 +2059,19 @@ Aeroporto de Gibraltar,Aeroporto de Lisboa - Terminal 1,Plane,444.4,,NW,7,12
 Aeroporto de Gibraltar,Aeroporto de Madrid-Barajas - Terminal 3,Plane,505.7,,N,6,6
 Aeroporto de Gibraltar,Aeroporto de Málaga - Costa del Sol,Plane,96.4,,NE,5,4
 Aeroporto de Gibraltar,Aeroporto de Sevilha,Plane,148.7,,NW,3,8
+Aeroporto de Gibraltar,Aeroporto do Porto,Plane,635.5,,NW,9,13
 Aeroporto de Gibraltar,Fronteira Espanha-Gibraltar - Lado de Gibraltar,Car,0.1,,NW,1,2
 Aeroporto de Jerez,Aeroporto de Lisboa - Terminal 1,Plane,352.7,,NW,9,14
 Aeroporto de Jerez,Aeroporto de Málaga - Costa del Sol,Plane,139.9,,E,7,3
 Aeroporto de Jerez,Aeroporto de Sevilha,Plane,76.1,,N,2,6
+Aeroporto de Jerez,Aeroporto do Porto,Plane,548.9,,NW,11,14
 Aeroporto de Jerez,Aeroporto Federico García Lorca Granada-Jaén,Plane,209.1,,NE,8,4
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Lisboa - Terminal 2,Car,1.1,,W,3,1
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Madrid-Barajas - Terminal 3,Plane,512.4,,NE,5,7
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Málaga - Costa del Sol,Plane,470.9,,SE,11,9
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Salamanca,Plane,393.3,,NE,15,7
 Aeroporto de Lisboa - Terminal 1,Aeroporto de Sevilha,Plane,322.2,,SE,10,12
+Aeroporto de Lisboa - Terminal 1,Aeroporto do Porto,Plane,276.7,,N,19,18
 Aeroporto de Lisboa - Terminal 1,"Estação Aeroporto, Metro de Lisboa",Transfer,0.0,,S,4,1
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 2,Car,0.4,,E,2,3
 Aeroporto de Lisboa - Terminal 1,Segunda Circular - Saída 3,Car,0.9,,SW,1,3
@@ -2074,16 +2087,23 @@ Aeroporto de Madrid-Barajas - Terminal 3,Aeroporto Internacional de Ciudad Real,
 Aeroporto de Madrid-Barajas - Terminal 3,Estação de Aeropuerto T1-T2-T3,Transfer,0.0,,S,1,3
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Madrid-Barajas - Terminal 4S,Train,2.2,Aeroporto de Madrid-Barajas,E,2,1
 Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto de Salamanca,Plane,169.6,,W,3,3
+Aeroporto de Madrid-Barajas - Terminal 4,Aeroporto do Porto,Plane,438.2,,W,5,6
 Aeroporto de Madrid-Barajas - Terminal 4,Estação de Aeropuerto T4,Transfer,0.0,,N,1,2
 Aeroporto de Málaga - Costa del Sol,Aeroporto de Sevilha,Plane,148.8,,NW,5,9
+Aeroporto de Málaga - Costa del Sol,Aeroporto do Porto,Plane,623.5,,NW,13,10
 Aeroporto de Málaga - Costa del Sol,Aeroporto Federico García Lorca Granada-Jaén,Plane,85.3,,NE,7,5
 Aeroporto de Málaga - Costa del Sol,Aeroporto Internacional de Ciudad Real,Plane,245.5,,N,12,8
 Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,2.8,MA-23,SE,1,2
 Aeroporto de Salamanca,Aeroporto de Sevilha,Plane,393.8,,S,5,14
+Aeroporto de Salamanca,Aeroporto do Porto,Plane,269.1,,W,10,5
 Aeroporto de Salamanca,Aeroporto Internacional de Ciudad Real,Plane,266.9,,SE,9,16
 Aeroporto de Salamanca,Encinas de Abajo,Car,3.7,N-501,E,1,3
+Aeroporto de Sevilha,Aeroporto do Porto,Plane,488.4,,NW,17,12
 Aeroporto de Sevilha,Aeroporto Federico García Lorca Granada-Jaén,Plane,189.3,,E,10,3
 Aeroporto de Sevilha,Aeroporto Internacional de Ciudad Real,Plane,232.2,,NE,16,10
+Aeroporto do Porto,Aeroporto Internacional de Ciudad Real,Plane,481.3,,SE,8,17
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,1.7,VRI,S,4,4
+Aeroporto do Porto,Estação Botica,Car,0.8,N107,E,3,3
 Aeroporto do Porto,Estação Botica,Subway,0.5,Linha E - Metro do Porto,E,1,2
 Aeroporto Federico García Lorca Granada-Jaén,Aeroporto Internacional de Ciudad Real,Plane,185.8,,N,8,7
 Aeroporto Internacional de Ciudad Real,Cañada de Calatrava,Car,5.6,,SW,3,2
@@ -2674,9 +2694,10 @@ Cruzamento da A1 com a A25,Cruzamento da A25 com a A29,Car,2.4,A25,W,3,2
 Cruzamento da A1 com a A25,Estação de Urgueiras,Car,4.3,N16,NE,5,3
 Cruzamento da A2 com a A26,Estação de Ermidas - Sado,Car,16.0,IC1,S,4,7
 Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,5.4,A3,NE,2,1
-Cruzamento da A4 com a VRI,Estação Cândido dos Reis,Car,0.9,,SE,4,3
-Cruzamento da A4 com a VRI,Estação Custóias,Car,0.8,,SW,3,3
-Cruzamento da A4 com a VRI,Estação Pias,Car,1.0,,NE,5,3
+Cruzamento da A4 com a VRI,Estação Cândido dos Reis,Car,0.9,,SE,5,3
+Cruzamento da A4 com a VRI,Estação Custóias,Car,0.8,,SW,4,3
+Cruzamento da A4 com a VRI,Estação Pias,Car,1.0,,NE,6,3
+Cruzamento da A4 com a VRI,VRI - Saída 2,Car,0.8,VRI,N,3,1
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Car,3.9,A9 CREL,N,3,1
 Cruzamento da A9 CREL com o IC19,Cruzamento da A16 com a A9 CREL,Car,2.4,A9 CREL,N,2,1
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 5,Car,0.8,IC19,E,4,1
@@ -2693,6 +2714,8 @@ Cruzamento da A20 com a A43,Estação de Porto - Campanhã,Car,2.0,,W,3,10
 Cruzamento da A20 com a A43,IC23 - Campanhã,Car,0.6,A20/IC23 VCI,NW,2,1
 Cruzamento da A26 com a A26-1,IP8 - Início,Car,3.6,IP8,S,3,4
 Cruzamento da A26 com a A26-1,Sines,Car,3.5,,SW,4,4
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,2.8,A41 CREP,SE,3,1
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,2.1,VRI,SE,3,2
 Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Car,0.9,M-11,E,4,1
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 2,Car,1.3,M-30,S,1,2
 Cruzamento da A-1 com a M-11 e a M-30,M-30 - Saída 31,Car,1.0,M-30,W,2,1

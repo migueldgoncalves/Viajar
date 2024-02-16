@@ -114,7 +114,7 @@ A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Car,False,Lisboa
 A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Car,False,Santa Maria da Feira
 A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Car,True,Espinho
 A1 - Saída 18,Cruzamento da A1 com a A41 CREP,Car,True,Porto
-A1 - Saída 18B,Cruzamento da A1 com a A20,Car,False,A41 - Espinho
+A1 - Saída 18B,Cruzamento da A1 com a A20,Car,False,A41 CREP - Espinho
 A1 - Saída 18B,Cruzamento da A1 com a A20,Car,False,Lisboa
 A1 - Saída 18B,Cruzamento da A1 com a A20,Car,False,Santa Maria da Feira
 A1 - Saída 18B,Cruzamento da A1 com a A20,Car,True,Porto
@@ -656,68 +656,68 @@ A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,False,A14 - Figueira da Foz
 A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,True,IC2 - Coimbra Norte
 A14 - Saída 9,Cruzamento do IP3 com o IC2,Car,True,Viseu
 A16 - Saída 2,A16 - Saída 3,Car,False,A5 - Cascais/Lisboa
-A16 - Saída 2,A16 - Saída 3,Car,True,A9 - Norte
+A16 - Saída 2,A16 - Saída 3,Car,True,A9 CREL - Norte
 A16 - Saída 2,A16 - Saída 3,Car,True,IC19 - Lisboa
 A16 - Saída 2,A16 - Saída 3,Car,True,Sintra
-A16 - Saída 2,Cruzamento da A16 com a A5,Car,False,A9 - Norte
+A16 - Saída 2,Cruzamento da A16 com a A5,Car,False,A9 CREL - Norte
 A16 - Saída 2,Cruzamento da A16 com a A5,Car,False,Lisboa
 A16 - Saída 2,Cruzamento da A16 com a A5,Car,False,Sintra
 A16 - Saída 2,Cruzamento da A16 com a A5,Car,True,A5 - Cascais/Lisboa
 A16 - Saída 3,A16 - Saída 4-5,Car,False,A5 - Cascais/Lisboa
-A16 - Saída 3,A16 - Saída 4-5,Car,True,A9 - Norte
+A16 - Saída 3,A16 - Saída 4-5,Car,True,A9 CREL - Norte
 A16 - Saída 3,A16 - Saída 4-5,Car,True,IC19 - Lisboa
 A16 - Saída 3,A16 - Saída 4-5,Car,True,Sintra
 A16 - Saída 4-5,A16 - Saída 6,Car,False,A5 - Cascais/Lisboa
-A16 - Saída 4-5,A16 - Saída 6,Car,True,A9 - Norte
+A16 - Saída 4-5,A16 - Saída 6,Car,True,A9 CREL - Norte
 A16 - Saída 4-5,A16 - Saída 6,Car,True,IC19 - Lisboa
 A16 - Saída 4-5,A16 - Saída 6,Car,True,Sintra
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,False,A5 - Cascais
-A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,A9 - Norte
+A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,A9 CREL - Norte
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,IC19 - Lisboa
 A16 - Saída 6,Cruzamento da A16 com o IC19,Car,True,Sintra
 A16 - Saída 8,A16 - Saída 9,Car,False,A5 - Cascais
 A16 - Saída 8,A16 - Saída 9,Car,False,Sintra
-A16 - Saída 8,A16 - Saída 9,Car,True,A9 - Norte
+A16 - Saída 8,A16 - Saída 9,Car,True,A9 CREL - Norte
 A16 - Saída 8,A16 - Saída 9,Car,True,IC16 - Lisboa
 A16 - Saída 8,A16 - Saída 9,Car,True,Mafra
-A16 - Saída 8,Área de Serviço de Sintra,Car,False,A9 - Norte
+A16 - Saída 8,Área de Serviço de Sintra,Car,False,A9 CREL - Norte
 A16 - Saída 8,Área de Serviço de Sintra,Car,False,Sintra - Centro da cidade
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,A5 - Cascais
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,IC19 - Lisboa
 A16 - Saída 8,Área de Serviço de Sintra,Car,True,Sintra
 A16 - Saída 9,A16 - Saída 10,Car,False,A5 - Cascais
 A16 - Saída 9,A16 - Saída 10,Car,False,Sintra
-A16 - Saída 9,A16 - Saída 10,Car,True,A9 - Norte
+A16 - Saída 9,A16 - Saída 10,Car,True,A9 CREL - Norte
 A16 - Saída 9,A16 - Saída 10,Car,True,IC16 - Lisboa
 A16 - Saída 10,A16 - Saída 11,Car,False,A5 - Cascais
 A16 - Saída 10,A16 - Saída 11,Car,False,Sintra
-A16 - Saída 10,A16 - Saída 11,Car,True,A9 - Norte
+A16 - Saída 10,A16 - Saída 11,Car,True,A9 CREL - Norte
 A16 - Saída 10,A16 - Saída 11,Car,True,IC16 - Lisboa
 A16 - Saída 11,A16 - Saída 12,Car,False,A5 - Cascais
 A16 - Saída 11,A16 - Saída 12,Car,False,Sintra
-A16 - Saída 11,A16 - Saída 12,Car,True,A9 - Norte
+A16 - Saída 11,A16 - Saída 12,Car,True,A9 CREL - Norte
 A16 - Saída 11,A16 - Saída 12,Car,True,IC16 - Lisboa
 A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,False,A5 - Cascais
 A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,False,Sintra
-A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,True,A9 - Norte
+A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,True,A9 CREL - Norte
 A16 - Saída 12,Área de Serviço de Mira-Sintra,Car,True,IC16 - Lisboa
 A16 - Saída 13,A16 - Saída 14,Car,False,A5 - Cascais
 A16 - Saída 13,A16 - Saída 14,Car,False,Agualva-Cacém - Centro da cidade
 A16 - Saída 13,A16 - Saída 14,Car,False,Sintra
-A16 - Saída 13,A16 - Saída 14,Car,True,A9 - Norte
+A16 - Saída 13,A16 - Saída 14,Car,True,A9 CREL - Norte
 A16 - Saída 13,A16 - Saída 14,Car,True,IC16 - Lisboa
-A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,False,A9 - Norte
+A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,False,A9 CREL - Norte
 A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,False,IC16 - Lisboa
 A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,True,A5 - Cascais
 A16 - Saída 13,Área de Serviço de Mira-Sintra,Car,True,Sintra
 A16 - Saída 14,A16 - Saída 15,Car,False,A5 - Cascais
 A16 - Saída 14,A16 - Saída 15,Car,False,Sintra
-A16 - Saída 14,A16 - Saída 15,Car,True,A9 - Norte
+A16 - Saída 14,A16 - Saída 15,Car,True,A9 CREL - Norte
 A16 - Saída 14,A16 - Saída 15,Car,True,IC16 - Lisboa
 A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Agualva - Cacém
 A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Cascais
 A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,False,Sintra
-A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,True,A9 - Norte
+A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,True,A9 CREL - Norte
 A16 - Saída 15,Cruzamento da A16 com a A9 CREL,Car,True,IC16 - Lisboa
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Crestuma
 A20 - Saída 3,Cruzamento da A20 com a A29,Car,False,Ponte do Freixo
@@ -1332,42 +1332,51 @@ A28 - Saída 5,Cruzamento da A4 com a A28,Car,True,Porto
 A28 - Saída 6,A28 - Saída 7,Car,False,A4 - Vila Real
 A28 - Saída 6,A28 - Saída 7,Car,False,Matosinhos - Centro da cidade
 A28 - Saída 6,A28 - Saída 7,Car,False,Porto
-A28 - Saída 6,A28 - Saída 7,Car,True,A41 - Maia
+A28 - Saída 6,A28 - Saída 7,Car,True,A41 CREP - Maia
 A28 - Saída 6,A28 - Saída 7,Car,True,Aeroporto do Porto
 A28 - Saída 6,A28 - Saída 7,Car,True,Exponor - Feira Internacional do Porto
 A28 - Saída 6,A28 - Saída 7,Car,True,Viana do Castelo
 A28 - Saída 7,A28 - Saída 8,Car,False,A4 - Vila Real
 A28 - Saída 7,A28 - Saída 8,Car,False,Matosinhos - Centro da cidade
 A28 - Saída 7,A28 - Saída 8,Car,False,Porto
-A28 - Saída 7,A28 - Saída 8,Car,True,A41 - Maia
+A28 - Saída 7,A28 - Saída 8,Car,True,A41 CREP - Maia
 A28 - Saída 7,A28 - Saída 8,Car,True,Aeroporto do Porto
 A28 - Saída 7,A28 - Saída 8,Car,True,Viana do Castelo
 A28 - Saída 8,A28 - Saída 9,Car,False,A4 - Vila Real
 A28 - Saída 8,A28 - Saída 9,Car,False,Matosinhos - Centro da cidade
 A28 - Saída 8,A28 - Saída 9,Car,False,Porto
-A28 - Saída 8,A28 - Saída 9,Car,True,A41 - Maia
+A28 - Saída 8,A28 - Saída 9,Car,True,A41 CREP - Maia
 A28 - Saída 8,A28 - Saída 9,Car,True,Aeroporto do Porto
 A28 - Saída 8,A28 - Saída 9,Car,True,Viana do Castelo
 A28 - Saída 9,A28 - Saída 10,Car,False,A4 - Vila Real
 A28 - Saída 9,A28 - Saída 10,Car,False,Matosinhos - Centro da cidade
 A28 - Saída 9,A28 - Saída 10,Car,False,Porto
-A28 - Saída 9,A28 - Saída 10,Car,True,A41 - Maia
+A28 - Saída 9,A28 - Saída 10,Car,True,A41 CREP - Maia
 A28 - Saída 9,A28 - Saída 10,Car,True,Aeroporto do Porto
 A28 - Saída 9,A28 - Saída 10,Car,True,Viana do Castelo
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,A1 - Ponte da Arrábida
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,A4 - Vila Real
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,Matosinhos
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,False,Porto
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,A41 - Maia
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,Aeroporto do Porto
-A28 - Saída 10,Cruzamento da A28 com a A41,Car,True,Viana do Castelo
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,A7 - Guimarães
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,Viana do Castelo
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,False,Vila do Conde
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,A41 - Maia
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Aeroporto do Porto
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Porto
-A28 - Saída 12,Cruzamento da A28 com a A41,Car,True,Porto de Leixões
+A28 - Saída 9,Aeroporto do Porto,Car,False,Matosinhos
+A28 - Saída 9,Aeroporto do Porto,Car,False,Porto
+A28 - Saída 9,Aeroporto do Porto,Car,True,Aeroporto do Porto
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,False,A1 - Ponte da Arrábida
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,False,A4 - Vila Real
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,False,Matosinhos
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,False,Porto
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,True,A41 CREP - Maia
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,True,Aeroporto do Porto
+A28 - Saída 10,Cruzamento da A28 com a A41 CREP,Car,True,Viana do Castelo
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,False,A7 - Guimarães
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,False,Viana do Castelo
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,False,Vila do Conde
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,True,A41 CREP - Maia
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,True,Aeroporto do Porto
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,True,Porto
+A28 - Saída 12,Cruzamento da A28 com a A41 CREP,Car,True,Porto de Leixões
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,False,A3 - Braga
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,False,A42 - Felgueiras
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,False,Maia
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,True,A28 - Matosinhos/Viana do Castelo
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,True,Aeroporto do Porto
+A41 CREP - LIPOR,Cruzamento da A41 CREP com a VRI,Car,True,Porto de Leixões
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Alcobendas
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,False,Burgos
 A-1 - Saída 11,Cruzamento da A-1 com a M-11 e a M-30,Car,True,M-11
@@ -7435,6 +7444,18 @@ Aeroporto de Málaga - Costa del Sol,Cruzamento da MA-20 com a MA-23,Car,True,A-
 Aeroporto de Salamanca,Encinas de Abajo,Car,False,Salamanca
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Ávila
 Aeroporto de Salamanca,Encinas de Abajo,Car,True,Madrid
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,False,Aeroporto do Porto
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,A1
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,A3
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,A4
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,A28
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,A41 CREP
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,Maia
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,Matosinhos
+Aeroporto do Porto,Cruzamento da A41 CREP com a VRI,Car,True,Porto
+Aeroporto do Porto,Estação Botica,Car,False,Aeroporto do Porto
+Aeroporto do Porto,Estação Botica,Car,True,Crestins
+Aeroporto do Porto,Estação Botica,Car,True,Pedras Rubras
 Aeroporto do Porto,Estação Botica,Subway,False,Aeroporto
 Aeroporto do Porto,Estação Botica,Subway,True,Trindade
 Aeroporto do Porto,Estação Botica,Subway,True,Verdes
@@ -8018,7 +8039,7 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Seseña,R-4 - Saída 22,Car,True,Aranjuez
 Área de Serviço de Seseña,R-4 - Saída 22,Car,True,Córdoba
 Área de Serviço de Seseña,R-4 - Saída 22,Car,True,Ocaña
-Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,False,A9 - Norte
+Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,False,A9 CREL - Norte
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,False,Sintra - Centro da cidade
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,True,A5 - Cascais
 Área de Serviço de Sintra,Cruzamento da A16 com o IC19,Car,True,IC19 - Lisboa
@@ -8416,6 +8437,10 @@ Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,False,Porto
 Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,True,Braga
 Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,True,Maia
 Cruzamento da A3 com a A4,Cruzamento da A3 com a A41 CREP,Car,True,Valença
+Cruzamento da A4 com a VRI,VRI - Saída 2,Car,False,A4 - Matosinhos/Vila Real
+Cruzamento da A4 com a VRI,VRI - Saída 2,Car,False,Porto
+Cruzamento da A4 com a VRI,VRI - Saída 2,Car,True,Aeroporto do Porto
+Cruzamento da A4 com a VRI,VRI - Saída 2,Car,True,Porto de Leixões
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Car,False,A5 - Cascais
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Car,True,A1
 Cruzamento da A5 com a A9 CREL,Cruzamento da A9 CREL com o IC19,Car,True,A8
@@ -8441,7 +8466,7 @@ Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Car,False,A10
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Car,False,A16
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Car,True,Cacém
 Cruzamento da A9 CREL com o IC19,IC19 - Saída 7,Car,True,Sintra
-Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,False,A9 - Norte
+Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,False,A9 CREL - Norte
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,False,A16 - Cascais/Mafra
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,False,Sintra
 Cruzamento da A16 com o IC19,IC19 - Saída 13,Car,True,Amadora
@@ -8495,6 +8520,18 @@ Cruzamento da A26 com a A26-1,IP8 - Início,Car,False,A26 - Beja
 Cruzamento da A26 com a A26-1,IP8 - Início,Car,False,A26-1 - Vila Nova de Santo André
 Cruzamento da A26 com a A26-1,IP8 - Início,Car,True,Odemira
 Cruzamento da A26 com a A26-1,IP8 - Início,Car,True,Porto de Sines
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,False,A28 - Matosinhos/Viana do Castelo
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,True,A3 - Braga
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,True,A42 - Felgueiras
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,True,Aeroporto do Porto
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,True,Maia
+Cruzamento da A28 com a A41 CREP,Cruzamento da A41 CREP com a VRI,Car,True,Porto de Leixões
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,False,A28 - Viana do Castelo
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,False,A41 CREP - Maia
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,False,Aeroporto do Porto
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,True,A4 - Matosinhos/Vila Real
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,True,Porto
+Cruzamento da A41 CREP com a VRI,VRI - Saída 2,Car,True,Porto de Leixões
 Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Car,False,A-1
 Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Car,False,A-5
 Cruzamento da A-1 com a M-11 e a M-30,M-11 - Saída 1,Car,False,A-6
@@ -14540,7 +14577,7 @@ IC19 - Saída 11,IC19 - Saída 12,Car,True,Sintra
 IC19 - Saída 12,IC19 - Saída 13,Car,False,Algueirão
 IC19 - Saída 12,IC19 - Saída 13,Car,False,Lisboa
 IC19 - Saída 12,IC19 - Saída 13,Car,False,Rio de Mouro
-IC19 - Saída 12,IC19 - Saída 13,Car,True,A9 - Norte
+IC19 - Saída 12,IC19 - Saída 13,Car,True,A9 CREL - Norte
 IC19 - Saída 12,IC19 - Saída 13,Car,True,A16 - Cascais/Sintra
 IC19 - Saída 12,IC19 - Saída 13,Car,True,Carcavelos
 IC19 - Saída 12,IC19 - Saída 13,Car,True,Mem Martins - Centro da cidade

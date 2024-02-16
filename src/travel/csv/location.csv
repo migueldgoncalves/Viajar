@@ -203,6 +203,7 @@ A28 - Saída 8,41.21711,-8.69071,48,,3500
 A28 - Saída 9,41.21955,-8.69127,38,,3500
 A28 - Saída 10,41.22817,-8.69512,33,,3500
 A28 - Saída 12,41.25981,-8.70169,45,,3500
+A41 CREP - LIPOR,41.22909,-8.65533,59,,3500
 A-1 - Saída 11,40.501469,-3.660409,689,,1600
 A-1 - Saída 14,40.52039,-3.652152,704,,2300
 A-1 - Saída 15,40.526409,-3.648497,691,,2300
@@ -1904,7 +1905,8 @@ Cruzamento da A23 com a A25,40.568062,-7.217485,856,,2200
 Cruzamento da A24 com a A25 e o IP3,40.625509,-7.960609,380,,2200
 Cruzamento da A25 com a A29,40.687698,-8.543076,72,,2200
 Cruzamento da A26 com a A26-1,37.968659,-8.831384,36,,1500
-Cruzamento da A28 com a A41,41.23251,-8.69545,31,,3500
+Cruzamento da A28 com a A41 CREP,41.23251,-8.69545,31,,3500
+Cruzamento da A41 CREP com a VRI,41.22581,-8.66473,53,,3500
 Cruzamento da A-1 com a M-11 e a M-30,40.484075,-3.673431,730,,1600
 Cruzamento da A-1 com a M-12,40.533296,-3.618477,653,,2300
 Cruzamento da A-1 com a M-40,40.509392,-3.658287,709,,2000
@@ -3484,6 +3486,7 @@ Villafranco del Guadiana,38.883990,-6.860705,178,,1000
 Villanueva de la Serena,38.973992,-5.798687,296,,1200
 Villanueva de los Castillejos,37.500435,-7.270432,213,,100
 Vista Real,37.222571,-7.460221,22,,300
+VRI - Saída 2,41.20972,-8.65191,68,,3500
 Western Beach,36.153103,-5.351108,2,,1200
 Zambujal,37.523755,-7.603783,174,,600
 Zambujeira do Mar,37.524674,-8.784966,40,Parque Natural do Sudoeste Alentejano e Costa Vicentina,600

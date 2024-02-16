@@ -203,6 +203,7 @@ A28 - Saída 8,Perafita,Matosinhos
 A28 - Saída 9,Perafita,Matosinhos
 A28 - Saída 10,Perafita,Matosinhos
 A28 - Saída 12,Lavra,Matosinhos
+A41 CREP - LIPOR,Moreira,Maia
 Achada do Gamo,Santana de Cambas,Mértola
 Adega da Herdade da Comporta,Comporta,Alcácer do Sal
 Aeródromo de Portimão,Alvor,Portimão
@@ -414,7 +415,8 @@ Cruzamento da A23 com a A25,Arrifana,Guarda
 Cruzamento da A24 com a A25 e o IP3,São Cipriano,Viseu
 Cruzamento da A25 com a A29,Angeja,Albergaria-a-Velha
 Cruzamento da A26 com a A26-1,Sines,Sines
-Cruzamento da A28 com a A41,Perafita,Matosinhos
+Cruzamento da A28 com a A41 CREP,Perafita,Matosinhos
+Cruzamento da A41 CREP com a VRI,Moreira,Maia
 Cruzamento da IC17 CRIL com o IC19,Benfica,Lisboa
 Cruzamento da IC17 CRIL com o IC22,Olival Basto,Odivelas
 Cruzamento da M509 com a M512,Azinhal,Castro Marim
@@ -1381,6 +1383,7 @@ Vilar Formoso,Vilar Formoso,Almeida
 Villa Romana de Pisões,Santiago Maior,Beja
 Villa Romana de São Cucufate,Vila de Frades,Vidigueira
 Vista Real,Castro Marim,Castro Marim
+VRI - Saída 2,Custóias,Matosinhos
 Zambujal,Espírito Santo,Mértola
 Zambujeira do Mar,Zambujeira do Mar,Odemira
 Zoomarine,Guia,Albufeira
