@@ -6085,6 +6085,82 @@ A-58 - Saída 21,A-58 - Saída 35,Car,True,Cáceres
 A-58 - Saída 35,A-58 - Saída 42,Car,False,A-5 - Madrid
 A-58 - Saída 35,A-58 - Saída 42,Car,False,Trujillo
 A-58 - Saída 35,A-58 - Saída 42,Car,True,Cáceres
+A-62 - Saída 145,A-62 - Saída 148,Car,False,Burgos
+A-62 - Saída 145,A-62 - Saída 148,Car,False,Valladolid
+A-62 - Saída 145,A-62 - Saída 148,Car,True,Madrid
+A-62 - Saída 145,A-62 - Saída 148,Car,True,Salamanca
+A-62 - Saída 148,Cruzamento Este da A-6 com a A-62,Car,False,Burgos
+A-62 - Saída 148,Cruzamento Este da A-6 com a A-62,Car,False,Valladolid
+A-62 - Saída 148,Cruzamento Este da A-6 com a A-62,Car,True,Madrid
+A-62 - Saída 148,Cruzamento Este da A-6 com a A-62,Car,True,Salamanca
+A-62 - Saída 157,A-62 - Saída 158,Car,False,Tordesillas
+A-62 - Saída 157,A-62 - Saída 158,Car,False,Valladolid
+A-62 - Saída 157,A-62 - Saída 158,Car,True,Portugal
+A-62 - Saída 157,A-62 - Saída 158,Car,True,Salamanca
+A-62 - Saída 157,Cruzamento da A-11 com a A-62,Car,False,Portugal
+A-62 - Saída 157,Cruzamento da A-11 com a A-62,Car,False,Salamanca
+A-62 - Saída 157,Cruzamento da A-11 com a A-62,Car,True,A-6 - Madrid
+A-62 - Saída 157,Cruzamento da A-11 com a A-62,Car,True,Valladolid
+A-62 - Saída 158,A-62 - Saída 163,Car,False,Valladolid
+A-62 - Saída 158,A-62 - Saída 163,Car,True,Portugal
+A-62 - Saída 158,A-62 - Saída 163,Car,True,Salamanca
+A-62 - Saída 163,A-62 - Saída 169,Car,False,Valladolid
+A-62 - Saída 163,A-62 - Saída 169,Car,True,Salamanca
+A-62 - Saída 169,A-62 - Saída 177,Car,False,Valladolid
+A-62 - Saída 169,A-62 - Saída 177,Car,True,Salamanca
+A-62 - Saída 177,A-62 - Saída 181,Car,False,Valladolid
+A-62 - Saída 177,A-62 - Saída 181,Car,True,Salamanca
+A-62 - Saída 181,A-62 - Saída 184,Car,False,Tordesillas
+A-62 - Saída 181,A-62 - Saída 184,Car,False,Valladolid
+A-62 - Saída 181,A-62 - Saída 184,Car,True,Salamanca
+A-62 - Saída 184,A-62 - Saída 195,Car,False,Tordesillas
+A-62 - Saída 184,A-62 - Saída 195,Car,False,Valladolid
+A-62 - Saída 184,A-62 - Saída 195,Car,True,Portugal
+A-62 - Saída 184,A-62 - Saída 195,Car,True,Salamanca
+A-62 - Saída 195,A-62 - Saída 203,Car,False,Alaejos
+A-62 - Saída 195,A-62 - Saída 203,Car,False,Tordesillas
+A-62 - Saída 195,A-62 - Saída 203,Car,False,Valladolid
+A-62 - Saída 195,A-62 - Saída 203,Car,True,Portugal
+A-62 - Saída 195,A-62 - Saída 203,Car,True,Salamanca
+A-62 - Saída 203,A-62 - Saída 205,Car,False,Alaejos
+A-62 - Saída 203,A-62 - Saída 205,Car,False,Tordesillas
+A-62 - Saída 203,A-62 - Saída 205,Car,False,Valladolid
+A-62 - Saída 203,A-62 - Saída 205,Car,True,Portugal
+A-62 - Saída 203,A-62 - Saída 205,Car,True,Salamanca
+A-62 - Saída 205,A-62 - Saída 210,Car,False,Alaejos
+A-62 - Saída 205,A-62 - Saída 210,Car,False,Tordesillas
+A-62 - Saída 205,A-62 - Saída 210,Car,False,Valladolid
+A-62 - Saída 205,A-62 - Saída 210,Car,True,Portugal
+A-62 - Saída 205,A-62 - Saída 210,Car,True,Salamanca
+A-62 - Saída 210,A-62 - Saída 214,Car,False,Alaejos
+A-62 - Saída 210,A-62 - Saída 214,Car,False,Tordesillas
+A-62 - Saída 210,A-62 - Saída 214,Car,False,Valladolid
+A-62 - Saída 210,A-62 - Saída 214,Car,True,Portugal
+A-62 - Saída 210,A-62 - Saída 214,Car,True,Salamanca
+A-62 - Saída 214,A-62 - Saída 219,Car,False,Tordesillas
+A-62 - Saída 214,A-62 - Saída 219,Car,False,Valladolid
+A-62 - Saída 214,A-62 - Saída 219,Car,True,Portugal
+A-62 - Saída 214,A-62 - Saída 219,Car,True,Salamanca
+A-62 - Saída 219,A-62 - Saída 225,Car,False,Tordesillas
+A-62 - Saída 219,A-62 - Saída 225,Car,False,Valladolid
+A-62 - Saída 219,A-62 - Saída 225,Car,True,Portugal
+A-62 - Saída 219,A-62 - Saída 225,Car,True,Salamanca
+A-62 - Saída 225,A-62 - Saída 228,Car,False,Tordesillas
+A-62 - Saída 225,A-62 - Saída 228,Car,False,Valladolid
+A-62 - Saída 225,A-62 - Saída 228,Car,True,Portugal
+A-62 - Saída 225,A-62 - Saída 228,Car,True,Salamanca
+A-62 - Saída 228,A-62 - Saída 231,Car,False,Tordesillas
+A-62 - Saída 228,A-62 - Saída 231,Car,False,Valladolid
+A-62 - Saída 228,A-62 - Saída 231,Car,True,Portugal
+A-62 - Saída 228,A-62 - Saída 231,Car,True,Salamanca
+A-62 - Saída 231,A-62 - Saída 234-235,Car,False,Tordesillas
+A-62 - Saída 231,A-62 - Saída 234-235,Car,False,Valladolid
+A-62 - Saída 231,A-62 - Saída 234-235,Car,True,Portugal
+A-62 - Saída 231,A-62 - Saída 234-235,Car,True,Salamanca
+A-62 - Saída 234-235,A-62 - Saída 238,Car,False,Tordesillas
+A-62 - Saída 234-235,A-62 - Saída 238,Car,False,Valladolid
+A-62 - Saída 234-235,A-62 - Saída 238,Car,True,Ciudad Rodrigo
+A-62 - Saída 234-235,A-62 - Saída 238,Car,True,Portugal
 A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,False,Tordesillas
 A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,False,Valladolid
 A-62 - Saída 238,Cruzamento Norte da A-62 com a A-66,Car,True,A-66 - Cáceres
@@ -9032,6 +9108,12 @@ Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,False,AP-46 - Có
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,False,MA-20 - Aeroporto de Málaga/Torremolinos
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,True,A-45 - Córdoba/Granada/Sevilha
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,True,Almería
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,A-11 - Zamora
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,Portugal
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,Salamanca
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A-6 - A Coruña/Madrid
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,Burgos
+Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,Valladolid
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Córdoba
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Ocaña
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,True,Madrid

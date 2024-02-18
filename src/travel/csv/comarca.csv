@@ -12,6 +12,7 @@ Aguilar de la Frontera,Campiña Sur,Córdoba
 Agullent,Valle de Albaida / Vall d'Albaida,València / Valencia
 Aielo de Malferit,Valle de Albaida / Vall d'Albaida,València / Valencia
 Alacant / Alicante,Alacantí / Campo de Alicante,Alacant / Alicante
+Alaejos,Tierra del Vino,Valladolid
 Alagón del Río,Valle del Alagón,Cáceres
 Albaida,Valle de Albaida / Vall d'Albaida,València / Valencia
 Albal,Horta Sud / Huerta Sur,València / Valencia
@@ -127,6 +128,7 @@ Campotéjar,Los Montes,Granada
 Cañada de Calatrava,Campo de Calatrava,Ciudad Real
 Canals,La Costera,València / Valencia
 Cañaveral,Monfragüe,Cáceres
+Cañizal,La Guareña,Zamora
 Carbajosa de la Sagrada,Campo de Salamanca,Salamanca
 Carboneros,Sierra Morena,Jaén
 Cárcheles,Sierra Mágina,Jaén
@@ -151,11 +153,13 @@ Casas de Millán,Monfragüe,Cáceres
 Casas del Monte,Valle del Ambroz,Cáceres
 Casatejada,Campo Arañuelo,Cáceres
 Castalla,Alcoià / Hoya de Alcoy,Alacant / Alicante
+Castellanos de Moriscos,La Armuña,Salamanca
 Castelló,Ribera Alta,València / Valencia
 Castilleja de la Cuesta,Aljarafe,Sevilha
 Castilleja de la Cuesta,Comarca Metropolitana de Sevilha,Sevilha
 Castillejo de Iniesta,Manchuela Conquense,Cuenca
 Castillo de Garcimuñoz,La Mancha de Cuenca,Cuenca
+Castrillo de la Guareña,La Guareña,Zamora
 Castrogonzalo,Benavente y Los Valles,Zamora
 Catarroja,Horta Sud / Huerta Sur,València / Valencia
 Caudete de las Fuentes,Plana de Utiel-Requena,València / Valencia
@@ -291,6 +295,7 @@ La Hinojosa,La Mancha de Cuenca,Cuenca
 La Línea de la Concepción,Campo de Gibraltar,Cádiz
 La Luisiana,Comarca de Écija,Sevilha
 La Mojonera,Poniente Almeriense,Almería
+La Orbada,La Armuña,Salamanca
 La Peza,Comarca de Guadix,Granada
 La Puebla de Cazalla,Campiña de Morón y Marchena,Sevilha
 La Rinconada,Comarca Metropolitana de Sevilha,Sevilha
@@ -381,6 +386,7 @@ Muro de Alcoy,Condado de Cocentaina / Comtat,Alacant / Alicante
 Nacimiento,Los Filabres-Tabernas,Almería
 Narros del Castillo,La Moraña,Ávila
 Nava de Béjar,Sierra de Béjar,Salamanca
+Nava del Rey,Tierra del Vino,Valladolid
 Navalcarnero,Comarca Sur,Comunidade de Madrid
 Nerja,La Axarquía,Málaga
 Nigüelas,Valle de Lecrín,Granada
@@ -405,11 +411,13 @@ Outeiro de Rei,Comarca de Lugo,Lugo
 Oza-Cesuras,Comarca de Betanzos,A Coruña
 Padrón,O Sar,A Coruña
 Padul,Valle de Lecrín,Granada
+Pajares de la Laguna,La Armuña,Salamanca
 Palacios de Goda,La Moraña,Ávila
 Palomares del Río,Aljarafe,Sevilha
 Palomares del Río,Comarca Metropolitana de Sevilha,Sevilha
 Palos de la Frontera,Comarca Metropolitana de Huelva,Huelva
 Paracuellos de Jarama,Cuenca del Medio Jarama,Comunidade de Madrid
+Parada de Rubiales,La Armuña,Salamanca
 Paradas,Campiña de Morón y Marchena,Sevilha
 Paymogo,El Andévalo,Huelva
 Pechina,Comarca Metropolitana de Almería,Almería
@@ -417,6 +425,7 @@ Pedrafita do Cebreiro,Os Ancares,Lugo
 Pedrera,Sierra Sur de Sevilha,Sevilha
 Pedrezuela,Cuenca del Medio Jarama,Comunidade de Madrid
 Pedro Abad,Alto Guadalquivir,Córdoba
+Pedrosillo el Ralo,La Armuña,Salamanca
 Pegalajar,Sierra Mágina,Jaén
 Pelabravo,Campo de Salamanca,Salamanca
 Peligros,Vega de Granada,Granada
@@ -430,6 +439,7 @@ Pinos Puente,Vega de Granada,Granada
 Pinto,Área Metropolitana y Corredor del Henares,Comunidade de Madrid
 Piñuécar-Gandullas,Sierra Norte de Madrid,Comunidade de Madrid
 Poblete,Campo de Calatrava,Ciudad Real
+Pollos,Tierra del Vino,Valladolid
 Polopos,Costa Granadina,Granada
 Ponferrada,El Bierzo,León
 Ponteareas,O Condado,Pontevedra
@@ -486,6 +496,7 @@ San Juan de Aznalfarache,Comarca Metropolitana de Sevilha,Sevilha
 San Juan del Puerto,Comarca Metropolitana de Huelva,Huelva
 San Justo de la Vega,Tierra de Astorga,León
 San Lorenzo de El Escorial,Cuenca del Guadarrama,Comunidade de Madrid
+San Miguel del Pino,Tierra del Vino,Valladolid
 San Pablo de la Moraleja,Tierra de Medina,Valladolid
 San Pedro de Mérida,Centro,Badajoz
 San Pedro del Arroyo,Comarca de Ávila,Ávila
@@ -519,6 +530,7 @@ Serranillos del Valle,Comarca Sur,Comunidade de Madrid
 Seseña,La Sagra,Toledo
 Sevilha,Comarca Metropolitana de Sevilha,Sevilha
 Siete Aguas,Hoya de Buñol,València / Valencia
+Siete Iglesias de Trabancos,Tierra del Vino,Valladolid
 Silla,Horta Sud / Huerta Sur,València / Valencia
 Socuéllamos,La Mancha,Ciudad Real
 Sollana,Ribera Baixa / Ribera Baja,València / Valencia
