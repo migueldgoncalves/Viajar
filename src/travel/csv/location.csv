@@ -903,7 +903,12 @@ A-7 - Saída 285,36.751677,-3.960684,103,,1500
 A-7 - Saída 292,36.763188,-3.887975,118,,1500
 A-7 - Saída 295,36.762579,-3.853569,138,,1500
 A-7 - Saída 305,36.752072,-3.751308,129,,1500
+A-7 - Saída 307,39.63164,-0.30704,18,,3600
+A-7 - Saída 311,39.60951,-0.34496,51,,3600
+A-7 - Saída 313,39.59462,-0.36702,54,,3600
 A-7 - Saída 314,36.757942,-3.660788,167,,1500
+A-7 - Saída 315,39.58960,-0.38269,48,,3600
+A-7 - Saída 321,39.55806,-0.43121,68,,3600
 A-7 - Saída 322,36.773751,-3.57678,94,,1500
 A-7 - Saída 331,39.50685,-0.51113,79,,3400
 A-7 - Saída 341,39.43592,-0.53716,79,,3400
@@ -1617,11 +1622,14 @@ AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
 AP-6 - Saída 60,40.728701,-4.193701,1189,,2500
 AP-6 - Saída 102,40.903070,-4.574758,923,,2500
 AP-6 - Saída 108,40.948702,-4.593547,910,,2500
+AP-7 - Saída 48,39.89768,-0.13117,42,,3600
+AP-7 - Saída 49,39.81119,-0.15750,14,,3600
 AP-7 - Saída 142,36.377577,-5.263915,135,,900
 AP-7 - Saída 172,36.499568,-5.006086,61,,900
 AP-7 - Saída 200,36.505418,-4.716355,113,,900
 AP-7 - Saída 213,36.566292,-4.629587,44,,900
 AP-7 - Saída 226,36.637387,-4.509438,77,,1200
+AP-7 - Saída 467,39.72033,-0.23325,7,,3600
 AP-7 - Saída 532,39.30903,-0.40389,9,,3400
 AP-9 - Saída 7,43.31144,-8.35258,13,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
 AP-9 - Saída 12,43.29649,-8.30793,67,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
@@ -1679,6 +1687,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Gafanha da Nazaré,40.62815,-8.70580,8,,2200
 Área de Serviço de Gaia,41.101204,-8.598477,136,,1700
 Área de Serviço de Grândola,38.167349,-8.491615,88,,700
+Área de Serviço de La Plana,39.86480,-0.12256,8,,3600
 Área de Serviço de Lagos,37.148775,-8.703188,36,,500
 Área de Serviço de Leiria,39.712823,-8.710521,159,,1600
 Área de Serviço de Los Palacios,37.195820,-5.910552,21,,700
@@ -1698,6 +1707,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Polvoranca,40.337014,-3.802135,679,,1200
 Área de Serviço de Pombal,40.013412,-8.600130,60,,1600
 Área de Serviço de Río Castor,36.464264,-5.115708,85,,900
+Área de Serviço de Sagunt/Sagunto,39.65031,-0.30168,47,,3600
 Área de Serviço de Salnés,42.561207,-8.672457,70,,3100
 Área de Serviço de San Simón,42.318137,-8.661025,32,,2600
 Área de Serviço de Santarém,39.392521,-8.639074,88,,1600
@@ -1882,6 +1892,7 @@ Cruzamento IX da A-7 com a AP-7,38.22337,-0.80318,54,,2900
 Cruzamento X da A-7 com a AP-7,38.34073,-0.66512,201,,2900
 Cruzamento XI da A-7 com a AP-7,38.43083,-0.55082,214,,3200
 Cruzamento XII da A-7 com a AP-7,39.34878,-0.42913,24,,3400
+Cruzamento XIII da A-7 com a AP-7,39.70095,-0.26694,51,,3600
 Cruzamento da A1 com a A9 CREL,38.893676,-9.048849,39,,1600
 Cruzamento da A1 com a A10,39.017140,-8.965980,9,,1600
 Cruzamento da A1 com a A12 e a IC17 CRIL,38.790813,-9.114443,55,,1600
@@ -1992,6 +2003,7 @@ Cruzamento da A-7 com a A-92,36.888392,-2.416410,111,,1900
 Cruzamento da A-7 com a A-1051,36.820445,-2.598143,103,,1900
 Cruzamento da A-7 com a AP-46,36.756716,-4.483843,192,,1100
 Cruzamento da A-7 com a CA-34,36.206684,-5.385194,54,,900
+Cruzamento da A-7 com a CV-35,39.54003,-0.45284,98,,3600
 Cruzamento da A-7 com a CV-36,39.44033,-0.54020,76,,3400
 Cruzamento da A-7 com a CV-50,39.19358,-0.49527,32,,3300
 Cruzamento da A-7 com a CV-80,38.59352,-0.63523,621,,3200
@@ -2002,6 +2014,9 @@ Cruzamento da A-7 com a MU-30 e a RM-15,37.98035,-1.24542,126,,2400
 Cruzamento da A-7 com a RM-2,37.82834,-1.404881,157,,2200
 Cruzamento da A-7 com a RM-3,37.752032,-1.47386,209,,2200
 Cruzamento da A-7 com a RM-11,37.66156,-1.715326,366,,2200
+Cruzamento da A-7 com a V-30,39.51656,-0.48026,89,,3600
+Cruzamento da A-7/AP-7 com a A-23,39.67319,-0.30110,64,,3600
+Cruzamento da A-7/AP-7 com a V-21,39.63513,-0.30352,17,,3600
 Cruzamento da A-11 com a A-62,41.50363,-5.02125,679,,3600
 Cruzamento da A-31 com a A-43,39.51598,-2.23388,845,,3200
 Cruzamento da A-31 com a A-70,38.34011,-0.54420,46,,3000

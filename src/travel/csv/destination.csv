@@ -4547,10 +4547,47 @@ A-7 - Saída 305,A-7 - Saída 314,Car,False,Almuñécar - Oeste
 A-7 - Saída 305,A-7 - Saída 314,Car,False,Málaga
 A-7 - Saída 305,A-7 - Saída 314,Car,True,Almería
 A-7 - Saída 305,A-7 - Saída 314,Car,True,Motril
+A-7 - Saída 307,A-7 - Saída 311,Car,False,A-23/V-23 - Teruel
+A-7 - Saída 307,A-7 - Saída 311,Car,False,Barcelona
+A-7 - Saída 307,A-7 - Saída 311,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 307,A-7 - Saída 311,Car,True,A-3 - Madrid
+A-7 - Saída 307,A-7 - Saída 311,Car,True,Aeroporto de Valência
+A-7 - Saída 307,A-7 - Saída 311,Car,True,Alacant/Alicante
+A-7 - Saída 307,A-7 - Saída 311,Car,True,Porto de Valência
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,Aeroporto de Valência
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,Alacant/Alicante
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,Feria Valencia
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,Madrid
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,Porto de Valência
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,False,València/Valencia - Oeste
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,True,Barcelona
+A-7 - Saída 307,Cruzamento da A-7/AP-7 com a V-21,Car,True,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 311,A-7 - Saída 313,Car,False,Barcelona
+A-7 - Saída 311,A-7 - Saída 313,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 311,A-7 - Saída 313,Car,True,A-3 - Madrid
+A-7 - Saída 311,A-7 - Saída 313,Car,True,Alacant/Alicante
+A-7 - Saída 311,A-7 - Saída 313,Car,True,V-30 - Aeroporto de Valência/Porto de Valência/València/Valencia
+A-7 - Saída 313,A-7 - Saída 315,Car,False,A-23/V-23 - Teruel
+A-7 - Saída 313,A-7 - Saída 315,Car,False,Barcelona
+A-7 - Saída 313,A-7 - Saída 315,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 313,A-7 - Saída 315,Car,True,A-3 - Madrid
+A-7 - Saída 313,A-7 - Saída 315,Car,True,Alacant/Alicante
+A-7 - Saída 313,A-7 - Saída 315,Car,True,V-30 - Aeroporto de Valência/Porto de Valência/València/Valencia - Oeste
 A-7 - Saída 314,A-7 - Saída 322,Car,False,Almuñécar
 A-7 - Saída 314,A-7 - Saída 322,Car,False,Málaga
 A-7 - Saída 314,A-7 - Saída 322,Car,True,Almería
 A-7 - Saída 314,A-7 - Saída 322,Car,True,Motril
+A-7 - Saída 315,A-7 - Saída 321,Car,False,A-23/V-23 - Teruel
+A-7 - Saída 315,A-7 - Saída 321,Car,False,Barcelona
+A-7 - Saída 315,A-7 - Saída 321,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 315,A-7 - Saída 321,Car,True,Alacant/Alicante
+A-7 - Saída 315,A-7 - Saída 321,Car,True,València/Valencia
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,False,A-23/V-23 - Teruel
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,False,Barcelona
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,False,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,True,A-3 - Madrid
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,True,Alacant/Alicante
+A-7 - Saída 321,Cruzamento da A-7 com a CV-35,Car,True,V-30 - Aeroporto de Valência/Porto de Valência/València/Valencia - Oeste
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,False,Almuñécar
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,False,Málaga
 A-7 - Saída 322,Cruzamento da A-7 com a GR-14,Car,True,A-44 - Granada
@@ -4560,6 +4597,11 @@ A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,False,Barcelona
 A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,False,Castelló de la Plana/Castellón de la Plana
 A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,True,A-3 - Madrid
 A-7 - Saída 331,Cruzamento da A-3 com a A-7,Car,True,Alacant/Alicante
+A-7 - Saída 331,Cruzamento da A-7 com a V-30,Car,False,A-3 - Madrid
+A-7 - Saída 331,Cruzamento da A-7 com a V-30,Car,False,Alacant/Alicante
+A-7 - Saída 331,Cruzamento da A-7 com a V-30,Car,True,Barcelona
+A-7 - Saída 331,Cruzamento da A-7 com a V-30,Car,True,Castelló de la Plana/Castellón de la Plana
+A-7 - Saída 331,Cruzamento da A-7 com a V-30,Car,True,V-30 - Aeroporto de Valência/Porto de Valência/València/Valencia
 A-7 - Saída 341,A-7 - Saída 344,Car,False,A-3 - Madrid
 A-7 - Saída 341,A-7 - Saída 344,Car,False,Aeroporto de Valência
 A-7 - Saída 341,A-7 - Saída 344,Car,False,Barcelona
@@ -7742,6 +7784,15 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 48,Área de Serviço de La Plana,Car,False,Barcelona
+AP-7 - Saída 48,Área de Serviço de La Plana,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 48,Área de Serviço de La Plana,Car,True,València/Valencia
+AP-7 - Saída 49,AP-7 - Saída 467,Car,False,Barcelona
+AP-7 - Saída 49,AP-7 - Saída 467,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 49,AP-7 - Saída 467,Car,True,València/Valencia
+AP-7 - Saída 49,Área de Serviço de La Plana,Car,False,València/Valencia
+AP-7 - Saída 49,Área de Serviço de La Plana,Car,True,Barcelona
+AP-7 - Saída 49,Área de Serviço de La Plana,Car,True,Castelló de la Plana/Castellón de la Plana
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,False,Estepona
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,False,Málaga
 AP-7 - Saída 142,Área de Serviço de Manilva,Car,True,Algeciras
@@ -7780,6 +7831,9 @@ AP-7 - Saída 226,Cruzamento VII da A-7 com a AP-7,Car,True,Cádiz
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Algeciras
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,False,Benalmádena
 AP-7 - Saída 226,Cruzamento Sul da MA-20 com a MA-21,Car,True,MA-20/MA-21 - Aeroporto de Málaga/Málaga
+AP-7 - Saída 467,Cruzamento XIII da A-7 com a AP-7,Car,False,Barcelona
+AP-7 - Saída 467,Cruzamento XIII da A-7 com a AP-7,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 467,Cruzamento XIII da A-7 com a AP-7,Car,True,València/Valencia
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,False,A-38 - Gandia/Gandía
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,False,Alacant/Alicante
 AP-7 - Saída 532,Cruzamento XII da A-7 com a AP-7,Car,True,A-3 - Madrid
@@ -8086,6 +8140,12 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,True,Algeciras
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,True,Estepona
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a A-23,Car,False,València/Valencia
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a A-23,Car,True,Barcelona
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a A-23,Car,True,Castelló de la Plana/Castellón de la Plana
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a V-21,Car,False,Barcelona
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a V-21,Car,False,Castelló de la Plana/Castellón de la Plana
+Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a V-21,Car,True,València/Valencia
 Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,False,Santiago de Compostela
 Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,True,Pontevedra
 Área de Serviço de Salnés,Cruzamento da AG-41 com a AP-9,Car,True,Sanxenxo
@@ -8479,6 +8539,11 @@ Cruzamento X da A-7 com a AP-7,Cruzamento da A-31 com a AP-7,Car,True,Valência
 Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,False,Alacant/Alicante
 Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,False,Albacete
 Cruzamento XII da A-7 com a AP-7,V-31 - Saída 3,Car,True,València/Valencia
+Cruzamento XIII da A-7 com a AP-7,Cruzamento da A-7/AP-7 com a A-23,Car,False,Barcelona
+Cruzamento XIII da A-7 com a AP-7,Cruzamento da A-7/AP-7 com a A-23,Car,False,Castelló de la Plana/Castellón de la Plana
+Cruzamento XIII da A-7 com a AP-7,Cruzamento da A-7/AP-7 com a A-23,Car,True,A-23 - Teruel
+Cruzamento XIII da A-7 com a AP-7,Cruzamento da A-7/AP-7 com a A-23,Car,True,Puçol
+Cruzamento XIII da A-7 com a AP-7,Cruzamento da A-7/AP-7 com a A-23,Car,True,València/Valencia
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A1 - Norte
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,False,A12 - Ponte Vasco da Gama/Sul
 Cruzamento da A1 com a A12 e a IC17 CRIL,Eixo Norte-Sul - Fim,Car,True,A8 - Oeste
@@ -9103,6 +9168,12 @@ Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Car,False,Algeciras
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Car,False,AP-46 - Córdoba
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Car,True,A-45 - Córdoba/Granada/Sevilha
 Cruzamento da A-7 com a AP-46,Cruzamento da A-7 com a MA-20,Car,True,Almería
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,False,A-23/V-23 - Teruel
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,False,Barcelona
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,False,Castelló de la Plana/Castellón de la Plana
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,True,A-3 - Madrid
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,True,Alacant/Alicante
+Cruzamento da A-7 com a CV-35,Cruzamento da A-7 com a V-30,Car,True,V-30 - Aeroporto de Valência/Porto de Valência/València/Valencia - Oeste
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,False,Algeciras
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,False,AP-46 - Córdoba/Granada/Sevilha
 Cruzamento da A-7 com a MA-20,Cruzamento da A-45 com a A-7,Car,False,MA-20 - Aeroporto de Málaga/Torremolinos
