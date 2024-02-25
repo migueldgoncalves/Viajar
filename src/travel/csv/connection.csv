@@ -2273,6 +2273,11 @@ AP-6 - Saída 51,AP-6 - Saída 60,Car,8.7,AP-6,NW,2,1
 AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,0.7,AP-6,NW,2,1
 AP-6 - Saída 102,AP-6 - Saída 108,Car,5.5,AP-6,N,2,1
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,21.1,AP-6,SE,1,2
+AP-7 - Saída 44,Área de Serviço de La Ribera,Car,12.5,AP-7,SW,1,2
+AP-7 - Saída 45,AP-7 - Saída 46,Car,18.9,AP-7,SW,1,2
+AP-7 - Saída 45,Área de Serviço de La Ribera,Car,3.0,AP-7,N,2,1
+AP-7 - Saída 46,AP-7 - Saída 47,Car,7.4,AP-7,SW,1,2
+AP-7 - Saída 47,AP-7 - Saída 48,Car,11.0,AP-7,S,1,2
 AP-7 - Saída 48,Área de Serviço de La Plana,Car,3.7,AP-7,S,1,2
 AP-7 - Saída 49,AP-7 - Saída 467,Car,12.2,AP-7,SW,1,2
 AP-7 - Saída 49,Área de Serviço de La Plana,Car,6.9,AP-7,NE,2,1

@@ -7784,6 +7784,23 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 44,Área de Serviço de La Ribera,Car,False,Barcelona
+AP-7 - Saída 44,Área de Serviço de La Ribera,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 44,Área de Serviço de La Ribera,Car,True,València/Valencia
+AP-7 - Saída 45,AP-7 - Saída 46,Car,False,Barcelona
+AP-7 - Saída 45,AP-7 - Saída 46,Car,False,Tarragona
+AP-7 - Saída 45,AP-7 - Saída 46,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 45,AP-7 - Saída 46,Car,True,València/Valencia
+AP-7 - Saída 45,Área de Serviço de La Ribera,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 45,Área de Serviço de La Ribera,Car,False,València/Valencia
+AP-7 - Saída 45,Área de Serviço de La Ribera,Car,True,Barcelona
+AP-7 - Saída 46,AP-7 - Saída 47,Car,False,Barcelona
+AP-7 - Saída 46,AP-7 - Saída 47,Car,False,Castelló de la Plana/Castellón de la Plana - Norte
+AP-7 - Saída 46,AP-7 - Saída 47,Car,True,Castelló de la Plana/Castellón de la Plana - Sul
+AP-7 - Saída 46,AP-7 - Saída 47,Car,True,València/Valencia
+AP-7 - Saída 47,AP-7 - Saída 48,Car,False,Barcelona
+AP-7 - Saída 47,AP-7 - Saída 48,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 47,AP-7 - Saída 48,Car,True,València/Valencia
 AP-7 - Saída 48,Área de Serviço de La Plana,Car,False,Barcelona
 AP-7 - Saída 48,Área de Serviço de La Plana,Car,False,Castelló de la Plana/Castellón de la Plana
 AP-7 - Saída 48,Área de Serviço de La Plana,Car,True,València/Valencia
