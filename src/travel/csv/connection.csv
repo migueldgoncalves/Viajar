@@ -2273,6 +2273,17 @@ AP-6 - Saída 51,AP-6 - Saída 60,Car,8.7,AP-6,NW,2,1
 AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,0.7,AP-6,NW,2,1
 AP-6 - Saída 102,AP-6 - Saída 108,Car,5.5,AP-6,N,2,1
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,21.1,AP-6,SE,1,2
+AP-7 - Saída 37,AP-7 - Saída 38,Car,15.7,AP-7,SW,1,2
+AP-7 - Saída 38,Área de Serviço de L'Hospitalet de l'Infant,Car,2.2,AP-7,SW,1,2
+AP-7 - Saída 39,AP-7 - Saída 39A,Car,11.6,AP-7,SW,1,2
+AP-7 - Saída 39,Área de Serviço de L'Hospitalet de l'Infant,Car,14.0,AP-7,NE,2,1
+AP-7 - Saída 39A,Área de Serviço de Baix Ebre,Car,8.3,AP-7,SW,1,2
+AP-7 - Saída 40,AP-7 - Saída 41,Car,3.3,AP-7,SW,1,2
+AP-7 - Saída 40,Área de Serviço de Baix Ebre,Car,2.0,AP-7,NE,2,1
+AP-7 - Saída 41,AP-7 - Saída 42,Car,24.3,AP-7,SW,1,2
+AP-7 - Saída 42,Área de Serviço de Benicarló,Car,11.4,AP-7,S,1,2
+AP-7 - Saída 43,AP-7 - Saída 44,Car,25.5,AP-7,SW,1,2
+AP-7 - Saída 43,Área de Serviço de Benicarló,Car,7.6,AP-7,NE,2,1
 AP-7 - Saída 44,Área de Serviço de La Ribera,Car,12.5,AP-7,SW,1,2
 AP-7 - Saída 45,AP-7 - Saída 46,Car,18.9,AP-7,SW,1,2
 AP-7 - Saída 45,Área de Serviço de La Ribera,Car,3.0,AP-7,N,2,1

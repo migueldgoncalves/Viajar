@@ -7,6 +7,14 @@ select means_transport, count(means_transport) from Connection group by means_tr
 -- Show number of connections by way
 select way, count(way) from Connection group by way order by count(way), way;
 
+-- Sort connections by length
+select location_a, location_b, way, means_transport, distance from Connection order by distance, means_transport, location_a, location_b;
+select location_a, location_b, way, means_transport, distance from Connection where means_transport = 'Car' order by distance, means_transport, location_a, location_b;
+select location_a, location_b, way, means_transport, distance from Connection where means_transport = 'Boat' order by distance, means_transport, location_a, location_b;
+select location_a, location_b, way, means_transport, distance from Connection where means_transport = 'Train' order by distance, means_transport, location_a, location_b;
+select location_a, location_b, way, means_transport, distance from Connection where means_transport = 'High-Speed Train' order by distance, means_transport, location_a, location_b;
+select location_a, location_b, way, means_transport, distance from Connection where means_transport = 'Plane' order by distance, means_transport, location_a, location_b;
+
 -- Show number of destinations by appearance
 select destination, count(destination) from Destination group by destination order by count(destination), destination;
 

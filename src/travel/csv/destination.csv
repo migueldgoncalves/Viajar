@@ -7784,6 +7784,46 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 37,AP-7 - Saída 38,Car,False,Barcelona
+AP-7 - Saída 37,AP-7 - Saída 38,Car,False,Tarragona
+AP-7 - Saída 37,AP-7 - Saída 38,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 37,AP-7 - Saída 38,Car,True,València/Valencia
+AP-7 - Saída 38,Área de Serviço de L'Hospitalet de l'Infant,Car,False,Barcelona
+AP-7 - Saída 38,Área de Serviço de L'Hospitalet de l'Infant,Car,False,Tarragona
+AP-7 - Saída 38,Área de Serviço de L'Hospitalet de l'Infant,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 38,Área de Serviço de L'Hospitalet de l'Infant,Car,True,València/Valencia
+AP-7 - Saída 39,AP-7 - Saída 39A,Car,False,Barcelona
+AP-7 - Saída 39,AP-7 - Saída 39A,Car,False,Tarragona
+AP-7 - Saída 39,AP-7 - Saída 39A,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 39,AP-7 - Saída 39A,Car,True,València/Valencia
+AP-7 - Saída 39,Área de Serviço de L'Hospitalet de l'Infant,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 39,Área de Serviço de L'Hospitalet de l'Infant,Car,False,València/Valencia
+AP-7 - Saída 39,Área de Serviço de L'Hospitalet de l'Infant,Car,True,Barcelona
+AP-7 - Saída 39,Área de Serviço de L'Hospitalet de l'Infant,Car,True,Tarragona
+AP-7 - Saída 39A,Área de Serviço de Baix Ebre,Car,False,Barcelona
+AP-7 - Saída 39A,Área de Serviço de Baix Ebre,Car,False,Tarragona
+AP-7 - Saída 39A,Área de Serviço de Baix Ebre,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 39A,Área de Serviço de Baix Ebre,Car,True,València/Valencia
+AP-7 - Saída 40,AP-7 - Saída 41,Car,False,Barcelona
+AP-7 - Saída 40,AP-7 - Saída 41,Car,False,Tarragona
+AP-7 - Saída 40,AP-7 - Saída 41,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 40,AP-7 - Saída 41,Car,True,València/Valencia
+AP-7 - Saída 40,Área de Serviço de Baix Ebre,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 40,Área de Serviço de Baix Ebre,Car,False,València/Valencia
+AP-7 - Saída 40,Área de Serviço de Baix Ebre,Car,True,Barcelona
+AP-7 - Saída 40,Área de Serviço de Baix Ebre,Car,True,Tarragona
+AP-7 - Saída 41,AP-7 - Saída 42,Car,False,Barcelona
+AP-7 - Saída 41,AP-7 - Saída 42,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 41,AP-7 - Saída 42,Car,True,València/Valencia
+AP-7 - Saída 42,Área de Serviço de Benicarló,Car,False,Barcelona
+AP-7 - Saída 42,Área de Serviço de Benicarló,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 42,Área de Serviço de Benicarló,Car,True,València/Valencia
+AP-7 - Saída 43,AP-7 - Saída 44,Car,False,Barcelona
+AP-7 - Saída 43,AP-7 - Saída 44,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 43,AP-7 - Saída 44,Car,True,València/Valencia
+AP-7 - Saída 43,Área de Serviço de Benicarló,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 43,Área de Serviço de Benicarló,Car,False,València/Valencia
+AP-7 - Saída 43,Área de Serviço de Benicarló,Car,True,Barcelona
 AP-7 - Saída 44,Área de Serviço de La Ribera,Car,False,Barcelona
 AP-7 - Saída 44,Área de Serviço de La Ribera,Car,True,Castelló de la Plana/Castellón de la Plana
 AP-7 - Saída 44,Área de Serviço de La Ribera,Car,True,València/Valencia
