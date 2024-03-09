@@ -13,7 +13,6 @@ DELIMITER = ','
 QUOTECHAR = '"'
 QUOTING = csv.QUOTE_NONE
 ENCODING = 'utf-8'
-ESCAPECHAR = ''
 
 PATH_BD = paths_and_files.ANDROID_DB_FILE_PATH
 PATH_SQL_SCRIPT = paths_and_files.DB_SCRIPT_PATH
@@ -68,7 +67,7 @@ class SQLiteBDInterface:
             print(f"A criar tabela a partir do ficheiro {path_csv}...")
 
             with open(path_csv, mode='r', encoding=ENCODING) as ficheiro:
-                conteudo = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING, escapechar=ESCAPECHAR)
+                conteudo = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING)
                 for i, linha in enumerate(conteudo):
                     if i == 0:  # Cabeçalho
                         continue

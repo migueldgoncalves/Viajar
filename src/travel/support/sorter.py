@@ -16,7 +16,6 @@ DELIMITER = ','
 QUOTECHAR = '"'
 QUOTING = csv.QUOTE_NONE
 ENCODING = 'utf-8'
-ESCAPECHAR = ''
 
 # Posições dos campos dos ficheiros .csv
 LOCAL_A = 0
@@ -122,7 +121,7 @@ def csv_para_list(path_csv):
     """
 
     with open(path_csv, mode='r', encoding=ENCODING) as ficheiro:
-        reader = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING, escapechar=ESCAPECHAR)
+        reader = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING)
         linhas = []
         for linha in reader:
             linhas.append(",".join(linha))
