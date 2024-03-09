@@ -1,8 +1,6 @@
-import os
 from typing import Union, Optional
-
+import os
 import requests
-import matplotlib.pyplot as plt
 
 from travel.support import ways
 from travel.support.ways import Way
@@ -314,27 +312,6 @@ class InformationGenerator:
                 if not Coordinates(latitude_b, longitude_b) in todas_coordenadas:
                     todas_coordenadas.append(Coordinates(latitude_b, longitude_b))
 
-        # Mostrar via a cobrir num gráfico
-        latitudes = [coordenadas.latitude for coordenadas in todas_coordenadas]
-        longitudes = [coordenadas.longitude for coordenadas in todas_coordenadas]
-        plt.plot(longitudes, latitudes)
-        plt.ylabel('Latitude')
-        plt.xlabel('Longitude')
-        intervalo_latitudes = max(latitudes) - min(latitudes)
-        intervalo_longitudes = max(longitudes) - min(longitudes)
-        intervalo = max((intervalo_latitudes, intervalo_longitudes))
-        if intervalo_longitudes == intervalo:
-            plt.xlim(min(longitudes), min(longitudes) + intervalo)
-        else:  # Centrar gráfico
-            margem = (intervalo - intervalo_longitudes) / 2
-            plt.xlim(min(longitudes) - margem, max(longitudes) + margem)
-        if intervalo_latitudes == intervalo:
-            plt.ylim(min(latitudes), min(latitudes) + intervalo)
-        else:  # Centrar gráfico
-            margem = (intervalo - intervalo_latitudes) / 2
-            plt.ylim(min(latitudes) - margem, max(latitudes) + margem)
-        plt.show()
-
         calc_dist: distance_calculator.DistanceCalculator = distance_calculator.DistanceCalculator()
         calc_dist.generate_processed_map(todas_coordenadas, self.way_type, self.country, way_name=self.way_osm_name)
 
@@ -524,6 +501,6 @@ class InformationGenerator:
     def _get_filepath(self, filepath_with_placeholder: str) -> str:
         """
         Given a filepath with a placeholder, returns the final filepath, with the way name replacing the placeholder
-        Ex: 'D:\foo\placeholder_location.csv' -> 'D:\foo\freeway_name_location.csv'
+        Ex: 'D:\foo\\placeholder_location.csv' -> 'D:\foo\freeway_name_location.csv'
         """
         return filepath_with_placeholder.replace(paths_and_files.TMP_CSV_WAY_NAME_PLACEHOLDER, self.way_display_name)
