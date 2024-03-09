@@ -54,6 +54,7 @@ Almuñécar,Costa Granadina,Granada
 Almuradiel,Sierra Morena,Ciudad Real
 Alovera,Campiña de Guadalajara,Guadalajara
 Alpedrete,Cuenca del Guadarrama,Comunidade de Madrid
+Altafulla,Tarragonès / Tarragonés,Tarragona
 Andújar,Campiña de Jaén,Jaén
 Antas,Levante Almeriense,Almería
 Antequera,Comarca de Antequera,Málaga
@@ -83,6 +84,7 @@ Azuqueca de Henares,Campiña de Guadalajara,Guadalajara
 Bailén,Sierra Morena,Jaén
 Balanegra,Poniente Almeriense,Almería
 Baños de Montemayor,Valle del Ambroz,Cáceres
+Banyeres del Penedès,Baix Penedès / Bajo Panadés,Tarragona
 Baralla,Os Ancares,Lugo
 Barbadillo,Campo de Salamanca,Salamanca
 Barro,Comarca de Pontevedra,Pontevedra
@@ -214,6 +216,7 @@ El Pinar,Valle de Lecrín,Granada
 El Puerto de Santa María,Bahía de Cádiz,Cádiz
 El Puig de Santa Maria,Horta Nord / Huerta Norte,València / Valencia
 El Ronquillo,Sierra Norte de Sevilha,Sevilha
+El Vendrell,Baix Penedès / Bajo Panadés,Tarragona
 El Viso de San Juan,La Sagra,Toledo
 Elx / Elche,Baix Vinalopó / Bajo Vinalopó,Alacant / Alicante
 Encinas de Abajo,Las Villas,Salamanca
@@ -286,6 +289,7 @@ L'Alcúdia,Ribera Alta,València / Valencia
 L'Aldea,Baix Ebre / Bajo Ebro,Tarragona
 L'Ametlla de Mar,Baix Ebre / Bajo Ebro,Tarragona
 L'Ampolla,Baix Ebre / Bajo Ebro,Tarragona
+L'Arboç,Baix Penedès / Bajo Panadés,Tarragona
 L'Olleria,Valle de Albaida / Vall d'Albaida,València / Valencia
 La Almarcha,La Mancha de Cuenca,Cuenca
 La Bañeza,La Bañeza,León
@@ -479,6 +483,7 @@ Quismondo,Torrijos,Toledo
 Rábade,Comarca de Lugo,Lugo
 Redondela,Comarca de Vigo,Pontevedra
 Requena,Plana de Utiel-Requena,València / Valencia
+Reus,Baix Camp / Bajo Campo,Tarragona
 Riba-roja de Túria,Camp de Túria / Campo de Turia,València / Valencia
 Ribadavia,O Ribeiro,Ourense
 Riego de la Vega,La Bañeza,León
@@ -559,6 +564,7 @@ Talavera de la Reina,Talavera de la Reina,Toledo
 Talavera la Real,Vegas Bajas,Badajoz
 Tarancón,La Mancha de Cuenca,Cuenca
 Tarifa,Campo de Gibraltar,Cádiz
+Tarragona,Tarragonès / Tarragonés,Tarragona
 Tébar,Manchuela Conquense,Cuenca
 Tembleque,Mancha Alta de Toledo,Toledo
 Teo,Comarca de Santiago,A Coruña
@@ -609,7 +615,9 @@ Vera,Levante Almeriense,Almería
 Viator,Comarca Metropolitana de Almería,Almería
 Vícar,Poniente Almeriense,Almería
 Vigo,Comarca de Vigo,Pontevedra
+Vila-seca,Tarragonès / Tarragonés,Tarragona
 Vilaboa,Comarca de Pontevedra,Pontevedra
+Vilafranca del Penedès,Alt Penedès / Alto Panadés,Barcelona
 Vilalba,Terra Chá,Lugo
 Villa de Otura,Vega de Granada,Granada
 Villa del Río,Alto Guadalquivir,Córdoba

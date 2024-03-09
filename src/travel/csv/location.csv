@@ -1622,6 +1622,11 @@ AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
 AP-6 - Saída 60,40.728701,-4.193701,1189,,2500
 AP-6 - Saída 102,40.903070,-4.574758,923,,2500
 AP-6 - Saída 108,40.948702,-4.593547,910,,2500
+AP-7 - Saída 28,41.35212,1.71977,227,,3600
+AP-7 - Saída 29,41.33359,1.71304,198,,3600
+AP-7 - Saída 30,41.32875,1.67569,174,,3600
+AP-7 - Saída 32,41.15976,1.39135,43,,3600
+AP-7 - Saída 35,41.10956,1.12948,56,,3600
 AP-7 - Saída 37,41.08177,1.04078,42,,3600
 AP-7 - Saída 38,41.00152,0.90924,56,,3600
 AP-7 - Saída 39,40.88455,0.79708,23,,3600
@@ -1697,6 +1702,8 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Cortijo de Robledo,36.917477,-4.439805,557,,1100
 Área de Serviço de El Cuadrejón,36.781382,-6.043598,47,,800
 Área de Serviço de El Fantasma,37.001929,-5.938830,58,,800
+Área de Serviço de El Mèdol,41.14079,1.34651,18,,3600
+Área de Serviço de El Penedès,41.28896,1.59195,165,,3600
 Área de Serviço de Estremoz,38.800045,-7.660434,244,,1000
 Área de Serviço de Gafanha da Nazaré,40.62815,-8.70580,8,,2200
 Área de Serviço de Gaia,41.101204,-8.598477,136,,1700
@@ -2034,6 +2041,7 @@ Cruzamento da A-7 com a V-30,39.51656,-0.48026,89,,3600
 Cruzamento da A-7/AP-7 com a A-23,39.67319,-0.30110,64,,3600
 Cruzamento da A-7/AP-7 com a V-21,39.63513,-0.30352,17,,3600
 Cruzamento da A-11 com a A-62,41.50363,-5.02125,679,,3600
+Cruzamento da A-27 com a AP-7,41.14546,1.23258,40,,3600
 Cruzamento da A-31 com a A-43,39.51598,-2.23388,845,,3200
 Cruzamento da A-31 com a A-70,38.34011,-0.54420,46,,3000
 Cruzamento da A-31 com a AP-7,38.35073,-0.66156,240,,3000
@@ -2091,10 +2099,13 @@ Cruzamento da AC-11 com a AP-9,43.33115,-8.39865,58,,3500
 Cruzamento da AG-41 com a AP-9,42.518207,-8.665082,154,,2600
 Cruzamento da AG-46 com a AP-9,42.29533,-8.65780,52,,2600
 Cruzamento da AG-56 com a AP-9,42.855855,-8.565158,222,,3100
+Cruzamento da AP-2 com a AP-7,41.26746,1.54387,118,,3600
 Cruzamento da AP-4 com a AP-4A,37.242204,-5.910401,53,,600
 Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
+Cruzamento da AP-7 com a C-32,41.20468,1.50906,72,,3600
+Cruzamento da AP-7 com a T-11,41.13488,1.17726,49,,3600
 Cruzamento da AP-9 com a AP-9V,42.25776,-8.675859,90,,2500
 Cruzamento da AP-9 com a AP-9F,43.28841,-8.28337,74,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
 Cruzamento da AP-9 com a AP-9M,43.27713,-8.26362,47,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100

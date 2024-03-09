@@ -7784,6 +7784,37 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 28,AP-7 - Saída 29,Car,False,Barcelona
+AP-7 - Saída 28,AP-7 - Saída 29,Car,False,Girona/Gerona
+AP-7 - Saída 28,AP-7 - Saída 29,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 28,AP-7 - Saída 29,Car,True,Tarragona
+AP-7 - Saída 29,AP-7 - Saída 30,Car,False,Barcelona
+AP-7 - Saída 29,AP-7 - Saída 30,Car,False,Girona/Gerona
+AP-7 - Saída 29,AP-7 - Saída 30,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 29,AP-7 - Saída 30,Car,True,Tarragona
+AP-7 - Saída 30,Área de Serviço de El Penedès,Car,False,Barcelona
+AP-7 - Saída 30,Área de Serviço de El Penedès,Car,False,Girona/Gerona
+AP-7 - Saída 30,Área de Serviço de El Penedès,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 30,Área de Serviço de El Penedès,Car,True,Tarragona
+AP-7 - Saída 32,Área de Serviço de El Mèdol,Car,False,Barcelona
+AP-7 - Saída 32,Área de Serviço de El Mèdol,Car,False,Lleida/Lérida
+AP-7 - Saída 32,Área de Serviço de El Mèdol,Car,False,Torredembarra
+AP-7 - Saída 32,Área de Serviço de El Mèdol,Car,True,Tarragona
+AP-7 - Saída 32,Área de Serviço de El Mèdol,Car,True,València/Valencia
+AP-7 - Saída 32,Cruzamento da AP-7 com a C-32,Car,False,Tarragona
+AP-7 - Saída 32,Cruzamento da AP-7 com a C-32,Car,False,València/Valencia
+AP-7 - Saída 32,Cruzamento da AP-7 com a C-32,Car,True,Barcelona
+AP-7 - Saída 32,Cruzamento da AP-7 com a C-32,Car,True,Lleida/Lérida
+AP-7 - Saída 35,AP-7 - Saída 37,Car,False,Barcelona
+AP-7 - Saída 35,AP-7 - Saída 37,Car,False,Salou
+AP-7 - Saída 35,AP-7 - Saída 37,Car,False,Tarragona
+AP-7 - Saída 35,AP-7 - Saída 37,Car,True,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 35,AP-7 - Saída 37,Car,True,València/Valencia
+AP-7 - Saída 35,Cruzamento da AP-7 com a T-11,Car,False,Castelló de la Plana/Castellón de la Plana
+AP-7 - Saída 35,Cruzamento da AP-7 com a T-11,Car,False,València/Valencia
+AP-7 - Saída 35,Cruzamento da AP-7 com a T-11,Car,True,Barcelona
+AP-7 - Saída 35,Cruzamento da AP-7 com a T-11,Car,True,Lleida/Lérida
+AP-7 - Saída 35,Cruzamento da AP-7 com a T-11,Car,True,Tarragona
 AP-7 - Saída 37,AP-7 - Saída 38,Car,False,Barcelona
 AP-7 - Saída 37,AP-7 - Saída 38,Car,False,Tarragona
 AP-7 - Saída 37,AP-7 - Saída 38,Car,True,Castelló de la Plana/Castellón de la Plana
@@ -8140,6 +8171,15 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Car,True,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Car,False,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Car,True,Cádiz
+Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Barcelona
+Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Lleida/Lérida
+Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Torredembarra
+Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,True,Tarragona
+Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,True,València/Valencia
+Área de Serviço de El Penedès,Cruzamento da AP-2 com a AP-7,Car,False,Barcelona
+Área de Serviço de El Penedès,Cruzamento da AP-2 com a AP-7,Car,False,Girona/Gerona
+Área de Serviço de El Penedès,Cruzamento da AP-2 com a AP-7,Car,True,AP-2 - Lleida/Lérida
+Área de Serviço de El Penedès,Cruzamento da AP-2 com a AP-7,Car,True,Tarragona
 Área de Serviço de Gaia,Cruzamento da A1 com a A29,Car,False,Ponte da Arrábida
 Área de Serviço de Gaia,Cruzamento da A1 com a A29,Car,False,Porto
 Área de Serviço de Gaia,Cruzamento da A1 com a A29,Car,False,Vila Nova de Gaia
@@ -9242,6 +9282,14 @@ Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,False,Salam
 Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,A-6 - A Coruña/Madrid
 Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,Burgos
 Cruzamento da A-11 com a A-62,Cruzamento Oeste da A-6 com a A-62,Car,True,Valladolid
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,False,Barcelona
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,False,Lleida/Lérida
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,False,Tarragona
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,False,Valls
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,True,Aeroporto de Reus
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,True,Castelló de la Plana/Castellón de la Plana
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,True,Reus
+Cruzamento da A-27 com a AP-7,Cruzamento da AP-7 com a T-11,Car,True,València/Valencia
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Córdoba
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,False,Ocaña
 Cruzamento da A-40 com a R-4,R-4 - Saída 38,Car,True,Madrid
@@ -9487,6 +9535,10 @@ Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,AG-56 - 
 Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,Santiago de Compostela
 Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,False,Vigo
 Cruzamento da AG-56 com a AP-9,Cruzamento da AP-9 com a AP-53,Car,True,A Coruña
+Cruzamento da AP-2 com a AP-7,Cruzamento da AP-7 com a C-32,Car,False,Barcelona
+Cruzamento da AP-2 com a AP-7,Cruzamento da AP-7 com a C-32,Car,False,Lleida/Lérida
+Cruzamento da AP-2 com a AP-7,Cruzamento da AP-7 com a C-32,Car,True,Tarragona
+Cruzamento da AP-2 com a AP-7,Cruzamento da AP-7 com a C-32,Car,True,València/Valencia
 Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,False,Cádiz
 Cruzamento da AP-4 com a AP-4A,Cruzamento Norte da A-4 com a AP-4,Car,True,Sevilha
 Cruzamento da AP-4 com a AP-4A,Glorieta de los Cipreses,Car,False,Cádiz
