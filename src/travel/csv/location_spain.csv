@@ -1375,6 +1375,10 @@ AP-6 - Saída 51,Guadarrama,Comunidade de Madrid,
 AP-6 - Saída 60,El Espinar,Segóvia,
 AP-6 - Saída 102,Sanchidrián,Ávila,
 AP-6 - Saída 108,Adanero,Ávila,
+AP-7 - Saída 23,Sant Cugat del Vallès,Barcelona,
+AP-7 - Saída 25,Martorell,Barcelona,
+AP-7 - Saída 26,Gelida,Barcelona,
+AP-7 - Saída 27,Sant Sadurní d'Anoia,Barcelona,
 AP-7 - Saída 28,Vilafranca del Penedès,Barcelona,
 AP-7 - Saída 29,Vilafranca del Penedès,Barcelona,
 AP-7 - Saída 30,Vilafranca del Penedès,Barcelona,
@@ -1449,6 +1453,7 @@ Arahal,Arahal,Sevilha,
 Área de Serviço de Meco,Meco,Comunidade de Madrid,
 Área de Serviço de O Burgo,Culleredo,A Coruña,O Burgo
 Área de Serviço de Polvoranca,Leganés,Comunidade de Madrid,
+Área de Serviço de Porta de Barcelona,Castellbisbal,Barcelona,
 Área de Serviço de Río Castor,Estepona,Málaga,
 Área de Serviço de Sagunt/Sagunto,Sagunt / Sagunto,València / Valencia,
 Área de Serviço de Salnés,Portas,Pontevedra,Portas
@@ -1485,6 +1490,13 @@ Avenida del Alcalde Federico Molina Orta x Calle Galaroza,Huelva,Huelva,
 Avenida del Nuevo Colombino x Calle Jabugo,Huelva,Huelva,
 Ayamonte,Ayamonte,Huelva,
 Ayuntamiento de Huelva,Huelva,Huelva,
+B-23 - Início,Barcelona,Barcelona,Les Corts
+B-23 - Saída 1B,Esplugues de Llobregat,Barcelona,
+B-23 - Saída 3,Sant Just Desvern,Barcelona,
+B-23 - Saída 5A,Sant Joan Despí,Barcelona,
+B-23 - Saída 8,Molins de Rei,Barcelona,
+B-23 - Saída 10,Molins de Rei,Barcelona,
+B-23 - Saída 12,Molins de Rei,Barcelona,
 "Barriada Centro Sur, Puertollano",Puertollano,Ciudad Real,
 Barriada de Canela,Ayamonte,Huelva,
 "Barriada Fraternidad, Puertollano",Puertollano,Ciudad Real,
@@ -1544,6 +1556,7 @@ Cruzamento da A-1 com a M-11 e a M-30,Madrid,Comunidade de Madrid,Hortaleza
 Cruzamento da A-1 com a M-12,Alcobendas,Comunidade de Madrid,
 Cruzamento da A-1 com a M-40,Madrid,Comunidade de Madrid,Fuencarral-El Pardo
 Cruzamento da A-1 com a M-50,San Sebastián de los Reyes,Comunidade de Madrid,
+Cruzamento da A-2 com a B-23,Sant Feliu de Llobregat,Barcelona,
 Cruzamento da A-2 com a CM-10,Guadalajara,Guadalajara,
 Cruzamento da A-2 com a M-14,Madrid,Comunidade de Madrid,San Blas-Canillejas
 Cruzamento da A-2 com a M-30,Madrid,Comunidade de Madrid,Chamartín
@@ -1684,6 +1697,7 @@ Cruzamento da AP-4 com a AP-4A,Dos Hermanas,Sevilha,
 Cruzamento da AP-4 com a CA-32,Puerto Real,Cádiz,
 Cruzamento da AP-6 com a AP-51,Villacastín,Segóvia,
 Cruzamento da AP-6 com a AP-61,El Espinar,Segóvia,
+Cruzamento da AP-7 com a B-23,El Papiol,Barcelona,
 Cruzamento da AP-7 com a C-32,El Vendrell,Tarragona,
 Cruzamento da AP-7 com a T-11,Reus,Tarragona,
 Cruzamento da AP-9 com a AP-9V,Vigo,Pontevedra,Teis
@@ -1693,6 +1707,7 @@ Cruzamento da AP-9 com a AP-53,Santiago de Compostela,A Coruña,O Eixo
 Cruzamento da AP-9 com a PO-10 e a PO-11,Pontevedra,Pontevedra,Salcedo
 Cruzamento da AP-9 com a VG-20,Mos,Pontevedra,Tameiga
 Cruzamento da AP-41 com a R-5,Moraleja de Enmedio,Comunidade de Madrid,
+Cruzamento da B-20 Ronda de Dalt com a B-23,Esplugues de Llobregat,Barcelona,
 Cruzamento da CA-35 com a CA-36,Puerto Real,Cádiz,
 Cruzamento da H-30 com a H-31,Huelva,Huelva,
 Cruzamento da H-30 com a N-431,Huelva,Huelva,

@@ -1622,6 +1622,10 @@ AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
 AP-6 - Saída 60,40.728701,-4.193701,1189,,2500
 AP-6 - Saída 102,40.903070,-4.574758,923,,2500
 AP-6 - Saída 108,40.948702,-4.593547,910,,2500
+AP-7 - Saída 23,41.46218,2.02849,104,,3600
+AP-7 - Saída 25,41.46557,1.91263,66,,3600
+AP-7 - Saída 26,41.44505,1.86093,111,,3600
+AP-7 - Saída 27,41.41401,1.78795,171,,3600
 AP-7 - Saída 28,41.35212,1.71977,227,,3600
 AP-7 - Saída 29,41.33359,1.71304,198,,3600
 AP-7 - Saída 30,41.32875,1.67569,174,,3600
@@ -1729,6 +1733,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Palmela,38.585227,-8.930490,64,,1000
 Área de Serviço de Polvoranca,40.337014,-3.802135,679,,1200
 Área de Serviço de Pombal,40.013412,-8.600130,60,,1600
+Área de Serviço de Porta de Barcelona,41.46670,1.97822,41,,3600
 Área de Serviço de Río Castor,36.464264,-5.115708,85,,900
 Área de Serviço de Sagunt/Sagunto,39.65031,-0.30168,47,,3600
 Área de Serviço de Salnés,42.561207,-8.672457,70,,3100
@@ -1782,6 +1787,13 @@ Ayamonte,37.215788,-7.405922,20,,50
 Ayuntamiento de Huelva,37.25661,-6.94951,8,,2100
 Azinhal,37.284774,-7.464246,92,,100
 Azóia,38.7762,-9.4813,218,Parque Natural de Sintra-Cascais,2900
+B-23 - Início,41.38338,2.10785,87,,3600
+B-23 - Saída 1B,41.38102,2.09304,116,,3600
+B-23 - Saída 3,41.37609,2.07285,80,,3600
+B-23 - Saída 5A,41.37294,2.04454,17,Parc Agrari del Baix Llobregat,3600
+B-23 - Saída 8,41.39271,2.02431,30,Parc Agrari del Baix Llobregat,3600
+B-23 - Saída 10,41.40912,2.01448,29,,3600
+B-23 - Saída 12,41.41933,2.00874,31,,3600
 Badoca Safari Park,38.041223,-8.744636,61,,1500
 Balurco de Baixo,37.424817,-7.508199,213,,10
 Balurco de Cima,37.429009,-7.524442,209,,20
@@ -1964,6 +1976,7 @@ Cruzamento da A-1 com a M-11 e a M-30,40.484075,-3.673431,730,,1600
 Cruzamento da A-1 com a M-12,40.533296,-3.618477,653,,2300
 Cruzamento da A-1 com a M-40,40.509392,-3.658287,709,,2000
 Cruzamento da A-1 com a M-50,40.56414,-3.593701,642,,2300
+Cruzamento da A-2 com a B-23,41.37551,2.03583,14,Parc Agrari del Baix Llobregat,3600
 Cruzamento da A-2 com a CM-10,40.646025,-3.138356,724,,2500
 Cruzamento da A-2 com a M-14,40.449966,-3.588432,608,,1800
 Cruzamento da A-2 com a M-30,40.444645,-3.660544,673,,1600
@@ -2104,6 +2117,7 @@ Cruzamento da AP-4 com a AP-4A,37.242204,-5.910401,53,,600
 Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
+Cruzamento da AP-7 com a B-23,41.44520,1.99719,49,,3600
 Cruzamento da AP-7 com a C-32,41.20468,1.50906,72,,3600
 Cruzamento da AP-7 com a T-11,41.13488,1.17726,49,,3600
 Cruzamento da AP-9 com a AP-9V,42.25776,-8.675859,90,,2500
@@ -2113,6 +2127,7 @@ Cruzamento da AP-9 com a AP-53,42.8558,-8.5317,214,,3100
 Cruzamento da AP-9 com a PO-10 e a PO-11,42.41369,-8.65362,46,,2600
 Cruzamento da AP-9 com a VG-20,42.196987,-8.664878,333,,2500
 Cruzamento da AP-41 com a R-5,40.273252,-3.888339,639,,1100
+Cruzamento da B-20 Ronda de Dalt com a B-23,41.38177,2.10155,104,,3600
 Cruzamento da CA-35 com a CA-36,36.521909,-6.224320,2,,1300
 Cruzamento da H-30 com a H-31,37.277543,-6.921695,22,,300
 Cruzamento da H-30 com a N-431,37.333182,-6.949061,8,,1600

@@ -2273,6 +2273,11 @@ AP-6 - Saída 51,AP-6 - Saída 60,Car,8.7,AP-6,NW,2,1
 AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,0.7,AP-6,NW,2,1
 AP-6 - Saída 102,AP-6 - Saída 108,Car,5.5,AP-6,N,2,1
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,21.1,AP-6,SE,1,2
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,3.7,AP-7,SW,1,2
+AP-7 - Saída 25,AP-7 - Saída 26,Car,5.0,AP-7,SW,1,2
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,5.9,AP-7,E,2,1
+AP-7 - Saída 26,AP-7 - Saída 27,Car,7.4,AP-7,SW,1,2
+AP-7 - Saída 27,AP-7 - Saída 28,Car,9.6,AP-7,SW,1,2
 AP-7 - Saída 28,AP-7 - Saída 29,Car,2.2,AP-7,S,1,2
 AP-7 - Saída 29,AP-7 - Saída 30,Car,3.4,AP-7,W,1,2
 AP-7 - Saída 30,Área de Serviço de El Penedès,Car,8.9,AP-7,SW,1,2
@@ -2392,6 +2397,7 @@ Arahal,Paradas,Car,6.2,,NE,3,1
 Área de Serviço de Oeiras,Cruzamento da A5 com a A9 CREL,Car,2.0,A5,E,1,2
 Área de Serviço de Polvoranca,Cruzamento da M-45 com a R-5,Car,4.4,R-5,NE,2,3
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,1.5,R-5,SW,1,2
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,3.1,AP-7,SE,2,1
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,3.7,AP-7,SW,1,3
 Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a A-23,Car,2.7,A-7/AP-7,N,2,1
 Área de Serviço de Sagunt/Sagunto,Cruzamento da A-7/AP-7 com a V-21,Car,1.7,A-7/AP-7,S,1,2
@@ -2507,6 +2513,15 @@ Ayuntamiento de Huelva,Plaza de Quintero Báez,Car,0.2,,N,1,6
 Azinhal,Cruzamento da N122 com a M512,Car,0.8,N122,SW,2,1
 Azóia,Cabo da Roca,Car,2.2,,NW,2,1
 Azóia,Malveira da Serra,Car,5.9,,SE,1,3
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,0.6,B-23,W,1,2
+B-23 - Saída 1B,B-23 - Saída 3,Car,1.8,B-23,SW,1,2
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,0.9,B-23,E,2,1
+B-23 - Saída 3,B-23 - Saída 5A,Car,2.4,B-23,W,1,2
+B-23 - Saída 5A,Cruzamento da A-2 com a B-23,Car,0.9,B-23,W,1,2
+B-23 - Saída 8,B-23 - Saída 10,Car,2.0,B-23,N,1,2
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,2.2,B-23,S,2,1
+B-23 - Saída 10,B-23 - Saída 12,Car,1.3,B-23,N,1,2
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,3.0,B-23,N,1,3
 Badoca Safari Park,IP8 - Cruzamento com a N261,Car,0.9,,NE,1,2
 Balurco de Baixo,"Casa Branca, Alcoutim",Car,0.3,,NW,3,3
 Balurco de Baixo,Cerro,Car,0.5,,NW,5,4

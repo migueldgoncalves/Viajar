@@ -7784,6 +7784,35 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,Barcelona
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,C-16 - Manresa/Terrassa
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,França
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,Girona/Gerona
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,Túneis de Vallvidrera
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,True,B-23 - Barcelona
+AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,True,Tarragona
+AP-7 - Saída 25,AP-7 - Saída 26,Car,False,B-23 - Barcelona
+AP-7 - Saída 25,AP-7 - Saída 26,Car,False,Girona/Gerona
+AP-7 - Saída 25,AP-7 - Saída 26,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 25,AP-7 - Saída 26,Car,True,Tarragona
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,Alacant/Alicante
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,Algeciras
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,AP-2 - Lleida/Lérida/Zaragoza
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,Martorell
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,Tarragona
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,False,València/Valencia
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,True,B-23 - Barcelona
+AP-7 - Saída 25,Área de Serviço de Porta de Barcelona,Car,True,Girona/Gerona
+AP-7 - Saída 26,AP-7 - Saída 27,Car,False,B-23 - Barcelona
+AP-7 - Saída 26,AP-7 - Saída 27,Car,False,Girona/Gerona
+AP-7 - Saída 26,AP-7 - Saída 27,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 26,AP-7 - Saída 27,Car,True,Sant Sadurní d'Anoia
+AP-7 - Saída 26,AP-7 - Saída 27,Car,True,Tarragona
+AP-7 - Saída 27,AP-7 - Saída 28,Car,False,Barcelona
+AP-7 - Saída 27,AP-7 - Saída 28,Car,False,Girona/Gerona
+AP-7 - Saída 27,AP-7 - Saída 28,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 27,AP-7 - Saída 28,Car,True,Tarragona
 AP-7 - Saída 28,AP-7 - Saída 29,Car,False,Barcelona
 AP-7 - Saída 28,AP-7 - Saída 29,Car,False,Girona/Gerona
 AP-7 - Saída 28,AP-7 - Saída 29,Car,True,AP-2 - Lleida/Lérida
@@ -8233,6 +8262,14 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,True,Badajoz
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,True,Móstoles
 Área de Serviço de Polvoranca,R-5 - Saída 9,Car,True,Toledo
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,Alacant/Alicante
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,Algeciras
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,AP-2 - Lleida/Lérida/Zaragoza
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,Martorell
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,Tarragona
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,False,València/Valencia
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,True,B-23 - Barcelona
+Área de Serviço de Porta de Barcelona,Cruzamento da AP-7 com a B-23,Car,True,Girona/Gerona
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,False,Málaga
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,False,Marbella
 Área de Serviço de Río Castor,Cruzamento III da A-7 com a AP-7,Car,True,Algeciras
@@ -8363,6 +8400,67 @@ Ayamonte,Vila Real de Santo António,Boat,False,Mértola
 Ayamonte,Vila Real de Santo António,Boat,True,Vila Real de Santo António
 Azinhal,Cruzamento da N122 com a M512,Car,False,Azinhal
 Azinhal,Cruzamento da N122 com a M512,Car,True,Castro Marim
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,False,Barcelona - Avinguda Diagonal
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,False,Barcelona - Centro da cidade
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,A-2 - Lleida/Lérida
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,AP-7 - Tarragona
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,B-20 Ronda de Dalt - L'Hospitalet de Llobregat
+B-23 - Início,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,Esplugues de Llobregat
+B-23 - Saída 1B,B-23 - Saída 3,Car,False,B-20 Ronda de Dalt
+B-23 - Saída 1B,B-23 - Saída 3,Car,False,Barcelona
+B-23 - Saída 1B,B-23 - Saída 3,Car,False,Barcelona - Avinguda Diagonal
+B-23 - Saída 1B,B-23 - Saída 3,Car,True,Lleida/Lérida
+B-23 - Saída 1B,B-23 - Saída 3,Car,True,Tarragona
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,False,A-2 - Lleida/Lérida
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,False,A-7 - Tarragona
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,False,Molins de Rei
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,Barcelona - Avinguda Diagonal
+B-23 - Saída 1B,Cruzamento da B-20 Ronda de Dalt com a B-23,Car,True,Barcelona - Centro da cidade
+B-23 - Saída 3,B-23 - Saída 5A,Car,False,B-20 Ronda de Dalt
+B-23 - Saída 3,B-23 - Saída 5A,Car,False,Barcelona
+B-23 - Saída 3,B-23 - Saída 5A,Car,False,Barcelona - Avinguda Diagonal
+B-23 - Saída 3,B-23 - Saída 5A,Car,True,Girona/Gerona
+B-23 - Saída 3,B-23 - Saída 5A,Car,True,Lleida/Lérida
+B-23 - Saída 3,B-23 - Saída 5A,Car,True,Tarragona
+B-23 - Saída 3,B-23 - Saída 5A,Car,True,Zaragoza
+B-23 - Saída 5A,Cruzamento da A-2 com a B-23,Car,False,B-20 Ronda de Dalt
+B-23 - Saída 5A,Cruzamento da A-2 com a B-23,Car,False,Barcelona
+B-23 - Saída 5A,Cruzamento da A-2 com a B-23,Car,False,Barcelona - Avinguda Diagonal
+B-23 - Saída 5A,Cruzamento da A-2 com a B-23,Car,True,AP-7 - Girona/Gerona/Lleida/Lérida/Tarragona/Zaragoza
+B-23 - Saída 8,B-23 - Saída 10,Car,False,A-2 - Aeroporto de Barcelona-El Prat/Cinturón Litoral/Fira de Barcelona/Porto de Barcelona/ZAL Port
+B-23 - Saída 8,B-23 - Saída 10,Car,False,Barcelona
+B-23 - Saída 8,B-23 - Saída 10,Car,True,Girona/Gerona
+B-23 - Saída 8,B-23 - Saída 10,Car,True,Lleida/Lérida
+B-23 - Saída 8,B-23 - Saída 10,Car,True,Tarragona
+B-23 - Saída 8,B-23 - Saída 10,Car,True,Zaragoza
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,False,AP-7 - Girona/Gerona/Lleida/Lérida/Tarragona/Zaragoza
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Aeroporto de Barcelona-El Prat
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Barcelona
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Barcelona - Avinguda Diagonal
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Barcelona - Rondes
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Fira de Barcelona
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Porto de Barcelona
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,ZAL Port
+B-23 - Saída 8,Cruzamento da A-2 com a B-23,Car,True,Zona Franca de Barcelona
+B-23 - Saída 10,B-23 - Saída 12,Car,False,Aeroporto de Barcelona-El Prat
+B-23 - Saída 10,B-23 - Saída 12,Car,False,Barcelona
+B-23 - Saída 10,B-23 - Saída 12,Car,False,Fira de Barcelona
+B-23 - Saída 10,B-23 - Saída 12,Car,False,Porto de Barcelona
+B-23 - Saída 10,B-23 - Saída 12,Car,True,Girona/Gerona
+B-23 - Saída 10,B-23 - Saída 12,Car,True,Lleida/Lérida
+B-23 - Saída 10,B-23 - Saída 12,Car,True,Tarragona
+B-23 - Saída 10,B-23 - Saída 12,Car,True,Zaragoza
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Aeroporto de Barcelona-El Prat
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Barcelona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Barcelona - Rondes
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Fira de Barcelona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Porto de Barcelona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,ZAL Port
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,False,Zona Franca de Barcelona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Girona/Gerona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Lleida/Lérida
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Tarragona
+B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Zaragoza
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,False,Alcoutim
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,False,Beja
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,True,Castro Marim
