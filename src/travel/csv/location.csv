@@ -1622,6 +1622,10 @@ AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
 AP-6 - Saída 60,40.728701,-4.193701,1189,,2500
 AP-6 - Saída 102,40.903070,-4.574758,923,,2500
 AP-6 - Saída 108,40.948702,-4.593547,910,,2500
+AP-7 - Saída 19,41.51967,2.15336,122,,3600
+AP-7 - Saída 20,41.50986,2.13673,108,,3600
+AP-7 - Saída 21 Este/B-30 - Saída 7,41.49612,2.11196,115,,3600
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,41.49189,2.09539,141,,3600
 AP-7 - Saída 23,41.46218,2.02849,104,,3600
 AP-7 - Saída 25,41.46557,1.91263,66,,3600
 AP-7 - Saída 26,41.44505,1.86093,111,,3600
@@ -1698,6 +1702,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Aveiro,40.66106,-8.59188,21,,2200
 Área de Serviço de Baix Ebre,40.76489,0.62758,40,,3600
 Área de Serviço de Barcelos,41.6049,-8.5503,192,,2300
+Área de Serviço de Bellaterra,41.49267,2.10038,138,,3600
 Área de Serviço de Benicarló,40.45915,0.40653,52,,3600
 Área de Serviço de Castelo Branco,39.8881,-7.4875,349,,2400
 Área de Serviço de Celorico da Beira,40.6301,-7.3571,495,,2200
@@ -1794,6 +1799,12 @@ B-23 - Saída 5A,41.37294,2.04454,17,Parc Agrari del Baix Llobregat,3600
 B-23 - Saída 8,41.39271,2.02431,30,Parc Agrari del Baix Llobregat,3600
 B-23 - Saída 10,41.40912,2.01448,29,,3600
 B-23 - Saída 12,41.41933,2.00874,31,,3600
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,41.48810,2.08287,145,,3600
+B-30 - Cruzamento com a N-150,41.50852,2.13280,180,,3600
+B-30 - Hospital General/Rubí/Valldoreix,41.47351,2.03771,103,,3600
+B-30 - Mirasol/Rubí,41.46563,2.03280,94,,3600
+B-30 - Saída 3,41.48272,2.04795,145,,3600
+B-30 - Sant Cugat del Vallès Centro,41.48929,2.06763,160,,3600
 Badoca Safari Park,38.041223,-8.744636,61,,1500
 Balurco de Baixo,37.424817,-7.508199,213,,10
 Balurco de Cima,37.429009,-7.524442,209,,20
@@ -2119,7 +2130,9 @@ Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
 Cruzamento da AP-7 com a B-23,41.44520,1.99719,49,,3600
 Cruzamento da AP-7 com a C-32,41.20468,1.50906,72,,3600
+Cruzamento da AP-7 com a C-58,41.50492,2.12446,96,,3600
 Cruzamento da AP-7 com a T-11,41.13488,1.17726,49,,3600
+Cruzamento da AP-7/B-30 com a C-16,41.48924,2.05941,156,,3600
 Cruzamento da AP-9 com a AP-9V,42.25776,-8.675859,90,,2500
 Cruzamento da AP-9 com a AP-9F,43.28841,-8.28337,74,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100
 Cruzamento da AP-9 com a AP-9M,43.27713,-8.26362,47,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3100

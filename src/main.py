@@ -8,7 +8,7 @@ Main - Execute to access all available scripts
 
 
 # INSERT HERE location where to start journey
-INITIAL_LOCATION = 'B-23 - Saída 1B'
+INITIAL_LOCATION = 'AP-7 - Saída 19'
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
 WAY_TO_PROCESS = ways.PT_PORTO_METRO_LINE_E

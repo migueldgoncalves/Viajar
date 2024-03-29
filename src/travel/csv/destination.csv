@@ -7784,6 +7784,60 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 19,AP-7 - Saída 20,Car,False,Girona/Gerona
+AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Barcelona
+AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Lleida/Lérida
+AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Tarragona
+AP-7 - Saída 19,AP-7 - Saída 20,Car,True,València/Valencia
+AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Zaragoza
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,False,Girona/Gerona
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Barcelona
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Lleida/Lérida
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Tarragona
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,València/Valencia
+AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Zaragoza
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,C-58 - Barcelona/Manresa/Sabadell
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,Cerdanyola del Vallès
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,França
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,Girona/Gerona
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,Parc de l'Alba - Sincrotró
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,False,Universitat Autònoma de Barcelona
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,True,Barcelona
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,True,Lleida/Lérida
+AP-7 - Saída 21 Este/B-30 - Saída 7,Área de Serviço de Bellaterra,Car,True,Tarragona
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,False,AP-2 - Lleida/Lérida
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,False,C-16 - Barcelona/Túneis de Vallvidrera
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,False,Sant Cugat del Vallès
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,False,Tarragona
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,True,C-58 - Barcelona/Manresa/Sabadell
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,True,França
+AP-7 - Saída 21 Este/B-30 - Saída 7,Cruzamento da AP-7 com a C-58,Car,True,Girona/Gerona
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,False,C-16 - Barcelona/Túneis de Vallvidrera
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,False,Lleida/Lérida
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,False,Parc de l'Alba - Sincrotró
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,False,Tarragona
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,True,C-58 - Barcelona/Manresa/Sabadell
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,True,França
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,True,Girona/Gerona
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,Área de Serviço de Bellaterra,Car,True,Universitat Autònoma de Barcelona
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,False,C-58 - Barcelona/Manresa/Sabadell
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,False,Girona/Gerona
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,Barcelona - Sul
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,C-16 - Barcelona/Manresa/Terrassa/Túneis de Vallvidrera
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,Rubí
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,Sant Cugat del Vallès
+AP-7 - Saída 21 Oeste/B-30 - Saída 4,B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,Car,True,Tarragona
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,False,AP-2 - Lleida/Lérida
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,False,B-23 - Barcelona
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,False,Tarragona
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,C-16 - Barcelona/Manresa/Terrassa/Túneis de Vallvidrera
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,C-58 - Barcelona-Trinitat/Sabadell
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,França
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,Girona/Gerona
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,Hospital General de Catalunya
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,Rubí
+AP-7 - Saída 23,B-30 - Mirasol/Rubí,Car,True,Sant Cugat del Vallès
 AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,Barcelona
 AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,C-16 - Manresa/Terrassa
 AP-7 - Saída 23,Cruzamento da AP-7 com a B-23,Car,False,França
@@ -8461,6 +8515,44 @@ B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Girona/Gerona
 B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Lleida/Lérida
 B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Tarragona
 B-23 - Saída 12,Cruzamento da AP-7 com a B-23,Car,True,Zaragoza
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,False,C-58 - Manresa/Sabadell/Terrassa
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,False,Girona/Gerona
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,True,Barcelona
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,True,C-16 - Barcelona/Manresa/Túneis de Vallvidrera
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,True,Lleida/Lérida
+B-30 - Can Fatjó/Can Magí/Parc Tecnològic del Vallès,B-30 - Sant Cugat del Vallès Centro,Car,True,Tarragona
+B-30 - Cruzamento com a N-150,Cruzamento da AP-7 com a C-58,Car,False,Girona/Gerona
+B-30 - Cruzamento com a N-150,Cruzamento da AP-7 com a C-58,Car,True,C-16 - Barcelona/Túneis de Vallvidrera
+B-30 - Cruzamento com a N-150,Cruzamento da AP-7 com a C-58,Car,True,C-58 - Manresa/Sabadell/Terrassa
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,False,C-16 - Barcelona/Manresa/Terrassa/Túneis de Vallvidrera
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,False,Hospital General de Catalunya
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,False,Sant Cugat del Vallès
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,True,Barcelona
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,True,Lleida/Lérida
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Mirasol/Rubí,Car,True,Tarragona
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,False,Barcelona
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,False,Hospital General de Catalunya
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,False,Lleida/Lérida
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,False,Tarragona
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,True,C-16 - Barcelona/Manresa/Túneis de Vallvidrera
+B-30 - Hospital General/Rubí/Valldoreix,B-30 - Saída 3,Car,True,Sant Cugat del Vallès
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Barcelona
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Estação de Rubí Centre
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Hospital General de Catalunya
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Lleida/Lérida
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Rubí
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Sant Cugat del Vallès - Oeste
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Tarragona
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,València/Valencia
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,False,Zaragoza
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,True,C-16 - Barcelona/Manresa/Rubí-Norte/Túneis de Vallvidrera
+B-30 - Saída 3,Cruzamento da AP-7/B-30 com a C-16,Car,True,Girona/Gerona
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,False,C-58 - Manresa/Sabadell/Terrassa
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,False,Girona/Gerona
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,True,AP-2 - Lleida/Lérida
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,True,C-16 - Barcelona/Túneis de Vallvidrera
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,True,Hospital General de Catalunya
+B-30 - Sant Cugat del Vallès Centro,Cruzamento da AP-7/B-30 com a C-16,Car,True,Tarragona
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,False,Alcoutim
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,False,Beja
 Balurco de Baixo,Cruzamento da N122 com a M507-2,Car,True,Castro Marim

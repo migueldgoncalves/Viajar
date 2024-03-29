@@ -17,6 +17,9 @@ select location_a, location_b, way, means_transport, distance from Connection wh
 
 -- Show number of destinations by appearance
 select destination, count(destination) from Destination group by destination order by count(destination), destination;
+select destination, count(destination) from Destination where destination = 'Lisboa' group by destination;
+select destination, count(destination) from Destination where destination like '%Lisboa%' group by destination order by count(destination), destination;
+select count(destination) from Destination where destination like '%Lisboa%';
 
 -- Show number of Portuguese locations by parish, municipality, district, intermunicipal entity and region, respectively
 select parish, concelho, count(parish) from LocationPortugal group by parish, concelho
