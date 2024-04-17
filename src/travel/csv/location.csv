@@ -1622,6 +1622,15 @@ AP-6 - Saída 51,40.689853,-4.121202,1170,,2500
 AP-6 - Saída 60,40.728701,-4.193701,1189,,2500
 AP-6 - Saída 102,40.903070,-4.574758,923,,2500
 AP-6 - Saída 108,40.948702,-4.593547,910,,2500
+AP-7 - Saída 8,41.89616,2.77502,111,,3600
+AP-7 - Saída 10,41.73952,2.64260,60,,3600
+AP-7 - Saída 11,41.67325,2.48198,147,,3600
+AP-7 - Saída 12A,41.61290,2.34820,144,,3600
+AP-7 - Saída 12B,41.60226,2.33572,150,,3600
+AP-7 - Saída 13,41.56703,2.27905,101,,3600
+AP-7 - Saída 16,41.54949,2.20494,83,,3600
+AP-7 - Saída 17,41.54316,2.18866,81,,3600
+AP-7 - Saída 18,41.53156,2.17018,92,,3600
 AP-7 - Saída 19,41.51967,2.15336,122,,3600
 AP-7 - Saída 20,41.50986,2.13673,108,,3600
 AP-7 - Saída 21 Este/B-30 - Saída 7,41.49612,2.11196,115,,3600
@@ -1711,8 +1720,10 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Cortijo de Robledo,36.917477,-4.439805,557,,1100
 Área de Serviço de El Cuadrejón,36.781382,-6.043598,47,,800
 Área de Serviço de El Fantasma,37.001929,-5.938830,58,,800
+Área de Serviço de El Gironès,41.90659,2.77276,135,,3600
 Área de Serviço de El Mèdol,41.14079,1.34651,18,,3600
 Área de Serviço de El Penedès,41.28896,1.59195,165,,3600
+Área de Serviço de El Vallès,41.52646,2.16755,80,,3600
 Área de Serviço de Estremoz,38.800045,-7.660434,244,,1000
 Área de Serviço de Gafanha da Nazaré,40.62815,-8.70580,8,,2200
 Área de Serviço de Gaia,41.101204,-8.598477,136,,1700
@@ -1720,6 +1731,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de L'Hospitalet de l'Infant,40.98549,0.89558,65,,3600
 Área de Serviço de La Plana,39.86480,-0.12256,8,,3600
 Área de Serviço de La Ribera,40.13281,0.14003,24,,3600
+Área de Serviço de La Selva,41.77402,2.74017,85,,3600
 Área de Serviço de Lagos,37.148775,-8.703188,36,,500
 Área de Serviço de Leiria,39.712823,-8.710521,159,,1600
 Área de Serviço de Los Palacios,37.195820,-5.910552,21,,700
@@ -1732,6 +1744,7 @@ Arahal,37.260348,-5.544021,120,,700
 Área de Serviço de Mira-Sintra,38.786782,-9.297185,207,,3100
 Área de Serviço de Montemor-o-Novo,38.617671,-8.079619,297,,1000
 Área de Serviço de Montijo,38.726397,-8.670269,79,,1500
+Área de Serviço de Montseny,41.64732,2.42527,199,,3600
 Área de Serviço de O Burgo,43.31312,-8.36536,31,Reserva da Biosfera As Mariñas Coruñesas e Terras do Mandeo,3500
 Área de Serviço de Oeiras,38.714190,-9.285304,82,,1000
 Área de Serviço de Olhão,37.125327,-7.770864,114,,200
@@ -2129,7 +2142,10 @@ Cruzamento da AP-4 com a CA-32,36.536451,-6.198720,3,,1300
 Cruzamento da AP-6 com a AP-51,40.773764,-4.422913,1123,,2500
 Cruzamento da AP-6 com a AP-61,40.735218,-4.204563,1169,,2500
 Cruzamento da AP-7 com a B-23,41.44520,1.99719,49,,3600
+Cruzamento da AP-7 com a C-17,41.54895,2.22334,70,,3600
 Cruzamento da AP-7 com a C-32,41.20468,1.50906,72,,3600
+Cruzamento da AP-7 com a C-33,41.55306,2.23889,73,,3600
+Cruzamento da AP-7 com a C-35,41.78660,2.74511,73,,3600
 Cruzamento da AP-7 com a C-58,41.50492,2.12446,96,,3600
 Cruzamento da AP-7 com a T-11,41.13488,1.17726,49,,3600
 Cruzamento da AP-7/B-30 com a C-16,41.48924,2.05941,156,,3600
@@ -2237,6 +2253,7 @@ Cruzamento Oeste da A-3 com a A-40,39.99650,-3.01502,810,,3100
 Cruzamento Oeste da A-6 com a A-62,41.5118,-5.0178,685,,2900
 Cruzamento Oeste da A-7 com a MA-24,36.732357,-4.353453,106,,1200
 Cruzamento Oeste da M-50 com a R-2,40.54173,-3.57015,599,,2600
+Cruzamento Sul da A-2 com a AP-7,41.93626,2.78778,114,,3600
 Cruzamento Sul da A-4 com a AP-4,36.540948,-6.168066,6,,900
 Cruzamento Sul da A-6 com a A-66,41.9669,-5.5928,724,,3000
 Cruzamento Sul da A-7 com a A-30,38.00695,-1.16717,73,,2400

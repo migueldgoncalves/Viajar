@@ -7784,12 +7784,74 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Saída 8,Área de Serviço de El Gironès,Car,False,Barcelona
+AP-7 - Saída 8,Área de Serviço de El Gironès,Car,True,França
+AP-7 - Saída 8,Área de Serviço de El Gironès,Car,True,Girona/Gerona
+AP-7 - Saída 8,Cruzamento da AP-7 com a C-35,Car,False,França
+AP-7 - Saída 8,Cruzamento da AP-7 com a C-35,Car,False,Girona/Gerona
+AP-7 - Saída 8,Cruzamento da AP-7 com a C-35,Car,True,Barcelona
+AP-7 - Saída 10,AP-7 - Saída 11,Car,False,França
+AP-7 - Saída 10,AP-7 - Saída 11,Car,False,Girona/Gerona
+AP-7 - Saída 10,AP-7 - Saída 11,Car,True,Barcelona
+AP-7 - Saída 10,Área de Serviço de La Selva,Car,False,Barcelona
+AP-7 - Saída 10,Área de Serviço de La Selva,Car,True,França
+AP-7 - Saída 10,Área de Serviço de La Selva,Car,True,Girona/Gerona
+AP-7 - Saída 11,Área de Serviço de Montseny,Car,False,França
+AP-7 - Saída 11,Área de Serviço de Montseny,Car,False,Girona/Gerona
+AP-7 - Saída 11,Área de Serviço de Montseny,Car,True,Barcelona
+AP-7 - Saída 12A,AP-7 - Saída 12B,Car,False,França
+AP-7 - Saída 12A,AP-7 - Saída 12B,Car,False,Girona/Gerona
+AP-7 - Saída 12A,AP-7 - Saída 12B,Car,True,Barcelona
+AP-7 - Saída 12A,Área de Serviço de Montseny,Car,False,Barcelona
+AP-7 - Saída 12A,Área de Serviço de Montseny,Car,True,França
+AP-7 - Saída 12A,Área de Serviço de Montseny,Car,True,Girona/Gerona
+AP-7 - Saída 12B,AP-7 - Saída 13,Car,False,França
+AP-7 - Saída 12B,AP-7 - Saída 13,Car,False,Girona/Gerona
+AP-7 - Saída 12B,AP-7 - Saída 13,Car,True,Barcelona
+AP-7 - Saída 13,Cruzamento da AP-7 com a C-33,Car,False,França
+AP-7 - Saída 13,Cruzamento da AP-7 com a C-33,Car,False,Girona/Gerona
+AP-7 - Saída 13,Cruzamento da AP-7 com a C-33,Car,True,AP-2 - Lleida/Lérida
+AP-7 - Saída 13,Cruzamento da AP-7 com a C-33,Car,True,C-33 - Barcelona
+AP-7 - Saída 13,Cruzamento da AP-7 com a C-33,Car,True,Tarragona
+AP-7 - Saída 16,AP-7 - Saída 17,Car,False,França
+AP-7 - Saída 16,AP-7 - Saída 17,Car,False,Girona/Gerona
+AP-7 - Saída 16,AP-7 - Saída 17,Car,True,Barcelona
+AP-7 - Saída 16,AP-7 - Saída 17,Car,True,Lleida/Lérida
+AP-7 - Saída 16,AP-7 - Saída 17,Car,True,Tarragona
+AP-7 - Saída 16,AP-7 - Saída 17,Car,True,València/Valencia
+AP-7 - Saída 16,AP-7 - Saída 17,Car,True,Zaragoza
+AP-7 - Saída 16,Cruzamento da AP-7 com a C-17,Car,False,AP-2 - Lleida/Lérida
+AP-7 - Saída 16,Cruzamento da AP-7 com a C-17,Car,False,C-58 - Manresa/Sabadell
+AP-7 - Saída 16,Cruzamento da AP-7 com a C-17,Car,False,Tarragona
+AP-7 - Saída 16,Cruzamento da AP-7 com a C-17,Car,True,França
+AP-7 - Saída 16,Cruzamento da AP-7 com a C-17,Car,True,Girona/Gerona
+AP-7 - Saída 17,AP-7 - Saída 18,Car,False,França
+AP-7 - Saída 17,AP-7 - Saída 18,Car,False,Girona/Gerona
+AP-7 - Saída 17,AP-7 - Saída 18,Car,True,Barcelona
+AP-7 - Saída 17,AP-7 - Saída 18,Car,True,Lleida/Lérida
+AP-7 - Saída 17,AP-7 - Saída 18,Car,True,Tarragona
+AP-7 - Saída 17,AP-7 - Saída 18,Car,True,València/Valencia
+AP-7 - Saída 17,AP-7 - Saída 18,Car,True,Zaragoza
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,False,França
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,False,Girona/Gerona
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,True,Barcelona
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,True,Lleida/Lérida
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,True,Tarragona
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,True,València/Valencia
+AP-7 - Saída 18,Área de Serviço de El Vallès,Car,True,Zaragoza
 AP-7 - Saída 19,AP-7 - Saída 20,Car,False,Girona/Gerona
 AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Barcelona
 AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Lleida/Lérida
 AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Tarragona
 AP-7 - Saída 19,AP-7 - Saída 20,Car,True,València/Valencia
 AP-7 - Saída 19,AP-7 - Saída 20,Car,True,Zaragoza
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,False,Barcelona
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,False,Lleida/Lérida
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,False,Tarragona
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,False,València/Valencia
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,False,Zaragoza
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,True,França
+AP-7 - Saída 19,Área de Serviço de El Vallès,Car,True,Girona/Gerona
 AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,False,Girona/Gerona
 AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Barcelona
 AP-7 - Saída 20,B-30 - Cruzamento com a N-150,Car,True,Lleida/Lérida
@@ -8254,6 +8316,9 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Cortijo de Robledo,Cruzamento da A-45 com a AP-46,Car,True,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Car,False,Sevilha
 Área de Serviço de El Cuadrejón,Cruzamento da A-382 com a AP-4,Car,True,Cádiz
+Área de Serviço de El Gironès,Cruzamento Sul da A-2 com a AP-7,Car,False,Barcelona
+Área de Serviço de El Gironès,Cruzamento Sul da A-2 com a AP-7,Car,True,França
+Área de Serviço de El Gironès,Cruzamento Sul da A-2 com a AP-7,Car,True,Girona/Gerona
 Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Barcelona
 Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Lleida/Lérida
 Área de Serviço de El Mèdol,Cruzamento da A-27 com a AP-7,Car,False,Torredembarra
@@ -8272,6 +8337,9 @@ Arahal,Marchena,Train,True,Málaga - María Zambrano
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,False,Lisboa
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,True,A26 - Beja
 Área de Serviço de Grândola,Cruzamento da A2 com a A26,Car,True,Algarve
+Área de Serviço de La Selva,Cruzamento da AP-7 com a C-35,Car,False,Barcelona
+Área de Serviço de La Selva,Cruzamento da AP-7 com a C-35,Car,True,França
+Área de Serviço de La Selva,Cruzamento da AP-7 com a C-35,Car,True,Girona/Gerona
 Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,False,Cádiz
 Área de Serviço de Los Palacios,Cruzamento da AP-4 com a AP-4A,Car,True,Sevilha
 Área de Serviço de Manilva,Cruzamento I da A-7 com a AP-7,Car,False,Estepona
@@ -9741,6 +9809,16 @@ Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,False,Cádiz
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,A-48 - Algeciras
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Jerez de la Frontera
 Cruzamento da AP-4 com a CA-32,Cruzamento Sul da A-4 com a AP-4,Car,True,Sevilha
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,AP-2 - Lleida/Lérida
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,C-16 - Manresa
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,C-58 - Sabadell/Terrassa
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,Fira de Barcelona
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,Porto de Barcelona
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,Tarragona
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,Túneis de Vallvidrera
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,False,Zona Franca de Barcelona
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,True,França
+Cruzamento da AP-7 com a C-17,Cruzamento da AP-7 com a C-33,Car,True,Girona/Gerona
 Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,False,A Coruña
 Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,False,Ferrol
 Cruzamento da AP-9 com a AP-9F,Cruzamento da AP-9 com a AP-9M,Car,True,A-6 - Arteixo/Lugo/Madrid
