@@ -8,7 +8,7 @@ Main - Execute to access all available scripts
 
 
 # INSERT HERE location where to start journey
-INITIAL_LOCATION = 'Cruzamento Sul da A-2 com a AP-7'
+INITIAL_LOCATION = 'AP-7 - Fronteira Espanha-França'
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
 WAY_TO_PROCESS = ways.PT_PORTO_METRO_LINE_E

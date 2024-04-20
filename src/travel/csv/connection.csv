@@ -463,6 +463,10 @@ A-2 - Saída 64,Cruzamento da A-2 com a R-2,Car,3.1,A-2,SW,1,2
 A-2 - Saída 69,A-2 - Saída 71,Car,1.4,A-2,NE,2,1
 A-2 - Saída 71,A-2 - Saída 73,Car,2.7,A-2,NE,2,1
 A-2 - Saída 73,A-2 - Saída 75,Car,2.3,A-2,NE,2,1
+A-2/AP-7 - Saída 6,A-2/AP-7 - Saída 6B,Car,5.2,A-2/AP-7,SW,1,2
+A-2/AP-7 - Saída 6,Cruzamento Norte da A-2 com a AP-7,Car,7.7,A-2/AP-7,NE,2,1
+A-2/AP-7 - Saída 6B,A-2/AP-7 - Saída 7,Car,4.2,A-2/AP-7,S,1,2
+A-2/AP-7 - Saída 7,Cruzamento Sul da A-2 com a AP-7,Car,2.6,A-2/AP-7,S,1,2
 A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,1.4,A-3,W,1,4
 A-3 - Saída 5,Cruzamento da A-3 com a M-40,Car,2.2,A-3,SE,2,3
 A-3 - Saída 9,Cruzamento da A-3 com a M-40,Car,2.3,A-3,NW,1,4
@@ -2273,6 +2277,14 @@ AP-6 - Saída 51,AP-6 - Saída 60,Car,8.7,AP-6,NW,2,1
 AP-6 - Saída 60,Cruzamento da AP-6 com a AP-61,Car,0.7,AP-6,NW,2,1
 AP-6 - Saída 102,AP-6 - Saída 108,Car,5.5,AP-6,N,2,1
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,21.1,AP-6,SE,1,2
+AP-7 - Fronteira Espanha-França,AP-7 - Saída 1,Car,3.5,AP-7,S,1,2
+AP-7 - Saída 1,AP-7 - Saída 2,Car,3.0,AP-7,S,1,2
+AP-7 - Saída 2,Área de Serviço de La Jonquera,Car,0.3,AP-7,S,1,2
+AP-7 - Saída 3,AP-7 - Saída 4,Car,8.5,AP-7,S,1,2
+AP-7 - Saída 3,Área de Serviço de La Jonquera,Car,13.7,AP-7,NW,2,1
+AP-7 - Saída 4,Área de Serviço de L'Empordà,Car,5.9,AP-7,S,1,2
+AP-7 - Saída 5,Área de Serviço de L'Empordà,Car,5.3,AP-7,N,2,1
+AP-7 - Saída 5,Cruzamento Norte da A-2 com a AP-7,Car,6.9,AP-7,S,1,2
 AP-7 - Saída 8,Área de Serviço de El Gironès,Car,1.2,AP-7,N,2,1
 AP-7 - Saída 8,Cruzamento da AP-7 com a C-35,Car,12.8,AP-7,S,1,2
 AP-7 - Saída 10,AP-7 - Saída 11,Car,16.0,AP-7,SW,1,2

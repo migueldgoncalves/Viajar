@@ -1692,6 +1692,20 @@ A-2 - Saída 73,A-2 - Saída 75,Car,False,Guadalajara
 A-2 - Saída 73,A-2 - Saída 75,Car,False,Madrid
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Barcelona
 A-2 - Saída 73,A-2 - Saída 75,Car,True,Zaragoza
+A-2/AP-7 - Saída 6,A-2/AP-7 - Saída 6B,Car,False,França
+A-2/AP-7 - Saída 6,A-2/AP-7 - Saída 6B,Car,False,La Jonquera
+A-2/AP-7 - Saída 6,A-2/AP-7 - Saída 6B,Car,True,Barcelona
+A-2/AP-7 - Saída 6,Cruzamento Norte da A-2 com a AP-7,Car,False,Barcelona
+A-2/AP-7 - Saída 6,Cruzamento Norte da A-2 com a AP-7,Car,False,Girona/Gerona
+A-2/AP-7 - Saída 6,Cruzamento Norte da A-2 com a AP-7,Car,True,França
+A-2/AP-7 - Saída 6,Cruzamento Norte da A-2 com a AP-7,Car,True,La Jonquera
+A-2/AP-7 - Saída 6B,A-2/AP-7 - Saída 7,Car,False,França
+A-2/AP-7 - Saída 6B,A-2/AP-7 - Saída 7,Car,False,La Jonquera
+A-2/AP-7 - Saída 6B,A-2/AP-7 - Saída 7,Car,True,Barcelona
+A-2/AP-7 - Saída 7,Cruzamento Sul da A-2 com a AP-7,Car,False,Figueres
+A-2/AP-7 - Saída 7,Cruzamento Sul da A-2 com a AP-7,Car,False,Girona/Gerona
+A-2/AP-7 - Saída 7,Cruzamento Sul da A-2 com a AP-7,Car,False,Perpignan
+A-2/AP-7 - Saída 7,Cruzamento Sul da A-2 com a AP-7,Car,True,Barcelona
 A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,False,Arganda del Rey
 A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,False,Valência
 A-3 - Saída 5,Cruzamento da A-3 com a M-30,Car,True,Estação de Atocha
@@ -7784,6 +7798,36 @@ AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,A Coruña
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,False,Adanero
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Madrid
 AP-6 - Saída 102,Cruzamento da AP-6 com a AP-51,Car,True,Villacastín
+AP-7 - Fronteira Espanha-França,AP-7 - Saída 1,Car,False,Perpignan
+AP-7 - Fronteira Espanha-França,AP-7 - Saída 1,Car,True,Barcelona
+AP-7 - Fronteira Espanha-França,AP-7 - Saída 1,Car,True,Girona/Gerona
+AP-7 - Saída 1,AP-7 - Saída 2,Car,False,França
+AP-7 - Saída 1,AP-7 - Saída 2,Car,True,Barcelona
+AP-7 - Saída 1,AP-7 - Saída 2,Car,True,Girona/Gerona
+AP-7 - Saída 2,Área de Serviço de La Jonquera,Car,False,França
+AP-7 - Saída 2,Área de Serviço de La Jonquera,Car,False,La Jonquera
+AP-7 - Saída 2,Área de Serviço de La Jonquera,Car,True,Barcelona
+AP-7 - Saída 2,Área de Serviço de La Jonquera,Car,True,Girona/Gerona
+AP-7 - Saída 3,AP-7 - Saída 4,Car,False,França
+AP-7 - Saída 3,AP-7 - Saída 4,Car,False,La Jonquera
+AP-7 - Saída 3,AP-7 - Saída 4,Car,True,Barcelona
+AP-7 - Saída 3,AP-7 - Saída 4,Car,True,Girona/Gerona
+AP-7 - Saída 3,Área de Serviço de La Jonquera,Car,False,Barcelona
+AP-7 - Saída 3,Área de Serviço de La Jonquera,Car,False,Girona/Gerona
+AP-7 - Saída 3,Área de Serviço de La Jonquera,Car,True,França
+AP-7 - Saída 3,Área de Serviço de La Jonquera,Car,True,La Jonquera
+AP-7 - Saída 4,Área de Serviço de L'Empordà,Car,False,França
+AP-7 - Saída 4,Área de Serviço de L'Empordà,Car,False,La Jonquera
+AP-7 - Saída 4,Área de Serviço de L'Empordà,Car,True,Barcelona
+AP-7 - Saída 4,Área de Serviço de L'Empordà,Car,True,Girona/Gerona
+AP-7 - Saída 5,Área de Serviço de L'Empordà,Car,False,Barcelona
+AP-7 - Saída 5,Área de Serviço de L'Empordà,Car,False,Girona/Gerona
+AP-7 - Saída 5,Área de Serviço de L'Empordà,Car,True,França
+AP-7 - Saída 5,Área de Serviço de L'Empordà,Car,True,La Jonquera
+AP-7 - Saída 5,Cruzamento Norte da A-2 com a AP-7,Car,False,França
+AP-7 - Saída 5,Cruzamento Norte da A-2 com a AP-7,Car,False,La Jonquera
+AP-7 - Saída 5,Cruzamento Norte da A-2 com a AP-7,Car,True,Barcelona
+AP-7 - Saída 5,Cruzamento Norte da A-2 com a AP-7,Car,True,Girona/Gerona
 AP-7 - Saída 8,Área de Serviço de El Gironès,Car,False,Barcelona
 AP-7 - Saída 8,Área de Serviço de El Gironès,Car,True,França
 AP-7 - Saída 8,Área de Serviço de El Gironès,Car,True,Girona/Gerona

@@ -91,6 +91,7 @@ Barbadillo,Campo de Salamanca,Salamanca
 Barberà del Vallès,Vallès Occidental / Vallés Occidental,Barcelona
 Barcelona,Barcelonès / Barcelonés,Barcelona
 Barro,Comarca de Pontevedra,Pontevedra
+Bàscara / Báscara,Alt Empordà / Alto Ampurdán,Girona / Gerona
 Becerreá,Os Ancares,Lugo
 Bédar,Levante Almeriense,Almería
 Begonte,Terra Chá,Lugo
@@ -115,6 +116,7 @@ Bollullos Par del Condado,El Condado,Huelva
 Bonares,El Condado,Huelva
 Bormujos,Aljarafe,Sevilha
 Bormujos,Comarca Metropolitana de Sevilha,Sevilha
+Borrassà,Alt Empordà / Alto Ampurdán,Girona / Gerona
 Borriana / Burriana,Plana Baixa / Plana Baja,Castelló de la Plana / Castellón de la Plana
 Brazuelo,Tierra de Astorga,León
 Buenavista,Tierra de Alba,Salamanca
@@ -251,6 +253,7 @@ Fuentes de Oñoro,Comarca de Ciudad Rodrigo,Salamanca
 Fuentidueña de Tajo,Comarca de Las Vegas,Comunidade de Madrid
 Galapagar,Cuenca del Guadarrama,Comunidade de Madrid
 Galisteo,Valle del Alagón,Cáceres
+Garrigàs,Alt Empordà / Alto Ampurdán,Girona / Gerona
 Gelida,Alt Penedès / Alto Panadés,Barcelona
 Gelves,Aljarafe,Sevilha
 Gelves,Comarca Metropolitana de Sevilha,Sevilha
@@ -314,6 +317,7 @@ La Fuente de San Esteban,Comarca de Ciudad Rodrigo,Salamanca
 La Guardia de Jaén,Comarca Metropolitana de Jaén,Jaén
 La Guardia,Mesa de Ocaña,Toledo
 La Hinojosa,La Mancha de Cuenca,Cuenca
+La Jonquera,Alt Empordà / Alto Ampurdán,Girona / Gerona
 La Línea de la Concepción,Campo de Gibraltar,Cádiz
 La Luisiana,Comarca de Écija,Sevilha
 La Mojonera,Poniente Almeriense,Almería
@@ -340,6 +344,7 @@ Lepe,Costa Occidental de Huelva,Huelva
 Les Alqueries / Alquerías del Niño Perdido,Plana Baixa / Plana Baja,Castelló de la Plana / Castellón de la Plana
 Librilla,Bajo Guadalentín,Região de Murcia
 Llanos del Caudillo,La Mancha,Ciudad Real
+Llers,Alt Empordà / Alto Ampurdán,Girona / Gerona
 Llinars del Vallès,Vallès Oriental / Vallés Oriental,Barcelona
 Llocnou de la Corona / Lugar Nuevo de la Corona,Horta Sud / Huerta Sur,València / Valencia
 Lobón,Vegas Bajas,Badajoz
@@ -550,7 +555,9 @@ Sanlúcar de Guadiana,El Andévalo,Huelva
 Sant Celoni,Vallès Oriental / Vallés Oriental,Barcelona
 Sant Cugat del Vallès,Vallès Occidental / Vallés Occidental,Barcelona
 Sant Feliu de Llobregat,Baix Llobregat / Bajo Llobregat,Barcelona
+Sant Gregori,Gironès / Gironés,Girona / Gerona
 Sant Joan Despí,Baix Llobregat / Bajo Llobregat,Barcelona
+Sant Julià de Ramis,Gironès / Gironés,Girona / Gerona
 Sant Just Desvern,Baix Llobregat / Bajo Llobregat,Barcelona
 Sant Sadurní d'Anoia,Alt Penedès / Alto Panadés,Barcelona
 Santa Amalia,Guadiana,Badajoz
@@ -641,7 +648,9 @@ Viator,Comarca Metropolitana de Almería,Almería
 Vícar,Poniente Almeriense,Almería
 Vigo,Comarca de Vigo,Pontevedra
 Vila-seca,Tarragonès / Tarragonés,Tarragona
+Vilablareix,Gironès / Gironés,Girona / Gerona
 Vilaboa,Comarca de Pontevedra,Pontevedra
+Vilademuls,Pla de l'Estany,Girona / Gerona
 Vilafranca del Penedès,Alt Penedès / Alto Panadés,Barcelona
 Vilalba,Terra Chá,Lugo
 Villa de Otura,Vega de Granada,Granada
