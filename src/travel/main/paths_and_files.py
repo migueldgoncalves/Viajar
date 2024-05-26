@@ -3,8 +3,10 @@ import os
 File containing constants with file paths and file names
 """
 
-# IMPORTANT: Project should be outside of drive C: - There may permission issues otherwise
+# IMPORTANT: Project should be outside of drive C: - There may be permission issues otherwise
+# The .csv files are in a separate repository that must also be downloaded
 BASE_PROJECT_PATH = os.path.join('D:\\', 'PycharmProjects', 'Viajar')
+BASE_CSV_PROJECT_PATH = os.path.join('D:\\', 'PycharmProjects', 'viajar_db')
 SRC_RELATIVE_PATH = 'src'
 TRAVEL_PACKAGE_RELATIVE_PATH = os.path.join(BASE_PROJECT_PATH, SRC_RELATIVE_PATH, 'travel')
 BASE_PATH = os.path.join(BASE_PROJECT_PATH, TRAVEL_PACKAGE_RELATIVE_PATH)
@@ -17,11 +19,11 @@ GOOGLE_API_KEY_FILEPATH = os.path.join(BASE_PROJECT_PATH, SRC_RELATIVE_PATH, GOO
 DB_FILES_FOLDER_NAME = 'database'
 DB_FILES_FOLDER_PATH = os.path.join(BASE_PATH, DB_FILES_FOLDER_NAME)
 CSV_FOLDER_NAME = 'csv'
-CSV_FOLDER_PATH = os.path.join(BASE_PATH, CSV_FOLDER_NAME)
+CSV_FOLDER_PATH = os.path.join(BASE_CSV_PROJECT_PATH, CSV_FOLDER_NAME)
 TMP_FOLDER_NAME = 'tmp'
 TMP_FOLDER_PATH = os.path.join(BASE_PATH, TMP_FOLDER_NAME)
 
-# Database base files folder - Contains schema in SQL, E-R model and relational model
+# Database base files folder - Contains schema in SQL
 DB_SCRIPT_FILE = 'database.sql'
 DB_SCRIPT_PATH = os.path.join(DB_FILES_FOLDER_PATH, DB_SCRIPT_FILE)
 
