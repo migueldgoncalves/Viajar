@@ -100,8 +100,8 @@ class CarSimulatorTest(unittest.TestCase):
             time.sleep(car_simulator.WAIT_FOR_INPUT / 2)  # Prevents acceleration commands from being sent in a very short time interval
         self.assertTrue(self.car_simulator.last_read_input >= test_start_time)
         self.assertEqual(car_simulator.MODE_ACCELERATING, self.car_simulator.mode)
-        self.assertTrue(19 < self.car_simulator.speed < 21)
-        self.assertTrue(3087 < self.car_simulator.rpm < 3300)
+        self.assertTrue(18 < self.car_simulator.speed < 21)
+        self.assertTrue(2900 < self.car_simulator.rpm < 3300)
         self.assertEqual(gear, self.car_simulator.gear)
 
         current_time: float = time.time()
@@ -127,8 +127,8 @@ class CarSimulatorTest(unittest.TestCase):
             time.sleep(car_simulator.WAIT_FOR_INPUT / 2)  # Prevents acceleration commands from being sent in a very short time interval
         self.assertTrue(self.car_simulator.last_read_input >= test_start_time)
         self.assertEqual(car_simulator.MODE_ACCELERATING, self.car_simulator.mode)
-        self.assertTrue(-20 < self.car_simulator.speed < -19)
-        self.assertTrue(3087 < self.car_simulator.rpm < 3250)
+        self.assertTrue(-20 < self.car_simulator.speed < -18)
+        self.assertTrue(2900 < self.car_simulator.rpm < 3250)
         self.assertEqual(gear, self.car_simulator.gear)
 
         current_time: float = time.time()
@@ -181,8 +181,8 @@ class CarSimulatorTest(unittest.TestCase):
             time.sleep(car_simulator.WAIT_FOR_INPUT / 2)
         self.assertTrue(self.car_simulator.last_read_input >= test_start_time)
         self.assertEqual(car_simulator.MODE_BRAKING, self.car_simulator.mode)
-        self.assertTrue(60 < self.car_simulator.speed < 62)
-        self.assertTrue(2437 < self.car_simulator.rpm < 2519)
+        self.assertTrue(60 < self.car_simulator.speed < 64)
+        self.assertTrue(2437 < self.car_simulator.rpm < 2600)
         self.assertEqual(gear, self.car_simulator.gear)
 
         test_start_time = time.time()

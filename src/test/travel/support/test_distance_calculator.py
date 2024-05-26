@@ -126,7 +126,7 @@ class TestDistanceCalculator(unittest.TestCase):
 
         self.dist_calc.generate_processed_map(coordinates, way_type, country, area_detail, None)
 
-        self.assertEqual(133359, len(self.dist_calc.processed_map))  # Number of processed nodes in the map
+        self.assertEqual(133613, len(self.dist_calc.processed_map))  # Number of processed nodes in the map
 
         for node_id in self.dist_calc.processed_map:
             assert node_id
@@ -142,7 +142,7 @@ class TestDistanceCalculator(unittest.TestCase):
 
         self.dist_calc.generate_processed_map(coordinates, way_type, country, None, way_name)
 
-        self.assertEqual(5595, len(self.dist_calc.processed_map))  # Number of processed nodes in the map
+        self.assertEqual(5594, len(self.dist_calc.processed_map))  # Number of processed nodes in the map
 
         for node_id in self.dist_calc.processed_map:
             assert node_id
@@ -431,7 +431,7 @@ class TestDistanceCalculator(unittest.TestCase):
         destination = Coordinates(28.45902, -16.25102)
         railway_name = ways.ES_TENERIFE_TRAMWAY_T1.osm_name
         self.dist_calc.generate_processed_map([bottom_left_map_corner, upper_right_map_corner], ways.RAILWAY, ways.CANARY_ISLANDS, None, railway_name)
-        self.assertEqual(12.4, self.dist_calc.calculate_distance_with_adjusts(source, destination, less_checks=True))  # In reality, 12.5 km
+        self.assertEqual(12.3, self.dist_calc.calculate_distance_with_adjusts(source, destination, less_checks=True))  # In reality, 12.5 km
         # Testing with less_checks=False takes too long - Skipping
 
     def test_calculate_distance_with_adjusts_successful_madeira_islands(self):

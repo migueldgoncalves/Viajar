@@ -185,7 +185,7 @@ class TestOsmInterface(unittest.TestCase):
             8: 'Las Palmas de Gran Canaria',
             'political': 'Gran Canaria',
             'region': 'Canary Islands',
-            'timezone': 'Atlantic/Canary Timezone'
+            'timezone': 'UTC+00:00 standard time'
         }
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(28.117338, -15.437617), None))
         self.assertEqual(expected_response, OsmInterface().get_administrative_divisions_by_coordinates(Coordinates(28.117338, -15.437617), ways.CANARY_ISLANDS))
@@ -332,7 +332,7 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual([Coordinates(36.6248973, -4.5161178)], response['999'])
 
         # Small Peninsular Spanish freeway
-        expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '14A', '14B', '16', '17', '19', '2', '20', '20A',
+        expected_response_keys = ['0A', '1', '10', '11', '12', '12B', '12C', '13', '14A', '14B', '15', '16', '17', '19', '2', '20', '20A',
                                   '20B', '23', '23A', '23B', '24', '25', '26', '27', '28', '2A', '2B', '2C', '3',
                                   '3-4-5', '30', '31', '31B', '3BA', '4', '5', '5A', '5AB', '6', '6A', '6B', '7', '7-6',
                                   '7-8-9', '7A', '7B', '7BA', '8', '8-9', '8A', '9A', '9B'
@@ -441,7 +441,7 @@ class TestOsmInterface(unittest.TestCase):
 
         # Small Portuguese railway
         expected_response_keys = [
-            'Algueirão-Mem Martins', 'Amadora', 'Campolide', 'Santa Cruz - Damaia', 'Queluz-Belas', 'Monte Abraão',
+            'Algueirão-Mem Martins', 'Amadora', 'Campolide', 'Santa Cruz-Damaia', 'Queluz-Belas', 'Monte Abraão',
             'Massamá-Barcarena', 'Agualva - Cacém', 'Rio de Mouro', 'Portela de Sintra', 'Mercês', 'Sintra',
             'Benfica', 'Reboleira'
         ]
@@ -571,8 +571,8 @@ class TestOsmInterface(unittest.TestCase):
         extreme_points = result[2]
 
         self.assertEqual(3, len(result))
-        self.assertEqual(28145, len(node_list))  # Number of nodes
-        self.assertEqual(3294, len(way_list))  # Number of ways
+        self.assertEqual(28263, len(node_list))  # Number of nodes
+        self.assertEqual(3346, len(way_list))  # Number of ways
 
         for node in node_list:
             assert node
@@ -629,7 +629,7 @@ class TestOsmInterface(unittest.TestCase):
         way_list = result[1]
 
         self.assertEqual(2, len(result))
-        self.assertEqual(5595, len(node_list))  # Number of nodes
+        self.assertEqual(5594, len(node_list))  # Number of nodes
         self.assertEqual(851, len(way_list))  # Number of ways
 
         for node in node_list:
@@ -827,8 +827,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(-7.4083091, result.north.longitude)
         self.assertEqual(37.1661936, result.south.latitude)
         self.assertEqual(-7.3948663, result.south.longitude)
-        self.assertEqual(37.2083792, result.east.latitude)
-        self.assertEqual(-7.0517745, result.east.longitude)
+        self.assertEqual(37.2109163, result.east.latitude)
+        self.assertEqual(-7.0530779, result.east.longitude)
         self.assertEqual(37.402284, result.west.latitude)
         self.assertEqual(-7.4511209, result.west.longitude)
 
@@ -862,8 +862,8 @@ class TestOsmInterface(unittest.TestCase):
         self.assertEqual(1.5157512, result.south.longitude)
         self.assertEqual(42.5741828, result.east.latitude)
         self.assertEqual(1.786664, result.east.longitude)
-        self.assertEqual(42.4951007, result.west.latitude)
-        self.assertEqual(1.407225, result.west.longitude)
+        self.assertEqual(42.486294, result.west.latitude)
+        self.assertEqual(1.4077997, result.west.longitude)
 
         # Andorran parish
         result = OsmInterface().get_region_extreme_points('Escaldes-Engordany', osm_interface.ANDORRAN_PARISH, ways.ANDORRA)
@@ -906,7 +906,7 @@ class TestOsmInterface(unittest.TestCase):
         test_fail_if_servers_down.TestFailIfServersDown().test_fail_if_servers_down()  # Will fail this test if OSM servers are down
 
         sample_query = f'is_in(39.0,-5.0); out geom;'  # Returns administrative divisions of location (39.0, -5.0), in Spanish Extremadura
-        sample_raw_response_start = '<osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">\n'
+        sample_raw_response_start = '<osm version="0.6" generator="Overpass API 0.7.62 7c32a7d5">\n'
         sample_raw_response_excerpt = '<tag k="admin_level" v="8"/>\n'
         sample_raw_response_end = '</osm>'
 
@@ -914,7 +914,7 @@ class TestOsmInterface(unittest.TestCase):
         self.assertTrue(result.toxml().startswith(sample_raw_response_start))
         self.assertTrue(sample_raw_response_excerpt in result.toxml())
         self.assertTrue(result.toxml().endswith(sample_raw_response_end))
-        self.assertEqual(62, result.toxml().find('\n'))  # Number of lines
+        self.assertEqual(60, result.toxml().find('\n'))  # Number of lines
 
     def test_parse_xml_response_invalid_parameters(self):
         self.assertIsNone(OsmInterface()._parse_raw_response(None))

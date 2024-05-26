@@ -488,12 +488,14 @@ class IntegrationTest(unittest.TestCase):
                         '\n7 -> Aeroporto de Lisboa - Terminal 1 (NW, 130.9 km)'
                         '\n8 -> Aeródromo de Tires (NW, 143.5 km)'
                         '\n9 -> Aeródromo de Viseu (N, 293.9 km)'
-                        '\n10 -> Return to the road'
-                        '\n11 -> Show location information'
-                        '\n12 -> Show journey statistics'
+                        '\n10 -> Aeroporto Internacional de Ciudad Real (E, 356.3 km)'
+                        '\n11 -> Aeroporto do Porto (N, 357.7 km)'
+                        '\n12 -> Return to the road'
+                        '\n13 -> Show location information'
+                        '\n14 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["11", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["13", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nAltitude: 188 meters'
@@ -506,7 +508,7 @@ class IntegrationTest(unittest.TestCase):
                         '\nCountry: Portugal'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["12", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["14", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 103.8 km'
@@ -522,7 +524,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "7", "16", "1", "0"]
+                              "7", "17", "1", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
@@ -604,14 +606,15 @@ class IntegrationTest(unittest.TestCase):
                         '\n12 -> Aeródromo de Tires (SW, 20.1 km)'
                         '\n13 -> Aeroporto de Alicante-Elche Miguel Hernández (E, 749.6 km)'
                         '\n14 -> Aeródromo de Viseu (NE, 240.8 km)'
-                        '\n15 -> Return to the road'
-                        '\n16 -> Transfer between means of transport'
-                        '\n17 -> Show location information'
-                        '\n18 -> Show journey statistics'
+                        '\n15 -> Aeroporto do Porto (N, 276.7 km)'
+                        '\n16 -> Return to the road'
+                        '\n17 -> Transfer between means of transport'
+                        '\n18 -> Show location information'
+                        '\n19 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
         with unittest.mock.patch('builtins.input',
-                                 side_effect=["16", "0"]):  # Final 0 exits menu loop and allows to get the journey state
+                                 side_effect=["17", "0"]):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()  # Switches to transfer between means of transport
 
         self.assertTrue('You are transferring between means of transport' in stdout_redirect.getvalue())
@@ -672,12 +675,13 @@ class IntegrationTest(unittest.TestCase):
                         '\n6 -> Aeroporto de Málaga - Costa del Sol (S, 429.8 km)'
                         '\n7 -> Aeroporto de Sevilha (SW, 395.2 km)'
                         '\n8 -> Aeroporto Federico García Lorca Granada-Jaén (S, 367.0 km)'
-                        '\n9 -> Transfer between means of transport'
-                        '\n10 -> Show location information'
-                        '\n11 -> Show journey statistics'
+                        '\n9 -> Aeroporto Internacional de Ciudad Real (S, 182.6 km)'
+                        '\n10 -> Transfer between means of transport'
+                        '\n11 -> Show location information'
+                        '\n12 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["10", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["11", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nAltitude: 600 meters'
@@ -689,7 +693,7 @@ class IntegrationTest(unittest.TestCase):
                         '\nCountry: Spain'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["11", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["12", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 565.3 km'
@@ -724,12 +728,14 @@ class IntegrationTest(unittest.TestCase):
                         '\n7 -> Aeroporto de Salamanca (N, 254.9 km)'
                         '\n8 -> Aeroporto de Alicante-Elche Miguel Hernández (E, 549.8 km)'
                         '\n9 -> Aeródromo de Viseu (NW, 223.4 km)'
-                        '\n10 -> Return to the road'
-                        '\n11 -> Show location information'
-                        '\n12 -> Show journey statistics'
+                        '\n10 -> Aeroporto Internacional de Ciudad Real (E, 247.4 km)'
+                        '\n11 -> Aeroporto do Porto (NW, 305.8 km)'
+                        '\n12 -> Return to the road'
+                        '\n13 -> Show location information'
+                        '\n14 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["11", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["13", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nAltitude: 180 meters'
@@ -741,7 +747,7 @@ class IntegrationTest(unittest.TestCase):
                         '\nCountry: Spain'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["12", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["14", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 236.2 km'
@@ -757,7 +763,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "2", "14", "2", "2", "2", "2", "2", "2", "0"]
+                              "2", "16", "2", "2", "2", "2", "2", "2", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
@@ -800,7 +806,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "2", "11", "5", "1", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
+                              "2", "11", "6", "1", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
@@ -843,7 +849,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "2", "11", "5", "1", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
+                              "2", "11", "6", "1", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "0"]
@@ -890,7 +896,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "7", "16", "1", "3", "1", "2", "2", "4", "2", "2", "2", "3", "2", "2", "2", "2", "2", "2",
+                              "7", "17", "1", "3", "1", "2", "2", "4", "2", "2", "2", "3", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "3", "1", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "3", "3", "3", "3", "2", "2", "2", "2", "2",
                               "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "0"]
@@ -937,7 +943,7 @@ class IntegrationTest(unittest.TestCase):
         """
         stdout_redirect: io.StringIO = _redirect_output()
         options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "7", "13", "9", "0"]
+                              "7", "13", "11", "0"]
         with unittest.mock.patch('builtins.input',
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
