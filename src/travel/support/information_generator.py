@@ -76,13 +76,13 @@ class InformationGenerator:
             print(f'Invalid country - Cancelling processing of {self.way_display_name}')
             exit(1)
 
-        if not os.path.exists(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)):
+        if not os.path.exists(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)):
             print(f'Location info file for {self.way_display_name} does not exist.')
             print(f'Please run this program again, then select option {OPTION_LOCATION_INFO} to generate the location info for {self.way_display_name}.')
             exit(0)
 
         warning: str = f'A connection info file already exists for {self.way_display_name}'
-        self._repeated_file_detector(self._get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), warning)
+        self._repeated_file_detector(self.get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), warning)
         # It can be assumed that either there is a connections file and a destinations file, or none of them, as they are generated at the same time
         #   Therefore, the user can be presented with a single confirmation dialog
 
@@ -114,7 +114,7 @@ class InformationGenerator:
             and Google, then stores this info in dedicated files
         """
         warning: str = f'{self.way_display_name} seems to have been processed before'
-        self._repeated_file_detector(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), warning)
+        self._repeated_file_detector(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), warning)
 
         if self.country not in ways.ALL_SUPPORTED_COUNTRIES:
             print(f'Invalid country - Cancelling processing of {self.way_display_name}')
@@ -152,7 +152,7 @@ class InformationGenerator:
         if not os.path.exists(paths_and_files.TMP_FOLDER_PATH):
             os.makedirs(paths_and_files.TMP_FOLDER_PATH)
 
-        with open(os.path.join(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)), 'w', encoding=ENCODING) as f:
+        with open(os.path.join(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH)), 'w', encoding=ENCODING) as f:
             for location_name in sorted_exits_or_stations:  # Ex: "2" for a freeway/motorway, or "Santa Apolónia" for a railway
                 latitude: float = coordinates[location_name].get_latitude()
                 longitude: float = coordinates[location_name].get_longitude()
@@ -169,7 +169,7 @@ class InformationGenerator:
                     f.write(f'{location_name} Station,{latitude},{longitude},{altitude},{protected_area},{batch}\n')
                 else:
                     f.write(f'{self.way_display_name} - Exit {location_name},{latitude},{longitude},{altitude},{protected_area},{batch}\n')
-        sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), cabecalho=False)
+        sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), cabecalho=False)
         print(f'Created locations file')
 
         processed_locations: int = 0
@@ -183,7 +183,7 @@ class InformationGenerator:
             # Ex: {(37.1, -7.5): {6: 'Sevilla', 7: 'Comarca Metropolitana de Sevilla', 8: 'Sevilla', 9: 'Triana'}}
             administrative_divisions: dict[Coordinates, dict[Union[str, int], Optional[str]]] = self.get_administrative_divisions(list(coordinates.values()), desired_administrative_divisions)
 
-            with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), 'w', encoding=ENCODING) as f:
+            with open(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), 'w', encoding=ENCODING) as f:
                 for location_name in sorted_exits_or_stations:
                     location: Coordinates = coordinates[location_name]
 
@@ -213,19 +213,19 @@ class InformationGenerator:
                     else:
                         print(f'Exit {location_name} processed - {processed_locations}/{len(sorted_exits_or_stations)} processed exits')
 
-            with open(self._get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), 'w', encoding=ENCODING) as f:
+            with open(self.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), 'w', encoding=ENCODING) as f:
                 for municipio in municipios:
                     f.write(municipio)
 
-            with open(self._get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), 'w', encoding=ENCODING) as f:
+            with open(self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), 'w', encoding=ENCODING) as f:
                 for comarca in comarcas:
                     f.write(comarca)
 
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), cabecalho=False)
             print("Finished Spanish locations file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), cabecalho=False)
             print("Finished Spanish municipalities file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), cabecalho=False)
             print("Finished comarcas file")
 
         elif self.country == ways.PORTUGAL:
@@ -235,7 +235,7 @@ class InformationGenerator:
             # {(37.1, -7.5): {6: 'Alcoutim e Pereiro', 7: 'Alcoutim', 8: 'Faro', 'historic_parish': 'Pereiro'}}
             administrative_divisions:  dict[Coordinates, dict[Union[str, int], Optional[str]]] = self.get_administrative_divisions(list(coordinates.values()), desired_administrative_divisions)
 
-            with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), 'w', encoding=ENCODING) as f:
+            with open(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), 'w', encoding=ENCODING) as f:
                 for location_name in sorted_exits_or_stations:
                     location: Coordinates = coordinates[location_name]
 
@@ -258,20 +258,20 @@ class InformationGenerator:
                     else:
                         print(f'Exit {location_name} processed - {processed_locations}/{len(sorted_exits_or_stations)} processed exits')
 
-            with open(self._get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), 'w', encoding=ENCODING) as f:
+            with open(self.get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), 'w', encoding=ENCODING) as f:
                 for concelho in concelhos:
                     f.write(concelho)
 
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), cabecalho=False)
             print("Finished Portuguese locations file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self._get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), cabecalho=False)
+            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), cabecalho=False)
             print("Finished Portuguese municipalities file")
 
         else:
             pass
 
     def create_connections_and_destinations_files(self, inverted: bool) -> None:
-        with open(self._get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), 'r', encoding=ENCODING) as f:
+        with open(self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), 'r', encoding=ENCODING) as f:
             content: list[str] = f.readlines()
 
         if len(content) == 0:
@@ -372,9 +372,9 @@ class InformationGenerator:
 
                 print(f'{idx + 1}/{len(content) - 1} processed connections')  # Counts every line, including empty lines in the middle of the file
 
-        with open(self._get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), 'w', encoding=ENCODING) as f:
+        with open(self.get_filepath(paths_and_files.TMP_CSV_CONNECTION_PATH), 'w', encoding=ENCODING) as f:
             f.writelines(connections)
-        with open(self._get_filepath(paths_and_files.TMP_CSV_DESTINATION_PATH), 'w', encoding=ENCODING) as f:
+        with open(self.get_filepath(paths_and_files.TMP_CSV_DESTINATION_PATH), 'w', encoding=ENCODING) as f:
             f.writelines(destinations)
 
     def get_altitude(self, latitude: float, longitude: float) -> int:
@@ -491,7 +491,7 @@ class InformationGenerator:
             print("Error while getting Google API key")
             return None
 
-    def _get_filepath(self, filepath_with_placeholder: str) -> str:
+    def get_filepath(self, filepath_with_placeholder: str) -> str:
         """
         Given a filepath with a placeholder, returns the final filepath, with the way name replacing the placeholder
         Ex: 'D:\foo\\placeholder_location.csv' -> 'D:\foo\freeway_name_location.csv'
