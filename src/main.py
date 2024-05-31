@@ -1,14 +1,26 @@
 from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
-from travel.main import menu, travel
+from travel.main import menu, travel, paths_and_files
 from car import car_simulator
 
 """
 Main - Execute to access all available scripts
 """
 
-
-# INSERT HERE location where to start journey
-INITIAL_LOCATION = 'AP-7 - Fronteira Espanha-França'
+# Set initial location for journey
+DEFAULT_INITIAL_LOCATION = 'Guerreiros do Rio'
+try:
+    with open(paths_and_files.INITIAL_LOCATION_FILEPATH, 'r') as f:
+        file_content: list[str] = f.readlines()
+    if file_content and file_content[0]:
+        INITIAL_LOCATION = file_content[0]
+    else:
+        with open(paths_and_files.INITIAL_LOCATION_FILEPATH, 'w') as f:
+            INITIAL_LOCATION = DEFAULT_INITIAL_LOCATION
+            f.write(DEFAULT_INITIAL_LOCATION)
+except FileNotFoundError:
+    with open(paths_and_files.INITIAL_LOCATION_FILEPATH, 'w') as f:
+        INITIAL_LOCATION = DEFAULT_INITIAL_LOCATION
+        f.write(DEFAULT_INITIAL_LOCATION)
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
 WAY_TO_PROCESS = ways.PT_PORTO_METRO_LINE_E

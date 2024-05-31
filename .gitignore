@@ -108,6 +108,9 @@ venv.bak/
 # Google credentials
 api_key.txt
 
+# Initial location file
+initial_location.txt
+
 # OpenStreetMap
 *.pbf
 
