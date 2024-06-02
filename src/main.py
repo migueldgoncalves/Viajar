@@ -75,4 +75,4 @@ elif user_option == OPTION_SQLITE:
     sqlite_interface.SQLiteBDInterface()
 
 elif user_option == OPTION_REGION_BOUNDS_FINDER:
-    region_bounds_finder.obter_pontos_extremos()
+    region_bounds_finder.get_extreme_points()

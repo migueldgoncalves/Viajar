@@ -2,158 +2,173 @@ from travel.support import ways
 from travel.support import osm_interface
 from travel.support.osm_interface import OsmInterface
 
-SAIR = 0
+EXIT = 0
 PORTUGAL = 1
-ESPANHA = 2
-ILHAS_CANARIAS = 3
+SPAIN = 2
+CANARY_ISLANDS = 3  # Part of Spain
 ANDORRA = 4
 GIBRALTAR = 5
 
 
-def sair_por_opcao() -> None:
-    print("Escolheu sair")
-    print("Até à próxima!")
+def exit_by_user_option() -> None:
+    print("You have chosen to exit")
+    print("See you soon")
     exit(0)
 
 
-def imprimir_pontos_extremos_e_sair(nome: str, nivel_admin: int, pais_desejado: str) -> None:
-    output = OsmInterface().get_region_extreme_points(name=nome, admin_level=nivel_admin, country=pais_desejado)
+def print_extreme_points_and_exit(name: str, administrative_level: int, desired_country: str) -> None:
+    output = OsmInterface().get_region_extreme_points(name=name, admin_level=administrative_level, country=desired_country)
     print(output)
     exit(0)
 
 
-def obter_pontos_extremos():
+def get_extreme_points():
     """
-    Rotina principal
+    Main routine
     """
     try:
-        sucesso = OsmInterface().test_connections()
-        if not sucesso:  # Pelo menos um servidor desligado
-            print("Os servidores estão desligados")
-            print("Ligue-os e volte a executar este script")
-            exit(0)
+        success: bool = OsmInterface().test_connections()
+        if not success:  # As least one server is down
+            print("At least one server is not connected")
+            print("Please ensure all servers are running and try again")
+            exit(1)
 
-        print("Bem-vindo/a ao delimitador de regiões")
-        print("Irá obter os pontos extremos de uma região")
+        print("Welcome to the region bounds finder")
+        print("You will get the extreme points of a region")
 
-        pais: str = ''
+        country: str = ''
 
-        # Escolher país
+        # Select the country or region
 
-        print(f'{SAIR} - Sair, {PORTUGAL} - Portugal, {ESPANHA} - Espanha Peninsular + Baleares + Ceuta + Melilla, {ILHAS_CANARIAS} - Ilhas Canárias, {ANDORRA} - Andorra, {GIBRALTAR} - Gibraltar')
+        print(f'{EXIT} - Exit\n'
+              f'{PORTUGAL} - Portugal\n'
+              f'{SPAIN} - Peninsular Spain + Balearic Islands + Ceuta + Melilla\n'
+              f'{CANARY_ISLANDS} - Canary Islands\n'
+              f'{ANDORRA} - Andorra\n'
+              f'{GIBRALTAR} - Gibraltar')
+
         while True:
             try:
-                opcao: int = int(input("Indique o país ao qual pertence a região pretendida: "))
+                option: int = int(input("Insert the desired country or region(s): "))
             except ValueError:
-                print("Deve introduzir um número")
+                print("You must insert a number")
                 continue
 
-            if opcao == SAIR:
-                sair_por_opcao()
+            if option == EXIT:
+                exit_by_user_option()
 
-            elif opcao == PORTUGAL:
-                pais = ways.PORTUGAL
-                print("Escolheu Portugal")
+            elif option == PORTUGAL:
+                country = ways.PORTUGAL
+                print("You have chosen Portugal")
                 break
-            elif opcao == ESPANHA:
-                pais = ways.SPAIN
-                print("Escolheu a Espanha Peninsular, Baleares, Ceuta, Melilla")
+            elif option == SPAIN:
+                country = ways.SPAIN
+                print("You have chosen Peninsular Spain, Balearic Islands, Ceuta, and Melilla")
                 break
-            elif opcao == ILHAS_CANARIAS:
-                pais = ways.CANARY_ISLANDS
-                print("Escolheu as Ilhas Canárias")
+            elif option == CANARY_ISLANDS:  # Part of Spain, but in a different server
+                country = ways.CANARY_ISLANDS
+                print("You have chosen the Canary Islands")
                 break
-            elif opcao == ANDORRA:
-                pais = ways.ANDORRA
-                print("Escolheu Andorra")
+            elif option == ANDORRA:
+                country = ways.ANDORRA
+                print("You have chosen Andorra")
                 break
-            elif opcao == GIBRALTAR:
-                pais = ways.GIBRALTAR
-                print("Escolheu Gibraltar, território ultramarino do Reino Unido")
+            elif option == GIBRALTAR:
+                country = ways.GIBRALTAR
+                print("You have chosen Gibraltar")
                 break
 
-        # Escolher região
+        # Select the region
 
-        if pais == ways.GIBRALTAR:  # Não tem subdivisões, calcular extremos do território de Gibraltar
-            imprimir_pontos_extremos_e_sair("Gibraltar", osm_interface.GIBRALTAR_ADMIN_LEVEL, pais)
+        if country == ways.GIBRALTAR:  # No subdivisions - Instead, calculate the extreme points of Gibraltar
+            print_extreme_points_and_exit("Gibraltar", osm_interface.GIBRALTAR_ADMIN_LEVEL, country)
 
-        elif pais == ways.ANDORRA:
-            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País inteiro, {osm_interface.ANDORRAN_PARISH} - Paróquia')
+        elif country == ways.ANDORRA:
+            print(f'{EXIT} - Exit\n'
+                  f'{osm_interface.COUNTRY} - Entire country\n'
+                  f'{osm_interface.ANDORRAN_PARISH} - Parish')
             while True:
                 try:
-                    opcao = int(input("Indique o tipo de região pretendido: "))
+                    option = int(input("Insert the option representing the desired region type: "))
                 except ValueError:
                     continue
 
-                if opcao == SAIR:
-                    sair_por_opcao()
+                if option == EXIT:
+                    exit_by_user_option()
 
-                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.COUNTRY
-                    imprimir_pontos_extremos_e_sair("Andorra", nivel_regiao, pais)
+                elif option == osm_interface.COUNTRY:
+                    region_level = osm_interface.COUNTRY
+                    print_extreme_points_and_exit("Andorra", region_level, country)
 
-                elif opcao == osm_interface.ANDORRAN_PARISH:
-                    nivel_regiao = osm_interface.ANDORRAN_PARISH
+                elif option == osm_interface.ANDORRAN_PARISH:
+                    region_level = osm_interface.ANDORRAN_PARISH
 
-                    nome_regiao = input("Indique o nome da paróquia: ").strip()
-                    if not nome_regiao:
+                    region_name = input("Insert the name of the desired parish: ").strip()
+                    if not region_name:
                         continue
-                    imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
+                    print_extreme_points_and_exit(region_name, region_level, country)
 
-        elif pais in [ways.SPAIN, ways.CANARY_ISLANDS]:
-            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País/Região, {osm_interface.AUTONOMOUS_COMMUNITY} - Comunidade Autónoma, '
-                  f'{osm_interface.PROVINCE} - Província, {osm_interface.COMARCA} - Comarca, {osm_interface.SPANISH_MUNICIPALITY} - Município, '
-                  f'{osm_interface.SPANISH_DISTRICT} - Distrito')
+        elif country in [ways.SPAIN, ways.CANARY_ISLANDS]:
+            print(f'{EXIT} - Exit\n'
+                  f'{osm_interface.COUNTRY} - Country or Region\n'
+                  f'{osm_interface.AUTONOMOUS_COMMUNITY} - Autonomous Community\n'
+                  f'{osm_interface.PROVINCE} - Province\n'
+                  f'{osm_interface.COMARCA} - Comarca\n'
+                  f'{osm_interface.SPANISH_MUNICIPALITY} - Municipality\n'
+                  f'{osm_interface.SPANISH_DISTRICT} - District')
 
             while True:
                 try:
-                    opcao = int(input("Indique o tipo de região pretendido: "))
+                    option = int(input("Insert the option representing the desired region type: "))
                 except ValueError:
                     continue
 
-                if opcao == SAIR:
-                    sair_por_opcao()
+                if option == EXIT:
+                    exit_by_user_option()
 
-                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.COUNTRY
-                    imprimir_pontos_extremos_e_sair("España", nivel_regiao, pais)
+                elif option == osm_interface.COUNTRY:
+                    region_level = osm_interface.COUNTRY
+                    print_extreme_points_and_exit("España", region_level, country)
 
-                elif opcao in [osm_interface.AUTONOMOUS_COMMUNITY, osm_interface.PROVINCE, osm_interface.COMARCA,
-                               osm_interface.SPANISH_MUNICIPALITY, osm_interface.SPANISH_DISTRICT]:
-                    nivel_regiao = opcao
+                elif option in [osm_interface.AUTONOMOUS_COMMUNITY, osm_interface.PROVINCE, osm_interface.COMARCA,
+                                osm_interface.SPANISH_MUNICIPALITY, osm_interface.SPANISH_DISTRICT]:
+                    region_level = option
 
-                    nome_regiao = input("Indique o nome da região: ").strip()
-                    if not nome_regiao:
+                    region_name = input("Insert the name of the desired region: ").strip()
+                    if not region_name:
                         continue
-                    imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
+                    print_extreme_points_and_exit(region_name, region_level, country)
 
-        elif pais == ways.PORTUGAL:
-            print(f'{SAIR} - Sair, {osm_interface.COUNTRY} - País, {osm_interface.PORTUGUESE_DISTRICT} - Distrito, '
-                  f'{osm_interface.PORTUGUESE_MUNICIPALITY} - Concelho, {osm_interface.PORTUGUESE_PARISH} - Freguesia')
+        elif country == ways.PORTUGAL:
+            print(f'{EXIT} - Exit\n'
+                  f'{osm_interface.COUNTRY} - Entire country\n'
+                  f'{osm_interface.PORTUGUESE_DISTRICT} - District\n'
+                  f'{osm_interface.PORTUGUESE_MUNICIPALITY} - Municipality\n'
+                  f'{osm_interface.PORTUGUESE_PARISH} - Parish')
 
             while True:
                 try:
-                    opcao = int(input("Indique o tipo de região pretendido: "))
+                    option = int(input("Insert the option representing the desired region type: "))
                 except ValueError:
                     continue
 
-                if opcao == SAIR:
-                    sair_por_opcao()
+                if option == EXIT:
+                    exit_by_user_option()
 
-                elif opcao == osm_interface.COUNTRY:  # País inteiro — Não é preciso pedir nome da região
-                    nivel_regiao = osm_interface.COUNTRY
-                    imprimir_pontos_extremos_e_sair("Portugal", nivel_regiao, pais)
+                elif option == osm_interface.COUNTRY:
+                    region_level = osm_interface.COUNTRY
+                    print_extreme_points_and_exit("Portugal", region_level, country)
 
-                elif opcao in [osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH]:
-                    nivel_regiao = opcao
+                elif option in [osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH]:
+                    region_level = option
 
-                    nome_regiao = input("Indique o nome da região: ").strip()
-                    if not nome_regiao:
+                    region_name = input("Insert the name of the desired region: ").strip()
+                    if not region_name:
                         continue
-                    imprimir_pontos_extremos_e_sair(nome_regiao, nivel_regiao, pais)
+                    print_extreme_points_and_exit(region_name, region_level, country)
 
     except Exception as e:
-        print("Ocorreu uma excepção")
+        print("An exception has occurred")
         print(e.args)
-        print("A sair...")
+        print("Exiting...")
         exit(1)
