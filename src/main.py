@@ -72,7 +72,7 @@ elif user_option == OPTION_SORTER:
     sorter.sort_csv_files()
 
 elif user_option == OPTION_SQLITE:
-    sqlite_interface.SQLiteBDInterface()
+    sqlite_interface.SQLiteDBInterface()
 
 elif user_option == OPTION_REGION_BOUNDS_FINDER:
     region_bounds_finder.get_extreme_points()
