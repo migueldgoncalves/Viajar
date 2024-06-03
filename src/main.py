@@ -69,7 +69,7 @@ elif user_option == OPTION_GENERATOR:
     information_generator.InformationGenerator(WAY_TO_PROCESS, get_altitude_info=True).present_main_menu()
 
 elif user_option == OPTION_SORTER:
-    sorter.ordenar_ficheiros_csv()
+    sorter.sort_csv_files()
 
 elif user_option == OPTION_SQLITE:
     sqlite_interface.SQLiteBDInterface()

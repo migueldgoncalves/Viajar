@@ -1,3 +1,4 @@
+from typing import Union
 import csv
 from functools import cmp_to_key
 
@@ -5,420 +6,423 @@ from travel.main.cardinal_points import get_opposite_cardinal_point
 from travel.main import paths_and_files
 
 """
-Ordenador do conteúdo de ficheiros .csv
+This module sorts the content of .csv files
 """
 
-MENOR = -1
-IGUAL = 0
-MAIOR = 1
+LESS_THAN = -1
+EQUAL_TO = 0
+MORE_THAN = 1
 
 DELIMITER = ','
 QUOTECHAR = '"'
 QUOTING = csv.QUOTE_NONE
 ENCODING = 'utf-8'
 
-# Posições dos campos dos ficheiros .csv
-LOCAL_A = 0
-LOCAL_B = 1
-PONTO_CARDEAL = 5
-ORDEM_A = 6
-ORDEM_B = 7
-ORIGEM = 3
+# Positions of fields inside the database .csv files
+LOCATION_A = 0
+LOCATION_B = 1
+CARDINAL_POINT = 5
+ORDER_A = 6
+ORDER_B = 7
+SOURCE = 3
 
 
-def ordenar_ficheiros_csv(ficheiro_a_ordenar=None, cabecalho=True):
+def sort_csv_files(file_to_sort=None, is_header_present=True) -> None:
     """
-    Ordena os ficheiros .csv da base de dados
-    :param ficheiro_a_ordenar: Path absoluto para ficheiro .csv a ordenar. Se for None, são ordenados todos os .csv da base de dados
-    :param cabecalho: Se True, considera que a 1ª linha do ficheiro .csv é o cabeçalho
+    Main routine to sort .csv files
+    :param file_to_sort: Absolute path to a .csv file to be sorted. If None, all .csv files of the DB are instead sorted
+    :param is_header_present: If True, first line in file is considered to be the header. If False, no header is assumed to be present
     :return:
     """
-    print('A começar ordenação...')
+    print('Starting .csv file(s) sorting...')
 
-    if ficheiro_a_ordenar is None:
-        ordenar_ligacoes_destinos()
-        print('Locais das tabelas de ligação e destino ordenados')
+    if file_to_sort is None:
+        sort_locations_in_connections_and_destinations()
+        print("Sorted locations inside Connection and Destination tables")
 
-    chave = cmp_to_key(ordenador)
+    sorting_key = cmp_to_key(line_sorting_function)
 
-    if ficheiro_a_ordenar is not None:
-        ficheiros_a_ordenar = [ficheiro_a_ordenar]
+    if file_to_sort is not None:
+        all_files_to_sort = [file_to_sort]
     else:
-        ficheiros_a_ordenar = [
+        all_files_to_sort = [
             paths_and_files.CSV_COMARCA_PATH, paths_and_files.CSV_CONCELHO_PATH, paths_and_files.CSV_DESTINATION_PATH,
             paths_and_files.CSV_CONNECTION_PATH, paths_and_files.CSV_LOCATION_PATH, paths_and_files.CSV_LOCATION_SPAIN_PATH,
             paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, paths_and_files.CSV_LOCATION_PORTUGAL_PATH,
             paths_and_files.CSV_MUNICIPIO_PATH, paths_and_files.CSV_PROVINCE_PATH
         ]
 
-    for path_csv in ficheiros_a_ordenar:
+    for path_csv in all_files_to_sort:
 
-        linhas = csv_para_list(path_csv)
-        if cabecalho:
-            cabecalho = linhas.pop(0)
-        print(f'A ordenar ficheiro {path_csv}. {len(linhas)} entradas no ficheiro')
-        linhas.sort(key=chave)
-        if cabecalho:
-            linhas.insert(0, cabecalho)
-        list_para_csv(path_csv, linhas)
+        file_lines: list[str] = csv_to_list(path_csv)
+        if is_header_present:
+            header: str = file_lines.pop(0)
+        else:
+            header: str = ''
+        print(f'Sorting file {path_csv}. {len(file_lines)} entries in the file')
+        file_lines.sort(key=sorting_key)
+        if header:
+            file_lines.insert(0, header)
+        list_to_csv(path_csv, file_lines)
 
-    print('Ordenação concluída')
+    print('Finished sorting')
 
 
-def ordenar_ligacoes_destinos():
+def sort_locations_in_connections_and_destinations() -> None:
     """
-    Para cada linha das tabelas de ligação e destino, troca entre si os locais se estiverem desordenados.
-    Se isso acontecer, inverte também os parâmetros que dependem da ordem dos locais na linha:
-        -Tabela ligação: inverter ponto cardeal (E -> O), trocar ordem A com ordem B
-        -Tabela destino: inverter origem (False -> True)
+    For each line of the Connection and Destination tables, switches the 2 location names if they are not sorted
+    If this occurs, also inverts the parameters that rely on the order of the location names in that line:
+        -Connection table - Invert cardinal point (ex: E -> W), switch order A with order B
+        -Destination table - Invert source (ex: False -> True)
     :return:
     """
-    path_ligacao = paths_and_files.CSV_CONNECTION_PATH
-    path_destino = paths_and_files.CSV_DESTINATION_PATH
+    connections_filepath: str = paths_and_files.CSV_CONNECTION_PATH
+    destinations_filepath: str = paths_and_files.CSV_DESTINATION_PATH
 
-    for path_csv in [path_ligacao, path_destino]:
-        linhas = csv_para_list(path_csv)
-        cabecalho = linhas.pop(0)
+    for path_csv in [connections_filepath, destinations_filepath]:
+        lines: list[str] = csv_to_list(path_csv)
+        header: str = lines.pop(0)
 
-        linhas_ordenadas = []
-        for linha in linhas:
-            campos = separar_por_virgulas([linha])
-            local_a = campos[LOCAL_A]
-            local_b = campos[LOCAL_B]
+        sorted_lines: list[str] = []
+        for line in lines:
+            fields: list[str] = split_by_commas([line])
+            location_a: str = fields[LOCATION_A]
+            location_b: str = fields[LOCATION_B]
 
-            chave = cmp_to_key(ordenador)
-            temp = [local_a, local_b]
-            temp.sort(key=chave)
+            sorting_key = cmp_to_key(line_sorting_function)
+            sorted_location_names: list[str] = [location_a, location_b]
+            sorted_location_names.sort(key=sorting_key)
 
-            if temp != [local_a, local_b]:  # Locais estão pela ordem errada
-                campos[LOCAL_A] = local_b
-                campos[LOCAL_B] = local_a
+            if sorted_location_names != [location_a, location_b]:  # Location names are not sorted
+                fields[LOCATION_A] = location_b
+                fields[LOCATION_B] = location_a
 
-                if path_csv == path_ligacao:
-                    ordem_a = campos[ORDEM_A]
-                    ordem_b = campos[ORDEM_B]
+                if path_csv == connections_filepath:
+                    order_a: str = fields[ORDER_A]
+                    order_b: str = fields[ORDER_B]
 
-                    campos[PONTO_CARDEAL] = get_opposite_cardinal_point(campos[PONTO_CARDEAL])
-                    campos[ORDEM_A] = ordem_b
-                    campos[ORDEM_B] = ordem_a
+                    fields[CARDINAL_POINT] = get_opposite_cardinal_point(fields[CARDINAL_POINT])
+                    fields[ORDER_A] = order_b
+                    fields[ORDER_B] = order_a
 
-                elif path_csv == path_destino:
-                    campos[ORIGEM] = True if campos[ORIGEM] == 'False' else False
+                elif path_csv == destinations_filepath:
+                    fields[SOURCE] = 'True' if fields[SOURCE] == 'False' else 'False'
 
-            for i in range(len(campos)):
-                campos[i] = str(campos[i])
-            linhas_ordenadas.append(",".join(campos))
+            for i in range(len(fields)):
+                fields[i] = str(fields[i])
+            sorted_lines.append(",".join(fields))
 
-        linhas_ordenadas.insert(0, cabecalho)
-        list_para_csv(path_csv, linhas_ordenadas)
+        sorted_lines.insert(0, header)
+        list_to_csv(path_csv, sorted_lines)
 
 
-def csv_para_list(path_csv):
+def csv_to_list(path_csv: str) -> list[str]:
     """
-    Retorna csv como lista de linhas
-    :param path_csv:
+    Returns the content of a .csv file as a list of strings
+    :param path_csv: The absolute path to the file
+    :return: Content of the file
+    """
+
+    with open(path_csv, mode='r', encoding=ENCODING) as f:
+        reader = csv.reader(f, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING)
+        lines: list[str] = []
+        for line in reader:
+            lines.append(",".join(line))
+
+        return lines
+
+
+def list_to_csv(path_csv: str, content_lines: list[str]) -> None:
+    """
+    Writes list of lines into a .csv file. File will be overwritten
+    :param path_csv: Absolute path to the .csv file to write
+    :param content_lines: The lines to write
     :return:
     """
 
-    with open(path_csv, mode='r', encoding=ENCODING) as ficheiro:
-        reader = csv.reader(ficheiro, delimiter=DELIMITER, quotechar=QUOTECHAR, quoting=QUOTING)
-        linhas = []
-        for linha in reader:
-            linhas.append(",".join(linha))
-
-        return linhas
+    with open(path_csv, mode='w', encoding=ENCODING) as f:
+        for line in content_lines:
+            f.write(line)
+            f.write("\n")
 
 
-def list_para_csv(path_csv, linhas):
+def line_sorting_function(line_a: str, line_b: str) -> int:
     """
-    Escreve lista de linhas para ficheiro csv
-    :param path_csv:
-    :param linhas:
-    :return:
+    Base sorting function for the lines of a .csv file
+    :param line_a: A line of content
+    :param line_b: Another line of content
+    :return: -1 if line A comes first, 0 if lines A and B are the same, 1 if line B comes first
     """
+    a: list[str] = [line_a]
+    b: list[str] = [line_b]
 
-    with open(path_csv, mode='w', encoding=ENCODING) as ficheiro:
-        for linha in linhas:
-            ficheiro.write(linha)
-            ficheiro.write("\n")
+    # Pre-processing
 
+    a = split_by_commas(a)
+    b = split_by_commas(b)
 
-def ordenador(a, b):
-    """
-    Função de ordenação das linhas de um ficheiro .csv
-    :param a:
-    :param b:
-    :return: -1 se parâmetro a for menor que b, 0 se for igual, 1 se for maior
-    """
-    a = [a]
-    b = [b]
+    a = remove_quote_chars(a)
+    b = remove_quote_chars(b)
 
-    # Pré-processamento
+    a = remove_diacritics(a)
+    b = remove_diacritics(b)
 
-    a = separar_por_virgulas(a)
-    b = separar_por_virgulas(b)
+    a = separate_by_hyphen(a)
+    b = separate_by_hyphen(b)
 
-    a = retirar_aspas(a)
-    b = retirar_aspas(b)
+    a = separate_by_whitespace(a)
+    b = separate_by_whitespace(b)
 
-    a = retirar_acentuacao(a)
-    b = retirar_acentuacao(b)
+    a = split_by_number_sequences(a)
+    b = split_by_number_sequences(b)
 
-    a = separar_por_hifen(a)
-    b = separar_por_hifen(b)
+    a = convert_roman_to_arab_numbers(a)
+    b = convert_roman_to_arab_numbers(b)
 
-    a = separar_por_espacos(a)
-    b = separar_por_espacos(b)
+    a = convert_to_lower_case(a)
+    b = convert_to_lower_case(b)
 
-    a = separar_numeros_nao_numeros(a)
-    b = separar_numeros_nao_numeros(b)
-
-    a = conversor_lista_numeros_romanos_arabes(a)
-    b = conversor_lista_numeros_romanos_arabes(b)
-
-    a = converter_para_minusculas(a)
-    b = converter_para_minusculas(b)
-
-    # Comparação
+    # Comparing
 
     for i in range(len(a)):
         if i >= len(b):
-            return MAIOR  # A-1 - Saída 1A > A-1 - Saída 1
+            return MORE_THAN  # A-1 - Exit 1A > A-1 - Exit 1 (i.e. "A-1 - Exit 1" will appear first)
 
-        comparacao = comparador(a[i], b[i])
-        if comparacao != IGUAL:
-            return comparacao
+        comparing_result: int = comparator(a[i], b[i])
+        if comparing_result != EQUAL_TO:
+            return comparing_result
 
-    return IGUAL
+    return EQUAL_TO  # Same string?
 
 
-def separar_por_virgulas(lista):
-    lista_temp = []
-    for palavra in lista:
-        lista_temp.extend(palavra.split(','))
+def split_by_commas(string_list: list[str]) -> list[str]:
+    temp_list: list[str] = []
+    for word in string_list:
+        temp_list.extend(word.split(','))
 
-    lista_retornar = []
-    continuar = False
-    for i in range(len(lista_temp)):
-        if continuar:
-            continuar = False
+    list_to_return: list[str] = []
+    continue_processing: bool = False
+    for i in range(len(temp_list)):
+        if continue_processing:
+            continue_processing = False
             continue
 
-        palavra = lista_temp[i]
-        if QUOTECHAR in palavra and i < len(lista_temp) - 1:
-            lista_retornar.append(palavra + "," + lista_temp[i+1])  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-            continuar = True
+        word: str = temp_list[i]
+        if QUOTECHAR in word and i < len(temp_list) - 1:
+            list_to_return.append(word + "," + temp_list[i+1])  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+            continue_processing = True
         else:
-            lista_retornar.append(palavra.strip())
+            list_to_return.append(word.strip())
 
-    return lista_retornar
-
-
-def retirar_aspas(lista):
-    lista_retornar = []
-    for palavra in lista:
-        palavra = palavra.replace('"', '')
-        lista_retornar.append(palavra)
-    return lista_retornar
+    return list_to_return
 
 
-def retirar_acentuacao(lista):
-    lista_retornar = []
-    for palavra in lista:
-        palavra = palavra.replace('á', 'a')
-        palavra = palavra.replace('Á', 'A')
-
-        palavra = palavra.replace('à', 'a')
-        palavra = palavra.replace('À', 'A')
-
-        palavra = palavra.replace('ã', 'a')
-        palavra = palavra.replace('Ã', 'A')
-
-        palavra = palavra.replace('â', 'a')
-        palavra = palavra.replace('Â', 'A')
-
-        palavra = palavra.replace('ç', 'c')
-        palavra = palavra.replace('Ç', 'C')
-
-        palavra = palavra.replace('é', 'e')
-        palavra = palavra.replace('É', 'E')
-
-        palavra = palavra.replace('è', 'e')
-        palavra = palavra.replace('È', 'E')
-
-        palavra = palavra.replace('ê', 'e')
-        palavra = palavra.replace('Ê', 'E')
-
-        palavra = palavra.replace('í', 'i')
-        palavra = palavra.replace('Í', 'I')
-
-        palavra = palavra.replace('ì', 'i')
-        palavra = palavra.replace('Ì', 'I')
-
-        palavra = palavra.replace('î', 'i')
-        palavra = palavra.replace('Î', 'I')
-
-        palavra = palavra.replace('ñ', 'n')
-        palavra = palavra.replace('Ñ', 'N')
-
-        palavra = palavra.replace('ó', 'o')
-        palavra = palavra.replace('Ó', 'O')
-
-        palavra = palavra.replace('ò', 'o')
-        palavra = palavra.replace('Ò', 'O')
-
-        palavra = palavra.replace('õ', 'o')
-        palavra = palavra.replace('Õ', 'O')
-
-        palavra = palavra.replace('ô', 'o')
-        palavra = palavra.replace('Ô', 'O')
-
-        palavra = palavra.replace('ú', 'u')
-        palavra = palavra.replace('Ú', 'U')
-
-        palavra = palavra.replace('ù', 'u')
-        palavra = palavra.replace('Ù', 'U')
-
-        palavra = palavra.replace('û', 'u')
-        palavra = palavra.replace('Û', 'U')
-
-        lista_retornar.append(palavra)
-
-    return lista_retornar
+def remove_quote_chars(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        word = word.replace('"', '')
+        list_to_return.append(word)
+    return list_to_return
 
 
-def converter_para_minusculas(lista):
-    lista_retornar = []
-    for palavra in lista:
-        lista_retornar.append(palavra.lower())
-    return lista_retornar
+def remove_diacritics(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        word = word.replace('á', 'a')
+        word = word.replace('Á', 'A')
+
+        word = word.replace('à', 'a')
+        word = word.replace('À', 'A')
+
+        word = word.replace('ã', 'a')
+        word = word.replace('Ã', 'A')
+
+        word = word.replace('â', 'a')
+        word = word.replace('Â', 'A')
+
+        word = word.replace('ç', 'c')
+        word = word.replace('Ç', 'C')
+
+        word = word.replace('é', 'e')
+        word = word.replace('É', 'E')
+
+        word = word.replace('è', 'e')
+        word = word.replace('È', 'E')
+
+        word = word.replace('ê', 'e')
+        word = word.replace('Ê', 'E')
+
+        word = word.replace('í', 'i')
+        word = word.replace('Í', 'I')
+
+        word = word.replace('ì', 'i')
+        word = word.replace('Ì', 'I')
+
+        word = word.replace('î', 'i')
+        word = word.replace('Î', 'I')
+
+        word = word.replace('ñ', 'n')
+        word = word.replace('Ñ', 'N')
+
+        word = word.replace('ó', 'o')
+        word = word.replace('Ó', 'O')
+
+        word = word.replace('ò', 'o')
+        word = word.replace('Ò', 'O')
+
+        word = word.replace('õ', 'o')
+        word = word.replace('Õ', 'O')
+
+        word = word.replace('ô', 'o')
+        word = word.replace('Ô', 'O')
+
+        word = word.replace('ú', 'u')
+        word = word.replace('Ú', 'U')
+
+        word = word.replace('ù', 'u')
+        word = word.replace('Ù', 'U')
+
+        word = word.replace('û', 'u')
+        word = word.replace('Û', 'U')
+
+        list_to_return.append(word)
+
+    return list_to_return
 
 
-def separar_por_hifen(lista):
-    lista_retornar = []
-    for palavra in lista:
-        lista_retornar.extend(palavra.split(' - '))
-    return lista_retornar
+def convert_to_lower_case(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        list_to_return.append(word.lower())
+    return list_to_return
 
 
-def separar_por_espacos(lista):
-    lista_retornar = []
-    for palavra in lista:
-        lista_retornar.extend(palavra.split(' '))
-    return lista_retornar
+def separate_by_hyphen(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        list_to_return.extend(word.split(' - '))
+    return list_to_return
 
 
-def separar_numeros_nao_numeros(lista):
+def separate_by_whitespace(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        list_to_return.extend(word.split(' '))
+    return list_to_return
+
+
+def split_by_number_sequences(string_list: list[str]) -> list[str]:
     """
-    Separa palavras com caracteres alfa-numéricos em blocos só com letras ou só com números
-    A um bloco numérico irá seguir-se um bloco vazio se não houver letras a seguir
+    Splits words with alphanumeric chars into blocks with either numbers only or no numbers at all
+    A number-only block will be followed by an empty block if the original word has no letters afterward
     -A-5 -> ['A-', '5', '']
     -A-5R -> ['A-', '5', 'R']
-    :param lista:
+    :param string_list:
     :return:
     """
-    lista_retorno = []
-    for palavra in lista:
+    list_to_return: list[str] = []
+    for word in string_list:
 
-        blocos = []
-        bloco = ''
-        numerico = False
+        blocks: list[str] = []
+        block: str = ''
+        numeric: bool = False
 
-        for i in range(len(palavra)):
-            letra = palavra[i]
-            if numerico == is_numerico(letra):
-                bloco += letra
+        for i in range(len(word)):
+            letter: str = word[i]
+            if numeric == is_number(letter):
+                block += letter
             else:
-                numerico = is_numerico(letra)
-                if bloco:
-                    blocos.append(bloco)
-                bloco = ''
-                bloco += letra
+                numeric = is_number(letter)
+                if block:
+                    blocks.append(block)
+                block = ''
+                block += letter
 
-            if i == len(palavra) - 1:
-                blocos.append(bloco)
-                if is_numerico(letra):
-                    blocos.append('')
+            if i == len(word) - 1:
+                blocks.append(block)
+                if is_number(letter):
+                    blocks.append('')
 
-        lista_retorno.extend(blocos)
+        list_to_return.extend(blocks)
 
-    return lista_retorno
+    return list_to_return
 
 
-def comparador(a, b):
+def comparator(a: Union[str, int], b: Union[str, int]) -> int:
     """
-    Função de ordenação, compara blocos de letras ou de números
+    Base sorting function. Compares two blocks of letters or numbers
     :param a:
     :param b:
-    :return: -1 se elemento a é menor que elemento b, 0 se for igual, 1 se for maior
+    :return: -1 if block A comes first, 0 if both blocks are the same, 1 if block B comes first
     """
     if len(a.strip()) == 0 and len(b.strip()) > 0:
-        return MENOR
+        return LESS_THAN
     elif len(a.strip()) > 0 and len(b.strip()) == 0:
-        return MAIOR
+        return MORE_THAN
 
-    if is_numerico(a) and not is_numerico(b):
-        return MENOR  # Números virão antes de palavras
-    elif not is_numerico(a) and is_numerico(b):
-        return MAIOR
+    if is_number(a) and not is_number(b):
+        return LESS_THAN  # Numbers will appear before letters
+    elif not is_number(a) and is_number(b):
+        return MORE_THAN
 
-    if is_numerico(a):
+    if is_number(a):
         a = int(a)
-    if is_numerico(b):
+    if is_number(b):
         b = int(b)
 
     if a < b:
-        return MENOR
+        return LESS_THAN
     elif a == b:
-        return IGUAL
+        return EQUAL_TO
     else:
-        return MAIOR
+        return MORE_THAN
 
 
-def conversor_lista_numeros_romanos_arabes(lista):
-    lista_retornar = []
-    for palavra in lista:
-        lista_retornar.append(str(conversor_numeros_romanos_arabes(palavra)))
-    return lista_retornar
+def convert_roman_to_arab_numbers(string_list: list[str]) -> list[str]:
+    list_to_return: list[str] = []
+    for word in string_list:
+        list_to_return.append(str(convert_roman_to_arab_number(word)))
+    return list_to_return
 
 
-def conversor_numeros_romanos_arabes(numero_potencial):
+def convert_roman_to_arab_number(potential_number: str) -> Union[str, int]:
     """
-    :param numero_potencial: String que poderá ser número romano
-    :return: Conversão para número árabe, ou string intacta se não for número romano
+    :param potential_number: String that may be a Roman numeral
+    :return: Corresponding Arab number, or the same string if not a Roman numeral
     """
-    algarismos_romanos = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    roman_numerals = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
 
-    # IC - Itinerário Complementar, M - Estrada Municipal, C - Pode aparecer num número de saída (ex: 108C)
-    if numero_potencial in ['IC', 'M', 'C']:  # Não considerar como número romano
-        return numero_potencial
+    # IC - Portuguese Complementary Itinerary Road (Itinerário Complementar)
+    # M - Portuguese Municipal Road (Estrada Municipal)
+    # C - May appear inside a freeway/motorway exit number (ex: 108C)
+    if potential_number in ['IC', 'M', 'C']:  # Do not handle as a Roman numeral
+        return potential_number
 
-    if len(numero_potencial.strip()) == 0:
-        return numero_potencial
+    if len(potential_number.strip()) == 0:
+        return potential_number
 
-    valor = 0
-    continuar = False
-    for i in range(len(numero_potencial)):
-        if continuar:
-            continuar = False
+    value: int = 0
+    continue_processing: bool = False
+    for i in range(len(potential_number)):
+        if continue_processing:
+            continue_processing = False
             continue
 
-        if numero_potencial[i] not in algarismos_romanos.keys():
-            return numero_potencial  # Não é número romano
-        elif i < len(numero_potencial) - 1 and numero_potencial[i+1] not in algarismos_romanos.keys():
-            return numero_potencial
+        if potential_number[i] not in roman_numerals.keys():
+            return potential_number  # Not a Roman numeral
+        elif i < len(potential_number) - 1 and potential_number[i + 1] not in roman_numerals.keys():
+            return potential_number
 
-        if i == len(numero_potencial) - 1:
-            valor += algarismos_romanos[numero_potencial[i]]
-        elif numero_potencial[i] == numero_potencial[i+1] or \
-                algarismos_romanos[numero_potencial[i+1]] < algarismos_romanos[numero_potencial[i]]:  # XX, XI
-            valor += algarismos_romanos[numero_potencial[i]]
-        elif algarismos_romanos[numero_potencial[i+1]] > algarismos_romanos[numero_potencial[i]]:  # Ex: IX
-            valor = valor + algarismos_romanos[numero_potencial[i+1]] - algarismos_romanos[numero_potencial[i]]
-            continuar = True
+        if i == len(potential_number) - 1:
+            value += roman_numerals[potential_number[i]]
+        elif potential_number[i] == potential_number[i + 1] or roman_numerals[potential_number[i + 1]] < roman_numerals[potential_number[i]]:  # XX, XI
+            value += roman_numerals[potential_number[i]]
+        elif roman_numerals[potential_number[i + 1]] > roman_numerals[potential_number[i]]:  # Ex: IX
+            value = value + roman_numerals[potential_number[i + 1]] - roman_numerals[potential_number[i]]
+            continue_processing = True
 
-    return valor
+    return value
 
 
-def is_numerico(caracter):
-    return caracter.isdigit()
+def is_number(char: str) -> bool:
+    return char.isdigit()

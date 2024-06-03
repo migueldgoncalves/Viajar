@@ -169,7 +169,7 @@ class InformationGenerator:
                     f.write(f'{location_name} Station,{latitude},{longitude},{altitude},{protected_area},{batch}\n')
                 else:
                     f.write(f'{self.way_display_name} - Exit {location_name},{latitude},{longitude},{altitude},{protected_area},{batch}\n')
-        sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), cabecalho=False)
+        sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), is_header_present=False)
         print(f'Created locations file')
 
         processed_locations: int = 0
@@ -221,11 +221,11 @@ class InformationGenerator:
                 for comarca in comarcas:
                     f.write(comarca)
 
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), cabecalho=False)
+            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), is_header_present=False)
             print("Finished Spanish locations file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), cabecalho=False)
+            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), is_header_present=False)
             print("Finished Spanish municipalities file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), cabecalho=False)
+            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), is_header_present=False)
             print("Finished comarcas file")
 
         elif self.country == ways.PORTUGAL:
@@ -262,9 +262,9 @@ class InformationGenerator:
                 for concelho in concelhos:
                     f.write(concelho)
 
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), cabecalho=False)
+            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), is_header_present=False)
             print("Finished Portuguese locations file")
-            sorter.ordenar_ficheiros_csv(ficheiro_a_ordenar=self.get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), cabecalho=False)
+            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_CONCELHO_PATH), is_header_present=False)
             print("Finished Portuguese municipalities file")
 
         else:
@@ -295,8 +295,8 @@ class InformationGenerator:
                 line_b: str = content[idx + 1]
                 elements_a: list[str] = line_a.split(",")
                 elements_b: list[str] = line_b.split(",")
-                elements_a = sorter.separar_por_virgulas(lista=elements_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elements_b = sorter.separar_por_virgulas(lista=elements_b)
+                elements_a = sorter.split_by_commas(string_list=elements_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elements_b = sorter.split_by_commas(string_list=elements_b)
 
                 if content[idx + 1].strip() == '':  # Empty line - Stop processing here
                     break
@@ -311,8 +311,8 @@ class InformationGenerator:
         dist_calc: distance_calculator.DistanceCalculator = distance_calculator.DistanceCalculator()
         dist_calc.generate_processed_map(locations, self.way_type, self.country, way_name=self.way_osm_name)
 
-        source: str = sorter.separar_por_virgulas(lista=content[0].split(','))[0]
-        destination: str = sorter.separar_por_virgulas(lista=content[-1].split(','))[0]
+        source: str = sorter.split_by_commas(string_list=content[0].split(','))[0]
+        destination: str = sorter.split_by_commas(string_list=content[-1].split(','))[0]
         print("\nInsert the already known destinations split by commas, then press ENTER")
         print("Or press ENTER without destinations to generate a file without pre-populated destinations")
         destinations_towards_source: list[str] = input(f"Insert the destinations from {destination} towards {source}: ").split(",")
@@ -326,8 +326,8 @@ class InformationGenerator:
                 line_b: str = content[idx + 1]
                 elements_a: list[str] = line_a.split(",")
                 elements_b: list[str] = line_b.split(",")
-                elements_a = sorter.separar_por_virgulas(lista=elements_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-                elements_b = sorter.separar_por_virgulas(lista=elements_b)
+                elements_a = sorter.split_by_commas(string_list=elements_a)  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+                elements_b = sorter.split_by_commas(string_list=elements_b)
 
                 location_a: str = elements_a[0]
                 location_b: str = elements_b[0].strip()
