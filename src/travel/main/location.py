@@ -21,6 +21,7 @@ class Location:
         self.altitude: int = altitude  # Meters
         self.country: str = ''
         self.protected_area: str = ''
+        self.island: str = ''
         self.batch: int = 0  # 100 = Location is part of the first 100 locations that were introduced
 
     def set_name(self, name: str) -> None:
@@ -46,6 +47,9 @@ class Location:
 
     def set_protected_area(self, protected_area: str) -> None:
         self.protected_area = protected_area
+
+    def set_island(self, island: str) -> None:
+        self.island = island
 
     def set_batch(self, batch: int) -> None:
         self.batch = batch
@@ -139,6 +143,9 @@ class Location:
     def get_protected_area(self) -> str:
         return self.protected_area
 
+    def get_island(self) -> str:
+        return self.island
+
     def get_batch(self) -> int:
         return self.batch
 
@@ -156,3 +163,5 @@ class Location:
         print(f'Coordinates: {self.get_latitude()}, {self.get_longitude()}')
         if self.protected_area != '':
             print(self.protected_area)
+        if self.island != '':
+            print(f'{self.island} Island')

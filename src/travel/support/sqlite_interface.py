@@ -73,7 +73,7 @@ class SQLiteDBInterface:
 
         print("Starting population of the DB...")
 
-        populate_table(paths_and_files.CSV_LOCATION_PATH, "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, batch) VALUES(?, ?, ?, ?, ?, ?);")
+        populate_table(paths_and_files.CSV_LOCATION_PATH, "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, island, batch) VALUES(?, ?, ?, ?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_CONCELHO_PATH, "INSERT INTO Concelho(concelho, intermunicipal_entity, district, region) VALUES(?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_PROVINCE_PATH, "INSERT INTO Province(province, autonomous_community) VALUES(?, ?);")
         populate_table(paths_and_files.CSV_MUNICIPIO_PATH, "INSERT INTO Municipio(municipio, province) VALUES(?, ?);")

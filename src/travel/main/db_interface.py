@@ -275,9 +275,12 @@ class DBInterface:
             longitude: float = float(result[0][2])
             altitude: int = int(result[0][3])
             protected_area: str = ''
+            island: str = ''
             if result[0][4] is not None:
                 protected_area = result[0][4].strip()
-            batch: int = int(result[0][5])
+            if result[0][5] is not None:
+                island = result[0][5].strip()
+            batch: int = int(result[0][6])
 
             # Determine the country-specific parameters, then create the location object
             if country == location_portugal.COUNTRY:
@@ -336,6 +339,7 @@ class DBInterface:
             location_object.set_destinations(all_destinations)
             location_object.set_ways(ways)
             location_object.set_protected_area(protected_area)
+            location_object.set_island(island)
             location_object.set_batch(batch)
 
             return location_object
@@ -378,7 +382,7 @@ class DBInterface:
 
         try:
             csv_path: str = paths_and_files.CSV_LOCATION_PATH
-            query = sql.SQL("COPY Location(name, latitude, longitude, altitude, protected_area, batch) FROM {} "
+            query = sql.SQL("COPY Location(name, latitude, longitude, altitude, protected_area, island, batch) FROM {} "
                             "DELIMITER {} CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
             self.cursor.execute(query)
 

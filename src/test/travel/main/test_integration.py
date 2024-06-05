@@ -161,6 +161,50 @@ class IntegrationTest(unittest.TestCase):
                         f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
                         in stdout_redirect.getvalue())
 
+    def test_location_in_island(self):
+        """
+        Destination is Punta del Moral, a neighbourhood in Andalucía at the Portuguese-Spanish border, near the mouth
+            of the Guadiana river
+        Route: Guerreiros do Rio > Boat > Punta del Moral
+        """
+        stdout_redirect: io.StringIO = _redirect_output()
+        options: list[str] = ["3", "2", "2", "2", "2", "2", "2", "2", "0"]
+        with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou are in Punta del Moral, Ayamonte, Huelva Province, Andaluzia'
+                        '\nSelect one of the following options'
+                        '\n0 -> Exit program'
+                        '\n1 -> Vila Real de Santo António (W, 11.8 km) » Costa Atlântica de Espanha Continental: Direction Faro / Portimão'
+                        '\n2 -> Nuevo Portil (E, 29.6 km) » Costa Atlântica de Espanha Continental: Direction Huelva / Sevilha'
+                        '\n3 -> Isla Cristina (NE, 1.6 km) » Marismas de Isla Cristina: Direction Isla Cristina'
+                        '\n4 -> Return to the road'
+                        '\n5 -> Show location information'
+                        '\n6 -> Show journey statistics'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["5", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nAltitude: 4 meters'
+                        '\nCoordinates: 37.189202, -7.34245'
+                        '\nCanela Island'
+                        '\nMunicipality: Ayamonte'
+                        '\nComarca: Costa Occidental de Huelva'
+                        '\nProvince: Huelva'
+                        '\nAutonomous community: Andaluzia'
+                        '\nCountry: Spain'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["6", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou have traveled 36.9 km'
+                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
+                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
+                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
+                        in stdout_redirect.getvalue())
+
     def test_location_with_altitude_zero_meters(self):
         """
         Destination is Guadiana International Bridge, near the mouth of the Guadiana river, connecting Vila Real de Santo

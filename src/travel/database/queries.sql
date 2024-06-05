@@ -59,8 +59,9 @@ order by count(autonomous_community), autonomous_community;
 -- Shows all Spanish districts and respective municipalities with locations in the map
 select distinct municipio, district from LocationSpain where district is not null order by municipio, district;
 
--- Show number of locations by protected area
+-- Show number of locations by protected area and by island
 select protected_area, count(protected_area) from Location group by protected_area order by count(protected_area), protected_area;
+select island, count(island) from Location group by island order by count(island), island;
 
 -- Show number of Portuguese, Spanish and Gibraltar locations, respectively
 select count(name) as "Locations in Portugal" from LocationPortugal;

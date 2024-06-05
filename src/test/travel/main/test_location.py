@@ -29,6 +29,7 @@ class LocationTest(unittest.TestCase):
         self.longitude: float = -9.134384
         self.altitude: int = 50
         self.protected_area: str = 'Serra da Arrábida'
+        self.island: str = 'São Miguel'
         self.batch: int = 100
 
         self.parish: str = 'Parque das Nações'
@@ -84,6 +85,7 @@ class LocationTest(unittest.TestCase):
 
         self.assertEqual('', self.location.get_country())
         self.assertEqual('', self.location.get_protected_area())
+        self.assertEqual('', self.location.get_island())
         self.assertEqual(0, self.location.get_batch())
 
         self.assertEqual(None, self.location.print_info_brief())
@@ -174,6 +176,9 @@ class LocationTest(unittest.TestCase):
 
         self.location.set_protected_area(self.protected_area)
         self.assertEqual(self.protected_area, self.location.get_protected_area())
+
+        self.location.set_island(self.island)
+        self.assertEqual(self.island, self.location.get_island())
 
         self.location.set_batch(self.batch)
         self.assertEqual(self.batch, self.location.get_batch())

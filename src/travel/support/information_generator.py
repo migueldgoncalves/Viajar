@@ -158,6 +158,7 @@ class InformationGenerator:
                 longitude: float = coordinates[location_name].get_longitude()
                 altitude: int = 0
                 protected_area: str = ''
+                island: str = ''
                 batch: int = 0
                 if self.get_altitude_info:
                     if self.way_type == ways.RAILWAY:
@@ -166,9 +167,9 @@ class InformationGenerator:
                         print(f'Getting altitude for exit {location_name}...')
                     altitude: int = self.get_altitude(latitude, longitude)
                 if self.way_type == ways.RAILWAY:
-                    f.write(f'{location_name} Station,{latitude},{longitude},{altitude},{protected_area},{batch}\n')
+                    f.write(f'{location_name} Station,{latitude},{longitude},{altitude},{protected_area},{island},{batch}\n')
                 else:
-                    f.write(f'{self.way_display_name} - Exit {location_name},{latitude},{longitude},{altitude},{protected_area},{batch}\n')
+                    f.write(f'{self.way_display_name} - Exit {location_name},{latitude},{longitude},{altitude},{protected_area},{island},{batch}\n')
         sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), is_header_present=False)
         print(f'Created locations file')
 

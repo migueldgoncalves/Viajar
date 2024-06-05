@@ -15,6 +15,7 @@ CREATE TABLE Location(
     longitude REAL NOT NULL,
     altitude INTEGER NOT NULL,
     protected_area TEXT,
+    island TEXT,
     batch INTEGER NOT NULL,
     PRIMARY KEY (name)
 );

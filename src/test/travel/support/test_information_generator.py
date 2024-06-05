@@ -56,9 +56,9 @@ class TestInformationGenerator(unittest.TestCase):
             information_generator.process_option_get_connections_and_destinations()
 
         expected_file_content: list[str] = [
-            'A26 - Exit 1,37.97146,-8.824538,24,,0\n',
-            'A26 - Exit 2,37.974813,-8.807394,54,,0\n',
-            'A26 - Exit 3,37.997563,-8.753134,87,,0\n'
+            'A26 - Exit 1,37.97146,-8.824538,24,,,0\n',
+            'A26 - Exit 2,37.974813,-8.807394,54,,,0\n',
+            'A26 - Exit 3,37.997563,-8.753134,87,,,0\n'
         ]
         with open(information_generator.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), 'r', encoding=encoding) as f:
             actual_file_content = f.readlines()
@@ -118,14 +118,14 @@ class TestInformationGenerator(unittest.TestCase):
             information_generator.process_option_get_connections_and_destinations()
 
         expected_file_content: list[str] = [
-            'Aeropuerto T1-T2-T3 Station,40.467794,-3.571789,605,,0\n',
-            'Aeropuerto T4 Station,40.492395,-3.593248,615,,0\n',
-            'Barajas Station,40.47616,-3.583413,623,,0\n',
-            'Colombia Station,40.457128,-3.67706,707,,0\n',
-            'Feria de Madrid Station,40.463936,-3.615554,672,,0\n',
-            'Mar de Cristal Station,40.469888,-3.638573,679,,0\n',
-            'Nuevos Ministerios Station,40.445482,-3.691583,680,,0\n',
-            'Pinar del Rey Station,40.467858,-3.64869,704,,0\n'
+            'Aeropuerto T1-T2-T3 Station,40.467794,-3.571789,605,,,0\n',
+            'Aeropuerto T4 Station,40.492395,-3.593248,615,,,0\n',
+            'Barajas Station,40.47616,-3.583413,623,,,0\n',
+            'Colombia Station,40.457128,-3.67706,707,,,0\n',
+            'Feria de Madrid Station,40.463936,-3.615554,672,,,0\n',
+            'Mar de Cristal Station,40.469888,-3.638573,679,,,0\n',
+            'Nuevos Ministerios Station,40.445482,-3.691583,680,,,0\n',
+            'Pinar del Rey Station,40.467858,-3.64869,704,,,0\n'
         ]
         with open(information_generator.get_filepath(paths_and_files.TMP_CSV_LOCATION_PATH), 'r', encoding=encoding) as f:
             actual_file_content = f.readlines()
