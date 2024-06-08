@@ -800,48 +800,6 @@ class IntegrationTest(unittest.TestCase):
                         f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
                         in stdout_redirect.getvalue())
 
-    def test_spanish_location_with_two_comarcas(self):
-        """
-        Destination is A-4 - Exit 523, a freeway exit in the municipality of Carmona, a city in Seville province in Spain
-        Route: Guerreiros do Rio > Boat > Mértola > Car > Beja > Plane > Seville > A-4 > Carmona
-        """
-        stdout_redirect: io.StringIO = _redirect_output()
-        options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3",
-                              "2", "16", "2", "2", "2", "2", "2", "2", "0"]
-        with unittest.mock.patch('builtins.input',
-                                 side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
-            self.travel.make_journey()
-
-        self.assertTrue('\nYou are in A-4 - Saída 523, Carmona, Sevilha Province, Andaluzia'
-                        '\nSelect one of the following options'
-                        '\n0 -> Exit program'
-                        '\n1 -> A-4 - Saída 524 (SW, 1.2 km) » A-4: Direction Sevilha'
-                        '\n2 -> A-4 - Saída 521 (NE, 2.7 km) » A-4: Direction Córdoba'
-                        '\n3 -> Show location information'
-                        '\n4 -> Show journey statistics'
-                        in stdout_redirect.getvalue())
-
-        with unittest.mock.patch('builtins.input', side_effect=["3", "0"]):
-            self.travel.make_journey()
-
-        self.assertTrue('\nAltitude: 65 meters'
-                        '\nCoordinates: 37.435568, -5.808407'
-                        '\nMunicipality: Carmona'
-                        '\nComarcas: Campiña de Carmona, Los Alcores'
-                        '\nProvince: Sevilha'
-                        '\nAutonomous community: Andaluzia'
-                        '\nCountry: Spain'
-                        in stdout_redirect.getvalue())
-
-        with unittest.mock.patch('builtins.input', side_effect=["4", "0"]):
-            self.travel.make_journey()
-
-        self.assertTrue('\nYou have traveled 306.4 km'
-                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
-                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
-                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
-                        in stdout_redirect.getvalue())
-
     def test_spanish_murcia_location_without_district(self):
         """
         Destination is A-7 - Exit 661, a freeway exit in the municipality of Puerto Lumbreras, a city in Murcia Region

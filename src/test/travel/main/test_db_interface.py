@@ -131,8 +131,7 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual('Canela', location.get_island())
         self.assertEqual('', location.get_district())
         self.assertEqual('Ayamonte', location.get_municipality())
-        self.assertEqual(1, len(location.get_comarcas()))
-        self.assertEqual('Costa Occidental de Huelva', location.get_comarcas()[0])
+        self.assertEqual('Costa Occidental de Huelva', location.get_comarca())
         self.assertEqual('Huelva', location.get_province())
         self.assertEqual('Andaluzia', location.get_autonomous_community())
 
@@ -153,8 +152,7 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual('', location.get_island())
         self.assertEqual('San Pablo-Santa Justa', location.get_district())
         self.assertEqual('Sevilha', location.get_municipality())
-        self.assertEqual(1, len(location.get_comarcas()))
-        self.assertEqual('Comarca Metropolitana de Sevilha', location.get_comarcas()[0])
+        self.assertEqual('Comarca Metropolitana de Sevilha', location.get_comarca())
         self.assertEqual('Sevilha', location.get_province())
         self.assertEqual('Andaluzia', location.get_autonomous_community())
 
@@ -173,8 +171,7 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual('', location.get_island())
         self.assertEqual('', location.get_district())
         self.assertEqual('Badajoz', location.get_municipality())
-        self.assertEqual(0, len(location.get_comarcas()))
-        self.assertEqual([], location.get_comarcas())
+        self.assertEqual('None', location.get_comarca())
         self.assertEqual('Badajoz', location.get_province())
         self.assertEqual('Extremadura', location.get_autonomous_community())
 
@@ -193,8 +190,7 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual('', location.get_island())
         self.assertEqual('', location.get_district())
         self.assertEqual('Santa Elena', location.get_municipality())
-        self.assertEqual(1, len(location.get_comarcas()))
-        self.assertEqual('Sierra Morena', location.get_comarcas()[0])
+        self.assertEqual('Sierra Morena', location.get_comarca())
         self.assertEqual('Jaén', location.get_province())
         self.assertEqual('Andaluzia', location.get_autonomous_community())
 
@@ -211,8 +207,6 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual(location_gibraltar.COUNTRY, location.get_country())
         self.assertEqual('', location.get_protected_area())
         self.assertEqual('', location.get_island())
-        self.assertEqual(1, len(location.get_major_residential_areas()))
-        self.assertEqual('North District', location.get_major_residential_areas()[0])
 
     def test_get_total_location_number(self):
         self.assertTrue(self.db_interface.get_total_location_number() > 0)

@@ -311,27 +311,22 @@ class DBInterface:
                 province: str = result[0][3].strip()
                 autonomous_community: str = result[0][4].strip()
 
-                # Get comarca(s) info
-                query = sql.SQL("SELECT * FROM Comarca WHERE municipio = {} AND province = {};").format(sql.Literal(municipio), sql.Literal(province))
+                # Get comarca info
+                query = sql.SQL("SELECT * FROM Municipio WHERE municipio = {} AND province = {};").format(sql.Literal(municipio), sql.Literal(province))
                 self.cursor.execute(query)
                 result = self.cursor.fetchall()
-                comarcas: list[str] = []
-                for line in result:
-                    comarcas.append(line[1].strip())
+                comarca: str = result[0][1].strip()
 
                 location_object: location_spain.LocationSpain = location_spain.LocationSpain(
-                    name, surrounding_locations, latitude, longitude, altitude, municipio, comarcas, province, autonomous_community)
+                    name, surrounding_locations, latitude, longitude, altitude, municipio, comarca, province, autonomous_community)
                 location_object.set_district(district)
 
             elif country == location_gibraltar.COUNTRY:
-                query = sql.SQL("SELECT name, major_residential_area FROM LocationGibraltar WHERE name = {};").format(sql.Literal(name))
+                query = sql.SQL("SELECT name FROM LocationGibraltar WHERE name = {};").format(sql.Literal(name))
                 self.cursor.execute(query)
                 result = self.cursor.fetchall()
-                major_residential_areas: list[str] = []
-                for line in result:
-                    major_residential_areas.append(line[1].strip())
                 location_object: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
-                    name, surrounding_locations, latitude, longitude, altitude, major_residential_areas)
+                    name, surrounding_locations, latitude, longitude, altitude)
 
             else:
                 return None
@@ -397,7 +392,7 @@ class DBInterface:
             self.cursor.execute(query)
 
             csv_path = paths_and_files.CSV_MUNICIPIO_PATH
-            query = sql.SQL("COPY Municipio(municipio, province) FROM {} DELIMITER {} "
+            query = sql.SQL("COPY Municipio(municipio, comarca, province) FROM {} DELIMITER {} "
                             "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
             self.cursor.execute(query)
 
@@ -412,12 +407,7 @@ class DBInterface:
             self.cursor.execute(query)
 
             csv_path = paths_and_files.CSV_LOCATION_GIBRALTAR_PATH
-            query = sql.SQL("COPY LocationGibraltar(name, major_residential_area) FROM {} DELIMITER {} "
-                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
-            self.cursor.execute(query)
-
-            csv_path = paths_and_files.CSV_COMARCA_PATH
-            query = sql.SQL("COPY Comarca(municipio, comarca, province) FROM {} DELIMITER {} "
+            query = sql.SQL("COPY LocationGibraltar(name) FROM {} DELIMITER {} "
                             "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
             self.cursor.execute(query)
 

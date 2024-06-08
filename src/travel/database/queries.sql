@@ -43,10 +43,10 @@ select district, municipio, count(district) from LocationSpain where district is
 select municipio, count(municipio) from LocationSpain group by municipio order by count(municipio), municipio;
 
 select comarca, Municipio.province, count(comarca)
-from Comarca, Municipio, LocationSpain
-where Comarca.municipio = Municipio.municipio and LocationSpain.municipio = Municipio.municipio
+from Municipio, LocationSpain
+where LocationSpain.municipio = Municipio.municipio
 group by comarca, Municipio.province
-order by count(comarca), Municipio.province, comarca;
+order by count(comarca), province, comarca;
 
 select province, count(province) from LocationSpain group by province order by count(province), province;
 

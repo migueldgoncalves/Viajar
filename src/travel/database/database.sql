@@ -5,7 +5,6 @@ DROP TABLE IF EXISTS Municipio;
 DROP TABLE IF EXISTS LocationPortugal;
 DROP TABLE IF EXISTS LocationSpain;
 DROP TABLE IF EXISTS LocationGibraltar;
-DROP TABLE IF EXISTS Comarca;
 DROP TABLE IF EXISTS Connection;
 DROP TABLE IF EXISTS Destination;
 
@@ -36,6 +35,7 @@ CREATE TABLE Province(
 
 CREATE TABLE Municipio(
     municipio TEXT NOT NULL,
+    comarca TEXT NOT NULL,
     province TEXT NOT NULL,
     PRIMARY KEY (municipio, province),
     FOREIGN KEY (province) REFERENCES Province(province) ON DELETE CASCADE
@@ -62,17 +62,8 @@ CREATE TABLE LocationSpain(
 
 CREATE TABLE LocationGibraltar(
     name TEXT NOT NULL,
-    major_residential_area TEXT NOT NULL,
-    PRIMARY KEY (name, major_residential_area),
+    PRIMARY KEY (name),
     FOREIGN KEY (name) REFERENCES Location(name) ON DELETE CASCADE
-);
-
-CREATE TABLE Comarca(
-    municipio TEXT NOT NULL,
-    comarca TEXT NOT NULL,
-    province TEXT NOT NULL,
-    PRIMARY KEY (comarca, municipio, province),
-    FOREIGN KEY (municipio, province) REFERENCES Municipio(municipio, province) ON DELETE CASCADE
 );
 
 CREATE TABLE Connection(

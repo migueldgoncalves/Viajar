@@ -40,11 +40,9 @@ class LocationTest(unittest.TestCase):
 
         self.district_es: str = 'Barajas'
         self.municipality_es: str = 'Alcalá de Henares'
-        self.comarcas: list[str] = ['Madrid Metropolitan Area', 'Aljarafe']
+        self.comarca: str = 'Madrid Metropolitan Area'
         self.province = 'Guadalajara'
         self.autonomous_community: str = 'Madrid Community'
-
-        self.major_residential_areas: list[str] = ['North District', 'East Side']
 
         self.location: location.Location = location.Location(
             self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude)
@@ -53,9 +51,9 @@ class LocationTest(unittest.TestCase):
             self.municipality_pt, self.district_pt, self.intermunicipal_entity, self.region)
         self.location_spain: location_spain.LocationSpain = location_spain.LocationSpain(
             self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.municipality_es,
-            self.comarcas, self.province, self.autonomous_community)
+            self.comarca, self.province, self.autonomous_community)
         self.location_gibraltar: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
-            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.major_residential_areas)
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude)
 
     def test_getters_location(self):
         self.assertEqual(self.name, self.location.get_name())
@@ -227,11 +225,11 @@ class LocationTest(unittest.TestCase):
         self.location_spain.set_municipality('Barcelona')
         self.assertEqual('Barcelona', self.location_spain.get_municipality())
 
-        self.assertEqual(self.comarcas, self.location_spain.get_comarcas())
-        self.location_spain.set_comarcas(['Sierra Norte, Comarca Metropolitana de Sevilla'])
-        self.assertEqual(['Sierra Norte, Comarca Metropolitana de Sevilla'], self.location_spain.get_comarcas())
-        self.location_spain.set_comarcas(['Comarca de Vigo'])
-        self.assertEqual(['Comarca de Vigo'], self.location_spain.get_comarcas())
+        self.assertEqual(self.comarca, self.location_spain.get_comarca())
+        self.location_spain.set_comarca('Sierra Norte')
+        self.assertEqual('Sierra Norte', self.location_spain.get_comarca())
+        self.location_spain.set_comarca('Comarca de Vigo')
+        self.assertEqual('Comarca de Vigo', self.location_spain.get_comarca())
 
         self.assertEqual(self.province, self.location_spain.get_province())
         self.location_spain.set_province('Girona')
@@ -255,12 +253,6 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(self.name, self.location_gibraltar.get_name())
         self.location_gibraltar.set_name('Gibraltar')
         self.assertEqual('Gibraltar', self.location_gibraltar.get_name())
-
-        self.assertEqual(self.major_residential_areas, self.location_gibraltar.get_major_residential_areas())
-        self.location_gibraltar.set_major_residential_areas(['Reclamation Areas', 'Sandpits Area'])
-        self.assertEqual(['Reclamation Areas', 'Sandpits Area'], self.location_gibraltar.get_major_residential_areas())
-        self.location_gibraltar.set_major_residential_areas(['Town Area'])
-        self.assertEqual(['Town Area'], self.location_gibraltar.get_major_residential_areas())
 
         self.assertEqual(location_gibraltar.COUNTRY, self.location_gibraltar.get_country())
 

@@ -32,8 +32,6 @@ DB_SCRIPT_FILE = 'database.sql'
 DB_SCRIPT_PATH = os.path.join(DB_FILES_FOLDER_PATH, DB_SCRIPT_FILE)
 
 # CSV files folder - Contains the information to populate the DB
-CSV_COMARCA = 'comarca.csv'
-CSV_COMARCA_PATH = os.path.join(CSV_FOLDER_PATH, CSV_COMARCA)
 CSV_CONCELHO = 'concelho.csv'
 CSV_CONCELHO_PATH = os.path.join(CSV_FOLDER_PATH, CSV_CONCELHO)
 CSV_DESTINATION = 'destination.csv'
@@ -55,7 +53,6 @@ CSV_PROVINCE_PATH = os.path.join(CSV_FOLDER_PATH, CSV_PROVINCE)
 
 # Temporary CSV files folder - Used by the automatic information generator to store processed way files
 TMP_CSV_WAY_NAME_PLACEHOLDER = '%$%$'  # Final filepaths should include the way name to process - A placeholder is now used, which should be replaced
-TMP_CSV_COMARCA_PATH = os.path.join(TMP_FOLDER_PATH, f'{TMP_CSV_WAY_NAME_PLACEHOLDER}_{CSV_COMARCA}')
 TMP_CSV_CONCELHO_PATH = os.path.join(TMP_FOLDER_PATH, f'{TMP_CSV_WAY_NAME_PLACEHOLDER}_{CSV_CONCELHO}')
 TMP_CSV_DESTINATION_PATH = os.path.join(TMP_FOLDER_PATH, f'{TMP_CSV_WAY_NAME_PLACEHOLDER}_{CSV_DESTINATION}')
 TMP_CSV_CONNECTION_PATH = os.path.join(TMP_FOLDER_PATH, f'{TMP_CSV_WAY_NAME_PLACEHOLDER}_{CSV_CONNECTION}')

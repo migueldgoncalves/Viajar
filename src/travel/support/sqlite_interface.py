@@ -76,11 +76,10 @@ class SQLiteDBInterface:
         populate_table(paths_and_files.CSV_LOCATION_PATH, "INSERT INTO Location(name, latitude, longitude, altitude, protected_area, island, batch) VALUES(?, ?, ?, ?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_CONCELHO_PATH, "INSERT INTO Concelho(concelho, intermunicipal_entity, district, region) VALUES(?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_PROVINCE_PATH, "INSERT INTO Province(province, autonomous_community) VALUES(?, ?);")
-        populate_table(paths_and_files.CSV_MUNICIPIO_PATH, "INSERT INTO Municipio(municipio, province) VALUES(?, ?);")
+        populate_table(paths_and_files.CSV_MUNICIPIO_PATH, "INSERT INTO Municipio(municipio, comarca, province) VALUES(?, ?, ?);")
         populate_table(paths_and_files.CSV_LOCATION_PORTUGAL_PATH, "INSERT INTO LocationPortugal(name, parish, concelho) VALUES(?, ?, ?);")
         populate_table(paths_and_files.CSV_LOCATION_SPAIN_PATH, "INSERT INTO LocationSpain(name, municipio, province, district) VALUES(?, ?, ?, ?);")
-        populate_table(paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, "INSERT INTO LocationGibraltar(name, major_residential_area) VALUES(?, ?);")
-        populate_table(paths_and_files.CSV_COMARCA_PATH, "INSERT INTO Comarca(municipio, comarca, province) VALUES(?, ?, ?);")
+        populate_table(paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, "INSERT INTO LocationGibraltar(name) VALUES(?);")
         populate_table(paths_and_files.CSV_CONNECTION_PATH, "INSERT INTO Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_DESTINATION_PATH, "INSERT INTO Destination(location_a, location_b, means_transport, starting_point, destination) VALUES(?, ?, ?, ?, ?)")
 

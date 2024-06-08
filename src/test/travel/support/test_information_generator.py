@@ -17,7 +17,7 @@ encoding = 'utf-8'
 def _delete_test_files():
     placeholder_filepaths_to_delete = [paths_and_files.TMP_CSV_LOCATION_PATH, paths_and_files.TMP_CSV_CONNECTION_PATH,
                                        paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH, paths_and_files.TMP_CSV_MUNICIPIO_PATH,
-                                       paths_and_files.TMP_CSV_COMARCA_PATH, paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH,
+                                       paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH,
                                        paths_and_files.TMP_CSV_CONCELHO_PATH, paths_and_files.TMP_CSV_DESTINATION_PATH]
     for way in all_ways_to_analise:
         information_generator = InformationGenerator(way)
@@ -192,14 +192,9 @@ class TestInformationGenerator(unittest.TestCase):
         self.assertEqual(expected_file_content, actual_file_content)
 
         expected_file_content: list[str] = [
-            'Madrid,Archidiócesis de Madrid\n'
+            'Madrid,None,Archidiócesis de Madrid\n'
         ]
         with open(information_generator.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), 'r', encoding=encoding) as f:
-            actual_file_content = f.readlines()
-        self.assertEqual(expected_file_content, actual_file_content)
-
-        expected_file_content: list[str] = []
-        with open(information_generator.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), 'r', encoding=encoding) as f:
             actual_file_content = f.readlines()
         self.assertEqual(expected_file_content, actual_file_content)
 

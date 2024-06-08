@@ -129,7 +129,7 @@ class InformationGenerator:
         """
         Assuming that a way name was previously provided, this routine processes it and generates the following files:
         Always - location.csv
-        If the way is in Spain - location_spain.csv, municipio.csv, and comarca.csv
+        If the way is in Spain - location_spain.csv, municipio.csv
         If the way is in Portugal - location_portugal.csv, and concelho.csv
         There is no support for Gibraltar nor for Andorra
         """
@@ -178,7 +178,6 @@ class InformationGenerator:
         # Get country-specific info
         if self.country == ways.SPAIN:
             municipios: set[str] = set()  # Spanish municipalities
-            comarcas: set[str] = set()  # Spanish subdivision bigger than a municipality and smaller than a province
 
             desired_administrative_divisions: list[int] = [osm_interface.PROVINCE, osm_interface.COMARCA, osm_interface.SPANISH_MUNICIPALITY, osm_interface.SPANISH_DISTRICT]
             # Ex: {(37.1, -7.5): {6: 'Sevilla', 7: 'Comarca Metropolitana de Sevilla', 8: 'Sevilla', 9: 'Triana'}}
@@ -204,9 +203,7 @@ class InformationGenerator:
                         else:
                             f.write(f'{self.way_display_name} - Exit {location_name},{municipio},{province},\n')
 
-                    municipios.add(f'{municipio},{province}\n')
-                    if comarca:
-                        comarcas.add(f'{municipio},{comarca},{province}\n')
+                    municipios.add(f'{municipio},{comarca},{province}\n')
 
                     processed_locations += 1
                     if self.way_type == ways.RAILWAY:
@@ -218,16 +215,10 @@ class InformationGenerator:
                 for municipio in municipios:
                     f.write(municipio)
 
-            with open(self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), 'w', encoding=ENCODING) as f:
-                for comarca in comarcas:
-                    f.write(comarca)
-
             sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_LOCATION_SPAIN_PATH), is_header_present=False)
             print("Finished Spanish locations file")
             sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_MUNICIPIO_PATH), is_header_present=False)
             print("Finished Spanish municipalities file")
-            sorter.sort_csv_files(file_to_sort=self.get_filepath(paths_and_files.TMP_CSV_COMARCA_PATH), is_header_present=False)
-            print("Finished comarcas file")
 
         elif self.country == ways.PORTUGAL:
             concelhos: set[str] = set()  # Portuguese municipalities

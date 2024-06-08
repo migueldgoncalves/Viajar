@@ -15,12 +15,12 @@ class LocationSpain(location.Location):
     """
 
     def __init__(self, name: str, connections: dict[tuple[str, str], tuple[str, float, str]], latitude: float,
-                 longitude: float, altitude: int, municipality: str, comarcas: list[str], province: str,
+                 longitude: float, altitude: int, municipality: str, comarca: str, province: str,
                  autonomous_community: str):
         super().__init__(name, connections, latitude, longitude, altitude)
         self.district: str = ''  # ES: Distrito (OSM admin level 9). In some regions will correspond to other admin divisions, such as parroquia in Galicia
         self.municipality: str = municipality  # ES: Municipio (OSM admin level 8). In some regions will have a different name, such as concello in Galicia
-        self.comarcas: list[str] = comarcas  # OSM admin level 7. According to https://en.wikipedia.org/wiki/Comarcas_of_Spain, translation can be district, county, area, or zone
+        self.comarca: str = comarca  # OSM admin level 7. According to https://en.wikipedia.org/wiki/Comarcas_of_Spain, translation can be district, county, area, or zone
         self.province: str = province  # ES: Provincia (OSM admin level 6)
         self.autonomous_community: str = autonomous_community  # ES: Comunidad Autónoma (OSM admin level 4)
         self.country = COUNTRY
@@ -37,11 +37,11 @@ class LocationSpain(location.Location):
         """
         self.municipality = municipality
 
-    def set_comarcas(self, comarcas: list[str]) -> None:
+    def set_comarca(self, comarca: str) -> None:
         """
         OSM admin level 7. According to https://en.wikipedia.org/wiki/Comarcas_of_Spain, translation can be district, county, area, or zone
         """
-        self.comarcas = comarcas
+        self.comarca = comarca
 
     def set_province(self, province: str) -> None:
         """
@@ -67,11 +67,11 @@ class LocationSpain(location.Location):
         """
         return self.municipality
 
-    def get_comarcas(self) -> list[str]:
+    def get_comarca(self) -> str:
         """
         OSM admin level 7. According to https://en.wikipedia.org/wiki/Comarcas_of_Spain, translation can be district, county, area, or zone
         """
-        return self.comarcas
+        return self.comarca
 
     def get_province(self) -> str:
         """
@@ -118,21 +118,10 @@ class LocationSpain(location.Location):
             print(f'Municipality: {self.get_municipality()}')
 
         # Comarca - OSM admin level 7
-        if len(self.get_comarcas()) == 0:
-            if self.autonomous_community == "Extremadura":
-                print("Mancomunidad integral: None")
-            else:
-                print("Comarca: None")
-        elif len(self.get_comarcas()) == 1:
-            if self.autonomous_community == "Extremadura":
-                print(f'Mancomunidad integral: {self.get_comarcas()[0]}')
-            else:
-                print(f'Comarca: {self.get_comarcas()[0]}')
+        if self.autonomous_community == "Extremadura":
+            print(f'Mancomunidad integral: {self.get_comarca()}')
         else:
-            comarca_string: str = ''  # Ex: "Comarcas: Aljarafe, Comarca Metropolitana de Sevilla"
-            for comarca in self.get_comarcas():
-                comarca_string = f'{comarca_string}, {comarca}'
-            print(f'Comarcas: {comarca_string[2:]}')  # First 2 chars should be removed
+            print(f'Comarca: {self.get_comarca()}')
 
         # Province - OSM admin level 6
         if not is_single_province_autonomous_community(self.get_autonomous_community(), self.get_province()):
