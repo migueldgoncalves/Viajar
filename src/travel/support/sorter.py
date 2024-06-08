@@ -201,16 +201,22 @@ def split_by_commas(string_list: list[str]) -> list[str]:
         temp_list.extend(word.split(','))
 
     list_to_return: list[str] = []
-    continue_processing: bool = False
+    continue_processing: int = 0
     for i in range(len(temp_list)):
         if continue_processing:
-            continue_processing = False
+            continue_processing -= 1
             continue
 
         word: str = temp_list[i]
-        if QUOTECHAR in word and i < len(temp_list) - 1:
-            list_to_return.append(word + "," + temp_list[i+1])  # '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
-            continue_processing = True
+        if QUOTECHAR in word and i < len(temp_list) - 1:  # Word must be concatenated with one or more words in front of it. Ex: '"Álamo', 'Alcoutim"' -> '"Álamo, Alcoutim"'
+            string_with_commas: str = ''
+            for j in range(i, len(temp_list)):
+                string_with_commas = ','.join([string_with_commas, temp_list[j]])
+                if QUOTECHAR in temp_list[j] and i != j:
+                    break
+                continue_processing += 1
+            string_with_commas = string_with_commas[1:]  # At this point this string has a leading "," that must be removed
+            list_to_return.append(string_with_commas)
         else:
             list_to_return.append(word.strip())
 

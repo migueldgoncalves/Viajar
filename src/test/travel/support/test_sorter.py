@@ -35,6 +35,7 @@ class TestSorter(unittest.TestCase):
         self.assertEqual(['Álamo', 'Alcoutim'], sorter.split_by_commas(['Álamo, Alcoutim']))
         self.assertEqual(['Álamo', 'Alcoutim', 'Alcoutim'], sorter.split_by_commas(['Álamo,Alcoutim,Alcoutim']))
         self.assertEqual(['"Álamo, Alcoutim"', 'Alcoutim', 'Alcoutim'], sorter.split_by_commas(['"Álamo, Alcoutim",Alcoutim,Alcoutim']))
+        self.assertEqual(['A1 - Exit 18', '"Santa Maria da Feira, Travanca, Sanfins e Espargo"', 'Santa Maria da Feira'], sorter.split_by_commas(['A1 - Exit 18,"Santa Maria da Feira, Travanca, Sanfins e Espargo",Santa Maria da Feira']))
 
     def test_remove_quote_chars(self):
         self.assertEqual(['Álamo, Guerreiros do Rio'], sorter.remove_quote_chars(['"Álamo, Guerreiros do Rio"']))

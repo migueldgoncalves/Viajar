@@ -91,7 +91,7 @@ class TestInformationGenerator(unittest.TestCase):
         expected_file_content: list[str] = [
             'A26 - Exit 1,Sines,Sines\n',
             'A26 - Exit 2,Sines,Sines\n',
-            'A26 - Exit 3,Santiago do Cacém,Santiago do Cacém\n'
+            'A26 - Exit 3,"Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra",Santiago do Cacém\n'
         ]
         with open(information_generator.get_filepath(paths_and_files.TMP_CSV_LOCATION_PORTUGAL_PATH), 'r', encoding=encoding) as f:
             actual_file_content = f.readlines()

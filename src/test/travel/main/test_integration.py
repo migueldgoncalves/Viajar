@@ -59,7 +59,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 18 meters'
                         '\nCoordinates: 37.396353, -7.446837'
-                        '\nParish: Alcoutim'
+                        '\nParish: Alcoutim e Pereiro'
                         '\nMunicipality: Alcoutim'
                         '\nDistrict: Faro'
                         '\nIntermunicipal entity: Algarve'
@@ -99,7 +99,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 85 meters'
                         '\nCoordinates: 37.398627, -7.52961'
-                        '\nParish: Alcoutim'
+                        '\nParish: Alcoutim e Pereiro'
                         '\nMunicipality: Alcoutim'
                         '\nDistrict: Faro'
                         '\nIntermunicipal entity: Algarve'
@@ -336,7 +336,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 10 meters'
                         '\nCoordinates: 37.403058, -7.457947'
-                        '\nParish: Alcoutim'
+                        '\nParish: Alcoutim e Pereiro'
                         '\nMunicipality: Alcoutim'
                         '\nDistrict: Faro'
                         '\nIntermunicipal entity: Algarve'
@@ -476,7 +476,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 2 meters'
                         '\nCoordinates: 37.018466, -7.939585'
-                        '\nParish: São Pedro'
+                        '\nParish: Faro (Sé e São Pedro)'
                         '\nMunicipality: Faro'
                         '\nDistrict: Faro'
                         '\nIntermunicipal entity: Algarve'
@@ -544,7 +544,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 188 meters'
                         '\nCoordinates: 38.063206, -7.939608'
-                        '\nParish: São Brissos'
+                        '\nParish: Trigaches e São Brissos'
                         '\nMunicipality: Beja'
                         '\nDistrict: Beja'
                         '\nIntermunicipal entity: Baixo Alentejo'
@@ -604,7 +604,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 92 meters'
                         '\nCoordinates: 38.768995, -9.128441'
-                        '\nParish: Santa Maria dos Olivais'
+                        '\nParish: Olivais'
                         '\nMunicipality: Lisboa'
                         '\nDistrict: Lisboa'
                         '\nIntermunicipal entity: Área Metropolitana de Lisboa'
@@ -678,7 +678,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('\nAltitude: 97 meters'
                         '\nCoordinates: 38.770451, -9.12968'
-                        '\nParish: Santa Maria dos Olivais'
+                        '\nParish: Olivais'
                         '\nMunicipality: Lisboa'
                         '\nDistrict: Lisboa'
                         '\nIntermunicipal entity: Área Metropolitana de Lisboa'

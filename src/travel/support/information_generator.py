@@ -232,7 +232,7 @@ class InformationGenerator:
         elif self.country == ways.PORTUGAL:
             concelhos: set[str] = set()  # Portuguese municipalities
 
-            desired_administrative_divisions: list[Union[str, int]] = [osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH, osm_interface.PORTUGUESE_HISTORIC_PARISH]
+            desired_administrative_divisions: list[Union[str, int]] = [osm_interface.PORTUGUESE_DISTRICT, osm_interface.PORTUGUESE_MUNICIPALITY, osm_interface.PORTUGUESE_PARISH, osm_interface.PORTUGUESE_PARISH]
             # {(37.1, -7.5): {6: 'Alcoutim e Pereiro', 7: 'Alcoutim', 8: 'Faro', 'historic_parish': 'Pereiro'}}
             administrative_divisions:  dict[Coordinates, dict[Union[str, int], Optional[str]]] = self.get_administrative_divisions(list(coordinates.values()), desired_administrative_divisions)
 
@@ -240,9 +240,9 @@ class InformationGenerator:
                 for location_name in sorted_exits_or_stations:
                     location: Coordinates = coordinates[location_name]
 
-                    parish: str = administrative_divisions.get(location, {}).get(osm_interface.PORTUGUESE_HISTORIC_PARISH, "")  # Historic parish, if it exists
-                    if not parish:
-                        parish = administrative_divisions.get(location, {}).get(osm_interface.PORTUGUESE_PARISH, "")  # Current parish
+                    parish = administrative_divisions.get(location, {}).get(osm_interface.PORTUGUESE_PARISH, "")
+                    if sorter.DELIMITER in parish:  # Ex: Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra - Must be quoted
+                        parish = f'"{parish}"'
                     concelho: str = administrative_divisions.get(location, {}).get(osm_interface.PORTUGUESE_MUNICIPALITY, "")
                     district_pt: str = administrative_divisions.get(location, {}).get(osm_interface.PORTUGUESE_DISTRICT, "")
 
