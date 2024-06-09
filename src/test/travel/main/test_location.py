@@ -1,7 +1,7 @@
 import unittest
 import copy
 
-from travel.main import location_portugal, location_spain, location, location_gibraltar
+from travel.main import location_portugal, location_spain, location, location_gibraltar, location_andorra, location_beyond_iberian_peninsula
 
 
 class LocationTest(unittest.TestCase):
@@ -32,7 +32,7 @@ class LocationTest(unittest.TestCase):
         self.island: str = 'São Miguel'
         self.batch: int = 100
 
-        self.parish: str = 'Parque das Nações'
+        self.portuguese_parish: str = 'Parque das Nações'
         self.municipality_pt: str = 'Oeiras'
         self.district_pt: str = 'Lisbon'
         self.intermunicipal_entity: str = 'Lisbon Metropolitan Area'
@@ -44,16 +44,33 @@ class LocationTest(unittest.TestCase):
         self.province = 'Guadalajara'
         self.autonomous_community: str = 'Madrid Community'
 
+        self.andorran_parish = 'Sant Julià de Lòria'
+
+        self.country_beyond_iberian_peninsula = 'France'
+        self.osm_admin_level_3 = 'France métropolitaine'
+        self.osm_admin_level_4 = 'Occitanie'
+        self.osm_admin_level_5 = ''
+        self.osm_admin_level_6 = 'Pyrénées-Orientales'
+        self.osm_admin_level_7 = 'Céret'
+        self.osm_admin_level_8 = 'Le Boulou'
+        self.osm_admin_level_9 = ''
+
         self.location: location.Location = location.Location(
             self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude)
         self.location_portugal: location_portugal.LocationPortugal = location_portugal.LocationPortugal(
-            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.parish,
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.portuguese_parish,
             self.municipality_pt, self.district_pt, self.intermunicipal_entity, self.region)
         self.location_spain: location_spain.LocationSpain = location_spain.LocationSpain(
             self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.municipality_es,
             self.comarca, self.province, self.autonomous_community)
         self.location_gibraltar: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
             self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude)
+        self.location_andorra: location_andorra.LocationAndorra = location_andorra.LocationAndorra(
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.andorran_parish)
+        self.location_beyond_iberian_peninsula: location_beyond_iberian_peninsula.LocationBeyondIberianPeninsula = location_beyond_iberian_peninsula.LocationBeyondIberianPeninsula(
+            self.name, copy.deepcopy(self.connections), self.latitude, self.longitude, self.altitude, self.country_beyond_iberian_peninsula,
+            self.osm_admin_level_3, self.osm_admin_level_4, self.osm_admin_level_5, self.osm_admin_level_6, self.osm_admin_level_7,
+            self.osm_admin_level_8, self.osm_admin_level_9)
 
     def test_getters_location(self):
         self.assertEqual(self.name, self.location.get_name())
@@ -186,7 +203,7 @@ class LocationTest(unittest.TestCase):
         self.location_portugal.set_name('Porto')
         self.assertEqual('Porto', self.location_portugal.get_name())
 
-        self.assertEqual(self.parish, self.location_portugal.get_parish())
+        self.assertEqual(self.portuguese_parish, self.location_portugal.get_parish())
         self.location_portugal.set_parish('Alcoutim e Pereiro')
         self.assertEqual('Alcoutim e Pereiro', self.location_portugal.get_parish())
 
@@ -259,3 +276,38 @@ class LocationTest(unittest.TestCase):
         self.assertEqual(None, self.location_gibraltar.print_info_brief())
         self.assertTrue(self.location_gibraltar.get_name() in self.location_gibraltar.get_info_brief_to_print())
         self.assertEqual(None, self.location_gibraltar.print_info_complete())
+
+    def test_location_andorra(self):
+        self.assertEqual(self.name, self.location_andorra.get_name())
+        self.location_andorra.set_name('Andorra')
+        self.assertEqual('Andorra', self.location_andorra.get_name())
+
+        self.assertEqual(self.andorran_parish, self.location_andorra.get_parish())
+        self.location_andorra.set_parish('Andorra la Vella')
+        self.assertEqual('Andorra la Vella', self.location_andorra.get_parish())
+
+        self.assertEqual(location_andorra.COUNTRY, self.location_andorra.get_country())
+
+        self.assertEqual(None, self.location_andorra.print_info_brief())
+        self.assertTrue(self.location_andorra.get_name() in self.location_andorra.get_info_brief_to_print())
+        self.assertEqual(None, self.location_andorra.print_info_complete())
+
+    def test_location_beyond_iberian_peninsula(self):
+        self.assertEqual(self.name, self.location_beyond_iberian_peninsula.get_name())
+        self.location_beyond_iberian_peninsula.set_name('France')
+        self.assertEqual('France', self.location_beyond_iberian_peninsula.get_name())
+
+        self.assertEqual(self.osm_admin_level_9, self.location_beyond_iberian_peninsula.get_osm_admin_level(9))
+        self.assertEqual(self.osm_admin_level_8, self.location_beyond_iberian_peninsula.get_osm_admin_level(8))
+        self.assertEqual(self.osm_admin_level_7, self.location_beyond_iberian_peninsula.get_osm_admin_level(7))
+        self.assertEqual(self.osm_admin_level_6, self.location_beyond_iberian_peninsula.get_osm_admin_level(6))
+        self.assertEqual(self.osm_admin_level_5, self.location_beyond_iberian_peninsula.get_osm_admin_level(5))
+        self.assertEqual(self.osm_admin_level_4, self.location_beyond_iberian_peninsula.get_osm_admin_level(4))
+        self.assertEqual(self.osm_admin_level_3, self.location_beyond_iberian_peninsula.get_osm_admin_level(3))
+        self.assertEqual({3: 'France métropolitaine', 4: 'Occitanie', 6: 'Pyrénées-Orientales', 7: 'Céret', 8: 'Le Boulou'}, self.location_beyond_iberian_peninsula.get_all_osm_admin_levels())
+
+        self.assertEqual(self.country_beyond_iberian_peninsula, self.location_beyond_iberian_peninsula.get_country())
+
+        self.assertEqual(None, self.location_beyond_iberian_peninsula.print_info_brief())
+        self.assertTrue(self.location_beyond_iberian_peninsula.get_name() in self.location_beyond_iberian_peninsula.get_info_brief_to_print())
+        self.assertEqual(None, self.location_beyond_iberian_peninsula.print_info_complete())

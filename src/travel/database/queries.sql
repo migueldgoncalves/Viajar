@@ -56,6 +56,21 @@ where LocationSpain.municipio = Municipio.municipio and Municipio.province = Pro
 group by autonomous_community
 order by count(autonomous_community), autonomous_community;
 
+-- Show number of Andorran locations by parish
+
+select parish, count(parish) from LocationAndorra group by parish order by count(parish), parish;
+
+-- Show number of locations beyond Iberian Peninsula by OSM admin level
+
+select country, count(country) from LocationBeyondIberianPeninsula group by country order by count(country), country;
+select osm_admin_level_3, count(osm_admin_level_3) from LocationBeyondIberianPeninsula group by osm_admin_level_3 order by count(osm_admin_level_3), osm_admin_level_3;
+select osm_admin_level_4, count(osm_admin_level_4) from LocationBeyondIberianPeninsula group by osm_admin_level_4 order by count(osm_admin_level_4), osm_admin_level_4;
+select osm_admin_level_5, count(osm_admin_level_5) from LocationBeyondIberianPeninsula group by osm_admin_level_5 order by count(osm_admin_level_5), osm_admin_level_5;
+select osm_admin_level_6, count(osm_admin_level_6) from LocationBeyondIberianPeninsula group by osm_admin_level_6 order by count(osm_admin_level_6), osm_admin_level_6;
+select osm_admin_level_7, count(osm_admin_level_7) from LocationBeyondIberianPeninsula group by osm_admin_level_7 order by count(osm_admin_level_7), osm_admin_level_7;
+select osm_admin_level_8, count(osm_admin_level_8) from LocationBeyondIberianPeninsula group by osm_admin_level_8 order by count(osm_admin_level_8), osm_admin_level_8;
+select osm_admin_level_9, count(osm_admin_level_9) from LocationBeyondIberianPeninsula group by osm_admin_level_9 order by count(osm_admin_level_9), osm_admin_level_9;
+
 -- Shows all Spanish districts and respective municipalities with locations in the map
 select distinct municipio, district from LocationSpain where district is not null order by municipio, district;
 

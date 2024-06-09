@@ -6,7 +6,7 @@ import subprocess
 import psycopg2
 from psycopg2 import sql
 
-from travel.main import location, location_portugal, location_spain, location_gibraltar
+from travel.main import location, location_portugal, location_spain, location_gibraltar, location_andorra, location_beyond_iberian_peninsula
 from travel.main.cardinal_points import get_opposite_cardinal_point
 from travel.main import paths_and_files
 
@@ -328,8 +328,29 @@ class DBInterface:
                 location_object: location_gibraltar.LocationGibraltar = location_gibraltar.LocationGibraltar(
                     name, surrounding_locations, latitude, longitude, altitude)
 
-            else:
-                return None
+            elif country == location_andorra.COUNTRY:
+                query = sql.SQL("SELECT * FROM LocationAndorra WHERE name = {};").format(sql.Literal(name))
+                self.cursor.execute(query)
+                result = self.cursor.fetchall()
+                parish: str = result[0][1].strip()
+                location_object: location_andorra.LocationAndorra = location_andorra.LocationAndorra(
+                    name, surrounding_locations, latitude, longitude, altitude, parish)
+
+            else:  # Location beyond Iberian Peninsula
+                query = sql.SQL("SELECT * FROM LocationBeyondIberianPeninsula WHERE name = {};").format(sql.Literal(name))
+                self.cursor.execute(query)
+                result = self.cursor.fetchall()
+                country: str = result[0][1].strip()
+                osm_admin_level_3: str = result[0][2].strip() if result[0][2] else ''
+                osm_admin_level_4: str = result[0][3].strip() if result[0][3] else ''
+                osm_admin_level_5: str = result[0][4].strip() if result[0][4] else ''
+                osm_admin_level_6: str = result[0][5].strip() if result[0][5] else ''
+                osm_admin_level_7: str = result[0][6].strip() if result[0][6] else ''
+                osm_admin_level_8: str = result[0][7].strip() if result[0][7] else ''
+                osm_admin_level_9: str = result[0][8].strip() if result[0][8] else ''
+                location_object: location_beyond_iberian_peninsula.LocationBeyondIberianPeninsula = location_beyond_iberian_peninsula.LocationBeyondIberianPeninsula(
+                    name, surrounding_locations, latitude, longitude, altitude, country, osm_admin_level_3, osm_admin_level_4,
+                    osm_admin_level_5, osm_admin_level_6, osm_admin_level_7, osm_admin_level_8, osm_admin_level_9)
 
             location_object.set_destinations(all_destinations)
             location_object.set_ways(ways)
@@ -348,11 +369,13 @@ class DBInterface:
         """
         Given a location name, returns the respective country
         """
-        # Add new countries HERE
+        default_country_name = 'Default'
         table_names: dict[str, str] = {
             location_portugal.COUNTRY: 'LocationPortugal',
             location_spain.COUNTRY: 'LocationSpain',
             location_gibraltar.COUNTRY: 'LocationGibraltar',
+            location_andorra.COUNTRY: 'LocationAndorra',
+            default_country_name: 'LocationBeyondIberianPeninsula'
         }
 
         for country_name in table_names:
@@ -364,6 +387,11 @@ class DBInterface:
             location_count: int = self.cursor.fetchall()[0][0]
             is_in_country = location_count
             if is_in_country == 1:  # Location will appear at most once in a country table
+                if country_name == default_country_name:  # Location beyond Iberian Peninsula - Country name is instead inside the table
+                    get_country_query_template: str = "SELECT country FROM %s WHERE name = {};" % table_name  # Table name would be quoted if inserted using sql.Identifier, causing query to fail
+                    get_country_query: psycopg2.sql.SQL = sql.SQL(get_country_query_template).format(sql.Literal(location_name))
+                    self.cursor.execute(get_country_query)
+                    country_name = self.cursor.fetchall()[0][0]
                 return country_name
 
         return ''  # Location is not part of any country table - It should
@@ -408,6 +436,16 @@ class DBInterface:
 
             csv_path = paths_and_files.CSV_LOCATION_GIBRALTAR_PATH
             query = sql.SQL("COPY LocationGibraltar(name) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
+
+            csv_path = paths_and_files.CSV_LOCATION_ANDORRA_PATH
+            query = sql.SQL("COPY LocationAndorra(name, parish) FROM {} DELIMITER {} "
+                            "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
+            self.cursor.execute(query)
+
+            csv_path = paths_and_files.CSV_LOCATION_BEYOND_IBERIAN_PENINSULA_PATH
+            query = sql.SQL("COPY LocationBeyondIberianPeninsula(name, country, osm_admin_level_3, osm_admin_level_4, osm_admin_level_5, osm_admin_level_6, osm_admin_level_7, osm_admin_level_8, osm_admin_level_9) FROM {} DELIMITER {} "
                             "CSV HEADER ENCODING {};").format(sql.Literal(csv_path), sql.Literal(delimiter), sql.Literal(encoding))
             self.cursor.execute(query)
 

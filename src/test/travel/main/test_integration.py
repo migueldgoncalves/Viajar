@@ -44,17 +44,18 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=["0"]):  # Exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Guerreiros do Rio, Alcoutim, Faro District'
+        self.assertTrue('\nYou are in Guerreiros do Rio, Alcoutim, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Laranjeiras (NW, 1.2 km)'
                         '\n2 -> Rotunda da Árvore (S, 0.7 km)'
                         '\n3 -> Bar do Rio (N, 0.1 km)'
-                        '\n4 -> Show location information'
-                        '\n5 -> Show journey statistics'
+                        '\n4 -> Start hiking'
+                        '\n5 -> Show location information'
+                        '\n6 -> Show journey statistics'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["4", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["5", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nAltitude: 18 meters'
@@ -67,7 +68,7 @@ class IntegrationTest(unittest.TestCase):
                         '\nCountry: Portugal'
                         in stdout_redirect.getvalue())
 
-        with unittest.mock.patch('builtins.input', side_effect=["5", "0"]):
+        with unittest.mock.patch('builtins.input', side_effect=["6", "0"]):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 0.0 km'
@@ -86,7 +87,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Palmeira, Alcoutim, Faro District'
+        self.assertTrue('\nYou are in Palmeira, Alcoutim, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> IC27 - Saída 6 (NE, 0.7 km)'
@@ -127,7 +128,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Pomarão, Mértola, Beja District'
+        self.assertTrue('\nYou are in Pomarão, Mértola, Beja District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Cais da Mesquita (SW, 0.1 km) » Rio Guadiana: Direction Mértola'
@@ -172,7 +173,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Punta del Moral, Ayamonte, Huelva Province, Andaluzia'
+        self.assertTrue('\nYou are in Punta del Moral, Ayamonte, Huelva Province, Andaluzia, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Vila Real de Santo António (W, 11.8 km) » Costa Atlântica de Espanha Continental: Direction Faro / Portimão'
@@ -216,7 +217,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Ponte Internacional do Guadiana, Ayamonte, Huelva Province, Andaluzia'
+        self.assertTrue('\nYou are in Ponte Internacional do Guadiana, Ayamonte, Huelva Province, Andaluzia, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Área de Repouso de Castro Marim (W, 1.7 km) » A22: Direction Faro / Lisboa'
@@ -259,7 +260,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Norte do Sapal de Castro Marim e Vila Real de Santo António, Castro Marim, Faro District'
+        self.assertTrue('\nYou are in Norte do Sapal de Castro Marim e Vila Real de Santo António, Castro Marim, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> IC27 - Início (W, 2.0 km)'
@@ -300,7 +301,7 @@ class IntegrationTest(unittest.TestCase):
         with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Laranjeiras, Alcoutim, Faro District'
+        self.assertTrue('\nYou are in Laranjeiras, Alcoutim, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Guerreiros do Rio (SE, 1.2 km)'
@@ -315,7 +316,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are aboard a boat' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Laranjeiras, Alcoutim, Faro District'
+        self.assertTrue('\nYou are in Laranjeiras, Alcoutim, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Alcoutim (N, 9.5 km) » Rio Guadiana: Direction Alcoutim / Mértola / Sanlúcar de Guadiana'
@@ -364,7 +365,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Vila Real de Santo António, Vila Real de Santo António, Faro District'
+        self.assertTrue('\nYou are in Vila Real de Santo António, Vila Real de Santo António, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Quatro Águas (SE, 26.9 km) » Costa de Portugal Continental: Direction Faro / Portimão'
@@ -382,7 +383,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are aboard a train' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Vila Real de Santo António, Vila Real de Santo António, Faro District'
+        self.assertTrue('\nYou are in Vila Real de Santo António, Vila Real de Santo António, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Estação de Monte Gordo (SW, 2.7 km) » Linha do Algarve - Regional: Direction Faro / Lagos'
@@ -426,7 +427,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District'
+        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Estação de Bom João (SE, 2.2 km) » Linha do Algarve - Regional: Direction Vila Real de Santo António'
@@ -444,7 +445,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are aboard a high-speed train' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District'
+        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Estação de Loulé (NW, 15.8 km) » Linha do Algarve: Direction Lisboa - Oriente / Tunes'
@@ -461,7 +462,7 @@ class IntegrationTest(unittest.TestCase):
         # "Standard" train and high-speed train options present at the same time
         self.assertTrue('You are back on the road' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District'
+        self.assertTrue('\nYou are in Estação de Faro, Faro, Faro District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Faro - São Pedro (E, 0.8 km)'
@@ -504,7 +505,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Aeroporto de Beja, Beja, Beja District'
+        self.assertTrue('\nYou are in Aeroporto de Beja, Beja, Beja District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Beja (SE, 9.6 km)'
@@ -520,7 +521,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are aboard a plane' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Aeroporto de Beja, Beja, Beja District'
+        self.assertTrue('\nYou are in Aeroporto de Beja, Beja, Beja District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Aeroporto de Faro (S, 115.7 km)'
@@ -573,7 +574,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Estação Aeroporto, Lisboa, Lisboa District'
+        self.assertTrue('\nYou are in Estação Aeroporto, Lisboa, Lisboa District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Aeroporto de Lisboa - Terminal 1'
@@ -589,7 +590,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are aboard a subway train' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Estação Aeroporto, Lisboa, Lisboa District'
+        self.assertTrue('\nYou are in Estação Aeroporto, Lisboa, Lisboa District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Estação Encarnação (NE, 1.3 km) » Linha Vermelha - Metro de Lisboa: Direction Oriente / São Sebastião'
@@ -633,7 +634,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Aeroporto de Lisboa - Terminal 1, Lisboa, Lisboa District'
+        self.assertTrue('\nYou are in Aeroporto de Lisboa - Terminal 1, Lisboa, Lisboa District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Aeroporto de Madrid-Barajas - Terminal 3 (NE, 512.4 km)'
@@ -663,7 +664,7 @@ class IntegrationTest(unittest.TestCase):
 
         self.assertTrue('You are transferring between means of transport' in stdout_redirect.getvalue())
         self.assertTrue('\nYou have new available destinations' in stdout_redirect.getvalue())
-        self.assertTrue('\nYou are in Aeroporto de Lisboa - Terminal 1, Lisboa, Lisboa District'
+        self.assertTrue('\nYou are in Aeroporto de Lisboa - Terminal 1, Lisboa, Lisboa District, Portugal'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Estação Aeroporto, Metro de Lisboa'
@@ -695,6 +696,48 @@ class IntegrationTest(unittest.TestCase):
                         f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
                         in stdout_redirect.getvalue())
 
+    def test_location_with_hiking(self):
+        """
+        Destination is Corte das Donas, another village in the banks of the river Guadiana in Algarve, facing Spain
+        Route: Guerreiros do Rio > Hiking > Corte das Donas
+        """
+        stdout_redirect: io.StringIO = _redirect_output()
+        options: list[str] = ["4", "1", "0"]
+        with unittest.mock.patch('builtins.input',
+                                 side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou are in Corte das Donas, Alcoutim, Faro District, Portugal'
+                        '\nSelect one of the following options'
+                        '\n0 -> Exit program'
+                        '\n1 -> Guerreiros do Rio (NE, 3.8 km) » Montes do Rio: Direction Guerreiros do Rio / Rio Guadiana'
+                        '\n2 -> Return to the road'
+                        '\n3 -> Show location information'
+                        '\n4 -> Show journey statistics'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["3", "0"]):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nAltitude: 151 meters'
+                        '\nCoordinates: 37.387577, -7.467297'
+                        '\nParish: Alcoutim e Pereiro'
+                        '\nMunicipality: Alcoutim'
+                        '\nDistrict: Faro'
+                        '\nIntermunicipal entity: Algarve'
+                        '\nRegion: Algarve'
+                        '\nCountry: Portugal'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["4", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou have traveled 3.8 km'
+                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
+                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
+                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
+                        in stdout_redirect.getvalue())
+
     def test_spanish_location_with_district(self):
         # Also tests locations in the Madrid Community
         """
@@ -708,7 +751,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Aeroporto de Madrid-Barajas - Terminal 3, Madrid, Comunidade de Madrid'
+        self.assertTrue('\nYou are in Aeroporto de Madrid-Barajas - Terminal 3, Madrid, Comunidade de Madrid, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Aeroporto de Badajoz (SW, 329.1 km)'
@@ -760,7 +803,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Aeroporto de Badajoz, Badajoz, Badajoz Province, Extremadura'
+        self.assertTrue('\nYou are in Aeroporto de Badajoz, Badajoz, Badajoz Province, Extremadura, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> Aeroporto de Beja (SW, 132.4 km)'
@@ -814,7 +857,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in A-7 - Saída 661, Puerto Lumbreras, Região de Murcia'
+        self.assertTrue('\nYou are in A-7 - Saída 661, Puerto Lumbreras, Região de Murcia, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> A-7 - Saída 565 (SW, 2.0 km) » A-7: Direction Almería / Vera'
@@ -859,7 +902,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in A-7 - Saída 585, Murcia, Região de Murcia'
+        self.assertTrue('\nYou are in A-7 - Saída 585, Murcia, Região de Murcia, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> A-7 - Saída 586 (SW, 1.6 km) » A-7: Direction Alhama de Murcia / Almería / Granada'
@@ -906,7 +949,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in A-55 - Saída 30, Tui, Pontevedra Province, Galiza'
+        self.assertTrue('\nYou are in A-55 - Saída 30, Tui, Pontevedra Province, Galiza, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> A3 - Saída 15 (SE, 0.7 km) » A3: Direction Porto / Valença'
@@ -950,7 +993,7 @@ class IntegrationTest(unittest.TestCase):
                                  side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
             self.travel.make_journey()
 
-        self.assertTrue('\nYou are in Aeroporto de Alicante-Elche Miguel Hernández, Elx / Elche, Alacant / Alicante Province, Comunidade Valenciana'
+        self.assertTrue('\nYou are in Aeroporto de Alicante-Elche Miguel Hernández, Elx / Elche, Alacant / Alicante Province, Comunidade Valenciana, Spain'
                         '\nSelect one of the following options'
                         '\n0 -> Exit program'
                         '\n1 -> N-338 - Saída 2 (N, 0.5 km)'
@@ -975,6 +1018,142 @@ class IntegrationTest(unittest.TestCase):
             self.travel.make_journey()
 
         self.assertTrue('\nYou have traveled 984.3 km'
+                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
+                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
+                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
+                        in stdout_redirect.getvalue())
+
+    def test_gibraltar_location(self):
+        """
+        Destination is the Gibraltar Airport, at the north of Gibraltar
+        Route: Guerreiros do Rio > Boat > Mértola > Car > Beja > Plane > Gibraltar
+        """
+        stdout_redirect: io.StringIO = _redirect_output()
+        options: list[str] = ["3", "2", "1", "1", "1", "1", "1", "1", "1", "1", "2", "3", "1", "1", "1", "1", "3", "3", "2", "6", "0"]
+        with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou are in Aeroporto de Gibraltar, Gibraltar'
+                        '\nSelect one of the following options'
+                        '\n0 -> Exit program'
+                        '\n1 -> Aeroporto de Jerez (NW, 91.7 km)'
+                        '\n2 -> Aeroporto de Sevilha (NW, 148.7 km)'
+                        '\n3 -> Aeroporto de Córdoba (N, 193.1 km)'
+                        '\n4 -> Aeroporto de Málaga - Costa del Sol (NE, 96.4 km)'
+                        '\n5 -> Aeroporto de Madrid-Barajas - Terminal 3 (N, 505.7 km)'
+                        '\n6 -> Aeroporto de Lisboa - Terminal 1 (NW, 444.4 km)'
+                        '\n7 -> Aeroporto de Alicante-Elche Miguel Hernández (NE, 486.4 km)'
+                        '\n8 -> Aeroporto do Porto (NW, 635.5 km)'
+                        '\n9 -> Aeroporto de Faro (NW, 253.5 km)'
+                        '\n10 -> Return to the road'
+                        '\n11 -> Show location information'
+                        '\n12 -> Show journey statistics'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["11", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nAltitude: 4 meters'
+                        '\nCoordinates: 36.153987, -5.346462'
+                        '\nCountry: United Kingdom - British Overseas Territory of Gibraltar'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["12", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou have traveled 445.9 km'
+                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
+                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
+                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
+                        in stdout_redirect.getvalue())
+
+    def test_andorran_location(self):
+        """
+        Destination is the border facilities between Andorra and Spain, at the very south of Andorra
+        Route: Guerreiros do Rio > Car > Andorra-Spain Border
+        """
+        stdout_redirect: io.StringIO = _redirect_output()
+        options: list[str] = ["2", "3"]  # First meters
+        options.extend(["2"] * 47)  # Go south to the A22 freeway, then cross the border with Spain and continue to Seville
+        options.extend(["3"])  # Take the A-4 freeway towards Cádiz
+        options.extend(["2"] * 11)  # Go south until Jerez de la Frontera
+        options.extend(["3"])  # Take the A-381 towards Algeciras
+        options.extend(["2"] * 343)  # Go east to the A-7 freeway, then travel along the south and east coast of Spain (more than 1.000 km)
+        options.extend(["3"])  # Leave the AP-7 freeway in Figueres, Girona
+        options.extend(["2"] * 55)  # Travel along the France-Spain border in the Pyrenees mountains until Andorra
+        options.extend(["0"])
+        with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou are in Andorra-Spain Border - Andorran Border Post, Sant Julià de Lòria, Andorra'
+                        '\nSelect one of the following options'
+                        '\n0 -> Exit program'
+                        "\n1 -> Andorra-Spain Border - Spanish Border Post (SW, 0.1 km) » CG-1: Direction La Seu d'Urgell"
+                        '\n2 -> Andorra-Spain Border - Andorran Customs (NE, 0.1 km) » CG-1: Direction Andorra la Vella / Sant Julià de Lòria'
+                        '\n3 -> Show location information'
+                        '\n4 -> Show journey statistics'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["3", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nAltitude: 847 meters'
+                        '\nCoordinates: 42.43534, 1.47288'
+                        '\nCountry: Andorra'
+                        '\nParish: Sant Julià de Lòria'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["4", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou have traveled 1816.0 km'
+                        f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
+                        f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
+                        f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'
+                        in stdout_redirect.getvalue())
+
+    def test_location_beyond_iberian_peninsula(self):
+        """
+        Destination is the border between France and Spain at Le Perthus, north of Girona and south of Perpignan
+        Route: Guerreiros do Rio > Car > France-Spain Border
+        """
+        stdout_redirect: io.StringIO = _redirect_output()
+        options: list[str] = ["2", "3"]  # First meters
+        options.extend(["2"] * 47)  # Go south to the A22 freeway, then cross the border with Spain and continue to Seville
+        options.extend(["3"])  # Take the A-4 freeway towards Cádiz
+        options.extend(["2"] * 11)  # Go south until Jerez de la Frontera
+        options.extend(["3"])  # Take the A-381 towards Algeciras
+        options.extend(["2"] * 349)  # Go east to the A-7 freeway, then travel along the south and east coast of Spain (more than 1.000 km)
+        options.extend(["0"])
+        with unittest.mock.patch('builtins.input', side_effect=options):  # Final 0 exits menu loop and allows to get the journey state
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou are in A9 - France-Spain Border, Le Perthus, Céret, Pyrénées-Orientales, Occitanie, France métropolitaine, France'
+                        '\nSelect one of the following options'
+                        '\n0 -> Exit program'
+                        '\n1 -> AP-7 - Fronteira Espanha-França (S, 0.1 km) » A9: Direction Barcelona / Girona'
+                        '\n2 -> A9 - Exit 43 (NW, 8.6 km) » A9: Direction Montpellier / Perpignan / Toulouse'
+                        '\n3 -> Show location information'
+                        '\n4 -> Show journey statistics'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["3", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nAltitude: 297 meters'
+                        '\nCoordinates: 42.4645, 2.86551'
+                        '\nCountry: France'
+                        '\n3: France métropolitaine'
+                        '\n4: Occitanie'
+                        '\n6: Pyrénées-Orientales'
+                        '\n7: Céret'
+                        '\n8: Le Perthus'
+                        in stdout_redirect.getvalue())
+
+        with unittest.mock.patch('builtins.input', side_effect=["4", "0"]):
+            self.travel.make_journey()
+
+        self.assertTrue('\nYou have traveled 1639.8 km'
                         f'\nYou have been travelling for {self.travel.current_journey.get_elapsed_time()}'
                         f'\nYou have consumed {self.travel.current_journey.get_fuel_consumption()} liters of fuel'
                         f'\nYou have spent {self.travel.current_journey.get_consumed_fuel_price()} euros in fuel'

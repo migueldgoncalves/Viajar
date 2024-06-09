@@ -80,6 +80,8 @@ class SQLiteDBInterface:
         populate_table(paths_and_files.CSV_LOCATION_PORTUGAL_PATH, "INSERT INTO LocationPortugal(name, parish, concelho) VALUES(?, ?, ?);")
         populate_table(paths_and_files.CSV_LOCATION_SPAIN_PATH, "INSERT INTO LocationSpain(name, municipio, province, district) VALUES(?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, "INSERT INTO LocationGibraltar(name) VALUES(?);")
+        populate_table(paths_and_files.CSV_LOCATION_ANDORRA_PATH, "INSERT INTO LocationAndorra(name, parish) VALUES(?, ?)")
+        populate_table(paths_and_files.CSV_LOCATION_BEYOND_IBERIAN_PENINSULA_PATH, "INSERT INTO LocationBeyondIberianPeninsula(name, country, osm_admin_level_3, osm_admin_level_4, osm_admin_level_5, osm_admin_level_6, osm_admin_level_7, osm_admin_level_8, osm_admin_level_9) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
         populate_table(paths_and_files.CSV_CONNECTION_PATH, "INSERT INTO Connection(location_a, location_b, means_transport, distance, way, cardinal_point, order_a, order_b) VALUES(?, ?, ?, ?, ?, ?, ?, ?);")
         populate_table(paths_and_files.CSV_DESTINATION_PATH, "INSERT INTO Destination(location_a, location_b, means_transport, starting_point, destination) VALUES(?, ?, ?, ?, ?)")
 

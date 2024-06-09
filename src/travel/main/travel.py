@@ -14,6 +14,7 @@ SWITCH_TO_STANDARD_TRAIN_STRING = "Board a standard train"  # Use when both "low
 SWITCH_TO_HIGH_SPEED_TRAIN_STRING = "Board a high-speed train"
 SWITCH_TO_SUBWAY_STRING = "Board a subway train"
 SWITCH_TO_TRANSFER_STRING = "Transfer between means of transport"
+SWITCH_TO_HIKING_STRING = "Start hiking"
 SWITCHED_TO_CAR_STRING = "You are back on the road"
 SWITCHED_TO_BOAT_STRING = "You are aboard a boat"
 SWITCHED_TO_PLANE_STRING = "You are aboard a plane"
@@ -22,6 +23,7 @@ SWITCHED_TO_STANDARD_TRAIN_STRING = "You are aboard a standard train"  # Use whe
 SWITCHED_TO_HIGH_SPEED_TRAIN_STRING = "You are aboard a high-speed train"
 SWITCHED_TO_SUBWAY_STRING = "You are aboard a subway train"
 SWITCHED_TO_TRANSFER_STRING = "You are transferring between means of transport"
+SWITCHED_TO_HIKING_STRING = "You are now hiking"
 
 # Permanent options in the journey menu
 OPTION_SHOW_LOCATION_INFO = "Show location information"
@@ -44,6 +46,7 @@ TRAIN = 'Train'  # "Low-speed" train
 HIGH_SPEED_TRAIN = 'High-Speed Train'
 SUBWAY = 'Subway'
 TRANSFER = 'Transfer'
+HIKING = 'Hiking'
 DEFAULT_MEANS_TRANSPORT = CAR
 
 
@@ -135,6 +138,8 @@ class Travel:
             print(SWITCHED_TO_HIGH_SPEED_TRAIN_STRING)
         elif self.current_journey.get_current_means_transport() == TRANSFER:
             print(SWITCHED_TO_TRANSFER_STRING)
+        elif self.current_journey.get_current_means_transport() == HIKING:
+            print(SWITCHED_TO_HIKING_STRING)
         print("You have new available destinations")
 
     #  #  #  #  #  #  #  #
@@ -278,6 +283,8 @@ class Travel:
                         label = SWITCH_TO_HIGH_SPEED_TRAIN_STRING
                     elif means_of_transport == TRANSFER:
                         label = SWITCH_TO_TRANSFER_STRING
+                    elif means_of_transport == HIKING:
+                        label = SWITCH_TO_HIKING_STRING
 
                     option_labels.append(label)
                     option_to_action[index] = self.change_means_transport

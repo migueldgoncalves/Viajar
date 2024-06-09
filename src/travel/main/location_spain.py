@@ -95,9 +95,9 @@ class LocationSpain(location.Location):
         """
         name: str = self.get_name().split(",")[0]  # Ex: "Álamo, Alcoutim" and "Álamo, Mértola" -> Álamo
         if is_single_province_autonomous_community(self.get_autonomous_community(), self.get_province()):
-            return f'You are in {name}, {self.get_municipality()}, {self.get_autonomous_community()}'
+            return f'You are in {name}, {self.get_municipality()}, {self.get_autonomous_community()}, {self.get_country()}'
         else:
-            return f'You are in {name}, {self.get_municipality()}, {self.get_province()} Province, {self.get_autonomous_community()}'
+            return f'You are in {name}, {self.get_municipality()}, {self.get_province()} Province, {self.get_autonomous_community()}, {self.get_country()}'
 
     def print_info_complete(self) -> None:
         super().print_info_complete()

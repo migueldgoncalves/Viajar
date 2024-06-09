@@ -46,10 +46,11 @@ def sort_csv_files(file_to_sort=None, is_header_present=True) -> None:
         all_files_to_sort = [file_to_sort]
     else:
         all_files_to_sort = [
-            paths_and_files.CSV_CONCELHO_PATH, paths_and_files.CSV_DESTINATION_PATH,
-            paths_and_files.CSV_CONNECTION_PATH, paths_and_files.CSV_LOCATION_PATH, paths_and_files.CSV_LOCATION_SPAIN_PATH,
-            paths_and_files.CSV_LOCATION_GIBRALTAR_PATH, paths_and_files.CSV_LOCATION_PORTUGAL_PATH,
-            paths_and_files.CSV_MUNICIPIO_PATH, paths_and_files.CSV_PROVINCE_PATH
+            paths_and_files.CSV_CONCELHO_PATH, paths_and_files.CSV_CONNECTION_PATH,
+            paths_and_files.CSV_DESTINATION_PATH, paths_and_files.CSV_LOCATION_PATH, paths_and_files.CSV_LOCATION_ANDORRA_PATH,
+            paths_and_files.CSV_LOCATION_BEYOND_IBERIAN_PENINSULA_PATH, paths_and_files.CSV_LOCATION_GIBRALTAR_PATH,
+            paths_and_files.CSV_LOCATION_PORTUGAL_PATH, paths_and_files.CSV_LOCATION_SPAIN_PATH,
+            paths_and_files.CSV_MUNICIPIO_PATH, paths_and_files.CSV_PROVINCE_PATH,
         ]
 
     for path_csv in all_files_to_sort:

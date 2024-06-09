@@ -3,7 +3,7 @@ import unittest
 from travel.main.db_interface import DBInterface
 from travel.main.cardinal_points import NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH, SOUTHWEST, WEST, NORTHWEST
 from travel.main.travel import CAR, BOAT, TRAIN, PLANE, HIGH_SPEED_TRAIN, SUBWAY, TRANSFER
-from travel.main import location_portugal, location_spain, location_gibraltar
+from travel.main import location_portugal, location_spain, location_gibraltar, location_andorra, location_beyond_iberian_peninsula
 
 test_db_name: str = 'viajartestdatabase'
 
@@ -32,6 +32,8 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual(location_portugal.COUNTRY, self.db_interface.get_location_country('Guerreiros do Rio'))
         self.assertEqual(location_spain.COUNTRY, self.db_interface.get_location_country('Ayamonte'))
         self.assertEqual(location_gibraltar.COUNTRY, self.db_interface.get_location_country('Western Beach'))
+        self.assertEqual(location_andorra.COUNTRY, self.db_interface.get_location_country('Andorra-Spain Border - Andorran Border Post'))
+        self.assertEqual('France', self.db_interface.get_location_country('A9 - France-Spain Border'))
 
     def test_get_location_object_portugal(self):
         # No destinations, 1 connection, 1 means of transport, no protected area
@@ -207,6 +209,43 @@ class TestDBInterface(unittest.TestCase):
         self.assertEqual(location_gibraltar.COUNTRY, location.get_country())
         self.assertEqual('', location.get_protected_area())
         self.assertEqual('', location.get_island())
+
+    def test_get_location_object_andorra(self):
+        location: location_andorra.LocationAndorra = self.db_interface.get_location_object('Andorra-Spain Border - Andorran Border Post')
+        self.assertEqual('Andorra-Spain Border - Andorran Border Post', location.get_name())
+        self.assertEqual(2, len(list(location.get_connections())))
+        self.assertEqual((NORTHEAST, 0.1, CAR), location.get_connections()[('Andorra-Spain Border - Andorran Customs', CAR)])
+        self.assertEqual((SOUTHWEST, 0.1, CAR), location.get_connections()[('Andorra-Spain Border - Spanish Border Post', CAR)])
+        self.assertEqual(2, len(list(location.get_destinations())))
+        self.assertEqual(2, len(list(location.get_ways())))
+        self.assertEqual((42.43534, 1.47288), location.get_coordinates())
+        self.assertEqual(847, location.get_altitude())
+        self.assertEqual(location_andorra.COUNTRY, location.get_country())
+        self.assertEqual('', location.get_protected_area())
+        self.assertEqual('', location.get_island())
+        self.assertEqual('Sant Julià de Lòria', location.get_parish())
+
+    def test_get_location_object_beyond_iberian_peninsula(self):
+        location: location_beyond_iberian_peninsula.LocationBeyondIberianPeninsula = self.db_interface.get_location_object('A9 - France-Spain Border')
+        self.assertEqual('A9 - France-Spain Border', location.get_name())
+        self.assertEqual(2, len(list(location.get_connections())))
+        self.assertEqual((NORTHWEST, 8.6, CAR), location.get_connections()[('A9 - Exit 43', CAR)])
+        self.assertEqual((SOUTH, 0.1, CAR), location.get_connections()[('AP-7 - Fronteira Espanha-França', CAR)])
+        self.assertEqual(2, len(list(location.get_destinations())))
+        self.assertEqual(2, len(list(location.get_ways())))
+        self.assertEqual((42.4645, 2.86551), location.get_coordinates())
+        self.assertEqual(297, location.get_altitude())
+        self.assertEqual('France', location.get_country())
+        self.assertEqual('', location.get_protected_area())
+        self.assertEqual('', location.get_island())
+        self.assertEqual('France métropolitaine', location.get_osm_admin_level(3))
+        self.assertEqual('Occitanie', location.get_osm_admin_level(4))
+        self.assertEqual('', location.get_osm_admin_level(5))
+        self.assertEqual('Pyrénées-Orientales', location.get_osm_admin_level(6))
+        self.assertEqual('Céret', location.get_osm_admin_level(7))
+        self.assertEqual('Le Perthus', location.get_osm_admin_level(8))
+        self.assertEqual('', location.get_osm_admin_level(9))
+        self.assertEqual({3: 'France métropolitaine', 4: 'Occitanie', 6: 'Pyrénées-Orientales', 7: 'Céret', 8: 'Le Perthus'}, location.get_all_osm_admin_levels())
 
     def test_get_total_location_number(self):
         self.assertTrue(self.db_interface.get_total_location_number() > 0)

@@ -5,6 +5,8 @@ DROP TABLE IF EXISTS Municipio;
 DROP TABLE IF EXISTS LocationPortugal;
 DROP TABLE IF EXISTS LocationSpain;
 DROP TABLE IF EXISTS LocationGibraltar;
+DROP TABLE IF EXISTS LocationAndorra;
+DROP TABLE IF EXISTS LocationBeyondIberianPeninsula;
 DROP TABLE IF EXISTS Connection;
 DROP TABLE IF EXISTS Destination;
 
@@ -62,6 +64,27 @@ CREATE TABLE LocationSpain(
 
 CREATE TABLE LocationGibraltar(
     name TEXT NOT NULL,
+    PRIMARY KEY (name),
+    FOREIGN KEY (name) REFERENCES Location(name) ON DELETE CASCADE
+);
+
+CREATE TABLE LocationAndorra(
+    name TEXT NOT NULL,
+    parish TEXT NOT NULL,
+    PRIMARY KEY (name),
+    FOREIGN KEY (name) REFERENCES Location(name) ON DELETE CASCADE
+);
+
+CREATE TABLE LocationBeyondIberianPeninsula(
+    name TEXT NOT NULL,
+    country TEXT NOT NULL,
+    osm_admin_level_3 TEXT,
+    osm_admin_level_4 TEXT,
+    osm_admin_level_5 TEXT,
+    osm_admin_level_6 TEXT,
+    osm_admin_level_7 TEXT,
+    osm_admin_level_8 TEXT,
+    osm_admin_level_9 TEXT,
     PRIMARY KEY (name),
     FOREIGN KEY (name) REFERENCES Location(name) ON DELETE CASCADE
 );
