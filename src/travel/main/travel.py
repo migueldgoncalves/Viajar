@@ -8,6 +8,7 @@ from car import car_simulator
 # Strings related to changing means of transport
 SWITCH_TO_CAR_STRING = "Return to the road"
 SWITCH_TO_BOAT_STRING = "Board a boat"
+SWITCH_TO_SHIP_STRING = "Board a ship"
 SWITCH_TO_PLANE_STRING = "Board a plane"
 SWITCH_TO_TRAIN_STRING = "Board a train"  # Use when only "low-speed" train is available
 SWITCH_TO_STANDARD_TRAIN_STRING = "Board a standard train"  # Use when both "low-speed" and high-speed train are available
@@ -17,6 +18,7 @@ SWITCH_TO_TRANSFER_STRING = "Transfer between means of transport"
 SWITCH_TO_HIKING_STRING = "Start hiking"
 SWITCHED_TO_CAR_STRING = "You are back on the road"
 SWITCHED_TO_BOAT_STRING = "You are aboard a boat"
+SWITCHED_TO_SHIP_STRING = "You are aboard a ship"
 SWITCHED_TO_PLANE_STRING = "You are aboard a plane"
 SWITCHED_TO_TRAIN_STRING = "You are aboard a train"  # Use when only "low-speed" train is available
 SWITCHED_TO_STANDARD_TRAIN_STRING = "You are aboard a standard train"  # Use when both "low-speed" and high-speed train are available
@@ -41,6 +43,7 @@ MAX_SPEED = 120
 # Means of transport - Must match means of transport present in Connection table of DB
 CAR = 'Car'
 BOAT = 'Boat'
+SHIP = "Ship"
 PLANE = 'Plane'
 TRAIN = 'Train'  # "Low-speed" train
 HIGH_SPEED_TRAIN = 'High-Speed Train'
@@ -121,6 +124,8 @@ class Travel:
             print(SWITCHED_TO_CAR_STRING)
         elif self.current_journey.get_current_means_transport() == BOAT:
             print(SWITCHED_TO_BOAT_STRING)
+        elif self.current_journey.get_current_means_transport() == SHIP:
+            print(SWITCHED_TO_SHIP_STRING)
         elif self.current_journey.get_current_means_transport() == PLANE:
             print(SWITCHED_TO_PLANE_STRING)
         elif self.current_journey.get_current_means_transport() == TRAIN:
@@ -268,6 +273,8 @@ class Travel:
                         label = SWITCH_TO_CAR_STRING
                     elif means_of_transport == BOAT:
                         label = SWITCH_TO_BOAT_STRING
+                    elif means_of_transport == SHIP:
+                        label = SWITCH_TO_SHIP_STRING
                     elif means_of_transport == PLANE:
                         label = SWITCH_TO_PLANE_STRING
                     elif means_of_transport == TRAIN:

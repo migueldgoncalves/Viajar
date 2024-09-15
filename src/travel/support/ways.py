@@ -93,6 +93,7 @@ ES_R2 = Way("R-2", "Radial R-2", SPAIN, ROAD)
 ES_R3 = Way("R-3", "Radial R-3", SPAIN, ROAD)
 ES_R4 = Way("R-4", "Radial R-4", SPAIN, ROAD)
 ES_R5 = Way("R-5", "Radial R-5", SPAIN, ROAD)
+ES_RM2 = Way("RM-2", "Autovía Alhama - Campo de Cartagena", SPAIN, ROAD)
 
 GI_EUROPA_ROAD = Way("Europa Road", "Europa Road", GIBRALTAR, ROAD)
 
