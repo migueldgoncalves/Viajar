@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Union
 
 import os
 import subprocess
@@ -72,6 +72,42 @@ class DBInterface:
             return False
 
         return True
+
+    def get_all_connections(self) -> list[list[Union[str, float]]]:
+        """
+        Returns a list with the base info for all connections in the map
+        """
+        try:
+            get_connections_query = sql.SQL("SELECT * FROM Connection where means_transport <> 'Plane';")
+            self.cursor.execute(get_connections_query)
+
+            results: list[list[Union[str, float]]] = []
+            for raw_connection in self.cursor.fetchall():
+                connection: list[Union[str, float]] = []
+
+                means_transport: str = raw_connection[2]
+                route_name: str = raw_connection[4]
+                for name in [raw_connection[0], raw_connection[1]]:  # Respectively, the name of the starting location and the name of the destination
+                    get_location_query = sql.SQL("SELECT * FROM Location where name={};").format(sql.Literal(name))
+                    self.cursor.execute(get_location_query)
+
+                    for value in self.cursor.fetchall():
+                        lat: float = float(value[1])
+                        lon: float = float(value[2])
+                        connection.append(lat)
+                        connection.append(lon)
+
+                connection.append(means_transport)
+                connection.append(route_name)
+
+                results.append(connection)
+
+            return results
+
+        except Exception as e:
+            print(f"Exception while getting the base info for the connections in the map")
+            print(''.join(e.args))
+            return []
 
     def create_db_tables(self) -> bool:
         """
