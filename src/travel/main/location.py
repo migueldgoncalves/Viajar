@@ -164,4 +164,4 @@ class Location:
         if self.protected_area != '':
             print(self.protected_area)
         if self.island != '':
-            print(f'{self.island} Island')
+            print(self.island)

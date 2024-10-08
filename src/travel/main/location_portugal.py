@@ -14,7 +14,7 @@ class LocationPortugal(location.Location):
                  longitude: float, altitude: int, parish: str, municipality: str, district: str, intermunicipal_entity: str,
                  region: str):
         super().__init__(name, connections, latitude, longitude, altitude)
-        self.parish: str = parish  # PT: Freguesia (OSM admin level 8) - Note: Receives historic parish (pre-2013) if applicable
+        self.parish: str = parish  # PT: Freguesia (OSM admin level 8)
         self.municipality: str = municipality  # PT: Concelho (OSM admin level 7)
         self.district: str = district  # PT: Distrito (OSM admin level 6)
         self.intermunicipal_entity: str = intermunicipal_entity  # PT: Entidade intermunicipal
@@ -23,7 +23,7 @@ class LocationPortugal(location.Location):
 
     def set_parish(self, parish: str) -> None:
         """
-        PT: Freguesia (OSM admin level 8) - Note: Receives historic parish (pre-2013) if applicable
+        PT: Freguesia (OSM admin level 8)
         """
         self.parish = parish
 
@@ -86,16 +86,23 @@ class LocationPortugal(location.Location):
 
     def get_info_brief_to_print(self) -> str:
         """
-        Example: You are in Odeleite, Castro Marim, Faro District
+        Example: You are in Odeleite, Castro Marim, Faro District, Portugal
         """
         name = self.get_name().split(",")[0]  # Ex: "Álamo, Alcoutim" and "Álamo, Mértola" -> Álamo
-        return f'You are in {name}, {self.get_municipality()}, {self.get_district()} District, {self.country}'
+        municipality = self.get_municipality().split(",")[0]  # Ex: "Calheta, Açores" and "Calheta, Madeira" -> Calheta
+        if self.get_district() in ['Açores', 'Madeira']:  # Autonomous Regions of Portugal
+            return f'You are in {name}, {municipality}, Autonomous Region of {self.get_district()}, {self.country}'
+        else:  # Continental Portugal, divided in districts
+            return f'You are in {name}, {municipality}, {self.get_district()} District, {self.country}'
 
     def print_info_complete(self) -> None:
         super().print_info_complete()
         print(f'Parish: {self.get_parish()}')
         print(f'Municipality: {self.get_municipality()}')
-        print(f'District: {self.get_district()}')
+        if self.get_district() in ['Açores', 'Madeira']:  # Autonomous Regions of Portugal
+            print(f'Autonomous region: {self.get_district()}')
+        else:  # Continental Portugal, divided in districts
+            print(f'District: {self.get_district()}')
         print(f'Intermunicipal entity: {self.get_intermunicipal_entity()}')
         print(f'Region: {self.get_region()}')
         print(f'Country: {self.get_country()}')
