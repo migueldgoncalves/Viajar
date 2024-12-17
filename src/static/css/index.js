@@ -44,7 +44,8 @@ function isHighway(routeName) {
     // Spain - Either autovía (Ex: A-1) or autopista (Ex: AP-1)
 
     const spanishHighways = [
-        "RM-2", "RM-16"
+        "CV-80",
+        "RM-2", "RM-16", "RM-17"
     ];
 
     if ((routeName == null) || (routeName.length === 0))
@@ -156,9 +157,11 @@ function getColorByStandardRailway(railway) {
         return "#f68B1f";
 
     // Madrid Metro
-    else if (railway.includes("Linha 1 - Metro de Madrid"))
+    else if (railway.includes("Line 1 - Madrid Metro"))
         return "#39b5e6";
-    else if (railway.includes("Linha 8 - Metro de Madrid"))
+    else if (railway.includes("Line 6 - Madrid Metro"))
+        return "#999999";
+    else if (railway.includes("Line 8 - Madrid Metro"))
         return "#f373b7";
 
     // Valencia Metro (known as Metrovalencia)
@@ -194,15 +197,15 @@ function isWaterway(meansTransport) {
 }
 
 function isRiverWaterway(meansTransport, routeName) {
-    return (isWaterway(meansTransport) && (!routeName.includes("Costa")) && (meansTransport === "Boat"));
+    return (isWaterway(meansTransport) && (!routeName.includes("Coast")) && (meansTransport === "Boat"));
 }
 
 function isCoastWaterway(meansTransport, routeName) {
-    return (isWaterway(meansTransport) && (routeName.includes("Costa")));
+    return (isWaterway(meansTransport) && (routeName.includes("Coast")));
 }
 
 function isOceanWaterway(meansTransport, routeName) {
-    return (isWaterway(meansTransport) && (!routeName.includes("Costa")) && (meansTransport === "Ship"));
+    return (isWaterway(meansTransport) && (!routeName.includes("Coast")) && (meansTransport === "Ship"));
 }
 
 function isPlaneConnection(meansTransport) {

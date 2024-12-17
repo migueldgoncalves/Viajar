@@ -162,6 +162,6 @@ class Location:
             print(f'Altitude: {self.get_altitude()} meters')
         print(f'Coordinates: {self.get_latitude()}, {self.get_longitude()}')
         if self.protected_area != '':
-            print(self.protected_area)
+            print(f'Protected area: {self.protected_area}')
         if self.island != '':
-            print(self.island)
+            print(f'Island: {self.island}')
