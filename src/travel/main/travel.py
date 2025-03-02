@@ -51,6 +51,7 @@ SUBWAY = 'Subway'
 TRANSFER = 'Transfer'
 HIKING = 'Hiking'
 DEFAULT_MEANS_TRANSPORT = CAR
+ALL_MEANS_TRANSPORT = [CAR, BOAT, SHIP, PLANE, TRAIN, HIGH_SPEED_TRAIN, SUBWAY, TRANSFER, HIKING]
 
 
 class Travel:
@@ -160,6 +161,8 @@ class Travel:
         """
         Expects a value between 0 and 86399 (23 hours, 59 minutes and 59 seconds)
         """
+        if seconds >= (24 * 60 * 60):
+            seconds = (24 * 60 * 60) - 1
         hours: int = seconds // 3600
         seconds = seconds - (hours * 3600)
         minutes: int = seconds // 60

@@ -109,6 +109,33 @@ class DBInterface:
             print(''.join(e.args))
             return []
 
+    def get_all_connections_for_distance_calculation(self, means_of_transport: list[str]) -> list[list[Union[str, float]]]:
+        """
+        Returns a list with the info required for distance calculation for every connection in the map
+        That is: [[<location_a>, <location_b>, <distance>], ...]
+        """
+        try:
+            connections: list[list[Union[str, float]]] = []
+
+            for transport in means_of_transport:
+                get_connections_query = sql.SQL("SELECT location_a, location_b, distance FROM Connection where means_transport = {};").format(sql.Literal(transport))
+                self.cursor.execute(get_connections_query)
+
+                for raw_connection in self.cursor.fetchall():
+                    location_a: str = raw_connection[0]
+                    location_b: str = raw_connection[1]
+                    distance: float = float(raw_connection[2])
+
+                    processed_connection: list[Union[str, float]] = [location_a, location_b, distance]
+                    connections.append(processed_connection)
+
+            return connections
+
+        except Exception as e:
+            print(f"Exception while getting the info required for distance calculation for the connections in the map")
+            print(''.join(e.args))
+            return []
+
     def create_db_tables(self) -> bool:
         """
         Returns True if tables were successfully created in the database with provided name, False otherwise

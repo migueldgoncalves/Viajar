@@ -44,6 +44,7 @@ function isHighway(routeName) {
     // Spain - Either autovía (Ex: A-1) or autopista (Ex: AP-1)
 
     const spanishHighways = [
+        "CM-41",
         "CV-80",
         "RM-2", "RM-16", "RM-17"
     ];
@@ -70,7 +71,6 @@ function isHighway(routeName) {
                     routeName.includes("A28 - ") || // Ex: A28 - Avenida da Associação Empresarial de Portugal
 
                     // Spanish autonomous community autovías
-                    routeName.startsWith("CM-") || // Castilla-La Mancha
                     routeName.startsWith("EX-A") || // Extremadura
                     routeName.startsWith("M-") || // Comunidad de Madrid
                     routeName.startsWith("AG-") || // Galicia
@@ -102,6 +102,8 @@ function isItinerarioPrincipal(routeName) {
 function isItinerarioComplementar(routeName) {
     if ((routeName == null) || (routeName.length === 0))
         return false;
+    else if (routeName === "Eixo Sul")
+        return true;
     return (routeName.startsWith("IC"));
 }
 

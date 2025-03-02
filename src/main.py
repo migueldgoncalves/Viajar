@@ -1,5 +1,5 @@
 from travel.support import ways, information_generator, sorter, sqlite_interface, region_bounds_finder
-from travel.main import menu, travel, paths_and_files
+from travel.main import menu, travel, paths_and_files, db_distance_calculator
 from car import car_simulator
 
 """
@@ -23,15 +23,16 @@ except FileNotFoundError:
         f.write(DEFAULT_INITIAL_LOCATION)
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
-WAY_TO_PROCESS = ways.ES_RM2
+WAY_TO_PROCESS = ways.ES_A31
 
 OPTION_TRAVEL = 1
 OPTION_CAR = 2
+OPTION_DISTANCE_CALCULATOR = 3
 
-OPTION_GENERATOR = 3
-OPTION_SORTER = 4
-OPTION_SQLITE = 5
-OPTION_REGION_BOUNDS_FINDER = 6
+OPTION_GENERATOR = 4
+OPTION_SORTER = 5
+OPTION_SQLITE = 6
+OPTION_REGION_BOUNDS_FINDER = 7
 
 print("======================================")
 print("Welcome to the project Viajar (Travel)")
@@ -40,6 +41,7 @@ print("======================================")
 option_labels: list[str] = [
     'Main - Travel',
     'Main - Car',
+    'Main - Internal distance calculator',
     'Support - Automatic generator of information',
     'Support - Sorter of .csv files',
     'Support - Creator of SQLite database',
@@ -64,6 +66,9 @@ elif user_option == OPTION_CAR:
         This is due to the usage of the msvcrt library in the car package to detect and read pressed keys
     '''
     car_simulator.CarSimulator().travel(distance_to_travel=0, destination="")
+
+elif user_option == OPTION_DISTANCE_CALCULATOR:
+    db_distance_calculator.main()
 
 elif user_option == OPTION_GENERATOR:
     information_generator.InformationGenerator(WAY_TO_PROCESS, get_altitude_info=True).present_main_menu()
