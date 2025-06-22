@@ -17,6 +17,30 @@ let waterwayCoastColor = "#007fff";
 let waterwayOceanColor = "#0000ff"
 let planeConnectionColor = "#ff0000";
 
+const specialHighwayNames = [
+    "A20/IC23 VCI/Ponte do Freixo", "A20/IC23 VCI/Freixo Bridge",       // Portugal
+    "A-376", "A-381", "A-483", "A-497", "A-8009", "A-8057", "A-8058",   // Andalucía
+    "AG-51",                                                            // Galícia
+    "AV-20",                                                            // Ávila
+    "B-23",                                                             // Barcelona
+    "CA-34", "CA-35",                                                   // Cádiz
+    "CM-41",                                                            // Castilla-La Mancha
+    "CO-32",                                                            // Córdoba
+    "CV-80",                                                            // Comunitat Valenciana
+    "EX-A1", "EX-A2",                                                   // Extremadura
+    "GR-30",                                                            // Granada
+    "H-30", "H-31",                                                     // Huelva
+    "M-11", "M-12", "M-13/M-14", "M-13", "M-14", "M-23", "M-30",        // Comunidad de Madrid
+    "M-30 - Avenida de la Ilustración", "M-30 - Bypass Sul", "M-31",
+    "M-40", "M-45", "M-45/M-50", "M-50", "M-607",
+    "MA-20", "MA-23",                                                   // Málaga
+    "PT-10",                                                            // Puertollano
+    "RM-2", "RM-16", "RM-17",                                           // Región de Murcia
+    "SE-20", "SE-30", "SE-40",                                          // Seville
+    "V-31", "V-31 - Avinguda d'Ausiàs March",                           // Valencia
+    "VRI",                                                              // Portugal
+];
+
 function getRouteLineColor(routeName, transportMeans) {
     if (isHighway(routeName)) {
         return autoEstradaColor;
@@ -43,54 +67,26 @@ function isHighway(routeName) {
     // Portugal - auto-estrada (Ex: A1)
     // Spain - Either autovía (Ex: A-1) or autopista (Ex: AP-1)
 
-    const spanishHighways = [
-        "CM-41",
-        "CV-80",
-        "RM-2", "RM-16", "RM-17"
-    ];
-
     if ((routeName == null) || (routeName.length === 0))
         return false;
 
-    return (
-            // Generic highways
-            routeName.startsWith("A-") || // State autovía (also autovía from Andalucía)
-                    routeName.startsWith("AP-") || // State autopista
-                    routeName.startsWith("R-") || // Radial
-                    (routeName.charAt(0) === 'A' && ((routeName.length === 2) || (routeName.length === 3))) || // Ex: A2, A22
-                    routeName === "A2 - 25 de Abril Bridge" ||
-                    routeName === "A9 CREL" ||
-                    routeName === "A13-1" ||
-                    routeName === "A26-1" ||
-                    routeName === "A10 - Ponte da Lezíria" ||
-                    routeName === "A12 - Ponte Vasco da Gama" ||
-                    routeName === "A41 CREP" ||
-                    routeName === "VRI" ||
-                    routeName.includes("IC23 VCI") || // Ex: A20/IC23 VCI/Ponte do Freixo
-                    routeName.includes("A4 - ") || // Ex: A4 - Avenida da Liberdade
-                    routeName.includes("A28 - ") || // Ex: A28 - Avenida da Associação Empresarial de Portugal
+    // Generic use case - Valid for most scenarios in countries such as Portugal and France
+    if (routeName.match("^A\\d+")) { // A1, A9, A99, A999, A999, etc.
+        return true;
+    }
 
-                    // Spanish autonomous community autovías
-                    routeName.startsWith("EX-A") || // Extremadura
-                    routeName.startsWith("M-") || // Comunidad de Madrid
-                    routeName.startsWith("AG-") || // Galicia
+    // Handles most Spanish autopistas
+    if ((routeName.startsWith("AP-")) || routeName.startsWith("R-")) {
+        return true;
+    }
 
-                    // Spanish provincial autovías
-                    routeName.startsWith("CA-") || // Cádiz
-                    routeName.startsWith("CO-") || // Córdoba
-                    routeName.startsWith("GR-") || // Granada
-                    routeName.startsWith("H-") || // Huelva
-                    routeName.startsWith("MA-") || // Málaga
-                    routeName.startsWith("SE-") || // Seville
-                    routeName.startsWith("TO-") || // Toledo
-                    routeName.startsWith("AV-") || // Ávila
-                    routeName.startsWith("V-") || // Valencia
-                    routeName.startsWith("PT-") || // Puertollano (city in the Ciudad Real province)
-                    routeName.startsWith("B-") || // Barcelona
+    // Handles many Spanish autovías
+    if (routeName.match("^A-\\d{1,2}") && !routeName.match("^A-\\d{3,}")) { // Right - A-1, A-99. Wrong - A-100, A-9999
+        return true;
+    }
 
-                    // Spanish autovías and autopistas (freeways)
-                    spanishHighways.includes(routeName)
-    );
+    // Handles special names
+    return (specialHighwayNames.includes(routeName));
 }
 
 function isItinerarioPrincipal(routeName) {
