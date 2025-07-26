@@ -32,12 +32,12 @@ const specialHighwayNames = [
     "H-30", "H-31",                                                     // Huelva
     "M-11", "M-12", "M-13/M-14", "M-13", "M-14", "M-23", "M-30",        // Comunidad de Madrid
     "M-30 - Avenida de la Ilustración", "M-30 - Bypass Sul", "M-31",
-    "M-40", "M-45", "M-45/M-50", "M-50", "M-607",
+    "M-40", "M-45", "M-45/M-50", "M-50", "M-50/R-2", "M-607",
     "MA-20", "MA-23",                                                   // Málaga
     "PT-10",                                                            // Puertollano
     "RM-2", "RM-16", "RM-17",                                           // Región de Murcia
     "SE-20", "SE-30", "SE-40",                                          // Seville
-    "V-31", "V-31 - Avinguda d'Ausiàs March",                           // Valencia
+    "V-11", "V-31", "V-31 - Avinguda d'Ausiàs March",                   // Valencia
     "VRI",                                                              // Portugal
 ];
 
@@ -105,66 +105,177 @@ function isItinerarioComplementar(routeName) {
 
 function getColorByStandardRailway(railway) {
     // Lisbon suburban railways
-    if (railway.includes("Sado Line"))
+    if (railway.includes("Sado"))
         return "#0000ff";
-    else if (railway.includes("Fertagus Line"))
+    else if (railway.includes("Fertagus"))
         return "#6fa8dc";
-    else if (railway.includes("Linha de Sintra") && railway.includes("CP Lisboa"))
+    else if (railway.includes("Sintra"))
         return "#008000";
-    else if (railway.includes("Azambuja Line"))
+    else if (railway.includes("Azambuja"))
         return "#be2c2c";
-    else if (railway.includes("Cascais Line"))
+    else if (railway.includes("Cascais"))
         return "#ffab2e";
 
     // Coimbra suburban railways
-    else if (railway.includes("Urbanos de Coimbra"))
+    else if (railway.includes("Coimbra"))
         return "#3c3c3c";
 
     // Porto suburban railways
-    else if (railway.includes("Linha de Aveiro"))
+    else if (railway.includes("Aveiro Line")) // To distinguish from the Aveiro Branch Line
         return "#ffa700";
-    else if (railway.includes("Linha do Marco de Canaveses"))
+    else if (railway.includes("Marco de Canaveses"))
         return "#0083d7";
-    else if (railway.includes("Linha de Guimarães") && !railway.includes("Intercidades")) // Only suburban stretches should receive this color
+    else if (railway.includes("Guimarães"))
         return "#e62621";
-    else if (railway.includes("Linha de Braga"))
+    else if (railway.includes("Braga"))
         return "#009c5a";
+    else if (railway.includes("Leixões"))
+        return "#a887a6";
 
     // Madrid suburban railways
-    else if (railway.includes("C-1"))
-        return "#66aede";
-    else if (railway.includes("C-3"))
-        return "#6a329f";
+    else if (railway.includes("Cercanías Madrid")) {
+        if (railway.includes("C-1") && !railway.includes("C-10"))
+            return "#66aede";
+        else if (railway.includes("C-2"))
+            return "#008A29";
+        else if (railway.includes("C-3"))
+            return "#6a329f";
+        else if (railway.includes("C-4"))
+            return "#00289C";
+        else if (railway.includes("C-5"))
+            return "#FAB700";
+        // Line C-6 of Madrid suburban railways was absorbed by line C-5
+        else if (railway.includes("C-7"))
+            return "#DE0118";
+        else if (railway.includes("C-8"))
+            return "#a0a0a0";
+        else if (railway.includes("C-9"))
+            return "#926037";
+        else if (railway.includes("C-10"))
+            return "#8FBE00";
+    }
+
+    // Seville suburban railways
+    else if (railway.includes("Cercanías Sevilla")) {
+        if (railway.includes("C-1"))
+            return "#69B3E7";
+        if (railway.includes("C-2"))
+            return "#009739";
+        if (railway.includes("C-3"))
+            return "#EF3340";
+        if (railway.includes("C-4"))
+            return "#BB29BB";
+        if (railway.includes("C-5"))
+            return "#0033a0";
+    }
 
     // Lisbon Metro
-    else if (railway.includes("Linha Vermelha - Metro de Lisboa"))
-        return "#DF096F";
+    else if (railway.includes("Lisbon Metro")) {
+        if (railway.includes("Red"))
+            return "#DF096F";
+        else if (railway.includes("Green"))
+            return "#00AA40";
+        else if (railway.includes("Blue"))
+            return "#4E84C4";
+        else if (railway.includes("Yellow"))
+            return "#F4BC18";
+    }
 
     // Porto Metro
-    else if (railway.includes("A") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/C/E/F - Metro do Porto"
-        return "#3caeef";
-    else if (railway.includes("B") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/Bx/C/E/F - Metro do Porto"
-        return "#e62621";
-    else if (railway.includes("C") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/C/E/F - Metro do Porto"
-        return "#8bc63e";
-    else if (railway.includes("D") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/C/E/F - Metro do Porto"
-        return "#f9c212";
-    else if (railway.includes("E") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/C/E/F - Metro do Porto"
-        return "#937bb8";
-    else if (railway.includes("F") && railway.includes("Metro do Porto")) // Ex: "Linhas A/B/C/E/F - Metro do Porto"
-        return "#f68B1f";
+    else if (railway.includes("Porto Metro")) {
+        if (railway.includes("A"))
+            return "#3caeef";
+        else if (railway.includes("B"))
+            return "#e62621";
+        else if (railway.includes("C"))
+            return "#8bc63e";
+        else if (railway.includes("D"))
+            return "#f9c212";
+        else if (railway.includes("E"))
+            return "#937bb8";
+        else if (railway.includes("F"))
+            return "#f68B1f";
+    }
+
+    // Metro Sul do Tejo (== South Tagus)
+    else if (railway.includes("Metro Sul do Tejo")) {
+        // Has Y-shape and 3 lines, most stations are served by 2 lines
+        if (railway.includes("1") && railway.includes("3")) // Display color of line 1
+            return "#218FCE";
+        else if (railway.includes("1") && railway.includes("2")) // Display color of line 2
+            return "#F7941C";
+        else // Display color of line 3
+            return "#A2A730";
+    }
 
     // Madrid Metro
-    else if (railway.includes("Line 1 - Madrid Metro"))
-        return "#39b5e6";
-    else if (railway.includes("Line 6 - Madrid Metro"))
-        return "#999999";
-    else if (railway.includes("Line 8 - Madrid Metro"))
-        return "#f373b7";
+    if (railway.includes("Madrid Metro")) {
+        if (railway.includes("1") && !railway.includes("10") && !railway.includes("11") && !railway.includes("12"))
+            return "#39b5e6";
+        else if (railway.includes("2"))
+            return "#fb0f0c";
+        else if (railway.includes("3"))
+            return "#FFDF00";
+        else if (railway.includes("4"))
+            return "#824100";
+        else if (railway.includes("5"))
+            return "#96bf0d";
+        else if (railway.includes("6"))
+            return "#999999";
+        else if (railway.includes("7"))
+            return "#ff8501";
+        else if (railway.includes("8"))
+            return "#f373b7";
+        else if (railway.includes("9"))
+            return "#9F1F99";
+        else if (railway.includes("10"))
+            return "#003da6";
+        else if (railway.includes("11"))
+            return "#00953b";
+        else if (railway.includes("12"))
+            return "#a19200";
+        else if (railway.includes("R"))
+            return "#ffffff";
+        else if (railway.includes("ML1"))
+            return "#287ee2";
+        else if (railway.includes("ML2"))
+            return "#aa148e";
+        else if (railway.includes("ML3"))
+            return "#ff4336";
+        else if (railway.includes("ML4"))
+            return "#77ba26";
+    }
 
     // Valencia Metro (known as Metrovalencia)
-    else if (railway.includes("Linha 1 - Metrovalencia"))
-        return "#fdc600";
+    else if (railway.includes("Metrovalencia")) {
+        if (railway.includes("1") && !railway.includes("10"))
+            return "#E6B036";
+        else if (railway.includes("2"))
+            return "#D23983";
+        else if (railway.includes("3"))
+            return "#C21E2D";
+        else if (railway.includes("4"))
+            return "#0F4583";
+        else if (railway.includes("5"))
+            return "#008358";
+        else if (railway.includes("6"))
+            return "#80629F";
+        else if (railway.includes("7"))
+            return "#DB8319";
+        else if (railway.includes("8"))
+            return "#41B1CB";
+        else if (railway.includes("9"))
+            return "#AC7D4E";
+        else if (railway.includes("10"))
+            return "#B3CB6D";
+    }
+
+    // Seville Metro
+    else if (railway.includes("Seville Metro")) {
+        if (railway.includes("1")) {
+            return "#01820b";
+        }
+    }
 
     // Default - Likely intercity railways without assigned colors
     else
