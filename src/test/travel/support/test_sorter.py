@@ -96,6 +96,7 @@ class TestSorter(unittest.TestCase):
         self.assertEqual('IC', sorter.convert_roman_to_arab_number('IC'))  # Portuguese Complementary Itinerary Road (Itinerário Complementar)
         self.assertEqual('M', sorter.convert_roman_to_arab_number('M'))  # Portuguese Municipal Road (Estrada Municipal)
         self.assertEqual('C', sorter.convert_roman_to_arab_number('C'))  # May appear inside a freeway/motorway exit number (ex: 108C)
+        self.assertEqual('VC', sorter.convert_roman_to_arab_number('VC'))  # VC Fashion Outlet / Modivas Station in Porto Metro
 
         self.assertEqual(1, sorter.convert_roman_to_arab_number('I'))
         self.assertEqual(2, sorter.convert_roman_to_arab_number('II'))

@@ -402,7 +402,8 @@ def convert_roman_to_arab_number(potential_number: str) -> Union[str, int]:
     # IC - Portuguese Complementary Itinerary Road (Itinerário Complementar)
     # M - Portuguese Municipal Road (Estrada Municipal)
     # C - May appear inside a freeway/motorway exit number (ex: 108C)
-    if potential_number in ['IC', 'M', 'C']:  # Do not handle as a Roman numeral
+    # VC - VC Fashion Outlet / Modivas Station in Porto Metro
+    if potential_number in ['IC', 'M', 'C', 'VC']:  # Do not handle as a Roman numeral
         return potential_number
 
     if len(potential_number.strip()) == 0:
