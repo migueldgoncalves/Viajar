@@ -18,9 +18,10 @@ let waterwayOceanColor = "#0000ff"
 let planeConnectionColor = "#ff0000";
 
 const specialHighwayNames = [
-    "A20/IC23 VCI/Ponte do Freixo", "A20/IC23 VCI/Freixo Bridge",       // Portugal
+    "A20/IC23 VCI/Ponte do Freixo", "A20/IC23 VCI/Freixo Bridge", "VRI",// Portugal
     "A-376", "A-381", "A-483", "A-497", "A-8009", "A-8057", "A-8058",   // Andalucía
-    "AG-51",                                                            // Galícia
+    "AG-31", "AG-42", "AG-51", "AG-53", "AG-54",                        // Galícia
+    "AS-I", "AS-II", "AS-17",                                           // Asturias
     "AV-20",                                                            // Ávila
     "B-23",                                                             // Barcelona
     "CA-34", "CA-35",                                                   // Cádiz
@@ -34,11 +35,11 @@ const specialHighwayNames = [
     "M-30 - Avenida de la Ilustración", "M-30 - Bypass Sul", "M-31",
     "M-40", "M-45", "M-45/M-50", "M-50", "M-50/R-2", "M-607",
     "MA-20", "MA-23",                                                   // Málaga
+    "O-11", "O-12", "O-14",                                             // Oviedo
     "PT-10",                                                            // Puertollano
     "RM-2", "RM-16", "RM-17",                                           // Región de Murcia
     "SE-20", "SE-30", "SE-40",                                          // Seville
     "V-11", "V-31", "V-31 - Avinguda d'Ausiàs March",                   // Valencia
-    "VRI",                                                              // Portugal
 ];
 
 function getRouteLineColor(routeName, transportMeans) {

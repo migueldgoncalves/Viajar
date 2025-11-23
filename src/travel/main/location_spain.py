@@ -114,6 +114,8 @@ class LocationSpain(location.Location):
         # Municipality - OSM admin level 8
         if self.autonomous_community == 'Galiza':
             print(f'Municipality/concello: {self.get_municipality()}')
+        elif self.autonomous_community == 'Asturias':
+            print(f'Municipality/concejo: {self.get_municipality()}')
         else:
             print(f'Municipality: {self.get_municipality()}')
 

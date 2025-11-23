@@ -23,7 +23,7 @@ except FileNotFoundError:
         f.write(DEFAULT_INITIAL_LOCATION)
 
 # INSERT HERE road or railway to be analysed by the automatic generator of information
-WAY_TO_PROCESS = ways.ES_A31
+WAY_TO_PROCESS = ways.ES_A66
 
 OPTION_TRAVEL = 1
 OPTION_CAR = 2
